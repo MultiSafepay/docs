@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>WooCommerce plugin - MultiSafepay Docs</title>
+    
+   
+    
+    
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+<meta name="description" content="Integrate MultiSafepay payment solutions into your Wordpress WooCommerce webshop. MultiSafepay Docs provides information about getting started, building and testing integrations.">
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="WooCommerce plugin" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/woo-commerce/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+    <link href="https://docs.multisafepay.com/woo-commerce/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+    <link rel="canonical" href="/woo-commerce/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/">Integrations</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made</a>
+  
+
+</li>
+
+
+<li>
+
+
+  WooCommerce plugin
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="WooCommerce plugin">WooCommerce plugin</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                    <img class="plugin-logo" src="/logo/Plugins/WooCommerce.svg">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                    <div class="row pt-5 pb-5 px-3 clearfix">
+                            
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="https://github.com/MultiSafepay/WooCommerce" style="font-size: 1.4rem" class="bg-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                View source code<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon">
+                                </a>
+                            </div>
+                            
+                            
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="https://github.com/MultiSafepay/WooCommerce/blob/master/CHANGELOG.md" style="font-size: 1.4rem" class="bg-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                Changelog<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon">
+                                </a>
+                            </div>
+                            
+                            
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="https://github.com/MultiSafepay/WooCommerce/releases/download/4.15.0/Plugin_WooCommerce_4.15.0.zip" style="font-size: 1.4rem" class="bg-dark-msp-blue text-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                Download<img src="/svgs/Download-white.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="download-icon">
+                                </a>
+                            </div>
+                            
+                    </div>
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>This technical manual is for installing and configuring MultiSafepay&rsquo;s free plugin for integrating with WooCommerce, a free, open-source ecommerce platform for Wordpress.</p>
+<div>
+	<details id="details-requirements">
+		<summary>
+			Requirements
+		</summary>
+		<p>
+			<ul>
+<li><a href="/getting-started/guide/">MultiSafepay account</a></li>
+<li>Wordpress 5.0</li>
+<li>PHP 7.2</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-support">
+		<summary>
+			Support
+		</summary>
+		<p>
+			<p>Contact us:</p>
+<ul>
+<li>Telephone: +31 (0)20 8500 500</li>
+<li>Email: <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></li>
+<li>GitHub: Create a technical issue</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="installation">Installation</h2>
+<div class="blue-notice">
+    <span>
+        We recommend first installing the plugin in a test environment, following the WooCommerce installation procedure. Always make a backup.
+    </span>
+</div>
+<p>There are two ways to install the plugin:</p>
+<p><strong>Manual installation</strong></p>
+<ol>
+<li>Click the <strong>Download</strong> button above.</li>
+<li>Sign in to your WooCommerce backend.</li>
+<li>Go to <strong>Plugins</strong> &gt; <strong>Add new</strong>.</li>
+<li>Click <strong>Browse file</strong>.</li>
+<li>Upload the Plugin_WooCommerce_x.x.x.zip file.</li>
+</ol>
+<p><strong>Wordpress installation</strong></p>
+<ol>
+<li>Sign in to your WooCommerce backend.</li>
+<li>Go to <strong>Plugins</strong> &gt; <strong>Add new</strong>.</li>
+<li>Search for <strong>MultiSafepay</strong>.</li>
+<li>For the <strong>MultiSafepay plugin for WooCommerce</strong>, click the <strong>Install now</strong> button.</li>
+</ol>
+<h2 id="configuration">Configuration</h2>
+<ol>
+<li>Sign in to your WooCommerce backend.</li>
+<li>Go to <strong>WooCommerce</strong> &gt; <strong>MultiSafepay settings</strong></li>
+<li>On the <strong>Account</strong> tab, enter your <a href="/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code">API key</a>.</li>
+<li>On the <strong>Order status</strong> tab, confirm the match between WooCommerce order statuses and MultiSafepay order statuses, and then click <strong>Save changes</strong>.</li>
+<li>On the <strong>Options</strong> tab, confirm your settings, and then click <strong>Save changes</strong>.</li>
+<li>On the <strong>WooCommerce</strong> &gt; <strong>Settings</strong> &gt; <strong>Payments</strong>. Enable the relevant payment methods and confirm the settings.</li>
+</ol>
+<h2 id="user-guide">User guide</h2>
+<h3 id="generic-gateways">Generic gateways</h3>
+<p>The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay <a href="/payment-pages/">payment page</a>. You can use them to integrate custom gift cards, or co-branded credit cards.</p>
+<div>
+	<details id="details-configuring-generic-gateways">
+		<summary>
+			Configuring generic gateways
+		</summary>
+		<p>
+			<ol>
+<li>Sign in to your backend.</li>
+<li>Go to <strong>Settings</strong> &gt; <strong>Payments</strong> tab &gt; <strong>Generic gateway</strong>.</li>
+<li>Set the relevant <a href="https://docs-api.multisafepay.com/reference/gateway-ids">payment method gateway IDs</a>, and the gateway logo and label.</li>
+<li>For <a href="/payment-methods/pay-later/">pay later</a> methods, include the shopping cart in refunds.</li>
+</ol>
+<p>Generic gateways support:</p>
+<ul>
+<li>All payment methods (filter by country, and minimum/maximum amount)</li>
+<li><a href="/payments/split-payments/">Split payments</a>, <a href="/features/second-chance/">Second Chance reminders</a> and <a href="/payments/virtual-ibans/">virtual IBANs</a></li>
+<li><a href="https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect">Redirect requests</a> only</li>
+<li>Custom initial order statuses</li>
+<li>Full and partial refunds (except for pay later methods)</li>
+<li>Backend orders</li>
+</ul>
+<p><strong>Gift cards</strong></p>
+<p>Generic gateways are particularly useful for integrating <a href="/payment-methods/gift-cards/">gift cards</a>, including <a href="/payment-methods/gift-cards/custom-cards/">custom gift cards</a>. This is because we don&rsquo;t support all <a href="/payment-methods/gift-cards/open-loop-closed-loop/">open-loop gift cards</a> in our ready-made integrations and <em>no</em> closed-loop gift cards.</p>
+<p><strong>Co-branded credit cards</strong></p>
+<p>You can integrate Visa co-branded credit cards (<a href="/payment-methods/cartes-bancaires/">Cartes Bancaires</a>, <a href="/payment-methods/dankort/">Dankort</a>, and <a href="/payment-methods/vpay/">V Pay</a>), using the generic <code>VISA</code> gateway.</p>
+<p>For the logo, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/MultiSafepay-icons/tree/master/methods">MultiSafepay icons</a>.</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="languages">Languages</h3>
+<p>MultiSafepay payment pages and messages to customers (e.g. Second Chance emails, links, order confirmations) are supported in several languages.</p>
+<p>However, WooCommerce only supports the language of your ecommerce platform, irrespective of the customer&rsquo;s language or country, or the language of the webshop (if you use a third-party plugin for a multi-lingual webshop).</p>
+<div>
+	<details id="details-changing-language">
+		<summary>
+			Changing language
+		</summary>
+		<p>
+			<p>The plugin sets the language for payment pages and messages based on the Wordpress locale code <code>get_locale()</code> function.</p>
+<p>To change this behavior, use the <code>multisafepay_customer_locale</code> filter hook in our plugin.</p>
+<p>Ask your developer to read WordPress Developer Resources - <a href="https://developer.wordpress.org/plugins/hooks/filters/">Filters in Wordpress</a>.
+ </p>
+<p>Example implementation:</p>
+<pre tabindex="0"><code>add_filter('multisafepay_customer_locale', 'return_my_own_locale');
+function return_my_own_locale($locale) {
+  // Your conditions and logic to return a valid locale code
+  return $custom_locale;
+}
+</code></pre>
+		</p>
+	</details>
+</div>
+
+<h3 id="notifications">Notifications</h3>
+<div>
+	<details id="details-multisafepay-webhook">
+		<summary>
+			MultiSafepay webhook
+		</summary>
+		<p>
+			<p>MultiSafepay uses a webhook to send you updates about orders and other notifications.</p>
+<p>The webhook is triggered when the order or transaction status changes, e.g. when:</p>
+<ul>
+<li>A customer completes payment.</li>
+<li>A customer&rsquo;s attempt to pay fails.</li>
+<li>You process a refund.</li>
+</ul>
+<p>From WooCommerce version 4.7.0, notifications are sent via <code>POST</code> requests, instead of <code>GET</code> requests.</p>
+<p>However, sometimes the REST endpoint used to process notifications may be blocked by a firewall at server level, or by some WordPress plugins at application level. In this case, ensure you include MultiSafepay requests on your allow list.</p>
+<p>For more information, see <a href="/integrations/webhooks/">Webhook</a>.</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="order-requests">Order requests</h3>
+<div>
+	<details id="details-modifying-order-requests">
+		<summary>
+			Modifying order requests
+		</summary>
+		<p>
+			<p>To change something in an OrderRequest before a transaction is processed, use the <code>multisafepay_order_request</code> filter hook in the plugin.</p>
+<p>First, read the following:</p>
+<ul>
+<li>Wordpress – <a href="https://developer.wordpress.org/plugins/hooks/filters/">Filters in Wordpress</a></li>
+<li>MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/php-sdk/">MultiSafepay PHP-SDK</a></li>
+</ul>
+<p>Example of how to implement and overwrite the shopping cart:</p>
+<pre tabindex="0"><code>add_filter('multisafepay_order_request', 'return_my_multisafepay_order_request');
+function return_my_own_locale( \MultiSafepay\Api\Transactions\OrderRequest $order_request) {
+    // Your conditions and logic to return a valid order request
+    // Register a CartItem
+    $shopping_cart_items = array();
+    $cart_item = new \MultiSafepay\ValueObject\CartItem();
+    $cart_item-&gt;addName( 'The product name' )
+              -&gt;addQuantity( (int) 1 )
+              -&gt;addMerchantItemId( (string) 'SKU' )
+              -&gt;addUnitPrice( \MultiSafepay\WooCommerce\Utils\MoneyUtil::create_money( (float) 10.00, (string) 'EUR' ) )
+              -&gt;addTaxRate( '21' );
+    $shopping_cart_items[] = $cart_item;
+    // Register the CartItem in the ShoppingCart     
+    $shopping_cart = new MultiSafepay\Api\Transactions\OrderRequest\Arguments\ShoppingCart($shopping_cart_items);
+    // Overwrite the ShoppingCart    
+    $order_request-&gt;addShoppingCart( $shopping_cart );
+    // Overwrite the total amount of the transaction
+    $order_request-&gt;addMoney(\MultiSafepay\WooCommerce\Utils\MoneyUtil::create_money( 12.10, 'EUR' ));
+    return $order_request;
+}
+</code></pre>
+		</p>
+	</details>
+</div>
+
+<h3 id="payment-components">Payment components</h3>
+<p>The plugin supports <a href="/payment-components/">payment components</a>, which:</p>
+<ul>
+<li>Provide a seamless checkout experience to increase conversion.</li>
+<li>Encrypt customer payment details for secure processing.</li>
+<li>Shift responsibility for <a href="/glossaries/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss">PCI DSS compliance</a> to MultiSafepay.</li>
+</ul>
+<div>
+	<details id="details-activating-payment-components">
+		<summary>
+			Activating payment components
+		</summary>
+		<p>
+			<p>If you&rsquo;re new to accepting credit card payments, email a request to activate them to <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></p>
+<ol>
+<li>Sign in to your Wordpress backend.</li>
+<li>Go to <strong>WooCommerce</strong> &gt; <strong>MultiSafepay settings</strong> &gt; <strong>Payment methods</strong> &gt; <strong>Credit card</strong>, and then click <strong>Manage</strong>.</li>
+<li>Select the <strong>Payment components</strong> checkbox.</li>
+<li>Click <strong>Save changes</strong>.</li>
+</ol>
+<p>For questions, email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+<p><strong>Note:</strong> If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can&rsquo;t guarantee compatibility in all cases.</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="payment-links">Payment links</h3>
+<div>
+	<details id="details-generating-payment-links-in-your-backend">
+		<summary>
+			Generating payment links in your backend
+		</summary>
+		<p>
+			<p>To generate a payment link in your backend once an order is created, follow these steps:</p>
+<ol>
+<li>Sign in to your WooCommerce backend.</li>
+<li>Go to <strong>WooCommerce</strong> &gt; <strong>Orders</strong> &gt; <strong>Add order</strong>.</li>
+<li>For instructions to register the order details, see WooCommerce - <a href="https://docs.woocommerce.com/document/managing-orders/#section-16">Managing orders</a>.</li>
+<li>In <strong>Order actions</strong> panel, select the <strong>Email invoice / order details to customer</strong> option.</li>
+<li>Click <strong>Create order</strong>.<br>
+An email is sent to the customer containing the order details and a payment link. The payment link is also available to the customer in their private account, under <strong>Orders</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="payment-methods">Payment methods</h3>
+<div>
+	<details id="details-payment-methods">
+		<summary>
+			Payment methods
+		</summary>
+		<p>
+			<ul>
+<li>Cards: <a href="/payment-methods/credit-debit-cards/">All</a> (The credit card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)</li>
+<li>Banking methods: <a href="/payment-methods/banks/">All</a>, except TrustPay</li>
+<li>Pay later methods: <a href="/payment-methods/pay-later/">All</a></li>
+<li>Wallets: <a href="/payment-methods/alipay">Alipay</a>, <a href="/payment-methods/apple-pay">Apple Pay</a>, <a href="/payment-methods/paypal">PayPal</a></li>
+<li>Prepaid cards:
+<ul>
+<li>Baby Cadeaubon</li>
+<li>Beauty and Wellness gift card</li>
+<li><a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon">Boekenbon</a></li>
+<li><a href="https://www.fashioncheque.com/nl">Fashioncheque</a></li>
+<li><a href="https://www.fashion-giftcard.nl">Fashion gift card</a></li>
+<li>Fietsenbon</li>
+<li><a href="https://www.good4fun.nl">Good4fun</a></li>
+<li>Goodcard</li>
+<li><a href="https://www.gezondheidsbon.nl/mhome">Gezondheidsbon</a></li>
+<li><a href="https://www.nationale-tuinbon.nl">Nationale tuinbon</a></li>
+<li><a href="https://www.parfumcadeaukaart.nl">Parfumcadeaukaart</a></li>
+<li><a href="/payment-methods/paysafecard">Paysafecard</a></li>
+<li><a href="https://www.podiumcadeaukaart.nl">Podium</a></li>
+<li><a href="https://www.sportenfitcadeau.nl">Sport en Fit</a></li>
+<li><a href="https://www.vvvcadeaukaarten.nl">VVV gift card</a></li>
+<li><a href="https://www.webshopgiftcard.nl">Webshop gift card</a></li>
+<li><a href="https://www.wellnessgiftcard.nl">Wellness gift card</a></li>
+<li>Wijncadeau</li>
+<li><a href="https://www.winkelcheque.nl">Winkelcheque</a></li>
+<li><a href="https://www.yourgift.nl/">Yourgift</a></li>
+</ul>
+</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="recurring-payments">Recurring payments</h3>
+<p>You need to <a href="/features/recurring-payments/">enable recurring payments</a> in your MultiSafepay dashboard and then in the plugin settings.</p>
+<h3 id="refunds">Refunds</h3>
+<p>You can process <a href="/refunds/#full-and-partial-refunds">full and partial refunds</a> for all payment methods, <strong>except</strong> <a href="/payment-methods/pay-later">pay later methods</a> for which you can only process full refunds.</p>
+<h3 id="shipping-orders">Shipping orders</h3>
+<p>For <a href="/payment-methods/pay-later/">pay later</a> orders, after shipment, you must change the order status from <strong>Completed</strong> to <strong>Shipped</strong>. This prevents the order expiring and triggers invoicing.</p>
+<p>If you change the order status to <strong>Shipped</strong> in your backend, the updated status is passed to your MultiSafepay dashboard automatically.</p>
+<h3 id="surcharges">Surcharges</h3>
+<p>You can apply <a href="/surcharges/">surcharges</a> in the plugin when combined with a relevant third-party package.</p>
+<div>
+	<details id="details-applying-surcharges-with-third-party-packages">
+		<summary>
+			Applying surcharges with third-party packages
+		</summary>
+		<p>
+			<p>Third-party packages must follow WooCommerce and Wordpress development guidelines.</p>
+<p><strong>Support</strong><br>
+The Integration Team will do their best to help you install third-party packages, but we can&rsquo;t guarantee perfect compatibility.</p>
+<p><strong>Attention Dutch merchants</strong></p>
+<p>We strongly recommend <strong>not</strong> applying surcharges to <a href="/payment-methods/pay-later/">pay later methods</a>. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="updates">Updates</h3>
+<p>You can update the plugin in your backend and the CMS marketplace, or via SFTP.</p>
+<div>
+	<details id="details-updating-in-your-backend">
+		<summary>
+			Updating in your backend
+		</summary>
+		<p>
+			<p><strong>Notes:</strong> Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.</p>
+<ol>
+<li>Download the plugin again above.</li>
+<li>Follow the Installation and configuration instructions from step 2.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/integration/ready-made/woocommerce/' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+        <script src="/js/copy-code-button.js"></script>
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

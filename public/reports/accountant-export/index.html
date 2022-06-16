@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Accountant export - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="Accountant export" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="The accountant export lists all successful incoming and outgoing transactions, including the amount, payment method, and current transaction status.
+  Formats    CAMT053 CODA CSV MT940 XLS XLSX      Report contents      Headers Description     Report created The date the report was generated   Merchant ID Your MultiSafepay account number   Date from The start date of the reporting period   Date till The end date of the reporting period   Currency The currency of transactions   Opening balance The balance at the start date   Total credit The amount credited in the report period   Total debit The amount debited in the report period   Closing balance The balance at the end date   Columns Description   Completed date/time The date and time the transaction was completed   Amount The transaction amount   Creditdebit C means credit, D means debit   Typetransaction See N-codes for identifying payment methods   Paymenttype A MultiSafepay fee, or the payment method   Description 2-4 Descriptions of the order   Tr status The transaction status   Ms description The website name   Mt merchanttransactionid Your unique identifier for the order   Mt cust firstname The customer’s first name   Mt cust lastname The customer’s last name   Mt cust city The customer&rsquo;s city   Mt cust country The customer&rsquo;s country   Invoice ID Your internal invoice ID      Generating the report   Generating accountant exports    Sign in to your live or test dashboard." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://docs.multisafepay.com/reports/accountant-export/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+
+    <link rel="canonical" href="/reports/accountant-export/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li class="Selected"><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/accounting/">Accounting</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/accounting/reports/">Reports</a>
+  
+
+</li>
+
+
+<li>
+
+
+  Accountant export
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="Accountant export">Accountant export</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>The accountant export lists all successful incoming and outgoing transactions, including the amount, payment method, and current <a href="/about-payments/multisafepay-statuses/">transaction status</a>.</p>
+<div>
+	<details id="details-formats">
+		<summary>
+			Formats
+		</summary>
+		<p>
+			<ul>
+<li>CAMT053</li>
+<li>CODA</li>
+<li>CSV</li>
+<li>MT940</li>
+<li>XLS</li>
+<li>XLSX</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-report-contents">
+		<summary>
+			Report contents
+		</summary>
+		<p>
+			<table>
+<thead>
+<tr>
+<th>Headers</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Report created</td>
+<td>The date the report was generated</td>
+</tr>
+<tr>
+<td>Merchant ID</td>
+<td>Your MultiSafepay account number</td>
+</tr>
+<tr>
+<td>Date from</td>
+<td>The start date of the reporting period</td>
+</tr>
+<tr>
+<td>Date till</td>
+<td>The end date of the reporting period</td>
+</tr>
+<tr>
+<td>Currency</td>
+<td>The currency of transactions</td>
+</tr>
+<tr>
+<td>Opening balance</td>
+<td>The balance at the start date</td>
+</tr>
+<tr>
+<td>Total credit</td>
+<td>The amount credited in the report period</td>
+</tr>
+<tr>
+<td>Total debit</td>
+<td>The amount debited in the report period</td>
+</tr>
+<tr>
+<td>Closing balance</td>
+<td>The balance at the end date</td>
+</tr>
+<tr>
+<td><strong>Columns</strong></td>
+<td><strong>Description</strong></td>
+</tr>
+<tr>
+<td>Completed date/time</td>
+<td>The date and time the transaction was completed</td>
+</tr>
+<tr>
+<td>Amount</td>
+<td>The transaction amount</td>
+</tr>
+<tr>
+<td>Creditdebit</td>
+<td>C means credit, D means debit</td>
+</tr>
+<tr>
+<td>Typetransaction</td>
+<td>See <a href="/reports/n-codes/">N-codes for identifying payment methods</a></td>
+</tr>
+<tr>
+<td>Paymenttype</td>
+<td>A MultiSafepay fee, or the payment method</td>
+</tr>
+<tr>
+<td>Description 2-4</td>
+<td>Descriptions of the order</td>
+</tr>
+<tr>
+<td>Tr status</td>
+<td>The <a href="/about-payments/multisafepay-statuses/">transaction status</a></td>
+</tr>
+<tr>
+<td>Ms description</td>
+<td>The website name</td>
+</tr>
+<tr>
+<td>Mt merchanttransactionid</td>
+<td>Your unique identifier for the order</td>
+</tr>
+<tr>
+<td>Mt cust firstname</td>
+<td>The customer’s first name</td>
+</tr>
+<tr>
+<td>Mt cust lastname</td>
+<td>The customer’s last name</td>
+</tr>
+<tr>
+<td>Mt cust city</td>
+<td>The customer&rsquo;s city</td>
+</tr>
+<tr>
+<td>Mt cust country</td>
+<td>The customer&rsquo;s country</td>
+</tr>
+<tr>
+<td>Invoice ID</td>
+<td>Your internal invoice ID</td>
+</tr>
+</tbody>
+</table>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="generating-the-report">Generating the report</h2>
+<div>
+	<details id="details-generating-accountant-exports">
+		<summary>
+			Generating accountant exports
+		</summary>
+		<p>
+			<ol>
+<li>Sign in to your <a href="https://merchant.multisafepay.com">live</a> or <a href="https://testmerchant.multisafepay.com">test</a> dashboard.</li>
+<li>Go to <strong>Reports</strong> &gt; <strong>Accountant export</strong>.</li>
+<li>From the <strong>Date selection</strong> list, select the relevant timeframe (last 2 years only), and then click <strong>Apply</strong>.</li>
+<li>From the <strong>Currency</strong> list, select the relevant currency.</li>
+<li>From the <strong>Report type</strong> list, select the relevant export format.</li>
+<li><strong>Group costs in 1 record</strong> toggle:
+<ul>
+<li><strong>Yes</strong>: Show only the total of all MultiSafepay transaction fees for the selected timeframe.</li>
+<li><strong>No</strong>: List each MultiSafepay fee below the matching transaction.</li>
+</ul>
+</li>
+<li>Click <strong>Generate report</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="automating-the-report">Automating the report</h2>
+<div>
+	<details id="details-requesting-automated-exports">
+		<summary>
+			Requesting automated exports
+		</summary>
+		<p>
+			<p>To request automated accountant exports, email the following information to <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a>:</p>
+<ul>
+<li>Your account ID: Top-right corner of your MultiSafepay dashboard</li>
+<li>Method: SFTP Pull or Push request</li>
+<li>Frequency: Daily, weekly, or monthly</li>
+<li>File format: CAMT053, CODA, CSV, MT940, XLS, or XLSX</li>
+<li>Desired time: Based on Central European (Summer) Time (CET/CEST)</li>
+<li>MultiSafepay transaction fees: Total or listed separately</li>
+</ul>
+<p>To view the autogenerated reports in your <a href="https://merchant.multisafepay.com/">MultiSafepay dashboard</a>, click the <strong>Messages</strong> icon in the top-right corner.</p>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-sftp-requests-and-requirements">
+		<summary>
+			SFTP requests and requirements
+		</summary>
+		<p>
+			<ul>
+<li>
+<p>SFTP:</p>
+<ul>
+<li>Pull request: We give you access to a MultiSafepay SFTP server.</li>
+<li>Push request: You give us access to your SFTP server.</li>
+</ul>
+</li>
+<li>
+<p>We support SFTP with username/password and username/SSH keys.</p>
+</li>
+<li>
+<p>For SFTP connections, we only support ports <strong>22</strong> and <strong>2222</strong>.</p>
+</li>
+<li>
+<p>Make sure our IP address is on your allow list. For a list of MultiSafepay IP addresses, email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+</li>
+<li>
+<p>To deliver the report using SFTP Push requests, you must support the following protocol on your SFTP server:</p>
+<p>sh-ed25519,
+rsa-sha2-512,
+rsa-sha2-256,
+ecdsa-sha2-nistp521,
+ecdsa-sha2-nistp384,
+ecdsa-sha2-nistp256,
+ssh-rsa</p>
+</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="filtering-by-payment-method">Filtering by payment method</h2>
+<div>
+	<details id="details-filtering-using-n-codes">
+		<summary>
+			Filtering using N-Codes
+		</summary>
+		<p>
+			<p>To identify transactions in reports by payment method, use the following N-codes:</p>
+<table>
+<thead>
+<tr>
+<th>N-Code</th>
+<th>Transaction type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N001</td>
+<td><a href="/payment-methods/mastercard">MASTERCARD</a></td>
+</tr>
+<tr>
+<td>N002</td>
+<td><a href="/payment-methods/visa">VISA</a></td>
+</tr>
+<tr>
+<td>N003</td>
+<td><a href="/payment-methods/maestro">MAESTRO</a></td>
+</tr>
+<tr>
+<td>N004</td>
+<td>WALLET</td>
+</tr>
+<tr>
+<td>N006</td>
+<td><a href="/payment-methods/dankort">DANKORT</a></td>
+</tr>
+<tr>
+<td>N016</td>
+<td><a href="/payment-methods/alipay">ALIPAY</a></td>
+</tr>
+<tr>
+<td>N017</td>
+<td><a href="/payment-methods/dotpay">DOTPAY</a></td>
+</tr>
+<tr>
+<td>N018</td>
+<td><a href="/payment-methods/postepay">POSTEPAY</a></td>
+</tr>
+<tr>
+<td>N021</td>
+<td><a href="/payment-methods/ideal">IDEAL</a></td>
+</tr>
+<tr>
+<td>N031</td>
+<td><a href="/payment-methods/giropay">GIROPAY</a></td>
+</tr>
+<tr>
+<td>N081</td>
+<td><a href="/payment-methods/bank-transfer">BANKTRANS</a></td>
+</tr>
+<tr>
+<td>N085</td>
+<td><a href="/payment-methods/american-express">AMEX</a></td>
+</tr>
+<tr>
+<td>N086</td>
+<td><a href="/payment-methods/klarna">KLARNA</a></td>
+</tr>
+<tr>
+<td>N088</td>
+<td><a href="/payment-methods/pay-after-delivery">PAYAFTER</a></td>
+</tr>
+<tr>
+<td>N089</td>
+<td><a href="/payment-methods/betaal-per-maand">SANTANDER</a></td>
+</tr>
+<tr>
+<td>N090</td>
+<td><a href="/payment-methods/in3">in3</a></td>
+</tr>
+<tr>
+<td>N092</td>
+<td><a href="/payment-methods/sofort">DIRECTBANK</a></td>
+</tr>
+<tr>
+<td>N093</td>
+<td>CURRENCY CONVERSION</td>
+</tr>
+<tr>
+<td>N094</td>
+<td><a href="/payment-methods/bancontact">MISTERCASH</a></td>
+</tr>
+<tr>
+<td>N095</td>
+<td><a href="/payments/chargebacks/">CHARGEBACK</a></td>
+</tr>
+<tr>
+<td>N096</td>
+<td>WITHDRAWAL</td>
+</tr>
+<tr>
+<td>N097</td>
+<td>Refund</td>
+</tr>
+<tr>
+<td>N098</td>
+<td><a href="/payment-methods/gift-cards">COUPON</a></td>
+</tr>
+<tr>
+<td>N101</td>
+<td><a href="/payment-methods/sepa-direct-debit">DIRDEB</a></td>
+</tr>
+<tr>
+<td>N102</td>
+<td><a href="/payment-methods/ideal">iDEAL QR</a></td>
+</tr>
+<tr>
+<td>N102</td>
+<td><a href="/payment-methods/belfius">BELFIUS</a></td>
+</tr>
+<tr>
+<td>N103</td>
+<td><a href="/payment-methods/eps">EPS</a></td>
+</tr>
+<tr>
+<td>N104</td>
+<td><a href="/payment-methods/e-invoicing">EINVOICE</a></td>
+</tr>
+<tr>
+<td>N105</td>
+<td><a href="/payment-methods/afterpay">AFTERPAY</a></td>
+</tr>
+<tr>
+<td>N107</td>
+<td>FERBUY</td>
+</tr>
+<tr>
+<td>N108</td>
+<td><a href="/payment-methods/trustly">TRUSTLY</a></td>
+</tr>
+<tr>
+<td>N109</td>
+<td><a href="/payment-methods/cbc-kbc">KBC</a></td>
+</tr>
+<tr>
+<td>N913</td>
+<td>FEE</td>
+</tr>
+</tbody>
+</table>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="importing-into-accounting-platforms">Importing into accounting platforms</h2>
+<p>You can import accountant exports into a range of third-party <a href="/accounting/integrations/">accounting platforms</a>.</p>
+<h2 id="including-paypal-transactions">Including PayPal transactions</h2>
+<div>
+	<details id="details-including-paypal-transactions">
+		<summary>
+			Including PayPal transactions
+		</summary>
+		<p>
+			<p> <br>
+MultiSafepay does not collect funds for PayPal, therefore these transactions don&rsquo;t automatically appear in the report.</p>
+<p>To include them, in your dashboard or <a href="/glossaries/multisafepay-glossary/#backend">backend</a>, set the transaction status to <strong>Completed</strong>.</p>
+
+		</p>
+	</details>
+</div>
+
+<div class="blue-notice">
+    <span>
+        <strong>Support</strong> <br> Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a>
+    </span>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/accounting/reports/accountant-export.md' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

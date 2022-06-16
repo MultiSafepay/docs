@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Build your integration – Handle notifications - Validate HMAC signatures - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="Validate HMAC signatures" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="To validate the HMAC signature of POST notification requests in your own solution, follow these steps:
+  Base64 decode the Auth header value of the request.   Example   Before: MTY0MTIxODg4NDowNmNiZjIyNmU3Yzg3M2VmZjk2OTIxZDdmZGUzOTk4ZWI2YmUwZGU3OTE1ZWUxYzFiNTE0OTUxMWZjYTgyZTI2YmIwYWIyZTZkMGUwYWQ5OTdjYmFiMTUxZTRiYTU2MTU0MThkOGUxMjUyODMwMTcyNjE0M2VkMTE0NjI4N2Y5Mw==
+After: 1641218884:06cbf226e7c873eff96921d7fde3998eb6be0de7915ee1c1b5149511fca82e26bb0ab2e6d0e0ad997cbab151e4ba5615418d8e12528301726143ed1146287f93
+    Split the decoded Auth header value using the colon (:) as separator.
+ The first string is the timestamp. The second string is the HMAC signature.    Example   Timestamp: 1641218884" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://docs.multisafepay.com/integrations/self-made/handle-notifications/validate-hmac-signatures/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+
+    <link rel="canonical" href="/integrations/self-made/handle-notifications/validate-hmac-signatures/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/">Integrations</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/self-made/">Self-made integrations</a>
+  
+
+</li>
+
+
+<li>
+
+
+  Validate HMAC signatures
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="Validate HMAC signatures">Validate HMAC signatures</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                    <img class="plugin-logo" src="/svgs/Wrappers.svg">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>To validate the HMAC signature of <code>POST</code> notification requests in your own solution, follow these steps:</p>
+<ol>
+<li>
+<p>Base64 decode the <code>Auth</code> header value of the request.
+<div>
+	<details id="details-example">
+		<summary>
+			Example
+		</summary>
+		<p>
+			<p>Before: <code>MTY0MTIxODg4NDowNmNiZjIyNmU3Yzg3M2VmZjk2OTIxZDdmZGUzOTk4ZWI2YmUwZGU3OTE1ZWUxYzFiNTE0OTUxMWZjYTgyZTI2YmIwYWIyZTZkMGUwYWQ5OTdjYmFiMTUxZTRiYTU2MTU0MThkOGUxMjUyODMwMTcyNjE0M2VkMTE0NjI4N2Y5Mw==</code></p>
+<p>After:
+<code>1641218884:06cbf226e7c873eff96921d7fde3998eb6be0de7915ee1c1b5149511fca82e26bb0ab2e6d0e0ad997cbab151e4ba5615418d8e12528301726143ed1146287f93</code></p>
+
+		</p>
+	</details>
+</div>
+</p>
+</li>
+<li>
+<p>Split the decoded <code>Auth</code> header value using the colon (<code>:</code>) as separator.</p>
+<ul>
+<li>The first string is the timestamp.</li>
+<li>The second string is the HMAC signature.</li>
+</ul>
+<div>
+	<details id="details-example">
+		<summary>
+			Example
+		</summary>
+		<p>
+			Timestamp: <code>1641218884</code><br>
+HMAC signature: <code>06cbf226e7c873eff96921d7fde3998eb6be0de7915ee1c1b5149511fca82e26bb0ab2e6d0e0ad997cbab151e4ba5615418d8e12528301726143ed1146287f93</code>
+		</p>
+	</details>
+</div>
+
+</li>
+<li>
+<p>Concatenate the:</p>
+<ul>
+<li>Timestamp</li>
+<li>Colon (<code>:</code>)</li>
+<li>Payload of the request</li>
+</ul>
+<div>
+	<details id="details-example">
+		<summary>
+			Example
+		</summary>
+		<p>
+			<pre tabindex="0"><code>1641218884:{&quot;amount&quot;:1000,&quot;amount_refunded&quot;:0,&quot;costs&quot;:[{&quot;amount&quot;:0.49,&quot;description&quot;:&quot;0.49 For iDEAL Transactions&quot;,&quot;transaction_id&quot;:&quot;123456789&quot;,&quot;type&quot;:&quot;SYSTEM&quot;}],&quot;created&quot;:&quot;2022-01-03T15:08:02&quot;,&quot;currency&quot;:&quot;EUR&quot;,&quot;custom_info&quot;:{&quot;custom_1&quot;:null,&quot;custom_2&quot;:null,&quot;custom_3&quot;:null},&quot;customer&quot;:{&quot;address1&quot;:null,&quot;address2&quot;:null,&quot;city&quot;:null,&quot;country&quot;:null,&quot;country_name&quot;:null,&quot;email&quot;:&quot;&quot;,&quot;first_name&quot;:null,&quot;house_number&quot;:null,&quot;last_name&quot;:null,&quot;locale&quot;:&quot;en_US&quot;,&quot;phone1&quot;:null,&quot;phone2&quot;:&quot;&quot;,&quot;state&quot;:null,&quot;zip_code&quot;:null},&quot;description&quot;:&quot;product description&quot;,&quot;fastcheckout&quot;:&quot;NO&quot;,&quot;financial_status&quot;:&quot;initialized&quot;,&quot;items&quot;:null,&quot;modified&quot;:&quot;2022-01-03T15:08:02&quot;,&quot;order_id&quot;:&quot;my-order-id&quot;, &quot;payment_details&quot;:{&quot;account_holder_name&quot;:null,&quot;account_iban&quot;:&quot;https://example.com&quot;,&quot;account_id&quot;:null,&quot;external_transaction_id&quot;:&quot;123456789&quot;,&quot;issuer_id&quot;:&quot;3151&quot;,&quot;recurring_flow&quot;:null,&quot;recurring_id&quot;:null,&quot;recurring_model&quot;:null,&quot;type&quot;:&quot;IDEAL&quot;},&quot;payment_methods&quot;:[{&quot;amount&quot;:1000,&quot;currency&quot;:&quot;EUR&quot;,&quot;description&quot;:&quot;product description&quot;,&quot;external_transaction_id&quot;:&quot;123456789&quot;,&quot;payment_description&quot;:&quot;iDEAL&quot;,&quot;status&quot;:&quot;initialized&quot;,&quot;type&quot;:&quot;IDEAL&quot;}],&quot;reason&quot;:&quot;&quot;,&quot;reason_code&quot;:&quot;&quot;,&quot;related_transactions&quot;:null,&quot;status&quot;:&quot;initialized&quot;,&quot;transaction_id&quot;:&quot;123456789&quot;,&quot;var1&quot;:null,&quot;var2&quot;:null,&quot;var3&quot;:null}
+</code></pre>
+		</p>
+	</details>
+</div>
+
+</li>
+<li>
+<p>SHA512 hash the concatenated string that resulted from step 3, using your API key as the HMAC key.</p>
+<p>If the request is valid, the hashed value from step 4 matches the HMAC signature from step 2.</p>
+<div>
+	<details id="details-example">
+		<summary>
+			Example
+		</summary>
+		<p>
+			<p>HMAC key: <code>8HHhGgRWrA3O7NswjmgwyH7buPPCGnR5AkwAQyqI</code></p>
+<p>SHA512 hash: <code>06cbf226e7c873eff96921d7fde3998eb6be0de7915ee1c1b5149511fca82e26bb0ab2e6d0e0ad997cbab151e4ba5615418d8e12528301726143ed1146287f93</code></p>
+
+		</p>
+	</details>
+</div>
+
+<p>Additionally, check whether the timestamp is recent and the originating IP address is MultiSafepay&rsquo;s. For a list of MultiSafepay&rsquo;s IP addresses, email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+</li>
+</ol>
+<h2 id="sample-code">Sample code</h2>
+<p>We provide a code sample in Python for your reference.</p>
+<div>
+	<details id="details-sample-notification-validation-in-python">
+		<summary>
+			Sample notification validation in Python
+		</summary>
+		<p>
+			<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="ch">#!/usr/bin/python</span>
+
+<span class="kn">import</span> <span class="nn">argparse</span>
+<span class="kn">import</span> <span class="nn">base64</span>
+<span class="kn">import</span> <span class="nn">hashlib</span>
+<span class="kn">import</span> <span class="nn">hmac</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="c1"># Parse the command-line arguments</span>
+<span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">()</span>
+<span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;-k&#34;</span><span class="p">,</span> <span class="s2">&#34;--apikey&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;API key&#34;</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;-p&#34;</span><span class="p">,</span> <span class="s2">&#34;--payload&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Payload&#34;</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;-a&#34;</span><span class="p">,</span> <span class="s2">&#34;--authheader&#34;</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Auth header&#34;</span><span class="p">,</span> <span class="n">required</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+
+<span class="c1"># Step 1: Base64 decode the auth header</span>
+<span class="n">encoded_auth_bytes</span> <span class="o">=</span> <span class="n">args</span><span class="o">.</span><span class="n">authheader</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s2">&#34;ascii&#34;</span><span class="p">)</span>
+<span class="n">decoded_auth_bytes</span> <span class="o">=</span> <span class="n">base64</span><span class="o">.</span><span class="n">b64decode</span><span class="p">(</span><span class="n">encoded_auth_bytes</span><span class="p">)</span>
+<span class="n">decoded_auth</span> <span class="o">=</span> <span class="n">decoded_auth_bytes</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s2">&#34;ascii&#34;</span><span class="p">)</span>
+
+<span class="c1"># Step 2: Split the decoded auth header</span>
+<span class="n">timestamp</span> <span class="o">=</span> <span class="n">decoded_auth</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">signature</span> <span class="o">=</span> <span class="n">decoded_auth</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="c1"># Step 3: Concatenate the timestamp, colon, and payload</span>
+<span class="n">concatenated_string</span> <span class="o">=</span> <span class="n">timestamp</span> <span class="o">+</span> <span class="s2">&#34;:&#34;</span> <span class="o">+</span> <span class="n">args</span><span class="o">.</span><span class="n">payload</span>
+
+<span class="c1"># Step 4: SHA512 hash the concatenated string</span>
+<span class="n">hashed_value</span> <span class="o">=</span> <span class="n">hmac</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="n">args</span><span class="o">.</span><span class="n">apikey</span><span class="o">.</span><span class="n">encode</span><span class="p">(),</span> <span class="n">concatenated_string</span><span class="o">.</span><span class="n">encode</span><span class="p">(),</span> <span class="n">hashlib</span><span class="o">.</span><span class="n">sha512</span><span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
+
+<span class="c1"># Step 5: Compare the hashed value with the signature</span>
+<span class="k">if</span> <span class="n">hashed_value</span> <span class="o">==</span> <span class="n">signature</span><span class="p">:</span>
+	<span class="nb">print</span><span class="p">(</span><span class="s2">&#34;The notification is authentic&#34;</span><span class="p">)</span>
+	<span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+	<span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Error: The notification is not authentic&#34;</span><span class="p">)</span>
+	<span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</code></pre></div>
+		</p>
+	</details>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/integration/self-made/validate-hmac-signatures.md' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+        <script src="/js/copy-code-button.js"></script>
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

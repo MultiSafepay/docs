@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>3D Secure 2.0 - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="3D Secure 2.0" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/cards/3ds2/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+    <link href="https://docs.multisafepay.com/cards/3ds2/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+    <link rel="canonical" href="/cards/3ds2/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payments/">Payments</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payment-methods/credit-debit-cards/">Credit and debit cards</a>
+  
+
+</li>
+
+
+<li>
+
+
+  3D Secure 2.0
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="3D Secure 2.0">3D Secure 2.0</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                    <img class="plugin-logo" src="/svgs/Flexible%203D%20alt.svg">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>3D Secure 2.0 (3DS2) is an authentication protocol card schemes use to verify cardholder identity for online credit and debit card payments. Under <a href="/payment-regulations/psd2/">PSD2</a>, MultiSafepay is required to apply it to <strong>all</strong> Europe-based card payments, and we enable it by default for non-EU payments as well.</p>
+<p>3DS2 provides an extra layer of security and helps reduce fraud-related <a href="/chargebacks/">chargebacks</a>. If a transaction is successfully authenticated using 3DS2, the card scheme is responsible for chargeback costs instead of you.</p>
+<h2 id="how-it-works">How it works</h2>
+<p><strong>1.</strong> The cardholder enters their payment details and is redirected to the card scheme to authenticate using their branded version of 3DS2:</p>
+<ul>
+<li>American Express Safekey</li>
+<li>Mastercard SecureCode</li>
+<li>Verified by Visa</li>
+</ul>
+<p><strong>2.</strong> Contextual information from the customer&rsquo;s device (fingerprint) is shared with you and the scheme to conduct a risk assessment, e.g.:</p>
+<ul>
+<li>Transaction value</li>
+<li>New or existing customer</li>
+<li>Customer&rsquo;s location and/or transaction history</li>
+</ul>
+<p><strong>3.</strong> You and the scheme each decide whether to request additional authentication:</p>
+<ul>
+<li><strong>Frictionless flow:</strong> The transaction appears legitimate and is authorized without further user-side authentication.</li>
+<li><strong>Challenge flow:</strong> The transaction appears risky and the cardholder is asked to provide additional authentication, e.g. password, SMS code, fingerprint.</li>
+</ul>
+<h2 id="exemptions">Exemptions</h2>
+<p>To help you optimize conversion and manage risk, MultiSafepay supports exemptions from 3DS2 and <a href="/payment-regulations/psd2/">strong customer authentication</a> (SCA). Under the PSD2, some exemptions are only supported <strong>outside</strong> of Europe.</p>
+<div class="alert-notice">
+    <span>
+        Exemptions remove an important layer of security and increase the risk of fraud. You are then liable for any fraud-related chargebacks.
+    </span>
+</div>
+<h3 id="merchant-initiated-transactions">Merchant-initiated transactions</h3>
+<p>Merchant-initiated transactions (MIT) are <a href="/features/recurring-payments">recurring payments</a> you initiate on the customer&rsquo;s behalf, based on a prior agreement, e.g. subscriptions, automatic balance top-ups. 3DS2 authentication is <strong>not</strong> required.</p>
+<h3 id="mail-ordertelephone-order-moto">Mail Order/Telephone Order (MOTO)</h3>
+<p>For <a href="https://docs.multisafepay.com/features/moto/">MOTO</a> payments, the customer gives you their card details by phone or email. 3DS2 authentication is <strong>not required</strong>.</p>
+<h3 id="transaction-risk-analysis">Transaction risk analysis</h3>
+<p>MultiSafepay can conduct a transaction risk analysis (TRA) for specific transactions for amounts up to EUR 500. The issuer may soft decline the exemption, in which case the customer is automatically redirected to authenticate.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Scope</strong></td>
+<td>All EU and non-EU cards</td>
+</tr>
+<tr>
+<td><strong>Pricing</strong></td>
+<td>Free</td>
+</tr>
+<tr>
+<td><strong>Activation</strong></td>
+<td>Email <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="low-value-payments">Low value payments</h3>
+<p>We will soon support exemptions for low value payments (LVP) under 30 EUR.</p>
+<h2 id="solutions">Solutions</h2>
+<h3 id="disabling-3ds2">Disabling 3DS2</h3>
+<p>MultiSafepay can disable 3DS2 for all your card payments.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Scope</strong></td>
+<td>Non-EU cards only</td>
+</tr>
+<tr>
+<td><strong>Pricing</strong></td>
+<td>Free</td>
+</tr>
+<tr>
+<td><strong>Activation</strong></td>
+<td>Email <a href="mailto:risk@multisafepay.com">risk@multisafepay.com</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="dynamic-3d">Dynamic 3D</h3>
+<p>Dynamic 3D is a MultiSafepay solution that lets you set rules to disable 3DS2 per transaction, e.g. based on amount, or card/customer/IP country.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Scope</strong></td>
+<td>Non-EU cards only</td>
+</tr>
+<tr>
+<td><strong>Pricing</strong></td>
+<td>MultiSafepay applies a different fee to non-3DS2 transactions. We may also charge a fee to implement Dynamic 3D. <br>To confirm pricing, email <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></td>
+</tr>
+<tr>
+<td><strong>Activation</strong></td>
+<td>Email <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a> <div>
+	<details id="details-provide-required-information">
+		<summary>
+			Provide required information
+		</summary>
+		<p>
+			<ul>
+<li>State why you want to use Dynamic 3D. <br></li>
+<li>Provide evidence of significant volumes of non-EU card payments. <br></li>
+<li>Specify which sites under your account this applies to. <br></li>
+<li>Demonstrate excellent processing performance, especially for chargebacks. <br></li>
+<li>Confirm that you understand the increased risk of chargebacks and accept liability for non-payment after shipment, and the pricing structure.</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 id="flexible-3d">Flexible 3D</h3>
+<p>Flexible 3D is a MultiSafepay solution that lets you enable and disable 3DS2 per transaction via our API.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Scope</strong></td>
+<td>Non-EU cards only</td>
+</tr>
+<tr>
+<td><strong>Prerequisites</strong></td>
+<td>You must be certified to <a href="/features/handling-cardholder-data/">handle cardholder data</a>.</td>
+</tr>
+<tr>
+<td><strong>Activation</strong></td>
+<td>Email <a href="mailto:risk@multisafepay.com">risk@multisafepay.com</a></td>
+</tr>
+<tr>
+<td><strong>Integration</strong></td>
+<td>See API reference – <a href="https://docs-api.multisafepay.com/reference/createorder">Create order</a> &gt; Card order. <br> Set the <code>type</code> parameter to <code>direct</code>. <br> Include the customer fingerprint data.</td>
+</tr>
+</tbody>
+</table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/payments/methods/credit-and-debit-cards/3d-secure/' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reports on MultiSafepay Docs</title>
+    <link>https://docs.multisafepay.com/accounting/reports/</link>
+    <description>Recent content in Reports on MultiSafepay Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://docs.multisafepay.com/accounting/reports/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accountant export</title>
+      <link>https://docs.multisafepay.com/reports/accountant-export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/reports/accountant-export/</guid>
+      <description>The accountant export lists all successful incoming and outgoing transactions, including the amount, payment method, and current transaction status.
+  Formats    CAMT053 CODA CSV MT940 XLS XLSX      Report contents      Headers Description     Report created The date the report was generated   Merchant ID Your MultiSafepay account number   Date from The start date of the reporting period   Date till The end date of the reporting period   Currency The currency of transactions   Opening balance The balance at the start date   Total credit The amount credited in the report period   Total debit The amount debited in the report period   Closing balance The balance at the end date   Columns Description   Completed date/time The date and time the transaction was completed   Amount The transaction amount   Creditdebit C means credit, D means debit   Typetransaction See N-codes for identifying payment methods   Paymenttype A MultiSafepay fee, or the payment method   Description 2-4 Descriptions of the order   Tr status The transaction status   Ms description The website name   Mt merchanttransactionid Your unique identifier for the order   Mt cust firstname The customer’s first name   Mt cust lastname The customer’s last name   Mt cust city The customer&amp;rsquo;s city   Mt cust country The customer&amp;rsquo;s country   Invoice ID Your internal invoice ID      Generating the report   Generating accountant exports    Sign in to your live or test dashboard.</description>
+    </item>
+    
+    <item>
+      <title>Transaction summary</title>
+      <link>https://docs.multisafepay.com/reports/transaction-summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/reports/transaction-summary/</guid>
+      <description>This report provides an overview (in Excel or PDF format) of all transactions within a specific timeframe, including:
+ Fees Amount and currency Websites    Generating transaction summaries    Sign in to your MultiSafepay dashboard. Go to Reports &amp;gt; Transaction summary. Under Report settings &amp;gt; in the From and To fields, enter the start and end dates of the period you want the report to cover. Under Extra, specify any other relevant parameters:  Currency field: Select the relevant currency.</description>
+    </item>
+    
+    <item>
+      <title>Financial report and summary</title>
+      <link>https://docs.multisafepay.com/reports/financial-report-summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/reports/financial-report-summary/</guid>
+      <description>This page describes the financial report and financial summary.
+Financial report This report provides an overview (in Excel or CSV format) of:
+ Paid/unpaid transactions within a specific timeframe and transaction fees Refunds, chargebacks, reversals Payouts Currency conversions    Report contents      Columns Description     ID MultiSafepay&amp;rsquo;s transaction reference number   Merchant ref Your transaction reference number   Created The date the transaction was initiated   Completed The date the funds were settled in your MultiSafepay balance   Site The website where the customer placed the order   First name The customer&amp;rsquo;s first name   Last name The customer&amp;rsquo;s last name   Description A description of the order   Currency The currency of the transaction   Amount The amount of the transaction   Payment type A MultiSafepay fee, or the payment method   Payment status The transaction status        Generating financial reports    Sign in to your MultiSafepay dashboard.</description>
+    </item>
+    
+    <item>
+      <title>Payout report</title>
+      <link>https://docs.multisafepay.com/reports/payout-report/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/reports/payout-report/</guid>
+      <description>This report provides an overview (in Excel format) of the specific transactions and fees per payout. It is helpful for matching payouts to specific orders or invoices for accounting purposes.
+  Report contents      Headers Description     Report created The date the report was generated   Merchant ID Your MultiSafepay account number and merchant name   Payout ID The reference number for this payout   Logic What time the payout was made   Date from The start date of the reporting period   Date till The end date of the reporting period   Payout currency The currency the payout was paid in   Columns Description   Created date The date the transaction was initiated   Completed date/time The date and time the transaction was completed   Mt status The transaction status   Mt order status The order status   PSP ID MultiSafepay&amp;rsquo;s transaction reference number   Amount The transaction amount in whole currency   Amount cents The transaction amount in cents   Creditdebit C means credit, D means debit   N code See N-codes for identifying payment methods   Payment type A MultiSafepay fee, or the payment method   Mt description A description of the transaction   Sub description A description of a component of the transaction, e.</description>
+    </item>
+    
+    <item>
+      <title>Second Chance report</title>
+      <link>https://docs.multisafepay.com/reports/second-chance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/reports/second-chance/</guid>
+      <description>This report provides an overview (in Excel format) of all transactions:
+ By payment method or country Declined, retried and completed, retried and completed with a different payment method Completed with Second Chance  To request a Second Chance report, email sales@multisafepay.com
+  Report contents      Column Description     Report created The date the report was generated   Merchant ID Your MultiSafepay account number   Date from The start date of the reporting period   Date till The end date of the reporting period   By payment method or country    Paymentmethod The payment method   Country The country where the transaction took place   Completed The number of completed transactions   Declined The number of declined transactions   Retry completed The number of transactions that were completed after retrying   Retry completed diff paymentmethod The number of transactions completed after retrying with a different payment method   Perc completed The percentage of all transactions that were successfully completed   Other sections    Created The time the transaction was created   Maintransaction MultiSafepay&amp;rsquo;s transaction reference number   Paymenttype The payment method   Country The country where the transaction took place   Email The customer&amp;rsquo;s email address   Merchant ID Your unique identifier for the order   Declined:    Reason Any reason why the transaction was declined   Retried and completed:    Result Any additional information about the transaction   Different payment method:    Original The original payment method   Retry The payment method used to retry   Result Any additional information about the transaction   Completed with Second Chance:    Amount The amount paid   Totals The total number of transactions, and total amount paid      </description>
+    </item>
+    
+    <item>
+      <title>Sales and conversion reports</title>
+      <link>https://docs.multisafepay.com/reports/sales-conversion-reports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/reports/sales-conversion-reports/</guid>
+      <description>The sales and conversion reports help you find out:
+ Who your customers are and where they&amp;rsquo;re from What payment methods and devices they use Your conversion rate per website  Sales report This report provides an overview (in Excel format) of the total revenue and/or number of transactions per:
+ Customer country and device Day Payment method Site    Generating sales reports    Sign in to your MultiSafepay dashboard.</description>
+    </item>
+    
+  </channel>
+</rss>

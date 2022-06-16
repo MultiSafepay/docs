@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Payment components on MultiSafepay Docs</title>
+    <link>https://docs.multisafepay.com/payment-components/</link>
+    <description>Recent content in Payment components on MultiSafepay Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://docs.multisafepay.com/payment-components/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Customizing payment components</title>
+      <link>https://docs.multisafepay.com/payment-components/customization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payment-components/customization/</guid>
+      <description>After integrating the payment component, the default user interface (UI) styling is applied.
+You can customize the styling to match your brand&amp;rsquo;s visual identity, including fonts, colors, and layout.
+Customizing the UI To edit the default styling of the component:
+ Select each CSS class you want to edit. Add the relevant CSS properties and set the values.  CSS class selectors   CSS class selectors      CSS class What it does     .</description>
+    </item>
+    
+    <item>
+      <title>Payment component integration manuals</title>
+      <link>https://docs.multisafepay.com/payment-components/integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payment-components/integration/</guid>
+      <description>Manual
+Single payment method
+     Manual
+Multiple payment methods
+      See the manual to integrate the previous release.</description>
+    </item>
+    
+  </channel>
+</rss>

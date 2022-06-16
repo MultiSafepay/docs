@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hidden on MultiSafepay Docs</title>
+    <link>https://docs.multisafepay.com/tags/hidden/</link>
+    <description>Recent content in hidden on MultiSafepay Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://docs.multisafepay.com/tags/hidden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ongematchte bankoverschrijvingen</title>
+      <link>https://docs.multisafepay.com/bank-transfer/ongematchte-bankoverschrijvingen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/bank-transfer/ongematchte-bankoverschrijvingen/</guid>
+      <description>Wanneer MultiSafepay een bankoverschrijving ontvangt van een klant, matchen we die automatisch aan de bijbehorende transactie in ons systeem. We doen dit op basis van:
+ Het bedrag en betalingskenmerk, of Het bedrag en bankrekeningnummer van de klant  Wanneer we er niet in slagen om de transacties automatisch te matchen, proberen we het handmatig.
+De twee meest voorkomende redenen waarom het automatische matchen soms niet lukt, zijn als volgt:</description>
+    </item>
+    
+    <item>
+      <title>Verbinden von unzugeordneten Banküberweisungen</title>
+      <link>https://docs.multisafepay.com/bank-transfer/unzugeordneten-bank%C3%BCberweisungen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/bank-transfer/unzugeordneten-bank%C3%BCberweisungen/</guid>
+      <description>Wenn MultiSafepay eine Banküberweisung von Kund:innen erhält, verbinden wir diese aufgrund der angegebenen Zahlungsdetails automatisch mit der entsprechenden Transaktion in unserem System.
+Falls die automatische Zuordnung nicht funktioniert, verbinden wir die Zahlung manuell basierend auf:
+ Betrag und Zahlungsreferenz, oder Betrag und Kontonummer des Kunden/der Kundin  Die häufigsten Ursachen für eine nicht geglückte Zuordnung sind:
+Zahlungsdetails inkorrekt, fehlend, oder inkorrekt formatiert
+Wir können eine Zahlung nicht zuordnen, wenn ein Kunde/eine Kundin:</description>
+    </item>
+    
+    <item>
+      <title>Accounting</title>
+      <link>https://docs.multisafepay.com/accounting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/accounting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community integrations</title>
+      <link>https://docs.multisafepay.com/integrations/community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integrations/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How to find us</title>
+      <link>https://docs.multisafepay.com/how-to-find-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/how-to-find-us/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Corporate purchasing cards</title>
+      <link>https://docs.multisafepay.com/payments/methods/credit-and-debit-cards/corporate-purchasing-cards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payments/methods/credit-and-debit-cards/corporate-purchasing-cards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>API reference</title>
+      <link>https://docs.multisafepay.com/api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Equipo de Integraciones: Ayúdanos a ayudarte</title>
+      <link>https://docs.multisafepay.com/integration-team/webshop-access-spanish/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integration-team/webshop-access-spanish/</guid>
+      <description>Las integraciones de comercio electrónico desarrolladas por MultiSafepay se prueban antes del lanzamiento, sin embargo, es posible que alguna funcionalidad no funcione correctamente en su sitio web. Esto puede ocurrir debido a la integración personalizada, una configuración errónea o un error propio.
+Nuestro soporte se centra en problemas reproducibles en un entorno de sitio web estándar. A pesar de eso, siempre trataremos de ayudarle aún más, incluso si el problema queda fuera de nuestro alcance.</description>
+    </item>
+    
+    <item>
+      <title>Integration Team</title>
+      <link>https://docs.multisafepay.com/integration-team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integration-team/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supporto tecnico: Aiutaci, ti aiutiamo</title>
+      <link>https://docs.multisafepay.com/integration-team/webshop-access-ita/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integration-team/webshop-access-ita/</guid>
+      <description>I plugin vengono sempre testati prima di essere rilasciati. Tuttavia, è possibile che ci sia qualche malfunzionamento. Questo può succedere a causa di implementazioni custom, una configurazione errata nel sistema o bug.
+Il nostro supporto tecnico agisce su problemi che possono essere riprodotti in un ambiente standard.
+Detto questo, siamo sempre a tua disposizione per cercare di aiutarti, anche se il malfunzionamento avviene al di fuori dai nostri ambienti standard.</description>
+    </item>
+    
+  </channel>
+</rss>

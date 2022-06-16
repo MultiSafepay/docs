@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TrustPay on MultiSafepay Docs</title>
+    <link>https://docs.multisafepay.com/payment-methods/trustpay/</link>
+    <description>Recent content in TrustPay on MultiSafepay Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://docs.multisafepay.com/payment-methods/trustpay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Activating TrustPay</title>
+      <link>https://docs.multisafepay.com/payment-methods/trustpay/activation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payment-methods/trustpay/activation/</guid>
+      <description>If using a ready-made integration:
+ First check that the payment method is supported. Once activated for your account, you must also enable the payment method in your backend.     Sign in to your MultiSafepay dashboard. Go to Settings. To activate TrustPay for:  All your websites, go to Payment methods. A specific website, go to Website settings, and click the relevant website.  Select the checkbox for TrustPay.</description>
+    </item>
+    
+  </channel>
+</rss>

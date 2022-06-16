@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integration Team on MultiSafepay Docs</title>
+    <link>https://docs.multisafepay.com/integration-team/</link>
+    <description>Recent content in Integration Team on MultiSafepay Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://docs.multisafepay.com/integration-team/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ConnectJS</title>
+      <link>https://docs.multisafepay.com/integration-team/connectjs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integration-team/connectjs/</guid>
+      <description>ConnectJS is a simplified checkout process that prevents the ‘punch out’ that occurs when we redirect customers to a MultiSafepay payment page to select a gateway and enter their payment details.
+MultiSafepay&amp;rsquo;s ConnectJS JavaScript library supports all payment methods and gift cards. It lets you directly integrate them in your payment process/checkout quickly and securely. By default, all available payment methods appear, but you can also display just one payment method or a selection.</description>
+    </item>
+    
+    <item>
+      <title>Equipo de Integraciones: Ayúdanos a ayudarte</title>
+      <link>https://docs.multisafepay.com/integration-team/webshop-access-spanish/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integration-team/webshop-access-spanish/</guid>
+      <description>Las integraciones de comercio electrónico desarrolladas por MultiSafepay se prueban antes del lanzamiento, sin embargo, es posible que alguna funcionalidad no funcione correctamente en su sitio web. Esto puede ocurrir debido a la integración personalizada, una configuración errónea o un error propio.
+Nuestro soporte se centra en problemas reproducibles en un entorno de sitio web estándar. A pesar de eso, siempre trataremos de ayudarle aún más, incluso si el problema queda fuera de nuestro alcance.</description>
+    </item>
+    
+    <item>
+      <title>Integration Team review</title>
+      <link>https://docs.multisafepay.com/integration-team/integration-review-eng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integration-team/integration-review-eng/</guid>
+      <description>Recently our Integration Team helped you with a technical issue. How did we do?
+Could you leave us a review?
+How we help you Every day, we work hard to support our merchants. Due to the complexity of ecommerce platforms, it can be quite a challenge!
+We test our ecommerce integrations extensively before release, but there is always the chance of a conflict with third-party plugins, customization, or server configurations.</description>
+    </item>
+    
+    <item>
+      <title>Integration Team review</title>
+      <link>https://docs.multisafepay.com/integration-team/integration-review-nl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integration-team/integration-review-nl/</guid>
+      <description>Afgelopen periode hebben wij u op weg geholpen met een technisch vraagstuk. Dit keer vragen wij uw hulp. Wil je ons helpen met een eerlijke review?
+Waarom is een review nodig? Elke dag werkt ons Integratie Team hard om merchants te helpen. Door de complexiteit van de ecommerce platformen is dit een flinke uitdaging. Wij testen onze ecommerce integrations goed, maar conflicten met derde partij plugins, maatwerk of server configuraties zijn niet uit te sluiten.</description>
+    </item>
+    
+    <item>
+      <title>Integration Team: Help us help you</title>
+      <link>https://docs.multisafepay.com/integration-team/webshop-access/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integration-team/webshop-access/</guid>
+      <description>We test all our ready-made integrations before release, but your integration may still encounter configuration issues or a bug, especially if you built your own.
+We are best able to support issues that are reproducible in a standard website environment. But we always try to offer support, even for issues outside our scope.
+Basics When we start trying to reproduce an issue, we always begin with the basics.
+Help us by answering the following questions:</description>
+    </item>
+    
+    <item>
+      <title>Never Gonna Give You Up</title>
+      <link>https://docs.multisafepay.com/integration-team/shirt-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integration-team/shirt-2/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Never Gonna Give You Up</title>
+      <link>https://docs.multisafepay.com/integration-team/shirt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integration-team/shirt/</guid>
+      <description>function sleep(ms) { return new Promise(resolve = setTimeout(resolve, ms)); } var tag = document.createElement(&#39;script&#39;); tag.src = &#34;https://www.youtube.com/iframe_api&#34;; var firstScriptTag = document.getElementsByTagName(&#39;script&#39;)[0]; firstScriptTag.parentNode.insertBefore(tag, firstScriptTag); var player; function onYouTubeIframeAPIReady() { player = new YT.Player(&#39;player&#39;, { height: &#39;390&#39;, width: &#39;640&#39;, videoId: &#39;dQw4w9WgXcQ&#39;, events: { &#39;onReady&#39;: onPlayerReady, } }); } function onPlayerReady(event) { event.target.playVideo(); jumpstart_player(); } async function jumpstart_player() { for (let i = 0; i Join in on the fun! Are you a developer interested in working at MultiSafepay?</description>
+    </item>
+    
+    <item>
+      <title>Supporto tecnico: Aiutaci, ti aiutiamo</title>
+      <link>https://docs.multisafepay.com/integration-team/webshop-access-ita/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integration-team/webshop-access-ita/</guid>
+      <description>I plugin vengono sempre testati prima di essere rilasciati. Tuttavia, è possibile che ci sia qualche malfunzionamento. Questo può succedere a causa di implementazioni custom, una configurazione errata nel sistema o bug.
+Il nostro supporto tecnico agisce su problemi che possono essere riprodotti in un ambiente standard.
+Detto questo, siamo sempre a tua disposizione per cercare di aiutarti, anche se il malfunzionamento avviene al di fuori dai nostri ambienti standard.</description>
+    </item>
+    
+  </channel>
+</rss>

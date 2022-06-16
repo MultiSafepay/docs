@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Payment methods - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="Payment methods" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="MultiSafepay offers a wide range of payment methods.
+You can enable payment methods for your account yourself in your dashboard, but for some you need to apply to MultiSafepay first. Other methods with specific requirements follow their own activation flow.
+   Activation flow Payment methods     Apply to MultiSafepay Cards and wallets (except PayPal), Dotpay, in3, Pay After Delivery, SEPA Direct Debit   Enable in dashboard Banking methods, E-Invoicing   Own flow AfterPay, Betaal per Maand, Klarna, Edenred, gift cards, Paysafecard, PayPal     If you use a ready-made integration, first check that the payment method is supported." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://docs.multisafepay.com/account/payment-methods/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+
+    <link rel="canonical" href="/account/payment-methods/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/my-account/">My account</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/account/manage-account/">Manage my account</a>
+  
+
+</li>
+
+
+<li>
+
+
+  Payment methods
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="Payment methods">Payment methods</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>MultiSafepay offers a wide range of <a href="/payment-methods/">payment methods</a>.</p>
+<p>You can enable payment methods for your account yourself in your dashboard, but for some you need to apply to MultiSafepay first. Other methods with specific requirements follow their own activation flow.</p>
+<table>
+<thead>
+<tr>
+<th>Activation flow</th>
+<th>Payment methods</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/payments/activating-payment-methods/#apply-to-multisafepay">Apply to MultiSafepay</a></td>
+<td><a href="/payment-methods/credit-debit-cards/">Cards</a> and <a href="/payment-methods/wallets/">wallets</a> (<strong>except</strong> PayPal), <br>
+ Dotpay, in3, Pay After Delivery, <br>
+ SEPA Direct Debit</td>
+</tr>
+<tr>
+<td><a href="/payments/activating-payment-methods/#enable-in-dashboard">Enable in dashboard</a></td>
+<td><a href="/payment-methods/banks">Banking methods</a>, E-Invoicing</td>
+</tr>
+<tr>
+<td><a href="/payments/activating-payment-methods/#own-flow">Own flow</a></td>
+<td>AfterPay, Betaal per Maand, Klarna, <br>
+ Edenred, gift cards, Paysafecard, <br>
+ PayPal</td>
+</tr>
+</tbody>
+</table>
+<div class="blue-notice">
+    <span>
+        If you use a <a href="/integrations/ready-made/">ready-made integration</a>, first check that the payment method is supported. Once the method is activated, also enable it in your backend.
+    </span>
+</div>
+<h2 id="apply-to-multisafepay">Apply to MultiSafepay</h2>
+<ol>
+<li>Email a request to <a href="mailto:risk@multisafepay.com">risk@multisafepay.com</a>
+<div>
+	<details id="details-cards,-apple-pay,-and-google-pay">
+		<summary>
+			Cards, Apple Pay, and Google Pay
+		</summary>
+		<p>
+			<p>Include in the request your:</p>
+<ul>
+<li>Average, minimum, and maximum transaction amount</li>
+<li>Annual turnover</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-sepa-direct-debit">
+		<summary>
+			SEPA Direct Debit
+		</summary>
+		<p>
+			<ul>
+<li>Include in the request the following information:
+<ul>
+<li>Monthly and annual SEPA Direct Debit transaction volume</li>
+<li>Minimum and maximum transaction amount</li>
+<li>Type of products sold using this payment method</li>
+<li>Whether you want to accept <a href="/payments/recurring-payments/">recurring payments</a></li>
+<li>Whether any subscriptions are monthly, quarterly, or annual</li>
+</ul>
+</li>
+<li>Depending on the details provided, we may ask for additional information.</li>
+<li>We send you an agreement to sign and email back to us.</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+</li>
+<li>We check your eligibilty and if approved, activate the payment method for your account.</li>
+<li>Once approved, enable the method in your dashboard as below.</li>
+</ol>
+<h2 id="enable-in-dashboard">Enable in dashboard</h2>
+<ol>
+<li>Sign in to your <a href="https://merchant.multisafepay.com">MultiSafepay dashboard</a>.</li>
+<li>Go to <strong>Settings</strong>.</li>
+<li>To enable the payment method for:
+<ul>
+<li>All sites, go to <strong>Payment methods</strong>.</li>
+<li>A specific site, go to <strong>Website settings</strong>, and click the relevant site.</li>
+</ul>
+</li>
+<li>Select the checkbox for the relevant payment method, and then click <strong>Save changes</strong>.</li>
+</ol>
+<p><strong>Note:</strong> If the payment method isn&rsquo;t visible in your dashboard, email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+<h2 id="own-flow">Own flow</h2>
+<h3 id="afterpay">AfterPay</h3>
+<div>
+	<details id="details-afterpay-activation">
+		<summary>
+			AfterPay activation
+		</summary>
+		<p>
+			<ol>
+<li>
+<p>To check you are eligible for AfterPay, email <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></p>
+</li>
+<li>
+<p>For new AfterPay clients, apply directly to AfterPay:</p>
+</li>
+</ol>
+<ul>
+<li>The Netherlands: <a href="https://www.afterpay.nl/nl/zakelijk/offerte">Offerte</a></li>
+<li>Belgium: <a href="https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen">Offerte aanvragen</a></li>
+</ul>
+<ol start="3">
+<li>For existing AfterPay clients, to activate AfterPay for your MultiSafepay account, email AfterPay Sales at <a href="mailto:sales@afterpay.nl">sales@afterpay.nl</a></li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="betaal-per-maand">Betaal per Maand</h3>
+<div>
+	<details id="details-betaal-per-maand-activation">
+		<summary>
+			Betaal per Maand activation
+		</summary>
+		<p>
+			<p>You must:</p>
+<ul>
+<li>Have a <a href="/getting-started/">MultiSafepay account</a></li>
+<li>Be registered with a Dutch Chamber of Commerce (no exceptions)</li>
+<li>Have an annual turnover of more than 500,000 EUR (unless agreed otherwise with Betaal per Maand)</li>
+<li>Sell products or services to European citizens with a residential or delivery address in the Netherlands (no exceptions)</li>
+<li>Connect to MultiSafepay via our API or <a href="/integrations/ready-made/">ready-made integrations</a></li>
+</ul>
+<ol>
+<li>Email a request to <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></li>
+<li>In the request, let us know if you already have a Santander account. If you don&rsquo;t, we&rsquo;ll submit an application for you.</li>
+<li>We check your eligibility and type of connection.</li>
+<li>Once approved, we activate the payment method for your account.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="edenred">Edenred</h3>
+<div>
+	<details id="details-edenred-activation">
+		<summary>
+			Edenred activation
+		</summary>
+		<p>
+			<ol>
+<li>Fill out the Edenred – <a href="https://registreermijnwebsite.edenred.be/">Registreer mijn website</a> form, selecting the relevant checkbox for each voucher you want to offer.</li>
+<li>Sign a contract with Edenred. They&rsquo;ll give you an Edenred Merchant ID.</li>
+<li>Email your Edenred Merchant ID to <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></li>
+<li>We activate the payment method for your account.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="gift-cards">Gift cards</h3>
+<div>
+	<details id="details-gift-cards-activation">
+		<summary>
+			Gift cards activation
+		</summary>
+		<p>
+			<ol>
+<li>To check your eligibility, email <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></li>
+<li>Send a request to the <strong>card issuer</strong>, providing your company details and MultiSafepay account ID.</li>
+<li>The issuer connects you to the card via either:</li>
+</ol>
+<ul>
+<li><a href="https://intersolve.nl/contact">Intersolve</a> (majority of gift cards)</li>
+<li><a href="https://www.fashioncheque.com/nl/customerservice">Fashioncheque</a></li>
+<li><a href="https://www.123tcs.com/#Contact">123TCS</a></li>
+</ul>
+<ol start="4">
+<li>The issuer sends us the connection details and we activate the card for your account.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="klarna">Klarna</h3>
+<div>
+	<details id="details-klarna-activation">
+		<summary>
+			Klarna activation
+		</summary>
+		<p>
+			<p><strong>Test account</strong></p>
+<ol>
+<li>At <a href="https://www.klarna.com/nl/">Klarna.com</a>, sign up for a test account, selecting the <strong>Playground</strong> environment.</li>
+<li>Under <strong>Settings</strong>, click <strong>Generate new Klarna API credentials</strong> to generate a user name and password.</li>
+<li>Email these credentials to <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></li>
+<li>MultiSafepay connects to Klarna.</li>
+</ol>
+<p>We recommend testing Klarna payments via the Klarna Portal to experience the full functionality. You can also test from your <strong>test</strong> MultiSafepay dashboard with more limited functionality.</p>
+<p><strong>Live account</strong></p>
+<ol>
+<li>Sign up for a live Klarna account:</li>
+</ol>
+<ul>
+<li>Via the Klarna website, selecting the <strong>Production</strong> environment, <strong>or</strong></li>
+<li>Email your Klarna account manager or <a href="mailto:verkoop@klarna.com">verkoop@klarna.com</a></li>
+</ul>
+<ol start="2">
+<li>Specify MultiSafepay as your payment service provider and the countries you want to activate Klarna for.</li>
+<li>Sign an agreement with Klarna, including pricing.</li>
+<li>We activate Klarna for your MultiSafepay account.</li>
+<li>If using a ready-made integration, activate Klarna in your <a href="/glossaries/multisafepay-glossary/#backend">backend</a>.</li>
+</ol>
+<p>For questions, see Klarna – <a href="https://www.klarna.com/nl/klantenservice">Klantenservice</a>.</p>
+<p>For support, email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="paypal">PayPal</h3>
+<div>
+	<details id="details-paypal-activation">
+		<summary>
+			PayPal activation
+		</summary>
+		<p>
+			<p><strong>Configuring your PayPal account</strong></p>
+<p>To configure your PayPal account, follow these steps:</p>
+<ol>
+<li>Sign in to your business account at <a href="https://www.paypal.com">Paypal.com</a>.</li>
+<li>Mouse over your account name in the top-right corner, and then select <strong>Account settings</strong>.</li>
+<li>On the <strong>Account access</strong> tab, under <strong>API access</strong>, click <strong>Update</strong>.</li>
+<li>Under <strong>Pre-built payment solution</strong>, click <strong>Grant API permission</strong>.</li>
+<li>In the <strong>Third-party permission username</strong> field, enter <code>paypal_api1.multisafepay.com</code>.</li>
+<li>Click <strong>Lookup</strong>.</li>
+<li>Select the checkboxes of the relevant permissions:
+<ul>
+<li>Use Express Checkout to process payments.</li>
+<li>Issue a refund for a specific transaction.</li>
+<li>Process your customers' credit or debit card payments.</li>
+<li>Obtain information about a single transaction.</li>
+</ul>
+</li>
+</ol>
+<p>To complete the configuration, change the language encoding setting of your PayPal account to <strong>UTF-8</strong>:</p>
+<ol>
+<li>Click PayPal – <a href="https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-language-encoding">Profile language encoding</a>.</li>
+<li>Next to <strong>Language coding for PayPal buttons</strong>, click <strong>Edit</strong>.</li>
+<li>From the list, select <strong>Western European languages (including English)</strong>.</li>
+<li>Click <strong>More options</strong>.</li>
+<li>From the <strong>Encoding</strong> list, select <strong>UTF-8</strong>.</li>
+<li>Select the <strong>Yes</strong> checkbox, and then click <strong>Save</strong>.</li>
+</ol>
+<p><strong>Support</strong></p>
+<ul>
+<li>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></li>
+<li>PayPal – <a href="https://www.paypal.com/us/smarthelp/contact-us">Contact us</a></li>
+</ul>
+<div class="alert-notice">
+    <span>
+        <strong>Known issue:</strong> If your PayPal business account isn&rsquo;t yet fully verified or approved, you might get a PayPal error 10002: Restricted account.
+    </span>
+</div>
+<p><strong>Configuring your MultiSafepay account</strong></p>
+<p>To configure your MultiSafepay account for PayPal, follow these steps:</p>
+<ol>
+<li>Sign in to your business account at <a href="https://www.paypal.com">Paypal.com</a>.</li>
+<li>Mouse over your account name in the top-right corner, and then select <strong>Account settings</strong>.</li>
+<li>On the <strong>Business information</strong> tab, copy your PayPal Merchant ID.</li>
+<li>Sign in to your <a href="https://merchant.multisafepay.com">MultiSafepay dashboard</a>, and then go to <strong>Settings</strong>.</li>
+<li>To activate PayPal for:</li>
+</ol>
+<ul>
+<li>
+<p>All your sites:</p>
+<ul>
+<li>Go to <strong>Payment methods</strong>, and then select <strong>PayPal</strong>.</li>
+<li>In the <strong>PayPal Merchant ID</strong> field, paste your ID, and click <strong>Save changes</strong>.</li>
+</ul>
+</li>
+<li>
+<p>A specific site:</p>
+<ul>
+<li>Go to <strong>Website settings</strong>, and click the relevant site.</li>
+<li>Under <strong>Payment methods</strong>, select the <strong>PayPal</strong> checkbox, and click <strong>Save changes</strong>.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>You can link each site to a separate PayPal business account, or all sites can use your main PayPal business account.</li>
+<li>If PayPal isn&rsquo;t visible as a payment method in your dashboard, email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></li>
+</ul>
+<p>Your account is now configured!<br>
+We strongly recommend <a href="/payment-methods/paypal/integration-testing/">testing transactions</a> before processing live payments.</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="paysafecard">Paysafecard</h3>
+<div>
+	<details id="details-paysafecard-activation">
+		<summary>
+			Paysafecard activation
+		</summary>
+		<p>
+			<p>Paysafecard doesn&rsquo;t require activation.</p>
+<p>Search for outlets that sell Paysafecard:</p>
+<ul>
+<li>English-language site: <a href="https://www.paysafecard.com/en/find-sales-outlet-1/">Find sales outlets</a></li>
+<li>Dutch-language site: <a href="https://www.paysafecard.com/nl/verkooppunt-vinden-1/">Verkooppunten zoeken</a></li>
+</ul>
+<p>For any questions, email <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></p>
+
+		</p>
+	</details>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/my-account/manage-account/payment-methods.md' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

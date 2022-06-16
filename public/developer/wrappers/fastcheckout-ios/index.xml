@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FastCheckout iOS SDK on MultiSafepay Docs</title>
+    <link>https://docs.multisafepay.com/developer/wrappers/fastcheckout-ios/</link>
+    <description>Recent content in FastCheckout iOS SDK on MultiSafepay Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://docs.multisafepay.com/developer/wrappers/fastcheckout-ios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FastCheckout iOS SDK manual</title>
+      <link>https://docs.multisafepay.com/developer/wrappers/fastcheckout-ios/manual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/developer/wrappers/fastcheckout-ios/manual/</guid>
+      <description>Introduction As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The FastCheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, cancelled, etc.) once it completes a transaction. The checkout process flow includes:
+ Shipping details:  Preferred shipping details Add shipping details   Payment methods:  Preferred payment methods Add payment methods Gift cards   Confirmation details  Features The FastCheckout SDK provides the following additional features:</description>
+    </item>
+    
+  </channel>
+</rss>

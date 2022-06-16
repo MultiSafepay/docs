@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PrestaShop 1.6 plugin changelog - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="PrestaShop plugin changelog" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="3.7.1 Release date: Jan 7th, 2022
+Changed PLGPRSS-423: Rename Client class to MultiSafepayClient to avoid conflict with third party modules
+ 3.7.0 Release date: Nov 25th, 2021
+Added  DAVAMS-232: Add support for in3 payment method PLGPRSS-420: Add payment component support for Credit Card payment method PLGPRSS-409: Add support for gift products within the Shopping Cart object PLGPRSS-406: Add support for Good4fun gift card  Fixed  PLGPRSS-414: Fix locale code when submit the Order Request, which was generating errors in case payment address code of the customer is different from the language selected  Changed  PLGPRSS-408: When a payment is cancelled, the shopping cart will not be emptied DAVAMS-314: Rebrand Klarna with new logo DAVAMS-298: Rebrand Direct Bank Transfer as Request to Pay   3." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://docs.multisafepay.com/integration/ready-made/prestashop-1-6/changelog/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+
+    <link rel="canonical" href="/integration/ready-made/prestashop-1-6/changelog/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/">Integrations</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/prestashop-1-6/">PrestaShop 1.6 plugin</a>
+  
+
+</li>
+
+
+<li>
+
+
+  PrestaShop plugin changelog
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="PrestaShop plugin changelog">PrestaShop plugin changelog</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <h2 id="371">3.7.1</h2>
+<p>Release date: Jan 7th, 2022</p>
+<h3 id="changed">Changed</h3>
+<p>PLGPRSS-423: Rename Client class to MultiSafepayClient to avoid conflict with third party modules</p>
+<hr>
+<h2 id="370">3.7.0</h2>
+<p>Release date: Nov 25th, 2021</p>
+<h3 id="added">Added</h3>
+<ul>
+<li>DAVAMS-232: Add support for in3 payment method</li>
+<li>PLGPRSS-420: Add payment component support for Credit Card payment method</li>
+<li>PLGPRSS-409: Add support for gift products within the Shopping Cart object</li>
+<li>PLGPRSS-406: Add support for Good4fun gift card</li>
+</ul>
+<h3 id="fixed">Fixed</h3>
+<ul>
+<li>PLGPRSS-414: Fix locale code when submit the Order Request, which was generating errors in case payment address code of the customer is different from the language selected</li>
+</ul>
+<h3 id="changed-1">Changed</h3>
+<ul>
+<li>PLGPRSS-408: When a payment is cancelled, the shopping cart will not be emptied</li>
+<li>DAVAMS-314: Rebrand Klarna with new logo</li>
+<li>DAVAMS-298: Rebrand Direct Bank Transfer as Request to Pay</li>
+</ul>
+<hr>
+<h2 id="360">3.6.0</h2>
+<p>Release date: Jul 21, 2020</p>
+<h3 id="added-1">Added</h3>
+<ul>
+<li>DAVAMS-269: Add CBC payment method</li>
+</ul>
+<h3 id="changed-2">Changed</h3>
+<ul>
+<li>DAVAMS-213: Add track &amp; trace to shipment request</li>
+<li>PLGPRSS-404: Set order to status shipped for all payment methods</li>
+</ul>
+<hr>
+<h2 id="350">3.5.0</h2>
+<p>Release date: Apr 9, 2020</p>
+<h3 id="added-2">Added</h3>
+<ul>
+<li>PLGPRSS-344: Add AfterPay</li>
+</ul>
+<h3 id="fixed-1">Fixed</h3>
+<ul>
+<li>PLGPRSS-396: Correct spelling of ING Home&rsquo;Pay</li>
+<li>PLGPRSS-397: Fix incorrect gateway code for ING Home&rsquo;Pay</li>
+</ul>
+<hr>
+<h2 id="340">3.4.0</h2>
+<p>Release date: Apr 2, 2020</p>
+<h3 id="added-3">Added</h3>
+<ul>
+<li>PLGPRSS-400: Add Apple Pay</li>
+<li>PLGPRSS-399: Add Direct Bank Transfer (Request to Pay)</li>
+</ul>
+<hr>
+<h2 id="330">3.3.0</h2>
+<p>Release date: Feb 26, 2020</p>
+<h3 id="fixed-2">Fixed</h3>
+<ul>
+<li>PLGPRSS-309: Prevent multiple transactions being created for the same order</li>
+<li>PLGPRSS-391: Prevent duplicated orders by adding file locking</li>
+<li>PLGPRSS-267: Mobile presentation of payment methods is not fully responsive</li>
+</ul>
+<h3 id="changed-3">Changed</h3>
+<ul>
+<li>PLGPRSS-190: Send shopping cart data for all payment methods</li>
+<li>PLGPRSS-352: Improve parsing of address into street and apartment</li>
+</ul>
+<hr>
+<h2 id="320">3.2.0</h2>
+<p>Release date: Nov 8, 2017</p>
+<h3 id="improvements">Improvements</h3>
+<ul>
+<li>Add gift card Givacard.</li>
+<li>Error-messages are now showed according to the PrestaShop guidelines.</li>
+<li>Order Confirmation screen now also contains the order information.</li>
+<li>Changed the layout for gateways during checkout (iDEAL, Pay After Delivery, Klarna, E-Invoice, Bank transfer).</li>
+<li>Module descriptions are now uniform.</li>
+<li>Critical debug- and error messages are added to the PrestaShop-Logger, wether or not the debug function in the module is enabled.</li>
+<li>Tokenization is included.</li>
+<li>Some small ### Changes to the styling.</li>
+<li>Update translations.</li>
+<li>Changed the way and address is split into street and house number.</li>
+</ul>
+<h3 id="fixes">Fixes</h3>
+<ul>
+<li>In some situations, the cart was accidentally emptied.</li>
+<li>The order-confirmation screen was also showed for non-MultiSafepay payment methods.</li>
+</ul>
+<h3 id="changes">Changes</h3>
+<ul>
+<li>Removed the configuration option for by-passing the order-confirmation screen. This because the order-confirmation screen is default PrestaShop behaviour and mandatory for some payment methods.</li>
+<li>Removed the configuration option for HTTP or HTTPS since this was added in the past for one merchant having some issues.</li>
+<li>Removed the lock mechanism in the offline-action script. Since this was unnecessary.</li>
+</ul>
+<hr>
+<h2 id="317">3.1.7</h2>
+<p>Release date: Sept 8, 2017</p>
+<h3 id="improvements-1">Improvements</h3>
+<ul>
+<li>Add ING Home&rsquo;Pay as payment method.</li>
+<li>Add BKC as payment method.</li>
+<li>Add Belfius as payment method.</li>
+<li>Update Dutch translation-files.</li>
+<li>Resized all payment logos.</li>
+<li>Removed underscore in the name of all gift cards.</li>
+<li>Adjust birthdate to correct layout for Klarna and Pay After Delivery.</li>
+<li>Removed own order-confirmation.tpl and use PrestaShop default.</li>
+</ul>
+<h3 id="fixes-1">Fixes</h3>
+<ul>
+<li>Customer is now correct redirected to the order-confirmation page.</li>
+<li>Check whether or not update order status failed sometimes.</li>
+<li>Confirmation-form for PaySafecard was not loaded due to a misspelled filename.</li>
+<li>When using the Connect gateway the button for &lsquo;All payment methods&rsquo; was not available.</li>
+<li>Shipping methods where selected based on language-code instead of country-code.</li>
+<li>When using the CreditCard gateway the customer wasn&rsquo;t redirect to the correct payment-page.</li>
+<li>In exceptional cases no order was created due to an invalid security-key.</li>
+<li>FastCheckout failed in updating the order status.</li>
+<li>FastCheckout did not support Free shipping.</li>
+<li>Transaction-ID was not always included in the order.</li>
+<li>Free Shipping information was not included in the transaction.</li>
+</ul>
+<h3 id="changes-1">Changes</h3>
+<ul>
+<li>Removed support for BVKPayment for FastCheckout. as this can configured within your MultiSafepay dashboard.</li>
+</ul>
+<hr>
+<h2 id="315">3.1.5</h2>
+<p>Release date: May 12, 2017</p>
+<h3 id="improvements-2">Improvements</h3>
+<ul>
+<li>New logo for Mastercard.</li>
+<li>Add PaySafeCard as payment method.</li>
+</ul>
+<h3 id="fixes-2">Fixes</h3>
+<ul>
+<li>Order confirmation screen is now also showed when option &lsquo;Moment of order creation&rsquo; is set to &lsquo;After order is paid in full&rsquo;</li>
+<li>The system will try for maximal 10 seconds to check if transaction is paid.</li>
+<li>If failed (for example Bank transfer) the order history page is showed as fallback.</li>
+<li>Fixed issue for support of BVKPayment module.</li>
+</ul>
+<hr>
+<h2 id="314">3.1.4</h2>
+<p>Release date: Dec 20, 2016</p>
+<h3 id="improvements-3">Improvements</h3>
+<ul>
+<li>MultiSafepay notices and error messages are now shown in the webshop (front-end).</li>
+<li>Added input field placeholders for the payment methods Klarna and Pay After Delivery.</li>
+</ul>
+<h3 id="fixes-3">Fixes</h3>
+<ul>
+<li>Added a lock mechanism to prevent the creation of duplicate orders due to multiple Notification URL calls taking place in quick succession.</li>
+</ul>
+<h3 id="changes-2">Changes</h3>
+<ul>
+<li>Removed option &lsquo;After checkout completed&rsquo; under the &lsquo;at what moment should the order be created&rsquo; setting, as this option is identical to the &lsquo;After order confirmation&rsquo; option.</li>
+<li>Date of birth provide in the webshop for Klarna and/or E-Invoice is carried over to the Payment page.</li>
+<li>Resolved unnecessary debug message #1006 being logged when creating transactions.</li>
+</ul>
+<hr>
+<h2 id="312">3.1.2</h2>
+<p>Release date: Nov 23, 2016</p>
+<h3 id="improvements-4">Improvements</h3>
+<ul>
+<li>Added full support for BVK payment fees module; percentages, fixed amounts and combinations are supported.</li>
+<li>Added bundled gift card payment method; the seperate gateways Visa, Mastercard, Maestro and American Express are not visible during checkout.</li>
+<li>Added some translational ### Improvements</li>
+<li>Add extra option in the configuration to select the HTTP / HTTPS protocol to use for Offline Actions.</li>
+<li>Added EPS.</li>
+<li>Added Ferbuy.</li>
+<li>Errors are now shown on the Prestashop storefront.</li>
+</ul>
+<h3 id="fixes-4">Fixes</h3>
+<ul>
+<li>Multiple free shipping methods are now shown correctly instead of just one.</li>
+<li>Fixed issue where the customer was redirected to the order history page instead of the order-confirmation page.</li>
+</ul>
+<h3 id="changes-3">Changes</h3>
+<ul>
+<li>Removed option &lsquo;After checkout completed&rsquo; under the &lsquo;at what moment should the order be created&rsquo; setting, as this option is identical to the &lsquo;After order confirmation&rsquo; option.</li>
+<li>Checkout fields for Klarna are now mandatory.</li>
+<li>Pay After Delivery fields are now mandatory when using direct Pay After Delivery.</li>
+</ul>
+<hr>
+<h2 id="311">3.1.1</h2>
+<p>Release date: Oct 17, 2016</p>
+<h3 id="improvements-5">Improvements</h3>
+<ul>
+<li>Resolved an issue resulting in the wrong calculations being applied for shipping and wrapping taxes.</li>
+<li>A check was added to see whether or not SSL has been enabled in the webshop. Resulting in HTTP301 not occurring when calling the Notification URL.</li>
+<li>A check was added to see if the current plugin version is the latest version available on our website.</li>
+<li>Added support for % fee when using BVKPayment module.</li>
+<li>Added new logo for YourGiftcard.</li>
+</ul>
+<h3 id="fixes-5">Fixes</h3>
+<ul>
+<li>Resolved a bug preventing order&rsquo;s from being created using certain configurations.</li>
+</ul>
+<h3 id="changes-4">Changes</h3>
+<ul>
+<li>Layout of the configuration screens now have standard PrestaShop design.</li>
+</ul>
+<hr>
+<h2 id="303">3.0.3</h2>
+<p>Release date: July 27, 2016</p>
+<h3 id="fixes-6">Fixes</h3>
+<ul>
+<li>Resolved a bug preventing order&rsquo;s from being created using certain configurations.</li>
+</ul>
+<hr>
+<h2 id="302">3.0.2</h2>
+<p>Release date: July 12, 2016</p>
+<h3 id="improvements-6">Improvements</h3>
+<ul>
+<li>Orders are now created for initialized Bank transfer payments and uncleared transactions when using the setting; &ldquo;Only when an order was paid in full&rdquo;.</li>
+<li>Added E-Invoicing as a payment method.</li>
+<li>The PSP ID is added to the order, so it can be used to find the corresponding transaction in your MultiSafepay dashboard.</li>
+</ul>
+<h3 id="fixes-7">Fixes</h3>
+<ul>
+<li>Fixed issue with crypt function were no &lsquo;salt&rsquo; was used. This resulted in a notice when using PHP 5.6 or above.</li>
+</ul>
+<h3 id="changes-5">Changes</h3>
+<ul>
+<li>Textual ### Changes to the plugin configuration.</li>
+<li>Changed the name and logo &ldquo;MisterCash&rdquo; to &ldquo;Bancontact&rdquo;.</li>
+</ul>
+<hr>
+<h2 id="300">3.0.0</h2>
+<p>Release date: Apr 15, 2016</p>
+<h3 id="improvements-7">Improvements</h3>
+<ul>
+<li>The payment method shown in the Fast Checkout orders are now updated to show the payment method eventually used.</li>
+<li>Added (limited) support for the BVK Additional Payment Fees module; payment fees can be applied per payment method.</li>
+<li>Added &ldquo;daysactive&rdquo; to the configuration. Orders are cancelled after X number of days when configured.</li>
+<li>An extra configuration option has been added for skipping the default extra confirmation screen before payment.</li>
+<li>Added Dotpay as a payment method.</li>
+<li>Added e-Invoice as a payment method.</li>
+<li>Added tooltips to the configuration options in the plugin.</li>
+<li>Improved the payment logos.</li>
+<li>Added a debug configuration option. Debug output are logged to: &lsquo;prestashop_root_directory/log/MultiSafepay.log&rsquo;.</li>
+<li>Added the following gift cards:</li>
+</ul>
+<ol>
+<li>Beautyandwellness</li>
+<li>Brouwmarkt</li>
+<li>Fashiongiftcard</li>
+<li>Fietsenbon</li>
+<li>Gezondheidsbon</li>
+<li>Goodcard</li>
+<li>Jewelstore</li>
+<li>Kellygiftcard</li>
+<li>Liefcadeaukaart</li>
+<li>Nationaletuinbon</li>
+<li>Nationaleverwencadeaubon</li>
+<li>Parfumcadeaukaart</li>
+<li>Parfumnl</li>
+<li>Podium</li>
+<li>Sportenfit</li>
+<li>Webshopgiftcard</li>
+<li>Welness-gift card</li>
+<li>Wijncadeau</li>
+<li>Winkelcheque</li>
+</ol>
+<h3 id="fixes-8">Fixes</h3>
+<ul>
+<li>Order status was not updated in case of a partial refund.</li>
+<li>In specific situations there was still a Payment Error.</li>
+<li>Minor ### Improvements to the iDEAL gateway layout to match the other payment methods.</li>
+<li>Improved translations.</li>
+<li>Changs bank account input field from 10 to 34 characters.</li>
+</ul>
+<h3 id="changes-6">Changes</h3>
+<ul>
+<li>Removed Babygiftcard.</li>
+<li>In specific situations there was still a Payment Error.</li>
+<li>Order status are no longer removed when uninstalling the core MultiSafepay module, resulting in existing orders maintaining the correct order status.</li>
+<li>This plugin has been rewritten from scratch and uses the JSON API rather than the XML API.</li>
+<li>Changed the Fast Checkout logo.</li>
+<li>The order history page is shown when redirected back to the webshop after a successful payment.</li>
+</ul>
+<hr>
+<h2 id="211-nov-2-2015">2.1.1 Nov 2, 2015</h2>
+<h3 id="improvements-8">Improvements</h3>
+<ul>
+<li>Added support for gift card VVV-Bon.</li>
+<li>During installation of the plugin, the order states will not be removed anymore. So old orders remain their correct order status.</li>
+</ul>
+<h3 id="fixes-9">Fixes</h3>
+<ul>
+<li>Order status was not updated in case of a partial refund.</li>
+<li>In specific situations there was still a Payment Error.</li>
+</ul>
+<hr>
+<h2 id="210">2.1.0</h2>
+<p>Release date: Oct 8, 2015</p>
+<h3 id="improvements-9">Improvements</h3>
+<ul>
+<li>Added support for the BVK Payments module for the payment method Pay After Delivery.</li>
+<li>MultiSafepay Transaction IDs are now added to, and visible within, the Prestashop order.</li>
+<li>Changed the Fast Checkout button.</li>
+<li>The payment method used to pay for an order is now shown within the order overview.</li>
+<li>The payment hook template now uses the default Prestashop style within the checkout and can be overruled by template overrides.</li>
+<li>Added Fashzoncheque.</li>
+</ul>
+<h3 id="changes-7">Changes</h3>
+<ul>
+<li>The iDEAL bank list is now shown under the payment method iDEAL, rather than the next step.</li>
+<li>Removed the E-Bon gift card.</li>
+</ul>
+<h3 id="fixes-10">Fixes</h3>
+<ul>
+<li>Resolved double paid/invoice notices.</li>
+<li>Fixed bug to show payment method when the Min and Max amount in the config are equal.</li>
+<li>Fixed undefined index notice warnings.</li>
+<li>Fixed double payment method titles.</li>
+<li>Improved the support of shipping methods, coupons, taxes, free shipping and free products.</li>
+<li>Shipping prices were always handled by Fast Checkout as including tax.</li>
+</ul>
+<hr>
+<h2 id="200">2.0.0</h2>
+<p>Release date: Nov 11, 2014</p>
+<h3 id="improvements-10">Improvements</h3>
+<ul>
+<li>Added special NL config files.</li>
+<li>Added Italian language files.</li>
+<li>Added Gateway image for Wallet.</li>
+<li>Added support for Prestashop 1.6.x.</li>
+<li>Added support for erotiekbon.</li>
+<li>Added support for e-bon.</li>
+<li>Added support for degrotespeelgoedwinkel.</li>
+<li>Added support for boekenbon.</li>
+<li>Added support for babygiftcard.</li>
+<li>Added Notification info field to FCO config for when only Fast Checkout is active.</li>
+<li>Added better support for IP6.</li>
+</ul>
+<h3 id="changes-8">Changes</h3>
+<ul>
+<li>Make some ### Changes to the config screen.</li>
+<li>Updated language files.</li>
+<li>Updated local images.</li>
+<li>Updated lang files ES en FR.</li>
+</ul>
+<h3 id="fixes-11">Fixes</h3>
+<ul>
+<li>Fixed bug with wrong Shipping price calculation.</li>
+<li>Fixed bug to show payment method when the Min and Max amount in the config are equal.</li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/integration/ready-made/prestashop-1-6/changelog.md' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

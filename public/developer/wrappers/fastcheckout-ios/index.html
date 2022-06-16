@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FastCheckout iOS SDK - MultiSafepay Docs</title>
+    
+   
+    
+    
+    <meta name="description" content="The FastCheckout iOS SDK provides connections to MultiSafepay services from your native iOS app. The SDK enables a frictionless, fast, and native checkout experience by storing and reusing data."> 
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+<meta name="description" content="MultiSafepay SDK for iOS. Easily integrate MultiSafepay payment solutions into your iOS platform with the free SDK">
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="FastCheckout iOS SDK" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="The FastCheckout iOS SDK provides connections to MultiSafepay services from your native iOS app. The SDK enables a frictionless, fast, and native checkout experience by storing and reusing data." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/developer/wrappers/fastcheckout-ios/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+    <link href="https://docs.multisafepay.com/developer/wrappers/fastcheckout-ios/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+    <link rel="canonical" href="/developer/wrappers/fastcheckout-ios/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/developers/">Developers</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/developers/wrappers-sdks/">Wrappers and SDKs</a>
+  
+
+</li>
+
+
+<li>
+
+
+  FastCheckout iOS SDK
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="FastCheckout iOS SDK">FastCheckout iOS SDK</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                    <img class="plugin-logo" src="/logo/Integrations/Fastcheckout_iOS.svg">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    The FastCheckout iOS SDK provides connections to MultiSafepay services from your native iOS app. The SDK enables a frictionless, fast, and native checkout experience by storing and reusing data.
+                    
+                    
+                    <div class="row pt-5 pb-5 px-3 clearfix">
+                            
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="https://github.com/MultiSafepay/fastcheckout-ios-sdk" style="font-size: 1.4rem" class="bg-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                View source code<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon">
+                                </a>
+                            </div>
+                            
+                            
+                            
+                    </div>
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <section class="manual pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <h2 id="manual">Manual</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                
+                <h3 id="introduction">Introduction</h3>
+<p>As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The FastCheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, cancelled, etc.) once it completes a transaction. The checkout process flow includes:</p>
+<ul>
+<li>Shipping details:
+<ul>
+<li>Preferred shipping details</li>
+<li>Add shipping details</li>
+</ul>
+</li>
+<li>Payment methods:
+<ul>
+<li>Preferred payment methods</li>
+<li>Add payment methods</li>
+<li>Gift cards</li>
+</ul>
+</li>
+<li>Confirmation details</li>
+</ul>
+<h4 id="features">Features</h4>
+<p>The FastCheckout SDK provides the following additional features:</p>
+<ul>
+<li>Secure sign up and sign in functionality</li>
+<li>Open seamless support tickets to related orders</li>
+<li>List and edit users' stored payment details</li>
+<li>List, add, and edit shipping information</li>
+</ul>
+<p>For more information, see the documentation in the SDK, which contains all classes, methods, and troubleshooting.</p>
+<p>To learn more about creating, updating and retrieving orders, see the <a href="https://docs-api.multisafepay.com/reference/introduction">API reference</a>.</p>
+<h3 id="requirements">Requirements</h3>
+<ul>
+<li>Xcode 12.0 and iOS 15 SDK</li>
+<li>iOS 9+ target</li>
+<li>Swift 5.3 or Objective-C</li>
+</ul>
+<h3 id="installation">Installation</h3>
+<ol>
+<li>Copy your <a href="/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code">site API key</a> to get the SDK from our <a href="https://github.com/MultiSafepay/fastcheckout-ios-sdk">GitHub repository</a>.</li>
+<li>Add the FastCheckoutKit.xcframework as an embedded framework into your project.</li>
+<li>In Finder, open the folder where you downloaded FastCheckoutKit.framework to, and then drag it into the Project Navigator of your application’s Xcode project.</li>
+<li>If you haven&rsquo;t already copied the framework into your project folder, click <strong>Copy items</strong>.</li>
+<li>In the Project navigator (blue project icon), select your application project to navigate to target configuration window, and then under <strong>Targets</strong> in the sidebar, select the application target.</li>
+<li>In the tab bar at the top of that window, open the <strong>General</strong> panel.</li>
+<li>Under <strong>Embedded binaries</strong>,click <strong>+</strong>.</li>
+<li>Select <strong>FastCheckoutKit.xcframework</strong>.</li>
+</ol>
+<p>You can now start using the FastCheckoutKit SDK in your app.</p>
+<h3 id="demo">Demo</h3>
+<p>To integrate the FastCheckout iOS SDK into your app, follow these steps:</p>
+<ol>
+<li>Set up the iOS SDK:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="kd">import</span> <span class="nc">FastcheckoutKit</span>
+
+<span class="kd">let</span> <span class="nv">manager</span> <span class="p">=</span> <span class="n">FastcheckoutManager</span><span class="p">(</span><span class="n">client</span><span class="p">:</span> <span class="n">FastcheckoutClient</span><span class="p">(</span><span class="n">apiKey</span><span class="p">:</span> <span class="s">&#34;API_KEY&#34;</span><span class="p">))</span>
+</code></pre></div><ol start="2">
+<li>Start checkout with completion callback:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="n">manager</span><span class="p">.</span><span class="n">startCheckout</span><span class="p">(</span><span class="n">transactionId</span><span class="p">:</span> <span class="s">&#34;ID&#34;</span><span class="p">,</span> <span class="n">host</span><span class="p">:</span> <span class="kc">self</span><span class="p">,</span> <span class="n">onCompletion</span><span class="p">:</span> <span class="p">{</span> <span class="n">status</span><span class="p">,</span> <span class="n">error</span> <span class="k">in</span>
+    <span class="k">if</span> <span class="kd">let</span> <span class="nv">status</span> <span class="p">=</span> <span class="n">status</span> <span class="p">{</span>
+        <span class="bp">print</span><span class="p">(</span><span class="n">status</span><span class="p">)</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="bp">print</span><span class="p">(</span><span class="n">error</span><span class="p">?.</span><span class="n">localizedDescription</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">})</span>
+</code></pre></div><p>And that’s it! Now you can start a checkout and retrieve the <a href="/about-payments/multisafepay-statuses/">transaction status</a> once it completes.</p>
+<h6 id="complete-example">Complete example</h6>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="kd">import</span> <span class="nc">UIKit</span>
+<span class="kd">import</span> <span class="nc">FastcheckoutKit</span>
+
+<span class="kd">class</span> <span class="nc">ViewController</span><span class="p">:</span> <span class="n">UIViewController</span> <span class="p">{</span>
+
+   <span class="kd">private</span> <span class="kd">let</span> <span class="nv">manager</span> <span class="p">=</span> <span class="n">FastcheckoutManager</span><span class="p">(</span><span class="n">client</span><span class="p">:</span> <span class="n">FastcheckoutClient</span><span class="p">(</span><span class="n">apiKey</span><span class="p">:</span> <span class="s">&#34;API_KEY&#34;</span><span class="p">))</span>
+
+   <span class="kr">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+       <span class="kc">super</span><span class="p">.</span><span class="n">viewDidLoad</span><span class="p">()</span>
+
+       <span class="c1">// Add a button to the navigationBar</span>
+       <span class="kd">let</span> <span class="nv">startButton</span> <span class="p">=</span> <span class="n">UIBarButtonItem</span><span class="p">(</span><span class="n">title</span><span class="p">:</span> <span class="s">&#34;Start&#34;</span><span class="p">,</span>
+                                         <span class="n">style</span><span class="p">:</span> <span class="p">.</span><span class="n">done</span><span class="p">,</span>
+                                         <span class="n">target</span><span class="p">:</span> <span class="kc">self</span><span class="p">,</span>
+                                         <span class="n">action</span><span class="p">:</span> <span class="k">#selector</span><span class="p">(</span><span class="kc">self</span><span class="p">.</span><span class="n">startCheckout</span><span class="p">))</span>
+       <span class="n">navigationItem</span><span class="p">.</span><span class="n">rightBarButtonItem</span> <span class="p">=</span> <span class="n">startButton</span>
+   <span class="p">}</span>
+
+   <span class="c1">// </span><span class="cs">MARK:</span><span class="c1"> Actions</span>
+
+   <span class="kr">@objc</span> <span class="kd">func</span> <span class="nf">startCheckout</span><span class="p">()</span> <span class="p">{</span>
+       <span class="n">manager</span><span class="p">.</span><span class="n">startCheckout</span><span class="p">(</span><span class="n">transactionId</span><span class="p">:</span> <span class="s">&#34;id&#34;</span><span class="p">,</span> <span class="n">host</span><span class="p">:</span> <span class="kc">self</span><span class="p">,</span> <span class="n">onCompletion</span><span class="p">:</span> <span class="p">{</span> <span class="n">status</span><span class="p">,</span> <span class="n">error</span> <span class="k">in</span>
+           <span class="k">if</span> <span class="kd">let</span> <span class="nv">status</span> <span class="p">=</span> <span class="n">status</span> <span class="p">{</span>
+               <span class="bp">print</span><span class="p">(</span><span class="n">status</span><span class="p">)</span>
+               <span class="k">switch</span> <span class="n">status</span><span class="p">.</span><span class="n">state</span> <span class="p">{</span>
+                <span class="k">case</span> <span class="p">.</span><span class="n">cancelled</span><span class="p">:</span>
+                    <span class="k">break</span>
+                <span class="k">case</span> <span class="p">.</span><span class="n">completed</span><span class="p">:</span>
+                    <span class="k">break</span>
+                <span class="k">case</span> <span class="p">.</span><span class="n">declined</span><span class="p">:</span>
+                    <span class="k">break</span>
+                <span class="k">case</span> <span class="p">.</span><span class="n">pending</span><span class="p">:</span>
+                    <span class="k">break</span>
+                <span class="k">case</span> <span class="p">.</span><span class="n">uncleared</span><span class="p">:</span>
+                    <span class="k">break</span>
+                <span class="p">@</span><span class="n">unknown</span> <span class="k">default</span><span class="p">:</span>
+                    <span class="k">break</span>
+                <span class="p">}</span>
+           <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+               <span class="bp">print</span><span class="p">(</span><span class="n">error</span><span class="p">?.</span><span class="n">localizedDescription</span><span class="p">)</span>
+           <span class="p">}</span>
+       <span class="p">})</span>
+   <span class="p">}</span>
+
+<span class="p">}</span>
+</code></pre></div><h3 id="advanced-setup">Advanced setup</h3>
+<p>The SDK operates in two environments: LIVE (default) and TEST (no real transactions processed). We recommend testing your integration before release. Check out the example below to see how you can select which environment to use.</p>
+<p>To customize the SDK, you need to inject properties into it.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-swift" data-lang="swift"><span class="c1">// Build `Settings` object to customize FCO SDK</span>
+<span class="kd">let</span> <span class="nv">settings</span> <span class="p">=</span> <span class="n">Settings</span><span class="p">.</span><span class="n">build</span><span class="p">()</span>
+<span class="n">settings</span><span class="p">.</span><span class="n">environmentKey</span> <span class="p">=</span> <span class="n">FastcheckoutTestEnvironment</span>
+<span class="n">settings</span><span class="p">.</span><span class="n">debug</span> <span class="p">=</span> <span class="kc">true</span>
+<span class="n">settings</span><span class="p">.</span><span class="n">biometricAuthenticationEnabled</span> <span class="p">=</span> <span class="kc">true</span>
+<span class="n">settings</span><span class="p">.</span><span class="n">skipShowCartAtBeginning</span> <span class="p">=</span> <span class="kc">true</span>
+<span class="n">settings</span><span class="p">.</span><span class="n">pinning</span> <span class="p">=</span> <span class="kc">false</span>
+        
+<span class="kd">let</span> <span class="nv">client</span> <span class="p">=</span> <span class="n">FastcheckoutClient</span><span class="p">(</span><span class="n">apiKey</span><span class="p">:</span> <span class="n">apiKey</span><span class="p">,</span> <span class="n">settings</span><span class="p">:</span> <span class="n">settings</span><span class="p">)</span>
+<span class="kc">self</span><span class="p">.</span><span class="n">manager</span> <span class="p">=</span> <span class="n">FastcheckoutManager</span><span class="p">(</span><span class="n">client</span><span class="p">:</span> <span class="n">client</span><span class="p">)</span>
+</code></pre></div><h3 id="sdk-snapshots">SDK snapshots</h3>
+<ol>
+<li>The following snapshots walk you through some of features offered by the FastCheckout iOS SDK.
+<ul>
+<li>
+<p>Logging in with a registered email:</p>
+<p><a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-1.png" title="screenshot 1">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-2.png" title="screenshot 2">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+</p>
+</li>
+<li>
+<p>Logging in with an unregistered email automatically takes the customer to the <strong>Register</strong> screen:</p>
+<p><a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-3.png" title="screenshot 3">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-4.png" title="screenshot 4">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-5.png" title="screenshot 5">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+</p>
+</li>
+<li>
+<p>If the customer is registered and resets their email account, the SDK  automatically sends a new security code to new email provided:</p>
+<p><a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-6.png" title="screenshot 6">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-7.png" title="screenshot 7">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+</p>
+</li>
+<li>
+<p>Once the customer enters the security code received by email (if the security code is received via SMS it is automatically added to the appropriate field, and the SDK moves to the following state), the SDK asks for a new security PIN. Having entered the PIN, the SDK provides biometric options, including face recognition:</p>
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-8.png" title="screenshot 8">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+</li>
+<li>
+<p>The checkout process follows. From the webshop checkout, the SDK enters into the checkout process. The first screen is the <strong>Delivery</strong> screen, with shipping options (if available). When the customer clicks <strong>Continue</strong>, the SDK moves to the <strong>Payment</strong> screen and the payment logic follows.</p>
+<p><a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-9.png" title="screenshot 9">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-10.png" title="screenshot 10">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-11.png" title="screenshot 11">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+</p>
+</li>
+<li>
+<p>Once payment is completed, the SDK proceeds to the <strong>Transaction complete</strong> screen. The SDK callback notifies the client app of the transaction status, e.g. Uncleared, Cancelled. When the customer clicks <strong>Back to shop</strong>, they are redirected back to the webshop.</p>
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-12.png" title="screenshot 12">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+</li>
+</ul>
+</li>
+</ol>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/developer/wrappers/fastcheckout-ios/' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

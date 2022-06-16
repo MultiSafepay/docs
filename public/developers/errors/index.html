@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Handling errors - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="Handling errors" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/developers/errors/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+    <link href="https://docs.multisafepay.com/developers/errors/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+    <link rel="canonical" href="/developers/errors/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/developers/">Developers</a>
+  
+
+</li>
+
+
+<li>
+
+
+  Handling errors
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="Handling errors">Handling errors</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>This page lists errors you may encounter in transaction responses or statuses, or under <strong>Offline actions</strong> in your MultiSafepay dashboard, and possible causes.</p>
+<h4 id="error-1000-unknown-message-type">Error 1000: Unknown message type</h4>
+<p>The payment method is disabled or unavailable.</p>
+<p>To check the payment method settings for your MultiSafepay account, email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
+<h4 id="error-1001-invalid-amount">Error 1001: Invalid amount</h4>
+<p>The <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request contains an invalid amount.</p>
+<p>All amounts must be given in cents, e.g. 10 EUR = 1000 <strong>not</strong> 10,00. The minimum transaction amount we can process is 1 euro cent (0.01 EUR).</p>
+<h4 id="error-1002-invalid-currency">Error 1002: Invalid currency</h4>
+<p>The currency is not supported. The standard currency for all transactions is Euros.</p>
+<p>For help identifying currencies, see <a href="https://www.iso.org/iso-4217-currency-codes.html">ISO-4217</a>.</p>
+<h4 id="error-1003-invalid-account-id">Error 1003: Invalid account ID</h4>
+<p>The <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request contains an invalid account ID.</p>
+<p>Check that your account ID was properly formatted, e.g. fix typing errors and remove blank spaces. Your account ID appears in the top-right corner of your MultiSafepay account.</p>
+<h4 id="error-1004-invalid-site-id">Error 1004: Invalid site ID</h4>
+<p>The <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request contains an invalid site ID, or the site ID provided doesn’t match the account ID.</p>
+<p>To retrieve a site ID from your MultiSafepay dashboard, go to <strong>Settings</strong> &gt; <strong>Website settings</strong>, and then click the relevant website.</p>
+<h4 id="error-1005-invalid-secure-code">Error 1005: Invalid secure code</h4>
+<p>The <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request contains an invalid secure code, or the secure code doesn&rsquo;t match the account ID or site ID provided.</p>
+<p>To retrieve a secure code from your MultiSafepay dashboard, go to <strong>Settings</strong> &gt; <strong>Website settings</strong>, and then click the relevant website.</p>
+<h4 id="error-1006-invalid-transaction-id">Error 1006: Invalid transaction ID</h4>
+<p>The <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request contains an invalid transaction ID.</p>
+<p>The transaction ID provided must be unique. The transaction ID you provided may have already been used for a completed transaction for that website (site ID). Consider creating a new website profile in your MultiSafepay dashboard.</p>
+<h4 id="error-1007-invalid-ip-address">Error 1007: Invalid IP address</h4>
+<p>The <code>ip_address</code> or <code>forwarded_ip</code> parameters in the <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request contains an invalid customer IP address.</p>
+<p>For <a href="/payment-methods/pay-later/">pay later methods</a> and <a href="/payment-methods/credit-debit-cards/">credit cards</a>, we check the customer&rsquo;s IP address as part of our <a href="/about-payments/uncleared-transactions/">fraud check</a>.</p>
+<h4 id="error-1008-invalid-description">Error 1008: Invalid description</h4>
+<p>The order description in the <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request was missing or invalid.</p>
+<p>Enter a free text description, which appears in the order details in your MultiSafepay dashboard and on the customer’s bank statement (if supported by the customer’s bank).</p>
+<p>Format: Max 200 characters.<br>
+HTML is not supported. Use the required <code>shopping_cart</code> object.</p>
+<h4 id="error-1010-invalid-variable">Error 1010: Invalid variable</h4>
+<p>The <code>var1</code>, <code>var2</code>, or <code>var3</code> parameter in the <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request contains an invalid value.</p>
+<p>Check if the:</p>
+<ul>
+<li>Parameters contain any special characters, which must be UTF-8 encoded</li>
+<li>Value exceeds the 100 character limit</li>
+</ul>
+<h4 id="error-1011-invalid-customer-account-id">Error 1011: Invalid customer account ID</h4>
+<p>The customer account ID in the <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request was invalid or missing.</p>
+<p>Check:</p>
+<ul>
+<li>The account ID exists</li>
+<li>The formatting, e.g. fix typing errors and remove any blank spaces</li>
+</ul>
+<h4 id="error-1012-invalid-customer-security-code">Error 1012: Invalid customer security code</h4>
+<p>The customer security code in the <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request was invalid or missing.</p>
+<p>Check that the security code:</p>
+<ul>
+<li>Matches the account ID</li>
+<li>Is formatted correctly, e.g. fix typing errors and remove any blank spaces</li>
+</ul>
+<h4 id="error-1013-invalid-signature">Error 1013: Invalid signature</h4>
+<p>The MD5 signature supplied with the message doesn’t match the message contents for the transaction.</p>
+<ul>
+<li>Check that the values used to calculate the MD5 signature are correct.</li>
+<li>Remove unnecessary blank spaces from the MD5 signature.</li>
+<li>Calculate the MD5 hash from the concatenation of the amount, currency, account ID, site ID, and transaction ID.</li>
+</ul>
+<h4 id="error-1014-unspecified-error">Error 1014: Unspecified error</h4>
+<p>Check your logs and your MultiSafepay dashboard message screen for other error codes that may be causing this error.</p>
+<p>For help diagnosing unspecified errors, email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+<h4 id="error-1015-account-unknown">Error 1015: Account unknown</h4>
+<p>The account ID in the <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request was invalid or missing.</p>
+<p>Check that the account ID is formatted correctly, e.g. fix typing errors and remove blank spaces.</p>
+<h4 id="error-1016-missing-data">Error 1016: Missing data</h4>
+<p>The <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request is missing a required data type. This error most commonly occurs when the customer is directed to a payment page, or when you generate a <a href="/payment-pages/">payment page</a> link.</p>
+<p>Check that the site ID, secure code, and transaction ID are included.</p>
+<h4 id="error-1017-insufficient-funds">Error 1017: Insufficient funds</h4>
+<p>The customer has insufficient funds in their MultiSafepay wallet to complete payment.</p>
+<p>Advise the customer to top up their MultiSafepay wallet.</p>
+<h4 id="error-1018-invalid-country-code">Error 1018: Invalid country code</h4>
+<p>The country code in the <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request was not recognized.</p>
+<ul>
+<li>Check that the country code is correct.</li>
+<li>Ensure you provide country codes in ISO3166-1 format.</li>
+</ul>
+<h4 id="error-1019-site-is-inactive">Error 1019: Site is inactive</h4>
+<p>The requested site is disabled in your MultiSafepay dashboard.</p>
+<p>To reactivate the website in your MultiSafepay dashboard:</p>
+<ol>
+<li>Go to <strong>Settings</strong> &gt; <strong>Website settings</strong>, and select the relevant website.</li>
+<li>From the <strong>Status</strong> list, select <strong>Active</strong>.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<h4 id="error-1020-account-is-blocked">Error 1020: Account is blocked</h4>
+<p>For security reasons, we have blocked your MultiSafepay account and it cannot process payments.</p>
+<p>Email <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></p>
+<h4 id="error-1021-cannot-create-transaction">Error 1021: Cannot create transaction</h4>
+<p>Direct requests don&rsquo;t involve a payment page, which means we can&rsquo;t filter out connection errors. This error can cause an increase in unpaid or expired transactions.</p>
+<p>Check whether the customer’s bank is experiencing a temporary malfunction.</p>
+<h4 id="error-1022-cannot-initiate-transaction">Error 1022: Cannot initiate transaction</h4>
+<p>The transaction may already exist with a third party, e.g. if an iDEAL transaction already exists and another direct iDEAL transaction is initiated, you receive an <code>Error 1022: Kan geen transactie starten: ERR_EXISTS: transaction error.</code></p>
+<h4 id="error-1023-no-gateway-available">Error 1023: No gateway available</h4>
+<p>The transaction may already exist with a third party, e.g. if an iDEAL transaction already exists and another direct iDEAL transaction is initiated, you receive an <code>Error 1022: Kan geen transactie starten: ERR_EXISTS: transaction error.</code></p>
+<p>The gateway for the payment method is unavailable. This error can occur with direct requests.</p>
+<ul>
+<li>Check whether the specified payment gateway supports direct requests.</li>
+<li>Ensure a payment gateway was specified in the <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request.</li>
+<li>Check if the website is correctly configured for direct requests.</li>
+</ul>
+<h4 id="error-1024-transaction-refused">Error 1024: Transaction refused</h4>
+<p>For Pay After Delivery and credit card transactions:</p>
+<ul>
+<li>The customer data may be incorrect.</li>
+<li>The credit card fraud indicator score indicated that this might be a fraudulent transaction.</li>
+<li>The customer’s risk profile indicated a high risk of default on a Pay After Delivery transaction.</li>
+</ul>
+<p>Check that the:</p>
+<ul>
+<li>Credit card information is correct</li>
+<li>Customer data is correct</li>
+<li>Customer data matches the credit card</li>
+</ul>
+<h4 id="error-1024-for-cloudflare--incorrect-customer-ip-address">Error 1024: For Cloudflare – Incorrect customer IP address</h4>
+<p>Cloudflare overwrites the customer IP address field.</p>
+<p>To provide the correct IP address, see Cloudflare – <a href="https://support.cloudflare.com/hc/en-us/articles/200170786-Restoring-original-visitor-IPs">Restoring original visitor IPs</a>.</p>
+<h4 id="error-1025-only-one-currency-allowed-in-shopping-cart">Error 1025: Only one currency allowed in shopping cart</h4>
+<p>The <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request contains multiple currencies.</p>
+<p>Ensure all items in the shopping cart use the same currency.</p>
+<h4 id="error-1026-cart-currency-different-to-transaction-currency">Error 1026: Cart currency different to transaction currency</h4>
+<p>The currency of the transaction doesn’t match the currency of all items in the shopping cart.</p>
+<p>Ensure that the transaction currency matches the currency of all items in the shopping cart.</p>
+<h4 id="error-1027-cart-amount-must-equal-transaction-amount">Error 1027: Cart amount must equal transaction amount</h4>
+<p>The transaction amount differs from the sum of the individual items in the order.</p>
+<p>Check that the:</p>
+<ul>
+<li>Transaction amount was entered correctly</li>
+<li>Amount for all items was entered correctly</li>
+</ul>
+<p>For Pay After Delivery payments, the system checks the amount for each item, the total amount, and the VAT. Ensure the VAT amount is provided. If no VAT was applied, enter 0%.</p>
+<h4 id="error-1028-incorrect-tax-rate-in-rule">Error 1028: Incorrect tax rate in rule</h4>
+<p>The <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request contains an invalid custom tax rule.</p>
+<ul>
+<li>Check that the tax rate specified was formatted correctly as #.##, e.g. 0.19.</li>
+<li>Fix typing errors and remove blank spaces.</li>
+</ul>
+<h4 id="error-1029-incorrect-tax-rate-for-a-product">Error 1029: Incorrect tax rate for a product</h4>
+<p>Some payment methods require in the <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request:</p>
+<ul>
+<li>Tax table</li>
+<li>List of order items</li>
+<li>The total amount</li>
+</ul>
+<p>This error occurs if the tax amount calculated based on the tax table provided doesn’t match the order items and order total.</p>
+<p>We recalculate the amount for each item (excluding tax) and the taxes (only 9% or 21%), and then the total amount. This should match the total order amount.</p>
+<p>Check that:</p>
+<ul>
+<li>The tax tables provided match the values used to calculate the tax owing in the merchant’s website.</li>
+<li>You provided the amount for all order items:
+<ul>
+<li>Excluding total tax</li>
+<li>Including total tax</li>
+</ul>
+</li>
+</ul>
+<h4 id="error-1030-incorrect-currency-for-an-item">Error 1030: Incorrect currency for an item</h4>
+<p>The currency for one item is not supported in your MultiSafepay account.</p>
+<p>For FastCheckout and Pay After Delivery transactions, check that the currency is valid.</p>
+<h4 id="error-1031-incorrect-price-for-an-item">Error 1031: Incorrect price for an item</h4>
+<p>The price for an item in the shopping cart in the <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> request is incorrect.</p>
+<p>Make sure all prices are correct.</p>
+<h4 id="error-1032-invalid-api-key">Error 1032: Invalid API key</h4>
+<p>The API key is not valid for the MultiSafepay account.</p>
+<p>Check that:</p>
+<ul>
+<li>The API key was formatted correctly, e.g. fix typing errors and remove blank spaces.</li>
+<li>You used the correct API key for your MultiSafepay account.</li>
+<li>You used a live key in the live environment, and a test key in the test environment.</li>
+</ul>
+<h4 id="error-1033-error-fetching-refund-information">Error 1033: Error fetching refund information</h4>
+<h4 id="error-1034-cannot-refund-transaction">Error 1034: Cannot refund transaction</h4>
+<p>The refund cannot be processed.</p>
+<p>Check:</p>
+<ul>
+<li>That the sum of any partial refunds doesn’t exceed the original transaction amount.</li>
+<li>That you can make payouts from your MultiSafepay balance.</li>
+<li>If the transaction has already been refunded</li>
+<li>If the transaction was cancelled</li>
+<li>If the same refund was paid within in a short period of time. If a second refund for the same amount is requested within 5 minutes, MultiSafepay rejects the second request to avoid double processing. Refunds sent in batches via the API cause this error because the process is so quick. To avoid this error, delay refund requests by at least 1 second.</li>
+</ul>
+<h4 id="error-1035-invalid-signature">Error 1035: Invalid signature</h4>
+<p>The MD5 signature supplied with the message doesn’t match the message contents for the transaction.</p>
+<h4 id="error-1036-invalid-ideal-issuer-id">Error 1036: Invalid iDEAL issuer ID</h4>
+<p>The bank identifier for a direct iDEAL transaction was not recognized.</p>
+<p>Check:</p>
+<ul>
+<li>The value is formatted correctly, e.g. fix typing errors and remove blank spaces.</li>
+<li>If a real bank identifier was used in the test environment, or if a test identifier was used in the live environment.</li>
+</ul>
+<p>See <a href="https://docs-api.multisafepay.com/reference/listidealissuers">List iDEAL issuers</a>.</p>
+<h4 id="error-5001-cart-data-not-validated">Error 5001: Cart data not validated</h4>
+<p>The cart was not validated when the transaction was created, and an incorrect amount was displayed on the bank’s payment page.</p>
+<p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+<h4 id="error-9999-unknown-error">Error 9999: Unknown error</h4>
+<p>An unknown error occurred. Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/developer/errors/' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

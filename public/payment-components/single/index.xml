@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integrating a single payment method on MultiSafepay Docs</title>
+    <link>https://docs.multisafepay.com/payment-components/single/</link>
+    <description>Recent content in Integrating a single payment method on MultiSafepay Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://docs.multisafepay.com/payment-components/single/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrating a single payment method</title>
+      <link>https://docs.multisafepay.com/payment-components/single/step-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payment-components/single/step-2/</guid>
+      <description>Step 2: Initialize the component Generate an API token Payment Components require a MultiSafepay API token. See API reference – Generate an API token.
+ Note: To keep your API key private, request the token from your own server.   Construct the component object 1. Initialize an orderData object, containing information about the customer&amp;rsquo;s order collected during the checkout process:
+const orderData = { currency: &#39;EUR&#39;, amount: 10000, customer: { locale: &#39;en&#39;, country: &#39;NL&#39;, reference: &#39;Customer123&#39; }, template : { settings: { embed_mode: true } } };   View properties      Key Value     currency The currency of the order.</description>
+    </item>
+    
+    <item>
+      <title>Integrating a single payment method</title>
+      <link>https://docs.multisafepay.com/payment-components/single/step-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payment-components/single/step-3/</guid>
+      <description>Step 3: Create an order Collect payment data 1. To collect the customer&amp;rsquo;s payment details from the payment component UI, call the PaymentComponent.getPaymentData() method:
+PaymentComponent.getPaymentData() 2. Pass the payment_data to your server.
+Create an order Create an order from your server, appending the payment_data collected from the payment component UI to the order data.
+See API reference – Create order &amp;gt; Payment component.
+Redirect the customer 1. From your server, pass the response to the create order request to the customer&amp;rsquo;s device.</description>
+    </item>
+    
+    <item>
+      <title>Integrating a single payment method</title>
+      <link>https://docs.multisafepay.com/payment-components/single/step-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payment-components/single/step-4/</guid>
+      <description>Step 4: Go live To test the payment method, use our Test payment details.
+When you&amp;rsquo;re ready to process real payments, make the following changes:
+1. In Step 1: Add the elements, replace test JavaScript library with the live JavaScript library:
+&amp;lt;script src=&amp;quot;https://pay.multisafepay.com/sdk/components/v2/components.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; Next, replace the test CSS file with the live CSS file:
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://pay.multisafepay.com/sdk/components/v2/components.css&amp;quot;&amp;gt; 2. In Step 2: Construct the component object, change the environment from test to live:</description>
+    </item>
+    
+  </channel>
+</rss>

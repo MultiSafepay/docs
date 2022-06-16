@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Websites - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="Websites" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="To set up your account, you must add at least one website, for which we generate an API key.
+You can add an unlimited number of websites to your MultiSafepay account, but they must all be operated by the same legal entity linked to that account.
+To process payments from a website operated by a separate legal entity, you must sign up for an additional MultiSafepay account.
+Adding websites   Sign in to your MultiSafepay dashboard." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://docs.multisafepay.com/account/websites/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+
+    <link rel="canonical" href="/account/websites/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/my-account/">My account</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/account/manage-account/">Manage my account</a>
+  
+
+</li>
+
+
+<li>
+
+
+  Websites
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="Websites">Websites</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>To set up your account, you must add at least one website, for which we generate an API key.</p>
+<p>You can add an unlimited number of websites to your MultiSafepay account, but they must all be operated by the same legal entity linked to that account.</p>
+<p>To process payments from a website operated by a separate legal entity, you must sign up for an additional MultiSafepay account.</p>
+<h2 id="adding-websites">Adding websites</h2>
+<ol>
+<li>
+<p>Sign in to your MultiSafepay dashboard.</p>
+</li>
+<li>
+<p>Go to <strong>Settings</strong> &gt; <strong>Website settings</strong>.</p>
+</li>
+<li>
+<p>Click either:<br>
+<div>
+	<details id="details-quick-add-website">
+		<summary>
+			Quick add website
+		</summary>
+		<p>
+			<ol>
+<li>From the <strong>Category</strong> list, select what type of products or services your website sells.</li>
+<li>In the <strong>Description</strong> field, enter the website name.<br>
+<strong>Note:</strong> If relevant, this is displayed on MultiSafepay payment pages and the customer’s bank statement.</li>
+<li>In the <strong>Base URL</strong> field, add the website’s URL. This must be the URL where you receive payments.</li>
+<li>If you want to receive <a href="/about-payments/multisafepay-statuses/">status updates</a> via webhook, in the <strong>Notification URL</strong> field, enter a URL for us to send them to.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+Or, for more advanced configuration:
+<div>
+	<details id="details-website-wizard">
+		<summary>
+			Website wizard
+		</summary>
+		<p>
+			<ol>
+<li>Enter the website URL in the <strong>Full website URL</strong> field, or select it from the <strong>Select existing site</strong> list, and then click <strong>Continue</strong>.</li>
+<li>From the <strong>Website platform</strong> list, select your ecommerce platform.<br>
+You are prompted to install the MultiSafepay ready-made integration for your ecommerce platform in your website.</li>
+<li>From the <strong>Category</strong> list, select the type of products and/or services you sell from this website, and then click <strong>Continue</strong>.</li>
+<li>If you want to receive <a href="/about-payments/multisafepay-statuses/">status updates</a> via webhook, in the <strong>Notification URL</strong> field, enter a URL for us to send them to.</li>
+<li>In the <strong>Description</strong> field, enter your company name, and then click <strong>Continue</strong>.<br>
+<strong>Note:</strong> If relevant, this is displayed on MultiSafepay payment pages and the customer’s bank statement.<br>
+A template of your <a href="/payment-pages/">payment page</a> is generated.</li>
+<li>Customize the template as required.
+<ul>
+<li>To toggle the view of the payment page, click:
+<ul>
+<li><strong>List view</strong> to see all payment methods in a list</li>
+<li><strong>Detail view</strong> to display one detailed box for entering payment details and collapse all other payment methods</li>
+<li><strong>API view code</strong> to view the code</li>
+</ul>
+</li>
+<li>To replace the MultiSafepay logo in the top-left corner, after completing the wizard, upload your own logo under <strong>Settings</strong> &gt; <strong>Payment page templates</strong>.</li>
+<li>To hide the MultiSafepay logo in the top-left corner, on the lefthand side under <strong>Settings</strong>, select the <strong>Hide main logo</strong> checkbox.</li>
+<li>On the lefthand side, under <strong>Header</strong>, <strong>Body</strong>, <strong>Container</strong>, <strong>Cart</strong>, <strong>Payment form</strong>, and <strong>Buttons</strong>, you can change the color of the background, text, lines, and links in different parts of the payment page.</li>
+<li>To clear your changes and start again, click <strong>Reset style</strong>.</li>
+</ul>
+</li>
+<li>To set this payment page as your default template, select the <strong>Set as default template</strong> checkbox.</li>
+<li>In the <strong>Save template as</strong> field, enter a name for this template.</li>
+</ol>
+<p>Your account is now linked to your website.
+		</p>
+	</details>
+</div>
+</p>
+</li>
+<li>
+<p>The <strong>Website settings</strong> page contains your:</p>
+<ul>
+<li>Site ID</li>
+<li>Secure code</li>
+<li>API key</li>
+</ul>
+</li>
+<li>
+<p>Copy the API key to start building your integration. The API key also lets you monitor transactions, configure <a href="/account/payouts/">payouts</a>, generate reports, and more.</p>
+</li>
+</ol>
+<p><strong>Note:</strong> Website names are displayed on MultiSafepay payment pages and, for some payment methods, on the customer’s bank statement (if supported by their bank).</p>
+<h2 id="viewing-the-site-id-api-key-and-secure-code">Viewing the site ID, API key, and secure code</h2>
+<p>To view the site ID, API key, and secure code for a website:</p>
+<ol>
+<li>
+<p>Sign in to your <a href="https://merchant.multisafepay.com">live</a> or <a href="https://testmerchant.multisafepay.com">test</a> MultiSafepay dashboard.</p>
+</li>
+<li>
+<p>Go to <strong>Settings</strong> &gt; <strong>Website settings</strong>.</p>
+</li>
+<li>
+<p>Click on the relevant website to view the <strong>Website details</strong> page.</p>
+</li>
+</ol>
+<h2 id="connecting-websites-to-your-backend">Connecting websites to your backend</h2>
+<p>To connect a website to your <a href="/glossaries/multisafepay-glossary/#backend">backend</a>, enter the required details:</p>
+<ul>
+<li>
+<p>Most <a href="/integrations/ecommerce-integrations">ready-made integrations</a>: Your site ID, API key, and secure code, and account ID (top-right corner of your dashboard)</p>
+</li>
+<li>
+<p>Self-made integrations: The API key under <strong>Website settings</strong> in your account</p>
+</li>
+</ul>
+<p>The connection is finalized. To validate the connection, <a href="/integrations/testing/">place a test order</a>.</p>
+<h2 id="displaying-your-company-name">Displaying your company name</h2>
+<p>You can specify how your company name appears on customer bank or credit card statements and on MultiSafepay payment pages, or choose to display an alias instead. Customers may prefer this if you offer adult products.</p>
+<p>To set how your company name displays, follow these steps:</p>
+<ol>
+<li>Sign in to your <a href="https://merchant.multisafepay.com">MultiSafepay dashboard</a>.</li>
+<li>Go to <strong>Settings</strong> &gt; <strong>Website settings</strong>.</li>
+<li>In the <strong>Name</strong> field, enter the name to display (maximum 35 characters).</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<h2 id="deleting-websites">Deleting websites</h2>
+<p>To delete a website from your account, follow these steps:</p>
+<ol>
+<li>Sign in to your MultiSafepay dashboard.</li>
+<li>Go to <strong>Settings</strong> &gt; <strong>Website settings</strong>.</li>
+<li>For the website you want to delete, click the green <strong>Enabled</strong> button in the right most column.</li>
+<li>In the <strong>Disable payments</strong> dialog, click <strong>Delete</strong>.</li>
+</ol>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/my-account/manage-account/websites.md' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

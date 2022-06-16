@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FastCheckout Android SDK manual - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="FastCheckout Android SDK manual" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The FastCheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, cancelled, etc.) once it completes a transaction. The checkout process flow includes:
+ Shipping details:  Preferred shipping details Add shipping details   Payment methods:  Preferred payment methods Add payment methods Gift cards   Confirmation details  Features The FastCheckout SDK provides the following additional features:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://docs.multisafepay.com/developer/wrappers/fastcheckout-android/manual/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+
+    <link rel="canonical" href="/developer/wrappers/fastcheckout-android/manual/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/developers/">Developers</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/developers/wrappers-sdks/">Wrappers and SDKs</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/developer/wrappers/fastcheckout-android/">FastCheckout Android SDK</a>
+  
+
+</li>
+
+
+<li>
+
+
+  FastCheckout Android SDK manual
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="FastCheckout Android SDK manual">FastCheckout Android SDK manual</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>As an integrator, you only need to provide a valid MSP transaction identifier or create a transaction. The FastCheckout SDK leverages the checkout process for you, providing notifications for all possible outcomes (success, pending, cancelled, etc.) once it completes a transaction. The checkout process flow includes:</p>
+<ul>
+<li>Shipping details:
+<ul>
+<li>Preferred shipping details</li>
+<li>Add shipping details</li>
+</ul>
+</li>
+<li>Payment methods:
+<ul>
+<li>Preferred payment methods</li>
+<li>Add payment methods</li>
+<li>Gift cards</li>
+</ul>
+</li>
+<li>Confirmation details</li>
+</ul>
+<h4 id="features">Features</h4>
+<p>The FastCheckout SDK provides the following additional features:</p>
+<ul>
+<li>Secure sign up and sign in functionality</li>
+<li>Open seamless support tickets to related orders</li>
+<li>List and edit users' stored payment details</li>
+<li>List, add, and edit shipping information</li>
+</ul>
+<p>For more information, see the documentation in the SDK, which contains all classes, methods, and troubleshooting.</p>
+<p>To learn more about creating, updating and retrieving orders, see the <a href="https://docs-api.multisafepay.com/reference/introduction">API reference</a>.</p>
+<h4 id="advanced-setup">Advanced setup</h4>
+<p>The SDK operates in two environments: live (default) and test (no real transactions processed). We recommend testing your integration before releasing your app.</p>
+<p>For how to set up each environment, see the example below.</p>
+<h3 id="requirements">Requirements</h3>
+<ul>
+<li>Android Studio version 3 or higher</li>
+<li>Android version 4.4 or higher</li>
+<li>Java or Kotlin</li>
+</ul>
+<h3 id="installation">Installation</h3>
+<ol>
+<li>
+<p>Copy your <a href="/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code">site API key</a> to get the SDK from our <a href="https://github.com/MultiSafepay/fastcheckout-android-sdk">GitHub repository</a>.</p>
+</li>
+<li>
+<p>Add the msp-android-sdk-release.aar as an embedded framework into your project.</p>
+</li>
+<li>
+<p>Add the msp-android-sdk-release.aar into your library’s /lib folder.</p>
+</li>
+<li>
+<p>In your build.gradle (Module.app) in the dependencies script, add the following:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-gradle" data-lang="gradle"><span class="n">implementation</span><span class="o">(</span><span class="nl">name:</span> <span class="s1">&#39;msp-android-sdk-release&#39;</span><span class="o">,</span> <span class="nl">ext:</span> <span class="s1">&#39;aar&#39;</span><span class="o">)</span>
+
+<span class="n">repositories</span> <span class="o">{</span>
+   <span class="n">flatDir</span> <span class="o">{</span>
+      <span class="n">dirs</span> <span class="s1">&#39;libs&#39;</span>
+   <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></li>
+<li>
+<p>Sync Gradle.</p>
+</li>
+</ol>
+<p>You can now start using the Android SDK in your app.</p>
+<h3 id="demo">Demo</h3>
+<p>To integrate the Fastcheckout Android SDK into your app, follow these steps:</p>
+<ol>
+<li>To set up the Android SDK, add the following to your MainActivity or Class:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kn">import</span> <span class="nn">com.multisafepay.sdk.FastCheckoutSDK</span><span class="o">;</span>
+
+<span class="c1">//declare the FastCheckoutSDK as a member variable:
+</span><span class="c1"></span><span class="kd">private</span> <span class="kd">static</span> <span class="n">FastCheckoutSDK</span> <span class="n">SDK</span> <span class="o">=</span> <span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">getInstance</span><span class="o">();</span>
+
+<span class="c1">//you must implement this interface and then set the listener:
+</span><span class="c1"></span><span class="n">Public</span> <span class="kd">class</span> <span class="nc">MainActivity</span> <span class="kd">extends</span> <span class="n">AppCompatActivity</span> 
+<span class="kd">implements</span> <span class="n">ISDKCommunicator</span><span class="o">.</span><span class="na">sdkStatus</span> <span class="o">{</span>
+
+<span class="c1">//in your onCreate method initialize the SDK:
+</span><span class="c1"></span><span class="n">SDK</span><span class="o">.</span><span class="na">setApiKey</span><span class="o">(</span><span class="n">API_KEY</span><span class="o">);</span>
+<span class="err">…</span>
+<span class="err">…</span>
+<span class="o">}</span>
+</code></pre></div><p>The SDK is thread safe, but you cannot access the main UI elements from background threads. Creating and accessing UI controls from background thread is <strong>not</strong> thread safe.</p>
+<p>** Updating the UI from a background thread in Android**
+(Note: Check Android developers’ official site on Threads (<a href="https://developer.android.com/guide/components/processes-and-threads">https://developer.android.com/guide/components/processes-and-threads</a>) for proper integration based on JAVA/Android versioning).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="err">…</span>
+<span class="err">…</span>
+<span class="n">YourActivity</span><span class="o">.</span><span class="na">this</span><span class="o">.</span><span class="na">runOnUiThread</span><span class="o">(</span><span class="k">new</span> <span class="n">Runnable</span><span class="o">()</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">run</span><span class="o">()</span> <span class="o">{</span>
+
+        <span class="c1">//UI update here...
+</span><span class="c1"></span>
+    <span class="o">}</span>
+<span class="o">});</span>
+<span class="err">…</span>
+<span class="err">…</span>
+</code></pre></div><p>To change the running environment from LIVE to TEST, add the following line of code after SDK.setApiKey(API_KEY):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="err">…</span>
+<span class="err">…</span>
+<span class="n">SDK</span><span class="o">.</span><span class="na">setApiKey</span><span class="o">(</span><span class="n">API_KEY</span><span class="o">);</span>
+<span class="c1">//changing the environment to TEST
+</span><span class="c1"></span><span class="n">SDK</span><span class="o">.</span><span class="na">setEnvironment</span><span class="o">(</span><span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">ENV_TEST</span><span class="o">)</span>
+<span class="err">…</span>
+<span class="err">…</span>
+</code></pre></div><p>Remember to comment out or delete this line of code before you release your app.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="err">…</span>
+<span class="err">…</span>
+<span class="c1">//setting the environemnt to the default value (LIVE)
+</span><span class="c1">//SDK.setEnvironment(FastCheckoutSDK.ENV_TEST)
+</span><span class="c1"></span><span class="err">…</span>
+<span class="err">…</span>
+</code></pre></div><p>Custom settings:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="err">…</span>
+<span class="err">…</span>
+<span class="c1">//to set anonymous checkout: true (enabled) / false (dissable)
+</span><span class="c1">//with anonymous checkout there is no login
+</span><span class="c1"></span><span class="n">SDK</span><span class="o">.</span><span class="na">setAnonymous</span><span class="o">(</span><span class="kt">boolean</span><span class="o">);</span>
+
+<span class="c1">//skip checkout initial view (list of items): true (enabled) / false (dissable)
+</span><span class="c1"></span><span class="n">SDK</span><span class="o">.</span><span class="na">skipCheckoutInit</span><span class="o">(</span><span class="kt">boolean</span><span class="o">);</span>
+<span class="err">…</span>
+<span class="err">…</span>
+</code></pre></div><ol start="2">
+<li>Start checkout and add callback interface to your Activity:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">//your class should implement the FastCheckoutSDK.Callback interface 
+</span><span class="c1"></span><span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">Callback</span>
+
+<span class="c1">//add registration to your onCreate method:
+</span><span class="c1"></span><span class="n">sdk</span><span class="o">.</span><span class="na">registerCallback</span><span class="o">(</span><span class="k">this</span><span class="o">);</span> 
+
+<span class="c1">//then, start your checkout:
+</span><span class="c1"></span><span class="n">sdk</span><span class="o">.</span><span class="na">startCheckout</span><span class="o">(</span><span class="n">transaction_id</span><span class="o">,</span> <span class="k">this</span><span class="o">);</span>
+
+<span class="c1">//get results in your callback method:
+</span><span class="c1"></span><span class="nd">@Override</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">callback</span><span class="o">(</span><span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">Result</span> <span class="n">result</span><span class="o">)</span> <span class="o">{</span>
+
+   <span class="k">if</span> <span class="o">(</span><span class="n">result</span><span class="o">.</span><span class="na">getResult</span><span class="o">()</span> <span class="o">==</span> <span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">Result</span><span class="o">.</span><span class="na">FCO_RESULT_UNCLEARED</span><span class="o">)</span> <span class="o">{</span>
+      
+   <span class="o">}</span>
+
+   <span class="k">if</span> <span class="o">(</span><span class="n">result</span><span class="o">.</span><span class="na">getResult</span><span class="o">()</span> <span class="o">==</span> <span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">Result</span><span class="o">.</span><span class="na">FCO_RESULT_OK</span><span class="o">)</span> <span class="o">{</span>
+      
+   <span class="o">}</span>
+
+   <span class="k">if</span> <span class="o">(</span><span class="n">result</span><span class="o">.</span><span class="na">getResult</span><span class="o">()</span> <span class="o">==</span> <span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">Result</span><span class="o">.</span><span class="na">FCO_RESULT_CANCELLED</span><span class="o">)</span> <span class="o">{</span>
+
+   <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div><ol start="3">
+<li>Set up styles in your Application class (can be changed to suit your theme):</li>
+</ol>
+<h4 id="fonts">Fonts</h4>
+<p>The fonts used in this demo are not part of the code provided, but are part of your application.</p>
+<ol>
+<li>Download the fonts you want to use.</li>
+<li>Put them in <strong>SRC</strong> folder &gt; <strong>Main</strong> folder (created for you by Android Studio when you create a project) &gt; <strong>Assets</strong> folder (if you don&rsquo;t have an assets folder already, create one).</li>
+<li>Add the fonts as Typeface to your code as shown in the demo.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="n">Styles</span><span class="o">.</span><span class="na">Builder</span> <span class="n">builder</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Styles</span><span class="o">.</span><span class="na">Builder</span><span class="o">();</span>
+<span class="n">builder</span><span class="o">.</span><span class="na">set</span><span class="o">(</span><span class="s">&#34;mainColor&#34;</span><span class="o">,</span> <span class="s">&#34;#FF7E03&#34;</span><span class="o">);</span>
+<span class="n">builder</span><span class="o">.</span><span class="na">set</span><span class="o">(</span><span class="s">&#34;mainFontSize&#34;</span><span class="o">,</span> <span class="n">30</span><span class="o">);</span>
+
+<span class="o">{</span>
+<span class="n">Typeface</span> <span class="n">typeface</span> <span class="o">=</span> <span class="n">Typeface</span><span class="o">.</span><span class="na">createFromAsset</span><span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">getAssets</span><span class="o">(),</span> <span class="s">&#34;fonts/nunito/Nunito-Medium.ttf&#34;</span><span class="o">);</span>
+   <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span> <span class="n">font</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span><span class="o">(</span><span class="s">&#34;#000000&#34;</span><span class="o">,</span> <span class="n">typeface</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+   <span class="n">builder</span><span class="o">.</span><span class="na">setObject</span><span class="o">(</span><span class="s">&#34;labelFont&#34;</span><span class="o">,</span> <span class="n">font</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="o">{</span>
+ <span class="n">Typeface</span> <span class="n">typeface</span> <span class="o">=</span> <span class="n">Typeface</span><span class="o">.</span><span class="na">createFromAsset</span><span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">getAssets</span><span class="o">(),</span> <span class="s">&#34;fonts/nunito/Nunito-Medium.ttf&#34;</span><span class="o">);</span>
+   <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span> <span class="n">font</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span><span class="o">(</span><span class="s">&#34;#FFFFFF&#34;</span><span class="o">,</span> <span class="n">typeface</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+   <span class="n">builder</span><span class="o">.</span><span class="na">setObject</span><span class="o">(</span><span class="s">&#34;buttonFont&#34;</span><span class="o">,</span> <span class="n">font</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="o">{</span>
+ <span class="n">Typeface</span> <span class="n">typeface</span> <span class="o">=</span> <span class="n">Typeface</span><span class="o">.</span><span class="na">createFromAsset</span><span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">getAssets</span><span class="o">(),</span> <span class="s">&#34;fonts/nunito/Nunito-ExtraLight.ttf&#34;</span><span class="o">);</span>
+   <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span> <span class="n">font</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span><span class="o">(</span><span class="s">&#34;#000000&#34;</span><span class="o">,</span> <span class="n">typeface</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+   <span class="n">builder</span><span class="o">.</span><span class="na">setObject</span><span class="o">(</span><span class="s">&#34;editFont&#34;</span><span class="o">,</span> <span class="n">font</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="o">{</span>
+   <span class="n">Typeface</span> <span class="n">typeface</span> <span class="o">=</span> <span class="n">Typeface</span><span class="o">.</span><span class="na">createFromAsset</span><span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">getAssets</span><span class="o">(),</span> <span class="s">&#34;fonts/galada_regular.ttf&#34;</span><span class="o">);</span>
+   <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span> <span class="n">font</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span><span class="o">(</span><span class="s">&#34;#000000&#34;</span><span class="o">,</span> <span class="n">typeface</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+   <span class="n">builder</span><span class="o">.</span><span class="na">setObject</span><span class="o">(</span><span class="s">&#34;titleFont&#34;</span><span class="o">,</span> <span class="n">font</span><span class="o">);</span>
+   <span class="n">builder</span><span class="o">.</span><span class="na">set</span><span class="o">(</span><span class="s">&#34;title&#34;</span><span class="o">,</span> <span class="s">&#34;qwindo&#34;</span><span class="o">);</span>
+<span class="o">}</span>
+<span class="n">Styles</span> <span class="n">styles</span> <span class="o">=</span> <span class="n">builder</span><span class="o">.</span><span class="na">build</span><span class="o">();</span>
+<span class="n">FastCheckoutSDK</span> <span class="n">sdk</span> <span class="o">=</span> <span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">getInstance</span><span class="o">();</span>
+<span class="n">sdk</span><span class="o">.</span><span class="na">setStyles</span><span class="o">(</span><span class="n">styles</span><span class="o">);</span>
+</code></pre></div><h6 id="complete-example">Complete example</h6>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kn">import</span> <span class="nn">com.multisafepay.sdk.FastCheckoutSDK</span><span class="o">;</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">MainActivity</span> <span class="kd">extends</span> <span class="n">AppCompatActivity</span> <span class="kd">implements</span> <span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">Callback</span><span class="o">{</span>
+
+<span class="kd">private</span> <span class="kd">static</span> <span class="n">FastCheckoutSDK</span> <span class="n">SDK</span><span class="o">;</span>
+<span class="kd">private</span> <span class="n">Button</span> <span class="n">btnStartNewTransaction</span><span class="o">;</span>
+
+<span class="nd">@Override</span>
+<span class="kd">protected</span> <span class="kt">void</span> <span class="nf">onCreate</span><span class="o">(</span><span class="n">Bundle</span> <span class="n">savedInstanceState</span><span class="o">)</span> <span class="o">{</span>
+   <span class="kd">super</span><span class="o">.</span><span class="na">onCreate</span><span class="o">(</span><span class="n">savedInstanceState</span><span class="o">);</span>
+   <span class="n">setContentView</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">layout</span><span class="o">.</span><span class="na">main_activity</span><span class="o">);</span>
+
+   <span class="n">btnStartNewTransaction</span> <span class="o">=</span> <span class="n">findViewById</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">id</span><span class="o">.</span><span class="na">btn_transaction</span><span class="o">);</span>
+
+   <span class="n">SDK</span> <span class="o">=</span> <span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">getInstance</span><span class="o">();</span>
+   <span class="n">SDK</span><span class="o">.</span><span class="na">setAnonymous</span><span class="o">(</span><span class="kc">false</span><span class="o">);</span>
+   <span class="n">SDK</span><span class="o">.</span><span class="na">skipCheckoutInit</span><span class="o">(</span><span class="kc">false</span><span class="o">);</span>
+   <span class="n">SDK</span><span class="o">.</span><span class="na">setApiKey</span><span class="o">(</span><span class="n">API_KEY</span><span class="o">);</span>
+
+   <span class="n">btnLogOut</span><span class="o">.</span><span class="na">setOnClickListener</span><span class="o">(</span><span class="n">view</span> <span class="o">&gt;</span> <span class="n">SDK</span><span class="o">.</span><span class="na">startCheckout</span><span class="o">(</span><span class="n">transaction_id</span><span class="o">,</span> <span class="k">this</span><span class="o">));</span>
+
+   <span class="o">}</span>
+
+<span class="nd">@Override</span>
+<span class="kd">public</span> <span class="kt">void</span> <span class="nf">callback</span><span class="o">(</span><span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">Result</span> <span class="n">result</span><span class="o">)</span> <span class="o">{</span>
+
+   <span class="k">if</span> <span class="o">(</span><span class="n">result</span><span class="o">.</span><span class="na">getResult</span><span class="o">()</span> <span class="o">==</span> <span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">Result</span><span class="o">.</span><span class="na">FCO_RESULT_UNCLEARED</span><span class="o">)</span> <span class="o">{</span>
+      
+   <span class="o">}</span>
+
+   <span class="k">if</span> <span class="o">(</span><span class="n">result</span><span class="o">.</span><span class="na">getResult</span><span class="o">()</span> <span class="o">==</span> <span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">Result</span><span class="o">.</span><span class="na">FCO_RESULT_OK</span><span class="o">)</span> <span class="o">{</span>
+      
+   <span class="o">}</span>
+
+   <span class="k">if</span> <span class="o">(</span><span class="n">result</span><span class="o">.</span><span class="na">getResult</span><span class="o">()</span> <span class="o">==</span> <span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">Result</span><span class="o">.</span><span class="na">FCO_RESULT_CANCELLED</span><span class="o">)</span> <span class="o">{</span>
+
+   <span class="o">}</span>
+
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kn">import</span> <span class="nn">com.multisafepay.sdk.FastCheckoutSDK</span><span class="o">;</span>
+
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">YourApplicationClassName</span> <span class="kd">extends</span> <span class="n">Application</span> <span class="o">{</span>
+
+<span class="nd">@Override</span>
+<span class="kd">protected</span> <span class="kt">void</span> <span class="nf">onCreate</span><span class="o">(</span><span class="n">Bundle</span> <span class="n">savedInstanceState</span><span class="o">)</span> <span class="o">{</span>
+   <span class="kd">super</span><span class="o">.</span><span class="na">onCreate</span><span class="o">(</span><span class="n">savedInstanceState</span><span class="o">);</span>
+   <span class="n">setContentView</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">layout</span><span class="o">.</span><span class="na">main_activity</span><span class="o">);</span>
+
+   <span class="n">Styles</span><span class="o">.</span><span class="na">Builder</span> <span class="n">builder</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Styles</span><span class="o">.</span><span class="na">Builder</span><span class="o">();</span>
+   <span class="n">builder</span><span class="o">.</span><span class="na">set</span><span class="o">(</span><span class="s">&#34;mainColor&#34;</span><span class="o">,</span> <span class="s">&#34;#FF7E03&#34;</span><span class="o">);</span>
+   <span class="n">builder</span><span class="o">.</span><span class="na">set</span><span class="o">(</span><span class="s">&#34;mainFontSize&#34;</span><span class="o">,</span> <span class="n">30</span><span class="o">);</span>
+
+<span class="o">{</span>
+<span class="n">Typeface</span> <span class="n">typeface</span> <span class="o">=</span> <span class="n">Typeface</span><span class="o">.</span><span class="na">createFromAsset</span><span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">getAssets</span><span class="o">(),</span> <span class="s">&#34;fonts/nunito/Nunito-Medium.ttf&#34;</span><span class="o">);</span>
+   <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span> <span class="n">font</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span><span class="o">(</span><span class="s">&#34;#000000&#34;</span><span class="o">,</span> <span class="n">typeface</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+   <span class="n">builder</span><span class="o">.</span><span class="na">setObject</span><span class="o">(</span><span class="s">&#34;labelFont&#34;</span><span class="o">,</span> <span class="n">font</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="o">{</span>
+ <span class="n">Typeface</span> <span class="n">typeface</span> <span class="o">=</span> <span class="n">Typeface</span><span class="o">.</span><span class="na">createFromAsset</span><span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">getAssets</span><span class="o">(),</span> <span class="s">&#34;fonts/nunito/Nunito-Medium.ttf&#34;</span><span class="o">);</span>
+   <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span> <span class="n">font</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span><span class="o">(</span><span class="s">&#34;#FFFFFF&#34;</span><span class="o">,</span> <span class="n">typeface</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+   <span class="n">builder</span><span class="o">.</span><span class="na">setObject</span><span class="o">(</span><span class="s">&#34;buttonFont&#34;</span><span class="o">,</span> <span class="n">font</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="o">{</span>
+ <span class="n">Typeface</span> <span class="n">typeface</span> <span class="o">=</span> <span class="n">Typeface</span><span class="o">.</span><span class="na">createFromAsset</span><span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">getAssets</span><span class="o">(),</span> <span class="s">&#34;fonts/nunito/Nunito-ExtraLight.ttf&#34;</span><span class="o">);</span>
+   <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span> <span class="n">font</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span><span class="o">(</span><span class="s">&#34;#000000&#34;</span><span class="o">,</span> <span class="n">typeface</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+   <span class="n">builder</span><span class="o">.</span><span class="na">setObject</span><span class="o">(</span><span class="s">&#34;editFont&#34;</span><span class="o">,</span> <span class="n">font</span><span class="o">);</span>
+<span class="o">}</span>
+
+<span class="o">{</span>
+   <span class="n">Typeface</span> <span class="n">typeface</span> <span class="o">=</span> <span class="n">Typeface</span><span class="o">.</span><span class="na">createFromAsset</span><span class="o">(</span><span class="k">this</span><span class="o">.</span><span class="na">getAssets</span><span class="o">(),</span> <span class="s">&#34;fonts/galada_regular.ttf&#34;</span><span class="o">);</span>
+   <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span> <span class="n">font</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Styles</span><span class="o">.</span><span class="na">Font</span><span class="o">(</span><span class="s">&#34;#000000&#34;</span><span class="o">,</span> <span class="n">typeface</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+   <span class="n">builder</span><span class="o">.</span><span class="na">setObject</span><span class="o">(</span><span class="s">&#34;titleFont&#34;</span><span class="o">,</span> <span class="n">font</span><span class="o">);</span>
+   <span class="n">builder</span><span class="o">.</span><span class="na">set</span><span class="o">(</span><span class="s">&#34;title&#34;</span><span class="o">,</span> <span class="s">&#34;qwindo&#34;</span><span class="o">);</span>
+<span class="o">}</span>
+<span class="n">Styles</span> <span class="n">styles</span> <span class="o">=</span> <span class="n">builder</span><span class="o">.</span><span class="na">build</span><span class="o">();</span>
+<span class="n">FastCheckoutSDK</span> <span class="n">sdk</span> <span class="o">=</span> <span class="n">FastCheckoutSDK</span><span class="o">.</span><span class="na">getInstance</span><span class="o">();</span>
+<span class="n">sdk</span><span class="o">.</span><span class="na">setStyles</span><span class="o">(</span><span class="n">styles</span><span class="o">);</span>
+
+   <span class="o">}</span>
+<span class="o">}</span>
+
+</code></pre></div><h3 id="sdk-snapshots">SDK snapshots</h3>
+<ol>
+<li>The following snapshots walk you through some of the features offered by the Fastcheckout Android/iOS SDK.
+<ul>
+<li>
+<p>Logging in with a registered email:</p>
+<p><a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size zoomable"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-1.png" title="screenshot 1">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-2.png" title="screenshot 2">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+</p>
+</li>
+<li>
+<p>Logging in with an unregistered email automatically takes the customer to the <strong>Register</strong> screen:</p>
+<p><a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-3.png" title="screenshot 3">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-4.png" title="screenshot 4">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-5.png" title="screenshot 5">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+</p>
+</li>
+<li>
+<p>If the customer is registered and resets their email account, the SDK automatically sends a new security code to the new email provided:</p>
+<p><a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-6.png" title="screenshot 6">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-7.png" title="screenshot 7">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+</p>
+</li>
+<li>
+<p>Once the customer enters the security code received by email (if the security code is received via SMS it is automatically added to the appropriate field, and the SDK moves into the following state) the SDK asks for a new security PIN. Having entered the PIN, the SDK provides biometric options (iOS also supports face recognition):</p>
+<p><a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-8.png" title="screenshot 8">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-9.png" title="screenshot 9">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+</p>
+</li>
+<li>
+<p>The checkout process follows. From the webshop checkout, the SDK enters into the checkout process. The first screen is the <strong>Delivery</strong> screen, with shipping options (if available). When the customer clicks <strong>Continue</strong>, the SDK moves to the <strong>Payment</strong> screen and the payment logic follows.</p>
+<p><a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-10.png" title="screenshot 10">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-11.png" title="screenshot 11">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-12.png" title="screenshot 12">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-13.png" title="screenshot 13">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+</p>
+</li>
+<li>
+<p>Once the payment process is completed, the SDK proceeds to the <strong>Transaction complete</strong> screen. The SDK callback notifies the client app of the transaction status, e.g. Uncleared, Cancelled. Clicking <strong>Back to shop</strong> redirect the customer back to the webshop.</p>
+<a href="javascript:void(0)" class="img-zoomable" onclick="selectImgZoom(this)">
+    <img  class="img-size"   src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-14.png" title="screenshot 14">
+</a>
+
+
+
+<script type="text/javascript">
+	function selectImgZoom(item) {
+		if($(window).width() >640) {
+			if($(item).hasClass('selected')){
+				$(item).toggleClass('selected');
+			}
+			else{
+				$('.img-zoomable').removeClass('selected');
+				$(item).addClass('selected')
+			}
+		}
+
+		$(window).scroll(function(){
+    		 $('.img-zoomable').removeClass('selected');
+		});
+	}	
+</script>
+
+
+</li>
+</ul>
+</li>
+</ol>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/developer/wrappers/fastcheckout-android/manual.md' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+        <script src="/js/copy-code-button.js"></script>
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

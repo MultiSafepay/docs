@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integrating the previous release on MultiSafepay Docs</title>
+    <link>https://docs.multisafepay.com/payment-components/previous-release/</link>
+    <description>Recent content in Integrating the previous release on MultiSafepay Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://docs.multisafepay.com/payment-components/previous-release/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integrating the previous release</title>
+      <link>https://docs.multisafepay.com/payment-components/previous-release/step-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payment-components/previous-release/step-2/</guid>
+      <description>Step 2: Initialize the component Generate an API token Payment Components require a MultiSafepay API token. See API reference – Generate an API token.
+ Note: To keep your API key private, request the token from your own server.   Construct the component object 1. Initialize an orderData object, containing information about the customer&amp;rsquo;s order collected during the checkout process:
+const orderData = { currency: &#39;EUR&#39;, amount: 10000, customer: { locale: &#39;en&#39;, country: &#39;NL&#39;, reference: &#39;Customer123&#39; }, template : { settings: { embed_mode: true } } };   View properties      Key Value     currency The currency of the order.</description>
+    </item>
+    
+    <item>
+      <title>Integrating the previous release</title>
+      <link>https://docs.multisafepay.com/payment-components/previous-release/step-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payment-components/previous-release/step-3/</guid>
+      <description>Step 3: Create an order Collect payment data 1. To collect the customer&amp;rsquo;s payment details from the payment component UI, call the PaymentComponent.getPaymentData() method:
+PaymentComponent.getPaymentData() 2. Pass the payment_data to your server.
+Create an order Make a Create order &amp;gt; Payment component request from your server:
+ Append the payment_data collected from the payment component UI to the orderData collected during the checkout process. Replace the &amp;lt;GATEWAY&amp;gt; placeholder with the relevant gateway identifier, see Step 2: Initialize the component.</description>
+    </item>
+    
+    <item>
+      <title>Integrating the previous release</title>
+      <link>https://docs.multisafepay.com/payment-components/previous-release/step-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payment-components/previous-release/step-4/</guid>
+      <description>Step 4: Go live When you&amp;rsquo;re ready to process real payments, make the following changes:
+1. In Step 2: Construct the component object, change the environment from test to live:
+PaymentComponent = new MultiSafepay({ env: &#39;live&#39;, apiToken: apiToken, order: orderData }); 2. In Step 3: Create an order, change the test endpoint to the live endpoint:
+https://api.multisafepay.com/v1/json/orders
+ Back
+Step 3: Create an order
+  Next
+Customizing Payment Components</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>PrestaShop 1.7 plugin - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="PrestaShop 1.7 plugin" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/prestashop-1-7/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+    <link href="https://docs.multisafepay.com/prestashop-1-7/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+    <link rel="canonical" href="/prestashop-1-7/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/">Integrations</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made</a>
+  
+
+</li>
+
+
+<li>
+
+
+  PrestaShop 1.7 plugin
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="PrestaShop 1.7 plugin">PrestaShop 1.7 plugin</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                    <img class="plugin-logo" src="/logo/Plugins/PrestaShop.svg">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                    <div class="row pt-5 pb-5 px-3 clearfix">
+                            
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="https://github.com/MultiSafepay/prestashop-official" style="font-size: 1.4rem" class="bg-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                View source code<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon">
+                                </a>
+                            </div>
+                            
+                            
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="https://github.com/MultiSafepay/prestashop-official/blob/main/CHANGELOG.md" style="font-size: 1.4rem" class="bg-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                Changelog<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon">
+                                </a>
+                            </div>
+                            
+                            
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="https://github.com/MultiSafepay/prestashop-official/releases/download/5.5.0/Plugin_PrestaShop_5.5.0.zip" style="font-size: 1.4rem" class="bg-dark-msp-blue text-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                Download<img src="/svgs/Download-white.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="download-icon">
+                                </a>
+                            </div>
+                            
+                    </div>
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>This technical manual is for installing and configuring MultiSafepay&rsquo;s free plugin for integrating with Prestashop 1.7.</p>
+<div class="alert-notice">
+    <span>
+        If you are still using the <a href="https://github.com/MultiSafepay/prestashop">deprecated plugin</a>, we recommend upgrading to the latest version as soon as possible.
+    </span>
+</div>
+<div>
+	<details id="details-requirements">
+		<summary>
+			Requirements
+		</summary>
+		<p>
+			<ul>
+<li><a href="/getting-started/guide/">MultiSafepay account</a></li>
+<li>PrestaShop version 1.7.6 or higher</li>
+<li>PHP version 7.2 or higher</li>
+</ul>
+<p>If you&rsquo;re on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an older version (4.x) of our plugin which can be found in our <a href="https://github.com/MultiSafepay/prestashop/releases">PrestaShop GitHub repository</a>.
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-support">
+		<summary>
+			Support
+		</summary>
+		<p>
+			<p>We support versions 1.7.6, 1.7.7, 1.7.8.</p>
+<p>To use an older version of the plugin, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/prestashop/releases">PrestaShop releases</a>.</p>
+<p>Contact us:</p>
+<ul>
+<li>Telephone: +31 (0)20 8500 500</li>
+<li>Email: <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></li>
+<li>GitHub: Create a technical issue</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="installation">Installation</h2>
+<div class="blue-notice">
+    <span>
+        We recommend first installing the plugin in a test environment, following the PrestaShop 1.7 installation procedure. Always make a backup.
+    </span>
+</div>
+<ol>
+<li>Sign in to your PrestaShop 1.7 backend.</li>
+<li>Go to <strong>Modules</strong> &gt; <strong>Module Manager</strong> &gt; <strong>Upload a module</strong>.</li>
+<li>Select the Plugin_PrestaShop.zip file, and then click <strong>Configure</strong>.</li>
+<li>Clear your cache.</li>
+</ol>
+<h2 id="configuration">Configuration</h2>
+<ol>
+<li>Sign in to your PrestaShop 1.7 backend.</li>
+<li>Go to <strong>Improve</strong> &gt; <strong>MultiSafepay</strong>, and enter your <a href="/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code">API key</a>.</li>
+<li>On the <strong>Payment methods</strong> tab, enable the relevant payment methods.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+<h2 id="user-guide">User guide</h2>
+<h3 id="backend-orders">Backend orders</h3>
+<p>In the previous version of the plugin, PrestaShop backend orders were only created for MultiSafepay orders with <strong>Completed</strong> status. Now, a backend order is created for <strong>every</strong> order attempt, that is for MultiSafepay orders with <strong>Initialized</strong> status.</p>
+<h3 id="checkouts">Checkouts</h3>
+<p>The plugin supports the PrestaShop core checkout and is compatible with most premium themes, unless you have a custom checkout.</p>
+<div>
+	<details id="details-supported-third-party-modules">
+		<summary>
+			Supported third-party modules
+		</summary>
+		<p>
+			<p>The following third-party modules are supported:</p>
+<ul>
+<li><a href="https://addons.prestashop.com/en/express-checkout-process/8503-one-page-checkout-ps-easy-fast-intuitive.html">One Page Checkout PS</a></li>
+<li><a href="https://addons.prestashop.com/en/express-checkout-process/42005-the-checkout.html">The Checkout</a> – Payment options must be set on separate pages in the plugin settings page.</li>
+</ul>
+<p>The Integration Team will do their best to provide support for third-party plugins and premium themes. Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="generic-gateways">Generic gateways</h3>
+<p>The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay <a href="/payment-pages/">payment page</a>. You can use them to integrate custom gift cards, or co-branded credit cards.</p>
+<div>
+	<details id="details-configuring-generic-gateways">
+		<summary>
+			Configuring generic gateways
+		</summary>
+		<p>
+			<ol>
+<li>Sign in to your Prestashop 1.7 backend.</li>
+<li>Go to <strong>Improve</strong> &gt; <strong>MultiSafepay</strong> &gt; <strong>Payment methods</strong> &gt; <strong>Generic gateway</strong>.</li>
+<li>Set the relevant <a href="https://docs-api.multisafepay.com/reference/gateway-ids">payment method gateway IDs</a> and the gateway icon.</li>
+</ol>
+<p>The generic gateway supports:</p>
+<ul>
+<li>All payment methods (filter by country, currency, customer group, and minimum/maximum amount)</li>
+<li><a href="/payments/split-payments/">Split payments</a>, <a href="/features/second-chance/">Second Chance reminders</a> and <a href="/payments/virtual-ibans/">virtual IBANs</a></li>
+<li><a href="https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect">Redirect requests</a> only</li>
+</ul>
+<p><strong>Gift cards</strong></p>
+<p>Generic gateways are particularly useful for integrating <a href="/payment-methods/gift-cards/">gift cards</a>, including <a href="/payment-methods/gift-cards/custom-cards/">custom gift cards</a>. This is because we don&rsquo;t support all <a href="/payment-methods/gift-cards/open-loop-closed-loop/">open-loop gift cards</a> in our ready-made integrations and <em>no</em> closed-loop gift cards.</p>
+<p><strong>Co-branded credit cards</strong></p>
+<p>You can integrate Visa co-branded credit cards (<a href="/payment-methods/cartes-bancaires/">Cartes Bancaires</a>, <a href="/payment-methods/dankort/">Dankort</a>, and <a href="/payment-methods/vpay/">V Pay</a>), using the generic <code>VISA</code> gateway.</p>
+<p>For the logo, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/MultiSafepay-icons/tree/master/methods">MultiSafepay icons</a>.</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="order-flows">Order flows</h3>
+<p>The plugin supports two flows for creating orders: <strong>before</strong> or <strong>after</strong> the transaction is completed.</p>
+<div>
+	<details id="details-before-flow">
+		<summary>
+			Before flow
+		</summary>
+		<p>
+			<p>By default, order confirmation emails are sent before the payment is finalized.<br>
+You can disable this feature.</p>
+<p>The status of abandoned payments changes to <strong>Cancelled</strong>.</p>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-after-flow">
+		<summary>
+			After flow
+		</summary>
+		<p>
+			Orders are created via a MultiSafepay notification to PrestaShop using the <code>cart ID</code>. After completing payment, the customer is redirected to your order confirmation page.<br>
+If the notification hasn&rsquo;t been processed yet, a waiting page with a loader displays while the order is created.
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-switching-order-flows">
+		<summary>
+			Switching order flows
+		</summary>
+		<p>
+			<p>To change the flow you are using, follow these steps:</p>
+<ol>
+<li>Sign in to your PrestaShop 1.7 backend.</li>
+<li>Go to <strong>Improve</strong> &gt; <strong>Module manager</strong> &gt; <strong>MultiSafepay</strong>.</li>
+<li>In the <strong>MultiSafepay module</strong>, go to the <strong>General settings</strong> tab.</li>
+<li>In the <strong>Create order before payment</strong> field, select the flow.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="order-flows-1">Order flows</h3>
+<p>The plugin supports two flows for creating orders: <strong>before</strong> or <strong>after</strong> the transaction is completed.</p>
+<div>
+	<details id="details-before-flow">
+		<summary>
+			Before flow
+		</summary>
+		<p>
+			<p>By default, order confirmation emails are sent before the payment is finalized.<br>
+You can disable this feature.</p>
+<p>The status of abandoned payments changes to <strong>Cancelled</strong>.</p>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-after-flow">
+		<summary>
+			After flow
+		</summary>
+		<p>
+			Orders are created via a MultiSafepay notification to PrestaShop using the <code>cart ID</code>. After completing payment, the customer is redirected to your order confirmation page.<br>
+If the notification hasn&rsquo;t been processed yet, a waiting page with a loader displays while the order is created.
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-switching-order-flows">
+		<summary>
+			Switching order flows
+		</summary>
+		<p>
+			<p>To change the flow you are using, follow these steps:</p>
+<ol>
+<li>Sign in to your PrestaShop 1.7 backend.</li>
+<li>Go to <strong>Improve</strong> &gt; <strong>Module manager</strong> &gt; <strong>MultiSafepay</strong>.</li>
+<li>In the <strong>MultiSafepay module</strong>, go to the <strong>General settings</strong> tab.</li>
+<li>In the <strong>Create order before payment</strong> field, select the flow.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="payment-components">Payment components</h3>
+<p>The plugin supports <a href="/payment-components/">payment components</a>, which:</p>
+<ul>
+<li>Provide a seamless checkout experience to increase conversion.</li>
+<li>Encrypt customer payment details for secure processing.</li>
+<li>Shift responsibility for <a href="/glossaries/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss">PCI DSS compliance</a> to MultiSafepay.</li>
+</ul>
+<div>
+	<details id="details-activating-payment-components">
+		<summary>
+			Activating payment components
+		</summary>
+		<p>
+			<p>If you&rsquo;re new to accepting credit card payments, email a request to activate them to <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></p>
+<ol>
+<li>Sign in to your PrestaShop 1.7 backend.</li>
+<li>Go to <strong>MultiSafepay module</strong> &gt; <strong>Payment methods</strong> &gt; <strong>Credit card</strong>.</li>
+<li>Slide the <strong>Enable payment component</strong> radio button to <strong>Enabled</strong>.</li>
+<li>Click <strong>Save config</strong>.</li>
+</ol>
+<p>For support, email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+<p><strong>Note:</strong> If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can&rsquo;t guarantee compatibility in all cases.</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="payment-methods">Payment methods</h3>
+<div>
+	<details id="details-payment-methods">
+		<summary>
+			Payment methods
+		</summary>
+		<p>
+			<ul>
+<li>Cards: <a href="/payment-methods/credit-debit-cards/">All</a></li>
+<li>Banking methods: <a href="/payment-methods/banks/">All</a></li>
+<li>Pay later methods: <a href="/payment-methods/pay-later/">All</a></li>
+<li>Wallets: <a href="/payment-methods/wallets/">All</a></li>
+<li>Prepaid cards:
+<ul>
+<li>Baby Giftcard</li>
+<li>Beauty and wellness</li>
+<li>Boekenbon</li>
+<li>Degrotespeelgoedwinkel</li>
+<li>Fashioncheque</li>
+<li>Fashion gift card</li>
+<li>Fietsenbon</li>
+<li>Gezondheidsbon</li>
+<li>Givacard</li>
+<li>Good4fun</li>
+<li>Goodcard</li>
+<li>Nationale tuinbon</li>
+<li>Parfumcadeaukaart</li>
+<li>Paysafecard</li>
+<li>Podium</li>
+<li>Sport en Fit</li>
+<li>VVV gift card</li>
+<li>Webshop gift card</li>
+<li>Wellness gift card</li>
+<li>Wijncadeau</li>
+<li>Winkelcheque</li>
+<li>Yourgift</li>
+</ul>
+</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="recurring-payments">Recurring payments</h3>
+<div>
+	<details id="details-enabling-recurring-payments">
+		<summary>
+			Enabling recurring payments
+		</summary>
+		<p>
+			<p>To enable <a href="/features/recurring-payments">Recurring Payments</a>, follow these steps:</p>
+<ol>
+<li>Sign in to your PrestaShop 1.7 backend.</li>
+<li>Go to <strong>Improve</strong> &gt; <strong>Module manager</strong> &gt; <strong>MultiSafepay</strong>.</li>
+<li>In the MultiSafepay module, go to the <strong>Payment methods</strong> tab.</li>
+<li>Select either the bundled credit cards gateway, <strong>or</strong> select specific credit cards.</li>
+<li>Set the <strong>Enable tokenization</strong> toggle to <strong>Enabled</strong>.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="refunds">Refunds</h3>
+<p><a href="/refunds/#full-and-partial-refunds">Full and partial refunds</a> are supported in your MultiSafepay dashboard and backend.<br>
+<a href="/payment-methods/pay-later/">Pay later refunds</a> are only supported in your dashboard.</p>
+<div>
+	<details id="details-disabling-api-refunds">
+		<summary>
+			Disabling API refunds
+		</summary>
+		<p>
+			<p>By default, refunds initiated in your backend are automatically processed via our API, <strong>except</strong> for voucher refunds.</p>
+<p>To disable this, follow these steps:</p>
+<ol>
+<li>Sign in to your PrestaShop 1.7 backend.</li>
+<li>Go to <strong>MultiSafepay module</strong> &gt; <strong>Manage hooks</strong>.</li>
+<li>Select <strong>Display non-positionable hooks</strong>.</li>
+<li>For <strong>actionOrderSlipAdd</strong>, select the three dots, and then click <strong>Unhook</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="shopping-carts">Shopping carts</h3>
+<p>If you notice errors in shopping cart calculations, email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+<p>As a temporary solution, you can disable sending the shopping cart with the payment request.</p>
+<p><strong>Note:</strong> Pay later methods do not work if the shopping cart is disabled.</p>
+<div>
+	<details id="details-disabling-the-shopping-cart">
+		<summary>
+			Disabling the shopping cart
+		</summary>
+		<p>
+			<ol>
+<li>Sign in to your PrestaShop 1.7 backend.</li>
+<li>Go to <strong>Improve</strong> &gt; <strong>Module manager</strong> &gt; <strong>MultiSafepay</strong>.</li>
+<li>In the MultiSafepay module, go to the <strong>General settings</strong> tab.</li>
+<li>Set the <strong>Disable Shopping Cart</strong> toggle to <strong>Enabled</strong>.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="surcharges">Surcharges</h3>
+<p><a href="/surcharges/">Surcharges</a> are not supported by default.</p>
+<div>
+	<details id="details-applying-surcharges-with-third-party-add-ons">
+		<summary>
+			Applying surcharges with third-party add-ons
+		</summary>
+		<p>
+			<p>There are several <a href="https://addons.prestashop.com/en/search?search_query=surcharge">third-party add-ons</a> available. However, we can&rsquo;t guarantee compatibility with our plugin. Make sure that you test them carefully before installing.</p>
+<p><strong>Attention Dutch merchants</strong></p>
+<p>We strongly recommend <strong>not</strong> applying surcharges to <a href="/payment-methods/pay-later/">pay later methods</a>. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="translation">Translation</h3>
+<div>
+	<details id="details-translating-the-multisafepay-module-">
+		<summary>
+			Translating the MultiSafepay module 
+		</summary>
+		<p>
+			<p>To translate elements of the MultiSafepay module in the plugin, follow these steps:</p>
+<ol>
+<li>Sign in to your PrestaShop 1.7 backend.</li>
+<li>Go to <strong>Improve</strong> &gt; <strong>International</strong> &gt; <strong>Translations</strong>.</li>
+<li>On the <strong>Modify translations</strong> tab, from the <strong>Type of translation</strong> list, select <strong>Installed module translations</strong>.</li>
+<li>Select the <strong>MultiSafepay</strong> module and the <strong>Language</strong>, and then click <strong>Modify</strong>.</li>
+<li>Enter the required translations, and then click <strong>Save</strong>.</li>
+</ol>
+<p>To translate the names of payment methods:</p>
+<ol>
+<li>Go to <strong>Improve</strong> &gt; <strong>MultiSafepay</strong> &gt; <strong>Payment methods</strong>.</li>
+<li>Select the payment method you want to translate.</li>
+<li>Make sure the <strong>Title</strong> field is empty.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="updates">Updates</h3>
+<div>
+	<details id="details-updating-in-your-backend">
+		<summary>
+			Updating in your backend
+		</summary>
+		<p>
+			<ol>
+<li>Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.</li>
+<li>Download the plugin again above.</li>
+<li>Follow the <a href="/prestashop-1-7/#installation">Installation</a> instructions.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="upgrading-from-4x-or-lower">Upgrading from 4.x or lower</h3>
+<div>
+	<details id="details-upgrading-to-version-5.x">
+		<summary>
+			Upgrading to version 5.x
+		</summary>
+		<p>
+			<p>To upgrade to version 5.x from an older version, follow these steps:</p>
+<ol>
+<li>Go to <strong>Modules</strong> &gt; <strong>Module manager</strong> &gt; <strong>MultiSafepay</strong> &gt; <strong>Configure</strong>.</li>
+<li>On the <strong>Payment methods</strong> tab, set all payment methods to <strong>Off</strong>.</li>
+<li>On the <strong>Gift cards</strong> tab, set all gift cards to <strong>Off</strong>.</li>
+<li>Install and configure the new plugin following the instructions below.</li>
+<li>Only uninstall the older plugin when you&rsquo;re sure that orders created with the new plugin are being processed successfully.</li>
+</ol>
+<p>If upgrading from 5.x to a newer version, see <a href="/prestashop-1-7/updates">Updates</a>.</p>
+
+		</p>
+	</details>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/integration/ready-made/prestashop-1-7/' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Google Pay direct integration - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    <meta name="robots" content="noindex,nofollow" />
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="Google Pay direct integration" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/google-pay/direct/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+    <link href="https://docs.multisafepay.com/google-pay/direct/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+    <link rel="canonical" href="/google-pay/direct/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li class="Selected"><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/">Integrations</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/wallet-integrations/">Wallet integrations</a>
+  
+
+</li>
+
+
+<li>
+
+
+  Direct integration
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="Google Pay direct integration">Google Pay direct integration</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>With direct integration, the <strong>Google Pay</strong> button appears in your checkout page, where customers complete payment without being redirected to a <a href="/payment-pages/">payment page</a>.</p>
+<div class="my-5" align="center" >
+    
+    <img class="-radius max-width small-img desktop-radius" src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/google-pay-screen.png" alt="" >
+    
+</div>
+
+<div class="blue-notice">
+    <span>
+        <strong>Note:</strong> By accessing or using the Google Pay API, you agree to the <a href="https://payments.developers.google.com/terms/sellertos">Google API Terms of Service</a>.
+    </span>
+</div>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>Google Pay must be <a href="/payment-methods/google-pay/activation/">activated in your MultiSafepay account</a>.</li>
+<li>You need to register your business and website in <a href="https://pay.google.com/business/console/">Google Pay&rsquo;s Business Console</a>.</li>
+<li>You must serve an HTTPS webpage with a TLS domain-validated certificate.</li>
+</ul>
+<div>
+	<details id="details-supported-browsers">
+		<summary>
+			Supported browsers
+		</summary>
+		<p>
+			<p>Customers can use the following supported web browsers:</p>
+<ul>
+<li>Apple Safari</li>
+<li>Google Chrome</li>
+<li>Microsoft Edge</li>
+<li>Mozilla Firefox</li>
+<li>Opera</li>
+<li>UCWeb UC Browser</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="step-1-initialize">Step 1: Initialize</h2>
+<h3 id="add-the-google-pay-library">Add the Google Pay library</h3>
+<p>Add the Google Pay JavaScript library to the bottom of the <code>&lt;body&gt;</code> of your checkout page:</p>
+<pre tabindex="0"><code>&lt;script
+  async
+  src=&quot;https://pay.google.com/gp/p/js/pay.js&quot;
+  onload=&quot;onGooglePayLoaded()&quot;&gt;
+&lt;/script&gt;
+</code></pre><p><strong>Note</strong>: The <code>onload</code> event handler is used to display the <strong>Google Pay</strong> button. For more information, see <a href="/payment-methods/google-pay/direct/#display-the-google-pay-button">Display the Google Pay button</a>.</p>
+<h3 id="place-the-google-pay-button">Place the Google Pay button</h3>
+<p>Create an element in the <code>&lt;body&gt;</code> of your checkout page where you want to display the <strong>Google Pay</strong> button:</p>
+<pre tabindex="0"><code>&lt;div id=&quot;button-container&quot; style=&quot;width: 160px; height: 40px;&quot;&gt;&lt;/div&gt;
+</code></pre><p><strong>Note</strong>: This element is populated in a later step. For more information, see <a href="/payment-methods/google-pay/direct/#display-the-google-pay-button">Display the Google Pay button</a>.</p>
+<h3 id="configure-google-pay">Configure Google Pay</h3>
+<p><strong>1.</strong> Define which version of the Google Pay API you are using.</p>
+<p>On the client-side, create an object containing the major and minor versions of the Google Pay API that your integration supports:</p>
+<pre tabindex="0"><code>const baseRequest = {
+  apiVersion: 2,
+  apiVersionMinor: 0
+};
+</code></pre><p><strong>2.</strong> Configure the Google Pay payment token request.</p>
+<p><strong>Note:</strong> Google Pay uses payment tokens to encrypt the customer&rsquo;s payment details for secure processing.</p>
+<p>Create a <code>tokenizationSpecification</code> object:</p>
+<pre tabindex="0"><code>const tokenizationSpecification = {
+  type: 'PAYMENT_GATEWAY',
+  parameters: {
+    'gateway': 'multisafepay',
+    'gatewayMerchantId': 'yourMultiSafepayAccountId'
+  }
+};
+</code></pre><ul>
+<li>For <code>gateway</code>, specify <code>multisafepay</code>.</li>
+<li>For <code>gatewayMerchantId</code>, specify your MultiSafepay account ID.</li>
+</ul>
+<p><strong>3.</strong> Define supported payment card networks.</p>
+<p>Create an <code>allowedCardNetworks</code> array containing card networks accepted by your website:</p>
+<pre tabindex="0"><code>const allowedCardNetworks = [&quot;MAESTRO&quot;, &quot;MASTERCARD&quot;, &quot;VISA&quot;];
+</code></pre><p><strong>Options</strong>: <code>MAESTRO</code>, <code>MASTERCARD</code>, <code>VISA</code>.</p>
+<p>For more information about supported payment card networks, see Google Pay – <a href="https://developers.google.com/pay/api/web/reference/request-objects#CardParameters">Request objects</a>.</p>
+<p><strong>4.</strong> Define supported authentication methods.</p>
+<p>Create an <code>allowedCardAuthMethods</code> array containing authentication methods accepted by your website:</p>
+<pre tabindex="0"><code>const allowedCardAuthMethods = [&quot;CRYPTOGRAM_3DS&quot;, &quot;PAN_ONLY&quot;];
+</code></pre><p><strong>Options</strong>: <code>CRYPTOGRAM_3DS</code>, <code>PAN_ONLY</code>.</p>
+<p>For more information about authentication methods, see Google Pay – <a href="https://developers.google.com/pay/api/web/reference/request-objects#CardParameters">Request objects</a>.</p>
+<p><strong>5.</strong> Describe your supported payment methods.</p>
+<p>Combine the supported payment card networks and authentication methods to describe what your site supports for the <code>CARD</code> payment method:</p>
+<pre tabindex="0"><code>const baseCardPaymentMethod = {
+  type: 'CARD',
+  parameters: {
+    allowedAuthMethods: allowedCardAuthMethods,
+    allowedCardNetworks: allowedCardNetworks
+  }
+};
+</code></pre><p><strong>6.</strong> Extend the <code>baseCardPaymentMethod</code> object to include the <code>tokenizationSpecification</code>:</p>
+<pre tabindex="0"><code>const cardPaymentMethod = Object.assign(
+  {tokenizationSpecification: tokenizationSpecification},
+  baseCardPaymentMethod
+);
+</code></pre><h3 id="initialize-google-pay">Initialize Google Pay</h3>
+<p>Create a Google Pay <code>paymentsClient</code> object and specify the relevant environment:</p>
+<pre tabindex="0"><code>const paymentsClient =
+    new google.payments.api.PaymentsClient({environment: 'TEST'});
+</code></pre><p>When you have finished testing, change the environment to <code>PRODUCTION</code>.</p>
+<h2 id="step-2-display-the-button">Step 2: Display the button</h2>
+<h3 id="check-for-google-pay-support">Check for Google Pay support</h3>
+<p><strong>1.</strong> Add your supported payment methods to your <code>baseRequest</code> object:</p>
+<pre tabindex="0"><code>const isReadyToPayRequest = Object.assign({}, baseRequest);
+isReadyToPayRequest.allowedPaymentMethods = [baseCardPaymentMethod];
+</code></pre><p><strong>2.</strong> Create an event handler for when the Google Pay JavaScript library is loaded.</p>
+<p>With the <code>isReadyToPay()</code> method, check if the Google Pay API is supported by the customer&rsquo;s device and browser:</p>
+<pre tabindex="0"><code>function onGooglePayLoaded() {
+    paymentsClient.isReadyToPay(IsReadyToPayRequest)
+        .then(function(response) {
+            if (response.result) {
+                addGooglePayButton();
+            }
+        })
+        .catch(function(err) {
+            // Show error in developer console for debugging
+            console.error(err);
+        });
+}
+</code></pre><h3 id="display-the-google-pay-button">Display the Google Pay button</h3>
+<p>To create a <strong>Google Pay</strong> button, populate the <code>button-container</code> element:</p>
+<pre tabindex="0"><code>function addGooglePayButton() {
+    const buttonContainer = document.getElementById('button-container');
+    const button = paymentsClient.createButton({
+        buttonType: 'plain',
+        onClick: onGooglePaymentButtonClicked
+    });
+    buttonContainer.appendChild(button);
+}
+</code></pre><h3 id="style-the-button">Style the button</h3>
+<p>For infomation about styling your <strong>Google Pay</strong> button, see Google Pay:</p>
+<ul>
+<li><a href="https://developers.google.com/pay/api/web/guides/resources/customize">Customize your button</a></li>
+<li><a href="https://developers.google.com/pay/api/web/guides/ux-best-practices">User experience best practices</a></li>
+<li><a href="https://developers.google.com/pay/api/web/guides/brand-guidelines">Brand guidelines</a></li>
+</ul>
+<h2 id="step-3-create-a-payment-request">Step 3: Create a payment request</h2>
+<p>Create a function that returns a <code>PaymentDataRequest</code> object:</p>
+<ul>
+<li>Describe your integration&rsquo;s support for the Google Pay API.</li>
+<li>Add your supported payment methods.</li>
+<li>Add the amount and currency for the customer to authorize.</li>
+<li>Add your merchant name and Google Pay merchant ID for display.</li>
+</ul>
+<pre tabindex="0"><code>function getGooglePaymentDataRequest() {
+    const paymentDataRequest = Object.assign({}, baseRequest);
+    paymentDataRequest.allowedPaymentMethods = [cardPaymentMethod];
+    paymentDataRequest.transactionInfo = {
+        totalPriceStatus: 'FINAL',
+        totalPrice: '123.45',
+        currencyCode: 'EUR',
+        countryCode: 'NL'
+    };
+    paymentDataRequest.merchantInfo = {
+        merchantName: 'Example Merchant'
+        merchantId: '12345678901234567890'
+    };
+    return paymentDataRequest;
+}
+</code></pre><p>You will call this function from the <strong>Google Pay</strong> button event handler in the next step. This way, attributes like the <code>totalPrice</code> can be updated up until the customer chooses to pay.</p>
+<p>For more information about the <code>transactionInfo</code> object, see Google Pay – <a href="https://developers.google.com/pay/api/web/reference/request-objects#TransactionInfo">TransactionInfo</a>.</p>
+<h3 id="merchantinfo-values">merchantInfo values</h3>
+<p>In the <code>TEST</code> environment:</p>
+<ul>
+<li><code>merchantName</code> = <code>Example Merchant</code></li>
+<li><code>merchantId</code> = <code>12345678901234567890</code></li>
+</ul>
+<p>In the <code>PRODUCTION</code> environment:</p>
+<ul>
+<li><code>merchantName</code> = Your merchant name</li>
+<li><code>merchantId</code> = Your Google Pay merchant ID</li>
+</ul>
+<p>To see your Google Pay merchant ID, sign in to your <a href="https://pay.google.com/business/console/home">Google Pay Business Console</a>.</p>
+<p>For more information about the <code>merchantInfo</code> object, see Google Pay – <a href="https://developers.google.com/pay/api/web/reference/request-objects#MerchantInfo">Request object</a>.</p>
+<h2 id="step-4-handle-the-interaction">Step 4: Handle the interaction</h2>
+<p><strong>1.</strong> Create an event handler for the <strong>Google Pay</strong> button:</p>
+<ul>
+<li>When the customer clicks the <strong>Google Pay</strong> button, call the <code>loadPaymentData()</code> method.</li>
+<li>Google prompts the customer to select their card and authorize the payment.</li>
+<li>After the customer authorizes the payment, handle the response from the Google Pay API.</li>
+</ul>
+<pre tabindex="0"><code>function onGooglePaymentButtonClicked() {
+    const paymentDataRequest = getGooglePaymentDataRequest();
+    paymentsClient.loadPaymentData(paymentDataRequest)
+        .then(function(paymentData) {
+            processPayment(paymentData);
+        })
+        .catch(function(err){
+            console.error(err);
+        });
+}
+</code></pre><p><strong>2.</strong> Pass the <code>paymentData</code> from the response to your server:</p>
+<pre tabindex="0"><code>function processPayment(paymentData) {
+    // send paymentData to your server
+}
+</code></pre><p>For more information about the <code>paymentData</code> object, see Google Pay – <a href="https://developers.google.com/pay/api/web/reference/response-objects#PaymentData">Response objects</a>.</p>
+<h2 id="step-5-create-an-order">Step 5: Create an order</h2>
+<p>From your server, <a href="https://docs-api.multisafepay.com/reference/createorder">create an order</a> &gt; Wallet order. See also Examples &gt; Google Pay direct.</p>
+<p>For the <code>gateway_info.payment_token</code>, use <code>PaymentData.PaymentMethodData.PaymentMethodTokenizationData.token</code>.</p>
+<h2 id="step-6-redirect-the-customer">Step 6: Redirect the customer</h2>
+<p>In response to the API request you made in the previous step, you receive a <code>payment_url</code> (see API Reference – <a href="https://docs-api.multisafepay.com/reference/createorder">create order</a> &gt; Wallet order. See also Examples &gt; Google Pay direct).</p>
+<p>Pass the <code>payment_url</code> from your server to the customer&rsquo;s device and redirect the customer to the URL:</p>
+<pre tabindex="0"><code>document.location = payment_url
+</code></pre><p>Depending on how the customer&rsquo;s card is stored in their Google Pay account, the URL references your success page, or a 3D Secure authentication page.</p>
+<p>If the customer&rsquo;s credit card was stored as:</p>
+<ul>
+<li><strong>Token</strong> (<code>CRYPTOGRAM_3DS</code>), the <code>payment_url</code> redirects to your success page.</li>
+<li><strong>Card on file</strong> (<code>PAN_ONLY</code>), the <code>payment_url</code> may redirect to a 3D Secure authentication page.</li>
+</ul>
+<p>If 3D Secure authentication is required, the customer is automatically redirected to your success page after authentication.</p>
+<h2 id="test-and-go-live">Test and go live</h2>
+<p>After you&rsquo;ve implemented the steps above, to test your integration:</p>
+<ul>
+<li><a href="/payment-methods/google-pay/integration-testing/#testing">MultiSafepay&rsquo;s Google Pay testing procedure</a></li>
+<li><a href="https://developers.google.com/pay/api/web/guides/test-and-deploy/integration-checklist">Google Pay – Integration checklist</a></li>
+</ul>
+<p>Then, when you&rsquo;re ready to go live:</p>
+<ul>
+<li>When constructing the <code>paymentsClient</code> object, set the environment to <code>PRODUCTION</code>.</li>
+<li>Set the attributes of <code>merchantInfo</code> to your business name and Google Pay merchant ID.</li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/integration/wallet-integrations/google-direct/' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+        <script src="/js/copy-code-button.js"></script>
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manage my account on MultiSafepay Docs</title>
+    <link>https://docs.multisafepay.com/account/manage-account/</link>
+    <description>Recent content in Manage my account on MultiSafepay Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://docs.multisafepay.com/account/manage-account/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Websites</title>
+      <link>https://docs.multisafepay.com/account/websites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/account/websites/</guid>
+      <description>To set up your account, you must add at least one website, for which we generate an API key.
+You can add an unlimited number of websites to your MultiSafepay account, but they must all be operated by the same legal entity linked to that account.
+To process payments from a website operated by a separate legal entity, you must sign up for an additional MultiSafepay account.
+Adding websites   Sign in to your MultiSafepay dashboard.</description>
+    </item>
+    
+    <item>
+      <title>Account users</title>
+      <link>https://docs.multisafepay.com/account/users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/account/users/</guid>
+      <description>Your MultiSafepay account can have an unlimited number of authorized users. All users on one account share the same secure code. You can disable but not delete users.
+  User permission profiles      User Permissions     Administrator Access all functionalities   Basic View all transactions Generate payment links   DisableBalance Cannot view the account balance   Refund Create refunds View all transactions Generate payment links   Reporting View all transactions and the account balance Create and download reports Generate payment links   Technical View all transactions Add and edit websites and payment pages Edit email templates Resend offline actions   Uncleared View all transactions Accept or decline uncleared transactions      Adding users   Adding users to your account    Sign in to your MultiSafepay dashboard.</description>
+    </item>
+    
+    <item>
+      <title>Payment methods</title>
+      <link>https://docs.multisafepay.com/account/payment-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/account/payment-methods/</guid>
+      <description>MultiSafepay offers a wide range of payment methods.
+You can enable payment methods for your account yourself in your dashboard, but for some you need to apply to MultiSafepay first. Other methods with specific requirements follow their own activation flow.
+   Activation flow Payment methods     Apply to MultiSafepay Cards and wallets (except PayPal), Dotpay, in3, Pay After Delivery, SEPA Direct Debit   Enable in dashboard Banking methods, E-Invoicing   Own flow AfterPay, Betaal per Maand, Klarna, Edenred, gift cards, Paysafecard, PayPal     If you use a ready-made integration, first check that the payment method is supported.</description>
+    </item>
+    
+    <item>
+      <title>Affiliated merchants</title>
+      <link>https://docs.multisafepay.com/account/affiliates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/account/affiliates/</guid>
+      <description>This page describes how partner account holders can manage the accounts of affiliated merchants.
+Creating affiliate accounts To create a new affiliate account in your dashboard, follow these steps:
+ Sign in to your partner/primary account. Go to the affiliate dashboard, and then click Affiliates. In the affiliate dashboard top-right corner, copy the Partnerlink and send it to your affiliates. To customize a welcome email, go to Settings &amp;gt; Email templates.</description>
+    </item>
+    
+    <item>
+      <title>Payment statuses</title>
+      <link>https://docs.multisafepay.com/payments/payment-statuses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payments/payment-statuses/</guid>
+      <description>There are two statuses for each payment that update as it is processed.
+In your MultiSafepay dashboard, go to Transaction overview, and then select the relevant transaction to open the Transaction details page. Under Status history, you can see the order status and transaction status:
+Order status Changes as the customer&amp;rsquo;s order with you progresses towards shipment (independent of payment).
+API attribute: status
+Transaction status Changes as the funds progress towards settlement in your MultiSafepay balance.</description>
+    </item>
+    
+    <item>
+      <title>Currencies</title>
+      <link>https://docs.multisafepay.com/account/currencies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/account/currencies/</guid>
+      <description>You can process payments in a large number of currencies, provided that they are:
+ Supported by the specific payment method Enabled in your dashboard and in the settings of any ready-made integrations Correctly processed in the create order API request.  Payment methods All payment methods support: EUR (Euro)
+Credit and debit cards support:
+         AED (United Arab Emirates dirham) KRW (South Korean won)   AUD (Australian dollar) MXN (Mexican peso)   BRL (Brazilian real) MYR (Malaysian ringgit)   CAD (Canadian dollar) NOK (Norwegian krone)   CHF (Swiss franc) NZD (New Zealand dollar)   CLP (Chilean peso) PEN (Peruvian Sol)   CNY (Chinese yuan) PHP (Philippine peso)   COP (Colombian peso) PLN (Polish złoty)   CZK (Czech koruna) RON (Romanian leu)   DKK (Danish krone) RUB (Russian ruble)   GBP (Pound Sterling) SEK (Swedish krona)   HKD (Hong Kong dollar) SGD (Singapore dollar)   HRK (Croatian kuna) THB (Thai baht)   HUF (Hungarian forint) TRY (Turkish lira)   ILS (Israeli new shekel) TWD (New Taiwan dollar)   INR (Indian rupee) USD (United States dollar)   ISK (Icelandic króna) VEF (Venezuelan bolívar)   JPY (Japanese yen) ZAR (South African rand)     Important: JPY is a zero-decimal currency.</description>
+    </item>
+    
+    <item>
+      <title>Payouts</title>
+      <link>https://docs.multisafepay.com/account/payouts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/account/payouts/</guid>
+      <description>A payout is when you transfer funds from your MultiSafepay balance to your business bank account.
+You can make payouts any time for 0,50 EUR each.
+Business bank accounts As part of your onboarding, you specify a business bank account to pay out to.
+  Add additional bank accounts   To add additional bank accounts to your account (once fully onboarded), follow these steps:
+ Sign in to your MultiSafepay dashboard.</description>
+    </item>
+    
+    <item>
+      <title>Invoices</title>
+      <link>https://docs.multisafepay.com/account/invoices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/account/invoices/</guid>
+      <description>This page describes invoices MultiSafepay generates for your records at month end.
+You do not need to pay them separately.
+Merchant/primary account VAT invoices Merchant and primary account holders receive a monthly invoice for the total amount of VAT we deduct from your MultiSafepay balance at the end of each month.
+For payment methods where MultiSafepay collects, we are required to charge VAT on processing fees.
+For payment methods for which we do not collect, VAT is applied via the scheme to avoid double taxation.</description>
+    </item>
+    
+    <item>
+      <title>MultiSafepay balance</title>
+      <link>https://docs.multisafepay.com/account/balance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/account/balance/</guid>
+      <description>Your MultiSafepay balance is the balance of funds held in your MultiSafepay account.
+Topping up your balance To add funds to your balance, follow these steps:
+ Sign in to your MultiSafepay dashboard. Go to Finance &amp;gt; Fund account. Select the currency and amount you want to add to your balance. Select the payment method you want to use for the transaction. Click Send.  Viewing your daily balance To view your daily balance in your MultiSafepay dashboard, go to Finance &amp;gt; Daily balance.</description>
+    </item>
+    
+    <item>
+      <title>IBANs</title>
+      <link>https://docs.multisafepay.com/account/ibans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/account/ibans/</guid>
+      <description>International bank account numbers (IBANs) are sensitive data. For security reasons, we mask them so that only the last 4 digits are visible, e.g. *** 1234.
+You can still perform most business operations with masked IBANs, e.g. processing refunds.
+Unmasking IBANs To unmask IBANs for a specific website, follow these steps:
+ Sign in to your MultiSafepay dashboard. Go to Settings &amp;gt; Website settings. Click the relevant website. Under Website functionality, click the Unmask IBAN numbers in API requests and responses toggle.</description>
+    </item>
+    
+    <item>
+      <title>Customer emails</title>
+      <link>https://docs.multisafepay.com/account/customer-emails/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/account/customer-emails/</guid>
+      <description>MultiSafepay can help you manage your email communications with customers. Use our preformatted and/or prewritten templates and populate them with your content.
+  Sign in to your MultiSafepay dashboard.
+  Go to Settings &amp;gt; Email templates.
+  Click the relevant website.
+  Click Add new template.
+  From the Type list, select the template type.
+  Template types   Bank Transfer details email (to customer)</description>
+    </item>
+    
+    <item>
+      <title>Logos and icons</title>
+      <link>https://docs.multisafepay.com/account/logos-icons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/account/logos-icons/</guid>
+      <description>For MultiSafepay logos, see our Github repository – MultiSafepay logos.
+For the logos and icons of all MultiSafepay payment methods, see our Github repository – MultiSafepay icons.
+Generating logo PNGs To generate a portable network graphic (PNG) of a payment method logo to display on your site, follow these steps:
+ Sign in to your MultiSafepay dashboard. Go to Tools &amp;gt; Payment logo designer. Select a layout template. From the Select elements window, select the logos you want to include.</description>
+    </item>
+    
+    <item>
+      <title>Second Chance reminders</title>
+      <link>https://docs.multisafepay.com/account/second-chance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/account/second-chance/</guid>
+      <description>Second Chance is a MultiSafepay service that automatically emails customers a payment link when they initiate but don&amp;rsquo;t complete a transaction. This helps boost conversion and impulse purchases. The first email is sent 1 hour after the customer initiates the payment, and a second after 24 hours.
+Second Chance emails are also sent for manually generated payment links if the customer doesn&amp;rsquo;t click the link to complete payment.
+Requirements   Requirements     Under the GDPR, you must obtain documented consent from the customer to send Second Chance emails.</description>
+    </item>
+    
+    <item>
+      <title>Files</title>
+      <link>https://docs.multisafepay.com/account/files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/account/files/</guid>
+      <description>To upload files to MultiSafepay (e.g. during onboarding or when challenging chargebacks), follow these steps:
+ Sign in to your MultiSafepay dashboard. Go to Settings &amp;gt; Files. Under Upload a new file, click Choose file. Select the relevant file(s), and then click Open. Under Upload queue, to upload:  A specific file, click Upload. A batch of files, click Upload all.    </description>
+    </item>
+    
+    <item>
+      <title>Payment links</title>
+      <link>https://docs.multisafepay.com/payment-links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payment-links/</guid>
+      <description>You can manually generate a link to a payment page to pass to a customer to complete payment.
+Use cases  A customer wants to adjust an existing order and instead of starting over with a new order. You need to create a transaction for a manually generated order. MultiSafepay collects a payment for an amount that doesn&amp;rsquo;t match any order. If you accept the payment, you need to manually generate a payment link and email it to support@multisafepay.</description>
+    </item>
+    
+  </channel>
+</rss>

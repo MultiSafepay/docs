@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Magento 1 plugin changelog - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="Magento 1 plugin changelog" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="3.1.3 Release date: Nov. 24th, 2021
+Fixed  PLGMAGONE-736: Fix invalid method backendOrdersAllowed on backend orders   3.1.2 Release date: Nov. 23rd, 2021
+Fixed  PLGMAGONE-734: Fix unable to create backend orders (items not showing) PLGMAGONE-735: Fix conflict with service cost and non MultiSafepay plugins   3.1.1 Release date: Sep 16, 2021
+Fixed  PLGMAGONE-730: Use correct invoice id when order is being updated to shipped PLGMAGONE-731: Remove unused tax tables which could generate wrong taxes   3." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://docs.multisafepay.com/integration/ready-made/magento1/changelog/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+
+    <link rel="canonical" href="/integration/ready-made/magento1/changelog/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/">Integrations</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/magento-1/">Magento 1 plugin</a>
+  
+
+</li>
+
+
+<li>
+
+
+  Magento 1 plugin changelog
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="Magento 1 plugin changelog">Magento 1 plugin changelog</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <h2 id="313">3.1.3</h2>
+<p>Release date: Nov. 24th, 2021</p>
+<h3 id="fixed">Fixed</h3>
+<ul>
+<li>PLGMAGONE-736: Fix invalid method backendOrdersAllowed on backend orders</li>
+</ul>
+<hr>
+<h2 id="312">3.1.2</h2>
+<p>Release date: Nov. 23rd, 2021</p>
+<h3 id="fixed-1">Fixed</h3>
+<ul>
+<li>PLGMAGONE-734: Fix unable to create backend orders (items not showing)</li>
+<li>PLGMAGONE-735: Fix conflict with service cost and non MultiSafepay plugins</li>
+</ul>
+<hr>
+<h2 id="311">3.1.1</h2>
+<p>Release date: Sep 16, 2021</p>
+<h3 id="fixed-2">Fixed</h3>
+<ul>
+<li>PLGMAGONE-730: Use correct invoice id when order is being updated to shipped</li>
+<li>PLGMAGONE-731: Remove unused tax tables which could generate wrong taxes</li>
+</ul>
+<hr>
+<h2 id="310">3.1.0</h2>
+<p>Release date: Jun 15, 2021</p>
+<h3 id="added">Added</h3>
+<ul>
+<li>PLGMAGONE-710: Add support for <a href="https://docs.multisafepay.com/payments/integrations/ecommerce-platforms/magento1/faq/generic-gateways/">Generic Gateways</a> which can be used for branded giftcards</li>
+<li>PLGMAGONE-627: Add order number variable support to custom refund description</li>
+</ul>
+<h3 id="fixed-3">Fixed</h3>
+<ul>
+<li>PLGMAGONE-719: Prevent a zero amount refund leading to a full refund</li>
+<li>PLGMAGONE-706: Show payment instructions for giftcards too</li>
+</ul>
+<h3 id="changed">Changed</h3>
+<ul>
+<li>DAVAMS-344: Update Trustly logo</li>
+</ul>
+<hr>
+<h2 id="300">3.0.0</h2>
+<p>Release date: Oct 21, 2020</p>
+<h3 id="added-1">Added</h3>
+<ul>
+<li>DAVAMS-234: Add in3</li>
+<li>DAVAMS-262: Add CBC payment method</li>
+<li>PLGMAGONE-699: Add Good4fun Giftcard</li>
+</ul>
+<h3 id="fixed-4">Fixed</h3>
+<ul>
+<li>PLGMAGONE-678: Fix bug in calculating correct price and tax for Fooman surcharge</li>
+<li>PLGMAGONE-671: Fix maximum nesting level error with Idev OneStepCheckout</li>
+<li>PLGMAGONE-668: Fix non working days/seconds_active for backend orders</li>
+</ul>
+<h3 id="changed-1">Changed</h3>
+<ul>
+<li>PLGMAGONE-634: Switch from XML API to JSON API (Only API key is needed)</li>
+<li>PLGMAGONE-472: Set order to status shipped for all payment methods</li>
+<li>PLGMAGONE-674: Always set redirect_url</li>
+<li>DAVAMS-28: Rebrand Santander Betaalplan to Pay per Month</li>
+<li>DAVAMS-295: Rebrand Direct Bank Transfer to Request to Pay</li>
+<li>DAVAMS-308: Rebrand Klarna to Klarna - buy now, pay later</li>
+<li>Update payment method names
+<ul>
+<li>KBC</li>
+<li>ING Home&rsquo;Pay</li>
+<li>Credit card</li>
+<li>Pay After Delivery</li>
+<li>E-Invoicing</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="260">2.6.0</h2>
+<p>Release date: Apr 2, 2020</p>
+<h3 id="added-2">Added</h3>
+<ul>
+<li>PLGMAGONE-617: Add Apple Pay</li>
+<li>PLGMAGONE-656: Add Direct Bank Transfer (Request to Pay)</li>
+<li>PLGMAGONE-485: Add support for Fooman Surcharge</li>
+<li>PLGMAGONE-562: Added support for PostNL pickup points for AfterPay.</li>
+</ul>
+<h3 id="fixed-5">Fixed</h3>
+<ul>
+<li>PLGMAGONE-654: Fix incorrect character set for translations</li>
+<li>PLGMAGONE-621: Fix layout issue when OneStepCheckout is used</li>
+<li>PLGMAGONE-588: Fix missing site secure code in refund request</li>
+<li>PLGMAGONE-572: Fixed payment fee description not being set</li>
+<li>PLGMAGONE-526: Fixed undefined variable recurring on E_STRICT mode</li>
+<li>PLGMAGONE-458: Count gives warning when PHP 7.2 is used</li>
+</ul>
+<h3 id="changed-2">Changed</h3>
+<ul>
+<li>PLGMAGONE-599: Hide Pay After Delivery when shipping address differs</li>
+<li>PLGMAGONE-574: Prevent orders to be cancelled when set to processing</li>
+<li>Update translations for &ldquo;select your credit card&rdquo;</li>
+</ul>
+<hr>
+<h2 id="251">2.5.1</h2>
+<p>Release date: Mar 25, 2019</p>
+<h3 id="added-3">Added</h3>
+<ul>
+<li>PLGMAGONE-457: Added Handelsbanken iDEAL issuer logo</li>
+<li>PLGMAGONE-406: Added support for Modman</li>
+</ul>
+<h3 id="changed-3">Changed</h3>
+<ul>
+<li>PLGMAGONE-344: Enable refund shipping amount when shipping includes tax</li>
+</ul>
+<h3 id="fixed-6">Fixed</h3>
+<ul>
+<li>PLGMAGONE-465: Fixed service costs not showing with some third-party modules</li>
+<li>PLGMAGONE-456: Fixed service costs not working on clean installation</li>
+<li>PLGMAGONE-448: Fixed Qwindo does not work in compiled mode</li>
+<li>PLGMAGONE-431: Fixed notice &ldquo;undefined index&rdquo; on invoice creation</li>
+</ul>
+<hr>
+<h2 id="250">2.5.0</h2>
+<p>Release date: Sept 21, 2018</p>
+<h3 id="features">Features</h3>
+<ul>
+<li>PLGMAGONE-339: Add Tokenization</li>
+<li>PLGMAGONE-411: Added support for E-Invoice gateway for manually created orders</li>
+</ul>
+<h3 id="fixes">Fixes</h3>
+<p>PLGMAGONE-429: Corrected Paysafecard gateway for manually created orders</p>
+<hr>
+<h2 id="242">2.4.2</h2>
+<p>Release date: Jun 15, 2018</p>
+<h3 id="fixed-7">Fixed</h3>
+<ul>
+<li>PLGMAGONE-384: Log refund errors to order notes</li>
+<li>PLGMAGONE-391: Fix undefined variable in error log when refund exception occurs</li>
+<li>PLGMAGONE-374: Update Dutch translations</li>
+</ul>
+<hr>
+<h2 id="241">2.4.1</h2>
+<p>Release date: May 25, 2018</p>
+<h3 id="added-4">Added</h3>
+<ul>
+<li>PLGMAGONE-378: Add support for Santander Betaal per Maand</li>
+<li>PLGMAGONE-379: Add support for AfterPay</li>
+<li>PLGMAGONE-380: Add support for Trustly</li>
+<li>PLGMAGONE-381: Add Moneyou iDEAL issuer logo</li>
+</ul>
+<h3 id="fixed-8">Fixed</h3>
+<ul>
+<li>PLGMAGONE-377: Uncaught error when saving empty grouped product while Qwindo was active</li>
+<li>PLGMAGONE-382: Gateway ING not changed everywhere to INGHOME</li>
+</ul>
+<hr>
+<h2 id="240">2.4.0</h2>
+<p>Release date: Mar 12, 2018</p>
+<h3 id="fixes-1">Fixes</h3>
+<ul>
+<li>Add support for Qwindo</li>
+<li>PLGMAGONE-370: Updated Dutch translations</li>
+<li>PLGMAGONE-369: Update Klarna payment method logo</li>
+<li>PLGMAGONE-368: Add keep cart alive for ING Home&rsquo;Pay, Belfius, KBC and iDEAL QR</li>
+<li>PLGMAGONE-346: Add support for prefilled gender/dob fields in Klarna/Pay After Delivery</li>
+<li>PLGMAGONE-195: Housenumber extension added when Onestepcheckout is used</li>
+<li>PLGMAGONE-356: Support direct transactions for ING/KBC</li>
+<li>PLGMAGONE-362: Update ING Home&rsquo;Pay name within backend configuration</li>
+<li>PLGMAGONE-341: Don&rsquo;t add payment fee twice to credit memo</li>
+<li>PLGMAGONE-331: Add handling of chargeback status</li>
+<li>PLGMAGONE-354: Add iDEAL QR gateway</li>
+<li>PLGMAGONE-343: Don&rsquo;t update an order when it&rsquo;s closed (due to offline refund)</li>
+<li>PLGMAGONE-337: Add check to only update order status when order exists</li>
+<li>PLGMAGONE-338: Undefined index error on expired orders</li>
+<li>PLGMAGONE-357: Update ING gateway to INGHOME</li>
+<li>PLGMAGONE-340: Prevent cancel on api error when order has already been paid</li>
+<li>PLGMAGONE-342: Fixes headers already send error when credit card gateway is used</li>
+<li>PLGMAGONE-336: Undefined index custom_refund_desc</li>
+</ul>
+<hr>
+<h2 id="236">2.3.6</h2>
+<p>Release date: Nov 7, 2017</p>
+<h3 id="fixes-2">Fixes</h3>
+<ul>
+<li>PLGMAGONE-326: add daysactive/secondsactive for Klarna/Pay After Delivery</li>
+<li>PLGMAGONE-327: Removed Klarna quote loading to prevent infinite loop</li>
+<li>PLGMAGONE-159: Removed unused reverted status configurations</li>
+<li>PLGMAGONE-323: Allow different billing/shipping addresses, reverted PLGMAG-304</li>
+<li>PLGMAGONE-329: Fixed sorting on min/max amounts</li>
+<li>PLGMAGONE-96: Restricted currencies used are now loaded from the correct store</li>
+<li>PLGMAGONE-313: <em>selecteer uw credit card</em> is now translatable</li>
+<li>PLGMAGONE-33: Added support for AliPay</li>
+<li>PLGMAGONE-96: Improvements to currency restriction in cards/gateways</li>
+<li>PLGMAGONE-96: Restricted currencies used are now loaded from the correct store</li>
+</ul>
+<hr>
+<h2 id="235">2.3.5</h2>
+<p>Release date: Oct 23, 2017</p>
+<h3 id="fixes-3">Fixes</h3>
+<ul>
+<li>Fixed an issue causing a double iDEAL issuer selection.</li>
+</ul>
+<hr>
+<h2 id="234">2.3.4</h2>
+<p>Release date: Aug 3, 2017</p>
+<h3 id="fixes-4">Fixes</h3>
+<ul>
+<li>Fixed issue trying to get property of non-object payment_data.</li>
+<li>Fixed issue where manual orders could be placed with decimals.</li>
+<li>Fixed PLGMAGONE-132. Some undefined index notices got fixed.</li>
+<li>Fixes PLGMAG-304. Only allow Klarna when billing and shipping address are the same (Klarna regulation).</li>
+<li>Fixed issues with the Givacard gateway.</li>
+<li>Fixed PLGMAGONE-105: getShippingAmount zero leads to NAN tax table.</li>
+<li>Fixes an issue with de credit card gateway not processing the brand.</li>
+</ul>
+<h3 id="improvements">Improvements</h3>
+<ul>
+<li>Added missing logo used for the credit card payment method option.</li>
+<li>Updated the install script.</li>
+<li>Updated Bancontact logo and title.</li>
+<li>Removed Thumbs.db from the package.</li>
+<li>Added delivery info to Pay After Delivery/Klarna requests.</li>
+<li>Fixes PLGMAGONE-311 and PLGMAGONE-312. Added gateway codes for Paysafecard and American Express.</li>
+</ul>
+<h3 id="features-1">Features</h3>
+<ul>
+<li>Added support for Paysafecard.</li>
+<li>Added support for Belfius.</li>
+<li>Added support for KBC/CBC.</li>
+<li>Added support for ING Home&rsquo;Pay.</li>
+<li>Add customizable description to refund request.</li>
+<li>Support for Seconds Active PLGMAGONE-259.</li>
+</ul>
+<hr>
+<h2 id="233">2.3.3</h2>
+<p>Release date: Feb 16, 2017</p>
+<h3 id="fixes-5">Fixes</h3>
+<ul>
+<li>Resolved PHP7 deprecated warnings occuring in the MultiSafepay class file.</li>
+</ul>
+<hr>
+<h2 id="232">2.3.2</h2>
+<p>Release date: Jan 25, 2017</p>
+<h3 id="fixes-6">Fixes</h3>
+<ul>
+<li>Removed whitespace which resulted in the PHP error &ldquo;headers already sent&rdquo; being triggered when selecting the credit card gateway</li>
+<li>Resolved an issue when used with OneStepCheckout causing the wrong gateway to be used.</li>
+</ul>
+<hr>
+<h2 id="230">2.3.0</h2>
+<p>Release date: Oct 12, 2016</p>
+<h3 id="improvements-1">Improvements</h3>
+<ul>
+<li>Added EPS and FerBuy as payment methods.</li>
+<li>iDEAL issuerlist alignment improved.</li>
+<li>Added official support for the FastCheckout productfeed v1.0</li>
+<li>Added some missing German translations for Klarna.</li>
+</ul>
+<h3 id="fixes-7">Fixes</h3>
+<ul>
+<li>Fixed an issue related product quantity when partially refunding Klarna payments.</li>
+</ul>
+<h3 id="changes">Changes</h3>
+<ul>
+<li>Changed the YourGift logo.</li>
+</ul>
+<hr>
+<h2 id="229">2.2.9</h2>
+<p>Release date: Aug 10, 2016</p>
+<h3 id="improvements-2">Improvements</h3>
+<ul>
+<li>Status requests are now logged in multisafepay.log when debug option is enabled.</li>
+</ul>
+<h3 id="fixes-8">Fixes</h3>
+<ul>
+<li>Resolved an issue where invoices aren&rsquo;t being generated.</li>
+</ul>
+<hr>
+<h2 id="228">2.2.8</h2>
+<p>Release date: June 21, 2016</p>
+<h3 id="improvements-3">Improvements</h3>
+<ul>
+<li>Added E-Invoicing.</li>
+<li>Payment links are now only requested when creating new orders in the Magento backend, not when editing an order, resulting in a new order.</li>
+</ul>
+<h3 id="fixes-9">Fixes</h3>
+<ul>
+<li>Fixed an undefined notice within the logs.</li>
+<li>Resolved an issue resulting in the transactional data not being set, such as; parent_id and additional_information</li>
+</ul>
+<h3 id="changes-1">Changes</h3>
+<ul>
+<li>Updated Bancontact image</li>
+<li>Changed the iDEAL issuer selection from dropdown to radio buttons with the bank&rsquo;s logo.</li>
+</ul>
+<hr>
+<h2 id="227">2.2.7</h2>
+<p>Release date: May 26, 2016</p>
+<h3 id="improvements-4">Improvements</h3>
+<ul>
+<li>Added logging of refund requests.</li>
+<li>The currency is now retrieved from the order when creating a credit memo and refunding, rather than from the store.</li>
+<li>Added support for Fast Checkout product feed.</li>
+<li>Improvements were made to the confirmation page URL.</li>
+<li>Added improvements for the refunding of foreign currencies.</li>
+</ul>
+<h3 id="fixes-10">Fixes</h3>
+<ul>
+<li>Resolved undefined notices.</li>
+<li>Resolved issues when refunding orders that have discounts.</li>
+<li>Resolved a bug when using webshop gift card.</li>
+<li>Resolved the doubled shippingtax bug causing incorrect invoice and/or credit memo amounts.</li>
+</ul>
+<h3 id="changes-2">Changes</h3>
+<ul>
+<li>Removed the refunding of fees.</li>
+</ul>
+<hr>
+<h2 id="226">2.2.6</h2>
+<p>Release date: March 10, 2016</p>
+<h3 id="fixes-11">Fixes</h3>
+<ul>
+<li>Resolved incorrect tax amount visible in the invoice when using a fee.</li>
+</ul>
+<hr>
+<h2 id="225">2.2.5</h2>
+<p>Release date: March 4, 2016</p>
+<h3 id="new-features">New features</h3>
+<ul>
+<li>Added Dotpay as payment method.</li>
+</ul>
+<h3 id="improvements-5">Improvements</h3>
+<ul>
+<li>Invoices now show the correct payment method.</li>
+</ul>
+<h3 id="fixes-12">Fixes</h3>
+<ul>
+<li>Resolved issues preventing orders from being opened once paid with PayPal or Bank transfer.</li>
+<li>Resolved error code 1035 occurring when refunding.</li>
+<li>Resolved credit memo issues.</li>
+<li>The total order amount of orders paid with Fast Checkout now include the shipping costs.</li>
+</ul>
+<hr>
+<h2 id="222">2.2.2</h2>
+<p>Release date: Dec 28, 2015</p>
+<h3 id="improvements-6">Improvements</h3>
+<ul>
+<li>If paid amount difference from total order amount. A note is added with extra info. No invoice is created.</li>
+<li>Added (incl Tax) to totals line to make it more clear as other lines can be set in tax totals settings. Also added this for the frontend.</li>
+<li>Added configurable FastCheckout field for phone number.</li>
+</ul>
+<h3 id="fixes-13">Fixes</h3>
+<ul>
+<li>Fixes undefined configMain notice.</li>
+<li>Added missing klarna.phtml</li>
+<li>In case an order is paid by Second Chance and an other payment method is used as the initial, the order will be updated with the correct payment method.</li>
+<li>Fixes bug with directdebit using a wrong gateway code</li>
+<li>Fixes for wrong credit memo amounts that are processed.</li>
+<li>Fixes Store id is now used to get the correct store URL&rsquo;s to redirect to</li>
+<li>Fixes cancelled status for Pay After Delivery and Klarna notifications are now ignored as the order was already set to Paid. If set to cancelled then a credit memo can&rsquo;t be created anymore.</li>
+<li>Fixes bug causing the order status set to &ldquo;payment review&rdquo; instead of &ldquo;processing&rdquo;. This was caused because the order grandtotal had to be rounded to two so it matches the paid amount in the transaction.</li>
+</ul>
+<h2 id="221">2.2.1</h2>
+<p>Release date: Nov 12, 2015</p>
+<h3 id="new-features-1">New features</h3>
+<ul>
+<li>Payment fee can now be refunded</li>
+<li>Added min/max amount restrictions for all gateways.</li>
+</ul>
+<h3 id="improvements-7">Improvements</h3>
+<ul>
+<li>Added Klarna to the language file.</li>
+</ul>
+<h3 id="fixes-14">Fixes</h3>
+<ul>
+<li>Fixed undefined variable isAllowConvert notice.</li>
+<li>Fixed undefined variable Currencies notice.</li>
+<li>Fixed issue using wrong StoreConfig.</li>
+<li>Fixed issue when selecting all the available currencies in the configuration.</li>
+<li>Fixed issue using the wrong account credentials for FastCheckout.</li>
+<li>Fixed issue causing shipping method not to be correct for Klarna and Pay After Delivery.</li>
+<li>Fixed issue which prevented accepting gender, bank account and date of birth twice when using Klarna.</li>
+<li>Fixed issue which resulted in 1 cent mismatch when using Klarna on older Magento installations.</li>
+</ul>
+<hr>
+<h2 id="220">2.2.0</h2>
+<p>Release date: Aug 20, 2015</p>
+<h3 id="new-features-2">New features</h3>
+<ul>
+<li>Added Klarna as payment method.</li>
+<li>gift card now have their own API key config.</li>
+<li>Refunds now work for Klarna, Coupons and Pay After Delivery.</li>
+<li>Success page now visible when using a payment link or pay using Second Chance.</li>
+<li>FCO button now also language based.</li>
+<li>Fallback to configured gateway code if gateway is not available within the quote.</li>
+<li>Fallback if issuer is set but no gateway, then somehow we lost the gateway although iDEAL was selected. We now default to iDEAL.</li>
+<li>Added Beauty and Wellness gift card.</li>
+<li>Added Sport&amp;Fit gift card.</li>
+<li>Added VVV gift card.</li>
+<li>Added PODIUM gift card.</li>
+<li>Added missing Gifcard logos.</li>
+<li>All available currencies can be selected when configuring the gateway.</li>
+<li>Added option to remove all buttons to the normal checkout for when only FCO is enabled.</li>
+</ul>
+<h3 id="improvements-8">Improvements</h3>
+<ul>
+<li>Updated order of FastCheckout in menu.</li>
+<li>MultiSafepay menu added.</li>
+<li>Separated some configurations.</li>
+</ul>
+<h3 id="changes-3">Changes</h3>
+<ul>
+<li>Disabled gift card Ebon.</li>
+<li>Return-URL&rsquo;s are now always ending with only /success/ for better support for GUA module.</li>
+<li>Disabled FastCheckout payment method in normal checkout as this is causing confusion for merchants.</li>
+<li>Don&rsquo;t set state to cancelled when partial refunded as it still has to be processed partially.</li>
+<li>Disabled some gift cards that are for one merchant.</li>
+<li>Added FCO button on login/register page.</li>
+<li>Redirect URL always added for Pay After Delivery.</li>
+<li>Check for stock settings before processing stock.</li>
+<li>Now use current selected currency to recalculate fee. Fee is always configured in EUR.</li>
+<li>Removed old package file.</li>
+<li>Removed unused code.</li>
+<li>Set checkout session to be used instead of core for storing issuer data.</li>
+<li>Update xmlescape function.</li>
+</ul>
+<h3 id="fixes-15">Fixes</h3>
+<ul>
+<li>Fixed Store name from order is used for manual paylink, not the admin site.</li>
+<li>Fixed some undefined fields causing a Notice error when PHP use a STRICT error logging.</li>
+<li>Fixed success URL for Direct Bank transfer (Request to Pay).</li>
+<li>Fixed some issues with the customer groups selected in the configuration of the gateways.</li>
+<li>Fixed prices including tax (Solved error 1027).</li>
+<li>Fixed some encoding issue.</li>
+<li>Fixed When sending the order confirmation after a payment, then this is ignored for a Bank transfer.</li>
+<li>Fixed fee now displayed correctly when using multi-currency.</li>
+<li>Fixed bug with gift card data and delivery data.</li>
+</ul>
+<hr>
+<h2 id="212">2.1.2</h2>
+<p>Release date: May 7th, 2015</p>
+<h3 id="improvements-9">Improvements</h3>
+<ul>
+<li>Paymentlinks generated in the Magento Admin for manually created orders now use the &lsquo;Daysactive&rsquo; setting in the main plugin configuration.</li>
+<li>The transaction status &lsquo;Expired&rsquo; no longer triggers the plugin to cancel orders with an invoice.</li>
+</ul>
+<h3 id="changes-4">Changes</h3>
+<ul>
+<li>The &lsquo;Keep Cart Alive&rsquo; plugin setting has been enabled by default.</li>
+<li>The &lsquo;Keep Cart Alive&rsquo; plugin setting now only works for MultiSafepay payment methods.</li>
+<li>Fast Checkout no longer creates an order for an expired order</li>
+</ul>
+<h3 id="fixes-16">Fixes</h3>
+<ul>
+<li>&lsquo;Allowed currencies&rsquo; for the MultiSafepay Gateways were not requested correctly.</li>
+<li>Added delivery address data to orders for PayPal&rsquo;s Sellers Protection.</li>
+<li>Call to undefined method error occuring with the Pay After Delivery object</li>
+<li>Paymentlinks generated in the Magento backend for manually created orders always used the test environment</li>
+<li>Fixed double payment method titles</li>
+<li>Resolved DIRECTebanking gateway code bug</li>
+<li>Magento didn&rsquo;t always update and store the amount correctly when converting from USD to EUR resulting in the wrong amount paid after the plugin conversion.</li>
+<li>The Pay After Delivery (MultiFactor) rejection message has been added to the language files.</li>
+<li>The Pay After Delivery (MultiFactor) rejection message has been altered to only show relevant information to customers.</li>
+<li>Available payment methods are no longer shown when the visibility has been limited to specified user groups.</li>
+<li>The plugin processes the refund status and closes the order if the credit memo option isn&rsquo;t enabled when creating a credit memo</li>
+</ul>
+<hr>
+<h2 id="211">2.1.1</h2>
+<p>Release date: Mar 20, 2015</p>
+<h3 id="fixes-17">Fixes</h3>
+<ul>
+<li>Fixed bug for outline gateway images</li>
+</ul>
+<hr>
+<h2 id="210">2.1.0</h2>
+<p>Release date: Mar 19, 2015</p>
+<h3 id="new-features-3">New features</h3>
+<ul>
+<li>Coupons now use their own gateway settings so that multiple + MultiSafepay accounts can be used to support multiple MultiSafepay coupons</li>
+<li>Add a refund transaction to the Magento transactions order overview on refund or partial refund</li>
+<li>Support for partial refunds</li>
+<li>Special status for initialized Bank transfer transactions</li>
+<li>Added support for fixed fee and/or percentage fee for each gateway</li>
+<li>Show Pay After Delivery rejection notice within the store when transaction is rejected</li>
+<li>Added enable/disable config value for FCO product feed</li>
+<li>Feed action. Feed can be requested at /msp/standard/feed/</li>
+<li>Enable/disable config option check is now added. Check is also added for API key to check if the given key matches the configured key</li>
+<li>Order now using translation files</li>
+<li>Added updateInvoice function. Send Magento invoice ID to MultiSafepay, this will be added to the accountant export</li>
+<li>Added daysactive to connect</li>
+<li>When creating an order we now use the selected payment method for the manual transaction request</li>
+<li>Payment link added to a manually created order by an admin. When an admin creates an order manually, we will create a transaction request for it and add the payment link to the order. The merchant now doesn&rsquo;t need to Sign in to the Ewallet and manually create a payment link for the order</li>
+</ul>
+<h3 id="improvements-10">Improvements</h3>
+<ul>
+<li>If there is an invoice, the order can&rsquo;t be cancelled anymore</li>
+<li>Added more language files</li>
+<li>Better support for Keep Cart alive, so it is compatible with Onestepcheckout</li>
+<li>Added check for - phone number for BNO trans. Compatibility with some Onestepcheckout modules that add - when phone number is empty or not available as custom field</li>
+<li>Check if payment is object, if not, default to standard gateway model This will solve the 1016 error message</li>
+<li>Manual payment link process has changed. Updated the observer. The payment link is now only added when the order is being created from the Magento Admin and no longer on every save action within the Magento Admin</li>
+<li>If title isn&rsquo;t added then fallback tot main gateway title</li>
+<li>Updated upgrade script</li>
+<li>Updated bno.phtml for better layout in OneStepCheckout</li>
+<li>Better support for gateway images. Works with default, onestepcheckout.com and Apptha checkout</li>
+<li>Removed disable option for text titles</li>
+<li>Disabled check for active table rates config. This was old code from when this was configured within the FCO configuration</li>
+<li>Transaction errors for normal transaction request now also result in a closed order</li>
+<li>Added extra check for enabled fee for the payment method</li>
+<li>After transaction error with DIRECT Pay After Delivery transactions we will close the order because replacing using another payment method will create a new order</li>
+<li>When status is refunded just return ok and exit. The Magento plugin can process partial refunds so we should ignore refunded status because this can update the order wrong with partial refunds. Status updates are done by creating the credit memo</li>
+<li>Added fallback for refund status for when new base.php is used with older releases</li>
+<li>Added transaction details to the transaction record that is created when creating an invoice automatically</li>
+<li>Added default config to the plugin that sets the fee after the shipping cost in the totals overviews</li>
+<li>Rewrite of the refund API integration. The implementation was wrong and causing every MultiSafepay refunded to be processed online. This supposed to be a choice by order to refund online. Merchants can now refund online when it&rsquo;s enabled within the configuration and by going to the invoice, click credit memo and then refund. Then can choose to refund, or refund offline where the refund offline won&rsquo;t submit the refund to MultiSafepay</li>
+</ul>
+<h3 id="changes-5">Changes</h3>
+<ul>
+<li>Removed fijncadeau references</li>
+</ul>
+<h3 id="fixes-18">Fixes</h3>
+<ul>
+<li>Fixed bug for coupon settings</li>
+<li>Fixed bug for ordering same pages with different options results in an error 1027</li>
+<li>Pay After Delivery option for sending invoice email. When enabled resulted in NOT sending and vice-versa</li>
+<li>Fixed bug Maintransaction ID errors when auto redirect is enabled with direct iDEAL</li>
+<li>Reset fee before trying to set it. Solves issue with some installations not reseting, resulting in fee from other selected payment method</li>
+<li>Added extra setQuote to solve issues reported by one merchant where Magento didn&rsquo;t add the quote correctly to the order. To solve this bug with Magento, we set the quote manually within the order</li>
+<li>Fixed bug with payment details to be added to the transaction record. Payment details are now stored again within the transaction record</li>
+<li>Fixed bug with unpaid invoices when completed</li>
+<li>Fixed issue to treat order status cancelled or cancelled (American vs English) the same correct way</li>
+<li>Fixed bug that caused product from a manually created order to be in the cart for the customer that the order was created for when the customer returns to the store and logs in</li>
+<li>Fixed bug with paid status</li>
+<li>When creating an invoice, Magento gets the totalpaid value and add it to the total invoiced value. When we don&rsquo;t create an invoice automatically, we set the totalpaid to inform the merchant that the order was paid. This resulted in a double totalPaid value because Magento added the invoiced total to the totalPaid when manually creating the invoice. This is now changed so that we reset the Total Paid in this situation just before the invoice is created and Magento updates the totalPaid again</li>
+</ul>
+<hr>
+<h2 id="202">2.0.2</h2>
+<p>Release date: Oct 10, 2014</p>
+<h3 id="improvements-11">Improvements</h3>
+<ul>
+<li>Added an option to set the daysactive for an Pay After Delivery transaction. When not payed in time, the transaction will expired and the webshop will be notified</li>
+<li>Added extra line to set the order total to paid if it hasn&rsquo;t been done</li>
+<li>Now use the fee price formatter so it includes the selected currency</li>
+<li>Force ordertotal set to paid when transaction is completed and invoice creation is disabled. Only show creation of transaction note once.</li>
+<li>Added version number to config title line.</li>
+<li>Textual improvements.</li>
+<li>Better check on order confirmation email sending.</li>
+<li>Rrecalculate the product price without tax as Magento round at 2 decimals by default and we use 4. This resulted in a amount mismatch when ordering larger quantities of the same product.</li>
+<li>Better support for special chars.</li>
+<li>Enabled locking again but return false instead of showing error and exit. This should avoid duplicate invoices when callback is called while before the redirect_url set the order status.</li>
+</ul>
+<h3 id="changes-6">Changes</h3>
+<ul>
+<li>FEE base is rewritten.</li>
+<li>Upgrade the php dependence to 5.5.12.</li>
+<li>Now get the selected gateway from the quote instead of the gateway model. This adds better compatibility with third-party onestepcheckout plugins.</li>
+</ul>
+<h3 id="fixes-19">Fixes</h3>
+<ul>
+<li>Fixed bug for error #1016 on the Return-URL.</li>
+<li>Fixed bug with gateway title not being visible in checkout.</li>
+<li>Fixed bug with missing house number on connect transactions.</li>
+<li>Fixed bug with order email not being sent after transaction complete.</li>
+<li>Fixed bug with double totalPaid amount.</li>
+</ul>
+<hr>
+<h2 id="200">2.0.0</h2>
+<p>Release date: May 20, 2014</p>
+<h3 id="improvements-12">Improvements</h3>
+<ul>
+<li>Added support for refunds from out of the backend of the webshop</li>
+<li>Fast Checkout now use the Magento Shipping methods</li>
+<li>When the order status of an Pay After Delivery order in the webshop is set to &lsquo;Shipped&rsquo;, the status of the transaction is also changed in the MultiSafepay backend.</li>
+<li>Currency not supported by MultiSafepay can now be converted to euro&rsquo;s.</li>
+<li>Programm structure of the plugin changed to the standard Magento convention.</li>
+<li>added support for Fashion-cheque.</li>
+<li>added support for Lief cadeaukaart.</li>
+<li>added support in the configuration for minimal order amount for iDEAL.</li>
+<li>added (limited) support for Magento Connect package (Only for new installations, not for an update from an older version of plugin).</li>
+</ul>
+<h3 id="changes-7">Changes</h3>
+<ul>
+<li>The &lsquo;Solve fee bug&rsquo; setting has been removed from the configuration. This is fixed in the software.</li>
+<li>The gateway &lsquo;Fijncadeau&rsquo; is deleted because it is no longer available.</li>
+<li>Transaction-ID is added to the redirect URL, for the case that our system doesn&rsquo;t.</li>
+<li>disable log for status-request to avoid large log files.</li>
+<li>lockfile systeem disabled.</li>
+</ul>
+<h3 id="fixes-20">Fixes</h3>
+<ul>
+<li>Fixed bug in the American Express config.</li>
+<li>Fixed 500 error when developers mode is enabled and iDEAL is selected without bank preselection.</li>
+<li>Fixed bug with images in checkout.</li>
+<li>Fixed bug with currency for separate gateway&rsquo;s.</li>
+<li>Fixed bug with the language.</li>
+<li>The additional fee is removed by normal operation.(Bug reported in v1.4.4).</li>
+<li>Fixed memory limit bug cause by recursion in the Payafter.php model.</li>
+<li>Fixed undefined index notices.</li>
+</ul>
+<hr>
+<h2 id="144">1.4.4</h2>
+<p>Release date: Apr 28, 2014</p>
+<h3 id="improvements-13">Improvements</h3>
+<ul>
+<li>Better support for OneStepCheckout.</li>
+<li>Better support for Apptha OneStepCheckout.</li>
+</ul>
+<h3 id="fixes-21">Fixes</h3>
+<ul>
+<li>fixed bug with total amount when using conversion.</li>
+<li>Fixed bug with autocreate invoice.</li>
+<li>Fixed bug with double fee calculation.</li>
+<li>Fixed bug with fee by payments other than Pay After Delivery.</li>
+</ul>
+<hr>
+<h2 id="143">1.4.3</h2>
+<p>Release date: Apr 8, 2014</p>
+<h3 id="improvements-14">Improvements</h3>
+<ul>
+<li>Filtering for special characters in XML.</li>
+<li>Added option to show the Pay After Delivery fee incl or excl tax during checkout, without changing calculations.</li>
+<li>Added Pay After Delivery template for direct Pay After Delivery transaction request.</li>
+<li>Added American Express as payment method.</li>
+<li>Added max amount for some gateways.</li>
+</ul>
+<h3 id="changes-8">Changes</h3>
+<ul>
+<li>Always get first IP address for customer IP and forwarded IP that it finds within the given value.</li>
+<li>Create invoice after payment has been completed, Magento changed things, if invoice isn&rsquo;t created then the order is processing with unpaid status.</li>
+<li>Changed default/template/msp/default.phtml files. This provides gateway html for other gateways other then MultiSafepay.</li>
+<li>Removed house number feature. If house number isn&rsquo;t available after parse the address then we use street2.</li>
+<li>Changed the way how discounts are processed.</li>
+<li>Change store name for connect transactions.</li>
+<li>No more redirect to checkoutcontroller for FCO transactions. All is done from within the standardcontroller. This solves 302 and 307 offline action errors.</li>
+</ul>
+<h3 id="fixes-22">Fixes</h3>
+<ul>
+<li>Google checkout bug fix.</li>
+<li>Fixed bug with configurable product only show the correct pages and don&rsquo;t show up twice in pages listing.</li>
+<li>Fixed bug with order data.</li>
+<li>Fixed return to empty cart page when offline actions are slow.</li>
+<li>fixed issue on error 503 in offline actions. No need to fill in account details in 3 different places.</li>
+<li>Fixed bug with directdebit and SOFORT Banking.</li>
+<li>Fixed bug with empty return-url.</li>
+</ul>
+<hr>
+<h2 id="142">1.4.2</h2>
+<p>Release date: Feb 4, 2014</p>
+<h3 id="fixes-23">Fixes</h3>
+<ul>
+<li>Invoice emails are now send correctly when using Magento 1.8.1</li>
+<li>Better support for Pay After Delivery</li>
+</ul>
+<hr>
+<h2 id="141">1.4.1</h2>
+<p>Release date: Sep 19, 2013</p>
+<h3 id="improvements-15">Improvements</h3>
+<ul>
+<li>Support for free shipping method</li>
+<li>Fee configurable option for the amount.</li>
+<li>HTML instructions support for connect Gateway</li>
+<li>Support for the onestepcheckout house number feature. This function seperates the address and house number, with this option enabled Pay After Delivery would fail on missing data.</li>
+<li>Amount validation check. If the quote amount is not equal to the order amount the transaction creation will stoped to prevent an underpaid order.</li>
+<li>Currency selection support for each separate gateway. Now you can select the currencies that are supported, the gateway will only be visible with the selected currencies.</li>
+<li>Degrotespeelgoedwinkel coupon as supported gateway</li>
+<li>Support for gateway descriptions per gateway. You can also use html within the description field to add nice gateway descriptions.</li>
+<li>Configurable &lsquo;multisafepay servicekosten&rsquo; label for Pay After Delivery. This label can now be changed</li>
+<li>Support for gateway images. Option to select only an image, the title, or both.</li>
+<li>Support for void, declined and expire status codes in combination with CANCELLED STATE.</li>
+</ul>
+<h3 id="changes-9">Changes</h3>
+<ul>
+<li>Direct e-banking is now SOFORT Banking</li>
+<li>Moved the fee line within the order totals table to above the tax</li>
+<li>The Fee tax description so it uses the configured label</li>
+<li>Disabled discontinued Fijncadeau coupon card</li>
+<li>Fooman surcharge fix no longer applies. To avoid confusion this is removed from the package.</li>
+</ul>
+<h3 id="fixes-24">Fixes</h3>
+<ul>
+<li>Wrong fee percentage for BNO Tax</li>
+<li>Disable visibility for the (old) notification URL</li>
+<li>Language was missing by use of Fast Checkout</li>
+<li>Bank selection was alway visible with iDEAL, even when the option was disabled.</li>
+<li>Parfumcadeaukaart coupon is now working correctly</li>
+<li>&lsquo;The cart is not equal&rsquo; is now solved for normal checkout as the one step checkout.</li>
+<li>When no fee is active the service cost&rsquo;s won&rsquo;t be visible.</li>
+</ul>
+<hr>
+<h2 id="133">1.3.3</h2>
+<p>Release date: Mar 26, 2013</p>
+<h3 id="improvements-16">Improvements</h3>
+<ul>
+<li>Added an &lsquo;send order status update email&rsquo; option</li>
+<li>Added an option to keep the cart active</li>
+<li>Added override for the order submit function. Now we can keep the cart active when a customer cancelled the order.</li>
+<li>Added the Fast Checkout method to the normal checkout process</li>
+<li>Added creation of an account within the store when a customer uses Fast Checkout.</li>
+<li>Better UTF-8 compatibility for Fast Checkout to prevent error 1000 messages.</li>
+</ul>
+<hr>
+<h2 id="132">1.3.2</h2>
+<p>Release date: Mar 10, 2013</p>
+<h3 id="improvements-17">Improvements</h3>
+<ul>
+<li>Added Pay After Delivery support</li>
+<li>Added an extra check to that an invoice won&rsquo;t be created twice</li>
+<li>Added bank_id check</li>
+<li>Better one step checkout compatibility with iDEAL issuer selection</li>
+</ul>
+<h3 id="changes-10">Changes</h3>
+<ul>
+<li>Updated Gateway template for direct banking.</li>
+<li>Removed the Invoice observer to avoid problems with invoice creation. The observer activated an update function that isn&rsquo;t needed.</li>
+<li>Updated the default Fast Checkout logo</li>
+</ul>
+<h3 id="fixes-25">Fixes</h3>
+<ul>
+<li>Fixed bug iDEAL issuers list with production environment.</li>
+<li>Fixed bug registered bank_id bug, now we have a select your bank option to avoid errors when customers forget to select a bank.</li>
+<li>Fixed bug for empty order status when an order was cancelled.</li>
+<li>Fixed bug that caused a duplicate transaction request</li>
+<li>Fixed store_id bug.</li>
+<li>Fixed bug that cause useless Notification notices within the error logs.</li>
+</ul>
+<hr>
+<h2 id="131">1.3.1</h2>
+<p>Release date: Jan 10, 2013</p>
+<h3 id="improvements-18">Improvements</h3>
+<ul>
+<li>DirectXML for Bank transfer.</li>
+</ul>
+<hr>
+<h2 id="130">1.3.0</h2>
+<p>Release date: Dec 10, 2012</p>
+<h3 id="improvements-19">Improvements</h3>
+<ul>
+<li>DirectXML for iDEAL.</li>
+</ul>
+<hr>
+<h2 id="129">1.2.9</h2>
+<p>Release date: Jan 12, 2011</p>
+<h3 id="improvements-20">Improvements</h3>
+<ul>
+<li>New order email option is active, you can now set when you want to send the order emails.</li>
+<li>New feature added that allows for reopening cancelled orders. If a cancelled order got paid by using Second Chance etc, the order will be processed again and an invoice is created etc.</li>
+<li>Added gateways for ebon, baby gift card, boekenbon, erotiekbon, fijncadeau, webshop</li>
+</ul>
+<p>card, parfumnl, parfumcadeaukaart.</p>
+<h3 id="fixes-26">Fixes</h3>
+<ul>
+<li>Quantity didn&rsquo;t got updated correct when some statusses got processed.</li>
+<li>Fix bug that allowed the processing of the same status multiple times. Check added so that a status will only be processed once.</li>
+</ul>
+<hr>
+<h2 id="128">1.2.8</h2>
+<h3 id="improvements-21">Improvements</h3>
+<ul>
+<li>STATE_CANCELED changed to STATE_PENDING due to Second Chance.</li>
+</ul>
+<h3 id="fixes-27">Fixes</h3>
+<ul>
+<li>Cancelled Orders will now actually be cancelled.</li>
+</ul>
+<hr>
+<h2 id="127">1.2.7</h2>
+<h3 id="improvements-22">Improvements</h3>
+<ul>
+<li>Better handling of manual invoice creation.</li>
+<li>Extra lock check that if an error occurs the status message is Not OK.</li>
+<li>use_shipping_notification set to false to overcome issue with &ldquo;Cannot send order to ##Specified## country.</li>
+</ul>
+<h3 id="fixes-28">Fixes</h3>
+<ul>
+<li>Cancelled Orders will now actually be cancelled.</li>
+</ul>
+<hr>
+<h2 id="126">1.2.6</h2>
+<h3 id="improvements-23">Improvements</h3>
+<ul>
+<li>Send email on Processing (instead of initial).</li>
+<li>Manual create invoices for orders.</li>
+<li>Payment Overview Cancelled status for: Void, Declined &amp; Expired.</li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/integration/ready-made/magento1/changelog.md' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

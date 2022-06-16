@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chargebacks on MultiSafepay Docs</title>
+    <link>https://docs.multisafepay.com/chargebacks/</link>
+    <description>Recent content in Chargebacks on MultiSafepay Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://docs.multisafepay.com/chargebacks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About chargebacks</title>
+      <link>https://docs.multisafepay.com/chargebacks/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/chargebacks/about/</guid>
+      <description>Chargebacks arise when a cardholder disagrees with or doesn&amp;rsquo;t recognize a transaction charged to their credit card, and requests the issuer to reverse it. The card scheme notifies MultiSafepay and reclaims the transaction amount from you.
+You are solely liable for paying chargebacks.
+The most common reasons for requesting chargebacks are fraud, non-delivery of goods, or goods not as described.
+Chargeback period Card schemes generally allow cardholders to request chargebacks for up to 180 days after the transaction.</description>
+    </item>
+    
+    <item>
+      <title>Disputing chargebacks</title>
+      <link>https://docs.multisafepay.com/chargebacks/disputing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/chargebacks/disputing/</guid>
+      <description>The table below sets out the process for disputing chargebacks.
+            1. Cardholder To find out more about a transaction, the cardholder can file a free retrieval request for more information. This can help identify and clarify transactions and avoid chargebacks. You can still refund the transaction at this stage.     2. Cardholder If the cardholder still disagrees with the transaction, they request a chargeback.</description>
+    </item>
+    
+    <item>
+      <title>Chargeback reasons and required evidence</title>
+      <link>https://docs.multisafepay.com/chargebacks/reasons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/chargebacks/reasons/</guid>
+      <description>When a cardholder requests a chargeback, they must provide a reason. This page sets out the chargeback reason codes for the major card schemes.
+If you have asked MultiSafepay to dispute a chargeback on your behalf, we have specified what documentary proof you need to provide for each chargeback reason. Try to provide as much proof as possible.
+Visa Fraud   Reason code 10.4: Card absent environment   The cardholder denies participating in the transaction you processed.</description>
+    </item>
+    
+    <item>
+      <title>Minimizing chargebacks</title>
+      <link>https://docs.multisafepay.com/chargebacks/minimizing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/chargebacks/minimizing/</guid>
+      <description>The best way of minimizing chargebacks is providing good customer service.
+We set out below ways to minimize the risk of the most common types of chargeback:
+Fraud Use 3D Secure for all credit card transactions.
+Cardholders are not allowed to request chargebacks due to fraud for 3D Secure-protected transactions.
+Non-delivery  Inform customers of both expected and actual delivery times Document the delivery process, e.g. use Track &amp;amp; Trace with signature Refund or cancel transactions if the goods won&amp;rsquo;t arrive within the stated delivery time or not at all.</description>
+    </item>
+    
+  </channel>
+</rss>

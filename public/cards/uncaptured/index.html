@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Uncaptured card payments - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="Uncaptured card payments" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/cards/uncaptured/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+    <link href="https://docs.multisafepay.com/cards/uncaptured/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+    <link rel="canonical" href="/cards/uncaptured/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payments/">Payments</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payment-methods/credit-debit-cards/">Credit and debit cards</a>
+  
+
+</li>
+
+
+<li>
+
+
+  Uncaptured card payments
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="Uncaptured card payments">Uncaptured card payments</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                    <img class="plugin-logo" src="/svgs/Subscriptions_and_credit_management.svg">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>To help reduce the risks associated with accepting credit cards, MultiSafepay&rsquo;s automated fraud filter reviews all card payments.</p>
+<h2 id="how-the-filter-works">How the filter works</h2>
+<p>All card transactions are assigned a fraud score from 1-10: 10 being the most at risk of fraud.</p>
+<p>For higher-risk transactions, the payment is placed on hold and the <a href="/about-payments/multisafepay-statuses/">transaction status</a> changes to <strong>Uncleared</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Fraud score</th>
+<th>On hold</th>
+<th>Action required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1–5 <br> Low risk</td>
+<td>No</td>
+<td>None</td>
+</tr>
+<tr>
+<td>6–8 <br> Medium risk</td>
+<td>Yes</td>
+<td>Review in your dashboard and capture or decline.</td>
+</tr>
+<tr>
+<td>8-10 <br> High risk</td>
+<td>Yes</td>
+<td>MultiSafepay reviews and captures or declines.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong> High-scoring transactions aren&rsquo;t always fraudulent, and low-scoring ones may still carry risk.</p>
+<h2 id="reviewing-uncaptured-payments">Reviewing uncaptured payments</h2>
+<p>When uncaptured payments are awaiting your review in your dashboard, you receive a notification in your dashboard and an email to the address provided under <strong>Contact details</strong> for your account.</p>
+<p>The final decision to capture or decline lies with you, as you are solely liable for any financial damage.
+For professional advice on reviewing and evaluating potential risks or fraud indicators, email <a href="mailto:risk@multisafepay.com">risk@multisafepay.com</a></p>
+<p>If you take no action, uncaptured transactions automatically expire after 5 days.</p>
+<p>To review uncaptured payments, click the dashboard notification, or:</p>
+<ol>
+<li>Sign in to your <a href="https://merchant.multisafepay.com/">MultiSafepay dashboard</a>.</li>
+<li>Go to <strong>Transactions</strong> &gt; <strong>Uncleared transactions</strong>.</li>
+<li>Click each transaction in the list to view the <strong>Transaction details</strong> page, including:
+<ul>
+<li>Basic information about the transaction, history data, and any notes</li>
+<li>The fraud score</li>
+<li>A risk summary – For a detailed risk report, click <strong>More information</strong>.</li>
+<li>If the customer is enrolled for 3D Secure</li>
+</ul>
+</li>
+<li>Evaluate the transaction (see guidance below) and:
+<ul>
+<li>To capture, click <strong>Accept</strong>.</li>
+<li>To decline, click <strong>Decline</strong>.</li>
+</ul>
+</li>
+</ol>
+<h2 id="evaluating-uncleared-transactions">Evaluating uncleared transactions</h2>
+<p>The following indicators paint a cumulative picture of uncaptured payments, but are no guarantee against fraud. If you are in any doubt about a payment, we recommend declining it and notifying the customer.</p>
+<div>
+	<details id="details-transaction-amount">
+		<summary>
+			Transaction amount
+		</summary>
+		<p>
+			Check if the transaction amount is noticeably higher or lower than average. Are you willing to risk this payment being revoked after delivering your product or service?
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-specific-product-or-service">
+		<summary>
+			Specific product or service
+		</summary>
+		<p>
+			<p>The risk of fraud strongly correlates with the type of products or services you offer. Popular products among fraudsters include consumer electronics, jewelry, and clothes by well-known fashion and designer brands. These products are easily re-sold for a worthwhile value, especially when ordered in bulk.</p>
+<p>Consider:</p>
+<ul>
+<li>Is the product easy to re-sell?</li>
+<li>Does the order make sense?</li>
+<li>Is the product selection or order size unusual?</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-customer">
+		<summary>
+			Customer
+		</summary>
+		<p>
+			<p>You can view customer information in your dashboard and in your <a href="/glossaries/multisafepay-glossary/#backend">backend</a>, which may contain information we do not have access to.</p>
+<p>Consider:</p>
+<ul>
+<li>
+<p>Are they a known customer? Are they a good customer or have you had problems with them before?</p>
+</li>
+<li>
+<p>Do they fit the profile of your average customer, e.g. location, average order value?</p>
+</li>
+<li>
+<p>Check the customer&rsquo;s email address. Fraudsters generally use auto-generated email addresses and free email services.</p>
+</li>
+<li>
+<p>In case of doubt, contact the customer. Have you ever had contact with them before? What is your impression of them?</p>
+</li>
+<li>
+<p>Ask if the customer is willing to complete the order using a different payment method with a
+payment guarantee, such as a bank transfer.</p>
+</li>
+<li>
+<p>You can also ask the customer for a copy of their ID card and/or a credit card statement to verify that they are the cardholder.</p>
+</li>
+</ul>
+<p>In many cases, the cardholder did initiate the transaction, but that is no guarantee it is not fraudulent.</p>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-3d-secure">
+		<summary>
+			3D Secure
+		</summary>
+		<p>
+			<p>3D Secure is an authentication protocol for verifying the cardholder&rsquo;s identity, e.g. with an additional password or code, or a credit card reader. If the customer passes authentication, you are protected against fraud-related <a href="/chargebacks/">chargebacks</a>.</p>
+<p>Check if the customer is enrolled for 3D Secure. On the <strong>Transaction details</strong> page &gt; <strong>Risk summary</strong>, their status displays as <strong>Enrolled</strong>.</p>
+<h3 id="3d-secure-statuses">3D Secure statuses</h3>
+<table>
+<thead>
+<tr>
+<th>3D Secure result</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enrolled, Liability</td>
+<td>3D Secure available and successfully authenticated. Liability for fraud is shifted to the cardholder and chargebacks are <strong>not</strong> possible.</td>
+</tr>
+<tr>
+<td>Not Enrolled, Liability</td>
+<td>3D Secure available, but not used or successfully authenticated. Liability for fraud is shifted to the cardholder and chargebacks are <strong>not</strong> possible.</td>
+</tr>
+<tr>
+<td>No Liability</td>
+<td>3D Secure <strong>not</strong> available. You retain liability for fraud chargebacks.</td>
+</tr>
+</tbody>
+</table>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-location">
+		<summary>
+			Location
+		</summary>
+		<p>
+			<p>Does the country address match the location of the IP address and country where the credit card was issued? Discrepancies are often easily explained, e.g. vacations or business trips.</p>
+<p>We recommend comparing where payments were made to where the card was initially issued. Pay attention to locations that are far apart, particularly if one is in a high-risk area.</p>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-risk-report">
+		<summary>
+			Risk report
+		</summary>
+		<p>
+			<p>For more information about the card used, in the <strong>Transaction details</strong> page, click <strong>View risk report</strong>.</p>
+<p>You can view the number of cards used:</p>
+<ul>
+<li>Via a specific IP address</li>
+<li>With a specific email address</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-settlement-status">
+		<summary>
+			Settlement status
+		</summary>
+		<p>
+			<p>After you ship a <a href="/payment-methods/klarna/">Klarna</a>, <a href="/payment-methods/afterpay/">Afterpay</a>, <a href="/payment-methods/betaal-per-maand/">Betaal per Maand</a>, and <a href="/payment-methods/pay-after-delivery/">Pay After Delivery</a> order, the order status is <strong>Shipped</strong> and the transaction status is <strong>Uncleared</strong>. At this point, the transaction is confirmed and settlement is guaranteed. The transaction status changes to <strong>Completed</strong> when MultiSafepay adds the funds to your MultiSafepay balance.</p>
+<p>For <a href="/payment-methods/request-to-pay/">Request to Pay</a>, <a href="/payment-methods/sofort-banking/">Sofort</a>, and <a href="/payment-methods/sepa-direct-debit/">SEPA Direct Debit</a>, <strong>Uncleared</strong> status means MultiSafepay has not yet received settlement partially or in full. We recommend <strong>not</strong> shipping orders during this status.</p>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-other-indicators">
+		<summary>
+			Other indicators
+		</summary>
+		<p>
+			<p>Under <strong>Fraud info</strong> (next to the fraud score), there are several other fraud risk indicators based on the email address and shipping details.</p>
+<p>Under <strong>History data</strong>, there is information about the number of credit cards used from the same IP address or with the same email address. If this number is high, it may indicate a fraudster, but may also indicate a big order from a large business.</p>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="see-also">See also</h2>
+<p><a href="/account/balance/#viewing-your-uncleared-balance">Viewing your uncleared balance</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/payments/methods/credit-and-debit-cards/uncaptured/' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

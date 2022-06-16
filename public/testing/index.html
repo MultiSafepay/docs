@@ -1,0 +1,1552 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Testing payment methods - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="Testing payment methods" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/testing/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+    <link href="https://docs.multisafepay.com/testing/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+    <link rel="canonical" href="/testing/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payments/">Payments</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a>
+  
+
+</li>
+
+
+<li>
+
+
+  Testing payment methods
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="Testing payment methods">Testing payment methods</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                    <img class="plugin-logo" src="/svgs/Testing.svg">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your <a href="https://testmerchant.multisafepay.com/">MultiSafepay test account</a>.</p>
+<p>If you encounter any issues during testing, see <a href="/developers/errors/">Handling errors</a>.</p>
+<div>
+	<details id="details-methods-not-available-in-test-environment">
+		<summary>
+			Methods not available in test environment
+		</summary>
+		<p>
+			<p>You can&rsquo;t test the following methods in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.</p>
+<ul>
+<li>Betaal per Maand</li>
+<li>iDEAL QR</li>
+<li>Paysafecard</li>
+<li>Request to Pay</li>
+<li>TrustPay</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="test-credentials">Test credentials</h3>
+<p>For all payment methods <strong>except</strong> AfterPay, you need your site&rsquo;s test <a href="/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code">API key</a>.</p>
+<h2 id="making-test-payments">Making test payments</h2>
+<ol>
+<li>
+<p>Initiate a payment in your <a href="/integrations/">ready-made integration</a> or via our API:</p>
+<p><div>
+	<details id="details-ready-made-integration">
+		<summary>
+			Ready-made integration
+		</summary>
+		<p>
+			<ul>
+<li>In your backend, enter your test site <a href="/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code">API key</a>.</li>
+<li>Place a test order, and then initiate a transaction with the payment method you are testing.</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-api">
+		<summary>
+			API
+		</summary>
+		<p>
+			<ul>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> via our API to the test endpoint: <code>https://testapi.multisafepay.com/v1/json/</code></li>
+<li>For example requests for specific payment methods, see <strong>Examples</strong>.</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+</p>
+</li>
+<li>
+<p>Enter the <a href="/testing/#test-payment-details">test payment details</a> for the payment method you are testing, or select a payment scenario, and complete the test payment.</p>
+</li>
+<li>
+<p>To check the transaction details, sign in to your <a href="https://testmerchant.multisafepay.com/">test dashboard</a>.</p>
+</li>
+<li>
+<p>Go to <strong>Transactions</strong> &gt; <strong>Transactions overview</strong>.</p>
+</li>
+<li>
+<p>In the <strong>Transactions overview</strong> list, select the transaction to view the <strong>Transaction details</strong> page.</p>
+</li>
+<li>
+<p>To check that you have succesfully connected to our system, under <strong>Offline actions</strong>, check that you&rsquo;ve correctly received the <strong>notifyMerchantTrans</strong> action. For information about errors, see <a href="/developers/http-errors/">HTTP errors</a>.</p>
+</li>
+</ol>
+<div class="blue-notice">
+    <span>
+        Once your live account is approved, make sure you use the site API key from your <strong>live</strong> account instead of your test account.
+    </span>
+</div>
+<h2 id="test-payment-details">Test payment details</h2>
+<p>Use the following test payment details for testing different scenarios.</p>
+<h3 id="banking-methods">Banking methods</h3>
+<div>
+	<details id="details-bancontact">
+		<summary>
+			Bancontact
+		</summary>
+		<p>
+			<p><strong>Test a Bancontact order</strong></p>
+<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Banking order (Example: Bancontact redirect).</li>
+<li>Open the payment link.</li>
+<li>In the <strong>Card number</strong> field, enter a card number (see table below).</li>
+<li>In the <strong>Expiry date</strong> fields, enter any future date.</li>
+<li>Click <strong>Confirm</strong>.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Card number</th>
+<th>Scenario</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>67034500054620008</td>
+<td><strong>Completed</strong></td>
+<td>Transaction was completed (3D enrolled). <br> Also use this card number when creating orders to test <a href="/testing/testing-refunds/#test-refunding-an-order">refunds</a> and <a href="/testing/testing-refunds/#test-an-api-refund">API refunds</a>.</td>
+</tr>
+<tr>
+<td>67034500054610009</td>
+<td><strong>Declined</strong></td>
+<td>Transaction was declined (card must be 3D enrolled).</td>
+</tr>
+<tr>
+<td>67039902990000045</td>
+<td><strong>Declined</strong></td>
+<td>Transaction was declined (3D authentication failed).</td>
+</tr>
+<tr>
+<td>67039902990000011</td>
+<td><strong>Declined</strong></td>
+<td>Transaction was declined (3D authentication successful, but insufficient funds).</td>
+</tr>
+</tbody>
+</table>
+<p>You can see the reason the transaction was declined in your MultiSafepay test account under <strong>Notes</strong>.</p>
+<hr>
+<p><strong>Test a Bancontact QR code</strong></p>
+<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Banking order (Example: Bancontact QR).</li>
+<li>Open the payment link.</li>
+<li>Scan the QR code with a general QR reader (<strong>not</strong> the Bancontact app or an error occurs).</li>
+<li>On the <strong>Test platform</strong> page, from the <strong>Test scenario</strong> list, select <strong>Completed</strong>.</li>
+<li>Click <strong>Test</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-bank-transfer">
+		<summary>
+			Bank Transfer
+		</summary>
+		<p>
+			<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Banking order (Example: Bank Transfer redirect).</li>
+<li>Open the payment link.</li>
+<li>In the <strong>Your bank account</strong> field, enter an IBAN (see table below).</li>
+<li>From the <strong>Bank&rsquo;s country</strong> list, select a country, and then click <strong>Confirm</strong>.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>IBAN</th>
+<th>Scenario</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NL87ABNA0000000001</td>
+<td><strong>Initialized</strong>/ <strong>Completed</strong></td>
+<td>Transaction is initiated. After 2 minutes, this changes to <strong>Completed</strong>. <br> Also use this for <a href="/testing/testing-refunds/#test-refunding-an-order">testing refunds</a>.</td>
+</tr>
+<tr>
+<td>NL87ABNA0000000002</td>
+<td><strong>Initialized</strong>/ <strong>Expired</strong></td>
+<td>Transaction is initiated. After 2 minutes, this changes to <strong>Expired</strong>.</td>
+</tr>
+<tr>
+<td>NL87ABNA0000000004</td>
+<td><strong>Initialized</strong>/ <strong>Declined</strong></td>
+<td>Transaction is initiated. After 2 minutes, this changes to <strong>Declined</strong>.</td>
+</tr>
+<tr>
+<td>Any other IBAN</td>
+<td><strong>Initialized</strong>/ <strong>Expired</strong></td>
+<td>Transaction is initiated. After 5 days, this changes to <strong>Expired</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong> You can&rsquo;t test making direct API requests with an IBAN to test different transaction statuses.
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-belfius,-cbc/kbc,-sofort,-trustly">
+		<summary>
+			Belfius, CBC/KBC, Sofort, Trustly
+		</summary>
+		<p>
+			<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Banking order. <br> See also the Examples for the specific payment method.</li>
+<li>Open the payment link.</li>
+<li>On the <strong>Test platform</strong> page, from the <strong>Test scenario</strong> list, select <strong>Completed</strong>.</li>
+<li>Click <strong>Test</strong>.<br>
+The payment is processed in the test environment as <strong>Successful</strong>, with order status <strong>Completed</strong>, and transaction status <strong>Completed</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-dotpay">
+		<summary>
+			Dotpay
+		</summary>
+		<p>
+			<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Banking order (Example: Dotpay redirect).</li>
+<li>On the Dotpay page, enter in the:
+<ul>
+<li><strong>Email address</strong> field: Any email address</li>
+<li><strong>Phone number</strong> field: Any phone number</li>
+</ul>
+</li>
+<li>Select a bank. (You may see more banks available in the live environment.)
+You are automatically redirected.</li>
+<li>On the <strong>Test platform</strong> page, from the <strong>Test scenario</strong> list, select <strong>Completed</strong>.</li>
+<li>Click <strong>Test</strong>.<br>
+The payment is processed in the test environment as <strong>Successful</strong>, with order status <strong>Completed</strong>, and transaction status <strong>Completed</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-eps">
+		<summary>
+			EPS
+		</summary>
+		<p>
+			<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Banking order (Example: EPS redirect). <br> Set the <code>locale</code> parameter to <code>at_AT</code>.</li>
+<li>On the EPS page, in the <strong>BIC</strong> field, enter any BIC code, e.g. <code>RZOOAT2L420</code>.</li>
+<li>Click <strong>Confirm</strong>.</li>
+<li>On the <strong>Test platform</strong> page, from the <strong>Test scenario</strong> list, select <strong>Completed</strong>.</li>
+<li>Click <strong>Test</strong>.<br>
+The payment is processed in the test environment as <strong>Successful</strong>, with order status <strong>Completed</strong>, and transaction status <strong>Completed</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-giropay">
+		<summary>
+			Giropay
+		</summary>
+		<p>
+			<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Banking order (Example: Giropay redirect).</li>
+<li>On the Giropay page, in the <strong>BIC</strong> field, enter any BIC code, e.g. <code>NOLADE22XXX</code>.</li>
+<li>Click <strong>Confirm</strong>.</li>
+<li>On the <strong>Test platform</strong> page, from the <strong>Test scenario</strong> list, select <strong>Completed</strong>.</li>
+<li>Click <strong>Test</strong>.<br>
+The payment is processed in the test environment as <strong>Successful</strong>, with order status <strong>Completed</strong>, and transaction status <strong>Completed</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-ideal">
+		<summary>
+			iDEAL
+		</summary>
+		<p>
+			<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Banking order (Example: iDEAL direct/redirect).</li>
+<li>For redirect, select a bank.</li>
+<li>On the <strong>Test platform</strong> page, from the <strong>Test scenario</strong> list, select <strong>Completed</strong>.</li>
+<li>Click <strong>Test</strong>.<br>
+The payment is processed in the test environment as <strong>Successful</strong>, with order status <strong>Completed</strong>, and transaction status <strong>Completed</strong>.</li>
+</ol>
+<p>You can also test the following scenarios:</p>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Declined</strong></td>
+<td>Transaction was declined.</td>
+</tr>
+<tr>
+<td><strong>Open</strong> <strong>Completed</strong></td>
+<td>Transaction is initiated. After 1 minute, this changes to <strong>Completed</strong>.</td>
+</tr>
+<tr>
+<td><strong>Open</strong> <strong>Declined</strong></td>
+<td>Transaction is initiated. After 1 minute, this changes to <strong>Declined</strong>.</td>
+</tr>
+</tbody>
+</table>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-sepa-direct-debit">
+		<summary>
+			SEPA Direct Debit
+		</summary>
+		<p>
+			<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Banking order (Example: SEPA Direct Debit direct/redirect).</li>
+<li>For redirect orders, open the payment link.</li>
+<li>Enter in the:
+<ul>
+<li><strong>Account holder</strong> field the account holder name.</li>
+<li><strong>IBAN</strong> field an IBAN (see table below).</li>
+</ul>
+</li>
+<li>Click <strong>Confirm</strong>.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>IBAN</th>
+<th>Scenario</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NL87ABNA0000000001</td>
+<td><strong>Initialized</strong>/ <strong>Completed</strong></td>
+<td>Transaction is initiated. After 2 minutes, this changes to <strong>Completed</strong>. <br> Also use this IBAN to test <a href="/testing/testing-refunds/#test-refunding-an-order">refunds</a> and <a href="/testing/testing-refunds/#test-an-api-refund">API refunds</a>.</td>
+</tr>
+<tr>
+<td>NL87ABNA0000000002</td>
+<td><strong>Initialized</strong>/ <strong>Declined</strong></td>
+<td>Transaction is initiated. After 2 minutes, this changes to <strong>Declined</strong>.</td>
+</tr>
+<tr>
+<td>NL87ABNA0000000003</td>
+<td><strong>Initialized</strong>/ <strong>Uncleared</strong>/ <strong>Completed</strong></td>
+<td>Transaction is initiated. After 2 minutes, this changes to <strong>Uncleared</strong>. After 1 more minute, it changes to <strong>Completed</strong>.</td>
+</tr>
+<tr>
+<td>NL87ABNA0000000004</td>
+<td><strong>Initialized</strong>/ <strong>Uncleared</strong>/ <strong>Declined</strong></td>
+<td>Transaction is initiated. After 2 minutes, this changes to <strong>Uncleared</strong>. After 1 more minute, it changes to <strong>Declined</strong>.</td>
+</tr>
+</tbody>
+</table>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="pay-later-methods">Pay later methods</h3>
+<div>
+	<details id="details-afterpay">
+		<summary>
+			AfterPay
+		</summary>
+		<p>
+			<p><strong>1.</strong> Request a test API key from AfterPay via either:</p>
+<ul>
+<li>Your implementation ticket with AfterPay, <strong>or</strong></li>
+<li>Email <a href="mailto:sales@afterpay.nl">sales@afterpay.nl</a></li>
+</ul>
+<p>AfterPay shares the test key with MultiSafepay.</p>
+<p><strong>2.</strong> To enable AfterPay in your MultiSafepay test account, email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+<p><strong>Test an AfterPay order</strong></p>
+<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Pay later order (Example: AfterPay direct/redirect).</li>
+<li>For redirect orders, select the checkbox at the bottom of the AfterPay page, and then click <strong>Confirm</strong>.<br>
+The payment is processed in the test environment as <strong>Successful</strong>, with order status <strong>Completed</strong>, and transaction status <strong>Uncleared</strong>.</li>
+</ol>
+<p><strong>Test declining an order</strong></p>
+<p>To decline an order, in your test account under <strong>Order summary</strong>, click <strong>Decline</strong>.<br>
+The transaction and order statuses change to <strong>Void</strong>.</p>
+<p><strong>Test AfterPay rejecting an order</strong></p>
+<p>To test AfterPay rejecting an order, in your direct or redirect API request, use the following email address: <a href="mailto:rejection@afterpay.nl">rejection@afterpay.nl</a><br>
+The transaction and order statuses change to <strong>Declined</strong>.</p>
+<p><strong>Change the order status</strong></p>
+<p>You can change the order status to <strong>Shipped</strong> or <strong>Cancelled</strong>.
+To change the order status, either:</p>
+<ul>
+<li>Make an <a href="https://docs-api.multisafepay.com/reference/updateorder">update order</a> request, or</li>
+<li>In your MultiSafepay test dashboard, go to <strong>Order summary</strong>, and then click <strong>Order status</strong>.</li>
+</ul>
+<hr>
+<p><strong>Notes:</strong></p>
+<p>You can&rsquo;t test:</p>
+<ul>
+<li>Receiving successful payment notifications from AfterPay</li>
+<li>Changing the transaction status from <strong>Uncleared</strong> to <strong>Completed</strong></li>
+<li>Processing refunds</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-e-invoicing,-pay-after-delivery">
+		<summary>
+			E-Invoicing, Pay After Delivery
+		</summary>
+		<p>
+			<p><strong>Test an order</strong></p>
+<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Pay later order (Example: E-Invoicing/Pay After Delivery direct/redirect).</li>
+<li>For redirect orders, open the payment link.</li>
+<li>Enter in the:
+<ul>
+<li><strong>Birthdate</strong> field any date of birth. Format: DD-MM-YYYY.</li>
+<li><strong>Bank account</strong> field any 10-digit bank account number.</li>
+<li><strong>Email address</strong> field any email address.</li>
+<li><strong>Phone number</strong> field any phone number.</li>
+</ul>
+</li>
+<li>Click <strong>Confirm</strong>.<br>
+The payment is processed in the test environment as <strong>Successful</strong>, with order and transaction statuses <strong>Uncleared</strong>.</li>
+</ol>
+<p><strong>Test declining an order</strong></p>
+<p>To decline an order, in your test account under <strong>Order summary</strong>, click <strong>Decline</strong>.<br>
+The order and transaction statuses change to <strong>Void</strong>.</p>
+<p><strong>Test shipping an E-Invoicing order</strong></p>
+<p>To test shipping an order, make an <a href="https://docs-api.multisafepay.com/reference/updateorder">update order</a> API request with status <code>&quot;shipped&quot;</code>. You receive the <code>invoice_url</code> in the API response.</p>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-in3">
+		<summary>
+			in3
+		</summary>
+		<p>
+			<p><strong>Test an in3 order</strong></p>
+<ol>
+<li>
+<p><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Pay later order (Example: in3 direct/redirect). Use the following customer details:</p>
+<ul>
+<li>Date of birth: 01-01-1999</li>
+<li>Postal code: 1234AB</li>
+<li>House number: 1</li>
+</ul>
+<p>For redirect orders:</p>
+<ul>
+<li>Enter in the:
+<ul>
+<li><strong>Birthdate</strong> field: <code>01-01-1999</code></li>
+<li><strong>Phone number</strong> field: Any phone number</li>
+</ul>
+</li>
+<li>Select your title, and then click <strong>Confirm</strong>.</li>
+</ul>
+</li>
+<li>
+<p>Select the checkbox to accept in3&rsquo;s payment terms and privacy statement, and then click <strong>Afronden</strong>.</p>
+</li>
+<li>
+<p>On the <strong>Test platform</strong> page, from the <strong>Test scenario</strong> list, select <strong>Completed</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Test</strong>.</p>
+</li>
+<li>
+<p>On the in3 page, click <strong>Terug naar webshop</strong>.<br>
+The payment is processed in the test environment as <strong>Successful</strong>, with order status <strong>Completed</strong>, and transaction status <strong>Uncleared</strong>.</p>
+</li>
+</ol>
+<p><strong>Test in3 declining an order</strong></p>
+<p>Use the following customer details:</p>
+<ul>
+<li>Date of birth: 01-01-2000</li>
+<li>Postal code: 1111AB</li>
+<li>House number: 1</li>
+</ul>
+<p>The order and transaction statuses change to <strong>Declined</strong>.</p>
+<p><strong>Test shipping an order</strong></p>
+<p>To test shipping an order, either:</p>
+<ul>
+<li>Make an <a href="https://docs-api.multisafepay.com/reference/updateorder">update order</a> API request with status <code>shipped</code>, or</li>
+<li>In your MultiSafepay test dashboard, go to <strong>Order summary</strong>, and then click <strong>Order status</strong>.</li>
+</ul>
+<p><strong>Receive an invoice</strong></p>
+<p>You can only test invoicing in your MultiSafepay live account. To do this, change the order status to <strong>Shipped</strong>.</p>
+<p><strong>Test refunding an order</strong></p>
+<p>To test refunding an order:</p>
+<ol>
+<li>Create an order.</li>
+<li>Change the order status to <code>shipped</code>.</li>
+<li>Click <strong>Refund complete order</strong>, and then click <strong>Save item changes</strong>.
+<br>
+A new order is created for the refund. The order status for the refund changes to <strong>Completed</strong>.</li>
+</ol>
+<p><strong>Test an API refund</strong></p>
+<p>To test refunding an order via the API:</p>
+<ol>
+<li>Create an order.</li>
+<li>Change the order status to <code>shipped</code>.</li>
+<li>Make a pay later refund API request: <a href="https://docs-api.multisafepay.com/reference/">Refund order</a> &gt; Pay later refund.
+<br>
+A new order is created for the refund. The order status for the refund changes to <strong>Completed</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-klarna">
+		<summary>
+			Klarna
+		</summary>
+		<p>
+			<p>Test credentials:</p>
+<ul>
+<li><a href="/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code">Site API key</a></li>
+<li><a href="https://docs.klarna.com/resources/test-environment/">Klarna&rsquo;s test credentials</a></li>
+</ul>
+<p><strong>Test a Klarna order</strong></p>
+<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Pay later order (Example: Klarna direct/redirect).</li>
+<li>On the Klarna page, click <strong>Kopen</strong>.</li>
+<li>In the <strong>Telefoonnummer</strong> field, enter any mobile number, and then click <strong>Ga verder</strong>.</li>
+<li>In the <strong>Verificatiecode</strong> field, enter any 6-digit number, and then click <strong>Bevestigen</strong>.<br>
+The payment is processed in the test environment as <strong>Successful</strong>, with order status <strong>Completed</strong>, and transaction status <strong>Uncleared</strong>.</li>
+</ol>
+<p><strong>Test declining an order</strong></p>
+<p>To decline an order, in your test account under <strong>Order summary</strong>, click <strong>Decline</strong>.<br>
+The transaction and order statuses change to <strong>Void</strong>.</p>
+<p><strong>Change the order status</strong></p>
+<p>You can change the order status to <strong>Shipped</strong> or <strong>Cancelled</strong>.
+To change the order status, either:</p>
+<ul>
+<li>Make an <a href="https://docs-api.multisafepay.com/reference/updateorder">update order</a> API request, or</li>
+<li>In your MultiSafepay test dashboard, go to <strong>Order summary</strong>, and then click <strong>Order status</strong>.</li>
+</ul>
+<p><strong>Test refunding an order</strong></p>
+<p>To refund an order:</p>
+<ol>
+<li>Change the order status to <strong>Shipped</strong>.</li>
+<li>Under <strong>Order summary</strong>, click <strong>Refund order</strong>, or make a pay later refund API request: <a href="https://docs-api.multisafepay.com/reference/refundorder">Refund order</a> &gt; Pay later refund.<br>
+The transaction status changes to <strong>Completed</strong>.</li>
+</ol>
+<p><strong>Receive an invoice</strong></p>
+<p>You can only test invoicing in your MultiSafepay live account. To do this, change the order status to <strong>Shipped</strong>.</p>
+<hr>
+<p><strong>Notes:</strong></p>
+<p>You can&rsquo;t test:</p>
+<ul>
+<li>Receiving successful payment notifications from Klarna</li>
+<li>Changing the transaction status from <strong>Uncleared</strong> to <strong>Completed</strong>, except for refunds</li>
+</ul>
+<p>For more information about integrating Klarna with MultiSafepay, see <a href="/payment-methods/klarna/">Klarna</a>.</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="credit-and-debit-cards">Credit and debit cards</h3>
+<div>
+	<details id="details-credit-and-debit-cards">
+		<summary>
+			Credit and debit cards
+		</summary>
+		<p>
+			<ol>
+<li>
+<p><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Card order. See also the Examples for the specific card scheme.<br>
+For co-branded cards, see the Credit card redirect example, and set the <code>locale</code> parameter:</p>
+<ul>
+<li>Cartes Bancaires: <code>fr_FR</code></li>
+<li>Dankort: <code>da_DK</code></li>
+<li>Postepay: <code>it_IT</code></li>
+</ul>
+</li>
+<li>
+<p>On the payment page:</p>
+<ul>
+<li>In the <strong>Card number</strong> field, enter a card number (see table below).</li>
+<li>In the <strong>Card holder</strong> field, enter any name.</li>
+<li>From the <strong>Expiry date</strong> lists, select any future date.</li>
+<li>In the <strong>CVC/CVV</strong> field, enter <code>123</code>.</li>
+<li>Click <strong>Confirm</strong>.</li>
+</ul>
+</li>
+<li>
+<p>On the 3D payment page:</p>
+<ul>
+<li>From the drop-down list, select <strong>Authenticated (Y)</strong>.</li>
+<li>Click <strong>Confirm</strong>.<br>
+The payment is processed in the test environment as <strong>Successful</strong>, with order status <strong>Completed</strong>, and transaction status <strong>Completed</strong>.</li>
+</ul>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Card number</th>
+<th>Scenario</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Amex: 378282246310005 <br> Maestro: 6759000000005 <br> Mastercard: 5500000000000004 <br> Visa/co-branded: <br> 4111111111111111</td>
+<td><strong>Completed</strong></td>
+<td>Transaction was completed (3D enrolled)</td>
+</tr>
+<tr>
+<td>Visa/co-branded: <br> 4012001038443335</td>
+<td><strong>Completed</strong></td>
+<td>Transaction was completed (not 3D enrolled)</td>
+</tr>
+<tr>
+<td>Visa/co-branded: <br> 4917300000000008</td>
+<td><strong>Uncleared</strong></td>
+<td>Transaction is uncleared. After 3 minutes, this changes to <strong>Void</strong>.</td>
+</tr>
+<tr>
+<td>Amex: 378734493671000 <br> Visa/co-branded: <br> 4462000000000003</td>
+<td><strong>Uncleared</strong></td>
+<td>Transaction is uncleared. After 3 minutes, this changes to <strong>Completed</strong>.</td>
+</tr>
+<tr>
+<td>Amex: 374200000000004 <br> Visa/co-branded: <br> 4012001037461114</td>
+<td><strong>Declined</strong></td>
+<td>Transaction was declined (3D authentication failed)</td>
+</tr>
+<tr>
+<td>Visa/co-branded: <br> 4012001038488884</td>
+<td><strong>Declined</strong></td>
+<td>Transaction was declined (3D authentication was successful, but insufficient funds)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong> You can see the reason a transaction was declined in your MultiSafepay test account under <strong>Notes</strong>.</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="prepaid-cards">Prepaid cards</h3>
+<div>
+	<details id="details-edenred">
+		<summary>
+			Edenred
+		</summary>
+		<p>
+			<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Prepaid card order (Example: Edenred redirect).</li>
+<li>On the payment page, click <strong>Add discount</strong>.</li>
+<li>From the <strong>Test scenario</strong> list, select the relevant discount, and then click <strong>Test</strong>.
+The payment is processed in the test environment as <strong>Successful</strong>, with order status <strong>Completed</strong>, and transaction status <strong>Completed</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-gift-cards">
+		<summary>
+			Gift cards
+		</summary>
+		<p>
+			<p>You can test the following gift cards:</p>
+<ul>
+<li>Beauty Cadeau</li>
+<li>Boeken Voordeel</li>
+<li>Huis &amp; Tuin Cadeau</li>
+<li>Klus Cadeau</li>
+<li>Nationale Bioscoopbon</li>
+<li>VVV Cadeaukaart</li>
+<li>Wijn Cadeaukaart</li>
+</ul>
+<p><strong>Test a gift card order</strong></p>
+<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Prepaid card order (Example: Gift card redirect).</li>
+<li>Open the payment link.</li>
+<li>Enter in the:
+<ul>
+<li><strong>Card number</strong> field <code>111115</code></li>
+<li><strong>Security code</strong> field any 4-digit number</li>
+</ul>
+</li>
+<li>Click <strong>Add discount</strong>.<br>
+The payment is processed in the test environment as <strong>Successful</strong>, with order status <strong>Completed</strong>, and transaction status <strong>Completed</strong>.</li>
+</ol>
+<p>Use the following card numbers to test different gift card balances.</p>
+<table>
+<thead>
+<tr>
+<th>Card numbers</th>
+<th>Balance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>111115</td>
+<td>€ 100</td>
+</tr>
+<tr>
+<td>111112</td>
+<td>€ 5</td>
+</tr>
+<tr>
+<td>111110</td>
+<td>No balance</td>
+</tr>
+</tbody>
+</table>
+<p>Any other card number receives an &ldquo;Invalid card number&rdquo; error.</p>
+<p><strong>Other gift cards</strong></p>
+<p>You can&rsquo;t test other gift cards in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account. You make a small payment and the amount is actually deducted from the gift card.</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="wallets">Wallets</h3>
+<div>
+	<details id="details-alipay">
+		<summary>
+			Alipay
+		</summary>
+		<p>
+			<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Wallet order (Example: Alipay direct/redirect).</li>
+<li>On the <strong>Test platform</strong> page, from the <strong>Test scenario</strong> list, select <strong>Completed</strong>.</li>
+<li>Click <strong>Test</strong>.<br>
+The payment is processed in your MultiSafepay test account as <strong>Successful</strong>, with order status <strong>Completed</strong>, and transaction status <strong>Initialized</strong>.</li>
+</ol>
+<p><strong>Note:</strong> You can&rsquo;t test Alipay declining transactions.
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-apple-pay">
+		<summary>
+			Apple Pay
+		</summary>
+		<p>
+			<p><strong>Compatible devices</strong></p>
+<p>For compatible devices, see Apple – <a href="https://support.apple.com/en-us/HT208531">Devices compatible with Apple Pay</a>.</p>
+<p>If you don&rsquo;t own an Apple device, we recommend using the <a href="https://appetize.io">Appetize.io</a> emulator. When you try to complete a test payment on the payment page, you get a <em>This device is not supported</em> error. But the emulator creates an order with the Apple Pay gateway preselected to check if there is an existing connection to our server. However, you can&rsquo;t fully complete the test transaction.</p>
+<p><strong>Testing prerequisites</strong></p>
+<ul>
+<li>Use a <a href="https://support.apple.com/en-us/HT208531">compatible device</a></li>
+<li>Use Safari browser</li>
+<li>Activate Maestro for your MultiSafepay account</li>
+</ul>
+<p>If these requirements are not met, Apple Pay doesn&rsquo;t appear on the checkout page.</p>
+<p><strong>Testing Apple Pay redirect</strong></p>
+<p>To test your Apple Pay redirect integration, there are two ways:</p>
+<ul>
+<li>If you have an Apple account with at least one credit card in your wallet, you can use your own account and card details in our test environment without incurring any costs.</li>
+<li>Alternatively, you can use an <a href="https://developer.apple.com/apple-pay/sandbox-testing">Apple Developer account</a> configured for Apple Pay, with at least one Apple Pay test card in your wallet.</li>
+</ul>
+<p>To test, follow these steps:</p>
+<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Wallet order (Example: Apple Pay redirect).</li>
+<li>On the payment page, click the <strong>Apple Pay</strong> button.<br>
+You can ignore the &ldquo;This device is not supported&rdquo; error.</li>
+<li>Sign in to your Apple Developer account and select your test card.</li>
+<li>Authorize the payment.
+The transaction is completed.</li>
+</ol>
+<p><strong>Testing Apple Pay direct</strong></p>
+<p>See Apple Pay direct integration – <a href="/payment-methods/apple-pay/direct/#test-your-integration">Test your integration</a>.</p>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-google-pay">
+		<summary>
+			Google Pay
+		</summary>
+		<p>
+			<p>To test Google Pay payments, follow these steps:</p>
+<ol>
+<li>
+<p>In your checkout, click the <strong>Google Pay</strong> button.</p>
+</li>
+<li>
+<p>Complete payment using your Google account.</p>
+<p>Your real card details are never processed in our testing environment, but you must add at least one chargeable card to your Google account.</p>
+<p>Depending on your card&rsquo;s authentication method, you may or may not be redirected to authenticate:</p>
+<ul>
+<li><strong>PAN only</strong>: Authentication method for cards stored on file in your Google Account. Returned payment data includes your personal account number (PAN), expiration month, and expiration year. You are redirected to a test 3D Secure page to authenticate the payment.</li>
+<li><strong>Cryptogram 3DS</strong>: Authentication method for cards stored as Android device tokens. Returned payment data includes a 3D Secure cryptogram generated on the device. You are not redirected to authenticate the payment.<br>
+ <br>
+For more information about testing, see Google Pay – <a href="https://developers.google.com/pay/api/web/guides/resources/sample-tokens">Test with sample tokens</a>.
+ </li>
+</ul>
+</li>
+<li>
+<p>Check the status of the payment in your <a href="https://testmerchant.multisafepay.com/">test dashboard</a>.</p>
+</li>
+</ol>
+<p>For support, email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-paypal">
+		<summary>
+			PayPal
+		</summary>
+		<p>
+			<p><strong>Test a PayPal order</strong></p>
+<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a> &gt; Wallet order (Example: PayPal direct).</li>
+<li>On the <strong>Test platform</strong> page, from the <strong>Test scenario</strong> list, select <strong>Completed</strong>.</li>
+<li>Click <strong>Test</strong>.<br>
+The payment is processed in your MultiSafepay test account as <strong>Successful</strong>, with order status <strong>Completed</strong>, and transaction status <strong>Initialized</strong>.</li>
+</ol>
+<hr>
+<p><strong>Note</strong>: Since MultiSafepay does not collect payments on behalf of PayPal, the transaction status remains <strong>Initialized</strong> and can&rsquo;t be changed to <strong>Completed</strong>.</p>
+<hr>
+<p><strong>Change the order status</strong></p>
+<p>You can change the order status to:</p>
+<table>
+<thead>
+<tr>
+<th>Status</th>
+<th>Description</th>
+<th>Test scenario</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Completed</strong></td>
+<td>Order was completed</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td><strong>Void</strong></td>
+<td>Order was cancelled</td>
+<td>Cancelled</td>
+</tr>
+<tr>
+<td><strong>Initialized</strong>/ <strong>Completed</strong></td>
+<td>Payment blocked by PayPal, then accepted after 2 minutes</td>
+<td>Initialized completed</td>
+</tr>
+</tbody>
+</table>
+<p>To change the order status, on the Test platform page, from the <strong>Test scenario</strong> list, select the relevant test scenario.</p>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-wechat-pay">
+		<summary>
+			WeChat Pay
+		</summary>
+		<p>
+			<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create order</a> &gt; Wallet order (Example: WeChat direct/redirect).</li>
+<li>Scan the QR code with a general QR reader (<strong>not</strong> the WeChat app or an error occurs).</li>
+<li>On the <strong>Test platform</strong> page, from the <strong>Test scenario</strong> list, select <strong>Completed</strong>.</li>
+<li>Click <strong>Test</strong>.<br>
+The payment is processed in your MultiSafepay test account as <strong>Successful</strong>, with order status <strong>Completed</strong>, and transaction status <strong>Completed</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="test-cancelling-an-order">Test cancelling an order</h2>
+<div>
+	<details id="details-testing-cancellations">
+		<summary>
+			Testing cancellations
+		</summary>
+		<p>
+			<p>You can test cancelling orders for the following methods:</p>
+<ul>
+<li>Banking methods: Belfius, CBC/KBC, Dotpay, EPS, Giropay, iDEAL (not QR), Sofort, Trustly</li>
+<li>Wallets: Alipay, PayPal</li>
+</ul>
+<p>To test cancelling an order:</p>
+<ol>
+<li>Create an order in your backend or via the API as above.</li>
+<li>On the <strong>Test platform</strong> page, from the <strong>Test scenario</strong> list, select <strong>Cancelled</strong>.</li>
+<li>Click <strong>Test</strong>.<br>
+The order status changes to <strong>Void</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="testing-refunds">Testing refunds</h2>
+<div>
+	<details id="details-testing-refunds-via-your-dashboard">
+		<summary>
+			Testing refunds via your dashboard
+		</summary>
+		<p>
+			<p><strong>Payment methods</strong></p>
+<ul>
+<li>Banking methods: Bancontact (not QR), Bank Transfer, Belfius, CBC/KBC, Dotpay, EPS, Giropay, iDEAL (not QR), SEPA Direct Debit, Sofort, Trustly</li>
+<li>Credit and debit cards</li>
+<li>Pay later: in3, Klarna</li>
+<li>Wallets: Alipay, PayPal, WeChat Pay</li>
+</ul>
+<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a>.</li>
+<li>Wait until the transaction status changes to <strong>Completed</strong>.</li>
+<li>In your MultiSafepay test dashboard, go to <strong>Order summary</strong>, and then click <strong>Refund order</strong>.</li>
+<li>Under <strong>Refund</strong>, enter in the:
+<ul>
+<li><strong>Account holder name</strong> field the account holder name of the account you want to refund to.</li>
+<li><strong>Amount</strong> field the amount to refund.</li>
+<li><strong>IBAN</strong> field the IBAN of the account you want to refund to.</li>
+<li><strong>Reason/Description</strong> field the reason for the refund.</li>
+</ul>
+</li>
+<li>Click <strong>Continue</strong>.</li>
+<li>Under <strong>Refund confirmation</strong>, check that the description and amount are correct, and then click <strong>Confirm</strong>.
+<br>
+A new order is created for the refund, with status <strong>Reserved</strong> or <strong>Initialized</strong>.</li>
+<li>Under <strong>Related transactions</strong>, select the <strong>ID</strong> of the refund order.</li>
+<li>Under <strong>Order summary</strong>, click <strong>Accept</strong>.</li>
+<li>In the <strong>Add transaction comment</strong> field, add a comment, and then click <strong>Add</strong>.
+The order status changes to <strong>Completed</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-testing-refunds-via-api">
+		<summary>
+			Testing refunds via API
+		</summary>
+		<p>
+			<p><strong>Payment methods</strong></p>
+<ul>
+<li>Banking methods: Bancontact (not QR), EPS, Giropay, iDEAL (not QR), SEPA Direct Debit, Sofort, Trustly</li>
+<li>Credit and debit cards</li>
+<li>Pay later: in3</li>
+<li>Wallets: PayPal, WeChat Pay</li>
+</ul>
+<ol>
+<li><a href="https://docs-api.multisafepay.com/reference/createorder">Create an order</a>.</li>
+<li>Make a <a href="https://docs-api.multisafepay.com/reference/refundorder">refund</a> API request.
+<br>
+A new order is created for the refund. The order status for the refund changes to <strong>Reserved</strong> or <strong>Initialized</strong>.</li>
+<li>In your MultiSafepay test dashboard, go to <strong>Related transactions</strong>, and then select the <strong>ID</strong> of the refund order.</li>
+<li>Under <strong>Order summary</strong>, click <strong>Accept</strong>.</li>
+<li>In the <strong>Add transaction comment</strong> field, add a comment, and then click <strong>Add</strong>.
+The order status changes to <strong>Completed</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<div class="blue-notice">
+    <span>
+        <strong>Support</strong> <br> Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a>
+    </span>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/payments/methods/testing/' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Magento 1 plugin - MultiSafepay Docs</title>
+    
+   
+    
+    
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+<meta name="description" content="Free plugin to integrate MultiSafepay payment solutions with Magento 1.">
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="Magento 1 plugin" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/magento-1/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+    <link href="https://docs.multisafepay.com/magento-1/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+    <link rel="canonical" href="/magento-1/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/">Integrations</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made</a>
+  
+
+</li>
+
+
+<li>
+
+
+  Magento 1 plugin
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="Magento 1 plugin">Magento 1 plugin</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                    <img class="plugin-logo" src="/logo/Plugins/Magento.svg">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                    <div class="row pt-5 pb-5 px-3 clearfix">
+                            
+                            
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="https://docs.multisafepay.com/integration/ready-made/magento1/changelog/" style="font-size: 1.4rem" class="bg-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                Changelog<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon">
+                                </a>
+                            </div>
+                            
+                            
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.1.3.zip" style="font-size: 1.4rem" class="bg-dark-msp-blue text-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                Download<img src="/svgs/Download-white.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="download-icon">
+                                </a>
+                            </div>
+                            
+                    </div>
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="alert-notice">
+    <span>
+        Magento 1 is end-of-life. We recommend <a href="/magento-1/#upgrading">upgrading as soon as possible</a>.
+    </span>
+</div>
+<p>This technical manual is for installing and configuring MultiSafepay&rsquo;s free plugin for integrating with Magento 1.</p>
+<p>MultiSafepay supports most Magento functionalities. For any questions, email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+<div>
+	<details id="details-requirements">
+		<summary>
+			Requirements
+		</summary>
+		<p>
+			<ul>
+<li><a href="/getting-started/guide/">MultiSafepay account</a></li>
+<li>Magento Open Source 1.7 - 1.9</li>
+<li>Tested on PHP 7.0</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-support">
+		<summary>
+			Support
+		</summary>
+		<p>
+			<p> 
+Contact us:</p>
+<ul>
+<li>Telephone: +31 (0)20 8500 500</li>
+<li>Email: <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></li>
+<li>GitHub: Create a technical issue</li>
+<li><a href="https://magentocommeng.slack.com">Magento Slack channel</a> #multisafepay-payments</li>
+</ul>
+<p>Our Magento 1 plugin is professionally supported by a certified Magento 1 Solution Specialist and receives regular updates to support the latest features provided by Magento and MultiSafepay.</p>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="installation">Installation</h2>
+<p>These instructions are for SFTP upload. You can also install via .ZIP file upload in Connect.</p>
+<div class="blue-notice">
+    <span>
+        Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+    </span>
+</div>
+<ol>
+<li>Unpack the content of the .ZIP file in the root of your webshop.</li>
+<li>Sign in to your Magento 1 backend.</li>
+<li>Go to <strong>System</strong> &gt; <strong>Configuration</strong> &gt; <strong>Cache</strong>, and clear your invalid cache.</li>
+<li>Move all files and folders from Plugin_Magento_x.x.x to the root.</li>
+<li>Add the content of the app, lib, and media folders to the existing folders with the same name.</li>
+<li>Sign out.</li>
+</ol>
+<h2 id="configuration">Configuration</h2>
+<ol>
+<li>Sign in to your Magento 1 backend.</li>
+<li>Go to <strong>System</strong> &gt; <strong>Configuration</strong> &gt; <strong>MultiSafepay x.x.x</strong> &gt; <strong>Connect settings</strong>.<br>
+This page contains all main settings and is used for all gateways and gift cards.<br>
+To find your API key, see <a href="/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code">API key</a>.<br>
+From version 3.0.0, the plugin only needs your API key. Your account ID, site ID, and site secure code are no longer needed.</li>
+<li>To configure your selected payment methods, go to <strong>System</strong> &gt; <strong>Configuration</strong> &gt; <strong>MultiSafepay x.x.x</strong>:
+<ul>
+<li><strong>Connect MultiSafepay gateways</strong></li>
+<li><strong>MultiSafepay gift cards</strong><br>
+Make sure you have <a href="/payments/activating-payment-methods/">activated the payment methods</a> in your MultiSafepay dashboard.</li>
+</ul>
+</li>
+</ol>
+<h2 id="user-guide">User guide</h2>
+<h3 id="checkouts">Checkouts</h3>
+<p>The plugin is compatible with most Magento 1 checkouts. However, we cannot guarantee that all checkout features will function properly.</p>
+<p>We test the plugin with Magento 1 core checkout and OneStepCheckout.com (Idev).</p>
+<p><strong>Note:</strong> Always test OneStepCheckout to make sure it is compatible with your configuration of the plugin.</p>
+<h3 id="currencies">Currencies</h3>
+<p>The default currency is EUR.</p>
+<div>
+	<details id="details-changing-the-default-currency">
+		<summary>
+			Changing the default currency
+		</summary>
+		<p>
+			<ol>
+<li>Sign in to your Magento 1 backend.</li>
+<li>Go to <strong>System</strong> &gt; <strong>Configuration</strong> &gt; <strong>MultiSafepay x.x.x</strong> &gt; <strong>Connect settings</strong>.</li>
+<li>Under <strong>Allow currency conversion to Euro</strong>, change to <strong>No</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="generic-gateways">Generic gateways</h3>
+<p>The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay <a href="/payment-pages/">payment page</a>. You can use them to integrate custom gift cards, or co-branded credit cards.</p>
+<div>
+	<details id="details-configuring-generic-gateways">
+		<summary>
+			Configuring generic gateways
+		</summary>
+		<p>
+			<ol>
+<li>Sign in to your Magento 1 backend.</li>
+<li>Go to <strong>System</strong> &gt; <strong>Configuration</strong> &gt; <strong>MultiSafepay</strong> &gt; <strong>Connect gateways</strong> &gt; <strong>Generic 1/2/3</strong>.</li>
+<li>Set the relevant <a href="https://docs-api.multisafepay.com/reference/gateway-ids">payment method gateway IDs</a> and the gateway label.</li>
+<li>Set how to display the payment method logos.</li>
+<li>For pay later methods, set whether to include the shopping cart.</li>
+</ol>
+<p>Generic gateways support:</p>
+<ul>
+<li>All payment methods (filter by country, and minimum/maximum amount)</li>
+<li><a href="/payments/split-payments/">Split payments</a>, <a href="/features/second-chance/">Second Chance reminders</a> and <a href="/payments/virtual-ibans/">virtual IBANs</a></li>
+<li>Refunds</li>
+<li>Backend orders</li>
+<li><a href="https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect">Redirect requests</a> only</li>
+</ul>
+<p><strong>Gift cards</strong></p>
+<p>Generic gateways are particularly useful for integrating <a href="/payment-methods/gift-cards/">gift cards</a>, including <a href="/payment-methods/gift-cards/custom-cards/">custom gift cards</a>. This is because we don&rsquo;t support all <a href="/payment-methods/gift-cards/open-loop-closed-loop/">open-loop gift cards</a> in our ready-made integrations and <em>no</em> closed-loop gift cards.</p>
+<p><strong>Co-branded credit cards</strong></p>
+<p>You can integrate Visa co-branded credit cards (<a href="/payment-methods/cartes-bancaires/">Cartes Bancaires</a>, <a href="/payment-methods/dankort/">Dankort</a>, and <a href="/payment-methods/vpay/">V Pay</a>), using the generic <code>VISA</code> gateway.</p>
+<p>For the logo, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/MultiSafepay-icons/tree/master/methods">MultiSafepay icons</a>.</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="pay-later-orders">Pay later orders</h3>
+<p>The status of all complete orders automatically changes to <strong>Shipped</strong> in order to collect funds from pay later payment methods.</p>
+<div>
+	<details id="details-disabling-klarna-checkout-fields">
+		<summary>
+			Disabling Klarna checkout fields
+		</summary>
+		<p>
+			<p>Klarna requires the customer&rsquo;s gender and date of birth. By default, the customer enters their birthday in the Magento checkout in the Klarna payment method fields, and their gender is automatically populated by the core Magento field.</p>
+<p>You can disable both fields in the checkout. The customer enters this information on the MultiSafepay payment page instead.</p>
+<p><strong>Disabling Klarna checkout fields</strong></p>
+<p>This change is only for Magento developers. We recommend testing the change and placing it in your local folder.</p>
+<ol>
+<li>Open <code>app\code\community\MultiSafepay\Msp\Model\Gateway\Klarna.php</code>.</li>
+<li>Comment this line <code>protected $_formBlockType = 'msp/klarna';</code></li>
+<li>Save the file.</li>
+<li>Clear your cache.</li>
+<li>Test the change.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="payment-methods">Payment methods</h3>
+<div>
+	<details id="details-payment-methods">
+		<summary>
+			Payment methods
+		</summary>
+		<p>
+			<ul>
+<li>Cards: <a href="/payment-methods/credit-debit-cards/">All</a> except V Pay</li>
+<li>Banking methods: <a href="/payment-methods/banks/">All</a>, <strong>except</strong> TrustPay</li>
+<li>Pay later methods: <a href="/payment-methods/pay-later/">All</a></li>
+<li>Wallets: <a href="/payment-methods/alipay">Alipay</a>, <a href="/payment-methods/apple-pay">Apple Pay</a>, <a href="/payment-methods/paypal">PayPal</a></li>
+<li>Prepaid cards:
+<ul>
+<li>Beauty and Wellness gift card</li>
+<li><a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon">Boekenbon</a></li>
+<li><a href="https://www.fashioncheque.com/nl">Fashioncheque</a></li>
+<li><a href="https://www.fashion-giftcard.nl">Fashion gift card</a></li>
+<li>Fietsenbon</li>
+<li><a href="https://www.gezondheidsbon.nl/mhome">Gezondheidsbon</a></li>
+<li><a href="https://www.good4fun.nl">Good4fun</a></li>
+<li><a href="https://www.nationale-tuinbon.nl">Nationale tuinbon</a></li>
+<li><a href="https://www.parfumcadeaukaart.nl">Parfumcadeaukaart</a></li>
+<li><a href="/payment-methods/paysafecard">Paysafecard</a></li>
+<li><a href="https://www.podiumcadeaukaart.nl">Podium</a></li>
+<li><a href="https://www.sportenfitcadeau.nl">Sport en Fit</a></li>
+<li><a href="https://www.vvvcadeaukaarten.nl">VVV gift card</a></li>
+<li><a href="https://www.webshopgiftcard.nl">Webshop gift card</a></li>
+<li><a href="https://www.wellnessgiftcard.nl">Wellness gift card</a></li>
+<li>Wijncadeau</li>
+<li><a href="https://www.winkelcheque.nl">Winkelcheque</a></li>
+<li><a href="https://www.yourgift.nl">Yourgift</a></li>
+</ul>
+</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="picquer">Picquer</h3>
+<div>
+	<details id="details-enabling-compatibility-with-picquer">
+		<summary>
+			Enabling compatibility with Picquer
+		</summary>
+		<p>
+			<p>To make the MultiSafepay Magento 1 plugin compatible with Picqer, follow two additional steps, because orders must not receive <strong>Cancelled</strong> status.</p>
+<ol>
+<li>In your Magento 1 backend, go to the MultiSafepay Connect settings.</li>
+<li>Link <strong>Expired</strong> status to <strong>Waiting</strong> status.</li>
+<li>Open <code>app\code\community\MultiSafepay\Msp\Model\Base.php</code>, and then copy the file to the local folder in the Magento structure.</li>
+<li>Find the line <code>$order &gt; cancel();</code> at the expired signal and remove it.</li>
+</ol>
+<p>All expired orders retain <strong>Waiting</strong> status until you cancel them:</p>
+<ul>
+<li>Manually</li>
+<li>With a custom cronjob</li>
+<li>Using a plugin</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="recurring-payments">Recurring payments</h3>
+<div>
+	<details id="details-enabling-recurring-payments">
+		<summary>
+			Enabling recurring payments
+		</summary>
+		<p>
+			<ol>
+<li>Sign in to your Magento 1 backend.</li>
+<li>Go to <strong>Stores</strong> &gt; <strong>Configuration</strong> &gt; <strong>MultiSafepay</strong> &gt; <strong>MultiSafepay settings</strong>.</li>
+</ol>
+<p>For more information, see <a href="/features/recurring-payments">Recurring Payments</a>.</p>
+<p><strong>Credit cards</strong>
+Recurring Payments are not available for the generic credit card gateway. You must enable the Visa, Mastercard, and/or Maestro gateways separately. This displays the <strong>Save card</strong> option at checkout.</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="refunds">Refunds</h3>
+<div>
+	<details id="details-refund-rules">
+		<summary>
+			Refund rules
+		</summary>
+		<p>
+			<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MultiSafepay dashboard</td>
+<td>Full refunds (may not appear in your backend)</td>
+</tr>
+<tr>
+<td>Backend</td>
+<td>- Full refunds and <a href="https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html">credit memos</a> <br> - You can&rsquo;t refund more than the original amount</td>
+</tr>
+<tr>
+<td>Pay later methods</td>
+<td>You can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded.</td>
+</tr>
+</tbody>
+</table>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-processing-backend-refunds">
+		<summary>
+			Processing backend refunds
+		</summary>
+		<p>
+			<ol>
+<li>Sign in to your Magento 1 backend.</li>
+<li>Go to <strong>System</strong> &gt; <strong>Configuration</strong> &gt; <strong>MultiSafepay</strong> &gt; <strong>Connect settings</strong>.</li>
+<li>Check that you have:
+<ul>
+<li>Entered an API key</li>
+<li>Enabled the <strong>Credit Memo</strong> option</li>
+</ul>
+</li>
+<li>Search for and open the order you want to refund.</li>
+<li>Click the <strong>Invoices</strong> tab on the left of the <strong>Order overview</strong>.</li>
+<li>Open the invoice, and click <strong>Credit memo</strong> at the top right of the overview.</li>
+<li>Enter the refund amount, and then click <strong>Refund online</strong> to send the request to MultiSafepay.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="surcharges">Surcharges</h3>
+<p>You can:</p>
+<ul>
+<li>Apply <a href="/surcharges/">surcharges</a> of a percentage or a fixed amount to transactions for every payment method.</li>
+<li>Set the tax class for surcharges.</li>
+<li>Show transaction amounts excluding the surcharge at checkout. Surcharges are always included at checkout.</li>
+<li>Show surcharges with our without VAT at checkout.</li>
+</ul>
+<div>
+	<details id="details-applying-surcharges-in-your-backend">
+		<summary>
+			Applying surcharges in your backend
+		</summary>
+		<p>
+			<ol>
+<li>Sign in to your Magento 1 backend.</li>
+<li>Select systems and configuration.</li>
+<li>In the MultiSafepay module, select the <strong>Option connect</strong> gateway.</li>
+<li>Select the relevant payment method.</li>
+<li>Under <strong>Payment fee amount</strong>, enter a surcharge percentage or fixed amount.</li>
+<li>Place a test order to verify whether the fee has been correctly processed.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<div class="alert-notice">
+    <span>
+        <strong>Attention Dutch merchants</strong> <br>  We strongly recommend <strong>not</strong> applying surcharges to <a href="/payment-methods/pay-later/">pay later methods</a>. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+    </span>
+</div>
+<h3 id="updates">Updates</h3>
+<p>You can update the plugin in your Magento 1 backend or the CMS marketplace, or via SFTP.</p>
+<div>
+	<details id="details-updating-via-sftp">
+		<summary>
+			Updating via SFTP
+		</summary>
+		<p>
+			<ol>
+<li>Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.</li>
+<li>Download the plugin again above.</li>
+<li>Follow the Installation and configuration instructions from step 2.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="upgrading">Upgrading</h3>
+<p>Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1.</p>
+<p>For more information and instructions, see MultiSafepay blog – <a href="https://bit.ly/2YX2LGL">Magento 1: The final weeks</a>.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/integration/ready-made/magento1/' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

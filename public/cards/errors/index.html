@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Card errors - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="Card errors" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/cards/errors/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+    <link href="https://docs.multisafepay.com/cards/errors/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+    <link rel="canonical" href="/cards/errors/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payments/">Payments</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payment-methods/credit-debit-cards/">Credit and debit cards</a>
+  
+
+</li>
+
+
+<li>
+
+
+  Card errors
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="Card errors">Card errors</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                    <img class="plugin-logo" src="/svgs/Errors%20explained.svg">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>This page sets out reason codes for common credit card errors returned by <a href="/glossaries/credit-cards/#issuer">issuers</a> and recommended actions to take.</p>
+<p>Only the cardholder can contact the issuer to find out the specific reason.</p>
+<p>If the issue can&rsquo;t be resolved, ask the cardholder for another card number, or to use a different payment method.</p>
+<h4 id="01-refer-to-card-issuer">01: Refer to card issuer</h4>
+<p>The issuer wants to check the transaction.</p>
+<p>Cardholder: Contact the issuer to complete the transaction.</p>
+<h4 id="02-refer-to-card-issuer-special-condition">02: Refer to card issuer, special condition</h4>
+<p>The issuer wants to check the transaction.</p>
+<p>Cardholder: Contact the issuer to complete the transaction.</p>
+<h4 id="03-invalid-merchant-or-service-provider">03: Invalid merchant or service provider</h4>
+<p>The merchant or service provider is restricted by the issuer.</p>
+<p>Cardholder: Contact the issuer.</p>
+<h4 id="04-pick-up-card">04: Pick up card</h4>
+<p>The transaction was declined because the cardholder&rsquo;s account is closed or blocked.</p>
+<p>Cardholder: Contact the issuer.<br>
+Merchant: Do <strong>not</strong> reattempt. The issuer will never approve.</p>
+<h4 id="05-do-not-honor">05: Do not honor</h4>
+<p>The issuer has flagged a problem with the card.</p>
+<p>Cardholder: Contact the issuer.</p>
+<h4 id="07-pick-up-card-special-conditions">07: Pick up card, special conditions</h4>
+<p>The issuer has detected fraudulent activity on the cardholder&rsquo;s account.</p>
+<p>Cardholder: If you have successfully paid with this card before, contact the issuer.
+Merchant: Do <strong>not</strong> reattempt. The issuer will never approve.</p>
+<h4 id="08-honor-with-id">08: Honor with ID</h4>
+<p>The issuer needs to verify the cardholder&rsquo;s identity.</p>
+<p>Cardholder: Contact the issuer.</p>
+<h4 id="1a-visa-soft-decline">1A Visa soft decline</h4>
+<p>Authentication required.</p>
+<p>Cardholder: Contact the issuer.</p>
+<h4 id="10-partial-approval">10: Partial approval</h4>
+<p>The issuer can approve an amount less than requested, if supported by the merchant.</p>
+<h4 id="12-invalid-transaction">12: Invalid transaction</h4>
+<p>Cardholder: Check the payment method type and payment details.<br>
+Merchant: Do <strong>not</strong> reattempt. The issuer will never approve.</p>
+<h4 id="13-invalid-amount">13: Invalid amount</h4>
+<p>The payment amount exceeds issuer policies or regulatory limits.</p>
+<p>Cardholder: Contact your bank.</p>
+<h4 id="14-invalid-cardaccount-number">14: Invalid card/account number</h4>
+<p>The card may have expired, or the account may be invalid or closed.</p>
+<p>Cardholder: Contact the issuer.<br>
+Merchant: Do <strong>not</strong> reattempt. The issuer will never approve.</p>
+<h4 id="15-invalid-issuer">15: Invalid issuer</h4>
+<p>The first digit of the card number doesn&rsquo;t match any issuer.</p>
+<p>Cardholder: Check the first digit of the card number, or contact the issuer.<br>
+Merchant: Do <strong>not</strong> reattempt. The issuer will never approve.</p>
+<h4 id="19-re-enter-transaction">19: Re-enter transaction</h4>
+<p>There was a transaction error, or the issuer was temporarily unavailable.</p>
+<p>Merchant: Reattempt. If still unsuccessful after several attempts, email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
+<h4 id="28-file-temporarily-unavailable">28: File temporarily unavailable</h4>
+<p>Authorization failed due to a temporary error.</p>
+<p>Merchant: Reattempt. If still unsuccessful after several attempts, email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
+<h4 id="30-format-error">30: Format error</h4>
+<p>Merchant: Check the transaction data.</p>
+<h4 id="34-fraud-suspicion">34: Fraud suspicion</h4>
+<p>Cardholder: Contact the issuer.</p>
+<h4 id="41-lostblockedcancelled-card">41: Lost/blocked/cancelled card</h4>
+<p>The cardholder has reported this card lost.</p>
+<p>Merchant:</p>
+<ul>
+<li>If the cardholder is a new customer, assume fraudulent activity. <br> Do <strong>not</strong> reattempt. The issuer will never approve.</li>
+<li>If a recurring payment, the cardholder may have reported the card lost since the last successful payment. Contact them to ask for a new card number, or another payment method. Update the recurring payment with the new payment details.</li>
+</ul>
+<h4 id="43-stolen-card">43: Stolen card</h4>
+<p>Merchant: Do <strong>not</strong> reattempt. The issuer will never approve.</p>
+<h4 id="46-closed-account">46: Closed account</h4>
+<p>Merchant: Do <strong>not</strong> reattempt. The issuer will never approve.</p>
+<h4 id="51-insufficient-fundsover-credit-limit">51: Insufficient funds/over credit limit</h4>
+<p>The card is over the holder&rsquo;s credit limit, or will go over if the transaction is processed.</p>
+<p>Cardholder: Contact the issuer to increase your credit limit, or pay into your account to make more credit available. Once resolved, reattempt.<br>
+Merchant: Consider implementing a partial authorization service to accept a lesser amount than requested.</p>
+<h4 id="54-expired-card">54: Expired card</h4>
+<p>Cardholder: Check the expiry date or try another card.<br>
+Merchant: Do <strong>not</strong> reattempt. Make sure you update any recurring payments with the new card details.</p>
+<h4 id="55-invalid-pin">55: Invalid PIN</h4>
+<p>Cardholder: Try again with the correct PIN.<br>
+Merchant: Reattempt as a non-PIN transaction, if applicable.</p>
+<h4 id="57-transaction-not-permitted-to-cardholder">57: Transaction not permitted to cardholder</h4>
+<p>The cardholder isn&rsquo;t permitted to perform this type of transaction, e.g.:</p>
+<ul>
+<li>Product type</li>
+<li>Issuer policy</li>
+<li>Restricted country or across borders</li>
+<li>Card not yet activated</li>
+</ul>
+<p>Cardholder: Contact the issuer.<br>
+Merchant: Do <strong>not</strong> reattempt. The issuer will never approve.</p>
+<h4 id="58-transaction-not-permitted-to-acquirerterminal">58: Transaction not permitted to acquirer/terminal</h4>
+<p>Merchant: Your MultiSafepay account is not set up for this payment method or type of transaction. Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
+<h4 id="59-suspected-fraud-visa">59: Suspected fraud (Visa)</h4>
+<p>Cardholder: Contact the issuer.<br>
+Merchant: If the cardholder confirms that the issue is resolved, reattempt.</p>
+<h4 id="61-exceeds-withdrawal-amount-limit">61: Exceeds withdrawal amount limit</h4>
+<p>Cardholder: Contact the issuer.<br>
+Merchant: Do <strong>not</strong> reattempt on the same day to allow limits to reset.</p>
+<h4 id="62-restricted-card">62: Restricted card</h4>
+<p>The card is restricted, e.g.:</p>
+<ul>
+<li>Deceased cardholder</li>
+<li>Permanently blocked</li>
+<li>Embargoed country</li>
+</ul>
+<p>Cardholder: Contact the issuer.<br>
+Merchant: If the cardholder confirms the restriction has been removed, reattempt. Do <strong>not</strong> alter the country code or any other transaction data.</p>
+<h4 id="63-security-violation">63: Security violation</h4>
+<p>There is a security violation, suspected fraud, or the card is temporarily blocked.</p>
+<p>Cardholder: Contact the issuer.</p>
+<h4 id="65-exceeds-withdrawal-count-limitauthentication-requested">65: Exceeds withdrawal count limit/authentication requested</h4>
+<p>The cardholder has exceeded their maximum daily credit limit, or will do if the transaction is processed.</p>
+<p>Cardholder: Contact the issuer to increase your credit limit or provide authentication. Once resolved, reattempt.<br>
+Merchant: If the cardholder is a new customer, the transaction may be fraudulent. Do <strong>not</strong> reattempt on the same day to allow limits to reset.</p>
+<h4 id="65-mastercard-soft-decline">65: Mastercard soft decline</h4>
+<p>Authentication required.</p>
+<p>Cardholder: Contact the issuer.</p>
+<h4 id="68-time-out">68: Time out</h4>
+<p> </p>
+<h4 id="70-contact-card-issuer">70: Contact card issuer</h4>
+<p>Cardholder and merchant: Contact the issuer.</p>
+<h4 id="71-pin-not-changed">71: PIN not changed</h4>
+<p>A PIN change request was not completed successfully.</p>
+<p>Cardholder: Contact the issuer.</p>
+<h4 id="75-allowable-number-of-pin-tries-exceeded">75: Allowable number of PIN tries exceeded</h4>
+<p>Merchant: Do <strong>not</strong> reattempt on the same day to allow limits to reset.</p>
+<h4 id="78-invalidnon-existant-account">78: Invalid/non-existant account</h4>
+<p>The account is temporarily blocked. The card may not have been activated yet.</p>
+<p>Cardholder: Contact the issuer.<br>
+Merchant: If the cardholder confirms the account is unblocked, or the card has been activated, reattempt.</p>
+<h4 id="82-negative-cam-dcvv-icvv-or-cvv-results">82: Negative CAM, dCVV, iCVV, or CVV results</h4>
+<p>There may have been an issue with the card reader or a voltage spike during the read.</p>
+<p>Merchant: Reattempt, but monitor for potential fraud.</p>
+<h4 id="83-authentication-needed">83: Authentication needed</h4>
+<p>Merchant: Enable 3D Secure and reattempt.</p>
+<h4 id="85-not-declined">85: Not declined</h4>
+<p>Used for account status inquiries.</p>
+<h4 id="86-cannot-verify-pin">86: Cannot verify PIN</h4>
+<p>Merchant: You can reattempt within the same day, or attempt POS transactions as non-PIN transactions, if applicable.</p>
+<h4 id="87-no-cashback-allowed">87: No cashback allowed</h4>
+<p> </p>
+<h4 id="88-cryptographic-failure">88: Cryptographic failure</h4>
+<p>The issuer cannot authorize the transaction for technical reasons.</p>
+<h4 id="89-unacceptable-pin">89: Unacceptable PIN</h4>
+<p>Cardholder: Reattempt with the correct PIN.</p>
+<h4 id="91-authorizationissuer-system-inoperative">91: Authorization/issuer system inoperative</h4>
+<p>The issuer couldn&rsquo;t be contacted or the authorization timed out.</p>
+<p>Merchant: You can reattempt within the same day.</p>
+<h4 id="92-unable-to-route-the-transaction">92: Unable to route the transaction</h4>
+<p>There was a technical destination error in the issuer&rsquo;s system.</p>
+<h4 id="93-transaction-cannot-be-completed">93: Transaction cannot be completed</h4>
+<p>There is a temporary or permanent restriction on the cardholder&rsquo;s account, e.g.:</p>
+<ul>
+<li>Gambling</li>
+<li>Unauthorized card-not-present transaction</li>
+<li>No two-factor authentication</li>
+</ul>
+<p>Cardholder: Contact the issuer.<br>
+Merchant: If the cardholder confirms the restriction has been removed, reattempt. Do <strong>not</strong> alter any transaction data.</p>
+<h4 id="94-duplicate-transmission-detected">94: Duplicate transmission detected</h4>
+<p>The same transaction has been sumbitted more than once.</p>
+<h4 id="96-system-error">96: System error</h4>
+<p>There is a temporary error in the issuer&rsquo;s system.</p>
+<p>Merchant: Reattempt. If still unsuccessful after several attempts, email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
+<h4 id="cv-card-type-verification-error">CV: Card type verification error</h4>
+<p><strong>Either</strong><br>
+The CID or CVV2 code provided doesn&rsquo;t match the card.</p>
+<p>Cardholder: Provide the correct code, and then reattempt.<br>
+Merchant: You can try again <em>without</em> a code, but be aware that if the cardholder doesn&rsquo;t have the correct code, it may be a fraudulent transaction.</p>
+<p><strong>Or</strong><br>
+Merchant: Your MultiSafepay account may be configured incorrectly. Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
+<h4 id="r0-stop-payment-order">R0: Stop payment order</h4>
+<p>The cardholder requested the issuer to stop a specific, single recurring payment transaction.</p>
+<p>Cardholder: Provide an alternative payment method, or contact the issuer.<br>
+Merchant: Do <strong>not</strong> reattempt. The issuer will never approve.</p>
+<h4 id="r1-revocation-of-authorization-order">R1: Revocation of authorization order</h4>
+<p>The cardholder requested the issuer to stop all recurring payment transactions with a specific merchant.</p>
+<p>Cardholder: Provide an alternative payment method, or contact the issuer.<br>
+Merchant: Do <strong>not</strong> reattempt. The issuer will never approve.</p>
+<h4 id="r3-revocation-of-all-authorizations-order">R3: Revocation of all authorizations order</h4>
+<p>The cardholder requested the issuer to stop all recurring payment transactions for that card.</p>
+<p>Cardholder: Provide an alternative payment method, or contact the issuer.<br>
+Merchant: Do <strong>not</strong> reattempt. The issuer will never approve.</p>
+<h4 id="n7-decline-for-cvv2-failure">N7: Decline for CVV2 failure</h4>
+<p>CVV2 verification failed in card-not-present transaction.</p>
+<p>Merchant: Validate the CVV2 value before reattempting. Monitor reattempts for potential fraud.</p>
+<h4 id="1a-additional-customer-authentication-required">1A: Additional customer authentication required</h4>
+<p>The transaction falls within the scope of PSD2 and did not pass 3D Secure.</p>
+<p>Merchant: For card-not-present transactions, reattempt with 3D Secure.</p>
+<p>This page sets out possible reasons why a credit card payment was declined.</p>
+<p>Only the cardholder can contact the <a href="/glossaries/credit-cards/#issuer">issuer</a> to find out the specific reason.</p>
+<h4 id="declined-by-multisafepay">Declined by MultiSafepay</h4>
+<p>Our automated fraud filter flagged the transaction as probably fraudulent.</p>
+<p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
+<h4 id="3d-secure-authentication-cancelled">3D Secure authentication cancelled</h4>
+<p>Ask the cardholder if they want to try the transaction again.</p>
+<h4 id="merchant-only-accepts-3d-secure-authenticated-cards">Merchant only accepts 3D Secure-authenticated cards</h4>
+<p>Email a request to accept non-3D Secure authenticated cards to <a href="mailto:risk@multisafepay.com">risk@multisafepay.com</a></p>
+<div class="blue-notice">
+    <span>
+        <strong>Support</strong> <br> Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a>
+    </span>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/payments/methods/credit-and-debit-cards/errors/' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

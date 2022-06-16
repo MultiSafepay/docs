@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Chargeback reasons and required evidence - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="Chargeback reasons and required evidence" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="When a cardholder requests a chargeback, they must provide a reason. This page sets out the chargeback reason codes for the major card schemes.
+If you have asked MultiSafepay to dispute a chargeback on your behalf, we have specified what documentary proof you need to provide for each chargeback reason. Try to provide as much proof as possible.
+Visa Fraud   Reason code 10.4: Card absent environment   The cardholder denies participating in the transaction you processed." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://docs.multisafepay.com/chargebacks/reasons/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+
+    <link rel="canonical" href="/chargebacks/reasons/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payments/">Payments</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payment-methods/credit-debit-cards/">Credit and debit cards</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/chargebacks/">Chargebacks</a>
+  
+
+</li>
+
+
+<li>
+
+
+  Chargeback reasons and required evidence
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="Chargeback reasons and required evidence">Chargeback reasons and required evidence</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>When a <a href="/glossaries/credit-cards/#cardholder">cardholder</a> requests a <a href="/glossaries/credit-cards/#chargeback">chargeback</a>, they must provide a reason. This page sets out the chargeback reason codes for the major <a href="/glossaries/credit-cards/#card-scheme">card schemes</a>.</p>
+<p>If you have asked MultiSafepay to dispute a chargeback on your behalf, we have specified what documentary proof you need to provide for each chargeback reason. Try to provide as much proof as possible.</p>
+<h2 id="visa">Visa</h2>
+<h3 id="fraud">Fraud</h3>
+<div>
+	<details id="details-reason-code-10.4:-card-absent-environment">
+		<summary>
+			Reason code 10.4: Card absent environment
+		</summary>
+		<p>
+			<p>The cardholder denies participating in the transaction you processed.</p>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>Evidence the cardholder is in possession of and/or using the product/service, e.g. proof of delivery</li>
+<li>Evidence that the transaction was completed by a member of the cardholder&rsquo;s household or family</li>
+<li>Evidence of previous interactions with the cardholder, e.g. other purchases, payment details</li>
+<li>A transaction receipt</li>
+<li>An invoice number</li>
+<li>A Track &amp; Trace number</li>
+<li>Photos or emails proving a link between the person who received the product/service and the cardholder</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="processing-error">Processing error</h3>
+<div>
+	<details id="details-reason-code-12.5:-incorrect-amount">
+		<summary>
+			Reason Code 12.5: Incorrect amount
+		</summary>
+		<p>
+			<p>The transaction amount is incorrect or an error occurred.</p>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>A transaction receipt</li>
+<li>An invoice</li>
+<li>Evidence that the transaction amount is correct</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-12.6:-duplicate-processing-or-paid-by-other-means">
+		<summary>
+			Reason code 12.6: Duplicate processing or paid by other means
+		</summary>
+		<p>
+			<p>The cardholder or authorized person didn&rsquo;t receive the product/service because you were unwilling or unable to provide it.</p>
+<p>To dispute this type of chargeback, you need to provide proof that:</p>
+<ul>
+<li>Both transactions are independent and separate</li>
+<li>The transaction was not paid by other means or separate means</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="customer-dispute">Customer dispute</h3>
+<div>
+	<details id="details-reason-code-13.1:-merchandise-or-services-not-received">
+		<summary>
+			Reason code 13.1: Merchandise or services not received
+		</summary>
+		<p>
+			<p>The cardholder or authorized person didn&rsquo;t receive the product/service because you were unwilling or unable to provide it.</p>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>A description of the product/service</li>
+<li>Evidence that the cardholder is in possession of and/or using the product/service, e.g. proof of delivery</li>
+<li>Proof of delivery, e.g. cardholder signature</li>
+<li>An invoice</li>
+<li>A Track &amp; Trace number</li>
+<li>Evidence of communications with the cardholder</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-13.2:-cancelled-recurring-transaction">
+		<summary>
+			Reason code 13.2: Cancelled recurring transaction
+		</summary>
+		<p>
+			<p>The cardholder:</p>
+<ul>
+<li>Withdrew permission to charge their bank account for a recurring transaction or installment transaction, or</li>
+<li>Notified you before the transaction was processed that their account was closed</li>
+</ul>
+<p>To dispute this type of chargeback, you need to provide evidence that:</p>
+<ul>
+<li>You have previously completed successful transactions from that bank account</li>
+<li>The product/service was used after the cancellation, e.g. ID and/or login history</li>
+<li>The transaction was properly authorized and settled as a recurring transaction</li>
+<li>The transaction was a recurring transaction, including proof that the cardholder had to click to accept the terms and conditions of recurring transactions, or that they signed a contract agreeing to the terms and conditions</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-13.3:-not-as-described">
+		<summary>
+			Reason code 13.3: Not as described
+		</summary>
+		<p>
+			<p>The product/service:</p>
+<ul>
+<li>Did not match your description on the transaction receipt or elsewhere when purchased, or</li>
+<li>Was damaged or defective</li>
+</ul>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>Proof of delivery of the product/service</li>
+<li>Your original description of the product/service</li>
+<li>An invoice number</li>
+<li>A Track &amp; Trace number</li>
+<li>Evidence of communications with the cardholder</li>
+<li>Evidence that the cardholder did not attempt to return the product/service</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-13.6:-credit-not-processed">
+		<summary>
+			Reason code 13.6: Credit not processed
+		</summary>
+		<p>
+			<p>The cardholder didn&rsquo;t receive the funds for a credit or voided transaction receipt.</p>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>Details about the transaction</li>
+<li>An invoice</li>
+<li>Evidence of communications with the cardholder</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-13.7:-cancelled-service-and/or-merchandise">
+		<summary>
+			Reason code 13.7: Cancelled service and/or merchandise
+		</summary>
+		<p>
+			<p>The cardholder cancelled or returned the product/service. Or, you did not properly disclose, or did disclose but did not apply, a limited return or cancellation policy at the time of the transaction.</p>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>Evidence of the cardholder using the service</li>
+<li>Evidence of delivery of products/services that the cardholder didn&rsquo;t return</li>
+<li>Evidence that the cardholder had to click to accept your cancellation policy, and that your policy doesn&rsquo;t include the right to dispute terms and conditions available on your website</li>
+<li>An invoice number</li>
+<li>A Track &amp; Trace number</li>
+<li>Evidence of communications with the cardholder</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="mastercard">Mastercard</h2>
+<h3 id="fraud-1">Fraud</h3>
+<div>
+	<details id="details-reason-code-4837:-fraud-related-chargeback-or-no-cardholder-authorization">
+		<summary>
+			Reason code 4837: Fraud related chargeback or no cardholder authorization
+		</summary>
+		<p>
+			<p>The cardholder denies participating in the transaction you processed.</p>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>Evidence that:
+<ul>
+<li>the cardholder is in possession of and/or using the product/service, e.g. proof of delivery</li>
+<li>the transaction was completed by a member of the cardholder&rsquo;s household or family</li>
+</ul>
+</li>
+<li>Evidence of previous interactions with the cardholder, e.g. other purchases, payment details</li>
+<li>A transaction receipt</li>
+<li>An invoice</li>
+<li>A Track &amp; Trace number</li>
+<li>Photos or emails proving a link between the person who received the product/service and the cardholder</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-4863:-potential-fraud,-cardholder-does-not-recognize-the-transaction">
+		<summary>
+			Reason code 4863: Potential fraud, cardholder does not recognize the transaction
+		</summary>
+		<p>
+			<p>The cardholder denies participating in or doesn&rsquo;t recognize the transaction you processed.</p>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>Evidence that:
+<ul>
+<li>the cardholder is in possession of and/or using the product/service, e.g. proof of delivery</li>
+<li>the transaction was completed by a member of the cardholder&rsquo;s household or family</li>
+<li>the cardholder is using the product/service</li>
+</ul>
+</li>
+<li>A copy of the cardholder&rsquo;s identification</li>
+<li>Evidence of previous interactions with the cardholder, e.g. other purchases, payment details</li>
+<li>A transaction receipt</li>
+<li>An invoice</li>
+<li>A Track &amp; Trace number</li>
+<li>Photos or emails proving a link between the person who received the product/service and the cardholder</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="processing-error-1">Processing error</h3>
+<div>
+	<details id="details-reason-code-4834:-duplicate-processing">
+		<summary>
+			Reason code 4834: Duplicate processing
+		</summary>
+		<p>
+			<p>The issuer determines that you submitted duplicate transactions.</p>
+<p>To dispute this type of chargeback, you need to provide proof that both transactions:</p>
+<ul>
+<li>Are separate</li>
+<li>Are valid</li>
+<li>Were authorized by the cardholder&rsquo;s personal identification number (PIN)</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-4831:-dispute-amount-or-an-incorrect-amount">
+		<summary>
+			Reason code 4831: Dispute amount or an incorrect amount
+		</summary>
+		<p>
+			<p>The cardholder claims that you processed an incorrect amount.</p>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>A transaction receipt</li>
+<li>An invoice</li>
+<li>Evidence that:
+<ul>
+<li>the transaction amount was correct</li>
+<li>you have the right to alter the transaction amount without the cardholder&rsquo;s consent after the transaction is completed</li>
+</ul>
+</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="customer-dispute-1">Customer dispute</h3>
+<div>
+	<details id="details-reason-code-4853:-cardholder-dispute:-goods-or-service-not-delivered,-goods-not-as-described">
+		<summary>
+			Reason code 4853: Cardholder dispute: Goods or service not delivered, Goods not as described
+		</summary>
+		<p>
+			<ul>
+<li>The product/service did not match your description on the transaction receipt or other record at the time of purchase, or</li>
+<li>The transaction was not completed, or</li>
+<li>The product/service the cardholder received was damaged or defective, or</li>
+<li>The cardholder disputes the quality of the product/service received</li>
+</ul>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>Proof of delivery of the product/service</li>
+<li>A description of the product/service</li>
+<li>An invoice</li>
+<li>A Track &amp; Trace number</li>
+<li>Evidence of communications with the cardholder</li>
+</ul>
+<ul>
+<li>Evidence that cardholder didn&rsquo;t attempt to return the product/service</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-4841:-digital-goods,-cancelled-recurring-transaction">
+		<summary>
+			Reason code 4841: Digital goods, cancelled recurring transaction
+		</summary>
+		<p>
+			<p>The cardholder:</p>
+<ul>
+<li>Withdrew permission to charge their bank account for a recurring transaction or installment transaction, or</li>
+<li>Notified you before the transaction was processed that their account was closed</li>
+</ul>
+<p>To dispute this type of chargeback, you need to provide evidence that:</p>
+<ul>
+<li>You have previously completed successful transactions from that bank account</li>
+<li>The cardholder used the product/service after the cancellation, e.g. ID and/or login history</li>
+<li>The transaction was properly authorized and settled as a recurring transaction</li>
+<li>The transaction was a recurring transaction, including proof that the cardholder had to click to accept the terms and conditions of recurring transactions, or that they signed a contract agreeing to the terms and conditions</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="american-express">American Express</h2>
+<h3 id="fraud-2">Fraud</h3>
+<div>
+	<details id="details-reason-code-4573:-fraud,-full-recourse">
+		<summary>
+			Reason code 4573: Fraud, full recourse
+		</summary>
+		<p>
+			<p>The cardholder denies authorizing the charge, and your business has been placed in the fraud full recourse program: <strong>Investigation confirms fraud</strong>.</p>
+<p>To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or <a href="/glossaries/credit-cards/#3d-secure">3D Secure</a>.</p>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-4526:-missing-signature">
+		<summary>
+			Reason code 4526: Missing signature
+		</summary>
+		<p>
+			<p>The cardholder claims that the transaction is fraudulent and their signature is not on the relevant documents.</p>
+<p>To dispute this type of chargeback, you need to provide proof that:</p>
+<ul>
+<li>The receipt is signed, or</li>
+<li>The cardholder was present at the time of the transaction, or</li>
+<li>The transaction was verified by <a href="/glossaries/credit-cards/#3d-secure">3D Secure</a></li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-4540:-card-not-present">
+		<summary>
+			Reason code 4540: Card not present
+		</summary>
+		<p>
+			<p>The cardholder denies participating in a <a href="/features/moto/">MOTO</a> transaction you processed. American Express investigates and confirms that the transaction is fraudulent.</p>
+<p>To dispute this type of chargeback, you need to provide evidence that:</p>
+<ul>
+<li>The cardholder did participate in the transaction.</li>
+<li>The product/service was delivered to the cardholder&rsquo;s billing address and that the cardholder signed a receipt.</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-6006:-fraud,-unrecognized-transaction">
+		<summary>
+			Reason Code 6006: Fraud, unrecognized transaction
+		</summary>
+		<p>
+			<p>The cardholder informs American Express that they believe the transaction is fraudulent.</p>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>Proof that the cardholder agreed to the transaction, made the booking/reservation, and received confirmation</li>
+<li>Your website name, URL, IP address, and cancellation policy</li>
+<li>Signed proof that the product/service was shipped and delivered, and the delivery address and date</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="processing-errors">Processing errors</h3>
+<div>
+	<details id="details-reason-code-4512:-multiple-processing">
+		<summary>
+			Reason code 4512: Multiple processing
+		</summary>
+		<p>
+			<p>You sent multiple transactions for the same amount.</p>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>Proof that you have already processed a corrective credit card transaction</li>
+<li>A fully itemized document that links the cardholder to each charge processed and proves that all transactions are valid</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-4513:-credit-not-presented">
+		<summary>
+			Reason code 4513: Credit not presented
+		</summary>
+		<p>
+			<p>The cardholder received written acknowledgement from you for a credit or they cancelled in line with your policy, but they haven&rsquo;t received the credit in their account.</p>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>Proof that you have already processed a corrective credit card transaction</li>
+<li>A fully itemized document that links the cardholder to each charge processed and proves that all transactions are valid</li>
+<li>Screenshots of your cancellation policy</li>
+<li>Evidence that:
+<ul>
+<li>the cardholder clicks to accept the terms and conditions</li>
+<li>your cancellation policy doesn&rsquo;t include the right to dispute the policy</li>
+</ul>
+</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-4515:-paid-through-other-means">
+		<summary>
+			Reason code 4515: Paid through other means
+		</summary>
+		<p>
+			<p>The cardholder informed American Express that the transaction was:</p>
+<ul>
+<li>Altered after they signed for it, or</li>
+<li>Submitted using an incorrect card number or amount</li>
+</ul>
+<p>To dispute this type of chargeback, you need to provide proof that the cardholder&rsquo;s payment was not related to the disputed transaction.</p>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-4516:-requested-for-support-not-fulfilled-and/or-no-reply-to-inquiry-letter">
+		<summary>
+			Reason code 4516: Requested for support not fulfilled and/or no reply to inquiry letter
+		</summary>
+		<p>
+			<p>American Express asked you to provide documents to support a charge queried by a cardholder but you didn&rsquo;t respond.</p>
+<p>To dispute this type of chargeback, you need to provide proof that you have already processed a corrective credit card transaction.</p>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-4517:-insufficient-or-unclear-reply-to-dispute-inquiry-letter">
+		<summary>
+			Reason code 4517: Insufficient or unclear reply to dispute inquiry letter
+		</summary>
+		<p>
+			<p>Fully itemized documents aren&rsquo;t clear or complete and directly link the cardholder to the transaction.</p>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>The date and amount of credit and the reason</li>
+<li>An itemized invoice and/or receipt that directly links the cardholder to the charge</li>
+<li>A successfully completed fax transmission report</li>
+<li>Proof that the documents were sent and received by American Express within the time limit on the dispute inquiry letter</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-4534:-multiple-rocs">
+		<summary>
+			Reason code 4534: Multiple ROCs
+		</summary>
+		<p>
+			<p>The cardholder denies participating in the transaction, despite previous successful transactions with you.</p>
+<p>To dispute this type of chargeback, you need to provide fully itemized documents that link the cardholder to each charge processed and prove that all transactions are valid.</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="customer-disputes">Customer disputes</h3>
+<div>
+	<details id="details-reason-code-4544:-goods-and-services,-cancellation-of-recurring-payments">
+		<summary>
+			Reason code 4544: Goods and services, cancellation of recurring payments
+		</summary>
+		<p>
+			<p>You have continued to charge the cardholder&rsquo;s account after they notified you to cancel or revoke consent for <a href="/payments/recurring-payments/">recurring payments</a>.</p>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>A signed letter refuting the cardholder&rsquo;s claim, and/or proof that their evidence is incorrect</li>
+<li>A copy of your cancellation policy and a statement indicating why the cancellation doesn&rsquo;t comply with your policy</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-4553:-goods-and-services,-not-as-described">
+		<summary>
+			Reason code 4553: Goods and services, not as described
+		</summary>
+		<p>
+			<p>The cardholder received a product/service that differs from the written description you provided, or is damaged.</p>
+<p>To dispute this type of chargeback, you need to provide:</p>
+<ul>
+<li>Proof that the product/service is as originally described</li>
+<li>A copy of your returns and refunds policies</li>
+<li>If available, authentication or a written assessment of the product/service</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-4554:-goods-and-services,-not-received">
+		<summary>
+			Reason code 4554: Goods and services, not received
+		</summary>
+		<p>
+			<p>The cardholder didn&rsquo;t receive the product/service or only in part.</p>
+<p>To dispute this type of chargeback, you need to provide evidence that:</p>
+<ul>
+<li>The cardholder or authorized person did receive the product/service, e.g. proof of delivery</li>
+<li>The product/service was delivered to the cardholder&rsquo;s billing address</li>
+<li>The cardholder neither cancelled nor returned the product/service</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-reason-code-4798:-american-express-fraud-dispute">
+		<summary>
+			Reason code 4798: American Express fraud dispute
+		</summary>
+		<p>
+			<p>The cardholder denies authorizing the charge, and your business has been placed in the fraud full recourse program: <strong>Investigation confirms fraud</strong></p>
+<p>To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or <a href="/glossaries/credit-cards/#3d-secure">3D Secure</a>.</p>
+
+		</p>
+	</details>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/payments/methods/credit-and-debit-cards/chargebacks/chargeback-reasons-and-required-evidence.md' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

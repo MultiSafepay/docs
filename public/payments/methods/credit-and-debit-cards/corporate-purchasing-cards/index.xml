@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Corporate purchasing cards on MultiSafepay Docs</title>
+    <link>https://docs.multisafepay.com/payments/methods/credit-and-debit-cards/corporate-purchasing-cards/</link>
+    <description>Recent content in Corporate purchasing cards on MultiSafepay Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://docs.multisafepay.com/payments/methods/credit-and-debit-cards/corporate-purchasing-cards/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Corporate purchasing cards</title>
+      <link>https://docs.multisafepay.com/payments/methods/credit-and-debit-cards/corporate-purchasing-cards/corporate-purchasing-cards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payments/methods/credit-and-debit-cards/corporate-purchasing-cards/corporate-purchasing-cards/</guid>
+      <description>Corporate purchasing cards Unlike regular credit cards, corporate purchasing cards allow for a much more detailed level of information regarding transactions and drastically reduce the need for paper-based purchase orders and invoice processing. Corporate purchasing card transaction statements contain all the information you would expect in an invoice, such as description of the items in an order, quantity, corresponding tax rates, etc.
+MultiSafepay supports integrations with purchasing cards. For more information, email integration@multisafepay.</description>
+    </item>
+    
+  </channel>
+</rss>

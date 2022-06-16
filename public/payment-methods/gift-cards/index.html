@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Payment methods - Gift cards - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="Gift cards" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/payment-methods/gift-cards/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+    <link href="https://docs.multisafepay.com/payment-methods/gift-cards/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+    <link rel="canonical" href="/payment-methods/gift-cards/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payments/">Payments</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payment-methods/prepaid-cards/">Prepaid cards</a>
+  
+
+</li>
+
+
+<li>
+
+
+  Gift cards
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="Gift cards">Gift cards</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                    <img class="plugin-logo" src="/logo/Payment_methods/VVV_Giftcards.svg">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. Gift card payments are processed by the card issuer.</p>
+<p><a href="https://www.multisafepay.com/solutions/payment-methods/giftcards">See how gift cards can benefit your business!</a></p>
+<h2 id="overview">Overview</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Countries</strong></td>
+<td>Belgium, The Netherlands</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Currencies</strong></td>
+<td>EUR</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Chargebacks</strong></td>
+<td>No</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Refunds</strong></td>
+<td>Paid with gift card only: <br> You can&rsquo;t refund via MultiSafepay because we don&rsquo;t receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with gift card <strong>and</strong> another payment method: <a href="/payments/refunds/">Full refunds</a>.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Transactions expire after</strong></td>
+<td>Doesn&rsquo;t apply</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div>
+	<details id="details-supported-gift-cards">
+		<summary>
+			Supported gift cards
+		</summary>
+		<p>
+			<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.babycadeaubon.nl/">Baby Cadeaubon</a></td>
+<td><a href="https://www.dekidscadeaukaart.nl/">Kids' Cadeau</a></td>
+</tr>
+<tr>
+<td><a href="https://www.beautycadeau.nl/">Beauty Cadeau</a></td>
+<td><a href="https://www.kluscadeau.nl/">Klus Cadeau</a></td>
+</tr>
+<tr>
+<td><a href="https://www.wellnessbeautycadeau.nl/">Wellness &amp; Beauty</a></td>
+<td><a href="https://www.bioscoopbon.nl/">Nationale Bioscoopbon</a></td>
+</tr>
+<tr>
+<td><a href="https://biercheque.nl/">Biercheque</a></td>
+<td><a href="https://www.nationale-entertainmentcard.nl/">Nationale Entertainment Card</a></td>
+</tr>
+<tr>
+<td><a href="https://www.bloemen-cadeaukaart.nl/">Bloemen Cadeaukaart</a></td>
+<td><a href="https://www.nationale-tuinbon.nl/">Nationale Tuinbon</a></td>
+</tr>
+<tr>
+<td><a href="https://bestel.boekenbon.nl/">Boekenbon</a></td>
+<td><a href="https://ohmygood.nl/">Ohmygood Giftcard</a></td>
+</tr>
+<tr>
+<td><a href="https://www.boekenVoordeel.nl/">Boeken Voordeel</a></td>
+<td><a href="https://www.speelgoedwinkel.nl/">Speelgoedwinkel Cadeaukaart</a></td>
+</tr>
+<tr>
+<td><a href="https://www.fashioncheque.com/">Fashioncheque</a></td>
+<td><a href="https://www.sportenfitcadeau.nl/">Sport &amp; Fit</a></td>
+</tr>
+<tr>
+<td><a href="https://www.fashion-giftcard.nl/">Fashion Giftcard</a></td>
+<td><a href="https://www.sports-giftcard.com/">Sports Gift Card</a></td>
+</tr>
+<tr>
+<td><a href="https://www.gezondheidsbon.nl/">Gezondheidsbon</a></td>
+<td><a href="https://www.vvvcadeaukaarten.nl/">VVV Cadeaukaart</a></td>
+</tr>
+<tr>
+<td><a href="https://www.good4fun.nl/">Good4fun</a></td>
+<td><a href="https://www.wijn-cadeaukaart.nl/">Wijn Cadeaukaart</a></td>
+</tr>
+<tr>
+<td><a href="https://www.huisentuincadeau.com/">Huis &amp; Tuin Cadeau</a></td>
+<td><a href="https://www.yourgift.nl/">YourGift</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong> Webshop Giftcard no longer offers <a href="/payments/methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop">open-loop gift cards</a>. To exchange existing open-loop cards for closed-loop cards, see Webshop Giftcard – <a href="https://www.webshopgiftcard.nl/contact">Contact</a>.
+		</p>
+	</details>
+</div>
+
+<h3 id="closed-loop-vs-open-loop-cards">Closed-loop vs open-loop cards</h3>
+<ul>
+<li>Closed-loop: Redeem with 1 merchant only. No amount limits.</li>
+<li>Open-loop:
+<ul>
+<li>Redeem with multiple merchants</li>
+<li>Max credit: 150 EUR</li>
+<li>Max transaction amount: 50 EUR</li>
+<li>Amounts over 50 EUR must be paid with an additional payment method.</li>
+</ul>
+</li>
+</ul>
+<h2 id="payment-flow">Payment flow</h2>
+<p>This diagram shows the flow for a successful transaction. Click to magnify.</p>
+<p><div class="mermaid modal-preview text-center" 
+>
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant G as Gift card issuer
+    participant Me as Merchant
+
+    C->>Mu: Selects a gift card at checkout
+    Mu->>C: Redirects to payment page
+    C->>G: Enters gift card details and completes payment
+    G->>Mu: Processes payment and transfers funds 
+    Mu->>Me: Settles funds
+
+</div>
+
+
+ </p>
+<div>
+	<details id="details-payment-statuses">
+		<summary>
+			Payment statuses
+		</summary>
+		<p>
+			<p><strong>Order status:</strong> Changes as the customer&rsquo;s order with you progresses towards shipment (independent of payment)</p>
+<p><strong>Transaction status:</strong> Changes as the funds progress towards settlement in your MultiSafepay balance</p>
+<p>For more information, see <a href="/payments/payment-statuses/">Payment statuses</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Payments</th>
+<th>Order status</th>
+<th>Transaction status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>For partial payment with another method: The customer has been redirected to their bank.</td>
+<td>Initialized</td>
+<td>Initialized</td>
+</tr>
+<tr>
+<td>MultiSafepay has collected payment.</td>
+<td>Completed</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>For partial payment with another method: The customer didn&rsquo;t complete payment.</td>
+<td>Expired</td>
+<td>Expired</td>
+</tr>
+<tr>
+<td><strong>Refunds</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Refund initiated.</td>
+<td>Initialized</td>
+<td>Initialized</td>
+</tr>
+<tr>
+<td>Refund complete.</td>
+<td>Completed</td>
+<td>Completed</td>
+</tr>
+</tbody>
+</table>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="activation-and-integration">Activation and integration</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Activation</strong></td>
+<td><a href="/payments/activating-payment-methods/#gift-cards">Gift cards activation</a></td>
+</tr>
+<tr>
+<td><strong>Checkout options</strong></td>
+<td><a href="/payment-pages/">Payment pages</a> (<a href="/payment-pages/activation/">current</a> and <a href="/payment-pages/deprecated/">deprecated</a>)</td>
+</tr>
+<tr>
+<td><strong>Testing</strong></td>
+<td><a href="/testing/test-payment-details/#prepaid-cards">Test payment details</a></td>
+</tr>
+<tr>
+<td><strong>API</strong></td>
+<td><a href="https://docs-api.multisafepay.com/reference/createorder">Create order</a> &gt; Prepaid card order <br> Examples &gt; Gift card redirect</td>
+</tr>
+<tr>
+<td><strong>Ready-made integrations</strong></td>
+<td>We don’t support all open-loop gift cards in our <a href="/integrations/ready-made/">ready-made integrations</a> and no closed-loop gift cards. Therefore in some integrations, we use generic gateways to support <a href="#custom-gift-cards">custom gift cards</a>. <br>
+ To check if a specific gift card is supported in your ready-made integration, email the Integration Team at <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="pay-later-methods">Pay later methods</h3>
+<p>When paying with a gift card and a <a href="/payments/methods/pay-later/">pay later method</a>, customers must enter the gift card details <strong>before</strong> placing their order, i.e. on your checkout page.</p>
+<p>This is because pay later methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.</p>
+<p>You are solely responsible for this in your integration.</p>
+<h3 id="custom-gift-cards">Custom gift cards</h3>
+<p>Contact MultiSafepay to develop your own custom gift card!</p>
+<div>
+	<details id="details-creating-custom-gift-cards">
+		<summary>
+			Creating custom gift cards
+		</summary>
+		<p>
+			<ol>
+<li>Email a request to <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></li>
+<li>MultiSafepay:
+<ul>
+<li>Checks the payment method rules</li>
+<li>Assesses the feasibility of developing the card and estimates the timeframe</li>
+</ul>
+</li>
+<li>Send us:
+<ul>
+<li>Whether you want a closed-loop or open-loop card</li>
+<li>The card name</li>
+<li>A high-resolution visual mockup of the gift card, preferably in .png or .jpg format, showing the logo as <strong>large</strong> as possible</li>
+<li>A test gift card with credit and a secure code</li>
+<li>A startup fee of 200 EUR</li>
+</ul>
+</li>
+<li>We develop the card and activate it for your MultiSafepay account.</li>
+<li>To integrate your card:
+<ul>
+<li>Using our API, see API reference – <a href="https://docs-api.multisafepay.com/reference/createorder">Create order</a> &gt; Prepaid card order.</li>
+<li>In a ready-made integration, add your gateway ID.</li>
+</ul>
+</li>
+</ol>
+<p>For support, email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a>
+		</p>
+	</details>
+</div>
+
+<h3 id="known-errors">Known errors</h3>
+<div>
+	<details id="details-vvv-cadeaukaart">
+		<summary>
+			VVV Cadeaukaart
+		</summary>
+		<p>
+			<p>VVV Cadeaukaart cards can sometimes throw an error where the credit balance appears to be 0, but is then restored within 24 hours (potentially affected by weekends and holidays). This appears to be due to temporary failures in the card issuer&rsquo;s system.</p>
+<p>If a customer completes a payment and receives this error message, advise them to wait for 1 hour for a confirmation email before trying again to avoid placing two orders.</p>
+
+		</p>
+	</details>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/payments/methods/prepaid-cards/gift-cards/' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+<script src="/js/mermaid.min.js"></script>
+
+<div id="mermaid-modal">
+    <span id="mermaid-modal-close">&times;</span>
+    <div class="mermaid-modal-container">
+        <div class="mermaid-modal-group">
+            <div id="mermaid-modal-content"></div>
+            <div id="mermaid-modal-caption"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let onMermaidClick = (container) => {
+        let modal = document.querySelector("#mermaid-modal");
+        let contentContainer = document.querySelector("#mermaid-modal-content");
+        let contentCaption = document.querySelector("#mermaid-modal-caption");
+
+        if(modal && contentContainer && contentCaption) 
+        {
+            modal.style.display = "block";
+            contentContainer.innerHTML = container.innerHTML;
+            contentCaption.innerHTML = container.getAttribute("aria-label") ?? "";
+        }
+
+    };
+    
+    let hideMermaidModal = () => {
+        let modal = document.querySelector("#mermaid-modal");
+        if(modal) 
+        {
+            modal.style.display = "none";
+            let contentContainer = document.querySelector("#mermaid-modal-content");
+            if(contentContainer) 
+            {
+                contentContainer.innerHTML = "";
+            }
+        }
+    };
+    
+    window.addEventListener("load",  () => {
+        mermaid.initialize({ startOnLoad: true });
+        
+        document.querySelectorAll(".mermaid").forEach(mermaid =>  {
+            mermaid.addEventListener("click", () => onMermaidClick(mermaid))
+        });
+
+        document.querySelector("#mermaid-modal-close").addEventListener("click", hideMermaidModal)
+
+        document.addEventListener("keyup", hideMermaidModal);
+    });
+
+    </script>
+
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>in3 - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="in3" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/payment-methods/in3/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+    <link href="https://docs.multisafepay.com/payment-methods/in3/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+    <link rel="canonical" href="/payment-methods/in3/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payments/">Payments</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/payment-methods/pay-later/">Pay later methods</a>
+  
+
+</li>
+
+
+<li>
+
+
+  in3
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="in3">in3</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                    <img class="plugin-logo" src="/svgs/in3.svg">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p><a href="https://payin3.eu/en/">in3</a> is a Dutch online payment method where customers pay in 3 installments after receiving their order, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 processes all the installments and guarantees settlement after receiving the first one.</p>
+<p><a href="https://www.multisafepay.com/solutions/payment-methods/in3">See how in3 can benefit your business!</a></p>
+<h2 id="overview">Overview</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Countries</strong></td>
+<td>The Netherlands – in3 checks the customer&rsquo;s country, and billing/shipping address to confirm.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Currencies</strong></td>
+<td>EUR</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Chargebacks</strong></td>
+<td>No</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Refunds</strong></td>
+<td><a href="/refunds/pay-later/">Full, partial, and API refunds</a>, <a href="/refunds/discounts/">discounts</a> <br>
+ You can request in3 to process a full or partial refund, either before payout or up to 1 year afterwards.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Supports</strong></td>
+<td><a href="/features/second-chance/">Second Chance</a></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Transactions expire after</strong></td>
+<td>2 hours</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Amount limits</strong></td>
+<td>Min: 100 EUR Max: 3000 EUR <br> You can adjust these limits in the backend of our <a href="/integrations/ready-made/">ready-made integrations</a> to show or hide in3 on your checkout page depending on the order value.</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Addresses</strong></td>
+<td>Different billing and shipping addresses are supported.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="surcharges">Surcharges</h3>
+<p>Due to changes to the Wet op het consumentenkrediet, merchants who apply <a href="/about-payments/surcharges/">surcharges</a> to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).</p>
+<p>We therefore strongly recommend <strong>not</strong> applying surcharges.</p>
+<p>For more information, email <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></p>
+<h2 id="payment-flow">Payment flow</h2>
+<p>This diagram shows the flow for a successful transaction. Click to magnify.</p>
+<p><div class="mermaid modal-preview text-center" 
+>
+
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant I as in3
+    participant Me as Merchant
+
+    C->>Mu: Selects in3 at checkout
+    alt Redirect flow
+    Mu->>C: Redirects to payment page <br> to provide their birth date, title, and phone number, <br> then redirects to your success page
+    else Direct flow
+    Mu->>C: Redirects to in3 to select their bank, <br> and accept the payment periods and terms & conditions
+    end
+    I->>Mu: Authorizes the payment
+    Mu->>I: Captures the funds
+    C->>I: Pays 1st instalment within 5 mins (settlement is now guaranteed)
+    Me->>C: Ships the order 
+    I->>Mu: Transfers funds 
+    Mu->>Me: Settles funds (within 15 days of 1st instalment)
+    C->>I: Pays 2nd instalment within 30 days, and 3rd within 60 days 
+
+</div>
+
+
+ </p>
+<div>
+	<details id="details-payment-statuses">
+		<summary>
+			Payment statuses
+		</summary>
+		<p>
+			<p><strong>Order status:</strong> Changes as the customer&rsquo;s order with you progresses towards shipment (independent of payment)</p>
+<p><strong>Transaction status:</strong> Changes as the funds progress towards settlement in your MultiSafepay balance</p>
+<p>For more information, see <a href="/payments/payment-statuses/">Payment statuses</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Payments</th>
+<th>Order status</th>
+<th>Transaction status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>in3&rsquo;s credit check is in progress. <br> (You can still cancel.)</td>
+<td>Initialized</td>
+<td>Initialized</td>
+</tr>
+<tr>
+<td>in3 is waiting for the customer to pay the first installment (within 5 mins).</td>
+<td>Uncleared</td>
+<td>Initialized</td>
+</tr>
+<tr>
+<td>The customer has paid the first installment. <br> Settlement is now guaranteed. <br> (You can no longer cancel; you can only refund.)</td>
+<td>Completed</td>
+<td>Uncleared</td>
+</tr>
+<tr>
+<td>You can <a href="/payment-methods/in3/#shipping-orders">manually change the order status to Shipped</a> for your records, but this is not required to trigger invoicing.</td>
+<td>Shipped</td>
+<td>Uncleared</td>
+</tr>
+<tr>
+<td>MultiSafepay has collected payment.</td>
+<td>Completed</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>in3 declined the transaction.</td>
+<td>Declined</td>
+<td>Declined</td>
+</tr>
+<tr>
+<td>The customer cancelled the transaction or abandoned the first installment.</td>
+<td>Void</td>
+<td>Void</td>
+</tr>
+<tr>
+<td>The customer didn&rsquo;t pay the first installment.</td>
+<td>Expired</td>
+<td>Expired</td>
+</tr>
+<tr>
+<td><strong>Refunds</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>in3 has successfully processed a full or partial refund.</td>
+<td>Completed</td>
+<td>Completed</td>
+</tr>
+<tr>
+<td>The refund was declined.</td>
+<td>Declined</td>
+<td>Declined</td>
+</tr>
+</tbody>
+</table>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="shipping-orders">Shipping orders</h3>
+<p>When you ship the order, you can change the order status to <strong>Shipped</strong> for your records, bu this is not required to trigger invoicing.</p>
+<div>
+	<details id="details-changing-order-status-to-shipped">
+		<summary>
+			Changing order status to Shipped
+		</summary>
+		<p>
+			<p>You can change the <a href="/about-payments/multisafepay-statuses/">order status</a> from <strong>Completed</strong> to <strong>Shipped</strong>:</p>
+<p><strong>In your dashboard</strong></p>
+<ol>
+<li>Sign in to your <a href="https://merchant.multisafepay.com">MultiSafepay dashboard</a>.</li>
+<li>Go to <strong>Transactions</strong> &gt; <strong>Transactions overview</strong>.</li>
+<li>Search for the transaction, and click to open the <strong>Transaction details</strong> page.</li>
+<li>Under <strong>Order details</strong>, click <strong>Change order status</strong>.</li>
+<li>Change the status to <strong>Shipped</strong>.</li>
+<li>Send the customer the track and trace details, if relevant.</li>
+</ol>
+<p><strong>In your backend</strong></p>
+<p>If you change the order status in your backend, the following <a href="/integrations/ready-made/">ready-made integrations</a> pass the updated status to your dashboard automatically:</p>
+<ul>
+<li>Magento 2 and WooCommerce: When you set the order to <strong>Shipped</strong> in your backend.</li>
+<li>Shopware 5: When you set the order to <strong>Delivered</strong> in your backend.</li>
+</ul>
+<p>For other ready-made integrations, make an <a href="https://docs-api.multisafepay.com/reference/updateorder">update order</a> API request.</p>
+<p><strong>Note:</strong> Some third-party plugins may not support updating the status via our API.</p>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="activation-and-integration">Activation and integration</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Activation</strong></td>
+<td><a href="/payments/activating-payment-methods/#apply-to-multisafepay">Appy to MultiSafepay</a></td>
+</tr>
+<tr>
+<td><strong>Checkout options</strong></td>
+<td><a href="/payment-pages/">Payment pages</a> (<a href="/payment-pages/activation/">current version</a> only)</td>
+</tr>
+<tr>
+<td><strong>Testing</strong></td>
+<td><a href="/testing/test-payment-details/#pay-later-methods">Test payment details</a></td>
+</tr>
+<tr>
+<td><strong>API</strong></td>
+<td><a href="https://docs-api.multisafepay.com/reference/createorder">Create order</a> &gt; Pay later order <br> Examples &gt; in3 direct/redirect</td>
+</tr>
+</tbody>
+</table>
+<div>
+	<details id="details-ready-made-integrations">
+		<summary>
+			Ready-made integrations
+		</summary>
+		<p>
+			<p>in3 (direct) is supported in:</p>
+<ul>
+<li><a href="/craft-commerce/">Craft Commerce</a></li>
+<li><a href="/magento-1/">Magento 1</a></li>
+<li><a href="/opencart/">OpenCart</a></li>
+<li><a href="/prestashop-1-7/">PrestaShop 1.7</a></li>
+<li><a href="/virtuemart/">VirtueMart</a></li>
+<li><a href="/woo-commerce/">WooCommerce</a></li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="gift-cards">Gift cards</h3>
+<p>When paying with a gift card and in, customers must enter the gift card details <strong>before</strong> placing their order, i.e. on your checkout page.</p>
+<p>This is because in3 collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.</p>
+<p>You are solely responsible for this in your integration.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/payments/methods/pay-later/in3/' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+<script src="/js/mermaid.min.js"></script>
+
+<div id="mermaid-modal">
+    <span id="mermaid-modal-close">&times;</span>
+    <div class="mermaid-modal-container">
+        <div class="mermaid-modal-group">
+            <div id="mermaid-modal-content"></div>
+            <div id="mermaid-modal-caption"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let onMermaidClick = (container) => {
+        let modal = document.querySelector("#mermaid-modal");
+        let contentContainer = document.querySelector("#mermaid-modal-content");
+        let contentCaption = document.querySelector("#mermaid-modal-caption");
+
+        if(modal && contentContainer && contentCaption) 
+        {
+            modal.style.display = "block";
+            contentContainer.innerHTML = container.innerHTML;
+            contentCaption.innerHTML = container.getAttribute("aria-label") ?? "";
+        }
+
+    };
+    
+    let hideMermaidModal = () => {
+        let modal = document.querySelector("#mermaid-modal");
+        if(modal) 
+        {
+            modal.style.display = "none";
+            let contentContainer = document.querySelector("#mermaid-modal-content");
+            if(contentContainer) 
+            {
+                contentContainer.innerHTML = "";
+            }
+        }
+    };
+    
+    window.addEventListener("load",  () => {
+        mermaid.initialize({ startOnLoad: true });
+        
+        document.querySelectorAll(".mermaid").forEach(mermaid =>  {
+            mermaid.addEventListener("click", () => onMermaidClick(mermaid))
+        });
+
+        document.querySelector("#mermaid-modal-close").addEventListener("click", hideMermaidModal)
+
+        document.addEventListener("keyup", hideMermaidModal);
+    });
+
+    </script>
+
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

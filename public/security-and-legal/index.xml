@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security and legal on MultiSafepay Docs</title>
+    <link>https://docs.multisafepay.com/security-and-legal/</link>
+    <description>Recent content in Security and legal on MultiSafepay Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://docs.multisafepay.com/security-and-legal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GDPR</title>
+      <link>https://docs.multisafepay.com/payment-regulations/gdpr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payment-regulations/gdpr/</guid>
+      <description>The General Data Protection Regulation 2016/679 (GDPR) is a European Union regulation on protecting and transferring personal data and privacy in the EU and European Economic Area.
+MultiSafepay complies with all required measures to ensure data protection, including:
+ Storing all data in certified data centers in the Netherlands, so all data remains within the EU Encrypting and anonymizing all stored data as much as possible using dedicated software Following company policy, procedures, and operational guidelines Registering a data protection officer with the Dutch Data Protection Authority (AP)  GDPR addendum Our primary activity is processing online payments.</description>
+    </item>
+    
+    <item>
+      <title>Risk and fraud</title>
+      <link>https://docs.multisafepay.com/risk-fraud/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/risk-fraud/</guid>
+      <description>MultiSafepay prevents fraud by monitoring payments and actively tracking and reporting online criminals. Our risk management systems are designed to accommodate merchants and partners with different needs. The Risk Team analyzes high-risk transactions and actively works to reduce chargebacks.
+We offer the highest industry protection under the PCI DSS, including HTTPS, data encryption, and 3D Secure authentication.
+We act as processor and acquirer for Visa and Mastercard, and are therefore also required to comply with their operating regulations.</description>
+    </item>
+    
+    <item>
+      <title>Payment Card Industry Data Security Standard (PCI DSS)</title>
+      <link>https://docs.multisafepay.com/payment-regulations/pci-dss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payment-regulations/pci-dss/</guid>
+      <description>The Payment Card Industry Data Security Standard (PCI DSS) is an information security standard mandated by major card schemes, which applies to organizations that handle branded credit cards. The standard is administered by the Payment Card Industry Security Standards Council.
+Under the PCI DSS, payment service providers and businesses that handle credit card data must follow extensive security protocols and data management practices to protect customers and merchants.
+MultiSafepay is fully PCI DSS certified.</description>
+    </item>
+    
+    <item>
+      <title>Surcharges</title>
+      <link>https://docs.multisafepay.com/surcharges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/surcharges/</guid>
+      <description>Check this page regularly for updates on implementing the PSD2.   A surcharge is a fee merchants may charge customers on top of the total order amount to cover the cost of accepting certain payment methods. This may be a fixed amount or a percentage of the total order amount.
+Your right to apply surcharges varies per payment method and the customer’s country.
+PSD2 The PSD2 applies to the whole European Economic Area (EEA), but individual states can decide how to implement certain aspects.</description>
+    </item>
+    
+    <item>
+      <title>Payment Services Directive 2 (PSD2)</title>
+      <link>https://docs.multisafepay.com/payment-regulations/psd2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/payment-regulations/psd2/</guid>
+      <description>The Payment Services Directive 2 (PSD2) is a set of laws and regulations established by the European Banking Authority (EBA) that aim to improve consumer rights and security, while also promoting competition within the financial industry.
+The directive not only enhances the safety of payments across the European Union, but also enables the development and use of innovative new technologies.
+Strong customer authentication To help combat financial and data fraud, the PSD2 requires strong customer authentication (SCA) for most online payments in Europe.</description>
+    </item>
+    
+  </channel>
+</rss>

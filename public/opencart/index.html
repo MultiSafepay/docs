@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="generator" content="Hugo 0.92.0" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>OpenCart plugin - MultiSafepay Docs</title>
+    
+   
+    
+    <meta name="description" content="Sign up. Build and test your integration. Implement solutions and features. Use our API reference. Manage your account. Get support.">
+    
+
+    
+    
+    
+    <meta name="Algolia crawler" content="index">
+
+    
+
+
+    
+  <meta name="author" content="">
+
+    <meta property="og:title" content="OpenCart plugin" />
+<meta property="og:site_name" content="MultiSafepay Docs" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://docs.multisafepay.com/opencart/" />
+<meta property="og:image" content="https://docs.multisafepay.com/logo/MSP-Docs_logo.png">
+<meta property="og:image:width" content="1482" />
+<meta property="og:image:height" content="852" />
+<meta property="og:locale" content="en_EN" />
+
+
+    
+
+    
+
+    
+    <link href="https://docs.multisafepay.com/opencart/index.xml" rel="alternate" type="application/rss+xml" title="MultiSafepay Docs" /> 
+
+    <link rel="canonical" href="/opencart/">  
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://docs.multisafepay.com/css/bootstrap.min.css?v=2" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mburger.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mmenu.css" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/main.css?v=27" rel="stylesheet" />
+    <link href="https://docs.multisafepay.com/css/mermaid.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://docs.multisafepay.com/js/mmenu.js"></script>
+    <script src="https://docs.multisafepay.com/js/main.js?v=8"></script>
+
+    
+</head>
+
+<body class=''>
+    <div id="page" class="page">
+          
+<nav id="menu" class="mm-wrapper_sidebar-opened">
+    <div id="panel-menu">
+        <ul>
+            
+            
+                
+                <li>
+                    <span>
+                        <a href="/getting-started/">
+                            <i class="fa fa-rocket fa-lg" aria-hidden="true"></i>
+                            Getting started
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/getting-started/guide/">Getting started guide</a></li>
+                        
+                        <li ><a href="/security-and-legal/">Security and legal</a></li>
+                        
+                        <li ><a href="/getting-started/glossaries/">Glossaries</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/my-account/">
+                            <i class="fa fa-user-circle fa-lg" aria-hidden="true"></i>
+                            My account
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/account/create-account/">Creating an account</a></li>
+                        
+                        <li ><a href="/account/manage-account/">Manage my account</a></li>
+                        
+                        <li ><a href="/account/partner-primary-accounts/">Partner and primary accounts</a></li>
+                        
+                        <li ><a href="/account/onboarding-golive/">Onboarding and go live</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/integrations/">
+                            <i class="fa fa-plug fa-lg" aria-hidden="true"></i>
+                            Integrations
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/integrations/ready-made/">Ready-made</a></li>
+                        
+                        <li ><a href="/integrations/self-made/">Self-made</a></li>
+                        
+                        <li ><a href="/payment-pages/">Payment pages</a></li>
+                        
+                        <li ><a href="/payment-components/">Payment components</a></li>
+                        
+                        <li ><a href="/wallet-integrations/">Wallet integrations</a></li>
+                        
+                        <li ><a href="/integrations/webhooks/">Webhook</a></li>
+                        
+                        <li ><a href="/integrations/testing/">Testing</a></li>
+                        
+                        <li ><a href="/partner-integrations/">Partner integrations</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/payments/">
+                            <i class="fa fa-credit-card fa-lg" aria-hidden="true"></i>
+                            Payments
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/payment-methods/">Payment methods</a></li>
+                        
+                        <li ><a href="/refunds/">Refunds</a></li>
+                        
+                        <li ><a href="/payments/recurring-payments/">Recurring payments</a></li>
+                        
+                        <li ><a href="/payments/split-payments/">Split payments</a></li>
+                        
+                        <li ><a href="/payments/virtual-ibans/">Virtual IBANs</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/accounting/">
+                            <i class="fa fa-calculator fa-lg" aria-hidden="true"></i>
+                            Accounting
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/accounting/reports/">Reports</a></li>
+                        
+                        <li ><a href="/accounting/integrations/">Accounting integrations</a></li>
+                        
+                        <li ><a href="/accounting/api-reconciliation/">Reconciliation through API</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                <li>
+                    <span>
+                        <a href="/developers/">
+                            <i class="fa fa-cube fa-lg" aria-hidden="true"></i>
+                            Developers
+                        </a>
+                    </span>
+                    <ul>
+                        
+                        <li ><a href="/developers/wrappers-sdks/">Wrappers and SDKs</a></li>
+                        
+                        <li ><a href="/developers/errors/">Handling errors</a></li>
+                        
+                        <li ><a href="/developers/http-errors/">HTTP errors</a></li>
+                        
+                        <li ><a href="/developers/email-authentication/">Email authentication</a></li>
+                        
+                        <li ><a href="/developers/google-analytics/">Google Analytics</a></li>
+                        
+                        <li ><a href="/developers/iframes/">iFrames</a></li>
+                        
+                    </ul>
+                </li>
+                
+            
+                
+                    <li>
+                        <span>
+                            <a href="https://docs-api.multisafepay.com/reference/introduction">
+                                <i class="fa fa-code fa-lg" aria-hidden="true"></i>
+                                API Reference
+                            </a>
+                        </span>
+                        
+                    </li>    
+                
+            
+        </ul>     
+    </div>
+    <ul id="search-results">
+        
+    </ul> 
+</nav>
+
+
+<script>
+
+    let menu = new Mmenu('#menu',
+        {
+            extensions: [
+                'theme-white',
+                'pagedim-black'
+            ],
+            iconPanels: {
+                    add: true,
+                    visible: "first"
+            },
+            setSelected: {
+                    hover: !0,
+                    parent: !0
+                },
+            counters: false,
+            sidebar: {
+                    collapsed: 990,
+                    expanded: 1439
+                },
+            navbars: [
+                {
+                    position: "top",
+                    content: [
+                        '<a class="navbar-brand" href="/"><img src="/logo/MSP-Docs_logo.svg"></a>'
+                    ]
+                },
+                {
+                    position: "top",
+                    content: [
+                        '<input class="addsearch search-form-input flex-search"id="search-input"placeholder="Search"type="text"role="combobox"disabled="disabled"/>'
+                    ]
+                },
+                {
+                    content: ['prev', 'breadcrumbs']
+                },
+            ],
+            searchfield: {
+                clear: true,
+                search: false,
+                showTextItems: true,
+                placeholder: "Search"
+		    }
+        },
+        {
+            navbars: {
+                breadcrumbs: {
+                    removeFirst: true
+                }
+            }
+        }
+    ).API;
+
+window.onload = () => {
+    let t = $("#hamburger").children(".mburger");
+    menu.bind("close:finish", function() {
+            setTimeout(function() {
+                t.attr("href", "#menu")
+                }, 100)
+            }),
+    menu.bind("open:finish", function() {
+        setTimeout(function() {
+            t.attr("href", "#page")
+        }, 100)
+    })
+};
+</script>
+
+        
+        
+    <nav class="header-background navbar navbar-expand-lg">
+        
+            <span id="hamburger" class="Sticky">
+                <a href="#menu" class="mburger mburger--collapse text-white">
+                    <b></b>
+                    <b></b>
+                    <b></b>
+                </a>
+            </span>
+            <a href="/">
+                <img id="docs-logo" src="/logo/MSP-Docs_logo_white.svg"></img>
+            </a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.multisafepay.com/contact/merchant-support">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white login" href="https://merchant.multisafepay.com/">Login</a>
+                </li>
+            </ul>
+    </nav>
+
+        
+        
+        <div class="breadcrumb-box">
+  <ol class="breadcrumb">
+    
+
+
+
+
+
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/">Home</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/">Integrations</a>
+  
+
+</li>
+
+
+<li>
+
+  
+  <a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made</a>
+  
+
+</li>
+
+
+<li>
+
+
+  OpenCart plugin
+  
+
+</li>
+
+  </ol>
+</div>      
+
+        
+        
+        
+
+<div class="sticky-with-menu">
+    <div class="container">
+        <aside id="toc" class="col-md-3 offset-md-9">
+            <h5 class="toc-title">
+                On this page
+            </h5>
+            <div class="js-toc toc">
+
+            </div>
+        </aside>
+    </div>
+</div>
+
+
+<div class="js-toc-content">
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-8 mt-2">
+                    <h1 id="OpenCart plugin">OpenCart plugin</h1>
+                    <hr class="separator">
+                </div>
+                
+                <div class="col-md-2 d-none d-md-inline">
+                    
+                    <img class="plugin-logo" src="/logo/Plugins/OpenCart.svg">
+                    
+                </div>
+                
+
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-8">
+                    
+                    
+                    <div class="row pt-5 pb-5 px-3 clearfix">
+                            
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="https://github.com/MultiSafepay/Opencart" style="font-size: 1.4rem" class="bg-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                View source code<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon">
+                                </a>
+                            </div>
+                            
+                            
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="https://github.com/MultiSafepay/Opencart/blob/master/CHANGELOG.md" style="font-size: 1.4rem" class="bg-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                Changelog<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon">
+                                </a>
+                            </div>
+                            
+                            
+                            <div class="col-lg-4 pr-lg-5 mb-3">
+                                <a href="https://www.opencart.com/index.php?route=marketplace/extension/info&amp;extension_id=39960" style="font-size: 1.4rem" class="bg-dark-msp-blue text-white row block-item p-3 no-decoration justify-content-center" target="_blank">
+                                Download<img src="/svgs/Download-white.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="download-icon">
+                                </a>
+                            </div>
+                            
+                    </div>
+                    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <p>This technical manual is for installing and configuring MultiSafepay&rsquo;s free plugin for integrating with OpenCart.</p>
+<p>For more information about the plugin and a preview, see Opencart – <a href="https://www.opencart.com/index.php?route=marketplace/extension/info&amp;extension_id=39960">MultiSafepay</a>.</p>
+<div>
+	<details id="details-requirements">
+		<summary>
+			Requirements
+		</summary>
+		<p>
+			<ul>
+<li><a href="/getting-started/guide/">MultiSafepay account</a></li>
+<li>OpenCart 2.X, 3.X</li>
+<li>PHP version 7.2, 7.3, or 7.4</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-support">
+		<summary>
+			Support
+		</summary>
+		<p>
+			<p>Contact us:</p>
+<ul>
+<li>Telephone: +31 (0)20 8500 500</li>
+<li>Email: <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></li>
+<li>GitHub: Create a technical issue</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h2 id="installation">Installation</h2>
+<div class="blue-notice">
+    <span>
+        We recommend first installing the plugin in a test environment, following the OpenCart installation procedure. Always make a backup.
+    </span>
+</div>
+<ol>
+<li>Download the Plugin_OpenCart_3.x.x.ocmod.zip.</li>
+<li>Sign in to your OpenCart backend.</li>
+<li>Go to <strong>Extensions</strong> &gt; <strong>Installer</strong>.</li>
+<li>Click the <strong>Upload</strong> button, and then select the downloaded file.</li>
+<li>Once installed, click the <strong>Dashboard</strong> menu.</li>
+<li>To clear both caches, click the blue cog wheel button in the top-right corner, and then click the <strong>Refresh</strong> icon.</li>
+<li>Go to <strong>Extensions</strong> &gt; <strong>Modifications</strong>, and then click the <strong>Refresh</strong> button.</li>
+<li>Go to <strong>Extensions</strong> &gt; <strong>Payments</strong> &gt; <strong>MultiSafepay</strong>, and then click the <strong>Install</strong> button.</li>
+</ol>
+<h2 id="configuration">Configuration</h2>
+<ol>
+<li>Sign in to your OpenCart backend and go to <strong>Extensions</strong> &gt; <strong>Extensions</strong> &gt; <strong>Payments</strong> &gt; <strong>MultiSafepay</strong>.</li>
+<li>On the <strong>MultiSafepay configuration</strong> page, configure the:
+<ul>
+<li><strong>Payment methods</strong> tab</li>
+<li><strong>Order status</strong> tab</li>
+<li><strong>Options</strong> tab</li>
+</ul>
+</li>
+</ol>
+<p>To retrieve your API key, see <a href="/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code">Viewing the site ID, API key, and secure code</a>.</p>
+<h2 id="user-guide">User guide</h2>
+<h3 id="checkouts">Checkouts</h3>
+<p>The plugin supports the OpenCart core checkout and is compatible with most premium themes, unless you have a custom checkout.</p>
+<div>
+	<details id="details-patches-for-third-party-themes-and-extensions">
+		<summary>
+			Patches for third-party themes and extensions
+		</summary>
+		<p>
+			<p>The following patches for third-party themes and extensions are available:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.journal-theme.com/">Journal3 Quick Checkout for OpenCart 3.0.X</a></td>
+<td><a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-journal3-opencart-3.0.X.ocmod.zip">Download OCMOD</a></td>
+</tr>
+<tr>
+<td><a href="https://www.journal-theme.com/">Journal3 Quick Checkout for OpenCart 2.3.X</a></td>
+<td><a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-journal3-opencart-2.3.X.ocmod.zip">Download OCMOD</a></td>
+</tr>
+<tr>
+<td><a href="https://dreamvention.ee/ajax-quick-checkout-one-page-checkout-fast-checkout">AJAX Quick Checkout for OpenCart 3.0.X</a></td>
+<td><a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-ajax-quick-checkout-free-version-7.3.1-opencart-3.0.X.ocmod.zip">Download OCMOD</a></td>
+</tr>
+<tr>
+<td><a href="https://dreamvention.ee/ajax-quick-checkout-one-page-checkout-fast-checkout">AJAX Quick Checkout for OpenCart 2.3.X</a></td>
+<td><a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-ajax-quick-checkout-free-version-7.3.1-opencart-2.3.X.ocmod.zip">Download OCMOD</a></td>
+</tr>
+<tr>
+<td><a href="https://www.extensionsbazaar.com/opencart-one-page-checkout">OnePage Checkout 4.0.0 for OpenCart 3.0.X</a></td>
+<td><a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-onepage-checkout-4.0.0-opencart-3.0.X.ocmod.zip">Download OCMOD</a></td>
+</tr>
+<tr>
+<td><a href="https://www.extensionsbazaar.com/opencart-one-page-checkout">OnePage Checkout 4.0.0 for OpenCart 2.3.X</a></td>
+<td><a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-onepage-checkout-4.0.0-opencart-2.3.X.ocmod.zip">Download OCMOD</a></td>
+</tr>
+<tr>
+<td><a href="https://www.modulepoints.com/quickcheckout">Quick Checkout / Onepage Checkout for OpenCart 3.0.X</a></td>
+<td><a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-quick-checkout-from-module-points-opencart-3.0.X.ocmod.zip">Download OCMOD</a></td>
+</tr>
+<tr>
+<td><a href="https://www.modulepoints.com/quickcheckout">Quick Checkout / Onepage Checkout for OpenCart 2.3.X</a></td>
+<td><a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-quick-checkout-from-module-points-opencart-2.3.X.ocmod.zip">Download OCMOD</a></td>
+</tr>
+<tr>
+<td><a href="https://shop.openwebcreations.eu/eu-vat-compliant">EU VAT Compliant</a></td>
+<td><a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-owc-euvat-reverse-charge-vat-exempt.ocmod.zip">Download OCMOD</a></td>
+</tr>
+<tr>
+<td><a href="https://www.opencart.com/index.php?route=marketplace/extension/info&amp;extension_id=5040">PayCharge Free for OpenCart 2.3.X</a></td>
+<td><a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-paycharge-free-version-6.1-opencart-2.3.X.ocmod.zip">Download OCMOD</a></td>
+</tr>
+</tbody>
+</table>
+<p>The Integration Team will do their best to provide support for third-party plugins and premium themes. Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="generic-gateways">Generic gateways</h3>
+<p>The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay <a href="/payment-pages/">payment page</a>. You can use them to integrate custom gift cards, or co-branded credit cards.</p>
+<div>
+	<details id="details-configuring-generic-gateways">
+		<summary>
+			Configuring generic gateways
+		</summary>
+		<p>
+			<p>To configure generic gateways, follow these steps:</p>
+<ol>
+<li>Sign in to your OpenCart backend.</li>
+<li>Go to <strong>Plugin settings</strong> &gt; <strong>Payment methods</strong> tab.</li>
+<li>Set the:
+<ul>
+<li>Gateway identifier</li>
+<li>Gateway logo</li>
+<li>Gateway label</li>
+<li>Whether to include the shopping cart in refunds (required for pay later gateway IDs)</li>
+</ul>
+</li>
+</ol>
+<p>Generic gateways support:</p>
+<ul>
+<li>All payment methods (filter by country, currency, customer group, and minimum/maximum amount)</li>
+<li><a href="/payments/split-payments/">Split payments</a>, <a href="/features/second-chance/">Second Chance reminders</a> and <a href="/payments/virtual-ibans/">virtual IBANs</a></li>
+<li><a href="https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect">Redirect requests</a> only</li>
+<li>Full and partial refunds (except for <a href="/payment-methods/pay-later/">pay later</a> methods)</li>
+<li>Backend orders (set a custom initial order status)</li>
+</ul>
+<p><strong>Gift cards</strong></p>
+<p>Generic gateways are particularly useful for integrating <a href="/payment-methods/gift-cards/">gift cards</a>, including <a href="/payment-methods/gift-cards/custom-cards/">custom gift cards</a>. This is because we don&rsquo;t support all <a href="/payment-methods/gift-cards/open-loop-closed-loop/">open-loop gift cards</a> in our ready-made integrations and <em>no</em> closed-loop gift cards.</p>
+<p><strong>Co-branded credit cards</strong></p>
+<p>You can integrate Visa co-branded credit cards (<a href="/payment-methods/cartes-bancaires/">Cartes Bancaires</a>, <a href="/payment-methods/dankort/">Dankort</a>, and <a href="/payment-methods/vpay/">V Pay</a>), using the generic <code>VISA</code> gateway.</p>
+<p>For the logo, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/MultiSafepay-icons/tree/master/methods">MultiSafepay icons</a>.</p>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="payment-links">Payment links</h3>
+<div>
+	<details id="details-generating-payment-links-for-backend-orders">
+		<summary>
+			Generating payment links for backend orders
+		</summary>
+		<p>
+			<ol>
+<li>Sign in to your OpenCart backend.</li>
+<li>Go to <strong>System</strong> &gt; <strong>Localisation</strong> &gt; <strong>Order status</strong>.</li>
+<li>Enter a custom order status for when the payment link is sent.</li>
+<li>Go to <strong>Extensions</strong> &gt; <strong>Payments</strong> &gt; <strong>MultiSafepay</strong>.</li>
+<li>Set the <strong>Generate payment links at the admin</strong> field to <strong>Yes</strong>.</li>
+<li>On the <strong>Options</strong> tab &gt; <strong>Payment request</strong> field, set the <strong>Previously created order status</strong>.</li>
+<li>To reserve stock units of order items generated by the admin, while the order status is still <strong>Pending</strong>, go to <strong>System</strong> &gt; <strong>Settings</strong> &gt; <strong>Store</strong> &gt; <strong>Options</strong> tab.</li>
+<li>In the <strong>Processing order status</strong> field, set the order status previously registered as <strong>Payment request</strong>.</li>
+<li>Go to <strong>Sales</strong> &gt; <strong>Orders</strong> &gt; <strong>Add new order</strong>.</li>
+<li>Enter all the order details in the following tabs:
+<ul>
+<li><strong>Customer details</strong></li>
+<li><strong>Products</strong></li>
+<li><strong>Payment details</strong></li>
+<li><strong>Shipping details</strong></li>
+</ul>
+</li>
+<li>At the fifth step <strong>Totals</strong>, in the <strong>Payment method</strong> field, select a MultiSafepay payment method.</li>
+<li>In the <strong>Order status</strong> field, select the order status previously registered as <strong>Payment request</strong>.</li>
+<li>To process the order, click <strong>Save</strong>.</li>
+</ol>
+<p>The customer receives the payment link in the email sent by OpenCart containing the order details. The payment link is also added to the order history details.
+		</p>
+	</details>
+</div>
+
+<h3 id="payment-methods">Payment methods</h3>
+<div>
+	<details id="details-payment-methods">
+		<summary>
+			Payment methods
+		</summary>
+		<p>
+			<ul>
+<li>Cards: <a href="/payment-methods/credit-debit-cards/">All</a></li>
+<li>Banking methods: <a href="/payment-methods/banks/">All</a>, except TrustPay</li>
+<li>Pay later methods: <a href="/payment-methods/pay-later/">All</a></li>
+<li>Wallets: <a href="/payment-methods/alipay">Alipay</a>, <a href="/payment-methods/apple-pay">Apple Pay</a>, <a href="/payment-methods/paypal">PayPal</a></li>
+<li>Prepaid cards:
+<ul>
+<li><a href="https://www.babycadeaubon.nl">Baby Cadeaubon</a></li>
+<li>Beauty &amp; Wellness</li>
+<li><a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon">Boekenbon</a></li>
+<li><a href="https://www.fashioncheque.com/nl">Fashion Cheque</a></li>
+<li><a href="https://www.fashion-giftcard.nl">Fashion gift card</a></li>
+<li>Fietsenbon</li>
+<li><a href="https://www.gezondheidsbon.nl/mhome">Gezondheidsbon</a></li>
+<li><a href="https://www.nationale-tuinbon.nl">Nationale tuinbon</a></li>
+<li><a href="https://www.parfumcadeaukaart.nl">Parfumcadeaukaart</a></li>
+<li><a href="/payment-methods/paysafecard">Paysafecard</a></li>
+<li><a href="https://www.podiumcadeaukaart.nl">Podium</a></li>
+<li><a href="https://www.sportenfitcadeau.nl">Sport en Fit</a></li>
+<li><a href="https://www.vvvcadeaukaarten.nl">VVV gift card</a></li>
+<li><a href="https://www.webshopgiftcard.nl">Webshop gift card</a></li>
+<li><a href="https://www.wellnessgiftcard.nl">Wellness gift card</a></li>
+<li>Wijncadeau</li>
+<li><a href="https://www.winkelcheque.nl">Winkelcheque</a></li>
+<li><a href="https://www.yourgift.nl/">Yourgift</a></li>
+</ul>
+</li>
+</ul>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="refunds">Refunds</h3>
+<p><a href="/refunds/#full-and-partial-refunds">Full refunds</a> are supported in your MultiSafepay dashboard and backend.<br>
+You can&rsquo;t refund more than the original amount in your backend.</p>
+<div>
+	<details id="details-processing-backend-refunds">
+		<summary>
+			Processing backend refunds
+		</summary>
+		<p>
+			<ol>
+<li>Sign in to your OpenCart backend.</li>
+<li>Go to <strong>Orders</strong> &gt; <strong>Order view button</strong> &gt; <strong>Order history panel</strong>.</li>
+<li>Click the <strong>Refund</strong> button.<br>
+This only appears if the order status is <strong>Completed</strong> or <strong>Shipped</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<h3 id="shopping-carts">Shopping carts</h3>
+<p>If you notice any errors in shopping cart calculations, email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+<p>As a temporary solution, you can disable payments with shopping carts.
+<div>
+	<details id="details-disabling-shopping-carts">
+		<summary>
+			Disabling shopping carts
+		</summary>
+		<p>
+			<p><strong>Alert:</strong> This disables all <a href="/payment-methods/pay-later/">pay later methods</a>.</p>
+<ol>
+<li>Sign in to your OpenCart backend.</li>
+<li>Go to <strong>Extensions</strong> &gt; <strong>Payments</strong> &gt; <strong>MultiSafepay</strong>.</li>
+<li>In the MultiSafepay extension, go to the <strong>Options</strong> tab.</li>
+<li>From the <strong>Disable Shopping Cart</strong> list, select <strong>Yes</strong>.</li>
+<li>Click <strong>Save</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+</p>
+<h3 id="surcharges">Surcharges</h3>
+<p><a href="/surcharges/">Surcharges</a> are no longer supported, but you can request a patch.<br>
+Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+<div class="alert-notice">
+    <span>
+        <strong>Attention Dutch merchants</strong> <br>  We strongly recommend <strong>not</strong> applying surcharges to <a href="/payment-methods/pay-later/">pay later methods</a>. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+    </span>
+</div>
+<h3 id="updates">Updates</h3>
+<div>
+	<details id="details-updating-version-2.2.0-to-3.x.x">
+		<summary>
+			Updating version 2.2.0 to 3.x.x
+		</summary>
+		<p>
+			<p>To update the plugin using the extension installer tool in your OpenCart backend:</p>
+<ol>
+<li>For security, always create a backup of your OpenCart application.</li>
+<li>Download the Plugin_OpenCart_3.x.x.ocmod.zip.</li>
+<li>Sign in to your OpenCart backend.</li>
+<li>Go to <strong>Extensions</strong> &gt; <strong>Installer</strong>.</li>
+<li>Click the <strong>Upload</strong> button, and then select the downloaded file.</li>
+<li>Once installed, in the menu go to <strong>Dashboard</strong>.</li>
+<li>To clear both caches, click the blue cog wheel icon in the top-right corner, and then click on the <strong>Refresh</strong> icon.</li>
+<li>Go to <strong>Extensions</strong> &gt; <strong>Modifications</strong>, and then click the <strong>Refresh</strong> icon.</li>
+<li>Go to <strong>Extensions</strong> &gt; <strong>Payments</strong> &gt; <strong>MultiSafepay</strong>.</li>
+<li>To access the <strong>Settings</strong> page, click the <strong>Edit</strong> button.</li>
+<li>A warning appears requesting you to delete old plugin files.</li>
+<li>In the <strong>Maintenance</strong> tab, click <strong>Delete old plugin files</strong>.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+<div>
+	<details id="details-updating-version-2.1.0-or-below">
+		<summary>
+			Updating version 2.1.0 or below
+		</summary>
+		<p>
+			<ol>
+<li>For security, create a backup of your OpenCart application.</li>
+<li>Manually remove all files from the MultiSafepay extension using an FTP program or server file administration program.</li>
+<li>Follow the <a href="/opencart/#installation">installation</a> instructions above.</li>
+</ol>
+
+		</p>
+	</details>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+<script src="/js/scroll-offset.js"></script>
+<script src="https://docs.multisafepay.com/js/tocbot.min.js"></script>
+<script src="https://docs.multisafepay.com/js/scroll-menu.js"></script>
+
+        
+        <section class="container border-top">
+            <div class="row">
+                <div class="row my-5 full-width">
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content m-1 py-2">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/edit.svg" width="20" />
+            Feedback
+          </p>
+          <p>
+              <a href='https://github.com/MultiSafepay/docs/blob/master/content/integration/ready-made/opencart/' target="_blank">Propose a change on GitHub<img src="/svgs/External-link-black.svg" class="mb-1 ml-2 mr-1" style="width: 1.2rem;height:auto" alt="external-link-icon"></a>
+              or<br>send an email to <a href="mailto:docs@multisafepay.com">docs@multisafepay.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="py-4">
+      <div class="row content py-2 m-1">
+        <div class="col-12 text-nor">
+          <p>
+            <img class="mr-3 globe" src="/svgs/globe.svg" width="20" />
+            Other languages
+          </p>
+          <p>For an explanation in another language, contact&nbsp;your&nbsp;account&nbsp;manager.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+       
+        
+            
+        
+
+        <footer class="footer-background pt-5">
+        
+            
+  <div class="container">
+    <div class="row footer-list">
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Overview</h4></li>
+          <li><a href="https://docs.multisafepay.com/payment-methods/">Payment methods</a></li>
+          <li><a href="https://docs.multisafepay.com/payment-features/">Payment features</a></li>
+          <li><a href="https://docs.multisafepay.com/integrations/ready-made/">Ready-made integrations</a></li>
+          <li><a href="https://docs.multisafepay.com/accounting/">Accounting solutions</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Resources</h4></li>
+          <li><a href="https://docs.multisafepay.com/getting-started/">Getting started</a></li>
+          <li><a href="https://www.multisafepay.com/support/">Support</a></li>
+          <li><a href="https://testmerchant.multisafepay.com/signup">Test account</a></li>
+          <li><a href="https://status.multisafepay.com/">Status page</a></li>
+          <li><a href="https://github.com/MultiSafepay/docs/tree/master/content">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">MultiSafepay</h4></li>
+          <li><a href="https://www.multisafepay.com/company/what-we-do">About us</a></li>
+          <li><a href="https://www.multisafepay.com/">Merchants</a></li>
+          <li><a href="https://www.multisafepay.com/company/our-business-partners">Partners</a></li>
+          <li><a href="https://www.multisafepay.com/blog/">Blog</a></li>
+          <li><a href="https://www.multisafepay.com/careers/">Careers</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <ul>
+          <li><h4 class="footer-title-list">Contact</h4></li>
+          <li><a href="https://www.multisafepay.com/contact/merchant-support">Contact</a></li>
+          <li><a href="https://www.multisafepay.com/contact" target="_blank">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+            <div class="text-center">
+                <a href="https://www.multisafepay.com"><img class="msp-logo-footer" src="/logo/MSP-logo.svg" /></a>
+            </div>
+        </footer>
+    </div>
+    
+    
+
+    
+    <script src="https://docs.multisafepay.com/js/jquery.min.js"></script>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            anchors.options = {
+                visible: 'hover',
+                placement: 'right',
+                truncate: 64
+            };
+
+            anchors.add('article h2, article h3, article h4, article h5, .manual h3, #manual, .node-name--H1, .node-name--H2');
+        });
+    </script>
+    	
+
+    
+    
+    
+
+    <script src="https://docs.multisafepay.com/js/bootstrap.min.js"></script>
+    <script src="https://addsearch.com/js/?key=62b1ea328472f530ca8688670ac54b30"></script>
+</body>
+
+</html>

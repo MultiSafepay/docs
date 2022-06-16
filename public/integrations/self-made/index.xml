@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Self-made integrations on MultiSafepay Docs</title>
+    <link>https://docs.multisafepay.com/integrations/self-made/</link>
+    <description>Recent content in Self-made integrations on MultiSafepay Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://docs.multisafepay.com/integrations/self-made/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configure your webhook endpoint</title>
+      <link>https://docs.multisafepay.com/integrations/self-made/configure-your-webhook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integrations/self-made/configure-your-webhook/</guid>
+      <description>MultiSafepay uses a webhook to send updates about orders and other notifications to your web server.
+You can configure the webhook at website level or at order level.
+Requirements You must set a webhook endpoint, which is a URL that:
+ Doesn&amp;rsquo;t include port numbers. Is publicly accessible, or has MultiSafepay on your allow list. Uses HTTPS - We don&amp;rsquo;t accept HTTP for security reasons.  For a list of MultiSafepay IP addresses, email integration@multisafepay.</description>
+    </item>
+    
+    <item>
+      <title>Handle notifications</title>
+      <link>https://docs.multisafepay.com/integrations/self-made/handle-notifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integrations/self-made/handle-notifications/</guid>
+      <description>When there is an update to your order, we notify your web server at the following URL through a POST request:
+{your-webhook-endpoint}?transactionid=12345&amp;amp;timestamp=140292929
+This URL is your webhook endpoint combined with two additional parameters:
+ transactionid: Your unique identifier for the order, previously set as order_id in your API request. timestamp: The time the notification was triggered.  The updated order details make up the payload of the request.
+Check the status Check the order status in the status field.</description>
+    </item>
+    
+    <item>
+      <title>Manage orders</title>
+      <link>https://docs.multisafepay.com/integrations/self-made/manage-orders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integrations/self-made/manage-orders/</guid>
+      <description>MultiSafepay provides a RESTful API that can be accessed by HTTP requests to manage your data. We support data in JSON format only.
+The most important data element in our API is the order. Orders contain all information related to a single instance of products and/or services sold to a customer.
+Orders can be linked to multiple transactions. A transaction represents an instance of funds being transferred.
+The most common operation to perform with our API is creating an order.</description>
+    </item>
+    
+    <item>
+      <title>Next steps</title>
+      <link>https://docs.multisafepay.com/integrations/self-made/next-steps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integrations/self-made/next-steps/</guid>
+      <description>Congratulations! You&amp;rsquo;ve successfully created an order, configured your webhook endpoint, and set up your web server to handle notifications.
+For next steps:
+Payment methods and features
+Check out our range of payment methods and features.
+     API reference
+Learn how to use our API to update an order, process a refund, or apply a discount.
+     Test your integration
+Test payments and resolve common issues.</description>
+    </item>
+    
+    <item>
+      <title>Validate HMAC signatures</title>
+      <link>https://docs.multisafepay.com/integrations/self-made/handle-notifications/validate-hmac-signatures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.multisafepay.com/integrations/self-made/handle-notifications/validate-hmac-signatures/</guid>
+      <description>To validate the HMAC signature of POST notification requests in your own solution, follow these steps:
+  Base64 decode the Auth header value of the request.   Example   Before: MTY0MTIxODg4NDowNmNiZjIyNmU3Yzg3M2VmZjk2OTIxZDdmZGUzOTk4ZWI2YmUwZGU3OTE1ZWUxYzFiNTE0OTUxMWZjYTgyZTI2YmIwYWIyZTZkMGUwYWQ5OTdjYmFiMTUxZTRiYTU2MTU0MThkOGUxMjUyODMwMTcyNjE0M2VkMTE0NjI4N2Y5Mw==
+After: 1641218884:06cbf226e7c873eff96921d7fde3998eb6be0de7915ee1c1b5149511fca82e26bb0ab2e6d0e0ad997cbab151e4ba5615418d8e12528301726143ed1146287f93
+    Split the decoded Auth header value using the colon (:) as separator.
+ The first string is the timestamp. The second string is the HMAC signature.    Example   Timestamp: 1641218884</description>
+    </item>
+    
+  </channel>
+</rss>
