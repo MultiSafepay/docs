@@ -11,9 +11,7 @@ International bank account numbers (IBANs) are sensitive data. For security reas
 
 You can still perform most business operations with masked IBANs, e.g. processing refunds.
 
-<details id=“how-to-unmask-ibans”>
-<summary>How to unmask IBANs</summary>
-<br>
+# How to unmask ibans
 
 To unmask IBANs for a specific website, follow these steps:
 
@@ -23,8 +21,6 @@ To unmask IBANs for a specific website, follow these steps:
 4. Under **Website functionality**, click the **Unmask IBAN numbers in API requests and responses** toggle.
 
 When unmasked, the full IBAN is displayed, e.g. `NL87ABNA0000001234`.
-
-</details>
 <br>
 
 > 📘 **More info**
