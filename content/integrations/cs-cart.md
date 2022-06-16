@@ -1,5 +1,5 @@
 ---
-title : "CS-Cart plugin"
+title : "CS-Cart"
 category: 62962dd7e272a6002ebbbbc5
 order: 109
 hidden: false

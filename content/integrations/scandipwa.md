@@ -1,5 +1,5 @@
 ---
-title: "ScandiPWA plugin"
+title: "ScandiPWA"
 category: 62962dd7e272a6002ebbbbc5
 order: 116
 hidden: false

@@ -1,5 +1,5 @@
 ---
-title : "PrestaShop 1.7 plugin"
+title : "PrestaShop 1.7"
 category: 62962dd7e272a6002ebbbbc5
 order: 103
 hidden: false

@@ -1,5 +1,5 @@
 ---
-title : "Drupal plugins"
+title : "Drupal"
 category: 62962dd7e272a6002ebbbbc5
 order: 110
 hidden: false
