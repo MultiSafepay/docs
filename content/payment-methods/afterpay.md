@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a727567164d301522a67da
 slug: afterpay
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/AfterPay.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+
 [AfterPay](https://www.afterpay.nl/en/) is a widely used pay later method in the Netherlands and Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement.
 
 See how AfterPay can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/afterpay).

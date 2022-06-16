@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a728d48b97080046c1d220
 slug: trustpay
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/TrustPay.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+
 [TrustPay](https://www.trustpay.eu/) is a bank payment method in the Czech Republic. Customers pay from their own online banking environment.
 
 # Overview
