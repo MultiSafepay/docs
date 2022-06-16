@@ -44,12 +44,13 @@ You can embed a single or multiple payment methods in your checkout.
 
 # Integration 
 
-- [Payment component integration: Single payment method](/payment-component-single/)
-- [Payment component integration: Multiple payment methods](/payment-component-multiple/)
+- [Single payment method integration](/payment-component-single/)
+- [Multiple payment method integration](/payment-component-multiple/)
 - [Payment component customization manual](/payment-component-customization/)
 - [Previous release integration manual](/payment-component-previous-release/)
-
 <br>
 
-> 📘 **More info**
-> For more information or support, email <integration@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>

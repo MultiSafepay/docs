@@ -5,19 +5,18 @@ order: 500
 hidden: false
 slug: 'payment-statuses'
 ---
-There are two statuses for each payment that update as it is processed. 
+There are two statuses for each payment that update as it is processed:
 
-In your [MultiSafepay dashboard](https://merchant.multisafepay.com/), go to **Transaction overview**, and then select the relevant transaction to open the **Transaction details** page. Under **Status history**, you can see the order status and transaction status: 
-
-## Order status
-Changes as the customer's order with you progresses towards shipment (independent of payment).  
+- **Order status:** Changes as the customer's order with you progresses towards shipment.  
 API attribute: `status`
-
-## Transaction status
-Changes as the funds progress towards settlement in your account balance.  
+- **Transaction status:** Changes as the funds progress towards settlement in your account balance.  
 API attribute: `financial_status`
 
-## Status meanings
+# How to view statuses
+
+In your [MultiSafepay dashboard](https://merchant.multisafepay.com/), go to **Transaction overview**, and then select the relevant transaction to open the **Transaction details** page. Under **Status history**, you can see the statuses.
+
+# Status meanings
 
 The meaning of statuses (or combinations of statuses) varies per payment method. To check specific meanings, see the relevant payment method page. 
 
@@ -43,6 +42,7 @@ The table below sets out possible order and transaction statuses and what they c
 | The refund has been processed successfully.| Refunded | Refunded |
 | The [partial refund](/refunds/) has been processed successfully.| Partial_refunded | Partial_refunded |
 | The refund was declined. | Declined | Declined |
+<br>
 
 If the status of the refund  is **reserved**, it may mean: 
 
@@ -51,5 +51,7 @@ If the status of the refund  is **reserved**, it may mean: 
 
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
