@@ -271,6 +271,9 @@ If you change the order status to **Shipped** in your backend, the updated statu
 
 You can apply [surcharges](/surcharges/) in the plugin when combined with a relevant third-party package. 
 
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+
 <details id="applying-surcharges-with-third-party-packages">
 <summary>Applying surcharges with third-party packages</summary>
 <br>
@@ -280,9 +283,6 @@ Third-party packages must follow WooCommerce and Wordpress development guideline
 **Support**  
 The Integration Team will do their best to help you install third-party packages, but we can't guarantee perfect compatibility.
 
-**Attention Dutch merchants** 
-
-We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 </details>
 
 ## Updates

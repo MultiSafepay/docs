@@ -222,8 +222,8 @@ As a temporary solution, you can disable payments with shopping carts.
 [Surcharges](/surcharges/) are no longer supported, but you can request a patch.  
 Email <integration@multisafepay.com> 
 
-**Attention Dutch merchants**
-We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 
