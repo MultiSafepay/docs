@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a728d48b97080046c1d220
 slug: belfius
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Belfius.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+
 Belfius is a popular online banking payment method for Belfius bank customers in Belgium.
 
 See how Belfius can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/belfius).

@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: paypal
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/PayPal.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+
 [PayPal](https://www.paypal.com/nl/home) is a leading global payment method that lets customers pay by credit card or create a digital wallet linked to multiple payment methods.
 
 See how PayPal can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/paypal).

@@ -6,6 +6,9 @@ order: 102
 hidden: false
 slug: bank-transfer
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/banktransfer-en.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
+
 Bank Transfer (also known as SEPA Credit Transfer) is a secure, trusted, international banking method. 
 Customers can make any type of online payment in euros within the SEPA area. 
 
