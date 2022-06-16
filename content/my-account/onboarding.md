@@ -8,13 +8,13 @@ slug: 'onboarding'
 
 Onboarding involves MultiSafepay checking and approving information submitted by merchants and partners applying for a live account to process real transactions.  
 
-## 1. Submit sign up form
+# 1. Submit sign up form
 
 Complete and submit the [live account sign up form](https://merchant.multisafepay.com/signup).
 
 MultiSafepay creates a live account and email you a security code to sign in to your [live dashboard](https://merchant.multisafepay.com/).
 
-## 2. Provide company information
+# 2. Provide company information
 
 Sign in to your [live dashboard](https://merchant.multisafepay.com/) and, under [Business details](https://merchant.multisafepay.com/onboarding), provide the following information:
 
@@ -22,19 +22,19 @@ Sign in to your [live dashboard](https://merchant.multisafepay.com/) and, under 
 |---|---|
 | **Company details** | Company address, VAT number, and Chamber of Commerce number |
 | **Business bank account number** | This must exactly match at least one of the trade names listed on your Chamber of Commerce extract. |
-| **Products/services** | See also [Prohibited products and services](/prohibited-products-services/). | 
-| **Site URL** | The URL of at least one site you accept payments through, or select the **I don't have a website** checkbox. <br> If you provide a URL, you can now start receiving payments into your MultiSafepay balance. However, you cannot [pay out](/account/payouts/) funds until onboarding is complete. |
+| **Products/services** | See [Prohibited products and services](/prohibited-products-services/). | 
+| **Site URL** | The URL of at least one site you accept payments through, or select the **I don't have a website** checkbox. <br> If you provide a URL, you can now start receiving payments into your MultiSafepay balance. However, you cannot [pay out](/payouts/) funds until onboarding is complete. |
 | **Credit card payments** | If you intend to accept cards, provide your: <br> - Minimum, average, and maximum order value <br> - Annual turnover from credit card transactions |
 
-### Pre-screening
+## Pre-screening
 
 MultiSafepay pre-screens your account to check if the products/services you sell are low, medium, or high risk. Payments for medium and high-risk products/services are pauzed until onboarding is complete. 
 
 We may ask you to provide additional documents, e.g. if you have an unusual company structure.
 
-**Note:** Requests to process credit cards may be denied, e.g. if you sell [prohibited products/services](/prohibited-products-services/).
+**Note:** Requests to process credit cards may be denied, e.g. if you sell [prohibited products or services](/prohibited-products-services/).
 
-### Changes to company information
+## Changes to company information
 
 You **must** inform us of any of the following changes to your company information.
 
@@ -57,13 +57,13 @@ Make sure you update all company details on the website(s), including the regist
 
 </details>
 
-## 3. Validate bank account
+# 3. Validate bank account
 
 Validate your business bank account by either:
 - Making a payment of 1 EUR from the account, **or** 
 - Providing a copy or screenshot of a bank statement that includes your IBAN and company name
 
-## 4. Identify UBOs
+# 4. Identify UBOs
 
 MultiSafepay is legally required under the Wwft to establish and verify the identity of your company's ultimate beneficial owners (UBOs).
 
@@ -130,7 +130,7 @@ It was based on the Disclosure of Unusual Transactions or Financial Services Act
 **Note:** We recommend using the [KopieID app](https://www.rijksoverheid.nl/onderwerpen/identiteitsfraude/vraag-en-antwoord/veilige-kopie-identiteitsbewijs) to hide personal information on passports or IDs.
 </details>
 
-## 5. Display required information
+# 5. Display required information
 
 You must display the following required information on your website. 
 
@@ -145,7 +145,7 @@ You must display the following required information on your website.
 - Privacy policy
 </details>
 
-## Approval and go live
+# 6. Approval and go live
 MultiSafepay assesses the information provided and performs know your customer (KYC) checks. We may request a deposit to cover our financial risks.
 
 If approved, your account goes live and you can [make payouts](/payouts/).
