@@ -174,6 +174,30 @@ The customer receives the payment link in the email sent by OpenCart containing 
 
 {{< /details >}}
 
+### Payment components
+
+The plugin supports [payment components](/payment-components/), which:
+
+- Provide a seamless checkout experience to increase conversion.
+- Encrypt customer payment details for secure processing.
+- Shift responsibility for [PCI DSS compliance](/glossaries/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay.
+
+{{< details title="Activating payment components" >}}
+If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
+
+1. Sign in to your OpenCart backend.
+2. Go to **Extensions** > Type: **Payments** > **MultiSafepay** > **Edit**.
+3. Choose Tab: **Payment Methods** and then expand the method of your choice.
+4. Enable **Payment Component** and optionally **Tokenization**.
+
+**Tokenization** is available only when **Payment Component** is activated.
+
+For support, email <integration@multisafepay.com>
+
+**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+
+{{< /details >}}
+
 ### Payment methods
 
 {{< details title="Payment methods" >}}
