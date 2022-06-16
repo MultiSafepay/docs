@@ -9,6 +9,8 @@ slug: 'account-users'
 
 Your MultiSafepay account can have an unlimited number of authorized users. All users on one account share the same secure code. You can disable but not delete users.
 
+# User permission profiles
+
 <details id="user-permission-profiles">
 <summary>User permission profiles</summary>
 <br>
@@ -25,10 +27,10 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
 
 </details>
 
-## Adding users
+# Adding users
 
-<details id="adding-users-to-your-account">
-<summary>Adding users to your account</summary>
+<details id="how-to-add-users-to-your-account">
+<summary>How to add users to your account</summary>
 <br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
@@ -44,10 +46,15 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
 7. Click **Add user** in the top-right corner.
 
 </details>
+<br>
+
+---
+
+# User guide
 
 ## Two-factor authentication
     
- Two-factor authentication (2FA) is an optional, additional layer of security for data in your MultiSafepay account. It is supported in every country.
+Two-factor authentication (2FA) is an optional, additional layer of security for data in your MultiSafepay account. It is supported in every country.
 
 When enabled, users must verify their identity with a password, and a 6-digit token generated in the user's MultiSafepay mobile app for **every** sign in.
 
@@ -60,13 +67,12 @@ When enabled, users must verify their identity with a password, and a 6-digit to
 > - Android devices from [Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control)
 > - Apple iOS devices from the [App Store](https://apps.apple.com/app/multisafepay-control/id929955963)
 
-
 ### Enabling 2FA
 
 Only administrators can enable 2FA.
 
-<details id="enabling-2fa">
-<summary>Enabling 2FA</summary>
+<details id="how-to-enable-2fa">
+<summary>How to enable 2FA</summary>
 <br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
@@ -81,8 +87,8 @@ Only administrators can enable 2FA.
 
 Users must then configure 2FA the first time they sign in to the dashboard after 2FA is enabled.
 
-<details id="configuring-2fa">
-<summary>Configuring 2FA</summary>
+<details id="how-to-configure-2fa">
+<summary>How to configure 2FA</summary>
 <br>
 
 1.  Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com) on your laptop or PC.  
@@ -93,6 +99,5 @@ A dialog requesting a 6-digit token appears.
 
 </details>
 
-> 📘 **Support**
-
-> Email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

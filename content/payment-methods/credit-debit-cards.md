@@ -77,7 +77,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 

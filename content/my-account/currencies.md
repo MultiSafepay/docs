@@ -1,18 +1,18 @@
 ---
 title : "Currencies"
 category: 62962dcdbccb9a001d4bbc81
-order: 208
+order: 204
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
-slug: 'account-currencies'
+slug: 'currencies'
 ---
 You can process payments in a large number of currencies, provided that they are:
 
-- Supported by the specific [payment method](/payment-methods/)
-- Enabled in your dashboard and in the settings of any [ready-made integrations](/integrations/ready-made/)
+- Supported by the specific payment method.
+- Enabled in your dashboard and in the settings of any [ready-made integrations](/integrations/ready-made/).
 - Correctly processed in the [create order](https://docs-api.multisafepay.com/reference/createorder) API request.
 
-## Payment methods
+# Payment methods
 
 All payment methods support: EUR (Euro)
 
@@ -45,9 +45,9 @@ Credit and debit cards support:
 
 For credit and debit cards, we can potentially support additional currencies on request. Email <support@multisafepay.com> 
 
-## Payouts
+# Payouts
 
-You can make [payouts](/account/payouts/) in: 
+You can make [payouts](/payouts/) in: 
 
 | | |
 |---|---|
@@ -58,24 +58,26 @@ You can make [payouts](/account/payouts/) in:
 | EUR (Euro) | USD (United States dollar) |
 | GBP (Pound Sterling) | | 
 
-## Enabling currencies
+# Activation
 
 To view the currencies currently enabled for your account, in your dashboard go to **Finance > Balance**.
 
 To enable new currencies, email <support@multisafepay.com>
 
-You must also add a [business bank account](/account/business-bank-accounts/) that supports the currency. Follow these steps to ensure transactions can be processed in that currency and no conversion is required:
+You must also add a [business bank account](/invoices/) that supports the currency. Follow these steps to ensure transactions can be processed in that currency and no conversion is required:
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Finance > Balance > Add bank account**.
 3. Process a bank transfer in the new currency to confirm the business bank account.
 
-Once your new business bank account has been approved by the Risk Team, you can process [payouts](/account/payouts/) without currency conversion.
+Once your new business bank account has been approved by the Risk Team, you can process [payouts](/payouts/) without currency conversion.
 
-## Converting currencies
+# Conversion
 
 To convert other currencies to Euros (EUR) in your [MultiSafepay dashboard](https://merchant.multisafepay.com), go to **Finance > Currency conversion**. 
 
 Take into account the exchange rate and/or any other costs.
+<br>
 
-For any questions, email <support@multisafepay.com>
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>
