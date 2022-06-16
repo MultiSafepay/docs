@@ -1,5 +1,5 @@
 ---
-title: "Vue Storefront plugin"
+title: "Vue Storefront"
 category: 62962dd7e272a6002ebbbbc5
 order: 118
 hidden: false

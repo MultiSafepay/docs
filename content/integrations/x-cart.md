@@ -1,5 +1,5 @@
 ---
-title : "X-Cart plugin"
+title : "X-Cart"
 category: 62962dd7e272a6002ebbbbc5
 order: 119
 hidden: false

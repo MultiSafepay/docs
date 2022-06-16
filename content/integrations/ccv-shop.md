@@ -1,5 +1,5 @@
 ---
-title : "CCV Shop app"
+title : "CCV Shop"
 category: 62962dd7e272a6002ebbbbc5
 order: 201
 hidden: false

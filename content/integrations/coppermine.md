@@ -1,5 +1,5 @@
 ---
-title : "Coppermine integration for MultiSafepay"
+title : "Coppermine"
 category: 62962dd7e272a6002ebbbbc5
 order: 202
 hidden: false
