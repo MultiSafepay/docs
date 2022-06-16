@@ -776,21 +776,6 @@ MultiSafepay supports most Magento functionalities. For any questions, email <in
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-- [Magento Slack channel](https://magentocommeng.slack.com) #multisafepay-payments
-
-Our Magento 1 plugin is professionally supported by a certified Magento 1 Solution Specialist and receives regular updates to support the latest features provided by Magento and MultiSafepay.
-
-</details>
-
 # Installation
 
 These instructions are for SFTP upload. You can also install via .ZIP file upload in Connect.
@@ -1022,3 +1007,10 @@ You can update the plugin in your Magento 1 backend or the CMS marketplace, or v
 Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1. 
 
 For more information and instructions, see MultiSafepay blog – [Magento 1: The final weeks](https://bit.ly/2YX2LGL).
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

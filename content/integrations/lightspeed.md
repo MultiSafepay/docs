@@ -26,18 +26,6 @@ This technical manual is for installing and configuring MultiSafepay's free app 
 
 </details>
 
-<details title="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
 # Installation 
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
@@ -414,3 +402,10 @@ To disable the core integration after migrating to the new app, follow these ste
 For any questions about the app, email <integration@multisafepay.com>
 
 </details>
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

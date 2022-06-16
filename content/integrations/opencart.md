@@ -29,18 +29,6 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
 # Installation
 
 :warning: We recommend first installing the plugin in a test environment, following the OpenCart installation procedure. Always make a backup.
@@ -256,3 +244,10 @@ To update the plugin using the extension installer tool in your OpenCart backend
 3. Follow the [installation](/opencart/#installation) instructions above.
 
 </details>
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

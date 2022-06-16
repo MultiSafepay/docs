@@ -25,19 +25,6 @@ This technical manual is for installing and configuring with MultiSafepay's free
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-To report a bug or suggest an improvement, create an issue in our GitHub repository. 
-
-For support:
-
-- Email <integration@multisafepay.com>
-- Post in the Magento Slack channel [#multisafepay-payments](https://magentocommeng.slack.com/messages/multisafepay-payments/)
-
-</details>
-
 <details id="payment-methods">
 <summary>Payment methods</summary>
 <br>
@@ -75,3 +62,11 @@ For support:
 # Installation and configuration
 
 See MultiSafepay GitHub – [Installation guide](https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration).
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue
+> - Post in the Magento Slack channel [#multisafepay-payments](https://magentocommeng.slack.com/messages/multisafepay-payments/)

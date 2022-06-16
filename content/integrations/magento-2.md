@@ -17,6 +17,8 @@ slug: 'magento-2'
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Magento 2.
 
+Our plugin is supported by a certified Magento 2 Solution Specialist and receives regular updates for the latest features from Magento and MultiSafepay.
+
 <details id="requirements">
 <summary>Requirements</summary>
 <br>
@@ -24,21 +26,6 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 - [MultiSafepay account](/getting-started/guide/)
 - Magento Open Source version 2.3.x & 2.4.x **or** Adobe Commerce version 2.3.x & 2.4.x (For GraphQL, only Magento Open Source versions 2.4.x are supported)
 - PHP 7.1+
-
-</details>
-
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-- [Magento Slack channel](https://magentocommeng.slack.com) #multisafepay-payments
-
-Our plugin is supported by a certified Magento 2 Solution Specialist and receives regular updates for the latest features from Magento and MultiSafepay.
 
 </details>
 
@@ -671,3 +658,10 @@ rm -rf Connect
 
 If you installed the plugin via the Magento Marketplace, go to **System** > **Web setup wizard** > **Extension manager** > **Update / uninstall**.
 </details>
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue
