@@ -98,5 +98,8 @@ If a cancelled order is subsequently paid for, MultiSafepay reopens the order in
 For an overview of all Second Chance emails that resulted in successful payment, see [Second Chance report](/second-chance-report/).
 <br>
 
-> 📘 **More info**
-> For more information or support, email <integration@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

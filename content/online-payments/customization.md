@@ -1,5 +1,5 @@
 ---
-title : 'Payment component customization manual'
+title : 'Payment component customization'
 category: 6278c92bf4ad4a00361431b0
 order: 303
 hidden: false
@@ -67,5 +67,8 @@ The payment component now looks like this:
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Screenshot-Payment-Component.png" align ="center"/>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <integration@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

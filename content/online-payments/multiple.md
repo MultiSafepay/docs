@@ -1,12 +1,12 @@
 ---
-title : "Payment component integration: Multiple payment methods"
+title : "Multiple payment methods"
 category: 6278c92bf4ad4a00361431b0
 order: 302
 hidden: false
 slug: 'payment-component-multiple'
 parentDoc: 62a848399bb3eb004023f291 
+excerpt: 'Technical manual for integrating a payment component using multiple payment methods.'
 --- 
-This manual is for integrating a payment component using multiple payment methods. 
 
 # Step 1: Add the elements
 
@@ -42,7 +42,7 @@ Decide if you want to:
 ## Generate an API token
 Payment Components require a MultiSafepay API token. See API reference – [Generate an API token](https://docs-api.multisafepay.com/reference/generateapitoken).
 
-:warning: To keep your API key private, request the token from your own server. 
+> **Tip!** To keep your API key private, request the token from your own server. 
 
 ## Construct the component object
 
@@ -237,7 +237,7 @@ The `PaymentComponent` has the following methods:
 
 ## Handle the interaction
 
-:warning: This step only applies if using your own or an existing payment button.
+> **Tip!** This step only applies if using your own or an existing payment button.
 
 1. Assign the button element to a variable:
 
@@ -334,7 +334,7 @@ See API reference – [Create order](https://docs-api.multisafepay.com/reference
 
 # Step 4: Go live
 
-To test the payment methods, use our [Test payment details](/testing/test-payment-details/).
+To test the payment methods, use our [Test payment details](/testing/#test-payment-details).
 
 When you're ready to process real payments, make the following changes:
 
@@ -362,5 +362,8 @@ When you're ready to process real payments, make the following changes:
     `https://api.multisafepay.com/v1/json/orders`
 <br>
 
-> 📘 **More info**
-> For more information or support, email <integration@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

@@ -5,26 +5,31 @@ order: 500
 hidden: false
 slug: 'payment-statuses'
 ---
-There are two statuses for each payment that update as it is processed. 
+There are two statuses for each payment that update as it is processed:
 
-In your [MultiSafepay dashboard](https://merchant.multisafepay.com/), go to **Transaction overview**, and then select the relevant transaction to open the **Transaction details** page. Under **Status history**, you can see the order status and transaction status: 
-
-## Order status
-Changes as the customer's order with you progresses towards shipment (independent of payment).  
+- **Order status:** Changes as the customer's order with you progresses towards shipment.  
 API attribute: `status`
-
-## Transaction status
-Changes as the funds progress towards settlement in your account balance.  
+- **Transaction status:** Changes as the funds progress towards settlement in your account balance.  
 API attribute: `financial_status`
 
-## Status meanings
+<details id="how-to-view-statuses">
+<summary>How to view statuses</summary>
+<br>
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
+2. Go to **Transaction overview**, and then select the relevant transaction to open the **Transaction details** page. 
+3. Under **Status history**, you can see the statuses.
+
+</details>
+
+# Status meanings
 
 The meaning of statuses (or combinations of statuses) varies per payment method. To check specific meanings, see the relevant payment method page. 
 
 The table below sets out possible order and transaction statuses and what they commonly mean.
 
-| Description | Order status | Transaction status |
-|---|---|--|
+| Description | Order | Transaction |
+|---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | The transaction has been cancelled. | Void | Cancelled |
@@ -36,13 +41,14 @@ The table below sets out possible order and transaction statuses and what they c
 
 ## Refunds and chargebacks
 
-| Description | Order status | Transaction status |
+| Description | Order | Transaction |
 |---|---|---|
 | Refund initiated.| Initialized/Reserved | Initialized/Reserved |
 | Refund/chargeback complete. | Completed | Completed |
 | The refund has been processed successfully.| Refunded | Refunded |
 | The [partial refund](/refunds/) has been processed successfully.| Partial_refunded | Partial_refunded |
 | The refund was declined. | Declined | Declined |
+<br>
 
 If the status of the refund  is **reserved**, it may mean: 
 
@@ -51,5 +57,8 @@ If the status of the refund  is **reserved**, it may mean: 
 
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

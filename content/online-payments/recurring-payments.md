@@ -30,7 +30,7 @@ Tokens are stored at account level rather than website level. If you operate mul
 - iDEAL
 - Maestro
 - Mastercard
-- SEPA Direct Debit – First you need to provide us with some information. See [Activating SEPA Direct Debit](/payment-methods/sepa-direct-debit/activation/).
+- SEPA Direct Debit – First you need to provide us with some information. See SEPA Direct Debit – [Activation](/sepa-direct-debit/#activation).
 - Sofort
 - Visa
 
@@ -143,7 +143,7 @@ MultiSafepay offers three recurring models:
 Our API and [PHP SDK](https://github.com/MultiSafepay/php-sdk) support all three models.  
 Our [ready-made integrations](/integrations/ready-made/) use `cardOnFile` only. 
 
-## Via ready-made integrations
+## Ready-made integrations
 
 You must have **both** credit card payments and recurring payments enabled for your MultiSafepay account.
 
@@ -162,7 +162,7 @@ We support recurring payments in our plugins for:
 
 </details>
 
-## Via our API
+## API
 
 See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > `customer.reference`.
 
@@ -184,5 +184,8 @@ See API reference – [Create order](https://docs-api.multisafepay.com/reference
 
 <br>
 
-> 📘 **More info**
-> For more information or support, email <integration@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

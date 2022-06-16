@@ -47,6 +47,7 @@ A cross-site request forgery (CSRF) warning appears on payment pages when you us
 - `https://api.multisafepay.com` accepts `POST` and `GET` requests.
 - `https://payv2.multisafepay.com` only accepts `GET` requests.
 </details>
+<br>
 
 ---
 
@@ -64,7 +65,7 @@ We cannot guarantee that the deprecated version will support any new payment met
 
 It does **not** support the following methods:
 
-| | |
+| Method type | Unsupported methods |
 |---|---|
 | **Pay later** | AfterPay, Betaal per Maand, in3, Klarna |
 | **Wallets** | Alipay, Apple Pay, WeChat Pay |
@@ -79,13 +80,15 @@ You can track the behavior of customers on payment pages through Google Analytic
 
 ## Languages
 
+Payment pages are supported in 19 languages. 
+
 <details id="supported-languages">
 <summary>Supported languages</summary>
 <br>
 
 Payment pages support the following languages:
 
-| | |
+| Supported languages | Supported languages |
 |---|---|
 | Arabic | Japanese |
 | Czech | Mandarin |
@@ -102,16 +105,15 @@ Payment pages support the following languages:
 
 ## Payment links
 
-You can manually generate a link to a payment page to send to a customer to complete payment. 
-See [Payment links](/payment-links/).
+You can manually generate a [link to a payment page](/payment-links/) to send to a customer to complete payment. 
 
-### Payment methods
+## Payment methods
+
+If a customer's country is unclear or your integration doesn't let you provide the correct country code, consider displaying **all** your enabled payment methods on the payment page. This is not supported for the deprecated version.
 
 <details id="how-to-display-all-payment-methods">
 <summary>How to display all payment methods</summary>
 <br>
-
-If a customer's country is unclear or your integration doesn't let you provide the correct country code, consider displaying all your enabled payment methods on the payment page. This is not supported for the deprecated version.
 
 To display all payment methods on the payment page, follow these steps:
 
@@ -120,6 +122,22 @@ To display all payment methods on the payment page, follow these steps:
 3. Redirect the customer to the adapted link.
 
 **Note:** This is not a standard option in our [ready-made integrations](/integrations/ready-made/).
+
+</details>
+
+## Shopping cart
+
+If you include a `shopping_cart` object when you [create an order](https://docs-api.multisafepay.com/reference/createorder), the cart details are displayed on the payment page by default. That is, all items in the customer's order, with the price and VAT for each.
+
+<details id="how-to-hide-shopping-cart">
+<summary>How to hide the shopping cart</summary>
+<br>
+
+1. To request to enable **Advanced website templates** for your MultiSafepay account, email <integration@multisafepay.com>
+2. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/). 
+3. Go to **Settings** > **New payment pages**.
+4. Next to the relevant website, click **Template**.
+5. Under **Configure page style**, click **Settings**, and then select the **Hide cart details** checkbox. 
 
 </details>
 
@@ -174,23 +192,10 @@ See API reference – [Create order](https://docs-api.multisafepay.com/reference
 When customers select Visa as payment method, Visa requires us to display on the payment page the city and country where your webshop is located. This measure aims to increase reliability, transparency, and safety for customers.
 
 </details>
-
-## Shopping cart
-
-If you include a `shopping_cart` object when you [create an order](https://docs-api.multisafepay.com/reference/createorder), the cart details are displayed on the payment page by default. That is, all items in the customer's order, with the price and VAT for each.
-
-<details id="how-to-hide-shopping-cart">
-<summary>How to hide the shopping cart</summary>
 <br>
 
-1. To request to enable **Advanced website templates** for your MultiSafepay account, email <integration@multisafepay.com>
-2. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/). 
-3. Go to **Settings** > **New payment pages**.
-4. Next to the relevant website, click **Template**.
-5. Under **Configure page style**, click **Settings**, and then select the **Hide cart details** checkbox. 
+---
 
-</details>
-<br>
-
-> 📘 **More info**
-> For more information or support, email <integration@multisafepay.com>
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)
