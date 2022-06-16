@@ -1,10 +1,11 @@
 ---
-title : "myShop app"
+title : "myShop"
 category: 62962dd7e272a6002ebbbbc5
 order: 205
 hidden: false
 parentDoc: 62a9a54aba9800011a8bda88
 slug: 'myshop'
+excerpt: "Free app to integrate MultiSafepay payment solutions with myShop."
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/myShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -15,20 +16,6 @@ This technical manual is for installing and configuring myShop's free app for in
 <br>
 
 You will need a [MultiSafepay account](/getting-started-guide/).
-
-</details>
-
-<details id="support">
-<summary>Support</summary>
-<br>
-
-For technical queries about the app, email myShop at <support@myshop.com>
-
-Contact MultiSafepay:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
 
 </details>
 
@@ -53,7 +40,7 @@ Contact MultiSafepay:
     - [Sofort](/payment-methods/sofort)
 </details>
 
-# Installation and configuration
+# How to install and configure
 
 :warning: We recommend first installing the plugin in a test environment, following the myShop installation procedure. Always make a backup.
 
@@ -63,5 +50,11 @@ Contact MultiSafepay:
 4. Enter your [account ID, site ID, and site secure code](/websites/#site-id-api-key-and-secure-code).  
 5. If using a test account, select **Test mode**.
 6. Click **Save**.
+
+---
+
+> 💬  Support
+> For technical queries about the app, email myShop at <support@myshop.com>
+> To contact MultiSafepay, email <support@multisafepay.com>
 
 

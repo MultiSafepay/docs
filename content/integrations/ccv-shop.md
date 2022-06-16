@@ -1,10 +1,11 @@
 ---
-title : "CCV Shop app"
+title : "CCV Shop"
 category: 62962dd7e272a6002ebbbbc5
 order: 201
 hidden: false
 parentDoc: 62a9a54aba9800011a8bda88
 slug: 'ccv-shop'
+excerpt: "Free app to integrate MultiSafepay payment solutions with CCV shop."
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/CCVShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -17,21 +18,7 @@ This technical manual is for installing and configuring MultiSafepay's free app 
 You will need a [MultiSafepay account](/getting-started-guide/).
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-For technical queries about the app, email CCV Shop at <support@ccvshop.nl>
-
-Contact MultiSafepay:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation and configuration
+# How to install and configure
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
@@ -70,3 +57,7 @@ ___
 ## Refunds
 
 You can process refunds from your MultiSafepay dashboard, but not in your backend.
+---
+> 💬  Support
+> For technical queries about the app, email CCV Shop at <support@ccvshop.nl>
+> To contact MultiSafepay, email <support@multisafepay.com>

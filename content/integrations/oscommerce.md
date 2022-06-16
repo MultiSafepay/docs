@@ -1,5 +1,5 @@
 ---
-title : "OsCommerce plugin"
+title : "OsCommerce"
 category: 62962dd7e272a6002ebbbbc5
 order: 114
 hidden: false
@@ -78,7 +78,7 @@ Release date: Mar 28, 2014
 ---
 </details>
 
-> [View source code](https://github.com/MultiSafepay/OsCommerce) :link:
+> [Source code](https://github.com/MultiSafepay/OsCommerce) :link:
 
 > [Download](https://github.com/MultiSafepay/OsCommerce/archive/3.0.0.zip) :arrow-down:
 
@@ -96,21 +96,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-For support, contact OsCommerce.
-
-Contact MultiSafepay:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation and configuration
+# How to install and configure
 
 :warning: We recommend first installing the plugin in a test environment, following the OsCommerce installation procedure. Always make a backup.
 
@@ -181,3 +167,12 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 2. Follow the Installation and configuration instructions from step 2.
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

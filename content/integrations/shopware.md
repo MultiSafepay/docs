@@ -14,7 +14,7 @@ slug: 'shopware'
 
 > [Changelog](https://github.com/MultiSafepay/shopware6/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/shopware6/) :link:
+> [Source code](https://github.com/MultiSafepay/shopware6/) :link:
 
 > [Download](https://github.com/MultiSafepay/shopware6/releases/download/2.5.3/Plugin_Shopware6_2.5.3.zip) :arrow-down:
 
@@ -30,23 +30,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-- Join the official [Shopware 6 Slack channel](https://join.slack.com/t/shopwarenederland/shared_invite/zt-61exftia-TFYlw5LzmIBnz7Epq07goQ) 
-- Join the private MultiSafepays [Shopware 6 Slack channel](https://shopwarenederland.slack.com/archives/G0146NKFJTT)
-
-For support for Shopware 6 Professional/Enterprise, email <sales@multisafepay.com>
-
-</details>
-
-## Installation and configuration
+## How to install and configure
 
 :warning: We recommend first installing the plugin in a test environment, following the Shopware 6 installation procedure. Always make a backup.
 
@@ -162,7 +146,7 @@ You can update the plugin in your backend and the CMS marketplace, or via using 
 
 > [Changelog](https://github.com/MultiSafepay/Shopware/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/Shopware) :link:
+> [Source code](https://github.com/MultiSafepay/Shopware) :link:
 
 > [Download](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html) :arrow-down:
 
@@ -178,19 +162,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-## Installation and configuration
+## How to install and configure
 
 :warning: We recommend first installing the plugin in a test environment, following the Shopware 5 installation procedure. Always make a backup.
 
@@ -343,3 +315,16 @@ For instructions, see the [Shopware migration manual](https://docs.shopware.com/
 For questions, email <integration@multisafepay.com>
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue
+> - Join the official [Shopware 6 Slack channel](https://join.slack.com/t/shopwarenederland/shared_invite/zt-61exftia-TFYlw5LzmIBnz7Epq07goQ) 
+> - Join the private MultiSafepays [Shopware 6 Slack channel](https://shopwarenederland.slack.com/archives/G0146NKFJTT)
+>
+> For support for Shopware 6 Professional/Enterprise, email <sales@multisafepay.com>

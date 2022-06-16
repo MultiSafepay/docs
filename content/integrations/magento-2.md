@@ -1,5 +1,5 @@
 ---
-title: "Magento 2 plugin"
+title: "Magento 2"
 category: 62962dd7e272a6002ebbbbc5
 order: 102
 hidden: false
@@ -11,11 +11,13 @@ slug: 'magento-2'
 
 > [Changelog](https://github.com/MultiSafepay/magento2/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/Magento2) :link:
+> [Source code](https://github.com/MultiSafepay/Magento2) :link:
 
 :warning: If you are still using the deprecated plugin, we recommend [upgrading to the latest version](/magento-2/#upgrading) as soon as possible.
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Magento 2.
+
+Our plugin is supported by a certified Magento 2 Solution Specialist and receives regular updates for the latest features from Magento and MultiSafepay.
 
 <details id="requirements">
 <summary>Requirements</summary>
@@ -24,21 +26,6 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 - [MultiSafepay account](/getting-started/guide/)
 - Magento Open Source version 2.3.x & 2.4.x **or** Adobe Commerce version 2.3.x & 2.4.x (For GraphQL, only Magento Open Source versions 2.4.x are supported)
 - PHP 7.1+
-
-</details>
-
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-- [Magento Slack channel](https://magentocommeng.slack.com) #multisafepay-payments
-
-Our plugin is supported by a certified Magento 2 Solution Specialist and receives regular updates for the latest features from Magento and MultiSafepay.
 
 </details>
 
@@ -76,7 +63,7 @@ The installation process is the same for the Adobe Commerce version.
 
 </details>
 
-# Installation
+# How to install
 
 **1.** We recommend installing the meta-package using Composer:
 
@@ -103,7 +90,7 @@ If you have enabled MSI in Magento 2, to disable the MultiSafepay CatalogInvento
 php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 ```
 
-# Configuration
+# How to configure
 1. Sign in to your Magento 2 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay**.  
 
@@ -685,3 +672,12 @@ rm -rf Connect
 
 If you installed the plugin via the Magento Marketplace, go to **System** > **Web setup wizard** > **Extension manager** > **Update / uninstall**.
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

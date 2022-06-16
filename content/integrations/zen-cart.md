@@ -1,5 +1,5 @@
 ---
-title : "Zen Cart plugin"
+title : "Zen Cart"
 category: 62962dd7e272a6002ebbbbc5
 order: 120
 hidden: false
@@ -11,7 +11,7 @@ slug: 'zen-cart'
 
 > [Changelog](https://github.com/MultiSafepay/Zencart/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/Zencart) :link:
+> [Source code](https://github.com/MultiSafepay/Zencart) :link:
 
 > [Download](https://github.com/MultiSafepay/Zencart/releases/download/3.1.0/Plugin_ZenCart_3.1.0.zip) :arrow-down:
 
@@ -27,19 +27,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation and configuration
+# How to install and configure
 
 :warning: We recommend first installing the plugin in a test environment, following the Zen Cart installation procedure. Always make a backup.
 
@@ -104,3 +92,12 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 2. Follow the Installation and configuration instructions from step 2.
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

@@ -1,5 +1,5 @@
 ---
-title : "Drupal plugins"
+title : "Drupal"
 category: 62962dd7e272a6002ebbbbc5
 order: 110
 hidden: false
@@ -13,7 +13,7 @@ slug: 'drupal'
 
 > [Changelog](https://github.com/MultiSafepay/drupal-commerce-2/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/drupal-commerce-2/) :link:
+> [Source code](https://github.com/MultiSafepay/drupal-commerce-2/) :link:
 
 > [Download](https://github.com/MultiSafepay/drupal-commerce-2/releases/download/3.0.0/commerce_multisafepay_payments-3.0.0.zip) :arrow-down:
 
@@ -30,23 +30,9 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
+> Drupal no longer provides support for Drupal 8.9.x.
 
-Drupal no longer provides support for Drupal 8.9.x.
-
-For how to upgrade to Drupal 9, see Drupal - [Upgrading from Drupal 8 to Drupal 9 or higher](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher).
-
-Contact MultiSafepay:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-## Installation
+## How to install
 
 These instructions are for Composer. You can also install the plugin in your backend. 
 
@@ -58,7 +44,7 @@ To install the latest stable version of the Drupal Commerce 2.x plugin, run the 
 composer require drupal/commerce_multisafepay_payments
 ```
 
-## Configuration  
+## How to configure  
 1. Sign in to your Drupal backend.
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
 3. Enter your [account ID, site ID, and site API key](/websites/#site-id-api-key-and-secure-code). 
@@ -146,7 +132,7 @@ For how to upgrade Drupal 8 to Drupal 9, see Drupal - [Upgrading from Drupal 8 t
 
 > [Changelog](https://github.com/MultiSafepay/Drupal-Commerce/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/Drupal-Commerce) :link:
+> [Source code](https://github.com/MultiSafepay/Drupal-Commerce) :link:
 
 > [Download](https://github.com/MultiSafepay/Drupal-Commerce/releases/download/2.2.0/Plugin_Drupal_2.2.0.zip) :arrow-down:
 
@@ -162,19 +148,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-## Installation and configuration
+## How to install and configure
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
@@ -236,3 +210,12 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 2. Follow the Installation and configuration instructions from step 2.
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

@@ -1,5 +1,5 @@
 ---
-title : "Craft Commerce plugin"
+title : "Craft Commerce"
 category: 62962dd7e272a6002ebbbbc5
 order: 108
 hidden: false
@@ -11,7 +11,7 @@ slug: 'craft-commerce'
 
 > [Changelog](https://github.com/MultiSafepay/craft-commerce/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/craft-commerce) :link:
+> [Source code](https://github.com/MultiSafepay/craft-commerce) :link:
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for Craft Commerce 3.
 
@@ -32,21 +32,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-For support for Craft Commerce 2, email <integration@multisafepay.com> 
- 
-Contact MultiSafepay:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation
+# How to install
 
 These instructions are for installing the plugin via Composer. You can also install via the [Craft Plugin Store](https://plugins.craftcms.com/multisafepay).
 
@@ -59,7 +45,7 @@ composer require multisafepay/craft-commerce
 
 The latest stable release is downloaded and installed in your Craft Commerce webshop.
 
-# Configuration
+# How to configure
 1. Sign in to your Craft Commerce backend.
 2. To configure the plugin settings, go to **MultiSafepay** > **Settings**.  
 3. To add payment methods activated in your [MultiSafepay account](https://merchant.multisafepay.com) and configure gateways, go to **Commerce** > **System settings** > **Gateways**.  
@@ -130,3 +116,12 @@ To process refunds from the Craft Commerce admin panel:
 3. To see the refund options, go to the **Transactions** tab. 
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

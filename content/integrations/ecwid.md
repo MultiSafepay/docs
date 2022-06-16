@@ -1,10 +1,11 @@
 ---
-title : "Ecwid app"
+title : "Ecwid"
 category: 62962dd7e272a6002ebbbbc5
 order: 203
 hidden: false
 parentDoc: 62a9a54aba9800011a8bda88
 slug: 'ecwid'
+excerpt: "Free app to integrate MultiSafepay payment solutions with Ecwid."
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Ecwid.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -18,15 +19,7 @@ You will need a [MultiSafepay account](/getting-started-guide/).
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact [Ecwid](https://support.ecwid.com/hc/en-us/requests/new).
-
-</details>
-
-# Installation and configuration
+# How to install and configure
 1. Sign in to your Ecwid backend and install the MultiSafepay app from the App Store.
 2. Go to **Ecwid control panel** > **Settings** > **Payment page**.
 3. For each payment method, change the **Payment processor** value to **MultiSafepay**, and click **Save**.
@@ -61,4 +54,9 @@ For instructions on integrating Ecwid with Wix, see Ecwid – [Adding your Ecwid
 
 You can process refunds from your MultiSafepay dashboard, but refunds are **not** supported in Wix webshops.
 
+---
+
+> 💬  Support
+> For technical queries about the app, contact [Ecwid](https://support.ecwid.com/hc/en-us/requests/new).
+> To contact MultiSafepay, email <support@multisafepay.com>
 

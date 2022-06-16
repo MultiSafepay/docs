@@ -1,5 +1,5 @@
 ---
-title : "VirtueMart plugin"
+title : "VirtueMart"
 category: 62962dd7e272a6002ebbbbc5
 order: 117
 hidden: false
@@ -11,7 +11,7 @@ slug: 'virtuemart'
 
 > [Changelog](https://github.com/MultiSafepay/VirtueMart/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/Virtuemart) :link:
+> [Source code](https://github.com/MultiSafepay/Virtuemart) :link:
 
 > [Download](https://github.com/MultiSafepay/VirtueMart/releases/download/2.2.2/Plugin_VirtueMart_2.2.2.zip) :arrow-down:
 
@@ -27,19 +27,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation
+# How to install
 
 :warning: We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup.
 
@@ -48,7 +36,7 @@ Contact us:
 3. Install the Plugin_VirtueMart_x.x.x.zip file using **Drag and drop** or **Browse for file**. 
 4. Click **Upload & install**.
 
-# Configuration
+# How to configure
 1. Sign in to your VirtueMart backend.
 2. Go to **Extensions** > **Plugins**.
 3. In the search box, enter **MultiSafepay**, and then set the plugin status to **Enabled**.
@@ -121,3 +109,12 @@ You can update the plugin in your backend and the CMS marketplace, via SFTP.
 2. Follow the Installation and configuration instructions from step 2.
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

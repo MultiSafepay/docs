@@ -1,5 +1,5 @@
 ---
-title : "CS-Cart plugin"
+title : "CS-Cart"
 category: 62962dd7e272a6002ebbbbc5
 order: 109
 hidden: false
@@ -11,7 +11,7 @@ slug: 'cs-cart'
 
 > [Changelog](https://github.com/MultiSafepay/CS-Cart/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/CS-Cart) :link:
+> [Source code](https://github.com/MultiSafepay/CS-Cart) :link:
 
 > [Download](https://github.com/MultiSafepay/CS-Cart/releases/download/1.6.0/Plugin_CS-Cart_1.6.0.zip) :arrow-down:
 
@@ -27,19 +27,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation
+# How to install
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
@@ -48,7 +36,7 @@ Contact us:
 3. Delete the `msp_installer.php` file.
 4. In your [MultiSafepay account](https://merchant.multisafepay.com), provide your [webhook endpoint](/integrations/self-made/configure-your-webhook/).
 
-# Configuration
+# How to configure
 1. Sign in to your CS-Cart backend.
 2. Go to **Administration** > **Payment methods**.
 3. To add payment methods, click the **+** button.
@@ -100,9 +88,8 @@ Extra options such as **IP-Validation** and **debugmode** are intended for devel
 
 You can apply surcharges when configuring the payment method under **Surcharge**. Always enter the amount **including** VAT.
 
-**Attention Dutch merchants**  
-
-We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 
@@ -118,3 +105,12 @@ You can update the plugin in your CS-Cart backend or the CMS marketplace, or via
 2. Follow the Installation instructions from step 2 and then the Configuration instructions.
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

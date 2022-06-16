@@ -26,19 +26,7 @@ This technical manual is for installing and configuring MultiSafepay's free app 
 
 </details>
 
-<details title="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation 
+# How to install 
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
@@ -375,9 +363,8 @@ Lightspeed single sign-on lets you sign in to the app's **Settings** directly fr
     - Percentage under **Dynamic payment fee**.
 5. Click **Save**.
 
-**Attention Dutch merchants** 
-
-We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 </details>
 
@@ -415,3 +402,12 @@ To disable the core integration after migrating to the new app, follow these ste
 For any questions about the app, email <integration@multisafepay.com>
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

@@ -1,5 +1,5 @@
 ---
-title : "WooCommerce plugin"
+title : "WooCommerce"
 category: 62962dd7e272a6002ebbbbc5
 order: 107
 hidden: false
@@ -11,7 +11,7 @@ slug: 'woocommerce'
 
 > [Changelog](https://github.com/MultiSafepay/WooCommerce/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/WooCommerce) :link:
+> [Source code](https://github.com/MultiSafepay/WooCommerce) :link:
 
 > [Download](https://github.com/MultiSafepay/WooCommerce/releases/download/4.15.0/Plugin_WooCommerce_4.15.0.zip) :arrow-down:
 
@@ -27,19 +27,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation
+# How to install
 
 :warning: We recommend first installing the plugin in a test environment, following the WooCommerce installation procedure. Always make a backup.
 
@@ -60,7 +48,7 @@ There are two ways to install the plugin:
 3. Search for **MultiSafepay**. 
 4. For the **MultiSafepay plugin for WooCommerce**, click the **Install now** button.
 
-## Configuration
+## How to configure
 1. Sign in to your WooCommerce backend.
 2. Go to **WooCommerce** > **MultiSafepay settings**
 3. On the **Account** tab, enter your [API key](/websites/#site-id-api-key-and-secure-code).
@@ -284,6 +272,9 @@ If you change the order status to **Shipped** in your backend, the updated statu
 
 You can apply [surcharges](/surcharges/) in the plugin when combined with a relevant third-party package. 
 
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+
 <details id="applying-surcharges-with-third-party-packages">
 <summary>Applying surcharges with third-party packages</summary>
 <br>
@@ -293,9 +284,6 @@ Third-party packages must follow WooCommerce and Wordpress development guideline
 **Support**  
 The Integration Team will do their best to help you install third-party packages, but we can't guarantee perfect compatibility.
 
-**Attention Dutch merchants** 
-
-We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 </details>
 
 ## Updates
@@ -311,3 +299,12 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

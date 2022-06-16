@@ -1,5 +1,5 @@
 ---
-title: "Odoo plugin"
+title: "Odoo"
 category: 62962dd7e272a6002ebbbbc5
 order: 112
 hidden: false
@@ -12,7 +12,7 @@ slug: 'odoo'
 
 > [Changelog](https://github.com/MultiSafepay/official-odoo-integration/blob/13.0-develop/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/official-odoo-integration) :link:
+> [Source code](https://github.com/MultiSafepay/official-odoo-integration) :link:
 
 > [Download](https://github.com/MultiSafepay/official-odoo-integration/archive/13.0-develop.zip) :arrow-down:
 
@@ -28,21 +28,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-The plugin receives regular updates from Odoo and MultiSafepay.
-
-</details>
-
-# Installation
+# How to install
 
 :warning: We recommend first installing the plugin in a test environment, following the Odoo installation procedure. Always make a backup.
 
@@ -64,7 +50,7 @@ The plugin receives regular updates from Odoo and MultiSafepay.
 8. Search for and open the MultiSafepay payments module `payment_multisafepay_official`.
 9. Click **Install**.
 
-# Configuration
+# How to configure
 1. Sign in to your Odoo backend. 
 2. Go to the **Invoicing** or **Website** menu > **Configuration** > **Payment acquirers**.
 3. Select **MultiSafepay** payment acquirer. 
@@ -142,3 +128,12 @@ The plugin supports generic gateways, which redirect customers from your checkou
 4. Click **Upgrade**.
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

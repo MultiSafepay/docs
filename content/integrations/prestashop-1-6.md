@@ -1,5 +1,5 @@
 ---
-title : "PrestaShop 1.6 plugin"
+title : "PrestaShop 1.6"
 category: 62962dd7e272a6002ebbbbc5
 order: 104
 hidden: false
@@ -378,19 +378,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation and configuration
+# How to install and configure
 
 :warning: We recommend first installing the plugin in a test environment, following the PrestaShop 1.6 installation procedure. Always make a backup.
 
@@ -506,9 +494,8 @@ To apply a surcharge or payment fee to a payment method, you can use the third-p
 
 The Integration Team will do their best to support you with installing BVK, but bear in mind that it is a third-party package. We can't guarantee perfect compatibility.
 
-**Attention Dutch merchants** 
-
- We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). 
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 </details>
 
@@ -530,3 +517,12 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 2. Follow the Installation and configuration instructions from step 2.
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

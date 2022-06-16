@@ -1,5 +1,5 @@
 ---
-title : "OpenCart plugin"
+title : "OpenCart"
 category: 62962dd7e272a6002ebbbbc5
 order: 113
 hidden: false
@@ -11,7 +11,7 @@ slug: 'opencart'
 
 > [Changelog](https://github.com/MultiSafepay/Opencart/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/Opencart) :link:
+> [Source code](https://github.com/MultiSafepay/Opencart) :link:
 
 > [Download](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960) :link:
 
@@ -29,19 +29,7 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation
+# How to install
 
 :warning: We recommend first installing the plugin in a test environment, following the OpenCart installation procedure. Always make a backup.
 
@@ -54,7 +42,7 @@ Contact us:
 8. Go to **Extensions** > **Modifications**, and then click the **Refresh** button.
 9. Go to **Extensions** > **Payments** > **MultiSafepay**, and then click the **Install** button. 
 
-## Configuration
+## How to configure
 1. Sign in to your OpenCart backend and go to **Extensions** > **Extensions** > **Payments** > **MultiSafepay**.
 2. On the **MultiSafepay configuration** page, configure the:  
     - **Payment methods** tab
@@ -222,8 +210,8 @@ As a temporary solution, you can disable payments with shopping carts.
 [Surcharges](/surcharges/) are no longer supported, but you can request a patch.  
 Email <integration@multisafepay.com> 
 
-**Attention Dutch merchants**
-We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 
@@ -256,3 +244,12 @@ To update the plugin using the extension installer tool in your OpenCart backend
 3. Follow the [installation](/opencart/#installation) instructions above.
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

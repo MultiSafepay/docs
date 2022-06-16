@@ -1,5 +1,5 @@
 ---
-title : "Mijnwebwinkel app"
+title : "Mijnwebwinkel"
 category: 62962dd7e272a6002ebbbbc5
 order: 204
 hidden: false
@@ -19,25 +19,7 @@ You will need a [MultiSafepay account](/getting-started-guide/).
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-See Mijnwebwinkel:
-
-- General information about the plugin - [MultiSafepay](https://www.mijnwebwinkel.nl/partner/multisafepay).
-- Technical queries about the plugin - [Contact form](https://www.mijnwebwinkel.nl/contactformulier).
-- Support documentation - [Support](https://www.mijnwebwinkel.nl/support).
-
-Contact MultiSafepay:
-
-- Telephone: -31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation and configuration
+# How to install and configure
 
 :warning: We recommend first installing the plugin in a test environment, following the Mijnwebwinkel installation procedure. Always make a backup.
 
@@ -103,7 +85,15 @@ To change the order of payment methods in your checkout, follow these steps:
 
 [Surcharges](/surcharges/) are supported.
 
-**Attention Dutch merchants**
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
-We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Consumer Credit Act (Wet op het consumentenkrediet) and requires a permit from the Authority for Financial Markets (AFM).
+---
 
+> 💬  Support
+> For: 
+> - General information about the app, see Mijnwebwinkel - [MultiSafepay](https://www.mijnwebwinkel.nl/partner/multisafepay).
+> - Technical queries about the app, see Mijnwebwinkel - [Contact form](https://www.mijnwebwinkel.nl/contactformulier).
+> - Support documentation, see Mijnwebwinkel - [Support](https://www.mijnwebwinkel.nl/support).
+>
+> To contact MultiSafepay, email <support@multisafepay.com>
