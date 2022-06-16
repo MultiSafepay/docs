@@ -32,7 +32,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 > Drupal no longer provides support for Drupal 8.9.x.
 
-## Installation
+## How to install
 
 These instructions are for Composer. You can also install the plugin in your backend. 
 
@@ -44,7 +44,7 @@ To install the latest stable version of the Drupal Commerce 2.x plugin, run the 
 composer require drupal/commerce_multisafepay_payments
 ```
 
-## Configuration  
+## How to configure  
 1. Sign in to your Drupal backend.
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
 3. Enter your [account ID, site ID, and site API key](/websites/#site-id-api-key-and-secure-code). 
@@ -148,7 +148,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-## Installation and configuration
+## How to install and configure
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 

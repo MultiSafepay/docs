@@ -40,7 +40,7 @@ You will need a [MultiSafepay account](/getting-started-guide/).
     - [Sofort](/payment-methods/sofort)
 </details>
 
-# Installation and configuration
+# How to install and configure
 
 :warning: We recommend first installing the plugin in a test environment, following the myShop installation procedure. Always make a backup.
 

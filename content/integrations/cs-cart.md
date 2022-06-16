@@ -27,7 +27,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-# Installation
+# How to install
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
@@ -36,7 +36,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 3. Delete the `msp_installer.php` file.
 4. In your [MultiSafepay account](https://merchant.multisafepay.com), provide your [webhook endpoint](/integrations/self-made/configure-your-webhook/).
 
-# Configuration
+# How to configure
 1. Sign in to your CS-Cart backend.
 2. Go to **Administration** > **Payment methods**.
 3. To add payment methods, click the **+** button.

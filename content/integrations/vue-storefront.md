@@ -13,7 +13,7 @@ slug: 'vue-storefront'
 
 MultiSafepay provides a free plugin to integrate with Vue Storefront.
 
-# Installation and configuration
+# How to install and configure
 
 See MultiSafepay GitHub – [Installation guide](https://github.com/MultiSafepay/vsf-payment-multisafepay).
 

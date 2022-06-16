@@ -29,7 +29,7 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
 
 </details>
 
-# Installation
+# How to install
 
 :warning: We recommend first installing the plugin in a test environment, following the OpenCart installation procedure. Always make a backup.
 
@@ -42,7 +42,7 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
 8. Go to **Extensions** > **Modifications**, and then click the **Refresh** button.
 9. Go to **Extensions** > **Payments** > **MultiSafepay**, and then click the **Install** button. 
 
-## Configuration
+## How to configure
 1. Sign in to your OpenCart backend and go to **Extensions** > **Extensions** > **Payments** > **MultiSafepay**.
 2. On the **MultiSafepay configuration** page, configure the:  
     - **Payment methods** tab

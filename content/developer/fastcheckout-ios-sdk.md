@@ -43,7 +43,7 @@ To learn more about creating, updating and retrieving orders, see the [API refer
 * iOS 9+ target
 * Swift 5.3 or Objective-C
 
-### Installation
+### How to install
 
 1. Copy your [site API key](/websites/#site-id-api-key-and-secure-code) to get the SDK from our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-ios-sdk).
 2. Add the FastCheckoutKit.xcframework as an embedded framework into your project. 
