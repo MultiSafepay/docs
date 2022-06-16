@@ -11,7 +11,7 @@ slug: 'prestashop-1-7'
 
 > [Changelog](https://github.com/MultiSafepay/prestashop-official/blob/main/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/prestashop-official) :link:
+> [Source code](https://github.com/MultiSafepay/prestashop-official) :link:
 
 > [Download](https://github.com/MultiSafepay/prestashop-official/releases/download/5.5.0/Plugin_PrestaShop_5.5.0.zip) :arrow-down:
 

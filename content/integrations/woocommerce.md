@@ -11,7 +11,7 @@ slug: 'woocommerce'
 
 > [Changelog](https://github.com/MultiSafepay/WooCommerce/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/WooCommerce) :link:
+> [Source code](https://github.com/MultiSafepay/WooCommerce) :link:
 
 > [Download](https://github.com/MultiSafepay/WooCommerce/releases/download/4.15.0/Plugin_WooCommerce_4.15.0.zip) :arrow-down:
 

@@ -11,7 +11,7 @@ slug: 'x-cart'
 
 > [Changelog](https://github.com/MultiSafepay/X-Cart/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/X-Cart) :link:
+> [Source code](https://github.com/MultiSafepay/X-Cart) :link:
 
 > [Download](https://github.com/MultiSafepay/X-Cart/releases/download/2.3.0/Plugin_X-Cart_2.3.0.zip) :arrow-down:
 

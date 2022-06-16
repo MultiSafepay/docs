@@ -11,7 +11,7 @@ slug: 'virtuemart'
 
 > [Changelog](https://github.com/MultiSafepay/VirtueMart/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/Virtuemart) :link:
+> [Source code](https://github.com/MultiSafepay/Virtuemart) :link:
 
 > [Download](https://github.com/MultiSafepay/VirtueMart/releases/download/2.2.2/Plugin_VirtueMart_2.2.2.zip) :arrow-down:
 

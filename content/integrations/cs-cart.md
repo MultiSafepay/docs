@@ -11,7 +11,7 @@ slug: 'cs-cart'
 
 > [Changelog](https://github.com/MultiSafepay/CS-Cart/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/CS-Cart) :link:
+> [Source code](https://github.com/MultiSafepay/CS-Cart) :link:
 
 > [Download](https://github.com/MultiSafepay/CS-Cart/releases/download/1.6.0/Plugin_CS-Cart_1.6.0.zip) :arrow-down:
 

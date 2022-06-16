@@ -12,7 +12,7 @@ slug: 'odoo'
 
 > [Changelog](https://github.com/MultiSafepay/official-odoo-integration/blob/13.0-develop/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/official-odoo-integration) :link:
+> [Source code](https://github.com/MultiSafepay/official-odoo-integration) :link:
 
 > [Download](https://github.com/MultiSafepay/official-odoo-integration/archive/13.0-develop.zip) :arrow-down:
 

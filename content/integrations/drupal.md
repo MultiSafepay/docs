@@ -13,7 +13,7 @@ slug: 'drupal'
 
 > [Changelog](https://github.com/MultiSafepay/drupal-commerce-2/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/drupal-commerce-2/) :link:
+> [Source code](https://github.com/MultiSafepay/drupal-commerce-2/) :link:
 
 > [Download](https://github.com/MultiSafepay/drupal-commerce-2/releases/download/3.0.0/commerce_multisafepay_payments-3.0.0.zip) :arrow-down:
 
@@ -132,7 +132,7 @@ For how to upgrade Drupal 8 to Drupal 9, see Drupal - [Upgrading from Drupal 8 t
 
 > [Changelog](https://github.com/MultiSafepay/Drupal-Commerce/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/Drupal-Commerce) :link:
+> [Source code](https://github.com/MultiSafepay/Drupal-Commerce) :link:
 
 > [Download](https://github.com/MultiSafepay/Drupal-Commerce/releases/download/2.2.0/Plugin_Drupal_2.2.0.zip) :arrow-down:
 

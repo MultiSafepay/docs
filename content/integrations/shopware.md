@@ -14,7 +14,7 @@ slug: 'shopware'
 
 > [Changelog](https://github.com/MultiSafepay/shopware6/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/shopware6/) :link:
+> [Source code](https://github.com/MultiSafepay/shopware6/) :link:
 
 > [Download](https://github.com/MultiSafepay/shopware6/releases/download/2.5.3/Plugin_Shopware6_2.5.3.zip) :arrow-down:
 
@@ -146,7 +146,7 @@ You can update the plugin in your backend and the CMS marketplace, or via using 
 
 > [Changelog](https://github.com/MultiSafepay/Shopware/blob/master/CHANGELOG.md) :link:
 
-> [View source code](https://github.com/MultiSafepay/Shopware) :link:
+> [Source code](https://github.com/MultiSafepay/Shopware) :link:
 
 > [Download](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html) :arrow-down:
 
