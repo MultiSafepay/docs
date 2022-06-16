@@ -180,7 +180,7 @@ The plugin supports [payment components](/payment-components/), which:
 
 - Provide a seamless checkout experience to increase conversion.
 - Encrypt customer payment details for secure processing.
-- Shift responsibility for [PCI DSS compliance](/glossaries/multisafepay-glossary/#payment-card-industry-data-security-standard-pci-dss) to MultiSafepay.
+- Shift responsibility for [PCI DSS compliance](/payment-regulations/pci-dss/) to MultiSafepay.
 
 {{< details title="Activating payment components" >}}
 If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
