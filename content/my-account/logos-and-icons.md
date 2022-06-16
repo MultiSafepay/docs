@@ -10,8 +10,6 @@ For MultiSafepay logos, see our Github repository – [MultiSafepay logos](https
 
 For the logos and icons of all MultiSafepay payment methods, see our Github repository – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
-## Generating logo PNGs
-
 <details id=“how-to-generate-logo-pngs”>
 <summary>How to generate logo PNGs</summary>
 <br>

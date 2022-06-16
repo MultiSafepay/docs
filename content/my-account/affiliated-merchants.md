@@ -4,10 +4,9 @@ category: 62962dcdbccb9a001d4bbc81
 order: 203
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
-slug: 'affiliates'
+slug: 'affiliated-merchants'
+excerpt: 'How partner account holders can manage the accounts of affiliated merchants.'
 ---
-This page describes how partner account holders can manage the accounts of affiliated merchants.
-
 # Creating affiliate accounts
 
 <details id=“how-to-create-affiliate-accounts”>
@@ -30,7 +29,7 @@ To create a new affiliate account in your dashboard, follow these steps:
 <summary>How to onboard affiliate accounts</summary>
 <br>
 
-All affiliates must [onboard](/onboarding-process/) and sign an agreement with MultiSafepay, containing general terms and conditions.
+All affiliates must [onboard](/onboarding/) and sign an agreement with MultiSafepay, containing general terms and conditions.
 
 You can also automate onboarding affiliates [via our API](/api-onboarding).
 
@@ -56,8 +55,8 @@ Here you can manage:
 - Registration data
 - Phone number, email address
 - Screening status and actions
-- Transactions, refunds, and balance
 - Technical integrations, reports, and other tools
+- Transactions, refunds, and balance
 
 </details>
 
