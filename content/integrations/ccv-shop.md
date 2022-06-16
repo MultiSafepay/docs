@@ -18,7 +18,7 @@ This technical manual is for installing and configuring MultiSafepay's free app 
 You will need a [MultiSafepay account](/getting-started-guide/).
 </details>
 
-# Installation and configuration
+# How to install and configure
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 

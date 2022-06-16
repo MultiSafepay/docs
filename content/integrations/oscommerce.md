@@ -96,7 +96,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-# Installation and configuration
+# How to install and configure
 
 :warning: We recommend first installing the plugin in a test environment, following the OsCommerce installation procedure. Always make a backup.
 

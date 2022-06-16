@@ -776,7 +776,7 @@ MultiSafepay supports most Magento functionalities. For any questions, email <in
 
 </details>
 
-# Installation
+# How to install
 
 These instructions are for SFTP upload. You can also install via .ZIP file upload in Connect.
 
@@ -789,7 +789,7 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 5. Add the content of the app, lib, and media folders to the existing folders with the same name.
 6. Sign out.
 
-# Configuration
+# How to configure
 1. Sign in to your Magento 1 backend.
 2. Go to **System** > **Configuration** > **MultiSafepay x.x.x** > **Connect settings**.  
     This page contains all main settings and is used for all gateways and gift cards.  

@@ -27,7 +27,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-# Installation
+# How to install
 
 :warning: We recommend first installing the plugin in a test environment, following the X-Cart installation procedure. Always make a backup.
 
@@ -36,7 +36,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 3. Go to **System tools** > **Cache management** > **Re-deploy the store**.
 4. Click **Start**.
 
-# Configuration
+# How to configure
 1. Sign in to your X-Cart backend.
 2. Go to **My Addons**, and search for **MultiSafepay**.
 3. Locate and enable **MultiSafepay Connect**. This is required to enter your API key in a later step.

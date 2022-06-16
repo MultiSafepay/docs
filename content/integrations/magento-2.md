@@ -63,7 +63,7 @@ The installation process is the same for the Adobe Commerce version.
 
 </details>
 
-# Installation
+# How to install
 
 **1.** We recommend installing the meta-package using Composer:
 
@@ -90,7 +90,7 @@ If you have enabled MSI in Magento 2, to disable the MultiSafepay CatalogInvento
 php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 ```
 
-# Configuration
+# How to configure
 1. Sign in to your Magento 2 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay**.  
 

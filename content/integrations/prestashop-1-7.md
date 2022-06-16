@@ -31,7 +31,7 @@ If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an o
 
 </details>
 
-# Installation
+# How to install
 
 :warning: We recommend first installing the plugin in a test environment, following the PrestaShop 1.7 installation procedure. Always make a backup.
 
@@ -40,7 +40,7 @@ If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an o
 3. Select the Plugin_PrestaShop.zip file, and then click **Configure**.
 4. Clear your cache.
 
-# Configuration
+# How to configure
 1. Sign in to your PrestaShop 1.7 backend.
 2. Go to **Improve** > **MultiSafepay**, and enter your [API key](/websites/#site-id-api-key-and-secure-code).
 3. On the **Payment methods** tab, enable the relevant payment methods.

@@ -21,7 +21,7 @@ You will need a [MultiSafepay account](/getting-started/).
 
 </details>
 
-# Installation
+# How to install
 
 To install or migrate, follow these steps:
 

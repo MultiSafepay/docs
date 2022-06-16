@@ -28,7 +28,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-# Installation
+# How to install
 
 :warning: We recommend first installing the plugin in a test environment, following the Odoo installation procedure. Always make a backup.
 
@@ -50,7 +50,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 8. Search for and open the MultiSafepay payments module `payment_multisafepay_official`.
 9. Click **Install**.
 
-# Configuration
+# How to configure
 1. Sign in to your Odoo backend. 
 2. Go to the **Invoicing** or **Website** menu > **Configuration** > **Payment acquirers**.
 3. Select **MultiSafepay** payment acquirer. 

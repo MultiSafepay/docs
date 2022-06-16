@@ -27,7 +27,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-# Installation
+# How to install
 
 :warning: We recommend first installing the plugin in a test environment, following the WooCommerce installation procedure. Always make a backup.
 
@@ -48,7 +48,7 @@ There are two ways to install the plugin:
 3. Search for **MultiSafepay**. 
 4. For the **MultiSafepay plugin for WooCommerce**, click the **Install now** button.
 
-## Configuration
+## How to configure
 1. Sign in to your WooCommerce backend.
 2. Go to **WooCommerce** > **MultiSafepay settings**
 3. On the **Account** tab, enter your [API key](/websites/#site-id-api-key-and-secure-code).

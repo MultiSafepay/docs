@@ -48,7 +48,7 @@ For how to set up each environment, see the example below.
 - Android version 4.4 or higher
 - Java or Kotlin
 
-### Installation
+### How to install
 
 1. Copy your [site API key](/websites/#site-id-api-key-and-secure-code) to get the SDK from our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-android-sdk).
 2. Add the msp-android-sdk-release.aar as an embedded framework into your project. 

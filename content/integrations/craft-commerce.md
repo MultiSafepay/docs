@@ -32,7 +32,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-# Installation
+# How to install
 
 These instructions are for installing the plugin via Composer. You can also install via the [Craft Plugin Store](https://plugins.craftcms.com/multisafepay).
 
@@ -45,7 +45,7 @@ composer require multisafepay/craft-commerce
 
 The latest stable release is downloaded and installed in your Craft Commerce webshop.
 
-# Configuration
+# How to configure
 1. Sign in to your Craft Commerce backend.
 2. To configure the plugin settings, go to **MultiSafepay** > **Settings**.  
 3. To add payment methods activated in your [MultiSafepay account](https://merchant.multisafepay.com) and configure gateways, go to **Commerce** > **System settings** > **Gateways**.  
