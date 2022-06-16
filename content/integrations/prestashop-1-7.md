@@ -270,9 +270,8 @@ If you notice errors in shopping cart calculations, email <integration@multisafe
 
 There are several [third-party add-ons](https://addons.prestashop.com/en/search?search_query=surcharge) available. However, we can't guarantee compatibility with our plugin. Make sure that you test them carefully before installing.
 
-**Attention Dutch merchants** 
-
-We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 </details>
 
