@@ -18,4 +18,4 @@ jobs:
         ref: 'readmedocs-staging'
     - uses: readmeio/rdme@7.2.0
       with:
-        rdme: rdme docs content --version=v1.0 --key=${{ secrets.README }}
+        rdme: docs content --version=v1.0 --key=${{ secrets.README }}
