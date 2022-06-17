@@ -1,5 +1,5 @@
 ---
-title: "Google Pay direct integration"
+title: "Google Pay integration"
 category: 6298bd782d1cf4006032e765
 order: 506
 hidden: false
@@ -10,30 +10,27 @@ With direct integration, the **Google Pay** button appears in your checkout page
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/google-pay-screen.png"  align ="center"/>
 
-:warning: By accessing or using the Google Pay API, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos).
-
 # Prerequisites
 
 - Google Pay must be [activated in your MultiSafepay account](/payment-methods/google-pay/activation/).
 - You need to register your business and website in [Google Pay's Business Console](https://pay.google.com/business/console/).
 - You must serve an HTTPS webpage with a TLS domain-validated certificate.
+- By accessing or using the Google Pay API, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos).
 
-<details id="supported-browsers">
-<summary>Supported browsers</summary>
-<br>
+    <details id="supported-browsers">
+    <summary>Supported browsers</summary>
+    <br>
 
-Customers can use the following supported web browsers: 
+    - Apple Safari
+    - Google Chrome
+    - Microsoft Edge
+    - Mozilla Firefox
+    - Opera
+    - UCWeb UC Browser
 
-- Apple Safari
-- Google Chrome
-- Microsoft Edge
-- Mozilla Firefox
-- Opera
-- UCWeb UC Browser
+    </details>
 
-</details>
-
-# Step 1: Initialize
+# 1. Initialize
 
 ## Add the Google Pay library
 
@@ -46,7 +43,7 @@ Add the Google Pay JavaScript library to the bottom of the `<body>` of your chec
   onload="onGooglePayLoaded()">
 </script>
 ```
-**Note**: The `onload` event handler is used to display the **Google Pay** button. For more information, see [Display the Google Pay button](/payment-methods/google-pay/direct/#display-the-google-pay-button).
+> **Note:** The `onload` event handler is used to display the **Google Pay** button. For more information, see [Display the Google Pay button](#display-the-google-pay-button).
 
 ## Place the Google Pay button
 
@@ -56,7 +53,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 <div id="button-container" style="width: 160px; height: 40px;"></div>
 ```
 
-**Note**: This element is populated in a later step. For more information, see [Display the Google Pay button](/payment-methods/google-pay/direct/#display-the-google-pay-button).
+> **Note**: This element is populated in a later step. For more information, see [Display the Google Pay button](#display-the-google-pay-button).
 
 ## Configure Google Pay
 
@@ -148,7 +145,7 @@ const paymentsClient =
 
 When you have finished testing, change the environment to `PRODUCTION`.
 
-# Step 2: Display the button
+# 2. Display the button
 
 ## Check for Google Pay support
 
@@ -161,21 +158,22 @@ When you have finished testing, change the environment to `PRODUCTION`.
 
 2. Create an event handler for when the Google Pay JavaScript library is loaded.
 
-  With the `isReadyToPay()` method, check if the Google Pay API is supported by the customer's device and browser:
-    ```
-    function onGooglePayLoaded() {
-        paymentsClient.isReadyToPay(IsReadyToPayRequest)
-            .then(function(response) {
-                if (response.result) {
-                    addGooglePayButton();
-                }
-            })
-            .catch(function(err) {
-                // Show error in developer console for debugging
-                console.error(err);
-            });
-    }
-    ```
+    With the `isReadyToPay()` method, check if the Google Pay API is supported by the customer's device and browser:
+    
+        ```
+        function onGooglePayLoaded() {
+            paymentsClient.isReadyToPay(IsReadyToPayRequest)
+                .then(function(response) {
+                    if (response.result) {
+                        addGooglePayButton();
+                    }
+                })
+                .catch(function(err) {
+                    // Show error in developer console for debugging
+                    console.error(err);
+                });
+        }
+        ```
 
 ## Display the Google Pay button
 
@@ -200,7 +198,7 @@ For infomation about styling your **Google Pay** button, see Google Pay:
 - [User experience best practices](https://developers.google.com/pay/api/web/guides/ux-best-practices)
 - [Brand guidelines](https://developers.google.com/pay/api/web/guides/brand-guidelines)
 
-# Step 3: Create a payment request
+# 3. Create a payment request
 
 Create a function that returns a `PaymentDataRequest` object:
 
@@ -247,7 +245,7 @@ To see your Google Pay merchant ID, sign in to your [Google Pay Business Console
 
 For more information about the `merchantInfo` object, see Google Pay&nbsp;–&nbsp;[Request object](https://developers.google.com/pay/api/web/reference/request-objects#MerchantInfo).
 
-# Step 4: Handle the interaction
+# 4. Handle the interaction
 
 1. Create an event handler for the **Google Pay** button:
 
@@ -278,13 +276,13 @@ For more information about the `merchantInfo` object, see Google Pay&nbsp;–&nb
 
     For more information about the `paymentData` object, see Google Pay – [Response objects](https://developers.google.com/pay/api/web/reference/response-objects#PaymentData).
 
-# Step 5: Create an order
+# 5. Create an order
 
 From your server, [create an order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. See also Examples > Google Pay direct.
 
 For the `gateway_info.payment_token`, use `PaymentData.PaymentMethodData.PaymentMethodTokenizationData.token`.
 
-# Step 6: Redirect the customer
+# 6. Redirect the customer
 
 In response to the API request you made in the previous step, you receive a `payment_url` (see API Reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. See also Examples > Google Pay direct).
 
@@ -303,7 +301,7 @@ If the customer's credit card was stored as:
 
 If 3D Secure authentication is required, the customer is automatically redirected to your success page after authentication.
 
-# Step 7: Test and go live
+# 7. Test and go live
 
 After you've implemented the steps above, to test your integration:
 
@@ -316,5 +314,8 @@ Then, when you're ready to go live:
 - Set the attributes of `merchantInfo` to your business name and Google Pay merchant ID.
 <br>
 
+---
+
 > 💬  Support
 > Email <integration@multisafepay.com>
+[Top of page](#)

@@ -32,7 +32,7 @@ You can process refunds:
 
 The refund becomes a new transaction, which you can find on the original **Transaction details** page under **Related transactions**.
 
-The status of the refund starts as **reserved**, and changes to **completed** at midnight. 
+The status of the refund starts as **reserved**, and changes to **Completed** at midnight. 
 
 </details>
 
@@ -72,7 +72,7 @@ To refund part of the amount:
 4. Click **Add**, and then check that the **New total** amount is correct. 
 5. To display a field to enter add any relevant comments, click **Description**.
 6. Click **Save item changes**.  
-  A new refund transaction is generated and the order status is **completed**.
+  A new refund transaction is generated and the order status is **Completed**.
 
 </details>
 <br>
@@ -155,12 +155,12 @@ You can process full refunds in your [MultiSafepay test dashboard](https://testm
 
 Partial refunds are not enabled by default. To enable this, email <integration@multisafepay.com>
 
-If you refund a payment in your MultiSafepay test dashboard, the [transaction status](/payment-statuses/) remains **reserved** or **initialized** until the refund is manually approved, since there is no settlement with a bank.
+If you refund a payment in your MultiSafepay test dashboard, the [transaction status](/payment-statuses/) remains **reserved** or **Initialized** until the refund is manually approved, since there is no settlement with a bank.
 
 Follow these steps:
 
 1. [Create an order](https://docs-api.multisafepay.com/reference/createorder). 
-2. Wait until the transaction status changes to **completed**.
+2. Wait until the transaction status changes to **Completed**.
 3. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 4. Under **Refund**, enter in the:
     - **Account holder name** field the account holder name of the account you want to refund to. 
@@ -169,11 +169,11 @@ Follow these steps:
     - **Reason/Description** field the reason for the refund. 
 5. Click **Continue**.
 6. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-    A new order is created for the refund, with status **reserved** or **initialized**.
+    A new order is created for the refund, with status **reserved** or **Initialized**.
 7. Under **Related transactions**, select the **ID** of the refund order.
 8. Under **Order summary**, click **Accept**.
 9. In the **Add transaction comment** field, add a comment, and then click **Add**.
-  The order status changes to **completed**.
+  The order status changes to **Completed**.
 
 **Supported payment methods**
 
@@ -190,11 +190,11 @@ Follow these steps:
 
 1. [Create an order](https://docs-api.multisafepay.com/reference/createorder). 
 2. Make a [refund](https://docs-api.multisafepay.com/reference/refundorder) API request.
-    A new order is created for the refund. The order status for the refund changes to **reserved** or **initialized**.
+    A new order is created for the refund. The order status for the refund changes to **reserved** or **Initialized**.
 3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.
-    The order status changes to **completed**.
+    The order status changes to **Completed**.
 
 **Supported payment methods**
 

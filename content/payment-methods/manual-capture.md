@@ -56,11 +56,7 @@ After expiration, the issuer can cancel the authorization.
 
 ## Statuses
 
-**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
-
-**Transaction status:** Changes as the funds progress towards settlement in your account balance
-
-| Action | Description | Order status | Transaction status |
+| Action | Description | Order | Transaction |
 |---|---|---|---|
 | Authorize transaction | The transaction is authorized and the funds reserved. | Completed   | Initialized  |
 | Partial capture | A partial amount is captured relating to a previous order ID. | Completed  | Completed |
@@ -71,5 +67,8 @@ After expiration, the issuer can cancel the authorization.
 | Full authorization expiry | The full authorized amount expired without being captured. | Void    | Void  |
 <br>
 
+---
+
 > 💬  Support
 > Email <support@multisafepay.com>
+[Top of page](#)

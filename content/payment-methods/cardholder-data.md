@@ -14,7 +14,7 @@ When you accept credit and debit card payments using a [payment page](/payment-p
 - Service code
 - Expiry date
 
-We bear the risk and responsibility for [PCI DSS compliance](/payment-regulations/pci-dss/). 
+We bear the risk and responsibility for [PCI DSS compliance](/pci-dss/). 
 
 Alternatively, you can collect cardholder data through other means. Because you will then handle sensitive data on your own server before sending it to MultiSafepay, you must also have PCI DSS certification. 
 
@@ -62,5 +62,8 @@ The table below sets out supported payment methods and their respective [3D Secu
 | Visa | Verified by Visa **and** non-3D Secure payments |
 <br>
 
+---
+
 > 💬  Support
 > Email <support@multisafepay.com>
+[Top of page](#)

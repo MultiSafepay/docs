@@ -57,7 +57,8 @@ Some payment methods you can activate yourself in your dashboard, but for some y
     - A specific site, go to **Website settings**, and click the relevant site.
 4. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+> 💬  Support
+> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
 
 </details>
 
