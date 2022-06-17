@@ -177,3 +177,4 @@ The payment page displays **all** payment methods activated for the relevant web
 
 > 💬  Support
 > Email <support@multisafepay.com>
+[Top of page](#)

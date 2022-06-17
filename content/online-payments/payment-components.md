@@ -54,3 +54,4 @@ You can embed a single or multiple payment methods in your checkout.
 
 > 💬  Support
 > Email <support@multisafepay.com>
+[Top of page](#)

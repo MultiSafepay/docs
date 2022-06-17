@@ -76,5 +76,8 @@ Once activated, an alert appears on your dashboard home page when you have unmat
 | Lump payment | Match the payment to multiple orders | Divide the payment across multiple orders and their status changes to **Completed**. <br> If there is any excess after all relevant orders are matched, you can refund, reserve, or keep the excess (see above). <br> If there are not enough funds for all relevant orders, you can make up the deficit from your account balance or create a new order for the outstanding amount (see above).| 
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

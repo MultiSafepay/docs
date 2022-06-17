@@ -12,9 +12,15 @@ API attribute: `status`
 - **Transaction status:** Changes as the funds progress towards settlement in your account balance.  
 API attribute: `financial_status`
 
-# How to view statuses
+<details id="how-to-view-statuses">
+<summary>How to view statuses</summary>
+<br>
 
-In your [MultiSafepay dashboard](https://merchant.multisafepay.com/), go to **Transaction overview**, and then select the relevant transaction to open the **Transaction details** page. Under **Status history**, you can see the statuses.
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
+2. Go to **Transaction overview**, and then select the relevant transaction to open the **Transaction details** page. 
+3. Under **Status history**, you can see the statuses.
+
+</details>
 
 # Status meanings
 
@@ -22,8 +28,8 @@ The meaning of statuses (or combinations of statuses) varies per payment method.
 
 The table below sets out possible order and transaction statuses and what they commonly mean.
 
-| Description | Order status | Transaction status |
-|---|---|--|
+| Description | Order | Transaction |
+|---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | The transaction has been cancelled. | Void | Cancelled |
@@ -35,7 +41,7 @@ The table below sets out possible order and transaction statuses and what they c
 
 ## Refunds and chargebacks
 
-| Description | Order status | Transaction status |
+| Description | Order | Transaction |
 |---|---|---|
 | Refund initiated.| Initialized/Reserved | Initialized/Reserved |
 | Refund/chargeback complete. | Completed | Completed |
@@ -55,3 +61,4 @@ If the status of the refund  is **reserved**, it may mean: 
 
 > 💬  Support
 > Email <support@multisafepay.com>
+[Top of page](#)

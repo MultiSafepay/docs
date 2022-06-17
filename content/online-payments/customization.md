@@ -71,3 +71,4 @@ The payment component now looks like this:
 
 > 💬  Support
 > Email <support@multisafepay.com>
+[Top of page](#)
