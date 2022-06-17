@@ -558,5 +558,8 @@ Including your logo in customer's online bank environments and applications can 
 </details>
 <br>
 
+---
+
 > 💬  Support
 > Email <support@multisafepay.com>
+[Top of page](#)

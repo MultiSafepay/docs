@@ -16,15 +16,16 @@ Customers enter the voucher code, without providing any personal payment details
 
 The card balance remains available for 12 months free of charge. After 12 months, customers are charged a monthly administration fee of 3 EUR, which is deducted from the balance.
 
-# Overview
+Read how Paysafecard can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/paysafecard)
 
-|   |   |
+| Overview | Details |
 |---|---|
+| **Chargebacks**  | No | 
 | **Countries**  | Worldwide – Go to [paysafecard.com](https://www.paysafecard.com/en-gb/), and click the globe icon in the banner.  | 
 | **Currencies**  | EUR, GBP, USD  | 
-| **Chargebacks**  | No | 
+| **Expiration** | Transactions expire after 3 hours. |
+| **Payment pages** | [Yes](/payment-pages/) (current version only) |
 | **Refunds** | Paid with Paysafecard only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with Paysafecard **and** another payment method: [Full refunds](/refunds/).  |
-| **Transactions expire after** | 3 hours |
 
 # Payment flow
 
@@ -49,39 +50,58 @@ sequenceDiagram
 
 # Payment statuses  
 
+- **Order status:** Changes as the customer's order with you progresses towards shipment 
+- **Transaction status:** Changes as the funds progress towards settlement in your account balance
+
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
-
-**Transaction status:** Changes as the funds progress towards settlement in your account balance
-
-For more information, see [Payment statuses](/payment-statuses/).
-
-| Description | Order status | Transaction status |
+| Description | Order | Transaction |
 |---|---|---|
-| **Payments** | | |
 | The customer has been redirected to Paysafecard. | Initialized | Initialized |
 | MultiSafepay has collected payment.| Completed | Completed |
 | The customer cancelled the transaction at Paysafecard. | Void   | Void   |
 | The customer didn't complete payment within 3 hours. | Expired | Expired |
-|**Refunds**|||
+
+</details>
+
+<details id="refund-statuses">
+<summary>Refund statuses</summary>
+<br>
+
+| Description | Order | Transaction |
+|---|---|---|
 | Refund initiated. | Initialized | Initialized |
 | Refund complete. | Completed | Completed |
 
 </details>
 
-# Activation and integration
+# Activation 
 
-| | |
+Paysafecard doesn't require activation. 
+
+To find outlets that sell Paysafecard, see: 
+
+- [Find sales outlets](https://www.paysafecard.com/en/find-sales-outlet-1/) 
+- [Verkooppunten zoeken](https://www.paysafecard.com/nl/verkooppunt-vinden-1/) 
+
+For any questions, email <sales@multisafepay.com>
+
+# Integration
+
+| Integration | Details |
 |---|---|
-| **Activation** | Paysafecard doesn't require activation. <br> Search for outlets that sell Paysafecard: <br> - [Find sales outlets](https://www.paysafecard.com/en/find-sales-outlet-1/) <br> - [Verkooppunten zoeken](https://www.paysafecard.com/nl/verkooppunt-vinden-1/) <br> For any questions, email <sales@multisafepay.com> |
-| **Checkout options** | [Payment pages](/payment-pages/) (current version only) |
-| **Testing** | You can’t test Paysafecard in your MultiSafepay test account. <br> You can only make test payments in your MultiSafepay live account. <br> For any questions, email <integration@multisafepay.com> |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Gift card redirect |
 | **Ready-made integrations** | Supported in [OsCommerce](/oscommerce/), [Magento 1](/magento-1/), [VirtueMart](/virtuemart/), [X-Cart](/x-cart/), [Zen Cart](/zen-cart/). |
 <br>
 
+> ℹ️ Testing
+> You can’t test Paysafecard in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account. 
+<br>
+
+---
+
 > 💬  Support
 > Email <support@multisafepay.com>
+[Top of page](#)

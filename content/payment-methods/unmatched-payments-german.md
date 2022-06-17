@@ -54,6 +54,10 @@ Um die Transaktion erneut zu erstellen, überprüfen Sie, ob ein [Zahlungslink](
 5. Klicken Sie auf **Bestätigen**, um die Transaktion in unserem System zu generieren. 
 
 **Bitte beachten:** Die Bestellnummer muss für jeden Zahlungslink einzigartig sein.
+<br>
+
+---
 
 > 💬  Support
-> Schicken Sie eine E-mail an unser Support-Team an <support@multisafepay.com>
+> E-mail <support@multisafepay.com>
+[Top of page](#)

@@ -293,5 +293,8 @@ Ask the cardholder if they want to try the transaction again.
 Email a request to accept non-3D Secure authenticated cards to <risk@multisafepay.com> 
 <br>
 
+---
+
 > 💬  Support
 > Email <support@multisafepay.com>
+[Top of page](#)

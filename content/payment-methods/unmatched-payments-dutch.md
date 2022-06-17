@@ -52,6 +52,10 @@ Om een transactie aan te maken kunt u gebruik maken van onze betaallinks ([payme
 5. Klik op **Bevestig** om de transactie aan te maken in ons systeem.
 
 **Opmerking:** Iedere betaallink heeft een uniek order ID nodig.
+<br>
 
-> 💬  Support
+---
+
+> 💬  Ondersteuning
 > Email <support@multisafepay.com>
+[Top of page](#)

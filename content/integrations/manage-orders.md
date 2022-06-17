@@ -96,7 +96,7 @@ If you receive an error in the response, see [Handling errors](/errors/handling-
 
 Otherwise, open the `payment_url` to complete the payment on the payment page. 
 
-For further details on how to test each payment method, see [Test payment details](/testing/test-payment-details/). If this is your first time, we recommend following the steps for [iDEAL](/testing/#details-ideal).
+For further details on how to test each payment method, see [Testing](/testing/test-payment-details/). If this is your first time, we recommend following the steps for [iDEAL](/testing/#details-ideal).
 
 # Get order details
 
