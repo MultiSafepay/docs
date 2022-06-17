@@ -11,18 +11,16 @@ slug: 'klarna'
 
 [Klarna](https://www.klarna.com/) is a flexible online payment method that lets customers pay now, in 30 days (Pay Later 30), or in 3 interest-free installments. It also offers financing. Customers are only charged for the items they keep from the order. Klarna bears the risk and guarantees settlement.
 
-See how Klarna can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/klarna).
+Read how Klarna can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/klarna)
 
-# Overview
-
-|   |   |
+| Overview | Details |
 |---|---|
+| **Chargebacks**  | No  | 
 | **Countries**  | Austria, Belgium, Denmark, Finland, France, Germany, Italy, Norway, Portugal, Spain, Sweden, Switzerland, The Netherlands, UK (US **not** supported)  | 
 | **Currencies**  | EUR, GBP, SEK, NOK, DKK  | 
-| **Chargebacks**  | No  | 
-| **Refunds** | [Full, partial, and API refunds](/refunds/), [discounts](/discounts/) |
-| **Transactions expire after** | 1 hour |
-| **Addresses** | The customer's billing and shipping addresses must be the **same**. | 
+| **Expiration** | Transactions expire after 1 hour. |
+| **Payment pages** | [Yes](/payment-pages/) (current version only) |
+| **Refunds** | [Yes](/refunds/): Full, partial, and API refunds, [discounts](/discounts/) |
 
 # Payment flow
 
@@ -56,19 +54,15 @@ sequenceDiagram
 
 # Payment statuses  
 
+- **Order status:** Changes as the customer's order with you progresses towards shipment 
+- **Transaction status:** Changes as the funds progress towards settlement in your account balance
+
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
-
-**Transaction status:** Changes as the funds progress towards settlement in your account balance
-
-For more information, see [Payment statuses](/payment-statuses/).
-
-| Description | Order status | Transaction status |
+| Description | Order | Transaction |
 |---|---|---|
-| **Payments** | | |
 | The customer has been redirected to Klarna. You can still cancel with Klarna using the reservation number. | Initialized   | Initialized  |
 | Klarna has authorized the transaction and the funds are awaiting capture. You can no longer cancel; you can only refund. | Completed  | Uncleared  |
 | **Important:** To capture the funds, [manually change the order status to shipped](#shipment). | Shipped | Uncleared |
@@ -76,26 +70,73 @@ For more information, see [Payment statuses](/payment-statuses/).
 | The transaction expired after 1 hour or you didn't [change the order status to shipped](#shipment) within 28 days. <br> See [Expired orders](#expired-orders).  | Expired    | Expired    |
 | Klarna authorized the transaction, but either you or the customer cancelled it before capture. | Void   | Void |
 | Klarna declined the transaction. <br> Only the customer can contact Klarna to find out why (for privacy and compliance reasons). <br> For merchant support, email <klarna@multisafepay.com> | Declined | Declined |
-|**Refunds**|||
+
+</details>
+
+<details id="refund-statuses">
+<summary>Refund statuses</summary>
+<br>
+
+| Description | Order | Transaction |
+|---|---|---|
 | Refund initiated. | Initialized | Completed |
 | Refund complete.  | Completed | Completed |
 
 </details>
 
-# Activation and integration
+# Activation 
 
-| | |
+How to activate with a Klarna:
+
+<details id="test-account"> 
+<summary>Test account</summary>
+<br>
+
+1. At [Klarna.com](https://www.klarna.com/nl/), sign up for a test account, selecting the **Playground** environment. 
+2. Under **Settings**, click **Generate new Klarna API credentials** to generate a user name and password.
+3. Email these credentials to <sales@multisafepay.com> 
+4. MultiSafepay connects to Klarna. 
+
+We recommend testing Klarna payments via the Klarna Portal to experience the full functionality. You can also test from your **test** MultiSafepay dashboard with more limited functionality.
+
+</details>
+
+<details id="live-account"> 
+<summary>Live account</summary>
+<br>
+
+1. Sign up for a live Klarna account:
+    - Via the Klarna website, selecting the **Production** environment, **or**  
+    - Email your Klarna account manager or <verkoop@klarna.com>
+2. Specify MultiSafepay as your payment service provider and the countries you want to activate Klarna for.
+3. Sign an agreement with Klarna, including pricing.
+4. We activate Klarna for your MultiSafepay account. 
+5. If using a ready-made integration, activate Klarna in your backend.
+
+For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
+
+For support, email <integration@multisafepay.com>
+</details>
+
+# Integration
+
+| Integration | Details |
 |---|---|
-| **Activation** | [Klarna activation](/payment-methods/#klarna) |
-| **Checkout options** | [Payment pages](/payment-pages/) (current version only) |
-| **Testing** | [Test payment details](/testing/#pay-later-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Klarna direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect). |
+<br>
+
+> ℹ️ Testing
+> To test Klarna payments, see [Testing](/testing/#pay-later-methods).
 <br>
 
 ---
 
 # User guide
+
+## Addresses
+
+The customer's billing and shipping addresses must be the **same**.
 
 ## Branding
 
@@ -132,7 +173,7 @@ Call Klarna on +31 208082853 or email Klarna Sales at <verkoop@klarna.com>
 
 ## Expired orders
 
-Orders may expire if you don't change the order status to **shipped** within 28 days. 
+Orders may expire if you don't change the order status to **Shipped** within 28 days. 
 
 <details id="how-to-handle-expired-orders"> 
 <summary>How to handle expired orders</summary>
@@ -264,9 +305,9 @@ Both reference numbers appear in the **Transaction details** page in your dashbo
 
 ## Shipment
 
-### Changing the order status
+### Change the order status
 
-When you ship the order, you **must** manually change the [order status](/payment-statuses/) from **completed** to **shipped**, which:
+When you ship the order, you **must** manually change the [order status](/payment-statuses/) from **Completed** to **Shipped**, which:
 
 - Captures the funds
 - Triggers sending the invoice to the customer
@@ -282,14 +323,14 @@ When you ship the order, you **must** manually change the [order status](/paymen
 2. Go to **Transactions** > **Transactions overview**.
 3. Search for the transaction, and click to open the **Transaction details** page. 
 4. Under **Order details**, click **Change order status**. 
-5. Change the status to **shipped**.
+5. Change the status to **Shipped**.
 6. Send the customer the track and trace details, if relevant.
 
 **In your backend**
 
 If you change the order status in your backend, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
 
-- Magento 2 and WooCommerce: When you set the order to **shipped** in your backend.
+- Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **delivered** in your backend.
 
 For other ready-made integrations, make an [update order](https://docs-api.multisafepay.com/reference/updateorder) API request.
@@ -298,7 +339,7 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 
 </details>
 
-### Extending the shipping period
+### Extend the shipping period
 
 If you cannot ship the order within 28 days, you can extend the time period for up to 180 days in segments.
 
@@ -323,5 +364,8 @@ We therefore strongly recommend **not** applying surcharges.
 For more information, see Klarna – [Welk bedrag kan ik maximaal doorberekenen aan mijn klant?](https://www.klarna.com/nl/zakelijk/webwinkelsupport/welk-bedrag-kan-ik-maximaal-doorberekenen-aan-mijn-klant/) 
 <br>
 
+---
+
 > 💬  Support
 > Email <support@multisafepay.com>
+[Top of page](#)

@@ -11,7 +11,7 @@ Zero Authorization is a MultiSafepay solution that lets you verify a credit card
 
 MultiSafepay stores the sensitive payment details as a non-sensitive token, and then checks if the card is legitimate. 
 
-You can then also use tokens for [Recurring payments](/recurring-payments).
+You can then also use tokens for [recurring payments](/recurring-payments).
 
 # Activation
 
@@ -29,5 +29,8 @@ Zero Authorization supports Maestro, Mastercard, and Visa, and is available in a
 **Via ready-made integrations:** Zero Authorization is not supported in our [ready-made integrations](/integrations/ready-made/) by default, but you can customize it via our API.
 <br>
 
+---
+
 > 💬  Support
 > Email <support@multisafepay.com>
+[Top of page](#)

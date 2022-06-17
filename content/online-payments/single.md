@@ -259,7 +259,7 @@ See API reference – [Create order](https://docs-api.multisafepay.com/reference
 
 # Step 4: Go live
 
-To test the payment method, use our [Test payment details](/testing/test-payment-details/).
+To test the payment method, use our [Testing](/testing/test-payment-details/).
 
 When you're ready to process real payments, make the following changes:
 

@@ -4,8 +4,8 @@ category: 6298bd782d1cf4006032e765
 order: 205
 hidden: false
 parentDoc: 62a727569e389a012f577acd
-excerpt: 'A pricing mode used by banks and card schemes.'
-slug: 'interchange'
+excerpt: 'A pricing model used by banks and card schemes.'
+slug: interchange
 ---
 
 Banks and card schemes all charge different fees to cover the operational costs of managing their network and processing credit card payments.
@@ -26,7 +26,7 @@ These costs vary considerably depending on a range of factors, including the:
 
 When you create a MultiSafepay account, we provide an estimate of these costs.
 
-# Specific transaction costs
+### Specific transaction costs
 
 The actual cost of a specific transaction is difficult to predict. Fees differ per transaction, based on factors such as the:
 
@@ -39,5 +39,9 @@ The actual cost of a specific transaction is difficult to predict. Fees differ p
 To ensure transparency, payment service providers can choose the Interchange++ pricing model, which breaks down the costs for each transaction. There are no preset prices, instead the fee is calculated based on the total cost of all transactions processed. 
 <br>
 
+---
+
 > 💬  Support
 > Email <support@multisafepay.com>
+[Top of page](#)
+[Top of page](#)

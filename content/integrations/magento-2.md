@@ -442,7 +442,7 @@ See [Setting order lifetimes](#order-lifetimes) above.
 
 ## Shipping orders
 
-When you ship [pay later](/pay-later/) orders, you need to change the order status from **completed** to **shipped**. This prevents the order expiring and triggers invoicing. 
+When you ship [pay later](/pay-later/) orders, you need to change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you do so in your Magento 2 backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
