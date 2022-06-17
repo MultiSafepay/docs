@@ -366,3 +366,4 @@ When you're ready to process real payments, make the following changes:
 
 > 💬  Support
 > Email <support@multisafepay.com>
+[Top of page](#)

@@ -80,3 +80,4 @@ To discount:
 
 > 💬  Support
 > Email <support@multisafepay.com>
+[Top of page](#)
