@@ -88,6 +88,8 @@ To change the order of payment methods in your checkout, follow these steps:
 > ⚠️ **Attention Dutch merchants** 
 > We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
+---
+
 > 💬  Support
 > For: 
 > - General information about the app, see Mijnwebwinkel - [MultiSafepay](https://www.mijnwebwinkel.nl/partner/multisafepay).

@@ -44,6 +44,8 @@ See MultiSafepay GitHub – [PWA Studio components](https://github.com/MultiSafe
 
 To install the MultiSafepay plugin in your PWA Studio application, see MultiSafepay GitHub – [Installation guide](https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration#installation-guide).
 
+---
+
 > 💬  Support
 > Contact MultiSafepay:
 > 

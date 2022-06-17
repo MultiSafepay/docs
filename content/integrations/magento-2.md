@@ -659,6 +659,8 @@ rm -rf Connect
 If you installed the plugin via the Magento Marketplace, go to **System** > **Web setup wizard** > **Extension manager** > **Update / uninstall**.
 </details>
 
+---
+
 > 💬  Support
 > Contact MultiSafepay:
 > 

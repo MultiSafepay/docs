@@ -51,6 +51,8 @@ You will need a [MultiSafepay account](/getting-started-guide/).
 5. If using a test account, select **Test mode**.
 6. Click **Save**.
 
+---
+
 > 💬  Support
 > For technical queries about the app, email myShop at <support@myshop.com>
 > To contact MultiSafepay, email <support@multisafepay.com>

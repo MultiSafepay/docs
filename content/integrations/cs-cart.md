@@ -106,6 +106,8 @@ You can update the plugin in your CS-Cart backend or the CMS marketplace, or via
 
 </details>
 
+---
+
 > 💬  Support
 > Contact MultiSafepay:
 > 

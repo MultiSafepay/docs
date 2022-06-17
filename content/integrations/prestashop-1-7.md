@@ -312,6 +312,8 @@ If upgrading from 5.x to a newer version, see [Updates](/prestashop-1-7/updates)
 
 </details>
 
+---
+
 > 💬  Support
 > Contact MultiSafepay:
 > 

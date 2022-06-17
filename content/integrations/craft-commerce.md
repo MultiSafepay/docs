@@ -117,6 +117,8 @@ To process refunds from the Craft Commerce admin panel:
 
 </details>
 
+---
+
 > 💬  Support
 > Contact MultiSafepay:
 > 

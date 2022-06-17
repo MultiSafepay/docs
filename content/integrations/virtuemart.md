@@ -110,6 +110,8 @@ You can update the plugin in your backend and the CMS marketplace, via SFTP.
 
 </details>
 
+---
+
 > 💬  Support
 > Contact MultiSafepay:
 > 
