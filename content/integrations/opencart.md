@@ -245,6 +245,8 @@ To update the plugin using the extension installer tool in your OpenCart backend
 
 </details>
 
+---
+
 > 💬  Support
 > Contact MultiSafepay:
 > 

@@ -129,6 +129,8 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 </details>
 
+---
+
 > 💬  Support
 > Contact MultiSafepay:
 > 

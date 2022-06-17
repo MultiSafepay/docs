@@ -63,6 +63,8 @@ This technical manual is for installing and configuring with MultiSafepay's free
 
 See MultiSafepay GitHub – [Installation guide](https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration).
 
+---
+
 > 💬  Support
 > Contact MultiSafepay:
 > 

@@ -57,7 +57,7 @@ ___
 ## Refunds
 
 You can process refunds from your MultiSafepay dashboard, but not in your backend.
-
+---
 > 💬  Support
 > For technical queries about the app, email CCV Shop at <support@ccvshop.nl>
 > To contact MultiSafepay, email <support@multisafepay.com>

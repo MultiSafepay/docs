@@ -403,6 +403,8 @@ For any questions about the app, email <integration@multisafepay.com>
 
 </details>
 
+---
+
 > 💬  Support
 > Contact MultiSafepay:
 > 

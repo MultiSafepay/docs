@@ -1008,6 +1008,8 @@ Magento 1 is end-of-life. If you are still running Magento 1, action is required
 
 For more information and instructions, see MultiSafepay blog – [Magento 1: The final weeks](https://bit.ly/2YX2LGL).
 
+---
+
 > 💬  Support
 > Contact MultiSafepay:
 > 

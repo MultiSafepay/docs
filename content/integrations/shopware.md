@@ -316,6 +316,8 @@ For questions, email <integration@multisafepay.com>
 
 </details>
 
+---
+
 > 💬  Support
 > Contact MultiSafepay:
 > 
