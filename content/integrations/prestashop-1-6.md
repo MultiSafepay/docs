@@ -9,7 +9,7 @@ slug: 'prestashop-1-6'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.7.1.zip" target="_blank"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.7.1.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <details id="changelog">
 <summary>Changelog</summary>
