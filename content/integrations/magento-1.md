@@ -9,6 +9,8 @@ slug: 'magento-1'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.1.3.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+
 <details id="changelog">
 <summary>Changelog</summary>
 <br>
@@ -757,8 +759,6 @@ Release date: Jan 12, 2011
 
 ___
 </details>
-
-> [Download](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.1.3.zip) :arrow-down:
 
 :warning: Magento 1 is end-of-life. We recommend [upgrading as soon as possible](/magento-1/#upgrading).
 

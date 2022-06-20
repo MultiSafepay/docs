@@ -15,8 +15,7 @@ Check out our integrations built and managed by external developer communities:
 
 ORRTIZ.COM provides a MultiSafepay plugin for Apache OFBiz.
 
-[View on GitHub](https://github.com/ORRTIZ/omultisafepay).
-
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/ORRTIZ/omultisafepay" target="_blank"><span>View on GitHub</span></a>
 ___
 
 # nopCommerce
@@ -25,7 +24,7 @@ ___
 
 Yidna provides a MultiSafepay extension for nopCommerce.
 
-[View in store](https://www.nopcommerce.com/en/multisafepay-payment-plugin).
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://www.nopcommerce.com/en/multisafepay-payment-plugin" target="_blank"><span>View in store</span></a>
 
 ___
 
@@ -34,7 +33,7 @@ ___
 
 The League of Extraordinary Packages provides a MultiSafepay driver for the Omnipay PHP payment processing library.
 
-[View on GitHub](https://github.com/thephpleague/omnipay-multisafepay).
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/thephpleague/omnipay-multisafepay" target="_blank"><span>View on GitHub</span></a>
 
 ___
 
@@ -44,7 +43,7 @@ ___
 
 Casper provides a MultiSafepay extension for OroCommerce.
 
-[View in store](https://extensions.oroinc.com/orocommerce/extension/multisafepay-bundle/#description).
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://extensions.oroinc.com/orocommerce/extension/multisafepay-bundle/#description" target="_blank"><span>View in store</span></a>
 
 ___
 
@@ -54,7 +53,7 @@ ___
 
 BitBag provides a MultiSafepay plugin for Sylius.
 
-[View on GitHub](https://github.com/BitBagCommerce/SyliusMultiSafepayPlugin).
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/BitBagCommerce/SyliusMultiSafepayPlugin" target="_blank"><span>View on GitHub</span></a>
 
 ___
 

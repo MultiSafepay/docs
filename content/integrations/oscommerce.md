@@ -9,6 +9,14 @@ slug: 'oscommerce'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/OsCommerce.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
+<div style="display: flex; flex-wrap: wrap;">
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/OsCommerce/archive/3.0.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/OsCommerce" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+
+</div>
+
 <details id="changelog">
 <summary>Changelog</summary>
 <br>
@@ -77,10 +85,6 @@ Release date: Mar 28, 2014
 
 ---
 </details>
-
-> [Source code](https://github.com/MultiSafepay/OsCommerce) :link:
-
-> [Download](https://github.com/MultiSafepay/OsCommerce/archive/3.0.0.zip) :arrow-down:
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with OsCommerce.
 

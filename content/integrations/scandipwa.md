@@ -9,9 +9,13 @@ slug: 'scandipwa'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/ScandiPWA.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [Source code](https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration) :link:
+<div style="display: flex; flex-wrap: wrap;">
 
-> [Download](https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration.git) :arrow-down:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration.git" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+
+</div>
 
 This technical manual is for installing and configuring with MultiSafepay's free plugin for integrating with ScandiPWA.
 

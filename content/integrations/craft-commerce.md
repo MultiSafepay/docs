@@ -9,9 +9,13 @@ slug: 'craft-commerce'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Craft_Commerce.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [Changelog](https://github.com/MultiSafepay/craft-commerce/blob/master/CHANGELOG.md) :link:
+<div style="display: flex; flex-wrap: wrap;">
 
-> [Source code](https://github.com/MultiSafepay/craft-commerce) :link:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/craft-commerce" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/craft-commerce/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+
+</div>
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for Craft Commerce 3.
 
