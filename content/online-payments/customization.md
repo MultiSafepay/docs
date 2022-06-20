@@ -1,5 +1,5 @@
 ---
-title : 'Payment component customization'
+title: 'Payment component customization'
 category: 6278c92bf4ad4a00361431b0
 order: 303
 hidden: false

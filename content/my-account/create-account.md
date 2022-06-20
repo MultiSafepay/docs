@@ -72,5 +72,5 @@ A test account lets you process test payments and gives access to all features. 
 In collaboration with your current PSP, we can securely transfer tokenized credit card details. This is especially useful if you process [recurring payments](/recurring-payments/) or want to offer existing customers the option of reusing their credit card details.
 <br>
 
-> 📘 **More info**
+> 💬  Support
 > For more information or support, email <sales@multisafepay.com>

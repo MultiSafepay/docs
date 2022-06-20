@@ -1,5 +1,5 @@
 ---
-title : "Onboarding affiliates via API"
+title: "Onboarding affiliates via API"
 category: 62962dcdbccb9a001d4bbc81
 parentDoc: 62a2055be5b9db006a2545a7
 order: 302
@@ -58,7 +58,7 @@ The API returns an API key for the website.
 After submitting this information, MultiSafepay screens the merchant accounts, bank accounts, UBO details, and websites. Once approved, the merchants can use their API key to start processing payments.
 <br>
 
-> 📘 **More info**
+> 💬  Support
 > For more information, see [Onboarding](/onboarding/).
 > 
 > For support, email <support@multisafepay.com>

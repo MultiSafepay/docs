@@ -224,5 +224,5 @@ To test, follow these steps:
   The transaction is completed.
 <br>
 
-> 📘 **More info**
+> 💬  Support
 > For more information or support, email <integration@multisafepay.com>

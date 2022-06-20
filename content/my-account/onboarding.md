@@ -190,7 +190,7 @@ If financials are requested, we request your most recent balance sheet, and prof
 
 <br>
 
-> 📘 **More info**
+> 💬  Support
 > For more information or support, email <risk@multisafepay.com>
 
 > ❕ **Disclaimer** 

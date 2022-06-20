@@ -1,5 +1,5 @@
 ---
-title : "Card errors"
+title: "Card errors"
 category: 6298bd782d1cf4006032e765
 order: 202
 hidden: false
@@ -293,5 +293,5 @@ Ask the cardholder if they want to try the transaction again.
 Email a request to accept non-3D Secure authenticated cards to <risk@multisafepay.com> 
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

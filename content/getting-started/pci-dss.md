@@ -1,5 +1,5 @@
 ---
-title : "PCI DSS"
+title: "PCI DSS"
 category: 627bbcf80c1c9c0050320b60
 order: 202
 hidden: false
@@ -26,5 +26,5 @@ If you accept card payments, you must include the following information on your 
 In accordance with our PCI DSS certification and other obligations, we regularly perform security checks on our system. This includes penetration tests, which are a form of ethical hacking that simulate a cyberattack to identify and fix vulnerabilities.
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

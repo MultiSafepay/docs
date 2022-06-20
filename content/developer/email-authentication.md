@@ -1,5 +1,5 @@
 ---
-title : "Email authentication"
+title: "Email authentication"
 category: 62962df622e99600810c117d
 order: 60
 hidden: false

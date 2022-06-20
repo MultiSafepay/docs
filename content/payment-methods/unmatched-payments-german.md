@@ -1,5 +1,5 @@
 ---
-title : 'Verbinden von unzugeordneten Banküberweisungen'
+title: 'Verbinden von unzugeordneten Banküberweisungen'
 category: 6298bd782d1cf4006032e765
 order: 104
 hidden: true
@@ -55,5 +55,5 @@ Um die Transaktion erneut zu erstellen, überprüfen Sie, ob ein [Zahlungslink](
 
 **Bitte beachten:** Die Bestellnummer muss für jeden Zahlungslink einzigartig sein.
 
-> 📘 **Support**
+> 💬  Support
 > Schicken Sie eine E-mail an unser Support-Team an <support@multisafepay.com>

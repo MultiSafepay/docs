@@ -1,5 +1,5 @@
 ---
-title : "Accountant export"
+title: "Accountant export"
 category: 62962dee7af1c800355771a1
 order: 101
 hidden: false
@@ -176,5 +176,5 @@ To include them, in your dashboard or [backend](/glossaries/multisafepay-glossar
 
 </details >
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

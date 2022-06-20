@@ -1,5 +1,5 @@
 ---
-title : "Payouts"
+title: "Payouts"
 category: 62962dcdbccb9a001d4bbc81
 order: 209
 hidden: false
@@ -180,5 +180,5 @@ To check why we have deactivated payouts for your account, email <risk@multisafe
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

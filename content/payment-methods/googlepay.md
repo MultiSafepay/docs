@@ -107,5 +107,5 @@ For more information, see [Payment statuses](/payment-statuses/).
 - To easily integrate Google Pay using MultiSafepay payment pages, see [Google Pay™ redirect integration](https://docs-api.multisafepay.com/reference/createorder).
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

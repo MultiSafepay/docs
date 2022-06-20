@@ -101,5 +101,5 @@ A dialog requesting a 6-digit token appears.
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

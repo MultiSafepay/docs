@@ -1,5 +1,5 @@
 ---
-title : "Shopware"
+title: "Shopware"
 category: 62962dd7e272a6002ebbbbc5
 order: 106
 hidden: false

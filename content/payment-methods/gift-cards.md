@@ -155,5 +155,5 @@ This is because pay later methods collect and require precise order specificatio
 You are solely responsible for this in your integration.
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

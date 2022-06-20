@@ -76,5 +76,3 @@ ___
 Go wrapper for MultiSafepay's REST API developed by kurt-stolle.
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/kurt-stolle/go-multisafepay" target="_blank"><span>View on GitHub</span></a>
-
-___

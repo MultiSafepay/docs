@@ -104,5 +104,5 @@ The report does **not** include:
 
 </details >
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

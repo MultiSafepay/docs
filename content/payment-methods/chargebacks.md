@@ -1,5 +1,5 @@
 ---
-title : 'Chargebacks'
+title: 'Chargebacks'
 category: 6298bd782d1cf4006032e765
 order: 204
 hidden: false
@@ -558,5 +558,5 @@ Including your logo in customer's online bank environments and applications can 
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

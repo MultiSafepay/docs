@@ -1,5 +1,5 @@
 ---
-title : "Ecwid"
+title: "Ecwid"
 category: 62962dd7e272a6002ebbbbc5
 order: 203
 hidden: false
