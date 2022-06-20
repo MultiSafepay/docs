@@ -4,6 +4,7 @@ category: 62962dee7af1c800355771a1
 order: 101
 hidden: false
 parentDoc: 629f40b87c755200870646a0
+slug: 'accountant-export'
 ---
 
 The accountant export lists all successful incoming and outgoing transactions, including the amount, payment method, and current [transaction status](/about-payments/multisafepay-statuses/).

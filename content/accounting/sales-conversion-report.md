@@ -4,6 +4,7 @@ category: 62962dee7af1c800355771a1
 order: 104
 hidden: false
 parentDoc: 629f40b87c755200870646a0
+slug: 'sales-conversion-reports'
 ---
 
 The sales and conversion reports help you find out:

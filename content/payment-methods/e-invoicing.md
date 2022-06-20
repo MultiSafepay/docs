@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 303
 hidden: false
 parentDoc: 62a727567164d301522a67da
-slug: e-invoicing
+slug: 'e-invoicing'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/e-invoicing.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>

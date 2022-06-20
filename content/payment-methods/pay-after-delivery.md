@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 306
 hidden: false
 parentDoc: 62a727567164d301522a67da
-slug: pay-after-delivery
+slug: 'pay-after-delivery'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Pay_After_Delivery.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>

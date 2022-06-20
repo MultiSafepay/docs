@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 501
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
-slug: alipay
+slug: 'alipay'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Alipay.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>

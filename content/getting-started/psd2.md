@@ -4,7 +4,7 @@ category: 627bbcf80c1c9c0050320b60
 order: 203
 hidden: false
 parentDoc: 62a087abb10eb40052c9fd04
-slug: psd2
+slug: 'psd2'
 ---
 
 The Payment Services Directive 2 (PSD2) is a set of laws and regulations established by the [European Banking Authority (EBA)](https://eba.europa.eu) that aim to improve consumer rights and security, while also promoting competition within the financial industry.

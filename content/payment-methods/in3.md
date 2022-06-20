@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 304
 hidden: false
 parentDoc: 62a727567164d301522a67da
-slug: in3
+slug: 'in3'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/in3.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>

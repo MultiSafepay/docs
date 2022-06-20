@@ -4,7 +4,7 @@ category: 62962dcdbccb9a001d4bbc81
 order: 208
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
-slug: payment-methods
+slug: 'payment-methods'
 excerpt: 'Activate payment methods for your account.'
 ---
 Some payment methods you can activate yourself in your dashboard, but for some you need to apply to MultiSafepay first. Other methods with specific requirements follow their own activation flow.  

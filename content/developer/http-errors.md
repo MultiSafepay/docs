@@ -3,6 +3,7 @@ title: 'HTTP errors'
 category: 62962df622e99600810c117d
 order: 30
 hidden: false
+slug: 'http-errors'
 ---
 > 📘 About HTTP status codes
 > 

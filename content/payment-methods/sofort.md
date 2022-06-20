@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 114
 hidden: false
 parentDoc: 62a728d48b97080046c1d220
-slug: sofort
+slug: 'sofort'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/SOFORT.svg" width="80" align="right" style="margin: 20px; max-height: 75px"/>

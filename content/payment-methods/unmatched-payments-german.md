@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 104
 hidden: true
 parentDoc: 62a728d48b97080046c1d220
-slug: unzugeordneten-banküberweisungen
+slug: 'unzugeordneten-banküberweisungen'
 ---
 
 Wenn MultiSafepay eine Banküberweisung von Kund:innen erhält, verbinden wir diese aufgrund der angegebenen Zahlungsdetails automatisch mit der entsprechenden Transaktion in unserem System. 

@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 204
 hidden: false
 parentDoc: 62a727569e389a012f577acd
-slug: chargebacks
+slug: 'chargebacks'
 ---
 
 Chargebacks arise when a cardholder disagrees with or doesn't recognize a transaction charged to their credit card, and requests the issuer to reverse it. The card scheme notifies MultiSafepay and reclaims the transaction amount from you.
