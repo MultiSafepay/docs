@@ -13,6 +13,6 @@ You can import MultiSafepay [accountant export](/accounting/reports/accountant-e
 
 For import instructions, see King Business Software – [Service](https://service.king.eu).
 
-> 📘 **Support**
+> 💬  Support
 > Email <support@multisafepay.com>
 

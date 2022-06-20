@@ -71,5 +71,5 @@ After expiration, the issuer can cancel the authorization.
 | Full authorization expiry | The full authorized amount expired without being captured. | Void    | Void  |
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> Email <support@multisafepay.com>

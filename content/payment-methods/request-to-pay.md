@@ -13,7 +13,7 @@ Request to Pay is a Deutsche Bank payment method based on the PSD2 Open Banking 
 
 The funds are transferred directly to your business bank account, instead of your account balance, which simplifies reconciliation.
 
-> 🚧 Availability
+> ⚠️ Availability
 > Request to Pay is currently not available to new merchants. It is still supported for existing merchants. 
 
 # Overview
@@ -93,5 +93,5 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Ready-made integrations** | **Not** supported in our [ready-made integrations](/integrations/ready-made/). |
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> Email <support@multisafepay.com>

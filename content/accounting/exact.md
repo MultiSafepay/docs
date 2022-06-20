@@ -160,5 +160,5 @@ For more information, see xCore – [Afletteren 2.0 Exact Online with MultiSafep
 
 For more information, see xCore – [Afletteren MultiSafepay met Exact Globe](https://xcore.nl/afletteren-exact-globe-multisafepay/).
 
-> 📘 **Support**
+> 💬  Support
 > Email <support@multisafepay.com>

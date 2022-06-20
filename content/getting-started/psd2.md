@@ -1,5 +1,5 @@
 ---
-title : "PSD2"
+title: "PSD2"
 category: 627bbcf80c1c9c0050320b60
 order: 203
 hidden: false
@@ -26,7 +26,7 @@ Something a customer:
 If transactions aren't appropriately authenticated, banks may have to decline them.
 <br>
 
-> 📘 **More info**
+> 💬  Support
 > See also [3DS2 and SCA exemptions](/3ds2/).
 >
-> For more information or support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

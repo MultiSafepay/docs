@@ -1,5 +1,5 @@
 ---
-title : "WooCommerce"
+title: "WooCommerce"
 category: 62962dd7e272a6002ebbbbc5
 order: 107
 hidden: false

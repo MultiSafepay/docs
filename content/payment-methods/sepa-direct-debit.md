@@ -172,5 +172,5 @@ To reduce the chances of this happening, we strongly recomend:
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> Email <support@multisafepay.com>

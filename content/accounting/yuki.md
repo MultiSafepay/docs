@@ -67,5 +67,5 @@ Provide Duopact with your MultiSafepay [site API key](/websites/#site-id-api-key
 
 </details>
 
-> 📘 **Support**
+> 💬  Support
 > Email <support@multisafepay.com>

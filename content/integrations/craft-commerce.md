@@ -1,5 +1,5 @@
 ---
-title : "Craft Commerce"
+title: "Craft Commerce"
 category: 62962dd7e272a6002ebbbbc5
 order: 108
 hidden: false

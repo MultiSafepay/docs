@@ -231,5 +231,5 @@ Search for outlets that sell Paysafecard:
 
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> Email <support@multisafepay.com>

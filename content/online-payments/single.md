@@ -1,5 +1,5 @@
 ---
-title : "Single payment method"
+title: "Single payment method"
 category: 6278c92bf4ad4a00361431b0
 order: 301
 hidden: false

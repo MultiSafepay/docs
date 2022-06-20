@@ -1,5 +1,5 @@
 ---
-title : 'MOTO'
+title: 'MOTO'
 category: 6298bd782d1cf4006032e765
 order: 207
 hidden: false
@@ -62,5 +62,5 @@ In the `gateway_info` object, include the `moto` parameter.
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> Email <support@multisafepay.com>

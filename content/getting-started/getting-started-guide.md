@@ -60,6 +60,6 @@ We then perform [know your customer (KYC) checks](/account/kyc/). If approved, y
 :blue-book: **Full guidance:** [Onboarding](/onboarding/)
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> Email <support@multisafepay.com>
 

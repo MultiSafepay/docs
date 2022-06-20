@@ -1,16 +1,16 @@
 ---
-title : "Google Analytics"
+title: "Google Analytics"
 category: 62962df622e99600810c117d
 order: 50
 hidden: false
 ---
-## Tracking payment pages
+# Tracking payment pages
 
 You can gain insight into customer behavior on [payment pages](/payment-pages/) through Google Analytics tracking.
 
 When the customer reaches the payment page, the UA-code is generated and appears in the HTML.
 
-## Excluding referrals in Google Analytics
+# Excluding referrals in Google Analytics
 For redirect payment methods where customers are directed to a third-party site to complete payment and then back to your website, Google Analytics doesn't correctly track these visits to your website, e.g.:
 
 - Gateway: Source (instead of your website) 
@@ -22,7 +22,7 @@ For example, a customer selects iDEAL (redirect) and then specifies their bank. 
 
 This makes Google Analytics reports unreliable, and they don't accurately capture conversion rates. There are two ways to mitigate this.
 
-### Referral exclusion list
+## Referral exclusion list
 
 To prevent third-party shopping carts initiating new sessions, you can exclude referral domains. 
 
@@ -79,7 +79,7 @@ sofort.com
 verifiedbyvisa.comdirect.de
 ```
 
-### utm_nooverride=1 parameter
+## utm_nooverride=1 parameter
 
 Add the utm_nooverride=1 parameter to your payment gateway success pages. 
 

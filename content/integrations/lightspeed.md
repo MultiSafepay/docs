@@ -1,5 +1,5 @@
 ---
-title : "Lightspeed"
+title: "Lightspeed"
 category: 62962dd7e272a6002ebbbbc5
 order: 101
 hidden: false

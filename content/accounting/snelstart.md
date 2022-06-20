@@ -23,5 +23,5 @@ To add MultiSafepay [payment links](/payments/checkout/payment-link/) to SnelSta
 - [Shopify](https://www.snelkoppeling.eu/shopify)
 - [Woocommerce](https://www.snelkoppeling.eu/woocommerce)
 
-> 📘 **Support**
+> 💬  Support
 > Email <support@multisafepay.com>

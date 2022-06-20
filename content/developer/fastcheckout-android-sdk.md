@@ -1,5 +1,5 @@
 ---
-title : "FastCheckout Android SDK"
+title: "FastCheckout Android SDK"
 category: 62962df622e99600810c117d
 order: 70
 hidden: true

@@ -1,5 +1,5 @@
 ---
-title : "IBANs"
+title: "IBANs"
 category: 62962dcdbccb9a001d4bbc81
 order: 205
 hidden: false
@@ -23,5 +23,5 @@ To unmask IBANs for a specific website, follow these steps:
 When unmasked, the full IBAN is displayed, e.g. `NL87ABNA0000001234`.
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> Email <support@multisafepay.com>

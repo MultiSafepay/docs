@@ -29,5 +29,5 @@ Zero Authorization supports Maestro, Mastercard, and Visa, and is available in a
 **Via ready-made integrations:** Zero Authorization is not supported in our [ready-made integrations](/integrations/ready-made/) by default, but you can customize it via our API.
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> Email <support@multisafepay.com>

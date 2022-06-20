@@ -24,8 +24,8 @@ Orders can be linked to multiple **transactions**. A transaction represents an i
 
 The most common operation to perform with our API is creating an order. To specify which payment flow the customer experiences for that order, set the order `type` to `direct` or `redirect`.
 
-|  |  |  |
-|---|---|---|
+|  |  |
+|---|---|
 | **Direct** | The customer selects their payment method in your embedded checkout. | 
 | **Redirect** | The customer is redirected first to a [payment page](/payment-pages/) to select their payment method. | 
 

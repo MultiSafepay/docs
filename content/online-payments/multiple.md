@@ -1,5 +1,5 @@
 ---
-title : "Multiple payment methods"
+title: "Multiple payment methods"
 category: 6278c92bf4ad4a00361431b0
 order: 302
 hidden: false
