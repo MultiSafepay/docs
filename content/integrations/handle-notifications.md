@@ -182,4 +182,5 @@ ___
 
 <br>
 
-:tada: Congratulations! You've successfully created an order, configured your webhook endpoint, and set up your web server to handle notifications.
+> ✅  Congratulations!
+> You've successfully created an order, configured your webhook endpoint, and set up your web server to handle notifications.

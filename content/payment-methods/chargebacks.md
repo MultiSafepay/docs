@@ -559,4 +559,4 @@ Including your logo in customer's online bank environments and applications can 
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

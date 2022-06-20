@@ -102,4 +102,4 @@ To display WeChat Pay QR codes, you can use:
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

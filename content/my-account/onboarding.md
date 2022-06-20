@@ -191,7 +191,7 @@ If financials are requested, we request your most recent balance sheet, and prof
 <br>
 
 > 💬  Support
-> For more information or support, email <risk@multisafepay.com>
+> Email <risk@multisafepay.com>
 
 > ❕ **Disclaimer** 
 > The information on this website is intended for informational purposes. No rights can be derived from this information. 

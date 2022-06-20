@@ -24,4 +24,4 @@ When unmasked, the full IBAN is displayed, e.g. `NL87ABNA0000001234`.
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

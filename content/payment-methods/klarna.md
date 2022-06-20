@@ -324,4 +324,4 @@ For more information, see Klarna – [Welk bedrag kan ik maximaal doorberekenen 
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

@@ -129,4 +129,4 @@ To display your header or logo on the PayPal checkout page, follow these steps:
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

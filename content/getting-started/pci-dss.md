@@ -27,4 +27,4 @@ In accordance with our PCI DSS certification and other obligations, we regularly
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

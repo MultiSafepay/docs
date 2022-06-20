@@ -317,4 +317,4 @@ Then, when you're ready to go live:
 <br>
 
 > 💬  Support
-> For more information or support, email <integration@multisafepay.com>
+> Email <integration@multisafepay.com>

@@ -177,4 +177,4 @@ To include them, in your dashboard or [backend](/glossaries/multisafepay-glossar
 </details >
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

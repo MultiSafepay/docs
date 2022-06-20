@@ -156,4 +156,4 @@ You are solely responsible for this in your integration.
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

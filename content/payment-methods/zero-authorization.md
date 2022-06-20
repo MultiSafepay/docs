@@ -30,4 +30,4 @@ Zero Authorization supports Maestro, Mastercard, and Visa, and is available in a
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

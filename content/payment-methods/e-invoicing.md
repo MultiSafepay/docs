@@ -185,4 +185,4 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

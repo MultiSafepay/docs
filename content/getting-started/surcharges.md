@@ -50,7 +50,7 @@ Surcharges are permitted for:
 
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>
 <br>
 
 > ❕ **Disclaimer** 

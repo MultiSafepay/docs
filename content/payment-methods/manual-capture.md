@@ -72,4 +72,4 @@ After expiration, the issuer can cancel the authorization.
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

@@ -102,4 +102,4 @@ A dialog requesting a 6-digit token appears.
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

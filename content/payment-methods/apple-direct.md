@@ -225,4 +225,4 @@ To test, follow these steps:
 <br>
 
 > 💬  Support
-> For more information or support, email <integration@multisafepay.com>
+> Email <integration@multisafepay.com>

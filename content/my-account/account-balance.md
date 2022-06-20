@@ -58,4 +58,4 @@ To activate this feature in your daily balance report, email a request to <sales
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

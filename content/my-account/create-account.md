@@ -73,4 +73,4 @@ In collaboration with your current PSP, we can securely transfer tokenized credi
 <br>
 
 > 💬  Support
-> For more information or support, email <sales@multisafepay.com>
+> Email <sales@multisafepay.com>

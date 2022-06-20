@@ -90,4 +90,4 @@ If you do not specify an email address, we use the main business email address p
 <br>
 
 > 💬  Support
-> For more information or support, email <invoice@multisafepay.com>
+> Email <invoice@multisafepay.com>

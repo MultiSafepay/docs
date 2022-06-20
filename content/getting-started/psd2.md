@@ -29,4 +29,4 @@ If transactions aren't appropriately authenticated, banks may have to decline th
 > 💬  Support
 > See also [3DS2 and SCA exemptions](/3ds2/).
 >
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

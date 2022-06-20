@@ -162,4 +162,4 @@ Check if the transaction amount is noticeably higher or lower than average. Are 
 > 💬  Support
 > See also [Viewing your uncleared balance](/account/balance/#viewing-your-uncleared-balance).
 >
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

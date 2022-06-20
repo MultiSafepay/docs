@@ -226,5 +226,5 @@ To change how bank transfers are validated, check whether this is possible in yo
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>
 

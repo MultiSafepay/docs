@@ -14,4 +14,4 @@ You can import MultiSafepay [accountant export](/accounting/reports/accountant-e
 For import instructions, see Unit4 – [Support](https://accountancygemak.nl/support/).
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

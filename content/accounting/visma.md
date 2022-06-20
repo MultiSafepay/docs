@@ -14,4 +14,4 @@ You can import MultiSafepay [accountant export](/accounting/reports/accountant-e
 For import instructions, see Visma – [Contact](https://nl.visma.com/accountview-support/contact).
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

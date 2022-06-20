@@ -232,4 +232,4 @@ Search for outlets that sell Paysafecard:
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>
