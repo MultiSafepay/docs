@@ -6,30 +6,55 @@ name: Create mermaid diagrams
 on:
 
 # Run on pushes to master (includes merged PRs into master and direct pushes)
-  # push:
-    # branches: [ master ]
+  push:
+    branches: [ master, readmedocs-staging ]
 
   # Enable manual triggers (for testing)
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    runs-on: ubuntu-latest 
+    name: Create diagram SVGs
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: ${{ github.head_ref }}
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v23
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: List all changed files
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "$file" 
+          done
+
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with: 
+          node-version: 16
+
+      - name: Generate diagrams
+        run: |
+          npm install @mermaid-js/mermaid-cli
+
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            filename=$(basename "$file")
+            fname="${filename%.*}"
+            ext="${filename##*.}"
+            echo "file: $file ; filename: $filename ; fname: $fname ; ext: $ext"
+
+            if [ "$ext" = "mmd" ]
+            then
+              echo "$file with extension .mmd has changed"
+              npx mmdc -i $file -o static/diagrams/svg/${fname}.svg --configFile static/diagrams/config.json
+            fi
+          done
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Generate mermaid diagrams
+          file_pattern: static/diagrams/svg/*
