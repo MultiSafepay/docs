@@ -187,8 +187,10 @@ MultiSafepay can help you manage your email communications with customers. Use o
     </details>
 
 9. Click **Save**.
-
 <br>
 
-> 📘 **More info**
-> For more information or support, email <integration@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

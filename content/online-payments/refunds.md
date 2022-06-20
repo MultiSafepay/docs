@@ -93,21 +93,13 @@ Make sure you have a PHP interpreter installed.
 
 For instructions and to download, see MultiSafepay GitHub – [Refund script](https://github.com/MultiSafepay/refund-script).
 
-Provide your [site API key](/account/websites/#viewing-the-site-id-api-key-and-secure-code) and a .csv file specifying the order ID, amount, and a description of all the transactions in the batch.
+Provide your [site API key](/websites#site-id-api-key-and-security-code) and a .csv file specifying the order ID, amount, and a description of all the transactions in the batch.
 
 </details>
 
 ## Cancellation
 
-<details id="how-to-cancel-refunds">
-<summary>How to cancel refunds</summary>
-<br>
-
-- You can cancel a refund via MultiSafepay while the status is **Initialized** or **Reserved**, which is until midnight on the day the refund was initiated. 
-- At midnight, the transaction is passed to the customer's bank to process. 
-- Then the status changes to **Completed** and you can no longer cancel it via MultiSafepay.
-
-</details>
+You can cancel a refund via MultiSafepay while the status is **Initialized** or **Reserved**, which is until midnight on the day the refund was initiated. At midnight, the transaction is passed to the customer's bank to process. Then the status changes to **Completed** and you can no longer cancel it via MultiSafepay.
 
 ## Live refunds
 
@@ -232,5 +224,8 @@ There is a limit on how long after payment was completed that you can refund via
 
 <br>
 
-> 📘 **More info**
-> For more information or support, email <integration@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

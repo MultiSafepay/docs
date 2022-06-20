@@ -1,12 +1,12 @@
 ---
-title : 'Previous payment component release integration manual'
+title : 'Previous release'
 category: 6278c92bf4ad4a00361431b0
 order: 304
 hidden: false
 slug: 'payment-component-previous-release'
 parentDoc: 62a848399bb3eb004023f291 
+excerpt: 'Technical manual for integrating the previous release of the payment component.'
 --- 
-This manual is for integrating the previous release of the payment component. 
 
 # Step 1: Add the elements
 
@@ -208,5 +208,8 @@ When you're ready to process real payments, make the following changes:
     `https://api.multisafepay.com/v1/json/orders`
 <br>
 
-> 📘 **More info**
-> For more information or support, email <integration@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)
