@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 parentDoc: 62a728d48b97080046c1d220
 order: 102
 hidden: false
-slug: bank-transfer
+slug: 'bank-transfer'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/banktransfer-en.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>

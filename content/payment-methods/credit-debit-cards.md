@@ -3,7 +3,7 @@ title: 'Credit and debit cards'
 category: 6298bd782d1cf4006032e765
 order: 200
 hidden: false
-slug: cards
+slug: 'cards'
 --- 
 <details id="about-credit-and-debit-cards">
 <summary>About credit and debit cards</summary>

@@ -3,6 +3,7 @@ title: 'iFrames'
 category: 62962df622e99600810c117d
 order: 40
 hidden: false
+slug: 'iframes'
 ---
  
 An inline frame, or `<iframe>`, is an HTML document embedded inside another HTML document on a [website](/glossaries/multisafepay-glossary/#website). 

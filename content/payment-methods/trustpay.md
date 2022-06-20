@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 116
 hidden: false
 parentDoc: 62a728d48b97080046c1d220
-slug: trustpay
+slug: 'trustpay'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/TrustPay.svg" width="60" align="right" style="margin: 20px; max-height: 75px"/>

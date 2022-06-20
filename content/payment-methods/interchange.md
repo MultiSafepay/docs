@@ -5,7 +5,7 @@ order: 205
 hidden: false
 parentDoc: 62a727569e389a012f577acd
 excerpt: 'A pricing mode used by banks and card schemes.'
-slug: interchange
+slug: 'interchange'
 ---
 
 Banks and card schemes all charge different fees to cover the operational costs of managing their network and processing credit card payments.

@@ -5,7 +5,7 @@ order: 208
 hidden: false
 parentDoc: 62a727569e389a012f577acd
 excerpt: Capture or decline potentially fraudulent card payments.
-slug: uncaptured
+slug: 'uncaptured'
 ---
 
 To help reduce the risks associated with accepting credit cards, MultiSafepay's automated fraud filter reviews all card payments.

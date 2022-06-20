@@ -4,7 +4,7 @@ category: 627bbcf80c1c9c0050320b60
 order: 202
 hidden: false
 parentDoc: 62a087abb10eb40052c9fd04
-slug: pci-dss
+slug: 'pci-dss'
 ---
 
 The Payment Card Industry Data Security Standard (PCI DSS) is an information security standard mandated by major card schemes, which applies to organizations that handle branded credit cards. The standard is administered by the Payment Card Industry Security Standards Council.

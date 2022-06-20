@@ -3,7 +3,7 @@ title: "Glossary"
 category: 627bbcf80c1c9c0050320b60
 order: 200
 hidden: false
-slug: glossary
+slug: 'glossary'
 ---
 #### account balance
 The balance of funds held in a MultiSafepay account.
