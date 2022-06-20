@@ -1,11 +1,11 @@
 ---
-title: 'Handling cardholder data'
+title: 'Cardholder data'
 category: 6298bd782d1cf4006032e765
-order: 202
+order: 203
 hidden: false
 parentDoc: 62a727569e389a012f577acd
 excerpt: Handle sensitive cardholder data on your PCI DSS compliant server.
-slug: handling-cardholder-data
+slug: cardholder-data
 ---
 When you accept credit and debit card payments using a [payment page](/payment-pages/) or [payment component](/payment-components/), MultiSafepay handles the sensitive cardholder data, including:
 
@@ -36,10 +36,22 @@ Specify in your request:
 
 See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Card order.
 Set `type` to `direct`.
+<br>
 
-#### Supported payment methods 
+---
 
-The table below sets out supported payment methods and their respective [3D Secure](/cards/3ds2/) authentication requirements:
+# User guide
+
+## Maintenance
+
+You must provide us with your:
+
+- Attestation of Compliance each year
+- Approved Scanning Vendor reports every 3 months
+
+## Payment methods 
+
+The table below sets out supported payment methods and their respective [3D Secure](/3ds2/) authentication requirements:
 
 | Card | Authentication protocol |
 |---|---|
@@ -48,13 +60,6 @@ The table below sets out supported payment methods and their respective [3D Secu
 | Maestro | 3D Secure only |
 | Mastercard | Mastercard SecureCode **and** non-3D Secure payments |
 | Visa | Verified by Visa **and** non-3D Secure payments |
-
-# Maintenance
-
-You must provide us with your:
-
-- Attestation of Compliance each year
-- Approved Scanning Vendor reports every 3 months
 <br>
 
 > 📘 **More info**

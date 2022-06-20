@@ -1,13 +1,15 @@
 ---
-title : "Magento 1 plugin"
+title : "Magento 1"
 category: 62962dd7e272a6002ebbbbc5
 order: 111
 hidden: false
-parentDoc: 62a1d773f96fe80056354d84
+parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with Magento 1."
 slug: 'magento-1'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.1.3.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <details id="changelog">
 <summary>Changelog</summary>
@@ -758,8 +760,6 @@ Release date: Jan 12, 2011
 ___
 </details>
 
-> [Download](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.1.3.zip) :arrow-down:
-
 :warning: Magento 1 is end-of-life. We recommend [upgrading as soon as possible](/magento-1/#upgrading).
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Magento 1.
@@ -776,22 +776,7 @@ MultiSafepay supports most Magento functionalities. For any questions, email <in
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-- [Magento Slack channel](https://magentocommeng.slack.com) #multisafepay-payments
-
-Our Magento 1 plugin is professionally supported by a certified Magento 1 Solution Specialist and receives regular updates to support the latest features provided by Magento and MultiSafepay.
-
-</details>
-
-# Installation
+# How to install
 
 These instructions are for SFTP upload. You can also install via .ZIP file upload in Connect.
 
@@ -804,11 +789,11 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 5. Add the content of the app, lib, and media folders to the existing folders with the same name.
 6. Sign out.
 
-# Configuration
+# How to configure
 1. Sign in to your Magento 1 backend.
 2. Go to **System** > **Configuration** > **MultiSafepay x.x.x** > **Connect settings**.  
     This page contains all main settings and is used for all gateways and gift cards.  
-    To find your API key, see [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).  
+    To find your API key, see [API key](/websites/#site-id-api-key-and-secure-code).  
     From version 3.0.0, the plugin only needs your API key. Your account ID, site ID, and site secure code are no longer needed.
 3. To configure your selected payment methods, go to **System** > **Configuration** > **MultiSafepay x.x.x**:
     - **Connect MultiSafepay gateways**  
@@ -999,9 +984,8 @@ You can:
 
 </details>
 
- **Attention Dutch merchants**
- 
- We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 
@@ -1023,3 +1007,12 @@ You can update the plugin in your Magento 1 backend or the CMS marketplace, or v
 Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1. 
 
 For more information and instructions, see MultiSafepay blog – [Magento 1: The final weeks](https://bit.ly/2YX2LGL).
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

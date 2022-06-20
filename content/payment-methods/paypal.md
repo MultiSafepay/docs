@@ -1,11 +1,14 @@
 ---
 title: 'PayPal'
 category: 6298bd782d1cf4006032e765
-order: 504
+order: 507
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: paypal
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/PayPal.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+
 [PayPal](https://www.paypal.com/nl/home) is a leading global payment method that lets customers pay by credit card or create a digital wallet linked to multiple payment methods.
 
 See how PayPal can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/paypal).
@@ -16,8 +19,8 @@ See how PayPal can [benefit your business](https://www.multisafepay.com/solution
 |---|---|
 | **Countries**  | Worldwide  | 
 | **Currencies**  | [Multiple](https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/) | 
-| **Chargebacks**  |  [Yes](/payments/chargebacks/)  |
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) (see guidance below) | 
+| **Chargebacks**  |  [Yes](/chargebacks/)  |
+| **Refunds** | [Full and partial](/refunds/) (see guidance below) | 
 | **Supports** | [Second Chance](/second-chance/) |
 | **Transactions expire after**  | 14 days | 
 
@@ -55,7 +58,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -79,9 +82,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [PayPal activation](/payments/activating-payment-methods/#paypal) |
-| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/) versions) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#wallets) |
+| **Activation** | [PayPal activation](/payment-methods/#paypal) |
+| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) (current and deprecated versions) |
+| **Testing** | [Test payment details](/testing/#wallets) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > PayPal direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) |
 <br>

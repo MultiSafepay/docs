@@ -1,19 +1,23 @@
 ---
-title : "X-Cart plugin"
+title : "X-Cart"
 category: 62962dd7e272a6002ebbbbc5
 order: 119
 hidden: false
-parentDoc: 62a1d773f96fe80056354d84
+parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with X-Cart."
 slug: 'x-cart'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/X-Cart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [Changelog](https://github.com/MultiSafepay/X-Cart/blob/master/CHANGELOG.md) :link:
+<div style="display: flex; flex-wrap: wrap;">
 
-> [View source code](https://github.com/MultiSafepay/X-Cart) :link:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/X-Cart/releases/download/2.3.0/Plugin_X-Cart_2.3.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
-> [Download](https://github.com/MultiSafepay/X-Cart/releases/download/2.3.0/Plugin_X-Cart_2.3.0.zip) :arrow-down:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/X-Cart" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/X-Cart/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+
+</div>
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with X-Cart.
 
@@ -27,19 +31,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation
+# How to install
 
 :warning: We recommend first installing the plugin in a test environment, following the X-Cart installation procedure. Always make a backup.
 
@@ -48,7 +40,7 @@ Contact us:
 3. Go to **System tools** > **Cache management** > **Re-deploy the store**.
 4. Click **Start**.
 
-# Configuration
+# How to configure
 1. Sign in to your X-Cart backend.
 2. Go to **My Addons**, and search for **MultiSafepay**.
 3. Locate and enable **MultiSafepay Connect**. This is required to enter your API key in a later step.
@@ -57,7 +49,7 @@ Contact us:
 6. Locate and activate your enabled payment methods.
 7. For **MultiSafepay Connect**, click **Configure**.
 8. For **Account type**, you have two options: **Live** and **Test**.  
-9. Enter your account ID, [site ID, secure code, and API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).  
+9. Enter your account ID, [site ID, secure code, and API key](/websites/#site-id-api-key-and-secure-code).  
 Make sure you enter the correct API key for the account type you want to use. 
 10. Click **Save changes**.  
 
@@ -113,3 +105,12 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 2. Follow the Installation and configuration instructions from step 1.
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

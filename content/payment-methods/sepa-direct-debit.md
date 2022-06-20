@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a728d48b97080046c1d220
 slug: sepa-direct-debit
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/directdebit-en.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
+
 SEPA Direct Debit is a European banking payment method where customers authorize automatic one-off or recurring debits directly from their bank account. It is available in 36 countries and supports Sofort and iDEAL.
 
 See how SEPA Direct Debit can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/direct-debit).
@@ -17,9 +20,8 @@ See how SEPA Direct Debit can [benefit your business](https://www.multisafepay.c
 | **Countries**  | [SEPA region](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf)  | 
 | **Currencies**  | EUR | 
 | **Chargebacks**  | [Yes](/chargebacks/) (see below) | 
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds)  |
-| **Supports** | [Recurring payments](/recurring-payments/), [Second Chance](/second-chance/) <br> [Virtual IBANs](/payments/virtual-ibans/) to better manage SEPA Direct Debit payments | 
-
+| **Refunds** | [Full and partial](/refunds/)  |
+| **Supports** | [Recurring payments](/recurring-payments/), [Second Chance](/second-chance/) <br> [Virtual IBANs](/virtual-ibans/) to better manage SEPA Direct Debit payments | 
 
 # Payment flow
 
@@ -45,7 +47,6 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-<br>  
 
 # Payment statuses   
 
@@ -55,7 +56,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -85,9 +86,9 @@ MultiSafepay creates e-mandates automatically based on the customer's IBAN and y
 
 | | |
 |---|---|
-| **Activation** | [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) |
-| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/))  |
-| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
+| **Activation** | [Apply to MultiSafepay](/payment-methods/#apply-to-multisafepay) |
+| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) (current and deprecated versions)  |
+| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > SEPA Direct Debit direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct) |
 <br>
@@ -143,7 +144,7 @@ If the IBAN or BIC is incorrect, our bank informs us the next business day.
 |RR04|Regulatory reason| Contact your bank. |
 |SL01|Specific service offered by debtor agent| Contact the debtor. |
 |TM01|File received after cut-off time| |
-
+<br>
 For more information in:
 
 - English, see European Payments Council – [Guidance on reason codes](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2019-05/EPC173-14%20v5.0%20Guidance%20on%20Reason%20Codes%20for%20SDD%20R-transactions.pdf). 

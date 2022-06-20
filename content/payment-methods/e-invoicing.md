@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a727567164d301522a67da
 slug: e-invoicing
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/e-invoicing.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
+
 E-Invoicing is a MultiSafepay pay later method with automation tools that gives you full control of credit management, the payment process, and customer communications.
 
 See how E-Invoicing can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/e-invoicing).
@@ -51,8 +54,7 @@ sequenceDiagram
     MF->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
-{{< /mermaid >}}
-<br>  
+{{< /mermaid >}} 
 
 # Payment statuses  
 
@@ -62,7 +64,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -86,10 +88,10 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
+| **Activation** | [Enable in your dashboard](/payment-methods/#enable-in-dashboard) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > E-Invoicing direct/redirect |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current and deprecated versions) |
+| **Testing** | [Test payment details](/testing/#pay-later-methods) |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct).  |
 <br>
 

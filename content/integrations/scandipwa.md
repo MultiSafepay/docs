@@ -1,17 +1,21 @@
 ---
-title: "ScandiPWA plugin"
+title: "ScandiPWA"
 category: 62962dd7e272a6002ebbbbc5
 order: 116
 hidden: false
-parentDoc: 62a1d773f96fe80056354d84
+parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with ScandiPWA on Magento 2."
 slug: 'scandipwa'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/ScandiPWA.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [View source code](https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration) :link:
+<div style="display: flex; flex-wrap: wrap;">
 
-> [Download](https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration.git) :arrow-down:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration.git" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+
+</div>
 
 This technical manual is for installing and configuring with MultiSafepay's free plugin for integrating with ScandiPWA.
 
@@ -22,19 +26,6 @@ This technical manual is for installing and configuring with MultiSafepay's free
 - You will need a [MultiSafepay account](https://testmerchant.multisafepay.com/signup).
 - To support GraphQL queries, install the [MultiSafepay Magento 2 GraphQL](https://github.com/MultiSafepay/magento2-graphql) plugin.
 - You must also meet ScandiPWA and Magento requirements. See ScandiPWA – [Prerequisites](https://docs.scandipwa.com/getting-started/getting-started/magento-integration#prerequisites).
-
-</details>
-
-<details id="support">
-<summary>Support</summary>
-<br>
-
-To report a bug or suggest an improvement, create an issue in our GitHub repository. 
-
-For support:
-
-- Email <integration@multisafepay.com>
-- Post in the Magento Slack channel [#multisafepay-payments](https://magentocommeng.slack.com/messages/multisafepay-payments/)
 
 </details>
 
@@ -72,6 +63,16 @@ For support:
 
 </details>
 
-# Installation and configuration
+# How to install and configure
 
 See MultiSafepay GitHub – [Installation guide](https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration).
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue
+> - Post in the Magento Slack channel [#multisafepay-payments](https://magentocommeng.slack.com/messages/multisafepay-payments/)

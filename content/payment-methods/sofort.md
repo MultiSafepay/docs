@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a728d48b97080046c1d220
 slug: sofort
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/SOFORT.svg" width="80" align="right" style="margin: 20px; max-height: 75px"/>
+
 [Sofort](https://www.klarna.com/pay-now/) is a banking payment method by Klarna. It integrates directly with the customer's bank like a direct bank transfer. The customer verifies the payment, which reduces the risks associated with traditional transfers. 
 Once payment is completed, the customer cannot reverse it and Sofort guarantees settlement.
 
@@ -18,7 +21,7 @@ See how Sofort can [benefit your business](https://www.multisafepay.com/solution
 | **Countries**  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland <br> :warning: Transactions processed in non-supported countries return a [1024 error](/errors/handling-errors/#error-1024-transaction-refused).  | 
 | **Currencies**  | EUR (GBP, CHF, PLN **not** supported) | 
 | **Chargebacks**  | No | 
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds)  |
+| **Refunds** | [Full and partial](/refunds/)  |
 | **Supports** | [Recurring payments](/recurring-payments/), [Second Chance](/second-chance/) |
 | **Transactions expire after** | 1 day |
 | **Minimum amount** | 0,10 EUR |
@@ -49,7 +52,6 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-<br>  
 
 # Payment statuses  
 
@@ -59,7 +61,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -84,9 +86,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
+| **Activation** | [Enable in your dashboard](/payment-methods/#enable-in-dashboard) |
+| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) (current version only) |
+| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Sofort direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
 <br>

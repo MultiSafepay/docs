@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a728d48b97080046c1d220
 slug: eps
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/EPS.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+
 EPS is a widely accepted inter-bank payment method that links all major Austrian retail banks. 
 Customers pay in their own online banking environment. Settlement is instant and guaranteed.
 
@@ -18,7 +21,7 @@ See how EPS can [benefit your business](https://www.multisafepay.com/solutions/p
 | **Countries**  | Austria  | 
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No  | 
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) |
+| **Refunds** | [Full and partial](/refunds/) |
 | **Supports** | [Second Chance](/second-chance/) |
 | **Transactions expire after** | Doesn't apply |
 
@@ -42,7 +45,6 @@ sequenceDiagram
     Mu->>Me: Settles funds
 
 {{< /mermaid >}}
-<br>  
 
 # Payment statuses  
 
@@ -52,7 +54,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -72,9 +74,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
+| **Activation** | [Enable in your dashboard](/payment-methods/#enable-in-dashboard) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current version only) |
+| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > EPS redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
 <br>

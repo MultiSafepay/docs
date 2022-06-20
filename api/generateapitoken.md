@@ -6,7 +6,7 @@ slug: generateapitoken
 
 ## How to test
 
-1. Under **Authentication** > **Query**, enter an [API key](https://docs.multisafepay.com/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code) from your **TEST** account.
+1. Under **Authentication** > **Query**, enter an [API key](/websites#site-id-api-key-and-security-code) from your **TEST** account.
 2. Click **Try it!**
 
 :warning: Never use a live API key!

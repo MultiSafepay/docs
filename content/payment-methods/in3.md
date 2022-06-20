@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a727567164d301522a67da
 slug: in3
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/in3.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
+
 [in3](https://payin3.eu/en/) is a Dutch online payment method where customers pay in 3 installments after receiving their order, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 processes all the installments and guarantees settlement after receiving the first one.
 
 See how in3 can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/in3).
@@ -52,7 +55,6 @@ sequenceDiagram
     C->>I: Pays 2nd instalment within 30 days, and 3rd within 60 days 
 
 {{< /mermaid >}}
-<br>  
 
 # Payment statuses  
 
@@ -62,7 +64,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -87,11 +89,11 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Appy to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
+| **Activation** | [Appy to MultiSafepay](/payment-methods/#apply-to-multisafepay) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current version only) |
+| **Testing** | [Test payment details](/testing/#pay-later-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > in3 direct/redirect |
-| **Ready-made integrations** | in3 (direct) is supported in [Craft Commerce](/craft-commerce/), [Magento 1](/magento-1/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop-1-7/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/). |
+| **Ready-made integrations** | in3 (direct) is supported in [Craft Commerce](/craft-commerce/), [Magento 1](/magento-1/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/). |
 <br>
 
 ---
@@ -143,7 +145,6 @@ Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcha
 We therefore strongly recommend **not** applying surcharges. 
 
 For more information, email <sales@multisafepay.com> 
-
 <br>
 
 > 📘 **More info**

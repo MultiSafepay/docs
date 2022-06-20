@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a32bf042021c00e1cd7e5c
 slug: edenred
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/edenred.svg" width="80" align="right" style="margin: 20px 20px 20px 30px; max-height: 75px"/>
+
 [Edenred](https://www.edenred.be/nl) lets employers provide their employees with a prepaid card loaded with Edenred vouchers:  
 
 - Ticket Restaurant
@@ -51,7 +54,6 @@ sequenceDiagram
     E->>Me: Settles funds
 
 {{< /mermaid >}}
-<br>  
 
 # Payment statuses  
 
@@ -61,7 +63,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -76,9 +78,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Edenred activation](/payments/activating-payment-methods/#edenred) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
+| **Activation** | [Edenred activation](/payment-methods/#edenred) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current and deprecated versions) |
+| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Edenred redirect <br> By default, all activated Edenred vouchers display at checkout, but you can also specify which Edenred vouchers to display per transaction. |
 | **Ready-made integrations** | Only supported in our [Magento 2](/magento-2/) integration. |
 <br>

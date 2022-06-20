@@ -1,9 +1,9 @@
 ---
-title : "Drupal plugins"
+title : "Drupal"
 category: 62962dd7e272a6002ebbbbc5
 order: 110
 hidden: false
-parentDoc: 62a1d773f96fe80056354d84
+parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Free plugins to integrate MultiSafepay payment solutions with Drupal 7, 8 & 9."
 slug: 'drupal'
 ---
@@ -11,11 +11,15 @@ slug: 'drupal'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Drupal_8.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [Changelog](https://github.com/MultiSafepay/drupal-commerce-2/blob/master/CHANGELOG.md) :link:
+<div style="display: flex; flex-wrap: wrap;">
 
-> [View source code](https://github.com/MultiSafepay/drupal-commerce-2/) :link:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/drupal-commerce-2/releases/download/3.0.0/commerce_multisafepay_payments-3.0.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
-> [Download](https://github.com/MultiSafepay/drupal-commerce-2/releases/download/3.0.0/commerce_multisafepay_payments-3.0.0.zip) :arrow-down:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/drupal-commerce-2/" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/drupal-commerce-2/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+
+</div>
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for Drupal 8 & 9. 
 
@@ -30,23 +34,9 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
+> Drupal no longer provides support for Drupal 8.9.x.
 
-Drupal no longer provides support for Drupal 8.9.x.
-
-For how to upgrade to Drupal 9, see Drupal - [Upgrading from Drupal 8 to Drupal 9 or higher](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher).
-
-Contact MultiSafepay:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-## Installation
+## How to install
 
 These instructions are for Composer. You can also install the plugin in your backend. 
 
@@ -58,10 +48,10 @@ To install the latest stable version of the Drupal Commerce 2.x plugin, run the 
 composer require drupal/commerce_multisafepay_payments
 ```
 
-## Configuration  
+## How to configure  
 1. Sign in to your Drupal backend.
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
-3. Enter your [account ID, site ID, and site API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code). 
+3. Enter your [account ID, site ID, and site API key](/websites/#site-id-api-key-and-secure-code). 
 4. Go to **Commerce** > **Configuration** > **Payments** > **Payment gateways**.
 5. Configure the options for all supported payment methods activated in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 
@@ -144,11 +134,15 @@ For how to upgrade Drupal 8 to Drupal 9, see Drupal - [Upgrading from Drupal 8 t
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Drupal_7.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [Changelog](https://github.com/MultiSafepay/Drupal-Commerce/blob/master/CHANGELOG.md) :link:
+<div style="display: flex; flex-wrap: wrap;">
 
-> [View source code](https://github.com/MultiSafepay/Drupal-Commerce) :link:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/Drupal-Commerce/releases/download/2.2.0/Plugin_Drupal_2.2.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
-> [Download](https://github.com/MultiSafepay/Drupal-Commerce/releases/download/2.2.0/Plugin_Drupal_2.2.0.zip) :arrow-down:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/Drupal-Commerce" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/Drupal-Commerce/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+
+</div>
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for Drupal 7.
 
@@ -162,19 +156,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-## Installation and configuration
+## How to install and configure
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
@@ -236,3 +218,12 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 2. Follow the Installation and configuration instructions from step 2.
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

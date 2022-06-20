@@ -1,11 +1,14 @@
 ---
 title: 'WeChat Pay'
 category: 6298bd782d1cf4006032e765
-order: 505
+order: 508
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
-slug: wechat-pay
+slug: 'wechat-pay'
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/wechat.svg" width="110" align="right" style="margin: 20px; max-height: 75px"/>
+
 [WeChat Pay](https://pay.weixin.qq.com/index.php/public/wechatpay) is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online and QR payments.
 
 See how WeChat Pay can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/wechat-pay).
@@ -17,7 +20,7 @@ See how WeChat Pay can [benefit your business](https://www.multisafepay.com/solu
 | **Countries**  | Worldwide  | 
 | **Currencies**  | EUR – To request support for more currencies, email <sales@multisafepay.com> | 
 | **Chargebacks**  | No | 
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) | 
+| **Refunds** | [Full and partial](/refunds/) | 
 | **Transactions expire after**  | 2 hours | 
 
 # Payment flow
@@ -53,7 +56,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -74,11 +77,11 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#wallets) |
+| **Activation** | [Apply to MultiSafepay](/payment-methods/#apply-to-multisafepay) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current version only) |
+| **Testing** | [Test payment details](/testing/#wallets) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > WeChat Pay direct/redirect |
-| **Ready-made integrations** | Supported in our [PrestaShop 1.7 plugin](/prestashop-1-7/). |
+| **Ready-made integrations** | Supported in our [PrestaShop 1.7 plugin](/prestashop/). |
 <br>
 
 ---

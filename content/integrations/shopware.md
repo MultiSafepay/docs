@@ -3,7 +3,7 @@ title : "Shopware"
 category: 62962dd7e272a6002ebbbbc5
 order: 106
 hidden: false
-parentDoc: 62a1d773f96fe80056354d84
+parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Free plugins to integrate MultiSafepay payment solutions with Shopware."
 slug: 'shopware'
 ---
@@ -12,11 +12,15 @@ slug: 'shopware'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Shopware_6.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [Changelog](https://github.com/MultiSafepay/shopware6/blob/master/CHANGELOG.md) :link:
+<div style="display: flex; flex-wrap: wrap;">
 
-> [View source code](https://github.com/MultiSafepay/shopware6/) :link:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/shopware6/releases/download/2.5.3/Plugin_Shopware6_2.5.3.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
-> [Download](https://github.com/MultiSafepay/shopware6/releases/download/2.5.3/Plugin_Shopware6_2.5.3.zip) :arrow-down:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/shopware6/" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/shopware6/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+
+</div>
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Shopware 6.
 
@@ -30,23 +34,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-- Join the official [Shopware 6 Slack channel](https://join.slack.com/t/shopwarenederland/shared_invite/zt-61exftia-TFYlw5LzmIBnz7Epq07goQ) 
-- Join the private MultiSafepays [Shopware 6 Slack channel](https://shopwarenederland.slack.com/archives/G0146NKFJTT)
-
-For support for Shopware 6 Professional/Enterprise, email <sales@multisafepay.com>
-
-</details>
-
-## Installation and configuration
+## How to install and configure
 
 :warning: We recommend first installing the plugin in a test environment, following the Shopware 6 installation procedure. Always make a backup.
 
@@ -59,7 +47,7 @@ For support for Shopware 6 Professional/Enterprise, email <sales@multisafepay.co
 7. When the plugin appears, make sure the **Activated** button is toggled.
 8. Click the **...** (more) button, and then select **Config**.
 9. In the drop-down menu, select **Test**.
-10. In the **API key** field, enter your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+10. In the **API key** field, enter your [API key](/websites/#site-id-api-key-and-secure-code).
 11. Fill out the other fields as required.
 
 ### Marketplace installation
@@ -160,11 +148,15 @@ You can update the plugin in your backend and the CMS marketplace, or via using 
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Shopware_5.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [Changelog](https://github.com/MultiSafepay/Shopware/blob/master/CHANGELOG.md) :link:
+<div style="display: flex; flex-wrap: wrap;">
 
-> [View source code](https://github.com/MultiSafepay/Shopware) :link:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
-> [Download](https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html) :arrow-down:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/Shopware" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/Shopware/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+
+</div>
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Shopware 5.
 
@@ -178,19 +170,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-## Installation and configuration
+## How to install and configure
 
 :warning: We recommend first installing the plugin in a test environment, following the Shopware 5 installation procedure. Always make a backup.
 
@@ -199,7 +179,7 @@ Contact us:
 3. Search for the MultiSafepay plugin and click **Download now**.
 4. Go to **Configuration** > **Plugin manager** > **Installed**.
 5. Search for the installed MultiSafepay plugin and click on the pencil icon.
-6. In the **API key** field, enter your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+6. In the **API key** field, enter your [API key](/websites/#site-id-api-key-and-secure-code).
 7. Fill out the other fields as required.
 8. Go to **Configuration** and select the required payment methods.
 
@@ -343,3 +323,16 @@ For instructions, see the [Shopware migration manual](https://docs.shopware.com/
 For questions, email <integration@multisafepay.com>
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue
+> - Join the official [Shopware 6 Slack channel](https://join.slack.com/t/shopwarenederland/shared_invite/zt-61exftia-TFYlw5LzmIBnz7Epq07goQ) 
+> - Join the private MultiSafepays [Shopware 6 Slack channel](https://shopwarenederland.slack.com/archives/G0146NKFJTT)
+>
+> For support for Shopware 6 Professional/Enterprise, email <sales@multisafepay.com>

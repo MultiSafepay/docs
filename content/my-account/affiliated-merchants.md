@@ -1,14 +1,17 @@
 ---
 title: "Affiliated merchants"
 category: 62962dcdbccb9a001d4bbc81
-order: 210
+order: 203
 hidden: false
 parentDoc: 62a206ee0298c80058af3aed
-slug: 'affiliates'
+slug: 'affiliated-merchants'
+excerpt: 'How partner account holders can manage the accounts of affiliated merchants.'
 ---
-This page describes how partner account holders can manage the accounts of affiliated merchants.
+# Creating affiliate accounts
 
-## Creating affiliate accounts
+<details id=“how-to-create-affiliate-accounts”>
+<summary>How to create affiliate accounts</summary>
+<br>
 
 To create a new affiliate account in your dashboard, follow these steps:
 
@@ -20,15 +23,25 @@ To create a new affiliate account in your dashboard, follow these steps:
 6. Click **Load default template**.
 7. Edit the template and fill out the fields as required.
 
-### Onboarding and go live
+</details>
 
-All affiliates must [onboard](/account/onboarding-process/) and sign an agreement with MultiSafepay, containing general terms and conditions.
+<details id=“how-to-onboard-affiliate-accounts”>
+<summary>How to onboard affiliate accounts</summary>
+<br>
 
-You can also automate onboarding affiliates [via our API](/account/affiliate-onboarding-api/).
+All affiliates must [onboard](/onboarding/) and sign an agreement with MultiSafepay, containing general terms and conditions.
+
+You can also automate onboarding affiliates [via our API](/api-onboarding).
 
 For any questions, affiliates can email <partner@multisafepay.com>
 
-## Accessing affiliated accounts
+</details>
+
+# Accessing affiliated accounts
+
+<details id=“how-to-access-affiliate-accounts”>
+<summary>How to access affiliate accounts</summary>
+<br>
 
 To access an affiliate's account:
 
@@ -42,10 +55,16 @@ Here you can manage:
 - Registration data
 - Phone number, email address
 - Screening status and actions
-- Transactions, refunds, and balance
 - Technical integrations, reports, and other tools
+- Transactions, refunds, and balance
 
-## Charging affiliates
+</details>
+
+# Charging affiliates
+
+<details id=“how-to-charge-affiliates”>
+<summary>How to charge affiliates</summary>
+<br>
 
 You can charge affiliates at three levels.
 
@@ -53,4 +72,10 @@ You can charge affiliates at three levels.
 |---|---|
 | **Partner/primary level** | Set fixed or percentage-based transaction charges for **all** affiliated merchant accounts. |
 | **Affiliate level** | Set fixed or percentage-based transaction charges for a specific affiliated merchant account. <br> This overrides the partner/primary-level settings. |
-| **Transaction level** | [Split incoming payments](/payments/features/split-payments/) between multiple merchant and/or partner accounts. <br> You can use this feature for both partner/primary and affiliate-level charges.|
+| **Transaction level** | [Split incoming payments](/split-payments/) between multiple merchant and/or partner accounts. <br> You can use this feature for both partner/primary and affiliate-level charges.|
+
+</details>
+<br>
+
+> 📘 **More info**
+> For more information or support, email <support@multisafepay.com>

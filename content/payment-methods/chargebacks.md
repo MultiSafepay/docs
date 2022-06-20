@@ -1,10 +1,9 @@
 ---
 title : 'Chargebacks'
 category: 6298bd782d1cf4006032e765
-order: 203
+order: 204
 hidden: false
 parentDoc: 62a727569e389a012f577acd
-excerpt: "Learn how to avoid, manage, and dispute chargebacks."
 slug: chargebacks
 ---
 
@@ -316,7 +315,7 @@ To dispute this type of chargeback, you need to provide proof that:
 <summary>Reason code 4540: Card not present</summary>
 <br>
 
-The cardholder denies participating in a [MOTO](/cards/moto/) transaction you processed. American Express investigates and confirms that the transaction is fraudulent.
+The cardholder denies participating in a [MOTO](/moto/) transaction you processed. American Express investigates and confirms that the transaction is fraudulent.
 
 To dispute this type of chargeback, you need to provide evidence that:
 
@@ -339,7 +338,7 @@ To dispute this type of chargeback, you need to provide:
 
 </details>
 
-#### Processing errors
+#### Processing error
 
 <details id="reason-code-4512-multiple-processing">
 <summary>Reason code 4512: Multiple processing</summary>
@@ -419,7 +418,7 @@ To dispute this type of chargeback, you need to provide fully itemized documents
 
 </details>
 
-#### Customer disputes
+#### Customer dispute
 <details id="reason-code-4544-goods-and-services-cancellation-of-recurring-payments">
 <summary>Reason code 4544: Goods and services, cancellation of recurring payments</summary>
 <br>
@@ -467,7 +466,7 @@ To dispute this type of chargeback, you need to provide evidence that:
 
 The cardholder denies authorizing the charge, and your business has been placed in the fraud full recourse program: **Investigation confirms fraud**
 
-To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or [3D Secure](/cards/3ds2/).
+To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or [3D Secure](/3ds2/).
 
 </details>
 
@@ -485,8 +484,7 @@ The table below sets out the process for disputing chargebacks.
 | 6.  | Merchant  | You can dispute again, but the potential costs involved are significant. <br> The card scheme may charge fees. <br> You need to present strong **new** evidence not provided already.  | 
 | 7.  | Card scheme | The card scheme makes the final decision about the chargeback.  | 
 | 8.  | Card scheme  | If the chargeback is unsuccessful, the card scheme reclaims the amount from MultiSafepay directly.  |  
-| 9.  | MultiSafepay  | We debit the amount from your MultiSafepay balance.  |  
-<br>
+| 9.  | MultiSafepay  | We debit the amount from your account balance.  |  
 
 ## MultiSafepay disputing chargebacks on your behalf
 MultiSafepay can dispute chargebacks on your behalf for a fee. 
@@ -496,6 +494,20 @@ You need to upload relevant documentary proof either:
 - In the **Transaction details** page of the original transaction in your MultiSafepay dashboard, **or**
 - Via our API, see API reference – [Challenge chargebacks](https://docs-api.multisafepay.com/reference/challengechargeback), **or**
 - By email to <retrieval@multisafepay.com>
+
+<details id=“how-to-upload-files”>
+<summary>How to upload files</summary>
+<br>
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **Settings** > **Files**.
+3. Under **Upload a new file**, click **Choose file**.
+4. Select the relevant file(s), and then click **Open**.
+5. Under **Upload queue**, to upload:
+    - A specific file, click **Upload**.
+    - A batch of files, click **Upload all**.
+
+</details>
 
 The Chargeback Team then assesses the proof and decides whether the chargeback can be disputed.
 

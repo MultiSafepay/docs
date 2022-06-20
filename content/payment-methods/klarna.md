@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a727567164d301522a67da
 slug: klarna
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Klarna.svg" width="50" align="right" style="margin: 20px 20px 20px 40px; max-height: 75px"/>
+
 [Klarna](https://www.klarna.com/) is a flexible online payment method that lets customers pay now, in 30 days (Pay Later 30), or in 3 interest-free installments. It also offers financing. Customers are only charged for the items they keep from the order. Klarna bears the risk and guarantees settlement.
 
 See how Klarna can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/klarna).
@@ -25,7 +28,7 @@ See how Klarna can [benefit your business](https://www.multisafepay.com/solution
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center">
+{{< mermaid class="text-center">}}
 
 sequenceDiagram
     autonumber
@@ -49,8 +52,7 @@ sequenceDiagram
     K->>Mu: Transfers funds 
     Mu->>Me: Settles funds (within 21 days)
 
-{{< /mermaid >}}
-<br>  
+{{< /mermaid >}} 
 
 # Payment statuses  
 
@@ -60,7 +62,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -84,9 +86,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Klarna activation](/payments/activating-payment-methods/#klarna) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
+| **Activation** | [Klarna activation](/payment-methods/#klarna) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current version only) |
+| **Testing** | [Test payment details](/testing/#pay-later-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Klarna direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect). |
 <br>
@@ -319,7 +321,6 @@ Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcha
 We therefore strongly recommend **not** applying surcharges. 
 
 For more information, see Klarna – [Welk bedrag kan ik maximaal doorberekenen aan mijn klant?](https://www.klarna.com/nl/zakelijk/webwinkelsupport/welk-bedrag-kan-ik-maximaal-doorberekenen-aan-mijn-klant/) 
-
 <br>
 
 > 📘 **More info**

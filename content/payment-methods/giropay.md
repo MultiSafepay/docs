@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a728d48b97080046c1d220
 slug: giropay
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Giropay.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
+
 [Giropay](https://www.giropay.de/) is the leading inter-bank payment method in Germany, connecting all major German retail banks. 
 Customers pay from their own online banking environment. Settlement is instant and guaranteed.
 
@@ -18,7 +21,7 @@ See how Giropay can [benefit your business](https://www.multisafepay.com/solutio
 | **Countries**  | Germany  | 
 | **Currencies**  | EUR | 
 | **Chargebacks**  | No  | 
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) |
+| **Refunds** | [Full and partial](/refunds/) |
 | **Supports** | [Second Chance](/second-chance/) |
 
 # Payment flow
@@ -40,8 +43,7 @@ sequenceDiagram
     CB->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
-{{< /mermaid >}}
-<br>  
+{{< /mermaid >}} 
 
 # Payment statuses   
 
@@ -51,7 +53,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -71,9 +73,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Enable in your dashboard](/payments/activating-payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#banking-methods) |
+| **Activation** | [Enable in your dashboard](/payment-methods/#enable-in-dashboard) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current and deprecated versions) |
+| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Giropay redirect  |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
 <br>

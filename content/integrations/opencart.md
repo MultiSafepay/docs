@@ -1,19 +1,23 @@
 ---
-title : "OpenCart plugin"
+title : "OpenCart"
 category: 62962dd7e272a6002ebbbbc5
 order: 113
 hidden: false
-parentDoc: 62a1d773f96fe80056354d84
+parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with OpenCart."
 slug: 'opencart'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/OpenCart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [Changelog](https://github.com/MultiSafepay/Opencart/blob/master/CHANGELOG.md) :link:
+<div style="display: flex; flex-wrap: wrap;">
 
-> [View source code](https://github.com/MultiSafepay/Opencart) :link:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
-> [Download](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960) :link:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/Opencart" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/Opencart/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+
+</div>
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with OpenCart.
 
@@ -29,19 +33,7 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation
+# How to install
 
 :warning: We recommend first installing the plugin in a test environment, following the OpenCart installation procedure. Always make a backup.
 
@@ -54,14 +46,14 @@ Contact us:
 8. Go to **Extensions** > **Modifications**, and then click the **Refresh** button.
 9. Go to **Extensions** > **Payments** > **MultiSafepay**, and then click the **Install** button. 
 
-## Configuration
+## How to configure
 1. Sign in to your OpenCart backend and go to **Extensions** > **Extensions** > **Payments** > **MultiSafepay**.
 2. On the **MultiSafepay configuration** page, configure the:  
     - **Payment methods** tab
     - **Order status** tab
     - **Options** tab  
 
-To retrieve your API key, see [Viewing the site ID, API key, and secure code](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+To retrieve your API key, see [Viewing the site ID, API key, and secure code](/websites/#site-id-api-key-and-secure-code).
 
 # User guide
 
@@ -222,8 +214,8 @@ As a temporary solution, you can disable payments with shopping carts.
 [Surcharges](/surcharges/) are no longer supported, but you can request a patch.  
 Email <integration@multisafepay.com> 
 
-**Attention Dutch merchants**
-We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 
@@ -256,3 +248,12 @@ To update the plugin using the extension installer tool in your OpenCart backend
 3. Follow the [installation](/opencart/#installation) instructions above.
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

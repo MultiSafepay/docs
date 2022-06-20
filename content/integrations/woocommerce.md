@@ -1,19 +1,23 @@
 ---
-title : "WooCommerce plugin"
+title : "WooCommerce"
 category: 62962dd7e272a6002ebbbbc5
 order: 107
 hidden: false
-parentDoc: 62a1d773f96fe80056354d84
+parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Free plugin to integrate MultiSafepay payment solutions into your WooCommerce webshop."
 slug: 'woocommerce'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/WooCommerce.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [Changelog](https://github.com/MultiSafepay/WooCommerce/blob/master/CHANGELOG.md) :link:
+<div style="display: flex; flex-wrap: wrap;">
 
-> [View source code](https://github.com/MultiSafepay/WooCommerce) :link:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/WooCommerce/releases/download/4.15.0/Plugin_WooCommerce_4.15.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
-> [Download](https://github.com/MultiSafepay/WooCommerce/releases/download/4.15.0/Plugin_WooCommerce_4.15.0.zip) :arrow-down:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/WooCommerce" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/WooCommerce/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+
+</div>
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with WooCommerce, a free, open-source ecommerce platform for Wordpress.
 
@@ -27,19 +31,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation
+# How to install
 
 :warning: We recommend first installing the plugin in a test environment, following the WooCommerce installation procedure. Always make a backup.
 
@@ -60,10 +52,10 @@ There are two ways to install the plugin:
 3. Search for **MultiSafepay**. 
 4. For the **MultiSafepay plugin for WooCommerce**, click the **Install now** button.
 
-## Configuration
+## How to configure
 1. Sign in to your WooCommerce backend.
 2. Go to **WooCommerce** > **MultiSafepay settings**
-3. On the **Account** tab, enter your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+3. On the **Account** tab, enter your [API key](/websites/#site-id-api-key-and-secure-code).
 4. On the **Order status** tab, confirm the match between WooCommerce order statuses and MultiSafepay order statuses, and then click **Save changes**.
 4. On the **Options** tab, confirm your settings, and then click **Save changes**.
 5. On the **WooCommerce** > **Settings** > **Payments**. Enable the relevant payment methods and confirm the settings.
@@ -183,7 +175,7 @@ The plugin supports [payment components](/payment-components/), which:
 
 - Provide a seamless checkout experience to increase conversion.
 - Encrypt customer payment details for secure processing.
-- Shift responsibility for [PCI DSS compliance](/pci-dss) to MultiSafepay.
+- Shift responsibility for [PCI DSS compliance](/payment-regulations/pci-dss) to MultiSafepay.
 
 <details id="activating-payment-components">
 <summary>Activating payment components</summary>
@@ -259,7 +251,7 @@ You need to [enable recurring payments](/recurring-payments/) in your MultiSafep
 
 ## Refunds
 
-You can process [full and partial refunds](/refunds/#full-and-partial-refunds) for all payment methods, **except** [pay later methods](/pay-later) for which you can only process full refunds.
+You can process [Full and partial refunds](/refunds/) for all payment methods, **except** [pay later methods](/payment-methods/pay-later) for which you can only process full refunds.
 
 ## Shipping orders
 
@@ -271,6 +263,9 @@ If you change the order status to **Shipped** in your backend, the updated statu
 
 You can apply [surcharges](/surcharges/) in the plugin when combined with a relevant third-party package. 
 
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+
 <details id="applying-surcharges-with-third-party-packages">
 <summary>Applying surcharges with third-party packages</summary>
 <br>
@@ -280,9 +275,6 @@ Third-party packages must follow WooCommerce and Wordpress development guideline
 **Support**  
 The Integration Team will do their best to help you install third-party packages, but we can't guarantee perfect compatibility.
 
-**Attention Dutch merchants** 
-
-We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 </details>
 
 ## Updates
@@ -298,3 +290,12 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

@@ -5,14 +5,6 @@ order: 200
 hidden: false
 slug: cards
 --- 
-
-MultiSafepay supports the following credit and debit cards:
-
-- [American Express](https://www.multisafepay.com/solutions/payment-methods/american-express) (Amex)
-- [Mastercard](https://www.multisafepay.com/solutions/payment-methods/mastercard) (credit card) and [Maestro](https://www.multisafepay.com/solutions/payment-methods/maestro) (debit card)
-- [Postepay](https://www.multisafepay.com/solutions/payment-methods/postepay)
-- [Visa](https://www.multisafepay.com/solutions/payment-methods/visa/) and co-branded cards [Cartes Bancaires](https://www.cartes-bancaires.com/), [Dankort](https://www.multisafepay.com/solutions/payment-methods/dankort), [V&nbsp;Pay](https://www.multisafepay.com/solutions/payment-methods/vpay) (debit card) 
-
 <details id="about-credit-and-debit-cards">
 <summary>About credit and debit cards</summary>
 <br>
@@ -30,17 +22,23 @@ Cards may feature:
 
 </details>
 
+MultiSafepay supports the following credit and debit cards:
+
+- [American Express](https://www.multisafepay.com/solutions/payment-methods/american-express) (Amex)
+- [Mastercard](https://www.multisafepay.com/solutions/payment-methods/mastercard) (credit card) and [Maestro](https://www.multisafepay.com/solutions/payment-methods/maestro) (debit card)
+- [Postepay](https://www.multisafepay.com/solutions/payment-methods/postepay)
+- [Visa](https://www.multisafepay.com/solutions/payment-methods/visa/) and co-branded cards [Cartes Bancaires](https://www.cartes-bancaires.com/), [Dankort](https://www.multisafepay.com/solutions/payment-methods/dankort), [V&nbsp;Pay](https://www.multisafepay.com/solutions/payment-methods/vpay) (debit card) 
+
 # Overview
 
 |   |   | 
 |---|---|
 | **Countries**  | Amex, Maestro, Mastercard, Visa: Worldwide <br> Cartes Bancaires: France <br> Dankort: Denmark <br>Postepay: Italy <br> V Pay: Europe | 
 | **Currencies**  | Multiple (Amex: EUR, GBP, USD only) – To support additional currencies, email <support@multisafepay.com> | 
-| **Chargebacks**  | [Yes](/payments/chargebacks/), **except** Postepay | 
-| **Refunds** | [Full and partial](/refunds/#full-and-partial-refunds) |
+| **Chargebacks**  | [Yes](/chargebacks/), **except** Postepay | 
+| **Refunds** | [Full and partial](/refunds/) |
 | **Transactions expire after** | 1 hour |
-| **Supports** | [3D Secure 2.0](/cards/3ds2/), [Handling cardholder data](/cards/handling-cardholder-data/), [Manual Capture](/cards/manual-capture/), [MOTO](/cards/moto/), [Recurring payments](/recurring-payments/), [Second Chance](/second-chance/), [Zero Authorization](/cards/zero-authorization/) **except** Amex |
-<br> 
+| **Supports** | [3D Secure 2.0](/3ds2/), [Handling cardholder data](/cardholder-data/), [Manual Capture](/manual-capture/), [MOTO](/moto/), [Recurring payments](/recurring-payments/), [Second Chance](/second-chance/), [Zero Authorization](/cards/zero-authorization/) **except** Amex |
 
 # Payment flow
 
@@ -70,7 +68,6 @@ sequenceDiagram
     end
     
 {{< /mermaid >}}
-<br>  
 
 # Payment statuses  
 
@@ -80,7 +77,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -88,12 +85,12 @@ For more information, see [Payment statuses](/payment-statuses/).
 |---|---|---|
 | **Payments** | | |
 | The customer has been redirected for 3D Secure authentication, or the card scheme is authorizing the transaction. | Initialized | Initialized |
-| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/cards/uncaptured/). | Uncleared | Uncleared |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/uncaptured/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | ([Amex account number flow](#amex-merchant-account-number)) American Express has collected payment. | Completed | Initialized |
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
 | The customer didn't complete 3D Secure authentication. | Expired | Expired |
-| The customer failed 3D Secure authentication or cancelled payment. <br> See [Card errors](/cards/errors/). | Declined | Declined   |
+| The customer failed 3D Secure authentication or cancelled payment. <br> See [Card errors](/card-errors/). | Declined | Declined   |
 |**Refunds/chargebacks**|||
 | Refund/chargeback initiated. | Reserved    | Reserved   |
 | Refund/chargeback complete.  | Completed      | Completed   |
@@ -104,11 +101,11 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Apply to MultiSafepay](/payments/activating-payment-methods/#apply-to-multisafepay) |
+| **Activation** | [Apply to MultiSafepay](/payment-methods/#apply-to-multisafepay) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Card order <br>  See Examples and select the relevant card scheme example. <br> **Co-branded cards** <br> Co-branded cards are processed through the `VISA` gateway. <br> Set the `locale` parameter: <br> - Cartes Bancaires: `fr_FR` (France) <br> - Dankort: `da_DK` (Denmark) <br> - Postepay: `it_IT` (Italy) <br> **Generic gateway** <br> The generic `CREDITCARD` gateway saves space in your checkout and the payment page detects the card scheme based on the first 4 digits of the card number. <br> See Examples > Credit card redirect. |
-| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/))  |
-| **Testing** | [Test payment details](/testing/test-payment-details/#credit-and-debit-cards) |
-| **Ready-made integrations** | All our [ready-made integrations](/integrations/ready-made/) support: <br> - Amex, Maestro, Mastercard (redirect) <br> - Visa (including Cartes Bancaires, Dankort, Postepay, V&nbsp;Pay) (redirect)   |
+| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) (current and deprecated versions)  |
+| **Testing** | [Test payment details](/testing/#credit-and-debit-cards) |
+| **Ready-made integrations** | All our [ready-made integrations](/integrations/ready-made/) support: <br> - Amex, Maestro, Mastercard (redirect) <br> - Visa (including Cartes Bancaires, Dankort, Postepay, V Pay) (redirect)   |
 <br>
 
 ---
@@ -126,7 +123,7 @@ If you use your Amex merchant account number:
 ## Refunds
 
 - You **cannot** refund more than the original transaction. 
-- MultiSafepay sends refunds to the [issuer](/glossaries/multisafepay-glossary/#issuer) within 1 business day.
+- MultiSafepay sends refunds to the issuer within 1 business day.
 - Whether or not the refund is visible to the customer depends on the issuer's system.
 - Depending on the issuer, the amount may not appear directly on the customer's card. We recommend that they contact the issuer. If they need an acquirer reference number (ARN), they can email <support@multisafepay.com> 
 - You can process refunds via MultiSafepay for up to 180 days after payment was completed. 

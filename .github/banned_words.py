@@ -12,7 +12,8 @@ ignore_characters = ['http',
                 '-',
                 '"',
                 '**',
-                '`']
+                '`',
+                "'"]
 
 with open('.github/banned_words.txt', 'r') as f:
     banned_words = f.read().split('\n')

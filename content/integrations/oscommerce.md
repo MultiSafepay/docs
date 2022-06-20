@@ -1,13 +1,21 @@
 ---
-title : "OsCommerce plugin"
+title : "OsCommerce"
 category: 62962dd7e272a6002ebbbbc5
 order: 114
 hidden: false
-parentDoc: 62a1d773f96fe80056354d84
+parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with OsCommerce."
 slug: 'oscommerce'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/OsCommerce.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+
+<div style="display: flex; flex-wrap: wrap;">
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/OsCommerce/archive/3.0.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/OsCommerce" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+
+</div>
 
 <details id="changelog">
 <summary>Changelog</summary>
@@ -78,10 +86,6 @@ Release date: Mar 28, 2014
 ---
 </details>
 
-> [View source code](https://github.com/MultiSafepay/OsCommerce) :link:
-
-> [Download](https://github.com/MultiSafepay/OsCommerce/archive/3.0.0.zip) :arrow-down:
-
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with OsCommerce.
 
 <details id="requirements">
@@ -96,21 +100,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-For support, contact OsCommerce.
-
-Contact MultiSafepay:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation and configuration
+# How to install and configure
 
 :warning: We recommend first installing the plugin in a test environment, following the OsCommerce installation procedure. Always make a backup.
 
@@ -118,7 +108,7 @@ Contact MultiSafepay:
 2. Sign in to your OsCommerce backend.
 3. Go to **Modules** > **Payment**.
 4. Click **Install modules** in the top-right corner.
-5. Enter your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code), and then complete the other fields as required.
+5. Enter your [API key](/websites/#site-id-api-key-and-secure-code), and then complete the other fields as required.
 
 # User guide
 
@@ -181,3 +171,12 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 2. Follow the Installation and configuration instructions from step 2.
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

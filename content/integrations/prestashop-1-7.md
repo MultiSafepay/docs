@@ -1,19 +1,23 @@
 ---
-title : "PrestaShop 1.7 plugin"
+title : "PrestaShop 1.7"
 category: 62962dd7e272a6002ebbbbc5
 order: 103
 hidden: false
-parentDoc: 62a1d773f96fe80056354d84
+parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Free plugin to integrate MultiSafepay payment solutions with Prestashop 1.7."
 slug: 'prestashop-1-7'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [Changelog](https://github.com/MultiSafepay/prestashop-official/blob/main/CHANGELOG.md) :link:
+<div style="display: flex; flex-wrap: wrap;">
 
-> [View source code](https://github.com/MultiSafepay/prestashop-official) :link:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official/releases/download/5.5.0/Plugin_PrestaShop_5.5.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
-> [Download](https://github.com/MultiSafepay/prestashop-official/releases/download/5.5.0/Plugin_PrestaShop_5.5.0.zip) :arrow-down:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official/blob/main/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+
+</div>
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Prestashop 1.7.
 
@@ -31,23 +35,7 @@ If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an o
 
 </details>
 
-<details id="support">
-<summary>Support</summary>
-<br>
-
-We support versions 1.7.6, 1.7.7, 1.7.8.
-
-To use an older version of the plugin, see MultiSafepay GitHub – [PrestaShop releases](https://github.com/MultiSafepay/prestashop/releases).
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation
+# How to install
 
 :warning: We recommend first installing the plugin in a test environment, following the PrestaShop 1.7 installation procedure. Always make a backup.
 
@@ -56,9 +44,9 @@ Contact us:
 3. Select the Plugin_PrestaShop.zip file, and then click **Configure**.
 4. Clear your cache.
 
-# Configuration
+# How to configure
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **Improve** > **MultiSafepay**, and enter your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+2. Go to **Improve** > **MultiSafepay**, and enter your [API key](/websites/#site-id-api-key-and-secure-code).
 3. On the **Payment methods** tab, enable the relevant payment methods.
 4. Click **Save**.
 
@@ -150,7 +138,7 @@ The plugin supports [payment components](/payment-components/), which:
 
 - Provide a seamless checkout experience to increase conversion.
 - Encrypt customer payment details for secure processing.
-- Shift responsibility for [PCI DSS compliance](/pci-dss) to MultiSafepay.
+- Shift responsibility for [PCI DSS compliance](/payment-regulations/pci-dss) to MultiSafepay.
 
 <details id="activating-payment-components">
 <summary>Activating payment components</summary>
@@ -224,8 +212,8 @@ To enable [Recurring Payments](/features/recurring-payments), follow these steps
 
 ## Refunds
 
-[Full and partial refunds](/refunds/#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backend.  
-[Pay later refunds](/pay-later/) are only supported in your dashboard.
+[Full and partial refunds](/refunds/) are supported in your MultiSafepay dashboard and backend.  
+[Pay later refunds](/payment-methods/pay-later/) are only supported in your dashboard.
     
 <details id="disabling-api-refunds">
 <summary>Disabling API refunds</summary>
@@ -270,9 +258,8 @@ If you notice errors in shopping cart calculations, email <integration@multisafe
 
 There are several [third-party add-ons](https://addons.prestashop.com/en/search?search_query=surcharge) available. However, we can't guarantee compatibility with our plugin. Make sure that you test them carefully before installing.
 
-**Attention Dutch merchants** 
-
-We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 </details>
 
@@ -328,3 +315,12 @@ To upgrade to version 5.x from an older version, follow these steps:
 If upgrading from 5.x to a newer version, see [Updates](/prestashop-1-7/updates).
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

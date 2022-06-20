@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a727567164d301522a67da
 slug: pay-after-delivery
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Pay_After_Delivery.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+
 Pay After Delivery is MultiSafepay's own pay later method that lets customers pay for orders after receiving them, increasing customer confidence and conversion. 
 
 Customers are only charged for the items they keep. MultiSafepay bears the risk, based on the customer's history, and guarantees settlement.
@@ -24,7 +27,6 @@ See how Pay After Delivery can [benefit your business](https://www.multisafepay.
 | **Amount limits** | Minimum and maximum order amounts apply. Email <sales@multisafepay.com> |
 | **Addresses** | The delivery and invoice addresses must be the **same** to prevent fraud. |
 | **Shipping policies** | [MultiFactor shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies) <br> [Shipping Policy Nederland](https://www.multifactor.nl/voorwaarden/shipping-policies/) <br> [Herinnering aan onze shipping policy](https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy) |
-<br>
 
 # Payment flow
 
@@ -55,7 +57,6 @@ sequenceDiagram
     Mu->>Me: Settles funds (within 30 days of Shipped status)
 
 {{< /mermaid >}}
-<br>  
 
 # Payment statuses  
 
@@ -65,7 +66,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -85,14 +86,13 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 </details>
 
-
 # Activation and integration
 
 | | |
 |---|---|
-| **Activation** | [Pay After Delivery activation](/payments/activating-payment-methods/#pay-after-delivery) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#pay-later-methods) |
+| **Activation** | [Pay After Delivery activation](/payment-methods/#pay-after-delivery) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current and deprecated versions) |
+| **Testing** | [Test payment details](/testing/#pay-later-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Pay After Delivery direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct).   |
 <br>
@@ -116,7 +116,7 @@ To close a transaction manually, follow these steps:
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Click **Complete own funds**. 
 5. Enter a comment about what happened with the order, and click **Complete**.  
-    The total amount of the transaction is deducted from your MultiSafepay balance. 
+    The total amount of the transaction is deducted from your account balance. 
 
 **Note:** Once the transaction status changes to **completed**, the **Complete own funds** button is hidden. You must process a [full refund](/refunds/) instead. 
 
@@ -205,7 +205,6 @@ Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcha
 We therefore strongly recommend **not** applying surcharges. 
 
 For more information, email <sales@multisafepay.com> 
-
 <br>
 
 > 📘 **More info**

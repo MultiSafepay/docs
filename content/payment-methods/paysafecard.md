@@ -6,6 +6,9 @@ hidden: false
 parentDoc: 62a32bf042021c00e1cd7e5c
 slug: paysafecard
 ---
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Paysafecard.svg" width="45" align="right" style="margin: 20px; max-height: 75px"/>
+
 [Paysafecard](https://www.paysafecard.com/en/) lets customers make online payments using secure prepaid vouchers, available for purchase locally. 
 The funds are available immediately. The customer chooses a fixed voucher amount: 10, 25, 50 or 100 EUR. 
 
@@ -20,7 +23,7 @@ The card balance remains available for 12 months free of charge. After 12 months
 | **Countries**  | Worldwide – Go to [paysafecard.com](https://www.paysafecard.com/en-gb/), and click the globe icon in the banner.  | 
 | **Currencies**  | EUR, GBP, USD  | 
 | **Chargebacks**  | No | 
-| **Refunds** | Paid with Paysafecard only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with Paysafecard **and** another payment method: [Full refunds](/refunds/#full-and-partial-refunds).  |
+| **Refunds** | Paid with Paysafecard only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with Paysafecard **and** another payment method: [Full refunds](/refunds/).  |
 | **Transactions expire after** | 3 hours |
 
 # Payment flow
@@ -42,8 +45,7 @@ sequenceDiagram
     P->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 
-{{< /mermaid >}}
-<br>  
+{{< /mermaid >}} 
 
 # Payment statuses  
 
@@ -53,7 +55,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -75,7 +77,7 @@ For more information, see [Payment statuses](/payment-statuses/).
 | | |
 |---|---|
 | **Activation** | Paysafecard doesn't require activation. <br> Search for outlets that sell Paysafecard: <br> - [Find sales outlets](https://www.paysafecard.com/en/find-sales-outlet-1/) <br> - [Verkooppunten zoeken](https://www.paysafecard.com/nl/verkooppunt-vinden-1/) <br> For any questions, email <sales@multisafepay.com> |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current version](/payment-pages/activation/) only) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current version only) |
 | **Testing** | You can’t test Paysafecard in your MultiSafepay test account. <br> You can only make test payments in your MultiSafepay live account. <br> For any questions, email <integration@multisafepay.com> |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Gift card redirect |
 | **Ready-made integrations** | Supported in [OsCommerce](/oscommerce/), [Magento 1](/magento-1/), [VirtueMart](/virtuemart/), [X-Cart](/x-cart/), [Zen Cart](/zen-cart/). |

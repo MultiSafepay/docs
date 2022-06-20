@@ -3,14 +3,14 @@ title : "Lightspeed"
 category: 62962dd7e272a6002ebbbbc5
 order: 101
 hidden: false
-parentDoc: 62a1d773f96fe80056354d84
+parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Free app to integrate MultiSafepay payment solutions with Lightspeed."
 slug: 'lightspeed'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Lightspeed.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [Changelog](https://lightspeed.multisafepay.com/changelog) :link:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://lightspeed.multisafepay.com/changelog" target="_self"><span>Changelog</span></a>
 
 :warning: We recommend [upgrading to the latest version](/lightspeed/#upgrading-to-the-new-app) as soon as possible.
 
@@ -26,19 +26,7 @@ This technical manual is for installing and configuring MultiSafepay's free app 
 
 </details>
 
-<details title="support">
-<summary>Support</summary>
-<br>
-
-Contact us:
-
-- Telephone: +31 (0)20 8500 500
-- Email: <integration@multisafepay.com>
-- GitHub: Create a technical issue
-
-</details>
-
-# Installation 
+# How to install 
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
@@ -49,7 +37,7 @@ Contact us:
 5. In the dialog, approve the permissions required for the app.  
    You are redirected to Lightspeed – [MultiSafepay: How to log in](https://lightspeed.multisafepay.com/install).
 6. In the **Setup** page:  
-    - Enter your email address, [account ID and site API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code).
+    - Enter your email address, [account ID and site API key](/websites/#site-id-api-key-and-secure-code).
     - Select **Test** or **Live** environment, and click **Save and continue**.  
 You are redirected to the **Settings** page.
 7. We recommend enabling:
@@ -65,7 +53,7 @@ You are redirected to the **Settings** page.
 <summary>Changing API keys and environments</summary>
 <br>
 
-To change your [API key](/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code) or environment (live or test) after installation, follow these steps:
+To change your [API key](/websites/#site-id-api-key-and-secure-code) or environment (live or test) after installation, follow these steps:
 
 1. Sign in to the app.
 2. Tap the hamburger menu and go to **Environment**.
@@ -306,7 +294,7 @@ Lightspeed offers a functionality that lets you configure payment reminders and 
 
 ## Refunds
 
-[Full and partial refunds](/refunds/#full-and-partial-refunds) and credit notes are supported in your MultiSafepay dashboard and backend.  
+[Full and partial refunds](/refunds/) and credit notes are supported in your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.
 
 <details id="enabling-refunds-in-your-backend">
@@ -375,9 +363,8 @@ Lightspeed single sign-on lets you sign in to the app's **Settings** directly fr
     - Percentage under **Dynamic payment fee**.
 5. Click **Save**.
 
-**Attention Dutch merchants** 
-
-We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 </details>
 
@@ -415,3 +402,12 @@ To disable the core integration after migrating to the new app, follow these ste
 For any questions about the app, email <integration@multisafepay.com>
 
 </details>
+
+---
+
+> 💬  Support
+> Contact MultiSafepay:
+> 
+> - Telephone: +31 (0)20 8500 500
+> - Email: <integration@multisafepay.com>
+> - GitHub: Create a technical issue

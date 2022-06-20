@@ -40,7 +40,7 @@ See how gift cards can [benefit your business](https://www.multisafepay.com/solu
 | [Huis & Tuin Cadeau](https://www.huisentuincadeau.com/) | [YourGift](https://www.yourgift.nl/) |
 <br>
 
-**Note:** Webshop Giftcard no longer offers [open-loop gift cards](/payments/methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop). To exchange existing open-loop cards for closed-loop cards, see Webshop Giftcard – [Contact](https://www.webshopgiftcard.nl/contact).
+**Note:** Webshop Giftcard no longer offers [open-loop gift cards](#closed-loop-vs-open-loop-cards). To exchange existing open-loop cards for closed-loop cards, see Webshop Giftcard – [Contact](https://www.webshopgiftcard.nl/contact).
 
 </details>
 
@@ -63,8 +63,7 @@ sequenceDiagram
     G->>Mu: Processes payment and transfers funds 
     Mu->>Me: Settles funds
 
-{{< /mermaid >}}
-<br>  
+{{< /mermaid >}} 
 
 # Payment statuses  
 
@@ -74,7 +73,7 @@ sequenceDiagram
 
 **Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
 
-**Transaction status:** Changes as the funds progress towards settlement in your MultiSafepay balance
+**Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 For more information, see [Payment statuses](/payment-statuses/).
 
@@ -94,9 +93,9 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 | | |
 |---|---|
-| **Activation** | [Gift cards activation](/payments/activating-payment-methods/#gift-cards) |
-| **Checkout options** | [Payment pages](/payment-pages/) ([current](/payment-pages/activation/) and [deprecated](/payment-pages/deprecated/)) |
-| **Testing** | [Test payment details](/testing/test-payment-details/#prepaid-cards) |
+| **Activation** | [Gift cards activation](/payment-methods/#gift-cards) |
+| **Checkout options** | [Payment pages](/payment-pages/) (current and deprecated versions) |
+| **Testing** | [Test payment details](/testing/#prepaid-cards) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Gift card redirect |
 | **Ready-made integrations** | We don’t support all open-loop gift cards in our [ready-made integrations](/integrations/ready-made/) and no closed-loop gift cards. Therefore in some integrations, we use generic gateways to support [custom gift cards](#custom-gift-cards). <br> To check if a specific gift card is supported in your ready-made integration, email the Integration Team at <integration@multisafepay.com>   |
 
@@ -149,7 +148,7 @@ If a customer completes a payment and receives this error message, advise them t
 
 ## Pay later methods
 
-When paying with a gift card and a [pay later method](/payment-methods/pay-later/), customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+When paying with a gift card and a [pay later method](/pay-later/), customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
 
 This is because pay later methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
