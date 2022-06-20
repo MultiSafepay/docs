@@ -1,7 +1,7 @@
 ---
 title: 'Security and legal'
 category: 627bbcf80c1c9c0050320b60
-order: 300
+order: 200
 hidden: false
 ---
 This section contains information on payment regulations, risk and fraud, and surcharges.

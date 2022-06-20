@@ -1,7 +1,7 @@
 ---
 title: "Glossary"
 category: 627bbcf80c1c9c0050320b60
-order: 200
+order: 300
 hidden: false
 slug: glossary
 ---
