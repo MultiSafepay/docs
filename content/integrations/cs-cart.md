@@ -9,11 +9,16 @@ slug: 'cs-cart'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/CS-Cart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [Changelog](https://github.com/MultiSafepay/CS-Cart/blob/master/CHANGELOG.md) :link:
+<div style="display: flex; flex-wrap: wrap;">
 
-> [Source code](https://github.com/MultiSafepay/CS-Cart) :link:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/CS-Cart/releases/download/1.6.0/Plugin_CS-Cart_1.6.0.zip" target="_blank"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
-> [Download](https://github.com/MultiSafepay/CS-Cart/releases/download/1.6.0/Plugin_CS-Cart_1.6.0.zip) :arrow-down:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/CS-Cart" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/CS-Cart/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+
+</div>
+
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for CS-Cart.
 
