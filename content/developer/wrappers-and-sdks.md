@@ -10,7 +10,7 @@ hidden: false
 
 The PHP SDK for MultiSafepay's REST API.
 
-[View on GitHub](https://github.com/MultiSafepay/php-sdk).
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/php-sdk" target="_blank"><span>View on GitHub</span></a>
 
 ___
 
@@ -19,7 +19,7 @@ ___
 
 A Laravel wrapper for MultiSafepay's PHP SDK.
 
-[View on GitHub](https://github.com/MultiSafepay/laravel-api).
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/laravel-api" target="_blank"><span>View on GitHub</span></a>
 
 ___
 
@@ -28,7 +28,8 @@ ___
 
 A Java wrapper for MultiSafepay's payments API, which supports all payment methods.
 
-[View on GitHub](https://github.com/MultiSafepay/Java).
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/Java" target="_blank"><span>View on GitHub</span></a>
+
 
 ___
 
@@ -37,7 +38,7 @@ ___
 
 The Node.js wrapper for MultiSafepay's REST API.
 
-[View on GitHub](https://github.com/MultiSafepay/multisafepay-node-wrapper).
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/multisafepay-node-wrapper" target="_blank"><span>View on GitHub</span></a>
 
 ___
 
@@ -46,7 +47,7 @@ ___
 
 The Python wrapper for MultiSafepay's REST API.
 
-[View on GitHub](https://github.com/MultiSafepay/multisafepay-python-wrapper).
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/multisafepay-python-wrapper" target="_blank"><span>View on GitHub</span></a>
 
 ___
 
@@ -55,7 +56,7 @@ ___
 
 The .NET wrapper for MultiSafepay's payments API, which supports all payment methods.
 
-[View on GitHub](https://github.com/MultiSafepay/.Net).
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/.Net" target="_blank"><span>View on GitHub</span></a>
 
 ___
 
@@ -64,7 +65,8 @@ ___
 
 A Django integration developed by Edoburu.
 
-[View on GitHub](https://github.com/edoburu/django-multisafepay).
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/edoburu/django-multisafepay" target="_blank"><span>View on GitHub</span></a>
+
 
 ___
 
@@ -73,6 +75,6 @@ ___
 
 Go wrapper for MultiSafepay's REST API developed by kurt-stolle.
 
-[View on GitHub](https://github.com/kurt-stolle/go-multisafepay).
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/kurt-stolle/go-multisafepay" target="_blank"><span>View on GitHub</span></a>
 
 ___

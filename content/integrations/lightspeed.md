@@ -10,7 +10,7 @@ slug: 'lightspeed'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Lightspeed.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-> [Changelog](https://lightspeed.multisafepay.com/changelog) :link:
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://lightspeed.multisafepay.com/changelog" target="_self"><span>Changelog</span></a>
 
 :warning: We recommend [upgrading to the latest version](/lightspeed/#upgrading-to-the-new-app) as soon as possible.
 
