@@ -28,7 +28,7 @@ See how Klarna can [benefit your business](https://www.multisafepay.com/solution
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center">
+{{< mermaid class="text-center">}}
 
 sequenceDiagram
     autonumber

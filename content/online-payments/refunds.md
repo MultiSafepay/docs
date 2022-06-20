@@ -3,7 +3,7 @@ title : 'Refunds'
 category: 6278c92bf4ad4a00361431b0
 order: 700
 hidden: false
-slug: 'refunds'
+slug: 'refund-payments'
 ---
 This page provides information about processing refunds with MultiSafepay. 
 
