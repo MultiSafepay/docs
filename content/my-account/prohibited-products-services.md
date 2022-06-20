@@ -106,5 +106,4 @@ Under Visa and Mastercard's High Risk programs, you will be subject to a 500 USD
 
 > 💬  Support
 > To discuss your options, call +31 20 8500 502.
-> 
 > For more information, email <risk@multisafepay.com>

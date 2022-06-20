@@ -190,4 +190,4 @@ You can provide track-and-trace codes to MultiSafepay:
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

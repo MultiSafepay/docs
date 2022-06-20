@@ -294,4 +294,4 @@ Email a request to accept non-3D Secure authenticated cards to <risk@multisafepa
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

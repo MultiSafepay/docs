@@ -24,4 +24,4 @@ To connect your Actuals account to your MultiSafepay account:
 7. Under **In-use sources**, check that the **Status** of your MultiSafepay configuration is **Live**.
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

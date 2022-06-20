@@ -158,4 +158,4 @@ For more information, see AfterPay – [Merchant support](https://www.afterpay.n
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

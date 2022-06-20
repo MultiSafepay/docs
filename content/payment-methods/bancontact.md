@@ -114,4 +114,4 @@ See [Recurring payments](/recurring-payments/).
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

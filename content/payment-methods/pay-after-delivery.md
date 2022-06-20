@@ -208,4 +208,4 @@ For more information, email <sales@multisafepay.com>
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

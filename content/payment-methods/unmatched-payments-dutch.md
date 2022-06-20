@@ -54,4 +54,4 @@ Om een transactie aan te maken kunt u gebruik maken van onze betaallinks ([payme
 **Opmerking:** Iedere betaallink heeft een uniek order ID nodig.
 
 > 💬  Support
-> Email ons Support Team via <support@multisafepay.com>
+> Email <support@multisafepay.com>

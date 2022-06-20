@@ -27,4 +27,4 @@ To connect your MultiSafepay account to e-Boekhouden:
 - You will need a MultiSafepay [site API key](/websites/managing-websites/#site-id-api-key-and-secure-code).
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

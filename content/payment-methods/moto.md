@@ -63,4 +63,4 @@ In the `gateway_info` object, include the `moto` parameter.
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

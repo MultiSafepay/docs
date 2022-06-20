@@ -9,7 +9,9 @@ excerpt: 'Partner or primary account holders can submit onboarding information f
 ---
 # How it works
 
-Via our API, you can create a customized onboarding process for new merchants depending on your business model, e.g. marketplaces, franchises, and crowdfunding platforms. This is particularly useful if you are onboarding multiple merchants.  
+Via our API, you can create a customized onboarding process for new merchants depending on your business model, e.g. marketplaces, franchises, and crowdfunding platforms. This is particularly useful if you are onboarding multiple merchants.
+
+For more information, see [Onboarding](/onboarding/).
 
 # 1. Create merchant accounts
 
@@ -59,6 +61,4 @@ After submitting this information, MultiSafepay screens the merchant accounts, b
 <br>
 
 > 💬  Support
-> For more information, see [Onboarding](/onboarding/).
-> 
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

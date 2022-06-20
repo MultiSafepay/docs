@@ -139,4 +139,4 @@ On the customer's credit card statement, the transaction may either be:
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

@@ -63,4 +63,4 @@ The table below sets out supported payment methods and their respective [3D Secu
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

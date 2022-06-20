@@ -173,4 +173,4 @@ To reduce the chances of this happening, we strongly recomend:
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

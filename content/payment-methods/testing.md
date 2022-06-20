@@ -735,4 +735,4 @@ You can test refunds for the following methods:
 > 💬  Support
 > If you encounter any issues during testing, see [Handling errors](/handling-errors/).
 >
-> For more information or support, email <integration@multisafepay.com>
+> Email <integration@multisafepay.com>

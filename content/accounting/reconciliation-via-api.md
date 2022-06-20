@@ -36,4 +36,4 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?type=refund" 
 ```
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

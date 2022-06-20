@@ -26,4 +26,4 @@ Check your integration. If you use a:
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>

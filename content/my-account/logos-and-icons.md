@@ -30,4 +30,4 @@ To generate a portable network graphic (PNG) of a payment method logo to display
 <br>
 
 > 💬  Support
-> For more information or support, email <integration@multisafepay.com>
+> Email <integration@multisafepay.com>

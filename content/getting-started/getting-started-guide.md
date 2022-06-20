@@ -61,5 +61,5 @@ We then perform [know your customer (KYC) checks](/account/kyc/). If approved, y
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>
 

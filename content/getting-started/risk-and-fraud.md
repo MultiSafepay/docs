@@ -39,4 +39,4 @@ If you fail to respond to these requests, we initially pause payouts and may ult
 <br>
 
 > 💬  Support
-> For support, email <support@multisafepay.com>
+> Email <support@multisafepay.com>
