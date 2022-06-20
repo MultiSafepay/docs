@@ -207,5 +207,5 @@ We therefore strongly recommend **not** applying surcharges.
 For more information, email <sales@multisafepay.com> 
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

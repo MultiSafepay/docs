@@ -113,5 +113,5 @@ Requests are screened and approved by Bancontact Payconiq.
 See [Recurring payments](/recurring-payments/).
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

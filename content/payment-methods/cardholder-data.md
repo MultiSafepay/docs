@@ -62,5 +62,5 @@ The table below sets out supported payment methods and their respective [3D Secu
 | Visa | Verified by Visa **and** non-3D Secure payments |
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

@@ -1,5 +1,5 @@
 ---
-title : "Account balance"
+title: "Account balance"
 category: 62962dcdbccb9a001d4bbc81
 order: 201
 hidden: false
@@ -57,5 +57,5 @@ To activate this feature in your daily balance report, email a request to <sales
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

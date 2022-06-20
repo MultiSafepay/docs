@@ -1,5 +1,5 @@
 ---
-title : "Surcharges"
+title: "Surcharges"
 category: 627bbcf80c1c9c0050320b60
 order: 205
 hidden: false
@@ -49,8 +49,8 @@ Surcharges are permitted for:
 <br>
 
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>
 <br>
 
 > ❕ **Disclaimer** 

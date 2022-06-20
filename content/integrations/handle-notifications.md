@@ -180,4 +180,6 @@ You have successfully configured your web server to handle notifications receive
 
 ___
 
+<br>
+
 :tada: Congratulations! You've successfully created an order, configured your webhook endpoint, and set up your web server to handle notifications.

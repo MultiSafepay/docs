@@ -88,7 +88,7 @@ We do support `GET` as a `notification_method`, but we strongly recommend to use
 
 **Example**:
 
-```
+``` javascript
 curl -X POST \
 "https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
 -d '{

@@ -21,5 +21,5 @@ For generating automated accounting reports, see Forque – [AFAS](https://www.f
 ## De Viske ICT
 For middleware solutions to automate processes and efficiently exchange data between AFAS and other applications, see De Viske ICT – [Applicaties](https://deviske.nl/applicaties/).
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

@@ -1,5 +1,5 @@
 ---
-title : 'Ongematchte bankoverschrijvingen'
+title: 'Ongematchte bankoverschrijvingen'
 category: 6298bd782d1cf4006032e765
 order: 103
 hidden: true
@@ -53,5 +53,5 @@ Om een transactie aan te maken kunt u gebruik maken van onze betaallinks ([payme
 
 **Opmerking:** Iedere betaallink heeft een uniek order ID nodig.
 
-> 📘 **Ondersteuning**
+> 💬  Support
 > Email ons Support Team via <support@multisafepay.com>

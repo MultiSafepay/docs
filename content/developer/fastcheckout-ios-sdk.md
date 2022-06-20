@@ -1,5 +1,5 @@
 ---
-title : "FastCheckout iOS SDK"
+title: "FastCheckout iOS SDK"
 category: 62962df622e99600810c117d
 order: 80
 hidden: true

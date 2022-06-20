@@ -316,5 +316,5 @@ Then, when you're ready to go live:
 - Set the attributes of `merchantInfo` to your business name and Google Pay merchant ID.
 <br>
 
-> 📘 **More info**
+> 💬  Support
 > For more information or support, email <integration@multisafepay.com>

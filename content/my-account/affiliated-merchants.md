@@ -77,5 +77,5 @@ You can charge affiliates at three levels.
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

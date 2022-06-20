@@ -1,5 +1,5 @@
 ---
-title : "Shopify app"
+title: "Shopify app"
 category: 62962dd7e272a6002ebbbbc5
 order: 105
 hidden: false

@@ -80,5 +80,5 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

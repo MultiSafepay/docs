@@ -225,6 +225,6 @@ To avoid stock-related issues if a customer fails to pay within 60 days, you can
 To change how bank transfers are validated, check whether this is possible in your backend.
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>
 

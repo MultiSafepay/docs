@@ -126,5 +126,5 @@ To delete a website from your account, follow these steps:
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

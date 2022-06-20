@@ -1,5 +1,5 @@
 ---
-title : 'Uncaptured card payments'
+title: 'Uncaptured card payments'
 category: 6298bd782d1cf4006032e765
 order: 208
 hidden: false
@@ -159,7 +159,7 @@ Check if the transaction amount is noticeably higher or lower than average. Are 
 </details>
 <br>
 
-> 📘 **More info**
+> 💬  Support
 > See also [Viewing your uncleared balance](/account/balance/#viewing-your-uncleared-balance).
 >
-> For more information or support, email <support@multisafepay.com>
+> For support, email <support@multisafepay.com>

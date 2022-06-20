@@ -85,5 +85,5 @@ For more information, see [Payment statuses](/payment-statuses/).
 | **Ready-made integrations** | Only supported in our [Magento 2](/magento-2/) integration. |
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

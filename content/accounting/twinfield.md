@@ -69,5 +69,5 @@ You must first provide Twinfield with an additional international bank account n
 
 For a free 30-day trial including all accounting functions, see Twinfield – [Proef abonnement aanvragen](https://www.wolterskluwer.com/nl-nl/solutions/twinfield-accounting/twinfield-boekhouden-probeer-nu).
 
-> 📘 **Support**
-> Email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>

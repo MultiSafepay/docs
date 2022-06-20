@@ -1,5 +1,5 @@
 ---
-title : "PrestaShop 1.6"
+title: "PrestaShop 1.6"
 category: 62962dd7e272a6002ebbbbc5
 order: 104
 hidden: false

@@ -138,5 +138,5 @@ On the customer's credit card statement, the transaction may either be:
 - Not debited at all= Full reversal
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> For support, email <support@multisafepay.com>
