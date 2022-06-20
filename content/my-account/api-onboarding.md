@@ -14,7 +14,7 @@ The API also lets you create a customized onboarding process for new merchants d
 
 > 📘 Supported accounts
 > 
-> The requests to onboard affiliated merchants via our API require a partner or primary account. For more information, see [Create account](/docs/create-account/).
+> Requests to onboard affiliated merchants via our API require a partner account API key. For more information, email your partner manager.
 
 ## 1. Create merchant accounts
 
