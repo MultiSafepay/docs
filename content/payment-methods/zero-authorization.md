@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 209
 hidden: false
 parentDoc: 62a727569e389a012f577acd
-slug: zero-authorization
+slug: 'zero-authorization'
 ---
 
 Zero Authorization is a MultiSafepay solution that lets you verify a credit card without charging the cardholder. Simply charge an amount of 0 EUR to the credit card (with or without [3D Secure](/3ds2/) authentication). 

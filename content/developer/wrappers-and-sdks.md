@@ -3,6 +3,7 @@ title: 'Wrappers and SDKs'
 category: 62962df622e99600810c117d
 order: 10
 hidden: false
+slug: 'wrappers-sdks'
 ---
 
 ## PHP SDK

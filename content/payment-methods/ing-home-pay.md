@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 111
 hidden: false
 parentDoc: 62a728d48b97080046c1d220
-slug: ing-home-pay
+slug: 'ing-home-pay'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/ING_Homepay.svg" width="50" align="right" style="margin: 55px 20px 20px 20px; max-height: 75px"/>

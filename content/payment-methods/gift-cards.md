@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 402
 hidden: false
 parentDoc: 62a32bf042021c00e1cd7e5c
-slug: gift-cards
+slug: 'gift-cards'
 ---
 Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. Gift card payments are processed by the card issuer.
 

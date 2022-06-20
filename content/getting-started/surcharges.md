@@ -4,7 +4,7 @@ category: 627bbcf80c1c9c0050320b60
 order: 205
 hidden: false
 parentDoc: 62a087abb10eb40052c9fd04
-slug: surcharges
+slug: 'surcharges'
 ---
 > ℹ️ ​Check this page regularly for updates on implementing the PSD2. 
 

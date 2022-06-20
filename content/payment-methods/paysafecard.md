@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 403
 hidden: false
 parentDoc: 62a32bf042021c00e1cd7e5c
-slug: paysafecard
+slug: 'paysafecard'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Paysafecard.svg" width="45" align="right" style="margin: 20px; max-height: 75px"/>

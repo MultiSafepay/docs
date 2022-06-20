@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 302
 hidden: false
 parentDoc: 62a727567164d301522a67da
-slug: betaal-per-maand
+slug: 'betaal-per-maand'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/betaalpermaand.svg" width="200" align="right" style="margin: 20px; max-height: 75px"/>

@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 401
 hidden: false
 parentDoc: 62a32bf042021c00e1cd7e5c
-slug: edenred
+slug: 'edenred'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/edenred.svg" width="80" align="right" style="margin: 20px 20px 20px 30px; max-height: 75px"/>

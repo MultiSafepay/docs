@@ -4,6 +4,7 @@ category: 62962dee7af1c800355771a1
 order: 103
 hidden: false
 parentDoc: 629f40b87c755200870646a0
+slug: 'payout-report'
 ---
 
 This report provides an overview (in Excel format) of the specific transactions and fees per [payout](/account/payouts/). It is helpful for matching payouts to specific orders or invoices for accounting purposes. 
