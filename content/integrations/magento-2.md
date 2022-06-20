@@ -17,10 +17,6 @@ slug: 'magento-2'
 
 </div>
 
-> [Changelog]() :link:
-
-> [Source code]() :link:
-
 :warning: If you are still using the deprecated plugin, we recommend [upgrading to the latest version](/magento-2/#upgrading) as soon as possible.
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Magento 2.
