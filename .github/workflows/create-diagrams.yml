@@ -5,15 +5,17 @@ name: Create mermaid diagrams
 
 on:
 
-# Run on pushes to master (includes merged PRs into master and direct pushes)
-  push:
-    branches: [ master, readmedocs-staging ]
+# Run on pull requests into readmedocs-staging
+  pull_request:
+    types: [ closed ]
+    branches: [ readmedocs-staging ]
 
   # Enable manual triggers (for testing)
   workflow_dispatch:
 
 jobs:
   build:
+    if: github.event.pull_request.merged ==  true
     runs-on: ubuntu-latest 
     name: Create diagram SVGs
     steps:
