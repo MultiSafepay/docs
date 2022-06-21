@@ -8,7 +8,7 @@ excerpt: 'Activate and customize hosted payment pages.'
 ---
 Payment pages are hosted by MultiSafepay and are the easiest way to integrate all payment methods. 
 
-They are completely secure, fully mobile responsive, and can be styled to fit the look and feel of your website.
+They are completely secure, fully mobile responsive, and can be styled to fit the look and feel of your site.
 
 # How it works
 
@@ -28,7 +28,7 @@ You can activate payment pages yourself in your dashboard.
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Website settings**.
-3. Click the relevant website.
+3. Click the relevant site.
 4. Select the **Use new payment pages** checkbox.
 
 **Note:** If the **Use new payment pages** checkbox is not visible, email <integration@multisafepay.com>
@@ -136,14 +136,14 @@ If you include a `shopping_cart` object when you [create an order](https://docs-
 1. To request to enable **Advanced website templates** for your MultiSafepay account, email <integration@multisafepay.com>
 2. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/). 
 3. Go to **Settings** > **New payment pages**.
-4. Next to the relevant website, click **Template**.
+4. Next to the relevant site, click **Template**.
 5. Under **Configure page style**, click **Settings**, and then select the **Hide cart details** checkbox. 
 
 </details>
 
 ## Styling 
 
-We recommend styling payment pages to be consistent with the look and feel of your website.
+We recommend styling payment pages to be consistent with the look and feel of your site.
 
 <details id="in-your-dashboard">
 <summary>In your dashboard</summary>
@@ -167,9 +167,9 @@ We recommend styling payment pages to be consistent with the look and feel of yo
     Click **Edit template** (top-left corner).  
 
     **Duplicating styling to another template**  
-    Click **Apply style from** (top-right corner). Save the template to the relevant website.  
+    Click **Apply style from** (top-right corner). Save the template to the relevant site.  
 
-5. To save the finished template to the relevant website, click **Submit website**. 
+5. To save the finished template to the relevant site, click **Submit website**. 
 
 </details>
 

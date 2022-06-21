@@ -37,7 +37,7 @@ This report provides an overview (in Excel format) of the specific transactions 
 | Sub description | A description of a component of the transaction, e.g. an issuer fee or currency conversion cost |
 | Sub status | The [transaction status](/about-payments/multisafepay-statuses/) |
 | Sub ID | MultiSafepay's transaction reference number |
-| Ms description | website name |
+| Ms description | The site name |
 | Order ID | Your unique identifier for the order |
 | Var1/Var2/Var3 | Additional information |
 

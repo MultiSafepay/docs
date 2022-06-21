@@ -23,7 +23,7 @@ Dutch law states that alcohol cannot be sold to customers under the age of **18*
 
 If you sell alcohol, you must:
 
-- State this clearly on your website.
+- State this clearly on your site.
 - Email a signed declaration about alcoholic beverages (once only) to <risk@multisafepay.com>
 
 <details id="how-to-download-a-declaration">

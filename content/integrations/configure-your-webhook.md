@@ -18,7 +18,7 @@ next:
 
 MultiSafepay uses a webhook to send updates about orders and other notifications to your web server.
 
-You can configure the webhook at website level or at order level.
+You can configure the webhook at site level or at order level.
 
 <details id="webhook">
 <summary>Webhook</summary>
@@ -61,13 +61,13 @@ You must set a webhook endpoint, which is a URL that:
 
 For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
 
-# Website level
+# Site level
 
-To configure the webhook endpoint at website level:
+To configure the webhook endpoint at site level:
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Website settings**.
-3. Select the relevant website.
+3. Select the relevant site.
 4. In the **Notification URL** field, set your webhook endpoint.
 
 # Order level

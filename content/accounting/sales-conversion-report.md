@@ -11,7 +11,7 @@ The sales and conversion reports help you find out:
 
 - Who your customers are and where they're from
 - What payment methods and devices they use
-- Your conversion rate per website
+- Your conversion rate per site
 
 # Sales report
 
@@ -29,7 +29,7 @@ This report provides an overview (in Excel format) of the total revenue and/or n
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Reports** > **Advanced reporting** > **Site**.
 3. Under **Date**, select the date range you want the report to cover.
-4. If relevant, specify one or two websites under **Site** and **Site 2**.
+4. If relevant, specify one or two sites under **Site** and **Site 2**.
 5. To download, click **XLS** or **XLSX**. 
 
 </details >
@@ -42,7 +42,7 @@ You can filter by:
 - Customer country and device
 - Day
 - Payment method
-- Website
+- Site
 
 <details id="generating-conversion-reports">
 <summary>Generating conversion reports</summary>
@@ -52,7 +52,7 @@ You can filter by:
 2. Go to **Reports** > **Advanced reporting** > **Credit cards conversion**.
     - Under **Date**, select the date range you want the report to cover.
     - Under **Currency**, select the relevant currency.
-    - Under **Site** and **Site 2**, specify one or two websites (if relevant).
+    - Under **Site** and **Site 2**, specify one or two sites (if relevant).
 3. To download, click **XLS** or **XLSX**. 
 4. Click **Execute report**.
 

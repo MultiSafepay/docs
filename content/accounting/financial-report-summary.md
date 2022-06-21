@@ -26,7 +26,7 @@ This report provides an overview (in Excel or CSV format) of:
 | Merchant ref | Your transaction reference number |
 | Created | The date the transaction was initiated |
 | Completed | The date the funds were settled in your account balance |
-| Site | The website where the customer placed the order |
+| Site | The site where the customer placed the order |
 | First name | The customer's first name |
 | Last name | The customer's last name |
 | Description | A description of the order |

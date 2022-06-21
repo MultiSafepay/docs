@@ -33,7 +33,7 @@ Read how Edenred can benefit your business on [multisafepay.com](https://www.mul
 - For each voucher, you must comply with Edenred's rules regarding permitted products and services. 
 - An Edenred prepaid card can contain multiple Edenred vouchers.
 - Edenred vouchers can be used for partial payments in combination with another payment method.
-- View all the Edenred transactions for your website in [My Edenred](https://myedenred.be).
+- View all the Edenred transactions for your site in [My Edenred](https://myedenred.be).
 
 # Payment flow
 

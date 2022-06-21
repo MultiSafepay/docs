@@ -25,7 +25,7 @@ You are responsible for arranging certification, which is a complex, time-consum
 1. To check your eligibility to use this feature, email <sales@multisafepay.com>
 Specify in your request:
     - The payment methods you want to integrate
-    - The websites under your account this applies to
+    - The sites under your account this applies to
     - The type of products you will sell  
     - Your average order values and volumes, and any available processing statements. 
 2. We check your account and company performance.
