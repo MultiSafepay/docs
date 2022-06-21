@@ -167,4 +167,3 @@ Check if the transaction amount is noticeably higher or lower than average. Are 
 > 💬  Support
 > Email <support@multisafepay.com>
 [Top of page](#)
-[Top of page](#)

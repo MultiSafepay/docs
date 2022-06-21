@@ -11,7 +11,8 @@ slug: 'alipay'
 
 [Alipay](https://global.alipay.com/platform/site/ihome) is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online, QR, and contactless POS payments, as well as international money transfers.
 
-For Chinese customers, Alipay accounts are verified and linked to their Chinese bank account. Since 2021, non-Chinese&nbsp;customers can also pay with Alipay using the Tour Pass.
+For Chinese customers, Alipay accounts are verified and linked to their Chinese bank account. Since 2021, non-Chinese customers can also pay with Alipay using the Tour Pass.
+
 
 Read how Alipay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/alipay)
 

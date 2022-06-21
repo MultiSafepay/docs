@@ -44,4 +44,3 @@ To ensure transparency, payment service providers can choose the Interchange++ p
 > 💬  Support
 > Email <support@multisafepay.com>
 [Top of page](#)
-[Top of page](#)

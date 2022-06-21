@@ -269,4 +269,3 @@ try {
 > Email <integration@multisafepay.com>
 > Email <integration@multisafepay.com>
 [Top of page](#)
-[Top of page](#)

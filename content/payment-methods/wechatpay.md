@@ -115,4 +115,3 @@ First apply to MultiSafepay, and then activate in your dashboard.
 > 💬  Support
 > Email <support@multisafepay.com>
 [Top of page](#)
-[Top of page](#)
