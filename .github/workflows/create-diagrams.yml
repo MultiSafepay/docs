@@ -63,6 +63,7 @@ jobs:
           labels: |
             mermaid diagram
             automated pr
+          base: readmedocs-staging
           draft: false
           delete-branch: true
           commit-message: Automated mermaid diagram PR
