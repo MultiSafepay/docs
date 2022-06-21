@@ -55,8 +55,17 @@ jobs:
               npx mmdc -i $file -o static/diagrams/svg/${fname}.svg --configFile static/diagrams/config.json
             fi
           done
-
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      
+      - uses: peter-evans/create-pull-request@v4
+        name: Create Pull Request
         with:
-          commit_message: Generate mermaid diagrams
-          file_pattern: static/diagrams/svg/*
+          add-paths: static/diagrams/svg/*
+          labels: |
+            mermaid diagram
+            automated pr
+          draft: false
+          delete-branch: true
+          commit-message: Automated mermaid diagram PR
+          title: Automated mermaid diagram PR
+          branch: automated-diagrams
+          branch-suffix: short-commit-hash
