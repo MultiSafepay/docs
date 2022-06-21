@@ -1,4 +1,4 @@
-name: URL Checker
+name: Delete branch
 on:
 #  pull_request:
 #    types: [ closed ]
