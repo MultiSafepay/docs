@@ -73,3 +73,5 @@ jobs:
   delete-branch:
     needs: create-diagrams
     uses: ./.github/workflows/manual.yml
+    with:
+      branch: ${{ github.ref_name }}
