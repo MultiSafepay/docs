@@ -23,3 +23,4 @@ For support, create an issue in this repository or email <integration@multisafep
 
 ## Join us
 Are you a developer interested in working at MultiSafepay? Check out our [job openings](https://apply.workable.com/multisafepay/) and get in touch!
+
