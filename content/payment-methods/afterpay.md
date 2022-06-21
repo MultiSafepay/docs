@@ -26,31 +26,7 @@ Read how AfterPay can benefit your business on [multisafepay.com](https://www.mu
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant A as AfterPay
-    participant Me as Merchant
-
-    C->>Mu: Selects AfterPay at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page to accept terms & conditions <br> and provide their email address, date of birth, and phone number, <br> then redirects to your success page
-    else Direct flow
-    Mu->>C: Redirects to AfterPay
-    end
-    A->>Mu: Authorizes the payment
-    Mu->>A: Captures the funds
-    Me->>C: Ships the order
-    Note over Me,C: Manually change the order status to Shipped. 
-    A->>C: Sends invoice (standard period of 14 days, settlement is now guaranteed)
-    C->>A: Completes payment with preferred method
-    A->>Mu: Transfers funds 
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}}
+![AfterPay payment flow](https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/afterpay-payment-flow.svg)
 
 # Payment statuses
 
