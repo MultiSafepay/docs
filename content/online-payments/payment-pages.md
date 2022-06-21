@@ -133,7 +133,7 @@ If you include a `shopping_cart` object when you [create an order](https://docs-
 <summary>How to hide the shopping cart</summary>
 <br>
 
-1. To request to enable **Advanced site templates** for your MultiSafepay account, email <integration@multisafepay.com>
+1. To request to enable **Advanced website templates** for your MultiSafepay account, email <integration@multisafepay.com>
 2. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/). 
 3. Go to **Settings** > **New payment pages**.
 4. Next to the relevant site, click **Template**.
