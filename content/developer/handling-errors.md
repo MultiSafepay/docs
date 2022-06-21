@@ -1,8 +1,9 @@
 ---
-title : "Handling errors"
+title: "Handling errors"
 category: 62962df622e99600810c117d
 order: 20
 hidden: false
+slug: 'errors'
 ---
 
 This page lists errors you may encounter in transaction responses or statuses, or under **Offline actions** in your MultiSafepay dashboard, and possible causes.
@@ -36,19 +37,19 @@ Check that your account ID was properly formatted, e.g. fix typing errors and re
 
 The [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid site ID, or the site ID provided doesn’t match the account ID. 
 
-To retrieve a site ID from your MultiSafepay dashboard, go to **Settings** > **Website settings**, and then click the relevant website.
+To retrieve a site ID from your MultiSafepay dashboard, go to **Settings** > **Website settings**, and then click the relevant site.
 
 ### Error 1005: Invalid secure code
 
 The [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid secure code, or the secure code doesn't match the account ID or site ID provided. 
 
-To retrieve a secure code from your MultiSafepay dashboard, go to **Settings** > **Website settings**, and then click the relevant website.
+To retrieve a secure code from your MultiSafepay dashboard, go to **Settings** > **Website settings**, and then click the relevant site.
 
 ### Error 1006: Invalid transaction ID
 
 The [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid transaction ID. 
 
-The transaction ID provided must be unique. The transaction ID you provided may have already been used for a completed transaction for that website (site ID). Consider creating a new website profile in your MultiSafepay dashboard.
+The transaction ID provided must be unique. The transaction ID you provided may have already been used for a completed transaction for that site (site ID). Consider creating a new site profile in your MultiSafepay dashboard.
 
 ### Error 1007: Invalid IP address
 
@@ -135,9 +136,9 @@ The country code in the [create order](https://docs-api.multisafepay.com/referen
 
 The requested site is disabled in your MultiSafepay dashboard.
 
-To reactivate the website in your MultiSafepay dashboard:
+To reactivate the site in your MultiSafepay dashboard:
 
-1. Go to **Settings** > **Website settings**, and select the relevant website.
+1. Go to **Settings** > **Website settings**, and select the relevant site.
 2. From the **Status** list, select **Active**.
 3. Click **Save**.
 
@@ -165,7 +166,7 @@ The gateway for the payment method is unavailable. This error can occur with dir
 
 - Check whether the specified payment gateway supports direct requests.
 - Ensure a payment gateway was specified in the [create order](https://docs-api.multisafepay.com/reference/createorder) request.
-- Check if the website is correctly configured for direct requests.
+- Check if the site is correctly configured for direct requests.
 
 ### Error 1024: Transaction refused
 
@@ -231,7 +232,7 @@ We recalculate the amount for each item (excluding tax) and the taxes (only 9% o
 
 Check that:
 
-- The tax tables provided match the values used to calculate the tax owing in the merchant’s website.
+- The tax tables provided match the values used to calculate the tax owing in the merchant’s site.
 - You provided the amount for all order items:  
     - Excluding total tax
     - Including total tax

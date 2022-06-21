@@ -105,7 +105,7 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 - **General information:** Contains all the main support information. We recommend reading this first.
 - **General settings:** Contains all main settings.  
   - Here you can configure all gateways and gift cards.  
-  - Enter your [account ID, site ID, site secure code](/websites/#site-id-api-key-and-secure-code).   
+  - Enter your [account ID, site ID, site secure code](/sites/#site-id-api-key-and-secure-code).   
 - **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
     - Make sure you have activated your selected payment methods in your MultiSafepay dashboard.
 - **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  
@@ -442,7 +442,7 @@ See [Setting order lifetimes](#order-lifetimes) above.
 
 ## Shipping orders
 
-When you ship [pay later](/pay-later/) orders, you need to change the order status from **completed** to **shipped**. This prevents the order expiring and triggers invoicing. 
+When you ship [pay later](/pay-later/) orders, you need to change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you do so in your Magento 2 backend, the updated status is passed to your MultiSafepay dashboard automatically.
 

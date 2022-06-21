@@ -1,11 +1,11 @@
 ---
-title : 'Uncaptured card payments'
+title: 'Uncaptured card payments'
 category: 6298bd782d1cf4006032e765
 order: 208
 hidden: false
 parentDoc: 62a727569e389a012f577acd
 excerpt: Capture or decline potentially fraudulent card payments.
-slug: uncaptured
+slug: 'uncaptured'
 ---
 
 To help reduce the risks associated with accepting credit cards, MultiSafepay's automated fraud filter reviews all card payments.
@@ -159,7 +159,11 @@ Check if the transaction amount is noticeably higher or lower than average. Are 
 </details>
 <br>
 
-> 📘 **More info**
-> See also [Viewing your uncleared balance](/account/balance/#viewing-your-uncleared-balance).
->
-> For more information or support, email <support@multisafepay.com>
+---
+
+> ℹ️ See also
+> [Viewing your uncleared balance](/account-balance/#uncleared-balance)
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

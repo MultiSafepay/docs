@@ -25,7 +25,7 @@ Second Chance emails are also sent for manually generated [payment links](/payme
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Website settings**.
-3. Select the relevant website.
+3. Select the relevant site.
 4. Under **Website functionality**, select the **Enable Second Chance** checkbox.
 
 </details>
@@ -49,7 +49,7 @@ The Second Chance email template is completely customizable.
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Email templates**.
-3. Select the relevant website.
+3. Select the relevant site.
 4. Click **Add new template**.
 5. From the **Type** list, select **Second Chance email (to consumer)**.
 6. From the **Language** list, select the relevant language.

@@ -4,6 +4,7 @@ category: 62962dee7af1c800355771a1
 order: 202
 hidden: false
 parentDoc: 629f40cdef2c3001bbd78848
+slug: 'afas'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/AFAS.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
@@ -21,5 +22,5 @@ For generating automated accounting reports, see Forque – [AFAS](https://www.f
 ## De Viske ICT
 For middleware solutions to automate processes and efficiently exchange data between AFAS and other applications, see De Viske ICT – [Applicaties](https://deviske.nl/applicaties/).
 
-> 📘 **Support**
+> 💬  Support
 > Email <support@multisafepay.com>

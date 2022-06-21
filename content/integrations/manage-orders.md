@@ -24,8 +24,8 @@ Orders can be linked to multiple **transactions**. A transaction represents an i
 
 The most common operation to perform with our API is creating an order. To specify which payment flow the customer experiences for that order, set the order `type` to `direct` or `redirect`.
 
-|  |  |  |
-|---|---|---|
+|  |  |
+|---|---|
 | **Direct** | The customer selects their payment method in your embedded checkout. | 
 | **Redirect** | The customer is redirected first to a [payment page](/payment-pages/) to select their payment method. | 
 
@@ -33,7 +33,7 @@ The most common operation to perform with our API is creating an order. To speci
 
 Before making any API requests, you must:
 
-- Have a [site API key](/websites/#site-id-api-key-and-secure-code).
+- Have a [site API key](/sites/#site-id-api-key-and-secure-code).
 - Choose the test or live [environment](https://docs-api.multisafepay.com/reference/environments).
 
 You must include your API key in the request URL as a query parameter to be able to authenticate your request.  
@@ -96,7 +96,7 @@ If you receive an error in the response, see [Handling errors](/errors/handling-
 
 Otherwise, open the `payment_url` to complete the payment on the payment page. 
 
-For further details on how to test each payment method, see [Test payment details](/testing/test-payment-details/). If this is your first time, we recommend following the steps for [iDEAL](/testing/#details-ideal).
+For further details on how to test each payment method, see [Testing](/testing/test-payment-details/). If this is your first time, we recommend following the steps for [iDEAL](/testing/#details-ideal).
 
 # Get order details
 

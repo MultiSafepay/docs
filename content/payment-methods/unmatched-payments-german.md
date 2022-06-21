@@ -1,10 +1,10 @@
 ---
-title : 'Verbinden von unzugeordneten Banküberweisungen'
+title: 'Verbinden von unzugeordneten Banküberweisungen'
 category: 6298bd782d1cf4006032e765
 order: 104
 hidden: true
 parentDoc: 62a728d48b97080046c1d220
-slug: unzugeordneten-banküberweisungen
+slug: 'unzugeordneten-banküberweisungen'
 ---
 
 Wenn MultiSafepay eine Banküberweisung von Kund:innen erhält, verbinden wir diese aufgrund der angegebenen Zahlungsdetails automatisch mit der entsprechenden Transaktion in unserem System. 
@@ -54,6 +54,10 @@ Um die Transaktion erneut zu erstellen, überprüfen Sie, ob ein [Zahlungslink](
 5. Klicken Sie auf **Bestätigen**, um die Transaktion in unserem System zu generieren. 
 
 **Bitte beachten:** Die Bestellnummer muss für jeden Zahlungslink einzigartig sein.
+<br>
 
-> 📘 **Support**
-> Schicken Sie eine E-mail an unser Support-Team an <support@multisafepay.com>
+---
+
+> 💬  Support
+> E-mail <support@multisafepay.com>
+[Top of page](#)

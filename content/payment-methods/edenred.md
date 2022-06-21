@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 401
 hidden: false
 parentDoc: 62a32bf042021c00e1cd7e5c
-slug: edenred
+slug: 'edenred'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/edenred.svg" width="80" align="right" style="margin: 20px 20px 20px 30px; max-height: 75px"/>
@@ -16,15 +16,16 @@ slug: edenred
 - Ticket Compliments
 - Ticket Sport & Culture
 
-# Overview
+Read how Edenred can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/edenred)
 
-|   |   |
+| Overview | Details |
 |---|---|
+| **Chargebacks** | No |
 | **Countries**  | Belgium  | 
-| **Currencies** | EUR  | 
-| **Chargebacks** | No | 
+| **Currencies** | EUR  |  
+| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions) |
 | **Refunds** | No |
-| **Supports** | [Second Chance](/second-chance/) |
+| **Second Chance** | [Yes](/second-chance/) |
 
 ### Terms and conditions
   
@@ -32,7 +33,7 @@ slug: edenred
 - For each voucher, you must comply with Edenred's rules regarding permitted products and services. 
 - An Edenred prepaid card can contain multiple Edenred vouchers.
 - Edenred vouchers can be used for partial payments in combination with another payment method.
-- View all the Edenred transactions for your website in [My Edenred](https://myedenred.be).
+- View all the Edenred transactions for your site in [My Edenred](https://myedenred.be).
 
 # Payment flow
 
@@ -57,33 +58,48 @@ sequenceDiagram
 
 # Payment statuses  
 
+- **Order status:** Changes as the customer's order with you progresses towards shipment 
+- **Transaction status:** Changes as the funds progress towards settlement in your account balance
+
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
-
-**Transaction status:** Changes as the funds progress towards settlement in your account balance
-
-For more information, see [Payment statuses](/payment-statuses/).
-
-| Description | Order status | Transaction status |
+| Description | Order | Transaction |
 |---|---|---|
 | For partial payment with another method: The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 
 </details>
 
-# Activation and integration
+# Activation 
 
-| | |
+<details id="how-to-activate-edenred">
+<summary>How to activate Edenred</summary>
+<br>
+
+1. Fill out the Edenred – [Registreer mijn website](https://registreermijnwebsite.edenred.be/) form, selecting the relevant checkbox for each voucher you want to offer.
+2. Sign a contract with Edenred. They'll give you an Edenred Merchant ID.
+3. Email your Edenred Merchant ID to <sales@multisafepay.com>
+4. We activate the payment method for your account.
+</details >
+
+# Integration
+
+To test 
+
+| Integration | Details |
 |---|---|
-| **Activation** | [Edenred activation](/payment-methods/#edenred) |
-| **Checkout options** | [Payment pages](/payment-pages/) (current and deprecated versions) |
-| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Edenred redirect <br> By default, all activated Edenred vouchers display at checkout, but you can also specify which Edenred vouchers to display per transaction. |
 | **Ready-made integrations** | Only supported in our [Magento 2](/magento-2/) integration. |
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> ℹ️ Testing
+> To test Edenred payments, see [Testing](/testing/#prepaid-cards).
+<br>
+
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

@@ -4,6 +4,7 @@ category: 62962dee7af1c800355771a1
 order: 204
 hidden: false
 parentDoc: 629f40cdef2c3001bbd78848
+slug: 'exact'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Exact.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
@@ -160,5 +161,5 @@ For more information, see xCore – [Afletteren 2.0 Exact Online with MultiSafep
 
 For more information, see xCore – [Afletteren MultiSafepay met Exact Globe](https://xcore.nl/afletteren-exact-globe-multisafepay/).
 
-> 📘 **Support**
+> 💬  Support
 > Email <support@multisafepay.com>

@@ -4,24 +4,26 @@ category: 6298bd782d1cf4006032e765
 order: 113
 hidden: false
 parentDoc: 62a728d48b97080046c1d220
-slug: sepa-direct-debit
+slug: 'sepa-direct-debit'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/directdebit-en.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
 
 SEPA Direct Debit is a European banking payment method where customers authorize automatic one-off or recurring debits directly from their bank account. It is available in 36 countries and supports Sofort and iDEAL.
 
-See how SEPA Direct Debit can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/direct-debit).
+Read how SEPA Direct Debit can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/direct-debit)
 
-# Overview
-
-|   |   |
+| Overview | Details |
 |---|---|
+| **Chargebacks**  | [Yes](/chargebacks/) (see below) | 
 | **Countries**  | [SEPA region](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf)  | 
 | **Currencies**  | EUR | 
-| **Chargebacks**  | [Yes](/chargebacks/) (see below) | 
-| **Refunds** | [Full and partial](/refunds/)  |
-| **Supports** | [Recurring payments](/recurring-payments/), [Second Chance](/second-chance/) <br> [Virtual IBANs](/virtual-ibans/) to better manage SEPA Direct Debit payments | 
+| **Payment components** | [Yes](/payment-components/) |
+| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions)  |
+| **Recurring payments** | [Yes](/recurring-payments/) |
+| **Refunds** | [Yes](/refunds/): Full and partial  |
+| **Second Chance** | [Yes](/second-chance/) |
+| **Virtual IBANs** | [Yes](/virtual-ibans/) to better manage SEPA Direct Debit payments | 
 
 # Payment flow
 
@@ -50,47 +52,76 @@ sequenceDiagram
 
 # Payment statuses   
 
+- **Order status:** Changes as the customer's order with you progresses towards shipment 
+- **Transaction status:** Changes as the funds progress towards settlement in your account balance
+
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
-
-**Transaction status:** Changes as the funds progress towards settlement in your account balance
-
-For more information, see [Payment statuses](/payment-statuses/).
-
-| Description | Order status | Transaction status |
+| Description | Order | Transaction |
 |---|---|---|
-| **Payments** | | |
 | MultiSafepay's customer background check was successful and we've generated an e-mandate. | Initialized  | Initialized |
 | We've sent the e-mandate to the customer's bank. You can no longer cancel. | Uncleared | Uncleared |
 | MultiSafepay has collected payment.| Completed | Completed |
 | The customer cancelled the transaction or requested a chargeback, or their bank declined the transaction. | Void | Void |
 | The customer's bank declined the transaction. See the [reason codes](#declined-transactions) below. | Declined | Declined   |
-|**Refunds**|||
+
+</details>
+
+<details id="refund-statuses">
+<summary>Refund statuses</summary>
+<br>
+
+| Description | Order | Transaction |
+|---|---|---|
 | Refund initiated. | Reserved | Reserved |
 | Refund complete. | Completed | Completed | 
 
 </details>
 
-<details id="about-e-mandates">
-<summary>About e-mandates</summary>
+# Activation 
+
+First apply to MultiSafepay, and then activate in your dashboard. 
+
+<details id="how-to-activate-sepa-direct-debit"> 
+<summary>How to activate SEPA Direct Debit</summary>
 <br>
-  
-MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a first debit or recurring debit. We send all e-mandates to our bank at the end of every business day.  
+
+1. Email a request to <risk@multisafepay.com> 
+    
+    Include in the request the following information:
+    - Monthly and annual SEPA Direct Debit transaction volume
+    - Minimum and maximum transaction amount
+    - Type of products sold using this payment method
+    - Whether you want to accept [recurring payments](/recurring-payments/)
+    - Whether any subscriptions are monthly, quarterly, or annual
+    - Any additional information we request
+    We send you an agreement to sign and email back to us.
+
+2. We check your eligibilty and if approved, activate the payment method for your account. 
+3. Once approved, sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+4. Go to **Settings**. 
+5. To enable the payment method for:
+    - All sites, go to **Payment methods**.
+    - A specific site, go to **Website settings**, and click the relevant site.
+6. Select the checkbox for the relevant payment method, and then click **Save changes**.
+
+> 💬  Support
+> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
 
 </details>
 
-# Activation and integration
+# Integration
 
-| | |
+| Integration | Details |
 |---|---|
-| **Activation** | [Apply to MultiSafepay](/payment-methods/#apply-to-multisafepay) |
-| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) (current and deprecated versions)  |
-| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > SEPA Direct Debit direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct) |
+<br>
+
+> ℹ️ Testing
+> To test SEPA Direct Debit payments, see [Testing](/testing/#banking-methods).
 <br>
 
 ---
@@ -152,6 +183,10 @@ For more information in:
 
 </details>
 
+## E-mandates
+
+MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a first debit or recurring debit. We send all e-mandates to our bank at the end of every business day.  
+
 ## Refund risk
 
 There is a risk that if you refund a customer and they also request a chargeback, you pay their money back twice. Customers can even request a chargeback after successfully receiving a refund.
@@ -172,5 +207,8 @@ To reduce the chances of this happening, we strongly recomend:
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

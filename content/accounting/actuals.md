@@ -4,6 +4,7 @@ category: 62962dee7af1c800355771a1
 order: 201
 hidden: false
 parentDoc: 629f40cdef2c3001bbd78848
+slug: 'actuals-live'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/actuals-io.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
@@ -19,9 +20,9 @@ To connect your Actuals account to your MultiSafepay account:
 2. Go to **Configuration**.
 3. Under **Payment service provider** > **MultiSafepay**, click **Add**.
 4. In the **Configuration name** field, rename the configuration, if relevant.
-5. In the **MultiSafepay API Key** field, enter your MultiSafepay [site API key](/websites/#site-id-api-key-and-secure-code), and then click **Save**.
+5. In the **MultiSafepay API Key** field, enter your MultiSafepay [site API key](/sites/#site-id-api-key-and-secure-code), and then click **Save**.
 6. To check the connection, go to **Configuration**.
 7. Under **In-use sources**, check that the **Status** of your MultiSafepay configuration is **Live**.
 
-> 📘 **Support**
+> 💬  Support
 > Email <support@multisafepay.com>

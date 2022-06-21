@@ -4,6 +4,7 @@ category: 62962dee7af1c800355771a1
 order: 106
 hidden: false
 parentDoc: 629f40b87c755200870646a0
+slug: 'second-chance-report'
 ---
 
 This report provides an overview (in Excel format) of all transactions:
