@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 111
 hidden: false
 parentDoc: 62a728d48b97080046c1d220
-slug: ing-home-pay
+slug: 'ing-home-pay'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/ING_Homepay.svg" width="50" align="right" style="margin: 55px 20px 20px 20px; max-height: 75px"/>
@@ -25,5 +25,8 @@ Check your integration. If you use a:
 [Bancontact](/bancontact/), Belgium’s leading payment method, is an excellent option to continue attracting Belgian customers. Other popular local alternatives are [Belfius](/belfius/) or [CBC/KBC](/cbc-kbc/).
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

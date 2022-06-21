@@ -1,5 +1,5 @@
 ---
-title : "Currencies"
+title: "Currencies"
 category: 62962dcdbccb9a001d4bbc81
 order: 204
 hidden: false
@@ -78,5 +78,5 @@ You can make [payouts](/payouts/) in:
 | DKK (Danish krone) | NOK (Norwegian krone) |  |
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> Email <support@multisafepay.com>

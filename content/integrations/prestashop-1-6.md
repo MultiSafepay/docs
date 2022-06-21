@@ -1,5 +1,5 @@
 ---
-title : "PrestaShop 1.6"
+title: "PrestaShop 1.6"
 category: 62962dd7e272a6002ebbbbc5
 order: 104
 hidden: false
@@ -387,7 +387,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 3. Go to **Modules and services** > **Payments and gateways**.  
     **Note:** You must install and configure the MultiSafepay Core Module (MultiSafepay) because all payment methods require certain settings and/or the API key in the core module.
 4. In the next screen, proceed with the installation.
-5. Enter your [API key](/websites/#site-id-api-key-and-secure-code), and then click **Save**.
+5. Enter your [API key](/sites/#site-id-api-key-and-secure-code), and then click **Save**.
 6. On the **Payments** tab, enable the relevant payment methods.
 
 # User guide

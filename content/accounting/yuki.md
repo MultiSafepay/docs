@@ -4,6 +4,7 @@ category: 62962dee7af1c800355771a1
 order: 210
 hidden: false
 parentDoc: 629f40cdef2c3001bbd78848
+slug: 'yuki'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Yuki.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
@@ -50,7 +51,7 @@ You can also integrate with [Duopact](https://www.snelkoppeling.eu/productoverzi
 
 To connect Duopact with your MultiSafepay account, see Duopact – [Contact](https://www.duopact.nl/nl/contact/).  
 
-Provide Duopact with your MultiSafepay [site API key](/websites/#site-id-api-key-and-secure-code). They will set up a Yuki account for you. 
+Provide Duopact with your MultiSafepay [site API key](/sites/#site-id-api-key-and-secure-code). They will set up a Yuki account for you. 
 
 </details >
 
@@ -59,7 +60,7 @@ Provide Duopact with your MultiSafepay [site API key](/websites/#site-id-api-key
 <br>
 
 1. Sign in to your [Duopact account](https://portal.yukiconnector.nl/).
-2. If you operate multiple websites, select the relevant site from the top-left menu.
+2. If you operate multiple sites, select the relevant site from the top-left menu.
 3. Go to **Bankmutaties** > **MultiSafepay**.
 4. Click the green button under the **Status** tab.
 
@@ -67,5 +68,5 @@ Provide Duopact with your MultiSafepay [site API key](/websites/#site-id-api-key
 
 </details>
 
-> 📘 **Support**
+> 💬  Support
 > Email <support@multisafepay.com>

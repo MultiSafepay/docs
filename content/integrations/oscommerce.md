@@ -1,5 +1,5 @@
 ---
-title : "OsCommerce"
+title: "OsCommerce"
 category: 62962dd7e272a6002ebbbbc5
 order: 114
 hidden: false
@@ -108,7 +108,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 2. Sign in to your OsCommerce backend.
 3. Go to **Modules** > **Payment**.
 4. Click **Install modules** in the top-right corner.
-5. Enter your [API key](/websites/#site-id-api-key-and-secure-code), and then complete the other fields as required.
+5. Enter your [API key](/sites/#site-id-api-key-and-secure-code), and then complete the other fields as required.
 
 # User guide
 

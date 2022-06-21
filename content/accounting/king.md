@@ -4,6 +4,7 @@ category: 62962dee7af1c800355771a1
 order: 205
 hidden: false
 parentDoc: 629f40cdef2c3001bbd78848
+slug: 'king'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/King.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
@@ -13,6 +14,6 @@ You can import MultiSafepay [accountant export](/accounting/reports/accountant-e
 
 For import instructions, see King Business Software – [Service](https://service.king.eu).
 
-> 📘 **Support**
+> 💬  Support
 > Email <support@multisafepay.com>
 

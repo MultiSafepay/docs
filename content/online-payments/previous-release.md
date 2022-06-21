@@ -1,5 +1,5 @@
 ---
-title : 'Previous release'
+title: 'Previous release'
 category: 6278c92bf4ad4a00361431b0
 order: 304
 hidden: false

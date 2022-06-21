@@ -1,10 +1,10 @@
 ---
-title : 'MOTO'
+title: 'MOTO'
 category: 6298bd782d1cf4006032e765
 order: 207
 hidden: false
 parentDoc: 62a727569e389a012f577acd
-slug: moto
+slug: 'moto'
 ---
 
 Mail Order/Telephone Order (MOTO) is a MultiSafepay solution that lets you process card-not-present payments over the phone or by email. 
@@ -35,7 +35,7 @@ Once activated, to process MOTO payments, follow these steps:
 2. Go to **Tools** > **Mail & phone payments**.
 3. Under **Payment details**:  
     - From the **Currency** list, select the currency, and then enter the amount.
-    - From the **Site** list, select the relevant website. 
+    - From the **Site** list, select the relevant site. 
     - Enter an order ID, if relevant.
     - Enter an order description.
 4. Under **Credit card details**, enter the payment details provided by the customer by email or telephone. 
@@ -62,5 +62,8 @@ In the `gateway_info` object, include the `moto` parameter.
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

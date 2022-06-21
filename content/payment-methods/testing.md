@@ -10,7 +10,7 @@ Before you start processing real transactions with MultiSafepay, we recommend te
 
 # Credentials
 
-For all payment methods **except** AfterPay, you need your site's test [API key](/websites/#site-id-api-key-and-secure-code).
+For all payment methods **except** AfterPay, you need your site's test [API key](/sites/#site-id-api-key-and-secure-code).
 
 # How to make a test payment
 
@@ -20,7 +20,7 @@ For all payment methods **except** AfterPay, you need your site's test [API key]
     <summary>Ready-made integration</summary>
     <br>
 
-    - In your backend, enter your test site [API key](/websites/#site-id-api-key-and-secure-code).
+    - In your backend, enter your test site [API key](/sites/#site-id-api-key-and-secure-code).
     - Place a test order, and then initiate a transaction with the payment method you are testing. 
 
     </details>
@@ -403,7 +403,7 @@ To test refunding an order via the API:
 
 **Test credentials**
 
-- [Site API key](/websites/#site-id-api-key-and-secure-code)
+- [Site API key](/sites/#site-id-api-key-and-secure-code)
 - [Klarna's test credentials](https://docs.klarna.com/resources/test-environment/)
 
 **Test a Klarna order** 
@@ -732,7 +732,11 @@ You can test refunds for the following methods:
 
 <br>
 
-> 📘 **More info**
+---
+
+> ℹ️ See also
 > If you encounter any issues during testing, see [Handling errors](/handling-errors/).
->
-> For more information or support, email <integration@multisafepay.com>
+
+> 💬  Support
+> Email <integration@multisafepay.com>
+[Top of page](#)

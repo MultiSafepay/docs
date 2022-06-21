@@ -1,10 +1,10 @@
 ---
-title : 'Chargebacks'
+title: 'Chargebacks'
 category: 6298bd782d1cf4006032e765
 order: 204
 hidden: false
 parentDoc: 62a727569e389a012f577acd
-slug: chargebacks
+slug: 'chargebacks'
 ---
 
 Chargebacks arise when a cardholder disagrees with or doesn't recognize a transaction charged to their credit card, and requests the issuer to reverse it. The card scheme notifies MultiSafepay and reclaims the transaction amount from you.
@@ -161,7 +161,7 @@ To dispute this type of chargeback, you need to provide:
 
 - Evidence of the cardholder using the service 
 - Evidence of delivery of products/services that the cardholder didn't return
-- Evidence that the cardholder had to click to accept your cancellation policy, and that your policy doesn't include the right to dispute terms and conditions available on your website 
+- Evidence that the cardholder had to click to accept your cancellation policy, and that your policy doesn't include the right to dispute terms and conditions available on your site 
 - An invoice number 
 - A track & trace number
 - Evidence of communications with the cardholder
@@ -333,7 +333,7 @@ The cardholder informs American Express that they believe the transaction is fra
 To dispute this type of chargeback, you need to provide:
 
 - Proof that the cardholder agreed to the transaction, made the booking/reservation, and received confirmation 
-- Your website name, URL, IP address, and cancellation policy 
+- Your site name, URL, IP address, and cancellation policy 
 - Signed proof that the product/service was shipped and delivered, and the delivery address and date
 
 </details>
@@ -542,7 +542,7 @@ Cardholders are not allowed to request chargebacks due to fraud for 3D Secure-pr
 <summary>Goods not as described</summary>
 <br>  
 
-Offer quality items and provide clear descriptions on your website. 
+Offer quality items and provide clear descriptions on your site. 
 </details>
 
 <details id="transaction-not-recognized">
@@ -558,5 +558,8 @@ Including your logo in customer's online bank environments and applications can 
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

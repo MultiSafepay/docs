@@ -1,5 +1,5 @@
 ---
-title : "Invoices"
+title: "Invoices"
 category: 62962dcdbccb9a001d4bbc81
 order: 206
 hidden: false
@@ -89,5 +89,5 @@ If you do not specify an email address, we use the main business email address p
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <invoice@multisafepay.com>
+> 💬  Support
+> Email <invoice@multisafepay.com>

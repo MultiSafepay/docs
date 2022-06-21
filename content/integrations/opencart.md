@@ -1,5 +1,5 @@
 ---
-title : "OpenCart"
+title: "OpenCart"
 category: 62962dd7e272a6002ebbbbc5
 order: 113
 hidden: false
@@ -53,7 +53,7 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
     - **Order status** tab
     - **Options** tab  
 
-To retrieve your API key, see [Viewing the site ID, API key, and secure code](/websites/#site-id-api-key-and-secure-code).
+To retrieve your API key, see [Viewing the site ID, API key, and secure code](/sites/#site-id-api-key-and-secure-code).
 
 # User guide
 

@@ -1,8 +1,9 @@
 ---
-title : "Reconciliation via API"
+title: "Reconciliation via API"
 category: 62962dee7af1c800355771a1
 order: 300
 hidden: false
+slug: 'api-reconciliation'
 ---
 The transactions API endpoint returns details about your transactions. You can use it to automate reconciliation and gain insight into your transactions.
 
@@ -35,5 +36,5 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?completed_fro
 curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?type=refund" --header "accept: application/json" --header "api_key: <your-account-api-key>"
 ```
 
-> 📘 **Support**
+> 💬  Support
 > Email <support@multisafepay.com>
