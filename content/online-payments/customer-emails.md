@@ -12,7 +12,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com). 
 2. Go to **Settings** > **Email templates**.  
-3. Click the relevant website.  
+3. Click the relevant site.  
 4. Click **Add new template**.   
 5. From the **Type** list, select the template type.  
 
@@ -164,7 +164,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
     1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
     2. Go to **Settings** > **Website settings** > **Upload a new file**.  
     3. In the **Files** directory, under **Actions**, click **Copy to clipboard** to copy the file's URL (starting with https://media.multisafepay.com/merchants/).
-    4. Go to **Settings** > **Email templates**, and then click the relevant website.
+    4. Go to **Settings** > **Email templates**, and then click the relevant site.
     5. Click the orange pen icon to edit the template.
     6. Click the **Image** icon in the first row of the editor.
     7. In the **Image properties** window, in the **URL field**, paste the URL.

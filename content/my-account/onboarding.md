@@ -23,7 +23,7 @@ Sign in to your [live dashboard](https://merchant.multisafepay.com/) and, under 
 | **Company details** | Company address, VAT number, and Chamber of Commerce number |
 | **Business bank account number** | This must exactly match at least one of the trade names listed on your Chamber of Commerce extract. |
 | **Products/services** | See [Prohibited products and services](/prohibited-products-services/). | 
-| **Site URL** | The URL of at least one site you accept payments through, or select the **I don't have a website** checkbox. <br> If you provide a URL, you can now start receiving payments into your MultiSafepay balance. However, you cannot [pay out](/payouts/) funds until onboarding is complete. |
+| **Site URL** | The URL of at least one site you accept payments through, or select the **I don't have a site** checkbox. <br> If you provide a URL, you can now start receiving payments into your MultiSafepay balance. However, you cannot [pay out](/payouts/) funds until onboarding is complete. |
 | **Credit card payments** | If you intend to accept cards, provide your: <br> - Minimum, average, and maximum order value <br> - Annual turnover from credit card transactions |
 
 ## Pre-screening
@@ -53,7 +53,7 @@ We will request new documentation, such as UBO statements or copies of identific
 **Company takeover**  
 If a different company is taking over your account, we recommend opening a **new** account to separate the money flow. 
 
-Make sure you update all company details on the website(s), including the registration number, VAT number, and address. The company details on the website must match the details in your account.
+Make sure you update all company details on the site(s), including the registration number, VAT number, and address. The company details on the site must match the details in your account.
 
 </details>
 
@@ -132,10 +132,10 @@ It was based on the Disclosure of Unusual Transactions or Financial Services Act
 
 # 5. Display required information
 
-You must display the following required information on your website. 
+You must display the following required information on your site. 
 
-<details id="required-website-information">
-<summary>Required website information</summary>
+<details id="required-site-information">
+<summary>Required site information</summary>
 <br>
 
 - Full legal company name, address, phone number, and email address
@@ -159,7 +159,7 @@ As a payment service provider and acquirer, MultiSafepay is legally required to 
 - Account holder
 - Business bank account
 - Merchant
-- Website
+- Site
 
 To help you start accepting payments as quickly as possible, we divide our checks into two phases:
 
@@ -194,4 +194,4 @@ If financials are requested, we request your most recent balance sheet, and prof
 > Email <risk@multisafepay.com>
 
 > ❕ **Disclaimer** 
-> The information on this website is intended for informational purposes. No rights can be derived from this information. 
+> The information on this site is intended for informational purposes. No rights can be derived from this information. 

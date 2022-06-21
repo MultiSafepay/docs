@@ -13,8 +13,8 @@ Under the PCI DSS, payment service providers and businesses that handle credit c
 
 MultiSafepay is fully PCI DSS certified. This means you can accept credit card payments through MultiSafepay [payment pages](/payment-pages/) even if you are not PCI compliant.
 
-# Required information on your website
-If you accept card payments, you must include the following information on your website:
+# Required information on your site
+If you accept card payments, you must include the following information on your site:
 
 - Official company name and registration number in the companies register
 - Full company address, email address, and phone number

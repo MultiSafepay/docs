@@ -16,7 +16,7 @@ slug: 'getting-started-guide'
 
 # 2. Set up your account
 
-- [Add at least one site](/websites/).
+- [Add at least one site](/sites/).
 - [Activate your selected payment methods](/payment-methods/).
 
 :blue-book: **Full guidance:** [Manage my account](/manage-account/)
@@ -54,7 +54,7 @@ To start processing real transaction, we need to check and approve your company 
 - Complete the live account sign up form.
 - Provide information about your company, including the ultimate beneficial owners.
 - Check the list of prohibited products and services.
-- Display required information on your website.
+- Display required information on your site.
 
 We then perform [know your customer (KYC) checks](/account/kyc/). If approved, your account goes live.
 

@@ -6,7 +6,7 @@ slug: createorder
 
 ## How to test
 
-1. Under **Authentication** > **Query**, enter an [API key](/websites#site-id-api-key-and-security-code) from your **TEST** account.
+1. Under **Authentication** > **Query**, enter an [API key](/sites#site-id-api-key-and-security-code) from your **TEST** account.
 2. Under **Body params**, select the type of order you want to create.
 3. Either:
     - Enter dummy data for relevant parameters, **or**

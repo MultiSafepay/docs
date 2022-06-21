@@ -16,7 +16,7 @@ Dit willen wij graag als MultiSafepay ook naar buiten toe uitstralen en daar kun
 Door het schrijven van een eerlijke review of beoordeling, op het platform van uw keuze.
 Wij waarderen dat enorm en zullen u niet vergeten.
 
-### Websites
+### Sites
 
 - [TrustPilot](https://nl.trustpilot.com/review/multisafepay.com)
 - [Google review](https://www.google.com/search?rlz=1C1GCEU_enNL890NL890&q=MultiSafepay&stick=H4sIAAAAAAAAAONgecSYyS3w8sc9YamESWtOXmOM4uIKzsgvd80rySypFPLhYoOyFLj4pbj10_UNSwpzjKvyCjQYpHi5kAWkFJS4eNcZ2ciLihx-yaQlxLn6zo0yb45j7oKWcUd2fZ11-hzPIlYe39KckszgxLTUgsRKAFluieJ9AAAA&sa=X&ved=2ahUKEwj94_i1hOrnAhUuNOwKHQdQBEoQ6RMwC3oECAsQBA&biw=1280&bih=610#lrd=0x47c6084b76d8dcab:0xcecb9af5bac45e39,1,,,) - Click on the stars

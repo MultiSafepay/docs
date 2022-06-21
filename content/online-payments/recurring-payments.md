@@ -19,7 +19,7 @@ MultiSafepay encrypts customers' sensitive payment details during an initial pay
 Subsequent payments are exempt from [SCA and 2FA](/pds2/).
 MultiSafepay is responsible for [PCI DSS](/pci-dss/) compliant storage of payment details. 
 
-Tokens are stored at account level rather than website level. If you operate multiple websites from a single MultiSafepay account, you can also offer cross-domain recurring payments, i.e. tokenize a customer's details on Website A and offer one-click payments on Website B.
+Tokens are stored at account level rather than site level. If you operate multiple sites from a single MultiSafepay account, you can also offer cross-domain recurring payments, i.e. tokenize a customer's details on Site A and offer one-click payments on Site B.
 
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>

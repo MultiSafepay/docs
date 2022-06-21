@@ -16,13 +16,13 @@ To integrate MultiSafepay as your payment service provider, follow these steps:
 # 1. In your dashboard
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
-2. Go to **Website settings** and [add the required site(s)](/account/managing-websites/#adding-websites) to your account.
+2. Go to **Website settings** and [add the required site(s)](/sites/) to your account.
 3. In the **Website settings** page for each site:
     - [Activate the required payment methods](/payments/activating-payment-methods/).
     - In the **Notification URL** field, add the Coppermine webhook endpoint for sending status updates and other notifications. For more information, see [Webhook](/integrations/webhooks/).
 4. Copy your:
     - Account ID (top-right corner of the dashboard)
-    - [Site ID, API key, and secure code](/websites/#site-id-api-key-and-secure-code)
+    - [Site ID, API key, and secure code](/sites/#site-id-api-key-and-secure-code)
 
 # 2. In Coppermine
 

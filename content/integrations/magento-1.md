@@ -793,7 +793,7 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 1. Sign in to your Magento 1 backend.
 2. Go to **System** > **Configuration** > **MultiSafepay x.x.x** > **Connect settings**.  
     This page contains all main settings and is used for all gateways and gift cards.  
-    To find your API key, see [API key](/websites/#site-id-api-key-and-secure-code).  
+    To find your API key, see [API key](/sites/#site-id-api-key-and-secure-code).  
     From version 3.0.0, the plugin only needs your API key. Your account ID, site ID, and site secure code are no longer needed.
 3. To configure your selected payment methods, go to **System** > **Configuration** > **MultiSafepay x.x.x**:
     - **Connect MultiSafepay gateways**  
