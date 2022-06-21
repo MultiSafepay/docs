@@ -59,5 +59,5 @@ Um die Transaktion erneut zu erstellen, überprüfen Sie, ob ein [Zahlungslink](
 ---
 
 > 💬  Support
-> Schicken Sie eine E-mail an unser Support-Team an <support@multisafepay.com>
+> E-mail <support@multisafepay.com>
 [Top of page](#)
