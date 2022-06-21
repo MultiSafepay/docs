@@ -39,7 +39,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 2. Sign in to your Zen Cart backend.
 3. Go to **Modules** > **Payment**.
 4. Select **MultiSafepay - Connect**, and then click **Install**.
-5. Enter your [API key](/websites/#site-id-api-key-and-secure-code).
+5. Enter your [API key](/sites/#site-id-api-key-and-secure-code).
 6. Click **Update**.
 7. Disable the **MultiSafepay - Connect** module.
 8. Enable the relevant payment methods.

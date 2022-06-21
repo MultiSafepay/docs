@@ -116,7 +116,7 @@ When the customer clicks or taps the ** Pay** button:
     var session = new ApplePaySession(10, ApplePayRequest);
     ```
 
-    - As the first argument, specify the Apple Pay version your website supports. 
+    - As the first argument, specify the Apple Pay version your site supports. 
     - As the second argument, pass the `ApplePayRequest` object.
     <br>
 

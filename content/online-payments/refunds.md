@@ -93,7 +93,7 @@ Make sure you have a PHP interpreter installed.
 
 For instructions and to download, see MultiSafepay GitHub – [Refund script](https://github.com/MultiSafepay/refund-script).
 
-Provide your [site API key](/websites#site-id-api-key-and-security-code) and a .csv file specifying the order ID, amount, and a description of all the transactions in the batch.
+Provide your [site API key](/sites#site-id-api-key-and-security-code) and a .csv file specifying the order ID, amount, and a description of all the transactions in the batch.
 
 </details>
 

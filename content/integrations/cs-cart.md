@@ -48,7 +48,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 4. In the next screen, enter a name for the payment method to display during checkout. 
 5. In the **Processing unit** field, specify the payment method. 
 6. Fill out the other fields as required, and click **Create**.
-7. In the **Configure** tab, enter your [account ID, site ID, and site code](/websites/#site-id-api-key-and-secure-code). 
+7. In the **Configure** tab, enter your [account ID, site ID, and site code](/sites/#site-id-api-key-and-secure-code). 
 
 Extra options such as **IP-Validation** and **debugmode** are intended for developers. Leave them unchanged.
 

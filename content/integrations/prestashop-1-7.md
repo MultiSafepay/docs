@@ -46,7 +46,7 @@ If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an o
 
 # How to configure
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **Improve** > **MultiSafepay**, and enter your [API key](/websites/#site-id-api-key-and-secure-code).
+2. Go to **Improve** > **MultiSafepay**, and enter your [API key](/sites/#site-id-api-key-and-secure-code).
 3. On the **Payment methods** tab, enable the relevant payment methods.
 4. Click **Save**.
 

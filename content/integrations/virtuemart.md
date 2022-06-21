@@ -52,7 +52,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
     - To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:
     - Account ID (top-right corner of your dashboard)
-    - [Site ID, API key, and secure code](/websites/#site-id-api-key-and-secure-code)
+    - [Site ID, API key, and secure code](/sites/#site-id-api-key-and-secure-code)
     - [Gateway ID](https://docs-api.multisafepay.com/reference/gateway-ids)
 
 # User guide

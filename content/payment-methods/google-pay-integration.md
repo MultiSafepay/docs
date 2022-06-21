@@ -13,7 +13,7 @@ With direct integration, the **Google Pay** button appears in your checkout page
 # Prerequisites
 
 - Google Pay must be [activated in your MultiSafepay account](/payment-methods/google-pay/activation/).
-- You need to register your business and website in [Google Pay's Business Console](https://pay.google.com/business/console/).
+- You need to register your business and site in [Google Pay's Business Console](https://pay.google.com/business/console/).
 - You must serve an HTTPS webpage with a TLS domain-validated certificate.
 - By accessing or using the Google Pay API, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos).
 
@@ -89,7 +89,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
 3. Define supported payment card networks.
 
-    Create an `allowedCardNetworks` array containing card networks accepted by your website:
+    Create an `allowedCardNetworks` array containing card networks accepted by your site:
 
     ```
     const allowedCardNetworks = ["MAESTRO", "MASTERCARD", "VISA"];
@@ -101,7 +101,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
 4. Define supported authentication methods.
 
-    Create an `allowedCardAuthMethods` array containing authentication methods accepted by your website:
+    Create an `allowedCardAuthMethods` array containing authentication methods accepted by your site:
 
     ```
     const allowedCardAuthMethods = ["CRYPTOGRAM_3DS", "PAN_ONLY"];

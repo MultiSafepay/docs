@@ -53,7 +53,7 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
     - **Order status** tab
     - **Options** tab  
 
-To retrieve your API key, see [Viewing the site ID, API key, and secure code](/websites/#site-id-api-key-and-secure-code).
+To retrieve your API key, see [Viewing the site ID, API key, and secure code](/sites/#site-id-api-key-and-secure-code).
 
 # User guide
 

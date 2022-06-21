@@ -47,17 +47,17 @@ See API reference – [Add UBO](https://docs-api.multisafepay.com/reference/adda
 
 The API returns a unique UBO identifier, which you can use to submit the UBO identification documents.
 
-# 4. Add websites
-See API reference – [Add site](https://docs-api.multisafepay.com/reference/addaffiliatesite) for how to submit the following information about merchants' website(s):
+# 4. Add sites
+See API reference – [Add site](https://docs-api.multisafepay.com/reference/addaffiliatesite) for how to submit the following information about merchants' site(s):
 
-- Website name and URL
+- Site name and URL
 - Contact details for customer support
  
-The API returns an API key for the website. 
+The API returns an API key for the site. 
 
 # 5. Screening and approval 
 
-After submitting this information, MultiSafepay screens the merchant accounts, bank accounts, UBO details, and websites. Once approved, the merchants can use their API key to start processing payments.
+After submitting this information, MultiSafepay screens the merchant accounts, bank accounts, UBO details, and sites. Once approved, the merchants can use their API key to start processing payments.
 <br>
 
 > 💬  Support
