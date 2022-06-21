@@ -2,7 +2,9 @@
 
 name: Create mermaid diagrams
 
+
 on:
+
 # Run on pull requests into readmedocs-staging
   pull_request:
     types: [ closed ]
@@ -12,13 +14,12 @@ on:
   workflow_dispatch:
 
 jobs:
-  create-diagrams:
-  #  if: github.event.pull_request.merged ==  true
+  build:
+    if: github.event.pull_request.merged ==  true
     runs-on: ubuntu-latest 
     name: Create diagram SVGs
     steps:
-      - name: Git checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
           ref: ${{ github.head_ref }}
@@ -54,22 +55,8 @@ jobs:
               npx mmdc -i $file -o static/diagrams/svg/${fname}.svg --configFile static/diagrams/config.json
             fi
           done
-      
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          add-paths: static/diagrams/svg/*
-          labels: |
-            mermaid diagram
-            automated pr
-          base: readmedocs-staging
-          draft: false
-          delete-branch: true
-          commit-message: Add mermaid diagram(s) [automated]
-          title: Add mermaid diagram(s) [automated]
-          branch: automated-diagrams
-          branch-suffix: short-commit-hash
-  
-  delete-branch:
-    needs: create-diagrams
-    uses: ./.github/workflows/manual.yml
+          commit_message: Generate mermaid diagrams
+          file_pattern: static/diagrams/svg/*
