@@ -20,7 +20,7 @@ You will need a [MultiSafepay account](/getting-started-guide/).
 </details>
 
 # How to install and configure
-1. Sign in to your Ecwid backend and install the MultiSafepay app from the App Store.
+1. Sign in to your Ecwid <<glossary:backend>> and install the MultiSafepay app from the App Store.
 2. Go to **Ecwid control panel** > **Settings** > **Payment page**.
 3. For each payment method, change the **Payment processor** value to **MultiSafepay**, and click **Save**.
 4. Click the **MultiSafepay account details** link. 

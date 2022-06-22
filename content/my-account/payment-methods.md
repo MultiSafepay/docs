@@ -17,7 +17,7 @@ Some payment methods you can activate yourself in your dashboard, but for some y
 
 > ℹ️ Ready-made integrations
 > If you use a [ready-made integration](/integrations/ready-made/), first check that the payment method is supported. 
-> Once the method is activated, also enable it in your backend.
+> Once the method is activated, also enable it in your <<glossary:backend>>.
 
 # Apply to MultiSafepay 
 

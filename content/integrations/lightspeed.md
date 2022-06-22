@@ -30,7 +30,7 @@ This technical manual is for installing and configuring MultiSafepay's free app 
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
-1. Sign in to your Lightspeed backend.
+1. Sign in to your Lightspeed <<glossary:backend>>.
 2. Go to **Apps** on the left-hand side of the dashboard.
 3. Search for the **MultiSafepay payments app**.
 4. Click on the app, and then on **Install app** in the top-right corner.  
@@ -42,7 +42,7 @@ This technical manual is for installing and configuring MultiSafepay's free app 
 You are redirected to the **Settings** page.
 7. We recommend enabling:
     - Refunds
-    - MultiSafepay checkout scripts – Creates a list of iDEAL issuers, and suppresses Apple Pay for non-Apple devices.
+    - MultiSafepay checkout scripts – Creates a list of iDEAL <<glossary:issuers>>, and suppresses Apple Pay for non-Apple devices.
 8. Verify the other settings, and then click **Save**.  
 
 # User guide

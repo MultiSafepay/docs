@@ -6,7 +6,7 @@ hidden: false
 slug: 'second-chance'
 excerpt: 'Boost conversion by sending customers reminders about abandoned payments.'
 ---
-Second Chance is a MultiSafepay service that automatically emails customers a payment link when they initiate but don't complete a transaction. This helps boost conversion and impulse purchases. The first email is sent 1 hour after the customer initiates the payment, and a second after 24 hours.
+Second Chance is a MultiSafepay service that automatically emails customers a payment link when they initiate but don't complete a transaction. This helps boost <<glossary:conversion>> and impulse purchases. The first email is sent 1 hour after the customer initiates the payment, and a second after 24 hours.
 
 Second Chance emails are also sent for manually generated [payment links](/payment-links/) if the customer doesn't click the link to complete payment.
 

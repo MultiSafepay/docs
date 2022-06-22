@@ -21,7 +21,7 @@ Google Analytics starts a new session whenever a customer comes to your site fro
 
 For example, a customer selects iDEAL (redirect) and then specifies their bank. They are redirected to the bank's payment page and briefly "exit" the session on your site, before returning to your success page. The customer is now counted as a new visitor, even though no new session is initiated.
 
-This makes Google Analytics reports unreliable, and they don't accurately capture conversion rates. There are two ways to mitigate this.
+This makes Google Analytics reports unreliable, and they don't accurately capture <<glossary:conversion>> rates. There are two ways to mitigate this.
 
 ## Referral exclusion list
 
@@ -82,7 +82,7 @@ verifiedbyvisa.comdirect.de
 
 ## utm_nooverride=1 parameter
 
-Add the utm_nooverride=1 parameter to your payment gateway success pages. 
+Add the utm_nooverride=1 parameter to your payment <<glossary:gateway>> success pages. 
 
 For example, for the page URL `/checkout/payment/success`, pass your gateway the following URL: `/checkout/payment/success?utm_nooverride=1`. 
 

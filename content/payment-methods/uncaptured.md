@@ -77,7 +77,7 @@ Check if the customer is enrolled for 3D Secure. On the **Transaction details** 
 <summary>Customer</summary>
 <br>
 
-You can view customer information in your dashboard and in your backend, which may contain information we do not have access to. 
+You can view customer information in your dashboard and in your <<glossary:backend>>, which may contain information we do not have access to. 
 
 Consider:
 

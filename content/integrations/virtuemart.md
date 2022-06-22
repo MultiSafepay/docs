@@ -35,7 +35,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 :warning: We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup.
 
-1. Sign in to your VirtueMart backend.
+1. Sign in to your VirtueMart <<glossary:backend>>.
 2. Go to **Extensions** > **Extension manager**.
 3. Install the Plugin_VirtueMart_x.x.x.zip file using **Drag and drop** or **Browse for file**. 
 4. Click **Upload & install**.
