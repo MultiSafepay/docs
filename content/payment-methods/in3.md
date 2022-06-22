@@ -15,7 +15,7 @@ Read how in3 can benefit your business on [multisafepay.com](https://www.multisa
 
 | Overview | Details |
 |---|---|
-| **Amount limits** | Minimum amount: 100 EUR Maximum amount: 3000 EUR <br> You can adjust these limits in the backend of our [ready-made integrations](/integrations/ready-made/) to show or hide in3 on your checkout page depending on the order value. |
+| **Amount limits** | Minimum amount: 100 EUR Maximum amount: 3000 EUR <br> You can adjust these limits in the <<glossary:backend>> of our [ready-made integrations](/integrations/ready-made/) to show or hide in3 on your checkout page depending on the order value. |
 | **Chargebacks**  | No  |
 | **Countries**  | The Netherlands – in3 checks the customer's country, and billing/shipping address to confirm.  | 
 | **Currencies**  | EUR  |  

@@ -783,7 +783,7 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Unpack the content of the .ZIP file in the root of your webshop.
-2. Sign in to your Magento 1 backend.
+2. Sign in to your Magento 1 <<glossary:backend>>.
 3. Go to **System** > **Configuration** > **Cache**, and clear your invalid cache.
 4. Move all files and folders from Plugin_Magento_x.x.x to the root.  
 5. Add the content of the app, lib, and media folders to the existing folders with the same name.
@@ -792,7 +792,7 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 # How to configure
 1. Sign in to your Magento 1 backend.
 2. Go to **System** > **Configuration** > **MultiSafepay x.x.x** > **Connect settings**.  
-    This page contains all main settings and is used for all gateways and gift cards.  
+    This page contains all main settings and is used for all <<glossary:gateways>> and gift cards.  
     To find your API key, see [API key](/sites/#site-id-api-key-and-secure-code).  
     From version 3.0.0, the plugin only needs your API key. Your account ID, site ID, and site secure code are no longer needed.
 3. To configure your selected payment methods, go to **System** > **Configuration** > **MultiSafepay x.x.x**:

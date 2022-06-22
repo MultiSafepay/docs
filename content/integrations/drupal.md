@@ -38,7 +38,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 ## How to install
 
-These instructions are for Composer. You can also install the plugin in your backend. 
+These instructions are for Composer. You can also install the plugin in your <<glossary:backend>>. 
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 

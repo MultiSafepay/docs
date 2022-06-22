@@ -11,7 +11,7 @@ The sales and conversion reports help you find out:
 
 - Who your customers are and where they're from
 - What payment methods and devices they use
-- Your conversion rate per site
+- Your <<glossary:conversion rate>> per site
 
 # Sales report
 

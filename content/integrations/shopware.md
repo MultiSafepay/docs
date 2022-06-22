@@ -40,7 +40,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 1. Navigate to our [Shopware 6 GitHub repository](https://github.com/MultiSafepay/shopware6/releases).
 2. Under **Assets**, download the latest release, which starts with Plugin_Shopware6_x.x.x.zip.
-3. Sign in to your Shopware 6 backend.
+3. Sign in to your Shopware 6 <<glossary:backend>>.
 4. Go to **Settings** > **System** on the left hand side.
 5. Select **Plugins**.
 6. Click **Upload plugin** at the top of the page, and then select the file you downloaded in step 2.
@@ -111,7 +111,7 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 ### Recurring payments
 
-You need to [enable recurring payments](/recurring-payments) in your MultiSafepay dashboard and then in the gateway settings. 
+You need to [enable recurring payments](/recurring-payments) in your MultiSafepay dashboard and then in the <<glossary:gateway>> settings. 
 
 ### Refunds
 

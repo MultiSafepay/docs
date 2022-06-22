@@ -6,7 +6,7 @@ hidden: false
 parentDoc: 62a32bf042021c00e1cd7e5c
 slug: 'gift-cards'
 ---
-Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. Gift card payments are processed by the card issuer.
+Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. Gift card payments are processed by the <<glossary:card issuer>>.
 
 Read how gift cards can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/giftcards)
 

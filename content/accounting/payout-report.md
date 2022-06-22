@@ -34,7 +34,7 @@ This report provides an overview (in Excel format) of the specific transactions 
 | N code | See [N-codes for identifying payment methods](/reports/n-codes/) |
 | Payment type | A MultiSafepay fee, or the payment method |
 | Mt description | A description of the transaction |
-| Sub description | A description of a component of the transaction, e.g. an issuer fee or currency conversion cost |
+| Sub description | A description of a component of the transaction, e.g. an <<glossary:issuer>> fee or currency conversion cost |
 | Sub status | The [transaction status](/about-payments/multisafepay-statuses/) |
 | Sub ID | MultiSafepay's transaction reference number |
 | Ms description | The site name |
