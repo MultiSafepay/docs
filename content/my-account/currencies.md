@@ -3,7 +3,7 @@ title: "Currencies"
 category: 62962dcdbccb9a001d4bbc81
 order: 204
 hidden: false
-parentDoc: 62a206ee0298c80058af3aed
+parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'currencies'
 ---
 # How it works
