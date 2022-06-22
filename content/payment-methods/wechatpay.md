@@ -26,26 +26,11 @@ Read how WeChat Pay can benefit your business on [multisafepay.com](https://www.
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant W as WeChat Pay
-    participant Me as Merchant
-
-    C->>Mu: Selects WeChat Pay at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page <br> with WeChat QR code
-    else Direct flow
-    Mu->>C: Displays WeChat QR code
-    end
-    C->>W: Scans code with WeChat app to complete payment 
-    W->>Mu: Transfers funds 
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/wechatpay-payment-flow.svg" alt="WeChat Pay payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses
 

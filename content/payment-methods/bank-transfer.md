@@ -28,24 +28,10 @@ Read how Bank Transfer can benefit your business on [multisafepay.com](https://w
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center">
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant Me as Merchant
-
-    C->>Mu: Selects Bank Transfer at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page to confirm <br> their bank account number and (optionally) bank country, <br> then displays payment instructions
-    else Direct flow
-    Mu->>C: Redirects to your success page, <br> then emails payment instructions <br> (or email the instructions yourself)
-    end
-    C->>Mu: Transfers funds (online or with teller) <br> (takes 1–3 business days) 
-    Mu->>Me: Matches payment and settles funds
-    
-{{< /mermaid >}} 
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/bank-transfer-payment-flow.svg" alt="Bank transfer payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;">
 
 # Payment statuses
 

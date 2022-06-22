@@ -1,0 +1,20 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant CS as Card scheme
+    participant Me as Merchant
+    participant CB as Customer's bank
+
+    C->>Mu: Selects the card at checkout
+    Mu->>C: Redirects to payment page
+    C->>CS: Enters payment details, authenticates, <br> and completes payment
+    Mu->>Me: Runs fraud filter and provides risk report
+    Me->>Mu: Authorizes transaction
+    alt MultiSafepay collects
+        CB->>Mu: Transfers funds 
+        Mu->>Me: Settles funds
+    else With Amex merchant account number
+        CB->>CS: Transfers funds
+        CS->>Me: Settles funds
+    end

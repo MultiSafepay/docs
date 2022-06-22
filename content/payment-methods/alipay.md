@@ -30,7 +30,10 @@ Read how Alipay can benefit your business on [multisafepay.com](https://www.mult
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-![Alipay payment flow](https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/alipay-payment-flow.svg)
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/alipay-payment-flow.svg" alt="Alipay payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;">
 
 # Payment statuses
 

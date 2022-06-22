@@ -33,37 +33,11 @@ Read how Google Pay can benefit your business on [multisafepay.com](https://www.
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant G as Google Pay
-    participant CS as Card scheme
-    participant Me as Merchant
-    participant CB as Customer's bank
-    
-    C->>Mu: Selects Google Pay at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page, <br> then to Google account
-    else Direct flow
-    Mu->>C: Redirects to Google account
-    end
-    C->>G: Completes payment 
-    alt Redirect integration
-    G->>Mu: Sends token
-    else Direct integration
-    G->>Me: Sends the customer's payment details as an encrypted token
-    Me->>Mu: Sends token
-    end
-    Mu->>CS: Decrypts token and processes payment
-    Mu->>Me: Runs fraud filter and provides risk report
-    Me->>Mu: Authorizes (or declines) transaction
-    CB->>Mu: Transfers funds 
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/google-pay-payment-flow.svg" alt="Google Pay payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses
 

@@ -1,0 +1,16 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant CK as CBC/KBC
+    participant Me as Merchant
+
+    C->>Mu: Selects CBC/KBC at checkout
+    alt Redirect flow
+    Mu->>C: Redirects to payment page, <br> then to online banking
+    else Direct flow
+    Mu->>C: Redirects to online banking
+    end
+    C->>CK: Authenticates account and completes payment
+    CK->>Mu: Transfers funds 
+    Mu->>Me: Settles funds

@@ -28,6 +28,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 ![AfterPay payment flow](https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/afterpay-payment-flow.svg)
 
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/afterpay-payment-flow.svg" alt="AfterPay payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;">
+
 # Payment statuses
 
 - **Order status:** Changes as the customer's order with you progresses towards shipment 

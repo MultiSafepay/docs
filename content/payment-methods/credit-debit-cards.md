@@ -46,30 +46,11 @@ MultiSafepay supports the following credit and debit cards:
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant CS as Card scheme
-    participant Me as Merchant
-    participant CB as Customer's bank
-
-    C->>Mu: Selects the card at checkout
-    Mu->>C: Redirects to payment page
-    C->>CS: Enters payment details, authenticates, <br> and completes payment
-    Mu->>Me: Runs fraud filter and provides risk report
-    Me->>Mu: Authorizes transaction
-    alt MultiSafepay collects
-        CB->>Mu: Transfers funds 
-        Mu->>Me: Settles funds
-    else With Amex merchant account number
-        CB->>CS: Transfers funds
-        CS->>Me: Settles funds
-    end
-    
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/credit-debit-cards-payment-flow.svg" alt="Credit and debit cards payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
 

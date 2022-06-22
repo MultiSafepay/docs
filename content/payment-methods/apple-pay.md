@@ -33,36 +33,10 @@ Read how Apple Pay can benefit your business on [multisafepay.com](https://www.m
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant A as Apple Pay
-    participant CS as Card scheme
-    participant Me as Merchant
-    
-    C->>Mu: Selects Apple Pay at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page, <br> and then to Apple
-    else Direct flow
-    Mu->>C: Redirects to Apple
-    end
-    C->>A: Authorizes payment on an iOS device with Touch ID or Face ID
-    alt Redirect integration
-    A->>Mu: Sends token
-    else Direct integration
-    A->>Me: Sends the customer's payment details as an encrypted token
-    Me->>Mu: Sends token
-    end
-    Mu->>CS: Decrypts token and processes payment
-    Mu->>Me: Runs fraud filter and provides risk report
-    Me->>Mu: Authorizes transaction
-    CS->>Mu: Transfers funds 
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/apple-pay-payment-flow.svg" alt="Apple Pay payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;">
 
 # Payment statuses
 

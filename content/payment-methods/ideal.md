@@ -38,27 +38,11 @@ Not all Dutch banking apps support iDEAL QR yet, so we recommend that customers 
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant CB as Customer's bank
-    participant Me as Merchant
-
-    alt Redirect flow
-    C->>Mu: Selects iDEAL (QR) at checkout
-    Mu->>C: Redirects to payment page to select their bank, <br> then to online banking
-    else Direct flow
-    C->>Mu: Selects iDEAL (QR) and their bank at checkout
-    Mu->>C: Redirects to online banking
-    end
-    C->>CB: Authenticates account/scans QR code and completes payment
-    CB->>Mu: Transfers funds 
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/ideal-payment-flow.svg" alt="iDEAL payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses   
 
