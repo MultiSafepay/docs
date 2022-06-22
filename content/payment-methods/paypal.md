@@ -167,7 +167,7 @@ We strongly recommend [testing transactions](/testing/) before processing live p
 
 ## PayPal Seller Protection
 
-PayPal Seller Protection covers you in the event of claims, chargebacks, or reversals due to unauthorized purchases or items the customer didn't receive. You are covered for the full amount of all eligible transactions.
+PayPal Seller Protection covers you in the event of claims, chargebacks, or <<glossary:reversals>> due to unauthorized purchases or items the customer didn't receive. You are covered for the full amount of all eligible transactions.
 
 To be eligible, for specific countries, transaction requests must contain the correct `state` in the `customer_address`. 
 

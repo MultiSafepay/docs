@@ -162,7 +162,7 @@ The transaction may already exist with a third party, e.g. if an iDEAL transacti
 
 The transaction may already exist with a third party, e.g. if an iDEAL transaction already exists and another direct iDEAL transaction is initiated, you receive an `Error 1022: Kan geen transactie starten: ERR_EXISTS: transaction error.`
 
-The gateway for the payment method is unavailable. This error can occur with direct requests.
+The <<glossary:gateway>> for the payment method is unavailable. This error can occur with direct requests.
 
 - Check whether the specified payment gateway supports direct requests.
 - Ensure a payment gateway was specified in the [create order](https://docs-api.multisafepay.com/reference/createorder) request.

@@ -9,7 +9,7 @@ slug: 'cards'
 <summary>About credit and debit cards</summary>
 <br>
 
-Credit cards are issued by a bank, building society, or card scheme and let customers pay on credit. Debit cards are issued by a bank and let customers transfer funds directly from their bank account. Cardholders can pay for products or services at a point of sale, online, or on a mobile app. They can also withdraw cash, or link their card to digital wallets or other local payment methods.
+Credit cards are issued by a bank, building society, or <<glossary:card scheme>> and let customers pay on credit. Debit cards are issued by a bank and let customers transfer funds directly from their bank account. Cardholders can pay for products or services at a point of sale, online, or on a mobile app. They can also withdraw cash, or link their card to digital wallets or other local payment methods.
 
 Credit cards are a very common payment method in many countries. Their widespread acceptance, ease of use, and ability to process payments in multiple currencies make them the ideal choice for many customers.
 
@@ -82,7 +82,7 @@ sequenceDiagram
 
 | Description | Order | Transaction |
 |---|---|---|
-| The customer has been redirected for 3D Secure authentication, or the card scheme is authorizing the transaction. | Initialized | Initialized |
+| The customer has been redirected for 3D Secure authentication, or the <<glossary:card scheme>> is authorizing the transaction. | Initialized | Initialized |
 | The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/uncaptured/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | ([Amex account number flow](#amex-merchant-account-number)) American Express has collected payment. | Completed | Initialized |
@@ -134,7 +134,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 | Integration | Details |
 |---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Card order <br>  See Examples and select the relevant card scheme example. <br> **Co-branded cards** <br> Co-branded cards are processed through the `VISA` gateway. <br> Set the `locale` parameter: <br> - Cartes Bancaires: `fr_FR` (France) <br> - Dankort: `da_DK` (Denmark) <br> - Postepay: `it_IT` (Italy) <br> **Generic gateway** <br> The generic `CREDITCARD` gateway saves space in your checkout and the payment page detects the card scheme based on the first 4 digits of the card number. <br> See Examples > Credit card redirect. |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Card order <br>  See Examples and select the relevant <<glossary:card scheme>> example. <br> **Co-branded cards** <br> Co-branded cards are processed through the `VISA` <<glossary:gateway>>. <br> Set the `locale` parameter: <br> - Cartes Bancaires: `fr_FR` (France) <br> - Dankort: `da_DK` (Denmark) <br> - Postepay: `it_IT` (Italy) <br> **Generic gateway** <br> The generic `CREDITCARD` gateway saves space in your checkout and the payment page detects the card scheme based on the first 4 digits of the card number. <br> See Examples > Credit card redirect. |
 | **Ready-made integrations** | All our [ready-made integrations](/integrations/ready-made/) support: <br> - Amex, Maestro, Mastercard (redirect) <br> - Visa (including Cartes Bancaires, Dankort, Postepay, V Pay) (redirect)   |
 <br>
 
@@ -163,14 +163,14 @@ See [Cardholder data](/cardholder-data/).
 ## Refunds
 
 - You **cannot** refund more than the original transaction. 
-- MultiSafepay sends refunds to the issuer within 1 business day.
+- MultiSafepay sends refunds to the <<glossary:issuer>> within 1 business day.
 - Whether or not the refund is visible to the customer depends on the issuer's system.
 - Depending on the issuer, the amount may not appear directly on the customer's card. We recommend that they contact the issuer. If they need an acquirer reference number (ARN), they can email <support@multisafepay.com> 
 - You can process refunds via MultiSafepay for up to 180 days after payment was completed. 
 
 ## Reversals
 
-If you process a partial refund on the same day, this is technically called a "reversal", but for simplicity is logged as a refund in your MultiSafepay dashboard. 
+If you process a partial refund on the same day, this is technically a <<glossary:reversal>>, but for simplicity is logged as a refund in your MultiSafepay dashboard. 
 
 On the customer's credit card statement, the transaction may either be:
 

@@ -111,7 +111,7 @@ We recommend testing Klarna payments via the Klarna Portal to experience the ful
 2. Specify MultiSafepay as your payment service provider and the countries you want to activate Klarna for.
 3. Sign an agreement with Klarna, including pricing.
 4. We activate Klarna for your MultiSafepay account. 
-5. If using a ready-made integration, activate Klarna in your backend.
+5. If using a ready-made integration, activate Klarna in your <<glossary:backend>>.
 
 For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
 
@@ -282,7 +282,7 @@ You are solely responsible for this in your integration.
 
 ## Klarna gateway 
 
-Klarna makes your ecommerce platform available in their merchant portal, where your credentials are generated. Use your credentials to configure the Klarna gateway for your MultiSafepay account. 
+Klarna makes your ecommerce platform available in their merchant portal, where your credentials are generated. Use your credentials to configure the Klarna <<glossary:gateway>> for your MultiSafepay account. 
 
 For questions about your Klarna integration and the connection with your MultiSafepay account, email <integration@multisafepay.com>
 

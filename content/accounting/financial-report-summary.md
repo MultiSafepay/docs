@@ -12,7 +12,7 @@ This page describes the financial report and financial summary.
 This report provides an overview (in Excel or CSV format) of:
 
 - Paid/unpaid transactions within a specific timeframe and transaction fees
-- Refunds, chargebacks, reversals
+- Refunds, chargebacks, <<glossary:reversals>>
 - Payouts
 - Currency conversions
 
@@ -56,7 +56,7 @@ This report provides an overview (in Excel or CSV format) of:
 This report provides an overview (in Excel or PDF format) of revenue and fees for:
 
 - Payment methods
-- Refunds, chargebacks, reversals 
+- Refunds, chargebacks, <<glossary:reversals>> 
 - Transactions
 
 <details id="financial-summary-contents">

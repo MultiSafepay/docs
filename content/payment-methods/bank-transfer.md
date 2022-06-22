@@ -240,7 +240,7 @@ See this guidance in [Dutch](/ongematchte-bankoverschrijvingen) or [German](/unz
 
 ## Stock issues
 
-To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your backend until they complete payment. This depends on your ecommerce platform or integration, and your products and/or services.  
+To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your <<glossary:backend>> until they complete payment. This depends on your ecommerce platform or integration, and your products and/or services.  
 
 ❗ MultiSafepay bears no responsibility for stock-related issues.
 

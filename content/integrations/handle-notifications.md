@@ -27,7 +27,7 @@ The updated order details make up the payload of the request.
 
 # Check the status
 
-Check the order status in the `status` field. If necessary, update your backend.
+Check the order status in the `status` field. If necessary, update your <<glossary:backend>>.
 
 **Note:** You can ignore notifications that:
 

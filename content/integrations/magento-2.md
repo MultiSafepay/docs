@@ -44,7 +44,7 @@ The plugin consists of several Magento modules:
 | Module  | Description  |
 |---|---|
 | [Multisafepay-magento2-core](https://github.com/MultiSafepay/magento2-core)   | Provides core functionalities  |
-| [Multisafepay-magento2-frontend](https://github.com/MultiSafepay/magento2-frontend)  | Enables payment gateways in the Magento checkout  |
+| [Multisafepay-magento2-frontend](https://github.com/MultiSafepay/magento2-frontend)  | Enables payment <<glossary:gateways>> in the Magento checkout  |
 | [Multisafepay-magento2-adminhtml](https://github.com/MultiSafepay/magento2-adminhtml)  | Enables/disables payment gateways, and changes settings in the Magento backend  |
 | [Multisafepay-magento2-msi](https://github.com/MultiSafepay/magento2-msi)  | Handles stock when MSI is enabled  |
 | [Multisafepay-magento2-catalog-inventory](https://github.com/MultiSafepay/magento2-catalog-inventory)  | Handles stock when MSI is disabled  |
@@ -95,7 +95,7 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 ```
 
 # How to configure
-1. Sign in to your Magento 2 backend.
+1. Sign in to your Magento 2 <<glossary:backend>>.
 2. Go to **Stores** > **Configuration** > **MultiSafepay**.  
 
 <details id="specific-settings">
@@ -104,7 +104,7 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 
 - **General information:** Contains all the main support information. We recommend reading this first.
 - **General settings:** Contains all main settings.  
-  - Here you can configure all gateways and gift cards.  
+  - Here you can configure all <<glossary:gateways>> and gift cards.  
   - Enter your [account ID, site ID, site secure code](/sites/#site-id-api-key-and-secure-code).   
 - **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
     - Make sure you have activated your selected payment methods in your MultiSafepay dashboard.
@@ -193,7 +193,7 @@ You receive a ZIP package containing a system report file and any MultiSafepay l
 
 ## Magento Vault and Instant Purchase
 
-Magento Vault enables you to use [Instant purchase](https://magento.com/innovations-lab/instant-purchase), a feature that helps make repeat payments faster and easier, increasing your conversion. 
+Magento Vault enables you to use [Instant purchase](https://magento.com/innovations-lab/instant-purchase), a feature that helps make repeat payments faster and easier, increasing your <<glossary:conversion rate>>. 
 
 <details id="how-it-works">
 <summary>How it works</summary>
@@ -263,7 +263,7 @@ The order status in Magento 2 changes to **Cancelled** before the payment can be
 
 The plugin supports [Payment Components](/payment-components/), which:
 
-- Provide a seamless checkout experience to increase conversion.
+- Provide a seamless checkout experience to increase <<glossary:conversion>>.
 - Encrypt customer payment details for secure processing.
 - Shift responsibility for [PCI DSS compliance](/payment-regulations/pci-dss/) to MultiSafepay.
 
@@ -435,7 +435,7 @@ See [Setting order lifetimes](#order-lifetimes) above.
 <br>
 
 1. Sign in to your Magento 2 backend.
-2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment gateways**, and select the relevant gateway
+2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment gateways**, and select the relevant <<glossary:gateway>>.
 3. Go to **Custom payment link lifetime**, select **Pending payment order lifetime**, and set to **2880 minutes**.
 
 </details>
@@ -531,7 +531,7 @@ If you are still using the [deprecated plugin](https://github.com/MultiSafepay/M
 <summary>Why upgrade?</summary>
 <br>
 
-The new plugin features code improvements, and unit and integration testing. It is built on top of the Magento payment provider gateway structure. Some payment methods now skip the MultiSafepay payment page, which increases conversion.
+The new plugin features code improvements, and unit and integration testing. It is built on top of the Magento payment provider <<glossary:gateway>> structure. Some payment methods now skip the MultiSafepay payment page, which increases <<glossary:conversion>>.
 
 We support most Magento functionalities. For any questions, email <integration@multisafepay.com>
 
@@ -583,7 +583,7 @@ Payment links are now generated automatically.
 
 _Reset gateway_  
 
-When creating an order in your Magento 2 backend, you can now select the MultiSafepay payment gateway instead. The payment gateway displays all active payment gateways to the customer based on the site settings in your MultiSafepay account. 
+When creating an order in your Magento 2 backend, you can now select the MultiSafepay payment <<glossary:gateway>> instead. The payment gateway displays all active payment gateways to the customer based on the site settings in your MultiSafepay account. 
 
 To enable or disable the gateway on your checkout page, we have added a **Can use checkout** configuration field.
 
@@ -598,7 +598,7 @@ We have changed the default payment flow from [redirect to direct](https://docs-
 - AfterPay, E-Invoicing, in3, Pay After Delivery 
 - Direct Debit, Request to Pay
 
-We have included extra fields in the checkout for these payment methods. If you use a custom checkout, you must account for the iDEAL issuers checkout field and the new checkout fields for these payment methods.
+We have included extra fields in the checkout for these payment methods. If you use a custom checkout, you must account for the iDEAL <<glossary:issuers>> checkout field and the new checkout fields for these payment methods.
 
 Alternatively, you can disable additional checkout fields for these payment methods and change the flow back to redirect. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment gateways** > **Gateway** > **Additional checkout fields**.
 
