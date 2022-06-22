@@ -13,7 +13,7 @@ We offer the highest industry protection under the [PCI DSS](/docs/pci-dss/), in
 
 We act as processor and <<glossary:acquirer>> for Visa and Mastercard, and are therefore also required to comply with their operating regulations.
 
-# Monitoring transactions
+# Transaction monitoring
 
 Under the [Wwft](https://www.fiu-nederland.nl/en/legislation/general-legislation/wwft), MultiSafepay is obliged to monitor the transactions of all merchants. 
 
@@ -42,4 +42,5 @@ If you fail to respond to these requests, we initially pause payouts and may ult
 {
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
 }
+[/block]
 [/block]

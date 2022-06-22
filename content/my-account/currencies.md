@@ -20,13 +20,18 @@ To view the currencies currently enabled for your account, in your dashboard go 
 
 To enable new currencies, email <support@multisafepay.com>
 
-You must also add a [business bank account](/docs/invoices/) that supports the currency. Follow these steps to ensure transactions can be processed in that currency and no conversion is required:
+You must also add a business bank account that supports the currency so that no conversion is required:
+
+<details id="how-to-add-business-bank-account">
+<summary>How to add a business bank account</summary>
+<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Finance > Balance > Add bank account**.
 3. Process a bank transfer in the new currency to confirm the business bank account.
 
 Once your new business bank account has been approved by the Risk Team, you can process payouts without currency conversion.
+</details>
 <br>
 
 ---
@@ -78,8 +83,7 @@ You can make [payouts](/docs/payouts/) in:
 | DKK (Danish krone) | NOK (Norwegian krone) |  |
 <br>
 
-[block:html]
-{
-  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
-}
-[/block]
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>

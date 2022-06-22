@@ -57,14 +57,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-- **Order status:** Changes as the customer's order with you progresses towards shipment 
-- **Transaction status:** Changes as the funds progress towards settlement in your account balance
-
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | For partial payment with another method: The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
@@ -76,7 +73,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | Refund initiated. | Initialized | Initialized |
 | Refund complete. | Completed | Completed |
@@ -84,6 +81,8 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 </details>
 
 # Activation 
+
+Contact the card issuer and share the details with us to activate in your account.
 
 <details id="how-to-activate-gift-cards">
 <summary>How to activate gift cards</summary>

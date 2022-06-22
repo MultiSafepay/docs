@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 107
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugin to integrate MultiSafepay payment solutions into your WooCommerce webshop."
+excerpt: "Technical manual for installing and configuring MultiSafepay's free plugin for WooCommerce, a free, open-source ecommerce platform for Wordpress."
 slug: 'woocommerce'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/WooCommerce.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
@@ -19,21 +19,15 @@ slug: 'woocommerce'
 
 </div>
 
-This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with WooCommerce, a free, open-source ecommerce platform for Wordpress.
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+# Prequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - Wordpress 5.0
 - PHP 7.2
 
-</details>
-
 # How to install
 
-:warning: We recommend first installing the plugin in a test environment, following the WooCommerce installation procedure. Always make a backup.
+> **Tip!** We recommend first installing the plugin in a test environment, following the WooCommerce installation procedure. Always make a backup.
 
 There are two ways to install the plugin:
 
@@ -52,13 +46,16 @@ There are two ways to install the plugin:
 3. Search for **MultiSafepay**. 
 4. For the **MultiSafepay plugin for WooCommerce**, click the **Install now** button.
 
-## How to configure
+# How to configure
 1. Sign in to your WooCommerce backend.
 2. Go to **WooCommerce** > **MultiSafepay settings**
 3. On the **Account** tab, enter your [API key](/docs/sites#site-id-api-key-and-security-code).
 4. On the **Order status** tab, confirm the match between WooCommerce order statuses and MultiSafepay order statuses, and then click **Save changes**.
 4. On the **Options** tab, confirm your settings, and then click **Save changes**.
 5. On the **WooCommerce** > **Settings** > **Payments**. Enable the relevant payment methods and confirm the settings.
+<br>
+
+---
 
 # User guide
 
@@ -66,8 +63,8 @@ There are two ways to install the plugin:
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways">
-<summary>Configuring generic gateways</summary>
+<details id="how-to-configure-generic-gateways">
+<summary>How to configure generic gateways</summary>
 <br>
 
 1. Sign in to your backend.
@@ -78,7 +75,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 You can:
 
 - Filter the generic gateway by country, and minimum and maximum amount.
-- Set a custom initial order status.
+- Set a custom initial <<glossary:order status>>.
 - Process full and partial refunds (except for pay later methods), and backend orders.
 
 </details>
@@ -89,8 +86,8 @@ MultiSafepay payment pages and messages to customers (e.g. Second Chance emails,
 
 However, WooCommerce only supports the language of your ecommerce platform, irrespective of the customer's language or country, or the language of the webshop (if you use a third-party plugin for a multi-lingual webshop).
 
-<details id="changing-language">
-<summary>Changing language</summary>
+<details id="how-to-change-language">
+<summary>How to change language</summary>
 <br>
 
 The plugin sets the language for payment pages and messages based on the Wordpress locale code `get_locale()` function.
@@ -118,7 +115,7 @@ function return_my_own_locale($locale) {
 
 MultiSafepay uses a webhook to send you updates about orders and other notifications.
 
-The webhook is triggered when the order or transaction status changes, e.g. when:
+The webhook is triggered when the <<glossary:order status>> or <<glossary:transaction status>> changes, e.g. when:
 
 - A customer completes payment.
 - A customer's attempt to pay fails.
@@ -132,8 +129,8 @@ However, sometimes the REST endpoint used to process notifications may be blocke
 
 ## Order requests
 
-<details id="modifying-order-requests">
-<summary>Modifying order requests</summary>
+<details id="how-to-modify-order-requests">
+<summary>How to modify order requests</summary>
 <br>
 
 To change something in an OrderRequest before a transaction is processed, use the `multisafepay_order_request` filter hook in the plugin.
@@ -177,8 +174,8 @@ The plugin supports [payment components](/docs/payment-components/), which:
 - Encrypt customer payment details for secure processing.
 - Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
 
-<details id="activating-payment-components">
-<summary>Activating payment components</summary>
+<details id="how-to-activate-payment-components">
+<summary>How to activate payment components</summary>
 <br>
 
 If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
@@ -190,14 +187,14 @@ If you're new to accepting credit card payments, email a request to activate the
 
 For questions, email <integration@multisafepay.com>
 
-**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+> **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
 ## Payment links
 
-<details id="generating-payment-links-in-your-backend">
-<summary>Generating payment links in your backend</summary>
+<details id="how-to-generate-payment-links-in-your-backend">
+<summary>How to generate payment links in your backend</summary>
 <br>
 
 To generate a payment link in your backend once an order is created, follow these steps:
@@ -209,12 +206,12 @@ To generate a payment link in your backend once an order is created, follow thes
 5. Click **Create order**.  
   An email is sent to the customer containing the order details and a payment link. The payment link is also available to the customer in their private account, under **Orders**. 
 
-  </details>
+</details>
 
 ## Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/) (The credit card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
@@ -257,7 +254,7 @@ You can process [Full and partial refunds](/docs/refund-payments/) for all payme
 
 For pay later orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
-If you change the order status to **Shipped** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
+If you change the <<glossary:order status>> to **Shipped** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
 ## Surcharges
 
@@ -273,19 +270,23 @@ You can apply [surcharges](/docs/surcharges/) in the plugin when combined with a
 Third-party packages must follow WooCommerce and Wordpress development guidelines.
 
 **Support**  
+
 The Integration Team will do their best to help you install third-party packages, but we can't guarantee perfect compatibility.
 
 </details>
+
+> ⚠️ **Attention Dutch merchants** 
+> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 
 You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 
-<details id="updating-in-your-backend">
-<summary>Updating in your backend</summary>
+<details id="how-to-update-in-your-backend">
+<summary>How to update in your backend</summary>
 <br>
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

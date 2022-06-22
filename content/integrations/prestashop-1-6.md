@@ -4,19 +4,24 @@ category: 62962dd7e272a6002ebbbbc5
 order: 104
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugin to integrate MultiSafepay payment solutions with Prestashop 1.6."
+excerpt: "Technical manual for installing and configuring MultiSafepay's free plugin for Prestashop 1.6."
 slug: 'prestashop-1-6'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.7.1.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
+> ⚠️ Action required
+> We are phasing out support for this plugin. We recommend migrating to our [Prestashop 1.7 plugin](/prestashop-1-7/) as soon as possible.
+
+# Changelog
+
 <details id="changelog">
 <summary>Changelog</summary>
 <br>
 
 **3.7.1**
-Release date: Jan 7th, 2022
+Release date: Jan 7, 2022
 
 **Changed**
 PLGPRSS-423: Rename Client class to MultiSafepayClient to avoid conflict with third party modules
@@ -24,7 +29,7 @@ PLGPRSS-423: Rename Client class to MultiSafepayClient to avoid conflict with th
 ---
 
 **3.7.0**
-Release date: Nov 25th, 2021
+Release date: Nov 25, 2021
 
 **Added**
 - DAVAMS-232: Add support for in3 payment method
@@ -364,23 +369,15 @@ Release date: Nov 11, 2014
 
 </details>
 
-:warning: We are phasing out support for this plugin. We recommend migrating to our [Prestashop 1.7 plugin](/docs/prestashop-1-7/) as soon as possible.
-
-This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Prestashop 1.6.
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+# Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - PrestaShop 1.6
 - Tested on PHP 7.0
 
-</details>
-
 # How to install and configure
 
-:warning: We recommend first installing the plugin in a test environment, following the PrestaShop 1.6 installation procedure. Always make a backup.
+> **Tip!** We recommend first installing the plugin in a test environment, following the PrestaShop 1.6 installation procedure. Always make a backup.
 
 1. Unpack the contents of the .zip archive and upload the **Modules** folder via SFTP to the PrestaShop root directoy, merging the two folders.
 2. Sign in to your PrestaShop 1.6 <<glossary:backend>>.
@@ -389,25 +386,22 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 4. In the next screen, proceed with the installation.
 5. Enter your [API key](/docs/sites#site-id-api-key-and-security-code), and then click **Save**.
 6. On the **Payments** tab, enable the relevant payment methods.
+<br>
+
+---
 
 # User guide
 
 ## Confirmation page
 
-<details id="skipping-the-confirmation-page">
-<summary>Skipping the confirmation pages</summary>
-<br>
-
 PrestaShop 1.6 version 3.1.7 lets you skip the extra confirmation page so that the customer is redirected straight to the MultiSafepay payment page.
 
 This is no longer supported from version 3.2.0. If you want to skip the extra confirmation page, you can [download version 3.1.7](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.7.1.zip). New features might be lost when downgrading.
 
-</details>
-
 ## Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)
@@ -448,8 +442,8 @@ This is no longer supported from version 3.2.0. If you want to skip the extra co
 
 In Prestashop 1.6, the order ID is generated after the payment, which causes a mismatch with the order ID in your MultiSafepay dashboard. You can match orders using the transaction ID. 
 
-<details id="viewing-transaction-ids">
-<summary>Viewing transaction IDs</summary>
+<details id="how-to-view-transaction-ids">
+<summary>How to view transaction IDs</summary>
 <br>
 
 1. Sign in to your Prestashop 1.6 backend.
@@ -463,11 +457,11 @@ Payment links generated manually in your MultiSafepay dashboard don't automatica
 
 ## Recurring payments
 
-<details id="enabling-recurring-payments">
-<summary>Enabling recurring payments</summary>
-<br>
+[Recurring payments](/recurring-payments) are supported.
 
-To enable [recurring payments](/docs/recurring-payments), follow these steps:
+<details id="how-to-enable-recurring-payments">
+<summary>How to enable recurring payments</summary>
+<br>
 
 1. Sign in to your PrestaShop 1.6 backend. 
 2. Go to **Modules and services** > **Modules and services** > **MultiSafepay**.
@@ -507,11 +501,11 @@ For support for the Prestashop [Thirty Bees](https://thirtybees.com/blog/what-is
 
 You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 
-<details id="updating-via-sftp">
-<summary>Updating via SFTP</summary>
+<details id="how-to-update-via-sftp">
+<summary>How to update via SFTP</summary>
 <br>
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

@@ -11,7 +11,7 @@ Some payment methods you can activate yourself in your dashboard, but for some y
 
 | Activation flow | Payment methods |
 |---|---|
-| [Apply to MultiSafepay](#apply-to-multisafepay) | Credit and debit cards and wallets (**except** PayPal), Dotpay, in3, Pay After Delivery, SEPA Direct Debit |
+| [Apply to MultiSafepay](#apply-to-multisafepay) then activate in dashboard | Credit and debit cards and wallets (**except** PayPal), Dotpay, in3, Pay After Delivery, SEPA Direct Debit |
 | [Activate in dashboard](#activate-in-dashboard) | Banking methods, E-Invoicing   |
 | [Own flow](#own-flow) | AfterPay, Betaal per Maand, Klarna, Edenred, gift cards, Paysafecard, PayPal |
 
@@ -123,11 +123,11 @@ You must:
 </details>
 
 ### Klarna
-<details id="how-to-activate-klarna"> 
-<summary>How to activate Klarna</summary>
-<br>
+How to activate with a Klarna:
 
-**Test account**
+<details id="test-account"> 
+<summary>Test account</summary>
+<br>
 
 1. At [Klarna.com](https://www.klarna.com/nl/), sign up for a test account, selecting the **Playground** environment. 
 2. Under **Settings**, click **Generate new Klarna API credentials** to generate a user name and password.
@@ -136,7 +136,11 @@ You must:
 
 We recommend testing Klarna payments via the Klarna Portal to experience the full functionality. You can also test from your **test** MultiSafepay dashboard with more limited functionality.
 
-**Live account**
+</details>
+
+<details id="live-account"> 
+<summary>Live account</summary>
+<br>
 
 1. Sign up for a live Klarna account:
     - Via the Klarna website, selecting the **Production** environment, **or**  
@@ -144,19 +148,18 @@ We recommend testing Klarna payments via the Klarna Portal to experience the ful
 2. Specify MultiSafepay as your payment service provider and the countries you want to activate Klarna for.
 3. Sign an agreement with Klarna, including pricing.
 4. We activate Klarna for your MultiSafepay account. 
-5. If using a ready-made integration, activate Klarna in your backend.
+5. If using a ready-made integration, activate Klarna in your <<glossary:backend>>.
 
 For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
 
-For support, email <integration@multisafepay.com>
+> 💬  Support 
+> Email <integration@multisafepay.com>
 </details>
 
 ## PayPal
-<details id="how-to-activate-paypal">
-<summary>How to activate PayPal</summary>
+<details id="how-to-configure-your-paypal-account">
+<summary>How to configure your PayPal account</summary>
 <br>
-
-**Configuring your PayPal account**
 
 To configure your PayPal account, follow these steps:
 
@@ -181,16 +184,18 @@ To complete the configuration, change the language encoding setting of your PayP
 5. From the **Encoding** list, select **UTF-8**.
 6. Select the **Yes** checkbox, and then click **Save**.
 
-**Support**  
-
-- MultiSafepay – <integration@multisafepay.com>
-- PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us)
+> 💬  Support 
+> - MultiSafepay – <integration@multisafepay.com>
+> - PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us)
 
 > ⚠️ Known error
-> 
 > If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account.
 
-**Configuring your MultiSafepay account**
+</details>
+
+<details id="how-to-configure-your-multisafepay-account">
+<summary>How to configure your MultiSafepay account</summary>
+<br>
 
 To configure your MultiSafepay account for PayPal, follow these steps:
 
@@ -206,31 +211,19 @@ To configure your MultiSafepay account for PayPal, follow these steps:
         - Go to **Website settings**, and click the relevant site.
         - Under **Payment methods**, select the **PayPal** checkbox, and click **Save changes**.
 
-**Notes:** 
+> ℹ️ **Notes** 
+> - You can link each site to a separate PayPal business account, or all sites can use your main PayPal business account.
+> - If PayPal isn't visible as a payment method in your dashboard, email <integration@multisafepay.com> 
 
-- You can link each site to a separate PayPal business account, or all sites can use your main PayPal business account.
-- If PayPal isn't visible as a payment method in your dashboard, email <integration@multisafepay.com> 
-
-Your account is now configured!  
+> ✅ Success
+> Your account is now configured!  
 
 We strongly recommend [testing transactions](/docs/testing/) before processing live payments. 
 </details>
 
-## Paysafecard
-<details id="paysafecard-activation">
-<summary>How to activate Paysafecard</summary>
 <br>
 
-Paysafecard doesn't require activation.
-
-Search for outlets that sell Paysafecard:
-
-- English-language site: [Find sales outlets](https://www.paysafecard.com/en/find-sales-outlet-1/)
-- Dutch-language site: [Verkooppunten zoeken](https://www.paysafecard.com/nl/verkooppunt-vinden-1/)
-
-</details>
-
-<br>
+---
 
 [block:html]
 {

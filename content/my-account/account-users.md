@@ -27,11 +27,7 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
 
 </details>
 
-# Adding users
-
-<details id="how-to-add-users-to-your-account">
-<summary>How to add users to your account</summary>
-<br>
+# How to add users to your account
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **User management**.
@@ -43,10 +39,7 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
     - Email address
 5. From the **Status** list, select **Active**.
 6. Under **Rights** on the right side of the page, select the appropriate user permissions check boxes. 
-    See [User permission profiles](#user-permission-profiles).
 7. Click **Add user** in the top-right corner.
-
-</details>
 <br>
 
 ---
@@ -105,4 +98,5 @@ A dialog requesting a 6-digit token appears.
 {
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
 }
+[/block]
 [/block]

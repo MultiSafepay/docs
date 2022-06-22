@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 112
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugin to integrate MultiSafepay payment solutions with Odoo."
+excerpt: "Technical manual for installing and configuring MultiSafepay's free plugin for Odoo."
 slug: 'odoo'
 ---
 
@@ -20,21 +20,15 @@ slug: 'odoo'
 
 </div>
 
-This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Odoo. 
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+# Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - Odoo 13.0
 - Tested on Python 3.6
 
-</details>
-
 # How to install
 
-:warning: We recommend first installing the plugin in a test environment, following the Odoo installation procedure. Always make a backup.
+> **Tip!** We recommend first installing the plugin in a test environment, following the Odoo installation procedure. Always make a backup.
 
 1. Download the ZIP archive with module.
 2. Unpack the content of the .ZIP file.
@@ -55,6 +49,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 9. Click **Install**.
 
 # How to configure
+
 1. Sign in to your Odoo backend. 
 2. Go to the **Invoicing** or **Website** menu > **Configuration** > **Payment acquirers**.
 3. Select **MultiSafepay** payment acquirer. 
@@ -64,20 +59,23 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 7. On the **Configuration tab**, set **Journal**, and then click **Save**.
 9. To get payment methods from your MultiSafepay account, go the **Configuration** tab, click **Pull payment methods**.  
     Make sure the relevant payment methods are activated for your account.
-10. Configure each payment method separately
+10. Configure each payment method separately:
 
-<details id="payment-methods-settings">
-<summary>Payment methods settings</summary>
+    <details id="payment-method-settings">
+    <summary>Payment method settings</summary>
+    <br>
+
+    - Name  
+    - State  
+    - Country: Disabled for some payment methods  
+    - Customer group  
+    - Order amount: Disabled for some payment methods  
+    - Supported currency: Some payment methods process transactions only in EUR. Orders not created in EUR are converted to the required currency, using **Odoo platform currency rate**. This can only be configured by a system administrator.
+
+    </details>
 <br>
 
-- Name  
-- State  
-- Country: Disabled for some payment methods  
-- Customer group  
-- Order amount: Disabled for some payment methods  
-- Supported currency: Some payment methods process transactions only in EUR. Orders not created in EUR are converted to the required currency, using **Odoo platform currency rate**. This can only be configured by a system administrator.
-
-</details>
+---
 
 # User guide
 
@@ -85,8 +83,8 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways">
-<summary>Configuring generic gateways</summary>
+<details id="how-to-configure-generic-gateways">
+<summary>How to configure generic gateways</summary>
 <br>
 
 1. Sign in to your Odoo backend. 
@@ -98,8 +96,8 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 ## Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)
@@ -122,8 +120,10 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 ## Updates
 
-<details id="updating-the-plugin">
-<summary>Updating the plugin</summary>
+You can update in your <<glossary:backend>>.
+
+<details id="how-to-update-the-plugin">
+<summary>How to update the plugin</summary>
 <br>
 
 1. Sign in to your Odoo backend. 

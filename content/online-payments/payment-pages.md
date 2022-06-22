@@ -1,10 +1,9 @@
 ---
 title: 'Payment pages'
 category: 6278c92bf4ad4a00361431b0
-order: 400
+order: 40
 hidden: false
 slug: 'payment-pages'
-excerpt: 'Activate and customize hosted payment pages.'
 ---
 Payment pages are hosted by MultiSafepay and are the easiest way to integrate all payment methods. 
 
@@ -31,7 +30,7 @@ You can activate payment pages yourself in your dashboard.
 3. Click the relevant site.
 4. Select the **Use new payment pages** checkbox.
 
-**Note:** If the **Use new payment pages** checkbox is not visible, email <integration@multisafepay.com>
+> **Note:** If the **Use new payment pages** checkbox is not visible, email <integration@multisafepay.com>
 </details>
 
 # Integration 
@@ -121,7 +120,7 @@ To display all payment methods on the payment page, follow these steps:
 2. Add `&methods=all` at the end of the payment link, e.g. `https://testpayv2.multisafepay.com/connect/822LtiM8RjN313Yo5C46E2cjqmuL5qVfc7w/?lang=en_NL&methods=all`
 3. Redirect the customer to the adapted link.
 
-**Note:** This is not a standard option in our [ready-made integrations](/docs/our-integrations/).
+> **Note:** This is not a standard option in our [ready-made integrations](/integrations/ready-made/).
 
 </details>
 
@@ -185,13 +184,7 @@ See API reference – [Create order](https://docs-api.multisafepay.com/reference
 
 ## Requirements for Visa
 
-<details id="requirements-for-visa">
-<summary>Requirements for Visa</summary>
-<br>
-
 When customers select Visa as payment method, Visa requires us to display on the payment page the city and country where your webshop is located. This measure aims to increase reliability, transparency, and safety for customers.
-
-</details>
 <br>
 
 ---

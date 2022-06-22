@@ -39,10 +39,10 @@ To create and [onboard](/docs/onboarding/) a live account and start processing r
 
 1. Fill out the relevant signup form: 
 
-    |   |  |  | 
+    | Account type | Live | Test | 
     |---|---|---|
-    | Merchant account | [Live signup form](https://merchant.multisafepay.com/signup) | [Test signup form](https://testmerchant.multisafepay.com/signup) |
-    | Partner/primary account | [Live signup form](https://merchant.multisafepay.com/signup?partner) | [Test signup form](https://testmerchant.multisafepay.com/signup?partner) |
+    | Merchant | [Signup form](https://merchant.multisafepay.com/signup) | [Signup form](https://testmerchant.multisafepay.com/signup) |
+    | Partner/primary | [Signup form](https://merchant.multisafepay.com/signup?partner) | [Signup form](https://testmerchant.multisafepay.com/signup?partner) |
 
     You receive an email containing your **security code**. 
 
@@ -71,4 +71,5 @@ In collaboration with your current PSP, we can securely transfer tokenized credi
 {
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
 }
+[/block]
 [/block]

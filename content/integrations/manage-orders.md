@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 401
 hidden: false
 parentDoc: 62a9a54a66018200436bdb74
-excerpt: 'Manage orders in your own integration.'
+excerpt: 'Manage orders in your integration.'
 slug: 'manage-orders'
 next:
   description: Configure your webhook endpoint
@@ -24,7 +24,7 @@ Orders can be linked to multiple **transactions**. A transaction represents an i
 
 The most common operation to perform with our API is creating an order. To specify which payment flow the customer experiences for that order, set the order `type` to `direct` or `redirect`.
 
-|  |  |
+| Payment flow | Description |
 |---|---|
 | **Direct** | The customer selects their payment method in your embedded checkout. | 
 | **Redirect** | The customer is redirected first to a [payment page](/docs/payment-pages/) to select their payment method. | 
@@ -40,8 +40,7 @@ You must include your API key in the request URL as a query parameter to be able
 
 While building your integration we recommend using the test environment: `https://testapi.multisafepay.com/v1/json`.
 
-
-# Create an order
+# 1. Create an order
 
 The first operation to test when building your integration, is to [create an order](https://docs-api.multisafepay.com/reference/createorder). Here is a sample request to create a redirect order:
 
@@ -92,13 +91,13 @@ Check that you receive a response with `success` set to `true`:
   }
 }
 ```
-If you receive an error in the response, see [Handling errors](/docs/errors/).
+If you receive an error in the response, see [Troubleshooting](/docs/troubleshooting/).
 
 Otherwise, open the `payment_url` to complete the payment on the payment page. 
 
 For further details on how to test each payment method, see [Testing](/docs/testing#test-payment-details). If this is your first time, we recommend following the steps for [iDEAL](/docs/testing#ideal).
 
-# Get order details
+# 2. Get order details
 
 To familiarize yourself with what an order looks like in our system, try making a [Get order](https://docs-api.multisafepay.com/reference/getorder) request for the order you just created, using the `order_id`.
 
@@ -188,14 +187,24 @@ You should receive a response like this:
   }
 }
 ```
-The most important parameter is `status`, which represents the [status of the order](/docs/payment-statuses/), i.e. the progression of the customer’s order with you. 
+The most important parameter is `status`, which represents the <<glossary:order status>>, i.e. the progression of the customer’s order with you. 
 
-The second most important parameter is `financial_status`, which represents the [status of the transaction](/docs/payment-statuses/), i.e. the progression towards settling the funds in your account balance.
+The second most important parameter is `financial_status`, which represents the <<glossary:transaction status>>, i.e. the progression towards settling the funds in your account balance.
 
-We recommend that you track the `status` parameter in your integration to understand how your order is progressing. For a detailed overview of the possible statuses, see [Status meanings](/docs/payment-statuses/).
+We recommend that you track the `status` parameter in your integration to understand how your order is progressing. For a detailed overview of the possible statuses, see [Payment statuses](/docs/payment-statuses/).
 
 In this example, the `status` is **Completed**. This means that the customer has completed payment and settlement is guaranteed. The `financial_status` is also **Completed**. This means that the funds have been settled in your account balance.
 
-Now that you know how to create an order and check its details, and know what is important to look for, it's the perfect time to introduce you to our webhook.
+> ✅ Success!
+> Now that you know how to create an order and check its details, and know what is important to look for, it's the perfect time to introduce you to our webhook.
+
+# MultiSafepay webhook
 
 So that you don't have to continually poll our server to see if there are updates to your orders, we provide a webhook to send you notifications automatically. In the next section we explain what you need to do to configure this to work with your web server.
+<br>
+
+---
+
+> 💬 Support
+> Email <integration@multisafepay.com>
+> Email <integration@multisafepay.com>

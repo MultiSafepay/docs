@@ -8,44 +8,36 @@ slug: 'getting-started-guide'
 
 # 1. Create a free test account
 
-- Fill out the [signup form](https://testmerchant.multisafepay.com/signup).
-- Sign in to your [test dashboard](https://testmerchant.multisafepay.com) using the security code we email you.
+Simply fill out a signup form, and then sign in to your test dashboard using the security code we email you.
 
-:blue-book: **Full guidance:** [Create an account](/docs/create-account/)
-<br>
+**Full guidance:** [Create an account](/create-account/)
 
 # 2. Set up your account
 
-- [Add at least one site](/docs/sites/).
-- [Activate your selected payment methods](/docs/payment-methods/).
+You need to add at least one site to your account, and to activate your selected payment methods.
 
-:blue-book: **Full guidance:** [Manage my account](/docs/manage-account/)
-<br>
+**Full guidance:** [Manage my account](/manage-account/)
 
 # 3. Choose an integration method 
 
 Choose an integration method that matches your business needs and tech stack.   
+For help selecting an integration method, email <integration@multisafepay.com>
 
 ## Ready-made integrations  
 MultiSafepay's integrations developed in-house require fewer development resources and let you start testing straight away. We have a wide range of plugins and apps to integrate with platforms like Magento, WooCommerce, Shopware, and Lightspeed.
 
-:blue-book: **Full guidance:** [Ready-made integrations](/docs/our-integrations/)
-<br>
+**Full guidance:** [Ready-made integrations](/integrations/ready-made/)
 
 ## Self-made integrations
 Build your own integration, especially if you are developing a new ecommerce website or app. This generally requires more development resources, but lets you fully customize the look, feel, and functionality of your checkout experience.
 
-:blue-book: **Full guidance:** [Self-made integrations](/docs/self-made/)
-<br>
-
-For help selecting an integration method, email <integration@multisafepay.com>
+**Full guidance:** [Self-made integrations](/integrations/self-made/)
 
 # 4. Test your integration 
 
 Before you start processing real transactions, test each payment method.
 
-> 📘 **Full guidance:**
-> [Test your integration](/docs/testing/)
+**Full guidance:** [Test your integration](/payments/testing/)
 
 # 5. Onboard your account
 
@@ -56,11 +48,17 @@ To start processing real transaction, we need to check and approve your company 
 - Check the list of prohibited products and services.
 - Display required information on your site.
 
-We then perform [know your customer (KYC) checks](/docs/onboarding#kyc-checks). If approved, your account goes live.
+We then perform know your customer (KYC) checks. If approved, your account goes live.
 
-:blue-book: **Full guidance:** [Onboarding](/docs/onboarding/)
+**Full guidance:** [Onboarding](/onboarding/)
 <br>
 
-> 💬  Support
-> Email <support@multisafepay.com>
+---
 
+<blockquote class="callout callout_info">
+    <h3 class="callout-heading false">
+        <span class="callout-icon">💬</span>
+        <p>Support</p>
+    </h3>
+    <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
+</blockquote>

@@ -10,21 +10,9 @@ Manual Capture is a MultiSafepay solution that reduces your risk by letting you 
 
 # How it works
 
-<details id="full-capture">
-<summary>Full capture</summary>
-<br>
+**Full capture** is when a customer places an order but you are unable to ship it right away. An authorization is created for the full amount of the transaction. The funds are settled when you ship the order.
 
-Full capture is when a customer places an order but you are unable to ship it right away. An authorization is created for the full amount of the transaction. The funds are settled when you ship the order.
-
-</details>
-
-<details id="partial-capture">
-<summary>Partial capture</summary>
-<br>
-
-Partial capture is when a customer places an order for multiple items but you can't ship them all at once, only in separate shipments. An authorization is created for the full amount of the transaction, and the amount for each shipment is settled when you send it.
-
-</details>
+**Partial capture** is when a customer places an order for multiple items but you can't ship them all at once, only in separate shipments. An authorization is created for the full amount of the transaction, and the amount for each shipment is settled when you send it.
 
 # Activation
 
@@ -56,7 +44,7 @@ After expiration, the <<glossary:issuer>> can cancel the authorization.
 
 ## Statuses
 
-| Action | Description | Order | Transaction |
+| Action | Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|---|
 | Authorize transaction | The transaction is authorized and the funds reserved. | Completed   | Initialized  |
 | Partial capture | A partial amount is captured relating to a previous order ID. | Completed  | Completed |

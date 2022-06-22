@@ -72,4 +72,4 @@ If you want to publish a MultiSafepay community integration, you have to adhere 
 
 For any questions about joining our developer community, email <integration@multisafepay.com>
 
-**MultiSafepay expects you to provide a high level of service and support to merchants. Possible action may be taken if we receive a high number of complaints.**
+**MultiSafepay expects you to provide a high level of service and support to merchants. We may take action if we receive a large number of complaints.**

@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 109
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugin to integrate MultiSafepay payment solutions into your CS-Cart webshop."
+excerpt: "Technical manual for installing and configuring MultiSafepay's free plugin for CS-Cart."
 slug: 'cs-cart'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/CS-Cart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
@@ -19,22 +19,15 @@ slug: 'cs-cart'
 
 </div>
 
-
-This technical manual is for installing and configuring MultiSafepay's free plugin for CS-Cart.
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+# Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - CS-Cart 4.x
 - Tested on PHP 7.0
 
-</details>
-
 # How to install
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Unpack the content of the .ZIP file in the root of your CS-Cart webshop.
 2. To trigger the installation, go to `yourdomain.com/msp_installer.php`. 
@@ -42,6 +35,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 4. In your [MultiSafepay account](https://merchant.multisafepay.com), provide your [webhook endpoint](/docs/configure-your-webhook/).
 
 # How to configure
+
 1. Sign in to your CS-Cart <<glossary:backend>>.
 2. Go to **Administration** > **Payment methods**.
 3. To add payment methods, click the **+** button.
@@ -51,13 +45,16 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 7. In the **Configure** tab, enter your [account ID, site ID, and site code](/docs/sites#site-id-api-key-and-security-code). 
 
 Extra options such as **IP-Validation** and **debugmode** are intended for developers. Leave them unchanged.
+<br>
+
+---
 
 # User guide
 
 ## Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)
@@ -100,11 +97,11 @@ You can apply surcharges when configuring the payment method under **Surcharge**
 
 You can update the plugin in your CS-Cart backend or the CMS marketplace, or via SFTP.
 
-<details id="updating-via-sftp">
-<summary>Updating via SFTP</summary>
+<details id="how-to-update-via-sftp">
+<summary>How to update via SFTP</summary>
 <br>
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation instructions from step 2 and then the Configuration instructions.

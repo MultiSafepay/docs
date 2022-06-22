@@ -20,11 +20,9 @@ MultiSafepay uses a webhook to send updates about orders and other notifications
 
 You can configure the webhook at site level or at order level.
 
-<details id="webhook">
-<summary>Webhook</summary>
-<br>
+# How it works
 
-The webhook is triggered when the [order or transaction status](/docs/payments-statuses/) changes, e.g. when:
+The webhook is triggered when the <<glossary:order status>> or <<glossary:transaction status>> changes, e.g. when:
 
 - A customer completes payment
 - A customer's payment is declined or fails
@@ -41,9 +39,9 @@ Our webhook uses the `POST` method to inform your web server when there is an up
   max-width: 750px;
   width: 100%;">
 
-</details>
+> **Note:** We do support `GET` as a `notification_method`, but we strongly recommend to use `POST`, which is the most efficient.
 
-# Requirements
+# Prerequisites
 
 You must set a webhook endpoint, which is a URL that:
 
@@ -53,32 +51,33 @@ You must set a webhook endpoint, which is a URL that:
 
 For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
 
-# Site level
+# Configuration
 
-To configure the webhook endpoint at site level:
+You can configure the webhook endpoint at:
+
+<details id="site-level">
+<summary>Site level</summary>
+<br>
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Website settings**.
 3. Select the relevant site.
 4. In the **Notification URL** field, set your webhook endpoint.
 
-# Order level
+</details>
 
-To configure the webhook endpoint at order level:
+<details id="order-level">
+<summary>Order level</summary>
+<br>
 
 1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) via our API.
 2. In the request body, set:
 	- `payment_options.notification_url` to your webhook endpoint
 	- `payment_options.notification_method` to `POST`
 
-<details id="note">
-<summary>Note</summary>
-<br>
-
-We do support `GET` as a `notification_method`, but we strongly recommend to use `POST`, which is the most efficient.
 </details>
 
-**Example**:
+### Example
 
 ``` javascript
 curl -X POST \
@@ -96,4 +95,11 @@ curl -X POST \
 }'
 ```
 
-Now that you have configured your webhook endpoint, you need to configure your web server to handle notifications correctly.
+> ✅ Success!
+> Now that you have configured your webhook endpoint, you need to configure your web server to handle notifications correctly.
+<br>
+
+---
+
+> 💬 Support
+> Email <integration@multisafepay.com>

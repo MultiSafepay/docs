@@ -4,19 +4,26 @@ category: 62962dd7e272a6002ebbbbc5
 order: 111
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugin to integrate MultiSafepay payment solutions with Magento 1."
+excerpt: "Technical manual for installing and configuring MultiSafepay's free plugin for Magento 1."
 slug: 'magento-1'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.1.3.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
+> ⚠️ Action required
+> Magento 1 is end-of-life. We recommend [upgrading as soon as possible](/magento-1/#upgrading).
+
+MultiSafepay supports most Magento functionalities. For any questions, email <integration@multisafepay.com>
+
+# Changelog
+
 <details id="changelog">
 <summary>Changelog</summary>
 <br>
 
 **3.1.3**
-Release date: Nov. 24th, 2021
+Release date: Nov. 24, 2021
 
 **Fixed**
 - PLGMAGONE-736: Fix invalid method backendOrdersAllowed on backend orders
@@ -24,7 +31,7 @@ Release date: Nov. 24th, 2021
 ---
 
 **3.1.2**
-Release date: Nov. 23rd, 2021
+Release date: Nov. 23, 2021
 
 **Fixed**
 - PLGMAGONE-734: Fix unable to create backend orders (items not showing)
@@ -760,27 +767,17 @@ Release date: Jan 12, 2011
 ___
 </details>
 
-:warning: Magento 1 is end-of-life. We recommend [upgrading as soon as possible](/docs/magento-1#upgrading).
-
-This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Magento 1.
-
-MultiSafepay supports most Magento functionalities. For any questions, email <integration@multisafepay.com>
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+# Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - Magento Open Source 1.7 - 1.9
 - Tested on PHP 7.0
 
-</details>
-
 # How to install
 
 These instructions are for SFTP upload. You can also install via .ZIP file upload in Connect.
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Unpack the content of the .ZIP file in the root of your webshop.
 2. Sign in to your Magento 1 <<glossary:backend>>.
@@ -790,6 +787,7 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 6. Sign out.
 
 # How to configure
+
 1. Sign in to your Magento 1 backend.
 2. Go to **System** > **Configuration** > **MultiSafepay x.x.x** > **Connect settings**.  
     This page contains all main settings and is used for all <<glossary:gateways>> and gift cards.  
@@ -798,7 +796,10 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 3. To configure your selected payment methods, go to **System** > **Configuration** > **MultiSafepay x.x.x**:
     - **Connect MultiSafepay gateways**  
     - **MultiSafepay gift cards**  
-    Make sure you have [activated the payment methods](/docs/payment-methods/) in your MultiSafepay dashboard.
+    Make sure you have [activated the payment methods](/activating-payment-methods/) in your MultiSafepay dashboard.
+<br>
+
+---
 
 # User guide
 
@@ -808,14 +809,14 @@ The plugin is compatible with most Magento 1 checkouts. However, we cannot guara
 
 We test the plugin with Magento 1 core checkout and OneStepCheckout.com (Idev).
 
-**Note:** Always test OneStepCheckout to make sure it is compatible with your configuration of the plugin.
+> **Note:** Always test OneStepCheckout to make sure it is compatible with your configuration of the plugin.
 
 ## Currencies
 
 The default currency is EUR. 
 
-<details id="changing-the-default-currency">
-<summary>Changing the default currency</summary>
+<details id="how-to-change-the-default-currency">
+<summary>How to change the default currency</summary>
 <br>
 
 1. Sign in to your Magento 1 backend. 
@@ -828,8 +829,8 @@ The default currency is EUR.
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways">
-<summary>Configuring generic gateways</summary>
+<details id="how-to-configure-generic-gateways">
+<summary>How to configure generic gateways</summary>
 <br>
 
 1. Sign in to your Magento 1 backend. 
@@ -844,8 +845,8 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 The status of all complete orders automatically changes to **Shipped** in order to collect funds from pay later payment methods.
 
-<details id="disabling-klarna-checkout-fields">
-<summary>Disabling Klarna checkout fields</summary>
+<details id="how-to-disable-klarna-checkout-fields">
+<summary>How to disable Klarna checkout fields</summary>
 <br>
 
 Klarna requires the customer's gender and date of birth. By default, the customer enters their birthday in the Magento checkout in the Klarna payment method fields, and their gender is automatically populated by the core Magento field.
@@ -866,8 +867,8 @@ This change is only for Magento developers. We recommend testing the change and 
 
 ## Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/) except V Pay
@@ -898,8 +899,8 @@ This change is only for Magento developers. We recommend testing the change and 
 
 ## Picquer
 
-<details id="enabling-compatibility-with-picquer">
-<summary>Enabling compatibility with Picquer</summary>
+<details id="how-to-enable-compatibility-with-picquer">
+<summary>How to enable compatibility with Picquer</summary>
 <br>
 
 To make the MultiSafepay Magento 1 plugin compatible with Picqer, follow two additional steps, because orders must not receive **Cancelled** status.
@@ -919,14 +920,14 @@ All expired orders retain **Waiting** status until you cancel them:
 
 ## Recurring payments
 
-<details id="enabling-recurring-payments">
-<summary>Enabling recurring payments</summary>
+[Recurring payments](/recurring-payments) are supported.
+
+<details id="how-to-enable-recurring-payments">
+<summary>How to enable recurring payments</summary>
 <br>
 
 1. Sign in to your Magento 1 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **MultiSafepay settings**.
-
-For more information, see [Recurring Payments](/docs/recurring-payments).
 
 **Credit cards**
 Recurring Payments are not available for the generic credit card gateway. You must enable the Visa, Mastercard, and/or Maestro gateways separately. This displays the **Save card** option at checkout.
@@ -934,11 +935,12 @@ Recurring Payments are not available for the generic credit card gateway. You mu
 </details>
 
 ## Refunds
+
 <details id="refund-rules">
 <summary>Refund rules</summary>
 <br>
 
-| | |
+| Platform | Details |
 |---|---|
 | MultiSafepay dashboard | Full refunds (may not appear in your backend) |
 | Backend | Full refunds and [credit memos](https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html) <br> You can't refund more than the original amount |
@@ -946,8 +948,8 @@ Recurring Payments are not available for the generic credit card gateway. You mu
 
 </details>
 
-<details id="processing-backend-refunds">
-<summary>Processing backend refunds</summary>
+<details id="how-to-process-backend-refunds">
+<summary>How to process backend refunds</summary>
 <br>
 
 1. Sign in to your Magento 1 backend. 
@@ -971,8 +973,8 @@ You can:
 - Show transaction amounts excluding the surcharge at checkout. Surcharges are always included at checkout.
 - Show surcharges with our without VAT at checkout.
 
-<details id="applying-surcharges-with-third-party-add-ons">
-<summary>Applying surcharges with third-party add-ons</summary>
+<details id="how-to-apply-surcharges-with-third-party-add-ons">
+<summary>How to apply surcharges with third-party add-ons</summary>
 <br>
 
 1. Sign in to your Magento 1 backend.
@@ -991,18 +993,18 @@ You can:
 
 You can update the plugin in your Magento 1 backend or the CMS marketplace, or via SFTP.
 
-<details id="updating-via-sftp">
-<summary>Updating via SFTP</summary>
+<details id="how-to-update-via-sftp">
+<summary>How to update via SFTP</summary>
 <br>
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.
 
 </details>
 
-## Upgrading
+## Upgrades
 
 Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1. 
 

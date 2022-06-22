@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 110
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugins to integrate MultiSafepay payment solutions with Drupal 7, 8 & 9."
+excerpt: "Technical manual for installing and configuring MultiSafepay's free plugin for Drupal 7, 8 & 9."
 slug: 'drupal'
 ---
 # Drupal 8 & 9
@@ -21,26 +21,18 @@ slug: 'drupal'
 
 </div>
 
-This technical manual is for installing and configuring MultiSafepay's free plugin for Drupal 8 & 9. 
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+## Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - Drupal 8.9 and above or Drupal 9.x
 - Tested on PHP 7.2
 - Drupal Commerce 2.x
 
-</details>
-
-> Drupal no longer provides support for Drupal 8.9.x.
-
 ## How to install
 
-These instructions are for Composer. You can also install the plugin in your <<glossary:backend>>. 
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+These instructions are for Composer. You can also install the plugin in your <<glossary:backend>>. 
 
 To install the latest stable version of the Drupal Commerce 2.x plugin, run the following command in your terminal:
 
@@ -49,6 +41,7 @@ composer require drupal/commerce_multisafepay_payments
 ```
 
 ## How to configure  
+
 1. Sign in to your Drupal backend.
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
 3. Enter your [account ID, site ID, and site API key](/docs/sites#site-id-api-key-and-security-code). 
@@ -61,8 +54,8 @@ composer require drupal/commerce_multisafepay_payments
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways">
-<summary>Configuring generic gateways</summary>
+<details id="how-to-configure-generic-gateways">
+<summary>How to configure generic gateways</summary>
 <br>
 
 1. Sign in to your Drupal backend. 
@@ -73,8 +66,8 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 ### Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)
@@ -111,20 +104,20 @@ You can't refund more than the original amount in your backend.
 
 You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
-<details id="updating-in-your-backend">
-<summary>Updating in your backend</summary>
+<details id="how-to-update-in-your-backend">
+<summary>How to update in your backend</summary>
 <br>
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation instructions and the Configuration instructions from step 2.
 
 </details>
 
-### Upgrading to Drupal 9
+### Upgrades
 
-Drupal no longer provides support for Drupal 8.9.x. 
+❗️ Drupal no longer provides support for Drupal 8.9.x. 
 
 For how to upgrade Drupal 8 to Drupal 9, see Drupal - [Upgrading from Drupal 8 to Drupal 9 or higher](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher).
 
@@ -144,21 +137,15 @@ For how to upgrade Drupal 8 to Drupal 9, see Drupal - [Upgrading from Drupal 8 t
 
 </div>
 
-This technical manual is for installing and configuring MultiSafepay's free plugin for Drupal 7.
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+## Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - Drupal 7.x
 - Tested on PHP 7.0
 
-</details>
-
 ## How to install and configure
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Unpack the content of the .ZIP file in the root of your Drupal 7 webshop.
 2. Sign in to your Drupal 7 backend.
@@ -171,16 +158,16 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 9. To configure each payment method, under **Actions**, click the **Edit** button.
 10. When the main module is installed, two rules are created but disabled by default:  
     - MultiSafepay order paid in full: Order state to `processing`  
-This rule sets the order to `processing` when the order is paid in full.  
+    This rule sets the order to `processing` when the order is paid in full.  
     - MultiSafepay order complete: Shipped at MultiSafepay  
-This rule updates the [transaction status](/docs/payment-statuses/) to **Shipped** at MultiSafepay. For Pay After Delivery, Klarna, and E-Invoicing, this triggers the invoicing process.
+    This rule updates the <<glossary:transaction status>> to **Shipped** at MultiSafepay. For Pay After Delivery, Klarna, and E-Invoicing, this triggers the invoicing process.
 
 ## User guide
 
 ### Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)
@@ -208,11 +195,11 @@ Refunding more than the original amount is **not** supported in your backend.
 
 You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
-<details id="updating-via-sftp">
-<summary>Updating via SFTP</summary>
+<details id="how-to-update-via-sftp">
+<summary>How to update via SFTP</summary>
 <br>
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

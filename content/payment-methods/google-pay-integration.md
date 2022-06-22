@@ -12,23 +12,23 @@ With direct integration, the **Google Pay** button appears in your checkout page
 
 # Prerequisites
 
-- Google Pay must be [activated in your MultiSafepay account](/docs/payment-methods/).
+<details id="supported-browsers">
+<summary>Supported browsers</summary>
+<br>
+
+- Apple Safari
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox
+- Opera
+- UCWeb UC Browser
+
+</details>
+
+- Google Pay must be [activated in your MultiSafepay account](/payment-methods/google-pay/activation/).
 - You need to register your business and site in [Google Pay's Business Console](https://pay.google.com/business/console/).
 - You must serve an HTTPS webpage with a TLS domain-validated certificate.
 - By accessing or using the Google Pay API, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos).
-
-    <details id="supported-browsers">
-    <summary>Supported browsers</summary>
-    <br>
-
-    - Apple Safari
-    - Google Chrome
-    - Microsoft Edge
-    - Mozilla Firefox
-    - Opera
-    - UCWeb UC Browser
-
-    </details>
 
 # 1. Initialize
 

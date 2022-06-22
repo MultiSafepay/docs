@@ -25,37 +25,27 @@ This URL is your webhook endpoint combined with two additional parameters:
 
 The updated order details make up the payload of the request. 
 
-# Check the status
+# 1. Check the status
 
-Check the order status in the `status` field. If necessary, update your <<glossary:backend>>.
+Check the <<glossary:order status>> in the `status` field. If necessary, update your <<glossary:backend>>.
 
-**Note:** You can ignore notifications that:
+> **Note:** You can ignore notifications that:
+> - Don't have the `timestamp` parameter in the URL  
+> - Have the same <<glossary:order status>> 
 
-- Don't have the `timestamp` parameter in the URL  
-- Have the same [order status](/docs/payments-statuses/) 
-
-# Validate the request
+# 2. Validate the request
 
 Every `POST` notification request includes an HMAC signature that you must use to validate its authenticity. To validate the request, you can either:
 
-<details id="use-our-php-sdk">
-<summary>Use our PHP SDK</summary>
-<br>
+- Use the notification function from our PHP SDK. [View on GitHub](https://github.com/MultiSafepay/php-sdk/blob/master/src/Util/Notification.php), **or**
+- Create your own solution to validate HMAC signatures.
 
-Use the notification function from our PHP SDK. [View on GitHub](https://github.com/MultiSafepay/php-sdk/blob/master/src/Util/Notification.php).
-
-</details>
-
-<details id="validate-with-your-own-solution">
-<summary>Validate with your own solution</summary>
-<br>
-
-Create your own solution to validate HMAC signatures.
+### Own solution
 
 To validate the HMAC signature of `POST` notification requests in your own solution, follow these steps:
 
 1. Base64 decode the `Auth` header value of the request.
-  <details>
+    <details>
     <summary>Example</summary>
     <br>
 
@@ -63,19 +53,19 @@ To validate the HMAC signature of `POST` notification requests in your own solut
 
     After:
     `1641218884:06cbf226e7c873eff96921d7fde3998eb6be0de7915ee1c1b5149511fca82e26bb0ab2e6d0e0ad997cbab151e4ba5615418d8e12528301726143ed1146287f93`
-  </details>
+    </details>
 
 2. Split the decoded `Auth` header value using the colon (`:`) as separator.
     - The first string is the timestamp.
     - The second string is the HMAC signature. 
 
-    <details>
-    <summary>Example</summary>
-    <br>
+      <details>
+      <summary>Example</summary>
+      <br>
 
-    Timestamp: `1641218884`  
-    HMAC signature: `06cbf226e7c873eff96921d7fde3998eb6be0de7915ee1c1b5149511fca82e26bb0ab2e6d0e0ad997cbab151e4ba5615418d8e12528301726143ed1146287f93`
-  </details>
+      Timestamp: `1641218884`  
+      HMAC signature: `06cbf226e7c873eff96921d7fde3998eb6be0de7915ee1c1b5149511fca82e26bb0ab2e6d0e0ad997cbab151e4ba5615418d8e12528301726143ed1146287f93`
+      </details>
 
 3. Concatenate the:
 
@@ -83,14 +73,14 @@ To validate the HMAC signature of `POST` notification requests in your own solut
     - Colon (`:`)
     - Payload of the request
 
-    <details>
-    <summary>Example</summary>
-    <br>
+      <details>
+      <summary>Example</summary>
+      <br>
 
-    ``` javascript
-    1641218884:{"amount":1000,"amount_refunded":0,"costs":[{"amount":0.49,"description":"0.49 For iDEAL Transactions","transaction_id":"123456789","type":"SYSTEM"}],"created":"2022-01-03T15:08:02","currency":"EUR","custom_info":{"custom_1":null,"custom_2":null,"custom_3":null},"customer":{"address1":null,"address2":null,"city":null,"country":null,"country_name":null,"email":"","first_name":null,"house_number":null,"last_name":null,"locale":"en_US","phone1":null,"phone2":"","state":null,"zip_code":null},"description":"product description","fastcheckout":"NO","financial_status":"initialized","items":null,"modified":"2022-01-03T15:08:02","order_id":"my-order-id", "payment_details":{"account_holder_name":null,"account_iban":"https://example.com","account_id":null,"external_transaction_id":"123456789","issuer_id":"3151","recurring_flow":null,"recurring_id":null,"recurring_model":null,"type":"IDEAL"},"payment_methods":[{"amount":1000,"currency":"EUR","description":"product description","external_transaction_id":"123456789","payment_description":"iDEAL","status":"initialized","type":"IDEAL"}],"reason":"","reason_code":"","related_transactions":null,"status":"initialized","transaction_id":"123456789","var1":null,"var2":null,"var3":null}
-    ```
-  </details>
+      ``` javascript
+      1641218884:{"amount":1000,"amount_refunded":0,"costs":[{"amount":0.49,"description":"0.49 For iDEAL Transactions","transaction_id":"123456789","type":"SYSTEM"}],"created":"2022-01-03T15:08:02","currency":"EUR","custom_info":{"custom_1":null,"custom_2":null,"custom_3":null},"customer":{"address1":null,"address2":null,"city":null,"country":null,"country_name":null,"email":"","first_name":null,"house_number":null,"last_name":null,"locale":"en_US","phone1":null,"phone2":"","state":null,"zip_code":null},"description":"product description","fastcheckout":"NO","financial_status":"initialized","items":null,"modified":"2022-01-03T15:08:02","order_id":"my-order-id", "payment_details":{"account_holder_name":null,"account_iban":"https://example.com","account_id":null,"external_transaction_id":"123456789","issuer_id":"3151","recurring_flow":null,"recurring_id":null,"recurring_model":null,"type":"IDEAL"},"payment_methods":[{"amount":1000,"currency":"EUR","description":"product description","external_transaction_id":"123456789","payment_description":"iDEAL","status":"initialized","type":"IDEAL"}],"reason":"","reason_code":"","related_transactions":null,"status":"initialized","transaction_id":"123456789","var1":null,"var2":null,"var3":null}
+      ```
+    </details>
 
 4. SHA512 hash the concatenated string that resulted from step 3, using your API key as the HMAC key.
 
@@ -107,7 +97,7 @@ To validate the HMAC signature of `POST` notification requests in your own solut
 
     Additionally, check whether the timestamp is recent and the originating IP address is MultiSafepay's. For a list of MultiSafepay's IP addresses, email <integration@multisafepay.com>
 
-**Sample code**
+#### Example
 
 We provide a code sample in Python for your reference.
 
@@ -155,9 +145,8 @@ We provide a code sample in Python for your reference.
     sys.exit(1)
   ```
   </details>
-</details>
 
-# Acknowledge the notification
+# 3. Acknowledge the notification
 
 Acknowledge that you have successfully received a valid notification by returning:
 
@@ -166,21 +155,25 @@ Acknowledge that you have successfully received a valid notification by returnin
 
 Until we receive your acknowledgement, we resend the notification 4 times at 15 minute intervals, each with a new timestamp.
 
-# Troubleshooting notifications
+# 4. Troubleshooting notifications
 
 If for some reason you don't receive a notification:
 
-1. In your MultiSafepay test account, go to **Transactions** > **Transaction overview** > **Transaction details**. Scroll to the bottom to find **Offline actions**.
+1. In your MultiSafepay test account, go to **Transactions** > **Transaction overview** > **Transaction details**.    
+    Scroll to the bottom to find **Offline actions**.
 2. Click <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/offline-actions-webhookendpoint.png'> and check that the URL displayed is the correct webhook endpoint.
 3. If the webhook endpoint is correct, click <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/offline-actions-resend.png'> to resend the notification.
 
-If you **still** don't receive a notification, you may need to authorize MultiSafepay servers' IP addresses on your web server. For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
-
-You have successfully configured your web server to handle notifications received from our webhook.
-
-___
-
+> **Tip!** If you **still** don't receive a notification, you may need to authorize MultiSafepay servers' IP addresses on your web server. For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
 <br>
+
+---
 
 > ✅  Congratulations!
 > You've successfully created an order, configured your webhook endpoint, and set up your web server to handle notifications.
+<br>
+
+---
+
+> 💬 Support
+> Email <integration@multisafepay.com>

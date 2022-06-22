@@ -34,14 +34,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-- **Order status:** Changes as the customer's order with you progresses towards shipment 
-- **Transaction status:** Changes as the funds progress towards settlement in your account balance
-
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | The customer has been redirected to Klarna. You can still cancel with Klarna using the reservation number. | Initialized   | Initialized  |
 | Klarna has authorized the transaction and the funds are awaiting capture. You can no longer cancel; you can only refund. | Completed  | Uncleared  |
@@ -57,7 +54,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | Refund initiated. | Initialized | Completed |
 | Refund complete.  | Completed | Completed |
@@ -95,7 +92,8 @@ We recommend testing Klarna payments via the Klarna Portal to experience the ful
 
 For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
 
-For support, email <integration@multisafepay.com>
+> 💬  Support 
+> Email <integration@multisafepay.com>
 </details>
 
 # Integration
@@ -323,7 +321,7 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 
 If you cannot ship the order within 28 days, you can extend the time period for up to 180 days in segments.
 
-If the order is not captured during this time, the [order and transaction status](/docs/payment-statuses/) change to **expired**.
+If the order is not captured during this time, the <<glossary:order status>> and <<glossary:transaction status>> change to **expired**.
 
 <details id="how-to-extend-the-shipping-period"> 
 <summary>How to extend the shipping period</summary>
