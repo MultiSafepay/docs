@@ -193,7 +193,7 @@ You receive a ZIP package containing a system report file and any MultiSafepay l
 
 ## Magento Vault and Instant Purchase
 
-Magento Vault enables you to use [Instant purchase](https://magento.com/innovations-lab/instant-purchase), a feature that helps make repeat payments faster and easier, increasing your <<glossary:conversion rate>>. 
+Magento Vault enables you to use [Instant purchase](https://magento.com/innovations-lab/instant-purchase), a feature that helps make repeat payments faster and easier, increasing your <<glossary:conversion>> rate. 
 
 <details id="how-it-works">
 <summary>How it works</summary>
