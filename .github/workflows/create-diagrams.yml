@@ -20,8 +20,7 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
-          ref: ${{ github.head_ref }}
+          fetch-depth: 2
 
       - name: Get changed files
         id: changed-files
