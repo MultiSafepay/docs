@@ -29,31 +29,11 @@ Read how Pay After Delivery can benefit your business on [multisafepay.com](http
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center">
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant MF as MultiFactor
-    participant Me as Merchant
-
-    C->>Mu: Selects Pay After Delivery at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page <br> to provide their birth date, email address, bank account and phone numbers, <br> and accept the terms & conditions, <br> then redirects to your success page
-    else Direct flow
-    Mu->>MF: Sends order details
-    end
-    MF->>Mu: Authorizes the payment (within 2 business days)
-    Mu->>MF: Captures the funds
-    Me->>C: Ships the order
-    Note over Me,C: Manually change the order status to Shipped.
-    MF->>C: Sends invoice (within 24 hours of Shipped status, settlement is now guaranteed)
-    C->>MF: Completes payment (within 14 days)
-    MF->>Mu: Transfers funds 
-    Mu->>Me: Settles funds (within 30 days of Shipped status)
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/pay-after-delivery-payment-flow.svg" alt="Pay After Delivery payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
 

@@ -1,0 +1,16 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant A as Alipay
+    participant Me as Merchant
+
+    C->>Mu: Selects Alipay at checkout
+    alt Redirect flow
+    Mu->>C: Redirects to payment page
+    else Direct flow
+    Mu->>A: Payment is processed with Alipay
+    end
+    A->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
+	

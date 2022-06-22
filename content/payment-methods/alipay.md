@@ -30,25 +30,10 @@ Read how Alipay can benefit your business on [multisafepay.com](https://www.mult
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant A as Alipay
-    participant Me as Merchant
-
-    C->>Mu: Selects Alipay at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page
-    else Direct flow
-    Mu->>A: Payment is processed with Alipay
-    end
-    A->>Mu: Transfers funds 
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/alipay-payment-flow.svg" alt="Alipay payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;">
 
 # Payment statuses
 

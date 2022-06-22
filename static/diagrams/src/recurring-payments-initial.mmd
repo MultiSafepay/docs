@@ -1,0 +1,12 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Me as Merchant
+    participant Mu as MultiSafepay
+
+    C->>Me: Enters payment details, <br> and verifies identity with 3D Secure
+    Me->>Mu: Forwards payment details
+    Mu-->>Mu: Encrypts payment details <br> for secure storage
+    Mu->>Me: Returns a token <br> for subsequent payments
+    Me->>C: Redirects to success page
+    C-->>Me: Collects funds

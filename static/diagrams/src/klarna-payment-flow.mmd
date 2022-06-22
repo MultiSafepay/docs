@@ -1,0 +1,21 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant K as Klarna
+    participant Me as Merchant
+
+    C->>Mu: Selects Klarna at checkout
+    alt Redirect flow
+    Mu->>C: Redirects to payment page <br> to provide their birth date, email address, and phone number, <br> and accept the terms & conditions, <br> then redirects to your success page
+    else Direct flow
+    Mu->>C: Redirects to Klarna
+    end
+    K->>Mu: Authorizes the payment
+    Mu->>K: Captures the funds (settlement is now guaranteed)
+    Me->>C: Ships the order (within 28 days, or extend the shipping period)
+    Note over Me,C: Manually change the order status to Shipped. 
+    K->>C: Sends invoice (you can customize the invoice) 
+    C->>K: Completes payment with preferred payment method
+    K->>Mu: Transfers funds 
+    Mu->>Me: Settles funds (within 21 days)

@@ -1,0 +1,16 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant D as Deutsche Bank
+    participant Me as Merchant
+
+    C->>Mu: Selects Request to Pay at checkout
+    alt Redirect flow
+    Mu->>C: Redirects to payment page to select their bank, <br> then to online banking
+    else Direct flow
+    Mu->>C: Redirects customer to online banking
+    end
+    C->>D: Authenticates account and authorizes SEPA bank transfer
+    D->>Mu: Transfers funds (within 24 hours, <br> if Instant SEPA not supported)
+    Mu->>Me: Settles funds

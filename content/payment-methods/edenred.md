@@ -39,22 +39,11 @@ Read how Edenred can benefit your business on [multisafepay.com](https://www.mul
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant E as Edenred
-    participant Me as Merchant
-
-    C->>Mu: Selects Edenred at checkout
-    Mu->>C: Redirects to payment page <br> to select the relevant voucher, <br> then to their Edenred account
-    C->>E: Authenticates account, and authorizes MultiSafepay access
-    E->>Mu: Confirms authorization <br> and sufficient funds on voucher
-    E->>Me: Settles funds
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/edenred-payment-flow.svg" alt="Edenred payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
 

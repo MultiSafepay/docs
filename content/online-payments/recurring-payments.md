@@ -42,22 +42,11 @@ Tokens are stored at account level rather than site level. If you operate multip
 2. MultiSafepay encrypts the payment details during processing and stores them securely on our servers. We return to you a non-sensitive token that references the encrypted payment details. 
 3. You can use the token to process recurring payments without needing to handle or store sensitive payment details.
 
-{{< mermaid class="text-center">}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Me as Merchant
-    participant Mu as MultiSafepay
-
-    C->>Me: Enters payment details, <br> and verifies identity with 3D Secure
-    Me->>Mu: Forwards payment details
-    Mu-->>Mu: Encrypts payment details <br> for secure storage
-    Mu->>Me: Returns a token <br> for subsequent payments
-    Me->>C: Redirects to success page
-    C-->>Me: Collects funds
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/recurring-payments-initial.svg" alt="Sequence diagram for request to tokenize cardholder data" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 ### Zero Authorization
 Optionally, you can set the amount for the initial payment `0`. No funds are transferred but a token is created (if the payment details are valid). 
@@ -73,24 +62,11 @@ See [Zero Authorization](/zero-authorization/).
 
 This is also known as "one-click payment".
 
-{{< mermaid class="text-center">}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Me as Merchant
-    participant Mu as MultiSafepay
-
-    C->>Me: Signs in to their customer account <br> and places order
-    Me->>C: Displays token summary at checkout <br> e.g. MASTERCARD **43
-    C->>Me: Selects token and <br> confirms payment
-    Me->>Mu: Places order with token
-    Mu-->>Mu: Decrypts relevant payment details <br> to process payment
-    Mu->>Me: Confirms successful payment
-    Me->>C: Redirects to success page
-    C-->>Me: Collects funds 
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/recurring-payments-cit.svg" alt="Sequence diagram for customer-initiated recurring payments" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 ## Subsequent payments: Merchant-initiated 
 
@@ -103,21 +79,11 @@ There are two common use cases for merchant-initiated subsequent payments:
 2. You include the token in the request to MultiSafepay. 
 3. MultiSafepay decrypts the payment details and processes the payment.
 
-{{< mermaid class="text-center">}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Me as Merchant
-    participant Mu as MultiSafepay
-
-    C-->>Me: Consents to <br> merchant-initiated payments
-    Me->>Mu: Places order with token
-    Mu-->>Mu: Decrypts payment details <br> to process payment
-    Mu->>Me: Confirms successful payment
-    C-->>Me: Collects funds
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/recurring-payments-mit.svg" alt="Sequence diagram for merchant-initiated recurring payments" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Activation
 

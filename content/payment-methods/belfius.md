@@ -26,26 +26,10 @@ Read how Belfius can benefit your business on [multisafepay.com](https://www.mul
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant B as Belfius
-    participant Me as Merchant
-
-    C->>Mu: Selects Belfius at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page, <br> then to online banking
-    else Direct flow
-    Mu->>C: Redirects to online banking
-    end
-    C->>B: Authenticates account and completes payment
-    B->>Mu: Transfers funds 
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/belfius-payment-flow.svg" alt="Belfius payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;">
 
 > **Note:** MultiSafepay doesn’t automatically receive the customer's IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed. 
 

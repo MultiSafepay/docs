@@ -49,22 +49,11 @@ Read how gift cards can benefit your business on [multisafepay.com](https://www.
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant G as Gift card issuer
-    participant Me as Merchant
-
-    C->>Mu: Selects a gift card at checkout
-    Mu->>C: Redirects to payment page
-    C->>G: Enters gift card details and completes payment
-    G->>Mu: Processes payment and transfers funds 
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}} 
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/gift-cards-payment-flow.svg" alt="Gift cards payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
 

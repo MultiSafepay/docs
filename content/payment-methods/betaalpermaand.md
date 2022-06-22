@@ -28,33 +28,11 @@ Read how Betaal per Maand can benefit your business on [multisafepay.com](https:
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center">
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant S as Santander
-    participant Me as Merchant
-
-    C->>Mu: Selects Betaal per Maand at checkout
-    alt Redirect flow
-    Mu->>C: Redirects briefly to payment page, <br> then to Santander
-    else Direct flow
-    Mu->>C: Redirects to Santander
-    end
-    S->>Mu: Authorizes the payment
-    Mu->>S: Captures the funds
-    Me->>C: Ships the order
-    Note over Me,C: Manually change the order status to Shipped. 
-    Me->>Mu: Provides track & trace code
-    Mu->>S: Forwards track & trace code 
-    S->>C: Sends invoice (settlement is now guaranteed)
-    C->>S: Selects payment period and method, and completes payment 
-    S->>Mu: Transfers funds within 5 business days <br> of Shipped status
-    Mu->>Me: Settles funds within 5 business days
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/betaalpermaand-payment-flow.svg" alt="Betaal per maand payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
 

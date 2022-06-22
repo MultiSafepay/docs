@@ -29,22 +29,10 @@ Read how Bancontact can benefit your business on [multisafepay.com](https://www.
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant CB as Customer's bank
-    participant Me as Merchant
-
-    C->>Mu: Selects Bancontact (QR) at checkout
-    Mu->>C: Redirects to payment page <br> to select their bank, <br> and then to their online banking
-    C->>CB: Authenticates account/scans QR code and completes payment
-    CB->>Mu: Transfers funds 
-    Mu->>Me: Settles funds 
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/bancontact-payment-flow.svg" alt="Bancontact payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;">
 
 # Payment statuses  
 

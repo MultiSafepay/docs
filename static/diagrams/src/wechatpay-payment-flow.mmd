@@ -1,0 +1,16 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant W as WeChat Pay
+    participant Me as Merchant
+
+    C->>Mu: Selects WeChat Pay at checkout
+    alt Redirect flow
+    Mu->>C: Redirects to payment page <br> with WeChat QR code
+    else Direct flow
+    Mu->>C: Displays WeChat QR code
+    end
+    C->>W: Scans code with WeChat app to complete payment 
+    W->>Mu: Transfers funds 
+    Mu->>Me: Settles funds

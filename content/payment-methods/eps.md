@@ -28,22 +28,11 @@ Read how EPS can benefit your business on [multisafepay.com](https://www.multisa
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant CB as Customer's bank
-    participant Me as Merchant
-
-    C->>Mu: Selects EPS at checkout
-    Mu->>C: Redirects to payment page to select their bank, <br> then to online banking
-    C->>CB: Authenticates account and completes payment
-    CB->>Mu: Transfers funds 
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/eps-payment-flow.svg" alt="EPS payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
 
