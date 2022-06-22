@@ -173,7 +173,7 @@ You can import accountant exports into a range of third-party [accounting platfo
 MultiSafepay does not collect funds for PayPal, therefore these transactions don't automatically appear in the report.  
 
 
-To include them, in your dashboard or [backend](/glossaries/multisafepay-glossary/#backend), set the transaction status to **Completed**.
+To include them, in your dashboard or <<glossary:backend>>, set the transaction status to **Completed**.
 
 </details >
 

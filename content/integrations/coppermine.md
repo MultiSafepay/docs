@@ -26,7 +26,7 @@ To integrate MultiSafepay as your payment service provider, follow these steps:
 
 # 2. In Coppermine
 
-1. Sign in to your Coppermine backend, and then go to **Settings**.
+1. Sign in to your Coppermine <<glossary:backend>>, and then go to **Settings**.
 2. To configure the MultiSafepay PaymentMethod Gateway, enter your:
     - MultiSafepay account ID
     - Site ID, API key, and secure code

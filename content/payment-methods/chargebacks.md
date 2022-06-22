@@ -7,7 +7,7 @@ parentDoc: 62a727569e389a012f577acd
 slug: 'chargebacks'
 ---
 
-Chargebacks arise when a cardholder disagrees with or doesn't recognize a transaction charged to their credit card, and requests the issuer to reverse it. The card scheme notifies MultiSafepay and reclaims the transaction amount from you.
+Chargebacks arise when a cardholder disagrees with or doesn't recognize a transaction charged to their credit card, and requests the <<glossary:issuer>> to reverse it. The <<glossary:card scheme>> notifies MultiSafepay and reclaims the transaction amount from you.
 
 You are solely liable for paying chargebacks.
 

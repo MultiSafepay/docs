@@ -7,7 +7,7 @@ parentDoc: 62a727569e389a012f577acd
 slug: 'card-errors'
 ---
 
-This page sets out reason codes for common credit card errors returned by issuers and recommended actions to take. 
+This page sets out reason codes for common credit card errors returned by <<glossary:issuers>> and recommended actions to take. 
 
 Only the cardholder can contact the issuer to find out the specific reason.
 

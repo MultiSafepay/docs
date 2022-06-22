@@ -11,7 +11,7 @@ slug: 'cbc-kbc'
 
 An online banking payment method of two of Belgium's largest banks: [CBC](https://www.cbc.be/particuliers/fr.html) which serves the French speaking population, and [KBC](https://www.kbc.be/particulieren/nl.html) which serves the Dutch-speaking population.
 
-The payment method functions the same for both the CBC branch and the KBC branch. However, MultiSafepay's payment gateway includes the branches as separate options because customers of one branch can't pay through the other.
+The payment method functions the same for both the CBC branch and the KBC branch. However, MultiSafepay's payment <<glossary:gateway>> includes the branches as separate options because customers of one branch can't pay through the other.
 
 Read how CBC/KBC can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/kbccbc)
 

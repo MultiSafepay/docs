@@ -383,7 +383,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 :warning: We recommend first installing the plugin in a test environment, following the PrestaShop 1.6 installation procedure. Always make a backup.
 
 1. Unpack the contents of the .zip archive and upload the **Modules** folder via SFTP to the PrestaShop root directoy, merging the two folders.
-2. Sign in to your PrestaShop 1.6 backend.
+2. Sign in to your PrestaShop 1.6 <<glossary:backend>>.
 3. Go to **Modules and services** > **Payments and gateways**.  
     **Note:** You must install and configure the MultiSafepay Core Module (MultiSafepay) because all payment methods require certain settings and/or the API key in the core module.
 4. In the next screen, proceed with the installation.

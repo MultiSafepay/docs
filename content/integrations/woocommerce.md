@@ -40,7 +40,7 @@ There are two ways to install the plugin:
 **Manual installation**
 
 1. Click the **Download** button above.
-2. Sign in to your WooCommerce backend.
+2. Sign in to your WooCommerce <<glossary:backend>>.
 3. Go to **Plugins** > **Add new**. 
 4. Click **Browse file**.
 5. Upload the Plugin_WooCommerce_x.x.x.zip file.
@@ -173,7 +173,7 @@ function return_my_own_locale( \MultiSafepay\Api\Transactions\OrderRequest $orde
 
 The plugin supports [payment components](/payment-components/), which:
 
-- Provide a seamless checkout experience to increase conversion.
+- Provide a seamless checkout experience to increase <<glossary:conversion>>.
 - Encrypt customer payment details for secure processing.
 - Shift responsibility for [PCI DSS compliance](/payment-regulations/pci-dss) to MultiSafepay.
 

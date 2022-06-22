@@ -154,7 +154,7 @@ If approved, your account goes live and you can [make payouts](/payouts/).
 <summary>KYC checks</summary>
 <br>
 
-As a payment service provider and acquirer, MultiSafepay is legally required to perform KYC checks on the:
+As a payment service provider and <<glossary:acquirer>>, MultiSafepay is legally required to perform KYC checks on the:
 
 - Account holder
 - Business bank account

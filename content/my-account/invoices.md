@@ -3,7 +3,7 @@ title: "Invoices"
 category: 62962dcdbccb9a001d4bbc81
 order: 206
 hidden: false
-parentDoc: 62a206ee0298c80058af3aed
+parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'invoices'
 excerpt: 'MultiSafepay generates invoices at month end for your records.'
 ---
@@ -17,7 +17,7 @@ Merchant and primary account holders receive a monthly invoice for the total amo
 For payment methods where MultiSafepay:
 
 - Collects, we are required to charge VAT on processing fees.
-- Does **not** collect, VAT is applied via the scheme to avoid double taxation. These transactions are included in invoices with zero VAT value.
+- Does **not** collect, VAT is applied via the <<glossary:card scheme>> to avoid double taxation. These transactions are included in invoices with zero VAT value.
 
 <details id="fees-we-charge-vat-for">
 <summary>Fees we charge VAT for</summary>

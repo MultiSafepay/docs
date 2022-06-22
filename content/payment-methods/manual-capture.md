@@ -46,7 +46,7 @@ Manual Capture is not supported in our [ready-made integrations](/integrations/r
 - VISA: 7 days
 - Mastercard and Maestro: 30 days
 
-After expiration, the issuer can cancel the authorization.
+After expiration, the <<glossary:issuer>> can cancel the authorization.
 
 ## Payment methods
 

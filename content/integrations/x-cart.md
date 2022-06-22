@@ -36,7 +36,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 :warning: We recommend first installing the plugin in a test environment, following the X-Cart installation procedure. Always make a backup.
 
 1. In the root of your webshop, unzip the content of the .ZIP file.
-2. Sign in to your X-Cart backend.
+2. Sign in to your X-Cart <<glossary:backend>>.
 3. Go to **System tools** > **Cache management** > **Re-deploy the store**.
 4. Click **Start**.
 

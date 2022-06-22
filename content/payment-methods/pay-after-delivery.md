@@ -9,7 +9,7 @@ slug: 'pay-after-delivery'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Pay_After_Delivery.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-Pay After Delivery is MultiSafepay's own pay later method that lets customers pay for orders after receiving them, increasing customer confidence and conversion. 
+Pay After Delivery is MultiSafepay's own pay later method that lets customers pay for orders after receiving them, increasing customer confidence and <<glossary:conversion>>. 
 
 Customers are only charged for the items they keep. MultiSafepay bears the risk, based on the customer's history, and guarantees settlement.
 
@@ -217,7 +217,7 @@ When you ship the order, you **must** manually change the [order status](/paymen
 
 **In your backend**
 
-If you change the order status in your backend, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
+If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
 
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **Delivered** in your backend.
