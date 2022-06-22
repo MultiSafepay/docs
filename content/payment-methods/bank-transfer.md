@@ -35,14 +35,12 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses
 
-- **Order status:** Changes as the customer's order with you progresses towards shipment 
-- **Transaction status:** Changes as the funds progress towards settlement in your account balance
-  
+ 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | Awaiting the customer to transfer the funds. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
@@ -55,7 +53,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | Refund initiated. | Reserved | Reserved |
 | Refund complete. | Completed | Completed |
@@ -152,7 +150,8 @@ The customer must only pay for **one** order per bank transfer. When transferrin
 - The payment reference number (**not** the order number)  
     **Format:** 16 digits, numbers only, no words
 
-❗ Customers **must** enter the details accurately to avoid unmatched payments (see below).
+>❗ Note
+> Customers **must** enter the details accurately to avoid unmatched payments (see below).
 
 ## Matching payments
 

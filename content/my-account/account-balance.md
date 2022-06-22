@@ -8,11 +8,7 @@ slug: 'account-balance'
 excerpt: 'The balance on funds held in your MultiSafepay account.'
 ---
 
-## Top ups
-
-<details id="how-to-top-up-your-balance">
-<summary>How to top up your balance</summary>
-<br>
+# Top ups
 
 To add funds to your balance, follow these steps:
 
@@ -23,13 +19,7 @@ To add funds to your balance, follow these steps:
     - Payment method you want to use for the transaction
 4. Click **Send**.
 
-</details>
-
-## Daily balance
-
-<details id="how-to-view-your-daily-balance">
-<summary>How to view your daily balance</summary>
-<br>
+# Daily balance
 
 To view your daily balance in your [MultiSafepay dashboard](https://merchant.multisafepay.com), go to **Finance** > **Daily balance**.
 
@@ -42,19 +32,11 @@ There you can see your:
 - Transactions and statuses
 - Uncleared balance (if activated, see below)
 
-</details>
-
-## Uncaptured balance
-
-<details id="how-to-view-your-uncaptured-balance">
-<summary>How to view your uncaptured balance</summary>
-<br>
+# Uncaptured balance
 
 You can set your daily balance report to include the balance of uncleared transactions. This is particularly useful if you offer pay later and/or credit card payment methods. 
 
 To activate this feature in your daily balance report, email a request to <sales@multisafepay.com>
-
-</details>
 <br>
 
 [block:html]

@@ -1,14 +1,15 @@
 ---
 title: "Multiple payment methods"
 category: 6278c92bf4ad4a00361431b0
-order: 302
+order: 32
 hidden: false
 slug: 'payment-component-multiple'
 parentDoc: 62a848399bb3eb004023f291 
-excerpt: 'Technical manual for integrating a payment component using multiple payment methods.'
 --- 
 
-# Step 1: Add the elements
+This technical manual is for integrating a payment component using multiple payment methods.
+
+# 1. Add the elements
 
 1. Add the component's CSS to the `<head>` of your checkout page:  
     ```
@@ -37,7 +38,7 @@ Decide if you want to:
     <button id="payment-button"></button>
     ```
 
-# Step 2: Initialize the component
+# 2. Initialize the component
 
 ## Generate an API token
 Payment Components require a MultiSafepay API token. See API reference – [Generate an API token](https://docs-api.multisafepay.com/reference/generateapitoken).
@@ -118,13 +119,13 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
     Recurring payments are supported for all credit card payments.
 
-    **Note**: For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
+    > **Note**: For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
 
     To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email <sales@multisafepay.com>
 
     </details>
 
-    **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and transaction value. 
+    > **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and transaction value. 
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
 
@@ -233,7 +234,7 @@ The `PaymentComponent` has the following methods:
 
 </details>
 
-# Step 3: Create an order
+# 3. Create an order
 
 ## Handle the interaction
 
@@ -332,7 +333,7 @@ Create an order from your server, appending the `payment_data` collected from th
 
 See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Payment component.
 
-# Step 4: Go live
+# 4. Go live
 
 To test the payment methods, use our [Testing](/docs/testing#test-payment-details).
 

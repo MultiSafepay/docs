@@ -14,7 +14,7 @@ The FastCheckout Android SDK helps you connect to MultiSafepay from your native 
 
 ## Manual
 
-Simply provide a valid transaction ID or [create an order](https://docs-api.multisafepay.com/reference/createorder). The SDK generates the checkout automatically and sends status updates for each transaction.  The checkout flow includes:
+Simply provide a valid transaction ID or [create an order](https://docs-api.multisafepay.com/reference/createorder). The SDK generates the checkout automatically and sends status updates for each transaction. The checkout flow includes:
 
 - Shipping details:
     - Preferred shipping details
@@ -344,6 +344,6 @@ sdk.setStyles(styles);
       {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-12.png" title="screenshot 12">}}
       {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-13.png" title="screenshot 13">}}
     
-    * Once the payment process is completed, the SDK proceeds to the **Transaction complete** screen. The SDK callback notifies the client app of the transaction status, e.g. Uncleared, Cancelled. Clicking **Back to shop** redirect the customer back to the webshop.
+    * Once the payment process is completed, the SDK proceeds to the **Transaction complete** screen. The SDK callback notifies the client app of the <<glossary:transaction status>>, e.g. Uncleared, Cancelled. Clicking **Back to shop** redirect the customer back to the webshop.
 
       {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-14.png" title="screenshot 14">}}

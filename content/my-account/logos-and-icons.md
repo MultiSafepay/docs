@@ -10,9 +10,7 @@ For MultiSafepay logos, see our Github repository – [MultiSafepay logos](https
 
 For the logos and icons of all MultiSafepay payment methods, see our Github repository – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
 
-<details id=“how-to-generate-logo-pngs”>
-<summary>How to generate logo PNGs</summary>
-<br>
+# Logo PNGs
 
 To generate a portable network graphic (PNG) of a payment method logo to display on your site, follow these steps:
 
@@ -25,8 +23,6 @@ To generate a portable network graphic (PNG) of a payment method logo to display
     - Drag and drop logos to change the order in which they display.
     - Remove logos by clicking **Remove**.
 7. When you are happy with the preview, to generate the PNG image, click **Download**. 
-
-</details>
 <br>
 
 [block:html]

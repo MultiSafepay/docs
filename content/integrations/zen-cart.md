@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 120
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugin to integrate MultiSafepay payment solutions with Zen Cart."
+excerpt: "Technical manual for installing and configuring MultiSafepay's free plugin for Zen Cart."
 slug: 'zen-cart'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Zen_Cart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
@@ -19,21 +19,15 @@ slug: 'zen-cart'
 
 </div>
 
-This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Zen Cart.
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+# Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - ZenCart 1.5.5
 - Tested on PHP 7.0
 
-</details>
-
 # How to install and configure
 
-:warning: We recommend first installing the plugin in a test environment, following the Zen Cart installation procedure. Always make a backup.
+> **Tip!** We recommend first installing the plugin in a test environment, following the Zen Cart installation procedure. Always make a backup.
 
 1. In the root of your webshop, unpack the content of the .ZIP file.
 2. Sign in to your Zen Cart <<glossary:backend>>.
@@ -43,13 +37,16 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 6. Click **Update**.
 7. Disable the **MultiSafepay - Connect** module.
 8. Enable the relevant payment methods.
+<br>
+
+---
 
 # User guide
 
 ## Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)
@@ -86,11 +83,11 @@ You cannot refund more than the original amount in your backend.
 
 You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 
-<details id="updating-via-sftp">
-<summary>Updating via SFTP</summary>
+<details id="how-to-update-via-sftp">
+<summary>How to update via SFTP</summary>
 <br>
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

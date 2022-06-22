@@ -7,11 +7,7 @@ parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'affiliated-merchants'
 excerpt: 'How partner account holders can manage the accounts of affiliated merchants.'
 ---
-# Creating affiliate accounts
-
-<details id=“how-to-create-affiliate-accounts”>
-<summary>How to create affiliate accounts</summary>
-<br>
+# Create affiliate accounts
 
 To create a new affiliate account in your dashboard, follow these steps:
 
@@ -19,15 +15,10 @@ To create a new affiliate account in your dashboard, follow these steps:
 2. Go to the affiliate dashboard, and then click **Affiliates**. 
 3. In the affiliate dashboard top-right corner, copy the **Partnerlink** and send it to your affiliates.
 4. To customize a welcome email, go to **Settings** > **Email templates**.
-5. Click **Add new template**.
-6. Click **Load default template**.
-7. Edit the template and fill out the fields as required.
+5. Click **Add new template** > **Load default template**.
+6. Edit the template and fill out the fields as required.
 
-</details>
-
-<details id=“how-to-onboard-affiliate-accounts”>
-<summary>How to onboard affiliate accounts</summary>
-<br>
+# Onboard affiliate accounts
 
 All affiliates must [onboard](/docs/onboarding/) and sign an agreement with MultiSafepay, containing general terms and conditions.
 
@@ -35,13 +26,7 @@ You can also automate onboarding affiliates [via our API](/docs/affiliate-onboar
 
 For any questions, affiliates can email <partner@multisafepay.com>
 
-</details>
-
-# Accessing affiliated accounts
-
-<details id=“how-to-access-affiliate-accounts”>
-<summary>How to access affiliate accounts</summary>
-<br>
+# Access affiliated accounts
 
 To access an affiliate's account:
 
@@ -58,17 +43,11 @@ Here you can manage:
 - Technical integrations, reports, and other tools
 - Transactions, refunds, and balance
 
-</details>
-
-# Charging affiliates
-
-<details id=“how-to-charge-affiliates”>
-<summary>How to charge affiliates</summary>
-<br>
+# Charge affiliates
 
 You can charge affiliates at three levels.
 
-| | |
+| Account level | Charge |
 |---|---|
 | **Partner/primary level** | Set fixed or percentage-based transaction charges for **all** affiliated merchant accounts. |
 | **Affiliate level** | Set fixed or percentage-based transaction charges for a specific affiliated merchant account. <br> This overrides the partner/primary-level settings. |

@@ -35,14 +35,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-- **Order status:** Changes as the customer's order with you progresses towards shipment 
-- **Transaction status:** Changes as the funds progress towards settlement in your account balance
-
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | MultiSafepay's risk analysis is in progress. You can still cancel. | Initialized   | Initialized  |
 | E-Invoicing has authorized the transaction. <br> You can no longer cancel. You can only refund. | Completed  | Initialized  |
@@ -58,7 +55,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | Refund initiated. | Initialized | Initialized |
 | Refund complete.  | Completed | Completed |

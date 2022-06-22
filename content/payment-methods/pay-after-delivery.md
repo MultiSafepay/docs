@@ -37,14 +37,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-- **Order status:** Changes as the customer's order with you progresses towards shipment 
-- **Transaction status:** Changes as the funds progress towards settlement in your account balance
-
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | MultiSafepay's risk analysis is in progress. You can still cancel. | Initialized | Initialized | 
 | We have authorized the transaction and the funds are awaiting capture. You can no longer cancel. You can only refund. <br> See [Close transactions](#close-transactions). | Completed | Uncleared | 
@@ -60,7 +57,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | Refund initiated. | Initialized | Initialized |  
 | Refund complete. | Completed | Completed | 
@@ -111,7 +108,7 @@ The billing and shipping addresses must be the **same** to prevent fraud.
 
 ## Close transactions
 
-If a customer pays into your business bank account directly instead of paying MultiFactor, you need to manually change the transaction status to **Completed**. This closes the transaction and stops MultiFactor sending the customer payment requests. 
+If a customer pays into your business bank account directly instead of paying MultiFactor, you need to manually change the <<glossary:transaction status>> to **Completed**. This closes the transaction and stops MultiFactor sending the customer payment requests. 
 
 <details id="how-to-close-transactions">
 <summary>How to close transactions</summary>
@@ -126,7 +123,8 @@ To close a transaction manually, follow these steps:
 5. Enter a comment about what happened with the order, and click **Complete**.  
     The total amount of the transaction is deducted from your account balance. 
 
-**Note:** Once the transaction status changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/docs/refund-payments/) instead. 
+**Note:** Once the <<glossary:transaction status>> changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/docs/refund-payments/) instead. 
+
 
 </details>
 

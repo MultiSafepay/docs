@@ -14,11 +14,11 @@ Your right to apply surcharges varies per payment method and the customer’s co
 
 # PSD2
 
-The PSD2 applies to the whole European Economic Area (EEA), but individual states can decide how to implement certain aspects. Always check what rules apply in the country your business is registered in. 
+The [PSD2](/docs/psd2/) applies to the whole European Economic Area (EEA), but individual states can decide how to implement certain aspects. Always check what rules apply in the country your business is registered in. 
 
 In the Netherlands, the [Authority for Consumers & Markets (ACM)](https://www.acm.nl) is responsible for PSD2 oversight. The Dutch National Bank recommends always contacting ACM for inquiries. 
 
-# Surcharges prohibited
+# Prohibited surcharges 
 
 Surcharges are banned for both individual and business customers on:
 
@@ -30,7 +30,7 @@ Surcharges are banned for both individual and business customers on:
 If you are currently surcharging prohibited transactions, you may need to update your settings in your <<glossary:backend>>. For support, contact your ecommerce platform or your developer. 
 You do **not** need to change any settings in your MultiSafepay dashboard.
 
-# Surcharges permitted
+# Permitted surcharges
 
 Surcharges are permitted for:
 
@@ -60,4 +60,15 @@ Surcharges are permitted for:
 > Given the changing nature of the law, rules, regulations and the risks of electronic communication, this page may contain omissions or inaccuracies. We took great care in writing it, but cannot guarantee its completeness, timeliness, or accuracy. 
 > Always seek advice from a professional consultant or competent authority before taking any decision or action. 
 > We accept no responsibility for direct or consequential damages resulting from the use of, reliance on, or actions taken based on this page. 
+<br>
 
+---
+
+<blockquote class="callout callout_info">
+    <h3 class="callout-heading false">
+        <span class="callout-icon">💬</span>
+        <p>Support</p>
+    </h3>
+    <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
+</blockquote>
+<br>

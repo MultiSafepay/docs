@@ -1,7 +1,7 @@
 ---
 title: "Payment statuses"
 category: 6278c92bf4ad4a00361431b0
-order: 500
+order: 50
 hidden: false
 slug: 'payment-statuses'
 ---
@@ -22,13 +22,13 @@ API attribute: `financial_status`
 
 </details>
 
-# Status meanings
+# What statuses mean
 
 The meaning of statuses (or combinations of statuses) varies per payment method. To check specific meanings, see the relevant payment method page. 
 
 The table below sets out possible order and transaction statuses and what they commonly mean.
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
@@ -41,7 +41,7 @@ The table below sets out possible order and transaction statuses and what they c
 
 ## Refunds and chargebacks
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | Refund initiated.| Initialized/Reserved | Initialized/Reserved |
 | Refund/chargeback complete. | Completed | Completed |

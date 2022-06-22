@@ -1,7 +1,7 @@
 ---
 title: 'Discounts'
 category: 6278c92bf4ad4a00361431b0
-order: 200
+order: 20
 hidden: false
 slug:  'discounts'
 ---
@@ -40,7 +40,7 @@ You can apply discounts to orders via your dashboard or the API.
     - Check that the **New total** amount is correct. 
     - To display a field to enter add any relevant comments, click **Description**.
     - Click **Save item changes**.  
-      A new transaction is generated and the order status is **Completed**.
+      A new transaction is generated and the <<glossary:order status>> is **Completed**.
 
     </details>
 
@@ -56,7 +56,7 @@ You can apply discounts to orders via your dashboard or the API.
     - Check that the **New total** amount is correct. 
     - To display a field to enter add any relevant comments, click **Description**.
     - Click **Save item changes**.  
-      A new transaction is generated and the order status is **Completed**.
+      A new transaction is generated and the <<glossary:order status>> is **Completed**.
 
     </details>
 

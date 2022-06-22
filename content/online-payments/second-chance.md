@@ -1,7 +1,7 @@
 ---
 title: 'Second Chance reminders'
 category: 6278c92bf4ad4a00361431b0
-order: 800
+order: 80
 hidden: false
 slug: 'second-chance'
 excerpt: 'Boost conversion by sending customers reminders about abandoned payments.'
@@ -10,7 +10,7 @@ Second Chance is a MultiSafepay service that automatically emails customers a pa
 
 Second Chance emails are also sent for manually generated [payment links](/docs/payment-links/) if the customer doesn't click the link to complete payment.
 
-# Requirements
+# Prerequisites
 
 - Under the [GDPR](/docs/gdpr/), you must obtain documented consent from the customer to send Second Chance emails.
 - You must include the customer's email address in the transaction API request.
@@ -18,6 +18,8 @@ Second Chance emails are also sent for manually generated [payment links](/docs/
 - Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default. 
 
 # Activation
+
+You can activate Second Chance yourself in your dashboard. 
 
 <details id="how-to-activate-second-chance">
 <summary>How to activate Second Chance</summary>

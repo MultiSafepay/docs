@@ -11,30 +11,32 @@ excerpt: "Free app to integrate MultiSafepay payment solutions with Ecwid."
 
 Ecwid provides a free app to integrate with MultiSafepay [payment pages](/docs/payment-pages/).
 
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+# Prerequisites
 
 You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
-</details>
-
 # How to install and configure
+
 1. Sign in to your Ecwid <<glossary:backend>> and install the MultiSafepay app from the App Store.
 2. Go to **Ecwid control panel** > **Settings** > **Payment page**.
 3. For each payment method, change the **Payment processor** value to **MultiSafepay**, and click **Save**.
 4. Click the **MultiSafepay account details** link. 
 5. Enter your [account ID, site ID, and secure code](/docs/sites#site-id-api-key-and-security-code).
 5. Save the changes and enable your selected payment methods.
+<br>
 
-For more information, see Ecwid – [How to set up](https://support.ecwid.com/hc/en-us/articles/207808285-MultiSafepay#Howtosetup).
+> ℹ️ More information
+> See Ecwid – [How to set up](https://support.ecwid.com/hc/en-us/articles/207808285-MultiSafepay#Howtosetup).
+<br>
+
+---
 
 # User guide
 
 ## Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [American Express](/docs/cards), [Mastercard](/docs/cards/), [Visa](/docs/cards/) and all co-branded cards
@@ -50,9 +52,10 @@ For more information, see Ecwid – [How to set up](https://support.ecwid.com/hc
 
 ## Wix
 
-For instructions on integrating Ecwid with Wix, see Ecwid – [Adding your Ecwid store to Wix](https://support.ecwid.com/hc/en-us/articles/115005874885-Adding-your-Ecwid-store-to-Wix-site).
+For instructions on how to integrate Ecwid with Wix, see Ecwid – [Adding your Ecwid store to Wix](https://support.ecwid.com/hc/en-us/articles/115005874885-Adding-your-Ecwid-store-to-Wix-site).
 
 You can process refunds from your MultiSafepay dashboard, but refunds are **not** supported in Wix webshops.
+<br>
 
 ---
 

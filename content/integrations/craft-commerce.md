@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 108
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugin to integrate MultiSafepay payment solutions into your Craft Commerce webshop."
+excerpt: "Technical manual for installing and configuring MultiSafepay's free plugin for Craft Commerce 3."
 slug: 'craft-commerce'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Craft_Commerce.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
@@ -17,24 +17,18 @@ slug: 'craft-commerce'
 
 </div>
 
-This technical manual is for installing and configuring MultiSafepay's free plugin for Craft Commerce 3.
-
 # Features
  
 - Support for separate payment methods, pay later methods, and gift cards
 - Partial and full refunds for all payment methods, except pay later
-- Customizable order statuses
+- Customizable <<glossary:order statuses>>
 - Shipment notifications for pay later methods 
 
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+# Prerequisites
 
 - Craft CMS version 3.2 or higher
 - PHP 7.0 and higher
 - Tested with PHP 7.0 
-
-</details>
 
 # How to install
 
@@ -53,6 +47,9 @@ The latest stable release is downloaded and installed in your Craft Commerce web
 1. Sign in to your Craft Commerce <<glossary:backend>>.
 2. To configure the plugin settings, go to **MultiSafepay** > **Settings**.  
 3. To add payment methods activated in your [MultiSafepay account](https://merchant.multisafepay.com) and configure <<glossary:gateways>>, go to **Commerce** > **System settings** > **Gateways**.  
+<br>
+
+---
 
 # User guide
 
@@ -60,8 +57,8 @@ The latest stable release is downloaded and installed in your Craft Commerce web
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways">
-<summary>Configuring generic gateways</summary>
+<details id="how-to-configure-generic-gateways">
+<summary>How to configure generic gateways</summary>
 <br>
 
 1. Sign in to your Craft Commerce backend. 
@@ -73,8 +70,8 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 ## Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/), **except** Postepay and V Pay
@@ -103,14 +100,20 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 ## Refunds
 
-| | |
+<details id="refund-rules">
+<summary>Refund rules</summary>
+<br>
+
+| Platform | Details |
 |---|---|
 | MultiSafepay dashboard | - [Full and partial refunds](/docs/refund-payments/) <br> - Generic gateway transactions |
 | Backend | - Full and partial refunds <br> - You can't refund more than the original amount in your backend <br> - Generic gateway transactions **not** supported |
 | API | - [Refund order](https://docs-api.multisafepay.com/reference/refundorder) <br> - [Pay later refunds](/docs/refund-payments#pay-later-refunds) **not** supported <br> - Discounts **not** supported |
 
-<details id="processing-backend-refunds">
-<summary>Processing backend refunds</summary>
+</details>
+
+<details id="how-to-process-backend-refunds">
+<summary>How to process backend refunds</summary>
 <br>
 
 To process refunds from the Craft Commerce admin panel:  

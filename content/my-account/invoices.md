@@ -7,12 +7,14 @@ parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'invoices'
 excerpt: 'MultiSafepay generates invoices at month end for your records.'
 ---
-> ⚠️ Note
+> ℹ️ Note
 > Invoices are for your records only. You do **not** need to pay them separately. 
 
 # Merchant/primary account VAT invoices
 
 Merchant and primary account holders receive a monthly invoice for the total amount of VAT we deduct from your account balance at the end of each month.
+
+To view VAT invoices in your [MultiSafepay dashboard](https://merchant.multisafepay.com), go to **Finance** > **Invoices**.
 
 For payment methods where MultiSafepay:
 
@@ -34,15 +36,7 @@ For payment methods where MultiSafepay:
 
 **Note:** The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay).
 
-</details> 
-
-<details id="how-to-view-invoices">
-<summary>How to view invoices</summary>
-<br>
-
-To view VAT invoices in your [MultiSafepay dashboard](https://merchant.multisafepay.com), go to **Finance** > **Invoices**. 
-
-</details> 
+</details>  
 
 # Partner invoices
 
@@ -72,20 +66,20 @@ The exchange rate is not displayed on the invoice.
 
 To calculate the rate, simply divide the EUR amount by the foreign currency amount (or the other way around depending on your target currency).
 
-## Receiving invoices via email
+## Invoice email address
 
-<details id=“how-to-specify-email-address-for-invoices”>
-<summary>How to specify an email address for invoices</summary>
+You can specify an email address for MultiSafepay to send invoices to, e.g. invoices@yourcompany.com
+
+If you do not specify an email address, we use the main business email address provided in your account.
+
+<details id=“how-to-provide-invoice-email-address”>
+<summary>How to provide an invoice email address</summary>
 <br>
-
-To specify an email address for MultiSafepay to send invoices to, follow these steps:
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. From the list in the right hand corner of your screen, click **Contact details**. 
 3. In the **Financial email** field, enter the email address.
 4. Click **Save**. 
-
-If you do not specify an email address, we use the main business email address provided in your account.
 </details>
 <br>
 

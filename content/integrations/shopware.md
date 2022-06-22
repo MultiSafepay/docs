@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 106
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugins to integrate MultiSafepay payment solutions with Shopware."
+excerpt: "Technical manuals for installing and configuring MultiSafepay's free plugins for Shopware."
 slug: 'shopware'
 ---
 
@@ -22,21 +22,15 @@ slug: 'shopware'
 
 </div>
 
-This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Shopware 6.
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+## Prequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - Shopware 6.3.x, 6.4.x _([Starter Edition](https://www.shopware.com/en/pricing) supported)_*
 - Tested on PHP 7.2.0
 
-</details>
-
 ## How to install and configure
 
-:warning: We recommend first installing the plugin in a test environment, following the Shopware 6 installation procedure. Always make a backup.
+> **Tip!** We recommend first installing the plugin in a test environment, following the Shopware 6 installation procedure. Always make a backup.
 
 1. Navigate to our [Shopware 6 GitHub repository](https://github.com/MultiSafepay/shopware6/releases).
 2. Under **Assets**, download the latest release, which starts with Plugin_Shopware6_x.x.x.zip.
@@ -66,8 +60,8 @@ composer require multisafepay/shopware6
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways">
-<summary>Configuring generic gateways</summary>
+<details id="how-to-configure-generic-gateways">
+<summary>How to configure generic gateways</summary>
 <br>
 
 1. Sign in to your Shopware 6 backend.
@@ -80,8 +74,8 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 ### Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)
@@ -118,8 +112,8 @@ You need to [enable recurring payments](/docs/recurring-payments) in your MultiS
 [Full and partial refunds](/docs/refund-payments/) **except** for pay later methods are supported in your MultiSafepay dashboard and backend.  
 You cannot refund more than the original amount in your backend.
 
-<details id="processing-backend-refunds">
-<summary>Processing backend refunds</summary>
+<details id="how-to-process-backend-refunds">
+<summary>How to process backend refunds</summary>
 <br>
 
 1. In your Shopware 6 backend, go to the **Order details** page.
@@ -131,11 +125,11 @@ You cannot refund more than the original amount in your backend.
 
 You can update the plugin in your backend and the CMS marketplace, or via using SFTP.
 
-<details id="updating-in-your-backend">
-<summary>Updating in your backend</summary>
+<details id="how-to-update-in-your-backend">
+<summary>How to update in your backend</summary>
 <br>
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 3.
@@ -158,21 +152,15 @@ You can update the plugin in your backend and the CMS marketplace, or via using 
 
 </div>
 
-This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Shopware 5.
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+## Prequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - Shopware 5.6.x or 5.5.7 and above.
 - Tested on PHP 7.0
 
-</details>
-
 ## How to install and configure
 
-:warning: We recommend first installing the plugin in a test environment, following the Shopware 5 installation procedure. Always make a backup.
+> **Tip!** We recommend first installing the plugin in a test environment, following the Shopware 5 installation procedure. Always make a backup.
 
 1. Sign in to your Shopware 5 backend.
 2. Go to **Configuration** > **Plugin manager**.
@@ -189,8 +177,8 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways">
-<summary>Configuring generic gateways</summary>
+<details id="how-to-configure-generic-gateways">
+<summary>How to configure generic gateways</summary>
 <br>
 
 1. Sign in to your Shopware 5 backend.
@@ -207,8 +195,8 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 ### Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)
@@ -267,7 +255,7 @@ For more information, see Shopware – [Blocking transactions](https://developer
 
 For pay later orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
-If you change the order status to **Delivered** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
+If you change the <<glossary:order status>> to **Delivered** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
 ### Transaction and order numbers
 
@@ -281,20 +269,21 @@ The transaction number is generated when the transaction is initialized. MultiSa
 
 You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
-<details id="updating-in-your-backend">
-<summary>Updating in your backend</summary>
+<details id="how-to-update-in-your-backend">
+<summary>How to update in your backend</summary>
 <br>
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.
+
 </details>
 
 ### Upgrading to Shopware 6
 
-<details id="upgrading-to-shopware-6">
-<summary>Upgrading to Shopware 6</summary>
+<details id="how-to-upgrade-to-shopware-6">
+<summary>How to upgrade to Shopware 6</summary>
 <br>
 
 **About Shopware 6**  

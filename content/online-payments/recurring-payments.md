@@ -1,7 +1,7 @@
 ---
 title: 'Recurring payments'
 category: 6278c92bf4ad4a00361431b0
-order: 600
+order: 60
 hidden: false
 slug: 'recurring-payments'
 excerpt: 'Boost conversion and manage subscriptions using tokenization.'
@@ -20,6 +20,8 @@ Subsequent payments are exempt from [SCA and 2FA](/docs/pds2/).
 MultiSafepay is responsible for [PCI DSS](/docs/pci-dss/) compliant storage of payment details. 
 
 Tokens are stored at account level rather than site level. If you operate multiple sites from a single MultiSafepay account, you can also offer cross-domain recurring payments, i.e. tokenize a customer's details on Site A and offer one-click payments on Site B.
+
+### Supported payment methods
 
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>
@@ -132,7 +134,7 @@ We support recurring payments in our plugins for:
 
 See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > `customer.reference`.
 
-**Note:** Tokens for SEPA Direct Debit transactions are originally received as iDEAL or Sofort transactions. 
+> **Note:** Tokens for SEPA Direct Debit transactions are originally received as iDEAL or Sofort transactions. 
 
 <details id="additional-parameters">
 <summary>Additional parameters</summary>

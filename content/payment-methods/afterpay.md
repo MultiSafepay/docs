@@ -34,14 +34,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses
 
-- **Order status:** Changes as the customer's order with you progresses towards shipment 
-- **Transaction status:** Changes as the funds progress towards settlement in your account balance
-
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | AfterPay has authorized the transaction and the funds are awaiting capture. You can still cancel. <br> **Important:** To capture the funds, when you ship the order you must [manually change the order status to shipped](#shipment). | Completed  | Uncleared  |
 | The funds are captured. <br> You can no longer cancel. You can only refund. | Shipped | Uncleared |
@@ -56,7 +53,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | Refund initiated. | Initialized | Completed |
 | Refund complete. | Completed | Completed |
@@ -115,7 +112,7 @@ You are solely responsible for this in your integration.
 
 ## Shipment
 
-When you ship the order, you **must** manually change the [order status](/docs/payment-statuses/) from **Completed** to **Shipped** to:
+When you ship the order, you **must** manually change the <<glossary:order status>> from **Completed** to **Shipped** to:
 
 - Capture the funds
 - Trigger sending the invoice to the customer
