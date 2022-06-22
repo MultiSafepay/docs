@@ -66,7 +66,7 @@ To process payments from a site operated by a separate legal entity, you must si
 
 # Integration
 
-To connect a site to your backend, enter the required details: 
+To connect a site to your <<glossary:backend>>, enter the required details: 
 
 - Most [ready-made integrations](/integrations/ready-made): Your [site ID, API key, and secure code](#site-id-api-key-and-security-code), and account ID (top-right corner of your dashboard)  
 - Self-made integrations: Your [site API key](#site-id-api-key-and-security-code)

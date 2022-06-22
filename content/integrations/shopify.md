@@ -11,7 +11,7 @@ slug: 'shopify'
 
 :warning: **Urgent action required:** [Migrate to our updated app](#installation) before March 31, 2022.
 
-This technical manual is for installing/migrating to MultiSafepay's free app for integrating with Shopify. This new app leverages a single, powerful gateway for a faster, safer integration.
+This technical manual is for installing/migrating to MultiSafepay's free app for integrating with Shopify. This new app leverages a single, powerful <<glossary:gateway>> for a faster, safer integration.
 
 <details id="requirements">
 <summary>Requirements</summary>
@@ -83,7 +83,7 @@ Payments are processed in the webshop's default currency only.
     - [Trustly](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1053945)
     - [Visa (including Cartes Bancaires & Dankort)](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1030328)
 
-2. Sign in to your Shopify backend.
+2. Sign in to your Shopify <<glossary:backend>>.
 3. Go to **Settings** > **Payment providers** > **Alternative payments**.
 4. Search for and click on the payment methods you have installed.
 5. Enter your [site ID and secure code](/sites/#site-id-api-key-and-secure-code).

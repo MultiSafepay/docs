@@ -17,7 +17,7 @@ Merchant and primary account holders receive a monthly invoice for the total amo
 For payment methods where MultiSafepay:
 
 - Collects, we are required to charge VAT on processing fees.
-- Does **not** collect, VAT is applied via the scheme to avoid double taxation. These transactions are included in invoices with zero VAT value.
+- Does **not** collect, VAT is applied via the <<glossary:card scheme>> to avoid double taxation. These transactions are included in invoices with zero VAT value.
 
 <details id="fees-we-charge-vat-for">
 <summary>Fees we charge VAT for</summary>

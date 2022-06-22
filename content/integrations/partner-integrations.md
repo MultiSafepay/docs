@@ -210,7 +210,7 @@ Email <integration@multisafepay.com>
 
 You can process refunds from your [MultiSafepay dashboard](https://merchant.multisafepay.com). 
 
-To process refunds from your ShopFactory backend, email <integration@multisafepay.com>
+To process refunds from your ShopFactory <<glossary:backend>>, email <integration@multisafepay.com>
 </details>
 
 ___

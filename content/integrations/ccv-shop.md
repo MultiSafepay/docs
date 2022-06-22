@@ -22,7 +22,7 @@ You will need a [MultiSafepay account](/getting-started-guide/).
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
-1. Sign in to your CCV Shop backend and install the MultiSafepay app from the App Store.
+1. Sign in to your CCV Shop <<glossary:backend>> and install the MultiSafepay app from the App Store.
 2. Go to **Mijn webshop** > **Instellingen** > **Bestelproces & voorraad** > **Betaalmethoden**.
 3. In the **Electronische betalingen** tab, select **MultiSafepay**.
 4. Enter your [account ID, site ID and secure code](/sites/#site-id-api-key-and-secure-code).
