@@ -8,11 +8,11 @@ excerpt: 'Boost conversion by sending customers reminders about abandoned paymen
 ---
 Second Chance is a MultiSafepay service that automatically emails customers a payment link when they initiate but don't complete a transaction. This helps boost <<glossary:conversion>> and impulse purchases. The first email is sent 1 hour after the customer initiates the payment, and a second after 24 hours.
 
-Second Chance emails are also sent for manually generated [payment links](/payment-links/) if the customer doesn't click the link to complete payment.
+Second Chance emails are also sent for manually generated [payment links](/docs/payment-links/) if the customer doesn't click the link to complete payment.
 
 # Requirements
 
-- Under the [GDPR](/gdpr), you must obtain documented consent from the customer to send Second Chance emails.
+- Under the [GDPR](/docs/gdpr/), you must obtain documented consent from the customer to send Second Chance emails.
 - You must include the customer's email address in the transaction API request.
 - Second Chance emails cannot be activated or sent to the customer while the status of the original transaction is **Uncleared**, or once it is **Completed**.
 - Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default. 
@@ -55,7 +55,7 @@ The Second Chance email template is completely customizable.
 6. From the **Language** list, select the relevant language.
 7. Click **Load default template**.
 
-For how to customize the template, see [Customer emails](/customer-emails/).
+For how to customize the template, see [Customer emails](/docs/customer-emails/).
 
 </details>
 
@@ -67,12 +67,12 @@ For how to customize the template, see [Customer emails](/customer-emails/).
 
 The following payments methods are not supported because they follow a different payment flow:
 
-- [AfterPay](/afterpay)
-- [Bank Transfer](/bank-transfer)
-- [Betaal per Maand](/betaal-per-maand)
-- [SEPA Direct Debit](/sepa-direct-debit)
-- [Klarna](/klarna)
-- [Pay After Delivery](/pay-after-delivery)
+- [AfterPay](/docs/afterpay/)
+- [Bank Transfer](/docs/bank-transfer/)
+- [Betaal per Maand](/docs/betaal-per-maand/)
+- [SEPA Direct Debit](/docs/sepa-direct-debit/)
+- [Klarna](/docs/klarna/)
+- [Pay After Delivery](/docs/pay-after-delivery/)
 
 </details>
 
@@ -95,7 +95,7 @@ If a cancelled order is subsequently paid for, MultiSafepay reopens the order in
 
 ## Reports
 
-For an overview of all Second Chance emails that resulted in successful payment, see [Second Chance report](/second-chance-report/).
+For an overview of all Second Chance emails that resulted in successful payment, see [Second Chance report](/docs/second-chance-report/).
 <br>
 
 ---
