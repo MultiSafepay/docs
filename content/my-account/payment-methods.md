@@ -16,7 +16,7 @@ Some payment methods you can activate yourself in your dashboard, but for some y
 | [Own flow](#own-flow) | AfterPay, Betaal per Maand, Klarna, Edenred, gift cards, Paysafecard, PayPal |
 
 > ℹ️ Ready-made integrations
-> If you use a [ready-made integration](/integrations/ready-made/), first check that the payment method is supported. 
+> If you use a [ready-made integration](/docs/our-integrations/), first check that the payment method is supported. 
 > Once the method is activated, also enable it in your <<glossary:backend>>.
 
 # Apply to MultiSafepay 
@@ -35,7 +35,7 @@ Some payment methods you can activate yourself in your dashboard, but for some y
     - Monthly and annual SEPA Direct Debit transaction volume
     - Minimum and maximum transaction amount
     - Type of products sold using this payment method
-    - Whether you want to accept [recurring payments](/recurring-payments/)
+    - Whether you want to accept [recurring payments](/docs/recurring-payments/)
     - Whether any subscriptions are monthly, quarterly, or annual
     - Any additional information we request
     We send you an agreement to sign and email back to us.
@@ -84,11 +84,11 @@ Some payment methods you can activate yourself in your dashboard, but for some y
 
 You must:
 
-- Have a [MultiSafepay account](/getting-started-guide/)
+- Have a [MultiSafepay account](/docs/getting-started-guide/)
 - Be registered with a Dutch Chamber of Commerce (no exceptions)
 - Have an annual turnover of more than 500,000 EUR (unless agreed otherwise with Betaal per Maand)
 - Sell products or services to European citizens with a residential or delivery address in the Netherlands (no exceptions)
-- Connect to MultiSafepay via our API or [ready-made integrations](/integrations/ready-made/)
+- Connect to MultiSafepay via our API or [ready-made integrations](/docs/our-integrations/)
 
 1. Email a request to <sales@multisafepay.com>
 2. In the request, let us know if you already have a Santander account. If you don't, we'll submit an application for you. 
@@ -213,7 +213,7 @@ To configure your MultiSafepay account for PayPal, follow these steps:
 
 Your account is now configured!  
 
-We strongly recommend [testing transactions](/testing/) before processing live payments. 
+We strongly recommend [testing transactions](/docs/testing/) before processing live payments. 
 </details>
 
 ## Paysafecard

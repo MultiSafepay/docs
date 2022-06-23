@@ -12,7 +12,7 @@ excerpt: 'Partner or primary account holders can submit onboarding information f
 
 Via our API, you can create a customized onboarding process for new merchants depending on your business model, e.g. marketplaces, franchises, and crowdfunding platforms. This is particularly useful if you are onboarding multiple merchants.
 
-For more information, see [Onboarding](/onboarding/).
+For more information, see [Onboarding](/docs/onboarding/).
 
 > 📘 Supported accounts
 > 

@@ -29,7 +29,7 @@ To process payments from a site operated by a separate legal entity, you must si
   5. In the **Description** field, enter the site name.  
       **Note:** If relevant, this is displayed on MultiSafepay payment pages and the customer’s bank statement.
   6. In the **Base URL** field, add the site’s URL. This must be the URL where you receive payments.
-  7. If you want to receive [status updates](/payment-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
+  7. If you want to receive [status updates](/docs/payment-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
   8. Click **Save**.
 
   </details> 
@@ -44,10 +44,10 @@ To process payments from a site operated by a separate legal entity, you must si
   2. From the **Website platform** list, select your ecommerce platform.  
       You are prompted to install the MultiSafepay ready-made integration for your ecommerce platform in your site. 
   3. From the **Category** list, select the type of products and/or services you sell from this site, and then click **Continue**.
-  4. If you want to receive [status updates](/about-payments/multisafepay-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
+  4. If you want to receive [status updates](/docs/payment-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
   5. In the **Description** field, enter your company name, and then click **Continue**.  
       **Note:** If relevant, this is displayed on MultiSafepay payment pages and the customer’s bank statement.  
-      A template of your [payment page](/payment-pages/) is generated.
+      A template of your [payment page](/docs/payment-pages/) is generated.
   6. Customize the template as required.  
       - To toggle the view of the payment page, click:
           - **List view** to see all payment methods in a list
@@ -68,10 +68,10 @@ To process payments from a site operated by a separate legal entity, you must si
 
 To connect a site to your <<glossary:backend>>, enter the required details: 
 
-- Most [ready-made integrations](/integrations/ready-made): Your [site ID, API key, and secure code](#site-id-api-key-and-security-code), and account ID (top-right corner of your dashboard)  
+- Most [ready-made integrations](/docs/our-integrations/): Your [site ID, API key, and secure code](#site-id-api-key-and-security-code), and account ID (top-right corner of your dashboard)  
 - Self-made integrations: Your [site API key](#site-id-api-key-and-security-code)
 
-The connection is finalized. To validate the connection, [place a test order](/integrations/testing/).
+The connection is finalized. To validate the connection, [place a test order](/docs/testing/).
 <br>
 
 ___
@@ -79,7 +79,7 @@ ___
 # User guide
 
 ## Company name
-You can specify how your company name appears on customer bank or credit card statements (if supported by the bank) and on [payment pages](/payment-pages), or choose to display an alias instead. Customers may prefer this if you offer adult products.
+You can specify how your company name appears on customer bank or credit card statements (if supported by the bank) and on [payment pages](/docs/payment-pages/), or choose to display an alias instead. Customers may prefer this if you offer adult products.
 
 <details id="how-to-display-company-name">
 <summary>How to display your company name</summary>
