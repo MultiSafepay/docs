@@ -316,6 +316,10 @@ Then, when you're ready to go live:
 
 ---
 
-> 💬  Support
-> Email <integration@multisafepay.com>
+[block:html]
+{
+  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></p>\n</blockquote>\n"
+}
+[/block]
+
 [Top of page](#)

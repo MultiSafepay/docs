@@ -26,5 +26,8 @@ If you accept card payments, you must include the following information on your 
 In accordance with our PCI DSS certification and other obligations, we regularly perform security checks on our system. This includes penetration tests, which are a form of ethical hacking that simulate a cyberattack to identify and fix vulnerabilities.
 <br>
 
-> 💬  Support
-> Email <support@multisafepay.com>
+[block:html]
+{
+  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
+}
+[/block]

@@ -15,6 +15,9 @@ Although MultiSafepay doesn't prohibit embedding a payment page as an `<iframe>`
 - Modern browsers' can block them due to stricter security checks.
 
 Instead, we recommend using [Payment Components](https://docs.multisafepay.com/payment-components/) to embed payments into your site. 
-
-For support, email <integration@multisafepay.com>
  
+[block:html]
+{
+  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">integration@multisafepay.com</a></p>\n</blockquote>\n"
+}
+[/block]

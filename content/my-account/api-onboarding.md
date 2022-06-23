@@ -65,5 +65,8 @@ The API returns an API key for the site.
 After submitting this information, MultiSafepay screens the merchant accounts, bank accounts, UBO details, and sites. Once approved, the merchants can use their API key to start processing payments.
 <br>
 
-> 💬  Support
-> Email <support@multisafepay.com>
+[block:html]
+{
+  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
+}
+[/block]
