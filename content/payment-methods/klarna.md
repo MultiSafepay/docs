@@ -26,31 +26,11 @@ Read how Klarna can benefit your business on [multisafepay.com](https://www.mult
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center">}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant K as Klarna
-    participant Me as Merchant
-
-    C->>Mu: Selects Klarna at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page <br> to provide their birth date, email address, and phone number, <br> and accept the terms & conditions, <br> then redirects to your success page
-    else Direct flow
-    Mu->>C: Redirects to Klarna
-    end
-    K->>Mu: Authorizes the payment
-    Mu->>K: Captures the funds (settlement is now guaranteed)
-    Me->>C: Ships the order (within 28 days, or extend the shipping period)
-    Note over Me,C: Manually change the order status to Shipped. 
-    K->>C: Sends invoice (you can customize the invoice) 
-    C->>K: Completes payment with preferred payment method
-    K->>Mu: Transfers funds 
-    Mu->>Me: Settles funds (within 21 days)
-
-{{< /mermaid >}} 
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/klarna-payment-flow.svg" alt="Klarna payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
 

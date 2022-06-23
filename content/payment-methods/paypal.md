@@ -28,25 +28,11 @@ Read how PayPal can benefit your business on [multisafepay.com](https://www.mult
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant P as PayPal
-    participant Me as Merchant
-
-    C->>Mu: Selects PayPal at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page, <br> then to their PayPal account
-    else Direct flow
-    Mu->>C: Redirects to PayPal account
-    end
-    C->>P: Authenticates account, and completes payment 
-    P->>Me: Settles funds in your <br> PayPal business account
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/paypal-payment-flow.svg" alt="PayPal payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 > ℹ️ **Note** 
 > MultiSafepay does **not** collect funds for PayPal transactions.

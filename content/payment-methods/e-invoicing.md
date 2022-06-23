@@ -27,31 +27,11 @@ Read how E-Invoicing can benefit your business on [multisafepay.com](https://www
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center">
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant MF as MultiFactor
-    participant Me as Merchant
-
-    C->>Mu: Selects E-Invoicing at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page to provide <br> birth date, bank account, email address, and phone number, <br> then redirects to your success page
-    else Direct flow
-    Mu->>MF: Sends order details
-    end
-    MF->>Mu: Authorizes the payment
-    Mu->>MF: Captures the funds
-    Me->>C: Ships the order
-    Note over Me,C: Manually change the order status to Shipped. 
-    MF->>C: Sends invoice (settlement is now guaranteed)
-    C->>MF: Completes payment 
-    MF->>Mu: Transfers funds 
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}} 
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/e-invoicing-payment-flow.svg" alt="E-invoicing payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
 

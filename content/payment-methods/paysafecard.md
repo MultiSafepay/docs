@@ -31,22 +31,11 @@ Read how Paysafecard can benefit your business on [multisafepay.com](https://www
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant P as Paysafecard
-    participant Me as Merchant
-
-    C->>Mu: Selects Paysafecard at checkout
-    Mu->>C: Redirects to payment page
-    C->>P: Enters 16-digit card PIN and completes payment
-    P->>Mu: Transfers funds 
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}} 
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/paysafecard-payment-flow.svg" alt="Paysafecard payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
 

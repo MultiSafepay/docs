@@ -28,30 +28,11 @@ Read how in3 can benefit your business on [multisafepay.com](https://www.multisa
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant I as in3
-    participant Me as Merchant
-
-    C->>Mu: Selects in3 at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page <br> to provide their birth date, title, and phone number, <br> then redirects to your success page
-    else Direct flow
-    Mu->>C: Redirects to in3 to select their bank, <br> and accept the payment periods and terms & conditions
-    end
-    I->>Mu: Authorizes the payment
-    Mu->>I: Captures the funds
-    C->>I: Pays 1st instalment within 5 mins (settlement is now guaranteed)
-    Me->>C: Ships the order 
-    I->>Mu: Transfers funds 
-    Mu->>Me: Settles funds (within 15 days of 1st instalment)
-    C->>I: Pays 2nd instalment within 30 days, and 3rd within 60 days 
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/in3-payment-flow.svg" alt="in3 payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
 

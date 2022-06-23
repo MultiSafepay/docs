@@ -33,26 +33,11 @@ Read how Request to Pay can benefit your business on [multisafepay.com](https://
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant D as Deutsche Bank
-    participant Me as Merchant
-
-    C->>Mu: Selects Request to Pay at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page to select their bank, <br> then to online banking
-    else Direct flow
-    Mu->>C: Redirects customer to online banking
-    end
-    C->>D: Authenticates account and authorizes SEPA bank transfer
-    D->>Mu: Transfers funds (within 24 hours, <br> if Instant SEPA not supported)
-    Mu->>Me: Settles funds
-    
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/request-to-pay-payment-flow.svg" alt="Request to Pay payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
 

@@ -31,28 +31,11 @@ Read how Sofort can benefit your business on [multisafepay.com](https://www.mult
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant CB as Customer's bank
-    participant Me as Merchant
-
-    C->>Mu: Selects Sofort at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page, <br> then to online banking
-    else Direct flow
-    Mu->>C: Redirects to online banking
-    end
-    C->>CB: Authenticates account and completes payment
-    CB->>Mu: Transfers funds 
-    Note over CB,Mu: May take 3 business days <br> Don't ship yet!
-    Me->>C: Ships order
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/sofort-payment-flow.svg" alt="Sofort payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
 
@@ -124,4 +107,4 @@ You can activate Sofort yourself in your dashboard.
 
 > 💬  Support
 > Email <support@multisafepay.com>
-[Top of page](#)
+[Top of page](#)
