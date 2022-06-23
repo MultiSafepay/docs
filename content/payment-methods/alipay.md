@@ -22,9 +22,9 @@ Read how Alipay can benefit your business on [multisafepay.com](https://www.mult
 | **Countries**  | Worldwide  | 
 | **Currencies**  | EUR, USD (currency conversion in EUR only)  | 
 | **Expiration** | Transactions expire after 5 hours. | 
-| **Payment pages** | [Yes](/payment-pages/) (current version only)  |
-| **Refunds** | [Yes](/refunds/): Full, partial, and API refunds, and [discounts](/discounts/)  |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only)  |
+| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds, and [discounts](/discounts/)  |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 
 # Payment flow
 
@@ -90,11 +90,11 @@ First apply to MultiSafepay, and then activate in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > Alipay direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct), **except** PrestaShop 1.6, OsCommerce, and Zen Cart.   |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) (direct), **except** PrestaShop 1.6, OsCommerce, and Zen Cart.   |
 <br>
 
 > ℹ️ Testing
-> To test Alipay payments, see [Testing](/testing/#wallets).
+> To test Alipay payments, see [Testing](/docs/testing#wallets).
 <br>
 
 ---

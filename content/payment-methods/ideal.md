@@ -19,11 +19,11 @@ Read how iDEAL can benefit your business on [multisafepay.com](https://www.multi
 | **Countries**  | The Netherlands  | 
 | **Currencies**  | EUR | 
 | **Expiration** | Transactions expire after 1.5 hours. |
-| **Payment components** | [Yes](/payment-components/) | 
-| **Payment pages** | [Yes](/payment-pages/) (Banking: Current and deprecated versions, QR: Current only) |
-| **Recurring payments** | [Yes](/recurring-payments/) (banking only) |
-| **Refunds** | [Yes](/refunds/): Full and partial |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Payment components** | [Yes](/docs/payment-components/) | 
+| **Payment pages** | [Yes](/docs/payment-pages/) (Banking: Current and deprecated versions, QR: Current only) |
+| **Recurring payments** | [Yes](/docs/recurring-payments/) (banking only) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 
 > **Note** 
 > To increase transparency for customers, the name of your website appears on the iDEAL payment page and "Your-website-name by MultiSafepay" on the customer's bank statement.
@@ -100,11 +100,11 @@ You can activate iDEAL yourself in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > iDEAL direct/redirect/QR |
-| **Ready-made integrations** | Banking is supported in all our [ready-made integrations](/integrations/ready-made/), **except** ZenCart. <br> QR is supported in [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 8](/drupal/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [Odoo](/odoo/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop/), [Shopware 5](/shopware/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/), [X-Cart](/x-cart/). |
+| **Ready-made integrations** | Banking is supported in all our [ready-made integrations](/docs/our-integrations/), **except** ZenCart. <br> QR is supported in [Craft Commerce](/docs/craft-commerce/), [CS-Cart](/docs/cs-cart/), [Drupal 8](/docs/drupal/), [Magento 1](/docs/magento-1/), [Magento 2](/docs/magento-2/), [Odoo](/docs/odoo/), [OpenCart](/docs/opencart/), [PrestaShop 1.7](/docs/prestashop-1-7/), [Shopware 5](/docs/shopware/), [VirtueMart](/docs/virtuemart/), [WooCommerce](/docs/woo-commerce/), [X-Cart](/docs/x-cart/). |
 <br>
 
 > ℹ️ Testing
-> To test iDEAL payments, see [Testing](/testing/#banking-methods).
+> To test iDEAL payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---

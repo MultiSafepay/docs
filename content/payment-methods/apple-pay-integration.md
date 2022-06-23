@@ -9,7 +9,7 @@ slug: 'apple-pay-integration'
 
 # Direct integration
 
-With direct integration, the ** Pay** button appears in your checkout page. Customers complete payment without being redirected to a [payment page](/payment-pages/).
+With direct integration, the ** Pay** button appears in your checkout page. Customers complete payment without being redirected to a [payment page](/docs/payment-pages/).
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/applePayHero.png" align ="center"/>
 
@@ -222,7 +222,7 @@ When the customer clicks or taps the ** Pay** button:
 
 To test your Apple Pay direct integration, you need to:
 
-- Meet the [testing prerequisites](/payment-methods/apple-pay/integration-testing/#testing-prerequisites)
+- Meet the [testing prerequisites](/docs/apple-pay-integration#prerequisites)
 - Have an [Apple Developer account](https://developer.apple.com/apple-pay/sandbox-testing), configured for Apple Pay, with at least one Apple Pay test card in your wallet
 
 To test, follow these steps:
@@ -238,7 +238,7 @@ To test, follow these steps:
 
 # Redirect integration
 
-With redirect integration, customers are redirected to a [payment page](/payment-pages/) to complete payment.
+With redirect integration, customers are redirected to a [payment page](/docs/payment-pages/) to complete payment.
 
 ## API
 

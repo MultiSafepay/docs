@@ -24,8 +24,8 @@ Read how Paysafecard can benefit your business on [multisafepay.com](https://www
 | **Countries**  | Worldwide – Go to [paysafecard.com](https://www.paysafecard.com/en-gb/), and click the globe icon in the banner.  | 
 | **Currencies**  | EUR, GBP, USD  | 
 | **Expiration** | Transactions expire after 3 hours. |
-| **Payment pages** | [Yes](/payment-pages/) (current version only) |
-| **Refunds** | Paid with Paysafecard only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with Paysafecard **and** another payment method: [Full refunds](/refunds/).  |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
+| **Refunds** | Paid with Paysafecard only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with Paysafecard **and** another payment method: [Full refunds](/docs/refund-payments/).  |
 
 # Payment flow
 
@@ -82,7 +82,7 @@ For any questions, email <sales@multisafepay.com>
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Gift card redirect |
-| **Ready-made integrations** | Supported in [OsCommerce](/oscommerce/), [Magento 1](/magento-1/), [VirtueMart](/virtuemart/), [X-Cart](/x-cart/), [Zen Cart](/zen-cart/). |
+| **Ready-made integrations** | Supported in [OsCommerce](/docs/oscommerce/), [Magento 1](/docs/magento-1/), [VirtueMart](/docs/virtuemart/), [X-Cart](/docs/x-cart/), [Zen Cart](/docs/zen-cart/). |
 <br>
 
 > ℹ️ Testing

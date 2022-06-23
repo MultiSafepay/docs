@@ -20,9 +20,9 @@ Read how Trustly can benefit your business on [multisafepay.com](https://www.mul
 | **Countries**  | Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom  | 
 | **Currencies**  | EUR, GBP, SEK | 
 | **Expiration** | Transactions expire after 2 hours. |
-| **Payment pages** | [Yes](/payment-pages/) (current version only) |
-| **Refunds** | [Full and partial](/refunds/)  |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
+| **Refunds** | [Full and partial](/docs/refund-payments/)  |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 
 # Payment flow
 
@@ -90,16 +90,16 @@ You can enable Trustly yourself in your dashboard.
 | | |
 | Integration | Details |
 |---|---|
-| **Activation** | [Enable in your dashboard](/payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment pages](/payment-pages/) (current version only) |
-| **Testing** | [Test payment details](/testing/#banking-methods) |
+| **Activation** | [Enable in your dashboard](/docs/payment-methods#activate-in-dashboard) |
+| **Checkout options** | [Payment pages](/docs/payment-pages/) (current version only) |
+| **Testing** | [Test payment details](/docs/testing#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Trustly redirect |
-| **Ready-made integrations** | Trustly (direct) is supported in [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 8](/drupal/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [Odoo](/odoo/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop/), [Shopware 5 and 6](/shopware/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/), [X-Cart](/x-cart/) |
-| **Ready-made integrations** | Trustly (direct) is supported in [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 8](/drupal/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [Odoo](/odoo/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop/), [Shopware 5 and 6](/shopware/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/), [X-Cart](/x-cart/). |
+| **Ready-made integrations** | Trustly (direct) is supported in [Craft Commerce](/docs/craft-commerce/), [CS-Cart](/docs/cs-cart/), [Drupal 8](/docs/drupal/), [Magento 1](/docs/magento-1/), [Magento 2](/docs/magento-2/), [Odoo](/docs/odoo/), [OpenCart](/docs/opencart/), [PrestaShop 1.7](/docs/prestashop-1-7/), [Shopware 5 and 6](/docs/shopware/), [VirtueMart](/docs/virtuemart/), [WooCommerce](/docs/woo-commerce/), [X-Cart](/docs/x-cart/) |
+
 <br>
 
 > ℹ️ Testing
-> To test Trustly payments, see [Testing](/testing/#banking-methods).
+> To test Trustly payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---

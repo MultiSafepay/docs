@@ -19,9 +19,9 @@ Read how E-Invoicing can benefit your business on [multisafepay.com](https://www
 | **Countries**  | Worldwide  | 
 | **Currencies** | EUR  | 
 | **Expiration** | Transactions don't expire. |
-| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions) |
-| **Refunds** | [Yes](/refunds/): Full, partial, and API refunds, and [discounts](/discounts/) |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds, and [discounts](/discounts/) |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 
 # Payment flow
 
@@ -90,11 +90,11 @@ You can activate E-Invoicing yourself in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > E-Invoicing direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct).  |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) (direct).  |
 <br>
 
 > ℹ️ Testing
-> To test E-Invoicing payments, see [Testing](/testing/#pay-later-methods).
+> To test E-Invoicing payments, see [Testing](/docs/testing#pay-later-methods).
 <br>
 
 ---
@@ -161,7 +161,7 @@ Different billing and shipping addresses are supported. Email a request to <sale
 
 ### Order status
 
-When you ship the order, you **must** manually change the [order status](/payment-statuses/) from **Completed** to **Shipped**:
+When you ship the order, you **must** manually change the [order status](/docs/payment-statuses/) from **Completed** to **Shipped**:
 
 - Captures the funds
 - Triggers sending the invoice to the customer
@@ -182,7 +182,7 @@ When you ship the order, you **must** manually change the [order status](/paymen
 
 **In your backend**
 
-If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
+If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/docs/our-integrations/) pass the updated status to your dashboard automatically:
 
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **delivered** in your backend.
