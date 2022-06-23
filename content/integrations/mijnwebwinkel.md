@@ -90,10 +90,8 @@ To change the order of payment methods in your checkout, follow these steps:
 
 ---
 
-> 💬  Support
-> For: 
-> - General information about the app, see Mijnwebwinkel - [MultiSafepay](https://www.mijnwebwinkel.nl/partner/multisafepay).
-> - Technical queries about the app, see Mijnwebwinkel - [Contact form](https://www.mijnwebwinkel.nl/contactformulier).
-> - Support documentation, see Mijnwebwinkel - [Support](https://www.mijnwebwinkel.nl/support).
->
-> To contact MultiSafepay, email <support@multisafepay.com>
+[block:html]
+{
+  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>For:</p>\n  <ul>\n    <li>General information about the app, see Mijnwebwinkel – <a href=\"https://www.mijnwebwinkel.nl/partner/multisafepay\">MultiSafepay</a>.</li>\n    <li>Technical queries about the app, see Mijnwebwinkel – <a href=\"https://www.mijnwebwinkel.nl/contactformulier\">Contact form</a>.</li>\n    <li>Support documentation, see Mijnwebwinkel – <a href=\"https://www.mijnwebwinkel.nl/support\">Support</a>.</li>\n  </ul>  \n</blockquote>"
+}
+[/block]
