@@ -7,11 +7,16 @@ hidden: false
 slug: 'affiliate-onboarding-api'
 excerpt: 'Partner or primary account holders can submit onboarding information for new affiliated merchants via our API.'
 ---
+
 # How it works
 
 Via our API, you can create a customized onboarding process for new merchants depending on your business model, e.g. marketplaces, franchises, and crowdfunding platforms. This is particularly useful if you are onboarding multiple merchants.
 
 For more information, see [Onboarding](/onboarding/).
+
+> 📘 Supported accounts
+> 
+> Requests to onboard affiliated merchants via our API require a partner account API key. For more information, email your partner manager.
 
 # 1. Create merchant accounts
 
