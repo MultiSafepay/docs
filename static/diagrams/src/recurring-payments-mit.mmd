@@ -1,0 +1,11 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Me as Merchant
+    participant Mu as MultiSafepay
+
+    C-->>Me: Consents to <br> merchant-initiated payments
+    Me->>Mu: Places order with token
+    Mu-->>Mu: Decrypts payment details <br> to process payment
+    Mu->>Me: Confirms successful payment
+    C-->>Me: Collects funds

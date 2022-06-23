@@ -1,10 +1,10 @@
 ---
-title : "PCI DSS"
+title: "PCI DSS"
 category: 627bbcf80c1c9c0050320b60
 order: 202
 hidden: false
 parentDoc: 62a087abb10eb40052c9fd04
-slug: pci-dss
+slug: 'pci-dss'
 ---
 
 The Payment Card Industry Data Security Standard (PCI DSS) is an information security standard mandated by major card schemes, which applies to organizations that handle branded credit cards. The standard is administered by the Payment Card Industry Security Standards Council.
@@ -13,8 +13,8 @@ Under the PCI DSS, payment service providers and businesses that handle credit c
 
 MultiSafepay is fully PCI DSS certified. This means you can accept credit card payments through MultiSafepay [payment pages](/payment-pages/) even if you are not PCI compliant.
 
-# Required information on your website
-If you accept card payments, you must include the following information on your website:
+# Required information on your site
+If you accept card payments, you must include the following information on your site:
 
 - Official company name and registration number in the companies register
 - Full company address, email address, and phone number
@@ -26,5 +26,5 @@ If you accept card payments, you must include the following information on your 
 In accordance with our PCI DSS certification and other obligations, we regularly perform security checks on our system. This includes penetration tests, which are a form of ethical hacking that simulate a cyberattack to identify and fix vulnerabilities.
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> Email <support@multisafepay.com>

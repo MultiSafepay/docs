@@ -3,7 +3,7 @@ title: "Account users"
 category: 62962dcdbccb9a001d4bbc81
 order: 202 
 hidden: false
-parentDoc: 62a206ee0298c80058af3aed
+parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'account-users'
 ---
 
@@ -22,7 +22,7 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
 | DisableBalance | Cannot view the account balance |
 | Refund | Create refunds <br> View all transactions <br> Generate payment links |
 | Reporting | View all transactions and the account balance <br> Create and download reports <br> Generate payment links |
-| Technical | View all transactions <br> Add and edit websites and payment pages <br> Edit email templates <br> Resend offline actions |
+| Technical | View all transactions <br> Add and edit sites and payment pages <br> Edit email templates <br> Resend offline actions |
 | Uncleared | View all transactions <br> Accept or decline uncleared transactions |
 
 </details>
@@ -101,5 +101,5 @@ A dialog requesting a 6-digit token appears.
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> Email <support@multisafepay.com>

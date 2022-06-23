@@ -1,5 +1,5 @@
 ---
-title : "myShop"
+title: "myShop"
 category: 62962dd7e272a6002ebbbbc5
 order: 205
 hidden: false
@@ -44,10 +44,10 @@ You will need a [MultiSafepay account](/getting-started-guide/).
 
 :warning: We recommend first installing the plugin in a test environment, following the myShop installation procedure. Always make a backup.
 
-1. Sign in to your myShop backend.
+1. Sign in to your myShop <<glossary:backend>>.
 2. Install the MultiSafepay app in the App Store.
 3. Go to **Settings** > **MultiSafepay** or **iDEAL MultiSafepay**.
-4. Enter your [account ID, site ID, and site secure code](/websites/#site-id-api-key-and-secure-code).  
+4. Enter your [account ID, site ID, and site secure code](/sites/#site-id-api-key-and-secure-code).  
 5. If using a test account, select **Test mode**.
 6. Click **Save**.
 

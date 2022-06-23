@@ -1,5 +1,5 @@
 ---
-title : "PrestaShop 1.7"
+title: "PrestaShop 1.7"
 category: 62962dd7e272a6002ebbbbc5
 order: 103
 hidden: false
@@ -39,14 +39,14 @@ If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an o
 
 :warning: We recommend first installing the plugin in a test environment, following the PrestaShop 1.7 installation procedure. Always make a backup.
 
-1. Sign in to your PrestaShop 1.7 backend.
+1. Sign in to your PrestaShop 1.7 <<glossary:backend>>.
 2. Go to **Modules** > **Module Manager** > **Upload a module**.
 3. Select the Plugin_PrestaShop.zip file, and then click **Configure**.
 4. Clear your cache.
 
 # How to configure
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **Improve** > **MultiSafepay**, and enter your [API key](/websites/#site-id-api-key-and-secure-code).
+2. Go to **Improve** > **MultiSafepay**, and enter your [API key](/sites/#site-id-api-key-and-secure-code).
 3. On the **Payment methods** tab, enable the relevant payment methods.
 4. Click **Save**.
 
@@ -136,7 +136,7 @@ To change the flow you are using, follow these steps:
 
 The plugin supports [payment components](/payment-components/), which:
 
-- Provide a seamless checkout experience to increase conversion.
+- Provide a seamless checkout experience to increase <<glossary:conversion>>.
 - Encrypt customer payment details for secure processing.
 - Shift responsibility for [PCI DSS compliance](/payment-regulations/pci-dss) to MultiSafepay.
 
@@ -204,7 +204,7 @@ To enable [Recurring Payments](/features/recurring-payments), follow these steps
 1. Sign in to your PrestaShop 1.7 backend. 
 2. Go to **Improve** > **Module manager** > **MultiSafepay**.
 3. In the MultiSafepay module, go to the **Payment methods** tab.  
-4. Select either the bundled credit cards gateway, **or** select specific credit cards. 
+4. Select either the bundled credit cards <<glossary:gateway>>, **or** select specific credit cards. 
 5. Set the **Enable tokenization** toggle to **Enabled**.
 6. Click **Save**.
 

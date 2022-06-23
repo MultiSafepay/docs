@@ -4,21 +4,20 @@ category: 6298bd782d1cf4006032e765
 order: 402
 hidden: false
 parentDoc: 62a32bf042021c00e1cd7e5c
-slug: gift-cards
+slug: 'gift-cards'
 ---
-Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. Gift card payments are processed by the card issuer.
+Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. Gift card payments are processed by the <<glossary:card issuer>>.
 
-See how gift cards can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/giftcards).
+Read how gift cards can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/giftcards)
 
-# Overview
-
-|   |   |
+| Overview | Details |
 |---|---|
+| **Chargebacks** | No  |
 | **Countries**  | Belgium, The Netherlands  | 
-| **Currencies** | EUR  | 
-| **Chargebacks** | No  | 
+| **Currencies** | EUR  |  
+| **Expiration** | Transactions don't expire. |
+| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions) |
 | **Refunds** | Paid with gift card only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with gift card **and** another payment method: [Full refunds](/refunds/).  |
-| **Transactions expire after** | Doesn't apply |
 
 <details id="supported-gift-cards">
 <summary>Supported gift cards</summary>
@@ -40,7 +39,9 @@ See how gift cards can [benefit your business](https://www.multisafepay.com/solu
 | [Huis & Tuin Cadeau](https://www.huisentuincadeau.com/) | [YourGift](https://www.yourgift.nl/) |
 <br>
 
-**Note:** Webshop Giftcard no longer offers [open-loop gift cards](#closed-loop-vs-open-loop-cards). To exchange existing open-loop cards for closed-loop cards, see Webshop Giftcard – [Contact](https://www.webshopgiftcard.nl/contact).
+> **Note** 
+> Webshop Giftcard no longer offers [open-loop gift cards](#closed-loop-vs-open-loop-cards). 
+> To exchange existing open-loop cards for closed-loop cards, see Webshop Giftcard – [Contact](https://www.webshopgiftcard.nl/contact).
 
 </details>
 
@@ -48,57 +49,69 @@ See how gift cards can [benefit your business](https://www.multisafepay.com/solu
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant G as Gift card issuer
-    participant Me as Merchant
-
-    C->>Mu: Selects a gift card at checkout
-    Mu->>C: Redirects to payment page
-    C->>G: Enters gift card details and completes payment
-    G->>Mu: Processes payment and transfers funds 
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}} 
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/gift-cards-payment-flow.svg" alt="Gift cards payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
+
+- **Order status:** Changes as the customer's order with you progresses towards shipment 
+- **Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
-
-**Transaction status:** Changes as the funds progress towards settlement in your account balance
-
-For more information, see [Payment statuses](/payment-statuses/).
-
-| Description | Order status | Transaction status |
+| Description | Order | Transaction |
 |---|---|---|
-| **Payments** | | |
-| For partial payment with another method: <br> The customer has been redirected to their bank. | Initialized | Initialized |
+| For partial payment with another method: The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
-| For partial payment with another method: <br> The customer didn't complete payment. | Expired | Expired |
-|**Refunds**|||
+| For partial payment with another method: The customer didn't complete payment. | Expired | Expired |
+
+</details>
+
+<details id="refund-statuses">
+<summary>Refund statuses</summary>
+<br>
+
+| Description | Order | Transaction |
+|---|---|---|
 | Refund initiated. | Initialized | Initialized |
 | Refund complete. | Completed | Completed |
 
 </details>
 
-# Activation and integration
+# Activation 
 
-| | |
+<details id="how-to-activate-gift-cards">
+<summary>How to activate gift cards</summary>
+<br>
+
+1. To check your eligibility, email <sales@multisafepay.com> 
+2. Send a request to the **card issuer**, providing your company details and MultiSafepay account ID.
+3. The issuer connects you to the card via either:
+    - [Intersolve](https://intersolve.nl/contact) (majority of gift cards)
+    - [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
+    - [123TCS](https://www.123tcs.com/#Contact)
+4.  The issuer sends us the connection details and we activate the card for your account.
+
+</details>
+
+# Integration
+
+| Integration | Details |
 |---|---|
-| **Activation** | [Gift cards activation](/payment-methods/#gift-cards) |
-| **Checkout options** | [Payment pages](/payment-pages/) (current and deprecated versions) |
-| **Testing** | [Test payment details](/testing/#prepaid-cards) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Gift card redirect |
 | **Ready-made integrations** | We don’t support all open-loop gift cards in our [ready-made integrations](/integrations/ready-made/) and no closed-loop gift cards. Therefore in some integrations, we use generic gateways to support [custom gift cards](#custom-gift-cards). <br> To check if a specific gift card is supported in your ready-made integration, email the Integration Team at <integration@multisafepay.com>   |
+<br>
 
+> ℹ️ Testing
+> To test gift card payments, see [Testing](/testing/#prepaid-cards).
+<br>
+
+---
 
 # User guide
 
@@ -136,7 +149,8 @@ Contact MultiSafepay to develop your own custom gift card!
     - Using our API, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order.
     - In a ready-made integration, add your gateway ID.
 
-For support, email <integration@multisafepay.com>
+> 💬  Support
+> Email <integration@multisafepay.com>
 
 </details>
 
@@ -155,5 +169,8 @@ This is because pay later methods collect and require precise order specificatio
 You are solely responsible for this in your integration.
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

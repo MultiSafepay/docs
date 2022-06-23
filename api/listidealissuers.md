@@ -6,7 +6,7 @@ slug: listidealissuers
 
 ## How to test
 
-1. Under **Authentication** > **Query**, enter an [API key](/websites#site-id-api-key-and-security-code) from your **TEST** account.
+1. Under **Authentication** > **Query**, enter an [API key](/sites#site-id-api-key-and-security-code) from your **TEST** account.
 2. Under **Path params**, for `gateway`, enter `IDEAL`.
 3. Click **Try it!**
 

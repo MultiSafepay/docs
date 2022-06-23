@@ -4,14 +4,14 @@ category: 627bbcf80c1c9c0050320b60
 order: 204
 hidden: false
 parentDoc: 62a087abb10eb40052c9fd04
-slug: risk-fraud
+slug: 'risk-fraud'
 ---
 
 MultiSafepay prevents fraud by monitoring payments and actively tracking and reporting online criminals. Our risk management systems are designed to accommodate merchants and partners with different needs. The Risk Team analyzes high-risk transactions and actively works to reduce [chargebacks](/chargebacks/).
 
 We offer the highest industry protection under the [PCI DSS](/pci-dss/), including HTTPS, data encryption, and [3D Secure](/3ds2/) authentication. 
 
-We act as processor and acquirer for Visa and Mastercard, and are therefore also required to comply with their operating regulations.
+We act as processor and <<glossary:acquirer>> for Visa and Mastercard, and are therefore also required to comply with their operating regulations.
 
 # Monitoring transactions
 
@@ -38,5 +38,5 @@ If we identify any changes, we email you to confirm or request new documentation
 If you fail to respond to these requests, we initially pause payouts and may ultimately unilaterally terminate your contract.
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> Email <support@multisafepay.com>

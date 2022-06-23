@@ -1,10 +1,10 @@
 ---
-title : "Surcharges"
+title: "Surcharges"
 category: 627bbcf80c1c9c0050320b60
 order: 205
 hidden: false
 parentDoc: 62a087abb10eb40052c9fd04
-slug: surcharges
+slug: 'surcharges'
 ---
 > ℹ️ ​Check this page regularly for updates on implementing the PSD2. 
 
@@ -22,12 +22,12 @@ In the Netherlands, the [Authority for Consumers & Markets (ACM)](https://www.ac
 
 Surcharges are banned for both individual and business customers on:
 
-- Most credit card transactions when the bank/card issuer and the merchant's PSP are both located within the EEA
+- Most credit card transactions when the bank/card <<glossary:issuer>> and the merchant's PSP are both located within the EEA
 - Debit card transactions 
 - Standard bank transfers 
 - SEPA Direct Debit payments 
 
-If you are currently surcharging prohibited transactions, you may need to update your settings in your backend. For support, contact your ecommerce platform or your developer. 
+If you are currently surcharging prohibited transactions, you may need to update your settings in your <<glossary:backend>>. For support, contact your ecommerce platform or your developer. 
 You do **not** need to change any settings in your MultiSafepay dashboard.
 
 # Surcharges permitted
@@ -36,7 +36,7 @@ Surcharges are permitted for:
 
 - Card payments with cards issued outside the EEA, e.g. a tourist with a credit card issued in India
 
-- Hybrid card schemes such as American Express: Each EU state can decide whether to permit surcharging. Under Dutch law, surcharges **are** permitted.
+- Hybrid <<glossary:card schemes>> such as American Express: Each EU state can decide whether to permit surcharging. Under Dutch law, surcharges **are** permitted.
 
 - [PayPal](/paypal) and [pay later methods](/pay-later/): You can only charge customers for the actual cost you incur for using the payment method and no more.
 
@@ -49,8 +49,8 @@ Surcharges are permitted for:
 <br>
 
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> 💬  Support
+> Email <support@multisafepay.com>
 <br>
 
 > ❕ **Disclaimer** 

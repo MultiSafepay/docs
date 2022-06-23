@@ -1,5 +1,5 @@
 ---
-title : "Shopware"
+title: "Shopware"
 category: 62962dd7e272a6002ebbbbc5
 order: 106
 hidden: false
@@ -40,14 +40,14 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 1. Navigate to our [Shopware 6 GitHub repository](https://github.com/MultiSafepay/shopware6/releases).
 2. Under **Assets**, download the latest release, which starts with Plugin_Shopware6_x.x.x.zip.
-3. Sign in to your Shopware 6 backend.
+3. Sign in to your Shopware 6 <<glossary:backend>>.
 4. Go to **Settings** > **System** on the left hand side.
 5. Select **Plugins**.
 6. Click **Upload plugin** at the top of the page, and then select the file you downloaded in step 2.
 7. When the plugin appears, make sure the **Activated** button is toggled.
 8. Click the **...** (more) button, and then select **Config**.
 9. In the drop-down menu, select **Test**.
-10. In the **API key** field, enter your [API key](/websites/#site-id-api-key-and-secure-code).
+10. In the **API key** field, enter your [API key](/sites/#site-id-api-key-and-secure-code).
 11. Fill out the other fields as required.
 
 ### Marketplace installation
@@ -111,7 +111,7 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 ### Recurring payments
 
-You need to [enable recurring payments](/recurring-payments) in your MultiSafepay dashboard and then in the gateway settings. 
+You need to [enable recurring payments](/recurring-payments) in your MultiSafepay dashboard and then in the <<glossary:gateway>> settings. 
 
 ### Refunds
 
@@ -179,7 +179,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 3. Search for the MultiSafepay plugin and click **Download now**.
 4. Go to **Configuration** > **Plugin manager** > **Installed**.
 5. Search for the installed MultiSafepay plugin and click on the pencil icon.
-6. In the **API key** field, enter your [API key](/websites/#site-id-api-key-and-secure-code).
+6. In the **API key** field, enter your [API key](/sites/#site-id-api-key-and-secure-code).
 7. Fill out the other fields as required.
 8. Go to **Configuration** and select the required payment methods.
 

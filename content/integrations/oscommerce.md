@@ -1,5 +1,5 @@
 ---
-title : "OsCommerce"
+title: "OsCommerce"
 category: 62962dd7e272a6002ebbbbc5
 order: 114
 hidden: false
@@ -26,7 +26,7 @@ Release date: May 9, 2017
 
 **Changes**
 - This plugin now uses the JSON API, rather than the XML API.
-- Added all available payment methods as separate gateways
+- Added all available payment methods as separate <<glossary:gateways>>
 - Added all available gift card methods
 
 ---
@@ -48,7 +48,7 @@ Release date: Jun 18, 2015
 **Improvements**
 - Add check for completed transactions so that the confirmation is only sent once for paid transactions
 - Added iDEAL selection to the payment selection page instead before the order confirmation
-- Added javascript that will auto select iDEAL as payment method when an issuer is selected
+- Added javascript that will auto select iDEAL as payment method when an <<glossary:issuer>> is selected
 
 **Fixes**
 - On extra offline action the status of the order was reset to initialized. This has now been solved
@@ -105,10 +105,10 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 :warning: We recommend first installing the plugin in a test environment, following the OsCommerce installation procedure. Always make a backup.
 
 1. Unpack the content of the .ZIP file in the root of your webshop.
-2. Sign in to your OsCommerce backend.
+2. Sign in to your OsCommerce <<glossary:backend>>.
 3. Go to **Modules** > **Payment**.
 4. Click **Install modules** in the top-right corner.
-5. Enter your [API key](/websites/#site-id-api-key-and-secure-code), and then complete the other fields as required.
+5. Enter your [API key](/sites/#site-id-api-key-and-secure-code), and then complete the other fields as required.
 
 # User guide
 

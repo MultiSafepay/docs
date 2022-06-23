@@ -1,5 +1,5 @@
 ---
-title : "Prohibited products and services"
+title: "Prohibited products and services"
 category: 62962dcdbccb9a001d4bbc81
 parentDoc: 62a2055be5b9db006a2545a7
 order: 301
@@ -23,7 +23,7 @@ Dutch law states that alcohol cannot be sold to customers under the age of **18*
 
 If you sell alcohol, you must:
 
-- State this clearly on your website.
+- State this clearly on your site.
 - Email a signed declaration about alcoholic beverages (once only) to <risk@multisafepay.com>
 
 <details id="how-to-download-a-declaration">
@@ -104,7 +104,6 @@ Under Visa and Mastercard's High Risk programs, you will be subject to a 500 USD
 </details>
 <br>
 
-> 📘 **More info**
+> 💬  Support
 > To discuss your options, call +31 20 8500 502.
-> 
 > For more information, email <risk@multisafepay.com>

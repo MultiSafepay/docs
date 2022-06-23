@@ -27,7 +27,7 @@ The updated order details make up the payload of the request.
 
 # Check the status
 
-Check the order status in the `status` field. If necessary, update your backend.
+Check the order status in the `status` field. If necessary, update your <<glossary:backend>>.
 
 **Note:** You can ignore notifications that:
 
@@ -180,4 +180,7 @@ You have successfully configured your web server to handle notifications receive
 
 ___
 
-:tada: Congratulations! You've successfully created an order, configured your webhook endpoint, and set up your web server to handle notifications.
+<br>
+
+> ✅  Congratulations!
+> You've successfully created an order, configured your webhook endpoint, and set up your web server to handle notifications.

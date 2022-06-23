@@ -1,34 +1,35 @@
 ---
-title : "Google Analytics"
+title: "Google Analytics"
 category: 62962df622e99600810c117d
 order: 50
 hidden: false
+slug: 'google-analytics'
 ---
-## Tracking payment pages
+# Tracking payment pages
 
 You can gain insight into customer behavior on [payment pages](/payment-pages/) through Google Analytics tracking.
 
 When the customer reaches the payment page, the UA-code is generated and appears in the HTML.
 
-## Excluding referrals in Google Analytics
-For redirect payment methods where customers are directed to a third-party site to complete payment and then back to your website, Google Analytics doesn't correctly track these visits to your website, e.g.:
+# Excluding referrals
+For redirect payment methods where customers are directed to a third-party site to complete payment and then back to your site, Google Analytics doesn't correctly track these visits to your site, e.g.:
 
-- Gateway: Source (instead of your website) 
+- Gateway: Source (instead of your site) 
 - Referral: Medium (instead of direct) 
 
 Google Analytics starts a new session whenever a customer comes to your site from a different source to the previous one and when it's not a direct visit, even though the previous session hasn't expired.
 
 For example, a customer selects iDEAL (redirect) and then specifies their bank. They are redirected to the bank's payment page and briefly "exit" the session on your site, before returning to your success page. The customer is now counted as a new visitor, even though no new session is initiated.
 
-This makes Google Analytics reports unreliable, and they don't accurately capture conversion rates. There are two ways to mitigate this.
+This makes Google Analytics reports unreliable, and they don't accurately capture <<glossary:conversion>> rates. There are two ways to mitigate this.
 
-### Referral exclusion list
+## Referral exclusion list
 
 To prevent third-party shopping carts initiating new sessions, you can exclude referral domains. 
 
 The customer isn't counted as a referral when they return to your success page. 
 
-**Note:** This feature is only available for websites using gtag.js or analytics.js.
+**Note:** This feature is only available for sites using gtag.js or analytics.js.
 It is not supported for ga.js (Classic Analytics).
 
 For instructions, see Google Analytics – [Referral exclusions](https://support.google.com/analytics/answer/2795830).
@@ -79,9 +80,9 @@ sofort.com
 verifiedbyvisa.comdirect.de
 ```
 
-### utm_nooverride=1 parameter
+## utm_nooverride=1 parameter
 
-Add the utm_nooverride=1 parameter to your payment gateway success pages. 
+Add the utm_nooverride=1 parameter to your payment <<glossary:gateway>> success pages. 
 
 For example, for the page URL `/checkout/payment/success`, pass your gateway the following URL: `/checkout/payment/success?utm_nooverride=1`. 
 
@@ -89,7 +90,7 @@ This tells Google that the customer's initial session is still in progress and G
 
 In your PHP code, the parameter would look like this: `$this→_redirect('checkout/onepage/success', ['utm_nooverride' => '1'])`.
 
-Make sure you do this for all links from the payment gateway to your website.
+Make sure you do this for all links from the payment gateway to your site.
 
 For more information, email <integration@multisafepay.com>
 

@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 206
 hidden: false
 parentDoc: 62a727569e389a012f577acd
-slug: manual-capture
+slug: 'manual-capture'
 ---
 Manual Capture is a MultiSafepay solution that reduces your risk by letting you capture credit card payments either partially or in full when you ship the order. 
 
@@ -46,7 +46,7 @@ Manual Capture is not supported in our [ready-made integrations](/integrations/r
 - VISA: 7 days
 - Mastercard and Maestro: 30 days
 
-After expiration, the issuer can cancel the authorization.
+After expiration, the <<glossary:issuer>> can cancel the authorization.
 
 ## Payment methods
 
@@ -56,11 +56,7 @@ After expiration, the issuer can cancel the authorization.
 
 ## Statuses
 
-**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
-
-**Transaction status:** Changes as the funds progress towards settlement in your account balance
-
-| Action | Description | Order status | Transaction status |
+| Action | Description | Order | Transaction |
 |---|---|---|---|
 | Authorize transaction | The transaction is authorized and the funds reserved. | Completed   | Initialized  |
 | Partial capture | A partial amount is captured relating to a previous order ID. | Completed  | Completed |
@@ -71,5 +67,8 @@ After expiration, the issuer can cancel the authorization.
 | Full authorization expiry | The full authorized amount expired without being captured. | Void    | Void  |
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

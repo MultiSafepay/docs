@@ -1,5 +1,5 @@
 ---
-title : "CS-Cart"
+title: "CS-Cart"
 category: 62962dd7e272a6002ebbbbc5
 order: 109
 hidden: false
@@ -42,13 +42,13 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 4. In your [MultiSafepay account](https://merchant.multisafepay.com), provide your [webhook endpoint](/integrations/self-made/configure-your-webhook/).
 
 # How to configure
-1. Sign in to your CS-Cart backend.
+1. Sign in to your CS-Cart <<glossary:backend>>.
 2. Go to **Administration** > **Payment methods**.
 3. To add payment methods, click the **+** button.
 4. In the next screen, enter a name for the payment method to display during checkout. 
 5. In the **Processing unit** field, specify the payment method. 
 6. Fill out the other fields as required, and click **Create**.
-7. In the **Configure** tab, enter your [account ID, site ID, and site code](/websites/#site-id-api-key-and-secure-code). 
+7. In the **Configure** tab, enter your [account ID, site ID, and site code](/sites/#site-id-api-key-and-secure-code). 
 
 Extra options such as **IP-Validation** and **debugmode** are intended for developers. Leave them unchanged.
 

@@ -4,6 +4,7 @@ category: 62962dee7af1c800355771a1
 order: 206
 hidden: false
 parentDoc: 629f40cdef2c3001bbd78848
+slug: 'snelstart'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Snelstart.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
@@ -23,5 +24,5 @@ To add MultiSafepay [payment links](/payments/checkout/payment-link/) to SnelSta
 - [Shopify](https://www.snelkoppeling.eu/shopify)
 - [Woocommerce](https://www.snelkoppeling.eu/woocommerce)
 
-> 📘 **Support**
+> 💬  Support
 > Email <support@multisafepay.com>

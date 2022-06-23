@@ -1,5 +1,5 @@
 ---
-title : "Lightspeed"
+title: "Lightspeed"
 category: 62962dd7e272a6002ebbbbc5
 order: 101
 hidden: false
@@ -30,19 +30,19 @@ This technical manual is for installing and configuring MultiSafepay's free app 
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
-1. Sign in to your Lightspeed backend.
+1. Sign in to your Lightspeed <<glossary:backend>>.
 2. Go to **Apps** on the left-hand side of the dashboard.
 3. Search for the **MultiSafepay payments app**.
 4. Click on the app, and then on **Install app** in the top-right corner.  
 5. In the dialog, approve the permissions required for the app.  
    You are redirected to Lightspeed – [MultiSafepay: How to log in](https://lightspeed.multisafepay.com/install).
 6. In the **Setup** page:  
-    - Enter your email address, [account ID and site API key](/websites/#site-id-api-key-and-secure-code).
+    - Enter your email address, [account ID and site API key](/sites/#site-id-api-key-and-secure-code).
     - Select **Test** or **Live** environment, and click **Save and continue**.  
 You are redirected to the **Settings** page.
 7. We recommend enabling:
     - Refunds
-    - MultiSafepay checkout scripts – Creates a list of iDEAL issuers, and suppresses Apple Pay for non-Apple devices.
+    - MultiSafepay checkout scripts – Creates a list of iDEAL <<glossary:issuers>>, and suppresses Apple Pay for non-Apple devices.
 8. Verify the other settings, and then click **Save**.  
 
 # User guide
@@ -53,7 +53,7 @@ You are redirected to the **Settings** page.
 <summary>Changing API keys and environments</summary>
 <br>
 
-To change your [API key](/websites/#site-id-api-key-and-secure-code) or environment (live or test) after installation, follow these steps:
+To change your [API key](/sites/#site-id-api-key-and-secure-code) or environment (live or test) after installation, follow these steps:
 
 1. Sign in to the app.
 2. Tap the hamburger menu and go to **Environment**.
@@ -174,11 +174,11 @@ To use MultiSafepay payment method icons, see GitHub [MultiSafepay icons](https:
 
 </details>
 
-<details id="payment-methods-logos-in-your-website-footer">
-<summary>Payment methods logos in your website footer</summary>
+<details id="payment-methods-logos-in-your-site-footer">
+<summary>Payment methods logos in your site footer</summary>
 <br>
 
-By default, the app does **not** support adding payment methods logos to your website footer. We provide a script for this, or you can ask your developer to add the logos to your theme. Themes can differ and you may need to make some changes for it to function.
+By default, the app does **not** support adding payment methods logos to your site footer. We provide a script for this, or you can ask your developer to add the logos to your theme. Themes can differ and you may need to make some changes for it to function.
 
 **Adding logos via our script**
 
@@ -206,7 +206,7 @@ By default the logos are 16 px high. In most themes, footer logos are found in t
 
 **Adding missing logos**  
 
-Logos may be missing due to your website theme settings. 
+Logos may be missing due to your site theme settings. 
 
 To add missing payment method logos, follow these steps:
 

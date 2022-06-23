@@ -35,7 +35,7 @@ The table below sets out possible order and transaction statuses and what they c
 | The transaction has been cancelled. | Void | Cancelled |
 | The customer has requested a chargeback. | Void | Void |
 | The customer didn't complete payment and the transaction expired. <br> Transaction expiry times vary per payment method. | Expired | Expired |
-| The issuer or acquirer has declined the transaction. <br> See also [Card errors](/card-errors/). | Declined | Declined |
+| The <<glossary:issuer>> or <<glossary:acquirer>> has declined the transaction. <br> See also [Card errors](/card-errors/). | Declined | Declined |
 | Manually [capture or decline the transaction](/uncaptured/). | Uncleared | Uncleared |
 | Manually change the order status to shipped. | Shipped | Uncleared |
 
@@ -52,7 +52,7 @@ The table below sets out possible order and transaction statuses and what they c
 
 If the status of the refund  is **reserved**, it may mean: 
 
-- The refund hasn't been processed yet. Refunds are passed to the customer's bank at midnight on the day they are initiated, and then the status changes to **completed**. The bank is now responsible for processing the payment. Refunds may be delayed by the issuing bank.
+- The refund hasn't been processed yet. Refunds are passed to the customer's bank at midnight on the day they are initiated, and then the status changes to **Completed**. The bank is now responsible for processing the payment. Refunds may be delayed by the issuing bank.
 - The refund cannot be processed due to insufficient funds in your account balance. To top up your balance, see [Topping up your balance](/account-balance/).
 
 <br>

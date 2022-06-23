@@ -4,106 +4,114 @@ category: 6298bd782d1cf4006032e765
 order: 306
 hidden: false
 parentDoc: 62a727567164d301522a67da
-slug: pay-after-delivery
+slug: 'pay-after-delivery'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Pay_After_Delivery.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-Pay After Delivery is MultiSafepay's own pay later method that lets customers pay for orders after receiving them, increasing customer confidence and conversion. 
+Pay After Delivery is MultiSafepay's own pay later method that lets customers pay for orders after receiving them, increasing customer confidence and <<glossary:conversion>>. 
 
 Customers are only charged for the items they keep. MultiSafepay bears the risk, based on the customer's history, and guarantees settlement.
 
-See how Pay After Delivery can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery).
+Read how Pay After Delivery can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery)
 
-# Overview
-
-|   |   |
+| Overview | Details |
 |---|---|
+| **Amount limits** | Minimum and maximum order amounts apply. Email <sales@multisafepay.com> |
+| **Chargebacks**  | No  | 
 | **Countries**  | The Netherlands  | 
 | **Currencies** | EUR  | 
-| **Chargebacks**  | No  | 
-| **Refunds** | [Full, partial, and API refunds](/refunds/), [discounts](/discounts/) |
-| **Transactions expire after** | 90 days |
-| **Amount limits** | Minimum and maximum order amounts apply. Email <sales@multisafepay.com> |
-| **Addresses** | The delivery and invoice addresses must be the **same** to prevent fraud. |
-| **Shipping policies** | [MultiFactor shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies) <br> [Shipping Policy Nederland](https://www.multifactor.nl/voorwaarden/shipping-policies/) <br> [Herinnering aan onze shipping policy](https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy) |
+| **Expiration** | Transactions expire after 90 days. |
+| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions) |
+| **Refunds** |[Yes](/refunds/): Full, partial, and API refunds, [discounts](/discounts/) |
 
 # Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center">
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant MF as MultiFactor
-    participant Me as Merchant
-
-    C->>Mu: Selects Pay After Delivery at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page <br> to provide their birth date, email address, bank account and phone numbers, <br> and accept the terms & conditions, <br> then redirects to your success page
-    else Direct flow
-    Mu->>MF: Sends order details
-    end
-    MF->>Mu: Authorizes the payment (within 2 business days)
-    Mu->>MF: Captures the funds
-    Me->>C: Ships the order
-    Note over Me,C: Manually change the order status to Shipped.
-    MF->>C: Sends invoice (within 24 hours of Shipped status, settlement is now guaranteed)
-    C->>MF: Completes payment (within 14 days)
-    MF->>Mu: Transfers funds 
-    Mu->>Me: Settles funds (within 30 days of Shipped status)
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/pay-after-delivery-payment-flow.svg" alt="Pay After Delivery payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
+
+- **Order status:** Changes as the customer's order with you progresses towards shipment 
+- **Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
-
-**Transaction status:** Changes as the funds progress towards settlement in your account balance
-
-For more information, see [Payment statuses](/payment-statuses/).
-
-| Description | Order status | Transaction status |
+| Description | Order | Transaction |
 |---|---|---|
-| **Payments** | | |
 | MultiSafepay's risk analysis is in progress. You can still cancel. | Initialized | Initialized | 
-| We have authorized the transaction and the funds are awaiting capture. You can no longer cancel. You can only refund. <br> See [Closing transactions](#closing-transactions). | Completed | Uncleared | 
+| We have authorized the transaction and the funds are awaiting capture. You can no longer cancel. You can only refund. <br> See [Close transactions](#close-transactions). | Completed | Uncleared | 
 | **Important:** To capture the funds, [manually change the order status to shipped](#shipment). | Shipped | Uncleared |
 | MultiSafepay has collected payment.  | Shipped | Completed |
 | The transaction was cancelled. | Void/Cancelled   | Void/Cancelled | 
 | MultiSafepay declined the transaction. | Declined | Declined |
 | The customer didn't complete payment within 90 days. | Expired | Expired | 
-|**Refunds**|||
+
+</details>
+
+<details id="refund-statuses">
+<summary>Refund statuses</summary>
+<br>
+
+| Description | Order | Transaction |
+|---|---|---|
 | Refund initiated. | Initialized | Initialized |  
 | Refund complete. | Completed | Completed | 
 
 </details>
 
-# Activation and integration
+# Activation 
 
-| | |
+First apply to MultiSafepay, and then activate in your dashboard.
+
+<details id="how-to-activate-pay-after-delivery"> 
+<summary>How to activate Pay After Delivery</summary>
+<br>
+
+1. Email a request to <risk@multisafepay.com> 
+2. We check your eligibilty and if approved, activate the payment method for your account. 
+3. Once approved, to activate the method in your dashboard, sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+4. Go to **Settings**. 
+5. To enable the payment method for:
+    - All sites, go to **Payment methods**.
+    - A specific site, go to **Website settings**, and click the relevant site.
+6. Select the checkbox for the relevant payment method, and then click **Save changes**.
+
+> 💬  Support
+> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+
+</details>
+
+# Integration
+
+| Integration | Details |
 |---|---|
-| **Activation** | [Pay After Delivery activation](/payment-methods/#pay-after-delivery) |
-| **Checkout options** | [Payment pages](/payment-pages/) (current and deprecated versions) |
-| **Testing** | [Test payment details](/testing/#pay-later-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Pay After Delivery direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct).   |
+<br>
+
+> ℹ️ Testing
+> To test Pay After Delivery payments, see [Testing](/testing/#pay-later-methods).
 <br>
 
 ---
 
 # User guide
 
-## Closing transactions
+## Addresses
 
-If a customer pays into your business bank account directly instead of paying MultiFactor, you need to manually change the transaction status to **completed**. This closes the transaction and stops MultiFactor sending the customer payment requests. 
+The billing and shipping addresses must be the **same** to prevent fraud. 
+
+## Close transactions
+
+If a customer pays into your business bank account directly instead of paying MultiFactor, you need to manually change the transaction status to **Completed**. This closes the transaction and stops MultiFactor sending the customer payment requests. 
 
 <details id="how-to-close-transactions">
 <summary>How to close transactions</summary>
@@ -118,7 +126,7 @@ To close a transaction manually, follow these steps:
 5. Enter a comment about what happened with the order, and click **Complete**.  
     The total amount of the transaction is deducted from your account balance. 
 
-**Note:** Once the transaction status changes to **completed**, the **Complete own funds** button is hidden. You must process a [full refund](/refunds/) instead. 
+**Note:** Once the transaction status changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/refunds/) instead. 
 
 </details>
 
@@ -166,7 +174,9 @@ You are solely responsible for this in your integration.
 
 ## Shipment
 
-When you ship the order, you **must** manually change the [order status](/payment-statuses/) from **completed** to **shipped** to:
+### Change the order status
+
+When you ship the order, you **must** manually change the [order status](/payment-statuses/) from **Completed** to **Shipped** to:
 
 - Capture the funds
 - Trigger sending the invoice to the customer
@@ -182,12 +192,12 @@ When you ship the order, you **must** manually change the [order status](/paymen
 2. Go to **Transactions** > **Transactions overview**.
 3. Search for the transaction, and click to open the **Transaction details** page. 
 4. Under **Order details**, click **Change order status**. 
-5. Change the status to **shipped**.
+5. Change the status to **Shipped**.
 6. Send the customer the track and trace details, if relevant.
 
 **In your backend**
 
-If you change the order status in your backend, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
+If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
 
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **Delivered** in your backend.
@@ -198,6 +208,12 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 
 </details>
 
+### Shipping policies
+
+- [MultiFactor shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies)
+- [Shipping Policy Nederland](https://www.multifactor.nl/voorwaarden/shipping-policies/) 
+- [Herinnering aan onze shipping policy](https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy) 
+
 ## Surcharges  
 
 Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
@@ -207,5 +223,8 @@ We therefore strongly recommend **not** applying surcharges.
 For more information, email <sales@multisafepay.com> 
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

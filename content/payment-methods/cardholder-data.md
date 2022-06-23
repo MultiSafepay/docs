@@ -5,7 +5,7 @@ order: 203
 hidden: false
 parentDoc: 62a727569e389a012f577acd
 excerpt: Handle sensitive cardholder data on your PCI DSS compliant server.
-slug: cardholder-data
+slug: 'cardholder-data'
 ---
 When you accept credit and debit card payments using a [payment page](/payment-pages/) or [payment component](/payment-components/), MultiSafepay handles the sensitive cardholder data, including:
 
@@ -14,7 +14,7 @@ When you accept credit and debit card payments using a [payment page](/payment-p
 - Service code
 - Expiry date
 
-We bear the risk and responsibility for [PCI DSS compliance](/payment-regulations/pci-dss/). 
+We bear the risk and responsibility for [PCI DSS compliance](/pci-dss/). 
 
 Alternatively, you can collect cardholder data through other means. Because you will then handle sensitive data on your own server before sending it to MultiSafepay, you must also have PCI DSS certification. 
 
@@ -25,7 +25,7 @@ You are responsible for arranging certification, which is a complex, time-consum
 1. To check your eligibility to use this feature, email <sales@multisafepay.com>
 Specify in your request:
     - The payment methods you want to integrate
-    - The websites under your account this applies to
+    - The sites under your account this applies to
     - The type of products you will sell  
     - Your average order values and volumes, and any available processing statements. 
 2. We check your account and company performance.
@@ -62,5 +62,8 @@ The table below sets out supported payment methods and their respective [3D Secu
 | Visa | Verified by Visa **and** non-3D Secure payments |
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)

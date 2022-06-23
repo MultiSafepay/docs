@@ -3,7 +3,7 @@ title: "Logos and icons"
 category: 62962dcdbccb9a001d4bbc81
 order: 207
 hidden: false
-parentDoc: 62a206ee0298c80058af3aed
+parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'logos-icons'
 --- 
 For MultiSafepay logos, see our Github repository – [MultiSafepay logos](https://github.com/MultiSafepay/MultiSafepay-logos).
@@ -29,5 +29,5 @@ To generate a portable network graphic (PNG) of a payment method logo to display
 </details>
 <br>
 
-> 📘 **More info**
-> For more information or support, email <integration@multisafepay.com>
+> 💬  Support
+> Email <integration@multisafepay.com>

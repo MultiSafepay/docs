@@ -18,7 +18,7 @@ next:
 
 MultiSafepay uses a webhook to send updates about orders and other notifications to your web server.
 
-You can configure the webhook at website level or at order level.
+You can configure the webhook at site level or at order level.
 
 <details id="webhook">
 <summary>Webhook</summary>
@@ -35,19 +35,11 @@ MultiSafepay uses HTTPS to send notifications securely to the webhook endpoint c
 
 Our webhook uses the `POST` method to inform your web server when there is an update, and shares details on what has changed. This is more efficient than a poll-based method where your web server must continually check for updates.
 
-{{< mermaid class="text-center" >}}
-
-sequenceDiagram
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant Me as Merchant
-
-    C-->>Mu: Completes payment
-    Mu->>Me: Sends notification
-    Me-->>Me: Updates order in system
-    Me->>Mu: Sends acknowledgement
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/webhook-flow.svg" alt="Webhook communication flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 </details>
 
@@ -61,13 +53,13 @@ You must set a webhook endpoint, which is a URL that:
 
 For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
 
-# Website level
+# Site level
 
-To configure the webhook endpoint at website level:
+To configure the webhook endpoint at site level:
 
 1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
 2. Go to **Settings** > **Website settings**.
-3. Select the relevant website.
+3. Select the relevant site.
 4. In the **Notification URL** field, set your webhook endpoint.
 
 # Order level
@@ -88,7 +80,7 @@ We do support `GET` as a `notification_method`, but we strongly recommend to use
 
 **Example**:
 
-```
+``` javascript
 curl -X POST \
 "https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
 -d '{

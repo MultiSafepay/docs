@@ -210,7 +210,7 @@ Email <integration@multisafepay.com>
 
 You can process refunds from your [MultiSafepay dashboard](https://merchant.multisafepay.com). 
 
-To process refunds from your ShopFactory backend, email <integration@multisafepay.com>
+To process refunds from your ShopFactory <<glossary:backend>>, email <integration@multisafepay.com>
 </details>
 
 ___
@@ -315,7 +315,7 @@ To integrate Planyo with MultiSafepay, follow these steps:
 1. Sign in to your Planyo account.
 2. Go to **Site settings** > **Online payments**.
 3. Select **MultiSafepay**.
-4. Enter your MultiSafepay account ID, [site ID and secure code](/websites/#site-id-api-key-and-secure-code).  
+4. Enter your MultiSafepay account ID, [site ID and secure code](/sites/#site-id-api-key-and-secure-code).  
 5. Make a test reservation. 
 
 </details>
@@ -359,7 +359,7 @@ To integrate MultiSafepay as your payment provider, follow these steps:
 1. Sign in to your HostBill account.
 2. Click **Extras** > **Plugins**.
 3. From the left menu, select **Payment modules** > **MultiSafepay**.
-4. Click **Edit general settings**, and then enter your [MultiSafepay site API key](/websites/#site-id-api-key-and-secure-code).
+4. Click **Edit general settings**, and then enter your [MultiSafepay site API key](/sites/#site-id-api-key-and-secure-code).
 5. Click **Save changes**.
 
 **Step 2.** Configure the module as required, e.g. the [module name and callback URL](https://hostbill.atlassian.net/wiki/spaces/DOCS/pages/559120402/MultiSafepay).
@@ -397,7 +397,7 @@ To integrate with MultiSafepay, follow these steps:
 
 1. Sign in to your Twikey account.
 2. Go to **Settings** > **Integrations** > **MultiSafepay**.
-3. Enter your [MultiSafepay site API key](/websites/#site-id-api-key-and-secure-code).
+3. Enter your [MultiSafepay site API key](/sites/#site-id-api-key-and-secure-code).
 4. To add a payment link to your invoices, update your invoice settings in your [Twikey template settings](https://www.beta.twikey.com/support/creditor/invoices/invoice_options.html).
 5. To create a payment link, go to [Payment links](https://www.beta.twikey.com/support/creditor/paymentlinks/paymentlink_management.html) enter the relevant information, e.g. amount, customer.
 
@@ -405,7 +405,7 @@ To integrate with MultiSafepay, follow these steps:
 
 ___
 
-# Websites
+# Sites
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/duda.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Mijndomein.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 

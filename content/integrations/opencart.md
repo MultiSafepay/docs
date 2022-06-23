@@ -1,5 +1,5 @@
 ---
-title : "OpenCart"
+title: "OpenCart"
 category: 62962dd7e272a6002ebbbbc5
 order: 113
 hidden: false
@@ -38,7 +38,7 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
 :warning: We recommend first installing the plugin in a test environment, following the OpenCart installation procedure. Always make a backup.
 
 1. Download the Plugin_OpenCart_3.x.x.ocmod.zip.
-2. Sign in to your OpenCart backend.
+2. Sign in to your OpenCart <<glossary:backend>>.
 3. Go to **Extensions** > **Installer**.
 4. Click the **Upload** button, and then select the downloaded file.
 5. Once installed, click the **Dashboard** menu.
@@ -53,7 +53,7 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
     - **Order status** tab
     - **Options** tab  
 
-To retrieve your API key, see [Viewing the site ID, API key, and secure code](/websites/#site-id-api-key-and-secure-code).
+To retrieve your API key, see [Viewing the site ID, API key, and secure code](/sites/#site-id-api-key-and-secure-code).
 
 # User guide
 

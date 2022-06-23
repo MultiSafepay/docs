@@ -18,16 +18,11 @@ All account types represent a single legal entity, but can support multiple bank
 
 Check which type of account best fits your company:
 
-{{< mermaid class="text-center" >}}
-
-flowchart TD
-    id1(Do you work with other companies that you charge fees to?)--> id2 & id3
-    id2(No= Merchant account)
-    id3(Yes. <br> Do you receive part of the MultiSafepay <br> transaction fee from your affiliated companies?)--> id4 & id5
-    id4(No= Primary account, <br> e.g. marketplaces, franchises, crowdfunding)
-    id5(Yes= Partner account, <br> e.g. digital agencies, SaaS companies)
-
-{{< /mermaid >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/account-types.svg" alt="Flowchart to select your account type" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Test accounts
 
@@ -72,5 +67,5 @@ A test account lets you process test payments and gives access to all features. 
 In collaboration with your current PSP, we can securely transfer tokenized credit card details. This is especially useful if you process [recurring payments](/recurring-payments/) or want to offer existing customers the option of reusing their credit card details.
 <br>
 
-> 📘 **More info**
-> For more information or support, email <sales@multisafepay.com>
+> 💬  Support
+> Email <sales@multisafepay.com>

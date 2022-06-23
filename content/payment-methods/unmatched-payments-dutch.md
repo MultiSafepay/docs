@@ -1,10 +1,10 @@
 ---
-title : 'Ongematchte bankoverschrijvingen'
+title: 'Ongematchte bankoverschrijvingen'
 category: 6298bd782d1cf4006032e765
 order: 103
 hidden: true
 parentDoc: 62a728d48b97080046c1d220
-slug: ongematchte-bankoverschrijvingen
+slug: 'ongematchte-bankoverschrijvingen'
 ---
 
 Wanneer MultiSafepay een bankoverschrijving ontvangt van een klant, matchen we die automatisch aan de bijbehorende transactie in ons systeem. We doen dit op basis van:
@@ -52,6 +52,10 @@ Om een transactie aan te maken kunt u gebruik maken van onze betaallinks ([payme
 5. Klik op **Bevestig** om de transactie aan te maken in ons systeem.
 
 **Opmerking:** Iedere betaallink heeft een uniek order ID nodig.
+<br>
 
-> 📘 **Ondersteuning**
-> Email ons Support Team via <support@multisafepay.com>
+---
+
+> 💬  Ondersteuning
+> Email <support@multisafepay.com>
+[Top of page](#)

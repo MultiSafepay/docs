@@ -10,7 +10,7 @@ Before you start processing real transactions with MultiSafepay, we recommend te
 
 # Credentials
 
-For all payment methods **except** AfterPay, you need your site's test [API key](/websites/#site-id-api-key-and-secure-code).
+For all payment methods **except** AfterPay, you need your site's test [API key](/sites/#site-id-api-key-and-secure-code).
 
 # How to make a test payment
 
@@ -20,7 +20,7 @@ For all payment methods **except** AfterPay, you need your site's test [API key]
     <summary>Ready-made integration</summary>
     <br>
 
-    - In your backend, enter your test site [API key](/websites/#site-id-api-key-and-secure-code).
+    - In your <<glossary:backend>>, enter your test site [API key](/sites/#site-id-api-key-and-secure-code).
     - Place a test order, and then initiate a transaction with the payment method you are testing. 
 
     </details>
@@ -223,7 +223,7 @@ You can also test the following scenarios:
 <br>
 
 1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Card order.  
-    See also the Examples for the specific card scheme.  
+    See also the Examples for the specific <<glossary:card scheme>>.  
     For co-branded cards, see the Credit card redirect example, and set the `locale` parameter:
     - Cartes Bancaires: `fr_FR` 
     - Dankort: `da_DK`
@@ -403,7 +403,7 @@ To test refunding an order via the API:
 
 **Test credentials**
 
-- [Site API key](/websites/#site-id-api-key-and-secure-code)
+- [Site API key](/sites/#site-id-api-key-and-secure-code)
 - [Klarna's test credentials](https://docs.klarna.com/resources/test-environment/)
 
 **Test a Klarna order** 
@@ -531,7 +531,7 @@ Any other card number receives an "Invalid card number" error.
 
 For compatible devices, see Apple – [Devices compatible with Apple Pay](https://support.apple.com/en-us/HT208531).
 
-If you don't own an Apple device, we recommend using the [Appetize.io](https://appetize.io) emulator. When you try to complete a test payment on the payment page, you get a _This device is not supported_ error. But the emulator creates an order with the Apple Pay gateway preselected to check if there is an existing connection to our server. However, you can't fully complete the test transaction.
+If you don't own an Apple device, we recommend using the [Appetize.io](https://appetize.io) emulator. When you try to complete a test payment on the payment page, you get a _This device is not supported_ error. But the emulator creates an order with the Apple Pay <<glossary:gateway>> preselected to check if there is an existing connection to our server. However, you can't fully complete the test transaction.
 
 **Prerequisites**
 
@@ -638,7 +638,7 @@ To change the order status, on the Test platform page, from the **Test scenario*
 <summary>How to test cancelling an order</summary>
 <br>
 
-1. Create an order in your backend or via the API as above.
+1. Create an order in your <<glossary:backend>> or via the API as above.
 2. On the **Test platform** page, from the **Test scenario** list, select **Cancelled**.
 3. Click **Test**.  
     The order status changes to **Void**.
@@ -732,7 +732,11 @@ You can test refunds for the following methods:
 
 <br>
 
-> 📘 **More info**
+---
+
+> ℹ️ See also
 > If you encounter any issues during testing, see [Handling errors](/handling-errors/).
->
-> For more information or support, email <integration@multisafepay.com>
+
+> 💬  Support
+> Email <integration@multisafepay.com>
+[Top of page](#)

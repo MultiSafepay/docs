@@ -1,5 +1,5 @@
 ---
-title : "X-Cart"
+title: "X-Cart"
 category: 62962dd7e272a6002ebbbbc5
 order: 119
 hidden: false
@@ -36,7 +36,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 :warning: We recommend first installing the plugin in a test environment, following the X-Cart installation procedure. Always make a backup.
 
 1. In the root of your webshop, unzip the content of the .ZIP file.
-2. Sign in to your X-Cart backend.
+2. Sign in to your X-Cart <<glossary:backend>>.
 3. Go to **System tools** > **Cache management** > **Re-deploy the store**.
 4. Click **Start**.
 
@@ -49,7 +49,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 6. Locate and activate your enabled payment methods.
 7. For **MultiSafepay Connect**, click **Configure**.
 8. For **Account type**, you have two options: **Live** and **Test**.  
-9. Enter your account ID, [site ID, secure code, and API key](/websites/#site-id-api-key-and-secure-code).  
+9. Enter your account ID, [site ID, secure code, and API key](/sites/#site-id-api-key-and-secure-code).  
 Make sure you enter the correct API key for the account type you want to use. 
 10. Click **Save changes**.  
 

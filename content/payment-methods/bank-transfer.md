@@ -4,84 +4,94 @@ category: 6298bd782d1cf4006032e765
 parentDoc: 62a728d48b97080046c1d220
 order: 102
 hidden: false
-slug: bank-transfer
+slug: 'bank-transfer'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/banktransfer-en.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
 
-Bank Transfer (also known as SEPA Credit Transfer) is a secure, trusted, international banking method. 
-Customers can make any type of online payment in euros within the SEPA area. 
+Bank Transfer (also known as SEPA Credit Transfer) is a secure, trusted, international banking method. Customers can make any type of online payment in euros within the SEPA area. 
 
-See how Bank Transfer can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/bank-transfer).
+Read how Bank Transfer can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/bank-transfer)
 
-# Overview
-
-|   |   |   
+| Overview | Details | 
 |---|---|
+| **Chargebacks**  | No  | 
 | **Countries** | Europe (SEPA area) | 
 | **Currencies** | EUR, CZK, GBP, HUF, PLN <br> (USD **not** supported due to high transaction and currency conversion fees for customers) |
-| **Chargebacks**  | No  | 
-| **Refunds** | [Full and partial](/refunds/) |
-| **Supports** | [Virtual IBANs](/virtual-ibans/) to better manage Bank Transfer payments |
-| **Transactions expire after** | 60 days  |
+| **Expiration** | Transactions expire after 60 days. |
+| **Payment components** | [Yes](/payment-components/) |
+| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions) |
+| **Refunds** | [Yes](/refunds/): Full and partial |
+| **Virtual IBANs** | [Yes](/virtual-ibans/) to better manage Bank Transfer payments |
 
 # Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center">
-
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant Me as Merchant
-
-    C->>Mu: Selects Bank Transfer at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page to confirm <br> their bank account number and (optionally) bank country, <br> then displays payment instructions
-    else Direct flow
-    Mu->>C: Redirects to your success page, <br> then emails payment instructions <br> (or email the instructions yourself)
-    end
-    C->>Mu: Transfers funds (online or with teller) <br> (takes 1–3 business days) 
-    Mu->>Me: Matches payment and settles funds
-    
-{{< /mermaid >}} 
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/bank-transfer-payment-flow.svg" alt="Bank transfer payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;">
 
 # Payment statuses
+
+- **Order status:** Changes as the customer's order with you progresses towards shipment 
+- **Transaction status:** Changes as the funds progress towards settlement in your account balance
   
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
-
-**Transaction status:** Changes as the funds progress towards settlement in your account balance
-
-For more information, see [Payment statuses](/payment-statuses/).
-
-| Description | Order status | Transaction status |
+| Description | Order | Transaction |
 |---|---|---|
-| **Payments** | | |
 | Awaiting the customer to transfer the funds. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | You cancelled the transaction. | Void   | Void/Cancelled   |
 | The customer didn't complete  payment within 60 days. | Expired | Expired |
-|**Refunds**|||
+
+</details>
+
+<details id="refund-statuses">
+<summary>Refund statuses</summary>
+<br>
+
+| Description | Order | Transaction |
+|---|---|---|
 | Refund initiated. | Reserved | Reserved |
 | Refund complete. | Completed | Completed |
 
 </details>
 
-# Activation and integration
+# Activation 
 
-| | |
+You can activate Bank Transfer yourself in your dashboard. 
+
+<details id="how-to-activate-bank-transfer"> 
+<summary>How to activate in your Bank Transfer</summary>
+<br>
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **Settings**. 
+3. To enable the payment method for:
+    - All sites, go to **Payment methods**.
+    - A specific site, go to **Website settings**, and click the relevant site.
+4. Select the checkbox for the relevant payment method, and then click **Save changes**.
+
+> 💬  Support
+> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+
+</details>
+
+# Integration
+
+| Integration | Details |
 |---|---|
-| **Activation** | [Enable in your dashboard](/payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment components](/payment-components/) <br> [Payment pages](/payment-pages/) (current and deprecated versions) |
-| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Bank Transfer direct/redirect |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) |
+<br>
+
+> ℹ️ Testing
+> To test Bank Transfer payments, see [Testing](/testing/#banking-methods).
 <br>
 
 ---
@@ -131,7 +141,7 @@ To prevent us from emailing the customer, see API reference – [Create order](h
 
 </details>
 
-**Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/unmasking-ibans/).
+**Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/ibans/).
 
 ### Transfer guidance for customers
 
@@ -142,7 +152,7 @@ The customer must only pay for **one** order per bank transfer. When transferrin
 - The payment reference number (**not** the order number)  
     **Format:** 16 digits, numbers only, no words
 
-:warning: Customers **must** enter the details accurately to avoid unmatched payments (see below).
+❗ Customers **must** enter the details accurately to avoid unmatched payments (see below).
 
 ## Matching payments
 
@@ -212,19 +222,22 @@ To create the transaction again, check if a [payment link](/payment-links/) was 
 
 </details>
 
-See this guidance in [Dutch](/docs/ongematchte-bankoverschrijvingen) or [German](/docs/unzugeordneten-banküberweisungen).
+See this guidance in [Dutch](/ongematchte-bankoverschrijvingen) or [German](/unzugeordneten-banküberweisungen).
 
 ## Stock issues
 
-To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your backend until they complete payment. This depends on your ecommerce platform or integration, and your products and/or services.  
+To avoid stock-related issues if a customer fails to pay within 60 days, you can hold your inventory in your <<glossary:backend>> until they complete payment. This depends on your ecommerce platform or integration, and your products and/or services.  
 
-:warning: MultiSafepay bears no responsibility for stock-related issues.
+❗ MultiSafepay bears no responsibility for stock-related issues.
 
 ## Validation
 
 To change how bank transfers are validated, check whether this is possible in your backend.
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)
 

@@ -1,8 +1,9 @@
 ---
-title : "Email authentication"
+title: "Email authentication"
 category: 62962df622e99600810c117d
 order: 60
 hidden: false
+slug: 'email-authentication'
 ---
 # Adding SPF records for MultiSafepay emails
 Sender Policy Framework (SPF) records let you specify who is authorized to send emails on your domain's behalf. Receiving email servers can check the SPF record to verify the sender. Using an SPF record prevents emails sent by MultiSafepay on your behalf from being marked as spam.

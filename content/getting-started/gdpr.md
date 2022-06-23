@@ -4,6 +4,7 @@ category: 627bbcf80c1c9c0050320b60
 order: 201
 hidden: false
 parentDoc: 62a087abb10eb40052c9fd04
+slug: 'gdpr'
 ---
  
 The General Data Protection Regulation 2016/679 (GDPR) is a European Union regulation on protecting and transferring personal data and privacy in the EU and European Economic Area.

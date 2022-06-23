@@ -1,5 +1,5 @@
 ---
-title : "Drupal"
+title: "Drupal"
 category: 62962dd7e272a6002ebbbbc5
 order: 110
 hidden: false
@@ -38,7 +38,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 ## How to install
 
-These instructions are for Composer. You can also install the plugin in your backend. 
+These instructions are for Composer. You can also install the plugin in your <<glossary:backend>>. 
 
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
@@ -51,7 +51,7 @@ composer require drupal/commerce_multisafepay_payments
 ## How to configure  
 1. Sign in to your Drupal backend.
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
-3. Enter your [account ID, site ID, and site API key](/websites/#site-id-api-key-and-secure-code). 
+3. Enter your [account ID, site ID, and site API key](/sites/#site-id-api-key-and-secure-code). 
 4. Go to **Commerce** > **Configuration** > **Payments** > **Payment gateways**.
 5. Configure the options for all supported payment methods activated in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 

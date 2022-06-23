@@ -37,7 +37,7 @@ Or via your dashboard:
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Tools** > **Payment link generator**.
 3. Click **New payment link**.
-4. From the **Site** list, select the relevant website.
+4. From the **Site** list, select the relevant site.
 5. Under **Amount**, select the currency from the list, and then enter the whole value and cents.
 6. In the **Order ID** field, enter the order ID from your webshop.  
 **Note:** The order ID for every payment link must be unique.
@@ -157,7 +157,7 @@ This only applies to certain payment methods:
 
 The customer can open the link to the payment page up to 20 times, after which the link is disabled.
 
-Each attempt creates a new transaction. If the customer completes payment in one of these transactions, the [status](/payments-statuses/) of the other transactions remains **initialized** until they expire.
+Each attempt creates a new transaction. If the customer completes payment in one of these transactions, the [status](/payments-statuses/) of the other transactions remains **Initialized** until they expire.
 
 ## Payment methods
 
@@ -167,7 +167,7 @@ Each attempt creates a new transaction. If the customer completes payment in one
 
 **All** payment methods are supported. 
 
-The payment page displays **all** payment methods activated for the relevant website. If you want to display specific payment methods, you need to create a new website profile with only the relevant methods activated. 
+The payment page displays **all** payment methods activated for the relevant site. If you want to display specific payment methods, you need to create a new site profile with only the relevant methods activated. 
 
 </details>
 

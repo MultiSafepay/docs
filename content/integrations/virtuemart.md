@@ -1,5 +1,5 @@
 ---
-title : "VirtueMart"
+title: "VirtueMart"
 category: 62962dd7e272a6002ebbbbc5
 order: 117
 hidden: false
@@ -35,7 +35,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 :warning: We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup.
 
-1. Sign in to your VirtueMart backend.
+1. Sign in to your VirtueMart <<glossary:backend>>.
 2. Go to **Extensions** > **Extension manager**.
 3. Install the Plugin_VirtueMart_x.x.x.zip file using **Drag and drop** or **Browse for file**. 
 4. Click **Upload & install**.
@@ -52,7 +52,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
     - To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:
     - Account ID (top-right corner of your dashboard)
-    - [Site ID, API key, and secure code](/websites/#site-id-api-key-and-secure-code)
+    - [Site ID, API key, and secure code](/sites/#site-id-api-key-and-secure-code)
     - [Gateway ID](https://docs-api.multisafepay.com/reference/gateway-ids)
 
 # User guide

@@ -4,74 +4,62 @@ category: 6298bd782d1cf4006032e765
 order: 106
 hidden: false
 parentDoc: 62a728d48b97080046c1d220
-slug: cbc-kbc
+slug: 'cbc-kbc'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/CBC.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
-An online banking payment method of two of Belgium's largest banks: CBC which serves the French speaking population, and KBC which serves the Dutch-speaking population.
+An online banking payment method of two of Belgium's largest banks: [CBC](https://www.cbc.be/particuliers/fr.html) which serves the French speaking population, and [KBC](https://www.kbc.be/particulieren/nl.html) which serves the Dutch-speaking population.
 
-The payment method functions the same for both the CBC branch and the KBC branch. However, MultiSafepay's payment gateway includes the branches as separate options because customers of one branch can't pay through the other.
+The payment method functions the same for both the CBC branch and the KBC branch. However, MultiSafepay's payment <<glossary:gateway>> includes the branches as separate options because customers of one branch can't pay through the other.
 
-See how CBC/KBC can [benefit your business](https://www.multisafepay.com/solutions/payment-methods/kbccbc).
+Read how CBC/KBC can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/kbccbc)
 
-# Overview
-
-|   |   |
+| Overview | Details |
 |---|---|
+| **Chargebacks**  | No | 
 | **Countries**  | Belgium  | 
 | **Currencies**  | EUR | 
-| **Chargebacks**  | No | 
-| **Refunds** | [Full and partial](/refunds/) (1 business day after payment is completed) |
-| **Supports** | [Second Chance](/second-chance/) |
-| **Transactions expire after** | 5 days  |
+| **Expiration** | Transactions expire after 5 days. |
+| **Payment pages** | [Yes](/payment-pages/) (current version only) |
+| **Refunds** | [Yes](/refunds/): Full and partial (1 business day after payment is completed) |
+| **Second Chance** | [Yes](/second-chance/) |
 
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-{{< mermaid class="text-center" >}}
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/cbc-kbc-payment-flow.svg" alt="CBC/KBC payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
-sequenceDiagram
-    autonumber
-    participant C as Customer
-    participant Mu as MultiSafepay
-    participant CK as CBC/KBC
-    participant Me as Merchant
-
-    C->>Mu: Selects CBC/KBC at checkout
-    alt Redirect flow
-    Mu->>C: Redirects to payment page, <br> then to online banking
-    else Direct flow
-    Mu->>C: Redirects to online banking
-    end
-    C->>CK: Authenticates account and completes payment
-    CK->>Mu: Transfers funds 
-    Mu->>Me: Settles funds
-
-{{< /mermaid >}}
-
-**Note:** MultiSafepay doesn’t automatically receive the customer's IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed.
+> **Note:** MultiSafepay doesn’t automatically receive the customer's IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed.
 
 # Payment statuses  
+
+- **Order status:** Changes as the customer's order with you progresses towards shipment 
+- **Transaction status:** Changes as the funds progress towards settlement in your account balance
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-**Order status:** Changes as the customer's order with you progresses towards shipment (independent of payment)
-
-**Transaction status:** Changes as the funds progress towards settlement in your account balance
-
-For more information, see [Payment statuses](/payment-statuses/).
-
-| Description | Order status | Transaction status |
+| Description | Order | Transaction |
 |---|---|---|
-| **Payments** | | |
 | The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment.| Completed | Completed |
 | The transaction was cancelled by you or the customer. | Void   | Void   |
 | The customer didn't complete payment within 5 days. | Expired | Expired |
-|**Refunds**|||
+
+</details>
+
+<details id="refund-statuses">
+<summary>Refund statuses</summary>
+<br>
+
+| Description | Order | Transaction |
+|---|---|---|
 | Refund initiated. | Initialized | Initialized |
 | Refund complete. | Completed | Completed |
 <br>
@@ -80,16 +68,40 @@ For more information, see [Payment statuses](/payment-statuses/).
 
 </details> 
 
-# Activation and integration
+# Activation 
 
-| | |
+You can activate CBC/KBC in your dashboard.
+
+<details id="how-to-activate-cbc-kbc"> 
+<summary>How to activate CBC/KBC</summary>
+<br>
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Go to **Settings**. 
+3. To enable the payment method for:
+    - All sites, go to **Payment methods**.
+    - A specific site, go to **Website settings**, and click the relevant site.
+4. Select the checkbox for the relevant payment method, and then click **Save changes**.
+
+> 💬  Support
+> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+
+</details>
+
+# Integration
+
+| Integration | Details |
 |---|---|
-| **Activation** | [Enable in your dashboard](/payment-methods/#enable-in-dashboard) |
-| **Checkout options** | [Payment pages](/payment-pages/) (current version only) |
-| **Testing** | [Test payment details](/testing/#banking-methods) |
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > CBC/KBC direct/redirect |
 | **Ready-made integrations** | [Craft Commerce](/craft-commerce/), [OpenCart](/opencart/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [PrestaShop 1.6 and 1.7](/prestashop/), [Shopware 5 and 6](/shopware/), [WooCommerce](/woo-commerce/) |
 <br>
 
-> 📘 **More info**
-> For more information or support, email <support@multisafepay.com>
+> ℹ️ Testing
+> To test CBC/KBC payments, see [Testing](/testing/#banking-methods).
+<br>
+
+---
+
+> 💬  Support
+> Email <support@multisafepay.com>
+[Top of page](#)
