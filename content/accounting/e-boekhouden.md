@@ -12,9 +12,9 @@ slug: 'e-boekhouden'
 
 This page sets out ways of integrating MultiSafepay with [e-Boekhouden](https://www.e-boekhouden.nl/koppelingen/payment-service-providers/multisafepay?qsm=387).
 
-To import MultiSafepay [accountant export](/accounting/reports/accountant-export/) reports into e-Boekhouden (MT940 or CSV format), see e-Boekhouden – [Contact](https://www.e-boekhouden.nl/contact).
+To import MultiSafepay [accountant export](/docs/accountant-export/) reports into e-Boekhouden (MT940 or CSV format), see e-Boekhouden – [Contact](https://www.e-boekhouden.nl/contact).
 
-To add MultiSafepay [payment links](/payments/checkout/payment-link/) to e-Boekhouden invoices to let customers pay directly, see e-Boekhouden – [How do I insert a payment link or image in my invoices](https://secure.e-boekhouden.nl/bh/kb.asp?ACTION=SHOW&ID=237&POPUP=1).
+To add MultiSafepay [payment links](/docs/payment-links/) to e-Boekhouden invoices to let customers pay directly, see e-Boekhouden – [How do I insert a payment link or image in my invoices](https://secure.e-boekhouden.nl/bh/kb.asp?ACTION=SHOW&ID=237&POPUP=1).
 
 # PSP Betalingen integration
 
@@ -25,7 +25,7 @@ For more information, see PSP Betalingen – [Koppeling MultiSafepay e-Boekhoude
 To connect your MultiSafepay account to e-Boekhouden:
 
 - See PSP betalingen – [Handleiding: MultiSafepay e-Boekhouden](https://handleidingen.pspbetalingen.nl/handleiding-multisafepay-eboekhouden).
-- You will need a MultiSafepay [site API key](/sites/#site-id-api-key-and-secure-code).
+- You will need a MultiSafepay [site API key](/docs/sites/#site-id-api-key-and-secure-code).
 
 [block:html]
 {

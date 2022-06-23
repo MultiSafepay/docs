@@ -10,7 +10,7 @@ slug: 'exact'
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Exact.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
 <br>
 
-You can import MultiSafepay [accountant export](/accounting/reports/accountant-export/) reports (in MT940 format) into [Exact](https://www.exact.com/nl) Globe or Online. 
+You can import MultiSafepay [accountant export](/docs/accountant-export/) reports (in MT940 format) into [Exact](https://www.exact.com/nl) Globe or Online. 
 
 # Prerequisites
 <details id="prerequisites">
@@ -106,7 +106,7 @@ To import an MT940 report into Exact Online, follow these steps:
 
 # Denovit integration
 
-You can automatically insert MultiSafepay [payment links](/payments/checkout/payment-link/) into Exact invoices using the [Denovit payment link module](https://www.denovit.nl/Exact-PaymentLink).
+You can automatically insert MultiSafepay [payment links](/docs/payment-links/) into Exact invoices using the [Denovit payment link module](https://www.denovit.nl/Exact-PaymentLink).
 
 <details id="setting-up-denovit">
 <summary>Setting up Denovit</summary>
@@ -115,7 +115,7 @@ You can automatically insert MultiSafepay [payment links](/payments/checkout/pay
 1. Sign in to your Denovit account.
 2. Go to your **Dashboard**, and then select the **Paylink** module. 
 3. Connect to your Exact account.
-4. Under **PSP settings**, enter your [MultiSafepay API key](/glossaries/multisafepay-glossary/#api-key) and the payment conditions you use in Exact. 
+4. Under **PSP settings**, enter your MultiSafepay API key and the payment conditions you use in Exact. 
 5. Adjust other settings as relevant, e.g. personalize your email template, thank-you page, or notification email to improve customer experience.
 
 For each new invoice in Exact, if you:

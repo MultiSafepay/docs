@@ -14,7 +14,7 @@ This page sets out ways of integrating MultiSafepay with [Yuki](https://www.yuki
 
 # Importing accountant exports
 
-You can import MultiSafepay [accountant export](/accounting/reports/accountant-export/) reports (in MT940 format) into Yuki.
+You can import MultiSafepay [accountant export](/docs/accountant-export/) reports (in MT940 format) into Yuki.
 
 <details id="importing-accountant-exports">
 <summary>Importing accountant exports</summary>
@@ -51,7 +51,7 @@ You can also integrate with [Duopact](https://www.snelkoppeling.eu/productoverzi
 
 To connect Duopact with your MultiSafepay account, see Duopact – [Contact](https://www.duopact.nl/nl/contact/).  
 
-Provide Duopact with your MultiSafepay [site API key](/sites/#site-id-api-key-and-secure-code). They will set up a Yuki account for you. 
+Provide Duopact with your MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code). They will set up a Yuki account for you. 
 
 </details >
 

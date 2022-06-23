@@ -10,7 +10,7 @@ slug: 'king'
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/King.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
 <br>
 
-You can import MultiSafepay [accountant export](/accounting/reports/accountant-export/) reports (in MT940 format) into [King Business Software](https://www.kingconnections.eu/MultiSafePay).
+You can import MultiSafepay [accountant export](/docs/accountant-export/) reports (in MT940 format) into [King Business Software](https://www.kingconnections.eu/MultiSafePay).
 
 For import instructions, see King Business Software – [Service](https://service.king.eu).
 

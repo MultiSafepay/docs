@@ -10,7 +10,7 @@ slug: 'visma'
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Visma.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
 <br>
 
-You can import MultiSafepay [accountant export](/accounting/reports/accountant-export/) reports (in MT940 and CAMT053 formats) into [Visma](https://nl.visma.com/).
+You can import MultiSafepay [accountant export](/docs/accountant-export/) reports (in MT940 and CAMT053 formats) into [Visma](https://nl.visma.com/).
 
 For import instructions, see Visma – [Contact](https://nl.visma.com/accountview-support/contact).
 

@@ -22,7 +22,7 @@ This report provides an overview (in Excel or PDF format) of all transactions wi
 3. Under **Report settings** > in the **From** and **To** fields, enter the start and end dates of the period you want the report to cover.
 4. Under **Extra**, specify any other relevant parameters:  
     - **Currency** field: Select the relevant currency.
-    - **Status** field: Select the [order or transaction status](/about-payments/multisafepay-statuses/), if relevant
+    - **Status** field: Select the [order or transaction status](/docs/payment-statuses/), if relevant
     - **Payment method** field: Select the relevant payment method.
     - **Website** field: Select the relevant site.
     - **Group** field: Specify if you want to group costs by **Site**, **Payment method**, or **Country**.
