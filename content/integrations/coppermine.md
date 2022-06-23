@@ -39,6 +39,8 @@ To integrate MultiSafepay as your payment service provider, follow these steps:
 
 ---
 
-> 💬  Support
-> For technical queries about the integration, see - [Coppermine support](https://www.coppermine.nl/support)
-> To contact MultiSafepay, email <support@multisafepay.com>
+[block:html]
+{
+  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <ul>\n    <li>For technical queries about the integration, see <a href=\"https://www.coppermine.nl/support\">Coppermine support</a></li>\n    <li>To contact MultiSafepay, email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></li>\n  </ul>  \n</blockquote>"
+}
+[/block]

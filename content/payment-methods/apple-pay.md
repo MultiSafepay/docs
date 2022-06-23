@@ -134,6 +134,10 @@ For our [OpenCart plugin](/opencart/), Apple Pay does appear on the checkout pag
 
 ---
 
-> 💬  Support
-> Email <support@multisafepay.com>
+[block:html]
+{
+  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
+}
+[/block]
+
 [Top of page](#)
