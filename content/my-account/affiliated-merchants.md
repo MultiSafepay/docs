@@ -29,9 +29,9 @@ To create a new affiliate account in your dashboard, follow these steps:
 <summary>How to onboard affiliate accounts</summary>
 <br>
 
-All affiliates must [onboard](/onboarding/) and sign an agreement with MultiSafepay, containing general terms and conditions.
+All affiliates must [onboard](/docs/onboarding/) and sign an agreement with MultiSafepay, containing general terms and conditions.
 
-You can also automate onboarding affiliates [via our API](/api-onboarding).
+You can also automate onboarding affiliates [via our API](/docs/affiliate-onboarding-api).
 
 For any questions, affiliates can email <partner@multisafepay.com>
 
@@ -72,7 +72,7 @@ You can charge affiliates at three levels.
 |---|---|
 | **Partner/primary level** | Set fixed or percentage-based transaction charges for **all** affiliated merchant accounts. |
 | **Affiliate level** | Set fixed or percentage-based transaction charges for a specific affiliated merchant account. <br> This overrides the partner/primary-level settings. |
-| **Transaction level** | [Split incoming payments](/split-payments/) between multiple merchant and/or partner accounts. <br> You can use this feature for both partner/primary and affiliate-level charges.|
+| **Transaction level** | [Split incoming payments](/docs/split-payments/) between multiple merchant and/or partner accounts. <br> You can use this feature for both partner/primary and affiliate-level charges.|
 
 </details>
 <br>

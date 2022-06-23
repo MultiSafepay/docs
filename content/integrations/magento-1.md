@@ -760,7 +760,7 @@ Release date: Jan 12, 2011
 ___
 </details>
 
-:warning: Magento 1 is end-of-life. We recommend [upgrading as soon as possible](/magento-1/#upgrading).
+:warning: Magento 1 is end-of-life. We recommend [upgrading as soon as possible](/docs/magento-1#upgrading).
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Magento 1.
 
@@ -770,7 +770,7 @@ MultiSafepay supports most Magento functionalities. For any questions, email <in
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/docs/getting-started-guide/)
 - Magento Open Source 1.7 - 1.9
 - Tested on PHP 7.0
 
@@ -793,12 +793,12 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 1. Sign in to your Magento 1 backend.
 2. Go to **System** > **Configuration** > **MultiSafepay x.x.x** > **Connect settings**.  
     This page contains all main settings and is used for all <<glossary:gateways>> and gift cards.  
-    To find your API key, see [API key](/sites/#site-id-api-key-and-secure-code).  
+    To find your API key, see [API key](/docs/sites#site-id-api-key-and-security-code).  
     From version 3.0.0, the plugin only needs your API key. Your account ID, site ID, and site secure code are no longer needed.
 3. To configure your selected payment methods, go to **System** > **Configuration** > **MultiSafepay x.x.x**:
     - **Connect MultiSafepay gateways**  
     - **MultiSafepay gift cards**  
-    Make sure you have [activated the payment methods](/activating-payment-methods/) in your MultiSafepay dashboard.
+    Make sure you have [activated the payment methods](/docs/payment-methods/) in your MultiSafepay dashboard.
 
 # User guide
 
@@ -826,7 +826,7 @@ The default currency is EUR.
 
 ## Generic gateways
 
-The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
+The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
 
 <details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
@@ -870,10 +870,10 @@ This change is only for Magento developers. We recommend testing the change and 
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/) except V Pay
-- Banking methods: [All](/banks/), **except** TrustPay
-- Pay later methods: [All](/pay-later/)
-- Wallets: [Alipay](/alipay), [Apple Pay](/apple-pay), [PayPal](/paypal)
+- Cards: [All](/docs/cards/) except V Pay
+- Banking methods: All, **except** TrustPay
+- Pay later methods: All
+- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
@@ -884,7 +884,7 @@ This change is only for Magento developers. We recommend testing the change and 
     - [Good4fun](https://www.good4fun.nl)
     - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/paysafecard)
+    - [Paysafecard](/docs/paysafecard/)
     - [Podium](https://www.podiumcadeaukaart.nl)
     - [Sport en Fit](https://www.sportenfitcadeau.nl)
     - [VVV gift card](https://www.vvvcadeaukaarten.nl)
@@ -926,7 +926,7 @@ All expired orders retain **Waiting** status until you cancel them:
 1. Sign in to your Magento 1 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **MultiSafepay settings**.
 
-For more information, see [Recurring Payments](/recurring-payments).
+For more information, see [Recurring Payments](/docs/recurring-payments).
 
 **Credit cards**
 Recurring Payments are not available for the generic credit card gateway. You must enable the Visa, Mastercard, and/or Maestro gateways separately. This displays the **Save card** option at checkout.
@@ -966,7 +966,7 @@ Recurring Payments are not available for the generic credit card gateway. You mu
 
 You can:
 
-- Apply [surcharges](/surcharges/) of a percentage or a fixed amount to transactions for every payment method.
+- Apply [surcharges](/docs/surcharges/) of a percentage or a fixed amount to transactions for every payment method.
 - Set the tax class for surcharges.
 - Show transaction amounts excluding the surcharge at checkout. Surcharges are always included at checkout.
 - Show surcharges with our without VAT at checkout.
@@ -985,7 +985,7 @@ You can:
 </details>
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 

@@ -25,9 +25,9 @@ Read how Request to Pay can benefit your business on [multisafepay.com](https://
 | **Countries**  | Germany – More countries will follow as more banks migrate to PSD2 APIs.  | 
 | **Currencies**  | EUR | 
 | **Expiration** | Transactions expire after 1 hour. |
-| **Payment pages** | [Yes](/payment-pages/) (current version only) |
-| **Refunds** | [Yes](/refunds/): Full and partial <br> All refunds are processed by Deutsche Bank. |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial <br> All refunds are processed by Deutsche Bank. |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 
 # Payment flow
 
@@ -96,7 +96,7 @@ You can activate Request to Pay yourself in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Request to Pay direct/redirect |
-| **Ready-made integrations** | **Not** supported in our [ready-made integrations](/integrations/ready-made/). |
+| **Ready-made integrations** | **Not** supported in our [ready-made integrations](/docs/our-integrations/). |
 <br>
 
 > ℹ️ Testing

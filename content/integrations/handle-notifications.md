@@ -32,7 +32,7 @@ Check the order status in the `status` field. If necessary, update your <<glossa
 **Note:** You can ignore notifications that:
 
 - Don't have the `timestamp` parameter in the URL  
-- Have the same [order status](/payments-statuses/) 
+- Have the same [order status](/docs/payments-statuses/) 
 
 # Validate the request
 

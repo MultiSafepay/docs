@@ -3,7 +3,7 @@ title: 'Betaal per Maand'
 category: 6298bd782d1cf4006032e765
 order: 302
 hidden: false
-parentDoc: 62a728d48b97080046c1d220
+parentDoc: 62a727567164d301522a67da
 slug: betaal-per-maand
 ---
 
@@ -21,8 +21,8 @@ Read how Betaal per Maand can benefit your business on [multisafepay.com](https:
 | **Countries**  | The Netherlands  | 
 | **Currencies**  | EUR  | 
 | **Expiration** | Transactions expire after 1 day. |
-| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions)  |
-| **Refunds** | [Yes](/refunds/): Full and partial |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions)  |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
 
 # Payment flow
 
@@ -71,11 +71,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 You must:
 
-- Have a [MultiSafepay account](/getting-started-guide/)
+- Have a [MultiSafepay account](/docs/getting-started-guide/)
 - Be registered with a Dutch Chamber of Commerce (no exceptions)
 - Have an annual turnover of more than 500,000 EUR (unless agreed otherwise with Betaal per Maand)
 - Sell products or services to European citizens with a residential or delivery address in the Netherlands (no exceptions)
-- Connect to MultiSafepay via our API or [ready-made integrations](/integrations/ready-made/)
+- Connect to MultiSafepay via our API or [ready-made integrations](/docs/our-integrations/)
 
 <details id="how-to-activate-betaal-per-maand">
 <summary>How to activate Betaal per Maand</summary>
@@ -93,7 +93,7 @@ You must:
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Betaal per Maand direct/redirect |
-| **Ready-made integrations** | Supported in the following [ready-made integrations](/integrations/ready-made/) [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 8](/drupal/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [Odoo](/odoo/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop/), [Shopware 5 and 6](/shopware/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/), [X-Cart](/x-cart/). |
+| **Ready-made integrations** | Supported in the following [ready-made integrations](/docs/our-integrations/) [Craft Commerce](/docs/craft-commerce/), [CS-Cart](/docs/cs-cart/), [Drupal 8](/docs/drupal/), [Magento 1](/docs/magento-1/), [Magento 2](/docs/magento-2/), [Odoo](/docs/odoo/), [OpenCart](/docs/opencart/), [PrestaShop 1.7](/docs/prestashop-1-7/), [Shopware 5 and 6](/docs/shopware/), [VirtueMart](/docs/virtuemart/), [WooCommerce](/docs/woo-commerce/), [X-Cart](/docs/x-cart/). |
 <br>
 
 > ℹ️ Testing
@@ -140,7 +140,7 @@ You can still change an order between approval from Santander and shipment.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Under **Order summary**, click **Change order status**.
 5. Change the status of the initial order to **Shipped**, and then add a **Memo**.
-6. Refund the required amount [in full or in part](/refunds/). 
+6. Refund the required amount [in full or in part](/docs/refund-payments/). 
 
 You cannot increase the amount of the initial order by default. Email a request to <sales@multisafepay.com>
 
@@ -148,7 +148,7 @@ You cannot increase the amount of the initial order by default. Email a request 
 
 ### Changing the order status
 
-When you ship the order, you **must** manually change the [order status](/payment-statuses/) from **Completed** to **Shipped** to:
+When you ship the order, you **must** manually change the [order status](/docs/payment-statuses/) from **Completed** to **Shipped** to:
 
 - Capture the funds
 - Trigger sending the invoice to the customer
@@ -169,7 +169,7 @@ When you ship the order, you **must** manually change the [order status](/paymen
 
 **In your backend**
 
-If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
+If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/docs/our-integrations/) pass the updated status to your dashboard automatically:
 
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **Delivered** in your backend.

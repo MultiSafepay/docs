@@ -364,7 +364,7 @@ Release date: Nov 11, 2014
 
 </details>
 
-:warning: We are phasing out support for this plugin. We recommend migrating to our [Prestashop 1.7 plugin](/prestashop-1-7/) as soon as possible.
+:warning: We are phasing out support for this plugin. We recommend migrating to our [Prestashop 1.7 plugin](/docs/prestashop-1-7/) as soon as possible.
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Prestashop 1.6.
 
@@ -372,7 +372,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/docs/getting-started-guide/)
 - PrestaShop 1.6
 - Tested on PHP 7.0
 
@@ -387,7 +387,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 3. Go to **Modules and services** > **Payments and gateways**.  
     **Note:** You must install and configure the MultiSafepay Core Module (MultiSafepay) because all payment methods require certain settings and/or the API key in the core module.
 4. In the next screen, proceed with the installation.
-5. Enter your [API key](/sites/#site-id-api-key-and-secure-code), and then click **Save**.
+5. Enter your [API key](/docs/sites#site-id-api-key-and-security-code), and then click **Save**.
 6. On the **Payments** tab, enable the relevant payment methods.
 
 # User guide
@@ -410,21 +410,21 @@ This is no longer supported from version 3.2.0. If you want to skip the extra co
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/)
-- Pay later methods: [All](/pay-later/), except Betaal per Maand
-- Wallets: [Alipay](/alipay/), [Apple Pay](/apple-pay/), [PayPal](/paypal/)
+- Cards: [All](/docs/cards/)
+- Pay later methods: All, except Betaal per Maand
+- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Banking methods: 
-    - [Bancontact](/bancontact/)
-    - [Bank Transfer](/bank-transfer)
-    - [Belfius](/belfius/)
-    - [CBC/KBC](/cbc-kbc/)
-    - [Dotpay](/dotpay/)
-    - [EPS](/eps/)
-    - [Giropay](/giropay/)
-    - [iDEAL](/ideal/)
-    - [Request to Pay](/request-to-pay/)
-    - [SEPA Direct Debit](/sepa-direct-debit/)
-    - [Sofort](/sofort/)
+    - [Bancontact](/docs/bancontact/)
+    - [Bank Transfer](/docs/bank-transfer/)
+    - [Belfius](/docs/belfius/)
+    - [CBC/KBC](/docs/cbc-kbc/)
+    - [Dotpay](/docs/dotpay/)
+    - [EPS](/docs/eps/)
+    - [Giropay](/docs/giropay/)
+    - [iDEAL](/docs/ideal/)
+    - [Request to Pay](/docs/request-to-pay/)
+    - [SEPA Direct Debit](/docs/sepa-direct-debit/)
+    - [Sofort](/docs/sofort/)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - Boekenbon
@@ -467,7 +467,7 @@ Payment links generated manually in your MultiSafepay dashboard don't automatica
 <summary>Enabling recurring payments</summary>
 <br>
 
-To enable [recurring payments](/recurring-payments), follow these steps:
+To enable [recurring payments](/docs/recurring-payments), follow these steps:
 
 1. Sign in to your PrestaShop 1.6 backend. 
 2. Go to **Modules and services** > **Modules and services** > **MultiSafepay**.
@@ -479,12 +479,12 @@ To enable [recurring payments](/recurring-payments), follow these steps:
 
 ## Refunds
 
-You can process [full and partial refunds](/refunds/#full-and-partial-refunds) from your MultiSafepay dashboard.  
+You can process [full and partial refunds](/docs/refund-payments/) from your MultiSafepay dashboard.  
 Backend refunds are **not** supported.
 
 ## Surcharges
 
-[Surcharges](/surcharges/) are not supported by default.
+[Surcharges](/docs/surcharges/) are not supported by default.
 
 <details id="applying-surcharges-with-bvk">
 <summary>Applying surcharges with BVK</summary>
@@ -495,7 +495,7 @@ To apply a surcharge or payment fee to a payment method, you can use the third-p
 The Integration Team will do their best to support you with installing BVK, but bear in mind that it is a third-party package. We can't guarantee perfect compatibility.
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 </details>
 

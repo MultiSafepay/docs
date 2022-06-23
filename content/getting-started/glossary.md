@@ -27,7 +27,7 @@ A customer who uses a card issued by a bank to make cashless payments to a merch
 A financial institution that issues credit cards, provides infrastructure, and processes payments for a fee, e.g. Visa, Mastercard, American Express.
 
 #### card verification code (CVC)
-A 3 or 4 digit code customers enter as an additional layer of security for online credit or debit card payments. Not required for all cards, or for [Recurring payments](/recurring-payments/).
+A 3 or 4 digit code customers enter as an additional layer of security for online credit or debit card payments. Not required for all cards, or for [Recurring payments](/docs/recurring-payments/).
 
 #### collecting party
 The party that receives the funds for a transaction directly from the customer, before transferring them to the merchant.
@@ -48,13 +48,13 @@ A card issued by a bank that transfers funds directly from the customer's bank a
 A software developer a merchant employs to work on the technical side of their integration.
 
 #### ecommerce platform
-An online [platform](/integrations/ready-made/) merchants use for accepting payments, e.g. website, mobile app, PWAs. 
+An online [platform](/docs/our-integrations/) merchants use for accepting payments, e.g. website, mobile app, PWAs. 
 
 #### fraud
 When a person tries to receive products without paying for them by tricking a customer or merchant.
 
 #### integration
-Software merchants use to sell products and services and accept payments, e.g website, mobile app, [PWA](/payments/integrations/pwa/). Merchants may use [ecommerce platforms](/integrations/ready-made/) or [build their own integration](/integrations/self-made/).
+Software merchants use to sell products and services and accept payments, e.g website, mobile app, [PWA](/docs/pwa-studio-venia/). Merchants may use [ecommerce platforms](/docs/our-integrations/) or [build their own integration](/docs/self-made/).
 
 #### item
 A product or service in a customer's shopping cart and/or order.
@@ -83,7 +83,7 @@ The payment information for a specific customer, e.g. card number, CVC code.
 Transfers the customer's payment details to where the payment method is processed.
 
 #### payment page
-A webpage the customer is redirected to from the merchant's checkout where they complete payment. The page may be hosted by MultiSafepay (see [Payment pages](/payment-pages/activation/), the issuer, or the payment method. 
+A webpage the customer is redirected to from the merchant's checkout where they complete payment. The page may be hosted by MultiSafepay (see [Payment pages](/docs/payment-pages/), the issuer, or the payment method. 
 
 #### payment service provider (PSP)
 MultiSafepay is a PSP and provides services that let merchants accept payments using different payment methods. 
@@ -104,7 +104,7 @@ The Single Euro Payments Area (SEPA) is a European Union payment-integration ini
 A container in the merchant's integration where customers place items for an order preparing for payment.
 
 #### transaction
-An instance of funds being transferred, e.g. customers paying merchants, merchants refunding customers. In our system, the [transaction status](/payments/payment-statuses/) changes as the funds move through the different stages of the payment flow.
+An instance of funds being transferred, e.g. customers paying merchants, merchants refunding customers. In our system, the [transaction status](/docs/payment-statuses/) changes as the funds move through the different stages of the payment flow.
 
 #### we
 MultiSafepay

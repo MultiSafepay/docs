@@ -16,8 +16,8 @@ Recurring payments is a MultiSafepay solution that securely stores payment detai
 
 MultiSafepay encrypts customers' sensitive payment details during an initial payment for secure storage, and provides you with a non-sensitive identifier for the details known as a "token". Customers can save multiple tokens.
 
-Subsequent payments are exempt from [SCA and 2FA](/pds2/).
-MultiSafepay is responsible for [PCI DSS](/pci-dss/) compliant storage of payment details. 
+Subsequent payments are exempt from [SCA and 2FA](/docs/pds2/).
+MultiSafepay is responsible for [PCI DSS](/docs/pci-dss/) compliant storage of payment details. 
 
 Tokens are stored at account level rather than site level. If you operate multiple sites from a single MultiSafepay account, you can also offer cross-domain recurring payments, i.e. tokenize a customer's details on Site A and offer one-click payments on Site B.
 
@@ -26,11 +26,11 @@ Tokens are stored at account level rather than site level. If you operate multip
 <br>
 
 - American Express
-- [Bancontact WIP](/payment-methods/bancontact/overview/#bancontact-wip-service)
+- [Bancontact WIP](/docs/bancontact#bancontact-wip-service)
 - iDEAL
 - Maestro
 - Mastercard
-- SEPA Direct Debit – First you need to provide us with some information. See SEPA Direct Debit – [Activation](/sepa-direct-debit/#activation).
+- SEPA Direct Debit – First you need to provide us with some information. See SEPA Direct Debit – [Activation](/docs/sepa-direct-debit/#activation).
 - Sofort
 - Visa
 
@@ -51,7 +51,7 @@ Tokens are stored at account level rather than site level. If you operate multip
 ### Zero Authorization
 Optionally, you can set the amount for the initial payment `0`. No funds are transferred but a token is created (if the payment details are valid). 
 
-See [Zero Authorization](/zero-authorization/).
+See [Zero Authorization](/docs/zero-authorization/).
 
 ## Subsequent payments: Customer-initiated 
 
@@ -107,7 +107,7 @@ MultiSafepay offers three recurring models:
 - `unscheduled` (event-triggered)
 
 Our API and [PHP SDK](https://github.com/MultiSafepay/php-sdk) support all three models.  
-Our [ready-made integrations](/integrations/ready-made/) use `cardOnFile` only. 
+Our [ready-made integrations](/docs/our-integrations/) use `cardOnFile` only. 
 
 ## Ready-made integrations
 
@@ -119,12 +119,12 @@ You must have **both** credit card payments and recurring payments enabled for y
 
 We support recurring payments in our plugins for:
 
-- [Magento 1](/magento-1)
-- [Magento 2](/magento-2)
-- [PrestaShop 1.6](/prestashop-1-6)
-- [PrestaShop 1.7](/prestashop-1-7)
-- [Shopware 6](/shopware-6) 
-- [WooCommerce](/woo-commerce/) 
+- [Magento 1](/docs/magento-1)
+- [Magento 2](/docs/magento-2)
+- [PrestaShop 1.6](/docs/prestashop-1-6/)
+- [PrestaShop 1.7](/docs/prestashop-1-7/)
+- [Shopware 6](/docs/shopware-6/) 
+- [WooCommerce](/docs/woo-commerce/) 
 
 </details>
 

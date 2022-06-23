@@ -20,9 +20,9 @@ Read how EPS can benefit your business on [multisafepay.com](https://www.multisa
 | **Countries**  | Austria  | 
 | **Currencies**  | EUR |  
 | **Expiration** | Transactions don't expire. |
-| **Payment pages** | [Yes](/payment-pages/) (current version only) |
-| **Refunds** | [Yes](/refunds/): Full and partial |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 
 # Payment flow
 
@@ -90,11 +90,11 @@ To test
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > EPS redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/). |
 <br>
 
 > ℹ️ Testing
-> To test EPS payments, see [Testing](/testing/#banking-methods).
+> To test EPS payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---

@@ -9,8 +9,8 @@ Payment components let you embed payment methods directly into your checkout.
 
 - Creates a seamless checkout experience to increase <<glossary:conversion>>
 - Encrypts customer payment details for secure processing
-- Reduces your [PCI DSS](/pci-dss/) responsibility, falling only under [Self-Assessment Questionaire A](https://www.pcisecuritystandards.org/documents/SAQ_A_v3.pdf)
-- Supports [recurring payments](/recurring-payments/)
+- Reduces your [PCI DSS](/docs/pci-dss/) responsibility, falling only under [Self-Assessment Questionaire A](https://www.pcisecuritystandards.org/documents/SAQ_A_v3.pdf)
+- Supports [recurring payments](/docs/recurring-payments/)
 
 # Payment methods
 
@@ -20,17 +20,17 @@ You can embed a single or multiple payment methods in your checkout.
 <summary>Supported payment methods</summary>
 <br>
 
-- [Bancontact](/bancontact/)
-- [Bank Transfer](/bank-transfer/)
+- [Bancontact](/docs/bancontact/)
+- [Bank Transfer](/docs/bank-transfer/)
 - Credit cards:  
-    - [American Express](/amex/)
-    - [Mastercard](/mastercard/)
-    - [Visa](/visa/)
-    - [Maestro](/maestro/)
-- [iDEAL](/ideal/)
-- [PayPal](/paypal/)
-- [SEPA Direct Debit](/sepa-direct-debit/)
-- [Sofort](/sofort/)
+    - [American Express](/docs/cards/)
+    - [Mastercard](/docs/cards/)
+    - [Visa](/docs/cards/)
+    - [Maestro](/docs/cards/)
+- [iDEAL](/docs/ideal/)
+- [PayPal](/docs/paypal/)
+- [SEPA Direct Debit](/docs/sepa-direct-debit/)
+- [Sofort](/docs/sofort/)
 
 </details>
 
@@ -44,10 +44,10 @@ You can embed a single or multiple payment methods in your checkout.
 
 # Integration 
 
-- [Single payment method integration](/payment-component-single/)
-- [Multiple payment method integration](/payment-component-multiple/)
-- [Payment component customization manual](/payment-component-customization/)
-- [Previous release integration manual](/payment-component-previous-release/)
+- [Single payment method integration](/docs/payment-component-single/)
+- [Multiple payment method integration](/docs/payment-component-multiple/)
+- [Payment component customization manual](/docs/payment-component-customization/)
+- [Previous release integration manual](/docs/payment-component-previous-release/)
 <br>
 
 ---

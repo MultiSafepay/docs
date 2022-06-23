@@ -10,7 +10,7 @@ Split Payments lets you divide an incoming transaction amount between two or mor
 
 # How it works
 
-This feature is supported for all [account types](/create-account/) and affiliations, e.g.:
+This feature is supported for all [account types](/docs/create-account/) and affiliations, e.g.:
 
 - Partner/primary accounts, e.g. for mixed baskets where customers buy products from multiple affiliated merchants in a single transaction on your marketplace
 - Affiliated accounts, e.g. for franchises splitting 10% of all incoming transactions to the linked primary account
@@ -24,7 +24,7 @@ None.
 
 See API recipe – [Split a payment](https://docs-api.multisafepay.com/recipes/split-a-payment).
 
-Split Payments are not supported in our [ready-made integrations](/integrations/ready-made/).
+Split Payments are not supported in our [ready-made integrations](/docs/our-integrations/).
 <br>
 
 ---
@@ -45,8 +45,8 @@ You can process full and partial refunds, but only from the account that created
 4. Click **Refund**.
 5. Enter the amount you want to refund to the customer.
 6. Click **Confirm refund**.  
-    The [transaction status](/payment-statuses/) changes to **Initialized**.
-7. [Cancel the refund](/refunds/).  
+    The [transaction status](/docs/payment-statuses/) changes to **Initialized**.
+7. [Cancel the refund](/docs/refund-payments/).  
 
 When the transaction status changes to **Completed**, the refund has been processed correctly. The customer receives the refund in the bank account the transaction was originally paid from the next business day.
 

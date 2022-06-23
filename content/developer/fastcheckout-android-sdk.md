@@ -51,7 +51,7 @@ For how to set up each environment, see the example below.
 
 ### How to install
 
-1. Copy your [site API key](/sites/#site-id-api-key-and-secure-code) to get the SDK from our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-android-sdk).
+1. Copy your [site API key](/docs/sites#site-id-api-key-and-security-code) to get the SDK from our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-android-sdk).
 2. Add the msp-android-sdk-release.aar as an embedded framework into your project. 
 3. Add the msp-android-sdk-release.aar into your library’s /lib folder.
 4. In your build.gradle (Module.app) in the dependencies script, add the following:

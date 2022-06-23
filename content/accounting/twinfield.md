@@ -10,7 +10,7 @@ slug: 'twinfield'
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Twinfield.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
 <br>
 
-You can import MultiSafepay [accountant export](/accounting/reports/accountant-export/) reports (in MT940 format) into [Twinfield](https://taxnl.wolterskluwer.com/). 
+You can import MultiSafepay [accountant export](/docs/accountant-export/) reports (in MT940 format) into [Twinfield](https://taxnl.wolterskluwer.com/). 
 
 # Prerequisites
 You must first provide Twinfield with an additional international bank account number (IBAN). This can be a dummy (placeholder) IBAN.

@@ -10,17 +10,17 @@ Before you start processing real transactions with MultiSafepay, we recommend te
 
 # Credentials
 
-For all payment methods **except** AfterPay, you need your site's test [API key](/sites/#site-id-api-key-and-secure-code).
+For all payment methods **except** AfterPay, you need your site's test [API key](/docs/sites#site-id-api-key-and-security-code).
 
 # How to make a test payment
 
-1. Initiate a payment in your [ready-made integration](/integrations/) or via our API:  
+1. Initiate a payment in your [ready-made integration](/docs/our-integrations/) or via our API:  
 
     <details id="ready-made-integration">
     <summary>Ready-made integration</summary>
     <br>
 
-    - In your <<glossary:backend>>, enter your test site [API key](/sites/#site-id-api-key-and-secure-code).
+    - In your <<glossary:backend>>, enter your test site [API key](/docs/sites#site-id-api-key-and-security-code).
     - Place a test order, and then initiate a transaction with the payment method you are testing. 
 
     </details>
@@ -31,13 +31,13 @@ For all payment methods **except** AfterPay, you need your site's test [API key]
     - [Create an order](https://docs-api.multisafepay.com/reference/createorder) via our API to the test endpoint: `https://testapi.multisafepay.com/v1/json/` 
     - For example requests for specific payment methods, see **Examples**.
         </details>
-2. Enter the [test payment details](/#test-payment-details) for the payment method you are testing, or select a payment scenario.
+2. Enter the [test payment details](/docs/testing#test-payment-details) for the payment method you are testing, or select a payment scenario.
 3. Complete the test payment.
 4. To check the transaction details, sign in to your [test dashboard](https://testmerchant.multisafepay.com/).
 5. Go to **Transactions** > **Transactions overview**.
 6. In the **Transactions overview** list, select the transaction to view the **Transaction details** page. 
 7. To check that you have succesfully connected to our system, under **Offline actions**, check that you've correctly received the **notifyMerchantTrans** action.  
-    For information about errors, see [HTTP errors](/http-errors/).
+    For information about errors, see [HTTP errors](/docs/http-errors/).
 
 :warning: Once your live account is approved, make sure you use the site API key from your **live** account instead of your test account. 
 
@@ -403,7 +403,7 @@ To test refunding an order via the API:
 
 **Test credentials**
 
-- [Site API key](/sites/#site-id-api-key-and-secure-code)
+- [Site API key](/docs/sites#site-id-api-key-and-security-code)
 - [Klarna's test credentials](https://docs.klarna.com/resources/test-environment/)
 
 **Test a Klarna order** 
@@ -447,7 +447,7 @@ You can't test:
 - Receiving successful payment notifications from Klarna
 - Changing the transaction status from **Uncleared** to **Completed**, except for refunds
 
-For more information about integrating Klarna with MultiSafepay, see [Klarna](/klarna/).
+For more information about integrating Klarna with MultiSafepay, see [Klarna](/docs/klarna/).
 
 </details>
 
@@ -560,7 +560,7 @@ To test, follow these steps:
 
 **Testing Apple Pay direct**
 
-See Apple Pay direct integration – [Test your integration](/payment-methods/apple-pay/direct/#test-your-integration).
+See Apple Pay direct integration – [Test your integration](/docs/apple-pay-integration#6-test-your-integration).
 
 </details>
 
@@ -647,7 +647,7 @@ You can process full refunds in your [MultiSafepay test dashboard](https://testm
 
 Partial refunds are not enabled by default. To enable this, email <integration@multisafepay.com>
 
-If you refund a payment in your MultiSafepay test dashboard, the [transaction status](/payment-statuses/) remains **Reserved** or **Initialized** until the refund is manually approved, since there is no settlement with a bank.
+If you refund a payment in your MultiSafepay test dashboard, the [transaction status](/docs/payment-statuses/) remains **Reserved** or **Initialized** until the refund is manually approved, since there is no settlement with a bank.
 
 **Supported payment methods**
 
@@ -735,7 +735,7 @@ You can test refunds for the following methods:
 ---
 
 > ℹ️ See also
-> If you encounter any issues during testing, see [Handling errors](/handling-errors/).
+> If you encounter any issues during testing, see [Handling errors](/docs/errors/).
 
 [block:html]
 {

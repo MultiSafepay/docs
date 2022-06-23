@@ -6,7 +6,7 @@ hidden: false
 slug: 'payment-links'
 parentDoc: 62a74b731c896700e61e9ef5
 ---
-You can manually generate a link to a [payment page](/payment-pages/) to pass to a customer to complete payment. 
+You can manually generate a link to a [payment page](/docs/payment-pages/) to pass to a customer to complete payment. 
 
 # How it works
 
@@ -15,7 +15,7 @@ Use cases include:
 - A customer wants to adjust an existing order and instead of starting over with a new order.
 - You need to create a transaction for a manually generated order.
 - MultiSafepay collects a payment for an amount that doesn't match any order. If you accept the payment, you need to manually generate a payment link and email it to <support@multisafepay.com>
-- A [Bank Transfer](/bank-transfer/) transaction has expired.
+- A [Bank Transfer](/docs/bank-transfer/) transaction has expired.
 
 # Activation
 
@@ -43,7 +43,7 @@ Or via your dashboard:
 **Note:** The order ID for every payment link must be unique.
 7. In the **Description** field, enter a description of the order. 
 8. In the **Link expiration (days)** field, enter the number of days for the link to remain active. Default: 30 days.
-9. To send [Second Chance emails](/second-chance/), select the **Second chance email** check box. 
+9. To send [Second Chance emails](/docs/second-chance/), select the **Second chance email** check box. 
 10. Optionally, enter the customer's:  
     - **First name** and **Last name**
     - **Email address**
@@ -157,7 +157,7 @@ This only applies to certain payment methods:
 
 The customer can open the link to the payment page up to 20 times, after which the link is disabled.
 
-Each attempt creates a new transaction. If the customer completes payment in one of these transactions, the [status](/payments-statuses/) of the other transactions remains **Initialized** until they expire.
+Each attempt creates a new transaction. If the customer completes payment in one of these transactions, the [status](/docs/payments-statuses/) of the other transactions remains **Initialized** until they expire.
 
 ## Payment methods
 

@@ -67,7 +67,7 @@ Add the following elements to your checkout page:
     | customer.country| The customer's country code. Checks the availability of the payment method. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. **Optional**. |
     |customer.locale | The customer's language. Sets the language of the payment component UI. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Supported languages: `EN`, `ES`, `FR`, `IT`, `NL`. **Optional**.|
     | customer.reference| Your unique customer reference. **Required for recurring payments**. |
-    | recurring.model| The [tokenization model](/recurring-payments/). **Required for recurring payments**. |
+    | recurring.model| The [tokenization model](/docs/recurring-payments/). **Required for recurring payments**. |
     | template.settings.embed_mode| A template designed to blend in seamlessly with your ecommerce platform. Format:&nbsp;Boolean. **Optional**. |
 
     </details>
@@ -76,7 +76,7 @@ Add the following elements to your checkout page:
     <summary>How to process recurring payments</summary>
     <br>
 
-    [Recurring payments](/recurring-payments/) lets you store a customer’s payment details as a secure, encrypted token.
+    [Recurring payments](/docs/recurring-payments/) lets you store a customer’s payment details as a secure, encrypted token.
 
     For subsequent payments, customers can select their stored payment details and pay with a single click.
 
@@ -102,7 +102,7 @@ Add the following elements to your checkout page:
 
     Recurring payments are supported for all credit card payments.
 
-    **Note**: For test credit card details, see Test payment details – [Credit and debit cards](/testing/#credit-and-debit-cards).
+    **Note**: For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
 
     To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email <sales@multisafepay.com>
 
@@ -179,7 +179,7 @@ Add the following elements to your checkout page:
     | ---- | ---- |
     |`getErrors`| Returns error details, e.g. error messages or codes|
     |`hasErrors`| Returns a boolean value depending on whether errors have been registered |
-    |`getPaymentData`| Returns a `payment_data` object with a `payload` containing the customer's payment details, used to [create orders](/payment-components/single/step-3/), and the `gateway`.|
+    |`getPaymentData`| Returns a `payment_data` object with a `payload` containing the customer's payment details, used to [create orders](/docs/payment-component-single#step-3-create-an-order), and the `gateway`.|
     |`getOrderData`| Returns an object containing a `payment_data` object and the full order configuration. |
 
     </details>
@@ -259,7 +259,7 @@ See API reference – [Create order](https://docs-api.multisafepay.com/reference
 
 # Step 4: Go live
 
-To test the payment method, use our [Testing](/testing/test-payment-details/).
+To test the payment method, use our [Testing](/docs/testing#test-payment-details).
 
 When you're ready to process real payments, make the following changes:
 

@@ -19,10 +19,10 @@ Read how Bank Transfer can benefit your business on [multisafepay.com](https://w
 | **Countries** | Europe (SEPA area) | 
 | **Currencies** | EUR, CZK, GBP, HUF, PLN <br> (USD **not** supported due to high transaction and currency conversion fees for customers) |
 | **Expiration** | Transactions expire after 60 days. |
-| **Payment components** | [Yes](/payment-components/) |
-| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions) |
-| **Refunds** | [Yes](/refunds/): Full and partial |
-| **Virtual IBANs** | [Yes](/virtual-ibans/) to better manage Bank Transfer payments |
+| **Payment components** | [Yes](/docs/payment-components/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
+| **Virtual IBANs** | [Yes](/docs/virtual-ibans/) to better manage Bank Transfer payments |
 
 # Payment flow
 
@@ -87,11 +87,11 @@ You can activate Bank Transfer yourself in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Bank Transfer direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) |
 <br>
 
 > ℹ️ Testing
-> To test Bank Transfer payments, see [Testing](/testing/#banking-methods).
+> To test Bank Transfer payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---
@@ -141,7 +141,7 @@ To prevent us from emailing the customer, see API reference – [Create order](h
 
 </details>
 
-**Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/ibans/).
+**Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/docs/ibans/).
 
 ### Transfer guidance for customers
 
@@ -182,7 +182,7 @@ Sometimes, the customer's bank has added comments to the transfer.
 The customer made a transfer but did not:
     
 - Place their order with you, **or**
-- Click **Confirm** on the [payment page](/payment-pages/) (redirect orders).  
+- Click **Confirm** on the [payment page](/docs/payment-pages/) (redirect orders).  
 
 This means the transaction was not created successfully in our system.
 
@@ -195,7 +195,7 @@ We then try to match the payment manually. If that fails:
 
 ### Resolving unmatched payments
 
-To create the transaction again, check if a [payment link](/payment-links/) was created: 
+To create the transaction again, check if a [payment link](/docs/payment-links/) was created: 
 
 <details id="payment-link-created">
 <summary>Payment link created</summary>
@@ -212,7 +212,7 @@ To create the transaction again, check if a [payment link](/payment-links/) was 
 <summary>Payment link not created</summary>
 <br>
 
-1. [Generate a link manually](/payment-links/). 
+1. [Generate a link manually](/docs/payment-links/). 
 2. Include in the description the customer's name and the order number (for your records). 
 3. Click **Bank Transfer**.
 4. Add the customer's bank account number (if known) to help us match the payment.
@@ -222,7 +222,7 @@ To create the transaction again, check if a [payment link](/payment-links/) was 
 
 </details>
 
-See this guidance in [Dutch](/ongematchte-bankoverschrijvingen) or [German](/unzugeordneten-banküberweisungen).
+See this guidance in [Dutch](/docs/ongematchte-bankoverschrijvingen) or [German](/docs/unzugeordneten-banküberweisungen).
 
 ## Stock issues
 

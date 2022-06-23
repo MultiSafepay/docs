@@ -16,7 +16,7 @@ This page provides information about processing refunds with MultiSafepay.
 You can process refunds:
 
 - Via our API – [Refund order](https://docs-api.multisafepay.com/reference/refundorder)
-- In most of our [ready-made integrations](/integrations/ready-made/)
+- In most of our [ready-made integrations](/docs/our-integrations/)
 - Via your dashboard
 
 <details id="how-to-refund-via-your-dashboard">
@@ -38,7 +38,7 @@ The status of the refund starts as **reserved**, and changes to **Completed** at
 
 # Pay later refunds 
 
-You can refund [pay later](/pay-later/) orders via:
+You can refund pay later orders via:
 
 - API – [Refund order](https://docs-api.multisafepay.com/reference/refundorder) > Pay later refund
 - Your dashboard
@@ -93,7 +93,7 @@ Make sure you have a PHP interpreter installed.
 
 For instructions and to download, see MultiSafepay GitHub – [Refund script](https://github.com/MultiSafepay/refund-script).
 
-Provide your [site API key](/sites#site-id-api-key-and-security-code) and a .csv file specifying the order ID, amount, and a description of all the transactions in the batch.
+Provide your [site API key](/docs/sites#site-id-api-key-and-security-code) and a .csv file specifying the order ID, amount, and a description of all the transactions in the batch.
 
 </details>
 
@@ -155,7 +155,7 @@ You can process full refunds in your [MultiSafepay test dashboard](https://testm
 
 Partial refunds are not enabled by default. To enable this, email <integration@multisafepay.com>
 
-If you refund a payment in your MultiSafepay test dashboard, the [transaction status](/payment-statuses/) remains **reserved** or **Initialized** until the refund is manually approved, since there is no settlement with a bank.
+If you refund a payment in your MultiSafepay test dashboard, the [transaction status](/docs/payment-statuses/) remains **reserved** or **Initialized** until the refund is manually approved, since there is no settlement with a bank.
 
 Follow these steps:
 

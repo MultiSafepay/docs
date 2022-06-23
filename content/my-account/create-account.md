@@ -26,7 +26,7 @@ Check which type of account best fits your company:
 
 # Test accounts
 
-You may want to start with a test account. This is a free account where you can build and test your integration, explore payment features, and process test transactions. You can then create a live account and [onboard](/onboarding/) to start processing real payments.
+You may want to start with a test account. This is a free account where you can build and test your integration, explore payment features, and process test transactions. You can then create a live account and [onboard](/docs/onboarding/) to start processing real payments.
 
 To create a free test account:
 
@@ -35,7 +35,7 @@ To create a free test account:
 
 # Live accounts
 
-To create and [onboard](/onboarding/) a live account and start processing real payments, follow these steps: 
+To create and [onboard](/docs/onboarding/) a live account and start processing real payments, follow these steps: 
 
 1. Fill out the relevant signup form: 
 
@@ -53,7 +53,7 @@ To create and [onboard](/onboarding/) a live account and start processing real p
 
 3. Live accounts open by default to the onboarding steps page. You can navigate away from this page, and return to it via the button under **Alert**.
 
-4. For partner/primary accounts, an account manager contacts you to confirm the appropriate account structure for your needs, and guide you through the [onboarding process](/onboarding/).  
+4. For partner/primary accounts, an account manager contacts you to confirm the appropriate account structure for your needs, and guide you through the [onboarding process](/docs/onboarding/).  
 
     For any questions, email <support@multisafepay.com>
 
@@ -64,7 +64,7 @@ You can sign up for a MultiSafepay account while still using another PSP without
 A test account lets you process test payments and gives access to all features. MultiSafepay only starts charging monthly fees when you onboard, go live, and begin processing real payments. 
 
 ## Transferring tokens
-In collaboration with your current PSP, we can securely transfer tokenized credit card details. This is especially useful if you process [recurring payments](/recurring-payments/) or want to offer existing customers the option of reusing their credit card details.
+In collaboration with your current PSP, we can securely transfer tokenized credit card details. This is especially useful if you process [recurring payments](/docs/recurring-payments/) or want to offer existing customers the option of reusing their credit card details.
 <br>
 
 [block:html]

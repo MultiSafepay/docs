@@ -7,14 +7,14 @@ parentDoc: 62a727569e389a012f577acd
 excerpt: Handle sensitive cardholder data on your PCI DSS compliant server.
 slug: 'cardholder-data'
 ---
-When you accept credit and debit card payments using a [payment page](/payment-pages/) or [payment component](/payment-components/), MultiSafepay handles the sensitive cardholder data, including:
+When you accept credit and debit card payments using a [payment page](/docs/payment-pages/) or [payment component](/docs/payment-components/), MultiSafepay handles the sensitive cardholder data, including:
 
 - Primary account number (PAN)
 - Cardholder name
 - Service code
 - Expiry date
 
-We bear the risk and responsibility for [PCI DSS compliance](/pci-dss/). 
+We bear the risk and responsibility for [PCI DSS compliance](/docs/pci-dss/). 
 
 Alternatively, you can collect cardholder data through other means. Because you will then handle sensitive data on your own server before sending it to MultiSafepay, you must also have PCI DSS certification. 
 
@@ -51,7 +51,7 @@ You must provide us with your:
 
 ## Payment methods 
 
-The table below sets out supported payment methods and their respective [3D Secure](/3ds2/) authentication requirements:
+The table below sets out supported payment methods and their respective [3D Secure](/docs/3ds2/) authentication requirements:
 
 | Card | Authentication protocol |
 |---|---|

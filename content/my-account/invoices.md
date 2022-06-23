@@ -26,7 +26,7 @@ For payment methods where MultiSafepay:
 | Type of fee | When charged |
 |---|---|
 | Bank fees | At month end |
-| [Interchange++](/interchange/) | At month end |
+| [Interchange++](/docs/interchange/) | At month end |
 | Payout fees | During processing |
 | Refund fees <br> (Separated into collecting and non-collecting orders) | During processing |
 | Transaction fees | During processing |
@@ -48,7 +48,7 @@ To view VAT invoices in your [MultiSafepay dashboard](https://merchant.multisafe
 
 Partner account holders receive invoices for total monthly:
 
-- [Payout](/payouts/) fees (0,50 EUR per payout)
+- [Payout](/docs/payouts/) fees (0,50 EUR per payout)
 - Commission fees from affiliated merchants
 - VAT (21%) – This amount is refunded to your balance
 

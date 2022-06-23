@@ -17,13 +17,13 @@ Read how Apple Pay can benefit your business on [multisafepay.com](https://www.m
 
 | Overview | Details |
 |---|---|
-| **Chargebacks**   | [Yes](/chargebacks/) | 
+| **Chargebacks**   | [Yes](/docs/chargebacks/) | 
 | **Countries**  | [Worldwide](https://support.apple.com/en-us/HT207957)  | 
 | **Currencies**  | [Multiple](https://support.apple.com/en-us/HT207957)  | 
 | **Expiration** | Transactions expire after 1 hour. |
-| **Payment pages** | [Yes](/payment-pages/) (current version only)  |
-| **Refunds** | [Yes](/refunds/): Full and partial <br> Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only)  |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial <br> Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 <br>
 
 > ℹ️ More information 
@@ -50,11 +50,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | Description | Order | Transaction |
 |---|---|---|
 | The customer has been redirected for 3D Secure authentication, or the <<glossary:card scheme>> is authorizing the transaction. | Initialized | Initialized |
-| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/uncaptured/). | Uncleared | Uncleared |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/docs/uncaptured/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
 | The customer didn't complete 3D Secure authentication. | Expired | Expired |
-| The customer failed 3D Secure authentication or cancelled payment. <br> See [Card errors](/card-errors/). | Declined | Declined   |
+| The customer failed 3D Secure authentication or cancelled payment. <br> See [Card errors](/docs/card-errors/). | Declined | Declined   |
 
 </details>
 
@@ -106,15 +106,15 @@ First, apply to MultiSafepay and then activate Apple Pay in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order |
-| **Ready-made integrations** | Apple Pay redirect is supported in all [ready-made integrations](/integrations/ready-made/), **except** OsCommerce, VirtueMart, X-Cart, Zen Cart. |
-| **Self-made integration** | - [Direct integration](/apple-pay-integration/#direct-integration) <br> - [Redirect integration](/apple-pay-integration/#redirect-integration) |
+| **Ready-made integrations** | Apple Pay redirect is supported in all [ready-made integrations](/docs/our-integrations/), **except** OsCommerce, VirtueMart, X-Cart, Zen Cart. |
+| **Self-made integration** | - [Direct integration](/docs/apple-pay-integration#direct-integration) <br> - [Redirect integration](/docs/apple-pay-integration#redirect-integration) |
 <br>
 
 > **Note** 
 > When integrating Apple Pay into your website, you must follow Apple's [branding guidelines](https://developer.apple.com/apple-pay/marketing).
 
 > ℹ️ Testing
-> To test Apple Pay payments, see [Testing](/testing/#wallets).
+> To test Apple Pay payments, see [Testing](/docs/testing#wallets).
 <br>
 
 ---
@@ -129,7 +129,7 @@ American Express, Maestro, Mastercard, and Visa <<glossary:gateways>> are suppor
 
 For most of our ready-made integrations, if the customer uses an incompatible device, Apple Pay doesn't appear on the checkout page. 
 
-For our [OpenCart plugin](/opencart/), Apple Pay does appear on the checkout page on incompatible devices, but throws an error when clicked and the payment button is disabled.
+For our [OpenCart plugin](/docs/opencart/), Apple Pay does appear on the checkout page on incompatible devices, but throws an error when clicked and the payment button is disabled.
 <br>
 
 ---

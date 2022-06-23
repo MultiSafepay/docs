@@ -13,7 +13,7 @@ Mail Order/Telephone Order (MOTO) is a MultiSafepay solution that lets you proce
 
 The customer provides their card details to you over the phone or by email. 
 
-Since MOTO skips [3D Secure](/3ds2/) authentication, you bear the increased risk of fraud. To help ensure the customer is the cardholder, ask them to provide as much identifying information as possible, e.g.:
+Since MOTO skips [3D Secure](/docs/3ds2/) authentication, you bear the increased risk of fraud. To help ensure the customer is the cardholder, ask them to provide as much identifying information as possible, e.g.:
 
 - Full name
 - Address

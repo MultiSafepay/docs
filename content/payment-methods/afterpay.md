@@ -19,8 +19,8 @@ Read how AfterPay can benefit your business on [multisafepay.com](https://www.mu
 | **Countries**  | The Netherlands, Belgium  | 
 | **Currencies**  | EUR  | 
 | **Expiration** | Transactions expire after 90 days. |
-| **Payment pages** | [Yes](/payment-pages/) (current version only) <br> Activate at website level in your dashboard. |
-| **Refunds** | [Yes](/refunds/): Full, partial, and API refunds, and [discounts](/discounts/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) <br> Activate at website level in your dashboard. |
+| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds, and [discounts](/discounts/) |
 
 # Payment flow
 
@@ -84,11 +84,11 @@ You need to contact AfterPay to activate it for your account.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > AfterPay direct/redirect |
-| **Ready-made integrations** | AfterPay is supported in [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 8](/drupal/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [Odoo](/odoo/), [OpenCart](/opencart/), [PrestaShop 1.6 and 1.7](/prestashop/), [Shopware 5](/shopware-5/), [Shopware 6](/shopware-6/), [WooCommerce](/woo-commerce/), [X-Cart](/x-cart/). |
+| **Ready-made integrations** | AfterPay is supported in [Craft Commerce](/docs/craft-commerce/), [CS-Cart](/docs/cs-cart/), [Drupal 8](/docs/drupal/), [Magento 1](/docs/magento-1/), [Magento 2](/docs/magento-2/), [Odoo](/docs/odoo/), [OpenCart](/docs/opencart/), [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/), [Shopware 5 and 6](/docs/shopware/), [WooCommerce](/docs/woo-commerce/), [X-Cart](/docs/x-cart/). |
 <br>
 
 > ℹ️ Testing
-> To test AfterPay payments, see [Testing](/testing/#pay-later-methods).
+> To test AfterPay payments, see [Testing](/docs/testing#pay-later-methods).
 <br>
 
 ---
@@ -115,7 +115,7 @@ You are solely responsible for this in your integration.
 
 ## Shipment
 
-When you ship the order, you **must** manually change the [order status](/payment-statuses/) from **Completed** to **Shipped** to:
+When you ship the order, you **must** manually change the [order status](/docs/payment-statuses/) from **Completed** to **Shipped** to:
 
 - Capture the funds
 - Trigger sending the invoice to the customer
@@ -136,7 +136,7 @@ When you ship the order, you **must** manually change the [order status](/paymen
 
 **In your backend**
 
-If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
+If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/docs/our-integrations/) pass the updated status to your dashboard automatically:
 
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **Delivered** in your backend.
@@ -148,7 +148,7 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 </details>
 
 ## Surcharges  
-Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
+Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
 AfterPay therefore strongly recommends discontinuing any surcharges. 
 

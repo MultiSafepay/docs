@@ -58,7 +58,7 @@ The latest stable release is downloaded and installed in your Craft Commerce web
 
 ## Generic gateways
 
-The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). You can use them to integrate custom gift cards, or co-branded credit cards. 
+The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
 
 <details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
@@ -77,10 +77,10 @@ The plugin supports generic gateways, which redirect customers from your checkou
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/), **except** Postepay and V Pay
-- Banking methods: [All](/payment-methods/banks/)
-- Pay later methods: [All](/payment-methods/pay-later/)
-- Wallets: [Alipay](/payment-methods/alipay), [PayPal](/payment-methods/paypal)
+- Cards: [All](/docs/cards/), **except** Postepay and V Pay
+- Banking methods: All
+- Pay later methods: All
+- Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/payment-methods/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
@@ -105,9 +105,9 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 | | |
 |---|---|
-| MultiSafepay dashboard | - [Full and partial refunds](/refunds/) <br> - Generic gateway transactions |
+| MultiSafepay dashboard | - [Full and partial refunds](/docs/refund-payments/) <br> - Generic gateway transactions |
 | Backend | - Full and partial refunds <br> - You can't refund more than the original amount in your backend <br> - Generic gateway transactions **not** supported |
-| API | - [Refund order](https://docs-api.multisafepay.com/reference/refundorder) <br> - [Pay later refunds](/payment-methods/pay-later) **not** supported <br> - Discounts **not** supported |
+| API | - [Refund order](https://docs-api.multisafepay.com/reference/refundorder) <br> - [Pay later refunds](/docs/refund-payments#pay-later-refunds) **not** supported <br> - Discounts **not** supported |
 
 <details id="processing-backend-refunds">
 <summary>Processing backend refunds</summary>

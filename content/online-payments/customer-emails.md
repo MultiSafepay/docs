@@ -21,25 +21,25 @@ MultiSafepay can help you manage your email communications with customers. Use o
     <br>
 
     **Bank Transfer details email (to customer)**  
-    For sending customers MultiSafepay's bank details when they select [Bank Transfer](/bank-transfer) as payment method and you send a [`redirect`](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect) transaction request. 
+    For sending customers MultiSafepay's bank details when they select [Bank Transfer](/docs/bank-transfer/) as payment method and you send a [`redirect`](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect) transaction request. 
 
     **Chargeback email (to merchant)**  
-    For notifying you when a customer requests a [chargeback](/chargebacks/) (recommended if you accept credit card payments).
+    For notifying you when a customer requests a [chargeback](/docs/chargebacks/) (recommended if you accept credit card payments).
 
     Make sure you add one or more email addresses to send these emails to in your MultiSafepay dashboard, under 
     **Contact information** > **Chargeback email**. 
 
     **Manual Capture reservation completed (to customer)**  
-    For notifying customers that you have manually captured reserved funds for an [uncaptured transaction](/uncaptured/). 
+    For notifying customers that you have manually captured reserved funds for an [uncaptured transaction](/docs/uncaptured/). 
 
     **Manual Capture reservation completed (to merchant)**  
-    For confirming that you have manually captured reserved funds for an [uncaptured transaction](/uncaptured/).  
+    For confirming that you have manually captured reserved funds for an [uncaptured transaction](/docs/uncaptured/).  
 
     **Partial and/or full capture completed (to customer)**  
-    For notifying customers that you have partially or fully captured reserved funds for an [uncaptured transaction](/uncaptured/). 
+    For notifying customers that you have partially or fully captured reserved funds for an [uncaptured transaction](/docs/uncaptured/). 
 
     **Partial and/or full capture completed (to merchant)**  
-    For confirming that you have partially or fully captured reserved funds for an [uncaptured transaction](/uncaptured/).
+    For confirming that you have partially or fully captured reserved funds for an [uncaptured transaction](/docs/uncaptured/).
 
     **Refund complete email (to customer)**  
     For notifying customers that you have processed their refund. 
@@ -47,7 +47,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
     **Second Chance email (to customer)**  
     For sending customers a friendly reminder to complete a payment. 
 
-    Make sure you have enabled [Second Chance](/second-chance/) in your MultiSafepay dashboard.
+    Make sure you have enabled [Second Chance](/docs/second-chance/) in your MultiSafepay dashboard.
 
     **Transaction completed email (to customer)**  
     For sending payment confirmation to customers. 
@@ -135,7 +135,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
     | MERCHANTPHONESUPPORT          | Your customer service phone number |
     | MERCHANTSUPPORT EMAIL         | Your customer service email address |
     | MERCHANTTRANSACTIONID         | Your reference number |
-    | PAYLINK                       | Link to the [payment page](/payment-pages/) for this transaction |
+    | PAYLINK                       | Link to the [payment page](/docs/payment-pages/) for this transaction |
     | PAYMENTMETHOD                 | Payment method used for this transaction |
     | PHONE                         | Your company phone number given in your MultiSafepay account |
     | REFUNDDESTINATION             | Bank account number to receive the refund |

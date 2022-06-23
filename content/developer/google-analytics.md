@@ -7,7 +7,7 @@ slug: 'google-analytics'
 ---
 # Tracking payment pages
 
-You can gain insight into customer behavior on [payment pages](/payment-pages/) through Google Analytics tracking.
+You can gain insight into customer behavior on [payment pages](/docs/payment-pages/) through Google Analytics tracking.
 
 When the customer reaches the payment page, the UA-code is generated and appears in the HTML.
 

@@ -25,7 +25,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/docs/getting-started-guide/)
 - Wordpress 5.0
 - PHP 7.2
 
@@ -55,7 +55,7 @@ There are two ways to install the plugin:
 ## How to configure
 1. Sign in to your WooCommerce backend.
 2. Go to **WooCommerce** > **MultiSafepay settings**
-3. On the **Account** tab, enter your [API key](/sites/#site-id-api-key-and-secure-code).
+3. On the **Account** tab, enter your [API key](/docs/sites#site-id-api-key-and-security-code).
 4. On the **Order status** tab, confirm the match between WooCommerce order statuses and MultiSafepay order statuses, and then click **Save changes**.
 4. On the **Options** tab, confirm your settings, and then click **Save changes**.
 5. On the **WooCommerce** > **Settings** > **Payments**. Enable the relevant payment methods and confirm the settings.
@@ -64,7 +64,7 @@ There are two ways to install the plugin:
 
 ## Generic gateways
 
-The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). You can use them to integrate custom gift cards, or co-branded credit cards. 
+The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
 
 <details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
@@ -73,7 +73,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 1. Sign in to your backend.
 2. Go to **Settings** > **Payments** tab > **Generic gateway**.
 3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids), and the gateway logo and label.
-4. For [pay later](/pay-later/) methods, include the shopping cart in refunds.
+4. For pay later methods, include the shopping cart in refunds.
 
 Generic gateways support:
 
@@ -184,11 +184,11 @@ function return_my_own_locale( \MultiSafepay\Api\Transactions\OrderRequest $orde
 
 ## Payment components
 
-The plugin supports [payment components](/payment-components/), which:
+The plugin supports [payment components](/docs/payment-components/), which:
 
 - Provide a seamless checkout experience to increase <<glossary:conversion>>.
 - Encrypt customer payment details for secure processing.
-- Shift responsibility for [PCI DSS compliance](/payment-regulations/pci-dss) to MultiSafepay.
+- Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
 
 <details id="activating-payment-components">
 <summary>Activating payment components</summary>
@@ -230,10 +230,10 @@ To generate a payment link in your backend once an order is created, follow thes
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/) (The credit card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
-- Banking methods: [All](/banks/), except TrustPay
-- Pay later methods: [All](/pay-later/)
-- Wallets: [Alipay](/alipay), [Apple Pay](/apple-pay), [PayPal](/paypal)
+- Cards: [All](/docs/cards/) (The credit card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
+- Banking methods: All, except TrustPay
+- Pay later methods: All
+- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Baby Cadeaubon
     - Beauty and Wellness gift card
@@ -246,7 +246,7 @@ To generate a payment link in your backend once an order is created, follow thes
     - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
     - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/paysafecard)
+    - [Paysafecard](/docs/paysafecard/)
     - [Podium](https://www.podiumcadeaukaart.nl)
     - [Sport en Fit](https://www.sportenfitcadeau.nl)
     - [VVV gift card](https://www.vvvcadeaukaarten.nl)
@@ -260,24 +260,24 @@ To generate a payment link in your backend once an order is created, follow thes
 
 ## Recurring payments
 
-You need to [enable recurring payments](/recurring-payments/) in your MultiSafepay dashboard and then in the plugin settings.
+You need to [enable recurring payments](/docs/recurring-payments/) in your MultiSafepay dashboard and then in the plugin settings.
 
 ## Refunds
 
-You can process [Full and partial refunds](/refunds/) for all payment methods, **except** [pay later methods](/payment-methods/pay-later) for which you can only process full refunds.
+You can process [Full and partial refunds](/docs/refund-payments/) for all payment methods, **except** pay later methods for which you can only process full refunds.
 
 ## Shipping orders
 
-For [pay later](/pay-later/) orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+For pay later orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you change the order status to **Shipped** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
 ## Surcharges
 
-You can apply [surcharges](/surcharges/) in the plugin when combined with a relevant third-party package. 
+You can apply [surcharges](/docs/surcharges/) in the plugin when combined with a relevant third-party package. 
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 <details id="applying-surcharges-with-third-party-packages">
 <summary>Applying surcharges with third-party packages</summary>

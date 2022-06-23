@@ -15,16 +15,16 @@ Read how Bancontact can benefit your business on [multisafepay.com](https://www.
 
 | Overview | Details |   
 |---|---|
-| **3D Secure 2.0** | [Yes](/3ds2/) (all non-mobile payments) |
+| **3D Secure 2.0** | [Yes](/docs/3ds2/) (all non-mobile payments) |
 | **Chargebacks**  | No | 
 | **Countries**  | Belgium  | 
 | **Currencies**  | EUR | 
 | **Expiration** | Transactions expire after 1 hour (banking only).  |
-| **Payment components** | [Yes](/payment-components/) |
-| **Payment pages** | [Yes](/payment-pages/) (Current (banking and QR) and deprecated (banking) versions |
-| **Recurring payments**  | [Yes](/recurring-payments/) (banking only) |
-| **Refunds** | [Yes](/refunds/): Full and partial |
-| **Second Chance** | [Yes](/second-chance/) | 
+| **Payment components** | [Yes](/docs/payment-components/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (Current (banking and QR) and deprecated (banking) versions |
+| **Recurring payments**  | [Yes](/docs/recurring-payments/) (banking only) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
+| **Second Chance** | [Yes](/docs/second-chance/) | 
 
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
@@ -89,11 +89,11 @@ You can activate Bancontact yourself in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Bancontact redirect/QR |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/). |
 <br>
 
 > ℹ️ Testing
-> To test Bancontact payments, see [Testing](/testing/#banking-methods).
+> To test Bancontact payments, see [Testing](/docs/testing/#banking-methods).
 <br>
 
 ---
@@ -107,9 +107,9 @@ Bancontact WIP is a wallet initiated payment service you can use for:
 
 ## How it works
 
-Bancontact Payconiq gives you access to a merchant wallet to securely store customers' payment details in. Customers give one-time consent and only need to pass [strong customer authentication](/pds2/) (SCA) for their first purchase. 
+Bancontact Payconiq gives you access to a merchant wallet to securely store customers' payment details in. Customers give one-time consent and only need to pass [strong customer authentication](/docs/pds2/) (SCA) for their first purchase. 
 
-There is no shift in liability for [chargebacks](/chargebacks/) from <<glossary:issuer>> to <<glossary:acquirer>> since your fraud and disputes volumes are monitored quarterly. A maximum transaction amount applies. 
+There is no shift in liability for [chargebacks](/docs/chargebacks/) from <<glossary:issuer>> to <<glossary:acquirer>> since your fraud and disputes volumes are monitored quarterly. A maximum transaction amount applies. 
 
 ## Activation and criteria
 
@@ -125,7 +125,7 @@ Requests are screened and approved by Bancontact Payconiq.
 
 ## Integration
 
-See [Recurring payments](/recurring-payments/).
+See [Recurring payments](/docs/recurring-payments/).
 <br>
 
 ---

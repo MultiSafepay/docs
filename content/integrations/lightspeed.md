@@ -12,7 +12,7 @@ slug: 'lightspeed'
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://lightspeed.multisafepay.com/changelog" target="_self"><span>Changelog</span></a>
 
-:warning: We recommend [upgrading to the latest version](/lightspeed/#upgrading-to-the-new-app) as soon as possible.
+:warning: We recommend [upgrading to the latest version](/docs/lightspeed#upgrades) as soon as possible.
 
 This technical manual is for installing and configuring MultiSafepay's free app for integrating with Lightspeed.  
 
@@ -20,7 +20,7 @@ This technical manual is for installing and configuring MultiSafepay's free app 
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/docs/getting-started-guide/)
 - A MultiSafepay [API key](/tools/multisafepay-control/get-your-api-key)
 - The app only supports one account per webshop
 
@@ -37,7 +37,7 @@ This technical manual is for installing and configuring MultiSafepay's free app 
 5. In the dialog, approve the permissions required for the app.  
    You are redirected to Lightspeed – [MultiSafepay: How to log in](https://lightspeed.multisafepay.com/install).
 6. In the **Setup** page:  
-    - Enter your email address, [account ID and site API key](/sites/#site-id-api-key-and-secure-code).
+    - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
     - Select **Test** or **Live** environment, and click **Save and continue**.  
 You are redirected to the **Settings** page.
 7. We recommend enabling:
@@ -53,7 +53,7 @@ You are redirected to the **Settings** page.
 <summary>Changing API keys and environments</summary>
 <br>
 
-To change your [API key](/sites/#site-id-api-key-and-secure-code) or environment (live or test) after installation, follow these steps:
+To change your [API key](/docs/sites#site-id-api-key-and-security-code) or environment (live or test) after installation, follow these steps:
 
 1. Sign in to the app.
 2. Tap the hamburger menu and go to **Environment**.
@@ -137,7 +137,7 @@ If no specific rule is set for a language, **Default** language is used.
 
 ## Payment links
 
-When you generate a payment link in your MultiSafepay dashboard, you cannot update the [transaction status](/payments/payment-statuses/) or link it to a transaction in Lightspeed via our app. This is by design in Lightspeed. 
+When you generate a payment link in your MultiSafepay dashboard, you cannot update the [transaction status](/docs/payment-statuses/) or link it to a transaction in Lightspeed via our app. This is by design in Lightspeed. 
 
 ## Payment methods
 
@@ -145,10 +145,10 @@ When you generate a payment link in your MultiSafepay dashboard, you cannot upda
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/)
-- Banking methods: [All](/banks/), **except** iDEAL QR and TrustPay
-- Pay later methods: [All](/pay-later/)
-- Wallets: [All](/wallets/) 
+- Cards: [All](/docs/cards/)
+- Banking methods: All, **except** iDEAL QR and TrustPay
+- Pay later methods: All
+- Wallets: All
 - Prepaid cards: 
     - Baby gift card
     - Beauty and Wellness gift card
@@ -288,13 +288,13 @@ After terminating your contract with MultiSafepay, our payment methods may still
 
 ## Payment reminders
 
-The Lightspeed app doesn't support [Second Chance](/second-chance/) emails because Lightspeed orders expire after 12 hours. 
+The Lightspeed app doesn't support [Second Chance](/docs/second-chance/) emails because Lightspeed orders expire after 12 hours. 
 
 Lightspeed offers a functionality that lets you configure payment reminders and emails for orders with **Pending** status. For more information and instructions, see Lightspeed - [Configuring payment reminders](https://ecom-support.lightspeedhq.com/hc/en-us/articles/220661507-Configuring-payment-reminders)
 
 ## Refunds
 
-[Full and partial refunds](/refunds/) and credit notes are supported in your MultiSafepay dashboard and backend.  
+[Full and partial refunds](/docs/refund-payments/) and credit notes are supported in your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.
 
 <details id="enabling-refunds-in-your-backend">
@@ -322,7 +322,7 @@ You can't refund more than the original amount in your backend.
 
 - Refunds created in your MultiSafepay dashboard are not reported back to Lightspeed. Under **Offline actions**, an error appears: "Already a completed transaction".
 
-- Some [pay later](/pay-later/) methods:
+- Some pay later methods:
     - Require product IDs for each refunded item. When using product variants, make sure each variant has a unique identifier. If you provide duplicate IDs, we cannot distinguish which items to refund.
     - Do not let you refund a partial amount and a full item in a single request, e.g. a shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
 
@@ -364,7 +364,7 @@ Lightspeed single sign-on lets you sign in to the app's **Settings** directly fr
 5. Click **Save**.
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 </details>
 
@@ -382,9 +382,9 @@ You don't need to manually update the app.
 
 To upgrade from our deprecated core integration to the Lightspeed app, follow these steps:
 
-1. In the [Lightspeed app manual](/lightspeed/#installation), follow the steps to install the app.
+1. In the [Lightspeed app manual](/docs/lightspeed#how-to-install), follow the steps to install the app.
 2. Place a test order to make sure it's working properly.
-3. Open the core integration, and then [disable the payment provider](/lightspeed-app/upgrading/#disabling-the-core-integration).
+3. Open the core integration, and then [disable the payment provider](/docs/lightspeed#how-to-disable-core-integration).
 
 To access the MultiSafepay Payments app **Settings** page:
 

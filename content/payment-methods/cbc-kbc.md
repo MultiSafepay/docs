@@ -21,9 +21,9 @@ Read how CBC/KBC can benefit your business on [multisafepay.com](https://www.mul
 | **Countries**  | Belgium  | 
 | **Currencies**  | EUR | 
 | **Expiration** | Transactions expire after 5 days. |
-| **Payment pages** | [Yes](/payment-pages/) (current version only) |
-| **Refunds** | [Yes](/refunds/): Full and partial (1 business day after payment is completed) |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial (1 business day after payment is completed) |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
@@ -93,11 +93,11 @@ You can activate CBC/KBC in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > CBC/KBC direct/redirect |
-| **Ready-made integrations** | [Craft Commerce](/craft-commerce/), [OpenCart](/opencart/), [Magento 1](/magento-1/), [Magento 2](/magento-2/), [PrestaShop 1.6 and 1.7](/prestashop/), [Shopware 5 and 6](/shopware/), [WooCommerce](/woo-commerce/) |
+| **Ready-made integrations** | [Craft Commerce](/docs/craft-commerce/), [OpenCart](/docs/opencart/), [Magento 1](/docs/magento-1/), [Magento 2](/docs/magento-2/), [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/), [Shopware 5 and 6](/docs/shopware/), [WooCommerce](/docs/woo-commerce/) |
 <br>
 
 > ℹ️ Testing
-> To test CBC/KBC payments, see [Testing](/testing/#banking-methods).
+> To test CBC/KBC payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---
