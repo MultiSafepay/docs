@@ -27,7 +27,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/docs/getting-started-guide/)
 - Drupal 8.9 and above or Drupal 9.x
 - Tested on PHP 7.2
 - Drupal Commerce 2.x
@@ -51,7 +51,7 @@ composer require drupal/commerce_multisafepay_payments
 ## How to configure  
 1. Sign in to your Drupal backend.
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
-3. Enter your [account ID, site ID, and site API key](/sites/#site-id-api-key-and-secure-code). 
+3. Enter your [account ID, site ID, and site API key](/docs/sites#site-id-api-key-and-security-code). 
 4. Go to **Commerce** > **Configuration** > **Payments** > **Payment gateways**.
 5. Configure the options for all supported payment methods activated in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 
@@ -59,7 +59,7 @@ composer require drupal/commerce_multisafepay_payments
 
 ### Generic gateways
 
-The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
+The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
 
 <details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
@@ -77,10 +77,10 @@ The plugin supports generic gateways, which redirect customers from your checkou
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/)
-- Banking methods: [All](/banks/)
-- Pay later methods: [All](/pay-later/), **except** in3
-- Wallets: [Alipay](/alipay), [Apple Pay](/apple-pay), [PayPal](/paypal)
+- Cards: [All](/docs/cards/)
+- Banking methods: All
+- Pay later methods: All, **except** in3
+- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
@@ -90,7 +90,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
     - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
     - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/paysafecard)
+    - [Paysafecard](/docs/paysafecard/)
     - [Podium](https://www.podiumcadeaukaart.nl)
     - [Sport en Fit](https://www.sportenfitcadeau.nl)
     - [VVV gift card](https://www.vvvcadeaukaarten.nl)
@@ -104,7 +104,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 ### Refunds
 
-[Full refunds](/refunds/#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backend.  
+[Full refunds](/docs/refund-payments#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.
 
 ### Updates
@@ -150,7 +150,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/docs/getting-started-guide/)
 - Drupal 7.x
 - Tested on PHP 7.0
 
@@ -173,7 +173,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
     - MultiSafepay order paid in full: Order state to `processing`  
 This rule sets the order to `processing` when the order is paid in full.  
     - MultiSafepay order complete: Shipped at MultiSafepay  
-This rule updates the [transaction status](/payment-statuses/) to **Shipped** at MultiSafepay. For Pay After Delivery, Klarna, and E-Invoicing, this triggers the invoicing process.
+This rule updates the [transaction status](/docs/payment-statuses/) to **Shipped** at MultiSafepay. For Pay After Delivery, Klarna, and E-Invoicing, this triggers the invoicing process.
 
 ## User guide
 
@@ -183,17 +183,17 @@ This rule updates the [transaction status](/payment-statuses/) to **Shipped** at
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/)
-- Banking methods: [All](/banks/), **except** iDEAL QR and Trustly
-- Pay later methods: [E-Invoicing](/e-invoicing), [Klarna](/klarna), [Pay After Delivery](/pay-after-delivery)
-- Wallets: [Alipay](/alipay), [Apple Pay](/applepay), [PayPal](/paypal)
+- Cards: [All](/docs/cards/)
+- Banking methods: All, **except** iDEAL QR and Trustly
+- Pay later methods: [E-Invoicing](/docs/e-invoicing/), [Klarna](/docs/klarna/), [Pay After Delivery](/docs/pay-after-delivery/)
+- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards: 
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
     - [Fashioncheque](https://www.fashioncheque.com/nl)
     - [Fashion gift card](https://www.fashion-giftcard.nl)
     - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/paysafecard)
+    - [Paysafecard](/docs/paysafecard/)
     - Wijn cadeau
     - [Yourgift](https://www.yourgift.nl)
 
@@ -201,7 +201,7 @@ This rule updates the [transaction status](/payment-statuses/) to **Shipped** at
 
 ### Refunds
 
-[Full refunds](/refunds/#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backed.  
+[Full refunds](/docs/refund-payments#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backed.  
 Refunding more than the original amount is **not** supported in your backend.
 
 ### Updates

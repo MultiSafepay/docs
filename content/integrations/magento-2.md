@@ -17,7 +17,7 @@ slug: 'magento-2'
 
 </div>
 
-:warning: If you are still using the deprecated plugin, we recommend [upgrading to the latest version](/magento-2/#upgrading) as soon as possible.
+:warning: If you are still using the deprecated plugin, we recommend [upgrading to the latest version](/docs/magento-2#upgrades) as soon as possible.
 
 This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Magento 2.
 
@@ -27,7 +27,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/docs/getting-started-guide/)
 - Magento Open Source version 2.3.x & 2.4.x **or** Adobe Commerce version 2.3.x & 2.4.x (For GraphQL, only Magento Open Source versions 2.4.x are supported)
 - PHP 7.1+
 
@@ -105,12 +105,12 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 - **General information:** Contains all the main support information. We recommend reading this first.
 - **General settings:** Contains all main settings.  
   - Here you can configure all <<glossary:gateways>> and gift cards.  
-  - Enter your [account ID, site ID, site secure code](/sites/#site-id-api-key-and-secure-code).   
+  - Enter your [account ID, site ID, site secure code](/docs/sites#site-id-api-key-and-security-code).   
 - **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
     - Make sure you have activated your selected payment methods in your MultiSafepay dashboard.
 - **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  
     - Make sure you have activated your selected gift cards in your MultiSafepay dashboard.  
-    - For more information, see [Gift cards](/gift-cards).
+    - For more information, see [Gift cards](/docs/gift-cards/).
 
 </details>
 
@@ -162,7 +162,7 @@ The base values are required if you have enabled the `use base currency` setting
 
 ## Generic gateways
 
-The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
+The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
 
 <details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
@@ -223,7 +223,7 @@ You must:
 <summary>Activating Magento Vault</summary>
 <br>
  
-To activate Magento Vault, email a request to enable [recurring payments](/features/recurring-payments/) to <sales@multisafepay.com>
+To activate Magento Vault, email a request to enable [recurring payments](/docs/recurring-payments/) to <sales@multisafepay.com>
 
 </details>
 
@@ -261,11 +261,11 @@ The order status in Magento 2 changes to **Cancelled** before the payment can be
 
 ## Payment components
 
-The plugin supports [Payment Components](/payment-components/), which:
+The plugin supports [Payment Components](/docs/payment-components/), which:
 
 - Provide a seamless checkout experience to increase <<glossary:conversion>>.
 - Encrypt customer payment details for secure processing.
-- Shift responsibility for [PCI DSS compliance](/payment-regulations/pci-dss/) to MultiSafepay.
+- Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
 
 <details id="activating-the-payment-component-in-your-backend">
 <summary>Activating the payment component in your backend</summary>
@@ -284,7 +284,7 @@ For questions, email <integration@multisafepay.com>
 
 ## Payment links 
 
-From version 2.0 and higher, [payment links](/account/payment-links/) are automatically generated for every order.
+From version 2.0 and higher, [payment links](/docs/payment-links/) are automatically generated for every order.
 
 <details id="getting-payment-links">
 <summary>Getting payment links</summary>
@@ -356,10 +356,10 @@ You cannot add payment links to order confirmation emails created in your **fron
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/)
-- Banking methods: [All](/banks/)
-- Pay later methods: [All](/pay-later/)
-- Wallets: [All](/wallets/)
+- Cards: [All](/docs/cards/)
+- Banking methods: All
+- Pay later methods: All
+- Wallets: All
 - Prepaid cards:
     - Baby gift card
     - Beauty and Wellness gift card
@@ -390,7 +390,7 @@ You cannot add payment links to order confirmation emails created in your **fron
 
 The plugin is compatible with GraphQL queries and can be integrated into PWA stores using an additional [GraphQL support module](https://github.com/MultiSafepay/magento2-graphql).
 
-We also offer full extensions for [ScandiPWA](/scandipwa/) and [Vue Storefront](/vue-storefront/). 
+We also offer full extensions for [ScandiPWA](/docs/scandipwa/) and [Vue Storefront](/docs/vue-storefront/). 
 
 ## Refunds
 
@@ -400,7 +400,7 @@ We also offer full extensions for [ScandiPWA](/scandipwa/) and [Vue Storefront](
 
 |  |   |
 |---|---|
-| MultiSafepay dashboard | - Full and partial refunds <br> - Orders with [Fooman surcharges](/payments/integrations/ecommerce-platforms/magento2/faq/applying-surcharges/) <br> - Orders from the deprecated plugin |
+| MultiSafepay dashboard | - Full and partial refunds <br> - Orders with [Fooman surcharges](/docs/magento-2#surcharges) <br> - Orders from the deprecated plugin |
 | Backend | - Full and partial refunds, and credit memos <br> - You can't refund more than the original amount in your backend |
 | API | - See [Refund order](https://docs-api.multisafepay.com/reference/refundorder) > Pay later refund <br> - PATCH requests **not** supported |
 
@@ -420,11 +420,11 @@ We also offer full extensions for [ScandiPWA](/scandipwa/) and [Vue Storefront](
 
 ## Second Chance
 
-[Second Chance](/second-chance/) emails are sent 1 hour and 24 hours after orders are created. By default, the order status changes from **Pending payment** to **Cancelled** after 8 hours (480 minutes).
+[Second Chance](/docs/second-chance/) emails are sent 1 hour and 24 hours after orders are created. By default, the order status changes from **Pending payment** to **Cancelled** after 8 hours (480 minutes).
 
 If the customer pays via the **second** email (24 hours later), the payment is processed but the transaction update may not be handled correctly in Magento 2 because the order has expired. This may cause issues with external services, e.g. ERP/inventory management, if items are low in stock, or for one-off products like antiques.
 
-To avoid this, match the order lifetime to the [payment link](/account/payment-links/) lifetime.
+To avoid this, match the order lifetime to the [payment link](/docs/payment-links/) lifetime.
 
 See [Setting order lifetimes](#order-lifetimes) above. 
 
@@ -442,13 +442,13 @@ See [Setting order lifetimes](#order-lifetimes) above.
 
 ## Shipping orders
 
-When you ship [pay later](/pay-later/) orders, you need to change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+When you ship pay later orders, you need to change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you do so in your Magento 2 backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
 ## Surcharges
 
-The plugin does not support [surcharges](/surcharges/), but you can use third-party service Fooman to apply them. 
+The plugin does not support [surcharges](/docs/surcharges/), but you can use third-party service Fooman to apply them. 
 
 <details id="using-fooman-for-surcharges">
 <summary>Using Fooman for surcharges</summary>
@@ -462,7 +462,7 @@ You can refund orders with a Fooman surcharge applied in your MultiSafepay dashb
 
 **Pay later methods**
 
-For Dutch merchants, We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). 
+For Dutch merchants, We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). 
 
 **Support**
 
@@ -544,7 +544,7 @@ We support most Magento functionalities. For any questions, email <integration@m
 - Documentation for payment methods 
 - Modular setup for greater installation flexibility
 - PWA (GraphQL) endpoints
-- Support for [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html) (replace [recurring payments](/features/recurring-payments/))
+- Support for [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html) (replace [recurring payments](/docs/recurring-payments/))
 
 **Configuration fields**
 

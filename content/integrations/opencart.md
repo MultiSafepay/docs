@@ -27,7 +27,7 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/docs/getting-started-guide/)
 - OpenCart 2.X, 3.X
 - PHP version 7.2, 7.3, or 7.4
 
@@ -46,14 +46,14 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
 8. Go to **Extensions** > **Modifications**, and then click the **Refresh** button.
 9. Go to **Extensions** > **Payments** > **MultiSafepay**, and then click the **Install** button. 
 
-## How to configure
+# How to configure
 1. Sign in to your OpenCart backend and go to **Extensions** > **Extensions** > **Payments** > **MultiSafepay**.
 2. On the **MultiSafepay configuration** page, configure the:  
     - **Payment methods** tab
     - **Order status** tab
     - **Options** tab  
 
-To retrieve your API key, see [Viewing the site ID, API key, and secure code](/sites/#site-id-api-key-and-secure-code).
+To retrieve your API key, see [Viewing the site ID, API key, and secure code](/docs/sites#site-id-api-key-and-security-code).
 
 # User guide
 
@@ -86,7 +86,7 @@ The Integration Team will do their best to provide support for third-party plugi
 
 ## Generic gateways
 
-The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards. 
+The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards. 
 
 <details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
@@ -110,7 +110,7 @@ You can filter payment methods by:
 - Maximum amount
 - Customer groups
 
-Full and partial refunds (except for [pay later](/pay-later/) methods), and backend orders are fully supported. You can also set a custom initial order status.
+Full and partial refunds (except for pay later methods), and backend orders are fully supported. You can also set a custom initial order status.
 
 </details>
 
@@ -148,10 +148,10 @@ The customer receives the payment link in the email sent by OpenCart containing 
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/) 
-- Banking methods: [All](/banks/), except TrustPay
-- Pay later methods: [All](/pay-later/)
-- Wallets: [Alipay](/alipay), [Apple Pay](/apple-pay), [PayPal](/paypal)
+- Cards: [All](/docs/cards/) 
+- Banking methods: All, except TrustPay
+- Pay later methods: All
+- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - [Baby Cadeaubon](https://www.babycadeaubon.nl)
     - Beauty & Wellness
@@ -162,7 +162,7 @@ The customer receives the payment link in the email sent by OpenCart containing 
     - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
     - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/paysafecard)
+    - [Paysafecard](/docs/paysafecard/)
     - [Podium](https://www.podiumcadeaukaart.nl)
     - [Sport en Fit](https://www.sportenfitcadeau.nl)
     - [VVV gift card](https://www.vvvcadeaukaarten.nl)
@@ -176,7 +176,7 @@ The customer receives the payment link in the email sent by OpenCart containing 
 
 ## Refunds
 
-[Full refunds](/refunds/#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backend.  
+[Full refunds](/docs/refund-payments#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.
 
 <details id="processing-backend-refunds">
@@ -199,7 +199,7 @@ As a temporary solution, you can disable payments with shopping carts.
 <summary>Disabling shopping carts</summary>
 <br>
 
-**Alert:** This disables all [pay later methods](/pay-later/).
+**Alert:** This disables all pay later methods.
 
 1. Sign in to your OpenCart backend.
 2. Go to **Extensions** > **Payments** > **MultiSafepay**.
@@ -211,11 +211,11 @@ As a temporary solution, you can disable payments with shopping carts.
 
 ## Surcharges
 
-[Surcharges](/surcharges/) are no longer supported, but you can request a patch.  
+[Surcharges](/docs/surcharges/) are no longer supported, but you can request a patch.  
 Email <integration@multisafepay.com> 
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 
@@ -245,7 +245,7 @@ To update the plugin using the extension installer tool in your OpenCart backend
 
 1. For security, create a backup of your OpenCart application.
 2. Manually remove all files from the MultiSafepay extension using an FTP program or server file administration program.
-3. Follow the [installation](/opencart/#installation) instructions above.
+3. Follow the [installation](/docs/opencart#how-to-install) instructions above.
 
 </details>
 

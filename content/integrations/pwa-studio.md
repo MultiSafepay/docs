@@ -33,7 +33,7 @@ This technical manual is for installing and configuring MultiSafepay's plugin fo
 <summary>Payment methods</summary>
 <br>
 
-By default, this plugin supports all [payment methods supported by our Magento 2 plugin](/magento-2/#details-supported-payment-methods) out of the box, except: 
+By default, this plugin supports all [payment methods supported by our Magento 2 plugin](/docs/magento-2#payment-methods) out of the box, except: 
 - Request To Pay
 - Direct Debit
 - E-Invoicing 

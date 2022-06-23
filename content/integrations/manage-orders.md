@@ -16,7 +16,7 @@ next:
       category: integrations
 ---
 
-MultiSafepay provides a [RESTful API](/glossaries/multisafepay-glossary/#restful-api-application-programming-interface) that can be accessed by HTTP requests to manage your data. We support data in JSON format only.
+MultiSafepay provides a RESTful API that can be accessed by HTTP requests to manage your data. We support data in JSON format only.
 
 The most important data element in our API is the **order**. Orders contain all information related to a single instance of products and/or services sold to a customer. 
 
@@ -27,13 +27,13 @@ The most common operation to perform with our API is creating an order. To speci
 |  |  |
 |---|---|
 | **Direct** | The customer selects their payment method in your embedded checkout. | 
-| **Redirect** | The customer is redirected first to a [payment page](/payment-pages/) to select their payment method. | 
+| **Redirect** | The customer is redirected first to a [payment page](/docs/payment-pages/) to select their payment method. | 
 
 # Prerequisites
 
 Before making any API requests, you must:
 
-- Have a [site API key](/sites/#site-id-api-key-and-secure-code).
+- Have a [site API key](/docs/sites#site-id-api-key-and-security-code).
 - Choose the test or live [environment](https://docs-api.multisafepay.com/reference/environments).
 
 You must include your API key in the request URL as a query parameter to be able to authenticate your request.  
@@ -92,11 +92,11 @@ Check that you receive a response with `success` set to `true`:
   }
 }
 ```
-If you receive an error in the response, see [Handling errors](/errors/handling-errors/).
+If you receive an error in the response, see [Handling errors](/docs/errors/).
 
 Otherwise, open the `payment_url` to complete the payment on the payment page. 
 
-For further details on how to test each payment method, see [Testing](/testing/test-payment-details/). If this is your first time, we recommend following the steps for [iDEAL](/testing/#details-ideal).
+For further details on how to test each payment method, see [Testing](/docs/testing#test-payment-details). If this is your first time, we recommend following the steps for [iDEAL](/docs/testing#ideal).
 
 # Get order details
 
@@ -188,11 +188,11 @@ You should receive a response like this:
   }
 }
 ```
-The most important parameter is `status`, which represents the [status of the order](/about-payments/multisafepay-statuses/), i.e. the progression of the customer’s order with you. 
+The most important parameter is `status`, which represents the [status of the order](/docs/payment-statuses/), i.e. the progression of the customer’s order with you. 
 
-The second most important parameter is `financial_status`, which represents the [status of the transaction](/about-payments/multisafepay-statuses/), i.e. the progression towards settling the funds in your account balance.
+The second most important parameter is `financial_status`, which represents the [status of the transaction](/docs/payment-statuses/), i.e. the progression towards settling the funds in your account balance.
 
-We recommend that you track the `status` parameter in your integration to understand how your order is progressing. For a detailed overview of the possible statuses, see [Status meanings](/payments/multisafepay-statuses/#status-meanings).
+We recommend that you track the `status` parameter in your integration to understand how your order is progressing. For a detailed overview of the possible statuses, see [Status meanings](/docs/payment-statuses/).
 
 In this example, the `status` is **Completed**. This means that the customer has completed payment and settlement is guaranteed. The `financial_status` is also **Completed**. This means that the funds have been settled in your account balance.
 

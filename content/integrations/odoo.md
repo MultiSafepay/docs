@@ -26,7 +26,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/docs/getting-started-guide/)
 - Odoo 13.0
 - Tested on Python 3.6
 
@@ -83,7 +83,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 ## Generic gateways
 
-The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards.
+The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
 
 <details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
@@ -102,21 +102,21 @@ The plugin supports generic gateways, which redirect customers from your checkou
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/)
-- Pay later methods: [All](/pay-later/)
-- Wallets: [Alipay](/alipay), [Apple Pay](/apple-pay), [PayPal](/paypal)
+- Cards: [All](/docs/cards/)
+- Pay later methods: All
+- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Banking methods:
-    - [Bancontact](/bancontact)
-    - [Bank Transfer](/bank-transfer)
-    - [Belfius](/belfius)
-    - [CBC/KBC](/cbc-kbc)
-    - [Dotpay](/dotpay)
-    - [EPS](/eps)
-    - [Giropay](/giropay)
-    - [iDEAL](/ideal)
-    - [SEPA Direct Debit](/sepa-direct-debit)
-    - [Sofort](/sofort)
-    - [Trustly](/trustly)
+    - [Bancontact](/docs/bancontact/)
+    - [Bank Transfer](/docs/bank-transfer/)
+    - [Belfius](/docs/belfius/)
+    - [CBC/KBC](/docs/cbc-kbc/)
+    - [Dotpay](/docs/dotpay/)
+    - [EPS](/docs/eps/)
+    - [Giropay](/docs/giropay/)
+    - [iDEAL](/docs/ideal/)
+    - [SEPA Direct Debit](/docs/sepa-direct-debit/)
+    - [Sofort](/docs/sofort/)
+    - [Trustly](/docs/trustly/)
 
 </details>
 

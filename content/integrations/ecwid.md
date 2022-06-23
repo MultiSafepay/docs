@@ -9,13 +9,13 @@ excerpt: "Free app to integrate MultiSafepay payment solutions with Ecwid."
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Ecwid.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-Ecwid provides a free app to integrate with MultiSafepay [payment pages](/payment-pages/).
+Ecwid provides a free app to integrate with MultiSafepay [payment pages](/docs/payment-pages/).
 
 <details id="requirements">
 <summary>Requirements</summary>
 <br>
 
-You will need a [MultiSafepay account](/getting-started-guide/).
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 </details>
 
@@ -24,7 +24,7 @@ You will need a [MultiSafepay account](/getting-started-guide/).
 2. Go to **Ecwid control panel** > **Settings** > **Payment page**.
 3. For each payment method, change the **Payment processor** value to **MultiSafepay**, and click **Save**.
 4. Click the **MultiSafepay account details** link. 
-5. Enter your [account ID, site ID, and secure code](/sites/#site-id-api-key-and-secure-code).
+5. Enter your [account ID, site ID, and secure code](/docs/sites#site-id-api-key-and-security-code).
 5. Save the changes and enable your selected payment methods.
 
 For more information, see Ecwid – [How to set up](https://support.ecwid.com/hc/en-us/articles/207808285-MultiSafepay#Howtosetup).
@@ -37,14 +37,14 @@ For more information, see Ecwid – [How to set up](https://support.ecwid.com/hc
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [American Express](/amex), [Mastercard](/mastercard), [Visa](/visa) and all co-branded cards
+- Cards: [American Express](/docs/cards), [Mastercard](/docs/cards/), [Visa](/docs/cards/) and all co-branded cards
 - Banking methods:
-    - [Bancontact](/bancontact)
-    - [Bank Transfer](/bank-transfer)
-    - [Giropay](/giropay)
-    - [iDEAL](/ideal)
-    - [SEPA Direct Debit](/sepa-direct-debit)
-    - [Sofort](/sofort)
+    - [Bancontact](/docs/bancontact/)
+    - [Bank Transfer](/docs/bank-transfer/)
+    - [Giropay](/docs/giropay/)
+    - [iDEAL](/docs/ideal/)
+    - [SEPA Direct Debit](/docs/sepa-direct-debit/)
+    - [Sofort](/docs/sofort/)
 
 </details>
 

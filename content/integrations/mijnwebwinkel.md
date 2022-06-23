@@ -15,7 +15,7 @@ This technical manual is for installing and configuring Mijnwebwinkel's free app
 <summary>Requirements</summary>
 <br>
 
-You will need a [MultiSafepay account](/getting-started-guide/).
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 </details>
 
@@ -25,7 +25,7 @@ You will need a [MultiSafepay account](/getting-started-guide/).
 
 1. Sign in to your Mijwebwinkel <<glossary:backend>>.
 2. Go to **Online orders** > **Payment method** > **MultiSafepay**.
-2. Add your MultiSafepay account ID, [site ID, site security code, and API key](/sites/#site-id-api-key-and-secure-code).
+2. Add your MultiSafepay account ID, [site ID, site security code, and API key](/docs/sites#site-id-api-key-and-security-code).
 6. Select the relevant payment methods.
 
 # User guide
@@ -36,17 +36,17 @@ You will need a [MultiSafepay account](/getting-started-guide/).
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [Mastercard](/mastercard) and [Visa](/visa)
-- Pay later methods: [Klarna](/klarna)
-- Wallets: [PayPal](/paypal)
+- Cards: [Mastercard](/docs/cards/) and [Visa](/docs/cards/)
+- Pay later methods: [Klarna](/docs/klarna/)
+- Wallets: [PayPal](/docs/paypal/)
 - Banking methods: 
-    - [Bancontact](/bancontact)
-    - [Bank Transfer](/bank-transfer)
-    - [Giropay](/giropay)
-    - [iDEAL](/ideal)
-    - [Maestro](/maestro)
-    - [SEPA Direct Debit](/sepa-direct-debit)
-    - [Sofort](/sofort)
+    - [Bancontact](/docs/bancontact/)
+    - [Bank Transfer](/docs/bank-transfer/)
+    - [Giropay](/docs/giropay/)
+    - [iDEAL](/docs/ideal/)
+    - [Maestro](/docs/cards/)
+    - [SEPA Direct Debit](/docs/sepa-direct-debit/)
+    - [Sofort](/docs/sofort/)
 - Prepaid cards:
     - [Baby Cadeaubon](https://www.babycadeaubon.nl)
     - Beauty & Wellness
@@ -83,10 +83,10 @@ To change the order of payment methods in your checkout, follow these steps:
 
 ## Surcharges
 
-[Surcharges](/surcharges/) are supported.
+[Surcharges](/docs/surcharges/) are supported.
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ---
 

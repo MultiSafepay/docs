@@ -15,7 +15,7 @@ This technical manual is for installing and configuring myShop's free app for in
 <summary>Requirements</summary>
 <br>
 
-You will need a [MultiSafepay account](/getting-started-guide/).
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 </details>
 
@@ -24,20 +24,20 @@ You will need a [MultiSafepay account](/getting-started-guide/).
 <br>
 
 
-- Cards: [American Express](/payment-methods/amex), [Mastercard](/payment-methods/mastercard), and [Visa](/payment-methods/visa)
-- Pay later methods: [Klarna](/payment-methods/klarna) and [Pay After Delivery](/payment-methods/pay-after-delivery)
-- Wallets: [PayPal](/payment-methods/paypal)
-- Prepaid cards: [123TCS](/payments/methods/prepaid-cards/gift-cards), [Intersolve](/payments/methods/prepaid-cards/gift-cards), and [Fashioncheque](/payments/methods/prepaid-cards/gift-cards)
+- Cards: [American Express](/docs/cards/), [Mastercard](/docs/cards/), and [Visa](/docs/cards/)
+- Pay later methods: [Klarna](/docs/klarna/) and [Pay After Delivery](/docs/pay-after-delivery/)
+- Wallets: [PayPal](/docs/payment-methods/paypal/)
+- Prepaid cards: [123TCS](/docs/gift-cards/), [Intersolve](/docs/gift-cards/), and [Fashioncheque](/docs/gift-cards/)
 - Banking methods:
-    - [Bancontact](/payment-methods/bancontact)
-    - [Bank Transfer](/payment-methods/bank-transfer)
-    - [Dotpay](/payment-methods/dotpay)
-    - [EPS](/payment-methods/eps)
-    - [Giropay](/payment-methods/giropay)
-    - [iDEAL](/payment-methods/ideal)
-    - [Maestro](/payment-methods/maestro)
-    - [SEPA Direct Debit](/payment-methods/sepa-direct-debit)
-    - [Sofort](/payment-methods/sofort)
+    - [Bancontact](/docs/bancontact/)
+    - [Bank Transfer](/docs/bank-transfer/)
+    - [Dotpay](/docs/dotpay/)
+    - [EPS](/docs/eps/)
+    - [Giropay](/docs/giropay/)
+    - [iDEAL](/docs/ideal/)
+    - [Maestro](/docs/cards/)
+    - [SEPA Direct Debit](/docs/sepa-direct-debit/)
+    - [Sofort](/docs/sofort/)
 </details>
 
 # How to install and configure
@@ -47,7 +47,7 @@ You will need a [MultiSafepay account](/getting-started-guide/).
 1. Sign in to your myShop <<glossary:backend>>.
 2. Install the MultiSafepay app in the App Store.
 3. Go to **Settings** > **MultiSafepay** or **iDEAL MultiSafepay**.
-4. Enter your [account ID, site ID, and site secure code](/sites/#site-id-api-key-and-secure-code).  
+4. Enter your [account ID, site ID, and site secure code](/docs/sites#site-id-api-key-and-security-code).  
 5. If using a test account, select **Test mode**.
 6. Click **Save**.
 

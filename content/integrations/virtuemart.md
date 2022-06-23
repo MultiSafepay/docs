@@ -25,7 +25,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/docs/getting-started-guide/)
 - Joomla 2.5 & 3.x + Virtuemart 2.x & 3.x
 - Tested on PHP 7.0
 
@@ -52,7 +52,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
     - To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:
     - Account ID (top-right corner of your dashboard)
-    - [Site ID, API key, and secure code](/sites/#site-id-api-key-and-secure-code)
+    - [Site ID, API key, and secure code](/docs/sites#site-id-api-key-and-security-code)
     - [Gateway ID](https://docs-api.multisafepay.com/reference/gateway-ids)
 
 # User guide
@@ -67,23 +67,23 @@ If a customer selects Apple Pay at checkout but isn't on an Apple device, they r
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/payment-methods/credit-debit-cards/)
-- Banking methods: [All](/payment-methods/banks/)
-- Pay later methods: [All](/payment-methods/pay-later/)
-- Wallets: [All](/payment-methods/wallets/)
+- Cards: [All](/docs/cards/)
+- Banking methods: All
+- Pay later methods: All
+- Wallets: All
 - Prepaid cards:
     - Beauty and Wellness gift card
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-    - [Edenred](/payment-methods/edenred/)
+    - [Edenred](/docs/edenred/)
     - [Fashioncheque](https://www.fashioncheque.com/nl)
     - [Fashion gift card](https://www.fashion-giftcard.nl)
     - Fietsenbon
     - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
     - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/payment-methods/paysafecard)
+    - [Paysafecard](/docs/paysafecard/)
     - [Podium](https://www.podiumcadeaukaart.nl)
-    - [Postepay](/payment-methods/postepay/)
+    - [Postepay](/docs/cards/)
     - [Sport en Fit](https://www.sportenfitcadeau.nl)
     - [VVV gift card](https://www.vvvcadeaukaarten.nl)
     - [Webshop gift card](https://www.webshopgiftcard.nl)
@@ -96,7 +96,7 @@ If a customer selects Apple Pay at checkout but isn't on an Apple device, they r
 
 ## Refunds
 
-[Full refunds](/refunds/#full-and-partial-refunds) are supported in your MultiSafepay dashboard and your backend.  
+[Full refunds](/docs/refund-payments#full-and-partial-refunds) are supported in your MultiSafepay dashboard and your backend.  
 You cannot refund more than the original amount in your backend.
 
 ## Updates
