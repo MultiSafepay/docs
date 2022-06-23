@@ -38,7 +38,7 @@ Surcharges are permitted for:
 
 - Hybrid <<glossary:card schemes>> such as American Express: Each EU state can decide whether to permit surcharging. Under Dutch law, surcharges **are** permitted.
 
-- [PayPal](/paypal) and [pay later methods](/pay-later/): You can only charge customers for the actual cost you incur for using the payment method and no more.
+- [PayPal](/docs/paypal/) and pay later methods: You can only charge customers for the actual cost you incur for using the payment method and no more.
 
 <br>
 
