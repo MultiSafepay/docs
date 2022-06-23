@@ -53,7 +53,7 @@ You have successfully added a TXT record for MultiSafepay's email servers.
 
 ### Mandrill
 
-If you have [E-Invoicing](/payment-methods/e-invoicing/) or [Pay After Delivery](/payment-methods/pay-after-delivery/) activated, we also use Mandrill to send emails in addition to our own mail servers. In this case, you need to add another TXT record for Mandrill.
+If you have [E-Invoicing](/docs/e-invoicing/) or [Pay After Delivery](/docs/pay-after-delivery/) activated, we also use Mandrill to send emails in addition to our own mail servers. In this case, you need to add another TXT record for Mandrill.
 
 1. Add a TXT record named: `mandrill._domainkey.{your domain}`, e.g. `mandrill._domainkey.example.com`.
 

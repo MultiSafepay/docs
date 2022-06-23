@@ -46,7 +46,7 @@ To learn more about creating, updating and retrieving orders, see the [API refer
 
 ### How to install
 
-1. Copy your [site API key](/sites/#site-id-api-key-and-secure-code) to get the SDK from our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-ios-sdk).
+1. Copy your [site API key](/docs/sites#site-id-api-key-and-security-code) to get the SDK from our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-ios-sdk).
 2. Add the FastCheckoutKit.xcframework as an embedded framework into your project. 
 3. In Finder, open the folder where you downloaded FastCheckoutKit.framework to, and then drag it into the Project Navigator of your application’s Xcode project.
 4. If you haven't already copied the framework into your project folder, click **Copy items**.
@@ -81,7 +81,7 @@ manager.startCheckout(transactionId: "ID", host: self, onCompletion: { status, e
 })
 ```
 
-And that’s it! Now you can start a checkout and retrieve the [transaction status](/about-payments/multisafepay-statuses/) once it completes.
+And that’s it! Now you can start a checkout and retrieve the [transaction status](/docs/payment-statuses/) once it completes.
 
 ###### Complete example
 
