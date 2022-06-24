@@ -10,9 +10,9 @@ slug: 'snelstart'
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Snelstart.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
 <br>
 
-To import MultiSafepay [accountant export](/accounting/reports/accountant-export/) reports (in MT940 format) into [Snelstart](https://www.snelstart.nl), see Snelstart – [Klantenservice](https://www.snelstart.nl/klantenservice).
+To import MultiSafepay [accountant export](/docs/accountant-export/) reports (in MT940 format) into [Snelstart](https://www.snelstart.nl), see Snelstart – [Klantenservice](https://www.snelstart.nl/klantenservice).
 
-To add MultiSafepay [payment links](/payments/checkout/payment-link/) to SnelStart invoices to let customers pay directly, see SnelKoppeling – [Betaallinks via payment service provider](https://snelkoppeling.eu/productoverzicht/boekhoudtechnisch/emailplus).
+To add MultiSafepay [payment links](/docs/payment-links/) to SnelStart invoices to let customers pay directly, see SnelKoppeling – [Betaallinks via payment service provider](https://snelkoppeling.eu/productoverzicht/boekhoudtechnisch/emailplus).
 
 # Premarc plugins
 

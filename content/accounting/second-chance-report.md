@@ -11,7 +11,7 @@ This report provides an overview (in Excel format) of all transactions:
 
 - By payment method or country
 - Declined, retried and completed, retried and completed with a different payment method
-- Completed with [Second Chance](/second-chance/) 
+- Completed with [Second Chance](/docs/second-chance/) 
 
 To request a Second Chance report, email <sales@multisafepay.com>
 

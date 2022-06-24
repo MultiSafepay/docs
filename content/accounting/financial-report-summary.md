@@ -33,7 +33,7 @@ This report provides an overview (in Excel or CSV format) of:
 | Currency | The currency of the transaction |
 | Amount | The amount of the transaction |
 | Payment type | A MultiSafepay fee, or the payment method |
-| Payment status | The [transaction status](/about-payments/multisafepay-statuses/) |
+| Payment status | The [transaction status](/docs/payment-statuses/) |
 
 </details>
 
@@ -87,9 +87,9 @@ This report provides an overview (in Excel or PDF format) of revenue and fees fo
 
 The report does **not** include:
 
-- Payouts (see [payout report](/reports/payout-report/))
+- Payouts (see [payout report](/docs/payout-report/))
 - Monthly transaction fees 
-- VAT (see [VAT invoices](/account/vat-invoices/))
+- VAT (see [VAT invoices](/docs/invoices/))
 
 </details >
 
