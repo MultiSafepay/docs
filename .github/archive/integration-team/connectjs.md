@@ -7,7 +7,7 @@ meta_description: "ConnectJS is a simplified checkout process that prevents the 
 
 ConnectJS is a simplified checkout process that prevents the ‘punch out’ that occurs when we redirect customers to a [MultiSafepay payment page](/docs/payment-pages/) to select a gateway and enter their payment details.
 
-MultiSafepay's ConnectJS JavaScript library supports all payment methods and [gift cards](/payments/methods/prepaid-cards/gift-cards). It lets you directly integrate them in your payment process/checkout quickly and securely. By default, all available payment methods appear, but you can also display just one payment method or a selection. You can configure all payment methods while initiating the library.
+MultiSafepay's ConnectJS JavaScript library supports all payment methods and [gift cards](/docs/gift-cards/). It lets you directly integrate them in your payment process/checkout quickly and securely. By default, all available payment methods appear, but you can also display just one payment method or a selection. You can configure all payment methods while initiating the library.
 
 ## Integration
 
