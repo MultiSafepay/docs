@@ -50,7 +50,7 @@ There you can see your:
 <summary>How to view your uncaptured balance</summary>
 <br>
 
-You can set your daily balance report to include the balance of uncleared transactions. This is particularly useful if you offer [pay later](/pay-later/) and/or [credit card](/credit-debit-cards/) payment methods. 
+You can set your daily balance report to include the balance of uncleared transactions. This is particularly useful if you offer pay later and/or credit card payment methods. 
 
 To activate this feature in your daily balance report, email a request to <sales@multisafepay.com>
 

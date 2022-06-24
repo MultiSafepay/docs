@@ -11,7 +11,7 @@ slug: 'currencies'
 You can process payments in a large number of currencies, provided that they are:
 
 - Supported by the specific payment method
-- Enabled in your dashboard and in the settings of any [ready-made integrations](/integrations/ready-made/)
+- Enabled in your dashboard and in the settings of any [ready-made integrations](/docs/our-integrations/)
 - Correctly processed in the [create order](https://docs-api.multisafepay.com/reference/createorder) API request
 
 # Activation
@@ -20,7 +20,7 @@ To view the currencies currently enabled for your account, in your dashboard go 
 
 To enable new currencies, email <support@multisafepay.com>
 
-You must also add a [business bank account](/invoices/) that supports the currency. Follow these steps to ensure transactions can be processed in that currency and no conversion is required:
+You must also add a [business bank account](/docs/invoices/) that supports the currency. Follow these steps to ensure transactions can be processed in that currency and no conversion is required:
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Finance > Balance > Add bank account**.
@@ -68,7 +68,7 @@ Credit and debit cards support the following currencies (and potentially others 
 
 ## Payouts
 
-You can make [payouts](/payouts/) in: 
+You can make [payouts](/docs/payouts/) in: 
 
 | | | |
 |---|---|---|
