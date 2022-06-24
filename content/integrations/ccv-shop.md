@@ -15,7 +15,7 @@ This technical manual is for installing and configuring MultiSafepay's free app 
 <summary>Requirements</summary>
 <br>
 
-You will need a [MultiSafepay account](/getting-started-guide/).
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
 </details>
 
 # How to install and configure
@@ -25,7 +25,7 @@ You will need a [MultiSafepay account](/getting-started-guide/).
 1. Sign in to your CCV Shop <<glossary:backend>> and install the MultiSafepay app from the App Store.
 2. Go to **Mijn webshop** > **Instellingen** > **Bestelproces & voorraad** > **Betaalmethoden**.
 3. In the **Electronische betalingen** tab, select **MultiSafepay**.
-4. Enter your [account ID, site ID and secure code](/sites/#site-id-api-key-and-secure-code).
+4. Enter your [account ID, site ID and secure code](/docs/sites#site-id-api-key-and-security-code).
 5. If using your MultiSafepay test account, select **Test mode**.
 6. Click **Synchroniseer betaalmethodes met MultiSafepay**, and then click **Save**.
 
@@ -41,16 +41,16 @@ ___
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/)
-- Pay later methods: [AfterPay](/afterpay/), [Klarna](/klarna/)
-- Wallets: [PayPal](/paypal)
+- Cards: [All](/docs/cards/)
+- Pay later methods: [AfterPay](/docs/afterpay/), [Klarna](/docs/klarna/)
+- Wallets: [PayPal](/docs/paypal/)
 - Banking methods:
-    - [Bancontact](/bancontact)
-    - [Bank Transfer](/bank-transfer)
-    - [Giropay](/giropay)
-    - [iDEAL](/ideal)
-    - [Sofort](/sofort)
-    - [Trustly](/trustly)
+    - [Bancontact](/docs/bancontact/)
+    - [Bank Transfer](/docs/bank-transfer/)
+    - [Giropay](/docs/giropay/)
+    - [iDEAL](/docs/ideal/)
+    - [Sofort](/docs/sofort/)
+    - [Trustly](/docs/trustly/)
 
 </details>
 

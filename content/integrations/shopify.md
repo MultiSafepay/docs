@@ -17,7 +17,7 @@ This technical manual is for installing/migrating to MultiSafepay's free app for
 <summary>Requirements</summary>
 <br>
 
-You will need a [MultiSafepay account](/getting-started/).
+You will need a [MultiSafepay account](docs/getting-started-guide/).
 
 </details>
 
@@ -29,7 +29,7 @@ To install or migrate, follow these steps:
 2. From the [Shopify app store](https://apps.shopify.com/), install the [MultiSafepay Payments app](https://apps.shopify.com/multisafepay-payments).  
 3. Check that the app is successfully added under **Admin** > **Settings** > **Payments** > **Alternative payment methods**.
 4. In your Shopify checkout, test the **MultiSafepay Payments** gateway.  
-  **Note:** If using a test [API key](/sites/#site-id-api-key-and-secure-code), make sure you also enable **Test mode**. 
+  **Note:** If using a test [API key](/docs/sites#site-id-api-key-and-security-code), make sure you also enable **Test mode**. 
 5. For existing merchants, you must disable the deprecated individual MultiSafepay payment method gateways under **Admin** > **Settings** > **Payments** > **Third-party payment providers**.
 6. Once testing is complete, disable password protection again.
 
@@ -37,7 +37,7 @@ To install or migrate, follow these steps:
 
 ## Abandoned checkouts
 
-MultiSafepay's [Second Chance](/second-chance/) feature is **not** supported because Shopify offers a similar native service.
+MultiSafepay's [Second Chance](/docs/second-chance/) feature is **not** supported because Shopify offers a similar native service.
 
 See Shopify – [Recovering abandoned checkouts](https://help.shopify.com/en/manual/orders/abandoned-checkouts).
 
@@ -86,7 +86,7 @@ Payments are processed in the webshop's default currency only.
 2. Sign in to your Shopify <<glossary:backend>>.
 3. Go to **Settings** > **Payment providers** > **Alternative payments**.
 4. Search for and click on the payment methods you have installed.
-5. Enter your [site ID and secure code](/sites/#site-id-api-key-and-secure-code).
+5. Enter your [site ID and secure code](/docs/websites#site-id-api-key-and-security-code).
 6. Activate the payment method.
 
 **Note**: To bundle all payment methods under a single MultiSafepay payment gateway at checkout, under **Alternative payments**, activate the **MultiSafepay** payment method.
@@ -98,21 +98,21 @@ Payments are processed in the webshop's default currency only.
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/)
-- Wallets: [Alipay](/alipay), [PayPal](/paypal)
-- Prepaid cards: [Paysafecard](/paysafecard)
+- Cards: [All](/docs/cards/)
+- Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/paypal/)
+- Prepaid cards: [Paysafecard](/docs/paysafecard/)
 - Banking methods: 
-  - [Bancontact](/bancontact)
-  - [Bank Transfer](/bank-transfer)
-  - [Belfius](/belfius)
-  - [CBC/KBC](/cbc-kbc)
-  - [Dotpay](/dotpay)
-  - [EPS](/eps)
-  - [Giropay](/giropay)
-  - [iDEAL and iDEAL QR](/ideal)
-  - [Request to Pay](/request-to-pay)
-  - [Sofort](/sofort)
-  - [Trustly](/trustly)
+  - [Bancontact](/docs/bancontact/)
+  - [Bank Transfer](/docs/bank-transfer/)
+  - [Belfius](/docs/belfius/)
+  - [CBC/KBC](/docs/cbc-kbc/)
+  - [Dotpay](/docs/dotpay/)
+  - [EPS](/docs/eps/)
+  - [Giropay](/docs/giropay/)
+  - [iDEAL and iDEAL QR](/docs/ideal/)
+  - [Request to Pay](/docs/request-to-pay/)
+  - [Sofort](/docs/sofort/)
+  - [Trustly](/docs/trustly/)
 
 </details> 
 
@@ -122,7 +122,7 @@ To match orders in your accounting system with your MultiSafepay account, use th
 
 ## Refunds
 
-[Full and partial refunds](/refunds/) are supported in your MultiSafepay dashboard and backend.  
+[Full and partial refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.
 
 ---

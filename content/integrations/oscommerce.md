@@ -92,7 +92,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/docs/getting-started-guide/)
 - OsCommerce 2.3
 - Tested on PHP 7.0
 
@@ -108,7 +108,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 2. Sign in to your OsCommerce <<glossary:backend>>.
 3. Go to **Modules** > **Payment**.
 4. Click **Install modules** in the top-right corner.
-5. Enter your [API key](/sites/#site-id-api-key-and-secure-code), and then complete the other fields as required.
+5. Enter your [API key](/docs/sites#site-id-api-key-and-security-code), and then complete the other fields as required.
 
 # User guide
 
@@ -118,19 +118,19 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/)
-- Pay later methods: [E-Invoicing](/e-invoicing), [Klarna](/klarna), [Pay After Delivery](/pay-after-delivery)
-- Wallets: [PayPal](/paypal)
+- Cards: [All](/docs/cards/)
+- Pay later methods: [E-Invoicing](/docs/e-invoicing/), [Klarna](/docs/klarna/), [Pay After Delivery](/docs/pay-after-delivery/)
+- Wallets: [PayPal](/docs/paypal/)
 - Banking methods:
-    - [Bancontact](/bancontact)
-    - [Bank Transfer](/bank-transfer)
-    - [CBC/KBC](/cbc-kbc)
-    - [Dotpay](/dotpay)
-    - [EPS](/eps)
-    - [Giropay](/giropay)
-    - [iDEAL](/ideal)
-    - [SEPA Direct Debit](/sepa-direct-debit)
-    - [Sofort](/sofort)
+    - [Bancontact](/docs/bancontact/)
+    - [Bank Transfer](/docs/bank-transfer/)
+    - [CBC/KBC](/docs/cbc-kbc/)
+    - [Dotpay](/docs/dotpay/)
+    - [EPS](/docs/eps/)
+    - [Giropay](/docs/giropay/)
+    - [iDEAL](/docs/ideal/)
+    - [SEPA Direct Debit](/docs/sepa-direct-debit/)
+    - [Sofort](/docs/sofort/)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
@@ -140,7 +140,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
     - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
     - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
-    - [Paysafecard](/payments/methods/prepaid-cards/paysafecard)
+    - [Paysafecard](/docs/paysafecard/)
     - [Podium](https://www.podiumcadeaukaart.nl)
     - [Sport en Fit](https://www.sportenfitcadeau.nl)
     - [VVV gift card](https://www.vvvcadeaukaarten.nl)
@@ -154,7 +154,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 ## Refunds
 
-[Full refunds](/refunds/#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backend.  
+[Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.
 
 ## Updates

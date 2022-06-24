@@ -61,7 +61,7 @@ Logic4 provides a free plugin to integrate with MultiSafepay.
 <summary>Requirements</summary>
 <br>
 
-You will need a [MultiSafepay account](/getting-started-guide/).
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 </details>
 
@@ -77,21 +77,21 @@ For any technical queries about the plugin, see Logic4 – [Contact](https://www
 <br>
 
 - Cards: 
-    - [American Express](/amex)
-    - [Mastercard](/mastercard) and [Maestro](/maestro)
-    - [Visa](/visa)
+    - [American Express](/docs/cards/)
+    - [Mastercard](/docs/cards/) and [Maestro](/docs/cards/)
+    - [Visa](/docs/cards/)
 - Banking methods:
-    - [Bancontact](/bancontact)
-    - [Bank Transfer](/bank-transfer)
-    - [Belfius](/belfius)
-    - [CBC/KBC](/cbc-kbc)
-    - [EPS](/eps)
-    - [Giropay](/giropay)
-    - [iDEAL and iDEAL QR](/ideal)
-    - [Sofort](/sofort)
-    - [Trustly](/trustly)
-- Pay later methods: [All](/pay-later/), **except** E-Invoicing
-- Wallets: [PayPal](/paypal)
+    - [Bancontact](/docs/bancontact/)
+    - [Bank Transfer](/docs/bank-transfer/)
+    - [Belfius](/docs/belfius/)
+    - [CBC/KBC](/docs/cbc-kbc/)
+    - [EPS](/docs/eps/)
+    - [Giropay](/docs/giropay/)
+    - [iDEAL and iDEAL QR](/docs/ideal/)
+    - [Sofort](/docs/sofort/)
+    - [Trustly](/docs/trustly/)
+- Pay later methods: All, **except** E-Invoicing
+- Wallets: [PayPal](/docs/paypal/)
 
 </details>
 
@@ -113,7 +113,7 @@ LogiVert provides a free app to integrate with MultiSafepay.
 <summary>Requirements</summary>
 <br>
 
-You will need a [MultiSafepay account](/getting-started-guide/).
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 </details>
 
@@ -130,17 +130,17 @@ For technical support, contact LogiVert - [Support](https://www.logivert.com/nl/
 <br>
 
 - Cards: 
-    - [American Express](/amex)
-    - [Mastercard](/mastercard)
-    - [Visa](/visa), [Cartes Bancaires](/cartes-bancaires), and [Dankort](/dankort)
+    - [American Express](/docs/cards/)
+    - [Mastercard](/docs/cards/)
+    - [Visa](/docs/cards/), [Cartes Bancaires](/docs/cards/), and [Dankort](/docs/cards/)
 - Banking methods:
-    - [Bancontact](/bancontact)
-    - [Bank Transfer](/bank-transfer)
-    - [Giropay](/giropay)
-    - [iDEAL](/ideal)
-    - [SEPA Direct Debit](/sepa-direct-debit)
-    - [Sofort](/sofort)
-- Pay later methods: [Klarna](/klarna)
+    - [Bancontact](/docs/bancontact/)
+    - [Bank Transfer](/docs/bank-transfer/)
+    - [Giropay](/docs/giropay/)
+    - [iDEAL](/docs/ideal/)
+    - [SEPA Direct Debit](/docs/sepa-direct-debit/)
+    - [Sofort](/docs/sofort)
+- Pay later methods: [Klarna](/docs/klarna/)
 
 </details>
 
@@ -187,7 +187,7 @@ ShopFactory provides a free plugin to integrate with MultiSafepay.
 <summary>Requirements</summary>
 <br>
 
-You will need a [MultiSafepay account](/getting-started-guide/).
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
 </details>
 
 <details id="shopfactory-support">
@@ -225,7 +225,7 @@ Shoptrader provides a free plugin to integrate with MultiSafepay.
 <summary>Requirements</summary>
 <br>
 
-You will need a [MultiSafepay account](/getting-started-guide/).
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
 </details>
 
 <details id="shoptrader-support">
@@ -271,21 +271,21 @@ ZilverCMS provides a free app to integrate with MultiSafepay.
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/)
-- Pay later methods: [Betaal per Maand](/betaal-per-maand)
-- Wallets: [Alipay](/alipay), [PayPal](/paypal)
+- Cards: [All](/docs/cards/)
+- Pay later methods: [Betaal per Maand](/docs/betaal-per-maand/)
+- Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/paypal/)
 - Prepaid cards: [VVV gift card](https://www.vvvcadeaukaarten.nl)
 - Banking methods:
-    - [Bancontact](/bancontact)
-    - [Bank Transfer](/bank-transfer)
-    - [Belfius](/belfius)
-    - [CBC/KBC](/cbc-kbc)
-    - [Dotpay](/dotpay)
-    - [EPS](/eps)
-    - [Giropay](/giropay) 
-    - [iDEAL and iDEAL QR](/ideal)
-    - [Request to Pay](/request-to-pay)
-    - [SEPA Direct Debit](/sepa-direct-debit)
+    - [Bancontact](/docs/bancontact/)
+    - [Bank Transfer](/docs/bank-transfer/)
+    - [Belfius](/docs/belfius/)
+    - [CBC/KBC](/docs/cbc-kbc/)
+    - [Dotpay](/docs/dotpay/)
+    - [EPS](/docs/eps/)
+    - [Giropay](/docs/giropay/) 
+    - [iDEAL and iDEAL QR](/docs/ideal/)
+    - [Request to Pay](/docs/request-to-pay/)
+    - [SEPA Direct Debit](/docs/sepa-direct-debit/)
 
 </details>
 
@@ -315,7 +315,7 @@ To integrate Planyo with MultiSafepay, follow these steps:
 1. Sign in to your Planyo account.
 2. Go to **Site settings** > **Online payments**.
 3. Select **MultiSafepay**.
-4. Enter your MultiSafepay account ID, [site ID and secure code](/sites/#site-id-api-key-and-secure-code).  
+4. Enter your MultiSafepay account ID, [site ID and secure code](/docs/sites#site-id-api-key-and-security-code).  
 5. Make a test reservation. 
 
 </details>
@@ -359,7 +359,7 @@ To integrate MultiSafepay as your payment provider, follow these steps:
 1. Sign in to your HostBill account.
 2. Click **Extras** > **Plugins**.
 3. From the left menu, select **Payment modules** > **MultiSafepay**.
-4. Click **Edit general settings**, and then enter your [MultiSafepay site API key](/sites/#site-id-api-key-and-secure-code).
+4. Click **Edit general settings**, and then enter your [MultiSafepay site API key](/docs/sites#site-id-api-key-and-security-code).
 5. Click **Save changes**.
 
 **Step 2.** Configure the module as required, e.g. the [module name and callback URL](https://hostbill.atlassian.net/wiki/spaces/DOCS/pages/559120402/MultiSafepay).
@@ -385,7 +385,7 @@ Our partner [Twikey](https://www.twikey.com/) offers an online tool for managing
 
 Customers can complete payments via:
 
-- A MultiSafepay [payment link](/payments/checkout/payment-link/) added to your invoice.  
+- A MultiSafepay [payment link](/docs/payment-links/) added to your invoice.  
 See Twikey – [Naadloze integratie MultiSafepay](https://www.twikey.com/nl/partner/multisafepay.html).
 - A one-off payment link or QR code sent via Twikey, e.g. by email, WhatsApp, SMS
 
@@ -397,7 +397,7 @@ To integrate with MultiSafepay, follow these steps:
 
 1. Sign in to your Twikey account.
 2. Go to **Settings** > **Integrations** > **MultiSafepay**.
-3. Enter your [MultiSafepay site API key](/sites/#site-id-api-key-and-secure-code).
+3. Enter your [MultiSafepay site API key](/docs/sites#site-id-api-key-and-security-code).
 4. To add a payment link to your invoices, update your invoice settings in your [Twikey template settings](https://www.beta.twikey.com/support/creditor/invoices/invoice_options.html).
 5. To create a payment link, go to [Payment links](https://www.beta.twikey.com/support/creditor/paymentlinks/paymentlink_management.html) enter the relevant information, e.g. amount, customer.
 

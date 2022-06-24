@@ -27,7 +27,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 <summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/getting-started/guide/)
+- [MultiSafepay account](/docs/getting-started-guide/)
 - PrestaShop version 1.7.6 or higher
 - PHP version 7.2 or higher
 
@@ -46,7 +46,7 @@ If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an o
 
 # How to configure
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **Improve** > **MultiSafepay**, and enter your [API key](/sites/#site-id-api-key-and-secure-code).
+2. Go to **Improve** > **MultiSafepay**, and enter your [API key](/docs/sites#site-id-api-key-and-security-code).
 3. On the **Payment methods** tab, enable the relevant payment methods.
 4. Click **Save**.
 
@@ -75,7 +75,7 @@ The Integration Team will do their best to provide support for third-party plugi
 
 ## Generic gateways
 
-The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/payment-pages/). This is particularly useful for integrating gift cards. 
+The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards. 
 
 <details id="configuring-generic-gateways">
 <summary>Configuring generic gateways</summary>
@@ -134,11 +134,11 @@ To change the flow you are using, follow these steps:
 
 ## Payment components
 
-The plugin supports [payment components](/payment-components/), which:
+The plugin supports [payment components](/docs/payment-components/), which:
 
 - Provide a seamless checkout experience to increase <<glossary:conversion>>.
 - Encrypt customer payment details for secure processing.
-- Shift responsibility for [PCI DSS compliance](/payment-regulations/pci-dss) to MultiSafepay.
+- Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
 
 <details id="activating-payment-components">
 <summary>Activating payment components</summary>
@@ -163,10 +163,10 @@ For support, email <integration@multisafepay.com>
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/)
-- Banking methods: [All](/banks/)
-- Pay later methods: [All](/pay-later/)
-- Wallets: [All](/wallets/)
+- Cards: [All](/docs/cards/)
+- Banking methods: All
+- Pay later methods: All
+- Wallets: All
 - Prepaid cards:
     - Baby Giftcard
     - Beauty and wellness
@@ -199,7 +199,7 @@ For support, email <integration@multisafepay.com>
 <summary>Enabling recurring payments</summary>
 <br>
 
-To enable [Recurring Payments](/features/recurring-payments), follow these steps:
+To enable [Recurring Payments](/docs/recurring-payments/), follow these steps:
 
 1. Sign in to your PrestaShop 1.7 backend. 
 2. Go to **Improve** > **Module manager** > **MultiSafepay**.
@@ -212,8 +212,8 @@ To enable [Recurring Payments](/features/recurring-payments), follow these steps
 
 ## Refunds
 
-[Full and partial refunds](/refunds/) are supported in your MultiSafepay dashboard and backend.  
-[Pay later refunds](/payment-methods/pay-later/) are only supported in your dashboard.
+[Full and partial refunds](/docs/refunds/) are supported in your MultiSafepay dashboard and backend.  
+[Pay later refunds](/docs/refund-payments/) are only supported in your dashboard.
     
 <details id="disabling-api-refunds">
 <summary>Disabling API refunds</summary>
@@ -250,7 +250,7 @@ If you notice errors in shopping cart calculations, email <integration@multisafe
 
 ## Surcharges
 
-[Surcharges](/surcharges/) are not supported by default.
+[Surcharges](/docs/surcharges/) are not supported by default.
 
 <details id="applying-surcharges-with-third-party-add-ons">
 <summary>Applying surcharges with third-party add-ons</summary>
@@ -259,7 +259,7 @@ If you notice errors in shopping cart calculations, email <integration@multisafe
 There are several [third-party add-ons](https://addons.prestashop.com/en/search?search_query=surcharge) available. However, we can't guarantee compatibility with our plugin. Make sure that you test them carefully before installing.
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 </details>
 
@@ -294,7 +294,7 @@ To translate the names of payment methods:
 :warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
-2. Follow the [Installation](/prestashop-1-7/#installation) instructions.
+2. Follow the [Installation](/docs/prestashop-1-7#how-to-install) instructions.
 
 </details>
 
@@ -312,7 +312,7 @@ To upgrade to version 5.x from an older version, follow these steps:
 4. Install and configure the new plugin following the instructions below.
 5. Only uninstall the older plugin when you're sure that orders created with the new plugin are being processed successfully. 
 
-If upgrading from 5.x to a newer version, see [Updates](/prestashop-1-7/updates).
+If upgrading from 5.x to a newer version, see [Updates](/docs/prestashop-1-7#updates).
 
 </details>
 

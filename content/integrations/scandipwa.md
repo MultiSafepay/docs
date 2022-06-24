@@ -33,10 +33,10 @@ This technical manual is for installing and configuring with MultiSafepay's free
 <summary>Payment methods</summary>
 <br>
 
-- Cards: [All](/credit-debit-cards/)
-- Banking methods: [All](/banks/)
-- Pay later methods: [All](/pay-later/)
-- Wallets: [All](/wallets/)
+- Cards: [All](/docs/cards/)
+- Banking methods: All
+- Pay later methods: All
+- Wallets: All
 - Prepaid cards:
     - Baby gift card
     - Beauty and Wellness gift card
