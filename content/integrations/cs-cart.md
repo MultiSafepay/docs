@@ -63,7 +63,7 @@ Extra options such as **IP-Validation** and **debugmode** are intended for devel
 - Cards: [All](/docs/cards/)
 - Banking methods: All
 - Pay later methods: All, except in3
-- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/payment-methods/paypal/)
+- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
