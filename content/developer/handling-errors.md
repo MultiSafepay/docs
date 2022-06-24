@@ -55,7 +55,7 @@ The transaction ID provided must be unique. The transaction ID you provided may 
 
 The `ip_address` or `forwarded_ip` parameters in the [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid customer IP address. 
 
-For [pay later methods](/payment-methods/pay-later/) and [credit cards](/payment-methods/credit-debit-cards/), we check the customer's IP address as part of our [fraud check](/about-payments/uncleared-transactions/).   
+For pay later methods and [credit cards](/docs/cards/), we check the customer's IP address as part of our [fraud check](/docs/uncaptured/).   
 
 ### Error 1008: Invalid description
 
@@ -115,7 +115,7 @@ Check that the account ID is formatted correctly, e.g. fix typing errors and rem
 
 ### Error 1016: Missing data
 
-The [create order](https://docs-api.multisafepay.com/reference/createorder) request is missing a required data type. This error most commonly occurs when the customer is directed to a payment page, or when you generate a [payment page](/payment-pages/) link.
+The [create order](https://docs-api.multisafepay.com/reference/createorder) request is missing a required data type. This error most commonly occurs when the customer is directed to a payment page, or when you generate a [payment page](/docs/payment-pages/) link.
 
 Check that the site ID, secure code, and transaction ID are included.
 
