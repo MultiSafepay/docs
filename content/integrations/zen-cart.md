@@ -55,7 +55,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 - Cards: [All](/docs/cards/)
 - Banking methods: All, except iDEAL QR and TrustPay
 - Pay later methods: All, except in3
-- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/payment-methods/paypal/)
+- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
@@ -79,7 +79,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 
 ## Refunds
 
-[Full refunds](/docs/refund-payments#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backend.  
+[Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.  
 You cannot refund more than the original amount in your backend.
 
 ## Updates

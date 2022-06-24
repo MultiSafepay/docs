@@ -115,7 +115,7 @@ You need to [enable recurring payments](/docs/recurring-payments) in your MultiS
 
 ### Refunds
 
-[Full and partial refunds](/docs/refund-payments#full-and-partial-refunds) **except** for pay later methods are supported in your MultiSafepay dashboard and backend.  
+[Full and partial refunds](/docs/refund-payments/) **except** for pay later methods are supported in your MultiSafepay dashboard and backend.  
 You cannot refund more than the original amount in your backend.
 
 <details id="processing-backend-refunds">
@@ -239,7 +239,7 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 ### Refunds
 
-You can process [full refunds](/docs/refund-payments#full-and-partial-refunds) for all Shopware 5 payment methods **except** pay later methods from your MultiSafepay dashboard and backend.  
+You can process [full refunds](/docs/refund-payments/) for all Shopware 5 payment methods **except** pay later methods from your MultiSafepay dashboard and backend.  
 You cannot refund more than the original amount in your backend.
 
 ### Session data

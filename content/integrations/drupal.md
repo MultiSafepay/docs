@@ -104,7 +104,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 ### Refunds
 
-[Full refunds](/docs/refund-payments#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backend.  
+[Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.
 
 ### Updates
@@ -201,7 +201,7 @@ This rule updates the [transaction status](/docs/payment-statuses/) to **Shipped
 
 ### Refunds
 
-[Full refunds](/docs/refund-payments#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backed.  
+[Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backed.  
 Refunding more than the original amount is **not** supported in your backend.
 
 ### Updates

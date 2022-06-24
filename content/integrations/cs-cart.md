@@ -87,7 +87,7 @@ Extra options such as **IP-Validation** and **debugmode** are intended for devel
 
 ## Refunds
 
-[Full refunds](/docs/refund-payments#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backend.   Refunding more than the original amount is **not** supported in your backend.
+[Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.   Refunding more than the original amount is **not** supported in your backend.
 
 ## Surcharges
 

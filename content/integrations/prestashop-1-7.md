@@ -213,7 +213,7 @@ To enable [Recurring Payments](/docs/recurring-payments/), follow these steps:
 ## Refunds
 
 [Full and partial refunds](/docs/refunds/) are supported in your MultiSafepay dashboard and backend.  
-[Pay later refunds](/docs/refund-payments#pay-later-refunds) are only supported in your dashboard.
+[Pay later refunds](/docs/refund-payments/) are only supported in your dashboard.
     
 <details id="disabling-api-refunds">
 <summary>Disabling API refunds</summary>

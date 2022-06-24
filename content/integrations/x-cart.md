@@ -88,7 +88,7 @@ Make sure you enter the correct API key for the account type you want to use.
 
 ## Refunds
 
-[Full refunds](/docs/refund-payments#full-and-partial-refunds) are supported in your MultiSafepay dashboard and backend.  
+[Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.  
 You cannot refund more than the original amount in your backend.
 
 ## Updates
