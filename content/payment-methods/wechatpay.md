@@ -19,8 +19,8 @@ Read how WeChat Pay can benefit your business on [multisafepay.com](https://www.
 | **Countries**  | Worldwide  | 
 | **Currencies**  | EUR – To request support for more currencies, email <sales@multisafepay.com> | 
 | **Expiration**  | Transactions expire after 2 hours. |  
-| **Payment pages** | [Yes](/payment-pages/) (current version only) |
-| **Refunds** | [Yes](/refunds/): Full and partial | 
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial | 
 
 # Payment flow
 
@@ -87,12 +87,12 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 | Integration | Details |
 |---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > WeChat Pay direct/redirect <br> - For direct orders, retrieve the `qr_url`, and render the QR code in your system to display it to the customer. <br> - For redirect orders to [payment pages](/payment-pages/), the QR code displays under **Payment methods**.  |
-| **Ready-made integrations** | Supported in our [PrestaShop 1.7 plugin](/prestashop/). |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > WeChat Pay direct/redirect <br> - For direct orders, retrieve the `qr_url`, and render the QR code in your system to display it to the customer. <br> - For redirect orders to [payment pages](/docs/payment-pages/), the QR code displays under **Payment methods**.  |
+| **Ready-made integrations** | Supported in our [PrestaShop 1.7 plugin](/docs/prestashop-1-7/). |
 <br>
 
 > ℹ️ Testing
-> To test WeChat Pay payments, see [Testing](/testing/#wallets).
+> To test WeChat Pay payments, see [Testing](/docs/testing#wallets).
 <br>
 
 ---

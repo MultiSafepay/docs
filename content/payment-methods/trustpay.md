@@ -19,9 +19,9 @@ Read how TrustPay can benefit your business on [multisafepay.com](https://www.mu
 | **Countries**  | Czech Republic  | 
 | **Currencies**  | CZK | 
 | **Expiration** | Transactions expire after 10 days. |
-| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions) |
-| **Refunds** | [Yes](/refunds/): Full and partial  |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial  |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 
 # Payment flow
 
@@ -87,7 +87,7 @@ You can activate TrustPay yourself in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Trustpay redirect |
-| **Ready-made integrations** | TrustPay (redirect) is supported in [Craft Commerce](/craft-commerce/), [CS-Cart](/cs-cart/), [Drupal 7 and 8](/drupal/), [Magento 2](/magento-2/), [Odoo](/odoo/), [PrestaShop 1.7](/prestashop/), [Shopware 5 and 6](/shopware/), [WooCommerce](/woo-commerce/), [VirtueMart](/virtuemart/), [X-Cart](/x-cart/). |
+| **Ready-made integrations** | TrustPay (redirect) is supported in [Craft Commerce](/docs/craft-commerce/), [CS-Cart](/docs/cs-cart/), [Drupal 7 and 8](/docs/drupal/), [Magento 2](/docs/magento-2/), [Odoo](/docs/odoo/), [PrestaShop 1.7](/docs/prestashop-1-7/), [Shopware 5 and 6](/docs/shopware/), [WooCommerce](/docs/woo-commerce/), [VirtueMart](/docs/virtuemart/), [X-Cart](/docs/x-cart/). |
 <br>
 
 > ℹ️ Testing

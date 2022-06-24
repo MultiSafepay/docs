@@ -19,9 +19,9 @@ Read how Belfius can benefit your business on [multisafepay.com](https://www.mul
 | **Countries**  | Belgium  | 
 | **Currencies**  | EUR | 
 | **Expiration** | Transactions expire after 5 days. |
-| **Payment pages** | [Yes](/payment-pages/) (current version only) |
-| **Refunds** | [Yes](/refunds/): Full and partial (1 business day after payment is completed) |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial (1 business day after payment is completed) |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
@@ -90,11 +90,11 @@ You can activate Belfius yourself in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Belfius direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/), **except** OsCommerce and ZenCart. |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/), **except** OsCommerce and ZenCart. |
 <br>
 
 > ℹ️ Testing
-> To test Belfius payments, see [Testing](/testing/#banking-methods).
+> To test Belfius payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---

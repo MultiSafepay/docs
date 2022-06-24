@@ -23,9 +23,9 @@ Read how Edenred can benefit your business on [multisafepay.com](https://www.mul
 | **Chargebacks** | No |
 | **Countries**  | Belgium  | 
 | **Currencies** | EUR  |  
-| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
 | **Refunds** | No |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 
 ### Terms and conditions
   
@@ -80,11 +80,11 @@ To test
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Edenred redirect <br> By default, all activated Edenred vouchers display at checkout, but you can also specify which Edenred vouchers to display per transaction. |
-| **Ready-made integrations** | Only supported in our [Magento 2](/magento-2/) integration. |
+| **Ready-made integrations** | Only supported in our [Magento 2](/docs/magento-2/) integration. |
 <br>
 
 > ℹ️ Testing
-> To test Edenred payments, see [Testing](/testing/#prepaid-cards).
+> To test Edenred payments, see [Testing](/docs/testing#prepaid-cards).
 <br>
 
 ---

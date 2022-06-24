@@ -22,8 +22,8 @@ Read how Pay After Delivery can benefit your business on [multisafepay.com](http
 | **Countries**  | The Netherlands  | 
 | **Currencies** | EUR  | 
 | **Expiration** | Transactions expire after 90 days. |
-| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions) |
-| **Refunds** |[Yes](/refunds/): Full, partial, and API refunds, [discounts](/discounts/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
+| **Refunds** |[Yes](/docs/refund-payments/): Full, partial, and API refunds, [discounts](/discounts/) |
 
 # Payment flow
 
@@ -94,11 +94,11 @@ First apply to MultiSafepay, and then activate in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Pay After Delivery direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct).   |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) (direct).   |
 <br>
 
 > ℹ️ Testing
-> To test Pay After Delivery payments, see [Testing](/testing/#pay-later-methods).
+> To test Pay After Delivery payments, see [Testing](/docs/testing#pay-later-methods).
 <br>
 
 ---
@@ -126,7 +126,7 @@ To close a transaction manually, follow these steps:
 5. Enter a comment about what happened with the order, and click **Complete**.  
     The total amount of the transaction is deducted from your account balance. 
 
-**Note:** Once the transaction status changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/refunds/) instead. 
+**Note:** Once the transaction status changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/docs/refund-payments/) instead. 
 
 </details>
 
@@ -176,7 +176,7 @@ You are solely responsible for this in your integration.
 
 ### Change the order status
 
-When you ship the order, you **must** manually change the [order status](/payment-statuses/) from **Completed** to **Shipped** to:
+When you ship the order, you **must** manually change the [order status](/docs/payment-statuses/) from **Completed** to **Shipped** to:
 
 - Capture the funds
 - Trigger sending the invoice to the customer
@@ -197,7 +197,7 @@ When you ship the order, you **must** manually change the [order status](/paymen
 
 **In your backend**
 
-If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
+If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/docs/our-integrations/) pass the updated status to your dashboard automatically:
 
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **Delivered** in your backend.
@@ -216,7 +216,7 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 
 ## Surcharges  
 
-Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
+Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
 We therefore strongly recommend **not** applying surcharges. 
 

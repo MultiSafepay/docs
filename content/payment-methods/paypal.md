@@ -15,14 +15,14 @@ Read how PayPal can benefit your business on [multisafepay.com](https://www.mult
 
 | Overview | Details |
 |---|---|
-| **Chargebacks**  |  [Yes](/chargebacks/)  |
+| **Chargebacks**  |  [Yes](/docs/chargebacks/)  |
 | **Countries**  | Worldwide  | 
 | **Currencies**  | [Multiple](https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/) | 
 | **Expiration**  | Transactions expire after 14 days. |
-| **Payment components** | [Yes](/payment-components/) | 
-| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions) |
-| **Refunds** | [Yes](/refunds/): Full and partial (see guidance below) | 
-| **Second Chance** | [Yes](/second-chance/) | 
+| **Payment components** | [Yes](/docs/payment-components/) | 
+| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial (see guidance below) | 
+| **Second Chance** | [Yes](/docs/second-chance/) | 
 
 # Payment flow
 
@@ -132,7 +132,7 @@ To configure your MultiSafepay account for PayPal, follow these steps:
 > ✅ Success
 > Your account is now configured!  
 
-We strongly recommend [testing transactions](/testing/) before processing live payments. 
+We strongly recommend [testing transactions](/docs/testing/) before processing live payments. 
 </details>
 
 # Integration
@@ -140,11 +140,11 @@ We strongly recommend [testing transactions](/testing/) before processing live p
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > PayPal direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) |
 <br>
 
 > ℹ️ Testing
-> To test PayPal payments, see [Testing](/testing/#wallets).
+> To test PayPal payments, see [Testing](/docs/testing#wallets).
 <br>
 
 ---

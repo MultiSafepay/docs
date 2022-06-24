@@ -279,7 +279,7 @@ Merchant: For card-not-present transactions, reattempt with 3D Secure.
 
 This page sets out possible reasons why a credit card payment was declined. 
 
-Only the cardholder can contact the [issuer](/glossaries/credit-cards/#issuer) to find out the specific reason.
+Only the cardholder can contact the <<glossary:issuer>> to find out the specific reason.
 
 ### Declined by MultiSafepay 
 Our automated fraud filter flagged the transaction as probably fraudulent.  

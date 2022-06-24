@@ -18,14 +18,14 @@ Read how Sofort can benefit your business on [multisafepay.com](https://www.mult
 |---|---|
 | **Amount limit** | Minimum amount: 0,10 EUR |
 | **Chargebacks**  | No | 
-| **Countries**  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland <br> ❗ Transactions processed in non-supported countries return a [1024 error](/errors/handling-errors/#error-1024-transaction-refused).  | 
+| **Countries**  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland <br> ❗ Transactions processed in non-supported countries return a [1024 error](/docs/errors#error-1024-transaction-refused).  | 
 | **Currencies**  | EUR (GBP, CHF, PLN **not** supported) | 
 | **Expiration** | Transactions expire after 1 day. |
-| **Payment components** | [Yes](/payment-components/) |
-| **Payment pages** | [Yes](/payment-pages/) (current version only) |
-| **Recurring payments** | [Yes](/recurring-payments/)|
-| **Refunds** | [Yes](/refunds/): Full and partial  |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Payment components** | [Yes](/docs/payment-components/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
+| **Recurring payments** | [Yes](/docs/recurring-payments/)|
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial  |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 
 # Payment flow
 
@@ -96,11 +96,11 @@ You can activate Sofort yourself in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Sofort direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/). |
 <br>
 
 > ℹ️ Testing
-> To test Sofort payments, see [Testing](/testing/#banking-methods).
+> To test Sofort payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---

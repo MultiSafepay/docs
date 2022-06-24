@@ -15,15 +15,15 @@ Read how SEPA Direct Debit can benefit your business on [multisafepay.com](https
 
 | Overview | Details |
 |---|---|
-| **Chargebacks**  | [Yes](/chargebacks/) (see below) | 
+| **Chargebacks**  | [Yes](/docs/chargebacks/) (see below) | 
 | **Countries**  | [SEPA region](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf)  | 
 | **Currencies**  | EUR | 
-| **Payment components** | [Yes](/payment-components/) |
-| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions)  |
-| **Recurring payments** | [Yes](/recurring-payments/) |
-| **Refunds** | [Yes](/refunds/): Full and partial  |
-| **Second Chance** | [Yes](/second-chance/) |
-| **Virtual IBANs** | [Yes](/virtual-ibans/) to better manage SEPA Direct Debit payments | 
+| **Payment components** | [Yes](/docs/payment-components/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions)  |
+| **Recurring payments** | [Yes](/docs/recurring-payments/) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial  |
+| **Second Chance** | [Yes](/docs/second-chance/) |
+| **Virtual IBANs** | [Yes](/docs/virtual-ibans/) to better manage SEPA Direct Debit payments | 
 
 # Payment flow
 
@@ -79,7 +79,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
     - Monthly and annual SEPA Direct Debit transaction volume
     - Minimum and maximum transaction amount
     - Type of products sold using this payment method
-    - Whether you want to accept [recurring payments](/recurring-payments/)
+    - Whether you want to accept [recurring payments](/docs/recurring-payments/)
     - Whether any subscriptions are monthly, quarterly, or annual
     - Any additional information we request
     We send you an agreement to sign and email back to us.
@@ -102,11 +102,11 @@ First apply to MultiSafepay, and then activate in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > SEPA Direct Debit direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (direct) |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) (direct) |
 <br>
 
 > ℹ️ Testing
-> To test SEPA Direct Debit payments, see [Testing](/testing/#banking-methods).
+> To test SEPA Direct Debit payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---
@@ -115,7 +115,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 ## Chargebacks
 
-Customers can request a [chargeback](/chargebacks/) within 56 days, or for unauthorized transactions (i.e. without verifiable consent from the customer) within 13 months. This makes SEPA Direct Debit unsuitable for most retail businesses, e.g.&nbsp;clothing.
+Customers can request a [chargeback](/docs/chargebacks/) within 56 days, or for unauthorized transactions (i.e. without verifiable consent from the customer) within 13 months. This makes SEPA Direct Debit unsuitable for most retail businesses, e.g.&nbsp;clothing.
 
 You cannot dispute chargebacks and there is no facilitated process like there is for credit card chargebacks. Chargebacks can cost up to 65 EUR in bank fees.
 

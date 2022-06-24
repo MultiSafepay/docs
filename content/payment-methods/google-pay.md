@@ -15,14 +15,14 @@ Read how Google Pay can benefit your business on [multisafepay.com](https://www.
 
 | Overview | Details |
 |---|---|
-| **Chargebacks**  | [Yes](/chargebacks/) | 
+| **Chargebacks**  | [Yes](/docs/chargebacks/) | 
 | **Countries**  | Worldwide <br> See Google Pay – [Countries or regions where you can use Google Pay](https://support.google.com/pay/answer/9023773?hl=en#zippy=%2Cpay-online-or-in-apps).  | 
 | **Currencies**  | Multiple  | 
 | **Expiration** | Transactions expire after 1 hour. |
-| **Payment pages** | [Yes](/payment-pages/) (current version only) |
-| **Recurring payments** | [Yes](/recurring-payments/)  |
-| **Refunds** | [Yes](/refunds/): Full and partial <br> Customers receive refunds in their Google Pay account, and they appear on their credit card statement within the next business day.  |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
+| **Recurring payments** | [Yes](/docs/recurring-payments/)  |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial <br> Customers receive refunds in their Google Pay account, and they appear on their credit card statement within the next business day.  |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 
 > ℹ️ Notes 
 > - By processing Google Pay payments, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos).
@@ -51,11 +51,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | Description | Order | Transaction |
 |---|---|---|
 | The customer has been redirected for 3D Secure authentication, or the <<glossary:card scheme>> is authorizing the transaction. | Initialized | Initialized |
-| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/uncaptured/). | Uncleared | Uncleared |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/docs/uncaptured/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
 | The customer didn't complete 3D Secure authentication. | Expired | Expired |
-| The customer failed 3D Secure authentication or cancelled payment. See [Card errors](/card-errors/). | Declined | Declined   |
+| The customer failed 3D Secure authentication or cancelled payment. See [Card errors](/docs/card-errors/). | Declined | Declined   |
 
 </details>
 
@@ -102,11 +102,11 @@ First apply to MultiSafepay, and then activate in your dashboard.
 |---|---|
 | **API** | To easily integrate Google Pay using MultiSafepay payment pages (redirect), see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. |
 | **Direct integration** | To embed Google Pay in your checkout page for the best user experience, see [Google Pay™ direct integration](/google-pay-integration). |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect), **except** Magento 2 and WooCommerce. For these, you can use a generic gateway. See the relevant manual. |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) (redirect), **except** Magento 2 and WooCommerce. For these, you can use a generic gateway. See the relevant manual. |
 <br>
 
 > ℹ️ Testing
-> To test Google Pay payments, see [Testing](/testing/#wallets).
+> To test Google Pay payments, see [Testing](/docs/testing#wallets).
 <br>
 
 ---

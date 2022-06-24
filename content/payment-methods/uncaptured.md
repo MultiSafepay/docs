@@ -14,7 +14,7 @@ To help reduce the risks associated with accepting credit cards, MultiSafepay's 
 
 All card transactions are assigned a fraud score from 1-10: 10 being the most at risk of fraud. 
 
-For higher-risk transactions, the payment is placed on hold and the [transaction status](/payment-statuses/) changes to **Uncleared**. 
+For higher-risk transactions, the payment is placed on hold and the [transaction status](/docs/payment-statuses/) changes to **Uncleared**. 
 
 | Fraud score | On hold | Action required |
 |---|---|---|
@@ -59,7 +59,7 @@ The following indicators paint a cumulative picture of uncaptured payments, but 
 <summary>3D Secure</summary>
 <br>
 
-[3D Secure](/3ds2/) is an authentication protocol for verifying the cardholder's identity, e.g. with an additional password or code, or a credit card reader. If the customer passes authentication, you are protected against fraud-related [chargebacks](/chargebacks/).
+[3D Secure](/docs/3ds2/) is an authentication protocol for verifying the cardholder's identity, e.g. with an additional password or code, or a credit card reader. If the customer passes authentication, you are protected against fraud-related [chargebacks](/docs/chargebacks/).
 
 Check if the customer is enrolled for 3D Secure. On the **Transaction details** page > **Risk summary**, their status displays as **Enrolled**.  
  
@@ -130,9 +130,9 @@ You can view the number of cards used:
 <summary>Settlement status</summary>
 <br>
 
-After you ship a [Klarna](/klarna/), [Afterpay](/afterpay/), [Betaal per Maand](/betaal-per-maand/), and [Pay After Delivery](/pay-after-delivery/) order, the order status is **Shipped** and the transaction status is **Uncleared**. At this point, the transaction is confirmed and settlement is guaranteed. The transaction status changes to **Completed** when MultiSafepay adds the funds to your account balance.
+After you ship a [Klarna](/docs/klarna/), [Afterpay](/docs/afterpay/), [Betaal per Maand](/docs/betaal-per-maand/), and [Pay After Delivery](/docs/pay-after-delivery/) order, the order status is **Shipped** and the transaction status is **Uncleared**. At this point, the transaction is confirmed and settlement is guaranteed. The transaction status changes to **Completed** when MultiSafepay adds the funds to your account balance.
 
-For [Request to Pay](/request-to-pay/), [Sofort](/sofort/), and [SEPA Direct Debit](/sepa-direct-debit/), **Uncleared** status means MultiSafepay has not yet received settlement partially or in full. We recommend **not** shipping orders during this status.
+For [Request to Pay](/docs/request-to-pay/), [Sofort](/docs/sofort/), and [SEPA Direct Debit](/docs/sepa-direct-debit/), **Uncleared** status means MultiSafepay has not yet received settlement partially or in full. We recommend **not** shipping orders during this status.
 
 </details>
 
@@ -162,7 +162,7 @@ Check if the transaction amount is noticeably higher or lower than average. Are 
 ---
 
 > ℹ️ See also
-> [Viewing your uncleared balance](/account-balance/#uncleared-balance)
+> [Viewing your uncaptured balance](/docs/account-balance#uncaptured-balance)
 
 [block:html]
 {

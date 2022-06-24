@@ -293,7 +293,7 @@ To dispute this type of chargeback, you need to provide evidence that:
 
 The cardholder denies authorizing the charge, and your business has been placed in the fraud full recourse program: **Investigation confirms fraud**.
 
-To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or [3D Secure](/cards/3ds2/).
+To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or [3D Secure](/docs/3ds2/).
 
 </details>
 
@@ -307,7 +307,7 @@ To dispute this type of chargeback, you need to provide proof that:
 
 - The receipt is signed, or 
 - The cardholder was present at the time of the transaction, or 
-- The transaction was verified by [3D Secure](/cards/3ds2/)
+- The transaction was verified by [3D Secure](/docs/3ds2/)
 
 </details>
 
@@ -315,7 +315,7 @@ To dispute this type of chargeback, you need to provide proof that:
 <summary>Reason code 4540: Card not present</summary>
 <br>
 
-The cardholder denies participating in a [MOTO](/moto/) transaction you processed. American Express investigates and confirms that the transaction is fraudulent.
+The cardholder denies participating in a [MOTO](/docs/moto/) transaction you processed. American Express investigates and confirms that the transaction is fraudulent.
 
 To dispute this type of chargeback, you need to provide evidence that:
 
@@ -423,7 +423,7 @@ To dispute this type of chargeback, you need to provide fully itemized documents
 <summary>Reason code 4544: Goods and services, cancellation of recurring payments</summary>
 <br>
 
-You have continued to charge the cardholder's account after they notified you to cancel or revoke consent for [Recurring payments](/recurring-payments/).
+You have continued to charge the cardholder's account after they notified you to cancel or revoke consent for [Recurring payments](/docs/recurring-payments/).
 
 To dispute this type of chargeback, you need to provide:
 
@@ -466,7 +466,7 @@ To dispute this type of chargeback, you need to provide evidence that:
 
 The cardholder denies authorizing the charge, and your business has been placed in the fraud full recourse program: **Investigation confirms fraud**
 
-To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or [3D Secure](/3ds2/).
+To dispute this type of chargeback, you need to provide proof that the transaction is exempt, or was authorized by a PIN, or [3D Secure](/docs/3ds2/).
 
 </details>
 
@@ -524,7 +524,7 @@ We set out below ways to minimize the risk of the most common types of chargebac
 <summary>Fraud</summary>
 <br>
 
-Use [3D Secure](/cards/3ds2/) for all credit card transactions. 
+Use [3D Secure](/docs/3ds2/) for all credit card transactions. 
 
 Cardholders are not allowed to request chargebacks due to fraud for 3D Secure-protected transactions.  
 </details>

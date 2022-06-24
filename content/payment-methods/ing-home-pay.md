@@ -22,7 +22,7 @@ Check your integration. If you use a:
 
 ## Alternative payment methods
 
-[Bancontact](/bancontact/), Belgium’s leading payment method, is an excellent option to continue attracting Belgian customers. Other popular local alternatives are [Belfius](/belfius/) or [CBC/KBC](/cbc-kbc/).
+[Bancontact](/docs/bancontact/), Belgium’s leading payment method, is an excellent option to continue attracting Belgian customers. Other popular local alternatives are [Belfius](/docs/belfius/) or [CBC/KBC](/docs/cbc-kbc/).
 <br>
 
 ---

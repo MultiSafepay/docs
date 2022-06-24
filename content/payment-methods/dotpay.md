@@ -20,9 +20,9 @@ Read how Dotpay can benefit your business on [multisafepay.com](https://www.mult
 | **Countries**  | Poland  | 
 | **Currencies**  | EUR, PLN | 
 | **Expiration** | Transactions expire after 3 days. |
-| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions) |
-| **Refunds** | [Yes](/refunds/): Full and partial |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 
 # Payment flow
 
@@ -89,11 +89,11 @@ First apply to MultiSafepay, and then activate in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Dotpay redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/). |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/). |
 <br>
 
 > ℹ️ Testing
-> To test Dotpay payments, see [Testing](/testing/#banking-methods).
+> To test Dotpay payments, see [Testing](/docs/testing#banking-methods).
 
 ---
 

@@ -6,13 +6,13 @@ hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'google-pay-direct'
 ---
-With direct integration, the **Google Pay** button appears in your checkout page, where customers complete payment without being redirected to a [payment page](/payment-pages/).
+With direct integration, the **Google Pay** button appears in your checkout page, where customers complete payment without being redirected to a [payment page](/docs/payment-pages/).
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/google-pay-screen.png"  align ="center"/>
 
 # Prerequisites
 
-- Google Pay must be [activated in your MultiSafepay account](/payment-methods/google-pay/activation/).
+- Google Pay must be [activated in your MultiSafepay account](/docs/payment-methods/).
 - You need to register your business and site in [Google Pay's Business Console](https://pay.google.com/business/console/).
 - You must serve an HTTPS webpage with a TLS domain-validated certificate.
 - By accessing or using the Google Pay API, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos).
@@ -305,7 +305,7 @@ If 3D Secure authentication is required, the customer is automatically redirecte
 
 After you've implemented the steps above, to test your integration:
 
-- [MultiSafepay's Google Pay testing procedure](/payment-methods/google-pay/integration-testing/#testing)
+- [MultiSafepay's Google Pay testing procedure](/docs/testing#google-pay)
 - [Google Pay – Integration checklist](https://developers.google.com/pay/api/web/guides/test-and-deploy/integration-checklist)
 
 Then, when you're ready to go live:

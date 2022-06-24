@@ -19,8 +19,8 @@ Read how Klarna can benefit your business on [multisafepay.com](https://www.mult
 | **Countries**  | Austria, Belgium, Denmark, Finland, France, Germany, Italy, Norway, Portugal, Spain, Sweden, Switzerland, The Netherlands, UK (US **not** supported)  | 
 | **Currencies**  | EUR, GBP, SEK, NOK, DKK  | 
 | **Expiration** | Transactions expire after 1 hour. |
-| **Payment pages** | [Yes](/payment-pages/) (current version only) |
-| **Refunds** | [Yes](/refunds/): Full, partial, and API refunds, [discounts](/discounts/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds, [discounts](/discounts/) |
 
 # Payment flow
 
@@ -103,11 +103,11 @@ For support, email <integration@multisafepay.com>
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Klarna direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/integrations/ready-made/) (redirect). |
+| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) (redirect). |
 <br>
 
 > ℹ️ Testing
-> To test Klarna payments, see [Testing](/testing/#pay-later-methods).
+> To test Klarna payments, see [Testing](/docs/testing#pay-later-methods).
 <br>
 
 ---
@@ -287,7 +287,7 @@ Both reference numbers appear in the **Transaction details** page in your dashbo
 
 ### Change the order status
 
-When you ship the order, you **must** manually change the [order status](/payment-statuses/) from **Completed** to **Shipped**, which:
+When you ship the order, you **must** manually change the [order status](/docs/payment-statuses/) from **Completed** to **Shipped**, which:
 
 - Captures the funds
 - Triggers sending the invoice to the customer
@@ -308,7 +308,7 @@ When you ship the order, you **must** manually change the [order status](/paymen
 
 **In your backend**
 
-If you change the order status in your backend, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
+If you change the order status in your backend, the following [ready-made integrations](/docs/our-integrations/) pass the updated status to your dashboard automatically:
 
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **delivered** in your backend.
@@ -323,7 +323,7 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 
 If you cannot ship the order within 28 days, you can extend the time period for up to 180 days in segments.
 
-If the order is not captured during this time, the [order and transaction status](/payment-statuses/) change to **expired**.
+If the order is not captured during this time, the [order and transaction status](/docs/payment-statuses/) change to **expired**.
 
 <details id="how-to-extend-the-shipping-period"> 
 <summary>How to extend the shipping period</summary>
@@ -337,7 +337,7 @@ If the order is not captured during this time, the [order and transaction status
 
 ## Surcharges  
 
-Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
+Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
 We therefore strongly recommend **not** applying surcharges. 
 

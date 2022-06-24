@@ -15,14 +15,14 @@ Read how in3 can benefit your business on [multisafepay.com](https://www.multisa
 
 | Overview | Details |
 |---|---|
-| **Amount limits** | Minimum amount: 100 EUR Maximum amount: 3000 EUR <br> You can adjust these limits in the <<glossary:backend>> of our [ready-made integrations](/integrations/ready-made/) to show or hide in3 on your checkout page depending on the order value. |
+| **Amount limits** | Minimum amount: 100 EUR Maximum amount: 3000 EUR <br> You can adjust these limits in the <<glossary:backend>> of our [ready-made integrations](/docs/our-integrations/) to show or hide in3 on your checkout page depending on the order value. |
 | **Chargebacks**  | No  |
 | **Countries**  | The Netherlands – in3 checks the customer's country, and billing/shipping address to confirm.  | 
 | **Currencies**  | EUR  |  
 | **Expiration** | Transactions expire after 2 hours. |
-| **Payment pages** | [Yes](/payment-pages/) (current version only) |
-| **Refunds** | [Yes](/refunds/): Full, partial, and API refunds, [discounts](/discounts/) <br> You can request in3 to process a full or partial refund, either before payout or up to 1 year afterwards. |
-| **Second Chance** | [Yes](/second-chance/) |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds, [discounts](/discounts/) <br> You can request in3 to process a full or partial refund, either before payout or up to 1 year afterwards. |
+| **Second Chance** | [Yes](/docs/second-chance/) |
 
 # Payment flow
 
@@ -94,11 +94,11 @@ First apply to MultiSafepay, and then activate in your dashboard.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > in3 direct/redirect |
-| **Ready-made integrations** | in3 (direct) is supported in [Craft Commerce](/craft-commerce/), [Magento 1](/magento-1/), [OpenCart](/opencart/), [PrestaShop 1.7](/prestashop/), [VirtueMart](/virtuemart/), [WooCommerce](/woo-commerce/). |
+| **Ready-made integrations** | in3 (direct) is supported in [Craft Commerce](/docs/craft-commerce/), [Magento 1](/docs/magento-1/), [OpenCart](/docs/opencart/), [PrestaShop 1.7](/docs/prestashop-1-7/), [VirtueMart](/docs/virtuemart/), [WooCommerce](/docs/woo-commerce/). |
 <br>
 
 > ℹ️ Testing
-> To test in3 payments, see [Testing](/testing/#pay-later-methods).
+> To test in3 payments, see [Testing](/docs/testing#pay-later-methods).
 <br>
 
 ---
@@ -123,7 +123,7 @@ When you ship the order, you can change the order status to **Shipped** for your
 <summary>How to change the order status to shipped</summary>
 <br>
 
-You can change the [order status](/payment-statuses/) from **Completed** to **Shipped**:
+You can change the [order status](/docs/payment-statuses/) from **Completed** to **Shipped**:
 
 **In your dashboard**
 
@@ -136,7 +136,7 @@ You can change the [order status](/payment-statuses/) from **Completed** to **Sh
 
 **In your backend**
 
-If you change the order status in your backend, the following [ready-made integrations](/integrations/ready-made/) pass the updated status to your dashboard automatically:
+If you change the order status in your backend, the following [ready-made integrations](/docs/our-integrations/) pass the updated status to your dashboard automatically:
 
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **Delivered** in your backend.
@@ -149,7 +149,7 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 
 ### Surcharges
 
-Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
+Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
 We therefore strongly recommend **not** applying surcharges. 
 

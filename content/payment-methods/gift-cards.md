@@ -16,8 +16,8 @@ Read how gift cards can benefit your business on [multisafepay.com](https://www.
 | **Countries**  | Belgium, The Netherlands  | 
 | **Currencies** | EUR  |  
 | **Expiration** | Transactions don't expire. |
-| **Payment pages** | [Yes](/payment-pages/) (current and deprecated versions) |
-| **Refunds** | Paid with gift card only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with gift card **and** another payment method: [Full refunds](/refunds/).  |
+| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
+| **Refunds** | Paid with gift card only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with gift card **and** another payment method: [Full refunds](/docs/refund-payments/).  |
 
 <details id="supported-gift-cards">
 <summary>Supported gift cards</summary>
@@ -104,11 +104,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | Integration | Details |
 |---|---|
 | **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Gift card redirect |
-| **Ready-made integrations** | We don’t support all open-loop gift cards in our [ready-made integrations](/integrations/ready-made/) and no closed-loop gift cards. Therefore in some integrations, we use generic gateways to support [custom gift cards](#custom-gift-cards). <br> To check if a specific gift card is supported in your ready-made integration, email the Integration Team at <integration@multisafepay.com>   |
+| **Ready-made integrations** | We don’t support all open-loop gift cards in our [ready-made integrations](/docs/our-integrations/) and no closed-loop gift cards. Therefore in some integrations, we use generic gateways to support [custom gift cards](#custom-gift-cards). <br> To check if a specific gift card is supported in your ready-made integration, email the Integration Team at <integration@multisafepay.com>   |
 <br>
 
 > ℹ️ Testing
-> To test gift card payments, see [Testing](/testing/#prepaid-cards).
+> To test gift card payments, see [Testing](/docs/testing#prepaid-cards).
 <br>
 
 ---
@@ -162,7 +162,7 @@ If a customer completes a payment and receives this error message, advise them t
 
 ## Pay later methods
 
-When paying with a gift card and a [pay later method](/pay-later/), customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+When paying with a gift card and a pay later method, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
 
 This is because pay later methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
