@@ -36,7 +36,7 @@ MultiSafepay supports the following credit and debit cards:
 | **Countries**  | Amex, Maestro, Mastercard, Visa: Worldwide <br> Cartes Bancaires: France <br> Dankort: Denmark <br>Postepay: Italy <br> V Pay: Europe | 
 | **Currencies**  | Multiple (Amex: EUR, GBP, USD only) <br> To support additional currencies, email <support@multisafepay.com> | 
 | **Expiration** | Transactions expire after 1 hour. |
-| **Payment components** | [Yes]](/docs/payment-components/) |
+| **Payment components** | [Yes](/docs/payment-components/) |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions)  |
 | **Recurring payments** | [Yes](/docs/recurring-payments/) |
 | **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
