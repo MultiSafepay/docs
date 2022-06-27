@@ -45,7 +45,8 @@ You can process full and partial refunds, but only from the account that created
 5. Enter the amount you want to refund to the customer.
 6. Click **Confirm refund**.  
     The <<glossary:transaction status>> changes to **Initialized**.
-7. [Cancel the refund](/refunds/).  
+7. [Cancel the refund](/docs/refund-payments/).  
+
 
 When the transaction status changes to **Completed**, the refund has been processed correctly. The customer receives the refund in the bank account the transaction was originally paid from the next business day.
 

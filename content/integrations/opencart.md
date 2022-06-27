@@ -48,7 +48,7 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
     - **Order status** tab
     - **Options** tab  
 
-To retrieve your API key, see [Site ID, API key, and secure code](/sites/#site-id-api-key-and-secure-code).
+To retrieve your API key, see [Site ID, API key, and secure code](/docs/sites#site-id-api-key-and-secure-code).
 <br>
 
 ---
@@ -108,7 +108,7 @@ You can filter payment methods by:
 - Maximum amount
 - Customer groups
 
-Full and partial refunds (except for [pay later](/pay-later/) methods), and backend orders are fully supported. You can also set a custom initial <<glossary:order status>>.
+Full and partial refunds (except for pay later methods), and backend orders are fully supported. You can also set a custom initial <<glossary:order status>>.
 
 </details>
 
@@ -198,7 +198,7 @@ As a temporary solution, you can disable payments with shopping carts.
 <summary>How to disable shopping carts</summary>
 <br>
 
-❗️ This disables all [pay later methods](/pay-later/).
+❗️ This disables all pay later methods.
 
 1. Sign in to your OpenCart backend.
 2. Go to **Extensions** > **Payments** > **MultiSafepay**.

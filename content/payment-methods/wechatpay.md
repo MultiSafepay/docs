@@ -86,14 +86,17 @@ First apply to MultiSafepay, and then activate in your dashboard.
 [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order 
 Examples > WeChat Pay direct/redirect 
 - For direct orders, retrieve the `qr_url`, and render the QR code in your system to display it to the customer.
-- For redirect orders to [payment pages](/payment-pages/), the QR code displays under **Payment methods**.
+- For redirect orders to [payment pages](/docs/payment-pages/), the QR code displays under **Payment methods**.
+
 
 ### Ready-made integrations
-Supported in our [PrestaShop 1.7 plugin](/prestashop/).
+Supported in our [PrestaShop 1.7 plugin](/docs/prestashop-1-7/).
+
 <br>
 
 ### Testing
-To test WeChat Pay payments, see [Testing](/testing/#wallets).
+To test WeChat Pay payments, see [Testing](/docs/testing#wallets).
+
 <br>
 
 ---

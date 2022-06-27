@@ -123,7 +123,8 @@ To close a transaction manually, follow these steps:
 5. Enter a comment about what happened with the order, and click **Complete**.  
     The total amount of the transaction is deducted from your account balance. 
 
-**Note:** Once the <<glossary:transaction status>> changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/refunds/) instead. 
+**Note:** Once the <<glossary:transaction status>> changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/docs/refund-payments/) instead. 
+
 
 </details>
 

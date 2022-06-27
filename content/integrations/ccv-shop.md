@@ -11,7 +11,7 @@ excerpt: "Technical manual for installing and configuring MultiSafepay's free ap
 
 # Prerequisites
 
-You will need a [MultiSafepay account](/getting-started-guide/).
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 # How to install and configure
 

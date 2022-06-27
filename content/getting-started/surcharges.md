@@ -14,7 +14,7 @@ Your right to apply surcharges varies per payment method and the customer’s co
 
 # PSD2
 
-The [PSD2](/psd2/) applies to the whole European Economic Area (EEA), but individual states can decide how to implement certain aspects. Always check what rules apply in the country your business is registered in. 
+The [PSD2](/docs/psd2/) applies to the whole European Economic Area (EEA), but individual states can decide how to implement certain aspects. Always check what rules apply in the country your business is registered in. 
 
 In the Netherlands, the [Authority for Consumers & Markets (ACM)](https://www.acm.nl) is responsible for PSD2 oversight. The Dutch National Bank recommends always contacting ACM for inquiries. 
 

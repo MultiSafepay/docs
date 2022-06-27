@@ -184,7 +184,7 @@ The report does **not** include:
 
 - Payouts (see [Payout report](#payout-report))
 - Monthly transaction fees 
-- VAT (see [VAT invoices](/invoices/))
+- VAT (see [VAT invoices](/docs/invoices/))
 
 </details >
 
@@ -203,7 +203,7 @@ The report does **not** include:
 ---
 # Payout report
 
-This report provides an overview (in Excel format) of the specific transactions and fees per [payout](/account/payouts/). It is helpful for matching payouts to specific orders or invoices for accounting purposes. 
+This report provides an overview (in Excel format) of the specific transactions and fees per [payout](/docs/payouts/). It is helpful for matching payouts to specific orders or invoices for accounting purposes. 
 
 <details id="report-contents">
 <summary>Report contents</summary>
@@ -280,7 +280,7 @@ This report provides an overview (in Excel format) of all transactions:
 
 - By payment method or country
 - Declined, retried and completed, retried and completed with a different payment method
-- Completed with [Second Chance](/second-chance/) 
+- Completed with [Second Chance](/docs/second-chance/) 
 
 To request a Second Chance report, email <sales@multisafepay.com>
 

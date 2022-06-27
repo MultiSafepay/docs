@@ -920,7 +920,7 @@ All expired orders retain **Waiting** status until you cancel them:
 
 ## Recurring payments
 
-[Recurring payments](/recurring-payments) are supported.
+[Recurring payments](/docs/recurring-payments) are supported.
 
 <details id="how-to-enable-recurring-payments">
 <summary>How to enable recurring payments</summary>

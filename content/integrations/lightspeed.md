@@ -15,12 +15,12 @@ slug: 'lightspeed'
 
 </details>
 > ⚠️ Action required
-> We recommend [upgrading to the latest version](/lightspeed/#upgrading-to-the-new-app) as soon as possible.
+> We recommend [upgrading to the latest version](//docs/lightspeed#how-to-upgrade-to-the-new-app) as soon as possible.
 
 # Prerequisites
 
-- [MultiSafepay account](/getting-started/guide/)
-- A MultiSafepay [site API key](/tools/multisafepay-control/get-your-api-key)
+- [MultiSafepay account](/docs/getting-started-guide/)
+- A MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code)
 - The app only supports one account per webshop
 
 # How to install 
@@ -34,7 +34,7 @@ slug: 'lightspeed'
 5. In the dialog, approve the permissions required for the app.  
    You are redirected to Lightspeed – [MultiSafepay: How to log in](https://lightspeed.multisafepay.com/install).
 6. In the **Setup** page:
-    - Enter your email address, [account ID and site API key](/sites/#site-id-api-key-and-secure-code).
+    - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-secure-code).
     - Select **Test** or **Live** environment, and click **Save and continue**.  
 You are redirected to the **Settings** page.
 7. We recommend enabling:
@@ -379,7 +379,7 @@ We recommend upgrading from our deprecated core integration to the Lightspeed ap
 <summary>How to upgrade to the new app</summary>
 <br>
 
-1. In the [Lightspeed app manual](/lightspeed/#installation), follow the steps to install the app.
+1. In the [Lightspeed app manual](/docs/lightspeed#how-to-install, follow the steps to install the app.
 2. Place a test order to make sure it's working properly.
 3. Open the core integration, and then [disable the payment provider](/docs/lightspeed#how-to-disable-core-integration).
 

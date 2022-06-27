@@ -23,7 +23,7 @@ To connect your Actuals account to your MultiSafepay account:
 2. Go to **Configuration**.
 3. Under **Payment service provider** > **MultiSafepay**, click **Add**.
 4. In the **Configuration name** field, rename the configuration, if relevant.
-5. In the **MultiSafepay API Key** field, enter your MultiSafepay [site API key](/sites/#site-id-api-key-and-secure-code), and then click **Save**.
+5. In the **MultiSafepay API Key** field, enter your MultiSafepay [site API key](/docs/sites#site-id-api-key-and-secure-code), and then click **Save**.
 6. To check the connection, go to **Configuration**.
 7. Under **In-use sources**, check that the **Status** of your MultiSafepay configuration is **Live**.
 
@@ -36,14 +36,14 @@ To connect your Actuals account to your MultiSafepay account:
 
 # AFAS
 
-[AFAS](https://www.afas.nl/) supports MultiSafepay [accountant exports](/docs/reports/#accountant-export) (MT940 format).
+[AFAS](https://www.afas.nl/) supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (MT940 format).
 
 For import instructions, see AFAS – [Contact](https://www.afas.nl/contact).
 
-### Forque
+## Forque
 For generating automated accounting reports, see Forque – [AFAS](https://www.forque.nl/afas-consultancy).
 
-### De Viske ICT
+## De Viske ICT
 For middleware solutions to automate processes and efficiently exchange data between AFAS and other applications, see De Viske ICT – [Applicaties](https://deviske.nl/applicaties/).
 
 ---
@@ -53,19 +53,19 @@ For middleware solutions to automate processes and efficiently exchange data bet
 
 # e-Boekhouden
 
-[e-Boekhouden](https://www.e-boekhouden.nl/koppelingen/payment-service-providers/multisafepay?qsm=387) supports MultiSafepay [accountant exports](/docs/reports/#accountant-export) (MT940 or CSV format).
+[e-Boekhouden](https://www.e-boekhouden.nl/koppelingen/payment-service-providers/multisafepay?qsm=387) supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (MT940 or CSV format).
 
 For import instructions, see e-Boekhouden – [Contact](https://www.e-boekhouden.nl/contact).
 
 To add MultiSafepay [payment links](/docs/payment-links/) to e-Boekhouden invoices to let customers pay directly, see e-Boekhouden – [How do I insert a payment link or image in my invoices](https://secure.e-boekhouden.nl/bh/kb.asp?ACTION=SHOW&ID=237&POPUP=1).
 
-### PSP Betalingen integration
+## PSP Betalingen integration
 
 PSP Betalingen has developed an integration that connects your MultiSafepay account to e-Boekhouden, continually importing your transactions so you can automate reconciliation.
 
 For more information, see PSP Betalingen – [Koppeling MultiSafepay e-Boekhouden](https://www.webwinkelfacturen.nl/koppelingpsp.php?shopsystem=multisafepay&invoicesystem=eboekhouden).
 
-To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – [Handleiding: MultiSafepay e-Boekhouden](https://handleidingen.pspbetalingen.nl/handleiding-multisafepay-eboekhouden). (You will need a MultiSafepay [site API key](/sites/#site-id-api-key-and-secure-code).)
+To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – [Handleiding: MultiSafepay e-Boekhouden](https://handleidingen.pspbetalingen.nl/handleiding-multisafepay-eboekhouden). (You will need a MultiSafepay [site API key](/docs/sites#site-id-api-key-and-secure-code).)
 
 ---
 
@@ -74,7 +74,7 @@ To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – [Ha
 
 # Exact
 
-[Exact](https://www.exact.com/nl) Globe or Online support MultiSafepay [accountant exports](/docs/reports/#accountant-export) (MT940 format). 
+[Exact](https://www.exact.com/nl) Globe or Online support MultiSafepay [accountant exports](/docs/reports#accountant-export) (MT940 format). 
 
 <details id="prerequisites">
 <summary>Prerequisites</summary>
@@ -159,7 +159,7 @@ To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – [Ha
 
     </details>
 
-### Denovit integration
+## Denovit integration
 
 You can automatically insert MultiSafepay [payment links](/docs/payment-links/) into Exact invoices using the [Denovit payment link module](https://www.denovit.nl/Exact-PaymentLink).
 
@@ -170,7 +170,7 @@ You can automatically insert MultiSafepay [payment links](/docs/payment-links/) 
 1. Sign in to your Denovit account.
 2. Go to your **Dashboard**, and then select the **Paylink** module. 
 3. Connect to your Exact account.
-4. Under **PSP settings**, enter your [MultiSafepay API key](/glossaries/multisafepay-glossary/#api-key) and the payment conditions you use in Exact. 
+4. Under **PSP settings**, enter your [MultiSafepay API key](/docs/sites#site-id-api-key-and-secure-code) and the payment conditions you use in Exact. 
 5. Adjust other settings as relevant, e.g. personalize your email template, thank-you page, or notification email to improve customer experience.
 
 For each new invoice in Exact, if you:
@@ -180,7 +180,7 @@ For each new invoice in Exact, if you:
 
 </details >
 
-### xCore integration
+## xCore integration
 
 Automatically reconciling sales from your site with payments received via MultiSafepay saves time and increases accuracy.
 
@@ -231,7 +231,7 @@ For more information, see xCore – [Afletteren MultiSafepay met Exact Globe](ht
 
 # King Business Software
 
-[King Business Software](https://www.kingconnections.eu/MultiSafePay) supports MultiSafepay [accountant exports](/docs/reports/) (MT940 format).
+[King Business Software](https://www.kingconnections.eu/MultiSafePay) supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (MT940 format).
 
 For import instructions, see King Business Software – [Service](https://service.king.eu).
 
@@ -242,7 +242,7 @@ For import instructions, see King Business Software – [Service](https://servic
 
 # Snelstart
 
-[Snelstart](https://www.snelstart.nl) supports MultiSafepay [accountant exports](/docs/reports/#accountant-export) (MT940 format).
+[Snelstart](https://www.snelstart.nl) supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (MT940 format).
 
 For import instructions, see Snelstart – [Klantenservice](https://www.snelstart.nl/klantenservice).
 
@@ -271,7 +271,7 @@ To add MultiSafepay [payment links](/docs/payment-links/) to SnelStart invoices 
 
 # Twinfield
 
-[Twinfield](https://taxnl.wolterskluwer.com/) supports MultiSafepay [accountant exports](/docs/reports/#accountant-exports) (MT940 format). 
+[Twinfield](https://taxnl.wolterskluwer.com/) supports MultiSafepay [accountant exports](/docs/reports#accountant-exports) (MT940 format). 
 
 You must first provide Twinfield with an additional international bank account number (IBAN). This can be a dummy (placeholder) IBAN.
 
@@ -315,7 +315,7 @@ You must first provide Twinfield with an additional international bank account n
 
 # Unit4
 
-[Unit4](https://accountancygemak.nl/) supports MultiSafepay [accountant exports](/docs/reports/#accountant-export) (MT940 format).
+[Unit4](https://accountancygemak.nl/) supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (MT940 format).
 
 For import instructions, see Unit4 – [Support](https://accountancygemak.nl/support/).
 
@@ -326,7 +326,7 @@ For import instructions, see Unit4 – [Support](https://accountancygemak.nl/sup
 
 # Visma
 
-[Visma](https://nl.visma.com/) supports MultiSafepay [accountant exports](/docs/reports/#accountant-export) (MT940 and CAMT053 formats).
+[Visma](https://nl.visma.com/) supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (MT940 and CAMT053 formats).
 
 For import instructions, see Visma – [Contact](https://nl.visma.com/accountview-support/contact).
 
@@ -337,7 +337,7 @@ For import instructions, see Visma – [Contact](https://nl.visma.com/accountvie
 
 # Yuki
 
-[Yuki](https://www.yuki.nl/nl/) supports MultiSafepay [accountant exports](/docs/reports/#accountant-export) (MT940 format).
+[Yuki](https://www.yuki.nl/nl/) supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (MT940 format).
 
 <details id="how-to-import">
 <summary>How to import</summary>
@@ -372,7 +372,7 @@ For more information, see Yuki - [Create bank processing rule](https://support.y
 
 To connect Duopact with your MultiSafepay account, see Duopact – [Contact](https://www.duopact.nl/nl/contact/).  
 
-Provide Duopact with your MultiSafepay [site API key](/sites/#site-id-api-key-and-secure-code). They will set up a Yuki account for you. 
+Provide Duopact with your MultiSafepay [site API key](/docs/sites#site-id-api-key-and-secure-code). They will set up a Yuki account for you. 
 
 </details >
 

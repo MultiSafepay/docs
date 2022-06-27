@@ -193,7 +193,7 @@ If you're new to accepting credit card payments, email a request to activate the
 
 ## Recurring payments
 
-The plugin supports [recurring payments](/features/recurring-payments).
+The plugin supports [recurring payments](/docs/recurring-payments).
 
 <details id="how-to-enable-recurring-payments">
 <summary>How to enable recurring payments</summary>
@@ -210,8 +210,8 @@ The plugin supports [recurring payments](/features/recurring-payments).
 
 ## Refunds
 
-- [Full and partial refunds](/refunds/) are supported in your MultiSafepay dashboard and backend.  
-- [Pay later refunds](/payment-methods/pay-later/) are only supported in your dashboard.
+- [Full and partial refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.  
+- [Pay later refunds](/docs/refund-payments#pay-later-refunds) are only supported in your dashboard.
     
 <details id="how-to-disable-api-refunds">
 <summary>How to disable API refunds</summary>

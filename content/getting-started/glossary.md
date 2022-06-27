@@ -34,7 +34,7 @@ A financial institution that issues credit cards, provides infrastructure, and p
 
 ---
 #### card verification code (CVC)
-A 3 or 4 digit code customers enter as an additional layer of security for online credit or debit card payments. Not required for all cards, or for [recurring payments](/recurring-payments/).
+A 3 or 4 digit code customers enter as an additional layer of security for online credit or debit card payments. Not required for all cards, or for [recurring payments](/docs/recurring-payments/).
 
 ---
 #### collecting party

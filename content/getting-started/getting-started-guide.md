@@ -10,13 +10,13 @@ slug: 'getting-started-guide'
 
 Simply fill out a signup form, and then sign in to your test dashboard using the security code we email you.
 
-**Full guidance:** [Create an account](/create-account/)
+**Full guidance:** [Create an account](/docs/create-account/)
 
 # 2. Set up your account
 
 You need to add at least one site to your account, and to activate your selected payment methods.
 
-**Full guidance:** [Manage my account](/manage-account/)
+**Full guidance:** [Manage my account](/docs/manage-account/)
 
 # 3. Choose an integration method 
 
@@ -26,18 +26,18 @@ For help selecting an integration method, email <integration@multisafepay.com>
 ## Ready-made integrations  
 MultiSafepay's integrations developed in-house require fewer development resources and let you start testing straight away. We have a wide range of plugins and apps to integrate with platforms like Magento, WooCommerce, Shopware, and Lightspeed.
 
-**Full guidance:** [Ready-made integrations](/integrations/ready-made/)
+**Full guidance:** [Ready-made integrations](/docs/our-integrations/)
 
 ## Self-made integrations
 Build your own integration, especially if you are developing a new ecommerce website or app. This generally requires more development resources, but lets you fully customize the look, feel, and functionality of your checkout experience.
 
-**Full guidance:** [Self-made integrations](/integrations/self-made/)
+**Full guidance:** [Self-made integrations](/docs/self-made/)
 
 # 4. Test your integration 
 
 Before you start processing real transactions, test each payment method.
 
-**Full guidance:** [Test your integration](/payments/testing/)
+**Full guidance:** [Testing payment methods](/docs/testing/)
 
 # 5. Onboard your account
 
@@ -50,7 +50,7 @@ To start processing real transaction, we need to check and approve your company 
 
 We then perform know your customer (KYC) checks. If approved, your account goes live.
 
-**Full guidance:** [Onboarding](/onboarding/)
+**Full guidance:** [Onboarding](/docs/onboarding/)
 <br>
 
 ---
