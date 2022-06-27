@@ -304,7 +304,7 @@ To translate the names of payment methods:
 <summary>How to upgrade to version 5.x</summary>
 <br>
 
-If you use a verWe recommend upgrade to version 5.x from an older version, follow these steps:
+We recommend upgrading to version 5.x from older versions.
 
 1. Go to **Modules** > **Module manager** > **MultiSafepay** > **Configure**.
 2. On the **Payment methods** tab, set all payment methods to **Off**.

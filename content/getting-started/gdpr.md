@@ -38,5 +38,10 @@ Email a request to delete data to the data protection officer at <dataprotection
 
 --- 
 
-> 💬  Support
-> Email <support@multisafepay.com>
+<blockquote class="callout callout_info">
+    <h3 class="callout-heading false">
+        <span class="callout-icon">💬</span>
+        <p>Support</p>
+    </h3>
+    <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
+</blockquote>

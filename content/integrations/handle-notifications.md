@@ -175,5 +175,10 @@ If for some reason you don't receive a notification:
 
 ---
 
-> 💬 Support
-> Email <integration@multisafepay.com>
+<blockquote class="callout callout_info">
+    <h3 class="callout-heading false">
+        <span class="callout-icon">💬</span>
+        <p>Support</p>
+    </h3>
+    <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+</blockquote>

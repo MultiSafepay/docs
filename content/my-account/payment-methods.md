@@ -184,9 +184,14 @@ To complete the configuration, change the language encoding setting of your PayP
 5. From the **Encoding** list, select **UTF-8**.
 6. Select the **Yes** checkbox, and then click **Save**.
 
-> 💬  Support 
-> - MultiSafepay – <integration@multisafepay.com>
-> - PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us)
+<blockquote class="callout callout_info">
+    <h3 class="callout-heading false">
+        <span class="callout-icon">💬</span>
+        <p>Support</p>
+    </h3>
+    <p>- MultiSafepay – <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+    <p>- PayPal – <a href="https://www.paypal.com/us/smarthelp/contact-us">Contact us</a></p>
+</blockquote>
 
 > ⚠️ Known error
 > If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account.

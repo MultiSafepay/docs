@@ -92,8 +92,7 @@ We recommend testing Klarna payments via the Klarna Portal to experience the ful
 
 For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
 
-> 💬  Support 
-> Email <integration@multisafepay.com>
+For support, email <integration@multisafepay.com>
 </details>
 
 # Integration

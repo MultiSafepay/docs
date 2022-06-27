@@ -76,7 +76,6 @@ The Python wrapper for MultiSafepay's REST API.
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/multisafepay-python-wrapper" target="_blank"><span>View on GitHub</span></a>
 
-This page lists errors you may encounter in transaction responses or statuses, or under **Offline actions** in your MultiSafepay dashboard, possible causes and how to resolve them.
 
 ---
 ### Error 1000: Unknown message type
