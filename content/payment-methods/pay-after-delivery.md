@@ -15,15 +15,15 @@ Customers are only charged for the items they keep. MultiSafepay bears the risk,
 
 Read how Pay After Delivery can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
-| **Amount limits** | Minimum and maximum order amounts apply. Email <sales@multisafepay.com> |
 | **Chargebacks**  | No  | 
 | **Countries**  | The Netherlands  | 
 | **Currencies** | EUR  | 
-| **Expiration** | Transactions expire after 90 days. |
+| **Discounts** | [Yes](/docs/discounts/) |
+
 | **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
-| **Refunds** |[Yes](/docs/refund-payments/): Full, partial, and API refunds, [discounts](/discounts/) |
+| **Refunds** |[Yes](/docs/refund-payments/): Full, partial, and API refunds| 
 
 # Payment flow
 
@@ -37,11 +37,9 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | MultiSafepay's risk analysis is in progress. You can still cancel. | Initialized | Initialized | 
 | We have authorized the transaction and the funds are awaiting capture. You can no longer cancel. You can only refund. <br> See [Close transactions](#close-transactions). | Completed | Uncleared | 
@@ -50,19 +48,8 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | The transaction was cancelled. | Void/Cancelled   | Void/Cancelled | 
 | MultiSafepay declined the transaction. | Declined | Declined |
 | The customer didn't complete payment within 90 days. | Expired | Expired | 
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
-|---|---|---|
-| Refund initiated. | Initialized | Initialized |  
-| Refund complete. | Completed | Completed | 
-
-</details>
+| **Refunds:** Refund initiated. | Initialized | Initialized |  
+| **Refunds:** Refund complete. | Completed | Completed | 
 
 # Activation 
 
@@ -88,14 +75,16 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Pay After Delivery direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) (direct).   |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order. 
+- Examples > Pay After Delivery direct/redirect.
+- Transactions expire after 90 days.
 
-> ℹ️ Testing
-> To test Pay After Delivery payments, see [Testing](/docs/testing#pay-later-methods).
+### Ready-made integrations
+Supported in all [ready-made integrations](/docs/our-integrations/) (direct).
+
+### Testing
+To test Pay After Delivery payments, see [Testing](/docs/testing#pay-later-methods).
 <br>
 
 ---
@@ -105,6 +94,10 @@ First apply to MultiSafepay, and then activate in your dashboard.
 ## Addresses
 
 The billing and shipping addresses must be the **same** to prevent fraud. 
+
+## Amount limits
+
+Minimum and maximum order amounts apply. Email <sales@multisafepay.com>
 
 ## Close transactions
 
@@ -123,8 +116,7 @@ To close a transaction manually, follow these steps:
 5. Enter a comment about what happened with the order, and click **Complete**.  
     The total amount of the transaction is deducted from your account balance. 
 
-**Note:** Once the <<glossary:transaction status>> changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/docs/refund-payments/) instead. 
-
+> **Note:** Once the <<glossary:transaction status>> changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/docs/refund-payments/) instead. 
 
 </details>
 

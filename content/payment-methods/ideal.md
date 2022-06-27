@@ -13,12 +13,11 @@ slug: 'ideal'
 
 Read how iDEAL can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/ideal)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks**  | No |
 | **Countries**  | The Netherlands  | 
 | **Currencies**  | EUR | 
-| **Expiration** | Transactions expire after 1.5 hours. |
 | **Payment components** | [Yes](/docs/payment-components/) | 
 | **Payment pages** | [Yes](/docs/payment-pages/) (Banking: Current and deprecated versions, QR: Current only) |
 | **Recurring payments** | [Yes](/docs/recurring-payments/) (banking only) |
@@ -46,31 +45,18 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses   
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer cancelled the transaction via their bank. | Void   | Void/Cancelled   |
 | iDEAL processing error. | Declined   | Declined   |
 | The customer didn't complete payment within 1.5 hours. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
-|---|---|---|
-| Refund initiated. | Initialized | Initialized |
+| **Refunds:** Refund initiated. | Initialized | Initialized |
 | Refund pending (banking only).  | Reserved | Reserved |
-| Refund complete. | Completed | Completed |
-
-</details>
+| **Refunds:** Refund complete. | Completed | Completed |
 
 # Activation
 
@@ -94,14 +80,28 @@ You can activate iDEAL yourself in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > iDEAL direct/redirect/QR |
-| **Ready-made integrations** | Banking is supported in all our [ready-made integrations](/docs/our-integrations/), **except** ZenCart. <br> QR is supported in [Craft Commerce](/docs/craft-commerce/), [CS-Cart](/docs/cs-cart/), [Drupal 8](/docs/drupal/), [Magento 1](/docs/magento-1/), [Magento 2](/docs/magento-2/), [Odoo](/docs/odoo/), [OpenCart](/docs/opencart/), [PrestaShop 1.7](/docs/prestashop-1-7/), [Shopware 5](/docs/shopware/), [VirtueMart](/docs/virtuemart/), [WooCommerce](/docs/woo-commerce/), [X-Cart](/docs/x-cart/). |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. 
+- Examples > iDEAL direct/redirect/QR.
+- Transactions expire after 1.5 hours.
 
-> ℹ️ Testing
-> To test iDEAL payments, see [Testing](/docs/testing#banking-methods).
+### Ready-made integrations
+- Banking is supported in most [ready-made integrations](/docs/our-integrations/), **except** ZenCart. 
+- QR is supported in:
+    - [Craft Commerce](/docs/craft-commerce/)
+    - [CS-Cart](/docs/cs-cart/)
+    - [Drupal 8](/docs/drupal/)
+    - [Magento 1](/docs/magento-1/) & [Magento 2](/docs/magento-2/)
+    - [Odoo](/docs/odoo/)
+    - [OpenCart](/docs/opencart/)
+    - [PrestaShop 1.7](/docs/prestashop-1-7/)
+    - [Shopware 5](/docs/shopware/)
+    - [VirtueMart](/docs/virtuemart/)
+    - [WooCommerce](/docs/woo-commerce/)
+    - [X-Cart](/docs/x-cart/)
+
+### Testing
+To test iDEAL payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---

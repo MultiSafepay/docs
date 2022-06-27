@@ -325,7 +325,7 @@ To integrate Planyo with MultiSafepay, follow these steps:
 1. Sign in to your Planyo account.
 2. Go to **Site settings** > **Online payments**.
 3. Select **MultiSafepay**.
-4. Enter your MultiSafepay account ID, [site ID and secure code](/docs/sites#site-id-api-key-and-security-code).  
+4. Enter your MultiSafepay account ID, [site ID and security code](/docs/sites#site-id-api-key-and-security-code).  
 5. Make a test reservation. 
 
 </details>
@@ -441,5 +441,12 @@ To integrate with MultiSafepay, follow these steps:
 
 ---
 
-- [Duda](https://www.duda.co/)
-- [MijnDomein](https://www.mijndomein.nl/)
+<blockquote class="callout callout_info">
+    <h3 class="callout-heading false">
+        <span class="callout-icon">💬</span>
+        <p>Support</p>
+    </h3>
+    <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+</blockquote>
+
+[Top of page](#)

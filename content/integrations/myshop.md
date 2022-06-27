@@ -43,7 +43,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 1. Sign in to your myShop <<glossary:backend>>.
 2. Install the MultiSafepay app in the App Store.
 3. Go to **Settings** > **MultiSafepay** or **iDEAL MultiSafepay**.
-4. Enter your [account ID, site ID, and site secure code](/docs/sites#site-id-api-key-and-security-code).  
+4. Enter your [account ID, site ID, and site security code](/docs/sites#site-id-api-key-and-security-code).  
 5. If using a test account, select **Test mode**.
 6. Click **Save**.
 <br>
@@ -55,3 +55,5 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <ul>\n    <li>For technical queries about the app, email myShop at <a href=\"mailto:support@myshop.com\">support@myshop.com</a></li>\n    <li>To contact MultiSafepay, email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
+
+[Top of page](#)

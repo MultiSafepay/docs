@@ -21,7 +21,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 2. Go to **Ecwid control panel** > **Settings** > **Payment page**.
 3. For each payment method, change the **Payment processor** value to **MultiSafepay**, and click **Save**.
 4. Click the **MultiSafepay account details** link. 
-5. Enter your [account ID, site ID, and secure code](/docs/sites#site-id-api-key-and-security-code).
+5. Enter your [account ID, site ID, and security code](/docs/sites#site-id-api-key-and-security-code).
 5. Save the changes and enable your selected payment methods.
 <br>
 
@@ -64,3 +64,5 @@ You can process refunds from your MultiSafepay dashboard, but refunds are **not*
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>For technical queries about the app, contact <a href=\"https://support.ecwid.com/hc/en-us/requests/new\">Ecwid</a></li>\n    <li>To contact MultiSafepay, email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
+
+[Top of page](#)

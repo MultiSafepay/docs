@@ -20,7 +20,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 1. Sign in to your CCV Shop <<glossary:backend>> and install the MultiSafepay app from the App Store.
 2. Go to **Mijn webshop** > **Instellingen** > **Bestelproces & voorraad** > **Betaalmethoden**.
 3. In the **Electronische betalingen** tab, select **MultiSafepay**.
-4. Enter your [account ID, site ID and secure code](/docs/sites#site-id-api-key-and-security-code).
+4. Enter your [account ID, site ID and security code](/docs/sites#site-id-api-key-and-security-code).
 5. If using your MultiSafepay test account, select **Test mode**.
 6. Click **Synchroniseer betaalmethodes met MultiSafepay**, and then click **Save**.
 <br>
@@ -60,3 +60,5 @@ You can process refunds from your MultiSafepay dashboard, but not in your <<glos
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <ul>\n    <li>For technical queries about the app, email CCV Shop at <a href=\"mailto:support@ccvshop.nl\">support@ccvshop.nl</a></li>\n    <li>To contact MultiSafepay, email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
+
+[Top of page](#)

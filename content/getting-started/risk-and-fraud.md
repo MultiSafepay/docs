@@ -15,7 +15,7 @@ We act as processor and <<glossary:acquirer>> for Visa and Mastercard, and are t
 
 # Transaction monitoring
 
-Under the [Wwft](https://www.fiu-nederland.nl/en/legislation/general-legislation/wwft), MultiSafepay is obliged to monitor the transactions of all merchants. 
+Under the Wwft, MultiSafepay is obliged to monitor the transactions of all merchants. 
 
 We may request a copy of an invoice, e.g. if:
 
@@ -25,7 +25,15 @@ We may request a copy of an invoice, e.g. if:
 
 We may also ask other questions about the transaction. Following our investigation, if we still don't understand the transaction, we may pause [payouts](/docs/payouts/) or take other punitive measures.
 
-For more information, email <support@multisafepay.com>
+<details id="about-the-wwft">
+<summary>About the Wwft</summary>
+<br>
+
+The Wet ter voorkoming van witwassen en financieren van terrorisme (WWFT), or Money Laundering and Terrorist Financing Prevention Act, prevents companies and individuals from laundering money or financing terrorist activity. 
+
+It was based on the Disclosure of Unusual Transactions or Financial Services Act, but goes one step further. It focuses on both individuals involved in suspect transactions and the risk of such transactions.
+
+</details>
 
 # Periodic reviews
 
@@ -38,8 +46,12 @@ If we identify any changes, we email you to confirm or request new documentation
 If you fail to respond to these requests, we initially pause payouts and may ultimately unilaterally terminate your contract.
 <br>
 
+---
+
 [block:html]
 {
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
 }
 [/block]
+
+[Top of page](#)

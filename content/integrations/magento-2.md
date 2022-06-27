@@ -99,7 +99,7 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
     - **General information:** Contains all the main support information. We recommend reading this first.
     - **General settings:** Contains all main settings.  
     - Here you can configure all <<glossary:gateways>> and gift cards.  
-    - Enter your [account ID, site ID, site secure code](/docs/sites#site-id-api-key-and-secure-code).   
+    - Enter your [account ID, site ID, site security code](/docs/sites#site-id-api-key-and-secure-code).   
     - **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
         - Make sure you have activated your selected payment methods in your MultiSafepay dashboard.
     - **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  
@@ -653,6 +653,7 @@ If you want a field from the deprecated plugin back, email <integration@multisaf
 
 If you installed the plugin via the Magento Marketplace, go to **System** > **Web setup wizard** > **Extension manager** > **Update / uninstall**.
 </details>
+<br>
 
 ---
 
@@ -661,3 +662,5 @@ If you installed the plugin via the Magento Marketplace, go to **System** > **We
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: create a technical issue</li>\n  </ul>  \n</blockquote>"
 }
 [/block]
+
+[Top of page](#)

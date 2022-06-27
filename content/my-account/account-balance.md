@@ -5,7 +5,7 @@ order: 201
 hidden: false
 parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'account-balance'
-excerpt: 'The balance on funds held in your MultiSafepay account.'
+excerpt: 'The funds held in your MultiSafepay account.'
 ---
 
 # Top ups
@@ -39,8 +39,12 @@ You can set your daily balance report to include the balance of uncleared transa
 To activate this feature in your daily balance report, email a request to <sales@multisafepay.com>
 <br>
 
+---
+
 [block:html]
 {
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
 }
 [/block]
+
+[Top of page](#)

@@ -1,7 +1,7 @@
 ---
 title: "IBANs"
 category: 62962dcdbccb9a001d4bbc81
-order: 205
+order: 204
 hidden: false
 parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'ibans'
@@ -23,8 +23,12 @@ To unmask IBANs for a specific site, follow these steps:
 When unmasked, the full IBAN is displayed, e.g. `NL87ABNA0000001234`.
 <br>
 
+---
+
 [block:html]
 {
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
 }
 [/block]
+
+[Top of page](#)

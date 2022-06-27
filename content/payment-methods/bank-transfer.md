@@ -13,12 +13,11 @@ Bank Transfer (also known as SEPA Credit Transfer) is a secure, trusted, interna
 
 Read how Bank Transfer can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/bank-transfer)
 
-| Overview | Details | 
+| Supports | Details | 
 |---|---|
 | **Chargebacks**  | No  | 
 | **Countries** | Europe (SEPA area) | 
 | **Currencies** | EUR, CZK, GBP, HUF, PLN <br> (USD **not** supported due to high transaction and currency conversion fees for customers) |
-| **Expiration** | Transactions expire after 60 days. |
 | **Payment components** | [Yes](/docs/payment-components/) |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
 | **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
@@ -35,30 +34,16 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses
 
- 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | Awaiting the customer to transfer the funds. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | You cancelled the transaction. | Void   | Void/Cancelled   |
 | The customer didn't complete  payment within 60 days. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
-|---|---|---|
-| Refund initiated. | Reserved | Reserved |
-| Refund complete. | Completed | Completed |
-
-</details>
+| **Refunds:** Refund initiated. | Reserved | Reserved |
+| **Refunds:** Refund complete. | Completed | Completed |
 
 # Activation 
 
@@ -82,14 +67,16 @@ You can activate Bank Transfer yourself in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Bank Transfer direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order.
+- Examples > Bank Transfer direct/redirect.
+- Transactions expire after 60 days.
 
-> ℹ️ Testing
-> To test Bank Transfer payments, see [Testing](/docs/testing#banking-methods).
+### Ready-made integrations
+Supported in all [ready-made integrations](/docs/our-integrations/).
+
+### Testing
+To test Bank Transfer payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---

@@ -13,12 +13,11 @@ Google Pay™ is a digital wallet for in-app and online payments. Customers can 
 
 Read how Google Pay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/googlepay)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks**  | [Yes](/docs/chargebacks/) | 
 | **Countries**  | Worldwide <br> See Google Pay – [Countries or regions where you can use Google Pay](https://support.google.com/pay/answer/9023773?hl=en#zippy=%2Cpay-online-or-in-apps).  | 
 | **Currencies**  | Multiple  | 
-| **Expiration** | Transactions expire after 1 hour. |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
 | **Recurring payments** | [Yes](/docs/recurring-payments/)  |
 | **Refunds** | [Yes](/docs/refund-payments/): Full and partial <br> Customers receive refunds in their Google Pay account, and they appear on their credit card statement within the next business day.  |
@@ -41,11 +40,9 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected for 3D Secure authentication, or the <<glossary:card scheme>> is authorizing the transaction. | Initialized | Initialized |
 | The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/docs/uncaptured/). | Uncleared | Uncleared |
@@ -53,19 +50,8 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
 | The customer didn't complete 3D Secure authentication. | Expired | Expired |
 | The customer failed 3D Secure authentication or cancelled payment. See [Card errors](/docs/card-errors/). | Declined | Declined   |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
-|---|---|---|
-| Refund initiated. | Reserved | Reserved   |
-| Refund complete.  | Completed | Completed   |
-
-</details>
+| **Refunds:** Refund initiated. | Reserved | Reserved   |
+| **Refunds:** Refund complete.  | Completed | Completed   |
 
 # Activation 
 
@@ -95,15 +81,17 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | To easily integrate Google Pay using MultiSafepay payment pages (redirect), see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. |
-| **Direct integration** | To embed Google Pay in your checkout page for the best user experience, see [Google Pay™ direct integration](/google-pay-integration). |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) (redirect), **except** Magento 2 and WooCommerce. For these, you can use a generic gateway. See the relevant manual. |
-<br>
+### API
+- To easily integrate Google Pay using MultiSafepay payment pages (redirect), see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order.
+- To embed Google Pay in your checkout page for the best user experience, see [Google Pay™ direct integration](/google-pay-integration).
+- Transactions expire after 1 hour.
 
-> ℹ️ Testing
-> To test Google Pay payments, see [Testing](/docs/testing#wallets).
+### Ready-made integrations
+- Supported in most [ready-made integrations](/docs/our-integrations/) (redirect). 
+- Exceptions: Magento 2 and WooCommerce. For these, you can use a generic gateway. See the relevant manual.
+
+### Testing
+To test Google Pay payments, see [Testing](/docs/testing#wallets).
 <br>
 
 ---

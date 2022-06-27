@@ -18,12 +18,11 @@ The card balance remains available for 12 months free of charge. After 12 months
 
 Read how Paysafecard can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/paysafecard)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks**  | No | 
 | **Countries**  | Worldwide – Go to [paysafecard.com](https://www.paysafecard.com/en-gb/), and click the globe icon in the banner.  | 
 | **Currencies**  | EUR, GBP, USD  | 
-| **Expiration** | Transactions expire after 3 hours. |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
 | **Refunds** | Paid with Paysafecard only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with Paysafecard **and** another payment method: [Full refunds](/docs/refund-payments/).  |
 
@@ -39,29 +38,16 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to Paysafecard. | Initialized | Initialized |
 | MultiSafepay has collected payment.| Completed | Completed |
 | The customer cancelled the transaction at Paysafecard. | Void   | Void   |
 | The customer didn't complete payment within 3 hours. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
-|---|---|---|
-| Refund initiated. | Initialized | Initialized |
-| Refund complete. | Completed | Completed |
-
-</details>
+| **Refunds:** Refund initiated. | Initialized | Initialized |
+| **Refunds:** Refund complete. | Completed | Completed |
 
 # Activation 
 
@@ -76,14 +62,22 @@ For any questions, email <sales@multisafepay.com>
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Gift card redirect |
-| **Ready-made integrations** | Supported in [OsCommerce](/docs/oscommerce/), [Magento 1](/docs/magento-1/), [VirtueMart](/docs/virtuemart/), [X-Cart](/docs/x-cart/), [Zen Cart](/docs/zen-cart/). |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order.
+- Examples > Gift card redirect.
+- Transactions expire after 3 hours.
 
-> ℹ️ Testing
-> You can’t test Paysafecard in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account. 
+### Ready-made integrations
+Supported in:
+- [OsCommerce](/docs/oscommerce/)
+- [Magento 1](/docs/magento-1/)
+- [VirtueMart](/docs/virtuemart/)
+- [X-Cart](/docs/x-cart/)
+- [Zen Cart](/docs/zen-cart/)
+
+### Testing
+- You can’t test Paysafecard in your MultiSafepay test account.
+- You can only make test payments in your MultiSafepay live account. 
 <br>
 
 ---

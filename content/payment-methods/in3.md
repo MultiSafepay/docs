@@ -13,15 +13,14 @@ slug: 'in3'
 
 Read how in3 can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/in3)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
-| **Amount limits** | Minimum amount: 100 EUR Maximum amount: 3000 EUR <br> You can adjust these limits in the <<glossary:backend>> of our [ready-made integrations](/docs/our-integrations/) to show or hide in3 on your checkout page depending on the order value. |
 | **Chargebacks**  | No  |
 | **Countries**  | The Netherlands – in3 checks the customer's country, and billing/shipping address to confirm.  | 
 | **Currencies**  | EUR  |  
-| **Expiration** | Transactions expire after 2 hours. |
+| **Discounts** | [Yes](/docs/discounts/) <br> You can request in3 to process a full or partial refund, either before payout or up to 1 year afterwards. |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
-| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds, [discounts](/discounts/) <br> You can request in3 to process a full or partial refund, either before payout or up to 1 year afterwards. |
+| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds | 
 | **Second Chance** | [Yes](/docs/second-chance/) |
 
 # Payment flow
@@ -36,11 +35,9 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | in3's credit check is in progress. You can still cancel. | Initialized   | Initialized  |
 | in3 is waiting for the customer to pay the first installment (within 5 mins). | Uncleared  | Initialized  |
@@ -50,19 +47,8 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | in3 declined the transaction. | Declined | Declined |
 | The customer cancelled the transaction or abandoned the first installment. | Void | Void |
 | The customer didn't pay the first installment. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
-|---|---|---|
-| in3 has successfully processed a full or partial refund. | Completed | Completed |
-| The refund was declined. | Declined | Declined   |
-
-</details>
+| **Refunds:** in3 has successfully processed a full or partial refund. | Completed | Completed |
+| **Refunds:** The refund was declined. | Declined | Declined   |
 
 # Activation 
 
@@ -88,14 +74,22 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > in3 direct/redirect |
-| **Ready-made integrations** | in3 (direct) is supported in [Craft Commerce](/docs/craft-commerce/), [Magento 1](/docs/magento-1/), [OpenCart](/docs/opencart/), [PrestaShop 1.7](/docs/prestashop-1-7/), [VirtueMart](/docs/virtuemart/), [WooCommerce](/docs/woo-commerce/). |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order. 
+- Examples > in3 direct/redirect.
+- Transactions expire after 2 hours.
 
-> ℹ️ Testing
-> To test in3 payments, see [Testing](/docs/testing#pay-later-methods).
+### Ready-made integrations
+in3 (direct) is supported in:
+- [Craft Commerce](/docs/craft-commerce/)
+- [Magento 1](/docs/magento-1/)
+- [OpenCart](/docs/opencart/)
+- [PrestaShop 1.7](/docs/prestashop-1-7/)
+- [VirtueMart](/docs/virtuemart/)
+- [WooCommerce](/docs/woo-commerce/)
+
+### Testing
+To test in3 payments, see [Testing](/docs/testing#pay-later-methods).
 <br>
 
 ---
@@ -105,6 +99,13 @@ First apply to MultiSafepay, and then activate in your dashboard.
 ## Addresses
 
 Different billing and shipping addresses are supported.
+
+## Amount limits
+
+- Minimum amount: 100 EUR 
+- Maximum amount: 3000 EUR 
+
+You can adjust these limits in the <<glossary:backend>> of our [ready-made integrations](/docs/our-integrations/) to show or hide in3 on your checkout page depending on the order value.
 
 ## Gift cards
 

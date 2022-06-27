@@ -44,7 +44,7 @@ slug: 'x-cart'
 6. Locate and activate your enabled payment methods.
 7. For **MultiSafepay Connect**, click **Configure**.
 8. For **Account type**, you have two options: **Live** and **Test**.  
-9. Enter your account ID, [site ID, secure code, and API key](/docs/sites/#site-id-api-key-and-secure-code 
+9. Enter your account ID, [site ID, security code, and API key](/docs/sites/#site-id-api-key-and-secure-code). 
 Make sure you enter the correct API key for the account type you want to use. 
 10. Click **Save changes**.  
 <br>
@@ -103,6 +103,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 2. Follow the Installation and configuration instructions from step 1.
 
 </details>
+<br>
 
 ---
 
@@ -111,3 +112,5 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: create a technical issue</li>\n  </ul>  \n</blockquote>"
 }
 [/block]
+
+[Top of page](#)

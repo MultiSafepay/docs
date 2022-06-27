@@ -212,3 +212,5 @@ So that you don't have to continually poll our server to see if there are update
     </h3>
     <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
 </blockquote>
+
+[Top of page](#)

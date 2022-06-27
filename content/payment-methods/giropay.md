@@ -13,7 +13,7 @@ slug: 'giropay'
 
 Read how Giropay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/giropay)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks**  | No  | 
 | **Countries**  | Germany  | 
@@ -32,31 +32,18 @@ This diagram shows the flow for a successful transaction. Click to magnify.
   max-width: 750px;
   width: 100%;">
 
-# Payment statuses   
+# Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer cancelled the transaction. | Void   | Void   |
 | The customer didn't complete payment within 10 minutes. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
-|---|---|---|
-| Refund initiated. | Initialized | Initialized |
-| Refund complete. | Completed | Completed |
-
-</details>
+| **Refunds:** Refund initiated. | Initialized | Initialized |
+| **Refunds:** Refund complete. | Completed | Completed |
 
 # Activation
 
@@ -80,16 +67,16 @@ You can activate Giropay yourself in your dashboard.
 
 # Integration
 
-To test 
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. 
+- Examples > Giropay redirect.
+- Transactions don't expire.
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Giropay redirect  |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/). |
-<br>
+### Ready-made integrations
+Supported in all [ready-made integrations](/docs/our-integrations/).
 
-> ℹ️ Testing
-> To test Giropay payments, see [Testing](/docs/testing#banking-methods).
+### Testing
+To test Giropay payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---

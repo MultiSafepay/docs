@@ -14,12 +14,11 @@ Customers pay from their own online banking environment.
 
 Read how Dotpay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/dotpay)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks**  | No | 
 | **Countries**  | Poland  | 
 | **Currencies**  | EUR, PLN | 
-| **Expiration** | Transactions expire after 3 days. |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
 | **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
 | **Second Chance** | [Yes](/docs/second-chance/) |
@@ -36,28 +35,15 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized|
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer didn't complete payment within 3 days. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
-|---|---|---|
-| Refund initiated. | Reserved | Reserved |
-| Refund complete. | Completed | Completed |
-
-</details>
+| **Refunds:** Refund initiated. | Reserved | Reserved |
+| **Refunds:** Refund complete. | Completed | Completed |
 
 # Activation 
 
@@ -83,14 +69,17 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Dotpay redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/). |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. 
+- Examples > Dotpay redirect.
+- Transactions expire after 3 days.
 
-> ℹ️ Testing
-> To test Dotpay payments, see [Testing](/docs/testing#banking-methods).
+### Ready-made integrations
+Supported in all [ready-made integrations](/docs/our-integrations/). 
+
+### Testing
+To test Dotpay payments, see [Testing](/docs/testing#banking-methods).
+<br>
 
 ---
 

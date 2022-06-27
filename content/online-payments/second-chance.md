@@ -57,7 +57,7 @@ The Second Chance email template is completely customizable.
 6. From the **Language** list, select the relevant language.
 7. Click **Load default template**.
 
-For how to customize the template, see [Customer emails](/docs/customer-emails/).
+For how to customize the template, see [Email templates](/docs/email-templates/).
 
 </details>
 
