@@ -57,8 +57,8 @@ ___
 
 Logic4 provides a free plugin to integrate with MultiSafepay. 
 
-<details id="logic4-requirements">
-<summary>Requirements</summary>
+<details id="logic4-prerequisites">
+<summary>Prerequisites</summary>
 <br>
 
 You will need a [MultiSafepay account](/docs/getting-started-guide/).
@@ -73,7 +73,7 @@ For any technical queries about the plugin, see Logic4 – [Contact](https://www
 </details>
 
 <details id="logic4-payment-methods">
-<summary>Payment methods</summary>
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: 
@@ -109,8 +109,8 @@ ___
 
 LogiVert provides a free app to integrate with MultiSafepay. 
 
-<details id="logivert-requirements">
-<summary>Requirements</summary>
+<details id="logivert-prerequisites">
+<summary>Prerequisites</summary>
 <br>
 
 You will need a [MultiSafepay account](/docs/getting-started-guide/).
@@ -126,7 +126,7 @@ For technical support, contact LogiVert - [Support](https://www.logivert.com/nl/
 </details>
 
 <details id="logivert-payment-methods">
-<summary>Payment methods</summary>
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: 
@@ -150,7 +150,7 @@ For technical support, contact LogiVert - [Support](https://www.logivert.com/nl/
 
 To install and configure, see LogiVert – [Manual](https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen).
 
-:warning: We recommend first installing the plugin in a test environment, following the Logivert installation procedure. Always make a backup.
+> **Tip!** We recommend first installing the plugin in a test environment, following the Logivert installation procedure. Always make a backup.
 </details>
 
 ___
@@ -183,8 +183,8 @@ ____
 
 ShopFactory provides a free plugin to integrate with MultiSafepay.
 
-<details id="shopfactory-requirements">
-<summary>Requirements</summary>
+<details id="shopfactory-prerequisites">
+<summary>Prerequisites</summary>
 <br>
 
 You will need a [MultiSafepay account](/docs/getting-started-guide/).
@@ -198,7 +198,7 @@ See ShopFactory – [ShopFactory support](https://www.shopfactory.nl/contents/nl
 </details>
 
 <details id="shopfactory-payment-methods">
-<summary>Payment methods</summary>
+<summary>Supported payment methods</summary>
 <br>
 
 Email <integration@multisafepay.com>
@@ -221,8 +221,8 @@ ___
 
 Shoptrader provides a free plugin to integrate with MultiSafepay. 
 
-<details id="shoptrader-requirements">
-<summary>Requirements</summary>
+<details id="shoptrader-prerequisites">
+<summary>Prerequisites</summary>
 <br>
 
 You will need a [MultiSafepay account](/docs/getting-started-guide/).
@@ -236,7 +236,7 @@ For any technical queries about the plugin, email Shoptrader at <info@shoptrader
 </details>
 
 <details id="shoptrader-payment-methods">
-<summary>Payment methods</summary>
+<summary>Supported payment methods</summary>
 <br>
 
 For supported payment methods, email <integration@multisafepay.com>
@@ -268,7 +268,7 @@ ZilverCMS provides a free app to integrate with MultiSafepay.
 </details>
 
 <details id="zilvercms-payment-methods">
-<summary>Payment methods</summary>
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)
@@ -292,16 +292,26 @@ ZilverCMS provides a free app to integrate with MultiSafepay.
 ___
 
 # Business growth
+
+## Picquer
+
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Picqer.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+
+[Picqer](https://picqer.com/nl)
+
+---
+
+## Sherpan
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Sherpaan.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-- [Picqer](https://picqer.com/nl)
-- [Sherpaan](https://sherpaan.nl/project/multisafepay/)
+[Sherpaan](https://sherpaan.nl/project/multisafepay/)
 
 ___
 
 # Reservations
+
+## Planyo
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Planyo.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 Our partner [Planyo](https://www.planyo.com/) offers online reservation software that lets customers make, confirm, and modify reservations, and pay online. You can also customize the reservation form. 
@@ -324,9 +334,11 @@ ___
 
 # Restaurants, cafes, and hotels
 
+## MplusKASSA
+
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/MplusKASSA.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-Our partner [MplusKASSA](https://www.mpluskassa.nl) offers order management software for restaurants, cafes, and hotels, which can integrate with MultiSafepay.
+Our partner [MplusKASSA](https://www.mpluskassa.nl) offers order management software for restaurants, cafes, and hotels that can integrate with MultiSafepay.
 
 For more information, email MplusKASSA at <info@mpluskassa.nl>
 
@@ -334,7 +346,9 @@ For more information, email MplusKASSA at <info@mpluskassa.nl>
 <summary>Known error</summary>
 <br>
 
-**Note:** When customers successfully complete payment with iDEAL, they don't always return to your site, which can briefly delay the transaction status changing to **Completed**. If your business model requires you to retrieve the status as quickly as possible, MultiSafepay can enable a script to query iDEAL 5 times in the first minute, and then every minute until **Completed**.  
+When customers successfully complete payment with iDEAL, they don't always return to your site, which can briefly delay the <<glossary:transaction status>> changing to **Completed**. 
+
+If your business model requires you to retrieve the status as quickly as possible, MultiSafepay can enable a script to query iDEAL 5 times in the first minute, and then every minute until **Completed**.  
 
 To discuss, email <integration@multisafepay.com>
 
@@ -342,7 +356,27 @@ To discuss, email <integration@multisafepay.com>
 
 ___
 
+# Sites
+
+## Duda
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/duda.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+
+[Duda](https://www.duda.co/)
+
+---
+
+## MijnDomein
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Mijndomein.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+
+[MijnDomein](https://www.mijndomein.nl/)
+
+___
+
 # Subscriptions
+
+## HostBill
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/HostBill.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
@@ -381,7 +415,7 @@ ___
 ## Twikey
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Twikey.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-Our partner [Twikey](https://www.twikey.com/) offers an online tool for managing and collecting subscriptions that includes [SEPA direct debit mandate management](https://www.twikey.com/solution/mandate.html).
+Our partner [Twikey](https://www.twikey.com/) offers an online tool for managing and collecting subscriptions that includes <br> [SEPA direct debit mandate management](https://www.twikey.com/solution/mandate.html).
 
 Customers can complete payments via:
 
@@ -403,11 +437,9 @@ To integrate with MultiSafepay, follow these steps:
 
 </details>
 
-___
+<br>
 
-# Sites
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/duda.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Mijndomein.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+---
 
 - [Duda](https://www.duda.co/)
 - [MijnDomein](https://www.mijndomein.nl/)

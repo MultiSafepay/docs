@@ -1,10 +1,9 @@
 ---
-title: 'Split Payments'
+title: 'Split payments'
 category: 6278c92bf4ad4a00361431b0
-order: 900
+order: 90
 hidden: false
 slug: 'split-payments'
-excerpt: 'Split funds between your partner/primary account and affiliated merchants.'
 ---
 Split Payments lets you divide an incoming transaction amount between two or more MultiSafepay accounts. 
 
@@ -45,8 +44,9 @@ You can process full and partial refunds, but only from the account that created
 4. Click **Refund**.
 5. Enter the amount you want to refund to the customer.
 6. Click **Confirm refund**.  
-    The [transaction status](/docs/payment-statuses/) changes to **Initialized**.
+    The <<glossary:transaction status>> changes to **Initialized**.
 7. [Cancel the refund](/docs/refund-payments/).  
+
 
 When the transaction status changes to **Completed**, the refund has been processed correctly. The customer receives the refund in the bank account the transaction was originally paid from the next business day.
 

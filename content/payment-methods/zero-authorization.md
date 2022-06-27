@@ -21,7 +21,7 @@ Email a request to activate Zero Authorization to <sales@multisafepay.com>
 
 Zero Authorization supports Maestro, Mastercard, and Visa, and is available in all countries and currencies.
 
-**Via our API:** 
+### Via our API 
 
 - API reference – [Create order](/reference/createorder/) > Card order
 - API recipe – [Verify a card with Zero Authorization](https://docs-api.multisafepay.com/recipes/verify-a-card-with-zero-authorization)

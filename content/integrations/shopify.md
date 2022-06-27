@@ -1,25 +1,23 @@
 ---
-title: "Shopify app"
+title: "Shopify"
 category: 62962dd7e272a6002ebbbbc5
 order: 105
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free app to integrate MultiSafepay payment solutions with Shopify."
+excerpt: "Technical manual for installing/migrating to MultiSafepay's free app for Shopify."
 slug: 'shopify'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shopify.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-:warning: **Urgent action required:** [Migrate to our updated app](#installation) before March 31, 2022.
-
-This technical manual is for installing/migrating to MultiSafepay's free app for integrating with Shopify. This new app leverages a single, powerful <<glossary:gateway>> for a faster, safer integration.
-
-<details id="requirements">
-<summary>Requirements</summary>
+This new app leverages a single, powerful <<glossary:gateway>> for a faster, safer integration.
 <br>
 
-You will need a [MultiSafepay account](docs/getting-started-guide/).
+> ⚠️ Urgent action required!
+> [Migrate to our updated app](#installation) before March 31, 2022.
 
-</details>
+# Prerequisites
+
+You will need a [MultiSafepay account](/getting-started/).
 
 # How to install
 
@@ -32,6 +30,9 @@ To install or migrate, follow these steps:
   **Note:** If using a test [API key](/docs/sites#site-id-api-key-and-security-code), make sure you also enable **Test mode**. 
 5. For existing merchants, you must disable the deprecated individual MultiSafepay payment method gateways under **Admin** > **Settings** > **Payments** > **Third-party payment providers**.
 6. Once testing is complete, disable password protection again.
+<br>
+
+---
 
 # User guide
 
@@ -41,7 +42,7 @@ MultiSafepay's [Second Chance](/docs/second-chance/) feature is **not** supporte
 
 See Shopify – [Recovering abandoned checkouts](https://help.shopify.com/en/manual/orders/abandoned-checkouts).
 
-## Cancelling payments
+## Cancellation
 
 If a customer cancels a payment to use another payment method instead, they must complete payment within **2 hours** to avoid errors.
 
@@ -89,13 +90,14 @@ Payments are processed in the webshop's default currency only.
 5. Enter your [site ID and secure code](/docs/websites#site-id-api-key-and-security-code).
 6. Activate the payment method.
 
-**Note**: To bundle all payment methods under a single MultiSafepay payment gateway at checkout, under **Alternative payments**, activate the **MultiSafepay** payment method.
+> **Note:** To bundle all payment methods under a single MultiSafepay payment gateway at checkout, under **Alternative payments**, activate the **MultiSafepay** payment method.
+
 </details>
 
 ## Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)

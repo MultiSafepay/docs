@@ -1,14 +1,15 @@
 ---
 title: "Single payment method"
 category: 6278c92bf4ad4a00361431b0
-order: 301
+order: 31
 hidden: false
 slug: 'payment-component-single'
 parentDoc: 62a848399bb3eb004023f291 
-excerpt: 'Technical manual for integrating a payment component using a single payment method.'
 --- 
 
-# Step 1: Add the elements
+This technical manual is for integrating a payment component using a single payment method.
+
+# 1. Add the elements
 
 Add the following elements to your checkout page:
 
@@ -27,7 +28,7 @@ Add the following elements to your checkout page:
     <div id="MultiSafepayPayment"></div>
     ```
 
-# Step 2: Initialize the component
+# 2. Initialize the component
 
 ## Generate an API token
 
@@ -184,7 +185,7 @@ Add the following elements to your checkout page:
 
     </details>
 
-# Step 3: Create an order
+# 3. Create an order
 
 ## Collect payment data
 
@@ -257,7 +258,7 @@ See API reference – [Create order](https://docs-api.multisafepay.com/reference
 
     </details>
 
-# Step 4: Go live
+# 4. Go live
 
 To test the payment method, use our [Testing](/docs/testing#test-payment-details).
 

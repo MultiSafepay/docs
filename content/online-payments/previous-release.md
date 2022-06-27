@@ -1,14 +1,15 @@
 ---
 title: 'Previous release'
 category: 6278c92bf4ad4a00361431b0
-order: 304
+order: 34
 hidden: false
 slug: 'payment-component-previous-release'
 parentDoc: 62a848399bb3eb004023f291 
-excerpt: 'Technical manual for integrating the previous release of the payment component.'
 --- 
 
-# Step 1: Add the elements
+This technical manual is for integrating the previous release of the payment component.
+
+# 1. Add the elements
 
 1. Add the component's CSS to the `<head>` of your checkout page:  
     ```
@@ -25,12 +26,12 @@ excerpt: 'Technical manual for integrating the previous release of the payment c
     <div id="MultiSafepayPayment"></div>
     ```
 
-# Step 2: Initialize the component
+# 2. Initialize the component
 
 ## Generate an API token
 Payment Components require a MultiSafepay API token. See API reference – [Generate an API token](https://docs-api.multisafepay.com/reference/generateapitoken).
 
-:warning: To keep your API key private, request the token from your own server. 
+> **Tip!** To keep your API key private, request the token from your own server. 
 
 ## Construct the component object
 
@@ -67,7 +68,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
     </details>
 
-    **Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and transaction amount are supported. 
+    > **Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and transaction amount are supported. 
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
 
@@ -121,7 +122,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
     </details>
 
-    **Note:** The `PaymentComponent` uses the following methods:
+    > **Note:** The `PaymentComponent` uses the following methods:
 
     <details id="methods">
     <summary>Methods</summary>
@@ -135,7 +136,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
     </details>
 
-# Step 3: Create an order
+# 3. Create an order
 
 ## Collect payment data
 
@@ -190,7 +191,7 @@ Make a [Create order](https://docs-api.multisafepay.com/reference/createorder) >
 
     If no further action is required, the customer is redirected to the `redirect_url`.
 
-# Step 4: Go live
+# 4. Go live
 
 When you're ready to process real payments, make the following changes:
 

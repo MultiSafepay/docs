@@ -1,7 +1,7 @@
 ---
 title: 'Customer emails'
 category: 6278c92bf4ad4a00361431b0
-order: 100
+order: 10
 hidden: false
 slug: 'customer-emails'
 excerpt: "Customize email templates to match your brand's look and feel."
@@ -143,7 +143,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
     | SITENAME                      | Nname of your webshop given in your MultiSafepay account |
     | SITEURL                       | URL of your webshop given in your MultiSafepay account |
     | STATE                         | Province or state within the country |
-    | STATUS                        | Status of the transaction |
+    | STATUS                        | <<glossary:Transaction status>> |
     | SUBJECT                       | Subject of the email |
     | TOTALAMOUNT                   | Total of the order |
     | TRANSACTIONID                 | MultiSafepay PSP ID |

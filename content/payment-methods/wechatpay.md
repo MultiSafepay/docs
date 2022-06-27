@@ -34,14 +34,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses
 
-- **Order status:** Changes as the customer's order with you progresses towards shipment 
-- **Transaction status:** Changes as the funds progress towards settlement in your account balance
-
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | A QR code has been generated. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
@@ -54,7 +51,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | Refund initiated. | Reserved | Reserved |
 | Refund complete.  | Completed | Completed |
@@ -85,14 +82,21 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > WeChat Pay direct/redirect <br> - For direct orders, retrieve the `qr_url`, and render the QR code in your system to display it to the customer. <br> - For redirect orders to [payment pages](/docs/payment-pages/), the QR code displays under **Payment methods**.  |
-| **Ready-made integrations** | Supported in our [PrestaShop 1.7 plugin](/docs/prestashop-1-7/). |
+### API
+[Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order 
+Examples > WeChat Pay direct/redirect 
+- For direct orders, retrieve the `qr_url`, and render the QR code in your system to display it to the customer.
+- For redirect orders to [payment pages](/docs/payment-pages/), the QR code displays under **Payment methods**.
+
+
+### Ready-made integrations
+Supported in our [PrestaShop 1.7 plugin](/docs/prestashop-1-7/).
+
 <br>
 
-> ℹ️ Testing
-> To test WeChat Pay payments, see [Testing](/docs/testing#wallets).
+### Testing
+To test WeChat Pay payments, see [Testing](/docs/testing#wallets).
+
 <br>
 
 ---

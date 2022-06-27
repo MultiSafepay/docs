@@ -26,18 +26,18 @@ If you sell alcohol, you must:
 - State this clearly on your site.
 - Email a signed declaration about alcoholic beverages (once only) to <risk@multisafepay.com>
 
-<details id="how-to-download-a-declaration">
-<summary>How to download a declaration</summary>
-<br>
+    <details id="how-to-download-a-declaration">
+    <summary>How to download a declaration</summary>
+    <br>
 
-- [Dutch merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/NL-Verklaring_alcoholische_dranken.pdf)   
-- [English merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/EN-Declaration_alcoholic_beverages.pdf)  
-- [French merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/FR-D%C3%A9claration_des_boissons_alcoolis%C3%A9es.pdf)  
-- [German merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/DE-Erkl%C3%A4rung_f%C3%BCr_alkoholischen_Getr%C3%A4nke.pdf)
-- [Italian merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/IT-Dichiarazione_per_la_vendita_di_bevande_alcoliche.docx) 
-- [Spanish merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/ES-Declaraci%C3%B3n_sobre_bebidas_alcoh%C3%B3licas.docx)  
+    - [Dutch merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/NL-Verklaring_alcoholische_dranken.pdf)   
+    - [English merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/EN-Declaration_alcoholic_beverages.pdf)  
+    - [French merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/FR-D%C3%A9claration_des_boissons_alcoolis%C3%A9es.pdf)  
+    - [German merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/DE-Erkl%C3%A4rung_f%C3%BCr_alkoholischen_Getr%C3%A4nke.pdf)
+    - [Italian merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/IT-Dichiarazione_per_la_vendita_di_bevande_alcoliche.docx) 
+    - [Spanish merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/ES-Declaraci%C3%B3n_sobre_bebidas_alcoh%C3%B3licas.docx)  
 
-</details>
+    </details>
 
 If you sell spirits with an alcohol content of 15% or higher, you must:
 
@@ -45,7 +45,8 @@ If you sell spirits with an alcohol content of 15% or higher, you must:
 - Email a copy of your license to <risk@multisafepay.com>
 
 # Prohibited products and services
-| | |
+
+| Category | Details |
 |---|---|
 | **Cryptocurrency** | Platforms for cryptocurrency trading |
 | **Erotica** | Erotic and pornographic images <br> Sex, dating, and mail order brides <br> Prostitution and escort services <br> Aphrodisiacs <br> Electrosex |
@@ -57,7 +58,7 @@ If you sell spirits with an alcohol content of 15% or higher, you must:
 | **Tobacco** | Cigarettes and cigars <br> Pipe tobacco containing nicotine |
 | **Weapons** | Selling weapons or related accessories <br> Encouraging the use of weapons in any way |
 
-## Visa and Mastercard High Risk Programs
+# Visa and Mastercard High Risk Programs
 
 Under Visa and Mastercard's High Risk programs, you will be subject to a 500 USD fee if you sell any of the high-risk products and services listed below. The fee is collected as an annual recurring payment.
 

@@ -37,14 +37,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses   
 
-- **Order status:** Changes as the customer's order with you progresses towards shipment 
-- **Transaction status:** Changes as the funds progress towards settlement in your account balance
-
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | MultiSafepay's customer background check was successful and we've generated an e-mandate. | Initialized  | Initialized |
 | We've sent the e-mandate to the customer's bank. You can no longer cancel. | Uncleared | Uncleared |
@@ -58,7 +55,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | Refund initiated. | Reserved | Reserved |
 | Refund complete. | Completed | Completed | 

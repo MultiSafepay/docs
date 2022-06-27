@@ -1,17 +1,35 @@
 ---
 title: 'Wrappers and SDKs'
 category: 62962df622e99600810c117d
-order: 10
+order: 60
 hidden: false
 slug: 'wrappers-sdks'
 ---
 
-## PHP SDK
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/PHP.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+## Django
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Django.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-The PHP SDK for MultiSafepay's REST API.
+A Django integration developed by Edoburu.
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/php-sdk" target="_blank"><span>View on GitHub</span></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/edoburu/django-multisafepay" target="_blank"><span>View on GitHub</span></a>
+
+___
+
+## GO
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Go.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+
+Go wrapper for MultiSafepay's REST API developed by kurt-stolle.
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/kurt-stolle/go-multisafepay" target="_blank"><span>View on GitHub</span></a>
+
+___
+
+## Java
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Java.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+
+A Java wrapper for MultiSafepay's payments API, which supports all payment methods.
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/Java" target="_blank"><span>View on GitHub</span></a>
 
 ___
 
@@ -24,13 +42,12 @@ A Laravel wrapper for MultiSafepay's PHP SDK.
 
 ___
 
-## Java
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Java.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+## .NET
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/NET.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-A Java wrapper for MultiSafepay's payments API, which supports all payment methods.
+The .NET wrapper for MultiSafepay's payments API, which supports all payment methods.
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/Java" target="_blank"><span>View on GitHub</span></a>
-
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/.Net" target="_blank"><span>View on GitHub</span></a>
 
 ___
 
@@ -43,6 +60,15 @@ The Node.js wrapper for MultiSafepay's REST API.
 
 ___
 
+## PHP SDK
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/PHP.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+
+The PHP SDK for MultiSafepay's REST API.
+
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/php-sdk" target="_blank"><span>View on GitHub</span></a>
+
+___
+
 ## Python
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Python.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
@@ -50,30 +76,16 @@ The Python wrapper for MultiSafepay's REST API.
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/multisafepay-python-wrapper" target="_blank"><span>View on GitHub</span></a>
 
-___
+---
 
-## .NET
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/NET.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<br>
 
-The .NET wrapper for MultiSafepay's payments API, which supports all payment methods.
+---
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/.Net" target="_blank"><span>View on GitHub</span></a>
-
-___
-
-## Django
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Django.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
-
-A Django integration developed by Edoburu.
-
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/edoburu/django-multisafepay" target="_blank"><span>View on GitHub</span></a>
-
-
-___
-
-## GO
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Go.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
-
-Go wrapper for MultiSafepay's REST API developed by kurt-stolle.
-
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/kurt-stolle/go-multisafepay" target="_blank"><span>View on GitHub</span></a>
+<blockquote class="callout callout_info">
+    <h3 class="callout-heading false">
+        <span class="callout-icon">💬</span>
+        <p>Support</p>
+    </h3>
+    <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+</blockquote>

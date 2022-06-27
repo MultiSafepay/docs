@@ -4,31 +4,28 @@ category: 62962dd7e272a6002ebbbbc5
 order: 101
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free app to integrate MultiSafepay payment solutions with Lightspeed."
+excerpt: "Technical manual for installing and configuring MultiSafepay's free app for Lightspeed."
 slug: 'lightspeed'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Lightspeed.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://lightspeed.multisafepay.com/changelog" target="_self"><span>Changelog</span></a>
-
-:warning: We recommend [upgrading to the latest version](/docs/lightspeed#upgrades) as soon as possible.
-
-This technical manual is for installing and configuring MultiSafepay's free app for integrating with Lightspeed.  
-
-<details id="requirements">
-<summary>Requirements</summary>
 <br>
 
-- [MultiSafepay account](/docs/getting-started-guide/)
-- A MultiSafepay [API key](/tools/multisafepay-control/get-your-api-key)
-- The app only supports one account per webshop
-
 </details>
+> ⚠️ Action required
+> We recommend [upgrading to the latest version](//docs/lightspeed#how-to-upgrade-to-the-new-app) as soon as possible.
+
+# Prerequisites
+
+- [MultiSafepay account](/docs/getting-started-guide/)
+- A MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code)
+- The app only supports one account per webshop
 
 # How to install 
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Sign in to your Lightspeed <<glossary:backend>>.
 2. Go to **Apps** on the left-hand side of the dashboard.
@@ -36,24 +33,27 @@ This technical manual is for installing and configuring MultiSafepay's free app 
 4. Click on the app, and then on **Install app** in the top-right corner.  
 5. In the dialog, approve the permissions required for the app.  
    You are redirected to Lightspeed – [MultiSafepay: How to log in](https://lightspeed.multisafepay.com/install).
-6. In the **Setup** page:  
-    - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
+6. In the **Setup** page:
+    - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-secure-code).
     - Select **Test** or **Live** environment, and click **Save and continue**.  
 You are redirected to the **Settings** page.
 7. We recommend enabling:
     - Refunds
     - MultiSafepay checkout scripts – Creates a list of iDEAL <<glossary:issuers>>, and suppresses Apple Pay for non-Apple devices.
 8. Verify the other settings, and then click **Save**.  
+<br>
+
+---
 
 # User guide
 
 ## API keys and environments
 
-<details id="changing-api-keys-and-environments">
-<summary>Changing API keys and environments</summary>
-<br>
+You can change your [site API key](/sites/#site-id-api-key-and-secure-code) or environment (live or test) after installation.
 
-To change your [API key](/docs/sites#site-id-api-key-and-security-code) or environment (live or test) after installation, follow these steps:
+<details id="how-to-change-api-keys-and-environments">
+<summary>How to change API keys and environments</summary>
+<br>
 
 1. Sign in to the app.
 2. Tap the hamburger menu and go to **Environment**.
@@ -65,8 +65,8 @@ To change your [API key](/docs/sites#site-id-api-key-and-security-code) or envir
 
 This app is tested using the default 1-step and 1-page checkout using the default theme.
 
-<details id="ordering-payment-methods-in-your-checkout">
-<summary>Ordering payment methods in your checkout</summary>
+<details id="how-to-order-payment-methods-in-your-checkout">
+<summary>How to order payment methods in your checkout</summary>
 <br>
 
 To change the order in which payment methods appear on your checkout page, follow these steps:
@@ -75,7 +75,7 @@ To change the order in which payment methods appear on your checkout page, follo
 2. Drag and drop the payment methods to the preferred order.
 3. Click **Save**.
 
-**Setting payment method order per language**
+**How to set the payment method order per language**
 
 To set the payment method order for different languages, under the **Payment method settings** select a country / store language and set the order per language.
 
@@ -85,8 +85,8 @@ If no specific rule is set for a country, the **Default** order is used.
 
 ## Internationalization
 
-<details id="changing-internationalization">
-<summary>Changing internationalization</summary>
+<details id="how-to-change-internationalization">
+<summary>How to change internationalization</summary>
 <br>
 
 When changing internationalization in your Lightspeed eCom backend, do **not** change the primary language setting while installing the app.  
@@ -99,8 +99,8 @@ If you remove the language used during installation instead of deactivating it, 
 
 ## Lightspeed shop ID
 
-<details id="viewing-your-shop-id">
-<summary>Viewing your shop ID</summary>
+<details id="how-to-view-your-shop-id">
+<summary>How to view your shop ID</summary>
 <br>
 
 To view your shop ID, follow these steps:
@@ -113,11 +113,11 @@ To view your shop ID, follow these steps:
 
 ## Order amounts
 
-<details id="setting-maximum-minimum-order-amounts">
-<summary>Setting maximum/minimum order amounts</summary>
+<details id="how-to-set-maximum-minimum-order-amounts">
+<summary>How to set maximum/minimum order amounts</summary>
 <br>
 
-**Setting a maximum/minimum order amount per payment method**
+**Per payment method**
 
 To set a maximum/minimum order amount for a payment method to display on your checkout page, follow these steps:
 
@@ -127,7 +127,7 @@ To set a maximum/minimum order amount for a payment method to display on your ch
     **OR**
     - **Minimum** field, e.g. A minimum value of 1500 cents means the payment method only appears on the checkout page if the total order amount is **more** then 15 EUR.
 
-**Setting a maximum/minimum order amount per language**
+**Per language**
 
 To set different maximum/minimum order amounts for different languages, under the **Payment methods ordering** header > **Country** list, select a country and set the maximum/minimum amount per language.
 
@@ -137,12 +137,12 @@ If no specific rule is set for a language, **Default** language is used.
 
 ## Payment links
 
-When you generate a payment link in your MultiSafepay dashboard, you cannot update the [transaction status](/docs/payment-statuses/) or link it to a transaction in Lightspeed via our app. This is by design in Lightspeed. 
+When you generate a payment link in your MultiSafepay dashboard, you cannot update the <<glossary:transaction status>> or link it to a transaction in Lightspeed via our app. This is by design in Lightspeed. 
 
 ## Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)
@@ -180,7 +180,7 @@ To use MultiSafepay payment method icons, see GitHub [MultiSafepay icons](https:
 
 By default, the app does **not** support adding payment methods logos to your site footer. We provide a script for this, or you can ask your developer to add the logos to your theme. Themes can differ and you may need to make some changes for it to function.
 
-**Adding logos via our script**
+**How to add logos via our script**
 
 1. Sign in to your Lightspeed app.
 2. Go to **Settings** > **Storefront payment icons**.
@@ -197,14 +197,14 @@ Depending on the storefront, the display order of the logos is determined by the
 
 By default the logos are 16 px high. In most themes, footer logos are found in the "div.payment-methods p". If needed, you can change the selector based on the theme.
 
-**Resizing logos**
+**How to resize logos**
 
 1. In the JavaScript for displaying the logos, locate the following `img` element near the end of the script:
     ```<img src="${msplt[e]}" alt="${e}" />```
 2. Specify the height and width in pixels as required, e.g.:
     ```<img height="16" width="37" src="${msplt[e]}" alt="${e}" />```
 
-**Adding missing logos**  
+**How to add missing logos**  
 
 Logos may be missing due to your site theme settings. 
 
@@ -229,8 +229,8 @@ All payment methods still work if you don't use the Javascript files.
 
 </details>
 
-<details id="ordering-payment-methods-in-your-checkout">
-<summary>Ordering payment methods in your checkout</summary>
+<details id="how-to-order-payment-methods-in-your-checkout">
+<summary>How to order payment methods in your checkout</summary>
 <br>
 
 To change the order in which payment methods appear on your checkout page, follow these steps:
@@ -247,8 +247,8 @@ If no specific rule is set for a country, the **Default** order is used.
 
 </details>
 
-<details id="disabling-payment-methods">
-<summary>Disabling payment methods</summary>
+<details id="how-to-disable-payment-methods">
+<summary>How to disable payment methods</summary>
 <br>
 
 You can disable payment methods in the **Payment method settings list**. The dot next to the payment methods is green when enabled, and grey when disabled.
@@ -272,8 +272,8 @@ If a payment method is missing:
 
 </details>
 
-<details id="removing-payment-methods">
-<summary>Removing payment methods</summary>
+<details id="how-to-remove-payment-methods">
+<summary>How to remove payment methods</summary>
 <br>
 
 After terminating your contract with MultiSafepay, our payment methods may still be visible in your checkout.
@@ -290,15 +290,15 @@ After terminating your contract with MultiSafepay, our payment methods may still
 
 The Lightspeed app doesn't support [Second Chance](/docs/second-chance/) emails because Lightspeed orders expire after 12 hours. 
 
-Lightspeed offers a functionality that lets you configure payment reminders and emails for orders with **Pending** status. For more information and instructions, see Lightspeed - [Configuring payment reminders](https://ecom-support.lightspeedhq.com/hc/en-us/articles/220661507-Configuring-payment-reminders)
+Lightspeed offers a functionality that lets you configure payment reminders and emails for orders with **Pending** status. For more information and instructions, see Lightspeed – [Configuring payment reminders](https://ecom-support.lightspeedhq.com/hc/en-us/articles/220661507-Configuring-payment-reminders).
 
 ## Refunds
 
 [Full and partial refunds](/docs/refund-payments/) and credit notes are supported in your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.
 
-<details id="enabling-refunds-in-your-backend">
-<summary>Enabling refunds in your backend</summary>
+<details id="how-to-enable-refunds-in-your-backend">
+<summary>How to enable refunds in your backend</summary>
 <br>
 
 1. Sign in to your Lightspeed app.
@@ -316,19 +316,18 @@ You can't refund more than the original amount in your backend.
 
 - When creating a credit memo, set the status to **Not paid**. If the **Always create a refund, no matter the status** setting is not enabled, MultiSafepay ignores **Paid** status.
 
-**Known issues**
+</details>
+
+<details id="known-issues">
+<summary>Known issues</summary>
+<br>
 
 - For refunds created in your Lightspeed backend, a short message appears in the **Notes** section of the order where any errors are explained.
-
 - Refunds created in your MultiSafepay dashboard are not reported back to Lightspeed. Under **Offline actions**, an error appears: "Already a completed transaction".
-
-- Some pay later methods:
+- Some [pay later](/pay-later/) methods:
     - Require product IDs for each refunded item. When using product variants, make sure each variant has a unique identifier. If you provide duplicate IDs, we cannot distinguish which items to refund.
     - Do not let you refund a partial amount and a full item in a single request, e.g. a shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
-
 - You cannot issue multiple refunds for the same amount within 5 minutes of each other, even for different items. 
-
-For any questions, email <integration@multisafepay.com>
 
 </details>
 
@@ -336,8 +335,8 @@ For any questions, email <integration@multisafepay.com>
 
 Lightspeed single sign-on lets you sign in to the app's **Settings** directly from the Lightspeed eCom store. You don't need to click or tap the **Login** button.
 
-<details id="signing-in-with-lightspeed-single-sign-on">
-<summary>Signing in with Lightspeed single sign-on</summary>
+<details id="how-to-use-lightspeed-single-sign-on">
+<summary>How to use Lightspeed single sign-on</summary>
 <br>
 
 1. Sign in to the **Admin** section of your Lightspeed store.
@@ -351,8 +350,8 @@ Lightspeed single sign-on lets you sign in to the app's **Settings** directly fr
 
 ## Surcharges
 
-<details id="applying-surcharges">
-<summary>Applying surcharges</summary>
+<details id="how-to-apply-surcharges">
+<summary>How to apply surcharges</summary>
 <br>
 
 1. Sign in to your Lightspeed app.
@@ -372,17 +371,15 @@ Lightspeed single sign-on lets you sign in to the app's **Settings** directly fr
 
 You don't need to manually update the app. 
 
-## Upgrading to the new app
+## Upgrades
 
-<details id="upgrading-to-the-new-app">
-<summary>Upgrading to the new app</summary>
+We recommend upgrading from our deprecated core integration to the Lightspeed app.
+
+<details id="how-to-upgrade-to-the-new-app">
+<summary>How to upgrade to the new app</summary>
 <br>
 
-**Upgrading to the new app**
-
-To upgrade from our deprecated core integration to the Lightspeed app, follow these steps:
-
-1. In the [Lightspeed app manual](/docs/lightspeed#how-to-install), follow the steps to install the app.
+1. In the [Lightspeed app manual](/docs/lightspeed#how-to-install, follow the steps to install the app.
 2. Place a test order to make sure it's working properly.
 3. Open the core integration, and then [disable the payment provider](/docs/lightspeed#how-to-disable-core-integration).
 
@@ -391,15 +388,15 @@ To access the MultiSafepay Payments app **Settings** page:
 - You are automatically redirected after installing the app, or 
 - Select the MultiSafepay Payments app, and then click **Go to app**.
 
-**Disabling the core integration**
+</details>
 
-To disable the core integration after migrating to the new app, follow these steps:
+<details id="how-to-disable-core-integration">
+<summary>How to disable the core integration</summary>
+<br>
 
 1. Sign in to your Lightspeed backend.
 2. Go to **Settings** > **Payment providers** > **MultiSafepay**.
 2. At the top of the screen, click **Disable this payment provider**.
-
-For any questions about the app, email <integration@multisafepay.com>
 
 </details>
 

@@ -4,36 +4,33 @@ category: 62962dd7e272a6002ebbbbc5
 order: 204
 hidden: false
 parentDoc: 62a9a54aba9800011a8bda88
-excerpt: "Free app to integrate MultiSafepay payment solutions with Mijnwebwinkel."
+excerpt: "Technical manual for installing and configuring Mijnwebwinkel's free app for MultiSafepay."
 slug: 'mijnwebwinkel'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Mijnwebwinkel.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-This technical manual is for installing and configuring Mijnwebwinkel's free app for MultiSafepay. 
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+# Prerequisites
 
 You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
-</details>
-
 # How to install and configure
 
-:warning: We recommend first installing the plugin in a test environment, following the Mijnwebwinkel installation procedure. Always make a backup.
+> **Tip!** We recommend first installing the plugin in a test environment, following the Mijnwebwinkel installation procedure. Always make a backup.
 
 1. Sign in to your Mijwebwinkel <<glossary:backend>>.
 2. Go to **Online orders** > **Payment method** > **MultiSafepay**.
 2. Add your MultiSafepay account ID, [site ID, site security code, and API key](/docs/sites#site-id-api-key-and-security-code).
 6. Select the relevant payment methods.
+<br>
+
+---
 
 # User guide
 
 ## Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [Mastercard](/docs/cards/) and [Visa](/docs/cards/)
@@ -69,8 +66,8 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 </details>
 
-<details id="changing-payment-method-order-in-checkout">
-<summary>Changing payment method order in checkout</summary>
+<details id="how-to-change-payment-method-order-in-checkout">
+<summary>How to change payment method order in checkout</summary>
 <br>
 
 To change the order of payment methods in your checkout, follow these steps:

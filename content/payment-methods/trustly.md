@@ -36,14 +36,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses   
 
-- **Order status:** Changes as the customer's order with you progresses towards shipment 
-- **Transaction status:** Changes as the funds progress towards settlement in your account balance
-
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment.| Completed | Completed |
@@ -57,7 +54,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | Refund initiated. | Initialized | Initialized |
 | Refund complete. | Completed | Completed |
@@ -87,7 +84,6 @@ You can enable Trustly yourself in your dashboard.
 
 # Integration
 
-| | |
 | Integration | Details |
 |---|---|
 | **Activation** | [Enable in your dashboard](/docs/payment-methods#activate-in-dashboard) |

@@ -1,17 +1,17 @@
 ---
 title: "Google Analytics"
 category: 62962df622e99600810c117d
-order: 50
+order: 20
 hidden: false
 slug: 'google-analytics'
 ---
-# Tracking payment pages
+# Payment pages
 
 You can gain insight into customer behavior on [payment pages](/docs/payment-pages/) through Google Analytics tracking.
 
 When the customer reaches the payment page, the UA-code is generated and appears in the HTML.
 
-# Excluding referrals
+# Redirect orders
 For redirect payment methods where customers are directed to a third-party site to complete payment and then back to your site, Google Analytics doesn't correctly track these visits to your site, e.g.:
 
 - Gateway: Source (instead of your site) 
@@ -23,14 +23,13 @@ For example, a customer selects iDEAL (redirect) and then specifies their bank. 
 
 This makes Google Analytics reports unreliable, and they don't accurately capture <<glossary:conversion>> rates. There are two ways to mitigate this.
 
-## Referral exclusion list
+## How to exclude referrals
 
 To prevent third-party shopping carts initiating new sessions, you can exclude referral domains. 
 
 The customer isn't counted as a referral when they return to your success page. 
 
-**Note:** This feature is only available for sites using gtag.js or analytics.js.
-It is not supported for ga.js (Classic Analytics).
+> **Note:** This feature is only available for sites using gtag.js or analytics.js. It is **not** supported for ga.js (Classic Analytics).
 
 For instructions, see Google Analytics – [Referral exclusions](https://support.google.com/analytics/answer/2795830).
 
@@ -92,6 +91,16 @@ In your PHP code, the parameter would look like this: `$this→_redirect('checko
 
 Make sure you do this for all links from the payment gateway to your site.
 
-For more information, email <integration@multisafepay.com>
+> **Note:** Our ready-made integrations for Magento 1 and 2 do this automatically. 
+<br>
 
-**Note:** Our ready-made integrations for Magento 1 and 2 do this automatically. 
+---
+
+<blockquote class="callout callout_info">
+    <h3 class="callout-heading false">
+        <span class="callout-icon">💬</span>
+        <p>Support</p>
+    </h3>
+    <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+</blockquote>
+

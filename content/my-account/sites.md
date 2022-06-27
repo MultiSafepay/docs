@@ -17,52 +17,21 @@ To process payments from a site operated by a separate legal entity, you must si
 
 # Activation
 
-1. Sign in to your MultiSafepay dashboard. 
+<details id="how-to-add-a-site">
+<summary>How to add a site</summary>
+<br>
+
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com). 
 2. Go to **Settings** > **Website settings**.
-3. Click either:  
-    
-  <details id="quick-add-site">
-  <summary>Quick add site</summary>
-  <br>
-
-  4. From the **Category** list, select what type of products or services your site sells.
-  5. In the **Description** field, enter the site name.  
-      **Note:** If relevant, this is displayed on MultiSafepay payment pages and the customer’s bank statement.
-  6. In the **Base URL** field, add the site’s URL. This must be the URL where you receive payments.
-  7. If you want to receive [status updates](/docs/payment-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
-  8. Click **Save**.
-
-  </details> 
-
-  Or, for more advanced configuration:
-
-  <details id="website-wizard">
-  <summary>Website wizard</summary>
-  <br>
-
-  1. Enter the site URL in the **Full website URL** field, or select it from the **Select existing site** list, and then click **Continue**.
-  2. From the **Website platform** list, select your ecommerce platform.  
-      You are prompted to install the MultiSafepay ready-made integration for your ecommerce platform in your site. 
-  3. From the **Category** list, select the type of products and/or services you sell from this site, and then click **Continue**.
-  4. If you want to receive [status updates](/docs/payment-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
-  5. In the **Description** field, enter your company name, and then click **Continue**.  
-      **Note:** If relevant, this is displayed on MultiSafepay payment pages and the customer’s bank statement.  
-      A template of your [payment page](/docs/payment-pages/) is generated.
-  6. Customize the template as required.  
-      - To toggle the view of the payment page, click:
-          - **List view** to see all payment methods in a list
-          - **Detail view** to display one detailed box for entering payment details and collapse all other payment methods
-          - **API view code** to view the code
-      - To replace the MultiSafepay logo in the top-left corner, after completing the wizard, upload your own logo under **Settings** > **Payment page templates**.
-      - To hide the MultiSafepay logo in the top-left corner, on the lefthand side under **Settings**, select the **Hide main logo** checkbox.
-      - On the lefthand side, under **Header**, **Body**, **Container**, **Cart**, **Payment form**, and **Buttons**, you can change the color of the background, text, lines, and links in different parts of the payment page.
-      - To clear your changes and start again, click **Reset style**.
-  7. To set this payment page as your default template, select the **Set as default template** checkbox. 
-  8. In the **Save template as** field, enter a name for this template.  
-
-  Your account is now linked to your site. 
-
-  </details>
+3. Click **Quick add site**.
+    - From the **Category** list, select what type of products or services your site sells.
+    - In the **Description** field, enter the site name.  
+    **Note:** If relevant, this is displayed on MultiSafepay payment pages and the customer’s bank statement.
+    - In the **Base URL** field, add the site’s URL. This must be the URL where you receive payments.
+    - If you want to receive [status updates](/payment-statuses/) via webhook, in the **Notification URL** field, enter a URL for us to send them to.
+4. Click **Save**.
+    A **Website settings** page for the new site displays, which you can configure as needed. 
+</details>
 
 # Integration
 
@@ -94,26 +63,10 @@ To set how your company name displays, follow these steps:
 
 </details>
 
-## Site ID, API key, and security code
-
-<details id="how-to-view-site-id-api-key-security-code">
-<summary>How to view your site ID, API key, and security code</summary>
-<br>
-
-To view the site ID, API key, and secure code for a site:
-
-1. Sign in to your [live](https://merchant.multisafepay.com) or [test](https://testmerchant.multisafepay.com) MultiSafepay dashboard.
-
-2. Go to **Settings** > **Website settings**.
-
-3. Click on the relevant site to view the **Website details** page.
-
-</details>
-
 ## Deleting sites
 
-<details id="how-to-delete-sites">
-<summary>How to delete sites</summary>
+<details id="how-to-delete-site">
+<summary>How to delete a site</summary>
 <br>
 
 To delete a site from your account, follow these steps:
@@ -124,7 +77,17 @@ To delete a site from your account, follow these steps:
 4. In the **Disable payments** dialog, click **Delete**.
 
 </details>
+
+## Site ID, API key, and security code
+
+To view the site ID, API key, and secure code for a site:
+
+1. Sign in to your [live](https://merchant.multisafepay.com) or [test](https://testmerchant.multisafepay.com) MultiSafepay dashboard.
+2. Go to **Settings** > **Website settings**.
+3. Click on the relevant site to view the **Website details** page.
 <br>
+
+---
 
 [block:html]
 {

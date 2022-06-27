@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 119
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugin to integrate MultiSafepay payment solutions with X-Cart."
+excerpt: "Technical manual for installing and configuring MultiSafepay's free plugin for X-Cart."
 slug: 'x-cart'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/X-Cart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
@@ -19,21 +19,15 @@ slug: 'x-cart'
 
 </div>
 
-This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with X-Cart.
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+# Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - X-Cart 5.x        
 - Tested on PHP 7.0
 
-</details>
-
 # How to install
 
-:warning: We recommend first installing the plugin in a test environment, following the X-Cart installation procedure. Always make a backup.
+> **Tip!** We recommend first installing the plugin in a test environment, following the X-Cart installation procedure. Always make a backup.
 
 1. In the root of your webshop, unzip the content of the .ZIP file.
 2. Sign in to your X-Cart <<glossary:backend>>.
@@ -41,6 +35,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 4. Click **Start**.
 
 # How to configure
+
 1. Sign in to your X-Cart backend.
 2. Go to **My Addons**, and search for **MultiSafepay**.
 3. Locate and enable **MultiSafepay Connect**. This is required to enter your API key in a later step.
@@ -52,13 +47,16 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 9. Enter your account ID, [site ID, secure code, and API key](/docs/sites/#site-id-api-key-and-secure-code 
 Make sure you enter the correct API key for the account type you want to use. 
 10. Click **Save changes**.  
+<br>
+
+---
 
 # User guide
 
 ## Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)
@@ -95,11 +93,11 @@ You cannot refund more than the original amount in your backend.
 
 You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
-<details id="updating-in-your-backend">
-<summary>Updating in your backend</summary>
+<details id="how-to-update-in-your-backend">
+<summary>How to update in your backend</summary>
 <br>
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 1.

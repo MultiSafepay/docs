@@ -5,7 +5,7 @@ parentDoc: 62a2055be5b9db006a2545a7
 order: 302
 hidden: false
 slug: 'affiliate-onboarding-api'
-excerpt: 'Partner or primary account holders can submit onboarding information for new affiliated merchants via our API.'
+excerpt: 'Partner/primary account holders can submit onboarding information for new affiliated merchants via our API.'
 ---
 
 # How it works

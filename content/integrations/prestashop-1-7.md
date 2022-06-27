@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 103
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugin to integrate MultiSafepay payment solutions with Prestashop 1.7."
+excerpt: "Technical manual for installing and configuring MultiSafepay's free plugin for Prestashop 1.7."
 slug: 'prestashop-1-7'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
@@ -19,25 +19,20 @@ slug: 'prestashop-1-7'
 
 </div>
 
-This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Prestashop 1.7.
+> ⚠️ Action required
+> If you are still using the [deprecated plugin](https://github.com/MultiSafepay/prestashop), we recommend [upgrading to the latest version](#upgrades) as soon as possible.
 
-:warning: If you are still using the [deprecated plugin](https://github.com/MultiSafepay/prestashop), we recommend upgrading to the latest version as soon as possible.
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+# Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - PrestaShop version 1.7.6 or higher
 - PHP version 7.2 or higher
 
-If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an older version (4.x) of our plugin which can be found in our [PrestaShop GitHub repository](https://github.com/MultiSafepay/prestashop/releases). 
-
-</details>
+> **Tip!** If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an older version (4.x) of our plugin which can be found in our [PrestaShop GitHub repository](https://github.com/MultiSafepay/prestashop/releases). 
 
 # How to install
 
-:warning: We recommend first installing the plugin in a test environment, following the PrestaShop 1.7 installation procedure. Always make a backup.
+> **Tip!** We recommend first installing the plugin in a test environment, following the PrestaShop 1.7 installation procedure. Always make a backup.
 
 1. Sign in to your PrestaShop 1.7 <<glossary:backend>>.
 2. Go to **Modules** > **Module Manager** > **Upload a module**.
@@ -45,16 +40,21 @@ If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an o
 4. Clear your cache.
 
 # How to configure
+
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **Improve** > **MultiSafepay**, and enter your [API key](/docs/sites#site-id-api-key-and-security-code).
+2. Go to **Improve** > **MultiSafepay**, and enter your [site API key](/docs/sites/#site-id-api-key-and-secure-code).
 3. On the **Payment methods** tab, enable the relevant payment methods.
 4. Click **Save**.
+<br>
+
+---
 
 # User guide
 
 ## Backend orders
 
-In the previous version of the plugin, PrestaShop backend orders were only created for MultiSafepay orders with **Completed** status. Now, a backend order is created for **every** order attempt, that is for MultiSafepay orders with **Initialized** status.
+In the previous release, PrestaShop backend orders were only created for MultiSafepay orders with **Completed** status. 
+In the current release, a backend order is created for **every** order attempt, that is for MultiSafepay orders with **Initialized** status.
 
 ## Checkouts
 
@@ -77,8 +77,8 @@ The Integration Team will do their best to provide support for third-party plugi
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards. 
 
-<details id="configuring-generic-gateways">
-<summary>Configuring generic gateways</summary>
+<details id="how-to-configure-generic-gateways">
+<summary>How to configure generic gateways</summary>
 <br>
 
 1. Sign in to your Prestashop 1.7 backend.
@@ -118,8 +118,8 @@ If the notification hasn't been processed yet, a waiting page with a loader disp
 
 </details>
 
-<details id="switching-order-flows">
-<summary>Switching order flows</summary>
+<details id="how-to-switch-order-flows">
+<summary>How to switch order flows</summary>
 <br>
 
 To change the flow you are using, follow these steps:
@@ -140,8 +140,8 @@ The plugin supports [payment components](/docs/payment-components/), which:
 - Encrypt customer payment details for secure processing.
 - Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
 
-<details id="activating-payment-components">
-<summary>Activating payment components</summary>
+<details id="how-to-activate-payment-components">
+<summary>How to activate payment components</summary>
 <br>
 
 If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
@@ -151,16 +151,14 @@ If you're new to accepting credit card payments, email a request to activate the
 3. Slide the **Enable payment component** radio button to **Enabled**.
 4. Click **Save config**.
 
-For support, email <integration@multisafepay.com>
-
-**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+> **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
 ## Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)
@@ -195,11 +193,11 @@ For support, email <integration@multisafepay.com>
 
 ## Recurring payments
 
-<details id="enabling-recurring-payments">
-<summary>Enabling recurring payments</summary>
-<br>
+The plugin supports [recurring payments](/docs/recurring-payments).
 
-To enable [Recurring Payments](/docs/recurring-payments/), follow these steps:
+<details id="how-to-enable-recurring-payments">
+<summary>How to enable recurring payments</summary>
+<br>
 
 1. Sign in to your PrestaShop 1.7 backend. 
 2. Go to **Improve** > **Module manager** > **MultiSafepay**.
@@ -212,33 +210,34 @@ To enable [Recurring Payments](/docs/recurring-payments/), follow these steps:
 
 ## Refunds
 
-[Full and partial refunds](/docs/refunds/) are supported in your MultiSafepay dashboard and backend.  
-[Pay later refunds](/docs/refund-payments/) are only supported in your dashboard.
+- [Full and partial refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.  
+- [Pay later refunds](/docs/refund-payments#pay-later-refunds) are only supported in your dashboard.
     
-<details id="disabling-api-refunds">
-<summary>Disabling API refunds</summary>
+<details id="how-to-disable-api-refunds">
+<summary>How to disable API refunds</summary>
 <br>
 
 By default, refunds initiated in your backend are automatically processed via our API, **except** for voucher refunds.
 
- To disable this, follow these steps:
+To disable this, follow these steps:
 
 1. Sign in to your PrestaShop 1.7 backend.
 2. Go to **MultiSafepay module** > **Manage hooks**.
 3. Select **Display non-positionable hooks**.
 4. For **actionOrderSlipAdd**, select the three dots, and then click **Unhook**.
+
 </details>
 
 ## Shopping carts
 
 If you notice errors in shopping cart calculations, email <integration@multisafepay.com>
 
- As a temporary solution, you can disable sending the shopping cart with the payment request.
+As a temporary solution, you can disable sending the shopping cart with the payment request.
 
-**Note:** Pay later methods do not work if the shopping cart is disabled. 
+❗️ Pay later methods do not work if the shopping cart is disabled. 
 
-<details id="disabling-the-shopping-cart">
-<summary>Disabling the shopping cart</summary>
+<details id="how-to-disable-the-shopping-cart">
+<summary>How to disable the shopping cart</summary>
 <br>
 
 1. Sign in to your PrestaShop 1.7 backend.
@@ -246,14 +245,15 @@ If you notice errors in shopping cart calculations, email <integration@multisafe
 3. In the MultiSafepay module, go to the **General settings** tab.
 4. Set the **Disable Shopping Cart** toggle to **Enabled**.
 5. Click **Save**.
+
 </details>
 
 ## Surcharges
 
 [Surcharges](/docs/surcharges/) are not supported by default.
 
-<details id="applying-surcharges-with-third-party-add-ons">
-<summary>Applying surcharges with third-party add-ons</summary>
+<details id="how-to-apply-surcharges-with-third-party-add-ons">
+<summary>How to apply surcharges with third-party add-ons</summary>
 <br>
 
 There are several [third-party add-ons](https://addons.prestashop.com/en/search?search_query=surcharge) available. However, we can't guarantee compatibility with our plugin. Make sure that you test them carefully before installing.
@@ -265,8 +265,8 @@ There are several [third-party add-ons](https://addons.prestashop.com/en/search?
 
 ## Translation
 
-<details id="translating-the-multisafepay-module">
-<summary>Translating the MultiSafepay module</summary>
+<details id="how-to-translate-the-multisafepay-module">
+<summary>How to translate the MultiSafepay module</summary>
 <br>
 
 To translate elements of the MultiSafepay module in the plugin, follow these steps:
@@ -287,24 +287,24 @@ To translate the names of payment methods:
 
 ## Updates
 
-<details id="updating-in-your-backend">
-<summary>Updating in your backend</summary>
+<details id="how-to-update-in-your-backend">
+<summary>How to update in your backend</summary>
 <br>
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the [Installation](/docs/prestashop-1-7#how-to-install) instructions.
 
 </details>
 
-## Upgrading from 4.x or lower
+## Upgrades
 
-<details id="upgrading-to-version-5">
-<summary>Upgrading to version 5.x</summary>
+<details id="how-to-upgrade-to-version-5">
+<summary>How to upgrade to version 5.x</summary>
 <br>
 
-To upgrade to version 5.x from an older version, follow these steps:
+We recommend upgrading to version 5.x from older versions.
 
 1. Go to **Modules** > **Module manager** > **MultiSafepay** > **Configure**.
 2. On the **Payment methods** tab, set all payment methods to **Off**.

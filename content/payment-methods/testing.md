@@ -14,18 +14,18 @@ For all payment methods **except** AfterPay, you need your site's test [API key]
 
 # How to make a test payment
 
-1. Initiate a payment in your [ready-made integration](/docs/our-integrations/) or via our API:  
+1. Initiate a payment:  
 
-    <details id="ready-made-integration">
-    <summary>Ready-made integration</summary>
+    <details id="in-your-ready-made-integration">
+    <summary>In your ready-made integration</summary>
     <br>
 
     - In your <<glossary:backend>>, enter your test site [API key](/docs/sites#site-id-api-key-and-security-code).
     - Place a test order, and then initiate a transaction with the payment method you are testing. 
 
     </details>
-    <details id="api">
-    <summary>API</summary>
+    <details id="via-our-api">
+    <summary>Via our API</summary>
     <br>
   
     - [Create an order](https://docs-api.multisafepay.com/reference/createorder) via our API to the test endpoint: `https://testapi.multisafepay.com/v1/json/` 
@@ -39,8 +39,10 @@ For all payment methods **except** AfterPay, you need your site's test [API key]
 7. To check that you have succesfully connected to our system, under **Offline actions**, check that you've correctly received the **notifyMerchantTrans** action.  
     For information about errors, see [HTTP errors](/docs/http-errors/).
 
-:warning: Once your live account is approved, make sure you use the site API key from your **live** account instead of your test account. 
+> ✅ Success!
+> Once your live account is approved, make sure you use the site API key from your **live** account instead of your test account. 
 
+---
 # Test payment details
 
 When testing, use the following test payment details for different scenarios. 
@@ -59,6 +61,7 @@ You can't test the following methods in your MultiSafepay test account. You can 
 
 </details>
 
+---
 ## Banking methods
 
 <details id="bancontact">
@@ -111,7 +114,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 | Any other IBAN | **Initialized**/ **Expired** | Transaction is initiated. After 5 days, this changes to **Expired**. |
 <br>
 
-**Note:** You can't test making direct API requests with an IBAN to test different transaction statuses.
+> **Note:** You can't test making direct API requests with an IBAN to test different <<glossary:transaction statuses>>.
 
 </details>
 
@@ -124,7 +127,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 2. Open the payment link. 
 3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**.  
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
+  The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
 
 </details>
 
@@ -141,7 +144,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
   You are automatically redirected.
 4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 5. Click **Test**.  
-    The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
+    The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
 
 </details>
 
@@ -156,7 +159,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 3. Click **Confirm**.
 4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 5. Click **Test**.  
-    The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
+    The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
 
 </details>
 
@@ -170,7 +173,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 3. Click **Confirm**.
 4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 5. Click **Test**.  
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
+  The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
 
 </details>
 
@@ -183,7 +186,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 2. For redirect, select a bank.
 3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**.  
-    The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
+    The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
 
 You can also test the following scenarios:
 
@@ -216,6 +219,7 @@ You can also test the following scenarios:
 
 </details>
 
+---
 ## Credit and debit cards
 
 <details id="credit-debit-cards">
@@ -237,7 +241,7 @@ You can also test the following scenarios:
 3. On the 3D payment page:
     - From the drop-down list, select **Authenticated (Y)**.
     - Click **Confirm**.  
-    The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
+    The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
 
 | Card number | Scenario | Description |
 | --- | --- | --- |
@@ -249,10 +253,11 @@ You can also test the following scenarios:
 | Visa/co-branded: <br> 4012001038488884 | **Declined**  | Transaction was declined (3D authentication was successful, but insufficient funds) |
 <br>
 
-**Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
+> **Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
 
 </details>
 
+---
 ## Pay later methods
 
 <details id="afterpay">
@@ -274,7 +279,7 @@ You can also test the following scenarios:
 1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order  
     Example: AfterPay direct/redirect
 2. For redirect orders, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.  
-The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Uncleared**.
 
 **Test declining an order**  
 
@@ -294,13 +299,10 @@ To change the order status, either:
 - Make an [update order](https://docs-api.multisafepay.com/reference/updateorder) request, or 
 - In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
-**Notes:** 
-
-You can't test:  
-
-- Receiving successful payment notifications from AfterPay
-- Changing the transaction status from **Uncleared** to **Completed**
-- Processing refunds
+> **Note:** You can't test:  
+> - Receiving successful payment notifications from AfterPay
+> - Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**
+> - Processing refunds
 
 </details>
 
@@ -324,7 +326,7 @@ The payment is processed in the test environment as **Successful**, with order a
 **Test declining an order**  
 
 To decline an order, in your test account under **Order summary**, click **Decline**.  
-The order and transaction statuses change to **Void**.
+The <<glossary:order status>> and <<glossary:transaction status>> change to **Void**.
 
 **Test shipping an E-Invoicing order**  
 
@@ -354,7 +356,7 @@ To test shipping an order, make an [update order](https://docs-api.multisafepay.
 3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**. 
 5. On the in3 page, click **Terug naar webshop**.  
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+  The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and transaction status **Uncleared**.
 
 **Test in3 declining an order**  
 
@@ -364,7 +366,7 @@ Use the following customer details:
 - Postal code: 1111AB
 - House number: 1 
 
-The order and transaction statuses change to **Declined**.
+The <<glossary:order status>> and <<glossary:transaction status>> change to **Declined**.
 
 **Test shipping an in3 order**  
 
@@ -413,7 +415,7 @@ To test refunding an order via the API:
 2. On the Klarna page, click **Kopen**.
 3. In the **Telefoonnummer** field, enter any mobile number, and then click **Ga verder**.
 4. In the **Verificatiecode** field, enter any 6-digit number, and then click **Bevestigen**.  
-    The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Uncleared**.
+    The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and transaction status **Uncleared**.
 
 **Test declining an order**  
 
@@ -434,23 +436,22 @@ To refund an order:
 
 1. Change the order status to **Shipped**.
 2. Under **Order summary**, click **Refund order**, or make a pay later refund API request: [Refund order](https://docs-api.multisafepay.com/reference/refundorder) > Pay later refund.  
-    The transaction status changes to **Completed**.
+    The <<glossary:transaction status>> changes to **Completed**.
 
 **Receive an invoice**  
 
 You can only test invoicing in your MultiSafepay live account. To do this, change the order status to **Shipped**.
 
-**Notes:** 
+> **Note** You can't test:
+> - Receiving successful payment notifications from Klarna
+> - Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**, except for refunds
 
-You can't test:
-
-- Receiving successful payment notifications from Klarna
-- Changing the transaction status from **Uncleared** to **Completed**, except for refunds
-
-For more information about integrating Klarna with MultiSafepay, see [Klarna](/docs/klarna/).
+> ℹ️ More information
+> To learn more about integrating Klarna with MultiSafepay, see [Klarna](/klarna/).
 
 </details>
 
+---
 ## Prepaid cards
 
 <details id="edenred">
@@ -461,7 +462,7 @@ For more information about integrating Klarna with MultiSafepay, see [Klarna](/d
     Example: Edenred redirect
 2. On the payment page, click **Add discount**.
 3. From the **Test scenario** list, select the relevant discount, and then click **Test**.
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
+  The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
 
 </details>
 
@@ -492,7 +493,7 @@ You can't test other gift cards in your MultiSafepay test account. You can only 
     - **Card number** field `111115`
     - **Security code** field any 4-digit number
 4. Click **Add discount**.  
-  The payment is processed in the test environment as **Successful**, with order status **Completed**, and transaction status **Completed**.
+  The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
 
 Use the following card numbers to test different gift card balances.
 
@@ -507,6 +508,7 @@ Any other card number receives an "Invalid card number" error.
 
 </details>
 
+---
 ## Wallets
 
 <details id="alipay">
@@ -517,9 +519,9 @@ Any other card number receives an "Invalid card number" error.
     Example: Alipay direct/redirect
 2. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
-    The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
+    The payment is processed in your MultiSafepay test account as **Successful**, with <<glossary:order status>> **Completed**, and transaction status **Initialized**.
 
-    **Note:** You can't test Alipay declining transactions.
+> **Note:** You can't test Alipay declining transactions.
 
 </details>
 
@@ -595,9 +597,9 @@ To test Google Pay payments, follow these steps:
     Example: PayPal direct
 2. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
-    The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Initialized**.
+    The payment is processed in your MultiSafepay test account as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Initialized**.
 
-**Note**: Since MultiSafepay does not collect payments on behalf of PayPal, the transaction status remains **Initialized** and can't be changed to **Completed**.
+> **Note:** Since MultiSafepay does not collect payments on behalf of PayPal, the <<glossary:transaction status>> remains **Initialized** and can't be changed to **Completed**.
 
 **Change the order status**
 
@@ -623,7 +625,7 @@ To change the order status, on the Test platform page, from the **Test scenario*
 2. Scan the QR code with a general QR reader (**not** the WeChat app or an error occurs).
 3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**.  
-    The payment is processed in your MultiSafepay test account as **Successful**, with order status **Completed**, and transaction status **Completed**.
+    The payment is processed in your MultiSafepay test account as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
 
 </details>
 <br>
@@ -735,12 +737,6 @@ You can test refunds for the following methods:
 ---
 
 > ℹ️ See also
-> If you encounter any issues during testing, see [Handling errors](/docs/errors/).
-
-[block:html]
-{
-  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></p>\n</blockquote>\n"
-}
-[/block]
+> If you encounter any issues during testing, see [Troubleshooting](/docs/troubleshooting/).
 
 [Top of page](#)

@@ -81,7 +81,7 @@ manager.startCheckout(transactionId: "ID", host: self, onCompletion: { status, e
 })
 ```
 
-And that’s it! Now you can start a checkout and retrieve the [transaction status](/docs/payment-statuses/) once it completes.
+And that’s it! Now you can start a checkout and retrieve the <<glossary:transaction status>> once it completes.
 
 ###### Complete example
 
@@ -180,7 +180,7 @@ self.manager = FastcheckoutManager(client: client)
       {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-10.png" title="screenshot 10">}}
       {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-11.png" title="screenshot 11">}}
     
-    - Once payment is completed, the SDK proceeds to the **Transaction complete** screen. The SDK callback notifies the client app of the transaction status, e.g. Uncleared, Cancelled. When the customer clicks **Back to shop**, they are redirected back to the webshop.
+    - Once payment is completed, the SDK proceeds to the **Transaction complete** screen. The SDK callback notifies the client app of the <<glossary:transaction status>>, e.g. Uncleared, Cancelled. When the customer clicks **Back to shop**, they are redirected back to the webshop.
 
       {{< zoom_able class="img-size" url="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-ios-12.png" title="screenshot 12">}}
 

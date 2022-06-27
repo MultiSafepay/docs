@@ -5,14 +5,12 @@ order: 30
 hidden: false
 slug: 'http-errors'
 ---
-> 📘 About HTTP status codes
-> 
-> HTTP response status codes don't necessarily originate from the MultiSafepay platform. They are generic errors you can encounter while browsing the web.
+HTTP response status codes don't necessarily originate from the MultiSafepay platform. They are generic errors you can encounter while browsing the web.
 
-The following table lists the most common HTTP error codes and descriptions:
+This table lists the most common HTTP error codes and descriptions:
 
-|  Error	|  Description 	           |
-|-----------|--------------------------|
+| Error | Description |
+|---|---|
 | HTTP 200: OK | The page is responding correctly but is missing the text `OK` in the body. |          
 | HTTP 301: Moved permanently | The page has moved permanently. Check your [webhook endpoint](/docs/configure-your-webhook/) is configured correctly in your MultiSafepay account and/or the API request. | 
 | HTTP 302: Found | The page redirects to another location. Check your [webhook endpoint](/docs/configure-your-webhook/) is configured correctly in your MultiSafepay account and/or the API request. |                 
@@ -20,3 +18,15 @@ The following table lists the most common HTTP error codes and descriptions:
 | HTTP 404: Not found | The page doesn't exist. Check that your [webhook endpoint](/docs/configure-your-webhook/) is configured correctly in your MultiSafepay account and/or the API request. |
 | HTTP 500: Internal server error | The webshop server is malfunctioning. Contact your server administrator or web developer to resolve this. |
 | HTTP 503: Service not available | The function that processes the notification isn't working. Contact your server administrator or web developer to resolve this. | 
+
+<br>
+
+---
+
+<blockquote class="callout callout_info">
+    <h3 class="callout-heading false">
+        <span class="callout-icon">💬</span>
+        <p>Support</p>
+    </h3>
+    <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+</blockquote>

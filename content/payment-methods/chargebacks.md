@@ -31,6 +31,7 @@ When a cardholder requests a chargeback, they must provide a reason. This page s
 
 If you have asked MultiSafepay to dispute a chargeback on your behalf, we have specified what documentary proof you need to provide for each chargeback reason. Try to provide as much proof as possible. 
 
+---
 ## Visa
 
 #### Fraud 
@@ -168,6 +169,7 @@ To dispute this type of chargeback, you need to provide:
 
 </details>
 
+---
 ## Mastercard 
 
 #### Fraud
@@ -284,6 +286,7 @@ To dispute this type of chargeback, you need to provide evidence that:
 
 </details>
 
+---
 ## American Express 
 
 #### Fraud
@@ -470,11 +473,13 @@ To dispute this type of chargeback, you need to provide proof that the transacti
 
 </details>
 
+---
+
 # Disputing chargebacks
 
 The table below sets out the process for disputing chargebacks.
 
-|   |   |   |   
+| Step  | Who  | Action  |   
 |---|---|---|
 | 1. | Cardholder  | To find out more about a transaction, the cardholder can file a free retrieval request for more information. This can help identify and clarify transactions and avoid chargebacks. <br> You can still refund the transaction at this stage.  |   
 | 2.  | Cardholder  | If the cardholder still disagrees with the transaction, they request a chargeback.  | 

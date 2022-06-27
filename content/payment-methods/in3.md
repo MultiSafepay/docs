@@ -36,14 +36,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-- **Order status:** Changes as the customer's order with you progresses towards shipment 
-- **Transaction status:** Changes as the funds progress towards settlement in your account balance
-
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | in3's credit check is in progress. You can still cancel. | Initialized   | Initialized  |
 | in3 is waiting for the customer to pay the first installment (within 5 mins). | Uncleared  | Initialized  |
@@ -60,7 +57,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | Order | Transaction |
+| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
 |---|---|---|
 | in3 has successfully processed a full or partial refund. | Completed | Completed |
 | The refund was declined. | Declined | Declined   |

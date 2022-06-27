@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 102
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugin to integrate MultiSafepay payment solutions with Magento 2."
+excerpt: "Technical manual for installing and configuring MultiSafepay's free plugin for Magento 2."
 slug: 'magento-2'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento_2.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
@@ -17,21 +17,16 @@ slug: 'magento-2'
 
 </div>
 
-:warning: If you are still using the deprecated plugin, we recommend [upgrading to the latest version](/docs/magento-2#upgrades) as soon as possible.
-
-This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with Magento 2.
+> ⚠️ Action required
+> If you are still using the deprecated plugin, we recommend [upgrading to the latest version](/magento-2/#upgrading) as soon as possible.
 
 Our plugin is supported by a certified Magento 2 Solution Specialist and receives regular updates for the latest features from Magento and MultiSafepay.
 
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+# Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - Magento Open Source version 2.3.x & 2.4.x **or** Adobe Commerce version 2.3.x & 2.4.x (For GraphQL, only Magento Open Source versions 2.4.x are supported)
 - PHP 7.1+
-
-</details>
 
 # Modules
 
@@ -69,19 +64,17 @@ The installation process is the same for the Adobe Commerce version.
 
 # How to install
 
-**1.** We recommend installing the meta-package using Composer:
-
-``` 
-composer require multisafepay/magento2
-php bin/magento setup:upgrade
-php bin/magento setup:di:compile
-php bin/magento setup:static-content:deploy
-```
-
-**2.** To enable all modules, run in the Magento 2 root directory:
-```
-./bin/magento module:enable `./bin/magento module:status | grep MultiSafepay_`
-```
+1. We recommend installing the meta-package using Composer:
+    ``` 
+    composer require multisafepay/magento2
+    php bin/magento setup:upgrade
+    php bin/magento setup:di:compile
+    php bin/magento setup:static-content:deploy
+    ```
+2. To enable all modules, run in the Magento 2 root directory:
+    ```
+    ./bin/magento module:enable `./bin/magento module:status | grep MultiSafepay_`
+    ```
 
 ## Stock handling
 
@@ -95,24 +88,28 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 ```
 
 # How to configure
+
 1. Sign in to your Magento 2 <<glossary:backend>>.
 2. Go to **Stores** > **Configuration** > **MultiSafepay**.  
 
-<details id="specific-settings">
-<summary>Specific settings</summary>
+    <details id="specific-settings">
+    <summary>Specific settings</summary>
+    <br>
+
+    - **General information:** Contains all the main support information. We recommend reading this first.
+    - **General settings:** Contains all main settings.  
+    - Here you can configure all <<glossary:gateways>> and gift cards.  
+    - Enter your [account ID, site ID, site secure code](/docs/sites#site-id-api-key-and-secure-code).   
+    - **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
+        - Make sure you have activated your selected payment methods in your MultiSafepay dashboard.
+    - **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  
+        - Make sure you have activated your selected gift cards in your MultiSafepay dashboard.  
+        - For more information, see [Gift cards](/docs/gift-cards/).
+
+    </details>
 <br>
 
-- **General information:** Contains all the main support information. We recommend reading this first.
-- **General settings:** Contains all main settings.  
-  - Here you can configure all <<glossary:gateways>> and gift cards.  
-  - Enter your [account ID, site ID, site secure code](/docs/sites#site-id-api-key-and-security-code).   
-- **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
-    - Make sure you have activated your selected payment methods in your MultiSafepay dashboard.
-- **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  
-    - Make sure you have activated your selected gift cards in your MultiSafepay dashboard.  
-    - For more information, see [Gift cards](/docs/gift-cards/).
-
-</details>
+---
 
 # User guide
 
@@ -140,8 +137,8 @@ From version 1.9.0 and higher, **all** order totals from shopping cards are auto
 
 Sometimes this results in unwanted custom totals appearing on payment pages.
 
-<details id="excluding-custom-totals-from-payment-pages">
-<summary>Excluding custom totals from payment pages</summary>
+<details id="how-to-exclude-custom-totals-from-payment-pages">
+<summary>How to exclude custom totals from payment pages</summary>
 <br>
 
 1. Sign in to your Magento 2 backend.
@@ -164,8 +161,8 @@ The base values are required if you have enabled the `use base currency` setting
 
 The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
 
-<details id="configuring-generic-gateways">
-<summary>Configuring generic gateways</summary>
+<details id="how-to-configure-generic-gateways">
+<summary>How to configure generic gateways</summary>
 <br>
 
 1. Sign in to your Magento 2 backend.
@@ -173,14 +170,12 @@ The plugin supports generic gateways, which redirect customers from your checkou
 3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids) and upload a custom gateway image.
 4. For pay later methods, specify whether to include a shopping cart.
 
-For support, email <integration@multisafepay.com>
-
 </details>
 
 ## Logs
 
-<details id="downloading-multiSafepay-logs">
-<summary>Downloading MultiSafepay logs</summary>
+<details id="how-to-download-multiSafepay-logs">
+<summary>How to download MultiSafepay logs</summary>
 <br>
 
 1. Sign in to your Magento backend.
@@ -219,8 +214,8 @@ You must:
 
 </details>
 
-<details id="activating-magento-vault">
-<summary>Activating Magento Vault</summary>
+<details id="how-to-activate-magento-vault">
+<summary>How to activate Magento Vault</summary>
 <br>
  
 To activate Magento Vault, email a request to enable [recurring payments](/docs/recurring-payments/) to <sales@multisafepay.com>
@@ -239,10 +234,10 @@ However, the vault only contains tokens valid in your webshop. If your server is
 
 ## Order lifetimes
 
-The default lifetime of **Pending payment** orders in Magento 2 is 480 minutes (8&nbsp;hours). For payment methods with a longer authorization period, the order status changes to **Cancelled** after 8 hours.
+The default lifetime of **Pending payment** orders in Magento 2 is 480 minutes (8&nbsp;hours). For payment methods with a longer authorization period, the <<glossary:order status changes>> to **Cancelled** after 8 hours.
 
-<details title="extending-order-lifetimes">
-<summary>Extending order lifetimes</summary>
+<details title="how-to-extend-order-lifetimes">
+<summary>How to extend order lifetimes</summary>
 <br>
  
 To extend the lifetime of pending payments orders, increase the **Order Cron settings** value to longer than the validation period.
@@ -251,11 +246,11 @@ For instructions, see Magento – [Pending payment order lifetime](https://docs.
 
 **ERP systems**
 
-For ERP systems, if the order status is **Declined**, successful payments often fail to process for orders with **Cancelled** status.
+For ERP systems, if the <<glossary:order status>> is **Declined**, successful payments often fail to process for orders with **Cancelled** status.
 
 The lifetime of bank transfers is 86400 minutes (60 days).
 
-The order status in Magento 2 changes to **Cancelled** before the payment can be matched to the order.
+The <<glossary:order status>> in Magento 2 changes to **Cancelled** before the payment can be matched to the order.
 
  </details>
 
@@ -267,8 +262,8 @@ The plugin supports [Payment Components](/docs/payment-components/), which:
 - Encrypt customer payment details for secure processing.
 - Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
 
-<details id="activating-the-payment-component-in-your-backend">
-<summary>Activating the payment component in your backend</summary>
+<details id="how-to-activate-payment-component-in-backend">
+<summary>How to activate the payment component in your backend</summary>
 <br>
 
 1. Sign in to your Magento 2 backend.
@@ -276,9 +271,7 @@ The plugin supports [Payment Components](/docs/payment-components/), which:
 3. Click **Payment type** and select **Credit card component**.
 4. Click **Save config**.
 
-For questions, email <integration@multisafepay.com>
-
-**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+> **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
@@ -286,8 +279,8 @@ For questions, email <integration@multisafepay.com>
 
 From version 2.0 and higher, [payment links](/docs/payment-links/) are automatically generated for every order.
 
-<details id="getting-payment-links">
-<summary>Getting payment links</summary>
+<details id="how-to-fetch-payment-links">
+<summary>How to fetch a payment link</summary>
 <br>
 
 To get a payment link for a customer, follow these steps:
@@ -301,8 +294,8 @@ To get a payment link for a customer, follow these steps:
 
 </details>
 
-<details id="adding-payment-links-to-order-confirmation-emails">
-<summary>Adding payment links to order confirmation emails</summary>
+<details id="how-to-add-payment-links-to-order-confirmation-emails">
+<summary>How to add payment links to order confirmation emails</summary>
 <br>
 
 1. Sign in to your Magento 2 backend.
@@ -346,7 +339,7 @@ You cannot add payment links to order confirmation emails created in your **fron
 2. Replace the **New order confirmation template** with your template.
 3. Test the template to confirm it is working.
 
-**Note:** You can also implement this directly in the email template files.
+> **Note:** You can also implement this directly in the email template files.
 
 </details>
 
@@ -398,7 +391,7 @@ We also offer full extensions for [ScandiPWA](/docs/scandipwa/) and [Vue Storefr
 <summary>Refund rules</summary>
 <br>
 
-|  |   |
+| Platform | Supported refunds  |
 |---|---|
 | MultiSafepay dashboard | - Full and partial refunds <br> - Orders with [Fooman surcharges](/docs/magento-2#surcharges) <br> - Orders from the deprecated plugin |
 | Backend | - Full and partial refunds, and credit memos <br> - You can't refund more than the original amount in your backend |
@@ -406,8 +399,8 @@ We also offer full extensions for [ScandiPWA](/docs/scandipwa/) and [Vue Storefr
 
 </details>
 
-<details id="processing-backend-refunds">
-<summary>Processing backend refunds</summary>
+<details id="how-to-process-backend-refunds">
+<summary>How to process backend refunds</summary>
 <br>
 
 1. Sign in to your Magento 2 backend. 
@@ -420,18 +413,18 @@ We also offer full extensions for [ScandiPWA](/docs/scandipwa/) and [Vue Storefr
 
 ## Second Chance
 
-[Second Chance](/docs/second-chance/) emails are sent 1 hour and 24 hours after orders are created. By default, the order status changes from **Pending payment** to **Cancelled** after 8 hours (480 minutes).
+[Second Chance](/docs/second-chance/) emails are sent 1 hour and 24 hours after orders are created. By default, the <<glossary:order status>> changes from **Pending payment** to **Cancelled** after 8 hours (480 minutes).
 
 If the customer pays via the **second** email (24 hours later), the payment is processed but the transaction update may not be handled correctly in Magento 2 because the order has expired. This may cause issues with external services, e.g. ERP/inventory management, if items are low in stock, or for one-off products like antiques.
 
 To avoid this, match the order lifetime to the [payment link](/docs/payment-links/) lifetime.
 
-See [Setting order lifetimes](#order-lifetimes) above. 
+See [Order lifetimes](#order-lifetimes) above. 
 
-**Note:** We recommend setting order lifetimes to 2 days (2880 minutes) to allow enough time for the customer to pay, but avoid issues with external services.
+> **Note:** We recommend setting order lifetimes to 2 days (2880 minutes) to allow enough time for the customer to pay, but avoid issues with external services.
 
-<details id="setting-payment-link-lifetimes">
-<summary>Setting payment link lifetimes</summary>
+<details id="how-to-set-payment-link-lifetimes">
+<summary>How to set payment link lifetimes</summary>
 <br>
 
 1. Sign in to your Magento 2 backend.
@@ -440,9 +433,9 @@ See [Setting order lifetimes](#order-lifetimes) above.
 
 </details>
 
-## Shipping orders
+## Shipment
 
-When you ship pay later orders, you need to change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+When you ship pay later orders, you need to change the <<glossary:order status>> from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you do so in your Magento 2 backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
@@ -450,8 +443,8 @@ If you do so in your Magento 2 backend, the updated status is passed to your Mul
 
 The plugin does not support [surcharges](/docs/surcharges/), but you can use third-party service Fooman to apply them. 
 
-<details id="using-fooman-for-surcharges">
-<summary>Using Fooman for surcharges</summary>
+<details id="how-to-use-fooman-for-surcharges">
+<summary>How to use Fooman for surcharges</summary>
 <br>
 
 To apply a surcharge or payment fee to a payment method, you can use the third-party [Fooman](https://store.fooman.co.nz/extensions/magento2) package.
@@ -472,8 +465,8 @@ The Integration Team will do their best to support you with installing Fooman, b
 
 ## Tax settings
 
-<details id="configuring-magento-tax-settings">
-<summary>Configuring Magento tax settings</summary>
+<details id="how-to-configure-magento-tax-settings">
+<summary>How to configure Magento tax settings</summary>
 <br>
 
 To configure tax settings in Magento, go to **Stores** > **Configuration** > **Sales** > **Tax** > **Calculation settings**.
@@ -511,12 +504,11 @@ You can also update the plugin via [Composer](https://getcomposer.org) or in you
 1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 2. Sign in to your Magento 2 backend.
 3. Run the following commands via the CLI:
-```
-composer update multisafepay/magento2 --with-all-dependencies
-php bin/magento setup:upgrade
-php bin/magento setup:di:compile
-```
-
+    ```
+    composer update multisafepay/magento2 --with-all-dependencies
+    php bin/magento setup:upgrade
+    php bin/magento setup:di:compile
+    ```
 4. Depending on your webserver/webshop configuration, you may also need to:
     - Check the 'rights' on files are correct. For the MultiSafepay files, see vendor/multisafepay.
     - Empty static files when running in production mode.
@@ -524,7 +516,7 @@ php bin/magento setup:di:compile
 
 </details>
 
-## Upgrading 
+## Upgrades
 If you are still using the [deprecated plugin](https://github.com/MultiSafepay/Magento2Msp), we recommend upgrading to the latest version as soon as possible.
 
 <details id="why-upgrade">
@@ -604,8 +596,8 @@ Alternatively, you can disable additional checkout fields for these payment meth
 
 </details>
 
-<details id="deleting-the-deprecated-plugin">
-<summary>Deleting the deprecated plugin</summary>
+<details id="how-to-delete-the-deprecated-plugin">
+<summary>How to delete the deprecated plugin</summary>
 <br>
 
 Make sure you finish processing all orders created in the deprecated plugin before you delete it. The deprecated payment gateways are no longer available in Magento after deletion. 
@@ -646,17 +638,16 @@ If you want a field from the deprecated plugin back, email <integration@multisaf
 
 **app/code**
 
-**1.** Disable the plugin:
-``` 
-php bin/magento module:disable --clear-static-content
-php bin/magento setup:upgrade
-```
-
-**2.** To remove the code base, delete the app/code/MultiSafepay/Connect directory:
-```
-cd app/code/MultiSafepay
-rm -rf Connect
-```
+1. Disable the plugin:
+    ``` 
+    php bin/magento module:disable --clear-static-content
+    php bin/magento setup:upgrade
+    ```
+2. To remove the code base, delete the app/code/MultiSafepay/Connect directory:
+    ```
+    cd app/code/MultiSafepay
+    rm -rf Connect
+    ```
 
 **Marketplace**
 

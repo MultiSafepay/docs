@@ -1,7 +1,7 @@
 ---
 title: 'Virtual IBANs'
 category: 6278c92bf4ad4a00361431b0
-order: 950
+order: 100
 hidden: false
 slug: 'virtual-ibans'
 excerpt: "Collect bank transfers and direct debits in your own bank account."
@@ -66,7 +66,7 @@ Once activated, an alert appears on your dashboard home page when you have unmat
 
 | Unmatched payment | Action | Outcome |
 |---|---|---|
-| Correct amount | Match to order | The order status changes to **Completed**. <br> An explanation appears on the **Transaction details** page under **Notes**.|
+| Correct amount | Match to order | The <<glossary:order status>> changes to **Completed**. <br> An explanation appears on the **Transaction details** page under **Notes**.|
 | Amount too high | Match and refund the excess | The order status changes to **Completed**. <br> A new refund order linked to the original order is created for the excess amount, and an explanation appears on the **Transaction details** page under **Notes**. |
 |  | Partially match and reserve the excess | The order status changes to **Completed**. <br> The excess amount is reserved for future orders. |
 |  | Match and keep the excess | The order status changes to **Completed**. <br> A new order (status **Completed**) linked to the original order is created to credit the excess to your account balance. <br> - An explanation appears on the **Transaction details** page under **Notes**. |

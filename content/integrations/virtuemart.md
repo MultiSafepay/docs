@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 117
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugin to integrate MultiSafepay payment solutions with Virtuemart."
+excerpt: "Technical manual for installing and configuring MultiSafepay's free plugin for VirtueMart."
 slug: 'virtuemart'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/VirtueMart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
@@ -19,21 +19,15 @@ slug: 'virtuemart'
 
 </div>
 
-This technical manual is for installing and configuring MultiSafepay's free plugin for integrating with VirtueMart.
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+# Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - Joomla 2.5 & 3.x + Virtuemart 2.x & 3.x
 - Tested on PHP 7.0
 
-</details>
-
 # How to install
 
-:warning: We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup.
+> **Tip!** We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup.
 
 1. Sign in to your VirtueMart <<glossary:backend>>.
 2. Go to **Extensions** > **Extension manager**.
@@ -41,6 +35,7 @@ This technical manual is for installing and configuring MultiSafepay's free plug
 4. Click **Upload & install**.
 
 # How to configure
+
 1. Sign in to your VirtueMart backend.
 2. Go to **Extensions** > **Plugins**.
 3. In the search box, enter **MultiSafepay**, and then set the plugin status to **Enabled**.
@@ -50,10 +45,13 @@ This technical manual is for installing and configuring MultiSafepay's free plug
     - Click **New**.
     - Set the payment method to **VirtueMart – Payment, MultiSafepay**.
     - To install, save the **Payment method name**.
-7. On the **Configuration** tab, enter your:
+7. On the **Configuration** tab, enter your:  
     - Account ID (top-right corner of your dashboard)
     - [Site ID, API key, and secure code](/docs/sites#site-id-api-key-and-security-code)
     - [Gateway ID](https://docs-api.multisafepay.com/reference/gateway-ids)
+<br>
+
+---
 
 # User guide
 
@@ -63,8 +61,8 @@ If a customer selects Apple Pay at checkout but isn't on an Apple device, they r
 
 ## Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)
@@ -103,16 +101,17 @@ You cannot refund more than the original amount in your backend.
 
 You can update the plugin in your backend and the CMS marketplace, via SFTP.
 
-<details id="updating-in-your-backend">
-<summary>Updating in your backend</summary>
+<details id="how-to-update-in-your-backend">
+<summary>How to update in your backend</summary>
 <br>
 
-:warning: Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.
 
 </details>
+<br>
 
 ---
 

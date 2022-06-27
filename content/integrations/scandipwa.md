@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 116
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugin to integrate MultiSafepay payment solutions with ScandiPWA on Magento 2."
+excerpt: "Technical manual for installing and configuring with MultiSafepay's free plugin for ScandiPWA."
 slug: 'scandipwa'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/ScandiPWA.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
@@ -17,20 +17,16 @@ slug: 'scandipwa'
 
 </div>
 
-This technical manual is for installing and configuring with MultiSafepay's free plugin for integrating with ScandiPWA.
-
-<details id="requirements">
-<summary>Requirements</summary>
-<br>
+# Prerequisites
 
 - You will need a [MultiSafepay account](https://testmerchant.multisafepay.com/signup).
 - To support GraphQL queries, install the [MultiSafepay Magento 2 GraphQL](https://github.com/MultiSafepay/magento2-graphql) plugin.
 - You must also meet ScandiPWA and Magento requirements. See ScandiPWA – [Prerequisites](https://docs.scandipwa.com/getting-started/getting-started/magento-integration#prerequisites).
 
-</details>
+# Payment methods
 
-<details id="payment-methods">
-<summary>Payment methods</summary>
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
 <br>
 
 - Cards: [All](/docs/cards/)
