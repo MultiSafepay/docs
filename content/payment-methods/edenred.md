@@ -51,7 +51,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Payment statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | For partial payment with another method: The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |

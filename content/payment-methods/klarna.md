@@ -38,7 +38,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Payment statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to Klarna. You can still cancel with Klarna using the reservation number. | Initialized   | Initialized  |
 | Klarna has authorized the transaction and the funds are awaiting capture. You can no longer cancel; you can only refund. | Completed  | Uncleared  |
@@ -54,10 +54,10 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
-| Refund initiated. | Initialized | Completed |
-| Refund complete.  | Completed | Completed |
+| **Refunds:** Refund initiated. | Initialized | Completed |
+| **Refunds:** Refund complete.  | Completed | Completed |
 
 </details>
 

@@ -41,7 +41,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Payment statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to Alipay. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
@@ -53,10 +53,10 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
-| Refund initiated. | Reserved | Reserved   |
-| Refund complete.  | Completed | Completed   |
+| **Refunds:** Refund initiated. | Reserved | Reserved   |
+| **Refunds:** Refund complete.  | Completed | Completed   |
 
 </details>
 

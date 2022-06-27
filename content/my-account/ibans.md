@@ -1,7 +1,7 @@
 ---
 title: "IBANs"
 category: 62962dcdbccb9a001d4bbc81
-order: 205
+order: 204
 hidden: false
 parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'ibans'
@@ -22,6 +22,8 @@ To unmask IBANs for a specific site, follow these steps:
 
 When unmasked, the full IBAN is displayed, e.g. `NL87ABNA0000001234`.
 <br>
+
+---
 
 [block:html]
 {

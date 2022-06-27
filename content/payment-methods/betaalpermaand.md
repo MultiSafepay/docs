@@ -40,7 +40,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Payment statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to Santander. <br> To cancel, email <support@multisafepay.com> | Initialized   | Initialized  |
 | The customer has completed the pre-form and Santander is authorizing the transaction. | Uncleared | Initialized |
@@ -57,10 +57,10 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
-| Refund initiated. | Reserved    | Reserved   |
-| Refund complete.  | Completed      | Completed   |
+| **Refunds:** Refund initiated. | Reserved    | Reserved   |
+| **Refunds:** Refund complete.  | Completed      | Completed   |
 
 </details>
 

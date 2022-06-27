@@ -43,7 +43,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Payment statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to PayPal. | Initialized | Initialized |
 | Awaiting the customer to pay in their PayPal account, **or** <br> PayPal is authorizing the transaction, **or** <br> You may need to enable the currency and then authorize the payment in your PayPal business account.  | Uncleared | Initialized |
@@ -57,10 +57,10 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
-| Refund initiated. | Reserved | Initialized |
-| Refund complete.  | Completed | Initialized |
+| **Refunds:** Refund initiated. | Reserved | Initialized |
+| **Refunds:** Refund complete.  | Completed | Initialized |
 | Refund declined. | Declined | Declined |
 | PayPal is authorizing the refund, **or** <br> There are not enough funds in your PayPal business account to process the refund. <br> For more information, see your PayPal business account. | Uncleared | Initialized   |
 

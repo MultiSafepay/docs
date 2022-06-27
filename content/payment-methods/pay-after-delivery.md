@@ -41,7 +41,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Payment statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | MultiSafepay's risk analysis is in progress. You can still cancel. | Initialized | Initialized | 
 | We have authorized the transaction and the funds are awaiting capture. You can no longer cancel. You can only refund. <br> See [Close transactions](#close-transactions). | Completed | Uncleared | 
@@ -57,10 +57,10 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
-| Refund initiated. | Initialized | Initialized |  
-| Refund complete. | Completed | Completed | 
+| **Refunds:** Refund initiated. | Initialized | Initialized |  
+| **Refunds:** Refund complete. | Completed | Completed | 
 
 </details>
 

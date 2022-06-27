@@ -55,8 +55,6 @@ To create and [onboard](/docs/onboarding/) a live account and start processing r
 
 4. For partner/primary accounts, an account manager contacts you to confirm the appropriate account structure for your needs, and guide you through the [onboarding process](/docs/onboarding/).  
 
-    For any questions, email <support@multisafepay.com>
-
 # Switching to MultiSafepay from another PSP
 
 You can sign up for a MultiSafepay account while still using another PSP without incurring any costs. 
@@ -66,6 +64,8 @@ A test account lets you process test payments and gives access to all features. 
 ## Transferring tokens
 In collaboration with your current PSP, we can securely transfer tokenized credit card details. This is especially useful if you process [recurring payments](/docs/recurring-payments/) or want to offer existing customers the option of reusing their credit card details.
 <br>
+
+---
 
 [block:html]
 {

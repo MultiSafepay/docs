@@ -263,8 +263,8 @@ You can apply [surcharges](/docs/surcharges/) in the plugin when combined with a
 > ⚠️ **Attention Dutch merchants** 
 > We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
-<details id="applying-surcharges-with-third-party-packages">
-<summary>Applying surcharges with third-party packages</summary>
+<details id="how-to-apply-surcharges-with-third-party-packages">
+<summary>How to apply surcharges with third-party packages</summary>
 <br>
 
 Third-party packages must follow WooCommerce and Wordpress development guidelines.
@@ -274,9 +274,6 @@ Third-party packages must follow WooCommerce and Wordpress development guideline
 The Integration Team will do their best to help you install third-party packages, but we can't guarantee perfect compatibility.
 
 </details>
-
-> ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to [pay later methods](/pay-later/). This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 
@@ -291,6 +288,7 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.
 </details>
+<br>
 
 ---
 

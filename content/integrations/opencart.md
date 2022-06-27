@@ -19,7 +19,8 @@ slug: 'opencart'
 
 </div>
 
-For more information about the plugin and a preview, see Opencart – [MultiSafepay](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960).
+> ℹ️ More information
+> For more information about the plugin and a preview, see Opencart – [MultiSafepay](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960).
 
 # Prerequisites
 
@@ -48,7 +49,7 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
     - **Order status** tab
     - **Options** tab  
 
-To retrieve your API key, see [Site ID, API key, and secure code](/docs/sites#site-id-api-key-and-secure-code).
+To retrieve your API key, see [Site ID, API key, and security code](/docs/sites#site-id-api-key-and-secure-code).
 <br>
 
 ---
@@ -247,6 +248,7 @@ You can update the plugin using the extension installer tool in your OpenCart ba
 3. Follow the [installation](/docs/opencart#how-to-install) instructions above.
 
 </details>
+<br>
 
 ---
 

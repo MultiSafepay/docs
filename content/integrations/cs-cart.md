@@ -107,6 +107,7 @@ You can update the plugin in your CS-Cart backend or the CMS marketplace, or via
 2. Follow the Installation instructions from step 2 and then the Configuration instructions.
 
 </details>
+<br>
 
 ---
 

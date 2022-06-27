@@ -123,6 +123,7 @@ To process refunds from the Craft Commerce admin panel:
 3. To see the refund options, go to the **Transactions** tab. 
 
 </details>
+<br>
 
 ---
 

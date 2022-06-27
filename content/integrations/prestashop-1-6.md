@@ -511,6 +511,7 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 2. Follow the Installation and configuration instructions from step 2.
 
 </details>
+<br>
 
 ---
 

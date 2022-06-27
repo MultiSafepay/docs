@@ -1,7 +1,7 @@
 ---
 title: "Invoices"
 category: 62962dcdbccb9a001d4bbc81
-order: 206
+order: 205
 hidden: false
 parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'invoices'
@@ -21,9 +21,7 @@ For payment methods where MultiSafepay:
 - Collects, we are required to charge VAT on processing fees.
 - Does **not** collect, VAT is applied via the <<glossary:card scheme>> to avoid double taxation. These transactions are included in invoices with zero VAT value.
 
-<details id="fees-we-charge-vat-for">
-<summary>Fees we charge VAT for</summary>
-<br>
+#### Fees we charge VAT for
 
 | Type of fee | When charged |
 |---|---|
@@ -32,7 +30,6 @@ For payment methods where MultiSafepay:
 | Payout fees | During processing |
 | Refund fees <br> (Separated into collecting and non-collecting orders) | During processing |
 | Transaction fees | During processing |
-<br>
 
 **Note:** The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay).
 

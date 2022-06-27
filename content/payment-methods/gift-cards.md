@@ -61,7 +61,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Payment statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | For partial payment with another method: The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
@@ -73,10 +73,10 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
-| Refund initiated. | Initialized | Initialized |
-| Refund complete. | Completed | Completed |
+| **Refunds:** Refund initiated. | Initialized | Initialized |
+| **Refunds:** Refund complete. | Completed | Completed |
 
 </details>
 
@@ -141,7 +141,7 @@ Contact MultiSafepay to develop your own custom gift card!
     - Whether you want a closed-loop or open-loop card
     - The card name 
     - A high-resolution visual mockup of the gift card, preferably in .png or .jpg format, showing the logo as **large** as possible
-    - A test gift card with credit and a secure code
+    - A test gift card with credit and a security code
     - A startup fee of 200 EUR
 4. We develop the card and activate it for your MultiSafepay account.
 5. To integrate your card:

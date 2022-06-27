@@ -62,6 +62,7 @@ slug: 'scandipwa'
 # How to install and configure
 
 See MultiSafepay GitHub – [Installation guide](https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration).
+<br>
 
 ---
 

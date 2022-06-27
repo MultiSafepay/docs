@@ -9,11 +9,9 @@ slug: 'shopify'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shopify.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-This new app leverages a single, powerful <<glossary:gateway>> for a faster, safer integration.
-<br>
-
 > ⚠️ Urgent action required!
 > [Migrate to our updated app](#installation) before March 31, 2022.
+> The new app leverages a single, powerful <<glossary:gateway>> for a faster, safer integration.
 
 # Prerequisites
 
@@ -24,7 +22,7 @@ You will need a [MultiSafepay account](/getting-started/).
 To install or migrate, follow these steps:
 
 1. For increased security and stability, wait for off-peak hours and temporarily enable password protection for your webshop.
-2. From the [Shopify app store](https://apps.shopify.com/), install the [MultiSafepay Payments app](https://apps.shopify.com/multisafepay-payments).  
+2. From the Shopify app store, download and install the [MultiSafepay Payments app](https://apps.shopify.com/multisafepay-payments).  
 3. Check that the app is successfully added under **Admin** > **Settings** > **Payments** > **Alternative payment methods**.
 4. In your Shopify checkout, test the **MultiSafepay Payments** gateway.  
   **Note:** If using a test [API key](/docs/sites#site-id-api-key-and-security-code), make sure you also enable **Test mode**. 
@@ -87,7 +85,7 @@ Payments are processed in the webshop's default currency only.
 2. Sign in to your Shopify <<glossary:backend>>.
 3. Go to **Settings** > **Payment providers** > **Alternative payments**.
 4. Search for and click on the payment methods you have installed.
-5. Enter your [site ID and secure code](/docs/websites#site-id-api-key-and-security-code).
+5. Enter your [site ID and security code](/docs/websites#site-id-api-key-and-security-code).
 6. Activate the payment method.
 
 > **Note:** To bundle all payment methods under a single MultiSafepay payment gateway at checkout, under **Alternative payments**, activate the **MultiSafepay** payment method.

@@ -53,6 +53,9 @@ Run the following command in the root of your Shopware root directory. Make sure
 ```
 composer require multisafepay/shopware6
 ```
+<br>
+
+---
 
 ## User guide
 
@@ -170,6 +173,9 @@ You can update the plugin in your backend and the CMS marketplace, or via using 
 6. In the **API key** field, enter your [API key](/docs/websites#site-id-api-key-and-security-code).
 7. Fill out the other fields as required.
 8. Go to **Configuration** and select the required payment methods.
+<br>
+
+---
 
 ## User guide
 
@@ -312,6 +318,7 @@ For instructions, see the [Shopware migration manual](https://docs.shopware.com/
 For questions, email <integration@multisafepay.com>
 
 </details>
+<br>
 
 ---
 

@@ -315,6 +315,7 @@ We recommend upgrading to version 5.x from older versions.
 If upgrading from 5.x to a newer version, see [Updates](/docs/prestashop-1-7#updates).
 
 </details>
+<br>
 
 ---
 

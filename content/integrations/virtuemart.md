@@ -47,7 +47,7 @@ slug: 'virtuemart'
     - To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:  
     - Account ID (top-right corner of your dashboard)
-    - [Site ID, API key, and secure code](/docs/sites#site-id-api-key-and-security-code)
+    - [Site ID, API key, and security code](/docs/sites#site-id-api-key-and-security-code)
     - [Gateway ID](https://docs-api.multisafepay.com/reference/gateway-ids)
 <br>
 

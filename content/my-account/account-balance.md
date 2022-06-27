@@ -39,6 +39,8 @@ You can set your daily balance report to include the balance of uncleared transa
 To activate this feature in your daily balance report, email a request to <sales@multisafepay.com>
 <br>
 
+---
+
 [block:html]
 {
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"

@@ -32,7 +32,7 @@ MultiSafepay pre-screens your account to check if the products/services you sell
 
 We may ask you to provide additional documents, e.g. if you have an unusual company structure.
 
-**Note:** Requests to process credit cards may be denied, e.g. if you sell [prohibited products or services](/docs/prohibited-products-services/).
+> **Note:** Requests to process credit cards may be denied, e.g. if you sell [prohibited products or services](/docs/prohibited-products-services/).
 
 ## Changes to company information
 
@@ -150,8 +150,8 @@ MultiSafepay assesses the information provided and performs know your customer (
 
 If approved, your account goes live and you can [make payouts](/docs/payouts/).
 
-<details id="kyc-checks">
-<summary>KYC checks</summary>
+<details id="about-kyc-checks">
+<summary>About KYC checks</summary>
 <br>
 
 As a payment service provider and <<glossary:acquirer>>, MultiSafepay is legally required to perform KYC checks on the:
@@ -168,8 +168,8 @@ To help you start accepting payments as quickly as possible, we divide our check
 
 </details>
 
-<details id="deposits">
-<summary>Deposits</summary>
+<details id="about-deposits">
+<summary>About deposits</summary>
 <br>
 
 We may ask for a deposit in case:
@@ -190,11 +190,10 @@ If financials are requested, we request your most recent balance sheet, and prof
 
 <br>
 
+---
+
 [block:html]
 {
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
 }
 [/block]
-
-> ❕ **Disclaimer** 
-> The information on this site is intended for informational purposes. No rights can be derived from this information. 

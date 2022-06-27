@@ -5,18 +5,17 @@ parentDoc: 62a2055be5b9db006a2545a7
 order: 302
 hidden: false
 slug: 'affiliate-onboarding-api'
-excerpt: 'Partner/primary account holders can submit onboarding information for new affiliated merchants via our API.'
+excerpt: ''
 ---
 
-# How it works
+Partner/primary account holders can submit [onboarding information](/docs/onboarding/) for new affiliated merchants via our API.
 
-Via our API, you can create a customized onboarding process for new merchants depending on your business model, e.g. marketplaces, franchises, and crowdfunding platforms. This is particularly useful if you are onboarding multiple merchants.
+Create a customized onboarding process for new merchants depending on your business model, e.g. marketplaces, franchises, and crowdfunding platforms. This is particularly useful if you are onboarding multiple merchants.
 
-For more information, see [Onboarding](/docs/onboarding/).
+# Prerequisites 
 
-> 📘 Supported accounts
-> 
-> Requests to onboard affiliated merchants via our API require a partner account API key. For more information, email your partner manager.
+Requests to onboard affiliated merchants via our API require a partner account API key. 
+For more information, email your partner manager.
 
 # 1. Create merchant accounts
 
@@ -41,7 +40,7 @@ MultiSafepay verifies all bank accounts added to merchant accounts. This can be 
 - We send the merchant a payment link for a test transaction of 1 EUR. 
 - You send us a bank statement for the merchant's bank account via our API.
 
-**Note:** The trade name associated with the bank account must exactly match one of the trade names listed in the chamber of commerce extract.
+> **Note:** The trade name associated with the bank account must exactly match one of the trade names listed in the chamber of commerce extract.
 
 # 3. Add UBO details
 See API reference – [Add UBO](https://docs-api.multisafepay.com/reference/addaffiliateubo) for how to submit details about the ultimate beneficial owner(s) (UBOs) of each merchant's company, including:
@@ -64,6 +63,8 @@ The API returns an API key for the site.
 
 After submitting this information, MultiSafepay screens the merchant accounts, bank accounts, UBO details, and sites. Once approved, the merchants can use their API key to start processing payments.
 <br>
+
+---
 
 [block:html]
 {

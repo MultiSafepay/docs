@@ -132,6 +132,7 @@ You can update in your <<glossary:backend>>.
 4. Click **Upgrade**.
 
 </details>
+<br>
 
 ---
 

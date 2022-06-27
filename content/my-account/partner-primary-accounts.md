@@ -1,15 +1,17 @@
 ---
-title: "Affiliated merchants"
+title: "Partner and primary accounts"
 category: 62962dcdbccb9a001d4bbc81
-order: 203
+order: 207
 hidden: false
 parentDoc: 62b0845857c8ab006af6a4f7
-slug: 'affiliated-merchants'
-excerpt: 'How partner account holders can manage the accounts of affiliated merchants.'
+slug: 'partner-accounts'
 ---
-# Create affiliate accounts
 
-To create a new affiliate account in your dashboard, follow these steps:
+Partner account holders manage the accounts of multiple affiliated merchants, which they charge a fee. 
+
+# 1. Create affiliate accounts
+
+To create a new affiliated account in your dashboard, follow these steps:
 
 1. Sign in to your [partner/primary account](https://merchant.multisafepay.com/).
 2. Go to the affiliate dashboard, and then click **Affiliates**. 
@@ -18,7 +20,7 @@ To create a new affiliate account in your dashboard, follow these steps:
 5. Click **Add new template** > **Load default template**.
 6. Edit the template and fill out the fields as required.
 
-# Onboard affiliate accounts
+# 2. Onboard affiliate accounts
 
 All affiliates must [onboard](/docs/onboarding/) and sign an agreement with MultiSafepay, containing general terms and conditions.
 
@@ -26,7 +28,7 @@ You can also automate onboarding affiliates [via our API](/docs/affiliate-onboar
 
 For any questions, affiliates can email <partner@multisafepay.com>
 
-# Access affiliated accounts
+# 3. Access affiliated accounts
 
 To access an affiliate's account:
 
@@ -43,7 +45,7 @@ Here you can manage:
 - Technical integrations, reports, and other tools
 - Transactions, refunds, and balance
 
-# Charge affiliates
+# 4. Charge affiliates
 
 You can charge affiliates at three levels.
 
@@ -55,6 +57,8 @@ You can charge affiliates at three levels.
 
 </details>
 <br>
+
+---
 
 [block:html]
 {

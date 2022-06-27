@@ -40,7 +40,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Payment statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | in3's credit check is in progress. You can still cancel. | Initialized   | Initialized  |
 | in3 is waiting for the customer to pay the first installment (within 5 mins). | Uncleared  | Initialized  |
@@ -57,7 +57,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 <summary>Refund statuses</summary>
 <br>
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | in3 has successfully processed a full or partial refund. | Completed | Completed |
 | The refund was declined. | Declined | Declined   |

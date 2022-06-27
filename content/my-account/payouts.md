@@ -1,7 +1,7 @@
 ---
 title: "Payouts"
 category: 62962dcdbccb9a001d4bbc81
-order: 209
+order: 207
 hidden: false
 parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'payouts'
@@ -115,33 +115,19 @@ Payment batches are not processed on weekends. That is, payouts initiated on Fri
 
 Not all banks support instant payments and therefore may take extra time to process payments.
 
-<details id="bank-holidays">
-<summary>Bank holidays</summary>
-<br>
-
-On some bank holidays, banks don't process outgoing payments. 
+### Bank holidays
 
 MultiSafepay pays out every business day of the year, but **not** on bank holidays. Delayed payouts are made the next business day. 
 
 Check the dates of local bank holidays. They may change each year.
 
-</details>
-
-<details id="processing-time-for-automatic-payouts">
-<summary>Processing time for automatic payouts</summary>
-<br>
+### Automatic payouts
 
 Assuming default settings, if you schedule a payout on Monday, the payout batch includes all payments up to 23:59 hours on the Monday night. The payout batch is sent to MultiSafepay's bank on Tuesday morning. Our bank processes the batch and transfers the pay out to your business bank account. You should receive the payout on Tuesday afternoon.
 
-</details>
-
-<details id="processing-time-for-manual-payouts">
-<summary>Processing time for manual payouts</summary>
-<br>
+### Manual payouts
 
 The status of the pay out is **Reserved** for 24 hours before it is added to our bank’s payout batch in the morning. Then, the payout is transferred to your business bank account. Manual payouts usually take longer to process than automatic ones.
-
-</details>
 
 # Exclusions
 
@@ -179,6 +165,8 @@ Always set a "reserved balance" in your payout settings to prevent payout and/or
 To check why we have deactivated payouts for your account, email <risk@multisafepay.com>
 </details>
 <br>
+
+---
 
 [block:html]
 {
