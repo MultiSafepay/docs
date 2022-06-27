@@ -34,7 +34,7 @@ ___
 ## Easywebshop
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/EasyWebshop.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-EasyWebshop provides a free app to integrate with MultiSafepay.
+Easywebshop provides a free app to integrate with MultiSafepay.
 
 <details id="easywebshop-integration">
 <summary>Integration</summary>
@@ -47,7 +47,7 @@ For integration support, email <integration@multisafepay.com>
 <summary>Support</summary>
 <br>
 
-For other support, see EasyWebshop – [Contact](https://www.easywebshop.com/software/contact).
+For other support, see Easywebshop – [Contact](https://www.easywebshop.com/software/contact).
 </details>
 
 ___
