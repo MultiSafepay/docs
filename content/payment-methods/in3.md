@@ -18,7 +18,7 @@ Read how in3 can benefit your business on [multisafepay.com](https://www.multisa
 | **Chargebacks**  | No  |
 | **Countries**  | The Netherlands – in3 checks the customer's country, and billing/shipping address to confirm.  | 
 | **Currencies**  | EUR  |  
-| **Discounts** | [Yes](/discounts/) <br> You can request in3 to process a full or partial refund, either before payout or up to 1 year afterwards. |
+| **Discounts** | [Yes](/docs/discounts/) <br> You can request in3 to process a full or partial refund, either before payout or up to 1 year afterwards. |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
 | **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds | 
 | **Second Chance** | [Yes](/docs/second-chance/) |

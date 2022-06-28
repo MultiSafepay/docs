@@ -20,7 +20,8 @@ Read how Pay After Delivery can benefit your business on [multisafepay.com](http
 | **Chargebacks**  | No  | 
 | **Countries**  | The Netherlands  | 
 | **Currencies** | EUR  | 
-| **Discounts** | [Yes](/discounts/) |
+| **Discounts** | [Yes](/docs/discounts/) |
+
 | **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
 | **Refunds** |[Yes](/docs/refund-payments/): Full, partial, and API refunds| 
 

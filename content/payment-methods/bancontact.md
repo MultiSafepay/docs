@@ -78,7 +78,8 @@ You can activate Bancontact yourself in your dashboard.
 Supported in all [ready-made integrations](/docs/our-integrations/). 
 
 ### Testing
-To test Bancontact payments, see [Testing](/docs/testing/#banking-methods).
+To test Bancontact payments, see [Testing](/docs/testing#banking-methods).
+
 <br>
 
 ---

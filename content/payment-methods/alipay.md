@@ -20,7 +20,8 @@ Read how Alipay can benefit your business on [multisafepay.com](https://www.mult
 | **Chargebacks**  | No  |
 | **Countries**  | Worldwide  | 
 | **Currencies**  | EUR, USD (currency conversion in EUR only)  | 
-| **Discounts** | [Yes](/discounts/) |
+| **Discounts** | [Yes](/docs/discounts/) |
+
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only)  |
 | **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds | 
 | **Second Chance** | [Yes](/docs/second-chance/) |

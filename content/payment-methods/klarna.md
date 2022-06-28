@@ -18,7 +18,8 @@ Read how Klarna can benefit your business on [multisafepay.com](https://www.mult
 | **Chargebacks**  | No  | 
 | **Countries**  | Austria, Belgium, Denmark, Finland, France, Germany, Italy, Norway, Portugal, Spain, Sweden, Switzerland, The Netherlands, UK (US **not** supported) | 
 | **Currencies**  | EUR, GBP, SEK, NOK, DKK | 
-| **Discounts** | [Yes](/discounts/) |
+| **Discounts** | [Yes](/docs/discounts/) |
+
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
 | **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds | 
 
