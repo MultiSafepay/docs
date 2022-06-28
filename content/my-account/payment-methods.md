@@ -21,15 +21,20 @@ Some payment methods you can activate yourself in your dashboard, but for some y
 
 # Apply to MultiSafepay 
 
-<details id="how-to-apply-to-multisafepay"> 
-<summary>How to apply to MultiSafepay</summary>
-<br>
-
 1. Email a request to <risk@multisafepay.com> 
+    
+    <details id="required-information-for-cards-apple-google"> 
+    <summary>Required information for cards, Apple Pay, and Google Pay</summary>
+    <br>
     
     For cards, Apple Pay, and Google Pay, include in the request your: 
     - Average, minimum, and maximum transaction amount 
     - Annual turnover 
+    </details>
+
+    <details id="required-information-for-sepa-direct-debit"> 
+    <summary>Required information for SEPA Direct Debit</summary>
+    <br>
 
     For SEPA Direct Debit, include in the request the following information:
     - Monthly and annual SEPA Direct Debit transaction volume
@@ -39,16 +44,11 @@ Some payment methods you can activate yourself in your dashboard, but for some y
     - Whether any subscriptions are monthly, quarterly, or annual
     - Any additional information we request
     We send you an agreement to sign and email back to us.
+    </details>
 2. We check your eligibilty and if approved, activate the payment method for your account. 
 3. Once approved, activate the method in your dashboard as below.
 
-</details>
-
 # Activate in dashboard
-
-<details id="how-to-activate-in-dashboard"> 
-<summary>How to activate in your dashboard</summary>
-<br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings**. 
@@ -57,10 +57,7 @@ Some payment methods you can activate yourself in your dashboard, but for some y
     - A specific site, go to **Website settings**, and click the relevant site.
 4. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-> 💬  Support
-> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
-
-</details>
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 
 # Own flow
 
@@ -152,8 +149,7 @@ We recommend testing Klarna payments via the Klarna Portal to experience the ful
 
 For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
 
-> 💬  Support 
-> Email <integration@multisafepay.com>
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 </details>
 
 ## PayPal

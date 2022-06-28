@@ -133,37 +133,44 @@ The status of the pay out is **Reserved** for 24 hours before it is added to our
 
 You cannot make payouts if:
 
-<details id="your-multisafepay-account-is-not-yet-fully-activated">
-<summary>Your MultiSafepay account is not yet fully activated</summary>
-<br>
+- Your MultiSafepay account is not yet fully activated.
 
-You can process payments immediately after creating a MultiSafepay test account and adding your site. But MultiSafepay holds your funds in your account balance until your account is fully activated.
+    <details id="how-to-resolve-account">
+    <summary>How to resolve</summary>
+    <br>
 
-To check if your account is fully activated, follow these steps:
+    You can process payments immediately after creating a MultiSafepay test account and adding your site. But MultiSafepay holds your funds in your account balance until your account is fully activated.
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
-2. Go to **Finance** > **Payouts**.
-3. If your account is not fully activated, a red bar appears at the top of the screen with a link to the page where you can upload the documents required to approve your account.
+    To check if your account is fully activated, follow these steps:
 
-The Risk Team then checks and approves your account details and the information on your site. Once approved, we will send you an email that your account is fully activated. 
+    1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+    2. Go to **Finance** > **Payouts**.
+    3. If your account is not fully activated, a red bar appears at the top of the screen with a link to the page where you can upload the documents required to approve your account.
 
-</details>
+    The Risk Team then checks and approves your account details and the information on your site. Once approved, we will send you an email that your account is fully activated. 
 
-<details id="your-account-balance-is-negative">
-<summary>Your account balance is negative</summary>
-<br>
+    </details>
 
-If your account balance is negative (e.g. due to refunds, chargebacks, or fees), payouts are paused until enough funds are available. 
+- Your account balance is negative.
+    
+    <details id="how-to-resolve-balance">
+    <summary>How to resolve</summary>
+    <br>
 
-Always set a "reserved balance" in your payout settings to prevent payout and/or refund delays.
-</details>
+    If your account balance is negative (e.g. due to refunds, chargebacks, or fees), payouts are paused until enough funds are available. 
 
-<details id="your-payouts-are-deactivated">
-<summary>Your payouts are deactivated</summary>
-<br>
+    Always set a "reserved balance" in your payout settings to prevent payout and/or refund delays.
+    </details>
 
-To check why we have deactivated payouts for your account, email <risk@multisafepay.com>
-</details>
+- Your payouts are deactivated.
+    
+    <details id="how-to-resolve-payouts">
+    <summary>How to resolve</summary>
+    <br>
+
+    To check why we have deactivated payouts for your account, email <risk@multisafepay.com>
+    </details>
+    
 <br>
 
 ---

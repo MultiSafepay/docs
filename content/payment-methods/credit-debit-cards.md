@@ -31,15 +31,15 @@ MultiSafepay supports the following credit and debit cards:
 
 | Supports | Details |
 |---|---|
-| **3D Secure 2.0** | [Yes](/docs/3ds2/) |
-| **Chargebacks**  | [Yes](/docs/chargebacks/), **except** Postepay | 
 | **Countries**  | Amex, Maestro, Mastercard, Visa: Worldwide <br> Cartes Bancaires: France <br> Dankort: Denmark <br>Postepay: Italy <br> V Pay: Europe | 
 | **Currencies**  | Multiple (Amex: EUR, GBP, USD only) <br> To support additional currencies, email <support@multisafepay.com> | 
-| **Payment components** | [Yes](/docs/payment-components/) |
-| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions)  |
-| **Recurring payments** | [Yes](/docs/recurring-payments/) |
-| **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
-| **Second Chance** | [Yes](/docs/second-chance/) |
+| [3D Secure 2.0](/docs/3ds2/) | Yes |
+| [Chargebacks](/docs/chargebacks/)  | Yes, **except** Postepay | 
+| [Payment components](/docs/payment-components/) | Yes |
+| [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions)  |
+| [Recurring payments](/docs/recurring-payments/) | Yes |
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial |
+| [Second Chance](/docs/second-chance/) | Yes |
 
 # Payment flow
 
@@ -89,8 +89,8 @@ First apply to MultiSafepay, and then activate in your dashboard.
     - A specific site, go to **Website settings**, and click the relevant site.
 6. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-> 💬  Support
-> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+
 
 </details>
 
