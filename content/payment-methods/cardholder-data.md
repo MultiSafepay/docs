@@ -34,7 +34,7 @@ Specify in your request:
 
 # Integration
 
-See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Card order.
+See API reference – [Create order](/reference/createorder/) > Card order.
 Set `type` to `direct`.
 <br>
 

@@ -69,7 +69,7 @@ You can activate EPS yourself in your dashboard.
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. 
+- [Create order](/reference/createorder/) > Banking order. 
 - Examples > EPS redirect.
 - Transactions don't expire.
 

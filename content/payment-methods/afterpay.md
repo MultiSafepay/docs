@@ -67,7 +67,7 @@ You need to contact AfterPay to activate it for your account.
 
 | Integration | Details |
 |---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > AfterPay direct/redirect <br> Transactions expire after 90 days. |
+| **API** | [Create order](/reference/createorder/) > Pay later order <br> Examples > AfterPay direct/redirect <br> Transactions expire after 90 days. |
 | **Ready-made integrations** | AfterPay is supported in [Craft Commerce](/docs/craft-commerce/), [CS-Cart](/docs/cs-cart/), [Drupal 8](/docs/drupal/), [Magento 1](/docs/magento-1/), [Magento 2](/docs/magento-2/), [Odoo](/docs/odoo/), [OpenCart](/docs/opencart/), [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/), [Shopware 5 and 6](/docs/shopware/), [WooCommerce](/docs/woo-commerce/), [X-Cart](/docs/x-cart/). |
 <br>
 
@@ -82,7 +82,7 @@ You need to contact AfterPay to activate it for your account.
 ## Addresses
 
 Different billing and shipping addresses are supported.  
-The **Transaction details** page in your dashboard only shows the billing address. To retrieve other details, see API reference – [Get order](https://docs-api.multisafepay.com/reference/getorder).
+The **Transaction details** page in your dashboard only shows the billing address. To retrieve other details, see API reference – [Get order](/reference/getorder/).
 
 ## Collection period
 If the customer returns some items from the order and this takes a long time to verify, you can pause the collection period for 2 to 4 weeks. 
@@ -125,7 +125,7 @@ If you change the order status in your <<glossary:backend>>, the following [read
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **Delivered** in your backend.
 
-For other ready-made integrations, make an [update order](https://docs-api.multisafepay.com/reference/updateorder) API request.
+For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
 **Note:** Some third-party plugins may not support updating the status via our API.
 

@@ -86,7 +86,7 @@ First, apply to MultiSafepay and then activate Apple Pay in your dashboard.
 - An SSL secured connection (HTTPS) is required.
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. 
+- [Create order](/reference/createorder/) > Wallet order. 
 - Examples > Apple Pay direct/redirect.
 - Transactions expire after 1 hour. 
 

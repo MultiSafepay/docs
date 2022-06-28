@@ -67,7 +67,7 @@ You can activate Bank Transfer yourself in your dashboard.
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order.
+- [Create order](/reference/createorder/) > Banking order.
 - Examples > Bank Transfer direct/redirect.
 - Transactions expire after 60 days.
 
@@ -86,7 +86,7 @@ To test Bank Transfer payments, see [Testing](/docs/testing#banking-methods).
 
 To simplify transfers for customers and avoid them incurring international transfer and currency conversion fees, MultiSafepay has a local bank account in several European countries in the local currency. Customers then only pay the standard fee charged by their bank.
 
-To send a customer the details of a local MultiSafepay bank account, include the relevant [ISO 3166 country code](https://www.iso.org/iso-3166-country-codes.html) in your [create order](https://docs-api.multisafepay.com/reference/createorder) request in the `country` parameter, e.g. `"country": "DE"`.
+To send a customer the details of a local MultiSafepay bank account, include the relevant [ISO 3166 country code](https://www.iso.org/iso-3166-country-codes.html) in your [create order](/reference/createorder/) request in the `country` parameter, e.g. `"country": "DE"`.
 
 <details id="countries-with-a-local-MultiSafepay-bank-account">
 <summary>Countries with a local MultiSafepay bank account</summary>
@@ -121,7 +121,7 @@ MultiSafepay emails the customer the following payment details to include when t
 
 You may prefer to email the customer the payment details yourself, e.g. for consistent, branded communications. Make sure you include clear instructions about what details the customer needs to provide and the required format (see [Transfer guidance for customers](#transfer-guidance-for-customers) below).
 
-To prevent us from emailing the customer, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. Set the `disable_send_email` parameter to `true`. 
+To prevent us from emailing the customer, see API reference – [Create order](/reference/createorder/) > Banking order. Set the `disable_send_email` parameter to `true`. 
 
 </details>
 

@@ -71,7 +71,7 @@ You can enable Trustly yourself in your dashboard.
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order.
+- [Create order](/reference/createorder/) > Banking order.
 - Examples > Trustly redirect.
 - Transactions expire after 2 hours.
 

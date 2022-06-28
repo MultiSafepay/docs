@@ -71,7 +71,7 @@ You can activate E-Invoicing yourself in your dashboard.
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order. 
+- [Create order](/reference/createorder/) > Pay later order. 
 - Examples > E-Invoicing direct/redirect.
 - Transactions don't expire.
 
@@ -172,7 +172,7 @@ If you change the order status in your <<glossary:backend>>, the following [read
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **delivered** in your backend.
 
-For other ready-made integrations, make an [update order](https://docs-api.multisafepay.com/reference/updateorder) API request.
+For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
 **Note:** Some third-party plugins may not support updating the status via our API.
 

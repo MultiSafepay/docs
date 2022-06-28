@@ -70,7 +70,7 @@ You can activate Belfius yourself in your dashboard.
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. 
+- [Create order](/reference/createorder/) > Banking order. 
 - Examples > Belfius direct/redirect.
 - Transactions expire after 5 days.
 

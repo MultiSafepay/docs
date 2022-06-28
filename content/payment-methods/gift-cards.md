@@ -87,7 +87,7 @@ Contact the card issuer and share the details with us to activate in your accoun
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order. 
+- [Create order](/reference/createorder/) > Prepaid card order. 
 - Examples > Gift card redirect.
 - Transactions don't expire.
 
@@ -134,7 +134,7 @@ Contact MultiSafepay to develop your own custom gift card!
     - A startup fee of 200 EUR
 4. We develop the card and activate it for your MultiSafepay account.
 5. To integrate your card:
-    - Using our API, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order.
+    - Using our API, see API reference – [Create order](/reference/createorder/) > Prepaid card order.
     - In a ready-made integration, add your gateway ID.
 
 > **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>

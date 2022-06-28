@@ -77,7 +77,7 @@ You can activate Sofort yourself in your dashboard.
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order.
+- [Create order](/reference/createorder/) > Banking order.
 - Examples > Sofort direct/redirect.
 - Transactions expire after 1 day.
 
