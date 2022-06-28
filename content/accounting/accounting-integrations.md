@@ -29,6 +29,8 @@ To connect your Actuals account to your MultiSafepay account:
 
 </details>
 
+<br>
+
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/AFAS.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
@@ -46,6 +48,8 @@ For generating automated accounting reports, see Forque – [AFAS](https://www.f
 ## De Viske ICT
 For middleware solutions to automate processes and efficiently exchange data between AFAS and other applications, see De Viske ICT – [Applicaties](https://deviske.nl/applicaties/).
 
+<br>
+
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/E-boekhouden.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
@@ -59,6 +63,8 @@ For import instructions, see e-Boekhouden – [Contact](https://www.e-boekhouden
 
 To add MultiSafepay [payment links](/docs/payment-links/) to e-Boekhouden invoices to let customers pay directly, see e-Boekhouden – [How do I insert a payment link or image in my invoices](https://secure.e-boekhouden.nl/bh/kb.asp?ACTION=SHOW&ID=237&POPUP=1).
 
+<br>
+
 ## PSP Betalingen integration
 
 PSP Betalingen has developed an integration that connects your MultiSafepay account to e-Boekhouden, continually importing your transactions so you can automate reconciliation.
@@ -66,6 +72,8 @@ PSP Betalingen has developed an integration that connects your MultiSafepay acco
 For more information, see PSP Betalingen – [Koppeling MultiSafepay e-Boekhouden](https://www.webwinkelfacturen.nl/koppelingpsp.php?shopsystem=multisafepay&invoicesystem=eboekhouden).
 
 To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – [Handleiding: MultiSafepay e-Boekhouden](https://handleidingen.pspbetalingen.nl/handleiding-multisafepay-eboekhouden). (You will need a MultiSafepay [site API key](/docs/sites#site-id-api-key-and-secure-code).)
+
+<br>
 
 ---
 
@@ -159,6 +167,8 @@ To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – [Ha
 
     </details>
 
+<br>
+
 ## Denovit integration
 
 You can automatically insert MultiSafepay [payment links](/docs/payment-links/) into Exact invoices using the [Denovit payment link module](https://www.denovit.nl/Exact-PaymentLink).
@@ -179,6 +189,8 @@ For each new invoice in Exact, if you:
 - **Print and process**: The customer receives an email containing a payment link.
 
 </details >
+
+<br>
 
 ## xCore integration
 
@@ -235,6 +247,8 @@ For more information, see xCore – [Afletteren MultiSafepay met Exact Globe](ht
 
 For import instructions, see King Business Software – [Service](https://service.king.eu).
 
+<br>
+
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Snelstart.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
@@ -248,7 +262,9 @@ For import instructions, see Snelstart – [Klantenservice](https://www.snelstar
 
 To add MultiSafepay [payment links](/docs/payment-links/) to SnelStart invoices to let customers pay directly, see SnelKoppeling – [Betaallinks via payment service provider](https://snelkoppeling.eu/productoverzicht/boekhoudtechnisch/emailplus).
 
-### Premarc plugins
+<br>
+
+## Premarc plugins
 
 [Premarc](https://www.snelkoppeling.eu/productoverzicht/webwinkelkoppelingen) offers plugins to reconcile Snelstart with popular ecommerce platforms.
 
@@ -263,6 +279,8 @@ To add MultiSafepay [payment links](/docs/payment-links/) to SnelStart invoices 
 - [Woocommerce](https://www.snelkoppeling.eu/woocommerce)
 
 </details>
+
+<br>
 
 ---
 
@@ -308,6 +326,8 @@ You must first provide Twinfield with an additional international bank account n
 
 > **Tip!** For a free 30-day trial including all accounting functions, see Twinfield – [Proef abonnement aanvragen](https://www.wolterskluwer.com/nl-nl/solutions/twinfield-accounting/twinfield-boekhouden-probeer-nu).
 
+<br>
+
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Unit4.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
@@ -319,6 +339,8 @@ You must first provide Twinfield with an additional international bank account n
 
 For import instructions, see Unit4 – [Support](https://accountancygemak.nl/support/).
 
+<br>
+
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Visma.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
@@ -329,6 +351,8 @@ For import instructions, see Unit4 – [Support](https://accountancygemak.nl/sup
 [Visma](https://nl.visma.com/) supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (MT940 and CAMT053 formats).
 
 For import instructions, see Visma – [Contact](https://nl.visma.com/accountview-support/contact).
+
+<br>
 
 ---
 
@@ -362,7 +386,9 @@ For more information, see Yuki - [Create bank processing rule](https://support.y
 
 </details >
 
-### Duopact integration
+<br>
+
+## Duopact integration
 
 [Duopact](https://www.snelkoppeling.eu/productoverzicht/webwinkelkoppelingen) imports MultiSafepay transactions automatically daily at midnight.
 
