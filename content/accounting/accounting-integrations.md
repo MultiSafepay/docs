@@ -251,6 +251,19 @@ For import instructions, see King Business Software – [Service](https://servic
 
 ---
 
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/King.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
+<br>
+
+# Octopus
+
+[Octopus](https://www.octopus.be/) supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (CODA format).
+
+For import instructions, see Octopus – [Coda verwerking](https://www.octopus.be/nl/handleiding/coda-verwerking) > C. CODA aangeleverd door derden. 
+<br>
+
+---
+
+
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Snelstart.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
 <br>
 
