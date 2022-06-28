@@ -497,7 +497,7 @@ MultiSafepay can dispute chargebacks on your behalf for a fee.
 You need to upload relevant documentary proof either:
 
 - In the **Transaction details** page of the original transaction in your MultiSafepay dashboard, **or**
-- Via our API, see API reference – [Challenge chargebacks](https://docs-api.multisafepay.com/reference/challengechargeback), **or**
+- Via our API, see API reference – [Challenge chargebacks](/reference/challengechargeback/), **or**
 - By email to <retrieval@multisafepay.com>
 
 <details id=“how-to-upload-files”>

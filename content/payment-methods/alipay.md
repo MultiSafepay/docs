@@ -73,7 +73,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 | Integration | Details |
 |---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > Alipay direct/redirect <br> Transactions expire after 5 hours. |
+| **API** | [Create order](/reference/createorder/) > Wallet order <br> Examples > Alipay direct/redirect <br> Transactions expire after 5 hours. |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) (direct), **except** PrestaShop 1.6, OsCommerce, and Zen Cart.   |
 <br>
 

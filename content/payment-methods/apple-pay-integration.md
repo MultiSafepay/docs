@@ -206,12 +206,12 @@ When the customer clicks or taps the ** Pay** button:
 
 ### Server-side integration
 
-1. From your server, [create an order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. See also Examples > Apple pay direct, using the `payment.token` property. To use the `payment.token` property in the order request, convert it to an escaped JSON string.
+1. From your server, [create an order](/reference/createorder/) > Wallet order. See also Examples > Apple pay direct, using the `payment.token` property. To use the `payment.token` property in the order request, convert it to an escaped JSON string.
 
 2. The billing and shipping details are not required for Apple Pay direct orders. 
 
     - To access the shipping and/or billing details from the `payment` object, use the `payment.billingContact` and `payment.shippingContact` properties.
-    - To add the details to the order request, format them in accordance with [create order](https://docs-api.multisafepay.com/reference/createorder) requests.
+    - To add the details to the order request, format them in accordance with [create order](/reference/createorder/) requests.
 
 > **Note:** Billing and shipping data are not encrypted.
 
@@ -244,7 +244,7 @@ With redirect integration, customers are redirected to a [payment page](/docs/pa
 
 See:
 
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order
+- [Create order](/reference/createorder/) > Wallet order
 - Examples > Apple Pay redirect
 
 ## Detecting Apple Pay on the customer's device

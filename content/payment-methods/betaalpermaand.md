@@ -89,7 +89,7 @@ You must:
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order 
+- [Create order](/reference/createorder/) > Pay later order 
 - Examples > Betaal per Maand direct/redirect.
 - Transactions expire after 1 day.
 
@@ -175,7 +175,7 @@ If you change the order status in your <<glossary:backend>>, the following [read
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **Delivered** in your backend.
 
-For other ready-made integrations, make an [update order](https://docs-api.multisafepay.com/reference/updateorder) API request.
+For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
 **Note:** Some third-party plugins may not support updating the status via our API.
 
@@ -190,7 +190,7 @@ For other ready-made integrations, make an [update order](https://docs-api.multi
 You can provide track-and-trace codes to MultiSafepay:
 
 - In your dashboard when you change the order status to **Shipped**, **or**  
-- Via our API – [Update order](https://docs-api.multisafepay.com/reference/updateorder) > Ship order
+- Via our API – [Update order](/reference/updateorder/) > Ship order
 </details>
 <br>
 

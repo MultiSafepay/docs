@@ -68,7 +68,7 @@ You can activate Giropay yourself in your dashboard.
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. 
+- [Create order](/reference/createorder/) > Banking order. 
 - Examples > Giropay redirect.
 - Transactions don't expire.
 

@@ -75,7 +75,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order. 
+- [Create order](/reference/createorder/) > Pay later order. 
 - Examples > in3 direct/redirect.
 - Transactions expire after 2 hours.
 
@@ -139,7 +139,7 @@ If you change the order status in your backend, the following [ready-made integr
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **Delivered** in your backend.
 
-For other ready-made integrations, make an [update order](https://docs-api.multisafepay.com/reference/updateorder) API request.
+For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
 **Note:** Some third-party plugins may not support updating the status via our API.
 

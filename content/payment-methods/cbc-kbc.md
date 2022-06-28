@@ -74,7 +74,7 @@ You can activate CBC/KBC in your dashboard.
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. 
+- [Create order](/reference/createorder/) > Banking order. 
 - Examples > CBC/KBC direct/redirect.
 - Transactions expire after 5 days.
 

@@ -68,7 +68,7 @@ You can activate TrustPay yourself in your dashboard.
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order.
+- [Create order](/reference/createorder/) > Banking order.
 - Examples > Trustpay redirect.
 - Transactions expire after 10 days.
 

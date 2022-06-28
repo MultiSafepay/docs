@@ -121,7 +121,7 @@ We strongly recommend [testing transactions](/docs/testing/) before processing l
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. 
+- [Create order](/reference/createorder/) > Wallet order. 
 - Examples > PayPal direct/redirect.
 - Transactions expire after 14 days.
 

@@ -63,7 +63,7 @@ For any questions, email <sales@multisafepay.com>
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order.
+- [Create order](/reference/createorder/) > Prepaid card order.
 - Examples > Gift card redirect.
 - Transactions expire after 3 hours.
 

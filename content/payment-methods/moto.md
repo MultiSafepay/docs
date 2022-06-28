@@ -45,7 +45,7 @@ The transaction appears in your **Transaction overview**.
 
 # Integration
 
-See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Card order.
+See API reference – [Create order](/reference/createorder/) > Card order.
 
 In the `gateway_info` object, include the `moto` parameter.
 
