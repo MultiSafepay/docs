@@ -31,7 +31,7 @@ For payment methods where MultiSafepay:
 | Refund fees <br> (Separated into collecting and non-collecting orders) | During processing |
 | Transaction fees | During processing |
 
-**Note:** The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay).
+> **Note:** The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay).
 
 </details>  
 

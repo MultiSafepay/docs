@@ -20,12 +20,12 @@ Read how Edenred can benefit your business on [multisafepay.com](https://www.mul
 
 | Supports | Details |
 |---|---|
-| **Chargebacks** | No |
 | **Countries**  | Belgium  | 
 | **Currencies** | EUR  |  
-| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
-| **Refunds** | No |
-| **Second Chance** | [Yes](/docs/second-chance/) |
+| [Chargebacks](/docs/chargebacks/) | No |
+| [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
+| [Refunds](/docs/refund-payments/) | No |
+| [Second Chance](/docs/second-chance/) | Yes |
 
 ### Terms and conditions
   

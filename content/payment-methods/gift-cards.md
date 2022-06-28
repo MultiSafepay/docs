@@ -12,11 +12,11 @@ Read how gift cards can benefit your business on [multisafepay.com](https://www.
 
 | Supports | Details |
 |---|---|
-| **Chargebacks** | No  |
 | **Countries**  | Belgium, The Netherlands  | 
 | **Currencies** | EUR  |  
-| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
-| **Refunds** | Paid with gift card only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with gift card **and** another payment method: [Full refunds](/docs/refund-payments/).  |
+| [Chargebacks](/docs/chargebacks/) | No  |
+| [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
+| [Refunds](/docs/refund-payments/) | Paid with gift card only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with gift card **and** another payment method: Full refunds.  |
 
 <details id="supported-gift-cards">
 <summary>Supported gift cards</summary>
@@ -137,7 +137,7 @@ Contact MultiSafepay to develop your own custom gift card!
     - Using our API, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order.
     - In a ready-made integration, add your gateway ID.
 
-> 💬  Support
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 > Email <integration@multisafepay.com>
 
 </details>

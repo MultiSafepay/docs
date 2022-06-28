@@ -16,12 +16,12 @@ Read how EPS can benefit your business on [multisafepay.com](https://www.multisa
 
 | Supports | Details |
 |---|---|
-| **Chargebacks**  | No  |
 | **Countries**  | Austria  | 
 | **Currencies**  | EUR |  
-| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
-| **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
-| **Second Chance** | [Yes](/docs/second-chance/) |
+| [Chargebacks](/docs/chargebacks/)  | No  |
+| [Payment pages](/docs/payment-pages/) | Yes (current version only) |
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial |
+| [Second Chance](/docs/second-chance/) | Yes |
 
 # Payment flow
 
@@ -61,8 +61,8 @@ You can activate EPS yourself in your dashboard.
     - A specific site, go to **Website settings**, and click the relevant site.
 4. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-> 💬  Support
-> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+
 
 </details>
 

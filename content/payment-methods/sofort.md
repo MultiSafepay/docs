@@ -17,14 +17,14 @@ Read how Sofort can benefit your business on [multisafepay.com](https://www.mult
 | Supports | Details |  
 |---|---|
 | **Amount limit** | Minimum amount: 0,10 EUR |
-| **Chargebacks**  | No | 
-| **Countries**  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland <br> ❗ Transactions processed in non-supported countries return a [1024 error](/docs/troubleshooting#error-1024-transaction-refused).  | 
+| **Countries**  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland <br> ❗ Transactions processed in non-supported countries return a [1024 error](/docs/troubleshooting#error-1024-transaction-refused). |
 | **Currencies**  | EUR (GBP, CHF, PLN **not** supported) | 
-| **Payment components** | [Yes](/docs/payment-components/) |
-| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
-| **Recurring payments** | [Yes](/docs/recurring-payments/)|
-| **Refunds** | [Yes](/docs/refund-payments/): Full and partial  |
-| **Second Chance** | [Yes](/docs/second-chance/) |
+| [Chargebacks](/docs/chargebacks/)  | No |
+| [Payment components](/docs/payment-components/) | Yes |
+| [Payment pages](/docs/payment-pages/) | Yes (current version only) |
+| [Recurring payments](/docs/recurring-payments/) | Yes|
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial  |
+| [Second Chance](/docs/second-chance/) | Yes |
 
 # Payment flow
 
@@ -69,8 +69,8 @@ You can activate Sofort yourself in your dashboard.
     - A specific site, go to **Website settings**, and click the relevant site.
 4. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-> 💬  Support
-> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+
 
 </details>
 

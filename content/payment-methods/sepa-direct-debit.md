@@ -15,15 +15,15 @@ Read how SEPA Direct Debit can benefit your business on [multisafepay.com](https
 
 | Supports | Details |
 |---|---|
-| **Chargebacks**  | [Yes](/docs/chargebacks/) (see below) | 
 | **Countries**  | [SEPA region](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf)  | 
 | **Currencies**  | EUR | 
-| **Payment components** | [Yes](/docs/payment-components/) |
-| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions)  |
-| **Recurring payments** | [Yes](/docs/recurring-payments/) |
-| **Refunds** | [Yes](/docs/refund-payments/): Full and partial  |
-| **Second Chance** | [Yes](/docs/second-chance/) |
-| **Virtual IBANs** | [Yes](/docs/virtual-ibans/) to better manage SEPA Direct Debit payments | 
+| [Chargebacks](/docs/chargebacks/)  | Yes (see below) |
+| [Payment components](/docs/payment-components/) | Yes |
+| [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions)  |
+| [Recurring payments](/docs/recurring-payments/) | Yes |
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial  |
+| [Second Chance](/docs/second-chance/) | Yes |
+| [Virtual IBANs](/docs/virtual-ibans/) | Yes,  to better manage SEPA Direct Debit payments | 
 
 # Payment flow
 
@@ -76,8 +76,8 @@ First apply to MultiSafepay, and then activate in your dashboard.
     - A specific site, go to **Website settings**, and click the relevant site.
 6. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-> 💬  Support
-> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+
 
 </details>
 

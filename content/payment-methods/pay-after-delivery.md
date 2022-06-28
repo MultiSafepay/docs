@@ -17,13 +17,13 @@ Read how Pay After Delivery can benefit your business on [multisafepay.com](http
 
 | Supports | Details |
 |---|---|
-| **Chargebacks**  | No  | 
+| **Amount limits** | Minimum and maximum order amounts apply. Email <sales@multisafepay.com> |
 | **Countries**  | The Netherlands  | 
 | **Currencies** | EUR  | 
-| **Discounts** | [Yes](/docs/discounts/) |
-
-| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
-| **Refunds** |[Yes](/docs/refund-payments/): Full, partial, and API refunds| 
+| [Chargebacks](/docs/chargebacks/)  | No  | 
+| [Discounts](/docs/discounts/) | Yes |
+| [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
+| [Refunds](/docs/refund-payments/) | Yes: Full, partial, and API refunds| 
 
 # Payment flow
 
@@ -68,8 +68,8 @@ First apply to MultiSafepay, and then activate in your dashboard.
     - A specific site, go to **Website settings**, and click the relevant site.
 6. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-> 💬  Support
-> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+
 
 </details>
 
@@ -94,10 +94,6 @@ To test Pay After Delivery payments, see [Testing](/docs/testing#pay-later-metho
 ## Addresses
 
 The billing and shipping addresses must be the **same** to prevent fraud. 
-
-## Amount limits
-
-Minimum and maximum order amounts apply. Email <sales@multisafepay.com>
 
 ## Close transactions
 

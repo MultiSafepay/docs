@@ -15,13 +15,13 @@ Read how Google Pay can benefit your business on [multisafepay.com](https://www.
 
 | Supports | Details |
 |---|---|
-| **Chargebacks**  | [Yes](/docs/chargebacks/) | 
 | **Countries**  | Worldwide <br> See Google Pay – [Countries or regions where you can use Google Pay](https://support.google.com/pay/answer/9023773?hl=en#zippy=%2Cpay-online-or-in-apps).  | 
 | **Currencies**  | Multiple  | 
-| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
-| **Recurring payments** | [Yes](/docs/recurring-payments/)  |
-| **Refunds** | [Yes](/docs/refund-payments/): Full and partial <br> Customers receive refunds in their Google Pay account, and they appear on their credit card statement within the next business day.  |
-| **Second Chance** | [Yes](/docs/second-chance/) |
+| [Chargebacks](/docs/chargebacks/)  | Yes |
+| [Payment pages](/docs/payment-pages/) | Yes (current version only) |
+| [Recurring payments](/docs/recurring-payments/) | Yes  |
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial <br> Customers receive refunds in their Google Pay account, and they appear on their credit card statement within the next business day.  |
+| [Second Chance](/docs/second-chance/) | Yes |
 
 > ℹ️ Notes 
 > - By processing Google Pay payments, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos).
@@ -74,8 +74,8 @@ First apply to MultiSafepay, and then activate in your dashboard.
     - A specific site, go to **Website settings**, and click the relevant site.
 5. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-> 💬  Support
-> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+
 
 </details>
 

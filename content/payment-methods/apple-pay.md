@@ -17,12 +17,12 @@ Read how Apple Pay can benefit your business on [multisafepay.com](https://www.m
 
 | Supports | Details |
 |---|---|
-| **Chargebacks** | [Yes](/docs/chargebacks/) | 
 | **Countries** | [Worldwide](https://support.apple.com/en-us/HT207957)  | 
 | **Currencies** | [Multiple](https://support.apple.com/en-us/HT207957)  | 
-| **Payment pages** | [Yes](/docs/payment-pages/) (current version only)  |
-| **Refunds** | [Yes](/docs/refund-payments/): Full and partial <br> Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |
-| **Second Chance** | [Yes](/docs/second-chance/) |
+| [Chargebacks](/docs/chargebacks/) | Yes | 
+| [Payment pages](/docs/payment-pages/) | Yes (current version only)  |
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial <br> Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |
+| [Second Chance](/docs/second-chance/) | Yes |
 <br>
 
 > ℹ️ More information 
@@ -74,8 +74,8 @@ First, apply to MultiSafepay and then activate Apple Pay in your dashboard.
     - A specific site, go to **Website settings**, and click the relevant site.
 6. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-> 💬  Support
-> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+
 
 </details>
 

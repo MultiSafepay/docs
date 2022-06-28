@@ -15,13 +15,13 @@ Read how in3 can benefit your business on [multisafepay.com](https://www.multisa
 
 | Supports | Details |
 |---|---|
-| **Chargebacks**  | No  |
 | **Countries**  | The Netherlands – in3 checks the customer's country, and billing/shipping address to confirm.  | 
 | **Currencies**  | EUR  |  
-| **Discounts** | [Yes](/docs/discounts/) <br> You can request in3 to process a full or partial refund, either before payout or up to 1 year afterwards. |
-| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
-| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds | 
-| **Second Chance** | [Yes](/docs/second-chance/) |
+| [Chargebacks](/docs/chargebacks/)  | No  |
+| [Discounts](/docs/discounts/) | Yes <br> You can request in3 to process a full or partial refund, either before payout or up to 1 year afterwards. |
+| [Payment pages](/docs/payment-pages/) | Yes (current version only) |
+| [Refunds](/docs/refund-payments/) | Yes: Full, partial, and API refunds | 
+| [Second Chance](/docs/second-chance/) | Yes |
 
 # Payment flow
 
@@ -67,8 +67,8 @@ First apply to MultiSafepay, and then activate in your dashboard.
     - A specific site, go to **Website settings**, and click the relevant site.
 6. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-> 💬  Support
-> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+
 
 </details>
 
