@@ -167,7 +167,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 1. Sign in to your Magento 2 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment methods** > **Generic gateway**.
-3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids) and upload a custom gateway image.
+3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/) and upload a custom gateway image.
 4. For pay later methods, specify whether to include a shopping cart.
 
 </details>
@@ -395,7 +395,7 @@ We also offer full extensions for [ScandiPWA](/docs/scandipwa/) and [Vue Storefr
 |---|---|
 | MultiSafepay dashboard | - Full and partial refunds <br> - Orders with [Fooman surcharges](/docs/magento-2#surcharges) <br> - Orders from the deprecated plugin |
 | Backend | - Full and partial refunds, and credit memos <br> - You can't refund more than the original amount in your backend |
-| API | - See [Refund order](https://docs-api.multisafepay.com/reference/refundorder) > Pay later refund <br> - PATCH requests **not** supported |
+| API | - See [Refund order](/reference/refundorder/) > Pay later refund <br> - PATCH requests **not** supported |
 
 </details>
 
@@ -585,7 +585,7 @@ The cart is now always kept alive when the customer clicks **Back** on the Multi
 
 _Checkout_
 
-We have changed the default payment flow from [redirect to direct](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect) for:
+We have changed the default payment flow from [redirect to direct](/reference/introduction#direct-vs-redirect) for:
 
 - AfterPay, E-Invoicing, in3, Pay After Delivery 
 - Direct Debit, Request to Pay

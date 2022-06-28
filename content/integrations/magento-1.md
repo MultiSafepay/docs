@@ -833,7 +833,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 1. Sign in to your Magento 1 backend. 
 2. Go to **System** > **Configuration** > **MultiSafepay** > **Connect gateways** > **Generic 1/2/3**.
-3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids) and the gateway label.
+3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/) and the gateway label.
 4. Set how to display the payment method logos. 
 5. For pay later methods, set whether to include the shopping cart.
 

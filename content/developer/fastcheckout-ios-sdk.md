@@ -8,7 +8,7 @@ slug: 'fastcheckout-ios'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/1281f9320696f2d256d0859421ec2cfa2350e644/static/logo/Integrations/Fastcheckout_iOS.svg" width="100" align ="right"/>
 
-Simply provide a valid transaction ID or [create an order](https://docs-api.multisafepay.com/reference/createorder). The SDK generates the checkout automatically and sends status updates for each transaction.
+Simply provide a valid transaction ID or [create an order](/reference/createorder/). The SDK generates the checkout automatically and sends status updates for each transaction.
 
 [View on GitHub](https://github.com/MultiSafepay/fastcheckout-ios-sdk)
 
@@ -36,7 +36,7 @@ The FastCheckout SDK provides the following additional features:
 
 For more information, see the documentation in the SDK, which contains all classes, methods, and troubleshooting.
 
-To learn more about creating, updating and retrieving orders, see the [API reference](https://docs-api.multisafepay.com/reference/introduction).
+To learn more about creating, updating and retrieving orders, see the [API reference](/reference/introduction/).
 
 ### Requirements
 

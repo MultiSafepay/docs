@@ -18,7 +18,7 @@ A unique number assigned to card payments as they move from the merchant's bank 
 
 ---
 #### API endpoint
-A specific URL in [our API](https://docs-api.multisafepay.com/reference/) where merchants send requests to exchange information, e.g. about /orders, /gateways.
+A specific URL in [our API](/reference/) where merchants send requests to exchange information, e.g. about /orders, /gateways.
 
 ---
 #### backend
@@ -120,7 +120,7 @@ A terminal that accepts payments, usually by card or near-field communication (N
 
 ---
 #### RESTful API (application programming interface)
-The interface and set of protocols merchants use to exchange data with the MultiSafepay server. Our [API reference](https://docs-api.multisafepay.com/reference/introduction) specifies the content and format of requests to our server and the responses the server sends back.
+The interface and set of protocols merchants use to exchange data with the MultiSafepay server. Our [API reference](/reference/introduction/) specifies the content and format of requests to our server and the responses the server sends back.
 
 ---
 #### reversal

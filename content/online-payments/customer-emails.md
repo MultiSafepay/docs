@@ -21,7 +21,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
     <br>
 
     **Bank Transfer details email (to customer)**  
-    For sending customers MultiSafepay's bank details when they select [Bank Transfer](/docs/bank-transfer/) as payment method and you send a [`redirect`](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect) transaction request. 
+    For sending customers MultiSafepay's bank details when they select [Bank Transfer](/docs/bank-transfer/) as payment method and you send a [`redirect`](/reference/introduction#direct-vs-redirect) transaction request. 
 
     **Chargeback email (to merchant)**  
     For notifying you when a customer requests a [chargeback](/docs/chargebacks/) (recommended if you accept credit card payments).
@@ -58,7 +58,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
     </details>
 
 6. From the **Language** list, select the email language.  
-    **Note:** The language set here is overridden by the `locale` parameter in [create order](https://docs-api.multisafepay.com/reference/createorder) API requests. 
+    **Note:** The language set here is overridden by the `locale` parameter in [create order](/reference/createorder/) API requests. 
 7. Either click **Load default template**, or fill in the fields as required.
     - In the **From address** field, enter the email address you want the email sent from, e.g. sales@yourcompany.com
     **Note:** If you enter a different from address than noreply@multisafepay.com to avoid emails being marked as spam, we recommend adding the following DNS record to your domain:  
