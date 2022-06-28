@@ -49,7 +49,7 @@ slug: 'opencart'
     - **Order status** tab
     - **Options** tab  
 
-To retrieve your API key, see [Site ID, API key, and security code](/docs/sites#site-id-api-key-and-secure-code).
+To retrieve your API key, see [Site ID, API key, and security code](/docs/sites#site-id-api-key-and-security-code).
 <br>
 
 ---

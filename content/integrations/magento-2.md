@@ -18,7 +18,7 @@ slug: 'magento-2'
 </div>
 
 > ⚠️ Action required
-> If you are still using the deprecated plugin, we recommend [upgrading to the latest version](/magento-2/#upgrading) as soon as possible.
+> If you are still using the deprecated plugin, we recommend [upgrading to the latest version](/docs/magento-2#upgrades) as soon as possible.
 
 Our plugin is supported by a certified Magento 2 Solution Specialist and receives regular updates for the latest features from Magento and MultiSafepay.
 
@@ -99,7 +99,7 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
     - **General information:** Contains all the main support information. We recommend reading this first.
     - **General settings:** Contains all main settings.  
     - Here you can configure all <<glossary:gateways>> and gift cards.  
-    - Enter your [account ID, site ID, site security code](/docs/sites#site-id-api-key-and-secure-code).   
+    - Enter your [account ID, site ID, site security code](/docs/sites#site-id-api-key-and-security-code).   
     - **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
         - Make sure you have activated your selected payment methods in your MultiSafepay dashboard.
     - **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  
