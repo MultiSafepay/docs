@@ -15,7 +15,7 @@ This page provides information about processing refunds with MultiSafepay.
 
 You can process refunds:
 
-- Via our API – [Refund order](https://docs-api.multisafepay.com/reference/refundorder)
+- Via our API – [Refund order](/reference/refundorder/)
 - In most of our [ready-made integrations](/docs/our-integrations/)
 - Via your dashboard
 
@@ -40,7 +40,7 @@ The status of the refund starts as **reserved**, and changes to **Completed** at
 
 You can refund pay later orders via:
 
-- API – [Refund order](https://docs-api.multisafepay.com/reference/refundorder) > Pay later refund
+- API – [Refund order](/reference/refundorder/) > Pay later refund
 - Your dashboard
 
 <details id="full-amount-via-dashboard">
@@ -159,7 +159,7 @@ If you refund a payment in your MultiSafepay test dashboard, the <<glossary:tran
 
 Follow these steps:
 
-1. [Create an order](https://docs-api.multisafepay.com/reference/createorder). 
+1. [Create an order](/reference/createorder/). 
 2. Wait until the <<glossary:transaction status>> changes to **Completed**.
 3. In your MultiSafepay test dashboard, go to **Order summary**, and then click **Refund order**.
 4. Under **Refund**, enter in the:
@@ -188,8 +188,8 @@ Follow these steps:
 <summary>How to test refunds via API</summary>
 <br>
 
-1. [Create an order](https://docs-api.multisafepay.com/reference/createorder). 
-2. Make a [refund](https://docs-api.multisafepay.com/reference/refundorder) API request.
+1. [Create an order](/reference/createorder/). 
+2. Make a [refund](/reference/refundorder/) API request.
     A new order is created for the refund. The order status for the refund changes to **reserved** or **Initialized**.
 3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.

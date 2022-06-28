@@ -24,7 +24,7 @@ Zero Authorization supports Maestro, Mastercard, and Visa, and is available in a
 ### Via our API 
 
 - API reference – [Create order](/reference/createorder/) > Card order
-- API recipe – [Verify a card with Zero Authorization](https://docs-api.multisafepay.com/recipes/verify-a-card-with-zero-authorization)
+- API recipe – [Verify a card with Zero Authorization](/recipes/verify-a-card-with-zero-authorization)
 
 **Via ready-made integrations:** Zero Authorization is not supported in our [ready-made integrations](/docs/our-integrations/) by default, but you can customize it via our API.
 <br>

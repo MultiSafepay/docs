@@ -69,7 +69,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 1. Sign in to your backend.
 2. Go to **Settings** > **Payments** tab > **Generic gateway**.
-3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids), and the gateway logo and label.
+3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/), and the gateway logo and label.
 4. For pay later methods, include the shopping cart in refunds.
 
 You can:

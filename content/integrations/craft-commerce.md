@@ -64,7 +64,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 1. Sign in to your Craft Commerce backend. 
 2. Go to **Commerce** > **System settings** > **Gateways** > **+ New gateway**.
 3. From the **Gateway** list, select **Generic gateway**.
-4. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids) and the gateway label.
+4. Set the relevant [payment method gateway IDs](/reference/gateway-ids/) and the gateway label.
 
 </details>
 
@@ -108,7 +108,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 |---|---|
 | MultiSafepay dashboard | - [Full and partial refunds](/docs/refund-payments/) <br> - Generic gateway transactions |
 | Backend | - Full and partial refunds <br> - You can't refund more than the original amount in your backend <br> - Generic gateway transactions **not** supported |
-| API | - [Refund order](https://docs-api.multisafepay.com/reference/refundorder) <br> - [Pay later refunds](/docs/refund-payments#pay-later-refunds) **not** supported <br> - Discounts **not** supported |
+| API | - [Refund order](/reference/refundorder/) <br> - [Pay later refunds](/docs/refund-payments#pay-later-refunds) **not** supported <br> - Discounts **not** supported |
 
 </details>
 

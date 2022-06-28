@@ -69,7 +69,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. 
+- [Create order](/reference/createorder/) > Wallet order. 
 - Examples > WeChat Pay direct/redirect.
 - Transactions expire after 2 hours.
 - For direct orders, retrieve the `qr_url`, and render the QR code in your system to display it to the customer.

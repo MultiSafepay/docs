@@ -25,8 +25,8 @@ No activation is required.
 
 You can generate payment links via the API:
 
-- API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Payment page/link
-- API recipe – [Create a payment page/link](https://docs-api.multisafepay.com/reference/createorder)
+- API reference – [Create order](/reference/createorder/) > Payment page/link
+- API recipe – [Create a payment page/link](/reference/createorder/)
 
 Or via your dashboard:
 
@@ -81,7 +81,7 @@ Or via your dashboard:
 
 **Via API** 
 
-See API reference – [Update or cancel an order](https://docs-api.multisafepay.com/reference/updateorder).
+See API reference – [Update or cancel an order](/reference/updateorder/).
 
 **Via dashboard**
 
@@ -116,9 +116,9 @@ The lifetime of a payment link is how long it remains active for the customer to
 <summary>How to adjust link lifetimes</summary>
 <br>
 
-To set or adjust the lifetime of a payment link, see API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder): `days_active` parameter.
+To set or adjust the lifetime of a payment link, see API reference – [Create order](/reference/createorder/): `days_active` parameter.
 
-> **Note:** This is different to [transaction expiration times per payment method](https://docs-api.multisafepay.com/reference/transaction-expiration). 
+> **Note:** This is different to [transaction expiration times per payment method](/reference/transaction-expiration/). 
 
 This only applies to certain payment methods:
 

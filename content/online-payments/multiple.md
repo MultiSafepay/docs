@@ -41,7 +41,7 @@ Decide if you want to:
 # 2. Initialize the component
 
 ## Generate an API token
-Payment Components require a MultiSafepay API token. See API reference – [Generate an API token](https://docs-api.multisafepay.com/reference/generateapitoken).
+Payment Components require a MultiSafepay API token. See API reference – [Generate an API token](/reference/generateapitoken/).
 
 > **Tip!** To keep your API key private, request the token from your own server. 
 
@@ -331,7 +331,7 @@ Then, check `response.success`:
 
 Create an order from your server, appending the `payment_data` collected from the payment component UI to the order data.
 
-See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Payment component.
+See API reference – [Create order](/reference/createorder/) > Payment component.
 
 # 4. Go live
 

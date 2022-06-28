@@ -132,7 +132,7 @@ We support recurring payments in our plugins for:
 
 ## API
 
-See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > `customer.reference`.
+See API reference – [Create order](/reference/createorder/) > `customer.reference`.
 
 > **Note:** Tokens for SEPA Direct Debit transactions are originally received as iDEAL or Sofort transactions. 
 
@@ -143,7 +143,7 @@ See API reference – [Create order](https://docs-api.multisafepay.com/reference
 | Parameter | Type | Description |
 |---|---|---|
 | `type` | string | The payment flow for the checkout process. Options: `direct`, `redirect`. |
-| `gateway` | string | The unique `gateway_id` to redirect the customer to the specific payment method. Make a [get gateway](https://docs-api.multisafepay.com/reference/getgateway) request. {{< br >}} Options: `AMEX`, `VISA`, `MASTERCARD`, `DIRDEB`. |
+| `gateway` | string | The unique `gateway_id` to redirect the customer to the specific payment method. Make a [get gateway](/reference/getgateway/) request. {{< br >}} Options: `AMEX`, `VISA`, `MASTERCARD`, `DIRDEB`. |
 | `recurring_id` | string | A randomly generated recurring ID for the customer. |
 | `reference` | string | The customer's reference number for the token. |
 | `recurring_model` | string | The type of recurring model to use. Options: `unscheduled`, `cardOnFile`, `subscription`.  |

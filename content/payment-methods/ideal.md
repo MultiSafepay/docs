@@ -81,7 +81,7 @@ You can activate iDEAL yourself in your dashboard.
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. 
+- [Create order](/reference/createorder/) > Banking order. 
 - Examples > iDEAL direct/redirect/QR.
 - Transactions expire after 1.5 hours.
 

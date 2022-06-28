@@ -83,7 +83,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 1. Sign in to your Prestashop 1.7 backend.
 2. Go to **Improve** > **MultiSafepay** > **Payment methods** > **Generic gateway**.
-3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids) and the gateway icon.
+3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/) and the gateway icon.
 
 
 The generic gateway supports:

@@ -278,13 +278,13 @@ For more information about the `merchantInfo` object, see Google Pay&nbsp;–&nb
 
 # 5. Create an order
 
-From your server, [create an order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. See also Examples > Google Pay direct.
+From your server, [create an order](/reference/createorder/) > Wallet order. See also Examples > Google Pay direct.
 
 For the `gateway_info.payment_token`, use `PaymentData.PaymentMethodData.PaymentMethodTokenizationData.token`.
 
 # 6. Redirect the customer
 
-In response to the API request you made in the previous step, you receive a `payment_url` (see API Reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. See also Examples > Google Pay direct).
+In response to the API request you made in the previous step, you receive a `payment_url` (see API Reference – [Create order](/reference/createorder/) > Wallet order. See also Examples > Google Pay direct).
 
 Pass the `payment_url` from your server to the customer's device and redirect the customer to the URL:
 

@@ -97,7 +97,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Card order 
+- [Create order](/reference/createorder/) > Card order 
 - See Examples and select the relevant <<glossary:card scheme>> example. 
 - Transactions expire after 1 hour.
 

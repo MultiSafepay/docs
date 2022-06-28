@@ -62,7 +62,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 1. Sign in to your Drupal backend. 
 2. Go to **Commerce** > **Configuration** > **Payments** > **Payments gateways** > **Add payment gateway** > **Generic gateway**.
-3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids) and the gateway label.
+3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/) and the gateway label.
 
 </details>
 

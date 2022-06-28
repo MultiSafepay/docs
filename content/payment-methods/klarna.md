@@ -85,7 +85,7 @@ For support, email <integration@multisafepay.com>
 # Integration
 
 ### API
-- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order.
+- [Create order](/reference/createorder/) > Pay later order.
 - Examples > Klarna direct/redirect.
 - Transactions expire after 1 hour.
 
@@ -157,9 +157,9 @@ You can send the customer a payment link from the existing order or a new order.
 
 **New order**
 
-1. [Create a new order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order.  
+1. [Create a new order](/reference/createorder/) > Pay later order.  
 See also Examples > Klarna redirect.
-2. [Ship the order](https://docs-api.multisafepay.com/reference/updateorder) > Ship order.
+2. [Ship the order](/reference/updateorder/) > Ship order.
 3. Send the payment link to the customer.
 
 </details>
@@ -299,7 +299,7 @@ If you change the order status in your backend, the following [ready-made integr
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **delivered** in your backend.
 
-For other ready-made integrations, make an [update order](https://docs-api.multisafepay.com/reference/updateorder) API request.
+For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
 **Note:** Some third-party plugins may not support updating the status via our API.
 

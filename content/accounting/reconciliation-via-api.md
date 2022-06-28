@@ -7,7 +7,7 @@ slug: 'api-reconciliation'
 ---
 The transactions API endpoint returns details about your transactions. You can use it to automate reconciliation and gain insight into your transactions.
 
-See API reference – [Get transaction](https://docs-api.multisafepay.com/reference/gettransaction).
+See API reference – [Get transaction](/reference/gettransaction/).
 
 # Use cases
 

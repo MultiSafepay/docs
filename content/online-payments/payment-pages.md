@@ -35,13 +35,13 @@ You can activate payment pages yourself in your dashboard.
 
 # Integration 
 
-See API recipe – [Create a payment page](https://docs-api.multisafepay.com/recipes/create-a-payment-pagelink).
+See API recipe – [Create a payment page](/recipes/create-a-payment-pagelink).
 
 <details id="known-errors">
 <summary>Known errors</summary>
 <br>
 
-A cross-site request forgery (CSRF) warning appears on payment pages when you use an HTML form to send customers to `https://payv2.multisafepay.com` with a [create order](https://docs-api.multisafepay.com/reference/createorder) request.
+A cross-site request forgery (CSRF) warning appears on payment pages when you use an HTML form to send customers to `https://payv2.multisafepay.com` with a [create order](/reference/createorder/) request.
  
 - `https://api.multisafepay.com` accepts `POST` and `GET` requests.
 - `https://payv2.multisafepay.com` only accepts `GET` requests.
@@ -116,7 +116,7 @@ If a customer's country is unclear or your integration doesn't let you provide t
 
 To display all payment methods on the payment page, follow these steps:
 
-1. [Create an order](https://docs-api.multisafepay.com/reference/createorder) to retrieve the payment link.
+1. [Create an order](/reference/createorder/) to retrieve the payment link.
 2. Add `&methods=all` at the end of the payment link, e.g. `https://testpayv2.multisafepay.com/connect/822LtiM8RjN313Yo5C46E2cjqmuL5qVfc7w/?lang=en_NL&methods=all`
 3. Redirect the customer to the adapted link.
 
@@ -127,7 +127,7 @@ To display all payment methods on the payment page, follow these steps:
 
 ## Shopping cart
 
-If you include a `shopping_cart` object when you [create an order](https://docs-api.multisafepay.com/reference/createorder), the cart details are displayed on the payment page by default. That is, all items in the customer's order, with the price and VAT for each.
+If you include a `shopping_cart` object when you [create an order](/reference/createorder/), the cart details are displayed on the payment page by default. That is, all items in the customer's order, with the price and VAT for each.
 
 <details id="how-to-hide-shopping-cart">
 <summary>How to hide the shopping cart</summary>
@@ -179,7 +179,7 @@ We recommend styling payment pages to be consistent with the look and feel of yo
 
 You can dynamically style the payment page template for specific transaction requests via our API. 
 
-See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Payment page/link > `payment_options` object. 
+See API reference – [Create order](/reference/createorder/) > Payment page/link > `payment_options` object. 
 
 </details>
 
