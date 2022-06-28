@@ -15,7 +15,7 @@ slug: 'shopify'
 
 # Prerequisites
 
-You will need a [MultiSafepay account](/getting-started/).
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 # How to install
 

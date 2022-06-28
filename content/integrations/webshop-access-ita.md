@@ -37,7 +37,8 @@ Crea a nome nostro uno username e password temporanei per accedere all'ambiente 
 - Consigliamo di non fornirci le credenziali per accedere alla versione live della tua piattaforma ecommerce senza aver prima consultato uno dei nostri incaricati al supporto tecnico. 
 Se per qualche caso particolare dovessimo chiedere gli accessi alla versione live della tua piattaforma, ti raccomandiamo di effettuare una copia di backup del sistema.
 
-> ⚠️ **Nota:** Non siamo mai responsabili per errori o malfunzionamenti in ambiente live della tua piattaforma.
+> ⚠️ **Nota:** 
+> Non siamo mai responsabili per errori o malfunzionamenti in ambiente live della tua piattaforma.
 >
 > - Quando è	necessario accedere al server, lavoriamo esclusivamente tramite SFTP/SSH. Per ragioni di sicurezza, non supportiamo più il protocollo SFTP. 
 >

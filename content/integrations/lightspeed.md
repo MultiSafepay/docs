@@ -16,7 +16,7 @@ slug: 'lightspeed'
 </details>
 
 > ⚠️ Action required
-> We recommend [upgrading to the latest version](//docs/lightspeed#how-to-upgrade-to-the-new-app) as soon as possible.
+> We recommend [upgrading to the latest version](/docs/lightspeed#how-to-upgrade-to-the-new-app) as soon as possible.
 
 # Prerequisites
 
@@ -35,7 +35,7 @@ slug: 'lightspeed'
 5. In the dialog, approve the permissions required for the app.  
    You are redirected to Lightspeed – [MultiSafepay: How to log in](https://lightspeed.multisafepay.com/install).
 6. In the **Setup** page:
-    - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-secure-code).
+    - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
     - Select **Test** or **Live** environment, and click **Save and continue**.  
 You are redirected to the **Settings** page.
 7. We recommend enabling:
@@ -50,7 +50,7 @@ You are redirected to the **Settings** page.
 
 ## API keys and environments
 
-You can change your [site API key](/sites/#site-id-api-key-and-secure-code) or environment (live or test) after installation.
+You can change your [site API key](/docs/sites/#site-id-api-key-and-security-code) or environment (live or test) after installation.
 
 <details id="how-to-change-api-keys-and-environments">
 <summary>How to change API keys and environments</summary>
@@ -325,7 +325,7 @@ You can't refund more than the original amount in your backend.
 
 - For refunds created in your Lightspeed backend, a short message appears in the **Notes** section of the order where any errors are explained.
 - Refunds created in your MultiSafepay dashboard are not reported back to Lightspeed. Under **Offline actions**, an error appears: "Already a completed transaction".
-- Some [pay later](/pay-later/) methods:
+- Some pay later methods:
     - Require product IDs for each refunded item. When using product variants, make sure each variant has a unique identifier. If you provide duplicate IDs, we cannot distinguish which items to refund.
     - Do not let you refund a partial amount and a full item in a single request, e.g. a shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
 - You cannot issue multiple refunds for the same amount within 5 minutes of each other, even for different items. 

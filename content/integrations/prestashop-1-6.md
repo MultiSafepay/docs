@@ -12,7 +12,7 @@ slug: 'prestashop-1-6'
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.7.1.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 > ⚠️ Action required
-> We are phasing out support for this plugin. We recommend migrating to our [Prestashop 1.7 plugin](/prestashop-1-7/) as soon as possible.
+> We are phasing out support for this plugin. We recommend migrating to our [Prestashop 1.7 plugin](/docs/prestashop-1-7/) as soon as possible.
 
 # Changelog
 
@@ -457,7 +457,7 @@ Payment links generated manually in your MultiSafepay dashboard don't automatica
 
 ## Recurring payments
 
-[Recurring payments](/recurring-payments) are supported.
+[Recurring payments](/docs/recurring-payments) are supported.
 
 <details id="how-to-enable-recurring-payments">
 <summary>How to enable recurring payments</summary>

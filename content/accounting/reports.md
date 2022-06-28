@@ -45,7 +45,7 @@ The accountant export lists all successful incoming and outgoing transactions, i
 | Completed date/time | The date and time the transaction was completed |
 | Amount | The transaction amount |
 | Creditdebit | C means credit, D means debit |
-| Typetransaction | See [N-codes for identifying payment methods](/reports/n-codes/) |
+| Typetransaction | See [N-codes for identifying payment methods](/docs/reports#filter-by-payment-method) |
 | Paymenttype | A MultiSafepay fee, or the payment method |
 | Description 2-4 | Descriptions of the order |
 | Tr status | The <<glossary:transaction status>> |
@@ -79,7 +79,7 @@ The accountant export lists all successful incoming and outgoing transactions, i
 
 </details>
 
-You can import accountant exports into a range of third-party [accounting platforms](/accounting/integrations/).
+You can import accountant exports into a range of third-party [accounting platforms](/docs/accounting-integrations/).
 
 ---
 # Financial report
@@ -227,7 +227,7 @@ This report provides an overview (in Excel format) of the specific transactions 
 | Amount | The transaction amount in whole currency |
 | Amount cents | The transaction amount in cents |
 | Creditdebit | C means credit, D means debit |
-| N code | See [N-codes for identifying payment methods](/reports/n-codes/) |
+| N code | See [N-codes for identifying payment methods](/docs/reports#filter-by-payment-method) |
 | Payment type | A MultiSafepay fee, or the payment method |
 | Mt description | A description of the transaction |
 | Sub description | A description of a component of the transaction, e.g. an <<glossary:issuer>> fee or currency conversion cost |
@@ -407,38 +407,38 @@ To identify transactions in reports by payment method, use the following N-codes
 
 | N-Code | Transaction type  |
 |---|---|
-| N001   | [MASTERCARD](/payment-methods/mastercard)  |
-| N002   | [VISA](/payment-methods/visa)   |
-| N003   | [MAESTRO](/payment-methods/maestro)   |
+| N001   | [MASTERCARD](/docs/cards/)  |
+| N002   | [VISA](/docs/cards/)   |
+| N003   | [MAESTRO](/docs/cards/)   |
 | N004   | WALLET |
-| N006   | [DANKORT](/payment-methods/dankort)   |
-| N016   | [ALIPAY](/payment-methods/alipay)   |
-| N017   | [DOTPAY](/payment-methods/dotpay)   |
-| N018   | [POSTEPAY](/payment-methods/postepay)  |
-| N021   | [IDEAL](/payment-methods/ideal)   |
-| N031   | [GIROPAY](/payment-methods/giropay)   |
-| N081   | [BANKTRANS](/payment-methods/bank-transfer)  |
-| N085   | [AMEX](/payment-methods/american-express)     |
-| N086   | [KLARNA](/payment-methods/klarna)    |
-| N088   | [PAYAFTER](/payment-methods/pay-after-delivery)  |
-| N089   | [SANTANDER](/payment-methods/betaal-per-maand)  |
-| N090   | [in3](/payment-methods/in3)  |
-| N092   | [DIRECTBANK](/payment-methods/sofort)  |
+| N006   | [DANKORT](/docs/cards/)   |
+| N016   | [ALIPAY](/docs/alipay/)   |
+| N017   | [DOTPAY](/docs/dotpay/)   |
+| N018   | [POSTEPAY](/docs/cards/)  |
+| N021   | [IDEAL](/docs/ideal/)   |
+| N031   | [GIROPAY](/docs/giropay/)   |
+| N081   | [BANKTRANS](/docs/bank-transfer/)  |
+| N085   | [AMEX](/docs/cards/)     |
+| N086   | [KLARNA](/docs/klarna/)    |
+| N088   | [PAYAFTER](/docs/pay-after-delivery/)  |
+| N089   | [SANTANDER](/docs/betaal-per-maand/)  |
+| N090   | [in3](/docs/in3/)  |
+| N092   | [DIRECTBANK](/docs/sofort/)  |
 | N093   | CURRENCY CONVERSION |
-| N094   | [MISTERCASH](/payment-methods/bancontact)  |
-| N095   | [CHARGEBACK](/payments/chargebacks/) |
+| N094   | [MISTERCASH](/docs/bancontact/)  |
+| N095   | [CHARGEBACK](/docs/chargebacks/) |
 | N096   | WITHDRAWAL |
 | N097   | Refund  |
-| N098   | [COUPON](/payment-methods/gift-cards)  | 
-| N101   | [DIRDEB](/payment-methods/sepa-direct-debit) | 
-| N102   | [iDEAL QR](/payment-methods/ideal) |
-| N102   | [BELFIUS](/payment-methods/belfius) |
-| N103   | [EPS](/payment-methods/eps) |
-| N104   | [EINVOICE](/payment-methods/e-invoicing) |
-| N105   | [AFTERPAY](/payment-methods/afterpay) |
+| N098   | [COUPON](/docs/gift-cards/)  | 
+| N101   | [DIRDEB](/docs/sepa-direct-debit/) | 
+| N102   | [iDEAL QR](/docs/ideal/) |
+| N102   | [BELFIUS](/docs/belfius/) |
+| N103   | [EPS](/docs/eps/) |
+| N104   | [EINVOICE](/docs/e-invoicing/) |
+| N105   | [AFTERPAY](/docs/afterpay/) |
 | N107   | FERBUY  |
-| N108   | [TRUSTLY](/payment-methods/trustly) |
-| N109   | [KBC](/payment-methods/cbc-kbc) | 
+| N108   | [TRUSTLY](/docs/trustly/) |
+| N109   | [KBC](/docs/cbc-kbc/) | 
 | N913   | FEE  |
 
 </details>

@@ -12,7 +12,7 @@ slug: 'magento-1'
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.1.3.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 > ⚠️ Action required
-> Magento 1 is end-of-life. We recommend [upgrading as soon as possible](/magento-1/#upgrading).
+> Magento 1 is end-of-life. We recommend [upgrading as soon as possible](/docs/magento-1#upgrades).
 
 # Changelog
 
@@ -794,7 +794,7 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 3. To configure your selected payment methods, go to **System** > **Configuration** > **MultiSafepay x.x.x**:
     - **Connect MultiSafepay gateways**  
     - **MultiSafepay gift cards**  
-    Make sure you have [activated the payment methods](/activating-payment-methods/) in your MultiSafepay dashboard.
+    Make sure you have [activated the payment methods](/docs/payment-methods/) in your MultiSafepay dashboard.
 <br>
 
 ---
