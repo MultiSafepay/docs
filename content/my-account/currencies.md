@@ -1,7 +1,7 @@
 ---
 title: "Currencies"
 category: 62962dcdbccb9a001d4bbc81
-order: 204
+order: 203
 hidden: false
 parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'currencies'
@@ -92,3 +92,5 @@ You can make [payouts](/docs/payouts/) in:
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>
+
+[Top of page](#)

@@ -13,14 +13,15 @@ slug: 'afterpay'
 
 Read how AfterPay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/afterpay)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks**  | No  | 
 | **Countries**  | The Netherlands, Belgium  | 
 | **Currencies**  | EUR  | 
-| **Expiration** | Transactions expire after 90 days. |
-| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) <br> Activate at website level in your dashboard. |
-| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds, and [discounts](/discounts/) |
+| **Discounts** | [Yes](/docs/discounts/) |
+
+| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) <br> Activate at site level in your dashboard. |
+| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds |
 
 # Payment flow
 
@@ -34,31 +35,18 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds. 
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
-| AfterPay has authorized the transaction and the funds are awaiting capture. You can still cancel. <br> **Important:** To capture the funds, when you ship the order you must [manually change the order status to shipped](#shipment). | Completed  | Uncleared  |
+| AfterPay has authorized the transaction and the funds are awaiting capture. You can still cancel. <br> ❗️ To capture the funds, when you ship the order you must [manually change the order status to shipped](#shipment). | Completed  | Uncleared  |
 | The funds are captured. <br> You can no longer cancel. You can only refund. | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped | Completed |
 | AfterPay has declined the transaction. <br> Only the customer can contact AfterPay to find out why (for privacy and compliance reasons).  | Declined | Declined |
 | AfterPay authorized the transaction, but you or the customer cancelled it before capture. | Void | Void/Cancelled |
 | AfterPay authorized the transaction, but you didn't ship within 90 days of creating the transaction **or** the customer didn't complete payment. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
-|---|---|---|
-| Refund initiated. | Initialized | Completed |
-| Refund complete. | Completed | Completed |
-
-</details>
+| **Refunds:** Refund initiated. | Initialized | Completed |
+| **Refunds:** Refund complete. | Completed | Completed |
 
 # Activation 
 
@@ -80,7 +68,7 @@ You need to contact AfterPay to activate it for your account.
 
 | Integration | Details |
 |---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > AfterPay direct/redirect |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > AfterPay direct/redirect <br> Transactions expire after 90 days. |
 | **Ready-made integrations** | AfterPay is supported in [Craft Commerce](/docs/craft-commerce/), [CS-Cart](/docs/cs-cart/), [Drupal 8](/docs/drupal/), [Magento 1](/docs/magento-1/), [Magento 2](/docs/magento-2/), [Odoo](/docs/odoo/), [OpenCart](/docs/opencart/), [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/), [Shopware 5 and 6](/docs/shopware/), [WooCommerce](/docs/woo-commerce/), [X-Cart](/docs/x-cart/). |
 <br>
 

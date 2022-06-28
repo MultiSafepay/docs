@@ -44,11 +44,11 @@ The [create order](https://docs-api.multisafepay.com/reference/createorder) requ
 To retrieve a site ID from your MultiSafepay dashboard, go to **Settings** > **Website settings**, and then click the relevant site.
 
 ---
-### Error 1005: Invalid secure code
+### Error 1005: Invalid security code
 
-The [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid secure code, or the secure code doesn't match the account ID or site ID provided. 
+The [create order](https://docs-api.multisafepay.com/reference/createorder) request contains an invalid security code, or the security code doesn't match the account ID or site ID provided. 
 
-To retrieve a secure code from your MultiSafepay dashboard, go to **Settings** > **Website settings**, and then click the relevant site.
+To retrieve a security code from your MultiSafepay dashboard, go to **Settings** > **Website settings**, and then click the relevant site.
 
 ---
 ### Error 1006: Invalid transaction ID
@@ -131,7 +131,7 @@ Check that the account ID is formatted correctly, e.g. fix typing errors and rem
 
 The [create order](https://docs-api.multisafepay.com/reference/createorder) request is missing a required data type. This error most commonly occurs when the customer is directed to a payment page, or when you generate a [payment page](/docs/payment-pages/) link.
 
-Check that the site ID, secure code, and transaction ID are included.
+Check that the site ID, security code, and transaction ID are included.
 
 ---
 ### Error 1017: Insufficient funds
@@ -345,3 +345,5 @@ An unknown error occurred. Email <integration@multisafepay.com>
     </h3>
     <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
 </blockquote>
+
+[Top of page](#)

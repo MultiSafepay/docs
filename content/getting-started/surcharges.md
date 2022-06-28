@@ -35,9 +35,7 @@ You do **not** need to change any settings in your MultiSafepay dashboard.
 Surcharges are permitted for:
 
 - Card payments with cards issued outside the EEA, e.g. a tourist with a credit card issued in India
-
 - Hybrid <<glossary:card schemes>> such as American Express: Each EU state can decide whether to permit surcharging. Under Dutch law, surcharges **are** permitted.
-
 - [PayPal](/docs/paypal/) and pay later methods: You can only charge customers for the actual cost you incur for using the payment method and no more.
 
 <br>
@@ -47,13 +45,6 @@ Surcharges are permitted for:
 >
 > We therefore strongly recommend **not** applying surcharges.
 <br>
-
-
-[block:html]
-{
-  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
-}
-[/block]
 
 > ❕ **Disclaimer** 
 > This page is for information only. 
@@ -71,4 +62,5 @@ Surcharges are permitted for:
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>
-<br>
+
+[Top of page](#)

@@ -47,7 +47,9 @@ composer require drupal/commerce_multisafepay_payments
 3. Enter your [account ID, site ID, and site API key](/docs/sites#site-id-api-key-and-security-code). 
 4. Go to **Commerce** > **Configuration** > **Payments** > **Payment gateways**.
 5. Configure the options for all supported payment methods activated in your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+<br>
 
+---
 ## User guide
 
 ### Generic gateways
@@ -120,6 +122,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 ❗️ Drupal no longer provides support for Drupal 8.9.x. 
 
 For how to upgrade Drupal 8 to Drupal 9, see Drupal - [Upgrading from Drupal 8 to Drupal 9 or higher](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher).
+<br>
 
 ---
 
@@ -162,6 +165,9 @@ For how to upgrade Drupal 8 to Drupal 9, see Drupal - [Upgrading from Drupal 8 t
     - MultiSafepay order complete: Shipped at MultiSafepay  
     This rule updates the <<glossary:transaction status>> to **Shipped** at MultiSafepay. For Pay After Delivery, Klarna, and E-Invoicing, this triggers the invoicing process.
 
+<br>
+
+---
 ## User guide
 
 ### Payment methods
@@ -205,6 +211,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 2. Follow the Installation and configuration instructions from step 2.
 
 </details>
+<br>
 
 ---
 
@@ -213,3 +220,5 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: create a technical issue</li>\n  </ul>  \n</blockquote>"
 }
 [/block]
+
+[Top of page](#)

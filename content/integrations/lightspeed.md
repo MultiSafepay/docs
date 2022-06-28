@@ -14,6 +14,7 @@ slug: 'lightspeed'
 <br>
 
 </details>
+
 > ⚠️ Action required
 > We recommend [upgrading to the latest version](//docs/lightspeed#how-to-upgrade-to-the-new-app) as soon as possible.
 
@@ -399,6 +400,7 @@ To access the MultiSafepay Payments app **Settings** page:
 2. At the top of the screen, click **Disable this payment provider**.
 
 </details>
+<br>
 
 ---
 
@@ -407,3 +409,5 @@ To access the MultiSafepay Payments app **Settings** page:
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: create a technical issue</li>\n  </ul>  \n</blockquote>"
 }
 [/block]
+
+[Top of page](#)

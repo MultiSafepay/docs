@@ -44,7 +44,7 @@ After expiration, the <<glossary:issuer>> can cancel the authorization.
 
 ## Statuses
 
-| Action | Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Action | Description | Order status | Transaction status |
 |---|---|---|---|
 | Authorize transaction | The transaction is authorized and the funds reserved. | Completed   | Initialized  |
 | Partial capture | A partial amount is captured relating to a previous order ID. | Completed  | Completed |

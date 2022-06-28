@@ -19,7 +19,8 @@ slug: 'opencart'
 
 </div>
 
-For more information about the plugin and a preview, see Opencart – [MultiSafepay](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960).
+> ℹ️ More information
+> For more information about the plugin and a preview, see Opencart – [MultiSafepay](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960).
 
 # Prerequisites
 
@@ -48,7 +49,7 @@ For more information about the plugin and a preview, see Opencart – [MultiSafe
     - **Order status** tab
     - **Options** tab  
 
-To retrieve your API key, see [Site ID, API key, and secure code](/docs/sites#site-id-api-key-and-secure-code).
+To retrieve your API key, see [Site ID, API key, and security code](/docs/sites#site-id-api-key-and-secure-code).
 <br>
 
 ---
@@ -247,6 +248,7 @@ You can update the plugin using the extension installer tool in your OpenCart ba
 3. Follow the [installation](/docs/opencart#how-to-install) instructions above.
 
 </details>
+<br>
 
 ---
 
@@ -255,3 +257,5 @@ You can update the plugin using the extension installer tool in your OpenCart ba
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: create a technical issue</li>\n  </ul>  \n</blockquote>"
 }
 [/block]
+
+[Top of page](#)

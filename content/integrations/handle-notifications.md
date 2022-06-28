@@ -182,3 +182,5 @@ If for some reason you don't receive a notification:
     </h3>
     <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
 </blockquote>
+
+[Top of page](#)

@@ -11,10 +11,6 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
 
 # User permission profiles
 
-<details id="user-permission-profiles">
-<summary>User permission profiles</summary>
-<br>
-
 | User | Permissions |
 |---|---|
 | Administrator | Access all functionalities |
@@ -25,16 +21,14 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
 | Technical | View all transactions <br> Add and edit sites and payment pages <br> Edit email templates <br> Resend offline actions |
 | Uncleared | View all transactions <br> Accept or decline uncleared transactions |
 
-</details>
-
 # How to add users to your account
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings** > **User management**.
 3. Click **Add new user** in the top right corner.
 4. Enter the new user's:  
-    - User name
     - Full name
+    - Username
     - Password
     - Email address
 5. From the **Status** list, select **Active**.
@@ -56,12 +50,12 @@ When enabled, users must verify their identity with a password, and a 6-digit to
 - After 5 unsuccessful token inputs, the user's account is blocked and can only be unblocked by an administrator. 
 - If a user loses their 2FA device, disable and re-enable 2FA on their account.
 
-### Download the MultiSafepay app
+### 1. Download the MultiSafepay app
 
 - For Android devices – [Google Play](https://play.google.com/store/apps/details?id=com.multisafepay.control)
 - For Apple iOS devices – [App Store](https://apps.apple.com/app/multisafepay-control/id929955963)
 
-### Enable 2FA
+### 2. Enable 2FA
 
 Only administrators can enable 2FA.
 
@@ -77,7 +71,7 @@ Only administrators can enable 2FA.
 
 </details>
 
-### Configure 2FA
+### 3. Configure 2FA
 
 Users must then configure 2FA the first time they sign in to the dashboard after 2FA is enabled.
 
@@ -94,8 +88,12 @@ A dialog requesting a 6-digit token appears.
 </details>
 <br>
 
+---
+
 [block:html]
 {
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
 }
 [/block]
+
+[Top of page](#)

@@ -104,3 +104,4 @@ Make sure you do this for all links from the payment gateway to your site.
     <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
 </blockquote>
 
+[Top of page](#)

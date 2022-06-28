@@ -14,8 +14,6 @@ slug: 'magento-1'
 > ⚠️ Action required
 > Magento 1 is end-of-life. We recommend [upgrading as soon as possible](/magento-1/#upgrading).
 
-MultiSafepay supports most Magento functionalities. For any questions, email <integration@multisafepay.com>
-
 # Changelog
 
 <details id="changelog">
@@ -105,7 +103,7 @@ Release date: Apr 2, 2020
 **Fixed**
 - PLGMAGONE-654: Fix incorrect character set for translations
 - PLGMAGONE-621: Fix layout issue when OneStepCheckout is used
-- PLGMAGONE-588: Fix missing site secure code in refund request
+- PLGMAGONE-588: Fix missing site security code in refund request
 - PLGMAGONE-572: Fixed payment fee description not being set
 - PLGMAGONE-526: Fixed undefined variable recurring on E_STRICT mode
 - PLGMAGONE-458: Count gives warning when PHP 7.2 is used
@@ -792,7 +790,7 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 2. Go to **System** > **Configuration** > **MultiSafepay x.x.x** > **Connect settings**.  
     This page contains all main settings and is used for all <<glossary:gateways>> and gift cards.  
     To find your API key, see [API key](/docs/sites#site-id-api-key-and-security-code).  
-    From version 3.0.0, the plugin only needs your API key. Your account ID, site ID, and site secure code are no longer needed.
+    From version 3.0.0, the plugin only needs your API key. Your account ID, site ID, and site security code are no longer needed.
 3. To configure your selected payment methods, go to **System** > **Configuration** > **MultiSafepay x.x.x**:
     - **Connect MultiSafepay gateways**  
     - **MultiSafepay gift cards**  
@@ -1009,6 +1007,7 @@ You can update the plugin in your Magento 1 backend or the CMS marketplace, or v
 Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1. 
 
 For more information and instructions, see MultiSafepay blog – [Magento 1: The final weeks](https://bit.ly/2YX2LGL).
+<br>
 
 ---
 
@@ -1017,3 +1016,5 @@ For more information and instructions, see MultiSafepay blog – [Magento 1: The
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: create a technical issue</li>\n  </ul>  \n</blockquote>"
 }
 [/block]
+
+[Top of page](#)

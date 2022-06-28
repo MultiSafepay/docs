@@ -37,6 +37,7 @@ See MultiSafepay GitHub – [PWA Studio components](https://github.com/MultiSafe
 # How to install and configure 
 
 To install the MultiSafepay plugin in your PWA Studio application, see MultiSafepay GitHub – [Installation guide](https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration#installation-guide).
+<br>
 
 ---
 
@@ -45,3 +46,5 @@ To install the MultiSafepay plugin in your PWA Studio application, see MultiSafe
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+31020\">support@myshop.com</a></li>\n    <li>To contact MultiSafepay, email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
+
+[Top of page](#)

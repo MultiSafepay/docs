@@ -14,12 +14,11 @@ Customers pay in their own online banking environment. Settlement is instant and
 
 Read how EPS can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/eps)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks**  | No  |
 | **Countries**  | Austria  | 
 | **Currencies**  | EUR |  
-| **Expiration** | Transactions don't expire. |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
 | **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
 | **Second Chance** | [Yes](/docs/second-chance/) |
@@ -36,29 +35,16 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer cancelled the transaction. | Void   | Void   |
 | The customer didn't complete payment within 10 minutes. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
-|---|---|---|
-| Refund initiated. | Reserved | Reserved |
-| Refund complete. | Completed | Completed |
-
-</details>
+| **Refunds:** Refund initiated. | Reserved | Reserved |
+| **Refunds:** Refund complete. | Completed | Completed |
 
 # Activation 
 
@@ -82,16 +68,16 @@ You can activate EPS yourself in your dashboard.
 
 # Integration
 
-To test 
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. 
+- Examples > EPS redirect.
+- Transactions don't expire.
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > EPS redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/). |
-<br>
+### Ready-made integrations
+Supported in all [ready-made integrations](/docs/our-integrations/).
 
-> ℹ️ Testing
-> To test EPS payments, see [Testing](/docs/testing#banking-methods).
+### Testing
+To test EPS payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---

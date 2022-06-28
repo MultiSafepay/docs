@@ -400,3 +400,5 @@ Provide Duopact with your MultiSafepay [site API key](/docs/sites#site-id-api-ke
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>
+
+[Top of page](#)

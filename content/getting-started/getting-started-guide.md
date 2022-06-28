@@ -62,3 +62,5 @@ We then perform know your customer (KYC) checks. If approved, your account goes 
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>
+
+[Top of page](#)

@@ -30,3 +30,17 @@ Firstly, check that you have completed these prerequisite steps:
 2. [Set up your account](/docs/getting-started-guide#2-set-up-your-account).
 
 Before continuing with this tutorial, see if you can save yourself some development time with our range of [wrappers and SDKs](/docs/wrappers-sdks/).
+
+<br>
+
+---
+
+<blockquote class="callout callout_info">
+    <h3 class="callout-heading false">
+        <span class="callout-icon">💬</span>
+        <p>Support</p>
+    </h3>
+    <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+</blockquote>
+
+[Top of page](#)

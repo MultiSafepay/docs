@@ -13,14 +13,15 @@ slug: 'klarna'
 
 Read how Klarna can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/klarna)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks**  | No  | 
-| **Countries**  | Austria, Belgium, Denmark, Finland, France, Germany, Italy, Norway, Portugal, Spain, Sweden, Switzerland, The Netherlands, UK (US **not** supported)  | 
-| **Currencies**  | EUR, GBP, SEK, NOK, DKK  | 
-| **Expiration** | Transactions expire after 1 hour. |
+| **Countries**  | Austria, Belgium, Denmark, Finland, France, Germany, Italy, Norway, Portugal, Spain, Sweden, Switzerland, The Netherlands, UK (US **not** supported) | 
+| **Currencies**  | EUR, GBP, SEK, NOK, DKK | 
+| **Discounts** | [Yes](/docs/discounts/) |
+
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
-| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds, [discounts](/discounts/) |
+| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds | 
 
 # Payment flow
 
@@ -34,11 +35,9 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
+| Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to Klarna. You can still cancel with Klarna using the reservation number. | Initialized   | Initialized  |
 | Klarna has authorized the transaction and the funds are awaiting capture. You can no longer cancel; you can only refund. | Completed  | Uncleared  |
@@ -47,19 +46,8 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | The transaction expired after 1 hour or you didn't [change the order status to shipped](#shipment) within 28 days. <br> See [Expired orders](#expired-orders).  | Expired    | Expired    |
 | Klarna authorized the transaction, but either you or the customer cancelled it before capture. | Void   | Void |
 | Klarna declined the transaction. <br> Only the customer can contact Klarna to find out why (for privacy and compliance reasons). <br> For merchant support, email <klarna@multisafepay.com> | Declined | Declined |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | <<glossary:Order status>> | <<glossary:Transaction status>> |
-|---|---|---|
-| Refund initiated. | Initialized | Completed |
-| Refund complete.  | Completed | Completed |
-
-</details>
+| **Refunds:** Refund initiated. | Initialized | Completed |
+| **Refunds:** Refund complete.  | Completed | Completed |
 
 # Activation 
 
@@ -97,14 +85,16 @@ For support, email <integration@multisafepay.com>
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Klarna direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) (redirect). |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order.
+- Examples > Klarna direct/redirect.
+- Transactions expire after 1 hour.
 
-> ℹ️ Testing
-> To test Klarna payments, see [Testing](/docs/testing#pay-later-methods).
+### Ready-made integrations
+Supported in all [ready-made integrations](/docs/our-integrations/) (redirect).
+
+### Testing
+To test Klarna payments, see [Testing](/docs/testing#pay-later-methods).
 <br>
 
 ---
