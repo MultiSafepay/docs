@@ -76,3 +76,5 @@ If you have [E-Invoicing](/docs/e-invoicing/) or [Pay After Delivery](/docs/pay-
     </h3>
     <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
 </blockquote>
+
+[Top of page](#)

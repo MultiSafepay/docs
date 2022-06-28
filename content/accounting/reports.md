@@ -454,3 +454,5 @@ To identify transactions in reports by payment method, use the following N-codes
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>
+
+[Top of page](#)

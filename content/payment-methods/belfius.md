@@ -13,12 +13,11 @@ slug: 'belfius'
 
 Read how Belfius can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/belfius)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks**  | No | 
 | **Countries**  | Belgium  | 
 | **Currencies**  | EUR | 
-| **Expiration** | Transactions expire after 5 days. |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
 | **Refunds** | [Yes](/docs/refund-payments/): Full and partial (1 business day after payment is completed) |
 | **Second Chance** | [Yes](/docs/second-chance/) |
@@ -35,9 +34,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -45,22 +42,10 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | MultiSafepay has collected payment.| Completed | Completed |
 | You cancelled the transaction. | Void   | Void/Cancelled   |
 | The customer didn't complete payment within 5 days. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |
-<br>
 
 > **Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the <<glossary:transaction status>> remains **Initialized**. We import our bank statements daily and finalize all incoming payments. 
-
-</details>
 
 # Activation 
 
@@ -84,14 +69,17 @@ You can activate Belfius yourself in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Belfius direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/), **except** OsCommerce and ZenCart. |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. 
+- Examples > Belfius direct/redirect.
+- Transactions expire after 5 days.
 
-> ℹ️ Testing
-> To test Belfius payments, see [Testing](/docs/testing#banking-methods).
+### Ready-made integrations
+- Supported in most [ready-made integrations](/docs/our-integrations/).
+- Exceptions: OsCommerce and ZenCart.
+
+### Testing
+To test Belfius payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---

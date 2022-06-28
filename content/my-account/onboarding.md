@@ -18,7 +18,7 @@ MultiSafepay creates a live account and email you a security code to sign in to 
 
 Sign in to your [live dashboard](https://merchant.multisafepay.com/) and, under [Business details](https://merchant.multisafepay.com/onboarding), provide the following information:
 
-| | |
+| Information | Details |
 |---|---|
 | **Company details** | Company address, VAT number, and Chamber of Commerce number |
 | **Business bank account number** | This must exactly match at least one of the trade names listed on your Chamber of Commerce extract. |
@@ -197,3 +197,5 @@ If financials are requested, we request your most recent balance sheet, and prof
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
 }
 [/block]
+
+[Top of page](#)

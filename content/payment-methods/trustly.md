@@ -14,14 +14,13 @@ Customers pay from their own online banking environment.
 
 Read how Trustly can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/trustly)
 
-| Overview | Details |  
+| Supports | Details |  
 |---|---|
 | **Chargebacks**  | No | 
 | **Countries**  | Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom  | 
 | **Currencies**  | EUR, GBP, SEK | 
-| **Expiration** | Transactions expire after 2 hours. |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
-| **Refunds** | [Full and partial](/docs/refund-payments/)  |
+| **Refunds** | [Yes](/docs/refund-payments/): Full and partial  |
 | **Second Chance** | [Yes](/docs/second-chance/) |
 
 # Payment flow
@@ -36,9 +35,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses   
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -47,20 +44,9 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | The customer cancelled the transaction at their bank. | Cancelled   | Cancelled   |
 | The customer didn't complete payment within 2 days. | Expired | Expired |
 | In rare cases, the transaction is marked as **uncleared**. <br> Trustly then informs MultiSafepay of the correct status, which may be **Completed**, **declined**, or **expired**. <br> **Uncleared** status automatically expires after 5 days. | Uncleared | Uncleared   |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
 | **Refunds:** Refund initiated. | Initialized | Initialized |
 | **Refunds:** Refund complete. | Completed | Completed |
 | Refund declined. | Declined | Declined |
-
-</details>
 
 # Activation 
 
@@ -84,18 +70,17 @@ You can enable Trustly yourself in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **Activation** | [Enable in your dashboard](/docs/payment-methods#activate-in-dashboard) |
-| **Checkout options** | [Payment pages](/docs/payment-pages/) (current version only) |
-| **Testing** | [Test payment details](/docs/testing#banking-methods) |
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Trustly redirect |
-| **Ready-made integrations** | Trustly (direct) is supported in [Craft Commerce](/docs/craft-commerce/), [CS-Cart](/docs/cs-cart/), [Drupal 8](/docs/drupal/), [Magento 1](/docs/magento-1/), [Magento 2](/docs/magento-2/), [Odoo](/docs/odoo/), [OpenCart](/docs/opencart/), [PrestaShop 1.7](/docs/prestashop-1-7/), [Shopware 5 and 6](/docs/shopware/), [VirtueMart](/docs/virtuemart/), [WooCommerce](/docs/woo-commerce/), [X-Cart](/docs/x-cart/) |
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order.
+- Examples > Trustly redirect.
+- Transactions expire after 2 hours.
 
-<br>
+### Ready-made integrations
+- Trustly (direct) is supported in most [ready-made integrations](/docs/our-integrations/).
+- Exceptions: Lightspeed, Shopify, OsCommerce, PWAs, Vue Storefront, Zen Cart.
 
-> ℹ️ Testing
-> To test Trustly payments, see [Testing](/docs/testing#banking-methods).
+### Testing
+To test Trustly payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---

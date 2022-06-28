@@ -18,13 +18,12 @@ Read how Request to Pay can benefit your business on [multisafepay.com](https://
 > ⚠️ Availability
 > Request to Pay is currently not available to new merchants. It is still supported for existing merchants. 
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Amount limits** | Minimum amount: 1 EUR, maximum amount: 15,000 EUR |
 | **Chargebacks**  | No  | 
-| **Countries**  | Germany – More countries will follow as more banks migrate to PSD2 APIs.  | 
+| **Countries**  | Germany – More countries will follow as more banks migrate to PSD2 APIs. | 
 | **Currencies**  | EUR | 
-| **Expiration** | Transactions expire after 1 hour. |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
 | **Refunds** | [Yes](/docs/refund-payments/): Full and partial <br> All refunds are processed by Deutsche Bank. |
 | **Second Chance** | [Yes](/docs/second-chance/) |
@@ -41,9 +40,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -53,20 +50,9 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | Deutsche Bank declined the transaction. | Declined | Declined   |
 | The customer cancelled the transaction at Deutsche Bank. | Void | Void |
 | The customer didn't complete payment within 1 hour. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |
 | Refund declined. | Declined | Declined |
-
-</details>
 
 # Activation
 
@@ -90,14 +76,16 @@ You can activate Request to Pay yourself in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Request to Pay direct/redirect |
-| **Ready-made integrations** | **Not** supported in our [ready-made integrations](/docs/our-integrations/). |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order.
+- Examples > Request to Pay direct/redirect.
+- Transactions expire after 1 hour.
 
-> ℹ️ Testing
-> You can't test Request to Pay in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
+### Ready-made integrations
+**Not** supported in our [ready-made integrations](/docs/our-integrations/).
+
+### Testing
+You can't test Request to Pay in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
 <br>
 
 ---

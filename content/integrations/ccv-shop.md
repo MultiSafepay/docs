@@ -60,3 +60,5 @@ You can process refunds from your MultiSafepay dashboard, but not in your <<glos
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <ul>\n    <li>For technical queries about the app, email CCV Shop at <a href=\"mailto:support@ccvshop.nl\">support@ccvshop.nl</a></li>\n    <li>To contact MultiSafepay, email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
+
+[Top of page](#)

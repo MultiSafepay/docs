@@ -15,12 +15,11 @@ An additional layer of security is provided by 3D Secure, which requires custome
 
 Read how Apple Pay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/applepay)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
-| **Chargebacks**   | [Yes](/docs/chargebacks/) | 
-| **Countries**  | [Worldwide](https://support.apple.com/en-us/HT207957)  | 
-| **Currencies**  | [Multiple](https://support.apple.com/en-us/HT207957)  | 
-| **Expiration** | Transactions expire after 1 hour. |
+| **Chargebacks** | [Yes](/docs/chargebacks/) | 
+| **Countries** | [Worldwide](https://support.apple.com/en-us/HT207957)  | 
+| **Currencies** | [Multiple](https://support.apple.com/en-us/HT207957)  | 
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only)  |
 | **Refunds** | [Yes](/docs/refund-payments/): Full and partial <br> Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |
 | **Second Chance** | [Yes](/docs/second-chance/) |
@@ -40,9 +39,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -52,19 +49,8 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
 | The customer didn't complete 3D Secure authentication. | Expired | Expired |
 | The customer failed 3D Secure authentication or cancelled payment. <br> See [Card errors](/docs/card-errors/). | Declined | Declined   |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
 | **Refunds:** Refund initiated. | Reserved    | Reserved   |
 | **Refunds:** Refund complete.  | Completed  | Completed  |
-
-</details>
 
 # Activation 
 
@@ -96,22 +82,27 @@ First, apply to MultiSafepay and then activate Apple Pay in your dashboard.
 # Integration
 
 ### Prerequisites
-
 - Customers must use the Safari browser. 
 - An SSL secured connection (HTTPS) is required.
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order |
-| **Ready-made integrations** | Apple Pay redirect is supported in all [ready-made integrations](/docs/our-integrations/), **except** OsCommerce, VirtueMart, X-Cart, Zen Cart. |
-| **Self-made integration** | - [Direct integration](/docs/apple-pay-integration#direct-integration) <br> - [Redirect integration](/docs/apple-pay-integration#redirect-integration) |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. 
+- Examples > Apple Pay direct/redirect.
+- Transactions expire after 1 hour. 
 
-> **Note** 
-> When integrating Apple Pay into your website, you must follow Apple's [branding guidelines](https://developer.apple.com/apple-pay/marketing).
+### Ready-made integrations
+- Apple Pay redirect is supported in most [ready-made integrations](/docs/our-integrations/).
+- Exceptions: OsCommerce, VirtueMart, X-Cart, Zen Cart.
 
-> ℹ️ Testing
-> To test Apple Pay payments, see [Testing](/docs/testing#wallets).
+### Self-made integration
+- [Direct integration](/docs/apple-pay-integration#direct-integration) 
+- [Redirect integration](/docs/apple-pay-integration#redirect-integration)
+
+### Testing
+To test Apple Pay payments, see [Testing](/docs/testing#wallets).
+
+### Branding
+When integrating Apple Pay into your website, you must follow Apple's [branding guidelines](https://developer.apple.com/apple-pay/marketing).
 <br>
 
 ---

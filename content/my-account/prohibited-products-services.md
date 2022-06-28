@@ -112,3 +112,5 @@ Under Visa and Mastercard's High Risk programs, you will be subject to a 500 USD
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <ul>\n    <li>To discuss your options, call <a href=\"tel:+31208500502\">+31 20 8500 502</a></li>\n    <li>For more information, email <a href=\"mailto:risk@multisafepay.com\">risk@multisafepay.com</a></li>\n</blockquote>\n"
 }
 [/block]
+
+[Top of page](#)

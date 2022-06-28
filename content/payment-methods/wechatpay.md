@@ -13,12 +13,11 @@ slug: 'wechat-pay'
 
 Read how WeChat Pay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/wechat-pay)
 
-| Overview | Details | 
+| Supports | Details | 
 |---|---|
 | **Chargebacks**  | No |
 | **Countries**  | Worldwide  | 
 | **Currencies**  | EUR – To request support for more currencies, email <sales@multisafepay.com> | 
-| **Expiration**  | Transactions expire after 2 hours. |  
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
 | **Refunds** | [Yes](/docs/refund-payments/): Full and partial | 
 
@@ -34,9 +33,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -44,19 +41,8 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer cancelled the payment. | Void   | Void   |
 | The customer didn't complete payment within 2 hours. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete.  | Completed | Completed |
-
-</details>
 
 # Activation 
 
@@ -83,16 +69,14 @@ First apply to MultiSafepay, and then activate in your dashboard.
 # Integration
 
 ### API
-[Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order 
-Examples > WeChat Pay direct/redirect 
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. 
+- Examples > WeChat Pay direct/redirect.
+- Transactions expire after 2 hours.
 - For direct orders, retrieve the `qr_url`, and render the QR code in your system to display it to the customer.
 - For redirect orders to [payment pages](/docs/payment-pages/), the QR code displays under **Payment methods**.
 
-
 ### Ready-made integrations
 Supported in our [PrestaShop 1.7 plugin](/docs/prestashop-1-7/).
-
-<br>
 
 ### Testing
 To test WeChat Pay payments, see [Testing](/docs/testing#wallets).

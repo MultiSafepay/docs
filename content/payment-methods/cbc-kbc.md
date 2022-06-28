@@ -15,12 +15,11 @@ The payment method functions the same for both the CBC branch and the KBC branch
 
 Read how CBC/KBC can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/kbccbc)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks**  | No | 
 | **Countries**  | Belgium  | 
 | **Currencies**  | EUR | 
-| **Expiration** | Transactions expire after 5 days. |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
 | **Refunds** | [Yes](/docs/refund-payments/): Full and partial (1 business day after payment is completed) |
 | **Second Chance** | [Yes](/docs/second-chance/) |
@@ -38,9 +37,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -48,22 +45,11 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | MultiSafepay has collected payment.| Completed | Completed |
 | The transaction was cancelled by you or the customer. | Void   | Void   |
 | The customer didn't complete payment within 5 days. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
 | **Refunds:** Refund initiated. | Initialized | Initialized |
 | **Refunds:** Refund complete. | Completed | Completed |
 <br>
 
-**Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**. We import our bank statements daily and match all incoming payments. 
-
-</details> 
+> **Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**. We import our bank statements daily and match all incoming payments.  
 
 # Activation 
 
@@ -87,14 +73,21 @@ You can activate CBC/KBC in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > CBC/KBC direct/redirect |
-| **Ready-made integrations** | [Craft Commerce](/docs/craft-commerce/), [OpenCart](/docs/opencart/), [Magento 1](/docs/magento-1/), [Magento 2](/docs/magento-2/), [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/), [Shopware 5 and 6](/docs/shopware/), [WooCommerce](/docs/woo-commerce/) |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. 
+- Examples > CBC/KBC direct/redirect.
+- Transactions expire after 5 days.
 
-> ℹ️ Testing
-> To test CBC/KBC payments, see [Testing](/docs/testing#banking-methods).
+### Ready-made integrations
+- [Craft Commerce](/docs/craft-commerce/)
+- [OpenCart](/docs/opencart/)
+- [Magento 1](/docs/magento-1/) & [Magento 2](/docs/magento-2/)
+- [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/)
+- [Shopware 5 and 6](/docs/shopware/)
+- [WooCommerce](/docs/woo-commerce/) 
+
+### Testing
+To test CBC/KBC payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---

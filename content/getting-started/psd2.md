@@ -34,3 +34,5 @@ If transactions aren't appropriately authenticated, banks may have to decline th
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <ul>\n    <li>See also <a href=\"/docs/3ds2\">3DS2 and SCA exemptions</a></li>\n    <li>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></li>\n</blockquote>\n"
 }
 [/block]
+
+[Top of page](#)

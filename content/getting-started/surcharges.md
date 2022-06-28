@@ -62,4 +62,5 @@ Surcharges are permitted for:
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>
-<br>
+
+[Top of page](#)

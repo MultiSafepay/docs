@@ -84,3 +84,5 @@ For any questions about joining our developer community, email <integration@mult
     </h3>
     <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
 </blockquote>
+
+[Top of page](#)

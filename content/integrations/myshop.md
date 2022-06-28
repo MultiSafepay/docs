@@ -55,3 +55,5 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <ul>\n    <li>For technical queries about the app, email myShop at <a href=\"mailto:support@myshop.com\">support@myshop.com</a></li>\n    <li>To contact MultiSafepay, email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
+
+[Top of page](#)

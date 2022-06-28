@@ -64,3 +64,5 @@ You can process refunds from your MultiSafepay dashboard, but refunds are **not*
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>For technical queries about the app, contact <a href=\"https://support.ecwid.com/hc/en-us/requests/new\">Ecwid</a></li>\n    <li>To contact MultiSafepay, email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
+
+[Top of page](#)

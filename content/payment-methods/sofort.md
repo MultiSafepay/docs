@@ -14,13 +14,12 @@ Once payment is completed, the customer cannot reverse it and Sofort guarantees 
 
 Read how Sofort can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/sofort)
 
-| Overview | Details |  
+| Supports | Details |  
 |---|---|
 | **Amount limit** | Minimum amount: 0,10 EUR |
 | **Chargebacks**  | No | 
 | **Countries**  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland <br> ❗ Transactions processed in non-supported countries return a [1024 error](/docs/errors#error-1024-transaction-refused).  | 
 | **Currencies**  | EUR (GBP, CHF, PLN **not** supported) | 
-| **Expiration** | Transactions expire after 1 day. |
 | **Payment components** | [Yes](/docs/payment-components/) |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
 | **Recurring payments** | [Yes](/docs/recurring-payments/)|
@@ -39,9 +38,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -50,23 +47,12 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer cancelled the transaction via Sofort. | Void   | Void/Cancelled   |
 | The customer didn't complete payment within 1 day. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |
 <br>
 
 > ℹ️ Note
 > Amounts less than 100 EUR are transfered immediately. The status of orders over 100 EUR changes to **Uncleared** and then to **Completed** after 24 hours.
-
-</details>
 
 # Activation
 
@@ -90,14 +76,16 @@ You can activate Sofort yourself in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Sofort direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/). |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order.
+- Examples > Sofort direct/redirect.
+- Transactions expire after 1 day.
 
-> ℹ️ Testing
-> To test Sofort payments, see [Testing](/docs/testing#banking-methods).
+### Ready-made integrations
+Supported in all [ready-made integrations](/docs/our-integrations/). 
+
+### Testing
+To test Sofort payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---

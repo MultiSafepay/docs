@@ -13,13 +13,12 @@ slug: 'bancontact'
 
 Read how Bancontact can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/bancontact)
 
-| Overview | Details |   
+| Supports | Details |   
 |---|---|
 | **3D Secure 2.0** | [Yes](/docs/3ds2/) (all non-mobile payments) |
 | **Chargebacks**  | No | 
 | **Countries**  | Belgium  | 
 | **Currencies**  | EUR | 
-| **Expiration** | Transactions expire after 1 hour (banking only).  |
 | **Payment components** | [Yes](/docs/payment-components/) |
 | **Payment pages** | [Yes](/docs/payment-pages/) (Current (banking and QR) and deprecated (banking) versions |
 | **Recurring payments**  | [Yes](/docs/recurring-payments/) (banking only) |
@@ -36,9 +35,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -47,19 +44,8 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | Bancontact has declined the transaction. | Declined | Declined   |
 | The transaction was cancelled. | Void   | Cancelled   |
 | The customer didn't complete payment and the transaction expired. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |
-
-</details>
 
 # Activation 
 
@@ -83,14 +69,16 @@ You can activate Bancontact yourself in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Bancontact redirect/QR |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/). |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order. 
+- Examples > Bancontact redirect/QR.
+- Transactions expire after 1 hour (banking only).
 
-> ℹ️ Testing
-> To test Bancontact payments, see [Testing](/docs/testing/#banking-methods).
+### Ready-made integrations
+Supported in all [ready-made integrations](/docs/our-integrations/). 
+
+### Testing
+To test Bancontact payments, see [Testing](/docs/testing/#banking-methods).
 <br>
 
 ---
@@ -102,13 +90,13 @@ Bancontact WIP is a wallet initiated payment service you can use for:
 - Bancontact One-Click Pay: customer-initiated one-click payments to make checkout faster and increase <<glossary:conversion>>
 - Bancontact Recurring: merchant-initiated subscription payments
 
-## How it works
+### How it works
 
 Bancontact Payconiq gives you access to a merchant wallet to securely store customers' payment details in. Customers give one-time consent and only need to pass [strong customer authentication](/docs/pds2/) (SCA) for their first purchase. 
 
 There is no shift in liability for [chargebacks](/docs/chargebacks/) from <<glossary:issuer>> to <<glossary:acquirer>> since your fraud and disputes volumes are monitored quarterly. A maximum transaction amount applies. 
 
-## Activation and criteria
+### Activation and criteria
 
 - Bancontact WIP is only available to low-risk, high-volume merchants (25,000 transactions quarterly), within the SEPA area. 
 - Applies to services only, not physical products. 
@@ -120,7 +108,7 @@ Email a request to activate Bancontact WIP to <sales@multisafepay.com>
 
 Requests are screened and approved by Bancontact Payconiq. 
 
-## Integration
+### Integration
 
 See [Recurring payments](/docs/recurring-payments/).
 <br>

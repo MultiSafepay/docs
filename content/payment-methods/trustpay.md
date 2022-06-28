@@ -13,12 +13,11 @@ slug: 'trustpay'
 
 Read how TrustPay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/trustpay)
 
-| Overview | Details | 
+| Supports | Details | 
 |---|---|
 | **Chargebacks**  | No  | 
 | **Countries**  | Czech Republic  | 
 | **Currencies**  | CZK | 
-| **Expiration** | Transactions expire after 10 days. |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
 | **Refunds** | [Yes](/docs/refund-payments/): Full and partial  |
 | **Second Chance** | [Yes](/docs/second-chance/) |
@@ -35,9 +34,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -45,19 +42,8 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | MultiSafepay has collected payment.| Completed | Completed |
 | The transaction was cancelled. | Void   | Cancelled   |
 | The customer didn't complete payment within 10 days. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |
-
-</details>
 
 # Activation 
 
@@ -81,14 +67,18 @@ You can activate TrustPay yourself in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > Trustpay redirect |
-| **Ready-made integrations** | TrustPay (redirect) is supported in [Craft Commerce](/docs/craft-commerce/), [CS-Cart](/docs/cs-cart/), [Drupal 7 and 8](/docs/drupal/), [Magento 2](/docs/magento-2/), [Odoo](/docs/odoo/), [PrestaShop 1.7](/docs/prestashop-1-7/), [Shopware 5 and 6](/docs/shopware/), [WooCommerce](/docs/woo-commerce/), [VirtueMart](/docs/virtuemart/), [X-Cart](/docs/x-cart/). |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order.
+- Examples > Trustpay redirect.
+- Transactions expire after 10 days.
 
-> ℹ️ Testing
-> You can't test TrustPay in your test MultiSafepay account. You can only make test payments in your live MultiSafepay account.
+### Ready-made integrations
+- TrustPay (redirect) is supported in most [ready-made integrations](/docs/our-integrations).
+- Exceptions: Lightspeed, Shopify, Magento 1, OpenCart, OsCommerce, PWAs, Vue Storefront, Zen Cart.
+
+### Testing
+- You can't test TrustPay in your test MultiSafepay account. 
+- You can only make test payments in your live MultiSafepay account.
 <br>
 
 ---

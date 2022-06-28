@@ -13,7 +13,7 @@ SEPA Direct Debit is a European banking payment method where customers authorize
 
 Read how SEPA Direct Debit can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/direct-debit)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks**  | [Yes](/docs/chargebacks/) (see below) | 
 | **Countries**  | [SEPA region](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf)  | 
@@ -35,11 +35,9 @@ This diagram shows the flow for a successful transaction. Click to magnify.
   max-width: 750px;
   width: 100%;">
 
-# Payment statuses   
+# Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -48,19 +46,8 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | MultiSafepay has collected payment.| Completed | Completed |
 | The customer cancelled the transaction or requested a chargeback, or their bank declined the transaction. | Void | Void |
 | The customer's bank declined the transaction. See the [reason codes](#declined-transactions) below. | Declined | Declined   |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed | 
-
-</details>
 
 # Activation 
 
@@ -96,14 +83,15 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order <br> Examples > SEPA Direct Debit direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) (direct) |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Banking order.
+- Examples > SEPA Direct Debit direct/redirect.
 
-> ℹ️ Testing
-> To test SEPA Direct Debit payments, see [Testing](/docs/testing#banking-methods).
+### Ready-made integrations
+Supported in all [ready-made integrations](/docs/our-integrations/) (direct).
+
+### Testing
+To test SEPA Direct Debit payments, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---

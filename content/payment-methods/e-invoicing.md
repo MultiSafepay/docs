@@ -13,12 +13,11 @@ E-Invoicing is a MultiSafepay pay later method with automation tools that gives 
 
 Read how E-Invoicing can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/e-invoicing)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks**  | No | 
 | **Countries**  | Worldwide  | 
 | **Currencies** | EUR  | 
-| **Expiration** | Transactions don't expire. |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
 | **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds, and [discounts](/discounts/) |
 | **Second Chance** | [Yes](/docs/second-chance/) |
@@ -33,34 +32,21 @@ This diagram shows the flow for a successful transaction. Click to magnify.
   max-width: 750px;
   width: 100%;">
 
-# Payment statuses  
+# Payment statuses 
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | MultiSafepay's risk analysis is in progress. You can still cancel. | Initialized   | Initialized  |
 | E-Invoicing has authorized the transaction. <br> You can no longer cancel. You can only refund. | Completed  | Initialized  |
-| **Important**: [Manually change the order status to shipped](#shipment). <br> You must ship to receive payment. | Shipped | Initialized |
+| ❗️ [Manually change the order status to shipped](#shipment). <br> You must ship to receive payment. | Shipped | Initialized |
 | MultiSafepay has collected payment. | Completed    | Completed  |
 | E-Invoicing declined the transaction. | Declined | Declined |
 | The transaction has been cancelled. | Void/Cancelled | Void/Cancelled |
 | The customer didn't complete payment. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
 | **Refunds:** Refund initiated. | Initialized | Initialized |
 | **Refunds:** Refund complete.  | Completed | Completed |
-
-</details>
 
 # Activation 
 
@@ -84,14 +70,16 @@ You can activate E-Invoicing yourself in your dashboard.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > E-Invoicing direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) (direct).  |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order. 
+- Examples > E-Invoicing direct/redirect.
+- Transactions don't expire.
 
-> ℹ️ Testing
-> To test E-Invoicing payments, see [Testing](/docs/testing#pay-later-methods).
+### Ready-made integrations
+Supported in all [ready-made integrations](/docs/our-integrations/) (direct).
+
+### Testing
+To test E-Invoicing payments, see [Testing](/docs/testing#pay-later-methods).
 <br>
 
 ---

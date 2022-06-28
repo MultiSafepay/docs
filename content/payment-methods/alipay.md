@@ -13,17 +13,16 @@ slug: 'alipay'
 
 For Chinese customers, Alipay accounts are verified and linked to their Chinese bank account. Since 2021, non-Chinese customers can also pay with Alipay using the Tour Pass.
 
-
 Read how Alipay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/alipay)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks**  | No  |
 | **Countries**  | Worldwide  | 
 | **Currencies**  | EUR, USD (currency conversion in EUR only)  | 
-| **Expiration** | Transactions expire after 5 hours. | 
+| **Discounts** | [Yes](/discounts/) |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current version only)  |
-| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds, and [discounts](/discounts/)  |
+| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds | 
 | **Second Chance** | [Yes](/docs/second-chance/) |
 
 # Payment flow
@@ -37,28 +36,16 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to Alipay. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer didn't complete payment within 5 hours, or it was cancelled. | Expired | Expired |
+| **Refunds:** Refund initiated. | Reserved | Reserved |
+| **Refunds:** Refund complete.  | Completed | Completed |
 
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
-| **Refunds:** Refund initiated. | Reserved | Reserved   |
-| **Refunds:** Refund complete.  | Completed | Completed   |
-
-</details>
 
 # Activation 
 
@@ -86,7 +73,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 | Integration | Details |
 |---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > Alipay direct/redirect |
+| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > Alipay direct/redirect <br> Transactions expire after 5 hours. |
 | **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) (direct), **except** PrestaShop 1.6, OsCommerce, and Zen Cart.   |
 <br>
 

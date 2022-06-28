@@ -14,13 +14,12 @@ They are only charged for the items they keep. Santander bears the risk and guar
 
 Read how Betaal per Maand can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/betaalpermaand-santander)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Amount limits** | Minimum amount: 250 EUR, maximum amount: 8000 EUR |
 | **Chargebacks**  | No |
 | **Countries**  | The Netherlands  | 
 | **Currencies**  | EUR  | 
-| **Expiration** | Transactions expire after 1 day. |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions)  |
 | **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
 
@@ -35,6 +34,8 @@ This diagram shows the flow for a successful transaction. Click to magnify.
   width: 100%;">
 
 # Payment statuses  
+
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 <details id="payment-statuses">
 <summary>Payment statuses</summary>
@@ -87,15 +88,18 @@ You must:
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order <br> Examples > Betaal per Maand direct/redirect |
-| **Ready-made integrations** | Supported in the following [ready-made integrations](/docs/our-integrations/) [Craft Commerce](/docs/craft-commerce/), [CS-Cart](/docs/cs-cart/), [Drupal 8](/docs/drupal/), [Magento 1](/docs/magento-1/), [Magento 2](/docs/magento-2/), [Odoo](/docs/odoo/), [OpenCart](/docs/opencart/), [PrestaShop 1.7](/docs/prestashop-1-7/), [Shopware 5 and 6](/docs/shopware/), [VirtueMart](/docs/virtuemart/), [WooCommerce](/docs/woo-commerce/), [X-Cart](/docs/x-cart/). |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Pay later order 
+- Examples > Betaal per Maand direct/redirect.
+- Transactions expire after 1 day.
 
-> ℹ️ Testing
-> You cannot test Betaal per Maand in your MultiSafepay test account. 
-> When activating this method in your live MultiSafepay account, you can test it before going live.
+### Ready-made integrations
+- Supported in most [ready-made integrations](/docs/our-integrations/).
+- Exceptions: Lightspeed, Shopify, OsCommerce, PWAs, Vue Storefront, Zen Cart
+
+### Testing
+- You cannot test Betaal per Maand in your MultiSafepay test account. 
+- When activating this method in your live MultiSafepay account, you can test it before going live.
 <br>
 
 ---

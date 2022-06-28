@@ -10,12 +10,11 @@ Gift cards are pre-loaded with a specific amount of credit that customers can us
 
 Read how gift cards can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/giftcards)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks** | No  |
 | **Countries**  | Belgium, The Netherlands  | 
 | **Currencies** | EUR  |  
-| **Expiration** | Transactions don't expire. |
 | **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
 | **Refunds** | Paid with gift card only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with gift card **and** another payment method: [Full refunds](/docs/refund-payments/).  |
 
@@ -57,28 +56,15 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | For partial payment with another method: The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | For partial payment with another method: The customer didn't complete payment. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
 | **Refunds:** Refund initiated. | Initialized | Initialized |
 | **Refunds:** Refund complete. | Completed | Completed |
-
-</details>
 
 # Activation 
 
@@ -100,14 +86,17 @@ Contact the card issuer and share the details with us to activate in your accoun
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Gift card redirect |
-| **Ready-made integrations** | We don’t support all open-loop gift cards in our [ready-made integrations](/docs/our-integrations/) and no closed-loop gift cards. Therefore in some integrations, we use generic gateways to support [custom gift cards](#custom-gift-cards). <br> To check if a specific gift card is supported in your ready-made integration, email the Integration Team at <integration@multisafepay.com>   |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order. 
+- Examples > Gift card redirect.
+- Transactions don't expire.
 
-> ℹ️ Testing
-> To test gift card payments, see [Testing](/docs/testing#prepaid-cards).
+### Ready-made integrations
+- We don’t support all open-loop gift cards in our [ready-made integrations](/docs/our-integrations/) and no closed-loop gift cards. Therefore in some integrations, we use generic gateways to support [custom gift cards](#custom-gift-cards). 
+- To check if a specific gift card is supported in your ready-made integration, email the Integration Team at <integration@multisafepay.com> 
+
+### Testing
+To test gift card payments, see [Testing](/docs/testing#prepaid-cards).
 <br>
 
 ---

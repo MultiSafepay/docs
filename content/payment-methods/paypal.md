@@ -13,12 +13,11 @@ slug: 'paypal'
 
 Read how PayPal can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/paypal)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks**  |  [Yes](/docs/chargebacks/)  |
 | **Countries**  | Worldwide  | 
 | **Currencies**  | [Multiple](https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/) | 
-| **Expiration**  | Transactions expire after 14 days. |
 | **Payment components** | [Yes](/docs/payment-components/) | 
 | **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
 | **Refunds** | [Yes](/docs/refund-payments/): Full and partial (see guidance below) | 
@@ -39,9 +38,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses 
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
@@ -50,21 +47,10 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 | PayPal has collected payment. | Completed | Initialized |
 | The customer cancelled the payment in PayPal. | Void   | Void/Cancelled   |
 | The customer didn't complete payment within 14 days. | Expired | Expired |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
 | **Refunds:** Refund initiated. | Reserved | Initialized |
 | **Refunds:** Refund complete.  | Completed | Initialized |
 | Refund declined. | Declined | Declined |
 | PayPal is authorizing the refund, **or** <br> There are not enough funds in your PayPal business account to process the refund. <br> For more information, see your PayPal business account. | Uncleared | Initialized   |
-
-</details>
 
 # Activation 
 
@@ -134,14 +120,16 @@ We strongly recommend [testing transactions](/docs/testing/) before processing l
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order <br> Examples > PayPal direct/redirect |
-| **Ready-made integrations** | Supported in all [ready-made integrations](/docs/our-integrations/) |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. 
+- Examples > PayPal direct/redirect.
+- Transactions expire after 14 days.
 
-> ℹ️ Testing
-> To test PayPal payments, see [Testing](/docs/testing#wallets).
+### Ready-made integrations
+Supported in all [ready-made integrations](/docs/our-integrations/).
+
+### Testing
+To test PayPal payments, see [Testing](/docs/testing#wallets).
 <br>
 
 ---

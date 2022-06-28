@@ -18,7 +18,7 @@ slug: 'edenred'
 
 Read how Edenred can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/edenred)
 
-| Overview | Details |
+| Supports | Details |
 |---|---|
 | **Chargebacks** | No |
 | **Countries**  | Belgium  | 
@@ -47,18 +47,17 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Payment statuses  
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
+The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
 | Description | Order status | Transaction status |
 |---|---|---|
 | For partial payment with another method: The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 
-</details>
 
 # Activation 
+
+Register with Edenred and we'll activate it for your account. 
 
 <details id="how-to-activate-edenred">
 <summary>How to activate Edenred</summary>
@@ -72,14 +71,16 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order <br> Examples > Edenred redirect <br> By default, all activated Edenred vouchers display at checkout, but you can also specify which Edenred vouchers to display per transaction. |
-| **Ready-made integrations** | Only supported in our [Magento 2](/docs/magento-2/) integration. |
-<br>
+### API
+- [Create order](https://docs-api.multisafepay.com/reference/createorder) > Prepaid card order 
+- Examples > Edenred redirect 
+- By default, all activated Edenred vouchers display at checkout, but you can also specify which Edenred vouchers to display per transaction.
 
-> ℹ️ Testing
-> To test Edenred payments, see [Testing](/docs/testing#prepaid-cards).
+### Ready-made integrations
+Only supported in our [Magento 2](/docs/magento-2/) integration.
+
+### Testing
+To test Edenred payments, see [Testing](/docs/testing#prepaid-cards).
 <br>
 
 ---
