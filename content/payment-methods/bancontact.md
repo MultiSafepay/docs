@@ -15,15 +15,15 @@ Read how Bancontact can benefit your business on [multisafepay.com](https://www.
 
 | Supports | Details |   
 |---|---|
-| **3D Secure 2.0** | [Yes](/docs/3ds2/) (all non-mobile payments) |
-| **Chargebacks**  | No | 
 | **Countries**  | Belgium  | 
 | **Currencies**  | EUR | 
-| **Payment components** | [Yes](/docs/payment-components/) |
-| **Payment pages** | [Yes](/docs/payment-pages/) (Current (banking and QR) and deprecated (banking) versions |
-| **Recurring payments**  | [Yes](/docs/recurring-payments/) (banking only) |
-| **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
-| **Second Chance** | [Yes](/docs/second-chance/) | 
+| [3D Secure 2.0](/docs/3ds2/) | Yes (all non-mobile payments) |
+| [Chargebacks](/docs/chargebacks/)  | No |
+| [Payment components](/docs/payment-components/) | Yes |
+| [Payment pages](/docs/payment-pages/) | Yes (Current (banking and QR) and deprecated (banking) versions |
+| [Recurring payments](/docs/recurring-payments/) | Yes (banking only) |
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial |
+| [Second Chance](/docs/second-chance/) | Yes | 
 
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
@@ -62,8 +62,8 @@ You can activate Bancontact yourself in your dashboard.
     - A specific site, go to **Website settings**, and click the relevant site.
 4. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-> 💬  Support
-> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+
 
 </details>
 

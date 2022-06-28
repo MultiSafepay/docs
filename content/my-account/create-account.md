@@ -39,10 +39,8 @@ To create and [onboard](/docs/onboarding/) a live account and start processing r
 
 1. Fill out the relevant signup form: 
 
-    | Account type | Live | Test | 
-    |---|---|---|
-    | Merchant | [Signup form](https://merchant.multisafepay.com/signup) | [Signup form](https://testmerchant.multisafepay.com/signup) |
-    | Partner/primary | [Signup form](https://merchant.multisafepay.com/signup?partner) | [Signup form](https://testmerchant.multisafepay.com/signup?partner) |
+    - Merchant: [Live form](https://merchant.multisafepay.com/signup)  /  [Test  form](https://testmerchant.multisafepay.com/signup) 
+    - Partner/primary: [Live form](https://merchant.multisafepay.com/signup?partner)  /  [Test form](https://testmerchant.multisafepay.com/signup?partner)
 
     You receive an email containing your **security code**. 
 

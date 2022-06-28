@@ -38,7 +38,7 @@ To connect a site to your <<glossary:backend>>, enter the required details:
 - Most [ready-made integrations](/docs/our-integrations/): Your [site ID, API key, and security code](#site-id-api-key-and-security-code), and account ID (top-right corner of your dashboard)  
 - Self-made integrations: Your [site API key](#site-id-api-key-and-security-code)
 
-The connection is finalized. To validate the connection, [place a test order](/docs/testing/).
+To validate the connection, [place a test order](/docs/testing/).
 
 </details>
 <br>

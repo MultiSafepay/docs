@@ -15,14 +15,14 @@ Read how iDEAL can benefit your business on [multisafepay.com](https://www.multi
 
 | Supports | Details |
 |---|---|
-| **Chargebacks**  | No |
 | **Countries**  | The Netherlands  | 
 | **Currencies**  | EUR | 
-| **Payment components** | [Yes](/docs/payment-components/) | 
-| **Payment pages** | [Yes](/docs/payment-pages/) (Banking: Current and deprecated versions, QR: Current only) |
-| **Recurring payments** | [Yes](/docs/recurring-payments/) (banking only) |
-| **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
-| **Second Chance** | [Yes](/docs/second-chance/) |
+| [Chargebacks](/docs/chargebacks/)  | No |
+| [Payment components](/docs/payment-components/) | Yes | 
+| [Payment pages](/docs/payment-pages/) | Yes (Banking: Current and deprecated versions, QR: Current only) |
+| [Recurring payments](/docs/recurring-payments/) | Yes (banking only) |
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial |
+| [Second Chance](/docs/second-chance/) | Yes |
 
 > **Note** 
 > To increase transparency for customers, the name of your website appears on the iDEAL payment page and "Your-website-name by MultiSafepay" on the customer's bank statement.
@@ -73,8 +73,8 @@ You can activate iDEAL yourself in your dashboard.
     - A specific site, go to **Website settings**, and click the relevant site.
 4. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-> 💬  Support
-> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+
 
 </details>
 

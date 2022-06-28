@@ -15,13 +15,13 @@ Read how PayPal can benefit your business on [multisafepay.com](https://www.mult
 
 | Supports | Details |
 |---|---|
-| **Chargebacks**  |  [Yes](/docs/chargebacks/)  |
 | **Countries**  | Worldwide  | 
-| **Currencies**  | [Multiple](https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/) | 
-| **Payment components** | [Yes](/docs/payment-components/) | 
-| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
-| **Refunds** | [Yes](/docs/refund-payments/): Full and partial (see guidance below) | 
-| **Second Chance** | [Yes](/docs/second-chance/) | 
+| **Currencies**  | Multiple: See PayPal – [PayPal supported currencies](https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/). | 
+| [Chargebacks](/docs/chargebacks/)  |  Yes  |
+| [Payment components](/docs/payment-components/) | Yes | 
+| [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial (see guidance below) | 
+| [Second Chance](/docs/second-chance/) | Yes | 
 
 # Payment flow
 
@@ -81,7 +81,7 @@ To complete the configuration, change the language encoding setting of your PayP
 5. From the **Encoding** list, select **UTF-8**.
 6. Select the **Yes** checkbox, and then click **Save**.
 
-> 💬  Support 
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
 > - MultiSafepay – <integration@multisafepay.com>
 > - PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us)
 

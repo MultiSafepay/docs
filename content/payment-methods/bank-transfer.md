@@ -15,13 +15,12 @@ Read how Bank Transfer can benefit your business on [multisafepay.com](https://w
 
 | Supports | Details | 
 |---|---|
-| **Chargebacks**  | No  | 
 | **Countries** | Europe (SEPA area) | 
 | **Currencies** | EUR, CZK, GBP, HUF, PLN <br> (USD **not** supported due to high transaction and currency conversion fees for customers) |
-| **Payment components** | [Yes](/docs/payment-components/) |
-| **Payment pages** | [Yes](/docs/payment-pages/) (current and deprecated versions) |
-| **Refunds** | [Yes](/docs/refund-payments/): Full and partial |
-| **Virtual IBANs** | [Yes](/docs/virtual-ibans/) to better manage Bank Transfer payments |
+| [Payment components](/docs/payment-components/) | Yes |
+| [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial |
+| [Virtual IBANs](/docs/virtual-ibans/) | Yes, to better manage Bank Transfer payments |
 
 # Payment flow
 
@@ -60,8 +59,8 @@ You can activate Bank Transfer yourself in your dashboard.
     - A specific site, go to **Website settings**, and click the relevant site.
 4. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-> 💬  Support
-> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+
 
 </details>
 

@@ -15,13 +15,12 @@ Read how AfterPay can benefit your business on [multisafepay.com](https://www.mu
 
 | Supports | Details |
 |---|---|
-| **Chargebacks**  | No  | 
 | **Countries**  | The Netherlands, Belgium  | 
 | **Currencies**  | EUR  | 
-| **Discounts** | [Yes](/docs/discounts/) |
-
-| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) <br> Activate at site level in your dashboard. |
-| **Refunds** | [Yes](/docs/refund-payments/): Full, partial, and API refunds |
+| [Chargebacks](/docs/chargebacks/) | No  |
+| [Discounts](/docs/discounts/) | Yes |
+| [Payment pages](/docs/payment-pages/) | Yes (current version only) <br> Activate at site level in your dashboard. |
+| [Refunds](/docs/refund-payments/) | Yes: Full, partial, and API refunds |
 
 # Payment flow
 

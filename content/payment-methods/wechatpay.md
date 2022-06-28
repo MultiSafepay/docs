@@ -15,11 +15,11 @@ Read how WeChat Pay can benefit your business on [multisafepay.com](https://www.
 
 | Supports | Details | 
 |---|---|
-| **Chargebacks**  | No |
 | **Countries**  | Worldwide  | 
 | **Currencies**  | EUR – To request support for more currencies, email <sales@multisafepay.com> | 
-| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
-| **Refunds** | [Yes](/docs/refund-payments/): Full and partial | 
+| [Chargebacks](/docs/chargebacks/)  | No |
+| [Payment pages](/docs/payment-pages/) | Yes (current version only) |
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial | 
 
 # Payment flow
 
@@ -61,8 +61,8 @@ First apply to MultiSafepay, and then activate in your dashboard.
     - A specific site, go to **Website settings**, and click the relevant site.
 6. Select the checkbox for the relevant payment method, and then click **Save changes**.
 
-> 💬  Support
-> If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+
 
 </details>
 

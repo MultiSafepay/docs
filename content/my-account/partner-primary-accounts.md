@@ -26,7 +26,7 @@ All affiliates must [onboard](/docs/onboarding/) and sign an agreement with Mult
 
 You can also automate onboarding affiliates [via our API](/docs/affiliate-onboarding-api).
 
-For any questions, affiliates can email <partner@multisafepay.com>
+> **Support:** For any questions, affiliates can email <partner@multisafepay.com>
 
 # 3. Access affiliated accounts
 
@@ -47,7 +47,7 @@ Here you can manage:
 
 # 4. Charge affiliates
 
-You can charge affiliates at three levels.
+You can charge fees to affiliates at three levels.
 
 | Account level | Charge |
 |---|---|

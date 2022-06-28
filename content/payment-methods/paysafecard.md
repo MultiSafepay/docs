@@ -20,11 +20,11 @@ Read how Paysafecard can benefit your business on [multisafepay.com](https://www
 
 | Supports | Details |
 |---|---|
-| **Chargebacks**  | No | 
 | **Countries**  | Worldwide – Go to [paysafecard.com](https://www.paysafecard.com/en-gb/), and click the globe icon in the banner.  | 
 | **Currencies**  | EUR, GBP, USD  | 
-| **Payment pages** | [Yes](/docs/payment-pages/) (current version only) |
-| **Refunds** | Paid with Paysafecard only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with Paysafecard **and** another payment method: [Full refunds](/docs/refund-payments/).  |
+| [Chargebacks](/docs/chargebacks/)  | No | 
+| [Payment pages](/docs/payment-pages/) | Yes (current version only) |
+| [Refunds](/docs/refund-payments/) | Paid with Paysafecard only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with Paysafecard **and** another payment method: Full refunds.  |
 
 # Payment flow
 
