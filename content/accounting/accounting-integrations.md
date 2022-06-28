@@ -23,7 +23,7 @@ To connect your Actuals account to your MultiSafepay account:
 2. Go to **Configuration**.
 3. Under **Payment service provider** > **MultiSafepay**, click **Add**.
 4. In the **Configuration name** field, rename the configuration, if relevant.
-5. In the **MultiSafepay API Key** field, enter your MultiSafepay [site API key](/docs/sites#site-id-api-key-and-secure-code), and then click **Save**.
+5. In the **MultiSafepay API Key** field, enter your MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code), and then click **Save**.
 6. To check the connection, go to **Configuration**.
 7. Under **In-use sources**, check that the **Status** of your MultiSafepay configuration is **Live**.
 
@@ -71,7 +71,7 @@ PSP Betalingen has developed an integration that connects your MultiSafepay acco
 
 For more information, see PSP Betalingen – [Koppeling MultiSafepay e-Boekhouden](https://www.webwinkelfacturen.nl/koppelingpsp.php?shopsystem=multisafepay&invoicesystem=eboekhouden).
 
-To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – [Handleiding: MultiSafepay e-Boekhouden](https://handleidingen.pspbetalingen.nl/handleiding-multisafepay-eboekhouden). (You will need a MultiSafepay [site API key](/docs/sites#site-id-api-key-and-secure-code).)
+To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – [Handleiding: MultiSafepay e-Boekhouden](https://handleidingen.pspbetalingen.nl/handleiding-multisafepay-eboekhouden). (You will need a MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code).)
 
 <br>
 
@@ -180,7 +180,7 @@ You can automatically insert MultiSafepay [payment links](/docs/payment-links/) 
 1. Sign in to your Denovit account.
 2. Go to your **Dashboard**, and then select the **Paylink** module. 
 3. Connect to your Exact account.
-4. Under **PSP settings**, enter your [MultiSafepay API key](/docs/sites#site-id-api-key-and-secure-code) and the payment conditions you use in Exact. 
+4. Under **PSP settings**, enter your [MultiSafepay API key](/docs/sites#site-id-api-key-and-security-code) and the payment conditions you use in Exact. 
 5. Adjust other settings as relevant, e.g. personalize your email template, thank-you page, or notification email to improve customer experience.
 
 For each new invoice in Exact, if you:
@@ -412,7 +412,7 @@ For more information, see Yuki - [Create bank processing rule](https://support.y
 
 To connect Duopact with your MultiSafepay account, see Duopact – [Contact](https://www.duopact.nl/nl/contact/).  
 
-Provide Duopact with your MultiSafepay [site API key](/docs/sites#site-id-api-key-and-secure-code). They will set up a Yuki account for you. 
+Provide Duopact with your MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code). They will set up a Yuki account for you. 
 
 </details >
 

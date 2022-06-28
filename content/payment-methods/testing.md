@@ -447,7 +447,7 @@ You can only test invoicing in your MultiSafepay live account. To do this, chang
 > - Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**, except for refunds
 
 > ℹ️ More information
-> To learn more about integrating Klarna with MultiSafepay, see [Klarna](/klarna/).
+> To learn more about integrating Klarna with MultiSafepay, see [Klarna](/docs/klarna/).
 
 </details>
 
