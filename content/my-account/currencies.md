@@ -12,7 +12,7 @@ You can process payments in a large number of currencies, provided that they are
 
 - Supported by the specific payment method
 - Enabled in your dashboard and in the settings of any [ready-made integrations](/docs/our-integrations/)
-- Correctly processed in the [create order](https://docs-api.multisafepay.com/reference/createorder) API request
+- Correctly processed in the [create order](/reference/createorder/) API request
 
 # Activation
 

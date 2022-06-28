@@ -14,7 +14,7 @@ The FastCheckout Android SDK helps you connect to MultiSafepay from your native 
 
 ## Manual
 
-Simply provide a valid transaction ID or [create an order](https://docs-api.multisafepay.com/reference/createorder). The SDK generates the checkout automatically and sends status updates for each transaction. The checkout flow includes:
+Simply provide a valid transaction ID or [create an order](/reference/createorder/). The SDK generates the checkout automatically and sends status updates for each transaction. The checkout flow includes:
 
 - Shipping details:
     - Preferred shipping details
@@ -36,7 +36,7 @@ The FastCheckout SDK provides the following additional features:
 
 For more information, see the documentation in the SDK, which contains all classes, methods, and troubleshooting.
 
-To learn more about creating, updating and retrieving orders, see the [API reference](https://docs-api.multisafepay.com/reference/introduction).
+To learn more about creating, updating and retrieving orders, see the [API reference](/reference/introduction/).
 
 #### Advanced setup
 The SDK operates in two environments: live (default) and test (no real transactions processed). We recommend testing your integration before releasing your app.  

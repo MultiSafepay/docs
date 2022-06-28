@@ -32,7 +32,7 @@ Add the following elements to your checkout page:
 
 ## Generate an API token
 
-  Payment Components require a MultiSafepay API token. See API reference – [Generate an API token](https://docs-api.multisafepay.com/reference/generateapitoken).
+  Payment Components require a MultiSafepay API token. See API reference – [Generate an API token](/reference/generateapitoken/).
 
   > **Tip!** To keep your API key private, request the token from your own server.  
 
@@ -201,11 +201,11 @@ Add the following elements to your checkout page:
 
 Create an order from your server, appending the `payment_data` collected from the payment component UI to the order data.
 
-See API reference – [Create order](https://docs-api.multisafepay.com/reference/createorder) > Payment component.
+See API reference – [Create order](/reference/createorder/) > Payment component.
 
 ## Redirect the customer
 
-1. From your server, pass the response to the [create order](https://docs-api.multisafepay.com/reference/createorder) request to the customer's device. 
+1. From your server, pass the response to the [create order](/reference/createorder/) request to the customer's device. 
 
 2. Check that `response.success` is `true`.
 

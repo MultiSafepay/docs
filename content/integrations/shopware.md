@@ -69,7 +69,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 1. Sign in to your Shopware 6 backend.
 2. Go to **MultiSafepay settings**.
-3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids).
+3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/).
 
 You can filter generic gateways by country, and minimum and maximum amount.
 
@@ -189,7 +189,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 1. Sign in to your Shopware 5 backend.
 2. Go to **MultiSafepay settings**.
-3. Set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids).
+3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/).
 4. Upload a custom gateway image, if relevant.
 5. For pay later methods, specify whether to include a shopping cart.
 

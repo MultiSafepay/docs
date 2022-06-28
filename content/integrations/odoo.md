@@ -89,7 +89,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 1. Sign in to your Odoo backend. 
 2. Go to **Invoicing** > **Payment method** > **Other payment acquirer** > **MultiSafepay**.
-3. In the **Title** field, set the relevant [payment method gateway IDs](https://docs-api.multisafepay.com/reference/gateway-ids). 
+3. In the **Title** field, set the relevant [payment method gateway IDs](/reference/gateway-ids/). 
 4. Set the gateway logo and name.
 
 </details>
