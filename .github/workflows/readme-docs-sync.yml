@@ -5,10 +5,11 @@ on:
       - closed
     branches: 
       - readmedocs-staging
+  workflow_dispatch:
 
 jobs:
   readme-docs-sync:
-    if: github.event.pull_request.merged ==  true
+  #  if: github.event.pull_request.merged ==  true
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -17,3 +18,6 @@ jobs:
     - uses: readmeio/rdme@7.2.0
       with:
         rdme: docs content --version=v1.0 --key=${{ secrets.README }}
+    - uses: readmeio/rdme@7.2.0
+      with:
+        rdme: docs api --version=v1.0 --key=${{ secrets.README }}
