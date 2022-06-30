@@ -1,7 +1,7 @@
 ---
 title: "WooCommerce"
 category: 62962dd7e272a6002ebbbbc5
-order: 107
+order: 118
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for installing and configuring MultiSafepay's free plugin for WooCommerce, a free, open-source ecommerce platform for Wordpress."
