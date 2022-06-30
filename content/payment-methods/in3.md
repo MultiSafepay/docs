@@ -9,7 +9,7 @@ slug: 'in3'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/in3.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
 
-[in3](https://payin3.eu/en/) is a Dutch online payment method where customers pay in 3 installments after receiving their order, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 processes all the installments and guarantees settlement after receiving the first one.
+[in3](https://payin3.eu/en/) is a Dutch <<glossary:BNPL>> method where customers pay in 3 installments, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 guarantees settlement after receiving the first installment.
 
 Read how in3 can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/in3)
 
