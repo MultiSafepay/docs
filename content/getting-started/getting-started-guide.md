@@ -14,7 +14,10 @@ Simply fill out a signup form, and then sign in to your test dashboard using the
 
 # 2. Set up your account
 
-You need to add at least one site to your account, and to activate your selected payment methods.
+To set up your account, you need to:
+
+- Add at least one [site](/docs/sites/) to your account.
+- Activate your selected [payment methods](/docs/payment-methods/).
 
 **Full guidance:** [Manage my account](/docs/manage-account/)
 
