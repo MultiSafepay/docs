@@ -31,8 +31,8 @@ MultiSafepay supports the following credit and debit cards:
 
 | Supports | Details |
 |---|---|
-| **Countries**  | Amex, Maestro, Mastercard, Visa: Worldwide <br> Cartes Bancaires: France <br> Dankort: Denmark <br>Postepay: Italy <br> V Pay: Europe | 
-| **Currencies**  | Multiple (Amex: EUR, GBP, USD only) <br> To support additional currencies, email <support@multisafepay.com> | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Amex, Maestro, Mastercard, Visa: Worldwide <br> Cartes Bancaires: France <br> Dankort: Denmark <br>Postepay: Italy <br> V Pay: Europe | 
+| [Currencies](/docs/currencies/)  | Multiple (Amex: EUR, GBP, USD only) <br> To support additional currencies, email <support@multisafepay.com> | 
 | [3D Secure 2.0](/docs/3ds2/) | Yes |
 | [Chargebacks](/docs/chargebacks/)  | Yes, **except** Postepay | 
 | [Payment components](/docs/payment-components/) | Yes |

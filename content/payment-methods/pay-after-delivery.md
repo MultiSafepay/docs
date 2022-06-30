@@ -16,8 +16,8 @@ Read how Pay After Delivery can benefit your business on [multisafepay.com](http
 | Supports | Details |
 |---|---|
 | **Amount limits** | Minimum and maximum order amounts apply. Email <sales@multisafepay.com> |
-| **Countries**  | The Netherlands  | 
-| **Currencies** | EUR  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | The Netherlands  | 
+| [Currencies](/docs/currencies/) | EUR  | 
 | [Chargebacks](/docs/chargebacks/)  | No  | 
 | [Discounts](/docs/discounts/) | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |

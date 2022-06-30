@@ -15,8 +15,8 @@ Read how WeChat Pay can benefit your business on [multisafepay.com](https://www.
 
 | Supports | Details | 
 |---|---|
-| **Countries**  | Worldwide  | 
-| **Currencies**  | EUR – To request support for more currencies, email <sales@multisafepay.com> | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Worldwide  | 
+| [Currencies](/docs/currencies/)  | EUR – To request support for more currencies, email <sales@multisafepay.com> | 
 | [Chargebacks](/docs/chargebacks/)  | No |
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial | 

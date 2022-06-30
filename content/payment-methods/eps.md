@@ -16,8 +16,8 @@ Read how EPS can benefit your business on [multisafepay.com](https://www.multisa
 
 | Supports | Details |
 |---|---|
-| **Countries**  | Austria  | 
-| **Currencies**  | EUR |  
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria  | 
+| [Currencies](/docs/currencies/)  | EUR |  
 | [Chargebacks](/docs/chargebacks/)  | No  |
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial |

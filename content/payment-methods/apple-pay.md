@@ -17,8 +17,8 @@ Read how Apple Pay can benefit your business on [multisafepay.com](https://www.m
 
 | Supports | Details |
 |---|---|
-| **Countries** | [Worldwide](https://support.apple.com/en-us/HT207957)  | 
-| **Currencies** | [Multiple](https://support.apple.com/en-us/HT207957)  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country) | [Worldwide](https://support.apple.com/en-us/HT207957)  | 
+| [Currencies](/docs/currencies/) | [Multiple](https://support.apple.com/en-us/HT207957)  | 
 | [Chargebacks](/docs/chargebacks/) | Yes | 
 | [Payment pages](/docs/payment-pages/) | Yes (current version only)  |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial <br> Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |

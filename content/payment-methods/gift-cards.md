@@ -12,8 +12,8 @@ Read how gift cards can benefit your business on [multisafepay.com](https://www.
 
 | Supports | Details |
 |---|---|
-| **Countries**  | Belgium, The Netherlands  | 
-| **Currencies** | EUR  |  
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Belgium, The Netherlands  | 
+| [Currencies](/docs/currencies/) | EUR  |  
 | [Chargebacks](/docs/chargebacks/) | No  |
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
 | [Refunds](/docs/refund-payments/) | Paid with gift card only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with gift card **and** another payment method: Full refunds.  |
