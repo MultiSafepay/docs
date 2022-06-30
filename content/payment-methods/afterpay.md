@@ -1,15 +1,15 @@
 ---
 title: 'AfterPay'
 category: 6298bd782d1cf4006032e765
-order: 301
+order: 201
 hidden: false
-parentDoc: 62a727567164d301522a67da
+parentDoc: 62bd75142e264000a66d62b5
 slug: 'afterpay'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/AfterPay.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
 
-[AfterPay](https://www.afterpay.nl/en/) is a widely used pay later method in the Netherlands and Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement.
+[AfterPay](https://www.afterpay.nl/en/) is a widely used <<glossary:BNPL>> method in the Netherlands and Belgium. Customers pay for orders after receiving them, and are only charged for items they keep from the order. AfterPay bears the risk and guarantees settlement.
 
 Read how AfterPay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/afterpay)
 
@@ -67,12 +67,12 @@ You need to contact AfterPay to activate it for your account.
 
 | Integration | Details |
 |---|---|
-| **API** | [Create order](/reference/createorder/) > Pay later order <br> Examples > AfterPay direct/redirect <br> Transactions expire after 90 days. |
+| **API** | [Create order](/reference/createorder/) > BNPL order <br> Examples > AfterPay direct/redirect <br> Transactions expire after 90 days. |
 | **Ready-made integrations** | AfterPay is supported in [Craft Commerce](/docs/craft-commerce/), [CS-Cart](/docs/cs-cart/), [Drupal 8](/docs/drupal/), [Magento 1](/docs/magento-1/), [Magento 2](/docs/magento-2/), [Odoo](/docs/odoo/), [OpenCart](/docs/opencart/), [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/), [Shopware 5 and 6](/docs/shopware/), [WooCommerce](/docs/woo-commerce/), [X-Cart](/docs/x-cart/). |
 <br>
 
 > ℹ️ Testing
-> To test AfterPay payments, see [Testing](/docs/testing#pay-later-methods).
+> To test AfterPay payments, see [Testing](/docs/testing#bnpl-methods).
 <br>
 
 ---
@@ -132,7 +132,7 @@ For other ready-made integrations, make an [update order](/reference/updateorder
 </details>
 
 ## Surcharges  
-Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
+Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to <<glossary:BNPL>> methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
 AfterPay therefore strongly recommends discontinuing any surcharges. 
 

@@ -74,7 +74,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 - Cards: [All](/docs/cards/)
 - Banking methods: All
-- Pay later methods: All, **except** in3
+- <<glossary:BNPL>>: All, **except** in3
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
@@ -178,7 +178,7 @@ For how to upgrade Drupal 8 to Drupal 9, see Drupal - [Upgrading from Drupal 8 t
 
 - Cards: [All](/docs/cards/)
 - Banking methods: All, **except** iDEAL QR and Trustly
-- Pay later methods: [E-Invoicing](/docs/e-invoicing/), [Klarna](/docs/klarna/), [Pay After Delivery](/docs/pay-after-delivery/)
+- <<glossary:BNPL>>: [E-Invoicing](/docs/e-invoicing/), [Klarna](/docs/klarna/), [Pay After Delivery](/docs/pay-after-delivery/)
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards: 
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)

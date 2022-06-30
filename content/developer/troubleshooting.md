@@ -62,7 +62,7 @@ The transaction ID provided must be unique. The transaction ID you provided may 
 
 The `ip_address` or `forwarded_ip` parameters in the [create order](/reference/createorder/) request contains an invalid customer IP address. 
 
-For pay later methods and credit cards, we check the customer's IP address as part of our [fraud check](/docs/uncaptured/).   
+For <<glossary:BNPL>>>> methods and credit cards, we check the customer's IP address as part of our [fraud check](/docs/uncaptured/).   
 
 ---
 ### Error 1008: Invalid description

@@ -59,7 +59,7 @@ Extra options such as **IP-Validation** and **debugmode** are intended for devel
 
 - Cards: [All](/docs/cards/)
 - Banking methods: All
-- Pay later methods: All, except in3
+- <<glossary:BNPL>>: All, except in3
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
@@ -91,7 +91,7 @@ Extra options such as **IP-Validation** and **debugmode** are intended for devel
 You can apply surcharges when configuring the payment method under **Surcharge**. Always enter the amount **including** VAT.
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to <<glossary:BNPL>> orders. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 

@@ -70,13 +70,13 @@ The plugin supports generic gateways, which redirect customers from your checkou
 1. Sign in to your backend.
 2. Go to **Settings** > **Payments** tab > **Generic gateway**.
 3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/), and the gateway logo and label.
-4. For pay later methods, include the shopping cart in refunds.
+4. For <<glossary:BNPL>> orders, include the shopping cart in refunds.
 
 You can:
 
 - Filter the generic gateway by country, and minimum and maximum amount.
 - Set a custom initial <<glossary:order status>>.
-- Process full and partial refunds (except for pay later methods), and backend orders.
+- Process full and partial refunds (except for <<glossary:BNPL>> orders), and backend orders.
 
 </details>
 
@@ -216,7 +216,7 @@ To generate a payment link in your backend once an order is created, follow thes
 
 - Cards: [All](/docs/cards/) (The credit card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
 - Banking methods: All, except TrustPay
-- Pay later methods: All
+- <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Baby Cadeaubon
@@ -248,11 +248,11 @@ You need to [enable recurring payments](/docs/recurring-payments/) in your Multi
 
 ## Refunds
 
-You can process [Full and partial refunds](/docs/refund-payments/) for all payment methods, **except** pay later methods for which you can only process full refunds.
+You can process [Full and partial refunds](/docs/refund-payments/) for all payment methods, **except** <<glossary:BNPL>> for which you can only process full refunds.
 
 ## Shipping orders
 
-For pay later orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+For <<glossary:BNPL>> orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you change the <<glossary:order status>> to **Shipped** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
@@ -261,7 +261,7 @@ If you change the <<glossary:order status>> to **Shipped** in your backend, the 
 You can apply [surcharges](/docs/surcharges/) in the plugin when combined with a relevant third-party package. 
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to <<glossary:BNPL>> methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 <details id="how-to-apply-surcharges-with-third-party-packages">
 <summary>How to apply surcharges with third-party packages</summary>

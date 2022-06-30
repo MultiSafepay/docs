@@ -31,7 +31,7 @@ slug: 'scandipwa'
 
 - Cards: [All](/docs/cards/)
 - Banking methods: All
-- Pay later methods: All
+- <<glossary:BNPL>>: All
 - Wallets: All
 - Prepaid cards:
     - Baby gift card

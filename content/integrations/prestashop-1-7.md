@@ -236,7 +236,7 @@ If you're new to accepting credit card payments, email a request to activate the
 
 - Cards: [All](/docs/cards/)
 - Banking methods: All
-- Pay later methods: All
+- <<glossary:BNPL>>: All
 - Wallets: All
 - Prepaid cards:
     - Baby Giftcard
@@ -284,7 +284,7 @@ The plugin supports [recurring payments](/docs/recurring-payments).
 ## Refunds
 
 - [Full and partial refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.  
-- [Pay later refunds](/docs/refund-payments#pay-later-refunds) are only supported in your dashboard.
+- [BNPL refunds](/docs/refund-payments#bnpl-refunds) are only supported in your dashboard.
     
 <details id="how-to-disable-api-refunds">
 <summary>How to disable API refunds</summary>
@@ -307,7 +307,7 @@ If you notice errors in shopping cart calculations, email <integration@multisafe
 
 As a temporary solution, you can disable sending the shopping cart with the payment request.
 
-❗️ Pay later methods do not work if the shopping cart is disabled. 
+❗️ <<glossary:BNPL>> methods do not work if the shopping cart is disabled. 
 
 <details id="how-to-disable-the-shopping-cart">
 <summary>How to disable the shopping cart</summary>
@@ -332,7 +332,7 @@ As a temporary solution, you can disable sending the shopping cart with the paym
 There are several [third-party add-ons](https://addons.prestashop.com/en/search?search_query=surcharge) available. However, we can't guarantee compatibility with our plugin. Make sure that you test them carefully before installing.
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to <<glossary:BNPL>> methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 </details>
 

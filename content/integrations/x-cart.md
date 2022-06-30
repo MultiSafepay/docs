@@ -61,7 +61,7 @@ Make sure you enter the correct API key for the account type you want to use.
 
 - Cards: [All](/docs/cards/)
 - Banking methods: All, except Request to Pay
-- Pay later methods: All, except in3
+- <<glossary:BNPL>>: All, except in3
 - Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card

@@ -34,7 +34,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 <br>
 
 - Cards: [Mastercard](/docs/cards/) and [Visa](/docs/cards/)
-- Pay later methods: [Klarna](/docs/klarna/)
+- <<glossary:BNPL>>: [Klarna](/docs/klarna/)
 - Wallets: [PayPal](/docs/paypal/)
 - Banking methods: 
     - [Bancontact](/docs/bancontact/)
@@ -83,7 +83,7 @@ To change the order of payment methods in your checkout, follow these steps:
 [Surcharges](/docs/surcharges/) are supported.
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to <<glossary:BNPL>> orders. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ---
 

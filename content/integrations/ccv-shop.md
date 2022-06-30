@@ -36,7 +36,7 @@ ___
 <br>
 
 - Cards: [All](/docs/cards/)
-- Pay later methods: [AfterPay](/docs/afterpay/), [Klarna](/docs/klarna/)
+- <<glossary:BNPL>>: [AfterPay](/docs/afterpay/), [Klarna](/docs/klarna/)
 - Wallets: [PayPal](/docs/paypal/)
 - Banking methods:
     - [Bancontact](/docs/bancontact/)

@@ -36,12 +36,12 @@ Surcharges are permitted for:
 
 - Card payments with cards issued outside the EEA, e.g. a tourist with a credit card issued in India
 - Hybrid <<glossary:card schemes>> such as American Express: Each EU state can decide whether to permit surcharging. Under Dutch law, surcharges **are** permitted.
-- [PayPal](/docs/paypal/) and pay later methods: You can only charge customers for the actual cost you incur for using the payment method and no more.
+- [PayPal](/docs/paypal/) and <<glossary:BNPL>> methods: You can only charge customers for the actual cost you incur for using the payment method and no more.
 
 <br>
 
 > ⚠️ **Attention Dutch merchants** 
-> Due to changes to the Wet op het consumentenkrediet, Dutch merchants who apply surcharges to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).
+> Due to changes to the Wet op het consumentenkrediet, Dutch merchants who apply surcharges to <<glossary:BNPL>> methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).
 >
 > We therefore strongly recommend **not** applying surcharges.
 <br>

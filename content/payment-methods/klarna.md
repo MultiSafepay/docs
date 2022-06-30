@@ -1,9 +1,9 @@
 ---
 title: 'Klarna'
 category: 6298bd782d1cf4006032e765
-order: 305
+order: 205
 hidden: false
-parentDoc: 62a727567164d301522a67da
+parentDoc: 62bd75142e264000a66d62b5
 slug: 'klarna'
 ---
 
@@ -85,7 +85,7 @@ For support, email <integration@multisafepay.com>
 # Integration
 
 ### API
-- [Create order](/reference/createorder/) > Pay later order.
+- [Create order](/reference/createorder/) > BNPL order.
 - Examples > Klarna direct/redirect.
 - Transactions expire after 1 hour.
 
@@ -93,7 +93,7 @@ For support, email <integration@multisafepay.com>
 Supported in all [ready-made integrations](/docs/our-integrations/) (redirect).
 
 ### Testing
-To test Klarna payments, see [Testing](/docs/testing#pay-later-methods).
+To test Klarna payments, see [Testing](/docs/testing#bnpl-methods).
 <br>
 
 ---
@@ -157,7 +157,7 @@ You can send the customer a payment link from the existing order or a new order.
 
 **New order**
 
-1. [Create a new order](/reference/createorder/) > Pay later order.  
+1. [Create a new order](/reference/createorder/) > BNPL order.  
 See also Examples > Klarna redirect.
 2. [Ship the order](/reference/updateorder/) > Ship order.
 3. Send the payment link to the customer.
@@ -323,7 +323,7 @@ If the order is not captured during this time, the <<glossary:order status>> and
 
 ## Surcharges  
 
-Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
+Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to <<glossary:BNPL>> methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
 We therefore strongly recommend **not** applying surcharges. 
 

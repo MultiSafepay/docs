@@ -99,7 +99,7 @@ To configure generic gateways, follow these steps:
     - Gateway identifier  
     - Gateway logo  
     - Gateway label  
-    - Whether to include the shopping cart in refunds (required for pay later gateway IDs)
+    - Whether to include the shopping cart in refunds (required for <<glossary:BNPL>> gateway IDs)
 
 Generic gateways support:
 
@@ -109,7 +109,7 @@ Generic gateways support:
 - Full and partial refunds (except for [pay later](/payment-methods/pay-later/) methods) 
 - Backend orders (set a custom initial order status)
 
-Full and partial refunds (except for pay later methods), and backend orders are fully supported. You can also set a custom initial <<glossary:order status>>.
+Full and partial refunds (except for BNPL orders), and backend orders are fully supported. You can also set a custom initial <<glossary:order status>>.
 
 </details>
 
@@ -149,7 +149,7 @@ The customer receives the payment link in the email sent by OpenCart containing 
 
 - Cards: [All](/docs/cards/) 
 - Banking methods: All, except TrustPay
-- Pay later methods: All
+- <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - [Baby Cadeaubon](https://www.babycadeaubon.nl)
@@ -199,7 +199,7 @@ As a temporary solution, you can disable payments with shopping carts.
 <summary>How to disable shopping carts</summary>
 <br>
 
-❗️ This disables all pay later methods.
+❗️ This disables all <<glossary:BNPL>> methods.
 
 1. Sign in to your OpenCart backend.
 2. Go to **Extensions** > **Payments** > **MultiSafepay**.
@@ -215,7 +215,7 @@ As a temporary solution, you can disable payments with shopping carts.
 Email <integration@multisafepay.com> 
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to <<glossary:BNPL>> orders. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 

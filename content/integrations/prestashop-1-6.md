@@ -405,7 +405,7 @@ This is no longer supported from version 3.2.0. If you want to skip the extra co
 <br>
 
 - Cards: [All](/docs/cards/)
-- Pay later methods: All, except Betaal per Maand
+- <<glossary:BNPL>>: All, except Betaal per Maand
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Banking methods: 
     - [Bancontact](/docs/bancontact/)
@@ -489,7 +489,7 @@ To apply a surcharge or payment fee to a payment method, you can use the third-p
 The Integration Team will do their best to support you with installing BVK, but bear in mind that it is a third-party package. We can't guarantee perfect compatibility.
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to <<glossary:BNPL>> methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 </details>
 

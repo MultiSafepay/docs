@@ -101,7 +101,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 <br>
 
 - Cards: [All](/docs/cards/)
-- Pay later methods: All
+- <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
