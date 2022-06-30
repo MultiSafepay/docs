@@ -65,14 +65,26 @@ You need to contact AfterPay to activate it for your account.
 
 # Integration
 
-| Integration | Details |
-|---|---|
-| **API** | [Create order](/reference/createorder/) > Pay later order <br> Examples > AfterPay direct/redirect <br> Transactions expire after 90 days. |
-| **Ready-made integrations** | AfterPay is supported in [Craft Commerce](/docs/craft-commerce/), [CS-Cart](/docs/cs-cart/), [Drupal 8](/docs/drupal/), [Magento 1](/docs/magento-1/), [Magento 2](/docs/magento-2/), [Odoo](/docs/odoo/), [OpenCart](/docs/opencart/), [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/), [Shopware 5 and 6](/docs/shopware/), [WooCommerce](/docs/woo-commerce/), [X-Cart](/docs/x-cart/). |
-<br>
+### API
+- [Create order](/reference/createorder/) > Pay later order.
+- Examples > AfterPay direct/redirect.
+- Transactions expire after 90 days.
 
-> ℹ️ Testing
-> To test AfterPay payments, see [Testing](/docs/testing#pay-later-methods).
+### Ready-made integrations
+AfterPay is supported in:
+- [Craft Commerce](/docs/craft-commerce/)
+- [CS-Cart](/docs/cs-cart/)
+- [Drupal 8](/docs/drupal/)
+- [Magento 1](/docs/magento-1/) & [Magento 2](/docs/magento-2/)
+- [Odoo](/docs/odoo/)
+- [OpenCart](/docs/opencart/)
+- [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/)
+- [Shopware 5 and 6](/docs/shopware/)
+- [WooCommerce](/docs/woo-commerce/)
+- [X-Cart](/docs/x-cart/)
+
+### Testing
+To test AfterPay payments, see [Testing](/docs/testing#pay-later-methods).
 <br>
 
 ---
