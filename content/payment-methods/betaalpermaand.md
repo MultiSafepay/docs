@@ -9,8 +9,7 @@ slug: betaal-per-maand
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/betaalpermaand.svg" width="200" align="right" style="margin: 20px; max-height: 75px"/>
 
-[Betaal per Maand](https://www.santander.nl/veelgestelde-vragen/betaal-per-maand) is a MultiSafepay <<glossary:BNPL>> method for large amounts in collaboration with Santander. Customers pay for orders after receiving them as a one-off payment or in monthly installments. 
-They are only charged for the items they keep. Santander bears the risk and guarantees settlement.
+[Betaal per Maand](https://www.santander.nl/veelgestelde-vragen/betaal-per-maand) is a MultiSafepay <<glossary:BNPL>> method in collaboration with Santander. It is intended for large amounts paid as a one-off payment or in monthly installments. Santander bears the risk and guarantees settlement.
 
 Read how Betaal per Maand can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/betaalpermaand-santander)
 
