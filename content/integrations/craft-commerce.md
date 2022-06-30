@@ -19,10 +19,10 @@ slug: 'craft-commerce'
 
 # Features
  
-- Support for separate payment methods, pay later methods, and gift cards
-- Partial and full refunds for all payment methods, except pay later
+- Support for separate payment methods, <<glossary:BNPL>>, and gift cards
+- Partial and full refunds for all payment methods, except BNPL
 - Customizable <<glossary:order statuses>>
-- Shipment notifications for pay later methods 
+- Shipment notifications for BNPL orders 
 
 # Prerequisites
 
@@ -76,7 +76,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 
 - Cards: [All](/docs/cards/), **except** Postepay and V Pay
 - Banking methods: All
-- Pay later methods: All
+- <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/payment-methods/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
@@ -108,7 +108,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 |---|---|
 | MultiSafepay dashboard | - [Full and partial refunds](/docs/refund-payments/) <br> - Generic gateway transactions |
 | Backend | - Full and partial refunds <br> - You can't refund more than the original amount in your backend <br> - Generic gateway transactions **not** supported |
-| API | - [Refund order](/reference/refundorder/) <br> - [Pay later refunds](/docs/refund-payments#pay-later-refunds) **not** supported <br> - Discounts **not** supported |
+| API | - [Refund order](/reference/refundorder/) <br> - [BNPL refunds](/docs/refund-payments#bnpl-refunds) **not** supported <br> - Discounts **not** supported |
 
 </details>
 

@@ -835,13 +835,13 @@ The plugin supports generic gateways, which redirect customers from your checkou
 2. Go to **System** > **Configuration** > **MultiSafepay** > **Connect gateways** > **Generic 1/2/3**.
 3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/) and the gateway label.
 4. Set how to display the payment method logos. 
-5. For pay later methods, set whether to include the shopping cart.
+5. For <<glossary:BNPL>> orders, set whether to include the shopping cart.
 
 </details>
 
-## Pay later orders
+## BNPL orders
 
-The status of all complete orders automatically changes to **Shipped** in order to collect funds from pay later payment methods.
+The status of all complete orders automatically changes to **Shipped** in order to collect funds from <<glossary:BNPL>> methods.
 
 <details id="how-to-disable-klarna-checkout-fields">
 <summary>How to disable Klarna checkout fields</summary>
@@ -871,7 +871,7 @@ This change is only for Magento developers. We recommend testing the change and 
 
 - Cards: [All](/docs/cards/) except V Pay
 - Banking methods: All, **except** TrustPay
-- Pay later methods: All
+- <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
@@ -942,7 +942,7 @@ Recurring Payments are not available for the generic credit card gateway. You mu
 |---|---|
 | MultiSafepay dashboard | Full refunds (may not appear in your backend) |
 | Backend | Full refunds and [credit memos](https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html) <br> You can't refund more than the original amount |
-| Pay later methods | You can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded. |
+| <<glossary:BNPL>> orders | You can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded. |
 
 </details>
 
@@ -985,7 +985,7 @@ You can:
 </details>
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to <<glossary:BNPL>> orders. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
 

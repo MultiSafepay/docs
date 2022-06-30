@@ -90,7 +90,7 @@ For any technical queries about the plugin, see Logic4 – [Contact](https://www
     - [iDEAL and iDEAL QR](/docs/ideal/)
     - [Sofort](/docs/sofort/)
     - [Trustly](/docs/trustly/)
-- Pay later methods: All, **except** E-Invoicing
+- <<glossary:BNPL>>: All, **except** E-Invoicing
 - Wallets: [PayPal](/docs/paypal/)
 
 </details>
@@ -140,7 +140,7 @@ For technical support, contact LogiVert - [Support](https://www.logivert.com/nl/
     - [iDEAL](/docs/ideal/)
     - [SEPA Direct Debit](/docs/sepa-direct-debit/)
     - [Sofort](/docs/sofort)
-- Pay later methods: [Klarna](/docs/klarna/)
+- <<glossary:BNPL>>: [Klarna](/docs/klarna/)
 
 </details>
 
@@ -272,7 +272,7 @@ ZilverCMS provides a free app to integrate with MultiSafepay.
 <br>
 
 - Cards: [All](/docs/cards/)
-- Pay later methods: [Betaal per Maand](/docs/betaal-per-maand/)
+- <<glossary:BNPL>>: [Betaal per Maand](/docs/betaal-per-maand/)
 - Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/paypal/)
 - Prepaid cards: [VVV gift card](https://www.vvvcadeaukaarten.nl)
 - Banking methods:

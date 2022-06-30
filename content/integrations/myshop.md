@@ -21,7 +21,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 
 - Cards: [American Express](/docs/cards/), [Mastercard](/docs/cards/), and [Visa](/docs/cards/)
-- Pay later methods: [Klarna](/docs/klarna/) and [Pay After Delivery](/docs/pay-after-delivery/)
+- <<glossary:BNPL>>: [Klarna](/docs/klarna/) and [Pay After Delivery](/docs/pay-after-delivery/)
 - Wallets: [PayPal](/docs/paypal/)
 - Prepaid cards: [123TCS](/docs/gift-cards/), [Intersolve](/docs/gift-cards/), and [Fashioncheque](/docs/gift-cards/)
 - Banking methods:

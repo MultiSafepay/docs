@@ -25,6 +25,10 @@ A specific URL in [our API](/reference/) where merchants send requests to exchan
 The part of a merchant's integration not accessible to customers. Here you can connect with MultiSafepay, configure settings, process refunds, make API requests, and receive notifications.
 
 ---
+#### BNPL
+Buy now pay later methods let customers pay for their order after receiving it, and only for the items they keep. 
+
+---
 #### cardholder
 A customer who uses a card issued by a bank to make cashless payments to a merchant.
 

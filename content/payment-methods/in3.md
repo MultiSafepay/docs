@@ -1,9 +1,9 @@
 ---
 title: 'in3'
 category: 6298bd782d1cf4006032e765
-order: 304
+order: 204
 hidden: false
-parentDoc: 62a727567164d301522a67da
+parentDoc: 62bd75142e264000a66d62b5
 slug: 'in3'
 ---
 
@@ -75,7 +75,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 # Integration
 
 ### API
-- [Create order](/reference/createorder/) > Pay later order. 
+- [Create order](/reference/createorder/) > BNPL order. 
 - Examples > in3 direct/redirect.
 - Transactions expire after 2 hours.
 
@@ -89,7 +89,7 @@ in3 (direct) is supported in:
 - [WooCommerce](/docs/woo-commerce/)
 
 ### Testing
-To test in3 payments, see [Testing](/docs/testing#pay-later-methods).
+To test in3 payments, see [Testing](/docs/testing#bnpl-methods).
 <br>
 
 ---
@@ -147,7 +147,7 @@ For other ready-made integrations, make an [update order](/reference/updateorder
 
 ### Surcharges
 
-Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to pay later methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
+Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to <<glossary:BNPL>> methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
 We therefore strongly recommend **not** applying surcharges. 
 

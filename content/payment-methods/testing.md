@@ -1,5 +1,5 @@
 ---
-title: 'Testing'
+title: 'Testing payment methods'
 category: 6298bd782d1cf4006032e765
 order: 600
 hidden: false
@@ -258,7 +258,7 @@ You can also test the following scenarios:
 </details>
 
 ---
-## Pay later methods
+## BNPL methods
 
 <details id="afterpay">
 <summary>AfterPay</summary>
@@ -276,7 +276,7 @@ You can also test the following scenarios:
 
 **Test an AfterPay order**
 
-1. [Create an order](/reference/createorder/) > Pay later order  
+1. [Create an order](/reference/createorder/) > BNPL order  
     Example: AfterPay direct/redirect
 2. For redirect orders, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.  
 The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Uncleared**.
@@ -312,7 +312,7 @@ To change the order status, either:
 
 **Test an order**
 
-1. [Create an order](/reference/createorder/) > Pay later order  
+1. [Create an order](/reference/createorder/) > BNPL order  
     Example: E-Invoicing/Pay After Delivery direct/redirect
 2. For redirect orders, open the payment link.
 3. Enter in the:
@@ -340,7 +340,7 @@ To test shipping an order, make an [update order](/reference/updateorder/) API r
 
 **Test an in3 order**
 
-1. [Create an order](/reference/createorder/) > Pay later order  
+1. [Create an order](/reference/createorder/) > BNPL order  
     Example: in3 direct/redirect  
     Use the following customer details:
     - Date of birth: 01-01-1999
@@ -394,7 +394,7 @@ To test refunding an order via the API:
 
 1. Create an order. 
 2. Change the order status to `shipped`.
-3. Make a pay later refund API request: [Refund order](/reference/refundorder/) > Pay later refund.
+3. Make a BNPL refund API request: [Refund order](/reference/refundorder/) > BNPL refund.
     A new order is created for the refund. The order status for the refund changes to **Completed**.
 
 </details>
@@ -410,7 +410,7 @@ To test refunding an order via the API:
 
 **Test a Klarna order** 
 
-1. [Create an order](/reference/createorder/) > Pay later order 
+1. [Create an order](/reference/createorder/) > BNPL order 
     Example: Klarna direct/redirect
 2. On the Klarna page, click **Kopen**.
 3. In the **Telefoonnummer** field, enter any mobile number, and then click **Ga verder**.
@@ -435,7 +435,7 @@ To change the order status, either:
 To refund an order:
 
 1. Change the order status to **Shipped**.
-2. Under **Order summary**, click **Refund order**, or make a pay later refund API request: [Refund order](/reference/refundorder/) > Pay later refund.  
+2. Under **Order summary**, click **Refund order**, or make a BNPL refund API request: [Refund order](/reference/refundorder/) > BNPL refund.  
     The <<glossary:transaction status>> changes to **Completed**.
 
 **Receive an invoice**  
@@ -704,7 +704,7 @@ You can test refunds for the following methods:
 
 - Banking methods: Bancontact (not QR), Bank Transfer, Belfius, CBC/KBC, Dotpay, EPS, Giropay, iDEAL (not QR), SEPA Direct Debit, Sofort, Trustly
 - Credit and debit cards
-- Pay later: in3, Klarna
+- <<glossary:BNPL>>: in3, Klarna
 - Wallets: Alipay, PayPal, WeChat Pay
 
 </details>
@@ -727,7 +727,7 @@ You can test refunds for the following methods:
 
 - Banking methods: Bancontact (not QR), EPS, Giropay, iDEAL (not QR), SEPA Direct Debit, Sofort, Trustly
 - Credit and debit cards
-- Pay later: in3
+- <<glossary:BNPL>>: in3
 - Wallets: PayPal, WeChat Pay
 
 </details>
