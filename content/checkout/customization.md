@@ -1,7 +1,7 @@
 ---
 title: 'Payment component customization'
-category: 6278c92bf4ad4a00361431b0
-order: 33
+category: 62bd999547298d001abc714c
+order: 13
 hidden: false
 slug: 'payment-component-customization'
 parentDoc: 62a848399bb3eb004023f291
