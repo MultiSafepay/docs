@@ -356,24 +356,6 @@ To discuss, email <integration@multisafepay.com>
 
 ___
 
-# Sites
-
-## Duda
-
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/duda.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
-
-[Duda](https://www.duda.co/)
-
----
-
-## MijnDomein
-
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Mijndomein.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
-
-[MijnDomein](https://www.mijndomein.nl/)
-
-___
-
 # Subscriptions
 
 ## HostBill
@@ -436,6 +418,24 @@ To integrate with MultiSafepay, follow these steps:
 5. To create a payment link, go to [Payment links](https://www.beta.twikey.com/support/creditor/paymentlinks/paymentlink_management.html) enter the relevant information, e.g. amount, customer.
 
 </details>
+
+___
+
+# Websites
+
+## Duda
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/duda.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+
+[Duda](https://www.duda.co/)
+
+---
+
+## MijnDomein
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Mijndomein.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+
+[MijnDomein](https://www.mijndomein.nl/)
 
 <br>
 
