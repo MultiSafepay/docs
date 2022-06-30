@@ -16,8 +16,8 @@ Read how Dotpay can benefit your business on [multisafepay.com](https://www.mult
 
 | Supports | Details |
 |---|---|
-| **Countries**  | Poland  | 
-| **Currencies**  | EUR, PLN | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Poland  | 
+| [Currencies](/docs/currencies/)  | EUR, PLN | 
 | [Chargebacks](/docs/chargebacks/)  | No | 
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial |

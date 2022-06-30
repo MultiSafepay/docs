@@ -15,8 +15,8 @@ Read how SEPA Direct Debit can benefit your business on [multisafepay.com](https
 
 | Supports | Details |
 |---|---|
-| **Countries**  | [SEPA region](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf)  | 
-| **Currencies**  | EUR | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | [SEPA region](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf)  | 
+| [Currencies](/docs/currencies/)  | EUR | 
 | [Chargebacks](/docs/chargebacks/)  | Yes (see below) |
 | [Payment components](/docs/payment-components/) | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions)  |

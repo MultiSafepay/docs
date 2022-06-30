@@ -15,8 +15,8 @@ Read how Bancontact can benefit your business on [multisafepay.com](https://www.
 
 | Supports | Details |   
 |---|---|
-| **Countries**  | Belgium  | 
-| **Currencies**  | EUR | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Belgium  | 
+| [Currencies](/docs/currencies/)  | EUR | 
 | [3D Secure 2.0](/docs/3ds2/) | Yes (all non-mobile payments) |
 | [Chargebacks](/docs/chargebacks/)  | No |
 | [Payment components](/docs/payment-components/) | Yes |

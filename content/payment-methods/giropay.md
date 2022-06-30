@@ -15,8 +15,8 @@ Read how Giropay can benefit your business on [multisafepay.com](https://www.mul
 
 | Supports | Details |
 |---|---|
-| **Countries**  | Germany  | 
-| **Currencies**  | EUR | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Germany  | 
+| [Currencies](/docs/currencies/)  | EUR | 
 | [Chargebacks](/docs/chargebacks/)  | No  | 
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial |
