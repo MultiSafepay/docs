@@ -1,7 +1,7 @@
 ---
 title: 'Payment pages'
-category: 6278c92bf4ad4a00361431b0
-order: 40
+category: 62bd999547298d001abc714c
+order: 30
 hidden: false
 slug: 'payment-pages'
 ---

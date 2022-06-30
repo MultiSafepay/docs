@@ -1,7 +1,7 @@
 ---
 title: "Multiple payment methods"
-category: 6278c92bf4ad4a00361431b0
-order: 32
+category: 62bd999547298d001abc714c
+order: 12
 hidden: false
 slug: 'payment-component-multiple'
 parentDoc: 62a848399bb3eb004023f291 
