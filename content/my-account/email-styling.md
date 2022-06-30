@@ -1,10 +1,11 @@
 ---
-title: 'Email templates'
-category: 6278c92bf4ad4a00361431b0
-order: 10
+title: 'Email styling'
+category: 62962dcdbccb9a001d4bbc81
+order: 204
 hidden: false
-slug: 'email-templates'
-excerpt: "Customize email templates to match your brand's look and feel."
+parentDoc: 62b0845857c8ab006af6a4f7
+slug: 'email-styling'
+excerpt: "Customize emails to customers to match your brand's look and feel."
 ---
 MultiSafepay can help you manage your email communications with customers. Use our preformatted and/or prewritten templates and populate them with your content.
 
