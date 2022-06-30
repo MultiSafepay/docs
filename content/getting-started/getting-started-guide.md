@@ -19,7 +19,6 @@ To set up your account, you need to:
 - Add at least one [site](/docs/sites/) to your account.
 - Activate your selected [payment methods](/docs/payment-methods/).
 
-**Full guidance:** [Manage my account](/docs/manage-account/)
 
 # 3. Choose an integration method 
 
