@@ -15,9 +15,53 @@ Some payment methods you can activate yourself in your dashboard, but for some y
 | [Activate in dashboard](#activate-in-dashboard) | Banking methods, E-Invoicing   |
 | [Own flow](#own-flow) | AfterPay, Betaal per Maand, Klarna, Edenred, gift cards, Paysafecard, PayPal |
 
-> ℹ️ Ready-made integrations
-> If you use a [ready-made integration](/docs/our-integrations/), first check that the payment method is supported. 
-> Once the method is activated, also enable it in your <<glossary:backend>>.
+### Ready-made integrations
+
+If you use a [ready-made integration](/docs/our-integrations/), first check that the payment method is supported. 
+Once the method is activated, also enable it in your <<glossary:backend>>.
+
+### Payment methods by country
+
+<details id="payment-methods-by-country">
+<summary>Payment methods by country</summary>
+<br>
+
+| Country | Payment methods |
+|---|---|
+| Austria | EPS, Klarna, Sofort, Trustly |
+| Belgium | AfterPay, Bancontact, Belfius, CBC/KBC, Edenred, gift cards, Klarna, Sofort, Trustly |
+| Bulgaria | Trustly |
+| Croatia | Trustly |
+| Cyprus | Trustly |
+| Czech Republic | Trustly, TrustPay |
+| Denmark | Dankort, Klarna, Trustly |
+| Estonia | Trustly |
+| Europe (SEPA area) | Bank Transfer, SEPA Direct Debit |
+| Finland | Trustly |
+| France | Cartes Bancaires, Klarna |
+| Germany | Giropay, Klarna, Request to Pay, Sofort, Trustly |
+| Greece | Trustly |
+| Hungary | Trustly |
+| Ireland | Trustly |
+| Italy | Klarna, Postepay, Sofort, Trustly |
+| Latvia | Trustly |
+| Lithuania | Trustly |
+| Luxembourg | Trustly |
+| Malta | Trustly |
+| Norway | Klarna, Trustly |
+| Poland | Dotpay, Sofort, Trustly |
+| Portugal | Trustly |
+| Romania | Trustly |
+| Slovakia | Trustly |
+| Slovenia | Trustly |
+| Spain | Klarna, Sofort, Trustly |
+| Sweden | Klarna, Trustly |
+| Switzerland | Sofort |
+| The Netherlands | AfterPay, Betaal per Maand, gift cards, iDEAL, in3, Klarna, Pay After Delivery, Trustly  |
+| United Kingdom | Trustly |
+| Worldwide | Alipay, American Express, Apple Pay, E-Invoicing, Google Pay, Maestro, <br> Mastercard, PayPal, Paysafecard, Visa, Worldwide, WeChat Pay  |
+
+</details>
 
 # Apply to MultiSafepay 
 

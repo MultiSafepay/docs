@@ -21,8 +21,8 @@ Read how Request to Pay can benefit your business on [multisafepay.com](https://
 | Supports | Details |
 |---|---|
 | **Amount limits** | Minimum amount: 1 EUR, maximum amount: 15,000 EUR |
-| **Countries**  | Germany – More countries will follow as more banks migrate to PSD2 APIs. | 
-| **Currencies**  | EUR | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Germany – More countries will follow as more banks migrate to PSD2 APIs. | 
+| [Currencies](/docs/currencies/)  | EUR | 
 | [Chargebacks](/docs/chargebacks/)  | No  | 
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial <br> All refunds are processed by Deutsche Bank. |

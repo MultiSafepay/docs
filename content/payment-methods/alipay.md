@@ -17,8 +17,8 @@ Read how Alipay can benefit your business on [multisafepay.com](https://www.mult
 
 | Supports | Details |
 |---|---|
-| **Countries**  | Worldwide  | 
-| **Currencies**  | EUR, USD (currency conversion in EUR only)  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Worldwide  | 
+| [Currencies](/docs/currencies/)  | EUR, USD (currency conversion in EUR only)  | 
 | [Chargebacks](/docs/chargebacks/)  | No  |
 | [Discounts](/docs/discounts/) | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (current version only)  |

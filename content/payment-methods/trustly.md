@@ -16,8 +16,8 @@ Read how Trustly can benefit your business on [multisafepay.com](https://www.mul
 
 | Supports | Details |  
 |---|---|
-| **Countries**  | Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom  | 
-| **Currencies**  | EUR, GBP, SEK | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom  | 
+| [Currencies](/docs/currencies/)  | EUR, GBP, SEK | 
 | [Chargebacks](/docs/chargebacks/)  | No | 
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial  |

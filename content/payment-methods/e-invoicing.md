@@ -15,8 +15,8 @@ Read how E-Invoicing can benefit your business on [multisafepay.com](https://www
 
 | Supports | Details |
 |---|---|
-| **Countries**  | Worldwide  | 
-| **Currencies** | EUR  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Worldwide  | 
+| [Currencies](/docs/currencies/) | EUR  | 
 | [Chargebacks](/docs/chargebacks/)  | No |
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
 | [Refunds](/docs/refund-payments/) | Yes: Full, partial, and API refunds, and [discounts](/discounts/) |

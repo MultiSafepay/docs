@@ -15,8 +15,8 @@ Read how Belfius can benefit your business on [multisafepay.com](https://www.mul
 
 | Supports | Details |
 |---|---|
-| **Countries**  | Belgium  | 
-| **Currencies**  | EUR | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Belgium  | 
+| [Currencies](/docs/currencies/)  | EUR | 
 | [Chargebacks](/docs/chargebacks/)  | No | 
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial (1 business day after payment is completed) |

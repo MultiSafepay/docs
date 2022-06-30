@@ -15,8 +15,8 @@ Read how Google Pay can benefit your business on [multisafepay.com](https://www.
 
 | Supports | Details |
 |---|---|
-| **Countries**  | Worldwide <br> See Google Pay – [Countries or regions where you can use Google Pay](https://support.google.com/pay/answer/9023773?hl=en#zippy=%2Cpay-online-or-in-apps).  | 
-| **Currencies**  | Multiple  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Worldwide <br> See Google Pay – [Countries or regions where you can use Google Pay](https://support.google.com/pay/answer/9023773?hl=en#zippy=%2Cpay-online-or-in-apps).  | 
+| [Currencies](/docs/currencies/)  | Multiple  | 
 | [Chargebacks](/docs/chargebacks/)  | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |
 | [Recurring payments](/docs/recurring-payments/) | Yes  |

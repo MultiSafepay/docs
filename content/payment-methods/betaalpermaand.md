@@ -16,8 +16,8 @@ Read how Betaal per Maand can benefit your business on [multisafepay.com](https:
 | Supports | Details |
 |---|---|
 | **Amount limits** | Minimum amount: 250 EUR, maximum amount: 8000 EUR |
-| **Countries**  | The Netherlands  | 
-| **Currencies**  | EUR  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | The Netherlands  | 
+| [Currencies](/docs/currencies/)  | EUR  | 
 | [Chargebacks](/docs/chargebacks/)  | No |
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions)  |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial |

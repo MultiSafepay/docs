@@ -15,8 +15,8 @@ Read how TrustPay can benefit your business on [multisafepay.com](https://www.mu
 
 | Supports | Details | 
 |---|---|
-| **Countries**  | Czech Republic  | 
-| **Currencies**  | CZK | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Czech Republic  | 
+| [Currencies](/docs/currencies/)  | CZK | 
 | [Chargebacks](/docs/chargebacks/)  | No  | 
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial  |

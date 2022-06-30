@@ -15,8 +15,8 @@ Read how AfterPay can benefit your business on [multisafepay.com](https://www.mu
 
 | Supports | Details |
 |---|---|
-| **Countries**  | The Netherlands, Belgium  | 
-| **Currencies**  | EUR  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | The Netherlands, Belgium  | 
+| [Currencies](/docs/currencies/)  | EUR  | 
 | [Chargebacks](/docs/chargebacks/) | No  |
 | [Discounts](/docs/discounts/) | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) <br> Activate at site level in your dashboard. |

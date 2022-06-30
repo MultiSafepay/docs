@@ -20,8 +20,8 @@ Read how Edenred can benefit your business on [multisafepay.com](https://www.mul
 
 | Supports | Details |
 |---|---|
-| **Countries**  | Belgium  | 
-| **Currencies** | EUR  |  
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Belgium  | 
+| [Currencies](/docs/currencies/) | EUR  |  
 | [Chargebacks](/docs/chargebacks/) | No |
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
 | [Refunds](/docs/refund-payments/) | No |
