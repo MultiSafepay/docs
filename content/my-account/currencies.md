@@ -52,18 +52,18 @@ Credit and debit cards support the following currencies (and potentially others 
 
 | | | |
 |---|---|---|
-| AED (United Arab Emirates dirham) | HRK (Croatian kuna) | PHP (Philippine peso) |
-| AUD (Australian dollar) | HUF (Hungarian forint) | PLN (Polish złoty) |
-| BRL (Brazilian real) | ILS (Israeli new shekel) | RON (Romanian leu) |
-| CAD (Canadian dollar) | INR (Indian rupee) | RUB (Russian ruble) |
-| CHF (Swiss franc) | ISK (Icelandic króna) | SEK (Swedish krona) |
-| CLP (Chilean peso) | JPY (Japanese yen) | SGD (Singapore dollar) |
-| CNY (Chinese yuan) | KRW (South Korean won) | THB (Thai baht) |
-| COP (Colombian peso) | MXN (Mexican peso) | TRY (Turkish lira) |
-| CZK (Czech koruna) | MYR (Malaysian ringgit) | TWD (New Taiwan dollar) |
-| DKK (Danish krone) | NOK (Norwegian krone) | USD (United States dollar) |
-| GBP (Pound Sterling) | NZD (New Zealand dollar) | VEF (Venezuelan bolívar) |
-| HKD (Hong Kong dollar) | PEN (Peruvian Sol) | ZAR (South African rand) |
+| AED United Arab Emirates dirham | HRK Croatian kuna | PHP Philippine peso |
+| AUD Australian dollar | HUF Hungarian forint | PLN Polish złoty |
+| BRL Brazilian real | ILS Israeli new shekel | RON Romanian leu |
+| CAD Canadian dollar | INR Indian rupee | RUB Russian ruble |
+| CHF Swiss franc | ISK Icelandic króna | SEK Swedish krona |
+| CLP Chilean peso | JPY Japanese yen | SGD Singapore dollar |
+| CNY Chinese yuan | KRW South Korean won | THB Thai baht |
+| COP Colombian peso | MXN Mexican peso | TRY Turkish lira |
+| CZK Czech koruna | MYR Malaysian ringgit | TWD New Taiwan dollar |
+| DKK Danish krone | NOK Norwegian krone | USD United States dollar |
+| GBP Pound Sterling | NZD New Zealand dollar | VEF Venezuelan bolívar |
+| HKD Hong Kong dollar | PEN Peruvian Sol | ZAR South African rand |
 
 > 📘 About JPY
 > 
