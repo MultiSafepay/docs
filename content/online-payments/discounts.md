@@ -64,7 +64,7 @@ You can apply discounts to orders via your dashboard or the API.
 
 To discount:
 
-- Pay later orders, see API recipe – [Discount a pay later order](/recipes/discount-a-pay-later-order)
+- <<glossary:BNPL>> orders, see API recipe – [Discount a BNPL order](/recipes/discount-a-pay-later-order)
 - Orders with other payment methods, see API recipe – [Discount an order](/recipes/discount-an-order)
 
 

@@ -36,11 +36,11 @@ The status of the refund starts as **reserved**, and changes to **Completed** at
 
 </details>
 
-# Pay later refunds 
+# BNPL refunds 
 
-You can refund pay later orders via:
+You can refund <<glossary:BNPL>> orders via:
 
-- API – [Refund order](/reference/refundorder/) > Pay later refund
+- API – [Refund order](/reference/refundorder/) > BNPL refund
 - Your dashboard
 
 <details id="full-amount-via-dashboard">
@@ -179,7 +179,7 @@ Follow these steps:
 
 - Banking methods: Bancontact (not QR), Bank Transfer, Belfius, CBC/KBC, Dotpay, EPS, Giropay, iDEAL (not QR), SEPA Direct Debit, Sofort, Trustly
 - Credit and debit cards
-- Pay later: in3, Klarna
+- <<glossary:BNPL>>: in3, Klarna
 - Wallets: Alipay, PayPal, WeChat Pay
 
 </details>
@@ -200,7 +200,7 @@ Follow these steps:
 
 - Banking methods: Bancontact (not QR), EPS, Giropay, iDEAL (not QR), SEPA Direct Debit, Sofort, Trustly
 - Credit and debit cards
-- Pay later: in3
+- <<glossary:BNPL>>: in3
 - Wallets: PayPal, WeChat Pay
 
 </details>
@@ -218,7 +218,7 @@ There is a limit on how long after payment was completed that you can refund via
 | 60 days | PayPal |
 | 180 days | All credit and debit cards, Bancontact, Paysafecard |
 | 365 days | Alipay, Trustly, WeChat Pay |
-| 730 days | All pay later methods, all banking methods except Trustly |
+| 730 days | All <<glossary:BNPL>> methods, all banking methods except Trustly |
 
 </details>
 

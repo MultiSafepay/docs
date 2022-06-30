@@ -140,11 +140,11 @@ VVV Cadeaukaart cards can sometimes throw an error where the credit balance appe
 
 If a customer completes a payment and receives this error message, advise them to wait for 1 hour for a confirmation email before trying again to avoid placing two orders.
 
-## Pay later methods
+## BNPL methods
 
-When paying with a gift card and a pay later method, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+When paying with a gift card and a <<glossary:BNPL>> method, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
 
-This is because pay later methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+This is because BNPL methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
 <br>

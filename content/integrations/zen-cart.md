@@ -51,7 +51,7 @@ slug: 'zen-cart'
 
 - Cards: [All](/docs/cards/)
 - Banking methods: All, except iDEAL QR and TrustPay
-- Pay later methods: All, except in3
+- <<glossary:BNPL>>: All, except in3
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card

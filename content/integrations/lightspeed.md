@@ -148,7 +148,7 @@ When you generate a payment link in your MultiSafepay dashboard, you cannot upda
 
 - Cards: [All](/docs/cards/)
 - Banking methods: All, **except** iDEAL QR and TrustPay
-- Pay later methods: All
+- <<glossary:BNPL>>: All
 - Wallets: All
 - Prepaid cards: 
     - Baby gift card
@@ -325,7 +325,7 @@ You can't refund more than the original amount in your backend.
 
 - For refunds created in your Lightspeed backend, a short message appears in the **Notes** section of the order where any errors are explained.
 - Refunds created in your MultiSafepay dashboard are not reported back to Lightspeed. Under **Offline actions**, an error appears: "Already a completed transaction".
-- Some pay later methods:
+- Some <<glossary:BNPL>> orders:
     - Require product IDs for each refunded item. When using product variants, make sure each variant has a unique identifier. If you provide duplicate IDs, we cannot distinguish which items to refund.
     - Do not let you refund a partial amount and a full item in a single request, e.g. a shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
 - You cannot issue multiple refunds for the same amount within 5 minutes of each other, even for different items. 
@@ -364,7 +364,7 @@ Lightspeed single sign-on lets you sign in to the app's **Settings** directly fr
 5. Click **Save**.
 
 > ⚠️ **Attention Dutch merchants** 
-> We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+> We strongly recommend **not** applying surcharges to <<glossary:BNPL>> orders. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 </details>
 

@@ -115,7 +115,7 @@ Release date: Mar 28, 2014
 <br>
 
 - Cards: [All](/docs/cards/)
-- Pay later methods: [E-Invoicing](/docs/e-invoicing/), [Klarna](/docs/klarna/), [Pay After Delivery](/docs/pay-after-delivery/)
+- <<glossary:BNPL>>: [E-Invoicing](/docs/e-invoicing/), [Klarna](/docs/klarna/), [Pay After Delivery](/docs/pay-after-delivery/)
 - Wallets: [PayPal](/docs/paypal/)
 - Banking methods:
     - [Bancontact](/docs/bancontact/)

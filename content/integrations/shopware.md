@@ -83,7 +83,7 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 - Cards: [All](/docs/cards/)
 - Banking methods: All, except iDEAL QR
-- Pay later methods: All
+- <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
@@ -112,7 +112,7 @@ You need to [enable recurring payments](/docs/recurring-payments) in your MultiS
 
 ### Refunds
 
-[Full and partial refunds](/docs/refund-payments/) **except** for pay later methods are supported in your MultiSafepay dashboard and backend.  
+[Full and partial refunds](/docs/refund-payments/) **except** for <<glossary:BNPL>> methods are supported in your MultiSafepay dashboard and backend.  
 You cannot refund more than the original amount in your backend.
 
 <details id="how-to-process-backend-refunds">
@@ -191,7 +191,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 2. Go to **MultiSafepay settings**.
 3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/).
 4. Upload a custom gateway image, if relevant.
-5. For pay later methods, specify whether to include a shopping cart.
+5. For <<glossary:BNPL>> orders, specify whether to include a shopping cart.
 
 For support, email <integration@multisafepay.com>
 
@@ -207,7 +207,7 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 - Cards: [All](/docs/cards/)
 - Banking methods: All
-- Pay later methods: All
+- <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
@@ -233,7 +233,7 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 ### Refunds
 
-You can process [full refunds](/docs/refund-payments/) for all Shopware 5 payment methods **except** pay later methods from your MultiSafepay dashboard and backend.  
+You can process [full refunds](/docs/refund-payments/) for all Shopware 5 payment methods **except** <<glossary:BNPL>> from your MultiSafepay dashboard and backend.  
 You cannot refund more than the original amount in your backend.
 
 ### Session data
@@ -259,7 +259,7 @@ For more information, see Shopware – [Blocking transactions](https://developer
 
 ### Shipping orders
 
-For pay later orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+For <<glossary:BNPL>> orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you change the <<glossary:order status>> to **Delivered** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
 

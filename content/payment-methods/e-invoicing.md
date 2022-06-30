@@ -1,15 +1,15 @@
 ---
 title: 'E-Invoicing'
 category: 6298bd782d1cf4006032e765
-order: 303
+order: 203
 hidden: false
-parentDoc: 62a727567164d301522a67da
+parentDoc: 62bd75142e264000a66d62b5
 slug: 'e-invoicing'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/e-invoicing.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
-E-Invoicing is a MultiSafepay pay later method with automation tools that gives you full control of credit management, the payment process, and customer communications.
+E-Invoicing is a MultiSafepay <<glossary:BNPL>> method with automation tools that gives you full control of credit management, the payment process, and customer communications.
 
 Read how E-Invoicing can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/e-invoicing)
 
@@ -71,7 +71,7 @@ You can activate E-Invoicing yourself in your dashboard.
 # Integration
 
 ### API
-- [Create order](/reference/createorder/) > Pay later order. 
+- [Create order](/reference/createorder/) > BNPL order. 
 - Examples > E-Invoicing direct/redirect.
 - Transactions don't expire.
 
@@ -79,7 +79,7 @@ You can activate E-Invoicing yourself in your dashboard.
 Supported in all [ready-made integrations](/docs/our-integrations/) (direct).
 
 ### Testing
-To test E-Invoicing payments, see [Testing](/docs/testing#pay-later-methods).
+To test E-Invoicing payments, see [Testing](/docs/testing#bnpl-methods).
 <br>
 
 ---

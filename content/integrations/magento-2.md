@@ -168,7 +168,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 1. Sign in to your Magento 2 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment methods** > **Generic gateway**.
 3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/) and upload a custom gateway image.
-4. For pay later methods, specify whether to include a shopping cart.
+4. For <<glossary:BNPL>> orders, specify whether to include a shopping cart.
 
 </details>
 
@@ -351,7 +351,7 @@ You cannot add payment links to order confirmation emails created in your **fron
 
 - Cards: [All](/docs/cards/)
 - Banking methods: All
-- Pay later methods: All
+- <<glossary:BNPL>>: All
 - Wallets: All
 - Prepaid cards:
     - Baby gift card
@@ -395,7 +395,7 @@ We also offer full extensions for [ScandiPWA](/docs/scandipwa/) and [Vue Storefr
 |---|---|
 | MultiSafepay dashboard | - Full and partial refunds <br> - Orders with [Fooman surcharges](/docs/magento-2#surcharges) <br> - Orders from the deprecated plugin |
 | Backend | - Full and partial refunds, and credit memos <br> - You can't refund more than the original amount in your backend |
-| API | - See [Refund order](/reference/refundorder/) > Pay later refund <br> - PATCH requests **not** supported |
+| API | - See [Refund order](/reference/refundorder/) > BNPL refund <br> - PATCH requests **not** supported |
 
 </details>
 
@@ -435,7 +435,7 @@ See [Order lifetimes](#order-lifetimes) above.
 
 ## Shipment
 
-When you ship pay later orders, you need to change the <<glossary:order status>> from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+When you ship <<glossary:BNPL>> orders, you need to change the <<glossary:order status>> from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you do so in your Magento 2 backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
@@ -453,9 +453,9 @@ To apply a surcharge or payment fee to a payment method, you can use the third-p
 
 You can refund orders with a Fooman surcharge applied in your MultiSafepay dashboard, but not from your Magento 2 backend. 
 
-**Pay later methods**
+**BNPL orders**
 
-For Dutch merchants, We strongly recommend **not** applying surcharges to pay later methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). 
+For Dutch merchants, We strongly recommend **not** applying surcharges to <<glossary:BNPL>> orders. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM). 
 
 **Support**
 

@@ -1,7 +1,7 @@
 ---
 title: 'Uncaptured card payments'
 category: 6298bd782d1cf4006032e765
-order: 208
+order: 308
 hidden: false
 parentDoc: 62a727569e389a012f577acd
 excerpt: Capture or decline potentially fraudulent card payments.
