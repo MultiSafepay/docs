@@ -113,6 +113,31 @@ Full and partial refunds (except for pay later methods), and backend orders are 
 
 </details>
 
+## Payment components
+
+The plugin supports [payment components](/docs/payment-components/), which:
+
+- Provide a seamless checkout experience to increase conversion.
+- Encrypt customer payment details for secure processing.
+- Shift responsibility for [PCI DSS compliance](/pci-dss/) to MultiSafepay.
+
+<details id="how-to-activate-payment-components">
+<summary>How to activate payment components</summary>
+<br>
+
+If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
+
+1. Sign in to your OpenCart <<glossary:backend>>.
+2. Go to **Extensions** > Type: **Payments** > **MultiSafepay** > **Edit**.
+3. Select the **Payment methods** tab and then expand the method of your choice.
+4. Enable **Payment Component** and optionally **Tokenization**.
+
+> **Note:** Tokenization** is available only when **Payment Component** is activated.
+
+> **Support:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+
+</details>
+
 ## Payment links
 
 <details id="how-to-generate-payment-links-for-backend-orders">
