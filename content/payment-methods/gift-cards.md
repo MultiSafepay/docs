@@ -18,31 +18,23 @@ Read how gift cards can benefit your business on [multisafepay.com](https://www.
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
 | [Refunds](/docs/refund-payments/) | Paid with gift card only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with gift card **and** another payment method: Full refunds.  |
 
-<details id="supported-gift-cards">
-<summary>Supported gift cards</summary>
-<br>
+### Supported gift cards
 
-| | |
-|---|---|
-| [Baby Cadeaubon](https://www.babycadeaubon.nl/) | [Kids' Cadeau](https://www.dekidscadeaukaart.nl/) |
-| [Beauty Cadeau](https://www.beautycadeau.nl/) | [Klus Cadeau](https://www.kluscadeau.nl/) |
-| [Wellness & Beauty](https://www.wellnessbeautycadeau.nl/) | [Nationale Bioscoopbon](https://www.bioscoopbon.nl/) |
-| [Biercheque](https://biercheque.nl/) | [Nationale Entertainment Card](https://www.nationale-entertainmentcard.nl/) |
-| [Bloemen Cadeaukaart](https://www.bloemen-cadeaukaart.nl/) | [Nationale Tuinbon](https://www.nationale-tuinbon.nl/) |
-| [Boekenbon](https://bestel.boekenbon.nl/) | [Ohmygood Giftcard](https://ohmygood.nl/) |
-| [Boeken Voordeel](https://www.boekenVoordeel.nl/) | [Speelgoedwinkel Cadeaukaart](https://www.speelgoedwinkel.nl/) |
-| [Fashioncheque](https://www.fashioncheque.com/) | [Sport & Fit](https://www.sportenfitcadeau.nl/) |
-| [Fashion Giftcard](https://www.fashion-giftcard.nl/) | [Sports Gift Card](https://www.sports-giftcard.com/) |
-| [Gezondheidsbon](https://www.gezondheidsbon.nl/) | [VVV Cadeaukaart](https://www.vvvcadeaukaarten.nl/) |
-| [Good4fun](https://www.good4fun.nl/) | [Wijn Cadeaukaart](https://www.wijn-cadeaukaart.nl/) |
-| [Huis & Tuin Cadeau](https://www.huisentuincadeau.com/) | [YourGift](https://www.yourgift.nl/) |
+| | | |
+|---|---|---|
+| [Baby Cadeaubon](https://www.babycadeaubon.nl/) | [Gezondheidsbon](https://www.gezondheidsbon.nl/) | [Ohmygood Giftcard](https://ohmygood.nl/) |
+| [Beauty Cadeau](https://www.beautycadeau.nl/) | [Good4fun](https://www.good4fun.nl/) | [Speelgoedwinkel Cadeaukaart](https://www.speelgoedwinkel.nl/) |
+| [Biercheque](https://biercheque.nl/) | [Huis & Tuin Cadeau](https://www.huisentuincadeau.com/) | [Sport & Fit](https://www.sportenfitcadeau.nl/) |
+| [Bloemen Cadeaukaart](https://www.bloemen-cadeaukaart.nl/) | [Kids' Cadeau](https://www.dekidscadeaukaart.nl/)| [Sports Gift Card](https://www.sports-giftcard.com/) |
+| [Boekenbon](https://bestel.boekenbon.nl/) | [Klus Cadeau](https://www.kluscadeau.nl/) | [VVV Cadeaukaart](https://www.vvvcadeaukaarten.nl/) |
+| [Boeken Voordeel](https://www.boekenVoordeel.nl/) | [Nationale Bioscoopbon](https://www.bioscoopbon.nl/) | [Wellness & Beauty](https://www.wellnessbeautycadeau.nl/) |
+| [Fashioncheque](https://www.fashioncheque.com/) | [Nationale Entertainment Card](https://www.nationale-entertainmentcard.nl/) | [Wijn Cadeaukaart](https://www.wijn-cadeaukaart.nl/) |
+| [Fashion Giftcard](https://www.fashion-giftcard.nl/) | [Nationale Tuinbon](https://www.nationale-tuinbon.nl/) | [YourGift](https://www.yourgift.nl/) |
 <br>
 
 > **Note** 
 > Webshop Giftcard no longer offers [open-loop gift cards](#closed-loop-vs-open-loop-cards). 
 > To exchange existing open-loop cards for closed-loop cards, see Webshop Giftcard – [Contact](https://www.webshopgiftcard.nl/contact).
-
-</details>
 
 # Payment flow
 
