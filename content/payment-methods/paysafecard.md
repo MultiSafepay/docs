@@ -9,8 +9,7 @@ slug: 'paysafecard'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Paysafecard.svg" width="45" align="right" style="margin: 20px; max-height: 75px"/>
 
-[Paysafecard](https://www.paysafecard.com/en/) lets customers make online payments using secure prepaid vouchers, available for purchase locally. 
-The funds are available immediately. The customer chooses a fixed voucher amount: 10, 25, 50 or 100 EUR. 
+[Paysafecard](https://www.paysafecard.com/en/) lets customers make online payments using secure prepaid vouchers, available for purchase locally. The funds are available immediately. The customer chooses a fixed voucher amount: 10, 25, 50 or 100 EUR. 
 
 Customers enter the voucher code, without providing any personal payment details. Vouchers for different amounts are available in the local currency in 46 countries.
 

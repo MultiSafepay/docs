@@ -37,10 +37,6 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
-<details id="payment-statuses">
-<summary>Payment statuses</summary>
-<br>
-
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to Santander. <br> To cancel, email <support@multisafepay.com> | Initialized   | Initialized  |
@@ -51,19 +47,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | Santander declined the transaction. <br> Only the customer can contact them to find out why (for privacy and compliance reasons). | Declined   | Declined   |
 | You cancelled the transaction before capture.   | Void   | Void   |
 | The customer didn't complete payment or the funds weren't captured within 1 day. | Expired | Expired  |
-
-</details>
-
-<details id="refund-statuses">
-<summary>Refund statuses</summary>
-<br>
-
-| Description | Order status | Transaction status |
-|---|---|---|
 | **Refunds:** Refund initiated. | Reserved    | Reserved   |
 | **Refunds:** Refund complete.  | Completed      | Completed   |
-
-</details>
 
 # Activation 
 
