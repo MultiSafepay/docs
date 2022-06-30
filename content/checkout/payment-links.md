@@ -1,7 +1,7 @@
 ---
 title: 'Payment links'
-category: 6278c92bf4ad4a00361431b0
-order: 41
+category: 62bd999547298d001abc714c
+order: 20
 hidden: false
 slug: 'payment-links'
 parentDoc: 62a74b731c896700e61e9ef5
