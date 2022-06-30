@@ -90,8 +90,8 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 # How to configure
 
 1. Sign in to your Magento 2 <<glossary:backend>>.
-2. Go to **Stores** > **Configuration** > **MultiSafepay**.  
-
+2. Go to **Stores** > **Configuration** > **MultiSafepay**.
+  
     <details id="specific-settings">
     <summary>Specific settings</summary>
     <br>
@@ -105,8 +105,8 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
     - **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  
         - Make sure you have activated your selected gift cards in your MultiSafepay dashboard.  
         - For more information, see [Gift cards](/docs/gift-cards/).
-
     </details>
+
 <br>
 
 ---
