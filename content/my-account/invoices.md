@@ -21,15 +21,10 @@ For payment methods where MultiSafepay:
 - Collects, we are required to charge VAT on processing fees.
 - Does **not** collect, VAT is applied via the <<glossary:card scheme>> to avoid double taxation. These transactions are included in invoices with zero VAT value.
 
-#### Fees we charge VAT for
+### Fees we charge VAT for
 
-| Type of fee | When charged |
-|---|---|
-| Bank fees | At month end |
-| [Interchange++](/docs/interchange/) | At month end |
-| Payout fees | During processing |
-| Refund fees <br> (Separated into collecting and non-collecting orders) | During processing |
-| Transaction fees | During processing |
+- At month end: Bank fees and [Interchange++](/docs/interchange/) fees
+- During processing: Payout, transaction, and (collecting/non-collecting) refund fees
 
 > **Note:** The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay).
 
