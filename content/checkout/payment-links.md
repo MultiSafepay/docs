@@ -4,7 +4,6 @@ category: 62bd999547298d001abc714c
 order: 20
 hidden: false
 slug: 'payment-links'
-parentDoc: 62a74b731c896700e61e9ef5
 ---
 You can manually generate a link to a [payment page](/docs/payment-pages/) to pass to a customer to complete payment. 
 
