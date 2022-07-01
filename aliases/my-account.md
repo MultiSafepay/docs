@@ -1,3 +1,16 @@
+customer-emails.md:
+- /tools/email-template/customizing-email-templates/
+- /tools/email-template/about-email-templates/
+- /tools/email-template/basic-information-on-email-template/
+- /tools/email-template/customizing-email-templates/
+- /tools/email-template/about-email-templates/
+- /tools/email-template
+- /tools/multisafepay-control/email-template-token
+- /tools/multisafepay-control/using-email-template-tokens
+- /account/multisafepay-account/using-email-template-tokens/
+- /features/email-templates/
+- /account/customer-emails/
+
 create-account.md:
 - /account/test-accounts/
 - /tools/partner-account-control/create-partner-account
