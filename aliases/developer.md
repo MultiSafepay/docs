@@ -19,12 +19,6 @@ http-errors.md:
 - /developer/http-errors/
 - /developers/http-errors/'
 
-iframes.md:
-- /faq/errors-explained/iframe
-- /faq/errors-explained/iframe-errors
-- /errors-explained/iframe-errors/
-- /developer/iframes/
-
 troubleshooting.md:
 - /faq/errors-explained/diagnosing-errors
 - /faq/errors-explained/iframe-errors

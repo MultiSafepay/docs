@@ -50,6 +50,10 @@ payment-pages.md:
 - /payments/checkout/payment-pages/styling-payment-pages/
 - /payment-pages/styling/
 - /payment-pages/
+- /faq/errors-explained/iframe
+- /faq/errors-explained/iframe-errors
+- /errors-explained/iframe-errors/
+- /developer/iframes/
 
 payment-links.md:
 - /tools/payment-link/payment-link-api/

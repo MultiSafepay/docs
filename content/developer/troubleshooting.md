@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting"
 category: 62962df622e99600810c117d
-order: 50
+order: 40
 hidden: false
 slug: 'troubleshooting'
 ---
