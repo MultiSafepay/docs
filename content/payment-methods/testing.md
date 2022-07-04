@@ -70,7 +70,7 @@ You can't test the following methods in your MultiSafepay test account. You can 
 ## Banking methods
 
 <details id="bancontact">
-<summary>Bancontact</summary>
+<summary>How to test Bancontact</summary>
 <br>
 
 **Test a Bancontact order**
@@ -102,7 +102,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 </details>
 
 <details id="bank-transfer">
-<summary>Bank Transfer</summary>
+<summary>How to test Bank Transfer</summary>
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order  
@@ -124,7 +124,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 </details>
 
 <details id="belfius-cbc-kbc-sofort-trustly">
-<summary>Belfius, CBC/KBC, Sofort, Trustly</summary>
+<summary>How to test Belfius, CBC/KBC, Sofort & Trustly</summary>
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order.  
@@ -137,7 +137,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 </details>
 
 <details id="dotpay">
-<summary>Dotpay</summary>
+<summary>How to test Dotpay</summary>
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order  
@@ -154,7 +154,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 </details>
 
 <details id="eps">
-<summary>EPS</summary>
+<summary>How to test EPS</summary>
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order  
@@ -169,7 +169,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 </details>
 
 <details id="giropay">
-<summary>Giropay</summary>
+<summary>How to test Giropay</summary>
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order  
@@ -183,7 +183,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 </details>
 
 <details id="ideal">
-<summary>iDEAL</summary>
+<summary>How to test iDEAL</summary>
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order  
@@ -204,7 +204,7 @@ You can also test the following scenarios:
 </details>
 
 <details id="sepa-direct-debit">
-<summary>SEPA Direct Debit</summary>
+<summary>How to test SEPA Direct Debit</summary>
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order  
@@ -228,7 +228,7 @@ You can also test the following scenarios:
 ## Credit and debit cards
 
 <details id="credit-debit-cards">
-<summary>Credit and debit cards</summary>
+<summary>How to test cards</summary>
 <br>
 
 1. [Create an order](/reference/createorder/) > Card order.  
@@ -266,7 +266,7 @@ You can also test the following scenarios:
 ## BNPL methods
 
 <details id="afterpay">
-<summary>AfterPay</summary>
+<summary>How to test AfterPay</summary>
 <br>
 
 **Request an API key**
@@ -312,7 +312,7 @@ To change the order status, either:
 </details>
 
 <details id="e-invoicing-pay-after-delivery">
-<summary>E-Invoicing, Pay After Delivery</summary>
+<summary>How to test E-Invoicing & Pay After Delivery</summary>
 <br>
 
 **Test an order**
@@ -340,7 +340,7 @@ To test shipping an order, make an [update order](/reference/updateorder/) API r
 </details>
 
 <details id="in3">
-<summary>in3</summary>
+<summary>How to test in3</summary>
 <br>
 
 **Test an in3 order**
@@ -405,7 +405,7 @@ To test refunding an order via the API:
 </details>
 
 <details id="klarna">
-<summary>Klarna</summary>
+<summary>How to test Klarna</summary>
 <br>
 
 **Test credentials**
@@ -460,7 +460,7 @@ You can only test invoicing in your MultiSafepay live account. To do this, chang
 ## Prepaid cards
 
 <details id="edenred">
-<summary>Edenred</summary>
+<summary>How to test Edenred</summary>
 <br>
 
 1. [Create an order](/reference/createorder/) > Prepaid card order  
@@ -472,7 +472,7 @@ You can only test invoicing in your MultiSafepay live account. To do this, chang
 </details>
 
 <details id="gift-cards">
-<summary>Gift cards</summary>
+<summary>How to test gift cards</summary>
 <br>
 
 **Supported gift cards**
@@ -517,7 +517,7 @@ Any other card number receives an "Invalid card number" error.
 ## Wallets
 
 <details id="alipay">
-<summary>Alipay</summary>
+<summary>How to test Alipay</summary>
 <br>
 
 1. [Create an order](/reference/createorder/) > Wallet order  
@@ -531,7 +531,7 @@ Any other card number receives an "Invalid card number" error.
 </details>
 
 <details id="apple-pay">
-<summary>Apple Pay</summary>
+<summary>How to test Apple Pay</summary>
 <br>
 
 **Compatible devices**
@@ -572,7 +572,7 @@ See Apple Pay direct integration – [Test your integration](/docs/apple-pay-int
 </details>
 
 <details id="google-pay">
-<summary>Google Pay</summary>
+<summary>How to test Google Pay</summary>
 <br>
 
 To test Google Pay payments, follow these steps:
@@ -593,7 +593,7 @@ To test Google Pay payments, follow these steps:
 </details>
 
 <details id="paypal">
-<summary>PayPal</summary>
+<summary>How to test PayPal</summary>
 <br>
 
 **Test a PayPal order**
@@ -622,7 +622,7 @@ To change the order status, on the Test platform page, from the **Test scenario*
 </details>
 
 <details id="wechat-pay">
-<summary>WeChat Pay</summary>
+<summary>How to test WeChat Pay</summary>
 <br>
 
 1. [Create order](/reference/createorder/) > Wallet order  
@@ -743,5 +743,11 @@ You can test refunds for the following methods:
 
 > ℹ️ See also
 > If you encounter any issues during testing, see [Troubleshooting](/docs/troubleshooting/).
+
+[block:html]
+{
+  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
+}
+[/block]
 
 [Top of page](#)
