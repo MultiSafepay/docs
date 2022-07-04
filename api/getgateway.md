@@ -10,4 +10,4 @@ slug: getgateway
 2. Under **Path params**, enter the gateway ID.
 3. Click **Try it!**
 
-:warning: Never use a live API key!
+❗️ Never use a live API key!
