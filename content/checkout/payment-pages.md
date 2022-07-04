@@ -77,6 +77,18 @@ It does **not** support the following methods:
 
 You can track the behavior of customers on payment pages through Google Analytics tracking. When the customer is redirected to the payment page, the UA-code is generated and appears in the HTML.
 
+## iframes
+
+An inline frame (iframe) is an HTML document embedded inside another HTML document on a site. 
+ 
+Although MultiSafepay doesn't prohibit embedding payment pages as an `<iframe>`, we do **not** recommend it. This is because:
+
+- Some payment methods may not work for privacy and security reasons. 
+- Some banks use scripts that can't run within `<iframe>` elements.
+- Modern browsers can block them due to stricter security checks.
+
+Instead, we recommend using [payment components](/docs/payment-components/) to embed payments into your site. 
+
 ## Languages
 
 Payment pages are supported in 19 languages. 
