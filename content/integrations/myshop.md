@@ -5,7 +5,7 @@ order: 205
 hidden: false
 parentDoc: 62a9a54aba9800011a8bda88
 slug: 'myshop'
-excerpt: "Technical manual for installing and configuring myShop's free app for MultiSafepay."
+excerpt: "Technical manual for myShop's free app."
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/myShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
