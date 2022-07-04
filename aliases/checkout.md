@@ -6,10 +6,10 @@ payment-components.md:
 - /payment-components/integration/
 
 single.md:
-- /tools/credit-card-component/
-- /payments/checkout/payment-components/
-- /integrations/payment-components/
-- /payment-components/
+- /payment-components/single/
+- /payment-components/single/step-2/
+- /payment-components/single/step-3/
+- /payment-components/single/step-4/
 
 multiple.md:
 - /payment-components/multiple/
