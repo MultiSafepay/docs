@@ -8,6 +8,6 @@ slug: getpaymentmethod
 
 1. Under **Authentication** > **Bearer**, enter an [API key](/sites#site-id-api-key-and-security-code) from your **TEST** account.
 2. Under **Path params**, enter the payment method ID.
-2. Click **Try it!**
+3. Click **Try it!**
 
 ❗️ Never use a live API key!
