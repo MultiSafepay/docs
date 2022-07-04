@@ -73,7 +73,8 @@ slug: 'odoo'
     - Supported currency: Some payment methods process transactions only in EUR. Orders not created in EUR are converted to the required currency, using **Odoo platform currency rate**. This can only be configured by a system administrator.
 
     </details>
-<br>
+
+    <br>
 
 ---
 

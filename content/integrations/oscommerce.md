@@ -85,6 +85,7 @@ Release date: Mar 28, 2014
 - Fixed bug for cancel URL, use hardcoded method like nurl script
 - Fixed bug with single quotes
 
+[Top of page](#)
 ---
 </details>
 

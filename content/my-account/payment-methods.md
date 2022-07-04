@@ -74,6 +74,9 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
     For cards, Apple Pay, and Google Pay, include in the request your: 
     - Average, minimum, and maximum transaction amount 
     - Annual turnover 
+
+    <br>
+
     </details>
 
     <details id="required-information-for-sepa-direct-debit"> 
@@ -86,8 +89,12 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
     - Type of products sold using this payment method
     - Whether you want to accept [recurring payments](/docs/recurring-payments/)
     - Whether any subscriptions are monthly, quarterly, or annual
-    - Any additional information we request
+    - Any additional information we request  
+
+    <br>
+
     We send you an agreement to sign and email back to us.
+    
     </details>
 2. We check your eligibilty and if approved, activate the payment method for your account. 
 3. Once approved, activate the method in your dashboard as below.

@@ -22,6 +22,8 @@ For all payment methods **except** AfterPay, you need your site's test [API key]
 
     - In your <<glossary:backend>>, enter your test site [API key](/docs/sites#site-id-api-key-and-security-code).
     - Place a test order, and then initiate a transaction with the payment method you are testing. 
+    
+    <br>
 
     </details>
     <details id="via-our-api">
@@ -30,7 +32,10 @@ For all payment methods **except** AfterPay, you need your site's test [API key]
   
     - [Create an order](/reference/createorder/) via our API to the test endpoint: `https://testapi.multisafepay.com/v1/json/` 
     - For example requests for specific payment methods, see **Examples**.
-        </details>
+
+    <br>
+
+    </details>
 2. Enter the [test payment details](/docs/testing#test-payment-details) for the payment method you are testing, or select a payment scenario.
 3. Complete the test payment.
 4. To check the transaction details, sign in to your [test dashboard](https://testmerchant.multisafepay.com/).

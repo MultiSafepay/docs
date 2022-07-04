@@ -23,6 +23,8 @@ With direct integration, the **Google Pay** button appears in your checkout page
 - Opera
 - UCWeb UC Browser
 
+---
+
 </details>
 
 - Google Pay must be [activated in your MultiSafepay account](/docs/google-pay#activation).
