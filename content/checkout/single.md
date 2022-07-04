@@ -69,7 +69,9 @@ Add the following elements to your checkout page:
     |customer.locale | The customer's language. Sets the language of the payment component UI. Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`. Supported languages: `EN`, `ES`, `FR`, `IT`, `NL`. **Optional**.|
     | customer.reference| Your unique customer reference. **Required for recurring payments**. |
     | recurring.model| The [tokenization model](/docs/recurring-payments/). **Required for recurring payments**. |
-    | template.settings.embed_mode| A template designed to blend in seamlessly with your ecommerce platform. Format:&nbsp;Boolean. **Optional**. |
+    | template.settings.embed_mode| A template designed to blend in seamlessly with your ecommerce platform. Format: Boolean. **Optional**. |
+
+    <br>
 
     </details>
 
@@ -107,6 +109,8 @@ Add the following elements to your checkout page:
 
     To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email <sales@multisafepay.com>
 
+    ---
+    
     </details>
 
     **Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and transaction amount are supported. 

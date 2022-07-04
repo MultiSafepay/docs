@@ -39,8 +39,13 @@ You can apply discounts to orders via your dashboard or the API.
     - Click **Add**.
     - Check that the **New total** amount is correct. 
     - To display a field to enter add any relevant comments, click **Description**.
-    - Click **Save item changes**.  
-      A new transaction is generated and the <<glossary:order status>> is **Completed**.
+    - Click **Save item changes**.
+
+    <br>
+    
+    A new transaction is generated and the <<glossary:order status>> is **Completed**.
+
+    <br>
 
     </details>
 
@@ -56,8 +61,11 @@ You can apply discounts to orders via your dashboard or the API.
     - Check that the **New total** amount is correct. 
     - To display a field to enter add any relevant comments, click **Description**.
     - Click **Save item changes**.  
-      A new transaction is generated and the <<glossary:order status>> is **Completed**.
 
+    <br>
+    
+    A new transaction is generated and the <<glossary:order status>> is **Completed**.
+    
     </details>
 
 ## How to discount via the API 

@@ -124,6 +124,8 @@ To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – [Ha
     4. Enter the dummy IBAN and select the same bank as before, e.g. ING Group.
     5. Click **Save**.  
         You can now register all transactions linked to this IBAN.
+    
+    <br>
 
     </details>
 

@@ -36,7 +36,7 @@ To edit the default styling of the component:
 
     </details>
 
-<img src=""https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/CCC_CSS.svg" align ="center"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/CCC_CSS.svg" width="500" align="center"/>
 
 ### Example
 

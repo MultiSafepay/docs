@@ -87,6 +87,8 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
     | template.settings.embed_mode| A template designed to blend in seamlessly with your ecommerce platform. Format:&nbsp;Boolean. **Optional**. |
     |payment_options.settings.connect.group_cards| Groups all credit card payment methods as a single option in the list of payment methods. Format:&nbsp;Boolean. **Optional**. Default: `false`.|
 
+    <br>
+
     </details>
 
     <details id="how-to-process-recurring-payments">
@@ -123,8 +125,10 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
     To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email <sales@multisafepay.com>
 
-    </details>
+    ---
 
+    </details>
+    
     > **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and transaction value. 
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:

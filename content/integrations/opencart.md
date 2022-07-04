@@ -79,6 +79,8 @@ The following patches for third-party themes and extensions are available:
 | [EU VAT Compliant](https://shop.openwebcreations.eu/eu-vat-compliant) | [Download OCMOD](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-owc-euvat-reverse-charge-vat-exempt.ocmod.zip) |
 | [PayCharge Free for OpenCart 2.3.X](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=5040) | [Download OCMOD](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-paycharge-free-version-6.1-opencart-2.3.X.ocmod.zip) |
 
+  <br>
+  
 The Integration Team will do their best to provide support for third-party plugins and premium themes. Email <integration@multisafepay.com>
 
 </details>
