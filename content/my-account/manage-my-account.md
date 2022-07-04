@@ -26,3 +26,6 @@ slug: 'manage-account'
 
 - [Email styling](/docs/email-styling/)
 - [IBANs](/docs/ibans/)
+
+---
+[Top of page](#)

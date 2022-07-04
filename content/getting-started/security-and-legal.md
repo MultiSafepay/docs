@@ -5,10 +5,18 @@ order: 200
 hidden: false
 slug: 'security-and-legal'
 ---
-This section contains information about:
+**Payment regulations**
 
 - [GDPR](/docs/gdpr/)
 - [PCI DSS](/docs/pci-dss/) 
 - [PSD2](/docs/psd2/) 
-- [Risk and fraud](/docs/risk-fraud/) 
+
+---
+
+**Learn about** 
+
+- [Risk and fraud](/docs/risk-fraud/)
 - [Surcharges](/docs/surcharges/)
+
+---
+[Top of page](#)
