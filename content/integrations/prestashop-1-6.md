@@ -280,7 +280,7 @@ Release date: Apr 15, 2016
 14.	Podium
 15.	Sportenfit
 16.	Webshopgiftcard
-17.	Welness-gift card
+17.	Wellness-gift card
 18.	Wijncadeau
 19.	Winkelcheque
 
@@ -367,6 +367,8 @@ Release date: Nov 11, 2014
 - Fixed bug with wrong Shipping price calculation.
 - Fixed bug to show payment method when the Min and Max amount in the config are equal.
 
+[Top of page](#)
+---
 </details>
 
 # Prerequisites

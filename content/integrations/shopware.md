@@ -139,6 +139,7 @@ You can update the plugin in your backend and the CMS marketplace, or via using 
 
 </details>
 
+[Top of page](#)
 ---
 
 # Shopware 5

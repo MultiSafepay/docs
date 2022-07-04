@@ -201,9 +201,13 @@ By default the logos are 16 px high. In most themes, footer logos are found in t
 **How to resize logos**
 
 1. In the JavaScript for displaying the logos, locate the following `img` element near the end of the script:
-    ```<img src="${msplt[e]}" alt="${e}" />```
+    ```
+    <img src="${msplt[e]}" alt="${e}" />
+    ```
 2. Specify the height and width in pixels as required, e.g.:
-    ```<img height="16" width="37" src="${msplt[e]}" alt="${e}" />```
+    ```
+    <img height="16" width="37" src="${msplt[e]}" alt="${e}" />
+    ```
 
 **How to add missing logos**  
 
@@ -380,7 +384,7 @@ We recommend upgrading from our deprecated core integration to the Lightspeed ap
 <summary>How to upgrade to the new app</summary>
 <br>
 
-1. In the [Lightspeed app manual](/docs/lightspeed#how-to-install, follow the steps to install the app.
+1. In the [Lightspeed app manual](/docs/lightspeed#how-to-install), follow the steps to install the app.
 2. Place a test order to make sure it's working properly.
 3. Open the core integration, and then [disable the payment provider](/docs/lightspeed#how-to-disable-core-integration).
 

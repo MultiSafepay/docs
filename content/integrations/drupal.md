@@ -124,6 +124,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 For how to upgrade Drupal 8 to Drupal 9, see Drupal - [Upgrading from Drupal 8 to Drupal 9 or higher](https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher).
 <br>
 
+[Top of page](#)
 ---
 
 # Drupal 7

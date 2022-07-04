@@ -55,6 +55,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
 
     **Transaction completed email (to merchant)**  
     For notifying you that a customer has successfully completed a payment.
+    <br>
 
     </details>
 
@@ -76,6 +77,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
     1. Click the **Link** icon.
     2. Select the link type: URL, anchor link, or mail to link
     3. Fill in the additional fields as required, and then click **OK**. 
+    <br>
 
     </details>
 
@@ -155,6 +157,8 @@ MultiSafepay can help you manage your email communications with customers. Use o
     | VATNUMBER                     | Your VAT number given in your MultiSafepay account |
     | ZIPCODE                       | Your company zip code |
 
+    <br>
+
     </details>
     <details id="how-to-add-your-logo">
     <summary>How to add your logo</summary>
@@ -171,6 +175,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
     7. In the **Image properties** window, in the **URL field**, paste the URL.
     8. Edit other parameters as required: height, border, horizontal space, vertical space, and alignment.
     9. Click **OK**. 
+    <br>
 
     </details>
 
