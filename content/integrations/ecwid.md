@@ -39,7 +39,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [American Express](/docs/cards), [Mastercard](/docs/cards/), [Visa](/docs/cards/) and all co-branded cards
+- Cards: [American Express](/docs/card-payments), [Mastercard](/docs/card-payments/), [Visa](/docs/card-payments/) and all co-branded cards
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
     - [Bank Transfer](/docs/bank-transfer/)

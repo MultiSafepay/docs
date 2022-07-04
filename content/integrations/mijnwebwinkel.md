@@ -33,7 +33,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [Mastercard](/docs/cards/) and [Visa](/docs/cards/)
+- Cards: [Mastercard](/docs/card-payments/) and [Visa](/docs/card-payments/)
 - <<glossary:BNPL>>: [Klarna](/docs/klarna/)
 - Wallets: [PayPal](/docs/paypal/)
 - Banking methods: 
@@ -41,7 +41,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
     - [Bank Transfer](/docs/bank-transfer/)
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
-    - [Maestro](/docs/cards/)
+    - [Maestro](/docs/card-payments/)
     - [SEPA Direct Debit](/docs/sepa-direct-debit/)
     - [Sofort](/docs/sofort/)
 - Prepaid cards:

@@ -72,7 +72,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - Banking methods: All
 - <<glossary:BNPL>>: All, **except** in3
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
@@ -177,7 +177,7 @@ For how to upgrade Drupal 8 to Drupal 9, see Drupal - [Upgrading from Drupal 8 t
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - Banking methods: All, **except** iDEAL QR and Trustly
 - <<glossary:BNPL>>: [E-Invoicing](/docs/e-invoicing/), [Klarna](/docs/klarna/), [Pay After Delivery](/docs/pay-after-delivery/)
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)

@@ -146,7 +146,7 @@ When you generate a payment link in your MultiSafepay dashboard, you cannot upda
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - Banking methods: All, **except** iDEAL QR and TrustPay
 - <<glossary:BNPL>>: All
 - Wallets: All

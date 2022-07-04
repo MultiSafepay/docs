@@ -115,7 +115,7 @@ Release date: Mar 28, 2014
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - <<glossary:BNPL>>: [E-Invoicing](/docs/e-invoicing/), [Klarna](/docs/klarna/), [Pay After Delivery](/docs/pay-after-delivery/)
 - Wallets: [PayPal](/docs/paypal/)
 - Banking methods:

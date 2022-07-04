@@ -74,7 +74,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/), **except** Postepay and V Pay
+- Cards: [All](/docs/card-payments/), **except** Postepay and V Pay
 - Banking methods: All
 - <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/payment-methods/paypal/)

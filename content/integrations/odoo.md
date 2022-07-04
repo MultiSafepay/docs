@@ -101,7 +101,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Banking methods:
