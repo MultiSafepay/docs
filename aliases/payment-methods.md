@@ -1,989 +1,987 @@
 banking-methods.md:
-- /payment-methods/
-- /payments/methods/banks/
-- /payment-methods/banks/
-- /support-tab/magento2/payment-methods/
+/payment-methods/
+/payments/methods/banks/
+/payment-methods/banks/
+/support-tab/magento2/payment-methods/
 
 bancontact.md:
-- /support-tab/magento2/payment-methods/bancontact
-- /payment-methods/banks/bancontact
-- /payments/methods/banks/bancontact/
-- /payments/methods/banks/bancontact-qr/
-- /payment-methods/bancontact/what-is-bancontact/
-- /payments/methods/banks/bancontact/about/
-- /payments/methods/bancontact/product-rules/
-- /payments/methods/bancontact-qr/product-rules/
-- /payment-methods/bancontact/product-rules/
-- /payment-methods/bancontact/overview/
-- /payment-methods/bancontact/activate-bancontact/
-- /payments/methods/banks/bancontact/activation/
-- /payments/methods/banks/bancontact-qr/activation/
-- /payment-methods/bancontact/activation/
-- /payment-methods/bancontact/bancontact-testing
-- /payments/methods/banks/bancontact/integration-and-testing/
-- /payments/methods/banks/bancontact-qr/integration-and-testing/
-- /payment-methods/bancontact/integration-testing/
-- /payment-methods/bancontact/how-does-bancontact-work/
-- /payments/methods/banks/bancontact/payment-flow/
-- /payments/methods/banks/bancontact-qr/payment-flow/
-- /payment-methods/bancontact/payment-flow/
-- /payment-methods/banks/bancontact/
-- /payment-methods/bancontact/
+/support-tab/magento2/payment-methods/bancontact
+/payment-methods/banks/bancontact
+/payments/methods/banks/bancontact/
+/payments/methods/banks/bancontact-qr/
+/payment-methods/bancontact/what-is-bancontact/
+/payments/methods/banks/bancontact/about/
+/payments/methods/bancontact/product-rules/
+/payments/methods/bancontact-qr/product-rules/
+/payment-methods/bancontact/product-rules/
+/payment-methods/bancontact/overview/
+/payment-methods/bancontact/activate-bancontact/
+/payments/methods/banks/bancontact/activation/
+/payments/methods/banks/bancontact-qr/activation/
+/payment-methods/bancontact/activation/
+/payment-methods/bancontact/bancontact-testing
+/payments/methods/banks/bancontact/integration-and-testing/
+/payments/methods/banks/bancontact-qr/integration-and-testing/
+/payment-methods/bancontact/integration-testing/
+/payment-methods/bancontact/how-does-bancontact-work/
+/payments/methods/banks/bancontact/payment-flow/
+/payments/methods/banks/bancontact-qr/payment-flow/
+/payment-methods/bancontact/payment-flow/
+/payment-methods/banks/bancontact/
+/payment-methods/bancontact/
 
 bank-transfer.md:
-- /support-tab/magento2/payment-methods/bank-transfer
-- /payment-methods/banks/direct-bank-transfer/
-- /payment-methods/banks/bank-transfer
-- /payments/methods/banks/bank-transfer/
-- /payment-methods/banks/bank-transfer/
-- /payment-methods/bank-transfer/what-is-bank-transfer/
-- /payments/methods/banks/bank-transfer/about/
-- /payments/methods/bank-transfer/product-rules/
-- /payment-methods/bank-transfer/product-rules/
-- /payment-methods/bank-transfer/overview/
-- /payment-methods/bank-transfer/how-does-bank-transfer-work/
-- /payments/methods/banks/bank-transfer/payment-flow/
-- /payment-methods/bank-transfer/payment-flow/
-- /payment-methods/bancontact/bank-transfer-testing
-- /payments/methods/banks/bank-transfer/integration-and-testing/
-- /payment-methods/bank-transfer/integration-testing/
-- /bank-transfer/ongematchte-bankoverschrijvingen/
-- /bank-transfer/unzugeordneten-banküberweisungen/
-- /bank-transfer/unmatched-payments/
-- /payment-methods/bank-transfer/
+/support-tab/magento2/payment-methods/bank-transfer
+/payment-methods/banks/direct-bank-transfer/
+/payment-methods/banks/bank-transfer
+/payments/methods/banks/bank-transfer/
+/payment-methods/banks/bank-transfer/
+/payment-methods/bank-transfer/what-is-bank-transfer/
+/payments/methods/banks/bank-transfer/about/
+/payments/methods/bank-transfer/product-rules/
+/payment-methods/bank-transfer/product-rules/
+/payment-methods/bank-transfer/overview/
+/payment-methods/bank-transfer/how-does-bank-transfer-work/
+/payments/methods/banks/bank-transfer/payment-flow/
+/payment-methods/bank-transfer/payment-flow/
+/payment-methods/bancontact/bank-transfer-testing
+/payments/methods/banks/bank-transfer/integration-and-testing/
+/payment-methods/bank-transfer/integration-testing/
+/bank-transfer/ongematchte-bankoverschrijvingen/
+/bank-transfer/unzugeordneten-banküberweisungen/
+/bank-transfer/unmatched-payments/
+/payment-methods/bank-transfer/
 
 belfius.md:
-- /support-tab/magento2/payment-methods/belfius
-- /payment-methods/banks/belfius
-- /payment-methods/banks/belfius/
-- /payments/methods/banks/belfius/
-- /payment-methods/belfius/what-is-belfius/
-- /payments/methods/banks/belfius/about/
-- /payments/methods/belfius/product-rules/
-- /payment-methods/belfius/product-rules/
-- /payment-methods/belfius/overview/
-- /payment-methods/belfius/activate-belfius/
-- /payments/methods/banks/belfius/activation/
-- /payment-methods/belfius/activation/
-- /payment-methods/belfius/how-does-belfius-work/
-- /payments/methods/banks/belfius/payment-flow/
-- /payment-methods/belfius/payment-flow/
-- /payment-methods/belfius/belfius-testing
-- /payments/methods/banks/belfius/integration-and-testing/
-- /payment-methods/belfius/integration-testing/
-- /payment-methods/belfius/
+/support-tab/magento2/payment-methods/belfius
+/payment-methods/banks/belfius
+/payment-methods/banks/belfius/
+/payments/methods/banks/belfius/
+/payment-methods/belfius/what-is-belfius/
+/payments/methods/banks/belfius/about/
+/payments/methods/belfius/product-rules/
+/payment-methods/belfius/product-rules/
+/payment-methods/belfius/overview/
+/payment-methods/belfius/activate-belfius/
+/payments/methods/banks/belfius/activation/
+/payment-methods/belfius/activation/
+/payment-methods/belfius/how-does-belfius-work/
+/payments/methods/banks/belfius/payment-flow/
+/payment-methods/belfius/payment-flow/
+/payment-methods/belfius/belfius-testing
+/payments/methods/banks/belfius/integration-and-testing/
+/payment-methods/belfius/integration-testing/
+/payment-methods/belfius/
 
 cbc-kbc.md:
-- /support-tab/magento2/payment-methods/cbc
-- /payment-methods/banks/cbc
-- /payments/methods/banks/kbc/
-- /payments/methods/banks/cbc-kbc/
-- /payments/methods/banks/cbc/
-- /payment-methods/cbc/what-is-cbc/
-- /payments/methods/banks/cbc/about/
-- /payments/methods/cbc/product-rules/
-- /payments/methods/kbc/product-rules/
-- /payments/methods/cbc-kbc/product-rules/
-- /payment-methods/cbc-kbc/product-rules/
-- /payment-methods/cbc-kbc/overview/
-- /payment-methods/cbc/how-does-cbc-work/
-- /payments/methods/banks/cbc/payment-flow/
-- /payments/methods/banks/kbc/payment-flow/
-- /payments/methods/banks/cbc-kbc/payment-flow/
-- /payment-methods/cbc-kbc/payment-flow/
-- /payment-methods/cbc/activate-cbc/
-- /payments/methods/banks/kbc/activation/
-- /payment-methods/cbc-kbc/activation/
-- /payment-methods/cbc/cbc-testing
-- /payments/methods/banks/kbc/integration-and-testing/
-- /payments/methods/banks/cbc-kbc/integrating-testing
-- /payment-methods/cbc-kbc/integration-testing/
-- /payment-methods/banks/cbc/
-- /payment-methods/banks/kbc/
-- /payment-methods/cbc-kbc/
+/support-tab/magento2/payment-methods/cbc
+/payment-methods/banks/cbc
+/payments/methods/banks/kbc/
+/payments/methods/banks/cbc-kbc/
+/payments/methods/banks/cbc/
+/payment-methods/cbc/what-is-cbc/
+/payments/methods/banks/cbc/about/
+/payments/methods/cbc/product-rules/
+/payments/methods/kbc/product-rules/
+/payments/methods/cbc-kbc/product-rules/
+/payment-methods/cbc-kbc/product-rules/
+/payment-methods/cbc-kbc/overview/
+/payment-methods/cbc/how-does-cbc-work/
+/payments/methods/banks/cbc/payment-flow/
+/payments/methods/banks/kbc/payment-flow/
+/payments/methods/banks/cbc-kbc/payment-flow/
+/payment-methods/cbc-kbc/payment-flow/
+/payment-methods/cbc/activate-cbc/
+/payments/methods/banks/kbc/activation/
+/payment-methods/cbc-kbc/activation/
+/payment-methods/cbc/cbc-testing
+/payments/methods/banks/kbc/integration-and-testing/
+/payments/methods/banks/cbc-kbc/integrating-testing
+/payment-methods/cbc-kbc/integration-testing/
+/payment-methods/banks/cbc/
+/payment-methods/banks/kbc/
+/payment-methods/cbc-kbc/
 
 dotpay.md:
-- /support-tab/magento2/payment-methods/dotpay
-- /payment-methods/banks/dotpay
-- /payments/methods/banks/dotpay/
-- /payment-methods/dotpay/dotpay-what-is-it/
-- /payments/methods/banks/dotpay/about/
-- /payments/methods/dotpay/product-rules/
-- /payment-methods/dotpay/product-rules/
-- /payment-methods/dotpay/overview/
-- /payment-methods/dotpay/activate-dotpay/
-- /payments/methods/banks/dotpay/activation/
-- /payment-methods/dotpay/activation/
-- /payment-methods/dotpay/dotpay-how-does-it-work/
-- /payments/methods/banks/dotpay/payment-flow/
-- /payment-methods/dotpay/payment-flow/
-- /payment-methods/dotpay/dotpay-testing
-- /payments/methods/banks/dotpay/integration-and-testing/
-- /payment-methods/dotpay/integration-testing/
-- /payment-methods/banks/dotpay/
-- /payment-methods/dotpay/
+/support-tab/magento2/payment-methods/dotpay
+/payment-methods/banks/dotpay
+/payments/methods/banks/dotpay/
+/payment-methods/dotpay/dotpay-what-is-it/
+/payments/methods/banks/dotpay/about/
+/payments/methods/dotpay/product-rules/
+/payment-methods/dotpay/product-rules/
+/payment-methods/dotpay/overview/
+/payment-methods/dotpay/activate-dotpay/
+/payments/methods/banks/dotpay/activation/
+/payment-methods/dotpay/activation/
+/payment-methods/dotpay/dotpay-how-does-it-work/
+/payments/methods/banks/dotpay/payment-flow/
+/payment-methods/dotpay/payment-flow/
+/payment-methods/dotpay/dotpay-testing
+/payments/methods/banks/dotpay/integration-and-testing/
+/payment-methods/dotpay/integration-testing/
+/payment-methods/banks/dotpay/
+/payment-methods/dotpay/
 
 eps.md:
-- /support-tab/magento2/payment-methods/eps
-- /payment-methods/banks/eps
-- /payments/methods/banks/eps/
-- /payment-methods/eps/what-is-eps/
-- /payments/methods/banks/eps/about/
-- /payments/methods/eps/product-rules/
-- /payment-methods/eps/product-rules/
-- /payment-methods/eps/overview/
-- /payment-methods/eps/how-does-eps-work/
-- /payments/methods/banks/eps/payment-flow/
-- /payment-methods/eps/payment-flow/
-- /payment-methods/eps/eps-testing
-- /payments/methods/banks/eps/integration-and-testing/
-- /payment-methods/eps/integration-testing/
-- /payment-methods/banks/eps/
-- /payment-methods/eps/
+/support-tab/magento2/payment-methods/eps
+/payment-methods/banks/eps
+/payments/methods/banks/eps/
+/payment-methods/eps/what-is-eps/
+/payments/methods/banks/eps/about/
+/payments/methods/eps/product-rules/
+/payment-methods/eps/product-rules/
+/payment-methods/eps/overview/
+/payment-methods/eps/how-does-eps-work/
+/payments/methods/banks/eps/payment-flow/
+/payment-methods/eps/payment-flow/
+/payment-methods/eps/eps-testing
+/payments/methods/banks/eps/integration-and-testing/
+/payment-methods/eps/integration-testing/
+/payment-methods/banks/eps/
+/payment-methods/eps/
 
 giropay.md:
-- /support-tab/magento2/payment-methods/giropay
-- /payment-methods/banks/giropay
-- /payments/methods/banks/giropay/
-- /payment-methods/giropay/what-is-giropay/
-- /payments/methods/banks/giropay/about/
-- /payments/methods/giropay/product-rules/
-- /payment-methods/giropay/product-rules/
-- /payment-methods/giropay/overview/
-- /payment-methods/giropay/how-does-giropay-work/
-- /payments/methods/banks/giropay/payment-flow/
-- /payment-methods/giropay/payment-flow/
-- /payment-methods/giropay/giropay-testing
-- /payments/methods/banks/giropay/integration-and-testing/
-- /payment-methods/giropay/integration-testing/
-- /payment-methods/giropay/activate-giropay/
-- /payments/methods/banks/giropay/activation/
-- /payment-methods/giropay/activation/
-- /payment-methods/banks/giropay/
-- /payment-methods/giropay/
+/support-tab/magento2/payment-methods/giropay
+/payment-methods/banks/giropay
+/payments/methods/banks/giropay/
+/payment-methods/giropay/what-is-giropay/
+/payments/methods/banks/giropay/about/
+/payments/methods/giropay/product-rules/
+/payment-methods/giropay/product-rules/
+/payment-methods/giropay/overview/
+/payment-methods/giropay/how-does-giropay-work/
+/payments/methods/banks/giropay/payment-flow/
+/payment-methods/giropay/payment-flow/
+/payment-methods/giropay/giropay-testing
+/payments/methods/banks/giropay/integration-and-testing/
+/payment-methods/giropay/integration-testing/
+/payment-methods/giropay/activate-giropay/
+/payments/methods/banks/giropay/activation/
+/payment-methods/giropay/activation/
+/payment-methods/banks/giropay/
+/payment-methods/giropay/
 
 ideal.md:
-- /support-tab/magento2/payment-methods/ideal
-- /payment-methods/ideal/
-- /payment-methods/banks/ideal/
-- /payments/methods/banks/ideal/
-- /payments/methods/banks/idealqr/
-- /payment-methods/ideal/what-is-ideal/
-- /payments/methods/banks/ideal/about/
-- /payments/methods/ideal/product-rules/
-- /payments/methods/ideal-qr/product-rules/
-- /payment-methods/ideal/product-rules/
-- /payment-methods/ideal/overview/
-- /payment-methods/ideal/how-does-ideal-work/
-- /payments/methods/banks/ideal/payment-flow/
-- /payments/methods/banks/idealqr/payment-flow/
-- /payment-methods/ideal/payment-flow/
-- /payment-methods/ideal/ideal-testing
-- /payments/methods/banks/ideal/integration-and-testing/
-- /payments/methods/banks/idealqr/integration-and-testing/
-- /payment-methods/ideal/testing/
-- /payment-methods/ideal/integration-testing/
-- /payment-methods/ideal/activate-ideal/
-- /payments/methods/banks/ideal/activation/
-- /payments/methods/banks/idealqr/activation/
-- /payment-methods/ideal/activation/
-- /payment-methods/banks/idealqr/
-- /payment-methods/ideal/
+/support-tab/magento2/payment-methods/ideal
+/payment-methods/ideal/
+/payment-methods/banks/ideal/
+/payments/methods/banks/ideal/
+/payments/methods/banks/idealqr/
+/payment-methods/ideal/what-is-ideal/
+/payments/methods/banks/ideal/about/
+/payments/methods/ideal/product-rules/
+/payments/methods/ideal-qr/product-rules/
+/payment-methods/ideal/product-rules/
+/payment-methods/ideal/overview/
+/payment-methods/ideal/how-does-ideal-work/
+/payments/methods/banks/ideal/payment-flow/
+/payments/methods/banks/idealqr/payment-flow/
+/payment-methods/ideal/payment-flow/
+/payment-methods/ideal/ideal-testing
+/payments/methods/banks/ideal/integration-and-testing/
+/payments/methods/banks/idealqr/integration-and-testing/
+/payment-methods/ideal/testing/
+/payment-methods/ideal/integration-testing/
+/payment-methods/ideal/activate-ideal/
+/payments/methods/banks/ideal/activation/
+/payments/methods/banks/idealqr/activation/
+/payment-methods/ideal/activation/
+/payment-methods/banks/idealqr/
+/payment-methods/ideal/
 
 ing-home-pay.md:
-- /support-tab/magento2/payment-methods/ing-home-pay
-- /payment-methods/ing-home-pay/
-- /payment-methods/banks/ing-home-pay
-- /payments/methods/banks/ing-home-pay/
-- /payment-methods/ing-home-pay/activation/
-- /payment-methods/ing-home-pay/integration-testing/
-- /payment-methods/ing-home-pay/payment-flow/
-- /payment-methods/ing-home-pay/product-rules/
-- /payment-methods/ing-home-pay/
+/support-tab/magento2/payment-methods/ing-home-pay
+/payment-methods/ing-home-pay/
+/payment-methods/banks/ing-home-pay
+/payments/methods/banks/ing-home-pay/
+/payment-methods/ing-home-pay/activation/
+/payment-methods/ing-home-pay/integration-testing/
+/payment-methods/ing-home-pay/payment-flow/
+/payment-methods/ing-home-pay/product-rules/
+/payment-methods/ing-home-pay/
 
 request-to-pay.md:
-- /support-tab/magento2/payment-methods/request-to-pay
-- /payment-methods/banks/request-to-pay
-- /payments/methods/banks/request-to-pay/
-- /payment-methods/bancontact/what-is-request-to-pay/
-- /payments/methods/banks/request-to-pay/about/
-- /payments/methods/request-to-pay/product-rules/
-- /payment-methods/request-to-pay/product-rules/
-- /payment-methods/request-to-pay/overview/
-- /payment-methods/bancontact/how-does-request-to-pay-work/
-- /payments/methods/banks/request-to-pay/payment-flow/
-- /payment-methods/request-to-pay/payment-flow/
-- /payment-methods/bancontact/request-to-pay-testing
-- /payments/methods/banks/request-to-pay/integration-and-testing/
-- /payment-methods/request-to-pay/integration-testing/
-- /payment-methods/bancontact/how-to-activate-request-to-pay/
-- /payments/methods/banks/request-to-pay/activation/
-- /payment-methods/request-to-pay/activation/
-- /payment-methods/request-to-pay/
+/support-tab/magento2/payment-methods/request-to-pay
+/payment-methods/banks/request-to-pay
+/payments/methods/banks/request-to-pay/
+/payment-methods/bancontact/what-is-request-to-pay/
+/payments/methods/banks/request-to-pay/about/
+/payments/methods/request-to-pay/product-rules/
+/payment-methods/request-to-pay/product-rules/
+/payment-methods/request-to-pay/overview/
+/payment-methods/bancontact/how-does-request-to-pay-work/
+/payments/methods/banks/request-to-pay/payment-flow/
+/payment-methods/request-to-pay/payment-flow/
+/payment-methods/bancontact/request-to-pay-testing
+/payments/methods/banks/request-to-pay/integration-and-testing/
+/payment-methods/request-to-pay/integration-testing/
+/payment-methods/bancontact/how-to-activate-request-to-pay/
+/payments/methods/banks/request-to-pay/activation/
+/payment-methods/request-to-pay/activation/
+/payment-methods/request-to-pay/
 
 sepa-direct-debit.md:
-- /support-tab/magento2/payment-methods/direct-debit
-- /payment-methods/direct-debit/
-- /payment-methods/banks/direct-debit/
-- /payment-methods/banks/sepa-direct-debit
-- /payments/methods/banks/sepa-direct-debit/
-- /payment-methods/sepa-direct-debit/what-is-sepa-direct-debit/
-- /payment-methods/direct-debit/what-is-direct-debit/
-- /payment-methods/banks/direct-debit/what-is-direct-debit/
-- /payments/methods/banks/sepa-direct-debit/about/
-- /payments/methods/sepa/product-rules/
-- /payment-methods/sepa-direct-debit/product-rules/
-- /payment-methods/sepa-direct-debit/overview/
-- /payment-methods/direct-debit/how-does-direct-debit-work/
-- /payment-methods/banks/direct-debit/how-does-direct-debit-work/
-- /payment-methods/sepa-direct-debit/how-does-sepa-direct-debit-work/
-- /payment-methods/sepa-direct-debit/reason-codes/
-- /payments/methods/banks/sepa-direct-debit/payment-flow/
-- /payments/sepa-direct-debit/reason-codes
-- /payment-methods/sepa-direct-debit/payment-flow/
-- /payment-methods/direct-debit/activate-direct-debit/
-- /payment-methods/banks/direct-debit/activate-direct-debit/
-- /payment-methods/sepa-direct-debit/activate-sepa-direct-debit/
-- /payments/methods/banks/sepa-direct-debit/activation/
-- /payment-methods/sepa-direct-debit/activation/
-- /payment-methods/sepa-direct-debit/sepa-direct-debit-testing
-- /payments/methods/banks/sepa-direct-debit/integration-and-testing/
-- /payment-methods/sepa-direct-debit/integration-testing/
-- /payment-methods/sepa-direct-debit/chargebacks/
-- /payment-methods/sepa-direct-debit/refund-risks/
-- /payment-methods/sepa-direct-debit/reason-codes/
-- /payments/sepa-direct-debit/reason-codes
-- /payment-methods/sepa-direct-debit/reason-codes/
-- /payment-methods/banks/sepa-direct-debit/
-- /payment-methods/sepa-direct-debit/
+/support-tab/magento2/payment-methods/direct-debit
+/payment-methods/direct-debit/
+/payment-methods/banks/direct-debit/
+/payment-methods/banks/sepa-direct-debit
+/payments/methods/banks/sepa-direct-debit/
+/payment-methods/sepa-direct-debit/what-is-sepa-direct-debit/
+/payment-methods/direct-debit/what-is-direct-debit/
+/payment-methods/banks/direct-debit/what-is-direct-debit/
+/payments/methods/banks/sepa-direct-debit/about/
+/payments/methods/sepa/product-rules/
+/payment-methods/sepa-direct-debit/product-rules/
+/payment-methods/sepa-direct-debit/overview/
+/payment-methods/direct-debit/how-does-direct-debit-work/
+/payment-methods/banks/direct-debit/how-does-direct-debit-work/
+/payment-methods/sepa-direct-debit/how-does-sepa-direct-debit-work/
+/payment-methods/sepa-direct-debit/reason-codes/
+/payments/methods/banks/sepa-direct-debit/payment-flow/
+/payments/sepa-direct-debit/reason-codes
+/payment-methods/sepa-direct-debit/payment-flow/
+/payment-methods/direct-debit/activate-direct-debit/
+/payment-methods/banks/direct-debit/activate-direct-debit/
+/payment-methods/sepa-direct-debit/activate-sepa-direct-debit/
+/payments/methods/banks/sepa-direct-debit/activation/
+/payment-methods/sepa-direct-debit/activation/
+/payment-methods/sepa-direct-debit/sepa-direct-debit-testing
+/payments/methods/banks/sepa-direct-debit/integration-and-testing/
+/payment-methods/sepa-direct-debit/integration-testing/
+/payment-methods/sepa-direct-debit/chargebacks/
+/payment-methods/sepa-direct-debit/refund-risks/
+/payment-methods/sepa-direct-debit/reason-codes/
+/payments/sepa-direct-debit/reason-codes
+/payment-methods/sepa-direct-debit/reason-codes/
+/payment-methods/banks/sepa-direct-debit/
+/payment-methods/sepa-direct-debit/
 
 sofort.md:
-- /support-tab/magento2/payment-methods/sofort-banking
-- /payment-methods/sofort-banking/
-- /payment-methods/banks/sofort-banking
-- /payments/methods/banks/sofort-banking/
-- /payments/methods/banks/sofort/
-- /payment-methods/bancontact/what-is-sofort-banking/
-- /payments/methods/banks/sofort-banking/about/
-- /payments/methods/sofort-banking/product-rules/
-- /payment-methods/sofort/product-rules/
-- /payment-methods/sofort/overview/
-- /payment-methods/sofort-banking/how-does-sofort-banking-work/
-- /payments/methods/banks/sofort-banking/payment-flow/
-- /payments/methods/banks/sofort/payment-flow/
-- /payment-methods/sofort/payment-flow/
-- /payment-methods/bancontact/sofort-banking-testing
-- /payments/methods/banks/sofort-banking/integration-and-testing/
-- /payments/methods/banks/sofort/integration-testing/
-- /payment-methods/sofort/integration-testing/
-- /payment-methods/sofort-banking/activate-sofort-banking/
-- /payments/methods/banks/sofort-banking/activation/
-- /payments/methods/banks/sofort/activation/
-- /payment-methods/sofort/activation/
-- /payment-methods/banks/sofort-banking/
-- /payment-methods/sofort/
+/support-tab/magento2/payment-methods/sofort-banking
+/payment-methods/sofort-banking/
+/payment-methods/banks/sofort-banking
+/payments/methods/banks/sofort-banking/
+/payments/methods/banks/sofort/
+/payment-methods/bancontact/what-is-sofort-banking/
+/payments/methods/banks/sofort-banking/about/
+/payments/methods/sofort-banking/product-rules/
+/payment-methods/sofort/product-rules/
+/payment-methods/sofort/overview/
+/payment-methods/sofort-banking/how-does-sofort-banking-work/
+/payments/methods/banks/sofort-banking/payment-flow/
+/payments/methods/banks/sofort/payment-flow/
+/payment-methods/sofort/payment-flow/
+/payment-methods/bancontact/sofort-banking-testing
+/payments/methods/banks/sofort-banking/integration-and-testing/
+/payments/methods/banks/sofort/integration-testing/
+/payment-methods/sofort/integration-testing/
+/payment-methods/sofort-banking/activate-sofort-banking/
+/payments/methods/banks/sofort-banking/activation/
+/payments/methods/banks/sofort/activation/
+/payment-methods/sofort/activation/
+/payment-methods/banks/sofort-banking/
+/payment-methods/sofort/
 
 trustly.md:
-- /support-tab/magento2/payment-methods/trustly
-- /payment-methods/trustly/
-- /payment-methods/banks/trustly
-- /payments/methods/banks/trustly/
-- /payment-methods/trustly/what-is-trustly/
-- /payments/methods/banks/trustly/about/
-- /payments/methods/trustly/product-rules/
-- /payment-methods/trustly/product-rules/
-- /payment-methods/trustly/overview/
-- /payment-methods/trustly/how-does-trustly-work/
-- /payments/methods/banks/trustly/payment-flow/
-- /payment-methods/trustly/payment-flow/
-- /payment-methods/trustly/trustly-testing
-- /payments/methods/banks/trustly/integration-and-testing/
-- /payment-methods/trustly/integration-testing/
-- /payment-methods/trustly/activate-trustly/
-- /payments/methods/banks/trustly/activation/
-- /payment-methods/trustly/activation/
-- /payment-methods/banks/trustly/
-- /payment-methods/trustly/
+/support-tab/magento2/payment-methods/trustly
+/payment-methods/trustly/
+/payment-methods/banks/trustly
+/payments/methods/banks/trustly/
+/payment-methods/trustly/what-is-trustly/
+/payments/methods/banks/trustly/about/
+/payments/methods/trustly/product-rules/
+/payment-methods/trustly/product-rules/
+/payment-methods/trustly/overview/
+/payment-methods/trustly/how-does-trustly-work/
+/payments/methods/banks/trustly/payment-flow/
+/payment-methods/trustly/payment-flow/
+/payment-methods/trustly/trustly-testing
+/payments/methods/banks/trustly/integration-and-testing/
+/payment-methods/trustly/integration-testing/
+/payment-methods/trustly/activate-trustly/
+/payments/methods/banks/trustly/activation/
+/payment-methods/trustly/activation/
+/payment-methods/banks/trustly/
+/payment-methods/trustly/
 
 trustpay.md:
-- /support-tab/magento2/payment-methods/trustpay
-- /payment-methods/trustpay/
-- /payment-methods/banks/trustpay
-- /payments/methods/banks/trustpay/
-- /payment-methods/trustpay/trustpay-what-is-it/
-- /payments/methods/banks/trustpay/about/
-- /payments/methods/trustpay/product-rules/
-- /payment-methods/trustpay/product-rules/
-- /payment-methods/trustpay/overview/
-- /payment-methods/trustpay/trustpay-how-does-it-work/
-- /payments/methods/banks/trustpay/payment-flow/
-- /payment-methods/trustpay/payment-flow/
-- /payments/methods/banks/trustpay/integration-and-testing/
-- /payment-methods/trustpay/integration-testing/
-- /payment-methods/trustpay/
-- /payment-methods/trustpay/activate-trustpay/
-- /payments/methods/banks/trustpay/activation/
-- /payment-methods/trustpay/activation/
+/support-tab/magento2/payment-methods/trustpay
+/payment-methods/trustpay/
+/payment-methods/banks/trustpay
+/payments/methods/banks/trustpay/
+/payment-methods/trustpay/trustpay-what-is-it/
+/payments/methods/banks/trustpay/about/
+/payments/methods/trustpay/product-rules/
+/payment-methods/trustpay/product-rules/
+/payment-methods/trustpay/overview/
+/payment-methods/trustpay/trustpay-how-does-it-work/
+/payments/methods/banks/trustpay/payment-flow/
+/payment-methods/trustpay/payment-flow/
+/payments/methods/banks/trustpay/integration-and-testing/
+/payment-methods/trustpay/integration-testing/
+/payment-methods/trustpay/
+/payment-methods/trustpay/activate-trustpay/
+/payments/methods/banks/trustpay/activation/
+/payment-methods/trustpay/activation/
 
 unmatched-payments-dutch.md:
-- /bank-transfer/ongematchte-bankoverschrijvingen/
+/bank-transfer/ongematchte-bankoverschrijvingen/
 
 unmatched-payments-german.md:
-- /bank-transfer/unzugeordneten-banküberweisungen/
+/bank-transfer/unzugeordneten-banküberweisungen/
 
 credit-debit-cards.md:
-- /support-tab/magento2/payment-methods/credit-and-debit-cards
-- /payment-methods/credit-cards/
-- /payment-methods/credit-cards/creditcards/
-- /payment-methods/credit-cards/branded-credit-cards/
-- /payment-methods/creditcards/
-- /payment-methods/credit-and-debit-cards/branded-credit-cards/
-- /payment-methods/credit-and-debit-cards/creditcards/
-- /payments/methods/credit-and-debit-cards/
-- /payment-methods/credit-and-debit-cards/
-- /payment-methods/credit-debit-cards/
-- /payment-methods/credit-and-debit-cards/
-- /payment-methods/cards/
+/support-tab/magento2/payment-methods/credit-and-debit-cards
+/payment-methods/credit-cards/
+/payment-methods/credit-cards/creditcards/
+/payment-methods/credit-cards/branded-credit-cards/
+/payment-methods/creditcards/
+/payment-methods/credit-and-debit-cards/branded-credit-cards/
+/payment-methods/credit-and-debit-cards/creditcards/
+/payments/methods/credit-and-debit-cards/
+/payment-methods/credit-and-debit-cards/
+/payment-methods/credit-debit-cards/
+/payment-methods/credit-and-debit-cards/
+/payment-methods/cards/
 
 card-payments.md:
-- /payment-methods/creditcards/credit-card-how-does-it-work/
-- /payment-methods/credit-and-debit-cards/creditcards/credit-card-how-does-it-work/
-- /payment-methods/creditcards/activate-credit-cards/
-- /payment-methods/credit-and-debit-cards/creditcards/activate-credit-cards/
-- /payments/methods/american-express/
-- /support-tab/magento2/payment-methods/american-express
-- /payment-methods/creditcards/american-express/
-- /payment-methods/credit-and-debit-cards/american-express
-- /payments/methods/credit-and-debit-cards/american-express
-- /payment-methods/american-express/
-- /payments/methods/american-express/
-- /support-tab/magento2/payment-methods/american-express
-- /payment-methods/creditcards/american-express/
-- /payment-methods/credit-and-debit-cards/american-express
-- /payments/methods/credit-and-debit-cards/american-express
-- /payment-methods/american-express/
-- /payment-methods/amex/
-- /payment-methods/credit-and-debit-cards/american-express/american-express-additional-information
-- /payment-methods/american-express/about/
-- /payments/methods/amex/product-rules/
-- /payments/methods/amex/overview/
-- /payment-methods/amex/overview/
-- /payment-methods/american-express/activation/
-- /payment-methods/credit-and-debit-cards/american-express/activate-american-express/
-- /payment-methods/amex/activation/
-- /payment-methods/credit-and-debit-cards/american-express/how-does-american-express-work/
-- /payments/methods/credit-and-debit-cards/american-express/payment-flow/
-- /payment-methods/amex/payment-flow/
-- /payment-methods/credit-and-debit-cards/american-express/american-express-testing
-- /payment-methods/credit-and-debit-cards/credit-card-payment-page
-- /payments/methods/credit-and-debit-cards/american-express/integration-and-testing/
-- /payment-methods/amex/integration-testing/
-- /payments/methods/cartes-bancaires/
-- /payment-methods/credit-and-debit-cards/cartes-bancaires/
-- /payment-methods/credit-and-debit-cards/cartes-bancaires
-- /payments/methods/credit-and-debit-cards/cartes-bancaires/
-- /payments/methods/cartes-bancaires/
-- /payment-methods/cartes-bancaires/
-- /payments/methods/credit-and-debit-cards/cartes-bancaires/user-guide/about-chargebacks/
-- /payments/methods/credit-and-debit-cards/cartes-bancaires/about/
-- /payments/methods/cartes-bancaires/product-rules/
-- /payment-methods/cartes-bancaires/overview/
-- /payments/methods/credit-and-debit-cards/cartes-bancaires/activation/
-- /payment-methods/cartes-bancaires/activation/
-- /payments/methods/credit-and-debit-cards/cartes-bancaires/payment-flow/
-- /payment-methods/cartes-bancaires/payment-flow/
-- /payments/methods/credit-and-debit-cards/cartes-bancaires/integration-and-testing/
-- /payment-methods/cartes-bancaires/integration-testing/
-- /payment-methods/credit-and-debit-cards/dankort
-- /payments/methods/credit-and-debit-cards/dankort/
-- /payments/methods/dankort/
-- /payment-methods/dankort/
-- /payment-methods/branded-credit-cards/dankort-what-is-it/
-- /payment-methods/credit-and-debit-cards/branded-credit-cards/dankort-what-is-it/
-- /payment-methods/credit-and-debit-cards/dankort-what-is-it/
-- /payments/methods/credit-and-debit-cards/dankort/user-guide/about-chargebacks/
-- /payments/methods/credit-and-debit-cards/dankort/about/
-- /payments/methods/dankort/product-rules/
-- /payments/methods/dankort/overview/
-- /payment-methods/dankort/overview/
-- /payments/methods/credit-and-debit-cards/dankort/activation/
-- /payment-methods/dankort/activation/
-- /payments/methods/credit-and-debit-cards/dankort/payment-flow/
-- /payment-methods/dankort/payment-flow/
-- /payments/methods/credit-and-debit-cards/dankort/integration-and-testing/
-- /payment-methods/dankort/integration-testing/
-- /support-tab/magento2/payment-methods/maestro
-- /payment-methods/maestro/
-- /payment-methods/banks/maestro/
-- /payment-methods/credit-and-debit-cards/maestro
-- /payment-methods/maestro/
-- /payments/methods/credit-and-debit-cards/maestro/about/
-- /payments/methods/maestro/product-rules/
-- /payments/methods/maestro/overview/
-- /payment-methods/maestro/overview/
-- /payment-methods/maestro/activate-maestro/
-- /payments/methods/credit-and-debit-cards/maestro/activation/
-- /payment-methods/maestro/activation/
-- /payment-methods/maestro/how-does-maestro-work/
-- /payments/methods/credit-and-debit-cards/maestro/payment-flow/
-- /payment-methods/maestro/payment-flow/
-- /payment-methods/credit-and-debit-cards/maestro/maestro-testing
-- /payments/methods/credit-and-debit-cards/maestro/integration-and-testing/
-- /payment-methods/maestro/integration-testing/
-- /support-tab/magento2/payment-methods/mastercard
-- /payment-methods/mastercard/
-- /payment-methods/credit-and-debit-cards/mastercard
-- /payments/methods/credit-and-debit-cards/mastercard/
-- /payment-methods/mastercard/
-- /payment-methods/credit-and-debit-cards/mastercard/activate-mastercard
-- /payments/methods/credit-and-debit-cards/mastercard/activation/
-- /payment-methods/mastercard/activation/
-- /payment-methods/credit-and-debit-cards/mastercard/mastercard-testing
-- /payment-methods/credit-and-debit-cards/mastercard/credit-card-payment-page
-- /payment-methods/mastercard/integration-testing/
-- /payment-methods/credit-and-debit-cards/mastercard/what-is-mastercard
-- /payments/methods/credit-and-debit-cards/mastercard/user-guide/about-chargebacks/
-- /payments/methods/credit-and-debit-cards/mastercard/about/
-- /payments/methods/mastercard/product-rules/
-- /payments/methods/mastercard/overview/
-- /payment-methods/mastercard/overview/
-- /payment-methods/mastercard/how-does-mastercard-work
-- /payments/methods/credit-and-debit-cards/mastercard/payment-flow/
-- /payment-methods/mastercard/payment-flow/
-- /payment-methods/branded-credit-cards/postepay/
-- /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/
-- /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/
-- /payment-methods/credit-and-debit-cards/postepay
-- /payments/methods/credit-and-debit-cards/postepay/
-- /postepay/
-- /payment-methods/postepay/
-- /payments/methods/credit-and-debit-cards/postepay/activation/
-- /postepay/activation/
-- /payment-methods/postepay/activation/
-- /payments/methods/credit-and-debit-cards/postepay/integration-and-testing/
-- /postepay/integration-testing/
-- /postepay/integration-testing/
-- /payment-methods/postepay/integration-testing/
-- /payment-methods/branded-credit-cards/postepay/
-- /payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/
-- /payments/methods/credit-and-debit-cards/postepay/about/
-- /payments/methods/postepay/product-rules/
-- /payment-methods/postepay/product-rules/
-- /payment-methods/postepay/overview/
-- /payments/methods/credit-and-debit-cards/postepay/payment-flow/
-- /postepay/payment-flow/
-- /payment-methods/postepay/payment-flow/
-- /support-tab/magento2/payment-methods/visa
-- /payment-methods/credit-and-debit-cards/mastercard/visa
-- /payment/methods/visa/
-- /payment-methods/credit-and-debit-cards/visa
-- /payments/methods/credit-and-debit-cards/visa/
-- /payment-methods/visa/
-- /payment-methods/credit-and-debit-cards/visa/activate-visa
-- /payments/methods/credit-and-debit-cards/visa/activation/
-- /payment-methods/visa/activation/
-- /payment-methods/credit-and-debit-cards/visa/visa-testing
-- /payment-methods/credit-and-debit-cards/mastercard/credit-card-payment-page
-- /payment-methods/visa/integration-testing/
-- /payment-methods/credit-and-debit-cards/visa/what-is-visa
-- /payment-methods/credit-and-debit-cards/visa/what-is-a-chargeback
-- /payments/methods/credit-and-debit-cards/visa/user-guide/about-chargebacks/
-- /payments/methods/credit-and-debit-cards/visa/about/
-- /payments/methods/visa/product-rules/
-- /payments/methods/visa/overview/
-- /payment-methods/visa/overview/
-- /payment-methods/visa/how-does-visa-work
-- /payments/methods/credit-and-debit-cards/visa/payment-flow/
-- /payment-methods/visa/payment-flow/
-- /payment-methods/credit-and-debit-cards/vpay
-- /payment-methods/vpay/
-- /payment-methods/vpay/activate-vpay/
-- /payments/methods/credit-and-debit-cards/vpay/activation/
-- /payment-methods/vpay/activation/
-- /payments/methods/credit-and-debit-cards/vpay/integration-and-testing/
-- /payment-methods/vpay/integration-testing/
-- /payment-methods/vpay/what-is-vpay/
-- /payments/methods/credit-and-debit-cards/vpay/user-guide/about-chargebacks/
-- /payments/methods/vpay/product-rules/
-- /payments/methods/vpay/overview/
-- /payment-methods/vpay/overview/
-- /payment-methods/vpay/how-does-vpay-work/
-- /payments/methods/credit-and-debit-cards/vpay/payment-flow/
-- /payment-methods/vpay/payment-flow/
-- /payment-methods/credit-and-debit-cards/american-express/
-- /payments/methods/credit-and-debit-cards/
-- /payment-methods/credit-and-debit-cards/maestro/
-- /payment-methods/credit-and-debit-cards/mastercard/
-- /payment-methods/credit-and-debit-cards/visa/
+/payment-methods/creditcards/credit-card-how-does-it-work/
+/payment-methods/credit-and-debit-cards/creditcards/credit-card-how-does-it-work/
+/payment-methods/creditcards/activate-credit-cards/
+/payment-methods/credit-and-debit-cards/creditcards/activate-credit-cards/
+/payments/methods/american-express/
+/support-tab/magento2/payment-methods/american-express
+/payment-methods/creditcards/american-express/
+/payment-methods/credit-and-debit-cards/american-express
+/payments/methods/credit-and-debit-cards/american-express
+/payment-methods/american-express/
+/payments/methods/american-express/
+/support-tab/magento2/payment-methods/american-express
+/payment-methods/creditcards/american-express/
+/payment-methods/credit-and-debit-cards/american-express
+/payments/methods/credit-and-debit-cards/american-express
+/payment-methods/american-express/
+/payment-methods/amex/
+/payment-methods/credit-and-debit-cards/american-express/american-express-additional-information
+/payment-methods/american-express/about/
+/payments/methods/amex/product-rules/
+/payments/methods/amex/overview/
+/payment-methods/amex/overview/
+/payment-methods/american-express/activation/
+/payment-methods/credit-and-debit-cards/american-express/activate-american-express/
+/payment-methods/amex/activation/
+/payment-methods/credit-and-debit-cards/american-express/how-does-american-express-work/
+/payments/methods/credit-and-debit-cards/american-express/payment-flow/
+/payment-methods/amex/payment-flow/
+/payment-methods/credit-and-debit-cards/american-express/american-express-testing
+/payment-methods/credit-and-debit-cards/credit-card-payment-page
+/payments/methods/credit-and-debit-cards/american-express/integration-and-testing/
+/payment-methods/amex/integration-testing/
+/payments/methods/cartes-bancaires/
+/payment-methods/credit-and-debit-cards/cartes-bancaires/
+/payment-methods/credit-and-debit-cards/cartes-bancaires
+/payments/methods/credit-and-debit-cards/cartes-bancaires/
+/payments/methods/cartes-bancaires/
+/payment-methods/cartes-bancaires/
+/payments/methods/credit-and-debit-cards/cartes-bancaires/user-guide/about-chargebacks/
+/payments/methods/credit-and-debit-cards/cartes-bancaires/about/
+/payments/methods/cartes-bancaires/product-rules/
+/payment-methods/cartes-bancaires/overview/
+/payments/methods/credit-and-debit-cards/cartes-bancaires/activation/
+/payment-methods/cartes-bancaires/activation/
+/payments/methods/credit-and-debit-cards/cartes-bancaires/payment-flow/
+/payment-methods/cartes-bancaires/payment-flow/
+/payments/methods/credit-and-debit-cards/cartes-bancaires/integration-and-testing/
+/payment-methods/cartes-bancaires/integration-testing/
+/payment-methods/credit-and-debit-cards/dankort
+/payments/methods/credit-and-debit-cards/dankort/
+/payments/methods/dankort/
+/payment-methods/dankort/
+/payment-methods/branded-credit-cards/dankort-what-is-it/
+/payment-methods/credit-and-debit-cards/branded-credit-cards/dankort-what-is-it/
+/payment-methods/credit-and-debit-cards/dankort-what-is-it/
+/payments/methods/credit-and-debit-cards/dankort/user-guide/about-chargebacks/
+/payments/methods/credit-and-debit-cards/dankort/about/
+/payments/methods/dankort/product-rules/
+/payments/methods/dankort/overview/
+/payment-methods/dankort/overview/
+/payments/methods/credit-and-debit-cards/dankort/activation/
+/payment-methods/dankort/activation/
+/payments/methods/credit-and-debit-cards/dankort/payment-flow/
+/payment-methods/dankort/payment-flow/
+/payments/methods/credit-and-debit-cards/dankort/integration-and-testing/
+/payment-methods/dankort/integration-testing/
+/support-tab/magento2/payment-methods/maestro
+/payment-methods/maestro/
+/payment-methods/banks/maestro/
+/payment-methods/credit-and-debit-cards/maestro
+/payment-methods/maestro/
+/payments/methods/credit-and-debit-cards/maestro/about/
+/payments/methods/maestro/product-rules/
+/payments/methods/maestro/overview/
+/payment-methods/maestro/overview/
+/payment-methods/maestro/activate-maestro/
+/payments/methods/credit-and-debit-cards/maestro/activation/
+/payment-methods/maestro/activation/
+/payment-methods/maestro/how-does-maestro-work/
+/payments/methods/credit-and-debit-cards/maestro/payment-flow/
+/payment-methods/maestro/payment-flow/
+/payment-methods/credit-and-debit-cards/maestro/maestro-testing
+/payments/methods/credit-and-debit-cards/maestro/integration-and-testing/
+/payment-methods/maestro/integration-testing/
+/support-tab/magento2/payment-methods/mastercard
+/payment-methods/mastercard/
+/payment-methods/credit-and-debit-cards/mastercard
+/payments/methods/credit-and-debit-cards/mastercard/
+/payment-methods/mastercard/
+/payment-methods/credit-and-debit-cards/mastercard/activate-mastercard
+/payments/methods/credit-and-debit-cards/mastercard/activation/
+/payment-methods/mastercard/activation/
+/payment-methods/credit-and-debit-cards/mastercard/mastercard-testing
+/payment-methods/credit-and-debit-cards/mastercard/credit-card-payment-page
+/payment-methods/mastercard/integration-testing/
+/payment-methods/credit-and-debit-cards/mastercard/what-is-mastercard
+/payments/methods/credit-and-debit-cards/mastercard/user-guide/about-chargebacks/
+/payments/methods/credit-and-debit-cards/mastercard/about/
+/payments/methods/mastercard/product-rules/
+/payments/methods/mastercard/overview/
+/payment-methods/mastercard/overview/
+/payment-methods/mastercard/how-does-mastercard-work
+/payments/methods/credit-and-debit-cards/mastercard/payment-flow/
+/payment-methods/mastercard/payment-flow/
+/payment-methods/branded-credit-cards/postepay/
+/payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/
+/payment-methods/credit-and-debit-cards/postepay
+/payments/methods/credit-and-debit-cards/postepay/
+/postepay/
+/payment-methods/postepay/
+/payments/methods/credit-and-debit-cards/postepay/activation/
+/postepay/activation/
+/payment-methods/postepay/activation/
+/payments/methods/credit-and-debit-cards/postepay/integration-and-testing/
+/postepay/integration-testing/
+/payment-methods/postepay/integration-testing/
+/payment-methods/branded-credit-cards/postepay/
+/payment-methods/credit-and-debit-cards/branded-credit-cards/postepay/
+/payments/methods/credit-and-debit-cards/postepay/about/
+/payments/methods/postepay/product-rules/
+/payment-methods/postepay/product-rules/
+/payment-methods/postepay/overview/
+/payments/methods/credit-and-debit-cards/postepay/payment-flow/
+/postepay/payment-flow/
+/payment-methods/postepay/payment-flow/
+/support-tab/magento2/payment-methods/visa
+/payment-methods/credit-and-debit-cards/mastercard/visa
+/payment/methods/visa/
+/payment-methods/credit-and-debit-cards/visa
+/payments/methods/credit-and-debit-cards/visa/
+/payment-methods/visa/
+/payment-methods/credit-and-debit-cards/visa/activate-visa
+/payments/methods/credit-and-debit-cards/visa/activation/
+/payment-methods/visa/activation/
+/payment-methods/credit-and-debit-cards/visa/visa-testing
+/payment-methods/credit-and-debit-cards/mastercard/credit-card-payment-page
+/payment-methods/visa/integration-testing/
+/payment-methods/credit-and-debit-cards/visa/what-is-visa
+/payment-methods/credit-and-debit-cards/visa/what-is-a-chargeback
+/payments/methods/credit-and-debit-cards/visa/user-guide/about-chargebacks/
+/payments/methods/credit-and-debit-cards/visa/about/
+/payments/methods/visa/product-rules/
+/payments/methods/visa/overview/
+/payment-methods/visa/overview/
+/payment-methods/visa/how-does-visa-work
+/payments/methods/credit-and-debit-cards/visa/payment-flow/
+/payment-methods/visa/payment-flow/
+/payment-methods/credit-and-debit-cards/vpay
+/payment-methods/vpay/
+/payment-methods/vpay/activate-vpay/
+/payments/methods/credit-and-debit-cards/vpay/activation/
+/payment-methods/vpay/activation/
+/payments/methods/credit-and-debit-cards/vpay/integration-and-testing/
+/payment-methods/vpay/integration-testing/
+/payment-methods/vpay/what-is-vpay/
+/payments/methods/credit-and-debit-cards/vpay/user-guide/about-chargebacks/
+/payments/methods/vpay/product-rules/
+/payments/methods/vpay/overview/
+/payment-methods/vpay/overview/
+/payment-methods/vpay/how-does-vpay-work/
+/payments/methods/credit-and-debit-cards/vpay/payment-flow/
+/payment-methods/vpay/payment-flow/
+/payment-methods/credit-and-debit-cards/american-express/
+/payments/methods/credit-and-debit-cards/
+/payment-methods/credit-and-debit-cards/maestro/
+/payment-methods/credit-and-debit-cards/mastercard/
+/payment-methods/credit-and-debit-cards/visa/
 
 3ds2.md:
-- /faq/risk-and-fraud/
-- /features/3d-secure/
-- /faq/payment-regulations/3D-secure
-- /payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/
-- /faq/general/what-is-3d-secure
-- /faq/payment-regulations/about-3d-secure/
-- /security-and-legal/payment-regulations/about-3d-secure/
-- /faq/payment-regulations/3D-secure
-- /payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/
-- /faq/general/what-is-3d-secure
-- /faq/payment-regulations/about-3d-secure/
-- /faq/payment-regulations/3d-secure-2
-- /features/3d-secure/versions/
-- /features/3d-secure/about/
-- /tools/server2server/3d-dynamics
-- /features/3d-secure/flexible/
-- /features/3d-secure/dynamic/
-- /cards/3ds2/
+/faq/risk-and-fraud/
+/features/3d-secure/
+/faq/payment-regulations/3D-secure
+/payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/
+/faq/general/what-is-3d-secure
+/faq/payment-regulations/about-3d-secure/
+/security-and-legal/payment-regulations/about-3d-secure/
+/faq/payment-regulations/3D-secure
+/payment-methods/credit-and-debit-cards/creditcards/what-is-3d-secure/
+/faq/general/what-is-3d-secure
+/faq/payment-regulations/about-3d-secure/
+/faq/payment-regulations/3d-secure-2
+/features/3d-secure/versions/
+/features/3d-secure/about/
+/tools/server2server/3d-dynamics
+/features/3d-secure/flexible/
+/features/3d-secure/dynamic/
+/cards/3ds2/
 
 card-errors.md:
-- /about-payments/credit-card-errors/
-- /payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/
-- /payment-methods/credit-and-debit-cards/creditcards/creditcard-status-declined-what-does-this-mean-/
-- /faq/general/declined-status/
-- /payments/methods/credit-and-debit-cards/user-guide/declined-status/
-- /credit-cards-user-guide/declined-status/
-- /about-payments/declined-status/
-- /cards/errors/
+/about-payments/credit-card-errors/
+/payment-methods/creditcards/creditcard-status-declined-what-does-this-mean-/
+/payment-methods/credit-and-debit-cards/creditcards/creditcard-status-declined-what-does-this-mean-/
+/faq/general/declined-status/
+/payments/methods/credit-and-debit-cards/user-guide/declined-status/
+/credit-cards-user-guide/declined-status/
+/about-payments/declined-status/
+/cards/errors/
 
 cardholder-data.md:
-- /payments/features/server-to-server/
-- /payments/features/server-to-server/payment-flow/
-- /features/server-to-server/payment-flow/
-- /features/server-to-server/about/
-- /payments/features/server-to-server/about/
-- /payments/features/server-to-server/activation/
-- /features/server-to-server/activation/
-- /payments/features/server-to-server/integration/
-- /features/server-to-server/integration/
-- /features/server-to-server/
-- /features/handling-cardholder-data/
-- /cards/handling-cardholder-data/
+/payments/features/server-to-server/
+/payments/features/server-to-server/payment-flow/
+/features/server-to-server/payment-flow/
+/features/server-to-server/about/
+/payments/features/server-to-server/about/
+/payments/features/server-to-server/activation/
+/features/server-to-server/activation/
+/payments/features/server-to-server/integration/
+/features/server-to-server/integration/
+/features/server-to-server/
+/features/handling-cardholder-data/
+/cards/handling-cardholder-data/
 
 chargebacks.md:
-- /faq/chargebacks/
-- /faq/chargebacks/about-chargebacks/
-- /payment-methods/creditcards/chargebacks/what-is-a-chargeback/
-- /payment-methods/credit-and-debit-cards/creditcards/chargebacks/what-is-a-chargeback/
-- /payment-methods/creditcards/what-is-a-chargeback/
-- /payment-methods/credit-and-debit-cards/creditcards/what-is-a-chargeback/
-- /payment-methods/creditcards/chargebacks/
-- /payments/chargebacks
-- /chargebacks/
-- /faq/chargebacks/what-is-a-chargeback
-- /payments/chargebacks/about
-- /chargebacks/about/
-- /faq/chargebacks/dispute-chargeback
-- /faq/chargebacks/disputing-chargebacks/
-- /payments/chargebacks/reasons
-- /chargebacks/reasons/
-- /payment-methods/creditcards/chargebacks/dispute-chargeback/
-- /payment-methods/credit-and-debit-cards/creditcards/chargebacks/dispute-chargeback/
-- /payments/chargebacks/disputing
-- /chargebacks/disputing/
-- /payments/chargebacks/minimizing
-- /payments/methods/credit-and-debit-cards/visa/user-guide/displaying-your-logo-in-online-banking/
-- /payment-methods/american-express/user-guide/displaying-your-logo-in-online-banking/
-- /payments/methods/credit-and-debit-cards/mastercard/user-guide/displaying-your-logo-in-online-banking/
-- /payments/methods/credit-and-debit-cards/user-guide/your-logo-online-banking/
-- /credit-cards-user-guide/logos/
-- /about-payments/logos-in-online-banking/
-- /chargebacks/minimizing/
+/faq/chargebacks/
+/faq/chargebacks/about-chargebacks/
+/payment-methods/creditcards/chargebacks/what-is-a-chargeback/
+/payment-methods/credit-and-debit-cards/creditcards/chargebacks/what-is-a-chargeback/
+/payment-methods/creditcards/what-is-a-chargeback/
+/payment-methods/credit-and-debit-cards/creditcards/what-is-a-chargeback/
+/payment-methods/creditcards/chargebacks/
+/payments/chargebacks
+/chargebacks/
+/faq/chargebacks/what-is-a-chargeback
+/payments/chargebacks/about
+/chargebacks/about/
+/faq/chargebacks/dispute-chargeback
+/faq/chargebacks/disputing-chargebacks/
+/payments/chargebacks/reasons
+/chargebacks/reasons/
+/payment-methods/creditcards/chargebacks/dispute-chargeback/
+/payment-methods/credit-and-debit-cards/creditcards/chargebacks/dispute-chargeback/
+/payments/chargebacks/disputing
+/chargebacks/disputing/
+/payments/chargebacks/minimizing
+/payments/methods/credit-and-debit-cards/visa/user-guide/displaying-your-logo-in-online-banking/
+/payment-methods/american-express/user-guide/displaying-your-logo-in-online-banking/
+/payments/methods/credit-and-debit-cards/mastercard/user-guide/displaying-your-logo-in-online-banking/
+/payments/methods/credit-and-debit-cards/user-guide/your-logo-online-banking/
+/credit-cards-user-guide/logos/
+/about-payments/logos-in-online-banking/
+/chargebacks/minimizing/
 
 interchange.md:
-- /payment-methods/credit-and-debit-cards/mastercard/user-guide/about-interchange/
-- /payment-methods/creditcards/what-is-interchange/
-- /payment-methods/credit-and-debit-cards/creditcards/what-is-interchange/
-- /payments/methods/credit-and-debit-cards/visa/user-guide/about-interchange/
-- /payments/methods/credit-and-debit-cards/user-guide/about-interchange/
-- /credit-cards-user-guide/about-interchange/
-- /about-payments/interchange/
+/payment-methods/credit-and-debit-cards/mastercard/user-guide/about-interchange/
+/payment-methods/creditcards/what-is-interchange/
+/payment-methods/credit-and-debit-cards/creditcards/what-is-interchange/
+/payments/methods/credit-and-debit-cards/visa/user-guide/about-interchange/
+/payments/methods/credit-and-debit-cards/user-guide/about-interchange/
+/credit-cards-user-guide/about-interchange/
+/about-payments/interchange/
 
 manual-capture.md:
-- /tools/manual-capture/full-capture/
-- /tools/manual-capture/partial-capture/
-- /tools/manual-capture/what-is-a-manual-capture/
-- /tools/manual-capture/how-to-activate-manual-capture/
-- /tools/manual-capture
-- /payments/features/manual-capture/
-- /features/manual-capture/
+/tools/manual-capture/full-capture/
+/tools/manual-capture/partial-capture/
+/tools/manual-capture/what-is-a-manual-capture/
+/tools/manual-capture/how-to-activate-manual-capture/
+/tools/manual-capture
+/payments/features/manual-capture/
+/features/manual-capture/
 
 moto.md:
-- /tools/mail-order-telephone-order/
-- /tools/moto/moto
-- /payments/features/moto/
-- /features/moto/
+/tools/mail-order-telephone-order/
+/tools/moto/moto
+/payments/features/moto/
+/features/moto/
 
 uncaptured.md:
-- /faq/finance/evaluating-uncleared-card-transactions/
-- /faq/risk-and-fraud/accepting-uncleared-credit-card-payments/
-- /payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/
-- /credit-cards-user-guide/uncleared-transactions/
-- /about-payments/uncleared-transactions/
-- /cards/uncaptured/
+/faq/finance/evaluating-uncleared-card-transactions/
+/faq/risk-and-fraud/accepting-uncleared-credit-card-payments/
+/payments/methods/credit-and-debit-cards/user-guide/evaluating-uncleared-transactions/
+/credit-cards-user-guide/uncleared-transactions/
+/about-payments/uncleared-transactions/
+/cards/uncaptured/
 
 zero-authorization.md:
-- /tools/zero-authorization/what-is-zero-authorization/
-- /tools/zero-authorization/how-to-activate-zero-authorization/
-- /payments/features/zero-authorization/
-- /features/zero-authorization/
+/tools/zero-authorization/what-is-zero-authorization/
+/tools/zero-authorization/how-to-activate-zero-authorization/
+/payments/features/zero-authorization/
+/features/zero-authorization/
 
 bnpl.md:
-- /payment-methods/billing-suite/
-- /payments/methods/pay-later/
-- /payment-methods/pay-later/
+/payment-methods/billing-suite/
+/payments/methods/pay-later/
+/payment-methods/pay-later/
 
 afterpay.md:
-- /support-tab/magento2/payment-methods/afterpay
-- /payment-methods/afterpay/
-- /payment-methods/afterpay/activate-afterpay
-- /payment-methods/afterpay/afterpay-testing
-- /payment-methods/afterpay/how-does-afterpay-work
-- /payment-methods/afterpay/refund-afterpay
-- /payment-methods/afterpay/what-is-afterpay
-- /payment-methods/billing-suite/afterpay
-- /payments/methods/billing-suite/afterpay/
-- /payments/methods/billing-suite/afterpay/about/
-- /payments/methods/afterpay/product-rules/
-- /payment-methods/afterpay/product-rules/
-- /payment-methods/afterpay/overview/
-- /payments/methods/billing-suite/afterpay/payment-flow/
-- /payments/methods/pay-later/afterpay/user-guide/changing-order-status-to-shipped/
-- /payment-methods/afterpay/payment-flow/
-- /payments/methods/billing-suite/afterpay/integration-and-testing/
-- /payment-methods/afterpay/integration-testing/
-- /payments/methods/billing-suite/afterpay/activation/
-- /payment-methods/afterpay/activation/
-- /payment-methods/billing-suite/afterpay/
-- /payment-methods/afterpay/
+/support-tab/magento2/payment-methods/afterpay
+/payment-methods/afterpay/
+/payment-methods/afterpay/activate-afterpay
+/payment-methods/afterpay/afterpay-testing
+/payment-methods/afterpay/how-does-afterpay-work
+/payment-methods/afterpay/refund-afterpay
+/payment-methods/afterpay/what-is-afterpay
+/payment-methods/billing-suite/afterpay
+/payments/methods/billing-suite/afterpay/
+/payments/methods/billing-suite/afterpay/about/
+/payments/methods/afterpay/product-rules/
+/payment-methods/afterpay/product-rules/
+/payment-methods/afterpay/overview/
+/payments/methods/billing-suite/afterpay/payment-flow/
+/payments/methods/pay-later/afterpay/user-guide/changing-order-status-to-shipped/
+/payment-methods/afterpay/payment-flow/
+/payments/methods/billing-suite/afterpay/integration-and-testing/
+/payment-methods/afterpay/integration-testing/
+/payments/methods/billing-suite/afterpay/activation/
+/payment-methods/afterpay/activation/
+/payment-methods/billing-suite/afterpay/
+/payment-methods/afterpay/
 
 betaalpermaand.md:
-- /support-tab/magento2/payment-methods/betaalplan
-- /payment-methods/billing-suite/betaalplan
-- /payment-methods/betaalplan/
-- /payment-methods/betaalpermaand/activate-betaalplan
-- /payment-methods/betaalpermaand/betaal-per-maand-testing
-- /payment-methods/betaalpermaand/how-does-betaalplan-work
-- /payment-methods/betaalpermaand/refund-betaalplan
-- /payment-methods/betaalpermaand/what-is-betaalplan
-- /payment-methods/billing-suite/betaalpermaand
-- /payments/methods/billing-suite/betaalpermaand/
-- /payments/methods/billing-suite/betaalpermaand/about/
-- /payments/methods/betaal-per-maand/product-rules/
-- /payment-methods/betaal-per-maand/product-rules/
-- /payment-methods/betaal-per-maand/overview/
-- /payments/methods/billing-suite/betaalpermaand/payment-flow/
-- /payment-methods/betaal-per-maand/payment-flow/
-- /payments/methods/billing-suite/betaalpermaand/integration-and-testing/
-- /payment-methods/betaal-per-maand/integration-testing/
-- /payments/methods/billing-suite/betaalpermaand/activation/
-- /payment-methods/betaal-per-maand/activation/
-- /payments/methods/billing-suite/betaalpermaand/user-guide/changing-orders-before-shipment/
-- /payment-methods/betaal-per-maand/changing-orders/
-- /payments/methods/billing-suite/betaalpermaand/user-guide/known-errors/
-- /payment-methods/betaal-per-maand/known-errors/
-- /payments/methods/billing-suite/betaalpermaand/user-guide/pauzing-collection-period/
-- /payment-methods/betaal-per-maand/pauzing-collection/
-- /payments/methods/billing-suite/betaalpermaand/user-guide/providing-track-and-trace/
-- /payment-methods/betaal-per-maand/track-and-trace/
-- /payment-methods/billing-suite/betaalplan/
-- /payment-methods/betaal-per-maand/
+/support-tab/magento2/payment-methods/betaalplan
+/payment-methods/billing-suite/betaalplan
+/payment-methods/betaalplan/
+/payment-methods/betaalpermaand/activate-betaalplan
+/payment-methods/betaalpermaand/betaal-per-maand-testing
+/payment-methods/betaalpermaand/how-does-betaalplan-work
+/payment-methods/betaalpermaand/refund-betaalplan
+/payment-methods/betaalpermaand/what-is-betaalplan
+/payment-methods/billing-suite/betaalpermaand
+/payments/methods/billing-suite/betaalpermaand/
+/payments/methods/billing-suite/betaalpermaand/about/
+/payments/methods/betaal-per-maand/product-rules/
+/payment-methods/betaal-per-maand/product-rules/
+/payment-methods/betaal-per-maand/overview/
+/payments/methods/billing-suite/betaalpermaand/payment-flow/
+/payment-methods/betaal-per-maand/payment-flow/
+/payments/methods/billing-suite/betaalpermaand/integration-and-testing/
+/payment-methods/betaal-per-maand/integration-testing/
+/payments/methods/billing-suite/betaalpermaand/activation/
+/payment-methods/betaal-per-maand/activation/
+/payments/methods/billing-suite/betaalpermaand/user-guide/changing-orders-before-shipment/
+/payment-methods/betaal-per-maand/changing-orders/
+/payments/methods/billing-suite/betaalpermaand/user-guide/known-errors/
+/payment-methods/betaal-per-maand/known-errors/
+/payments/methods/billing-suite/betaalpermaand/user-guide/pauzing-collection-period/
+/payment-methods/betaal-per-maand/pauzing-collection/
+/payments/methods/billing-suite/betaalpermaand/user-guide/providing-track-and-trace/
+/payment-methods/betaal-per-maand/track-and-trace/
+/payment-methods/billing-suite/betaalplan/
+/payment-methods/betaal-per-maand/
 
 e-invoicing.md:
-- /support-tab/magento2/payment-methods/e-invoicing
-- /payment-methods/e-invoicing/
-- /payment-methods/e-invoicing/activate
-- /payment-methods/e-invoicing/e-invoicing-testing
-- /payment-methods/e-invoicing/how-does-e-invoicing-work
-- /payment-methods/e-invoicing/refund
-- /payment-methods/e-invoicing/what-is-it
-- /payment-methods/billing-suite/e-invoicing
-- /payments/methods/billing-suite/e-invoicing/
-- /payments/methods/billing-suite/e-invoicing/about/
-- /payments/methods/e-invoicing/product-rules/
-- /payment-methods/e-invoicing/product-rules/
-- /payment-methods/e-invoicing/overview/
-- /payments/methods/billing-suite/e-invoicing/payment-flow/
-- /payment-methods/e-invoicing/payment-flow/
-- /payments/methods/billing-suite/e-invoicing/integration-and-testing/
-- /payment-methods/e-invoicing/integration-testing/
-- /payments/methods/billing-suite/e-invoicing/activation/
-- /payment-methods/e-invoicing/activation/
-- /payments/methods/billing-suite/e-invoicing/user-guide/batching-transactions/
-- /payment-methods/e-invoicing/batching-for-subscriptions/
-- /payments/methods/billing-suite/e-invoicing/user-guide/viewing-transactions/
-- /payment-methods/e-invoicing/view-transactions/
-- /payments/methods/billing-suite/e-invoicing/user-guide/customizing-e-invoices/
-- /payment-methods/e-invoicing/customizing-invoices/
-- /payment-methods/billing-suite/e-invoicing/
-- /payment-methods/e-invoicing/
+/support-tab/magento2/payment-methods/e-invoicing
+/payment-methods/e-invoicing/
+/payment-methods/e-invoicing/activate
+/payment-methods/e-invoicing/e-invoicing-testing
+/payment-methods/e-invoicing/how-does-e-invoicing-work
+/payment-methods/e-invoicing/refund
+/payment-methods/e-invoicing/what-is-it
+/payment-methods/billing-suite/e-invoicing
+/payments/methods/billing-suite/e-invoicing/
+/payments/methods/billing-suite/e-invoicing/about/
+/payments/methods/e-invoicing/product-rules/
+/payment-methods/e-invoicing/product-rules/
+/payment-methods/e-invoicing/overview/
+/payments/methods/billing-suite/e-invoicing/payment-flow/
+/payment-methods/e-invoicing/payment-flow/
+/payments/methods/billing-suite/e-invoicing/integration-and-testing/
+/payment-methods/e-invoicing/integration-testing/
+/payments/methods/billing-suite/e-invoicing/activation/
+/payment-methods/e-invoicing/activation/
+/payments/methods/billing-suite/e-invoicing/user-guide/batching-transactions/
+/payment-methods/e-invoicing/batching-for-subscriptions/
+/payments/methods/billing-suite/e-invoicing/user-guide/viewing-transactions/
+/payment-methods/e-invoicing/view-transactions/
+/payments/methods/billing-suite/e-invoicing/user-guide/customizing-e-invoices/
+/payment-methods/e-invoicing/customizing-invoices/
+/payment-methods/billing-suite/e-invoicing/
+/payment-methods/e-invoicing/
 
 in3.md:
-- /support-tab/magento2/payment-methods/billing-suite/in3/
-- /payment-methods/billing-suite/in3/activate-in3/
-- /payment-methods/billing-suite/in3/how-does-in3-work/
-- /payment-methods/billing-suite/in3/in3-testing/
-- /payment-methods/billing-suite/in3/refund-in3/
-- /payment-methods/billing-suite/in3/what-is-in3/
-- /payment-methods/billing-suite/in3
-- /payments/methods/billing-suite/in3/
-- /payments/methods/billing-suite/in3/about/
-- /payments/methods/in3/product-rules/
-- /payment-methods/in3/product-rules/
-- /payment-methods/in3/overview/
-- /payments/methods/billing-suite/in3/payment-flow/
-- /payments/methods/billing-suite/in3/user-guide/changing-order-status-to-shipped/
-- /payment-methods/in3/payment-flow/
-- /payments/methods/billing-suite/in3/integration-and-testing/
-- /payment-methods/in3/integration-testing/
-- /payments/methods/billing-suite/in3/activation/
-- /payment-methods/in3/activation/
-- /payment-methods/billing-suite/in3/
-- /payment-methods/in3/
+/support-tab/magento2/payment-methods/billing-suite/in3/
+/payment-methods/billing-suite/in3/activate-in3/
+/payment-methods/billing-suite/in3/how-does-in3-work/
+/payment-methods/billing-suite/in3/in3-testing/
+/payment-methods/billing-suite/in3/refund-in3/
+/payment-methods/billing-suite/in3/what-is-in3/
+/payment-methods/billing-suite/in3
+/payments/methods/billing-suite/in3/
+/payments/methods/billing-suite/in3/about/
+/payments/methods/in3/product-rules/
+/payment-methods/in3/product-rules/
+/payment-methods/in3/overview/
+/payments/methods/billing-suite/in3/payment-flow/
+/payments/methods/billing-suite/in3/user-guide/changing-order-status-to-shipped/
+/payment-methods/in3/payment-flow/
+/payments/methods/billing-suite/in3/integration-and-testing/
+/payment-methods/in3/integration-testing/
+/payments/methods/billing-suite/in3/activation/
+/payment-methods/in3/activation/
+/payment-methods/billing-suite/in3/
+/payment-methods/in3/
 
 klarna.md:
-- /support-tab/magento2/payment-methods/klarna
-- /payment-methods/klarna/
-- /payment-methods/billing-suite/klarna
-- /payments/methods/billing-suite/klarna/
-- /payments/methods/billing-suite/klarna/about/
-- /payments/methods/klarna/product-rules/
-- /payment-methods/klarna/product-rules/
-- /payment-methods/klarna/overview/
-- /payments/methods/billing-suite/klarna/payment-flow/
-- /payment-methods/klarna/payment-flow/
-- /payments/methods/billing-suite/klarna/integration-and-testing/
-- /payment-methods/klarna/integration-testing/
-- /payments/methods/billing-suite/klarna/activation/
-- /payment-methods/klarna/activation/
-- /payments/methods/billing-suite/klarna/user-guide/handling-errors/
-- /payment-methods/klarna/handling-errors/
-- /payments/methods/billing-suite/klarna/user-guide/extending-shipping-period/
-- /payment-methods/klarna/extending-shipping-period/
-- /payments/methods/billing-suite/klarna/user-guide/reservation-and-invoice-number/
-- /payment-methods/klarna/reservation-invoice-numbers/
-- /payment-methods/klarna/handling-expired-orders/
-- /payments/methods/billing-suite/klarna/user-guide/placing-collection-period-on-hold/
-- /payment-methods/klarna/pauzing-collection/
-- /klarna/handling-disputes/
-- /payments/methods/billing-suite/klarna/user-guide/customizing-invoices/
-- /payment-methods/klarna/customizing-invoices/
-- /payment-methods/billing-suite/klarna/
-- /payment-methods/klarna/
+/support-tab/magento2/payment-methods/klarna
+/payment-methods/klarna/
+/payment-methods/billing-suite/klarna
+/payments/methods/billing-suite/klarna/
+/payments/methods/billing-suite/klarna/about/
+/payments/methods/klarna/product-rules/
+/payment-methods/klarna/product-rules/
+/payment-methods/klarna/overview/
+/payments/methods/billing-suite/klarna/payment-flow/
+/payment-methods/klarna/payment-flow/
+/payments/methods/billing-suite/klarna/integration-and-testing/
+/payment-methods/klarna/integration-testing/
+/payments/methods/billing-suite/klarna/activation/
+/payment-methods/klarna/activation/
+/payments/methods/billing-suite/klarna/user-guide/handling-errors/
+/payment-methods/klarna/handling-errors/
+/payments/methods/billing-suite/klarna/user-guide/extending-shipping-period/
+/payment-methods/klarna/extending-shipping-period/
+/payments/methods/billing-suite/klarna/user-guide/reservation-and-invoice-number/
+/payment-methods/klarna/reservation-invoice-numbers/
+/payment-methods/klarna/handling-expired-orders/
+/payments/methods/billing-suite/klarna/user-guide/placing-collection-period-on-hold/
+/payment-methods/klarna/pauzing-collection/
+/klarna/handling-disputes/
+/payments/methods/billing-suite/klarna/user-guide/customizing-invoices/
+/payment-methods/klarna/customizing-invoices/
+/payment-methods/billing-suite/klarna/
+/payment-methods/klarna/
 
 pay-after-delivery.md:
-- /support-tab/magento2/payment-methods/pay-after-delivery
-- /payment-methods/billing-suite/pay-after-delivery/activate-pay-after-delivery 
-- /payment-methods/billing-suite/pay-after-delivery/how-does-pay-after-delivery-work
-- /payment-methods/billing-suite/pay-after-delivery/pay-after-delivery-testing
-- /payment-methods/billing-suite/pay-after-delivery/refund-pay-after-delivery
-- /payment-methods/billing-suite/pay-after-delivery/what-is-pay-after-delivery
-- /payment-methods/billing-suite/pay-after-delivery
-- /payments/methods/billing-suite/pay-after-delivery/
-- /payments/methods/billing-suite/pay-after-delivery/about/
-- /payments/methods/pay-after-delivery/product-rules/
-- /payment-methods/pay-after-delivery/product-rules/
-- /payment-methods/pay-after-delivery/refunds-discounts/
-- /payment-methods/pay-after-delivery/overview/
-- /payments/methods/billing-suite/pay-after-delivery/payment-flow/
-- /payment-methods/pay-after-delivery/payment-flow/
-- /payments/methods/billing-suite/pay-after-delivery/integration-and-testing/
-- /payment-methods/pay-after-delivery/integration-testing/ 
-- /payments/methods/billing-suite/pay-after-delivery/activation/
-- /payment-methods/pay-after-delivery/activation/
-- /payments/methods/billing-suite/pay-after-delivery/user-guide/closing-transactions/
-- /payment-methods/pay-after-delivery/closing-transactions/
-- /payment-methods/pay-after-delivery/refunds/
-- /payment-methods/billing-suite/pay-after-delivery/
-- /payment-methods/pay-after-delivery/
+/support-tab/magento2/payment-methods/pay-after-delivery
+/payment-methods/billing-suite/pay-after-delivery/activate-pay-after-delivery 
+/payment-methods/billing-suite/pay-after-delivery/how-does-pay-after-delivery-work
+/payment-methods/billing-suite/pay-after-delivery/pay-after-delivery-testing
+/payment-methods/billing-suite/pay-after-delivery/refund-pay-after-delivery
+/payment-methods/billing-suite/pay-after-delivery/what-is-pay-after-delivery
+/payment-methods/billing-suite/pay-after-delivery
+/payments/methods/billing-suite/pay-after-delivery/
+/payments/methods/billing-suite/pay-after-delivery/about/
+/payments/methods/pay-after-delivery/product-rules/
+/payment-methods/pay-after-delivery/product-rules/
+/payment-methods/pay-after-delivery/refunds-discounts/
+/payment-methods/pay-after-delivery/overview/
+/payments/methods/billing-suite/pay-after-delivery/payment-flow/
+/payment-methods/pay-after-delivery/payment-flow/
+/payments/methods/billing-suite/pay-after-delivery/integration-and-testing/
+/payment-methods/pay-after-delivery/integration-testing/ 
+/payments/methods/billing-suite/pay-after-delivery/activation/
+/payment-methods/pay-after-delivery/activation/
+/payments/methods/billing-suite/pay-after-delivery/user-guide/closing-transactions/
+/payment-methods/pay-after-delivery/closing-transactions/
+/payment-methods/pay-after-delivery/refunds/
+/payment-methods/billing-suite/pay-after-delivery/
+/payment-methods/pay-after-delivery/
 
 prepaid-cards.md:
-- /payments/methods/prepaid-cards/
-- /payment-methods/prepaid-cards/
+/payments/methods/prepaid-cards/
+/payment-methods/prepaid-cards/
 
 edenred.md:
-- /payments/methods/prepaid-cards/edenred/
-- /payments/methods/prepaid-cards/edenred/product-rules/
-- /payment-methods/edenred/product-rules/
-- /payment-methods/edenred/overview/
-- /payments/methods/prepaid-cards/edenred/payment-flow/
-- /payment-methods/edenred/payment-flow/
-- /payments/methods/prepaid-cards/edenred/integration-and-testing/
-- /payment-methods/edenred/integration-testing/
-- /payments/methods/prepaid-cards/edenred/activation/
-- /payment-methods/edenred/activation/
-- /payment-methods/edenred/
+/payments/methods/prepaid-cards/edenred/
+/payments/methods/prepaid-cards/edenred/product-rules/
+/payment-methods/edenred/product-rules/
+/payment-methods/edenred/overview/
+/payments/methods/prepaid-cards/edenred/payment-flow/
+/payment-methods/edenred/payment-flow/
+/payments/methods/prepaid-cards/edenred/integration-and-testing/
+/payment-methods/edenred/integration-testing/
+/payments/methods/prepaid-cards/edenred/activation/
+/payment-methods/edenred/activation/
+/payment-methods/edenred/
 
 gift-cards.md:
-- /payment-methods/gift-cards/
-- /payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card/
-- /payment-methods/giftcards/branded-personalized-gift-card/
-- /payment-methods/prepaid-cards/gift-cards
-- /payments/methods/prepaid-cards/gift-cards/
-- /payment-methods/prepaid-cards/gift-cards/open-loop-vs-closed-loop
-- /payment-methods/gift-cards/which-gift-cards-are-accepted-by-multisafepay/
-- /payments/methods/prepaid-cards/gift-cards/about/
-- /payments/methods/gift-cards/product-rules/
-- /payment-methods/gift-cards/product-rules/
-- /payment-methods/gift-cards/overview/
-- /payment-methods/gift-cards/how-do-gift-cards-work
-- /payments/methods/prepaid-cards/gift-cards/payment-flow/
-- /payment-methods/gift-cards/payment-flow/
-- /payment-methods/gift-cards/test-gift-cards
-- /payments/methods/prepaid-cards/gift-cards/integration-and-testing/
-- /payment-methods/gift-cards/integration-testing/
-- /payment-methods/prepaid-cards/gift-cards/activate-gift-cards/
-- /payments/methods/prepaid-cards/gift-cards/activation/
-- /payment-methods/gift-cards/activation/
-- /payment-methods/prepaid-cards/gift-cards/open-loop-vs-closed-loop
-- /payments/methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop/
-- /payment-methods/gift-cards/open-loop-closed-loop/
-- /payment-methods/gift-cards/branded-personalized-gift-card/
-- payment-methods/prepaid-cards/gift-cards/custom-gift-cards
-- /payments/methods/prepaid-cards/gift-cards/user-guide/creating-custom-gift-cards/
-- /payment-methods/gift-cards/custom-cards/
-- /payments/methods/prepaid-cards/gift-cards/user-guide/handling-errors/
-- /payment-methods/gift-cards/handling-errors/
-- /payment-methods/gift-cards/pay-later-methods/
-- /payment-methods/prepaid-cards/gift-cards/
-- /payment-methods/gift-cards/
+/payment-methods/gift-cards/
+/payment-methods/prepaid-cards/gift-cards/branded-personalized-gift-card/
+/payment-methods/giftcards/branded-personalized-gift-card/
+/payment-methods/prepaid-cards/gift-cards
+/payments/methods/prepaid-cards/gift-cards/
+/payment-methods/prepaid-cards/gift-cards/open-loop-vs-closed-loop
+/payment-methods/gift-cards/which-gift-cards-are-accepted-by-multisafepay/
+/payments/methods/prepaid-cards/gift-cards/about/
+/payments/methods/gift-cards/product-rules/
+/payment-methods/gift-cards/product-rules/
+/payment-methods/gift-cards/overview/
+/payment-methods/gift-cards/how-do-gift-cards-work
+/payments/methods/prepaid-cards/gift-cards/payment-flow/
+/payment-methods/gift-cards/payment-flow/
+/payment-methods/gift-cards/test-gift-cards
+/payments/methods/prepaid-cards/gift-cards/integration-and-testing/
+/payment-methods/gift-cards/integration-testing/
+/payment-methods/prepaid-cards/gift-cards/activate-gift-cards/
+/payments/methods/prepaid-cards/gift-cards/activation/
+/payment-methods/gift-cards/activation/
+/payment-methods/prepaid-cards/gift-cards/open-loop-vs-closed-loop
+/payments/methods/prepaid-cards/gift-cards/user-guide/about-open-closed-loop/
+/payment-methods/gift-cards/open-loop-closed-loop/
+/payment-methods/gift-cards/branded-personalized-gift-card/
+/payment-methods/prepaid-cards/gift-cards/custom-gift-cards
+/payments/methods/prepaid-cards/gift-cards/user-guide/creating-custom-gift-cards/
+/payment-methods/gift-cards/custom-cards/
+/payments/methods/prepaid-cards/gift-cards/user-guide/handling-errors/
+/payment-methods/gift-cards/handling-errors/
+/payment-methods/gift-cards/pay-later-methods/
+/payment-methods/prepaid-cards/gift-cards/
+/payment-methods/gift-cards/
 
 paysafecard.md:
-- /support-tab/magento2/payment-methods/paysafecard
-- /payment-methods/paysafecard/
-- /payment-methods/prepaid-cards/paysafecard
-- /payments/methods/prepaid-cards/paysafecard/
-- /payments/methods/prepaid-cards/paysafecard/about/
-- /payments/methods/paysafecard/product-rules/
-- /payment-methods/paysafecard/product-rules/
-- /payment-methods/paysafecard/overview/
-- /payment-methods/paysafecard/how-does-paysafecard-work
-- /payments/methods/prepaid-cards/paysafecard/payment-flow/
-- /payment-methods/paysafecard/payment-flow/
-- /payment-methods/paysafecard/integration-testing/
-- /payment-methods/paysafecard/activate-paysafecard
-- /payments/methods/prepaid-cards/paysafecard/activation/
-- /payment-methods/paysafecard/activation/
-- /payment-methods/prepaid-cards/paysafecard/
-- /payment-methods/paysafecard/
+/support-tab/magento2/payment-methods/paysafecard
+/payment-methods/paysafecard/
+/payment-methods/prepaid-cards/paysafecard
+/payments/methods/prepaid-cards/paysafecard/
+/payments/methods/prepaid-cards/paysafecard/about/
+/payments/methods/paysafecard/product-rules/
+/payment-methods/paysafecard/product-rules/
+/payment-methods/paysafecard/overview/
+/payment-methods/paysafecard/how-does-paysafecard-work
+/payments/methods/prepaid-cards/paysafecard/payment-flow/
+/payment-methods/paysafecard/payment-flow/
+/payment-methods/paysafecard/integration-testing/
+/payment-methods/paysafecard/activate-paysafecard
+/payments/methods/prepaid-cards/paysafecard/activation/
+/payment-methods/paysafecard/activation/
+/payment-methods/prepaid-cards/paysafecard/
+/payment-methods/paysafecard/
 
 wallets.md:
-- /payments/methods/wallets/
-- /payment-methods/wallets/
+/payments/methods/wallets/
+/payment-methods/wallets/
 
 alipay.md:
-- /support-tab/magento2/payment-methods/alipay
-- /payment-methods/alipay/
-- /payment-methods/wallet/alipay
-- /payments/methods/wallet/alipay/
-- /payments/methods/wallet/alipay/about/
-- /payments/methods/alipay/product-rules/
-- /payment-methods/alipay/product-rules/
-- /payment-methods/alipay/overview/
-- /payment-methods/wallet/alipay/alipay-how-does-it-work
-- /payments/methods/wallet/alipay/payment-flow/
-- /payment-methods/alipay/payment-flow/
-- /payments/methods/wallet/alipay/integration-and-testing/
-- /payment-methods/alipay/integration-testing/
-- /payment-methods/wallet/alipay/activate-alipay
-- /payments/methods/wallet/alipay/activation/
-- /payment-methods/alipay/activation/
-- /payment-methods/wallet/alipay/
-- /payment-methods/alipay/
+/support-tab/magento2/payment-methods/alipay
+/payment-methods/alipay/
+/payment-methods/wallet/alipay
+/payments/methods/wallet/alipay/
+/payments/methods/wallet/alipay/about/
+/payments/methods/alipay/product-rules/
+/payment-methods/alipay/product-rules/
+/payment-methods/alipay/overview/
+/payment-methods/wallet/alipay/alipay-how-does-it-work
+/payments/methods/wallet/alipay/payment-flow/
+/payment-methods/alipay/payment-flow/
+/payments/methods/wallet/alipay/integration-and-testing/
+/payment-methods/alipay/integration-testing/
+/payment-methods/wallet/alipay/activate-alipay
+/payments/methods/wallet/alipay/activation/
+/payment-methods/alipay/activation/
+/payment-methods/wallet/alipay/
+/payment-methods/alipay/
 
 apple-pay.md:
-- /payment-methods/applepay/
-- /support-tab/magento2/payment-methods/applepay
-- /payment-methods/wallet/applepay
-- /payment-methods/wallet/applepay/
-- /payments/methods/wallet/applepay/
-- /payments/methods/wallet/applepay/about/
-- /payments/methods/apple-pay/product-rules/
-- /payment-methods/apple-pay/product-rules/
-- /payment-methods/apple-pay/overview/
-- /payment-methods/wallet/applepay/apple-pay-how-does-it-work
-- /payments/methods/wallet/applepay/payment-flow/
-- /payment-methods/apple-pay/payment-flow/
-- /payment-methods/wallet/applepay/apple-pay-compatibility-and-testing
-- /payment-methods/wallet/applepay/apple-pay-guidelines
-- /payments/methods/wallet/applepay/integration-and-testing/
-- /payment-methods/apple-pay/integration-testing/
-- /payment-methods/wallet/applepay/activate-apple-pay
-- /payments/methods/wallet/applepay/activation/
-- /payment-methods/apple-pay/activation/
-- /payment-methods/apple-pay/
+/payment-methods/applepay/
+/support-tab/magento2/payment-methods/applepay
+/payment-methods/wallet/applepay
+/payment-methods/wallet/applepay/
+/payments/methods/wallet/applepay/
+/payments/methods/wallet/applepay/about/
+/payments/methods/apple-pay/product-rules/
+/payment-methods/apple-pay/product-rules/
+/payment-methods/apple-pay/overview/
+/payment-methods/wallet/applepay/apple-pay-how-does-it-work
+/payments/methods/wallet/applepay/payment-flow/
+/payment-methods/apple-pay/payment-flow/
+/payment-methods/wallet/applepay/apple-pay-compatibility-and-testing
+/payment-methods/wallet/applepay/apple-pay-guidelines
+/payments/methods/wallet/applepay/integration-and-testing/
+/payment-methods/apple-pay/integration-testing/
+/payment-methods/wallet/applepay/activate-apple-pay
+/payments/methods/wallet/applepay/activation/
+/payment-methods/apple-pay/activation/
+/payment-methods/apple-pay/
 
 apple-pay-integration.md:
-- /payments/methods/wallet/applepay/direct-integration
-- /payment-methods/apple-pay/direct/
-- /apple-pay/direct/
-- /payments/methods/wallet/applepay/redirect-integration
-- /payment-methods/apple-pay/redirect/
-- /apple-pay/redirect/
+/payments/methods/wallet/applepay/direct-integration
+/payment-methods/apple-pay/direct/
+/apple-pay/direct/
+/payments/methods/wallet/applepay/redirect-integration
+/payment-methods/apple-pay/redirect/
+/apple-pay/redirect/
 
 google-pay.md:
-- /support-tab/magento2/payment-methods/googlepay
-- /payment-methods/wallet/googlepay
-- /payment-methods/google-pay/product-rules
-- /payment-methods/google-pay/overview/
-- /payment-methods/google-pay/payment-flow
-- /payment-methods/google-pay/integration-testing
-- /payment-methods/google-pay/activation
-- /payment-methods/google-pay/
+/support-tab/magento2/payment-methods/googlepay
+/payment-methods/wallet/googlepay
+/payment-methods/google-pay/product-rules
+/payment-methods/google-pay/overview/
+/payment-methods/google-pay/payment-flow
+/payment-methods/google-pay/integration-testing
+/payment-methods/google-pay/activation
+/payment-methods/google-pay/
 
 google-pay-integration.md:
-- /payments/methods/wallet/googlepay/direct-integration
-- /payment-methods/google-pay/direct
-- /google-pay/direct
+/payments/methods/wallet/googlepay/direct-integration
+/payment-methods/google-pay/direct
+/google-pay/direct
 
 paypal.md:
-- /support-tab/magento2/payment-methods/paypal
-- /payment-methods/paypal/
-- /payment-methods/wallet/paypal
-- /payments/methods/wallet/paypal/
-- /payments/methods/wallet/paypal/about/
-- /payments/methods/paypal/product-rules/
-- /payment-methods/paypal/product-rules/
-- /payment-methods/paypal/overview/
-- /payment-methods/wallet/paypal/how-does-paypal-work
-- /payments/methods/wallet/paypal/payment-flow/
-- /payment-methods/paypal/payment-flow/
-- /payment-methods/wallet/paypal/paypal-testing
-- /payments/methods/wallet/paypal/integration-and-testing/
-- /payment-methods/paypal/integration-testing/
-- /payment-methods/paypal/activate-paypal
-- /faq/errors-explained/paypal-error-10002
-- /faq/errors-explained/iframe-errors
-- /payments/methods/wallet/paypal/activation/
-- /payment-methods/paypal/activation/
-- /payment-methods/wallet/paypal/
-- /payment-methods/wallet/paypal/paypal-testing
-- /payment-methods/paypal/
+/support-tab/magento2/payment-methods/paypal
+/payment-methods/paypal/
+/payment-methods/wallet/paypal
+/payments/methods/wallet/paypal/
+/payments/methods/wallet/paypal/about/
+/payments/methods/paypal/product-rules/
+/payment-methods/paypal/product-rules/
+/payment-methods/paypal/overview/
+/payment-methods/wallet/paypal/how-does-paypal-work
+/payments/methods/wallet/paypal/payment-flow/
+/payment-methods/paypal/payment-flow/
+/payment-methods/wallet/paypal/paypal-testing
+/payments/methods/wallet/paypal/integration-and-testing/
+/payment-methods/paypal/integration-testing/
+/payment-methods/paypal/activate-paypal
+/faq/errors-explained/paypal-error-10002
+/faq/errors-explained/iframe-errors
+/payments/methods/wallet/paypal/activation/
+/payment-methods/paypal/activation/
+/payment-methods/wallet/paypal/
+/payment-methods/wallet/paypal/paypal-testing
+/payment-methods/paypal/
 
 wechatpay.md:
-- /payments/methods/wallet/wechatpay/
-- /payments/methods/wechatpay/product-rules/
-- /payment-methods/wechatpay/product-rules/
-- /payment-methods/wechatpay/overview/
-- /payment-methods/wechat-pay/overview/
-- /payments/methods/wallet/wechatpay/payment-flow/
-- /payment-methods/wechat-pay/payment-flow/
-- /payments/methods/wallet/wechatpay/integration-and-testing/
-- /payment-methods/wechat-pay/integration-testing/
-- /payments/methods/wallet/wechatpay/activation/
-- /payment-methods/wechat-pay/activation/
-- /payment-methods/wechat-pay/
+/payments/methods/wallet/wechatpay/
+/payments/methods/wechatpay/product-rules/
+/payment-methods/wechatpay/product-rules/
+/payment-methods/wechatpay/overview/
+/payment-methods/wechat-pay/overview/
+/payments/methods/wallet/wechatpay/payment-flow/
+/payment-methods/wechat-pay/payment-flow/
+/payments/methods/wallet/wechatpay/integration-and-testing/
+/payment-methods/wechat-pay/integration-testing/
+/payments/methods/wallet/wechatpay/activation/
+/payment-methods/wechat-pay/activation/
+/payment-methods/wechat-pay/
 
 testing.md:
-- /faq/getting-started/testing-with-multisafepay/
-- /faq/getting-started/test-orders-overview/
-- /tools/multisafepay-test-environment/multisafepay-test-environment/
-- /faq/testing/testing-payments/
-- /faq/testing/testing-with-multisafepay/
-- /payments/testing/
-- /integrations/testing/
-- /testing/testing-process/
-- /faq/getting-started/test-payment-details/
-- /getting-started/test-your-integration/test-payment-details
-- /testing/test-payment-details/
-- /testing/
+/faq/getting-started/testing-with-multisafepay/
+/faq/getting-started/test-orders-overview/
+/tools/multisafepay-test-environment/multisafepay-test-environment/
+/faq/testing/testing-payments/
+/faq/testing/testing-with-multisafepay/
+/payments/testing/
+/integrations/testing/
+/testing/testing-process/
+/faq/getting-started/test-payment-details/
+/getting-started/test-your-integration/test-payment-details
+/testing/test-payment-details/
+/testing/
