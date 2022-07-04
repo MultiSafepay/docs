@@ -59,7 +59,7 @@ Make sure you enter the correct API key for the account type you want to use.
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - Banking methods: All, except Request to Pay
 - <<glossary:BNPL>>: All, except in3
 - Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/paypal/)

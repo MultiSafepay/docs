@@ -29,7 +29,7 @@ slug: 'scandipwa'
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - Banking methods: All
 - <<glossary:BNPL>>: All
 - Wallets: All

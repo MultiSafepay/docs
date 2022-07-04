@@ -66,7 +66,7 @@ If a customer selects Apple Pay at checkout but isn't on an Apple device, they r
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - Banking methods: All
 - <<glossary:BNPL>>: All
 - Wallets: All
@@ -82,7 +82,7 @@ If a customer selects Apple Pay at checkout but isn't on an Apple device, they r
     - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
     - [Paysafecard](/docs/paysafecard/)
     - [Podium](https://www.podiumcadeaukaart.nl)
-    - [Postepay](/docs/cards/)
+    - [Postepay](/docs/card-payments/)
     - [Sport en Fit](https://www.sportenfitcadeau.nl)
     - [VVV gift card](https://www.vvvcadeaukaarten.nl)
     - [Webshop gift card](https://www.webshopgiftcard.nl)

@@ -98,7 +98,7 @@ Payments are processed in the webshop's default currency only.
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/paypal/)
 - Prepaid cards: [Paysafecard](/docs/paysafecard/)
 - Banking methods: 

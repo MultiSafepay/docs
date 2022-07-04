@@ -349,7 +349,7 @@ You cannot add payment links to order confirmation emails created in your **fron
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - Banking methods: All
 - <<glossary:BNPL>>: All
 - Wallets: All

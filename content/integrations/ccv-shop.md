@@ -35,7 +35,7 @@ ___
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - <<glossary:BNPL>>: [AfterPay](/docs/afterpay/), [Klarna](/docs/klarna/)
 - Wallets: [PayPal](/docs/paypal/)
 - Banking methods:

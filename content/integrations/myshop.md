@@ -20,7 +20,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 <br>
 
 
-- Cards: [American Express](/docs/cards/), [Mastercard](/docs/cards/), and [Visa](/docs/cards/)
+- Cards: [American Express](/docs/card-payments/), [Mastercard](/docs/card-payments/), and [Visa](/docs/card-payments/)
 - <<glossary:BNPL>>: [Klarna](/docs/klarna/) and [Pay After Delivery](/docs/pay-after-delivery/)
 - Wallets: [PayPal](/docs/paypal/)
 - Prepaid cards: [123TCS](/docs/gift-cards/), [Intersolve](/docs/gift-cards/), and [Fashioncheque](/docs/gift-cards/)
@@ -31,7 +31,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
     - [EPS](/docs/eps/)
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
-    - [Maestro](/docs/cards/)
+    - [Maestro](/docs/card-payments/)
     - [SEPA Direct Debit](/docs/sepa-direct-debit/)
     - [Sofort](/docs/sofort/)
 </details>

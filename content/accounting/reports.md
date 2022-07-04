@@ -407,18 +407,18 @@ To identify transactions in reports by payment method, use the following N-codes
 
 | N-Code | Transaction type  |
 |---|---|
-| N001   | [MASTERCARD](/docs/cards/)  |
-| N002   | [VISA](/docs/cards/)   |
-| N003   | [MAESTRO](/docs/cards/)   |
+| N001   | [MASTERCARD](/docs/card-payments/)  |
+| N002   | [VISA](/docs/card-payments/)   |
+| N003   | [MAESTRO](/docs/card-payments/)   |
 | N004   | WALLET |
-| N006   | [DANKORT](/docs/cards/)   |
+| N006   | [DANKORT](/docs/card-payments/)   |
 | N016   | [ALIPAY](/docs/alipay/)   |
 | N017   | [DOTPAY](/docs/dotpay/)   |
-| N018   | [POSTEPAY](/docs/cards/)  |
+| N018   | [POSTEPAY](/docs/card-payments/)  |
 | N021   | [IDEAL](/docs/ideal/)   |
 | N031   | [GIROPAY](/docs/giropay/)   |
 | N081   | [BANKTRANS](/docs/bank-transfer/)  |
-| N085   | [AMEX](/docs/cards/)     |
+| N085   | [AMEX](/docs/card-payments/)     |
 | N086   | [KLARNA](/docs/klarna/)    |
 | N088   | [PAYAFTER](/docs/pay-after-delivery/)  |
 | N089   | [SANTANDER](/docs/betaal-per-maand/)  |
