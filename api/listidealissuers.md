@@ -10,4 +10,4 @@ slug: listidealissuers
 2. Under **Path params**, for `gateway`, enter `IDEAL`.
 3. Click **Try it!**
 
-:warning: Never use a live API key!
+❗️ Never use a live API key!

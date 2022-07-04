@@ -9,4 +9,4 @@ slug: listpaymentmethods
 1. Under **Authentication** > **Bearer**, enter an [API key](/sites#site-id-api-key-and-security-code) from your **TEST** account.
 2. Click **Try it!**
 
-:warning: Never use a live API key!
+❗️ Never use a live API key!
