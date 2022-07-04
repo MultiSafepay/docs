@@ -13,4 +13,4 @@ slug: createorder
     - In the black **Request** box, click **Examples** and select a pre-filled template.
 4. Enter a unique order ID, and then click **Try it!**
 
-:warning: Never use a live API key, or real customer or payment details!
+❗️ Never use a live API key, or real customer or payment details!

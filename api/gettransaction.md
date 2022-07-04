@@ -10,4 +10,4 @@ slug: gettransaction
 2. Under **Path params**, enter the transaction ID.
 3. Click **Try it!**
 
-:warning: Never use a live API key!
+❗️ Never use a live API key!

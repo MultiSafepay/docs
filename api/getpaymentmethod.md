@@ -10,4 +10,4 @@ slug: getpaymentmethod
 2. Under **Path params**, enter the payment method ID.
 2. Click **Try it!**
 
-:warning: Never use a live API key!
+❗️ Never use a live API key!

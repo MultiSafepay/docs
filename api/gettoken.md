@@ -10,4 +10,4 @@ slug: gettoken
 2. Under **Path params**, enter your customer reference and token ID.
 3. Click **Try it!**
 
-:warning: Never use a live API key or real customer details!
+❗️ Never use a live API key or real customer details!
