@@ -214,7 +214,7 @@ To generate a payment link in your backend once an order is created, follow thes
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/) (The credit card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
+- Cards: [All](/docs/card-payments/) (The credit card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
 - Banking methods: All, except TrustPay
 - <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)

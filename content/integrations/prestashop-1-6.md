@@ -406,7 +406,7 @@ This is no longer supported from version 3.2.0. If you want to skip the extra co
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - <<glossary:BNPL>>: All, except Betaal per Maand
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Banking methods: 

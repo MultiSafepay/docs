@@ -870,7 +870,7 @@ This change is only for Magento developers. We recommend testing the change and 
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/) except V Pay
+- Cards: [All](/docs/card-payments/) except V Pay
 - Banking methods: All, **except** TrustPay
 - <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)

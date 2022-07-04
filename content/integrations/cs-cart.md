@@ -57,7 +57,7 @@ Extra options such as **IP-Validation** and **debugmode** are intended for devel
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - Banking methods: All
 - <<glossary:BNPL>>: All, except in3
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)

@@ -234,7 +234,7 @@ If you're new to accepting credit card payments, email a request to activate the
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - Banking methods: All
 - <<glossary:BNPL>>: All
 - Wallets: All

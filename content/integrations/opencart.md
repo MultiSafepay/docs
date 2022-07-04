@@ -174,7 +174,7 @@ The customer receives the payment link in the email sent by OpenCart containing 
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/) 
+- Cards: [All](/docs/card-payments/) 
 - Banking methods: All, except TrustPay
 - <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)

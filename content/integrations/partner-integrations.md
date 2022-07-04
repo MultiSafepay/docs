@@ -77,9 +77,9 @@ For any technical queries about the plugin, see Logic4 – [Contact](https://www
 <br>
 
 - Cards: 
-    - [American Express](/docs/cards/)
-    - [Mastercard](/docs/cards/) and [Maestro](/docs/cards/)
-    - [Visa](/docs/cards/)
+    - [American Express](/docs/card-payments/)
+    - [Mastercard](/docs/card-payments/) and [Maestro](/docs/card-payments/)
+    - [Visa](/docs/card-payments/)
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
     - [Bank Transfer](/docs/bank-transfer/)
@@ -130,9 +130,9 @@ For technical support, contact LogiVert - [Support](https://www.logivert.com/nl/
 <br>
 
 - Cards: 
-    - [American Express](/docs/cards/)
-    - [Mastercard](/docs/cards/)
-    - [Visa](/docs/cards/), [Cartes Bancaires](/docs/cards/), and [Dankort](/docs/cards/)
+    - [American Express](/docs/card-payments/)
+    - [Mastercard](/docs/card-payments/)
+    - [Visa](/docs/card-payments/), [Cartes Bancaires](/docs/card-payments/), and [Dankort](/docs/card-payments/)
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
     - [Bank Transfer](/docs/bank-transfer/)
@@ -271,7 +271,7 @@ ZilverCMS provides a free app to integrate with MultiSafepay.
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/cards/)
+- Cards: [All](/docs/card-payments/)
 - <<glossary:BNPL>>: [Betaal per Maand](/docs/betaal-per-maand/)
 - Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/paypal/)
 - Prepaid cards: [VVV gift card](https://www.vvvcadeaukaarten.nl)
