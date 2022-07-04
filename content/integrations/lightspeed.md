@@ -35,12 +35,12 @@ slug: 'lightspeed'
 5. In the dialog, approve the permissions required for the app.  
    You are redirected to Lightspeed – [MultiSafepay: How to log in](https://lightspeed.multisafepay.com/install).
 6. In the **Setup** page:
-    - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
-    - Select **Test** or **Live** environment, and click **Save and continue**.  
+  - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
+  - Select **Test** or **Live** environment, and click **Save and continue**.  
 You are redirected to the **Settings** page.
 7. We recommend enabling:
-    - Refunds
-    - MultiSafepay checkout scripts – Creates a list of iDEAL <<glossary:issuers>>, and suppresses Apple Pay for non-Apple devices.
+  - Refunds
+  - MultiSafepay checkout scripts – Creates a list of iDEAL <<glossary:issuers>>, and suppresses Apple Pay for non-Apple devices.
 8. Verify the other settings, and then click **Save**.  
 <br>
 
