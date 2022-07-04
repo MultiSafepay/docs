@@ -9,6 +9,7 @@ getting-started-guide.md:
 - /faq/getting-started/getting-started
 - /guides/getting-started/
 - /getting-started/
+- /faq/getting-started/
 
 glossary.md:
 - /faq/general/glossary

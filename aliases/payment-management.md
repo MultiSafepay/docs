@@ -58,7 +58,6 @@ second-chance.md:
 - /tools/second-chance/customizing-second-chance/
 - /tools/second-chance/how-to-personalize-the-second-chance-e-mail
 - /tools/second-chance/how-does-it-work
-- /tools/email-template
 - /payments/boost/second-chance/
 - /features/second-chance/
 - /account/second-chance/

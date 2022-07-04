@@ -1,31 +1,11 @@
-customer-emails.md:
-- /tools/email-template/customizing-email-templates/
-- /tools/email-template/about-email-templates/
-- /tools/email-template/basic-information-on-email-template/
-- /tools/email-template/customizing-email-templates/
-- /tools/email-template/about-email-templates/
-- /tools/email-template
-- /tools/multisafepay-control/email-template-token
-- /tools/multisafepay-control/using-email-template-tokens
-- /account/multisafepay-account/using-email-template-tokens/
-- /features/email-templates/
-- /account/customer-emails/
-
 create-account.md:
 - /account/test-accounts/
 - /tools/partner-account-control/create-partner-account
-- /tools/partner-account-control/partner-compensation
 - /account/partner-account-control/creating-partner-account/
 - /account/partner-account-control/about-account-types/
 - /account/account-types/
 - /account/creating-partner-accounts/
-- /partners/
-- /partners/faq/what-is-the-kickback-commission-for-partners/
-- /tools/partner-account-control/
 - /account/multisafepay-account/
-- /account/partner-account-control/
-- /account/partner-accounts/
-- /account/partner-primary-accounts/
 - /faq/getting-started/i-want-to-process-payments-using-multisafepay-but-i-still-have-a-contract-with-a-different-psp-is-that-a-problem/
 - /faq/getting-started/i-want-to-process-payments-using-multisafepay-but-i-still-have-a-contract-with-a-different-psp/
 - /faq/getting-started/switching-to-multisafepay
@@ -34,10 +14,11 @@ create-account.md:
 - /account/create-account/
 - /my-account/
 
-account-balance.md:
+manage-account.md:
 - /account/account-setup/
 - /account/manage-account/
-- /tools/multisafepay-control/users
+
+account-balance.md:
 - /faq/finance/adding-funds-to-your-multiSafepay-balance
 - /faq/finance/how-can-i-fund-my-multisafepay-account
 - /faq/finance/adding-funds-to-your-multisafepay-account
@@ -74,6 +55,20 @@ currencies.md:
 - /account/manage-your-balance/enabling-converting-currencies/
 - /account/currencies/
 
+email-styling.md:
+- /tools/email-template/customizing-email-templates/
+- /tools/email-template/about-email-templates/
+- /tools/email-template/basic-information-on-email-template/
+- /tools/email-template/customizing-email-templates/
+- /tools/email-template/about-email-templates/
+- /tools/email-template
+- /tools/multisafepay-control/email-template-token
+- /tools/multisafepay-control/using-email-template-tokens
+- /account/multisafepay-account/using-email-template-tokens/
+- /features/email-templates/
+- /account/customer-emails/
+- /customer-emails/
+
 ibans.md:
 - /developer/api/masking-iban-numbers/
 - /faq/api/masking-iban-numbers
@@ -102,6 +97,7 @@ invoices.md:
 payment-methods.md:
 - /payments/activating-payment-methods/
 - /account/payment-methods/
+- /about-payments/countries/
 
 payouts.md:
 - /faq/getting-started/how-do-i-pay-out-the-balance-on-my-multisafepay-account-to-my-business-bank-account
@@ -141,6 +137,13 @@ partner-primary-accounts.md:
 - /account/charging-affiliates/
 - /account/managing-affiliate-accounts/
 - /account/affiliates/
+- /account/partner-account-control/
+- /account/partner-accounts/
+- /account/partner-primary-accounts/
+- /partners/
+- /partners/faq/what-is-the-kickback-commission-for-partners/
+- /tools/partner-account-control/partner-compensation
+- /tools/partner-account-control/
 
 sites.md:
 - /account/adding-websites/
