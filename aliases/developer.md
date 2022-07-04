@@ -21,7 +21,6 @@ http-errors.md:
 
 troubleshooting.md:
 - /faq/errors-explained/diagnosing-errors
-- /faq/errors-explained/iframe-errors
 - /developer/errors-explained/understanding-and-resolving-errors/
 - /errors/handling-errors/
 - /developers/errors/

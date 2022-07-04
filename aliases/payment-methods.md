@@ -1,10 +1,10 @@
-bancontact.md:
-- /support-tab/magento2/payment-methods
-- /payment-methods/
-- /about-payments/countries/
+banking-methods.md:
 - /payment-methods/
 - /payments/methods/banks/
 - /payment-methods/banks/
+- /support-tab/magento2/payment-methods/
+
+bancontact.md:
 - /support-tab/magento2/payment-methods/bancontact
 - /payment-methods/banks/bancontact
 - /payments/methods/banks/bancontact/
@@ -32,6 +32,7 @@ bancontact.md:
 
 bank-transfer.md:
 - /support-tab/magento2/payment-methods/bank-transfer
+- /payment-methods/banks/direct-bank-transfer/
 - /payment-methods/banks/bank-transfer
 - /payments/methods/banks/bank-transfer/
 - /payment-methods/banks/bank-transfer/
@@ -202,7 +203,6 @@ ing-home-pay.md:
 
 request-to-pay.md:
 - /support-tab/magento2/payment-methods/request-to-pay
-- /payment-methods/banks/direct-bank-transfer/
 - /payment-methods/banks/request-to-pay
 - /payments/methods/banks/request-to-pay/
 - /payment-methods/bancontact/what-is-request-to-pay/
@@ -338,14 +338,18 @@ credit-debit-cards.md:
 - /payment-methods/credit-cards/branded-credit-cards/
 - /payment-methods/creditcards/
 - /payment-methods/credit-and-debit-cards/branded-credit-cards/
-- /payment-methods/creditcards/credit-card-how-does-it-work/
-- /payment-methods/credit-and-debit-cards/creditcards/credit-card-how-does-it-work/
-- /payment-methods/creditcards/activate-credit-cards/
-- /payment-methods/credit-and-debit-cards/creditcards/activate-credit-cards/
 - /payment-methods/credit-and-debit-cards/creditcards/
 - /payments/methods/credit-and-debit-cards/
 - /payment-methods/credit-and-debit-cards/
 - /payment-methods/credit-debit-cards/
+- /payment-methods/credit-and-debit-cards/
+- /payment-methods/cards/
+
+card-payments.md:
+- /payment-methods/creditcards/credit-card-how-does-it-work/
+- /payment-methods/credit-and-debit-cards/creditcards/credit-card-how-does-it-work/
+- /payment-methods/creditcards/activate-credit-cards/
+- /payment-methods/credit-and-debit-cards/creditcards/activate-credit-cards/
 - /payments/methods/american-express/
 - /support-tab/magento2/payment-methods/american-express
 - /payment-methods/creditcards/american-express/
@@ -511,8 +515,6 @@ credit-debit-cards.md:
 - /payment-methods/credit-and-debit-cards/maestro/
 - /payment-methods/credit-and-debit-cards/mastercard/
 - /payment-methods/credit-and-debit-cards/visa/
-- /payment-methods/credit-and-debit-cards/
-- /payment-methods/cards/
 
 3ds2.md:
 - /faq/risk-and-fraud/
@@ -626,11 +628,12 @@ zero-authorization.md:
 - /payments/features/zero-authorization/
 - /features/zero-authorization/
 
-afterpay.md:
+bnpl.md:
 - /payment-methods/billing-suite/
-- /payment-methods/pay-after-delivery/
 - /payments/methods/pay-later/
 - /payment-methods/pay-later/
+
+afterpay.md:
 - /support-tab/magento2/payment-methods/afterpay
 - /payment-methods/afterpay/
 - /payment-methods/afterpay/activate-afterpay
@@ -794,9 +797,11 @@ pay-after-delivery.md:
 - /payment-methods/billing-suite/pay-after-delivery/
 - /payment-methods/pay-after-delivery/
 
-edenred.md:
+prepaid-cards.md:
 - /payments/methods/prepaid-cards/
 - /payment-methods/prepaid-cards/
+
+edenred.md:
 - /payments/methods/prepaid-cards/edenred/
 - /payments/methods/prepaid-cards/edenred/product-rules/
 - /payment-methods/edenred/product-rules/
@@ -862,9 +867,11 @@ paysafecard.md:
 - /payment-methods/prepaid-cards/paysafecard/
 - /payment-methods/paysafecard/
 
-alipay.md:
+wallets.md:
 - /payments/methods/wallets/
 - /payment-methods/wallets/
+
+alipay.md:
 - /support-tab/magento2/payment-methods/alipay
 - /payment-methods/alipay/
 - /payment-methods/wallet/alipay
