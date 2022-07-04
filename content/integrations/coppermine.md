@@ -5,7 +5,7 @@ order: 202
 hidden: false
 parentDoc: 62a9a54aba9800011a8bda88
 slug: 'coppermine'
-excerpt: "Free integration to use MultiSafepay payment solutions with Coppermine."
+excerpt: "Free integration for MultiSafepay payment solutions."
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/coppermine-docs.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
