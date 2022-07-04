@@ -21,63 +21,8 @@ Payment is quick, automated, and secure.
 # Payment methods
 
 [block:html]
-{ 
-"html": "
-<div class="auto-grid">
-    <div class="card-container">
-        <a href="/docs/bancontact/" style="text-decoration: none;">
-            <div class="card">
-                <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Bancontact.svg" style="margin: 20px; max-height: 75px">
-                <div class="container">
-                </div>
-            </div>
-        </a>
-    </div>
-    <div class="card-container">
-        <a href="/docs/ideal#ideal-qr" style="text-decoration: none;">
-            <div class="card">
-                <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/iDeal_QR.svg" style="margin: 20px; max-height: 75px">
-                <div class="container">
-                </div>
-            </div>
-        </a>
-    </div>
-    <div class="card-container">
-        <a href="/docs/wechat-pay/" style="text-decoration: none;">
-            <div class="card">
-                <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/wechat.svg" style="margin: 20px; max-height: 75px">
-                <div class="container">
-                </div>
-            </div>
-        </a>
-  </div>
-</div>
-
-<style>
-
-b {
-  color: #384248 !important;
-}
-  
-.auto-grid {
-  --auto-grid-min-size: 200px;
-  
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-  grid-gap: 1rem;
-}
-
-/* Style the cards */
-.card-container {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 5px;
-}
-
-.card-container:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+{
+  "html": "<div class=\"auto-grid\">\n    <div class=\"card-container\">\n        <a href=\"/docs/bancontact/\" style=\"text-decoration: none;\">\n            <div class=\"card\">\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Bancontact.svg\" style=\"margin: 20px; max-height: 75px\">\n                <div class=\"container\">\n                    </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/ideal#ideal-qr\" style=\"text-decoration: none;\">\n            <div class=\"card\">\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/iDeal_QR.svg\" style=\"margin: 20px; max-height: 75px\">\n                <div class=\"container\">\n                    </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/wechat-pay/\" style=\"text-decoration: none;\">\n            <div class=\"card\">\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/wechat.svg\" style=\"margin: 20px; max-height: 75px\">\n                <div class=\"container\">\n                    </div>\n            </div>\n        </a>\n    </div>\n   </div>\n\n<style>\n\nb {\n  color: #384248 !important;\n}\n  \n.auto-grid {\n  --auto-grid-min-size: 200px;\n  \n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));\n  grid-gap: 1rem;\n}\n\n/* Style the cards */\n.card-container {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the \"card\" effect */\n  padding: 16px;\n  text-align: center;\n  background-color: #fff;\n  border-radius: 5px;\n}\n\n.card-container:hover {\n  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);\n}\n\n</style>"
 }
 [/block]
 
