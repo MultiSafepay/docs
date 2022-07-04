@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 117
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Free plugin to integrate MultiSafepay payment solutions into your Vue Storefront application."
+excerpt: "Free plugin for MultiSafepay payment solutions."
 slug: 'vue-storefront'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Vue_Storefront.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>

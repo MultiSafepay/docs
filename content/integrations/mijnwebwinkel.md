@@ -4,7 +4,7 @@ category: 62962dd7e272a6002ebbbbc5
 order: 204
 hidden: false
 parentDoc: 62a9a54aba9800011a8bda88
-excerpt: "Technical manual for installing and configuring Mijnwebwinkel's free app for MultiSafepay."
+excerpt: "Technical manual for Mijnwebwinkel's free app."
 slug: 'mijnwebwinkel'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Mijnwebwinkel.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
