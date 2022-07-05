@@ -22,7 +22,7 @@ Read how MyBank can benefit your business on [multisafepay.com](https://www.mult
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |
 | [Payment components](/docs/payment-components/) | Yes |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial |
-| [Second Chance](/docs/second-chance/) | ? |
+| [Second Chance](/docs/second-chance/) | Yes |
 
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
@@ -40,7 +40,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | The transaction was cancelled by you or the customer. | Void   | Void   |
 | The customer didn't complete payment within 1 hour. | Expired | Expired |
 | The customer didn't complete payment or there was an error. | Declined | Declined |
-| **Refunds:** Refund initiated. | Initialized | Initialized |
+| **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |
 
 # Activation 
