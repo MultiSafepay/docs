@@ -287,7 +287,7 @@ For more information about the `paymentData` object, see Google Pay&nbsp;–&nbs
 
 From your server, [create an order](https://docs-api.multisafepay.com/reference/createorder) > Wallet order. See also Examples > Google Pay direct.
 
-For the `gateway_info.payment_token`, use `PaymentData.PaymentMethodData.PaymentMethodTokenizationData.token`.
+For the `gateway_info.payment_token`, use `paymentData.paymentMethodData.tokenizationData.token`.
 
 ## Step 6: Redirect the customer
 
