@@ -28,6 +28,7 @@ You can embed a single or multiple payment methods in your checkout.
     - [Visa](/docs/card-payments/)
     - [Maestro](/docs/card-payments/)
 - [iDEAL](/docs/ideal/)
+- [MyBank](/docs/mybank/)
 - [PayPal](/docs/paypal/)
 - [SEPA Direct Debit](/docs/sepa-direct-debit/)
 - [Sofort](/docs/sofort/)
