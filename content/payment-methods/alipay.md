@@ -15,6 +15,9 @@ For Chinese customers, Alipay accounts are verified and linked to their Chinese 
 
 Read how Alipay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/alipay)
 
+> ⚠️ Attention
+> We are phasing out support for Alipay. We recommend migrating to [Alipay+](/docs/alipay-plus/).
+
 | Supports | Details |
 |---|---|
 | [Countries](/docs/payment-methods#payment-methods-by-country)  | Worldwide  | 
