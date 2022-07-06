@@ -92,8 +92,7 @@ You can't test the following methods in your MultiSafepay test account. You can 
 You can see the reason the transaction was declined in your MultiSafepay test account under **Notes**.
 
 **Test a Bancontact QR code**
-1. [Create an order](/reference/createorder/) > Banking order  
-    Example: Bancontact QR
+1. [Create an order](/reference/createorder/) > Banking order (Example: Bancontact QR)
 2. Open the payment link.
 3. Scan the QR code with a general QR reader (**not** the Bancontact app or an error occurs).
 4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
@@ -105,18 +104,17 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <summary>How to test Bank Transfer</summary>
 <br>
 
-1. [Create an order](/reference/createorder/) > Banking order  
-    Example: Bank Transfer redirect
+1. [Create an order](/reference/createorder/) > Banking order (Example: Bank Transfer redirect)
 2. Open the payment link. 
 3. In the **Your bank account** field, enter an IBAN (see table below). 
 4. From the **Bank's country** list, select a country, and then click **Confirm**.
 
 | IBAN | Scenario | Description |
 | ---| ---| ---|
-| NL87ABNA0000000001| **Initialized**/ **Completed** | Transaction is initiated. After 2 minutes, this changes to **Completed**. <br> Also use this for [testing refunds](#refunds). |
-| NL87ABNA0000000002| **Initialized**/ **Expired** | Transaction is initiated. After 2 minutes, this changes to **Expired**. |
-| NL87ABNA0000000004| **Initialized**/ **Declined** | Transaction is initiated. After 2 minutes, this changes to **Declined**. |
-| Any other IBAN | **Initialized**/ **Expired** | Transaction is initiated. After 5 days, this changes to **Expired**. |
+| NL87ABNA0000000001| **Completed** | Transaction is initiated. After 2 minutes, this changes to **Completed**. <br> Also use this for [testing refunds](#refunds). |
+| NL87ABNA0000000002| **Expired** | Transaction is initiated. After 2 minutes, this changes to **Expired**. |
+| NL87ABNA0000000004| **Declined** | Transaction is initiated. After 2 minutes, this changes to **Declined**. |
+| Any other IBAN | **Expired** | Transaction is initiated. After 5 days, this changes to **Expired**. |
 <br>
 
 > **Note:** You can't test making direct API requests with an IBAN to test different <<glossary:transaction statuses>>.
@@ -140,8 +138,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <summary>How to test Dotpay</summary>
 <br>
 
-1. [Create an order](/reference/createorder/) > Banking order  
-    Example: Dotpay redirect
+1. [Create an order](/reference/createorder/) > Banking order (Example: Dotpay redirect)
 2. On the Dotpay page, enter in the:
     - **Email address** field: Any email address
     - **Phone number** field: Any phone number
@@ -157,8 +154,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <summary>How to test EPS</summary>
 <br>
 
-1. [Create an order](/reference/createorder/) > Banking order  
-    Example: EPS redirect   
+1. [Create an order](/reference/createorder/) > Banking order (Example: EPS redirect)
     Set the `locale` parameter to `at_AT`.
 2. On the EPS page, in the **BIC** field, enter any BIC code, e.g. `RZOOAT2L420`.
 3. Click **Confirm**.
@@ -172,8 +168,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <summary>How to test Giropay</summary>
 <br>
 
-1. [Create an order](/reference/createorder/) > Banking order  
-    Example: Giropay redirect
+1. [Create an order](/reference/createorder/) > Banking order (Example: Giropay redirect)
 2. On the Giropay page, in the **BIC** field, enter any BIC code, e.g. `NOLADE22XXX`.
 3. Click **Confirm**.
 4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
@@ -186,8 +181,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <summary>How to test iDEAL</summary>
 <br>
 
-1. [Create an order](/reference/createorder/) > Banking order  
-    Example: iDEAL direct/redirect
+1. [Create an order](/reference/createorder/) > Banking order (Example: iDEAL direct/redirect)
 2. For redirect, select a bank.
 3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**.  
@@ -207,8 +201,7 @@ You can also test the following scenarios:
 <summary>How to test SEPA Direct Debit</summary>
 <br>
 
-1. [Create an order](/reference/createorder/) > Banking order  
-    Example: SEPA Direct Debit direct/redirect
+1. [Create an order](/reference/createorder/) > Banking order (Example: SEPA Direct Debit direct/redirect)
 2. For redirect orders, open the payment link. 
 3. Enter in the:
     - **Account holder** field the account holder name.
@@ -217,10 +210,29 @@ You can also test the following scenarios:
 
 | IBAN | Scenario | Description |
 | ---| --- | --- |
-| NL87ABNA0000000001| **Initialized**/ **Completed** | Transaction is initiated. After 2 minutes, this changes to **Completed**. <br> Also use this IBAN to test [refunds and API refunds](#refunds). |
-| NL87ABNA0000000002| **Initialized**/ **Declined** | Transaction is initiated. After 2 minutes, this changes to **Declined**. |
-| NL87ABNA0000000003| **Initialized**/ **Uncleared**/ **Completed** | Transaction is initiated. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Completed**. |
-| NL87ABNA0000000004| **Initialized**/ **Uncleared**/ **Declined** | Transaction is initiated. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Declined**. |
+| NL87ABNA0000000001| **Completed** | Transaction is initiated. After 2 minutes, this changes to **Completed**. <br> Also use this IBAN to test [refunds and API refunds](#refunds). |
+| NL87ABNA0000000002| **Declined** | Transaction is initiated. After 2 minutes, this changes to **Declined**. |
+| NL87ABNA0000000003| **Uncleared** > **Completed** | Transaction is initiated. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Completed**. |
+| NL87ABNA0000000004| **Uncleared** > **Declined** | Transaction is initiated. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Declined**. |
+
+</details>
+
+<details id="mybank">
+<summary>How to test MyBank</summary>
+<br>
+
+1. [Create an order](/reference/createorder/) > Banking order (Example: MyBank direct/redirect)
+    Set the `locale` parameter to `it_IT`.
+2. For redirect orders, open the payment link. 
+3. Select the bank/payment scenario below.
+4. Click **Continua sull'online banking**.
+
+| Bank | Scenario | Description |
+| ---| --- | --- |
+| Allianz Bank FA SPA | **Completed** | Transaction is initiated. After 2 minutes, this changes to **Completed**. <br> Also use this IBAN to test [refunds and API refunds](#refunds). |
+| Banca di Cesena - Credito Coop. | **Declined** | Transaction is initiated. After 2 minutes, this changes to **Declined**. |
+| Credito Artigiano | **Cancelled** | Transaction is initiated. After 2 minutes, this changes to **Cancelled**.  |
+| Volksbank - Banca Popolare | **Expired** | Transaction is initiated. After 2 minutes, this changes to **Expired**.  |
 
 </details>
 
