@@ -47,7 +47,7 @@ MultiSafepay supports the following credit and debit cards:
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/credit-debit-cards-payment-flow.svg" alt="Credit and debit cards payment flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/credit-debit-cards-payment-flow.svg" alt="Credit and debit cards payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;
