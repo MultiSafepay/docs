@@ -10,7 +10,7 @@ slug: 'shopify'
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shopify.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 > ⚠️ Urgent action required!
-> [Migrate to our updated app](#installation) before March 31, 2022.
+> [Migrate to our updated app](#installation).
 > The new app leverages a single, powerful <<glossary:gateway>> for a faster, safer integration.
 
 # Prerequisites
@@ -22,12 +22,16 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 To install or migrate, follow these steps:
 
 1. For increased security and stability, wait for off-peak hours and temporarily enable password protection for your webshop.
-2. From the Shopify app store, download and install the [MultiSafepay Payments app](https://apps.shopify.com/multisafepay-payments).  
-3. Check that the app is successfully added under **Admin** > **Settings** > **Payments** > **Alternative payment methods**.
-4. In your Shopify checkout, test the **MultiSafepay Payments** gateway.  
-  **Note:** If using a test [API key](/docs/sites#site-id-api-key-and-security-code), make sure you also enable **Test mode**. 
-5. For existing merchants, you must disable the deprecated individual MultiSafepay payment method gateways under **Admin** > **Settings** > **Payments** > **Third-party payment providers**.
-6. Once testing is complete, disable password protection again.
+2. From the Shopify app store, install the [MultiSafepay Payments app](https://apps.shopify.com/multisafepay-payments).
+3. Enter your [site API key](/docs/sites#site-id-api-key-and-security-code), and specify whether it is a **live** or **test** key.
+4. Click **Save and continue** (might take a few seconds).
+    A pop up or new tab opens.
+5. Scroll down and click **Activate MultiSafepay payments**.
+6. Under **Admin** > **Settings** > **Payments** > **Alternative payment methods**, check that the app has been successfully added. 
+7. In your Shopify checkout, test the **MultiSafepay payments** gateway.
+    ❗️ If using a test API key, make sure you also enable **Test mode**.
+8. For existing merchants, under **Admin** > **Settings** > **Payments** > **Third-party payment providers**, disable the deprecated individual MultiSafepay payment method gateways.
+9. Once testing is complete, disable password protection again.
 <br>
 
 ---
