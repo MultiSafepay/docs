@@ -54,10 +54,10 @@ You can activate Bank Transfer yourself in your dashboard.
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 2. Go to **Settings**. 
-3. To enable the payment method for:
+3. To activate the payment method for:
     - All sites, go to **Payment methods**.
     - A specific site, go to **Website settings**, and click the relevant site.
-4. Select the checkbox for the relevant payment method, and then click **Save changes**.
+4. Select the checkbox for the payment method, and then click **Save changes**.
 
 > **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 

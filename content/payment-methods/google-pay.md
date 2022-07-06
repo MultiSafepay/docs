@@ -69,10 +69,10 @@ First apply to MultiSafepay, and then activate in your dashboard.
  
 2. Once approved, sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 3. Go to **Settings**. 
-4. To enable the payment method for:
+4. To activate the payment method for:
     - All sites, go to **Payment methods**.
     - A specific site, go to **Website settings**, and click the relevant site.
-5. Select the checkbox for the relevant payment method, and then click **Save changes**.
+5. Select the checkbox for the payment method, and then click **Save changes**.
 
 > **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 
