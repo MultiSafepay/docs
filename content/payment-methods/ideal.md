@@ -37,7 +37,7 @@ Not all Dutch banking apps support iDEAL QR yet, so we recommend that customers 
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/ideal-payment-flow.svg" alt="iDEAL payment flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/ideal-payment-flow.svg" alt="iDEAL payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;

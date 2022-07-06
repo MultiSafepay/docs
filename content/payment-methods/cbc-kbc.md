@@ -27,7 +27,7 @@ Read how CBC/KBC can benefit your business on [multisafepay.com](https://www.mul
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/cbc-kbc-payment-flow.svg" alt="CBC/KBC payment flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/cbc-kbc-payment-flow.svg" alt="CBC/KBC payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;

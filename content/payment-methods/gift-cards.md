@@ -43,7 +43,7 @@ Read how gift cards can benefit your business on [multisafepay.com](https://www.
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/gift-cards-payment-flow.svg" alt="Gift cards payment flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/gift-cards-payment-flow.svg" alt="Gift cards payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;
