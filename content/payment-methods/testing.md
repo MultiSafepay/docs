@@ -529,11 +529,11 @@ Any other card number receives an "Invalid card number" error.
 ## Wallets
 
 <details id="alipay">
-<summary>How to test Alipay and Alipay+</summary>
+<summary>How to test Alipay</summary>
 <br>
 
 1. [Create an order](/reference/createorder/) > Wallet order  
-    Example: Alipay/Alipay+ direct/redirect
+    Example: Alipay direct/redirect
 2. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
     The payment is processed in your MultiSafepay test account as **Successful**, with <<glossary:order status>> **Completed**, and transaction status **Initialized**.
