@@ -131,7 +131,7 @@ The customer is automatically redirected to the **Register** screen:
 
 4. Sync Gradle.
 
-> ✅ Sucess
+> ✅ Success
 > You can now start using the Android SDK in your app.
 
 # How to integrate
