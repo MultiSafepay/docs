@@ -44,7 +44,7 @@ Tokens are stored at account level rather than site level. If you operate multip
 2. MultiSafepay encrypts the payment details during processing and stores them securely on our servers. We return to you a non-sensitive token that references the encrypted payment details. 
 3. You can use the token to process recurring payments without needing to handle or store sensitive payment details.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/recurring-payments-initial.svg" alt="Sequence diagram for request to tokenize cardholder data" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/recurring-payments-initial.svg" alt="Sequence diagram for request to tokenize cardholder data" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;
@@ -64,7 +64,7 @@ See [Zero Authorization](/docs/zero-authorization/).
 
 This is also known as "one-click payment".
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/recurring-payments-cit.svg" alt="Sequence diagram for customer-initiated recurring payments" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/recurring-payments-cit.svg" alt="Sequence diagram for customer-initiated recurring payments" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;
@@ -81,7 +81,7 @@ There are two common use cases for merchant-initiated subsequent payments:
 2. You include the token in the request to MultiSafepay. 
 3. MultiSafepay decrypts the payment details and processes the payment.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/recurring-payments-mit.svg" alt="Sequence diagram for merchant-initiated recurring payments" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/recurring-payments-mit.svg" alt="Sequence diagram for merchant-initiated recurring payments" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;

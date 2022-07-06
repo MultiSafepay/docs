@@ -26,7 +26,7 @@ Read how Giropay can benefit your business on [multisafepay.com](https://www.mul
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/giropay-payment-flow.svg" alt="Giropay payment flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/giropay-payment-flow.svg" alt="Giropay payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;

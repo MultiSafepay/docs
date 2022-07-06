@@ -33,7 +33,7 @@ MultiSafepay uses HTTPS to send notifications securely to the webhook endpoint c
 
 Our webhook uses the `POST` method to inform your web server when there is an update, and shares details on what has changed. This is more efficient than a poll-based method where your web server must continually check for updates.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/webhook-flow.svg" alt="Webhook communication flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/webhook-flow.svg" alt="Webhook communication flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;
