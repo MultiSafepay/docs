@@ -2,7 +2,7 @@
 title: 'Alipay+'
 category: 6298bd782d1cf4006032e765
 order: 502
-hidden: false
+hidden: true
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'alipay-plus'
 ---
