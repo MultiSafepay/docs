@@ -12,8 +12,6 @@ slug: 'mybank'
 MyBank is a widely accepted inter-bank payment method that links most Italian retail banks. 
 Customers pay in their own online banking environment. Settlement is instant and guaranteed.
 
-Read how MyBank can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/mybank)
-
 | Supports | Details |
 |---|---|
 | [Countries](/docs/payment-methods#payment-methods-by-country)  | Italy  | 
@@ -27,7 +25,11 @@ Read how MyBank can benefit your business on [multisafepay.com](https://www.mult
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/readmedocs-staging/static/diagrams/svg/mybank-payment-flow.svg" alt="MyBank payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  width: 100%;">
 
 # Payment statuses  
 
@@ -70,7 +72,7 @@ You can activate MyBank in your dashboard.
 - Transactions expire after 1 hour.
 
 ### Ready-made integrations
-
+Coming soon in [our integrations](/docs/our-integrations/).
 
 ### Testing
 To test MyBank payments, see [Testing](/docs/testing#banking-methods).

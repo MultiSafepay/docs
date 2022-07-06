@@ -1,0 +1,16 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant Mb as MyBank
+    participant Me as Merchant
+
+    C->>Mu: Selects MyBank at checkout
+    alt Redirect flow
+    Mu->>C: Redirects to payment page, <br> then to online banking
+    else Direct flow
+    Mu->>C: Redirects to online banking
+    end
+    C->>Mb: Authenticates account and completes payment
+    Mb->>Mu: Transfers funds 
+    Mu->>Me: Settles funds
