@@ -113,7 +113,7 @@ To send a customer the details of a local MultiSafepay bank account, include the
 
 MultiSafepay emails the customer the following payment details to include when transfering the funds, or your can email them yourself.
 
-{{< screen src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Bank-Transfer-Payment-Details.png" align="left" class="small-img desktop-radius">
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Bank-Transfer-Payment-Details.png" width="100%" align="left"/>
 
 <details id="how-to-email-payment-instructions-yourself"> 
 <summary>How to email payment instructions yourself</summary>
@@ -229,4 +229,3 @@ To change how bank transfers are validated, check whether this is possible in yo
 [/block]
 
 [Top of page](#)
-

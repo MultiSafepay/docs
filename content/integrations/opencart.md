@@ -103,13 +103,13 @@ To configure generic gateways, follow these steps:
     - Gateway label  
     - Whether to include the shopping cart in refunds (required for <<glossary:BNPL>> gateway IDs)
 
-Generic gateways support:
+You can filter payment methods by:
 
-- All payment methods (filter by country, currency, customer group, and minimum/maximum amount)
-- [Split payments](/payments/split-payments/), [Second Chance reminders](/features/second-chance/) and [virtual IBANs](/payments/virtual-ibans/)
-- [Redirect requests](https://docs-api.multisafepay.com/reference/introduction#direct-vs-redirect) only
-- Full and partial refunds (except for [pay later](/payment-methods/pay-later/) methods) 
-- Backend orders (set a custom initial order status)
+- Geographic zone
+- Currency
+- Minimum amount
+- Maximum amount
+- Customer groups
 
 Full and partial refunds (except for BNPL orders), and backend orders are fully supported. You can also set a custom initial <<glossary:order status>>.
 
