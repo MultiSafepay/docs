@@ -93,7 +93,7 @@ Bancontact WIP is a wallet initiated payment service you can use for:
 
 ### How it works
 
-Bancontact Payconiq gives you access to a merchant wallet to securely store customers' payment details in. Customers give one-time consent and only need to pass [strong customer authentication](/docs/pds2/) (SCA) for their first purchase. 
+Bancontact Payconiq gives you access to a merchant wallet to securely store customers' payment details in. Customers give one-time consent and only need to pass [strong customer authentication](/docs/psd2/) (SCA) for their first purchase. 
 
 There is no shift in liability for [chargebacks](/docs/chargebacks/) from <<glossary:issuer>> to <<glossary:acquirer>> since your fraud and disputes volumes are monitored quarterly. A maximum transaction amount applies. 
 

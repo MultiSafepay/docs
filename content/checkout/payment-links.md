@@ -134,7 +134,7 @@ This only applies to certain payment methods:
 
 The customer can open the link to the payment page up to 20 times, after which the link is disabled.
 
-Each attempt creates a new transaction. If the customer completes payment in one of these transactions, the [status](/docs/payments-statuses/) of the other transactions remains **Initialized** until they expire.
+Each attempt creates a new transaction. If the customer completes payment in one of these transactions, the [status](/docs/payment-statuses/) of the other transactions remains **Initialized** until they expire.
 
 ## Overview and statuses
 

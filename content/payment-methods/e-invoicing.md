@@ -19,7 +19,7 @@ Read how E-Invoicing can benefit your business on [multisafepay.com](https://www
 | [Currencies](/docs/currencies/) | EUR  | 
 | [Chargebacks](/docs/chargebacks/)  | No |
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
-| [Refunds](/docs/refund-payments/) | Yes: Full, partial, and API refunds, and [discounts](/discounts/) |
+| [Refunds](/docs/refund-payments/) | Yes: Full, partial, and API refunds, and [discounts](/docs/discounts/) |
 | [Second Chance](/docs/second-chance/) | Yes |
 
 # Payment flow

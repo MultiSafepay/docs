@@ -83,7 +83,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 ### API
 - To easily integrate Google Pay using MultiSafepay payment pages (redirect), see API reference – [Create order](/reference/createorder/) > Wallet order.
-- To embed Google Pay in your checkout page for the best user experience, see [Google Pay™ direct integration](/google-pay-integration).
+- To embed Google Pay in your checkout page for the best user experience, see [Google Pay™ direct integration](/docs/google-pay-direct/).
 - Transactions expire after 1 hour.
 
 ### Ready-made integrations
