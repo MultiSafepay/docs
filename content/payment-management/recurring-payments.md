@@ -16,7 +16,7 @@ Recurring payments is a MultiSafepay solution that securely stores payment detai
 
 MultiSafepay encrypts customers' sensitive payment details during an initial payment for secure storage, and provides you with a non-sensitive identifier for the details known as a "token". Customers can save multiple tokens.
 
-Subsequent payments are exempt from [SCA and 2FA](/docs/pds2/).
+Subsequent payments are exempt from [SCA and 2FA](/docs/psd2/).
 MultiSafepay is responsible for [PCI DSS](/docs/pci-dss/) compliant storage of payment details. 
 
 Tokens are stored at account level rather than site level. If you operate multiple sites from a single MultiSafepay account, you can also offer cross-domain recurring payments, i.e. tokenize a customer's details on Site A and offer one-click payments on Site B.
@@ -125,8 +125,8 @@ We support recurring payments in our plugins for:
 - [Magento 2](/docs/magento-2)
 - [PrestaShop 1.6](/docs/prestashop-1-6/)
 - [PrestaShop 1.7](/docs/prestashop-1-7/)
-- [Shopware 6](/docs/shopware-6/) 
-- [WooCommerce](/docs/woo-commerce/) 
+- [Shopware 6](/docs/shopware/) 
+- [WooCommerce](/docs/woocommerce/) 
 
 </details>
 

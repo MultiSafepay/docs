@@ -171,7 +171,7 @@ You can update the plugin in your backend and the CMS marketplace, or via using 
 3. Search for the MultiSafepay plugin and click **Download now**.
 4. Go to **Configuration** > **Plugin manager** > **Installed**.
 5. Search for the installed MultiSafepay plugin and click on the pencil icon.
-6. In the **API key** field, enter your [API key](/docs/websites#site-id-api-key-and-security-code).
+6. In the **API key** field, enter your [API key](/docs/sites#site-id-api-key-and-security-code).
 7. Fill out the other fields as required.
 8. Go to **Configuration** and select the required payment methods.
 <br>

@@ -84,7 +84,7 @@ You can activate CBC/KBC in your dashboard.
 - [Magento 1](/docs/magento-1/) & [Magento 2](/docs/magento-2/)
 - [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/)
 - [Shopware 5 and 6](/docs/shopware/)
-- [WooCommerce](/docs/woo-commerce/) 
+- [WooCommerce](/docs/woocommerce/) 
 
 ### Testing
 To test CBC/KBC payments, see [Testing](/docs/testing#banking-methods).

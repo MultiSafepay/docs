@@ -86,7 +86,7 @@ in3 (direct) is supported in:
 - [OpenCart](/docs/opencart/)
 - [PrestaShop 1.7](/docs/prestashop-1-7/)
 - [VirtueMart](/docs/virtuemart/)
-- [WooCommerce](/docs/woo-commerce/)
+- [WooCommerce](/docs/woocommerce/)
 
 ### Testing
 To test in3 payments, see [Testing](/docs/testing#bnpl-methods).

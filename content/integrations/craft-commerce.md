@@ -77,7 +77,7 @@ The plugin supports generic gateways, which redirect customers from your checkou
 - Cards: [All](/docs/card-payments/), **except** Postepay and V Pay
 - Banking methods: All
 - <<glossary:BNPL>>: All
-- Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/payment-methods/paypal/)
+- Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
     - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)

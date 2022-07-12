@@ -89,7 +89,7 @@ Payments are processed in the webshop's default currency only.
 2. Sign in to your Shopify <<glossary:backend>>.
 3. Go to **Settings** > **Payment providers** > **Alternative payments**.
 4. Search for and click on the payment methods you have installed.
-5. Enter your [site ID and security code](/docs/websites#site-id-api-key-and-security-code).
+5. Enter your [site ID and security code](/docs/sites#site-id-api-key-and-security-code).
 6. Activate the payment method.
 
 > **Note:** To bundle all payment methods under a single MultiSafepay payment gateway at checkout, under **Alternative payments**, activate the **MultiSafepay** payment method.

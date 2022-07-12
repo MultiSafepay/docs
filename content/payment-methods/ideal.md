@@ -97,7 +97,7 @@ You can activate iDEAL yourself in your dashboard.
     - [PrestaShop 1.7](/docs/prestashop-1-7/)
     - [Shopware 5](/docs/shopware/)
     - [VirtueMart](/docs/virtuemart/)
-    - [WooCommerce](/docs/woo-commerce/)
+    - [WooCommerce](/docs/woocommerce/)
     - [X-Cart](/docs/x-cart/)
 
 ### Testing
