@@ -5,12 +5,16 @@
             "replacement": ""
         },
         {
-          "pattern": "^/",
-          "replacement": "DEPLOYMENT_URL"
+            "pattern": "^/",
+            "replacement": "https://docs.multisafepay.com/"
         },
         {
             "pattern": "&amp;",
             "replacement": "&"
+        },
+        {
+            "pattern": "&gt;",
+            "replacement": ">"
         }
     ],
     "ignorePatterns": [
@@ -94,6 +98,12 @@
       },
       {
         "pattern": "https://confluence\\.prezent\\.nl/display/LOGIVERTMAN/Het\\+specificeren\\+van\\+betalingswijzen.*"
+      },
+      {
+        "pattern": "https://youtube\\.com.*"
+      },
+      {
+        "pattern": "https://raw.\\githubusercontent\\.com.*"
       }
     ],
   "timeout": "120s",
