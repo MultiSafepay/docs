@@ -193,6 +193,22 @@ You can dynamically style the payment page template for specific transaction req
 
 See API reference – [Create order](/reference/createorder/) > Payment page/link > `payment_options` object. 
 
+The `items` parameter is an HTML string for displaying order items on the payment page, instead of including a `shopping_cart`. The following HTML tags and elements are supported (all others are stripped out):
+
+- b, br
+- div (align)
+- em
+- font (color, face, size)
+- h1, h2, h3, h4, h5, h6, hr
+- i, img (width, height, alt, scale, border, align)
+- li
+- nobr
+- ol
+- p
+- small, span, strong
+- table (width, border, bordercolor, cellpadding, cellspacing), thead, tbody, tfoot, th (width, scope, colspan, align), td (height, width, align, valign, colspan, bgcolor), tr (bgcolor, valign)
+- u, ul
+
 </details>
 
 ## Requirements for Visa
