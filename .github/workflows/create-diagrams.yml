@@ -64,7 +64,7 @@ jobs:
           labels: |
             mermaid diagram
             automated pr
-          base: readmedocs-staging
+          base: master
           draft: false
           delete-branch: true
           commit-message: Add mermaid diagram(s) [automated]
