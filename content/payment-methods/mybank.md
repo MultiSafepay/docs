@@ -2,7 +2,7 @@
 title: 'MyBank'
 category: 6298bd782d1cf4006032e765
 order: 112
-hidden: true
+hidden: false
 parentDoc: 62a728d48b97080046c1d220
 slug: 'mybank'
 ---
@@ -21,6 +21,12 @@ Customers pay in their own online banking environment. Settlement is instant and
 | [Payment components](/docs/payment-components/) | Yes |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial |
 | [Second Chance](/docs/second-chance/) | Yes |
+
+## Issuer fees
+
+The customer's bank may apply their own fee to MyBank transactions (not influenced by MultiSafepay or MyBank). This can have a significant impact on transactions for small amounts, e.g. 1 EUR transaction, but a 1,50 EUR issuer fee.
+
+> **Tip!** Consider setting a minimum amount limit for MyBank transactions in your integration.
 
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
