@@ -6,14 +6,14 @@ on:
 # Run on pull requests into readmedocs-staging
   pull_request:
     types: [ closed ]
-    branches: [ readmedocs-staging ]
+    branches: [ master ]
 
   # Enable manual triggers (for testing)
   workflow_dispatch:
 
 jobs:
   create-diagrams:
-  #  if: github.event.pull_request.merged ==  true
+    if: github.event.pull_request.merged ==  true
     runs-on: ubuntu-latest 
     name: Create diagram SVGs
     steps:
