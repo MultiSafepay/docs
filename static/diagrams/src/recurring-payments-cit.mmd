@@ -1,0 +1,14 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Me as Merchant
+    participant Mu as MultiSafepay
+
+    C->>Me: Signs in to their customer account <br> and places order
+    Me->>C: Displays token summary at checkout <br> e.g. MASTERCARD **43
+    C->>Me: Selects token and <br> confirms payment
+    Me->>Mu: Places order with token
+    Mu-->>Mu: Decrypts relevant payment details <br> to process payment
+    Mu->>Me: Confirms successful payment
+    Me->>C: Redirects to success page
+    C-->>Me: Collects funds 

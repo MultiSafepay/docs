@@ -1,0 +1,16 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Me as Merchant
+    participant Mu as MultiSafepay
+    participant CB as Customer's bank
+    
+    C->>Me: Selects SEPA Direct Debit at checkout
+    alt Redirect flow
+    Mu->>C: Redirects to payment page to confirm their IBAN and account name, <br> then to your success page
+    Me->>Mu: [Direct flow] Sends request and customer information
+    end
+    Mu->>CB: Conducts background check <br> and sends e-mandate
+    CB->>Mu: Processes transaction and transfers funds 
+    Note over CB,Mu: -500 EUR= 9 days <br> +500 EUR= 22 days <br> Processing time can be reduced on request. <br> Email sales@multisafepay.com
+    Mu->>Me: Settles funds

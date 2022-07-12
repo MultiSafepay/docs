@@ -1,0 +1,12 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant CB as Customer's bank
+    participant Me as Merchant
+
+    C->>Mu: Selects TrustPay at checkout
+    Mu->>C: Redirects to payment page to select their bank, <br> then to online banking
+    C->>CB: Authenticates account and completes payment
+    CB->>Mu: Transfers funds 
+    Mu->>Me: Settles funds

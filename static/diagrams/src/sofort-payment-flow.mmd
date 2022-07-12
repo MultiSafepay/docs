@@ -1,0 +1,18 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant CB as Customer's bank
+    participant Me as Merchant
+
+    C->>Mu: Selects Sofort at checkout
+    alt Redirect flow
+    Mu->>C: Redirects to payment page, <br> then to online banking
+    else Direct flow
+    Mu->>C: Redirects to online banking
+    end
+    C->>CB: Authenticates account and completes payment
+    CB->>Mu: Transfers funds 
+    Note over CB,Mu: May take 3 business days <br> Don't ship yet!
+    Me->>C: Ships order
+    Mu->>Me: Settles funds

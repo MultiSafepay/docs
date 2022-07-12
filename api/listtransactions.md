@@ -6,7 +6,10 @@ slug: listtransactions
 
 ## How to test
 
-1. Under **Authentication** > **Query**, enter an [API key](https://docs.multisafepay.com/account/managing-websites/#viewing-the-site-id-api-key-and-secure-code) from your **TEST** account.
+1. Under **Authentication** > **Query**, enter:
+   - To list all transactions for your **account**, your account API key from your **TEST** account.
+   - To list all transactions for your **site**, your relevant site [API key](https://docs.multisafepay.com/docs/sites#site-id-api-key-and-security-code) from your **TEST** account.
 2. Click **Try it!**
 
-:warning: Never use a live API key!
+❗️ Never use a live API key!
+
