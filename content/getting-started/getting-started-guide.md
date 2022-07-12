@@ -6,13 +6,15 @@ hidden: false
 slug: 'getting-started-guide'
 ---
 
-# 1. Create a free test account
+Learn how to get started with MultiSafepay as your smart payment service provider.
+
+# Create a free test account
 
 Simply fill out a signup form, and then sign in to your test dashboard using the security code we email you.
 
 **Full guidance:** [Create an account](/docs/create-account/)
 
-# 2. Set up your account
+# Set up your account
 
 To set up your account, you need to:
 
@@ -20,28 +22,28 @@ To set up your account, you need to:
 - Activate your selected [payment methods](/docs/payment-methods/).
 
 
-# 3. Choose an integration method 
+# Choose an integration method 
 
 Choose an integration method that matches your business needs and tech stack.   
 For help selecting an integration method, email <integration@multisafepay.com>
 
-## Ready-made integrations  
+### Ready-made integrations  
 MultiSafepay's integrations developed in-house require fewer development resources and let you start testing straight away. We have a wide range of plugins and apps to integrate with platforms like Magento, WooCommerce, Shopware, and Lightspeed.
 
 **Full guidance:** [Ready-made integrations](/docs/our-integrations/)
 
-## Self-made integrations
+### Self-made integrations
 Build your own integration, especially if you are developing a new ecommerce website or app. This generally requires more development resources, but lets you fully customize the look, feel, and functionality of your checkout experience.
 
 **Full guidance:** [Self-made integrations](/docs/self-made/)
 
-# 4. Test your integration 
+# Test your integration 
 
 Before you start processing real transactions, test each payment method.
 
 **Full guidance:** [Testing payment methods](/docs/testing/)
 
-# 5. Onboard your account
+# Onboard your account
 
 To start processing real transaction, we need to check and approve your company information.
 
