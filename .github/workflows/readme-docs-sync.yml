@@ -12,8 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-      with:
-        ref: 'readmedocs-staging'
     - uses: readmeio/rdme@7.2.0
       with:
         rdme: docs content --version=v1.0 --key=${{ secrets.README }}
