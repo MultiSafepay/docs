@@ -1,5 +1,0 @@
-User-agent: * 
-Disallow: /cdn-cgi/
-
-User-agent: Algolia Crawler
-Allow: /*
