@@ -28,38 +28,38 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
 
 | Country | Payment methods |
 |---|---|
-| Austria | EPS, Klarna, Sofort, Trustly |
-| Belgium | AfterPay, Bancontact, Belfius, CBC/KBC, Edenred, gift cards, Klarna, Sofort, Trustly |
-| Bulgaria | Trustly |
-| Croatia | Trustly |
-| Cyprus | Trustly |
-| Czech Republic | Trustly, TrustPay |
-| Denmark | Dankort, Klarna, Trustly |
-| Estonia | Trustly |
-| Europe (SEPA area) | Bank Transfer, SEPA Direct Debit |
-| Finland | Trustly |
-| France | Cartes Bancaires, Klarna |
-| Germany | Giropay, Klarna, Request to Pay, Sofort, Trustly |
-| Greece | Trustly |
-| Hungary | Trustly |
-| Ireland | Trustly |
-| Italy | Klarna, Postepay, Sofort, Trustly |
-| Latvia | Trustly |
-| Lithuania | Trustly |
-| Luxembourg | Trustly |
-| Malta | Trustly |
-| Norway | Klarna, Trustly |
-| Poland | Dotpay, Sofort, Trustly |
-| Portugal | Trustly |
-| Romania | Trustly |
-| Slovakia | Trustly |
-| Slovenia | Trustly |
-| Spain | Klarna, Sofort, Trustly |
-| Sweden | Klarna, Trustly |
-| Switzerland | Sofort |
-| The Netherlands | AfterPay, Betaal per Maand, gift cards, iDEAL, in3, Klarna, Pay After Delivery, Trustly  |
-| United Kingdom | Trustly |
-| Worldwide | Alipay, American Express, Apple Pay, E-Invoicing, Google Pay, Maestro, <br> Mastercard, PayPal, Paysafecard, Visa, Worldwide, WeChat Pay  |
+| All countries | Alipay, Alipay+, American Express, Apple Pay, E-Invoicing, Google Pay, Maestro, Mastercard, PayPal, Paysafecard, Visa, WeChat Pay |
+| Austria | EPS, Klarna, PayPal, Sofort, Trustly |
+| Belgium | AfterPay, Bancontact, Belfius, CBC/KBC, Edenred, gift cards, Klarna, PayPal, Sofort, Trustly |
+| Bulgaria | PayPal, Trustly |
+| Croatia | PayPal, Trustly |
+| Cyprus | PayPal, Trustly |
+| Czech Republic | PayPal, Trustly, TrustPay |
+| Denmark | Dankort, Klarna, PayPal, Trustly |
+| Estonia | PayPal, Trustly |
+| Europe (SEPA area) | Bank Transfer, PayPal, SEPA Direct Debit |
+| Finland | PayPal, Trustly |
+| France | Cartes Bancaires, Klarna, PayPal |
+| Germany | Giropay, Klarna, Request to Pay, PayPal, Sofort, Trustly |
+| Greece | PayPal, Trustly |
+| Hungary | PayPal, Trustly |
+| Ireland | PayPal, Trustly |
+| Italy | Klarna, MyBank, PayPal, Postepay, Sofort, Trustly |
+| Latvia | PayPal, Trustly |
+| Lithuania | PayPal, Trustly |
+| Luxembourg | PayPal, Trustly |
+| Malta | PayPal, Trustly |
+| Norway | Klarna, PayPal, Trustly |
+| Poland | Dotpay, PayPal, Sofort, Trustly |
+| Portugal | PayPal, Trustly |
+| Romania | PayPal, Trustly |
+| Slovakia | PayPal, Trustly |
+| Slovenia | PayPal, Trustly |
+| Spain | Klarna, PayPal, Sofort, Trustly |
+| Sweden | Klarna, PayPal, Trustly |
+| Switzerland | PayPal, Sofort |
+| The Netherlands | AfterPay, Betaal per Maand, gift cards, iDEAL, in3, Klarna, Pay After Delivery, PayPal, Trustly  |
+| United Kingdom | PayPal, Trustly |
 
 </details>
 
