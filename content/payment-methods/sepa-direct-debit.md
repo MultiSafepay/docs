@@ -157,6 +157,15 @@ For more information in:
 
 MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a first debit or recurring debit. We send all e-mandates to our bank at the end of every business day.  
 
+## Processing times
+
+Transactions are processed within:
+
+- Amounts less than 500 EUR: 9 days
+- Amounts over 500 EUR: 22 days
+
+Processing times can be reduced on request. Email <sales@multisafepay.com>
+
 ## Refund risk
 
 There is a risk that if you refund a customer and they also request a chargeback, you pay their money back twice. Customers can even request a chargeback after successfully receiving a refund.
