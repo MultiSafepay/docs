@@ -13,8 +13,8 @@
             "replacement": "&"
         },
         {
-            "pattern": "&gt;",
-            "replacement": ">"
+            "pattern": "\\\\&gt;.*",
+            "replacement": ""
         }
     ],
     "ignorePatterns": [
@@ -100,10 +100,13 @@
         "pattern": "https://confluence\\.prezent\\.nl/display/LOGIVERTMAN/Het\\+specificeren\\+van\\+betalingswijzen.*"
       },
       {
-        "pattern": "https://youtube\\.com.*"
+        "pattern": "http://www\\.youtube\\.com.*"
       },
       {
         "pattern": "https://raw.\\githubusercontent\\.com.*"
+      },
+      {
+        "pattern": "glossary:.*"
       }
     ],
   "timeout": "120s",
