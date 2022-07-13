@@ -80,7 +80,7 @@ AfterPay is supported in:
 - [OpenCart](/docs/opencart/)
 - [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/)
 - [Shopware 5 and 6](/docs/shopware/)
-- [WooCommerce](/docs/woo-commerce/)
+- [WooCommerce](/docs/woocommerce/)
 - [X-Cart](/docs/x-cart/)
 
 ### Testing
