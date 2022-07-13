@@ -7,7 +7,7 @@ parentDoc: 62a6ec51d7a8100053916d99
 slug: 'alipay-plus'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/AlipayPlus.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/AlipayPlus.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 [Alipay+](https://www.alipayplus.com/) is the next generation of Alipay: a leading global payment method that lets customers link their credit card or bank account to a wide range of Asian wallets. It supports online, QR, and contactless POS payments, as well as international money transfers.
 
