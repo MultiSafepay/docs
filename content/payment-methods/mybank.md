@@ -10,7 +10,7 @@ slug: 'mybank'
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/MyBank.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 MyBank is a widely accepted inter-bank payment method that links most Italian retail banks. 
-Customers pay in their own online banking environment. Settlement is instant and guaranteed.
+Customers pay in their own online banking environment. <<glossary:Settlement>> is instant and guaranteed.
 
 | Supports | Details |
 |---|---|

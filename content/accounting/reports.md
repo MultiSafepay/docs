@@ -87,7 +87,7 @@ This report provides an overview (in Excel or CSV format) of:
 
 - Paid/unpaid transactions within a specific timeframe and transaction fees
 - Refunds, chargebacks, <<glossary:reversals>>
-- Payouts
+- <<glossary:Payouts>>
 - Currency conversions
 
 <details id="financial-report-contents">
@@ -182,7 +182,7 @@ This report provides an overview (in Excel or PDF format) of revenue and fees fo
 
 The report does **not** include:
 
-- Payouts (see [Payout report](#payout-report))
+- <<glossary:Payouts>> (see [Payout report](#payout-report))
 - Monthly transaction fees 
 - VAT (see [VAT invoices](/docs/invoices/))
 
@@ -203,7 +203,7 @@ The report does **not** include:
 ---
 # Payout report
 
-This report provides an overview (in Excel format) of the specific transactions and fees per [payout](/docs/payouts/). It is helpful for matching payouts to specific orders or invoices for accounting purposes. 
+This report provides an overview (in Excel format) of the specific transactions and fees per <<glossary:payout>>. It is helpful for matching payouts to specific orders or invoices for accounting purposes. See also [Payouts](/docs/payouts/).
 
 <details id="report-contents">
 <summary>Report contents</summary>

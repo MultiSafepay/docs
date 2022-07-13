@@ -120,6 +120,11 @@ A webpage the customer is redirected to from the merchant's checkout where they 
 MultiSafepay is a PSP and provides services that let merchants accept payments using different payment methods. 
 
 ---
+#### payout
+When you transfer funds from your account balance to your business bank account.
+See [Payouts](/docs/payouts).
+
+---
 #### point of sale (POS) terminal
 A terminal that accepts payments, usually by card or near-field communication (NFC), at a merchant's physical location, e.g. a store.
 
@@ -134,6 +139,11 @@ When a customer cancels an order paid by debit card and takes the funds back.
 ---
 #### SEPA
 The Single Euro Payments Area (SEPA) is a European Union payment-integration initiative. Customers can quickly and securely transfer euros within the EU and to a number of non-EU countries.
+
+---
+#### settlement
+When MultiSafepay collects the funds for a transaction and puts them in your account balance.
+To withdraw funds, make a [payout](/docs/payouts).
 
 ---
 #### shopping cart

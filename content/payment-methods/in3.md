@@ -9,7 +9,7 @@ slug: 'in3'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/in3.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
 
-[in3](https://payin3.eu/en/) is a Dutch <<glossary:BNPL>> method where customers pay in 3 installments, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 guarantees settlement after receiving the first installment.
+[in3](https://payin3.eu/en/) is a Dutch <<glossary:BNPL>> method where customers pay in 3 installments, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 guarantees <<glossary:settlement>> after receiving the first installment.
 
 Read how in3 can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/in3)
 
@@ -18,7 +18,7 @@ Read how in3 can benefit your business on [multisafepay.com](https://www.multisa
 | [Countries](/docs/payment-methods#payment-methods-by-country)  | The Netherlands – in3 checks the customer's country, and billing/shipping address to confirm.  | 
 | [Currencies](/docs/currencies/)  | EUR  |  
 | [Chargebacks](/docs/chargebacks/)  | No  |
-| [Discounts](/docs/discounts/) | Yes <br> You can request in3 to process a full or partial refund, either before payout or up to 1 year afterwards. |
+| [Discounts](/docs/discounts/) | Yes <br> You can request in3 to process a full or partial refund, either before <<glossary:payout>> or up to 1 year afterwards. |
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |
 | [Refunds](/docs/refund-payments/) | Yes: Full, partial, and API refunds | 
 | [Second Chance](/docs/second-chance/) | Yes |

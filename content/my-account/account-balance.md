@@ -28,7 +28,7 @@ There you can see your:
 - Balance and closing balance date
 - Bank description
 - IBAN and Swift
-- Payout amounts and payouts sent to the bank
+- <<glossary:Payout>> amounts and payouts sent to the bank
 - Transactions and statuses
 - Uncleared balance (if activated, see below)
 

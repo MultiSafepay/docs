@@ -9,7 +9,7 @@ slug: 'giropay'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Giropay.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
 
-[Giropay](https://www.giropay.de/) is the leading inter-bank payment method in Germany, connecting all major German retail banks. Customers pay from their own online banking environment. Settlement is instant and guaranteed.
+[Giropay](https://www.giropay.de/) is the leading inter-bank payment method in Germany, connecting all major German retail banks. Customers pay from their own online banking environment. <<glossary:Settlement>> is instant and guaranteed.
 
 Read how Giropay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/giropay)
 

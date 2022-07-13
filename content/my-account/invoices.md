@@ -24,7 +24,7 @@ For payment methods where MultiSafepay:
 ### Fees we charge VAT for
 
 - At month end: Bank fees and [Interchange++](/docs/interchange/) fees
-- During processing: Payout, transaction, and (collecting/non-collecting) refund fees
+- During processing: <<glossary:Payout>>, transaction, and (collecting/non-collecting) refund fees
 
 > **Note:** The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay).
 
@@ -34,7 +34,7 @@ For payment methods where MultiSafepay:
 
 Partner account holders receive invoices for total monthly:
 
-- [Payout](/docs/payouts/) fees (0,50 EUR per payout)
+- <<glossary:Payout>> fees (0,50 EUR per payout)
 - Commission fees from affiliated merchants
 - VAT (21%) – This amount is refunded to your balance
 

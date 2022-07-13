@@ -10,7 +10,7 @@ slug: 'sofort'
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/SOFORT.svg" width="80" align="right" style="margin: 20px; max-height: 75px"/>
 
 [Sofort](https://www.klarna.com/pay-now/) is a banking payment method by Klarna. It integrates directly with the customer's bank like a direct bank transfer. The customer verifies the payment, which reduces the risks associated with traditional transfers. 
-Once payment is completed, the customer cannot reverse it and Sofort guarantees settlement.
+Once payment is completed, the customer cannot reverse it and Sofort guarantees <<glossary:settlement>>.
 
 Read how Sofort can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/sofort)
 

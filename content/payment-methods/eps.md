@@ -10,7 +10,7 @@ slug: 'eps'
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/EPS.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 EPS is a widely accepted inter-bank payment method that links all major Austrian retail banks. 
-Customers pay in their own online banking environment. Settlement is instant and guaranteed.
+Customers pay in their own online banking environment. <<glossary:Settlement>> is instant and guaranteed.
 
 Read how EPS can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/eps)
 

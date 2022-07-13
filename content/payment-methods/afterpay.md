@@ -9,7 +9,7 @@ slug: 'afterpay'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/AfterPay.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
 
-[AfterPay](https://www.afterpay.nl/en/) is a widely used <<glossary:BNPL>> method in the Netherlands and Belgium. AfterPay bears the risk and guarantees settlement.
+[AfterPay](https://www.afterpay.nl/en/) is a widely used <<glossary:BNPL>> method in the Netherlands and Belgium. AfterPay bears the risk and guarantees <<glossary:settlement>>.
 
 Read how AfterPay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/afterpay)
 

@@ -23,7 +23,7 @@ Sign in to your [live dashboard](https://merchant.multisafepay.com/) and, under 
 | **Company details** | Company address, VAT number, and Chamber of Commerce number |
 | **Business bank account number** | This must exactly match at least one of the trade names listed on your Chamber of Commerce extract. |
 | **Products/services** | See [Prohibited products and services](/docs/prohibited-products-services/). | 
-| **Site URL** | The URL of at least one site you accept payments through, or select the **I don't have a site** checkbox. <br> If you provide a URL, you can now start receiving payments into your MultiSafepay balance. However, you cannot [pay out](/docs/payouts/) funds until onboarding is complete. |
+| **Site URL** | The URL of at least one site you accept payments through, or select the **I don't have a site** checkbox. <br> If you provide a URL, you can now start receiving payments into your MultiSafepay balance. However, you cannot make <<glossary:payouts>> until onboarding is complete. |
 | **Credit card payments** | If you intend to accept cards, provide your: <br> - Minimum, average, and maximum order value <br> - Annual turnover from credit card transactions |
 
 ## Pre-screening
@@ -164,7 +164,7 @@ As a payment service provider and <<glossary:acquirer>>, MultiSafepay is legally
 To help you start accepting payments as quickly as possible, we divide our checks into two phases:
 
 - **Identification:** As soon as we have established the identity of the account holder, you can start accepting payments.
-- **Verification:** As soon as we have verified the identity of the account holder, you can start [making payouts](/docs/payouts/) to your business bank account.
+- **Verification:** As soon as we have verified the identity of the account holder, you can start making payouts to your business bank account.
 
 </details>
 
