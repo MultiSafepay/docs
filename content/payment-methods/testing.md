@@ -666,7 +666,7 @@ You can process full refunds in your [MultiSafepay test dashboard](https://testm
 
 Partial refunds are not enabled by default. To enable this, email <integration@multisafepay.com>
 
-If you refund a payment in your MultiSafepay test dashboard, the [transaction status](/docs/payment-statuses/) remains **Reserved** or **Initialized** until the refund is manually approved, since there is no settlement with a bank.
+If you refund a payment in your MultiSafepay test dashboard, the [transaction status](/docs/payment-statuses/) remains **Reserved** or **Initialized** until the refund is manually approved, since there is no involvement with a bank.
 
 **Supported payment methods**
 

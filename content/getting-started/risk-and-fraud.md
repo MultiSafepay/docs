@@ -23,7 +23,7 @@ We may request a copy of an invoice, e.g. if:
 - The order value is unusually high.
 - The order deviates from your normal customer profile.
 
-We may also ask other questions about the transaction. Following our investigation, if we still don't understand the transaction, we may pause [payouts](/docs/payouts/) or take other punitive measures.
+We may also ask other questions about the transaction. Following our investigation, if we still don't understand the transaction, we may pause <<glossary:payouts>> or take other punitive measures.
 
 <details id="about-the-wwft">
 <summary>About the Wwft</summary>

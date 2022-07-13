@@ -193,7 +193,7 @@ The second most important parameter is `financial_status`, which represents the 
 
 We recommend that you track the `status` parameter in your integration to understand how your order is progressing. For a detailed overview of the possible statuses, see [Payment statuses](/docs/payment-statuses/).
 
-In this example, the `status` is **Completed**. This means that the customer has completed payment and settlement is guaranteed. The `financial_status` is also **Completed**. This means that the funds have been settled in your account balance.
+In this example, the `status` is **Completed**. This means that the customer has completed payment and <<glossary:settlement>> is guaranteed. The `financial_status` is also **Completed**. This means that the funds have been settled in your account balance.
 
 > ✅ Success!
 > Now that you know how to create an order and check its details, and know what is important to look for, it's the perfect time to introduce you to our webhook.

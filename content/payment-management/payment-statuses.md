@@ -9,7 +9,7 @@ There are two statuses for each payment that update as it is processed:
 
 - **Order status:** Changes as the customer's order with you progresses towards shipment.  
 API attribute: `status`
-- **Transaction status:** Changes as the funds progress towards settlement in your account balance.  
+- **Transaction status:** Changes as the funds progress towards <<glossary:settlement>> in your account balance.  
 API attribute: `financial_status`
 
 <details id="how-to-view-statuses">

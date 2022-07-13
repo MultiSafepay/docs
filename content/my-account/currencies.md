@@ -30,7 +30,7 @@ You must also add a business bank account that supports the currency so that no 
 2. Go to **Finance > Balance > Add bank account**.
 3. Process a bank transfer in the new currency to confirm the business bank account.
 
-Once your new business bank account has been approved by the Risk Team, you can process payouts without currency conversion.
+Once your new business bank account has been approved by the Risk Team, you can process <<glossary:payouts>> without currency conversion.
 </details>
 <br>
 
@@ -73,7 +73,7 @@ Credit and debit cards support the following currencies (and potentially others 
 
 ## Payouts
 
-You can make [payouts](/docs/payouts/) in: 
+You can make <<glossary:payouts>> in: 
 
 | | | |
 |---|---|---|
