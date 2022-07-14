@@ -48,7 +48,7 @@ ___
 # User guide
 
 ## Company name
-You can specify how your company name appears on customer bank or credit card statements (if supported by the bank) and on [payment pages](/docs/payment-pages/), or choose to display an alias instead. Customers may prefer this if you offer adult products.
+You can specify how your company name appears on customer bank statements (if supported by the bank) and on [payment pages](/docs/payment-pages/), or choose to display an alias instead. Customers may prefer this if you offer adult products.
 
 <details id="how-to-display-company-name">
 <summary>How to display your company name</summary>
