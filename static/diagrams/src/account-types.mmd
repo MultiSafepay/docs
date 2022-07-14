@@ -1,6 +1,7 @@
-flowchart TD
-    id1(Do you work with other companies that you charge fees to?)--> id2 & id3
-    id2(No= Merchant account)
-    id3(Yes. <br> Do you receive part of the MultiSafepay <br> transaction fee from your affiliated companies?)--> id4 & id5
-    id4(No= Primary account, <br> e.g. marketplaces, franchises, crowdfunding)
-    id5(Yes= Partner account, <br> e.g. digital agencies, SaaS companies)
+graph TD
+    id1(Do you work with other companies that you charge fees to?)
+    id1--> id2(No= Merchant account)
+    id1 --> id3(Yes= Do you receive part of the MultiSafepay <br> transaction fee from your affiliated companies?)
+    id3--> id4(No= Primary account <br> e.g. marketplaces, franchises, crowdfunding)
+    id3--> id5(Yes= Partner account <br> e.g. digital agencies, SaaS companies)
+    
