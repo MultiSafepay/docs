@@ -22,7 +22,7 @@ API attribute: `financial_status`
 
 </details>
 
-# What statuses mean
+# Payment statuses
 
 The meaning of statuses (or combinations of statuses) varies per payment method. To check specific meanings, see the relevant payment method page. 
 
@@ -39,21 +39,33 @@ The table below sets out possible order and transaction statuses and what they c
 | Manually [capture or decline the transaction](/docs/uncaptured/). | Uncleared | Uncleared |
 | Manually change the order status to shipped. | Shipped | Uncleared |
 
-## Refunds and chargebacks
+# Refund and chargeback statuses
+
+The following statuses apply to [refunds](/docs/refunds/) and [chargebacks](/docs/chargebacks/).
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| **Refunds:** Refund initiated.| Initialized/Reserved | Initialized/Reserved |
+| Refund initiated.| Initialized/Reserved | Initialized/Reserved |
 | Refund/chargeback complete. | Completed | Completed |
 | The refund has been processed successfully.| Refunded | Refunded |
 | The [partial refund](/docs/refund-payments/) has been processed successfully.| Partial_refunded | Partial_refunded |
 | The refund was declined. | Declined | Declined |
 <br>
 
-If the status of the refund  is **reserved**, it may mean: 
+If the status of the refund  is **Reserved**, it may mean: 
 
 - The refund hasn't been processed yet. Refunds are passed to the customer's bank at midnight on the day they are initiated, and then the status changes to **Completed**. The bank is now responsible for processing the payment. Refunds may be delayed by the issuing bank.
 - The refund cannot be processed due to insufficient funds in your account balance. To top up your balance, see [Topping up your balance](/docs/account-balance/).
+
+# Payout statuses
+
+The following statuses apply to [payouts](/docs/payouts/).
+
+| Description | Status |
+|---|---|
+| Payout initiated. | Reserved |
+| Payout completed. | Completed |
+| Payout cancelled. | Void |
 
 <br>
 
