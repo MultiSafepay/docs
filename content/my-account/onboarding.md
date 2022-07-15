@@ -135,14 +135,19 @@ It was based on the Disclosure of Unusual Transactions or Financial Services Act
 You must display the following required information on your site. 
 
 <details id="required-site-information">
-<summary>Required site information</summary>
+<summary>See all required site information</summary>
 <br>
 
-- Full legal company name, address, phone number, and email address
+Display your company's: 
+- Full legal name
+- Registered business address
+- Phone number
+- Email address, or a contact form
 - Chamber of Commerce number
 - VAT number
 - General terms and conditions, including the right to withdrawal (14 days)
 - Privacy policy
+
 </details>
 
 # 6. Approval and go live
