@@ -4,14 +4,18 @@
     "mainBkg": "#3fa9f5",
     "actorTextColor": "white",
     "noteTextColor": "black",
+    "nodeTextColor": "white",
+    "edgeLabelBackground": "default",
     "actorBorder": "#d2dae3",
+    "nodeBorder": "#d2dae3",
     "noteBkgColor": "#faebbf",
     "noteBorderColor": "#faebbf",
     "labelBoxBkgColor": "#f2f7fc",
     "labelTextColor": "black",
     "labelBoxBorderColor": "#d2dae3",
-    "loopTextColor": "black"
-  },
+    "loopTextColor": "black",
+    "fontFamily": "helvetica"
+    },
   "sequence": {
     "messageFontFamily": "helvetica",
     "messageFontWeight": "normal",
