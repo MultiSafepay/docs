@@ -281,13 +281,13 @@ For more information about the `merchantInfo` object, see Google Pay – [Reques
 
 # 5. Create an order
 
-From your server, [create an order](/reference/createorder/) > Wallet order. See also Examples > Google Pay direct.
+From your server, [create an order](/reference/createorder/) > Wallet order. See in the Request pane, Examples > Google Pay direct.
 
-For the `gateway_info.payment_token`, use `PaymentData.PaymentMethodData.PaymentMethodTokenizationData.token`.
+For the `gateway_info.payment_token`, use `paymentData.paymentMethodData.tokenizationData.token`.
 
 # 6. Redirect the customer
 
-In response to the API request you made in the previous step, you receive a `payment_url` (see API Reference – [Create order](/reference/createorder/) > Wallet order. See also Examples > Google Pay direct).
+In response to the API request you made in the previous step, you receive a `payment_url`.
 
 Pass the `payment_url` from your server to the customer's device and redirect the customer to the URL:
 
