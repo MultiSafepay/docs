@@ -94,10 +94,10 @@ Create an element in the `<body>` of your checkout page where you want to displa
     Create an `allowedCardNetworks` array containing card networks accepted by your site:
 
     ```
-    const allowedCardNetworks = ["MAESTRO", "MASTERCARD", "VISA"];
+    const allowedCardNetworks = ["MASTERCARD", "VISA"];
     ```
 
-    **Options**: `MAESTRO`, `MASTERCARD`, `VISA`.
+    **Options**: `MASTERCARD`, `VISA`.
 
     For more information about supported payment card networks, see Google Pay – [Request objects](https://developers.google.com/pay/api/web/reference/request-objects#CardParameters).
 
@@ -207,6 +207,7 @@ Create a function that returns a `PaymentDataRequest` object:
 - Describe your integration's support for the Google Pay API.
 - Add your supported payment methods.
 - Add the amount and currency for the customer to authorize.
+- Add the country code as `NL`.
 - Add your merchant name and Google Pay merchant ID for display.
 
 ```
@@ -229,7 +230,7 @@ function getGooglePaymentDataRequest() {
 
 You will call this function from the **Google Pay** button event handler in the next step. This way, attributes like the `totalPrice` can be updated up until the customer chooses to pay.
 
-For more information about the `transactionInfo` object, see Google Pay&nbsp;–&nbsp;[TransactionInfo](https://developers.google.com/pay/api/web/reference/request-objects#TransactionInfo).
+For more information about the `transactionInfo` object, see Google Pay – [TransactionInfo](https://developers.google.com/pay/api/web/reference/request-objects#TransactionInfo).
 
 ## merchantInfo values
 
@@ -245,7 +246,7 @@ In the `PRODUCTION` environment:
 
 To see your Google Pay merchant ID, sign in to your [Google Pay Business Console](https://pay.google.com/business/console/home).
 
-For more information about the `merchantInfo` object, see Google Pay&nbsp;–&nbsp;[Request object](https://developers.google.com/pay/api/web/reference/request-objects#MerchantInfo).
+For more information about the `merchantInfo` object, see Google Pay – [Request object](https://developers.google.com/pay/api/web/reference/request-objects#MerchantInfo).
 
 # 4. Handle the interaction
 
