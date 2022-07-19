@@ -38,7 +38,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has been redirected to Santander. <br> To cancel, email <support@multisafepay.com> | Initialized   | Initialized  |
+| The customer has been redirected to Santander. | Initialized   | Initialized  |
 | The customer has completed the pre-form and Santander is authorizing the transaction. | Uncleared | Initialized |
 | Santander has authorized the transaction and the funds are awaiting capture. <br> You can no longer cancel. You can only refund. | Completed  | Uncleared  |
 | **Important:** To capture the funds, manually change the order status to Shipped and send us the track-and-trace code (see [Track-and-trace codes](#track-and-trace-codes) below).  | Shipped | Uncleared |
@@ -89,6 +89,15 @@ You must:
 ---
 
 # User guide
+
+## Cancellation
+
+To cancel an order, email <annuleren@santander.com> with the following details:
+- Customer's first and last name
+- Order ID
+- PSP ID (MultiSafepay's transaction reference number)
+
+> **Note:** You can't cancel a Betaal per Maand order via your [MultiSafepay dashboard](https://merchant.multisafepay.com).
 
 ## Collection period
 
