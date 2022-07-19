@@ -101,6 +101,8 @@ Provide your [site API key](/docs/sites#site-id-api-key-and-security-code) and a
 
 You can cancel a refund via MultiSafepay while the status is **Initialized** or **Reserved**, which is until midnight on the day the refund was initiated. At midnight, the transaction is passed to the customer's bank to process. Then the status changes to **Completed** and you can no longer cancel it via MultiSafepay.
 
+You can't cancel <<glossary:reversals>>. For more information, see [Card payments - Reversals](/docs/card-payments#reversals).
+
 ## Live refunds
 
 For some payment methods, refund orders in the live environment are processed automatically.
