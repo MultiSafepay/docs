@@ -87,7 +87,9 @@ The Integration Team will do their best to provide support for third-party plugi
 
 ## Generic gateways
 
-The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards. 
+The plugin supports generic gateways, which allows you to add a payment method manually. This is particularly useful for integrating gift cards specific to your business. 
+
+Supported since release: 3.9.0, March 19th 2021.
 
 <details id="how-to-configure-generic-gateways">
 <summary>How to configure generic gateways</summary>
