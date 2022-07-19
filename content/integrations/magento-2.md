@@ -393,7 +393,7 @@ We also offer full extensions for [ScandiPWA](/docs/scandipwa/) and [Vue Storefr
 
 | Platform | Supported refunds  |
 |---|---|
-| MultiSafepay dashboard | Full and partial refunds <br> Orders with [Fooman surcharges](/docs/magento-2#surcharges) <br> Orders from the deprecated plugin |
+| MultiSafepay dashboard | Full and partial refunds <br> Orders with [Fooman surcharges](/docs/magento-2#surcharges) <br> Orders from the deprecated plugin <br> **Note:** Credit memos are **not** generated |
 | Backend | Full and partial refunds, and credit memos <br> You can't refund more than the original amount in your backend |
 | API | See [Refund order](/reference/refundorder/) > BNPL refund <br> PATCH requests **not** supported |
 
