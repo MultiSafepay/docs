@@ -75,6 +75,30 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 </details>
 
+### Payment components
+
+The plugin supports [payment components](/docs/payment-components/), which:
+
+- Provide a seamless checkout experience to increase <<glossary:conversion>>.
+- Encrypt customer payment details for secure processing.
+- Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
+
+<details id="how-to-activate-payment-components">
+<summary>How to activate payment components</summary>
+<br>
+
+If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
+
+1. Sign in to your Shopware backend.
+2. Go to **Settings** > **Payment**.
+3. Select each payment method and click the **Component** toggle.
+
+For questions, email <integration@multisafepay.com>
+
+> **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+
+</details>
+
 ### Payment methods
 
 <details id="supported-payment-methods">
@@ -108,7 +132,18 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 ### Recurring payments
 
-You need to [enable recurring payments](/docs/recurring-payments) in your MultiSafepay dashboard and then in the <<glossary:gateway>> settings. 
+[Recurring payments](/docs/recurring-payments) are supported.
+
+<details id="how-to-enable-recurring-payments">
+<summary>How to enable recurring payments</summary>
+<br>
+
+[Activate recurring payments](/docs/recurring-payments) and then:
+1. Sign in to your Shopware backend.
+2. Go to **Settings** > **Payment**.
+3. Select each payment method and click the **Tokenization** toggle.
+
+</details>
 
 ### Refunds
 

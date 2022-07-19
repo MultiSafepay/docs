@@ -246,7 +246,7 @@ To generate a payment link in your backend once an order is created, follow thes
 
 ## Recurring payments
 
-You need to [enable recurring payments](/docs/recurring-payments/) in your MultiSafepay dashboard and then in the plugin settings.
+You need to [activate recurring payments](/docs/recurring-payments/) and then enable it in the plugin settings.
 
 ## Refunds
 
