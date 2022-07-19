@@ -32,6 +32,30 @@ slug: 'shopware'
 
 > **Tip!** We recommend first installing the plugin in a test environment, following the Shopware 6 installation procedure. Always make a backup.
 
+### Marketplace installation
+Get the free MultiSafepay plugin from the [Shopware 6 marketplace](https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html) and connect your webshop with your Shopware account.
+
+### Composer installation
+Run the following command in the root of your Shopware root directory. Make sure the composer is installed on your hosting server.
+
+```
+composer require multisafepay/shopware6
+```
+
+### Manual installation
+
+1. Navigate to our [Shopware 6 GitHub repository](https://github.com/MultiSafepay/shopware6/releases).
+2. Under **Assets**, download the latest release, which starts with Plugin_Shopware6_x.x.x.zip.
+3. Sign in to your Shopware 6 <<glossary:backend>>.
+4. Go to **Extensions** > **My extensions** and click **...** (more) button. 
+5. In the drop-down menu, select **Test**.
+6. In the **API key** field, enter your [API key](/docs/sites#site-id-api-key-and-security-code).
+7. Fill out the other fields as required.
+
+<details id="how-to-install-old-version">
+<summary>How to install versions < 6.4</summary>
+<br>
+
 1. Navigate to our [Shopware 6 GitHub repository](https://github.com/MultiSafepay/shopware6/releases).
 2. Under **Assets**, download the latest release, which starts with Plugin_Shopware6_x.x.x.zip.
 3. Sign in to your Shopware 6 <<glossary:backend>>.
@@ -44,15 +68,8 @@ slug: 'shopware'
 10. In the **API key** field, enter your [API key](/docs/sites#site-id-api-key-and-security-code).
 11. Fill out the other fields as required.
 
-### Marketplace installation
-Get the free MultiSafepay plugin from the [Shopware 6 marketplace](https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html) and connect your webshop with your Shopware account.
+</details>
 
-### Composer installation
-Run the following command in the root of your Shopware root directory. Make sure the composer is installed on your hosting server.
-
-```
-composer require multisafepay/shopware6
-```
 <br>
 
 ---
@@ -175,6 +192,7 @@ You can update the plugin in your backend and the CMS marketplace, or via using 
 </details>
 
 [Top of page](#)
+
 ---
 
 # Shopware 5
