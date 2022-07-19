@@ -236,8 +236,10 @@ To complete the configuration, change the language encoding setting of your PayP
         <span class="callout-icon">💬</span>
         <p>Support</p>
     </h3>
-    <p>- MultiSafepay – <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
-    <p>- PayPal – <a href="https://www.paypal.com/us/smarthelp/contact-us">Contact us</a></p>
+    <ul>
+    <li>MultiSafepay – <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></li>
+    <li>PayPal – <a href="https://www.paypal.com/us/smarthelp/contact-us">Contact us</a></li>
+    </ul>
 </blockquote>
 
 > ⚠️ Known error

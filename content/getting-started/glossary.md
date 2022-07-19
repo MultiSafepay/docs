@@ -134,7 +134,7 @@ The interface and set of protocols merchants use to exchange data with the Multi
 
 ---
 #### reversal
-When a customer cancels an order paid by debit card and takes the funds back.
+When a customer cancels an order paid by credit or debit card and takes the funds back.
 
 ---
 #### SEPA
