@@ -2223,3 +2223,5 @@
 /getting-started/test-your-integration/test-payment-details -> /docs/testing/
 /testing/test-payment-details/ -> /docs/testing/
 /testing/ -> /docs/testing/
+
+/account/logos-icons/ -> /docs/sites#logos-and-icons
