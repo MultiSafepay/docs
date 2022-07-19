@@ -802,6 +802,30 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 
 # User guide
 
+## BNPL orders
+
+The status of all complete orders automatically changes to **Shipped** in order to collect funds from <<glossary:BNPL>> methods.
+
+<details id="how-to-disable-klarna-checkout-fields">
+<summary>How to disable Klarna checkout fields</summary>
+<br>
+
+Klarna requires the customer's gender and date of birth. By default, the customer enters their birthday in the Magento checkout in the Klarna payment method fields, and their gender is automatically populated by the core Magento field.
+
+You can disable both fields in the checkout. The customer enters this information on the MultiSafepay payment page instead.
+
+**Disabling Klarna checkout fields**
+
+This change is only for Magento developers. We recommend testing the change and placing it in your local folder.
+
+1. Open `app\code\community\MultiSafepay\Msp\Model\Gateway\Klarna.php`.
+2. Comment this line `protected $_formBlockType = 'msp/klarna';`
+3. Save the file.
+4. Clear your cache.
+5. Test the change.
+
+</details>
+
 ## Checkouts
 
 The plugin is compatible with most Magento 1 checkouts. However, we cannot guarantee that all checkout features will function properly.
@@ -826,7 +850,9 @@ The default currency is EUR.
 
 ## Generic gateways
 
-The plugin supports generic gateways, which redirect customers from your checkout to a MultiSafepay [payment page](/docs/payment-pages/). This is particularly useful for integrating gift cards.
+The plugin supports generic gateways, which allows you to add a payment method manually. This is particularly useful for integrating gift cards specific to your business. 
+
+Supported since release: 3.1.0, June 15th 2021.
 
 <details id="how-to-configure-generic-gateways">
 <summary>How to configure generic gateways</summary>
@@ -837,30 +863,6 @@ The plugin supports generic gateways, which redirect customers from your checkou
 3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/) and the gateway label.
 4. Set how to display the payment method logos. 
 5. For <<glossary:BNPL>> orders, set whether to include the shopping cart.
-
-</details>
-
-## BNPL orders
-
-The status of all complete orders automatically changes to **Shipped** in order to collect funds from <<glossary:BNPL>> methods.
-
-<details id="how-to-disable-klarna-checkout-fields">
-<summary>How to disable Klarna checkout fields</summary>
-<br>
-
-Klarna requires the customer's gender and date of birth. By default, the customer enters their birthday in the Magento checkout in the Klarna payment method fields, and their gender is automatically populated by the core Magento field.
-
-You can disable both fields in the checkout. The customer enters this information on the MultiSafepay payment page instead.
-
-**Disabling Klarna checkout fields**
-
-This change is only for Magento developers. We recommend testing the change and placing it in your local folder.
-
-1. Open `app\code\community\MultiSafepay\Msp\Model\Gateway\Klarna.php`.
-2. Comment this line `protected $_formBlockType = 'msp/klarna';`
-3. Save the file.
-4. Clear your cache.
-5. Test the change.
 
 </details>
 
