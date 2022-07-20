@@ -263,7 +263,6 @@ You can also test the following scenarios:
 | Card number | Scenario | Description |
 | --- | --- | --- |
 | Amex: 378282246310005 <br> Maestro: 6759000000005 <br> Mastercard: 5500000000000004 <br> Visa/co-branded: <br> 4111111111111111 | **Completed** | Transaction was completed (3D enrolled) |
-| Visa/co-branded: <br> 4012001038443335 | **Completed** | Transaction was completed (not 3D enrolled) |
 | Visa/co-branded: <br> 4917300000000008 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Void**. |
 | Amex: 378734493671000 <br> Visa/co-branded: <br> 4462000000000003 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Completed**. |
 | Amex: 374200000000004 <br> Visa/co-branded: <br> 4012001037461114 | **Declined**  | Transaction was declined (3D authentication failed) |
