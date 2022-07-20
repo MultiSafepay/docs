@@ -39,13 +39,6 @@ There are two ways to install the plugin:
 4. Click **Browse file**.
 5. Upload the Plugin_WooCommerce_x.x.x.zip file.
 
-**Wordpress installation**
-
-1. Sign in to your WooCommerce backend.
-2. Go to **Plugins** > **Add new**.
-3. Search for **MultiSafepay**. 
-4. For the **MultiSafepay plugin for WooCommerce**, click the **Install now** button.
-
 # How to configure
 1. Sign in to your WooCommerce backend.
 2. Go to **WooCommerce** > **MultiSafepay settings**
