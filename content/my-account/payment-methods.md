@@ -170,7 +170,7 @@ You must:
 4.  The issuer sends us the connection details and we activate the card for your account.
 </details>
 
-### Klarna
+## Klarna
 How to activate with a Klarna:
 
 <details id="test-account"> 
