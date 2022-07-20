@@ -11,7 +11,7 @@ slug: 'woocommerce'
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/WooCommerce/releases/download/4.15.0/Plugin_WooCommerce_4.15.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/WooCommerce/releases/download/4.16.0/Plugin_WooCommerce_4.16.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/WooCommerce" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
@@ -38,13 +38,6 @@ There are two ways to install the plugin:
 3. Go to **Plugins** > **Add new**. 
 4. Click **Browse file**.
 5. Upload the Plugin_WooCommerce_x.x.x.zip file.
-
-**Wordpress installation**
-
-1. Sign in to your WooCommerce backend.
-2. Go to **Plugins** > **Add new**.
-3. Search for **MultiSafepay**. 
-4. For the **MultiSafepay plugin for WooCommerce**, click the **Install now** button.
 
 # How to configure
 1. Sign in to your WooCommerce backend.
