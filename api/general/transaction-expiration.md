@@ -3,7 +3,7 @@ title: Transaction expiration
 category: 623dacddb0cbdd0394b9f5a9
 slug: 'transaction-expiration'
 order: 6
-hidden: true
+hidden: false
 ---
 
 Different payment methods set different expiration times for transactions. The time begins:

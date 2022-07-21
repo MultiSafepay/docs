@@ -3,7 +3,7 @@ title: Gateway IDs
 category: 623dacddb0cbdd0394b9f5a9
 slug: 'gateway-ids'
 order: 5
-hidden: true
+hidden: false
 ---
 
 | Payment method                         | Gateway ID    |

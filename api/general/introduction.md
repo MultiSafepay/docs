@@ -3,7 +3,7 @@ title: Introduction
 category: 623dacddb0cbdd0394b9f5a9
 slug: 'introduction'
 order: 1
-hidden: true
+hidden: false
 ---
 
 Welcome to the MultiSafepay API reference (JSON gateway)!

@@ -3,7 +3,7 @@ title: Environments
 category: 623dacddb0cbdd0394b9f5a9
 slug: 'environments'
 order: 3
-hidden: true
+hidden: false
 ---
 
 > ✅ Test environment
