@@ -1,25 +1,24 @@
 ---
 title: Rounding rule
-category: 623dacddb0cbdd0394b9f5a9
+category: 62962df622e99600810c117d
 slug: 'rounding-rule'
-order: 7
-hidden: true
+order: 90
+hidden: false
 ---
 
 MultiSafepay applies the following rounding rule when calculating the total cost of an order:
 
-1. Calculate the total cost of all items in the shopping cart (excluding VAT). Multiply the `unit_price` of each item by the `quantity` of the item. Add the results together, and round to **2 decimal places**: Items total.
-2. Calculate the total VAT for all items in the cart (if applicable). Multiply the total cost of each item by the VAT rate. Add the results together, and round to **2 decimal places**: VAT total.
+1. Calculate the total cost of all items in the shopping cart (excluding VAT). Multiply the `unit_price` of each item by the `quantity` of the item. Add the results together, and round to 2 decimal places: Items total.
+2. Calculate the total VAT for all items in the cart (if applicable). Multiply the total cost of each item by the VAT rate. Add the results together, and round to 2 decimal places: VAT total.
 3. Add the items total to the VAT total: Cart total.
 
-> ℹ ️When rounding to 2 decimal places, [round half up](https://en.wikipedia.org/wiki/Rounding#Round_half_up).
+**Note:** when rounding to 2 decimal places, [round half up](https://en.wikipedia.org/wiki/Rounding#Round_half_up).
 
-Apply the same rounding rules in your integration to ensure:
+Apply the same rounding rule in your integration to ensure:
 
 - The order `amount` matches the cart total.
-- MultiSafepay's records match your records.
+- Payment pages display the correct (sub)totals.
 - E-Invoices to your customers match your records.
-
 
 ## Example
 
@@ -121,7 +120,7 @@ For the following order:
 > 27.5229357798 + 33.0578512396 + 4.5412844037 = **65.1220714231**
 > 65.1220714231 = **65.12**
 
-2. Calculate the total VAT for all items in the cart (if applicable). Multiply the total cost of each item by the VAT rate. Add the results together, and round to **2 decimal places**: VAT total.
+2. Calculate the total VAT for all items in the cart (if applicable). Multiply the total cost of each item by the VAT rate. Add the results together, and round to 2 decimal places: VAT total.
 > 13.7614678899 \* 2 \* 0.09 = 2.4770642202
 > 8.2644628099 \* 2 \* 0.21  = 6.9421487604
 > 4.5412844037 \* 0.09 = 0.4087155963
@@ -153,7 +152,7 @@ for item in order.shopping_cart.items:
     vat_total += item.unit_price * item.quantity * order.checkout_options.tax_tables.default.rate
 vat_total = round(vat_total, 2)
 
-#Step 3: Add the items total to the VAT total: cart_total.
+# Step 3: Add the items total to the VAT total: cart_total.
 cart_total = items_total + vat_total
 ```
 ```javascript Node.js
@@ -179,7 +178,7 @@ for (const item of order.shopping_cart.items) {
 }
 vat_total = Math.round(vat_total * 100) / 100;
 
-//Step 3: Add the items total to the VAT total: cart_total.
+// Step 3: Add the items total to the VAT total: cart_total.
 cart_total = items_total + vat_total;
 ```
 ```ruby Ruby
@@ -202,18 +201,18 @@ order.shopping_cart.items.each do |item|
 end
 vat_total = vat_total.round(2)
 
-#Step 3: Add the items total to the VAT total: cart_total.
+# Step 3: Add the items total to the VAT total: cart_total.
 cart_total = items_total + vat_total
 ```
 ```csharp C#
-// Step 1: Calculate the total cost of the items in the shopping cart (excluding VAT). For each item in the cart, multiply the unit_price by the quantity of the item.
+// Step 1: Calculate the total cost of all items in the cart (excluding VAT). Multiply the unit_price of each item by the quantity of the item. Add the results together, and round to 2 decimal places: items_total.
 var items_total = 0;
 foreach (var item in order.shopping_cart.items) {
   items_total += item.unit_price * item.quantity;
 }
 items_total = Math.Round(items_total, 2);
 
-// Step 2: Calculate the total VAT for all items in the shopping cart. For each item in the cart, calculate its VAT (if applicable).
+// Step 2: Calculate the total VAT for all items in the cart (if applicable). Multiply the total cost of each item by the VAT rate. Add the results together, and round to 2 decimal places: vat_total.
 var vat_total = 0;
 foreach (var item in order.shopping_cart.items) {
 var tax_class = order.checkout_options.tax_tables.alternate.FirstOrDefault(tax_class => tax_class.name == item.tax_table_selector);
@@ -225,7 +224,7 @@ if (tax_class != null) {
 }
 vat_total = Math.Round(vat_total, 2);
 
-//Step 3: Add the items total to the VAT total: cart_total.
+// Step 3: Add the items total to the VAT total: cart_total.
 cart_total = items_total + vat_total;
 ```
 ```go Go
@@ -248,6 +247,6 @@ for _, item := range order.shopping_cart.items {
 }
 vat_total = math.Round(vat_total, 2)
 
-//Step 3: Add the items total to the VAT total: cart_total.
+// Step 3: Add the items total to the VAT total: cart_total.
 cart_total = items_total + vat_total
 ```
