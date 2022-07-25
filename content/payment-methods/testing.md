@@ -155,7 +155,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order (Example: EPS redirect)
-    Set the `locale` parameter to `at_AT`.
+    In the `customer` object, set the `locale` parameter to `at_AT`.
 2. On the EPS page, in the **BIC** field, enter any BIC code, e.g. `RZOOAT2L420`.
 3. Click **Confirm**.
 4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
@@ -222,7 +222,7 @@ You can also test the following scenarios:
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order (Example: MyBank direct/redirect)
-    Set the `locale` parameter to `it_IT`.
+    In the `customer` object, set the `locale` parameter to `it_IT`.
 2. For redirect orders, open the payment link. 
 3. Select the bank/payment scenario below.
 4. Click **Continua sull'online banking**.
@@ -245,7 +245,7 @@ You can also test the following scenarios:
 
 1. [Create an order](/reference/createorder/) > Card order.  
     See also the Examples for the specific <<glossary:card scheme>>.  
-    For co-branded cards, see the Credit card redirect example, and set the `locale` parameter:
+    For co-branded cards, see the Credit card redirect example. In the `customer` object, set the `locale` parameter:
     - Cartes Bancaires: `fr_FR` 
     - Dankort: `da_DK`
     - Postepay: `it_IT`

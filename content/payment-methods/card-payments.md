@@ -105,7 +105,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 #### Co-branded cards
 Co-branded cards are processed through the `VISA` <<glossary:gateway>>. 
-Set the `locale` parameter: 
+In the `customer` object, set the `locale` parameter: 
 - Cartes Bancaires: `fr_FR` (France) 
 - Dankort: `da_DK` (Denmark) 
 - Postepay: `it_IT` (Italy) 
