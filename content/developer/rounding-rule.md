@@ -20,6 +20,8 @@ Apply the same rounding rule in your integration to ensure:
 - Payment pages display the correct (sub)totals.
 - E-Invoices to your customers match your records.
 
+For more information about the `shopping_cart` object, see Recipe – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
+
 ## Example
 
 For the following order:
