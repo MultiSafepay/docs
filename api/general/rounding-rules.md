@@ -1,14 +1,14 @@
 ---
-title: Rounding rules
+title: Rounding rule
 category: 623dacddb0cbdd0394b9f5a9
-slug: 'rounding-rules'
+slug: 'rounding-rule'
 order: 7
 hidden: true
 ---
 
-MultiSafepay applies the following rounding rules when calculating the total cost of an order:
+MultiSafepay applies the following rounding rule when calculating the total cost of an order:
 
-1. Calculate the total cost of all items in the cart (excluding VAT). Multiply the `unit_price` of each item by the `quantity` of the item. Add the results together, and round to **2 decimal places**: Items total.
+1. Calculate the total cost of all items in the shopping cart (excluding VAT). Multiply the `unit_price` of each item by the `quantity` of the item. Add the results together, and round to **2 decimal places**: Items total.
 2. Calculate the total VAT for all items in the cart (if applicable). Multiply the total cost of each item by the VAT rate. Add the results together, and round to **2 decimal places**: VAT total.
 3. Add the items total to the VAT total: Cart total.
 
