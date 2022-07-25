@@ -69,13 +69,8 @@ Contact the card issuer and share the details with us to activate in your accoun
 <summary>How to activate gift cards</summary>
 <br>
 
-1. To check your eligibility, email <sales@multisafepay.com> 
-2. Send a request to the **card issuer**, providing your company details and MultiSafepay account ID.
-3. The issuer connects you to the card via either:
-    - [Intersolve](https://intersolve.nl/contact) (majority of gift cards)
-    - [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
-    - [123TCS](https://www.123tcs.com/#Contact)
-4.  The issuer sends us the connection details and we activate the card for your account.
+1. Send a request to the **card issuer**, providing your company details and MultiSafepay account ID.
+2. The issuer sends us the connection details and we activate the card for your account.
 
 </details>
 

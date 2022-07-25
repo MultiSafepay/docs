@@ -73,9 +73,11 @@ This is also known as "one-click payment".
 ## Subsequent payments: Merchant-initiated 
 
 There are two common use cases for merchant-initiated subsequent payments: 
+- Subscriptions
+- Unscheduled payments
 
-    - Subscriptions
-    - Unscheduled payments
+
+<br>
 
 1. The customer must give consent (once only). 
 2. You include the token in the request to MultiSafepay. 

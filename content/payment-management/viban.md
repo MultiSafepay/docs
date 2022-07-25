@@ -6,40 +6,48 @@ hidden: false
 slug: 'virtual-ibans'
 excerpt: "Collect bank transfers and direct debits in your own bank account."
 ---
-A virtual international bank account number (VIBAN) in your company name removes MultiSafepay branding from the customer experience for [Bank Transfer](/docs/bank-transfer/) and [SEPA Direct Debit](/docs/sepa-direct-debit/), and helps you better manage payments. 
+A virtual international bank account number (VIBAN) in your company name improves the customer experience for [bank transfers](/docs/bank-transfer/) and [SEPA direct debits](/docs/sepa-direct-debit/):
 
-A VIBAN isn't connected to an actual bank account and simply routes incoming funds to MultiSafepay's account to collect. However, MultiSafepay's name no longer appears in payment instructions or on customer bank statements.   
+- Customers appear to pay your company directly, instead of a collecting party.
+- Customers receive refunds in your name rather than from MultiSafepay.
+- You can resolve unmatched bank transfers yourself.
 
 # How it works
 
-For bank transfers, customers receive your VIBAN details in payment instructions instead of MultiSafepay's IBAN, in both [payment pages](/docs/payment-pages/) and emails (including for the [direct flow](/docs/bank-transfer#payment-flow)). Your company name appears on the customer's bank statement. Customers don't see MultiSafepay's name at any point and enjoy a cohesive experience with your brand.
+A VIBAN isn't connected to an actual bank account. It simply routes incoming funds to MultiSafepay's account to collect as normal. 
 
-For direct debits, there is no change for customers when completing payment. However, your company name appears on bank statements, which increases brand recognition and trust, and can reduce [chargebacks](/docs/sepa-direct-debit#chargebacks).
+### Improve customer experience
 
-You can apply for a VIBAN for your MultiSafepay account, or for a specific site.
+Customers are not always aware of the role of a payment service provider, and may be confused by seeing MultiSafepay's name in payment instructions and on their bank statement.
 
-VIBANs can only be used for transactions in EUR.
+With a VIBAN, bank transfer instructions on [payment pages](/docs/payment-pages/) and in emails display your name and VIBAN instead of MultiSafepay's.
+
+Descriptors on bank statements for both payments and refunds display "[Merchant name] by MultiSafepay", making it easier for your customers to recognize you.
+
+Increasing brand recognition helps reduce your customer support load and potential [chargebacks](/docs/sepa-direct-debit#chargebacks).
+
+### Match payments
+
+With a VIBAN, you gain access to a dedicated tool in your dashboard to resolve unmatched bank transfers yourself. See [Matching payments](#matching-payments) below.
+
+### Other benefits
+
+VIBANs are quick and easy to set up, compared to bank accounts. This makes them particularly suitable for processing payments abroad. 
+
+They are also beneficial for B2B and B2C cases, where manual bank transfers and direct debits are frequently used.
 
 # Activation
 
-Email a request for a VIBAN including required information to <sales@multisafepay.com>
+You can apply for a VIBAN for all sites under your MultiSafepay account, or for a specific site.
 
-<details id="required-information">
-<summary>Required information</summary>
-<br>
+Email a request for a VIBAN to <sales@multisafepay.com>
 
 Include in the request:
 
-- Whether you want to use in your dashboard the:
-    - Refunds tool
-    - Matching tool
-- The company name you want to appear on bank statements
-- Whether you want to use the VIBAN to:
-    - Receive funds only
-    - Refund/pay out funds only
-    - Receive **and** refund/pay out funds
-
-</details>
+- The company name you want to display to customers
+- The payment methods you want to use the VIBAN for: bank transfers, SEPA direct debits, or both
+- Whether you want the bank transfer matching tool
+- Whether you want to use the VIBAN to receive payments only, or also to process refunds
 
 # Integration
 
@@ -50,11 +58,9 @@ Once activated, no integration is required.
 
 # User guide
 
-## Refunds
+## Currencies
 
-You can also make [refunds](/docs/refunds/) using your VIBAN, and manage them from your MultiSafepay dashboard. Your company name appears on bank statements instead of MultiSafepay's name.
-
-You need to request this functionality when applying for your VIBAN.
+VIBANs can only be used for transactions in EUR.
 
 ## Matching payments
 
@@ -74,6 +80,7 @@ Once activated, an alert appears on your dashboard home page when you have unmat
 |  | Match and collect deficit | The order status changes to **Completed**. <br> A new Bank Transfer order (linked to the original order) is created with a payment link for the customer to pay the outstanding amount. |
 | Refund requested | Refund in full | A refund order linked to the original order is created and the payment is refunded. |
 | Lump payment | Match the payment to multiple orders | Divide the payment across multiple orders and their status changes to **Completed**. <br> If there is any excess after all relevant orders are matched, you can refund, reserve, or keep the excess (see above). <br> If there are not enough funds for all relevant orders, you can make up the deficit from your account balance or create a new order for the outstanding amount (see above).| 
+
 <br>
 
 ---
