@@ -107,6 +107,12 @@
       },
       {
         "pattern": "glossary:.*"
+      },
+      {
+        "pattern": "https://testapi.\\multisafepay.\\com.*"
+      },
+      {
+        "pattern": "https://api.\\multisafepay.\\com.*"
       }
     ],
   "timeout": "120s",
