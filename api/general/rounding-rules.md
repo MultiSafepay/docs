@@ -12,6 +12,8 @@ MultiSafepay applies the following rounding rules when calculating the total cos
 2. Calculate the total VAT for all items in the cart (if applicable). Multiply the total cost of each item by the VAT rate. Add the results together, and round to **2 decimal places**: VAT total.
 3. Add the items total to the VAT total: Cart total.
 
+> ℹ ️When rounding to 2 decimal places, [round half up](https://en.wikipedia.org/wiki/Rounding#Round_half_up).
+
 Apply the same rounding rules in your integration to ensure:
 
 - The order `amount` matches the cart total.
