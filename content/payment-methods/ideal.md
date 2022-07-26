@@ -46,7 +46,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | iDEAL processing error. | Declined   | Declined   |
 | The customer didn't complete payment within 1.5 hours. | Expired | Expired |
 | **Refunds:** Refund initiated. | Initialized | Initialized |
-| Refund pending (banking only).  | Reserved | Reserved |
+| **Refunds:** Refund pending (banking only).  | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |
 
 # Activation

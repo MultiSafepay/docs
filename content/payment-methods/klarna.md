@@ -50,7 +50,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-How to activate with a Klarna:
+How to activate Klarna with a Klarna:
 
 <details id="test-account"> 
 <summary>Test account</summary>
