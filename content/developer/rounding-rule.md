@@ -2,7 +2,7 @@
 title: Rounding rule
 category: 62962df622e99600810c117d
 slug: 'rounding-rule'
-order: 90
+order: 40
 hidden: false
 ---
 
