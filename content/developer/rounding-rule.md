@@ -10,7 +10,7 @@ MultiSafepay applies the following rounding rule when calculating the total cost
 
 1. Calculate the total cost of all items in the shopping cart (excluding VAT): Multiply the `unit_price` of each item by the `quantity` of the item, then add the results together, rounding to 2 decimal places= Items total.
 2. Calculate the total VAT for all items in the cart (if applicable): Multiply the total cost of each item by the VAT rate, then add the results together, rounding to 2 decimal places= VAT total.
-3. Add the items total to the VAT total: Cart total.
+3. Add the items total to the VAT total= Cart total.
 
 **Note:** When rounding to 2 decimal places, always [round half up](https://en.wikipedia.org/wiki/Rounding#Round_half_up).
 
@@ -115,7 +115,7 @@ For the following order:
 | Shipping  | 4.5412844037 | 9%    | 0.4087155963 | 1        | 4.5412844037    | 4.95            |
 | Total     |              |       |              |          |                 | 74.95           |
 
-1. Calculate the total cost of all items in the cart (excluding VAT). Multiply the `unit_price` of each item by the `quantity` of the item. Add the results together, and round to 2 decimal places: Items total.
+1. Calculate the total cost of all items in the shopping cart (excluding VAT): Multiply the `unit_price` of each item by the `quantity` of the item, then add the results together, rounding to 2 decimal places= Items total.
 > 13.7614678899 \* 2 = 27.5229357798
 > 8.2644628099 \* 4 = 33.0578512396
 > 4.5412844037 \* 1 = 4.5412844037
@@ -129,7 +129,7 @@ For the following order:
 > 2.4770642202 + 6.9421487604 + 0.4087155963 = **9.8279285769**
 > 9.8279285769 = **9.83**
 
-3. Add the items total to the VAT total: Cart total.
+3. Add the items total to the VAT total= Cart total.
 > 65.12 + 9.83 = **74.95**
 
 ## Implementation
@@ -137,7 +137,7 @@ For the following order:
 Use the following code to implement the rounding convention:
 
 ```python Python
-# Step 1: Calculate the total cost of all items in the cart (excluding VAT). Multiply the unit_price of each item by the quantity of the item. Add the results together, and round to 2 decimal places: items_total.
+# Step 1: Calculate the total cost of all items in the cart (excluding VAT). Multiply the unit_price of each item by the quantity of the item, then add the results together, rounding to 2 decimal places: items_total.
 items_total = 0
 for item in order.shopping_cart.items:
   items_total += item.unit_price * item.quantity
@@ -158,33 +158,33 @@ vat_total = round(vat_total, 2)
 cart_total = items_total + vat_total
 ```
 ```javascript Node.js
-// Step 1: Calculate the total cost of all items in the cart (excluding VAT). Multiply the unit_price of each item by the quantity of the item. Add the results together, and round to 2 decimal places: items_total.
-let items_total = 0;
+// Step 1: Calculate the total cost of all items in the cart (excluding VAT). Multiply the unit_price of each item by the quantity of the item, then add the results together, rounding to 2 decimal places: itemsTotal.
+let itemsTotal = 0;
 for (const item of order.shopping_cart.items) {
-  items_total += item.unit_price * item.quantity;
+  itemsTotal += item.unit_price * item.quantity;
 }
-items_total = Math.round(items_total * 100) / 100;
+itemsTotal = Math.round(itemsTotal * 100) / 100;
 
-// Step 2: Calculate the total VAT for all items in the cart (if applicable). Multiply the total cost of each item by the VAT rate. Add the results together, and round to 2 decimal places: vat_total.
-let vat_total = 0;
+// Step 2: Calculate the total VAT for all items in the cart (if applicable). Multiply the total cost of each item by the VAT rate. Add the results together, and round to 2 decimal places: vatTotal.
+let vatTotal = 0;
 for (const item of order.shopping_cart.items) {
   for (const tax_class of order.checkout_options.tax_tables.alternate) {
     if (tax_class.name == item.tax_table_selector) {
-      vat_total += item.unit_price * item.quantity * tax_class.rules[0].rate;
+      vatTotal += item.unit_price * item.quantity * tax_class.rules[0].rate;
       break;
     }
   }
-  if (vat_total == 0) {
-    vat_total += item.unit_price * item.quantity * order.checkout_options.tax_tables.default.rate;
+  if (vatTotal == 0) {
+    vatTotal += item.unit_price * item.quantity * order.checkout_options.tax_tables.default.rate;
   }
 }
-vat_total = Math.round(vat_total * 100) / 100;
+vatTotal = Math.round(vatTotal * 100) / 100;
 
-// Step 3: Add the items total to the VAT total: cart_total.
-cart_total = items_total + vat_total;
+// Step 3: Add the items total to the VAT total: cartTotal.
+cartTotal = itemsTotal + vatTotal;
 ```
 ```ruby Ruby
-# Step 1: Calculate the total cost of all items in the cart (excluding VAT). Multiply the unit_price of each item by the quantity of the item. Add the results together, and round to 2 decimal places: items_total.
+# Step 1: Calculate the total cost of all items in the cart (excluding VAT). Multiply the unit_price of each item by the quantity of the item, then add the results together, rounding to 2 decimal places: items_total.
 items_total = 0
 order.shopping_cart.items.each do |item|
   items_total += item.unit_price * item.quantity
@@ -207,7 +207,7 @@ vat_total = vat_total.round(2)
 cart_total = items_total + vat_total
 ```
 ```csharp C#
-// Step 1: Calculate the total cost of all items in the cart (excluding VAT). Multiply the unit_price of each item by the quantity of the item. Add the results together, and round to 2 decimal places: items_total.
+// Step 1: Calculate the total cost of all items in the cart (excluding VAT). Multiply the unit_price of each item by the quantity of the item, then add the results together, rounding to 2 decimal places: items_total.
 var items_total = 0;
 foreach (var item in order.shopping_cart.items) {
   items_total += item.unit_price * item.quantity;
@@ -230,7 +230,7 @@ vat_total = Math.Round(vat_total, 2);
 cart_total = items_total + vat_total;
 ```
 ```go Go
-// Step 1: Calculate the total cost of all items in the cart (excluding VAT). Multiply the unit_price of each item by the quantity of the item. Add the results together, and round to 2 decimal places: items_total.
+// Step 1: Calculate the total cost of all items in the cart (excluding VAT). Multiply the unit_price of each item by the quantity of the item, then add the results together, rounding to 2 decimal places: items_total.
 var items_total = 0
 for _, item := range order.shopping_cart.items {
   items_total += item.unit_price * item.quantity
