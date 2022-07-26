@@ -8,17 +8,17 @@ hidden: false
 
 MultiSafepay applies the following rounding rule when calculating the total cost of an order:
 
-1. Calculate the total cost of all items in the shopping cart (excluding VAT). Multiply the `unit_price` of each item by the `quantity` of the item. Add the results together, and round to 2 decimal places: Items total.
-2. Calculate the total VAT for all items in the cart (if applicable). Multiply the total cost of each item by the VAT rate. Add the results together, and round to 2 decimal places: VAT total.
+1. Calculate the total cost of all items in the shopping cart (excluding VAT): Multiply the `unit_price` of each item by the `quantity` of the item, then add the results together, rounding to 2 decimal places= Items total.
+2. Calculate the total VAT for all items in the cart (if applicable): Multiply the total cost of each item by the VAT rate, then add the results together, rounding to 2 decimal places= VAT total.
 3. Add the items total to the VAT total: Cart total.
 
-**Note:** when rounding to 2 decimal places, [round half up](https://en.wikipedia.org/wiki/Rounding#Round_half_up).
+**Note:** When rounding to 2 decimal places, always [round half up](https://en.wikipedia.org/wiki/Rounding#Round_half_up).
 
 Apply the same rounding rule in your integration to ensure:
 
 - The order `amount` matches the cart total.
-- Payment pages display the correct (sub)totals.
-- E-Invoices to your customers match your records.
+- [Payment pages](/docs/payment-pages/) display the correct (sub)totals.
+- [E-Invoices](/docs/e-invoicing/) to your customers match your records.
 
 For more information about the `shopping_cart` object, see Recipe – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 
@@ -122,7 +122,7 @@ For the following order:
 > 27.5229357798 + 33.0578512396 + 4.5412844037 = **65.1220714231**
 > 65.1220714231 = **65.12**
 
-2. Calculate the total VAT for all items in the cart (if applicable). Multiply the total cost of each item by the VAT rate. Add the results together, and round to 2 decimal places: VAT total.
+2. Calculate the total VAT for all items in the cart (if applicable): Multiply the total cost of each item by the VAT rate, then add the results together, rounding to 2 decimal places= VAT total.
 > 13.7614678899 \* 2 \* 0.09 = 2.4770642202
 > 8.2644628099 \* 2 \* 0.21  = 6.9421487604
 > 4.5412844037 \* 0.09 = 0.4087155963
