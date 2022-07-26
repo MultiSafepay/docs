@@ -60,7 +60,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
     </details>
 
 6. From the **Language** list, select the email language.  
-    **Note:** The language set here is overridden by the `locale` parameter in the `customer` object in [create order](/reference/createorder/) API requests. 
+    **Note:** The language set here is overridden if the `locale` parameter in the `customer` object is set in [create order](/reference/createorder/) API requests. 
 7. Either click **Load default template**, or fill in the fields as required.
     - In the **From address** field, enter the email address you want the email sent from, e.g. sales@yourcompany.com
     **Note:** If you enter a different from address than noreply@multisafepay.com to avoid emails being marked as spam, we recommend adding the following DNS record to your domain:  
