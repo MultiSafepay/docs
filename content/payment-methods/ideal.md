@@ -9,7 +9,7 @@ slug: 'ideal'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/iDeal.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
-[iDEAL](https://www.ideal.nl/en/) is the leading payment method in the Netherlands and links all major Dutch retail banks. Customers pay via mobile banking app, QR code, or in their own online banking environment. Once a payment is completed, the customer cannot reverse it and iDEAL guarantees <<glossary:settlement>>.
+[iDEAL](https://www.ideal.nl/en/) is the leading payment method in the Netherlands and links all major Dutch retail banks. Customers pay via mobile banking app, [QR code](#ideal-qr), or in their own online banking environment. Once a payment is completed, the customer cannot reverse it and iDEAL guarantees <<glossary:settlement>>.
 
 Read how iDEAL can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/ideal)
 
@@ -23,15 +23,6 @@ Read how iDEAL can benefit your business on [multisafepay.com](https://www.multi
 | [Recurring payments](/docs/recurring-payments/) | Yes (banking only) |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial |
 | [Second Chance](/docs/second-chance/) | Yes |
-
-> **Note** 
-> To increase transparency for customers, the name of your website appears on the iDEAL payment page and "Your-website-name by MultiSafepay" on the customer's bank statement.
-
-# iDEAL QR
- 
-[iDEAL QR](https://www.ideal.nl/en/businesses/offer-ideal-qr/) has a wide range of applications. Customers can scan QR codes off screens or paper (e.g. invoices, receipts), and change the amount to pay. This makes it particularly suitable for hospitality, charity collectors, and home deliveries. You can specify whether the same QR code can be used more than once.
-
-Not all Dutch banking apps support iDEAL QR yet, so we recommend that customers scan QR codes with their camera or a general QR reader. This redirects to the ideal.nl payment page, which works for all banks. 
 
 # Payment flow
 
@@ -102,6 +93,37 @@ You can activate iDEAL yourself in your dashboard.
 
 ### Testing
 To test iDEAL payments, see [Testing](/docs/testing#banking-methods).
+<br>
+
+---
+# User guide
+
+## Brand recognition
+
+To increase brand recognition for customers, the name of your website appears on the iDEAL payment page and "[Your site name] by MultiSafepay" on the customer's bank statement.
+
+## iDEAL QR
+ 
+[iDEAL QR](https://www.ideal.nl/en/businesses/offer-ideal-qr/) has a wide range of applications. Customers can scan QR codes off screens or paper (e.g. invoices, receipts), and change the amount to pay. This makes it particularly suitable for hospitality, charity collectors, and home deliveries. You can specify whether the same QR code can be used more than once.
+
+Not all Dutch banking apps support iDEAL QR yet, so we recommend that customers scan QR codes with their camera or a general QR reader. This redirects to the ideal.nl payment page, which works for all banks. 
+
+## Issuers
+
+iDEAL supports the following <<glossary:issuers>>:
+
+- ABN AMRO 
+- ASN Bank 	
+- bunq 
+- Handelsbanken 
+- ING 
+- Knab 
+- Rabobank 
+- Regio Bank 
+- Revolut 
+- SNS Bank
+- Triodos Bank
+- Van Lanschot Bankiers 
 <br>
 
 ---
