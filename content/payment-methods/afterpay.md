@@ -68,6 +68,7 @@ You need to contact AfterPay to activate it for your account.
 ### API
 - [Create order](/reference/createorder/) > Pay later order.
 - Examples > AfterPay direct/redirect.
+- A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions expire after 90 days.
 
 ### Ready-made integrations

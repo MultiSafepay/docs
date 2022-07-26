@@ -34,7 +34,7 @@ You can activate Second Chance yourself in your dashboard.
 
 # Integration
 
-To integrate, see API recipe – [Send payment reminders](/recipes/send-payment-reminders).
+To integrate, see Recipes – [Send payment reminders](/recipes/send-payment-reminders).
 <br>
 
 ---
