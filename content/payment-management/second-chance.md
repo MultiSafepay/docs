@@ -41,25 +41,30 @@ To integrate, see API recipe – [Send payment reminders](/recipes/send-payment-
 
 # User guide
 
-## Customization
+## Languages
 
-The Second Chance email template is completely customizable.
-
-<details id="how-to-customize-templates">
-<summary>How to customize templates</summary>
+<details id="supported-languages">
+<summary>Supported languages</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
-2. Go to **Settings** > **Email templates**.
-3. Select the relevant site.
-4. Click **Add new template**.
-5. From the **Type** list, select **Second Chance email (to consumer)**.
-6. From the **Language** list, select the relevant language.
-7. Click **Load default template**.
-
-For how to customize the template, see [Email styling](/docs/email-styling/).
+- Dutch
+- English
+- French
+- German
+- Italian
+- Spanish
 
 </details>
+
+To set the language of Second Chance emails, see [Email styling](/docs/email-styling/) > Step 6.
+
+❗️ The language set in the dashboard is overridden by the `locale` parameter in the `customer` object in [create order](/reference/createorder/) API requests.
+
+## Styling
+
+You can style Second Chance email templates to match your brand's look and feel.
+
+See [Email styling](/docs/email-styling/) > Select the **Second Chance email (to customer)** template.
 
 ## Payment methods
 

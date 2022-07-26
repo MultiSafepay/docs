@@ -60,13 +60,51 @@ MultiSafepay can help you manage your email communications with customers. Use o
     </details>
 
 6. From the **Language** list, select the email language.  
-    **Note:** The language set here is overridden if the `locale` parameter in the `customer` object is set in [create order](/reference/createorder/) API requests. 
+
+    <details id="supported-languages">
+    <summary>Supported languages</summary>
+    <br>
+
+    - Dutch
+    - English
+    - French
+    - German
+    - Italian
+    - Spanish
+
+    </details>
+
+    ❗️ The language set here is overridden by the `locale` parameter in the `customer` object in [create order](/reference/createorder/) API requests. 
+
 7. Either click **Load default template**, or fill in the fields as required.
-    - In the **From address** field, enter the email address you want the email sent from, e.g. sales@yourcompany.com
-    **Note:** If you enter a different from address than noreply@multisafepay.com to avoid emails being marked as spam, we recommend adding the following DNS record to your domain:  
+
+    <details id="from-address-field">
+    <summary>From address field</summary>
+    <br>
+
+    In the **From address** field, enter the email address you want the email sent from, e.g. sales@yourcompany.com
+    
+    ❗️ If you enter a different from address than noreply@multisafepay.com to avoid emails being marked as spam, we recommend adding the following DNS record to your domain: 
+
     **v=spf1 ip4:213.189.0.0/23 ip4:185.99.128.0/22 mx**
-    - In the **From name** field, enter the name you want the email sent by, e.g. your company name.
-    - In the **Subject** field, enter a subject.  
+
+    </details>
+        
+    <details id="from-name-field">
+    <summary>From name field</summary>
+    <br>
+    
+    In the **From name** field, enter the name you want the email sent by, e.g. your company name.
+
+    </details>
+
+    <details id="subject-field">
+    <summary>Subject field</summary>
+    <br>
+    
+    In the **Subject** field, enter a subject.  
+
+    </details>
 
 8. Edit the text **either** in the **Body plain** field, **or** if you know HTML and CSS, you can fully customize the content and layout in the **Body HTML** field. To view the HTML/CSS code, click **Source**.
 
@@ -89,7 +127,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
 
     1. Go to the Body HTML editor on the email template page, and then click the **Token** icon.
     2. Select a token from the list, and then click **OK**.
-
+    
     The table below describes all available tokens.
 
     | Tags                          |     Result    |      
