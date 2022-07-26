@@ -89,7 +89,7 @@ Although MultiSafepay doesn't prohibit embedding payment pages as an `<iframe>`,
 
 Instead, we recommend using [payment components](/docs/payment-components/) to embed payments into your site. 
 
-## Languages
+## Localization
 
 Payment pages are supported in 19 languages. 
 
@@ -113,6 +113,10 @@ Payment pages support the following languages:
 | Italian ||
 
 </details>
+
+You can also localize [payment pages](/docs/payment-pages) to automatically filter out payment methods that are not available in the customer's country, and to display local variants. 
+
+See API reference > [Create order](https://docs.multisafepay.com/reference/createorder) > `customer` object > `locale` parameter.
 
 ## Payment links
 
