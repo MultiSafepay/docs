@@ -73,7 +73,7 @@ You can activate MyBank in your dashboard.
 # Integration
 
 ### API
-- [Create order](/reference/createorder/) > Banking order. Set the `locale` to `IT`.
+- [Create order](/reference/createorder/) > Banking order. In the `customer` object, set the `locale` to `IT`.
 - Examples > MyBank direct/redirect.
 - Transactions expire after 1 hour.
 
