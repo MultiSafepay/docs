@@ -75,6 +75,7 @@ You must:
 ### API
 - [Create order](/reference/createorder/) > BNPL order 
 - Examples > Betaal per Maand direct/redirect.
+- A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions expire after 1 day.
 
 ### Ready-made integrations

@@ -21,7 +21,7 @@ None.
 
 # Integration
 
-See API recipe – [Split a payment](/recipes/split-a-payment).
+See Recipes – [Split a payment](/recipes/split-a-payment).
 
 Split Payments are not supported in our [ready-made integrations](/docs/our-integrations/).
 <br>

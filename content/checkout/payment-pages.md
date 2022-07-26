@@ -35,7 +35,7 @@ You can activate payment pages yourself in your dashboard.
 
 # Integration 
 
-See API recipe – [Create a payment page](/recipes/create-a-payment-pagelink).
+See Recipes – [Create a payment page](/recipes/create-a-payment-pagelink).
 
 <details id="known-errors">
 <summary>Known errors</summary>
