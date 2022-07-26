@@ -16,6 +16,7 @@ Include your [site API key](https://docs.multisafepay.com/account/site-id-api-ke
 }
 [/block]
 
+<!-- markdown-link-check-disable -->
 [block:code]
 {
   "codes": [
@@ -39,3 +40,4 @@ Include your [site API key](https://docs.multisafepay.com/account/site-id-api-ke
   ]
 }
 [/block]
+<!-- markdown-link-check-enable-->
