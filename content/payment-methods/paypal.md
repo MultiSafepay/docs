@@ -54,6 +54,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
+To activate PayPal, follow these steps:
+
 <details id="how-to-configure-your-paypal-account">
 <summary>How to configure your PayPal account</summary>
 <br>

@@ -52,7 +52,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 You can activate Bancontact yourself in your dashboard. 
 
 <details id="how-to-activate-bancontact"> 
-<summary>How to activate in your Bancontact</summary>
+<summary>How to activate Bancontact</summary>
 <br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).

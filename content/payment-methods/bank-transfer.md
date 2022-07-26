@@ -49,7 +49,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 You can activate Bank Transfer yourself in your dashboard. 
 
 <details id="how-to-activate-bank-transfer"> 
-<summary>How to activate in your Bank Transfer</summary>
+<summary>How to activate Bank Transfer</summary>
 <br>
 
 1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).

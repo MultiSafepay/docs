@@ -33,11 +33,6 @@ Read how gift cards can benefit your business on [multisafepay.com](https://www.
 | [Boeken Voordeel](https://www.boekenVoordeel.nl/) | [Nationale Bioscoopbon](https://www.bioscoopbon.nl/) | [Wellness & Beauty](https://www.wellnessbeautycadeau.nl/) |
 | [Fashioncheque](https://www.fashioncheque.com/) | [Nationale Entertainment Card](https://www.nationale-entertainmentcard.nl/) | [Wijn Cadeaukaart](https://www.wijn-cadeaukaart.nl/) |
 | [Fashion Giftcard](https://www.fashion-giftcard.nl/) | [Nationale Tuinbon](https://www.nationale-tuinbon.nl/) | [YourGift](https://www.yourgift.nl/) |
-<br>
-
-> **Note** 
-> Webshop Giftcard no longer offers [open-loop gift cards](#closed-loop-vs-open-loop-cards). 
-> To exchange existing open-loop cards for closed-loop cards, see Webshop Giftcard – [Contact](https://www.webshopgiftcard.nl/contact).
 
 # Payment flow
 
@@ -93,6 +88,14 @@ To test gift card payments, see [Testing](/docs/testing#prepaid-cards).
 
 # User guide
 
+## BNPL methods
+
+When paying with a gift card and a <<glossary:BNPL>> method, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+
+This is because BNPL methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+
+You are solely responsible for this in your integration.
+
 ## Closed-loop vs open-loop cards
 
 - Closed-loop: 
@@ -138,13 +141,11 @@ VVV Cadeaukaart cards can sometimes throw an error where the credit balance appe
 
 If a customer completes a payment and receives this error message, advise them to wait for 1 hour for a confirmation email before trying again to avoid placing two orders.
 
-## BNPL methods
+## Webshop Giftcard
 
-When paying with a gift card and a <<glossary:BNPL>> method, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+Webshop Giftcard no longer offers [open-loop gift cards](#closed-loop-vs-open-loop-cards). 
 
-This is because BNPL methods collect and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
-
-You are solely responsible for this in your integration.
+To exchange existing open-loop cards for closed-loop cards, see Webshop Giftcard – [Contact](https://www.webshopgiftcard.nl/contact).
 <br>
 
 ---
