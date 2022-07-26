@@ -31,7 +31,7 @@ The webhook is triggered when the <<glossary:order status>> or <<glossary:transa
 
 MultiSafepay uses HTTPS to send notifications securely to the webhook endpoint configured for your web server.
 
-Our webhook uses the `POST` method to inform your web server when there is an update, and shares details on what has changed. This is more efficient than a poll-based method where your web server must continually check for updates.
+Our webhook uses the `POST` method to inform your web server when there is an update, and shares details on what has changed. This is more efficient than a poll-based `GET` method where your web server must continually check for updates. We do support `GET` as a `notification_method`, but we strongly recommend `POST` because it's more efficient.
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/webhook-flow.svg" alt="Webhook communication flow" style="display: block;
   margin-left: auto;
@@ -39,7 +39,10 @@ Our webhook uses the `POST` method to inform your web server when there is an up
   max-width: 750px;
   width: 100%;">
 
-> **Note:** We do support `GET` as a `notification_method`, but we strongly recommend to use `POST`, which is the most efficient.
+> ℹ️ Note
+> International bank account numbers (IBANs) are sensitive data. For security reasons, we mask them by default in POST webhook notifications so that only the last 4 digits are visible, e.g. *** 1234. 
+>
+> To unmask IBANs, see [IBANs](https://docs.multisafepay.com/account/unmasking-ibans/).
 
 # Prerequisites
 
