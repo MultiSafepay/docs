@@ -16,7 +16,7 @@ Read how PayPal can benefit your business on [multisafepay.com](https://www.mult
 | Supports | Details |
 |---|---|
 | [Countries](/docs/payment-methods#payment-methods-by-country)  | Worldwide  | 
-| [Currencies](/docs/currencies/)  | Multiple: See PayPal – [PayPal supported currencies](https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/). | 
+| [Currencies](/docs/currencies/)  | AUD, BRL, CAD, CHF, CZK, DKK, EUR, GBP, HKD, HRK, HUF, JPY, MXN, MYR, NOK, NZD, PHP, PLN, RUB, SEK, SGD, THB, TRY, TWD, USD <br> For more information, see PayPal – [PayPal supported currencies](https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/). | 
 | [Chargebacks](/docs/chargebacks/)  |  Yes  |
 | [Payment components](/docs/payment-components/) | Yes | 
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
