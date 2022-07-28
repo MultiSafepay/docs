@@ -46,7 +46,7 @@ For the following order:
                 "name": "Product 2",
                 "description": "",
                 "unit_price": 8.2644628099,
-                "quantity": 5,
+                "quantity": 4,
                 "merchant_item_id": "00002",
                 "tax_table_selector": "BTW21",
                 "weight": {
