@@ -36,7 +36,6 @@ ___
 <br>
 
 - Cards: [All](/docs/card-payments/)
-- <<glossary:BNPL>>: [AfterPay](/docs/afterpay/), [Klarna](/docs/klarna/)
 - Wallets: [PayPal](/docs/paypal/)
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
@@ -44,7 +43,6 @@ ___
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
     - [Sofort](/docs/sofort/)
-    - [Trustly](/docs/trustly/)
 
 </details>
 
