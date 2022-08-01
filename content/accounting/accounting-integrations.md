@@ -406,7 +406,7 @@ For more information, see Yuki - [Create bank processing rule](https://support.y
 
 ## Duopact integration
 
-[Duopact](https://www.snelkoppeling.eu/productoverzicht/webwinkelkoppelingen) imports MultiSafepay transactions automatically daily at midnight.
+[Duopact](https://www.duopact.nl/nl/yuki-koppelingen/onze-koppelingen/multisafepay/) imports MultiSafepay transactions automatically daily at midnight.
 
 <details id="how-to-integrate" >
 <summary>How to integrate</summary>
