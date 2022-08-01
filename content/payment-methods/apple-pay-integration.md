@@ -30,12 +30,9 @@ To see which Apple products are compatible with Apple Pay, see Apple Developer â
 
 ## 1. Validate your domain
 
-1. Download the Apple Pay domain validation file for:
-
-    - [Test payments](https://testmedia.multisafepay.com/.well-known/test/apple-developer-merchantid-domain-association)
-    - [Live payments](https://media.multisafepay.com/.well-known/apple-developer-merchantid-domain-association)
-
-2. Place the domain validation file at:
+1. [Download the compressed Apple Pay domain validation files](https://github.com/MultiSafepay/docs/raw/master/static/domain-validation-apple-pay/domain-validation-apple-pay.zip).
+2. Unzip the folder and select the relevant file.
+3. Place the domain validation file at:
     ```
     https://{your-domain}/.well-known/apple-developer-merchantid-domain-association
     ```
