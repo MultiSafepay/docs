@@ -9,9 +9,8 @@ slug: 'email-authentication'
 Sender Policy Framework (SPF) records let you specify who is authorized to send emails on your domain's behalf. Receiving email servers can check the SPF record to verify the sender. Using an SPF record prevents emails sent by MultiSafepay on your behalf from being marked as spam.
 
 1. Through your hosting provider, domain registrar, or DNS provider, create a DNS TXT record that is named after your domain, e.g. `example.com`.
-2. Add either of the following entries to your TXT record containing `v=spf1` and including at least one of the following:
-    - `ip4:213.189.0.0/23`
-    - `ip4:185.99.128.0/22`
+2. Add either of the following entries to your TXT record containing `v=spf1`:
+    - `ip4:213.189.0.0/23 ip4:185.99.128.0/22`
     - `include:spf.multisafepay.com`
 
 > **Note:** The total number of includes permitted is 10, including mx records (if listed).
