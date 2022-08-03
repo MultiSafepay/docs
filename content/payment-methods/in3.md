@@ -83,7 +83,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 ### Ready-made integrations
 in3 (direct) is supported in:
 - [Craft Commerce](/docs/craft-commerce/)
-- [Magento 1](/docs/magento-1/)
+- [Magento 1](/docs/magento-1/) and [Magento 2](/docs/magento-2/) 
 - [OpenCart](/docs/opencart/)
 - [PrestaShop 1.7](/docs/prestashop-1-7/)
 - [VirtueMart](/docs/virtuemart/)
