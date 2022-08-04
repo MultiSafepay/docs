@@ -57,9 +57,15 @@ The accountant export lists all successful incoming and outgoing transactions, i
 | Mt cust country | The customer's country |
 | Invoice ID | Your internal invoice ID |
 
-> ℹ️ **Note** 
-> MultiSafepay does not collect funds for PayPal, therefore these transactions don't automatically appear in the report.  
-> To include them, in your dashboard or <<glossary:backend>>, set the <<glossary:transaction status>> to **Completed**.
+</details >
+
+<details id="paypal-transactions">
+<summary>PayPal transactions</summary>
+<br>
+
+MultiSafepay does not collect funds for PayPal, therefore these transactions don't appear in accountant exports. 
+
+You can view them in your dasboard under **Transaction overview**.
 
 </details >
 
