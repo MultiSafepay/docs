@@ -42,7 +42,7 @@ Our webhook uses the `POST` method to inform your web server when there is an up
 > ℹ️ Note
 > International bank account numbers (IBANs) are sensitive data. For security reasons, we mask them by default in POST webhook notifications so that only the last 4 digits are visible, e.g. *** 1234. 
 >
-> To unmask IBANs, see [IBANs](https://docs.multisafepay.com/account/unmasking-ibans/).
+> To unmask IBANs, see [IBANs](/docs/ibans/).
 
 # Prerequisites
 

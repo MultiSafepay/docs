@@ -41,7 +41,7 @@ MultiSafepay = {
 <script src="https://devpay.multisafepay.com/js/connect.js"></script>
 ```
 
-When making the [create order](https://docs-api.multisafepay.com/reference/createorder) request, include the setting for ConnectJS in the `payment_options` object. 
+When making the create order request, include the setting for ConnectJS in the `payment_options` object. 
 
 Example:  
 ```
@@ -94,7 +94,7 @@ Default: `false` - doesn't display the cart.
 ----------------
 `redirect_mode` | string
 
-Sets how to display [3D Secure](/cards/3ds2/) verification.  
+Sets how to display [3D Secure](/docs/3ds2/) verification.  
 Options: `iframe`, `redirect`, `modal`.  
 Default: `redirect`.
 

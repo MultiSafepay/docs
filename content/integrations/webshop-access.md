@@ -24,7 +24,7 @@ Help us by answering the following questions:
 
 # Integration Team rules
 
-- We conduct our investigations in a staging or test environment of your ecommerce platform. Create a temporary username and a [strong password](https://www.lastpass.com/nl/password-generator) to give us access. Always delete the temporary account after we finish the investigation.
+- We conduct our investigations in a staging or test environment of your ecommerce platform. Create a temporary username and a [strong password](https://www.lastpass.com/nl/features/password-generator) to give us access. Always delete the temporary account after we finish the investigation.
 
 - We only ask for the credentials for your live ecommerce platform account in extraordinary circumstances. In such cases, we recommended making a backup beforehand, just in case.
 
