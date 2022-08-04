@@ -8,14 +8,14 @@ hidden: false
 
 Welcome to the MultiSafepay API reference (JSON gateway)!
 
-To test using the API sandbox, you need to [create a test account](https://docs.multisafepay.com/create-test-account/).
+To test using the API sandbox, you need to [create a test account](/docs/create-account/).
 
 Direct vs redirect
 ------------------
 
 With our API, you can create transactions through direct and redirect requests.
 
-Direct requests connect directly to the payment method, whereas redirect requests first send the customer to a [payment page](https://docs.multisafepay.com/payment-pages/).
+Direct requests connect directly to the payment method, whereas redirect requests first send the customer to a [payment page](/docs/payment-pages/).
 
 For redirect requests, if the gateway for a specific payment method is:
 
@@ -29,7 +29,7 @@ Then, if further customer action is:
 
 If you provide a `redirect_url`, after completing payment the customer is directed to your success/thank you page.
 
-For more information about the direct and redirect flows for a specific payment method, see the [payment method](https://docs.multisafepay.com/payment-methods/) page.
+For more information about the direct and redirect flows for a specific payment method, see the payment method page.
 
 ### Flow
 
