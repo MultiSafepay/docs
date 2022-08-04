@@ -497,10 +497,10 @@ These recommended settings are based on Magento's standards. For more informatio
 
 ## Updates
 
-You can also update the plugin via [Composer](https://getcomposer.org) or in your Magento 2 backend.
+You can update the plugin via [Composer](https://getcomposer.org).
 
-<details id="backend-updates">
-<summary>Backend updates</summary>
+<details id="how-to-update">
+<summary>How to update</summary>
 <br>
 
 1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
