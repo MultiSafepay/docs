@@ -38,6 +38,12 @@ See API reference – [Create order](/reference/createorder/) > Card order.
 Set `type` to `direct`.
 <br>
 
+## 3DS2
+
+When you collect cardholder data, you are also responsible for collecting the contextual information (fingerprint) of the customer's device required for [3DS2](/docs/3ds2) authentication. The fingerprint can be created through JavaScript interfaces and methods in the customer's browser.
+
+To learn how to create a fingerprint, see Recipe – [Create a customer.browser object](/recipes/create-a-customerbrowser-object).
+
 ---
 
 # User guide
