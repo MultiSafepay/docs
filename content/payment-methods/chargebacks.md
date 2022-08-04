@@ -591,7 +591,7 @@ Including your logo in customer's online bank environments and applications can 
 
 Additional guidance:
 
-- Always follow card scheme's payment acceptance guidelines carefully.
+- Always follow the card scheme's payment acceptance guidelines carefully.
 - Ensure there are no bugs for processing card payments in your <<glossary:backend>>.
 - Make sure your refund and return policies are clear and fair. 
 
