@@ -11,7 +11,21 @@ Chargebacks arise when a cardholder disagrees with or doesn't recognize a transa
 
 You are solely liable for paying chargebacks.
 
-The most common reasons for requesting chargebacks are fraud, non-delivery of goods, or goods not as described. 
+# Chargeback reasons
+
+The most common reasons for requesting chargebacks are:
+
+- Processing or authorization errors by the merchant
+- Customer disputes, e.g.: 
+    - The order didn't arrive.
+    - The items were defective, damaged, or not as described in the specification.
+    - A service wasn't performed as expected. 
+    - The customer didn't receive an expected credit. 
+- Fraud, which may be genuine or "friendly fraud", e.g. if the customer:
+    - Doesn't recognize your company name or a specific transaction
+    - Requests a chargeback instead of following your refund or returns process
+    - Regrets the purchase
+    - Forgets to cancel a subscription 
 
 # Chargeback period
 
@@ -27,9 +41,9 @@ You cannot dispute chargebacks and there is no facilitated process like there is
 
 # Chargeback reasons and required evidence
 
-When a cardholder requests a chargeback, they must provide a reason. This page sets out the chargeback reason codes for the major card schemes. 
+When a cardholder requests a chargeback, they must provide a reason. Below are the chargeback reason codes for the major card schemes. 
 
-If you have asked MultiSafepay to dispute a chargeback on your behalf, we have specified what documentary proof you need to provide for each chargeback reason. Try to provide as much proof as possible. 
+If you have asked MultiSafepay to dispute a chargeback on your behalf, we specify what documentary evidence you need to provide for each chargeback reason. Try to provide as much evidence as possible. 
 
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Amex.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
@@ -500,10 +514,10 @@ The table below sets out the process for disputing chargebacks.
 ## MultiSafepay disputing chargebacks on your behalf
 MultiSafepay can dispute chargebacks on your behalf for a fee. 
 
-You need to upload relevant documentary proof either:
+You need to upload relevant documentary evidence either:
 
-- In the **Transaction details** page of the original transaction in your MultiSafepay dashboard, **or**
-- Via our API, see API reference – [Challenge chargebacks](/reference/challengechargeback/), **or**
+- In the **Transaction details** page of the original transaction in your dashboard, **or**
+- Via our API, see [Challenge chargebacks](/reference/challengechargeback/), **or**
 - By email to <retrieval@multisafepay.com>
 
 <details id=“how-to-upload-files”>
@@ -520,24 +534,28 @@ You need to upload relevant documentary proof either:
 
 </details>
 
-The Chargeback Team then assesses the proof and decides whether the chargeback can be disputed.
+The Chargeback Team then assesses the evidence provided and decides whether the chargeback can be disputed.
 
 - For questions about disputes, email <retrieval@multisafepay.com>
 - For more information about fees, email <support@multisafepay.com>
 
 # Minimizing chargebacks
 
+Card schemes may fine merchants that have high rates of chargebacks.
+
 The best way of minimizing chargebacks is to provide good customer service.
 
-We set out below ways to minimize the risk of the most common types of chargeback: 
+Ways to minimize the most common types of chargeback include: 
 
 <details id="fraud">
 <summary>Fraud</summary>
 <br>
 
-Use [3D Secure](/docs/3ds2/) for all credit card transactions. 
+Use [3DS2](/docs/3ds2/) for all credit card transactions. 
 
 Cardholders are not allowed to request chargebacks due to fraud for 3D Secure-protected transactions.  
+
+Carefully review all [uncaptured card payments](/docs/uncaptured) flagged by MultiSafepay's fraud filter.
 </details>
 
 <details it="non-delivery">
@@ -554,6 +572,8 @@ Cardholders are not allowed to request chargebacks due to fraud for 3D Secure-pr
 <br>  
 
 Offer quality items and provide clear descriptions on your site. 
+
+Make sure your refund and return policies are clear and fair. 
 </details>
 
 <details id="transaction-not-recognized">
@@ -568,6 +588,12 @@ Including your logo in customer's online bank environments and applications can 
 [Upload your logo](https://logo.ethoca.com/) for the card scheme to display in all participating banking environments and applications. 
 </details>
 <br>
+
+Additional guidance:
+
+- Always follow card scheme's payment acceptance guidelines carefully.
+- Ensure there are no bugs for processing card payments in your <<glossary:backend>>.
+- Make sure your refund and return policies are clear and fair. 
 
 ---
 
