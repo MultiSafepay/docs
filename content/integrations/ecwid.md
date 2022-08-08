@@ -25,7 +25,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 5. Save the changes and enable your selected payment methods.
 <br>
 
-> ℹ️ More information
+> ℹ More information
 > See Ecwid – [How to set up](https://support.ecwid.com/hc/en-us/articles/207808285-MultiSafepay#Howtosetup).
 <br>
 

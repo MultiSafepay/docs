@@ -23,7 +23,7 @@ Read how Google Pay can benefit your business on [multisafepay.com](https://www.
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial <br> Customers receive refunds in their Google Pay account, and they appear on their credit card statement within the next business day.  |
 | [Second Chance](/docs/second-chance/) | Yes |
 
-> ℹ️ Notes 
+> ℹ Notes 
 > - By processing Google Pay payments, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos).
 > - When integrating Google Pay into your ecommerce platform, you must follow [Google's brand guidelines](https://developers.google.com/pay/api/web/guides/brand-guidelines).
 > - For more information, see Google Pay – [Overview](https://developers.google.com/pay/api/web/overview).

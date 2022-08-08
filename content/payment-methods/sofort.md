@@ -51,7 +51,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | **Refunds:** Refund complete. | Completed | Completed |
 <br>
 
-> ℹ️ Note
+> ℹ Note
 > Amounts less than 100 EUR are transfered immediately. The status of orders over 100 EUR changes to **Uncleared** and then to **Completed** after 24 hours.
 
 # Activation

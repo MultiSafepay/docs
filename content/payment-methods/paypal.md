@@ -33,7 +33,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
   max-width: 750px;
   width: 100%;">
 
-> ℹ️ **Note** 
+> ℹ **Note** 
 > MultiSafepay does **not** collect funds for PayPal transactions.
 
 # Payment statuses 
@@ -110,7 +110,7 @@ To configure your MultiSafepay account for PayPal, follow these steps:
         - Go to **Website settings**, and click the relevant site.
         - Under **Payment methods**, select the **PayPal** checkbox, and click **Save changes**.
 
-> ℹ️ **Notes** 
+> ℹ **Notes** 
 > - You can link each site to a separate PayPal business account, or all sites can use your main PayPal business account.
 > - If PayPal isn't visible as a payment method in your dashboard, email <integration@multisafepay.com> 
 

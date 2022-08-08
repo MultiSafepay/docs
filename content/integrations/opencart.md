@@ -19,7 +19,7 @@ slug: 'opencart'
 
 </div>
 
-> ℹ️ More information
+> ℹ More information
 > For more information about the plugin and a preview, see Opencart – [MultiSafepay](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960).
 
 # Prerequisites
