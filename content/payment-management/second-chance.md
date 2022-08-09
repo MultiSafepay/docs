@@ -6,7 +6,7 @@ hidden: false
 slug: 'second-chance'
 excerpt: 'Boost conversion by sending customers reminders about abandoned payments.'
 ---
-Second Chance is a MultiSafepay service that automatically emails customers a payment link when they initiate but don't complete a transaction. This helps boost <<glossary:conversion>> and impulse purchases. The first email is sent 1 hour after the customer initiates the payment, and a second after 24 hours.
+Second Chance is a MultiSafepay solution that automatically emails customers a payment link when they initiate but don't complete a transaction. This helps boost <<glossary:conversion>> and impulse purchases. The first email is sent 1 hour after the customer initiates the payment, and a second after 24 hours.
 
 Second Chance emails are also sent for manually generated [payment links](/docs/payment-links/) if the customer doesn't click the link to complete payment.
 
@@ -14,8 +14,15 @@ Second Chance emails are also sent for manually generated [payment links](/docs/
 
 - Under the [GDPR](/docs/gdpr/), you must obtain documented consent from the customer to send Second Chance emails.
 - You must include the customer's email address in the transaction API request.
-- Second Chance emails cannot be activated or sent to the customer while the status of the original transaction is **Uncleared**, or once it is **Completed**.
-- Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default. 
+
+# Exclusions
+
+Second Chance emails are **not** sent:
+
+- While the status of the original transaction is **Uncleared**, **Shipped**, or **Completed**
+- For [recurring payments](/docs/recurring-payments/)
+- If you have another **Completed** transaction with the same `order_id` and/or `session_id`
+- For each separate transaction for orders with multiple linked transactions (one email is sent per `order_id` and `session_id`)
 
 # Activation
 
@@ -60,11 +67,89 @@ To set the language of Second Chance emails, see [Email styling](/docs/email-sty
 
 ❗️ The language set in the dashboard is overridden by the `locale` parameter in the `customer` object in [create order](/reference/createorder/) API requests.
 
+<details id="locale-codes">
+<summary>Locale codes per language and country</summary>
+<br>
+
+| Code | Language & country |
+|---|---|
+| cs_CZ	| Czech |
+| de_AT	| German (Austria) |
+| de_DE	| German (Germany) |
+| en_US	| American English |
+| fi_FI	| Finnish |
+| fr_BE	| French (Belgium) |
+| fr_FR	| French (France) |
+| it_IT	| Italian |
+| nl_BE	| Dutch (Belgium) |
+| nl_NL	| Dutch (Netherlands) |
+| pl_PL	| Polish |
+| es_ES	| Spanish |
+| sv_SE	| Swedish |
+| zh_CN	| Chinese |
+
+</details>
+
+<details id="locale-example">
+<summary>Locale example</summary>
+<br>
+
+```json
+{
+  "customer": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "house_number": "39",
+    "address1": "Kraanspoor",
+    "address2": "",
+    "city": "Amsterdam",
+    "zip_code": "1033 SC",
+    "state": "Noord-Holland",
+    "country": "NL",
+    "locale": "nl_NL", // Set the language and country code
+    "phone": "0208500500",
+    "email": "example@multisafepay.com",
+    "gender": "M",
+    "birthday": "1980-12-31",
+    "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",
+    "referrer": "http://test.com",
+    "ip_address": "123.123.123.123",
+    "forwarded_ip": "",
+    "reference": ""
+  }
+}
+```
+
+</details>
+
 ## Styling
 
 You can style Second Chance email templates to match your brand's look and feel.
 
 See [Email styling](/docs/email-styling/) > Select the **Second Chance email (to customer)** template.
+
+## Payment link lifetimes
+
+Payment links in Second Chance emails have the same lifetime as the original payment link, which is set to 30 days by default.
+
+<details id="how-to-adjust-link-lifetimes">
+<summary>How to adjust link lifetimes</summary>
+<br>
+
+To set or adjust the lifetime of a payment link, see API reference – [Create order](/reference/createorder/): `days_active` parameter.
+
+> **Note:** This is different to [transaction expiration times per payment method](/reference/transaction-expiration/). 
+
+This only applies to certain payment methods:
+
+| Adjustable | Non-adjustable |
+|---|---|
+| Banking methods, except SEPA Direct Debit | SEPA Direct Debit |
+| Gift cards | Edenred, Paysafecard |
+| Wallets | PayPal – Links are valid for 14 days. The lifetime is set by PayPal. |
+| Credit cards |  |
+
+</details>
 
 ## Payment methods
 
@@ -72,13 +157,12 @@ See [Email styling](/docs/email-styling/) > Select the **Second Chance email (to
 <summary>Supported payment methods</summary>
 <br>
 
-The following payments methods are not supported because they follow a different payment flow:
+Most payment methods are supported, **except for**: 
 
-- [AfterPay](/docs/afterpay/)
 - [Bank Transfer](/docs/bank-transfer/)
-- [Betaal per Maand](/docs/betaal-per-maand/)
+- [E-Invoicing](/docs/e-invoicing/)
+- [PayPal](/docs/paypal/)
 - [SEPA Direct Debit](/docs/sepa-direct-debit/)
-- [Klarna](/docs/klarna/)
 - [Pay After Delivery](/docs/pay-after-delivery/)
 
 </details>
