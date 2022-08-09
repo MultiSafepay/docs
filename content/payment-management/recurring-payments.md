@@ -21,22 +21,18 @@ MultiSafepay is responsible for [PCI DSS](/docs/pci-dss/) compliant storage of p
 
 Tokens are stored at account level rather than site level. If you operate multiple sites from a single MultiSafepay account, you can also offer cross-domain recurring payments, i.e. tokenize a customer's details on Site A and offer one-click payments on Site B.
 
-### Supported payment methods
+## Supported payment methods
 
-<details id="supported-payment-methods">
-<summary>Supported payment methods</summary>
-<br>
+For both initial and subsequent payments:
+- Cards: American Express, Maestro, Mastercard, and Visa 
+- SEPA Direct Debit – First you need to provide us with some information. <br> See SEPA Direct Debit – [Activation](/docs/sepa-direct-debit/#activation).
 
-- American Express
-- [Bancontact WIP](/docs/bancontact#bancontact-wip-service)
+For initial payments then subsequent payments via SEPA Direct Debit:
+- Bancontact
 - iDEAL
-- Maestro
-- Mastercard
-- SEPA Direct Debit – First you need to provide us with some information. See SEPA Direct Debit – [Activation](/docs/sepa-direct-debit/#activation).
 - Sofort
-- Visa
 
-</details>
+✅  &nbsp;**Tip:** Test every payment method flow you intend to use. 
 
 ## Initial payment
 

@@ -41,7 +41,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| MultiSafepay's customer background check was successful and we've generated an e-mandate. | Initialized  | Initialized |
+| MultiSafepay's customer background check was successful and we've generated an [e-mandate](#e-mandates). | Initialized  | Initialized |
 | We've sent the e-mandate to the customer's bank. You can no longer cancel. | Uncleared | Uncleared |
 | MultiSafepay has collected payment.| Completed | Completed |
 | The customer cancelled the transaction or requested a chargeback, or their bank declined the transaction. | Void | Void |
@@ -155,7 +155,11 @@ For more information in:
 
 ## E-mandates
 
-MultiSafepay creates e-mandates automatically based on the customer's IBAN and your site ID, specifying if it is a first debit or recurring debit. We send all e-mandates to our bank at the end of every business day.  
+An e-mandate represents an agreement between you and the customer and is required for every SEPA Direct Debit payment. We create them automatically based on the customer's IBAN and the `site_id`, and specify if it is a one-time, initial, or recurring debit (see [Recurring payments](/docs/recurring-payments)). 
+
+E-mandates are needed when resolving customer disputes and [chargebacks](#chargebacks).
+
+We send all e-mandates to our bank at the end of every business day. 
 
 ## Processing times
 
