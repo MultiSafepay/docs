@@ -7,7 +7,7 @@ parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'invoices'
 excerpt: 'MultiSafepay generates invoices at month end for your records.'
 ---
-> ℹ️ Note
+> ℹ Note
 > Invoices are for your records only. You do **not** need to pay them separately. 
 
 # Merchant/primary account VAT invoices
@@ -74,6 +74,8 @@ If you do not specify an email address, we use the main business email address p
 4. Click **Save**. 
 </details>
 <br>
+
+---
 
 [block:html]
 {

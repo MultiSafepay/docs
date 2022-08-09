@@ -231,16 +231,10 @@ To complete the configuration, change the language encoding setting of your PayP
 5. From the **Encoding** list, select **UTF-8**.
 6. Select the **Yes** checkbox, and then click **Save**.
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
-        <p>Support</p>
-    </h3>
-    <ul>
-    <li>MultiSafepay – <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></li>
-    <li>PayPal – <a href="https://www.paypal.com/us/smarthelp/contact-us">Contact us</a></li>
-    </ul>
-</blockquote>
+For support:
+
+- MultiSafepay – <integration@multisafepay.com>
+- PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us)
 
 > ⚠️ Known error
 > If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account.
@@ -265,7 +259,7 @@ To configure your MultiSafepay account for PayPal, follow these steps:
         - Go to **Website settings**, and click the relevant site.
         - Under **Payment methods**, select the **PayPal** checkbox, and click **Save changes**.
 
-> ℹ️ **Notes** 
+> ℹ **Notes** 
 > - You can link each site to a separate PayPal business account, or all sites can use your main PayPal business account.
 > - If PayPal isn't visible as a payment method in your dashboard, email <integration@multisafepay.com> 
 

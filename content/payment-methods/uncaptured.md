@@ -161,7 +161,7 @@ Check if the transaction amount is noticeably higher or lower than average. Are 
 
 ---
 
-> ℹ️ See also
+> ℹ See also
 > [Viewing your uncaptured balance](/docs/account-balance#uncaptured-balance)
 
 [block:html]

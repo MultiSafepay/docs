@@ -21,7 +21,7 @@ With direct integration, the ** Pay** button appears in your checkout page. C
 - Your domain must have a valid SSL certificate.
 - Your server must support the TLS protocol version 1.2 or later.
 
-> ℹ️ More information
+> ℹ More information
 > See Apple Developer – [Setting up your server](https://developer.apple.com/documentation/apple_pay_on_the_web/setting_up_your_server).
 
 ### Customer device compatibility
@@ -48,7 +48,7 @@ To request registration for Apple Pay direct, email the relevant site ID to <sal
     if (window.ApplePaySession && ApplePaySession.canMakePayments())
     ```
 
-    > ℹ️ More information
+    > ℹ More information
     > See Apple Developer – [Checking for Apple Pay availability](https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability).
 
 2. If Apple Pay is supported, display the ** Pay** button in your checkout page.
@@ -104,7 +104,7 @@ When the customer clicks or taps the ** Pay** button:
 
     > **Note:** The `total.amount` is in euro's, whereas the amount set in our order requests is in cents. 
 
-    > ℹ️ More information
+    > ℹ More information
     > To learn more about the `ApplePayRequest` object, see Apple Developer – [ApplePayRequest](https://developer.apple.com/documentation/apple_pay_on_the_web/applepayrequest).
 
 2. Create an Apple Pay session.
@@ -117,12 +117,12 @@ When the customer clicks or taps the ** Pay** button:
     - As the second argument, pass the `ApplePayRequest` object.
     <br>
 
-    > ℹ️ More information
+    > ℹ More information
     > To learn more about Apple Pay versions, see Apple Developer – [Apple Pay on the web version history](https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_on_the_web_version_history).
 
     > **Note:** You can only create a session within a user gesture handler. For example, you can create the session when the user taps the ** Pay** button.
 
-    > ℹ️ More information
+    > ℹ More information
     > See Apple Developer – [Creating an Apple Pay session](https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/creating_an_apple_pay_session).
 
 3. Create an `onvalidatemerchant` event handler that is called once the Apple Pay payment form is displayed to the customer.
@@ -138,7 +138,7 @@ When the customer clicks or taps the ** Pay** button:
         session.completeMerchantValidation(<apple-pay-payment-session-data>);
     };
     ```
-    > ℹ️ More information
+    > ℹ More information
     > See Apple Developer:
     > - [Providing merchant validation](https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/providing_merchant_validation)
     > - [onvalidatemerchant](https://developer.apple.com/documentation/apple_pay_on_the_web/applepaysession/1778021-onvalidatemerchant)
@@ -196,7 +196,7 @@ When the customer clicks or taps the ** Pay** button:
 
     The `payment` object contains the customer's encrypted payment details (`payment.token`) and, if requested, the `billingContact` and `shippingContact`.
 
-    > ℹ️ More information
+    > ℹ More information
     > To learn more about the `payment` object, see Apple Developer:
     > - [payment](https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypaymentauthorizedevent/1777999-payment)
     > - [ApplePayPayment](https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment)
@@ -212,7 +212,7 @@ When the customer clicks or taps the ** Pay** button:
 
 > **Note:** Billing and shipping data are not encrypted.
 
-> ℹ️ More information
+> ℹ More information
 > To learn more about the `payment` object and its properties, see Apple Developer – [ApplePayPayment](https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment).
 
 ## 6. Test your integration

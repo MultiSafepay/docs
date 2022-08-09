@@ -25,7 +25,7 @@ Read how Apple Pay can benefit your business on [multisafepay.com](https://www.m
 | [Second Chance](/docs/second-chance/) | Yes |
 <br>
 
-> ℹ️ More information 
+> ℹ More information 
 > See Apple – [How to use Apple Pay](https://support.apple.com/en-us/HT201239).
 
 # Payment flow

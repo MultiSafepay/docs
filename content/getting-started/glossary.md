@@ -165,12 +165,10 @@ Merchants, partners, and developers
 
 ---
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
-        <p>Support</p>
-    </h3>
-    <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
-</blockquote>
+[block:html]
+{
+  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
+}
+[/block]
 
 [Top of page](#)

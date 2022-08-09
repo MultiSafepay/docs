@@ -39,7 +39,7 @@ Our webhook uses the `POST` method to inform your web server when there is an up
   max-width: 750px;
   width: 100%;">
 
-> ℹ️ Note
+> ℹ Note
 > International bank account numbers (IBANs) are sensitive data. For security reasons, we mask them by default in POST webhook notifications so that only the last 4 digits are visible, e.g. *** 1234. 
 >
 > To unmask IBANs, see [IBANs](/docs/ibans/).
@@ -104,12 +104,10 @@ curl -X POST \
 
 ---
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
-        <p>Support</p>
-    </h3>
-    <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
-</blockquote>
+[block:html]
+{
+  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></p>\n</blockquote>\n"
+}
+[/block]
 
 [Top of page](#)
