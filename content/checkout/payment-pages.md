@@ -114,9 +114,64 @@ Payment pages support the following languages:
 
 </details>
 
-You can also localize [payment pages](/docs/payment-pages) to automatically filter out payment methods that are not available in the customer's country, and to display local variants. 
+You can also localize payment pages to automatically filter out payment methods that are not available in the customer's country, and to display local variants. 
 
 See API reference > [Create order](https://docs.multisafepay.com/reference/createorder) > `customer` object > `locale` parameter.
+
+<details id="locale-codes">
+<summary>Locale codes per language and country</summary>
+<br>
+
+| Code | Language & country |
+|---|---|
+| cs_CZ | Czech |
+| de_AT | German (Austria) |
+| de_DE | German (Germany) |
+| en_US | American English |
+| fi_FI | Finnish |
+| fr_BE | French (Belgium) |
+| fr_FR | French (France) |
+| it_IT | Italian |
+| nl_BE | Dutch (Belgium) |
+| nl_NL | Dutch (Netherlands) |
+| pl_PL | Polish |
+| es_ES | Spanish |
+| sv_SE | Swedish |
+| zh_CN | Chinese |
+
+</details>
+
+<details id="locale-example">
+<summary>Locale example</summary>
+<br>
+
+```json
+{
+  "customer": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "house_number": "39",
+    "address1": "Kraanspoor",
+    "address2": "",
+    "city": "Amsterdam",
+    "zip_code": "1033 SC",
+    "state": "Noord-Holland",
+    "country": "NL",
+    "locale": "nl_NL", // Set the language and country code
+    "phone": "0208500500",
+    "email": "example@multisafepay.com",
+    "gender": "M",
+    "birthday": "1980-12-31",
+    "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36",
+    "referrer": "http://test.com",
+    "ip_address": "123.123.123.123",
+    "forwarded_ip": "",
+    "reference": ""
+  }
+}
+```
+
+</details>
 
 ## Payment links
 
