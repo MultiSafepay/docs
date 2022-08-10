@@ -80,6 +80,10 @@ You can configure the webhook endpoint at:
 
 </details>
 
+> ℹ Note
+>
+> If you configure your webhook endpoint at site **and** order level, the order level endpoint is used by default.
+
 ### Example
 
 ``` javascript
