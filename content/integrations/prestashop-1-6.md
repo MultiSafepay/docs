@@ -21,10 +21,10 @@ slug: 'prestashop-1-6'
 <br>
 
 **3.8.0**
-Release date: Jul 13th, 2022
+Release date: Jul 13, 2022
 
 **Added**
-- PLGPRSS-427: Add 3 Generic Gateways
+- PLGPRSS-427: Add 3 generic gateways
 
 **Fixed**
 - PLGPRSS-426: Fix invalid post data when using free shipping discount
@@ -39,7 +39,7 @@ Release date: Jul 13th, 2022
 Release date: Jan 7, 2022
 
 **Changed**
-PLGPRSS-423: Rename Client class to MultiSafepayClient to avoid conflict with third party modules
+PLGPRSS-423: Rename client class to MultiSafepayClient to avoid conflict with third party modules
 
 ---
 
@@ -48,16 +48,16 @@ Release date: Nov 25, 2021
 
 **Added**
 - DAVAMS-232: Add support for in3 payment method
-- PLGPRSS-420: Add payment component support for Credit Card payment method
-- PLGPRSS-409: Add support for gift products within the Shopping Cart object
+- PLGPRSS-420: Add payment component support for cards
+- PLGPRSS-409: Add support for gift card in the shopping_cart object
 - PLGPRSS-406: Add support for Good4fun gift card
 
 **Fixed**
-- PLGPRSS-414: Fix locale code when submit the Order Request, which was generating errors in case payment address code of the customer is different from the language selected
+- PLGPRSS-414: Fix locale code when submitting the create order request, which was generating errors where the customer's payment address code was different from the language selected
 
 **Changed**
-- PLGPRSS-408: When a payment is cancelled, the shopping cart will not be emptied
-- DAVAMS-314: Rebrand Klarna with new logo
+- PLGPRSS-408: When a payment is cancelled, the shopping_cart is no longer emptied
+- DAVAMS-314: Add new Klarna logo
 - DAVAMS-298: Rebrand Direct Bank Transfer as Request to Pay
 
 ---
@@ -414,6 +414,30 @@ Release date: Nov 11, 2014
 PrestaShop 1.6 version 3.1.7 lets you skip the extra confirmation page so that the customer is redirected straight to the MultiSafepay payment page.
 
 This is no longer supported from version 3.2.0. If you want to skip the extra confirmation page, you can [download version 3.1.7](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.7.1.zip). New features might be lost when downgrading.
+
+## Generic gateways
+
+The plugin supports generic gateways, which let you add payment methods manually. This is particularly useful for integrating gift cards specific to your business. 
+
+Supported since release: 3.8.0, Jul 13, 2022
+
+<details id="how-to-configure-generic-gateways">
+<summary>How to configure generic gateways</summary>
+<br>
+
+1. Sign in to your PrestaShop 1.6 <<glossary:backend>>.
+2. Go to **Modules and services**.
+3. Search for "generic gateway", select gateway 1, 2, or 3, and then click **Install**.
+4. In the **Gateway title** field, enter the name of the payment method. 
+5. In the **Gateway ID** field, enter the [gateway ID](/reference/gateway-ids).
+6. Optionally:
+    - Upload the [payment method logo](https://github.com/MultiSafepay/MultiSafepay-icons).
+    - Enter minimum and maximum order amounts.
+7. Click **Save**. 
+
+✅ &nbsp; Success! The payment method is now active.
+
+</details>
 
 ## Payment methods
 
