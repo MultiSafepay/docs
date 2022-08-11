@@ -109,6 +109,16 @@ function return_my_own_locale($locale) {
 ```
 </details>
 
+### TranslatePress 
+
+If you use the TranslatePress plugin for translations, to configure it for payment pages, follow these steps:
+
+1. Sign in to your WooCommerce <<glossary:backend>>.
+2. Go to **Settings** > **TranslatePress** > **Advanced**.
+3. Scroll down and click **Exclude gettext string**.
+4. In the **Domain** field, enter `payv2.multisafepay.com`.
+5. Click **Add**.
+
 ## Notifications
 
 <details id="multiSafepay-webhook">
