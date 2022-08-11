@@ -16,7 +16,7 @@ Read how Bank Transfer can benefit your business on [multisafepay.com](https://w
 | Supports | Details | 
 |---|---|
 | [Countries](/docs/payment-methods#payment-methods-by-country) | Europe (SEPA area) | 
-| [Currencies](/docs/currencies/) | EUR, CZK, GBP, HUF, PLN <br> (USD **not** supported due to high transaction and currency conversion fees for customers) |
+| [Currencies](/docs/currencies/) | AUD, CAD, CHF, CZK, DKK, EUR, GBP, HKD, HUF, JPY, NOK, PLN, SEK, USD |
 | [Payment components](/docs/payment-components/) | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial |
