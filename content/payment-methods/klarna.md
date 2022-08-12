@@ -9,9 +9,9 @@ slug: 'klarna'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Klarna.svg" width="50" align="right" style="margin: 20px 20px 20px 40px; max-height: 75px"/>
 
-[Klarna](https://www.klarna.com/) is a flexible online payment method that lets customers pay now, in 30 days (Pay Later 30), or in 3 interest-free installments. It also offers financing. Klarna bears the risk and guarantees <<glossary:settlement>>.
+<a href="https://www.klarna.com/" target="_blank">Klarna</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a flexible online payment method that lets customers pay now, in 30 days (Pay Later 30), or in 3 interest-free installments. It also offers financing. Klarna bears the risk and guarantees <<glossary:settlement>>.
 
-Read how Klarna can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/klarna)
+Read how Klarna can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/klarna" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -56,7 +56,7 @@ How to activate Klarna with a Klarna:
 <summary>Test account</summary>
 <br>
 
-1. At [Klarna.com](https://www.klarna.com/nl/), sign up for a test account, selecting the **Playground** environment. 
+1. At <a href="https://www.klarna.com/nl/" target="_blank">Klarna.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, sign up for a test account, selecting the **Playground** environment. 
 2. Under **Settings**, click **Generate new Klarna API credentials** to generate a user name and password.
 3. Email these credentials to <sales@multisafepay.com> 
 4. MultiSafepay connects to Klarna. 
@@ -77,7 +77,7 @@ We recommend testing Klarna payments via the Klarna Portal to experience the ful
 4. We activate Klarna for your MultiSafepay account. 
 5. If using a ready-made integration, activate Klarna in your <<glossary:backend>>.
 
-For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
+For questions, see Klarna – <a href="https://www.klarna.com/nl/klantenservice" target="_blank">Klantenservice</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 For support, email <integration@multisafepay.com>
 </details>
@@ -128,7 +128,7 @@ Under **Brand information**, you can set up and manage your brand including:
 - Instagram URL
 - Facebook URL
 
-For support, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice/). 
+For support, see Klarna – <a href="https://www.klarna.com/nl/klantenservice/" target="_blank">Klantenservice</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
 </details>
 
@@ -173,7 +173,7 @@ A dispute is when you and a customer disagree about an order:
 - Payments, e.g. invoicing errors, or the customer paid Klarna instead of you
 - Other, e.g. insolvency, or bankruptcy
 
-Klarna provides support for resolving disputes. For a step-by-step overview, see Klarna – [How to handle disputes at Klarna](https://docs.klarna.com/disputes/).
+Klarna provides support for resolving disputes. For a step-by-step overview, see Klarna – <a href="https://docs.klarna.com/disputes/" target="_blank">How to handle disputes at Klarna</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 The easiest way to handle disputes is using the Disputes app in the Klarna Merchant Portal. 
 
@@ -214,7 +214,7 @@ If you want to increase the security of your Klarna Merchant Portal, set up two-
 
 To sign up to use the Disputes app, follow these steps:
 
-1. Sign in to the [Klarna Merchant Portal](https://eu.portal.klarna.com/).
+1. Sign in to the <a href="https://eu.portal.klarna.com/" target="_blank">Klarna Merchant Portal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. In the side menu, click **Disputes**.
 3. Select an email address and preferred language for receiving dispute-related emails, e.g. reminders.
 4. Agree to the terms and conditions. 
@@ -230,7 +230,7 @@ The side menu contains three pre-set filters to view:
 - Unauthorized disputes
 - Disputes expiring soon
 
-See Klarna – [Disputes App in Merchant Portal](https://docs.klarna.com/disputes/disputes-app-in-merchant-portal/) for detailed information on:
+See Klarna – <a href="https://docs.klarna.com/disputes/disputes-app-in-merchant-portal/" target="_blank">Disputes App in Merchant Portal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for detailed information on:
 
 - Searching and filtering disputes
 - Exporting reports
@@ -286,7 +286,7 @@ When you ship the order, you **must** manually change the [order status](/docs/p
 
 **In your dashboard**
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transactions overview**.
 3. Search for the transaction, and click to open the **Transaction details** page. 
 4. Under **Order details**, click **Change order status**. 
@@ -316,7 +316,7 @@ If the order is not captured during this time, the <<glossary:order status>> and
 <summary>How to extend the shipping period</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction.
 3. In the **Transaction details** page, click **Extend**.
 
@@ -328,7 +328,7 @@ Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcha
 
 We therefore strongly recommend **not** applying surcharges. 
 
-For more information, see Klarna – [Welk bedrag kan ik maximaal doorberekenen aan mijn klant?](https://www.klarna.com/nl/zakelijk/webwinkelsupport/welk-bedrag-kan-ik-maximaal-doorberekenen-aan-mijn-klant/) 
+For more information, see Klarna – <a href="https://www.klarna.com/nl/zakelijk/webwinkelsupport/welk-bedrag-kan-ik-maximaal-doorberekenen-aan-mijn-klant/" target="_blank">Welk bedrag kan ik maximaal doorberekenen aan mijn klant?</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
 <br>
 
 ---

@@ -26,10 +26,10 @@ Cards may feature:
 
 MultiSafepay supports the following credit and debit cards:
 
-- [American Express](https://www.multisafepay.com/solutions/payment-methods/american-express) (Amex)
-- [Mastercard](https://www.multisafepay.com/solutions/payment-methods/mastercard/) (credit card) and [Maestro](https://www.multisafepay.com/solutions/payment-methods/maestro/) (debit card)
-- [Postepay](https://www.multisafepay.com/solutions/payment-methods/postepay/)
-- [Visa](https://www.multisafepay.com/solutions/payment-methods/visa/) and co-branded cards [Cartes Bancaires](https://www.cartes-bancaires.com/), [Dankort](https://www.multisafepay.com/solutions/payment-methods/dankort/), [V&nbsp;Pay](https://www.multisafepay.com/solutions/payment-methods/vpay) (debit card) 
+- <a href="https://www.multisafepay.com/solutions/payment-methods/american-express" target="_blank">American Express</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (Amex)
+- <a href="https://www.multisafepay.com/solutions/payment-methods/mastercard/" target="_blank">Mastercard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (credit card) and <a href="https://www.multisafepay.com/solutions/payment-methods/maestro/" target="_blank">Maestro</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (debit card)
+- <a href="https://www.multisafepay.com/solutions/payment-methods/postepay/" target="_blank">Postepay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://www.multisafepay.com/solutions/payment-methods/visa/" target="_blank">Visa</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and co-branded cards <a href="https://www.cartes-bancaires.com/" target="_blank">Cartes Bancaires</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, <a href="https://www.multisafepay.com/solutions/payment-methods/dankort/" target="_blank">Dankort</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, <a href="https://www.multisafepay.com/solutions/payment-methods/vpay" target="_blank">V&nbsp;Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (debit card) 
 
 | Supports | Details |
 |---|---|
@@ -84,7 +84,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
     - Annual turnover 
 
 2. We check your eligibilty and if approved, activate the payment method for your account. 
-3. Once approved, sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+3. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 4. Go to **Settings**. 
 5. To activate the payment method for:
     - All sites, go to **Payment methods**.
@@ -145,7 +145,7 @@ See [Cardholder data](/docs/cardholder-data/).
 
 - You **cannot** refund more than the original transaction. 
 - Whether or not the refund is visible to the customer depends on the issuer's system.
-- Depending on the issuer, the amount may not appear directly on the customer's card. We recommend that they contact the issuer. If they need an acquirer reference number (ARN), you can find this in your [MultiSafepay dashboard](https://merchant.multisafepay.com/) in the transaction details. 
+- Depending on the issuer, the amount may not appear directly on the customer's card. We recommend that they contact the issuer. If they need an acquirer reference number (ARN), you can find this in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> in the transaction details. 
 - You can process refunds via MultiSafepay for up to 180 days after payment was completed. 
 - MultiSafepay sends refunds to the <<glossary:issuer>> within 1 business day.
 - You can cancel a refund while the status is **Initialized** or **Reserved**. For more information, see [Cancellation](/docs/refund-payments#cancellation).

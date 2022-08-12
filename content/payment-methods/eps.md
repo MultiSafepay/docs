@@ -12,7 +12,7 @@ slug: 'eps'
 EPS is a widely accepted inter-bank payment method that links all major Austrian retail banks. 
 Customers pay in their own online banking environment. <<glossary:Settlement>> is instant and guaranteed.
 
-Read how EPS can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/eps)
+Read how EPS can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/eps" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -54,7 +54,7 @@ You can activate EPS yourself in your dashboard.
 <summary>How to activate EPS</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings**. 
 3. To activate the payment method for:
     - All sites, go to **Payment methods**.

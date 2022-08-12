@@ -9,14 +9,14 @@ slug: 'edenred'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/edenred.svg" width="80" align="right" style="margin: 20px 20px 20px 30px; max-height: 75px"/>
 
-[Edenred](https://www.edenred.be/nl) lets employers provide their employees with a prepaid card loaded with Edenred vouchers:  
+<a href="https://www.edenred.be/nl" target="_blank">Edenred</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> lets employers provide their employees with a prepaid card loaded with Edenred vouchers:  
 
 - Ticket Restaurant
 - Ticket EcoCheques
 - Ticket Compliments
 - Ticket Sport & Culture
 
-Read how Edenred can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/edenred)
+Read how Edenred can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/edenred" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -33,7 +33,7 @@ Read how Edenred can benefit your business on [multisafepay.com](https://www.mul
 - For each voucher, you must comply with Edenred's rules regarding permitted products and services. 
 - An Edenred prepaid card can contain multiple Edenred vouchers.
 - Edenred vouchers can be used for partial payments in combination with another payment method.
-- View all the Edenred transactions for your site in [My Edenred](https://myedenred.be).
+- View all the Edenred transactions for your site in <a href="https://myedenred.be" target="_blank">My Edenred</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # Payment flow
 
@@ -63,7 +63,7 @@ Register with Edenred and we'll activate it for your account.
 <summary>How to activate Edenred</summary>
 <br>
 
-1. Fill out the Edenred – [Registreer mijn website](https://registreermijnwebsite.edenred.be/) form, selecting the relevant checkbox for each voucher you want to offer.
+1. Fill out the Edenred – <a href="https://registreermijnwebsite.edenred.be/" target="_blank">Registreer mijn website</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> form, selecting the relevant checkbox for each voucher you want to offer.
 2. Sign a contract with Edenred. They'll give you an Edenred Merchant ID.
 3. Email your Edenred Merchant ID to <sales@multisafepay.com>
 4. We activate the payment method for your account.

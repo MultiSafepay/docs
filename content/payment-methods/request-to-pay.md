@@ -13,7 +13,7 @@ Request to Pay is a Deutsche Bank payment method based on the PSD2 Open Banking 
 
 The funds are transferred directly to your business bank account, instead of your account balance, which simplifies reconciliation.
 
-Read how Request to Pay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/request-to-pay)
+Read how Request to Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/request-to-pay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 > ⚠️ Availability
 > Request to Pay is currently not available to new merchants. It is still supported for existing merchants. 
@@ -62,7 +62,7 @@ You can activate Request to Pay yourself in your dashboard.
 <summary>How to activate Request to Pay</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings**. 
 3. To activate the payment method for:
     - All sites, go to **Payment methods**.

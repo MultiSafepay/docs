@@ -9,9 +9,9 @@ slug: 'belfius'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Belfius.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-[Belfius](https://www.belfius.be/common/EN/fw/language.html) is a popular online banking payment method for Belfius bank customers in Belgium.
+<a href="https://www.belfius.be/common/EN/fw/language.html" target="_blank">Belfius</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a popular online banking payment method for Belfius bank customers in Belgium.
 
-Read how Belfius can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/belfius)
+Read how Belfius can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/belfius" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -55,7 +55,7 @@ You can activate Belfius yourself in your dashboard.
 <summary>How to activate Belfius</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings**. 
 3. To activate the payment method for:
     - All sites, go to **Payment methods**.

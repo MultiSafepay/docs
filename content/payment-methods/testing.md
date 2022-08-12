@@ -6,7 +6,7 @@ hidden: false
 slug: 'testing'
 excerpt: 'Test payment methods and resolve common issues.'
 ---
-Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your [MultiSafepay test account](https://testmerchant.multisafepay.com/).
+Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay test account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # Credentials
 
@@ -38,7 +38,7 @@ For all payment methods **except** AfterPay, you need your site's test [API key]
     </details>
 2. Enter the [test payment details](/docs/testing#test-payment-details) for the payment method you are testing, or select a payment scenario.
 3. Complete the test payment.
-4. To check the transaction details, sign in to your [test dashboard](https://testmerchant.multisafepay.com/).
+4. To check the transaction details, sign in to your <a href="https://testmerchant.multisafepay.com/" target="_blank">test dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 5. Go to **Transactions** > **Transactions overview**.
 6. In the **Transactions overview** list, select the transaction to view the **Transaction details** page. 
 7. To check that you have succesfully connected to our system, under **Offline actions**, check that you've correctly received the **notifyMerchantTrans** action.  
@@ -422,7 +422,7 @@ To test refunding an order via the API:
 **Test credentials**
 
 - [Site API key](/docs/sites#site-id-api-key-and-security-code)
-- [Klarna's test credentials](https://docs.klarna.com/resources/test-environment/)
+- <a href="https://docs.klarna.com/resources/test-environment/" target="_blank">Klarna's test credentials</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 **Test a Klarna order** 
 
@@ -547,13 +547,13 @@ Any other card number receives an "Invalid card number" error.
 
 **Compatible devices**
 
-For compatible devices, see Apple – [Devices compatible with Apple Pay](https://support.apple.com/en-us/HT208531).
+For compatible devices, see Apple – <a href="https://support.apple.com/en-us/HT208531" target="_blank">Devices compatible with Apple Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-If you don't own an Apple device, we recommend using the [Appetize.io](https://appetize.io) emulator. When you try to complete a test payment on the payment page, you get a _This device is not supported_ error. But the emulator creates an order with the Apple Pay <<glossary:gateway>> preselected to check if there is an existing connection to our server. However, you can't fully complete the test transaction.
+If you don't own an Apple device, we recommend using the <a href="https://appetize.io" target="_blank">Appetize.io</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> emulator. When you try to complete a test payment on the payment page, you get a _This device is not supported_ error. But the emulator creates an order with the Apple Pay <<glossary:gateway>> preselected to check if there is an existing connection to our server. However, you can't fully complete the test transaction.
 
 **Prerequisites**
 
-- Use a [compatible device](https://support.apple.com/en-us/HT208531)
+- Use a <a href="https://support.apple.com/en-us/HT208531" target="_blank">compatible device</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - Use Safari browser
 - Activate Maestro for your MultiSafepay account
 
@@ -564,7 +564,7 @@ If these requirements are not met, Apple Pay doesn't appear on the checkout page
 To test your Apple Pay redirect integration, there are two ways:
 
 - If you have an Apple account with at least one credit card in your wallet, you can use your own account and card details in our test environment without incurring any costs.
-- Alternatively, you can use an [Apple Developer account](https://developer.apple.com/apple-pay/sandbox-testing) configured for Apple Pay, with at least one Apple Pay test card in your wallet.
+- Alternatively, you can use an <a href="https://developer.apple.com/apple-pay/sandbox-testing" target="_blank">Apple Developer account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> configured for Apple Pay, with at least one Apple Pay test card in your wallet.
 
 To test, follow these steps:
 
@@ -597,9 +597,9 @@ To test Google Pay payments, follow these steps:
 
     - **PAN only**: Authentication method for cards stored on file in your Google Account. Returned payment data includes your personal account number (PAN), expiration month, and expiration year. You are redirected to a test 3D Secure page to authenticate the payment.
     - **Cryptogram 3DS**: Authentication method for cards stored as Android device tokens. Returned payment data includes a 3D Secure cryptogram generated on the device. You are not redirected to authenticate the payment.  
-    For more information about testing, see Google Pay – [Test with sample tokens](https://developers.google.com/pay/api/web/guides/resources/sample-tokens).
+    For more information about testing, see Google Pay – <a href="https://developers.google.com/pay/api/web/guides/resources/sample-tokens" target="_blank">Test with sample tokens</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
  
-3. Check the status of the payment in your [test dashboard](https://testmerchant.multisafepay.com/).
+3. Check the status of the payment in your <a href="https://testmerchant.multisafepay.com/" target="_blank">test dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 </details>
 
@@ -661,7 +661,7 @@ To change the order status, on the Test platform page, from the **Test scenario*
 3. Click **Test**.  
     The order status changes to **Void**.
 
-You can process full refunds in your [MultiSafepay test dashboard](https://testmerchant.multisafepay.com/). 
+You can process full refunds in your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay test dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
 Partial refunds are not enabled by default. To enable this, email <integration@multisafepay.com>
 

@@ -11,11 +11,11 @@ parentDoc: 62a6ec51d7a8100053916d99
 
 Google Pay™ is a digital wallet for in-app and online payments. Customers can tokenize their payment details in their Google Pay account.
 
-Read how Google Pay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/googlepay)
+Read how Google Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/googlepay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | Worldwide <br> See Google Pay – [Countries or regions where you can use Google Pay](https://support.google.com/pay/answer/9023773?hl=en#zippy=%2Cpay-online-or-in-apps).  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Worldwide <br> See Google Pay – <a href="https://support.google.com/pay/answer/9023773?hl=en#zippy=%2Cpay-online-or-in-apps" target="_blank">Countries or regions where you can use Google Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.  | 
 | [Currencies](/docs/currencies/)  | AED, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EUR, GBP, HKD, HRK, HUF, ILS, INR, ISK, JPY, KRW, MXN, MYR, NOK, NZD, PEN, PHP, PLN, RON, RUB, SEK, SGD, THB, TRY, TWD, UAH, USD, VEF, ZAR | 
 | [Chargebacks](/docs/chargebacks/)  | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |
@@ -24,9 +24,9 @@ Read how Google Pay can benefit your business on [multisafepay.com](https://www.
 | [Second Chance](/docs/second-chance/) | Yes |
 
 > ℹ Notes 
-> - By processing Google Pay payments, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos).
-> - When integrating Google Pay into your ecommerce platform, you must follow [Google's brand guidelines](https://developers.google.com/pay/api/web/guides/brand-guidelines).
-> - For more information, see Google Pay – [Overview](https://developers.google.com/pay/api/web/overview).
+> - By processing Google Pay payments, you agree to the <a href="https://payments.developers.google.com/terms/sellertos" target="_blank">Google API Terms of Service</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+> - When integrating Google Pay into your ecommerce platform, you must follow <a href="https://developers.google.com/pay/api/web/guides/brand-guidelines" target="_blank">Google's brand guidelines</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+> - For more information, see Google Pay – <a href="https://developers.google.com/pay/api/web/overview" target="_blank">Overview</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # Payment flow
 
@@ -67,7 +67,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
     - Average, minimum, and maximum transaction amount 
     - Annual turnover 
  
-2. Once approved, sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. Go to **Settings**. 
 4. To activate the payment method for:
     - All sites, go to **Payment methods**.

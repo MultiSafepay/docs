@@ -28,9 +28,9 @@ With direct integration, the **Google Pay** button appears in your checkout page
 </details>
 
 - Google Pay must be [activated in your MultiSafepay account](/docs/google-pay#activation).
-- You need to register your business and site in [Google Pay's Business Console](https://pay.google.com/business/console/).
+- You need to register your business and site in <a href="https://pay.google.com/business/console/" target="_blank">Google Pay's Business Console</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 - You must serve an HTTPS webpage with a TLS domain-validated certificate.
-- By accessing or using the Google Pay API, you agree to the [Google API Terms of Service](https://payments.developers.google.com/terms/sellertos).
+- By accessing or using the Google Pay API, you agree to the <a href="https://payments.developers.google.com/terms/sellertos" target="_blank">Google API Terms of Service</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # 1. Initialize
 
@@ -99,7 +99,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
     **Options**: `MASTERCARD`, `VISA`.
 
-    For more information about supported payment card networks, see Google Pay – [Request objects](https://developers.google.com/pay/api/web/reference/request-objects#CardParameters).
+    For more information about supported payment card networks, see Google Pay – <a href="https://developers.google.com/pay/api/web/reference/request-objects#CardParameters" target="_blank">Request objects</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 4. Define supported authentication methods.
 
@@ -111,7 +111,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
     **Options**: `CRYPTOGRAM_3DS`, `PAN_ONLY`.
 
-    For more information about authentication methods, see Google Pay – [Request objects](https://developers.google.com/pay/api/web/reference/request-objects#CardParameters).
+    For more information about authentication methods, see Google Pay – <a href="https://developers.google.com/pay/api/web/reference/request-objects#CardParameters" target="_blank">Request objects</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 5. Describe your supported payment methods.
 
@@ -196,9 +196,9 @@ To create a **Google Pay** button, populate the `button-container` element:
 
 For infomation about styling your **Google Pay** button, see Google Pay:
 
-- [Customize your button](https://developers.google.com/pay/api/web/guides/resources/customize)
-- [User experience best practices](https://developers.google.com/pay/api/web/guides/ux-best-practices)
-- [Brand guidelines](https://developers.google.com/pay/api/web/guides/brand-guidelines)
+- <a href="https://developers.google.com/pay/api/web/guides/resources/customize" target="_blank">Customize your button</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://developers.google.com/pay/api/web/guides/ux-best-practices" target="_blank">User experience best practices</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://developers.google.com/pay/api/web/guides/brand-guidelines" target="_blank">Brand guidelines</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 # 3. Create a payment request
 
@@ -230,7 +230,7 @@ function getGooglePaymentDataRequest() {
 
 You will call this function from the **Google Pay** button event handler in the next step. This way, attributes like the `totalPrice` can be updated up until the customer chooses to pay.
 
-For more information about the `transactionInfo` object, see Google Pay – [TransactionInfo](https://developers.google.com/pay/api/web/reference/request-objects#TransactionInfo).
+For more information about the `transactionInfo` object, see Google Pay – <a href="https://developers.google.com/pay/api/web/reference/request-objects#TransactionInfo" target="_blank">TransactionInfo</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## merchantInfo values
 
@@ -244,9 +244,9 @@ In the `PRODUCTION` environment:
 - `merchantName` = Your merchant name  
 - `merchantId` = Your Google Pay merchant ID  
 
-To see your Google Pay merchant ID, sign in to your [Google Pay Business Console](https://pay.google.com/business/console/home).
+To see your Google Pay merchant ID, sign in to your <a href="https://pay.google.com/business/console/home" target="_blank">Google Pay Business Console</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-For more information about the `merchantInfo` object, see Google Pay – [Request object](https://developers.google.com/pay/api/web/reference/request-objects#MerchantInfo).
+For more information about the `merchantInfo` object, see Google Pay – <a href="https://developers.google.com/pay/api/web/reference/request-objects#MerchantInfo" target="_blank">Request object</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # 4. Handle the interaction
 
@@ -277,7 +277,7 @@ For more information about the `merchantInfo` object, see Google Pay – [Reques
     }
     ```
 
-    For more information about the `paymentData` object, see Google Pay – [Response objects](https://developers.google.com/pay/api/web/reference/response-objects#PaymentData).
+    For more information about the `paymentData` object, see Google Pay – <a href="https://developers.google.com/pay/api/web/reference/response-objects#PaymentData" target="_blank">Response objects</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # 5. Create an order
 
@@ -309,7 +309,7 @@ If 3D Secure authentication is required, the customer is automatically redirecte
 After you've implemented the steps above, to test your integration:
 
 - [MultiSafepay's Google Pay testing procedure](/docs/testing#google-pay)
-- [Google Pay – Integration checklist](https://developers.google.com/pay/api/web/guides/test-and-deploy/integration-checklist)
+- <a href="https://developers.google.com/pay/api/web/guides/test-and-deploy/integration-checklist" target="_blank">Google Pay – Integration checklist</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 Then, when you're ready to go live:
 

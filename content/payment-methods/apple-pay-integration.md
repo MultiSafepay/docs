@@ -22,15 +22,15 @@ With direct integration, the ** Pay** button appears in your checkout page. C
 - Your server must support the TLS protocol version 1.2 or later.
 
 > ℹ More information
-> See Apple Developer – [Setting up your server](https://developer.apple.com/documentation/apple_pay_on_the_web/setting_up_your_server).
+> See Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/setting_up_your_server" target="_blank">Setting up your server</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ### Customer device compatibility
 
-To see which Apple products are compatible with Apple Pay, see Apple Developer – [Devices compatible with Apple Pay](https://support.apple.com/en-us/HT208531).
+To see which Apple products are compatible with Apple Pay, see Apple Developer – <a href="https://support.apple.com/en-us/HT208531" target="_blank">Devices compatible with Apple Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## 1. Validate your domain
 
-1. [Download the compressed Apple Pay domain validation files](https://github.com/MultiSafepay/docs/raw/master/static/domain-validation-apple-pay/domain-validation-apple-pay.zip).
+1. <a href="https://github.com/MultiSafepay/docs/raw/master/static/domain-validation-apple-pay/domain-validation-apple-pay.zip" target="_blank">Download the compressed Apple Pay domain validation files</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Unzip the folder and select the relevant file.
 3. Place the domain validation file at:
     ```
@@ -49,14 +49,14 @@ To request registration for Apple Pay direct, email the relevant site ID to <sal
     ```
 
     > ℹ More information
-    > See Apple Developer – [Checking for Apple Pay availability](https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability).
+    > See Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability" target="_blank">Checking for Apple Pay availability</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 2. If Apple Pay is supported, display the ** Pay** button in your checkout page.
 
     To style the button, see Apple Developer:
 
-    - [Buttons&nbsp;and&nbsp;marks](https://developer.apple.com/design/human-interface-guidelines/apple-pay/overview/buttons-and-marks/#apple-pay-mark)
-    - [Displaying Apple Pay Buttons Using CSS](https://developer.apple.com/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons_using_css)
+    - <a href="https://developer.apple.com/design/human-interface-guidelines/apple-pay/overview/buttons-and-marks/#apple-pay-mark" target="_blank">Buttons&nbsp;and&nbsp;marks</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons_using_css" target="_blank">Displaying Apple Pay Buttons Using CSS</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 ## 4. Create an Apple Pay session
 
@@ -105,7 +105,7 @@ When the customer clicks or taps the ** Pay** button:
     > **Note:** The `total.amount` is in euro's, whereas the amount set in our order requests is in cents. 
 
     > ℹ More information
-    > To learn more about the `ApplePayRequest` object, see Apple Developer – [ApplePayRequest](https://developer.apple.com/documentation/apple_pay_on_the_web/applepayrequest).
+    > To learn more about the `ApplePayRequest` object, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepayrequest" target="_blank">ApplePayRequest</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 2. Create an Apple Pay session.
 
@@ -118,12 +118,12 @@ When the customer clicks or taps the ** Pay** button:
     <br>
 
     > ℹ More information
-    > To learn more about Apple Pay versions, see Apple Developer – [Apple Pay on the web version history](https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_on_the_web_version_history).
+    > To learn more about Apple Pay versions, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_on_the_web_version_history" target="_blank">Apple Pay on the web version history</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
     > **Note:** You can only create a session within a user gesture handler. For example, you can create the session when the user taps the ** Pay** button.
 
     > ℹ More information
-    > See Apple Developer – [Creating an Apple Pay session](https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/creating_an_apple_pay_session).
+    > See Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/creating_an_apple_pay_session" target="_blank">Creating an Apple Pay session</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 3. Create an `onvalidatemerchant` event handler that is called once the Apple Pay payment form is displayed to the customer.
     ```
@@ -140,8 +140,8 @@ When the customer clicks or taps the ** Pay** button:
     ```
     > ℹ More information
     > See Apple Developer:
-    > - [Providing merchant validation](https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/providing_merchant_validation)
-    > - [onvalidatemerchant](https://developer.apple.com/documentation/apple_pay_on_the_web/applepaysession/1778021-onvalidatemerchant)
+    > - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/providing_merchant_validation" target="_blank">Providing merchant validation</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    > - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaysession/1778021-onvalidatemerchant" target="_blank">onvalidatemerchant</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 4. To begin the merchant validation process, call the `session.begin()` method. 
     ```
@@ -198,8 +198,8 @@ When the customer clicks or taps the ** Pay** button:
 
     > ℹ More information
     > To learn more about the `payment` object, see Apple Developer:
-    > - [payment](https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypaymentauthorizedevent/1777999-payment)
-    > - [ApplePayPayment](https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment)
+    > - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypaymentauthorizedevent/1777999-payment" target="_blank">payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    > - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 ### Server-side integration
 
@@ -213,14 +213,14 @@ When the customer clicks or taps the ** Pay** button:
 > **Note:** Billing and shipping data are not encrypted.
 
 > ℹ More information
-> To learn more about the `payment` object and its properties, see Apple Developer – [ApplePayPayment](https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment).
+> To learn more about the `payment` object and its properties, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## 6. Test your integration
 
 To test your Apple Pay direct integration, you need to:
 
 - Meet the [testing prerequisites](/docs/apple-pay-integration#prerequisites)
-- Have an [Apple Developer account](https://developer.apple.com/apple-pay/sandbox-testing), configured for Apple Pay, with at least one Apple Pay test card in your wallet
+- Have an <a href="https://developer.apple.com/apple-pay/sandbox-testing" target="_blank">Apple Developer account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, configured for Apple Pay, with at least one Apple Pay test card in your wallet
 
 To test, follow these steps:
 

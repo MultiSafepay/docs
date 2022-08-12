@@ -9,11 +9,11 @@ slug: 'alipay'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Alipay.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-[Alipay](https://global.alipay.com/platform/site/ihome) is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online, QR, and contactless POS payments, as well as international money transfers.
+<a href="https://global.alipay.com/platform/site/ihome" target="_blank">Alipay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online, QR, and contactless POS payments, as well as international money transfers.
 
 For Chinese customers, Alipay accounts are verified and linked to their Chinese bank account. Since 2021, non-Chinese customers can also pay with Alipay using the Tour Pass.
 
-Read how Alipay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/alipay)
+Read how Alipay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/alipay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -57,7 +57,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 1. Email a request to <risk@multisafepay.com> 
 2. We check your eligibilty and if approved, activate the payment method for your account. 
-3. Once approved, sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+3. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 4. Go to **Settings**. 
 5. To activate the payment method for:
     - All sites, go to **Payment methods**.

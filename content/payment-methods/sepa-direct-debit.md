@@ -11,11 +11,11 @@ slug: 'sepa-direct-debit'
 
 SEPA Direct Debit is a European banking payment method where customers authorize automatic one-off or recurring debits directly from their bank account. It is available in 36 countries and supports Sofort and iDEAL.
 
-Read how SEPA Direct Debit can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/direct-debit)
+Read how SEPA Direct Debit can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/direct-debit" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | [SEPA region](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf)  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | <a href="https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf" target="_blank">SEPA region</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  | 
 | [Currencies](/docs/currencies/)  | EUR | 
 | [Chargebacks](/docs/chargebacks/)  | Yes (see below) |
 | [Payment components](/docs/payment-components/) | Yes |
@@ -69,7 +69,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
     We send you an agreement to sign and email back to us.
 
 2. We check your eligibilty and if approved, activate the payment method for your account. 
-3. Once approved, sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+3. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 4. Go to **Settings**. 
 5. To activate the payment method for:
     - All sites, go to **Payment methods**.
@@ -148,8 +148,8 @@ If the IBAN or BIC is incorrect, our bank informs us the next business day.
 <br>
 For more information in:
 
-- English, see European Payments Council – [Guidance on reason codes](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2019-05/EPC173-14%20v5.0%20Guidance%20on%20Reason%20Codes%20for%20SDD%20R-transactions.pdf). 
-- Dutch, see Betaal Vereniging – [Reasoncodes en vervolgacties](https://www.betaalvereniging.nl/wp-content/uploads/Reasoncodes-en-vervolgacties-Europese-incasso.pdf).
+- English, see European Payments Council – <a href="https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2019-05/EPC173-14%20v5.0%20Guidance%20on%20Reason%20Codes%20for%20SDD%20R-transactions.pdf" target="_blank">Guidance on reason codes</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+- Dutch, see Betaal Vereniging – <a href="https://www.betaalvereniging.nl/wp-content/uploads/Reasoncodes-en-vervolgacties-Europese-incasso.pdf" target="_blank">Reasoncodes en vervolgacties</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 </details>
 

@@ -11,7 +11,7 @@ slug: 'gift-cards'
 
 Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. Gift card payments are processed by the <<glossary:card issuer>>.
 
-Read how gift cards can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/giftcards)
+Read how gift cards can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/giftcards" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -25,14 +25,14 @@ Read how gift cards can benefit your business on [multisafepay.com](https://www.
 
 | | | |
 |---|---|---|
-| [Baby Cadeaubon](https://www.babycadeaubon.nl/) | [Gezondheidsbon](https://www.gezondheidsbon.nl/) | [Ohmygood Giftcard](https://ohmygood.nl/) |
-| [Beauty Cadeau](https://www.beautycadeau.nl/) | [Good4fun](https://www.good4fun.nl/) | [Speelgoedwinkel Cadeaukaart](https://www.speelgoedwinkel.nl/) |
-| [Biercheque](https://biercheque.nl/) | [Huis & Tuin Cadeau](https://www.huisentuincadeau.com/) | [Sport & Fit](https://www.sportenfitcadeau.nl/) |
-| [Bloemen Cadeaukaart](https://www.bloemen-cadeaukaart.nl/) | [Kids' Cadeau](https://www.dekidscadeaukaart.nl/)| [Sports Gift Card](https://www.sports-giftcard.com/) |
-| [Boekenbon](https://bestel.boekenbon.nl/) | [Klus Cadeau](https://www.kluscadeau.nl/) | [VVV Cadeaukaart](https://www.vvvcadeaukaarten.nl/) |
-| [Boeken Voordeel](https://www.boekenVoordeel.nl/) | [Nationale Bioscoopbon](https://www.bioscoopbon.nl/) | [Wellness & Beauty](https://www.wellnessbeautycadeau.nl/) |
-| [Fashioncheque](https://www.fashioncheque.com/) | [Nationale Entertainment Card](https://www.nationale-entertainmentcard.nl/) | [Wijn Cadeaukaart](https://www.wijn-cadeaukaart.nl/) |
-| [Fashion Giftcard](https://www.fashion-giftcard.nl/) | [Nationale Tuinbon](https://www.nationale-tuinbon.nl/) | [YourGift](https://www.yourgift.nl/) |
+| <a href="https://www.babycadeaubon.nl/" target="_blank">Baby Cadeaubon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://www.gezondheidsbon.nl/" target="_blank">Gezondheidsbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://ohmygood.nl/" target="_blank">Ohmygood Giftcard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://www.beautycadeau.nl/" target="_blank">Beauty Cadeau</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://www.good4fun.nl/" target="_blank">Good4fun</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://www.speelgoedwinkel.nl/" target="_blank">Speelgoedwinkel Cadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://biercheque.nl/" target="_blank">Biercheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://www.huisentuincadeau.com/" target="_blank">Huis & Tuin Cadeau</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://www.sportenfitcadeau.nl/" target="_blank">Sport & Fit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://www.bloemen-cadeaukaart.nl/" target="_blank">Bloemen Cadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://www.dekidscadeaukaart.nl/" target="_blank">Kids' Cadeau</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>| <a href="https://www.sports-giftcard.com/" target="_blank">Sports Gift Card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://bestel.boekenbon.nl/" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://www.kluscadeau.nl/" target="_blank">Klus Cadeau</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://www.vvvcadeaukaarten.nl/" target="_blank">VVV Cadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://www.boekenVoordeel.nl/" target="_blank">Boeken Voordeel</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://www.bioscoopbon.nl/" target="_blank">Nationale Bioscoopbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://www.wellnessbeautycadeau.nl/" target="_blank">Wellness & Beauty</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://www.fashioncheque.com/" target="_blank">Fashioncheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://www.nationale-entertainmentcard.nl/" target="_blank">Nationale Entertainment Card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://www.wijn-cadeaukaart.nl/" target="_blank">Wijn Cadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://www.fashion-giftcard.nl/" target="_blank">Fashion Giftcard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://www.nationale-tuinbon.nl/" target="_blank">Nationale Tuinbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://www.yourgift.nl/" target="_blank">YourGift</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
 
 # Payment flow
 
@@ -145,7 +145,7 @@ If a customer completes a payment and receives this error message, advise them t
 
 Webshop Giftcard no longer offers [open-loop gift cards](#closed-loop-vs-open-loop-cards). 
 
-To exchange existing open-loop cards for closed-loop cards, see Webshop Giftcard – [Contact](https://www.webshopgiftcard.nl/contact).
+To exchange existing open-loop cards for closed-loop cards, see Webshop Giftcard – <a href="https://www.webshopgiftcard.nl/contact" target="_blank">Contact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 <br>
 
 ---

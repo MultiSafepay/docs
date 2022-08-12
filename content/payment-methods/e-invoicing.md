@@ -11,7 +11,7 @@ slug: 'e-invoicing'
 
 E-Invoicing is a MultiSafepay <<glossary:BNPL>> method with automation tools that gives you full control of credit management, the payment process, and customer communications.
 
-Read how E-Invoicing can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/e-invoicing)
+Read how E-Invoicing can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/e-invoicing" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -56,7 +56,7 @@ You can activate E-Invoicing yourself in your dashboard.
 <summary>How to activate E-Invoicing</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings**. 
 3. To activate the payment method for:
     - All sites, go to **Payment methods**.
@@ -95,7 +95,7 @@ You can generate E-Invoicing transactions in batches for subscription payments.
 <summary>How to batch transactions for subscriptions</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **E-Invoicing** > **Batches**. 
 3. Upload a file in .xls, .xlsx or .csv format.
 4. Follow the templates in your MultiSafepay dashboard.
@@ -116,7 +116,7 @@ You are solely responsible for this in your integration.
 
 To see an overview of all successful transactions:
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **E-Invoicing** > **Invoices**. 
 
 </details>
@@ -127,7 +127,7 @@ To see an overview of all successful transactions:
 
 To customize invoices:
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **E-Invoicing** > **E-Invoicing generator**. 
 
 The invoice is sent to the email address provided. 
@@ -142,8 +142,8 @@ Different billing and shipping addresses are supported. Email a request to <sale
 
 ### Shipping policies
 
-- [Shipping Policy Nederland](https://www.multifactor.nl/voorwaarden/shipping-policies/) 
-- [Herinnering aan onze shipping policy](https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy) 
+- <a href="https://www.multifactor.nl/voorwaarden/shipping-policies/" target="_blank">Shipping Policy Nederland</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
+- <a href="https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy" target="_blank">Herinnering aan onze shipping policy</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
 
 ### Order status
 
@@ -159,7 +159,7 @@ When you ship the order, you **must** manually change the [order status](/docs/p
 
 **In your dashboard**
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transactions overview**.
 3. Search for the transaction, and click to open the **Transaction details** page. 
 4. Under **Order details**, click **Change order status**. 
