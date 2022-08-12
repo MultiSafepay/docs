@@ -11,7 +11,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
 
 # How to customize emails
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com). 
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 2. Go to **Settings** > **Email templates**.  
 3. Click the relevant site.  
 4. Click **Add new template**.   
@@ -210,8 +210,8 @@ MultiSafepay can help you manage your email communications with customers. Use o
     | CITY                          | Your company city of residence |
     | COMPANYNAME                   | Your company name given in your MultiSafepay account |
     | CONTENT                       | Shopping cart info |
-    | COUNTRY                       | [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) code for your company country |
-    | COUNTRYCODE                   | [ISO 3166](https://www.iso.org/iso-3166-country-codes.html) code for your company country |
+    | COUNTRY                       | <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> code for your company country |
+    | COUNTRYCODE                   | <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> code for your company country |
     | CURRENTDATE                   | Today's date |
     | DESCRIPTION                   | AccountID to receive money |
     | DESTAMOUNT                    | Amount to be received |
@@ -259,7 +259,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
 
     To add your logo to emails to increase customers' recognition and trust, follow these steps:
 
-    1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
+    1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
     2. Go to **Settings** > **Website settings** > **Upload a new file**.  
     3. In the **Files** directory, under **Actions**, click **Copy to clipboard** to copy the file's URL (starting with https://media.multisafepay.com/merchants/).
     4. Go to **Settings** > **Email templates**, and then click the relevant site.

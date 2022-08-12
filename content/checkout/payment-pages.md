@@ -25,7 +25,7 @@ You can activate payment pages yourself in your dashboard.
 <summary>How to activate payment pages</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings** > **Website settings**.
 3. Click the relevant site.
 4. Select the **Use new payment pages** checkbox.
@@ -116,7 +116,7 @@ Payment pages support the following languages:
 
 You can also localize payment pages to automatically filter out payment methods that are not available in the customer's country, and to display local variants. 
 
-See API reference > [Create order](https://docs.multisafepay.com/reference/createorder) > `customer` object > `locale` parameter.
+See API reference > [Create order](/reference/createorder) > `customer` object > `locale` parameter.
 
 <details id="locale-codes">
 <summary>Locale codes per language and country</summary>
@@ -205,7 +205,7 @@ If you include a `shopping_cart` object when you [create an order](/reference/cr
 <br>
 
 1. To request to enable **Advanced website templates** for your MultiSafepay account, email <integration@multisafepay.com>
-2. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/). 
+2. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 3. Go to **Settings** > **New payment pages**.
 4. Next to the relevant site, click **Template**.
 5. Under **Configure page style**, click **Settings**, and then select the **Hide cart details** checkbox. 
@@ -220,13 +220,13 @@ We recommend styling payment pages to be consistent with the look and feel of yo
 <summary>In your dashboard</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings** > **Website settings** > **Website**.
 3. Click the **Template** button. 
 4. Use the WYSIWYG editor to style the payment page template.  
 
     **Choosing colors**  
-    In the left menu, a color chart appears when you click on the field of a page element. You can also enter a [Hex color](https://www.w3schools.com/colors/colors_picker.asp) in the input field next to it.  
+    In the left menu, a color chart appears when you click on the field of a page element. You can also enter a <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> in the input field next to it.  
 
     **Selecting a logo or header image**  
     In **Settings** > **Payment page templates**, upload files for logos or header backgrounds. They may take up to 5 minutes to process, and then automatically appear in the list in the editor.  

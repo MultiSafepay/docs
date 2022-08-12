@@ -91,7 +91,7 @@ A company (legal entity) that sells products and services to customers.
 
 ---
 #### MultiSafepay account
-A merchant's account with MultiSafepay, managed via a [web dashboard](https://merchant.multisafepay.com/).
+A merchant's account with MultiSafepay, managed via a <a href="https://merchant.multisafepay.com/" target="_blank">web dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ---
 #### order

@@ -33,7 +33,7 @@ Or via your dashboard:
 <summary>How to generate a link for a new transaction</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Tools** > **Payment link generator**.
 3. Click **New payment link**.
 4. From the **Site** list, select the relevant site.
@@ -58,7 +58,7 @@ Or via your dashboard:
 <summary>How to generate a link for existing transactions</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transaction overview**.
 3. Click on the relevant transaction.
 4. In the **Transaction details** page, under **Order summary**, click **Payment link** > **Duplicate this order**.
@@ -84,7 +84,7 @@ See API reference – [Update or cancel an order](/reference/updateorder/).
 
 **Via dashboard**
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Tools** > **Payment link generator**.
 3. Next to the relevant payment link, click the red cross icon.  
 The <<glossary:order status>> changes to **cancelled**. 
@@ -99,7 +99,7 @@ If you need to generate multiple payment links, you can speed up the process by 
 <summary>How to duplicate a payment link</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Tools** > **Payment link generator**.
 3. Next to the relevant payment link, click the blue copy icon.  
 A new link generator window opens with the same details prefilled.  
@@ -144,7 +144,7 @@ Each attempt creates a new transaction. If the customer completes payment in one
 
 For an overview of all payment links:
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Tools** > **Payment link generator**.
 
 | Payment link status | Description |

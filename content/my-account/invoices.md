@@ -14,7 +14,7 @@ excerpt: 'MultiSafepay generates invoices at month end for your records.'
 
 Merchant and primary account holders receive a monthly invoice for the total amount of VAT we deduct from your account balance at the end of each month.
 
-To view VAT invoices in your [MultiSafepay dashboard](https://merchant.multisafepay.com), go to **Finance** > **Invoices**.
+To view VAT invoices in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, go to **Finance** > **Invoices**.
 
 For payment methods where MultiSafepay:
 
@@ -68,7 +68,7 @@ If you do not specify an email address, we use the main business email address p
 <summary>How to provide an invoice email address</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. From the list in the right hand corner of your screen, click **Contact details**. 
 3. In the **Financial email** field, enter the email address.
 4. Click **Save**. 

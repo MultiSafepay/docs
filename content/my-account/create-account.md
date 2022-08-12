@@ -30,8 +30,8 @@ You may want to start with a test account. This is a free account where you can 
 
 To create a free test account:
 
-- Fill out the [signup form](https://testmerchant.multisafepay.com/signup).
-- Sign in to your [test dashboard](https://testmerchant.multisafepay.com) using the security code we email you.
+- Fill out the <a href="https://testmerchant.multisafepay.com/signup" target="_blank">signup form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- Sign in to your <a href="https://testmerchant.multisafepay.com" target="_blank">test dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> using the security code we email you.
 
 # Live accounts
 
@@ -39,15 +39,15 @@ To create and [onboard](/docs/onboarding/) a live account and start processing r
 
 1. Fill out the relevant signup form: 
 
-    - Merchant: [Live form](https://merchant.multisafepay.com/signup)  /  [Test  form](https://testmerchant.multisafepay.com/signup) 
-    - Partner/primary: [Live form](https://merchant.multisafepay.com/signup?partner)  /  [Test form](https://testmerchant.multisafepay.com/signup?partner)
+    - Merchant: <a href="https://merchant.multisafepay.com/signup" target="_blank">Live form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  /  <a href="https://testmerchant.multisafepay.com/signup" target="_blank">Test  form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
+    - Partner/primary: <a href="https://merchant.multisafepay.com/signup?partner" target="_blank">Live form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  /  <a href="https://testmerchant.multisafepay.com/signup?partner" target="_blank">Test form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
     You receive an email containing your **security code**. 
 
 2. Use your security code to sign in to your account: 
 
-    - [Live account](https://merchant.multisafepay.com/) 
-    - [Test account](https://testmerchant.multisafepay.com/) 
+    - <a href="https://merchant.multisafepay.com/" target="_blank">Live account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
+    - <a href="https://testmerchant.multisafepay.com/" target="_blank">Test account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
 
 3. Live accounts open by default to the onboarding steps page. You can navigate away from this page, and return to it via the button under **Alert**.
 

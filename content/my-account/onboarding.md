@@ -10,13 +10,13 @@ Onboarding involves MultiSafepay checking and approving information submitted by
 
 # 1. Submit sign up form
 
-Complete and submit the [live account sign up form](https://merchant.multisafepay.com/signup).
+Complete and submit the <a href="https://merchant.multisafepay.com/signup" target="_blank">live account sign up form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-MultiSafepay creates a live account and email you a security code to sign in to your [live dashboard](https://merchant.multisafepay.com/).
+MultiSafepay creates a live account and email you a security code to sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">live dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # 2. Provide company information
 
-Sign in to your [live dashboard](https://merchant.multisafepay.com/) and, under [Business details](https://merchant.multisafepay.com/onboarding), provide the following information:
+Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">live dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and, under <a href="https://merchant.multisafepay.com/onboarding" target="_blank">Business details</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, provide the following information:
 
 | Information | Details |
 |---|---|
@@ -109,25 +109,25 @@ It was based on the Disclosure of Unusual Transactions or Financial Services Act
 <summary>How to download a form</summary>
 <br>
 
-- [Dutch UBO form](https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_NL_V2.0.pdf)
-- [English UBO form](https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_EN_V2.0.pdf)
-- [French UBO form](https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_FR.pdf)
-- [German UBO form](https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_DE.pdf) 
-- [Italian UBO form](https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_IT_V2.0.pdf)
-- [Spanish UBO form](https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_ES.pdf)
+- <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_NL_V2.0.pdf" target="_blank">Dutch UBO form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_EN_V2.0.pdf" target="_blank">English UBO form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_FR.pdf" target="_blank">French UBO form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_DE.pdf" target="_blank">German UBO form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
+- <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_IT_V2.0.pdf" target="_blank">Italian UBO form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_ES.pdf" target="_blank">Spanish UBO form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 </details>
 
 <details id="how-to-submit-forms">
 <summary>How to submit forms</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings** > **Files**.
 3. Under **Upload a new file**, click **Choose file**.
 4. Select the UBO form, and then click **Open**.
 5. Upload color copies of the identity documents of all UBOs.
 
-**Note:** We recommend using the [KopieID app](https://www.rijksoverheid.nl/onderwerpen/identiteitsfraude/vraag-en-antwoord/veilige-kopie-identiteitsbewijs) to hide personal information on passports or IDs.
+**Note:** We recommend using the <a href="https://www.rijksoverheid.nl/onderwerpen/identiteitsfraude/vraag-en-antwoord/veilige-kopie-identiteitsbewijs" target="_blank">KopieID app</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> to hide personal information on passports or IDs.
 </details>
 
 # 5. Display required information

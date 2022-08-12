@@ -10,7 +10,7 @@ slug: 'fastcheckout-ios'
 
 The FastCheckout iOS SDK enables a fast, frictionless, native checkout experience by storing and reusing customer data.
 
-[View on GitHub](https://github.com/MultiSafepay/fastcheckout-ios-sdk)
+<a href="https://github.com/MultiSafepay/fastcheckout-ios-sdk" target="_blank">View on GitHub</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 # How it works
 
@@ -109,7 +109,7 @@ The customer is automatically redirected to the **Register** screen:
 
 # How to install
 
-1. Copy your [site API key](/docs/sites#site-id-api-key-and-security-code) to get the SDK from our [GitHub repository](https://github.com/MultiSafepay/fastcheckout-ios-sdk).
+1. Copy your [site API key](/docs/sites#site-id-api-key-and-security-code) to get the SDK from our <a href="https://github.com/MultiSafepay/fastcheckout-ios-sdk" target="_blank">GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Add the FastCheckoutKit.xcframework as an embedded framework into your project. 
 3. In Finder, open the folder where you downloaded FastCheckoutKit.framework to, and then drag it into the Project Navigator of your application’s Xcode project.
 4. If you haven't already copied the framework into your project folder, click **Copy items**.

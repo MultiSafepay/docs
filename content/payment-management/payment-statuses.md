@@ -16,7 +16,7 @@ API attribute: `financial_status`
 <summary>How to view statuses</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transaction overview**, and then select the relevant transaction to open the **Transaction details** page. 
 3. Under **Status history**, you can see the statuses.
 

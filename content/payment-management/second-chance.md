@@ -32,7 +32,7 @@ You can activate Second Chance yourself in your dashboard.
 <summary>How to activate Second Chance</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings** > **Website settings**.
 3. Select the relevant site.
 4. Under **Website functionality**, select the **Enable Second Chance** checkbox.

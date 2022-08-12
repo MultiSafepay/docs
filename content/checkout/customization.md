@@ -15,7 +15,7 @@ You can customize the styling to match your brand's visual identity, including f
 To edit the default styling of the component:
 
 1. Select each CSS class you want to edit.
-2. Add the relevant [CSS properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference) and set the values. 
+2. Add the relevant <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference" target="_blank">CSS properties</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and set the values. 
 
     <details id="css-class-selectors">
     <summary>CSS class selectors</summary>

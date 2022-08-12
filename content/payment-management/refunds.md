@@ -23,7 +23,7 @@ You can process refunds:
 <summary>How to refund via your dashboard</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).  
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.  
 2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction to open the **Transaction details** page.  
 3. Under **Order summary**, click **Refund order**:    
     - Partial refund: In the **Amount** field, enter the amount to refund.
@@ -47,7 +47,7 @@ You can refund <<glossary:BNPL>> orders via:
 <summary>Full amount via dashboard</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction to open the **Transaction details** page.
 3. Under **Order summary**, click **Refund order**, and then click **Refund complete order**.
 4. Add any relevant comments in the **Description** field.
@@ -62,7 +62,7 @@ You can refund <<glossary:BNPL>> orders via:
 
 To refund part of the amount:
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction to open the **Transaction details** page.
 3. Under **Order summary**, click **Change order**.
     - In the **Quantity** field, enter the number of units to refund.
@@ -91,7 +91,7 @@ You can process refunds in batches using our PHP refund script.
 
 Make sure you have a PHP interpreter installed.
 
-For instructions and to download, see MultiSafepay GitHub – [Refund script](https://github.com/MultiSafepay/refund-script).
+For instructions and to download, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/refund-script" target="_blank">Refund script</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 Provide your [site API key](/docs/sites#site-id-api-key-and-security-code) and a .csv file specifying the order ID, amount, and a description of all the transactions in the batch.
 
@@ -153,7 +153,7 @@ The Risk Team assesses your request. Once approved, we enable it for your accoun
 <summary>How to test refunds via your dashboard</summary>
 <br>
 
-You can process full refunds in your [MultiSafepay test dashboard](https://testmerchant.multisafepay.com/). 
+You can process full refunds in your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay test dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
 Partial refunds are not enabled by default. To enable this, email <integration@multisafepay.com>
 

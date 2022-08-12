@@ -22,7 +22,7 @@ You can apply discounts to orders via your dashboard or the API.
 
 ## How to discount in your dashboard
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).  
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.  
 2. Go to **Transactions** > **Transaction overview**.  
 3. Search for the transaction you want to discount and click to open the **Transaction details** page.  
 4. Under **Order details**, click **Checkout editor**.  
