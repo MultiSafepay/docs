@@ -1,0 +1,41 @@
+
+# This is a workflow to automatically convert external markdown links into HTML
+
+name: Convert external URLs
+
+on: [pull_request]
+
+jobs:
+  convert-external-urls:
+    runs-on: ubuntu-latest 
+    name: Convert external URLs
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Get specific changed files
+        id: changed-files-specific
+        uses: tj-actions/changed-files@v25
+        with:
+          files: |
+            content/**/*.md
+            api/**/*.md
+      
+      - name: Pass filenames to steps.changed-files.outputs.all_changed_files
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        run: |
+          echo "PATHS=$${{ steps.changed-files-specific.outputs. all_changed_files }}" >> $GITHUB_ENV
+
+      - name: Run URL replacer
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        run: python .github/external-link-replacer.py
+
+      - name: Commit changes and push
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        run: |
+          if [[ `git status --porcelain` ]]; then
+            git config --global user.name 'github-actions'
+            git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add -A
+            git commit -m "Automated external URL lint."
+          fi
+          git push
