@@ -23,7 +23,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 To install or migrate, follow these steps:
 
 1. For increased security and stability, wait for off-peak hours and temporarily enable password protection for your webshop.
-2. From the Shopify app store, install the [MultiSafepay Payments app](https://apps.shopify.com/multisafepay-payments).
+2. From the Shopify app store, install the <a href="https://apps.shopify.com/multisafepay-payments" target="_blank">MultiSafepay Payments app</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. Enter your [site API key](/docs/sites#site-id-api-key-and-security-code), and specify whether it is a **live** or **test** key.
 4. Click **Save and continue** (might take a few seconds).
     A pop up or new tab opens.
@@ -43,7 +43,7 @@ To install or migrate, follow these steps:
 
 MultiSafepay's [Second Chance](/docs/second-chance/) feature is **not** supported because Shopify offers a similar native service.
 
-See Shopify – [Recovering abandoned checkouts](https://help.shopify.com/en/manual/orders/abandoned-checkouts).
+See Shopify – <a href="https://help.shopify.com/en/manual/orders/abandoned-checkouts" target="_blank">Recovering abandoned checkouts</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## Cancellation
 
@@ -67,25 +67,25 @@ Payments are processed in the webshop's default currency only.
 
 1. To install payment methods, use the relevant links. For each, click the **Install** button on the bottom right:
 
-    - [Alipay](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052872)
-    - [American Express](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052852)
-    - [Bancontact](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052848)
-    - [Bank Transfer](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052868)
-    - [Belfius](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052846)
-    - [CBC/KBC](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052862)
-    - [Dotpay](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052874)
-    - [EPS](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052876)
-    - [Giropay](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052864)
-    - [iDEAL](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052844), [iDEAL QR](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052850)
-    - [Maestro](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052870)
-    - [Mastercard](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052842)
-    - [PayPal](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052854)
-    - [Paysafecard](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052856)
-    - [Request to Pay](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1055441)
-    - [SEPA Direct Debit](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052858)
-    - [Sofort](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052866)
-    - [Trustly](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1053945)
-    - [Visa (including Cartes Bancaires & Dankort)](https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1030328)
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052872" target="_blank">Alipay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052852" target="_blank">American Express</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052848" target="_blank">Bancontact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052868" target="_blank">Bank Transfer</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052846" target="_blank">Belfius</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052862" target="_blank">CBC/KBC</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052874" target="_blank">Dotpay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052876" target="_blank">EPS</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052864" target="_blank">Giropay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052844" target="_blank">iDEAL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052850" target="_blank">iDEAL QR</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052870" target="_blank">Maestro</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052842" target="_blank">Mastercard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052854" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052856" target="_blank">Paysafecard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1055441" target="_blank">Request to Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052858" target="_blank">SEPA Direct Debit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052866" target="_blank">Sofort</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1053945" target="_blank">Trustly</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1030328" target="_blank">Visa (including Cartes Bancaires & Dankort)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 2. Sign in to your Shopify <<glossary:backend>>.
 3. Go to **Settings** > **Payment providers** > **Alternative payments**.

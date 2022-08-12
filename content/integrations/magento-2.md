@@ -38,13 +38,13 @@ The plugin consists of several Magento modules:
 
 | Module  | Description  |
 |---|---|
-| [Multisafepay-magento2-core](https://github.com/MultiSafepay/magento2-core)   | Provides core functionalities  |
-| [Multisafepay-magento2-frontend](https://github.com/MultiSafepay/magento2-frontend)  | Enables payment <<glossary:gateways>> in the Magento checkout  |
-| [Multisafepay-magento2-adminhtml](https://github.com/MultiSafepay/magento2-adminhtml)  | Enables/disables payment gateways, and changes settings in the Magento backend  |
-| [Multisafepay-magento2-msi](https://github.com/MultiSafepay/magento2-msi)  | Handles stock when MSI is enabled  |
-| [Multisafepay-magento2-catalog-inventory](https://github.com/MultiSafepay/magento2-catalog-inventory)  | Handles stock when MSI is disabled  |
-| [Multisafepay-magento2](https://github.com/MultiSafepay/magento2)  | Meta package that installs all the above  |
-| [Multisafepay-magento2-graphql](https://github.com/MultiSafepay/magento2-graphql)| For GraphQL support, extends and adds GraphQL queries and mutations |
+| <a href="https://github.com/MultiSafepay/magento2-core" target="_blank">Multisafepay-magento2-core</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>   | Provides core functionalities  |
+| <a href="https://github.com/MultiSafepay/magento2-frontend" target="_blank">Multisafepay-magento2-frontend</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  | Enables payment <<glossary:gateways>> in the Magento checkout  |
+| <a href="https://github.com/MultiSafepay/magento2-adminhtml" target="_blank">Multisafepay-magento2-adminhtml</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  | Enables/disables payment gateways, and changes settings in the Magento backend  |
+| <a href="https://github.com/MultiSafepay/magento2-msi" target="_blank">Multisafepay-magento2-msi</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  | Handles stock when MSI is enabled  |
+| <a href="https://github.com/MultiSafepay/magento2-catalog-inventory" target="_blank">Multisafepay-magento2-catalog-inventory</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  | Handles stock when MSI is disabled  |
+| <a href="https://github.com/MultiSafepay/magento2" target="_blank">Multisafepay-magento2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  | Meta package that installs all the above  |
+| <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">Multisafepay-magento2-graphql</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>| For GraphQL support, extends and adds GraphQL queries and mutations |
 
 </details>
 
@@ -54,7 +54,7 @@ The plugin consists of several Magento modules:
 
 The meta-package has a dependency on MSI. This means the MSI modules must be available (but not necessarily enabled) in your store. 
 
-If you have removed MSI (e.g. with a composer-replace trick like [yireo/magento2-replace-inventory](https://github.com/yireo/magento2-replace-inventory)), you can't install the meta-package. To integrate with MultiSafepay, instead of installing the meta-package, install the magento2-frontend module and the magento2-catalog-inventory module.
+If you have removed MSI (e.g. with a composer-replace trick like <a href="https://github.com/yireo/magento2-replace-inventory" target="_blank">yireo/magento2-replace-inventory</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>), you can't install the meta-package. To integrate with MultiSafepay, instead of installing the meta-package, install the magento2-frontend module and the magento2-catalog-inventory module.
 
 The magento2-frontend module has a dependency on the magento2-core and magento2-adminhtml modules, so they are all installed together. In some cases, you also then need a stock-handling module. Since MSI is not available, you can install the magento2-catalog-inventory module instead.
 
@@ -121,11 +121,11 @@ The plugin is compatible with most Magento checkouts.
 <summary>Supported checkouts</summary>
 <br>
 
-- [Amasty One Step Checkout](https://amasty.com/one-step-checkout-for-magento-2.html)
-- Hyvä: Compatible with Hyvä's [themes](https://hyva.io/hyva-themes-license.html) and [checkout](https://hyva.io/hyva-checkout.html)
+- <a href="https://amasty.com/one-step-checkout-for-magento-2.html" target="_blank">Amasty One Step Checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- Hyvä: Compatible with Hyvä's <a href="https://hyva.io/hyva-themes-license.html" target="_blank">themes</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and <a href="https://hyva.io/hyva-checkout.html" target="_blank">checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - Magento 2 core checkout: Works out of the box, based on the Luma theme
-- [MagePlaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension)
-- [OneStepCheckout.com](https://www.onestepcheckout.com/): MultiSafepay is an official partner, and the plugin is compatible with the latest version of the OneStepCheckout extension. Always test first to check compatibility with your configuration.
+- <a href="https://www.mageplaza.com/magento-2-one-step-checkout-extension" target="_blank">MagePlaza One Step Checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://www.onestepcheckout.com/" target="_blank">OneStepCheckout.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>: MultiSafepay is an official partner, and the plugin is compatible with the latest version of the OneStepCheckout extension. Always test first to check compatibility with your configuration.
 
 For support, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
 
@@ -190,7 +190,7 @@ You receive a ZIP package containing a system report file and any MultiSafepay l
 
 ## Magento Vault and Instant Purchase
 
-Magento Vault enables you to use [Instant purchase](https://magento.com/innovations-lab/instant-purchase), a feature that helps make repeat payments faster and easier, increasing your <<glossary:conversion>> rate. 
+Magento Vault enables you to use <a href="https://magento.com/innovations-lab/instant-purchase" target="_blank">Instant purchase</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, a feature that helps make repeat payments faster and easier, increasing your <<glossary:conversion>> rate. 
 
 <details id="how-it-works">
 <summary>How it works</summary>
@@ -244,7 +244,7 @@ The default lifetime of **Pending payment** orders in Magento 2 is 480 minutes (
  
 To extend the lifetime of pending payments orders, increase the **Order Cron settings** value to longer than the validation period.
 
-For instructions, see Magento – [Pending payment order lifetime](https://docs.magento.com/user-guide/sales/order-pending-payment-lifetime.html).
+For instructions, see Magento – <a href="https://docs.magento.com/user-guide/sales/order-pending-payment-lifetime.html" target="_blank">Pending payment order lifetime</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 **ERP systems**
 
@@ -383,7 +383,7 @@ You cannot add payment links to order confirmation emails created in your **fron
 
 ## Progressive web apps
 
-The plugin is compatible with GraphQL queries and can be integrated into PWA stores using an additional [GraphQL support module](https://github.com/MultiSafepay/magento2-graphql).
+The plugin is compatible with GraphQL queries and can be integrated into PWA stores using an additional <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">GraphQL support module</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 We also offer full extensions for [ScandiPWA](/docs/scandipwa/) and [Vue Storefront](/docs/vue-storefront/). 
 
@@ -449,7 +449,7 @@ The plugin does not support [surcharges](/docs/surcharges/), but you can use thi
 <summary>How to use Fooman for surcharges</summary>
 <br>
 
-To apply a surcharge or payment fee to a payment method, you can use the third-party [Fooman](https://store.fooman.co.nz/extensions/magento2) package.
+To apply a surcharge or payment fee to a payment method, you can use the third-party <a href="https://store.fooman.co.nz/extensions/magento2" target="_blank">Fooman</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> package.
 
 **Refunds**
 
@@ -491,13 +491,13 @@ To show prices **including** tax, use the following settings:
 - **Apply customer tax**: After discount
 - **Apply discount on prices**: Including tax
 
-These recommended settings are based on Magento's standards. For more information, see Magento – [Warning messages](https://docs.magento.com/user-guide/tax/warning-messages.html).
+These recommended settings are based on Magento's standards. For more information, see Magento – <a href="https://docs.magento.com/user-guide/tax/warning-messages.html" target="_blank">Warning messages</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 </details>
 
 ## Updates
 
-You can update the plugin via [Composer](https://getcomposer.org).
+You can update the plugin via <a href="https://getcomposer.org" target="_blank">Composer</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 <details id="how-to-update">
 <summary>How to update</summary>
@@ -519,7 +519,7 @@ You can update the plugin via [Composer](https://getcomposer.org).
 </details>
 
 ## Upgrades
-If you are still using the [deprecated plugin](https://github.com/MultiSafepay/Magento2Msp), we recommend upgrading to the latest version as soon as possible.
+If you are still using the <a href="https://github.com/MultiSafepay/Magento2Msp" target="_blank">deprecated plugin</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, we recommend upgrading to the latest version as soon as possible.
 
 <details id="why-upgrade">
 <summary>Why upgrade?</summary>
@@ -538,7 +538,7 @@ We support most Magento functionalities. For any questions, email <integration@m
 - Documentation for payment methods 
 - Modular setup for greater installation flexibility
 - PWA (GraphQL) endpoints
-- Support for [Magento Vault](https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html) and [Instant Purchase](https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html) (replace [recurring payments](/docs/recurring-payments/))
+- Support for <a href="https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html" target="_blank">Magento Vault</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and <a href="https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html" target="_blank">Instant Purchase</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (replace [recurring payments](/docs/recurring-payments/))
 
 **Configuration fields**
 
@@ -635,7 +635,7 @@ You can back up certain parts of the plugin by adding the following parameters:
 - `--backup-media`
 - `--backup-db`
 
-For information about all parameters, see Magento - [Uninstall modules](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall-mods.html#instgde-cli-uninst-mod-uninst).
+For information about all parameters, see Magento - <a href="https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall-mods.html#instgde-cli-uninst-mod-uninst" target="_blank">Uninstall modules</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 If you want a field from the deprecated plugin back, email <integration@multisafepay.com>
 
 **app/code**

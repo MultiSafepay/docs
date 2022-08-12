@@ -96,7 +96,7 @@ The plugin sets the language for payment pages and messages based on the Wordpre
 
 To change this behavior, use the `multisafepay_customer_locale` filter hook in our plugin.
 
-Ask your developer to read WordPress Developer Resources - [Filters in Wordpress](https://developer.wordpress.org/plugins/hooks/filters/).
+Ask your developer to read WordPress Developer Resources - <a href="https://developer.wordpress.org/plugins/hooks/filters/" target="_blank">Filters in Wordpress</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 Example implementation: 
 
@@ -149,8 +149,8 @@ To change something in an OrderRequest before a transaction is processed, use th
 
 First, read the following:
 
-- Wordpress – [Filters in Wordpress](https://developer.wordpress.org/plugins/hooks/filters/)
-- MultiSafepay GitHub – [MultiSafepay PHP-SDK](https://github.com/MultiSafepay/php-sdk/)
+- Wordpress – <a href="https://developer.wordpress.org/plugins/hooks/filters/" target="_blank">Filters in Wordpress</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/php-sdk/" target="_blank">MultiSafepay PHP-SDK</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 Example of how to implement and overwrite the shopping cart: 
 
@@ -213,7 +213,7 @@ To generate a payment link in your backend once an order is created, follow thes
 
 1. Sign in to your WooCommerce backend.
 2. Go to **WooCommerce** > **Orders** > **Add order**.
-3. For instructions to register the order details, see WooCommerce - [Managing orders](https://docs.woocommerce.com/document/managing-orders/#section-16).
+3. For instructions to register the order details, see WooCommerce - <a href="https://docs.woocommerce.com/document/managing-orders/#section-16" target="_blank">Managing orders</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 4. In **Order actions** panel, select the **Email invoice / order details to customer** option.  
 5. Click **Create order**.  
   An email is sent to the customer containing the order details and a payment link. The payment link is also available to the customer in their private account, under **Orders**. 
@@ -233,24 +233,24 @@ To generate a payment link in your backend once an order is created, follow thes
 - Prepaid cards:
     - Baby Cadeaubon
     - Beauty and Wellness gift card
-    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-    - [Fashioncheque](https://www.fashioncheque.com/nl)
-    - [Fashion gift card](https://www.fashion-giftcard.nl)
+    - <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.fashioncheque.com/nl" target="_blank">Fashioncheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Fietsenbon
-    - [Good4fun](https://www.good4fun.nl)
+    - <a href="https://www.good4fun.nl" target="_blank">Good4fun</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Goodcard
-    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
-    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
+    - <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.nationale-tuinbon.nl" target="_blank">Nationale tuinbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - [Paysafecard](/docs/paysafecard/)
-    - [Podium](https://www.podiumcadeaukaart.nl)
-    - [Sport en Fit](https://www.sportenfitcadeau.nl)
-    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
-    - [Webshop gift card](https://www.webshopgiftcard.nl)
-    - [Wellness gift card](https://www.wellnessgiftcard.nl)
+    - <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Wijncadeau
-    - [Winkelcheque](https://www.winkelcheque.nl)
-    - [Yourgift](https://www.yourgift.nl/)
+    - <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.yourgift.nl/" target="_blank">Yourgift</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 </details>
 

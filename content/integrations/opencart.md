@@ -20,7 +20,7 @@ slug: 'opencart'
 </div>
 
 > ℹ More information
-> For more information about the plugin and a preview, see Opencart – [MultiSafepay](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960).
+> For more information about the plugin and a preview, see Opencart – <a href="https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960" target="_blank">MultiSafepay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # Prerequisites
 
@@ -68,16 +68,16 @@ The following patches for third-party themes and extensions are available:
 
 | Patch | Download |
 |---|---|
-| [Journal3 Quick Checkout for OpenCart 3.0.X](https://www.journal-theme.com/) | [Download OCMOD](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-journal3-opencart-3.0.X.ocmod.zip) |
-| [Journal3 Quick Checkout for OpenCart 2.3.X](https://www.journal-theme.com/) | [Download OCMOD](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-journal3-opencart-2.3.X.ocmod.zip) |
-| [AJAX Quick Checkout for OpenCart 3.0.X](https://dreamvention.ee/ajax-quick-checkout-one-page-checkout-fast-checkout) | [Download OCMOD](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-ajax-quick-checkout-free-version-7.3.1-opencart-3.0.X.ocmod.zip) |
-| [AJAX Quick Checkout for OpenCart 2.3.X](https://dreamvention.ee/ajax-quick-checkout-one-page-checkout-fast-checkout) | [Download OCMOD](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-ajax-quick-checkout-free-version-7.3.1-opencart-2.3.X.ocmod.zip) |
-| [OnePage Checkout 4.0.0 for OpenCart 3.0.X](https://www.extensionsbazaar.com/opencart-one-page-checkout) | [Download OCMOD](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-onepage-checkout-4.0.0-opencart-3.0.X.ocmod.zip) |
-| [OnePage Checkout 4.0.0 for OpenCart 2.3.X](https://www.extensionsbazaar.com/opencart-one-page-checkout) | [Download OCMOD](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-onepage-checkout-4.0.0-opencart-2.3.X.ocmod.zip) |
-| [Quick Checkout / Onepage Checkout for OpenCart 3.0.X](https://www.modulepoints.com/quickcheckout) | [Download OCMOD](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-quick-checkout-from-module-points-opencart-3.0.X.ocmod.zip) |
-| [Quick Checkout / Onepage Checkout for OpenCart 2.3.X](https://www.modulepoints.com/quickcheckout) | [Download OCMOD](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-quick-checkout-from-module-points-opencart-2.3.X.ocmod.zip) |
-| [EU VAT Compliant](https://shop.openwebcreations.eu/eu-vat-compliant) | [Download OCMOD](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-owc-euvat-reverse-charge-vat-exempt.ocmod.zip) |
-| [PayCharge Free for OpenCart 2.3.X](https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=5040) | [Download OCMOD](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-paycharge-free-version-6.1-opencart-2.3.X.ocmod.zip) |
+| <a href="https://www.journal-theme.com/" target="_blank">Journal3 Quick Checkout for OpenCart 3.0.X</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-journal3-opencart-3.0.X.ocmod.zip" target="_blank">Download OCMOD</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://www.journal-theme.com/" target="_blank">Journal3 Quick Checkout for OpenCart 2.3.X</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-journal3-opencart-2.3.X.ocmod.zip" target="_blank">Download OCMOD</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://dreamvention.ee/ajax-quick-checkout-one-page-checkout-fast-checkout" target="_blank">AJAX Quick Checkout for OpenCart 3.0.X</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-ajax-quick-checkout-free-version-7.3.1-opencart-3.0.X.ocmod.zip" target="_blank">Download OCMOD</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://dreamvention.ee/ajax-quick-checkout-one-page-checkout-fast-checkout" target="_blank">AJAX Quick Checkout for OpenCart 2.3.X</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-ajax-quick-checkout-free-version-7.3.1-opencart-2.3.X.ocmod.zip" target="_blank">Download OCMOD</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://www.extensionsbazaar.com/opencart-one-page-checkout" target="_blank">OnePage Checkout 4.0.0 for OpenCart 3.0.X</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-onepage-checkout-4.0.0-opencart-3.0.X.ocmod.zip" target="_blank">Download OCMOD</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://www.extensionsbazaar.com/opencart-one-page-checkout" target="_blank">OnePage Checkout 4.0.0 for OpenCart 2.3.X</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-onepage-checkout-4.0.0-opencart-2.3.X.ocmod.zip" target="_blank">Download OCMOD</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://www.modulepoints.com/quickcheckout" target="_blank">Quick Checkout / Onepage Checkout for OpenCart 3.0.X</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-quick-checkout-from-module-points-opencart-3.0.X.ocmod.zip" target="_blank">Download OCMOD</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://www.modulepoints.com/quickcheckout" target="_blank">Quick Checkout / Onepage Checkout for OpenCart 2.3.X</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-quick-checkout-from-module-points-opencart-2.3.X.ocmod.zip" target="_blank">Download OCMOD</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://shop.openwebcreations.eu/eu-vat-compliant" target="_blank">EU VAT Compliant</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-owc-euvat-reverse-charge-vat-exempt.ocmod.zip" target="_blank">Download OCMOD</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
+| <a href="https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=5040" target="_blank">PayCharge Free for OpenCart 2.3.X</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/opencart/multisafepay-patch-for-paycharge-free-version-6.1-opencart-2.3.X.ocmod.zip" target="_blank">Download OCMOD</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> |
 
   <br>
   
@@ -181,24 +181,24 @@ The customer receives the payment link in the email sent by OpenCart containing 
 - <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
-    - [Baby Cadeaubon](https://www.babycadeaubon.nl)
+    - <a href="https://www.babycadeaubon.nl" target="_blank">Baby Cadeaubon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Beauty & Wellness
-    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-    - [Fashion Cheque](https://www.fashioncheque.com/nl)
-    - [Fashion gift card](https://www.fashion-giftcard.nl)
+    - <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.fashioncheque.com/nl" target="_blank">Fashion Cheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Fietsenbon
-    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
-    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
+    - <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.nationale-tuinbon.nl" target="_blank">Nationale tuinbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - [Paysafecard](/docs/paysafecard/)
-    - [Podium](https://www.podiumcadeaukaart.nl)
-    - [Sport en Fit](https://www.sportenfitcadeau.nl)
-    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
-    - [Webshop gift card](https://www.webshopgiftcard.nl)
-    - [Wellness gift card](https://www.wellnessgiftcard.nl)
+    - <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Wijncadeau
-    - [Winkelcheque](https://www.winkelcheque.nl)
-    - [Yourgift](https://www.yourgift.nl/)
+    - <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.yourgift.nl/" target="_blank">Yourgift</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 </details>
 

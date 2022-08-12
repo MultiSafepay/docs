@@ -25,7 +25,7 @@ slug: 'shopware'
 ## Prequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Shopware 6.3.x, 6.4.x _([Starter Edition](https://www.shopware.com/en/pricing) supported)_*
+- Shopware 6.3.x, 6.4.x _(<a href="https://www.shopware.com/en/pricing" target="_blank">Starter Edition</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> supported)_*
 - Tested on PHP 7.2.0
 
 ## How to install and configure
@@ -33,7 +33,7 @@ slug: 'shopware'
 > **Tip!** We recommend first installing the plugin in a test environment, following the Shopware 6 installation procedure. Always make a backup.
 
 ### Marketplace installation
-Get the free MultiSafepay plugin from the [Shopware 6 marketplace](https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html) and connect your webshop with your Shopware account.
+Get the free MultiSafepay plugin from the <a href="https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html" target="_blank">Shopware 6 marketplace</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and connect your webshop with your Shopware account.
 
 ### Composer installation
 Run the following command in the root of your Shopware root directory. Make sure the composer is installed on your hosting server.
@@ -44,7 +44,7 @@ composer require multisafepay/shopware6
 
 ### Manual installation
 
-1. Navigate to our [Shopware 6 GitHub repository](https://github.com/MultiSafepay/shopware6/releases).
+1. Navigate to our <a href="https://github.com/MultiSafepay/shopware6/releases" target="_blank">Shopware 6 GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Under **Assets**, download the latest release, which starts with Plugin_Shopware6_x.x.x.zip.
 3. Sign in to your Shopware 6 <<glossary:backend>>.
 4. Go to **Extensions** > **My extensions** and click **...** (more) button. 
@@ -56,7 +56,7 @@ composer require multisafepay/shopware6
 <summary>How to install versions < 6.4</summary>
 <br>
 
-1. Navigate to our [Shopware 6 GitHub repository](https://github.com/MultiSafepay/shopware6/releases).
+1. Navigate to our <a href="https://github.com/MultiSafepay/shopware6/releases" target="_blank">Shopware 6 GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Under **Assets**, download the latest release, which starts with Plugin_Shopware6_x.x.x.zip.
 3. Sign in to your Shopware 6 <<glossary:backend>>.
 4. Go to **Settings** > **System** on the left hand side.
@@ -128,22 +128,22 @@ For questions, email <integration@multisafepay.com>
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
-    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-    - [Fashioncheque](https://www.fashioncheque.com/nl)
-    - [Fashion gift card](https://www.fashion-giftcard.nl)
+    - <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.fashioncheque.com/nl" target="_blank">Fashioncheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Fietsenbon
-    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
-    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
+    - <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.nationale-tuinbon.nl" target="_blank">Nationale tuinbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - [Paysafecard](/docs/paysafecard/)
-    - [Podium](https://www.podiumcadeaukaart.nl)
-    - [Sport en Fit](https://www.sportenfitcadeau.nl)
-    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
-    - [Webshop gift card](https://www.webshopgiftcard.nl)
-    - [Wellness gift card](https://www.wellnessgiftcard.nl)
+    - <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Wijncadeau
-    - [Winkelcheque](https://www.winkelcheque.nl)
-    - [Yourgift](https://www.yourgift.nl/)
+    - <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.yourgift.nl/" target="_blank">Yourgift</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 </details>
 
@@ -269,23 +269,23 @@ You can filter generic gateways by country, and minimum and maximum amount.
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
-    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-    - [Fashioncheque](https://www.fashioncheque.com/nl)
-    - [Fashion gift card](https://www.fashion-giftcard.nl)
+    - <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.fashioncheque.com/nl" target="_blank">Fashioncheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Fietsenbon
-    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-    - [Good4fun](https://www.good4fun.nl)
-    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
-    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
+    - <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.good4fun.nl" target="_blank">Good4fun</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.nationale-tuinbon.nl" target="_blank">Nationale tuinbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - [Paysafecard](/docs/paysafecard/)
-    - [Podium](https://www.podiumcadeaukaart.nl)
-    - [Sport en Fit](https://www.sportenfitcadeau.nl)
-    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
-    - [Webshop gift card](https://www.webshopgiftcard.nl)
-    - [Wellness gift card](https://www.wellnessgiftcard.nl)
+    - <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Wijncadeau
-    - [Winkelcheque](https://www.winkelcheque.nl)
-    - [Yourgift](https://www.yourgift.nl/)
+    - <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.yourgift.nl/" target="_blank">Yourgift</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 </details>
 
@@ -301,7 +301,7 @@ You cannot refund more than the original amount in your backend.
 <br>
 
 Shopware 5 can remove sessions before the order is created in the backend.
-To prevent this, we recommend making the following changes to the [config.php](https://developers.shopware.com/developers-guide/shopware-config/).
+To prevent this, we recommend making the following changes to the <a href="https://developers.shopware.com/developers-guide/shopware-config/" target="_blank">config.php</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ```
 'session' => [
@@ -311,7 +311,7 @@ To prevent this, we recommend making the following changes to the [config.php](h
 ],
 ```
 
-For more information, see Shopware – [Blocking transactions](https://developers.shopware.com/sysadmins-guide/sessions/#blocking-transactions).
+For more information, see Shopware – <a href="https://developers.shopware.com/sysadmins-guide/sessions/#blocking-transactions" target="_blank">Blocking transactions</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 </details>
 
@@ -371,7 +371,7 @@ MultiSafepay will continue to support Shopware 5 as long as it remains in the ma
 
 **Migrating to Shopware 6**  
 
-For instructions, see the [Shopware migration manual](https://docs.shopware.com/en/migration-en).
+For instructions, see the <a href="https://docs.shopware.com/en/migration-en" target="_blank">Shopware migration manual</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 For questions, email <integration@multisafepay.com>
 

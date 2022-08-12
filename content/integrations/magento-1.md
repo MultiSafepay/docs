@@ -878,23 +878,23 @@ Supported since release: 3.1.0, June 15th 2021.
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
-    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-    - [Fashioncheque](https://www.fashioncheque.com/nl)
-    - [Fashion gift card](https://www.fashion-giftcard.nl)
+    - <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.fashioncheque.com/nl" target="_blank">Fashioncheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Fietsenbon
-    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome)
-    - [Good4fun](https://www.good4fun.nl)
-    - [Nationale tuinbon](https://www.nationale-tuinbon.nl)
-    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl)
+    - <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.good4fun.nl" target="_blank">Good4fun</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.nationale-tuinbon.nl" target="_blank">Nationale tuinbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - [Paysafecard](/docs/paysafecard/)
-    - [Podium](https://www.podiumcadeaukaart.nl)
-    - [Sport en Fit](https://www.sportenfitcadeau.nl)
-    - [VVV gift card](https://www.vvvcadeaukaarten.nl)
-    - [Webshop gift card](https://www.webshopgiftcard.nl)
-    - [Wellness gift card](https://www.wellnessgiftcard.nl)
+    - <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Wijncadeau
-    - [Winkelcheque](https://www.winkelcheque.nl)
-    - [Yourgift](https://www.yourgift.nl)
+    - <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.yourgift.nl" target="_blank">Yourgift</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 </details>
 
@@ -944,7 +944,7 @@ Recurring Payments are not available for the generic credit card gateway. You mu
 | Platform | Details |
 |---|---|
 | MultiSafepay dashboard | Full refunds (may not appear in your backend) |
-| Backend | Full refunds and [credit memos](https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html) <br> You can't refund more than the original amount |
+| Backend | Full refunds and <a href="https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html" target="_blank">credit memos</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> You can't refund more than the original amount |
 | <<glossary:BNPL>> orders | You can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded. |
 
 </details>
@@ -1009,7 +1009,7 @@ You can update the plugin in your Magento 1 backend or the CMS marketplace, or v
 
 Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1. 
 
-For more information and instructions, see MultiSafepay blog – [Magento 1: The final weeks](https://bit.ly/2YX2LGL).
+For more information and instructions, see MultiSafepay blog – <a href="https://bit.ly/2YX2LGL" target="_blank">Magento 1: The final weeks</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 <br>
 
 ---

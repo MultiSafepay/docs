@@ -19,9 +19,9 @@ slug: 'scandipwa'
 
 # Prerequisites
 
-- You will need a [MultiSafepay account](https://testmerchant.multisafepay.com/signup).
-- To support GraphQL queries, install the [MultiSafepay Magento 2 GraphQL](https://github.com/MultiSafepay/magento2-graphql) plugin.
-- You must also meet ScandiPWA and Magento requirements. See ScandiPWA – [Prerequisites](https://docs.scandipwa.com/getting-started/getting-started/magento-integration#prerequisites).
+- You will need a <a href="https://testmerchant.multisafepay.com/signup" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- To support GraphQL queries, install the <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">MultiSafepay Magento 2 GraphQL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> plugin.
+- You must also meet ScandiPWA and Magento requirements. See ScandiPWA – <a href="https://docs.scandipwa.com/getting-started/getting-started/magento-integration#prerequisites" target="_blank">Prerequisites</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # Payment methods
 
@@ -61,7 +61,7 @@ slug: 'scandipwa'
 
 # How to install and configure
 
-See MultiSafepay GitHub – [Installation guide](https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration).
+See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration" target="_blank">Installation guide</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 <br>
 
 ---

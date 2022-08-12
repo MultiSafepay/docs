@@ -26,7 +26,7 @@ To integrate the app, email <integration@multisafepay.com>
 <summary>Support</summary>
 <br>
 
-For support, see Dynamicweb - [Contact us](https://www.dynamicweb.com/about/contact-us). 
+For support, see Dynamicweb - <a href="https://www.dynamicweb.com/about/contact-us" target="_blank">Contact us</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 </details>
 
 ___
@@ -47,7 +47,7 @@ For integration support, email <integration@multisafepay.com>
 <summary>Support</summary>
 <br>
 
-For other support, see Easywebshop – [Contact](https://www.easywebshop.com/software/contact).
+For other support, see Easywebshop – <a href="https://www.easywebshop.com/software/contact" target="_blank">Contact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 </details>
 
 ___
@@ -69,7 +69,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 <summary>Support</summary>
 <br>
 
-For any technical queries about the plugin, see Logic4 – [Contact](https://www.logic4.nl/contact/).
+For any technical queries about the plugin, see Logic4 – <a href="https://www.logic4.nl/contact/" target="_blank">Contact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 </details>
 
 <details id="logic4-payment-methods">
@@ -99,7 +99,7 @@ For any technical queries about the plugin, see Logic4 – [Contact](https://www
 <summary>Installation and configuration</summary>
 <br>
 
-To install and configure the plugin, see Logic4 – [Contact](https://www.logic4.nl/contact/).
+To install and configure the plugin, see Logic4 – <a href="https://www.logic4.nl/contact/" target="_blank">Contact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 </details>
 
 ___
@@ -121,7 +121,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 <summary>Support</summary>
 <br>
 
-For technical support, contact LogiVert - [Support](https://www.logivert.com/nl/support/c-10).
+For technical support, contact LogiVert - <a href="https://www.logivert.com/nl/support/c-10" target="_blank">Support</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 </details>
 
@@ -148,7 +148,7 @@ For technical support, contact LogiVert - [Support](https://www.logivert.com/nl/
 <summary>Installation and configuration</summary>
 <br>
 
-To install and configure, see LogiVert – [Manual](https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen).
+To install and configure, see LogiVert – <a href="https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen" target="_blank">Manual</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 > **Tip!** We recommend first installing the plugin in a test environment, following the Logivert installation procedure. Always make a backup.
 </details>
@@ -165,14 +165,14 @@ Sana Commerce (version 9.3 and higher) provides a free app to integrate with Mul
 <summary>Integration</summary>
 <br>
 
-See Sana Commerce – [MultiSafepay](https://help.sana-commerce.com/sana-commerce-93/payment-services/multisafepay/introduction).  
+See Sana Commerce – <a href="https://help.sana-commerce.com/sana-commerce-93/payment-services/multisafepay/introduction" target="_blank">MultiSafepay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.  
 </details>
 
 <details id="sana-commerce-support">
 <summary>Support</summary>
 <br>
 
-See Sana Commerce – [Contact](https://www.sana-commerce.com/nl/contact).
+See Sana Commerce – <a href="https://www.sana-commerce.com/nl/contact" target="_blank">Contact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 </details>
 
 ____
@@ -194,7 +194,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 <summary>Support</summary>
 <br>
 
-See ShopFactory – [ShopFactory support](https://www.shopfactory.nl/contents/nl/d122.html).
+See ShopFactory – <a href="https://www.shopfactory.nl/contents/nl/d122.html" target="_blank">ShopFactory support</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 </details>
 
 <details id="shopfactory-payment-methods">
@@ -208,7 +208,7 @@ Email <integration@multisafepay.com>
 <summary>Refunds</summary>
 <br>
 
-You can process refunds from your [MultiSafepay dashboard](https://merchant.multisafepay.com). 
+You can process refunds from your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
 To process refunds from your ShopFactory <<glossary:backend>>, email <integration@multisafepay.com>
 </details>
@@ -263,7 +263,7 @@ ZilverCMS provides a free app to integrate with MultiSafepay.
 <summary>Support</summary>
 <br>
 
-- See ZilverCMS - [Contact](https://www.zilverhq.nl/contact)
+- See ZilverCMS - <a href="https://www.zilverhq.nl/contact" target="_blank">Contact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - Email <integration@multisafepay.com>
 </details>
 
@@ -274,7 +274,7 @@ ZilverCMS provides a free app to integrate with MultiSafepay.
 - Cards: [All](/docs/card-payments/)
 - <<glossary:BNPL>>: [Betaal per Maand](/docs/betaal-per-maand/)
 - Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/paypal/)
-- Prepaid cards: [VVV gift card](https://www.vvvcadeaukaarten.nl)
+- Prepaid cards: <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
     - [Bank Transfer](/docs/bank-transfer/)
@@ -297,7 +297,7 @@ ___
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Picqer.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-[Picqer](https://picqer.com/nl)
+<a href="https://picqer.com/nl" target="_blank">Picqer</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 ---
 
@@ -305,7 +305,7 @@ ___
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Sherpaan.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-[Sherpaan](https://sherpaan.nl/project/multisafepay/)
+<a href="https://sherpaan.nl/project/multisafepay/" target="_blank">Sherpaan</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 ___
 
@@ -314,7 +314,7 @@ ___
 ## Planyo
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Planyo.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-Our partner [Planyo](https://www.planyo.com/) offers online reservation software that lets customers make, confirm, and modify reservations, and pay online. You can also customize the reservation form. 
+Our partner <a href="https://www.planyo.com/" target="_blank">Planyo</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> offers online reservation software that lets customers make, confirm, and modify reservations, and pay online. You can also customize the reservation form. 
 
 <details id="integration">
 <summary>Integration</summary>
@@ -338,7 +338,7 @@ ___
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/MplusKASSA.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-Our partner [MplusKASSA](https://www.mpluskassa.nl) offers order management software for restaurants, cafes, and hotels that can integrate with MultiSafepay.
+Our partner <a href="https://www.mpluskassa.nl" target="_blank">MplusKASSA</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> offers order management software for restaurants, cafes, and hotels that can integrate with MultiSafepay.
 
 For more information, email MplusKASSA at <info@mpluskassa.nl>
 
@@ -362,7 +362,7 @@ ___
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/HostBill.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-Our partner [HostBill](https://hostbillapp.com/) provides billing and automation software handles all aspects of running an online business, from client acquisition, invoicing, payments and management, to customer service and support.
+Our partner <a href="https://hostbillapp.com/" target="_blank">HostBill</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> provides billing and automation software handles all aspects of running an online business, from client acquisition, invoicing, payments and management, to customer service and support.
 
 <details id="integration-and-testing">
 <summary>Integration and testing</summary>
@@ -378,7 +378,7 @@ To integrate MultiSafepay as your payment provider, follow these steps:
 4. Click **Edit general settings**, and then enter your [MultiSafepay site API key](/docs/sites#site-id-api-key-and-security-code).
 5. Click **Save changes**.
 
-**Step 2.** Configure the module as required, e.g. the [module name and callback URL](https://hostbill.atlassian.net/wiki/spaces/DOCS/pages/559120402/MultiSafepay).
+**Step 2.** Configure the module as required, e.g. the <a href="https://hostbill.atlassian.net/wiki/spaces/DOCS/pages/559120402/MultiSafepay" target="_blank">module name and callback URL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 **Step 3.** Perform a test transaction.
 
@@ -397,12 +397,12 @@ ___
 ## Twikey
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Twikey.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-Our partner [Twikey](https://www.twikey.com/) offers an online tool for managing and collecting subscriptions that includes <br> [SEPA direct debit mandate management](https://www.twikey.com/solution/mandate.html).
+Our partner <a href="https://www.twikey.com/" target="_blank">Twikey</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> offers an online tool for managing and collecting subscriptions that includes <br> <a href="https://www.twikey.com/solution/mandate.html" target="_blank">SEPA direct debit mandate management</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 Customers can complete payments via:
 
 - A MultiSafepay [payment link](/docs/payment-links/) added to your invoice.  
-See Twikey – [Naadloze integratie MultiSafepay](https://www.twikey.com/nl/partner/multisafepay.html).
+See Twikey – <a href="https://www.twikey.com/nl/partner/multisafepay.html" target="_blank">Naadloze integratie MultiSafepay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 - A one-off payment link or QR code sent via Twikey, e.g. by email, WhatsApp, SMS
 
 <details id="integration">
@@ -414,8 +414,8 @@ To integrate with MultiSafepay, follow these steps:
 1. Sign in to your Twikey account.
 2. Go to **Settings** > **Integrations** > **MultiSafepay**.
 3. Enter your [MultiSafepay site API key](/docs/sites#site-id-api-key-and-security-code).
-4. To add a payment link to your invoices, update your invoice settings in your [Twikey template settings](https://www.beta.twikey.com/support/creditor/invoices/invoice_options.html).
-5. To create a payment link, go to [Payment links](https://www.beta.twikey.com/support/creditor/paymentlinks/paymentlink_management.html) enter the relevant information, e.g. amount, customer.
+4. To add a payment link to your invoices, update your invoice settings in your <a href="https://www.beta.twikey.com/support/creditor/invoices/invoice_options.html" target="_blank">Twikey template settings</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+5. To create a payment link, go to <a href="https://www.beta.twikey.com/support/creditor/paymentlinks/paymentlink_management.html" target="_blank">Payment links</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> enter the relevant information, e.g. amount, customer.
 
 </details>
 
@@ -427,7 +427,7 @@ ___
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/duda.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-[Duda](https://www.duda.co/)
+<a href="https://www.duda.co/" target="_blank">Duda</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 ---
 
@@ -435,7 +435,7 @@ ___
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Mijndomein.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
-[MijnDomein](https://www.mijndomein.nl/)
+<a href="https://www.mijndomein.nl/" target="_blank">MijnDomein</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 <br>
 

@@ -413,7 +413,7 @@ Release date: Nov 11, 2014
 
 PrestaShop 1.6 version 3.1.7 lets you skip the extra confirmation page so that the customer is redirected straight to the MultiSafepay payment page.
 
-This is no longer supported from version 3.2.0. If you want to skip the extra confirmation page, you can [download version 3.1.7](https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.7.1.zip). New features might be lost when downgrading.
+This is no longer supported from version 3.2.0. If you want to skip the extra confirmation page, you can <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.7.1.zip" target="_blank">download version 3.1.7</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. New features might be lost when downgrading.
 
 ## Generic gateways
 
@@ -431,7 +431,7 @@ Supported since release: 3.8.0, Jul 13, 2022
 4. In the **Gateway title** field, enter the name of the payment method. 
 5. In the **Gateway ID** field, enter the [gateway ID](/reference/gateway-ids).
 6. Optionally:
-    - Upload the [payment method logo](https://github.com/MultiSafepay/MultiSafepay-icons).
+    - Upload the <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">payment method logo</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
     - Enter minimum and maximum order amounts.
 7. Click **Save**. 
 
@@ -525,7 +525,7 @@ Backend refunds are **not** supported.
 <summary>Applying surcharges with BVK</summary>
 <br>
 
-To apply a surcharge or payment fee to a payment method, you can use the third-party [BVK](https://www.bvkyazilim.com/cart/prestashop-modules) package.
+To apply a surcharge or payment fee to a payment method, you can use the third-party <a href="https://www.bvkyazilim.com/cart/prestashop-modules" target="_blank">BVK</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> package.
 
 The Integration Team will do their best to support you with installing BVK, but bear in mind that it is a third-party package. We can't guarantee perfect compatibility.
 
@@ -536,7 +536,7 @@ The Integration Team will do their best to support you with installing BVK, but 
 
 ## Thirty Bees
 
-For support for the Prestashop [Thirty Bees](https://thirtybees.com/blog/what-is-thirty-bees) fork, email <integration@multisafepay.com>
+For support for the Prestashop <a href="https://thirtybees.com/blog/what-is-thirty-bees" target="_blank">Thirty Bees</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> fork, email <integration@multisafepay.com>
 
 ## Updates
 

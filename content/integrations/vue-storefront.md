@@ -14,7 +14,7 @@ slug: 'vue-storefront'
 
 # How to install and configure
 
-See MultiSafepay GitHub – [Installation guide](https://github.com/MultiSafepay/vsf-payment-multisafepay).
+See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/vsf-payment-multisafepay" target="_blank">Installation guide</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 <br>
 
 ---

@@ -62,7 +62,7 @@ You can configure the webhook endpoint at:
 <summary>Site level</summary>
 <br>
 
-1. Sign in to your [MultiSafepay account](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings** > **Website settings**.
 3. Select the relevant site.
 4. In the **Notification URL** field, set your webhook endpoint.
