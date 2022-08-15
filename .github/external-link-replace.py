@@ -11,6 +11,7 @@ replacement = r'<a href="\2" target="_blank">\1</a> <i class="fa fa-external-lin
 def main():
     for path in PATH:
         for file in walk(path):
+            print(file)
             replace_urls(file)
 
 
