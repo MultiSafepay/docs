@@ -19,9 +19,9 @@ slug: 'pwa-studio-venia'
 
 # Prerequisites
 
-- You will need a [MultiSafepay account](https://testmerchant.multisafepay.com/signup).
-- To support GraphQL queries, install the [MultiSafepay Magento 2 GraphQL plugin](https://github.com/MultiSafepay/magento2-graphql).
-- You must also meet Magento's requirements for PWA Studio (Venia). See Magento – [Prerequisites](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/#prerequisites).
+- You will need a <a href="https://testmerchant.multisafepay.com/signup" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- To support GraphQL queries, install the <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">MultiSafepay Magento 2 GraphQL plugin</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- You must also meet Magento's requirements for PWA Studio (Venia). See Magento – <a href="https://magento.github.io/pwa-studio/venia-pwa-concept/setup/#prerequisites" target="_blank">Prerequisites</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # Payment methods
 
@@ -32,11 +32,11 @@ By default, this plugin supports all [payment methods supported by our Magento 2
 - Pay After Delivery  
 
 You can integrate these payment methods yourself.  
-See MultiSafepay GitHub – [PWA Studio components](https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration/tree/master/src/components).
+See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration/tree/master/src/components" target="_blank">PWA Studio components</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # How to install and configure 
 
-To install the MultiSafepay plugin in your PWA Studio application, see MultiSafepay GitHub – [Installation guide](https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration#installation-guide).
+To install the MultiSafepay plugin in your PWA Studio application, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration#installation-guide" target="_blank">Installation guide</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 <br>
 
 ---

@@ -41,7 +41,7 @@ slug: 'odoo'
     ```
     pip3 install multisafepay==0.2.0
     ```
-    For more information about dependencies, see Python - [MultiSafepay](https://pypi.org/project/multisafepay).
+    For more information about dependencies, see Python - <a href="https://pypi.org/project/multisafepay" target="_blank">MultiSafepay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 5. Restart your Odoo server.
 6. In your Odoo <<glossary:backend>>, activate developer mode.
 7. Go to the **Apps menu** > **Update apps list**.

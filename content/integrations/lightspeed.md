@@ -33,7 +33,7 @@ slug: 'lightspeed'
 3. Search for the **MultiSafepay payments app**.
 4. Click on the app, and then on **Install app** in the top-right corner.  
 5. In the dialog, approve the permissions required for the app.  
-   You are redirected to Lightspeed – [MultiSafepay: How to log in](https://lightspeed.multisafepay.com/install).
+   You are redirected to Lightspeed – <a href="https://lightspeed.multisafepay.com/install" target="_blank">MultiSafepay: How to log in</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 6. In the **Setup** page:
   - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
   - Select **Test** or **Live** environment, and click **Save and continue**.  
@@ -153,25 +153,25 @@ When you generate a payment link in your MultiSafepay dashboard, you cannot upda
 - Prepaid cards: 
     - Baby gift card
     - Beauty and Wellness gift card
-    - [Bloemencadeaukaart](https://www.bloemen-cadeaukaart.nl)
-    - [Boekenbon](https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon)
-    - [Degrotespeelgoedwinkel](https://www.degrotespeelgoedwinkel.nl/cadeaukaart)
-    - [Fashion Cheque](https://www.fashioncheque.com/nl/)
-    - [Fashion gift card](https://www.fashion-giftcard.nl/)
+    - <a href="https://www.bloemen-cadeaukaart.nl" target="_blank">Bloemencadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.degrotespeelgoedwinkel.nl/cadeaukaart" target="_blank">Degrotespeelgoedwinkel</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.fashioncheque.com/nl/" target="_blank">Fashion Cheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.fashion-giftcard.nl/" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Fietsenbon
-    - [Gezondheidsbon](https://www.gezondheidsbon.nl/mhome/)
+    - <a href="https://www.gezondheidsbon.nl/mhome/" target="_blank">Gezondheidsbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Goodcard
-    - [Nationale bioscoopbon](https://www.bioscoopbon.nl)
-    - [Nationale tuinbon](https://www.nationale-tuinbon.nl/)
-    - [Parfumcadeaukaart](https://www.parfumcadeaukaart.nl/)
-    - [Sport en Fit](https://www.sportenfitcadeau.nl/)
-    - [VVV gift card](https://www.vvvcadeaukaarten.nl/)
-    - [Webshop gift card](https://www.webshopgiftcard.nl/)
+    - <a href="https://www.bioscoopbon.nl" target="_blank">Nationale bioscoopbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.nationale-tuinbon.nl/" target="_blank">Nationale tuinbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.parfumcadeaukaart.nl/" target="_blank">Parfumcadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.sportenfitcadeau.nl/" target="_blank">Sport en Fit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.vvvcadeaukaarten.nl/" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.webshopgiftcard.nl/" target="_blank">Webshop gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Wijncadeau
-    - [Winkelcheque](https://www.winkelcheque.nl/)
-    - [Yourgift](https://www.yourgift.nl)  
+    - <a href="https://www.winkelcheque.nl/" target="_blank">Winkelcheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.yourgift.nl" target="_blank">Yourgift</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  
 
-To use MultiSafepay payment method icons, see GitHub [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+To use MultiSafepay payment method icons, see GitHub <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">MultiSafepay icons</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 </details>
 
@@ -215,7 +215,7 @@ Logos may be missing due to your site theme settings.
 
 To add missing payment method logos, follow these steps:
 
-1. Download the logos from our [Github repo](https://github.com/MultiSafepay/MultiSafepay-icons).
+1. Download the logos from our <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">Github repo</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Rename the file with upper case formatting, e.g applepay.png > APPLEPAY.png.
 3. Sign in to your Lightspeed app.
 4. Go to **Design** > **Theme editor** > **Advanced** > **Edit code** > **Assets**, and drop in the logos.  
@@ -272,7 +272,7 @@ By default, newly activated payment methods for your MultiSafepay account are di
 
 If a payment method is missing:
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/) and check that the payment method is enabled.
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and check that the payment method is enabled.
 2. Sign in to your Lightspeed app, go to **Settings**, and then enable the payment method again. 
 
 </details>
@@ -295,7 +295,7 @@ After terminating your contract with MultiSafepay, our payment methods may still
 
 The Lightspeed app doesn't support [Second Chance](/docs/second-chance/) emails because Lightspeed orders expire after 12 hours. 
 
-Lightspeed offers a functionality that lets you configure payment reminders and emails for orders with **Pending** status. For more information and instructions, see Lightspeed – [Configuring payment reminders](https://ecom-support.lightspeedhq.com/hc/en-us/articles/220661507-Configuring-payment-reminders).
+Lightspeed offers a functionality that lets you configure payment reminders and emails for orders with **Pending** status. For more information and instructions, see Lightspeed – <a href="https://ecom-support.lightspeedhq.com/hc/en-us/articles/220661507-Configuring-payment-reminders" target="_blank">Configuring payment reminders</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## Refunds
 
@@ -317,7 +317,7 @@ You can't refund more than the original amount in your backend.
 
 **Notes**
 
-- If you use Lightspeed eCom linked to [Lightspeed Retail](https://www.lightspeedhq.nl/kassasysteem/retail/) to process refunds via MultiSafepay, you must enable the **Always create a refund, no matter the status** setting.
+- If you use Lightspeed eCom linked to <a href="https://www.lightspeedhq.nl/kassasysteem/retail/" target="_blank">Lightspeed Retail</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> to process refunds via MultiSafepay, you must enable the **Always create a refund, no matter the status** setting.
 
 - When creating a credit memo, set the status to **Not paid**. If the **Always create a refund, no matter the status** setting is not enabled, MultiSafepay ignores **Paid** status.
 

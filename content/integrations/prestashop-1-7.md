@@ -20,7 +20,7 @@ slug: 'prestashop-1-7'
 </div>
 
 > ⚠️ Action required
-> If you are still using the [deprecated plugin](https://github.com/MultiSafepay/prestashop), we recommend [upgrading to the latest version](#upgrades) as soon as possible.
+> If you are still using the <a href="https://github.com/MultiSafepay/prestashop" target="_blank">deprecated plugin</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, we recommend [upgrading to the latest version](#upgrades) as soon as possible.
 
 # Prerequisites
 
@@ -28,7 +28,7 @@ slug: 'prestashop-1-7'
 - PrestaShop version 1.7.6 or higher
 - PHP version 7.2 or higher
 
-> **Tip!** If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an older version (4.x) of our plugin which can be found in our [PrestaShop GitHub repository](https://github.com/MultiSafepay/prestashop/releases). 
+> **Tip!** If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an older version (4.x) of our plugin which can be found in our <a href="https://github.com/MultiSafepay/prestashop/releases" target="_blank">PrestaShop GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
 # How to install
 
@@ -66,8 +66,8 @@ The plugin supports the PrestaShop core checkout and is compatible with most pre
 
 The following third-party modules are supported:
 
-- [One Page Checkout PS](https://addons.prestashop.com/en/express-checkout-process/8503-one-page-checkout-ps-easy-fast-intuitive.html)
-- [The Checkout](https://addons.prestashop.com/en/express-checkout-process/42005-the-checkout.html) – Payment options must be set on separate pages in the plugin settings page.
+- <a href="https://addons.prestashop.com/en/express-checkout-process/8503-one-page-checkout-ps-easy-fast-intuitive.html" target="_blank">One Page Checkout PS</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://addons.prestashop.com/en/express-checkout-process/42005-the-checkout.html" target="_blank">The Checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> – Payment options must be set on separate pages in the plugin settings page.
 
 The Integration Team will do their best to provide support for third-party plugins and premium themes. Email <integration@multisafepay.com>
 
@@ -258,7 +258,7 @@ As a temporary solution, you can disable sending the shopping cart with the paym
 <summary>How to apply surcharges with third-party add-ons</summary>
 <br>
 
-There are several [third-party add-ons](https://addons.prestashop.com/en/search?search_query=surcharge) available. However, we can't guarantee compatibility with our plugin. Make sure that you test them carefully before installing.
+There are several <a href="https://addons.prestashop.com/en/search?search_query=surcharge" target="_blank">third-party add-ons</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> available. However, we can't guarantee compatibility with our plugin. Make sure that you test them carefully before installing.
 
 > ⚠️ **Attention Dutch merchants** 
 > We strongly recommend **not** applying surcharges to <<glossary:BNPL>> methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
