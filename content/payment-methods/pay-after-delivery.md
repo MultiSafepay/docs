@@ -11,7 +11,7 @@ slug: 'pay-after-delivery'
 
 Pay After Delivery (Betaal Na Ontvangst) is MultiSafepay's own <<glossary:BNPL>> method for increasing customer confidence and <<glossary:conversion>>. MultiSafepay bears the risk, based on the customer's history, and guarantees <<glossary:settlement>>.
 
-Read how Pay After Delivery can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery)
+Read how Pay After Delivery can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -59,7 +59,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 1. Email a request to <risk@multisafepay.com> 
 2. We check your eligibilty and if approved, activate the payment method for your account. 
-3. Once approved, to activate the method in your dashboard, sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+3. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 4. Go to **Settings**. 
 5. To activate the payment method for:
     - All sites, go to **Payment methods**.
@@ -104,7 +104,7 @@ If a customer pays into your business bank account directly instead of paying Mu
 
 To close a transaction manually, follow these steps:
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transaction overview**.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Click **Complete own funds**. 
@@ -173,7 +173,7 @@ When you ship the order, you **must** manually change the [order status](/docs/p
 
 **In your dashboard**
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transactions overview**.
 3. Search for the transaction, and click to open the **Transaction details** page. 
 4. Under **Order details**, click **Change order status**. 
@@ -195,9 +195,9 @@ For other ready-made integrations, make an [update order](/reference/updateorder
 
 ### Shipping policies
 
-- [MultiFactor shipping policies](https://www.multifactor.nl/voorwaarden/shipping-policies)
-- [Shipping Policy Nederland](https://www.multifactor.nl/voorwaarden/shipping-policies/) 
-- [Herinnering aan onze shipping policy](https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy) 
+- <a href="https://www.multifactor.nl/voorwaarden/shipping-policies" target="_blank">MultiFactor shipping policies</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://www.multifactor.nl/voorwaarden/shipping-policies/" target="_blank">Shipping Policy Nederland</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
+- <a href="https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy" target="_blank">Herinnering aan onze shipping policy</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
 
 ## Surcharges  
 

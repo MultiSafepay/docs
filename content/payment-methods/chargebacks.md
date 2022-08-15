@@ -524,7 +524,7 @@ You need to upload relevant documentary evidence either:
 <summary>How to upload files</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings** > **Files**.
 3. Under **Upload a new file**, click **Choose file**.
 4. Select the relevant file(s), and then click **Open**.
@@ -585,7 +585,7 @@ Including your logo in customer's online bank environments and applications can 
 - Increase brand presence, recognition, and trust.
 - Reduce chargebacks, disputes, and friendly fraud – when customers mistakenly initiate chargebacks because they don't recognise or trust a transaction.
 
-[Upload your logo](https://logo.ethoca.com/) for the card scheme to display in all participating banking environments and applications. 
+<a href="https://logo.ethoca.com/" target="_blank">Upload your logo</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the card scheme to display in all participating banking environments and applications. 
 </details>
 <br>
 

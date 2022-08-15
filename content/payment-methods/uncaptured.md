@@ -39,7 +39,7 @@ If you take no action, uncaptured transactions automatically expire after 5 days
 
 To review uncaptured payments, click the dashboard notification, or:
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Uncleared transactions**.
 3. Click each transaction in the list to view the **Transaction details** page, including: 
     - Basic information about the transaction, history data, and any notes

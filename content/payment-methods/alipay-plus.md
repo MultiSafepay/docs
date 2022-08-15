@@ -9,7 +9,7 @@ slug: 'alipay-plus'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/AlipayPlus.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
-[Alipay+](https://www.alipayplus.com/) is the next generation of Alipay: a leading global payment method that lets customers link their credit card or bank account to a wide range of Asian wallets. It supports online, QR, and contactless POS payments, as well as international money transfers.
+<a href="https://www.alipayplus.com/" target="_blank">Alipay+</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is the next generation of Alipay: a leading global payment method that lets customers link their credit card or bank account to a wide range of Asian wallets. It supports online, QR, and contactless POS payments, as well as international money transfers.
 
 For Chinese customers, Alipay accounts are verified and linked to their Chinese bank account. Non-Chinese customers can also pay with Alipay using the Tour Pass.
 
@@ -56,7 +56,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 1. Email a request to <risk@multisafepay.com> 
 2. We check your eligibilty and onboard you with Alipay+. We may contact you for information.
-3. Once approved, sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+3. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 4. Go to **Settings**. 
 5. To activate the payment method for:
     - All sites, go to **Payment methods**.

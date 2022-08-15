@@ -9,9 +9,9 @@ slug: betaal-per-maand
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/betaalpermaand.svg" width="200" align="right" style="margin: 20px; max-height: 75px"/>
 
-[Betaal per Maand](https://www.santander.nl/veelgestelde-vragen/betaal-per-maand) is a MultiSafepay <<glossary:BNPL>> method in collaboration with Santander. It is intended for large amounts paid as a one-off payment or in monthly installments. Santander bears the risk and guarantees <<glossary:settlement>>.
+<a href="https://www.santander.nl/veelgestelde-vragen/betaal-per-maand" target="_blank">Betaal per Maand</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a MultiSafepay <<glossary:BNPL>> method in collaboration with Santander. It is intended for large amounts paid as a one-off payment or in monthly installments. Santander bears the risk and guarantees <<glossary:settlement>>.
 
-Read how Betaal per Maand can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/betaalpermaand-santander)
+Read how Betaal per Maand can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/betaalpermaand-santander" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -98,7 +98,7 @@ To cancel an order, email <annuleren@santander.com> with the following details:
 - Order ID
 - PSP ID (MultiSafepay's transaction reference number)
 
-> **Note:** You can't cancel a Betaal per Maand order via your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+> **Note:** You can't cancel a Betaal per Maand order via your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## Collection period
 
@@ -130,7 +130,7 @@ You can still change an order between approval from Santander and shipment.
 <summary>How to change orders before shipment</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transaction overview**.
 3. Search for the transaction and click to open the **Transaction details** page.
 4. Under **Order summary**, click **Change order status**.
@@ -155,7 +155,7 @@ When you ship the order, you **must** manually change the [order status](/docs/p
 
 **In your dashboard**
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transactions overview**.
 3. Search for the transaction, and click to open the **Transaction details** page. 
 4. Under **Order details**, click **Change order status**. 

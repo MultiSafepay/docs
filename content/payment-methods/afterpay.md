@@ -9,9 +9,9 @@ slug: 'afterpay'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/AfterPay.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
 
-[AfterPay](https://www.afterpay.nl/en/) is a widely used <<glossary:BNPL>> method in the Netherlands and Belgium. AfterPay bears the risk and guarantees <<glossary:settlement>>.
+<a href="https://www.afterpay.nl/en/" target="_blank">AfterPay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a widely used <<glossary:BNPL>> method in the Netherlands and Belgium. AfterPay bears the risk and guarantees <<glossary:settlement>>.
 
-Read how AfterPay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/afterpay)
+Read how AfterPay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/afterpay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -57,8 +57,8 @@ You need to contact AfterPay to activate it for your account.
 
 1. To check you are eligible for AfterPay, email <sales@multisafepay.com>
 2. For new AfterPay clients, apply directly to AfterPay:
-    - The Netherlands: [Offerte](https://www.afterpay.nl/nl/zakelijk/offerte)
-    - Belgium: [Offerte aanvragen](https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen)
+    - The Netherlands: <a href="https://www.afterpay.nl/nl/zakelijk/offerte" target="_blank">Offerte</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - Belgium: <a href="https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen" target="_blank">Offerte aanvragen</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 3. For existing AfterPay clients, to activate AfterPay for your MultiSafepay account, email AfterPay Sales at <sales@afterpay.nl>  
 
 </details>
@@ -124,7 +124,7 @@ When you ship the order, you **must** manually change the <<glossary:order statu
 
 **In your dashboard**
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transactions overview**.
 3. Search for the transaction, and click to open the **Transaction details** page. 
 4. Under **Order details**, click **Change order status**. 
@@ -149,7 +149,7 @@ Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcha
 
 AfterPay therefore strongly recommends discontinuing any surcharges. 
 
-For more information, see AfterPay – [Merchant support](https://www.afterpay.nl/nl/consumenten/vraag-en-antwoord/).
+For more information, see AfterPay – <a href="https://www.afterpay.nl/nl/consumenten/vraag-en-antwoord/" target="_blank">Merchant support</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 <br>
 
 ---

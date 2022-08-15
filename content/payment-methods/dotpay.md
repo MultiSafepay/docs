@@ -9,10 +9,10 @@ slug: 'dotpay'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Dotpay.svg" width="60" align="right" style="margin: 20px; max-height: 75px"/>
 
-[Dotpay](https://www.dotpay.pl/en) is an inter-bank payment method that links all major Polish retail banks. 
+<a href="https://www.dotpay.pl/en" target="_blank">Dotpay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is an inter-bank payment method that links all major Polish retail banks. 
 Customers pay from their own online banking environment.
 
-Read how Dotpay can benefit your business on [multisafepay.com](https://www.multisafepay.com/solutions/payment-methods/dotpay)
+Read how Dotpay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/dotpay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -55,7 +55,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 1. Email a request to <risk@multisafepay.com> 
 2. We check your eligibilty and if approved, activate the payment method for your account. 
-3. Once approved, sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+3. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 4. Go to **Settings**. 
 5. To activate the payment method for:
     - All sites, go to **Payment methods**.
