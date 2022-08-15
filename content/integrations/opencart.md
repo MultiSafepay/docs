@@ -136,7 +136,7 @@ If you're new to accepting credit card payments, email a request to activate the
 3. Select the **Payment methods** tab and then expand the method of your choice.
 4. Enable **Payment Component** and optionally **Tokenization**.
 
-> **Note:** Tokenization** is available only when **Payment Component** is activated.
+> **Note:** Tokenization is available only when **Payment Component** is activated.
 
 > **Support:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 

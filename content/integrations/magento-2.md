@@ -105,6 +105,7 @@ php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
     - **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  
         - Make sure you have activated your selected gift cards in your MultiSafepay dashboard.  
         - For more information, see [Gift cards](/docs/gift-cards/).
+        
     </details>
 
 <br>
