@@ -19,7 +19,7 @@ As part of your onboarding, you specify a business bank account to pay out to.
 
 To add additional bank accounts to your account (once fully onboarded), follow these steps:
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com). 
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 2. Go to **Finance** > **Bank accounts**.
 3. Click **Add new bank account**.
 4. Fill in the:
@@ -52,7 +52,7 @@ You can schedule automated payouts on specific day, or make them manually.
 <summary>How to set up an automated payout</summary> 
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com). 
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 2. Go to **Finance** > **Payouts**.
 3. Under **Automatic withdrawals**, click **+ Add**.
 4. In the **Automatic withdrawals** window:
@@ -73,7 +73,7 @@ You can schedule automated payouts on specific day, or make them manually.
 <summary>How to make a payout manually</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Finance** > **Payouts**.
 3. Under **Withdraw funds**:  
     - Select the currency.
@@ -143,7 +143,7 @@ You cannot make payouts if:
 
     To check if your account is fully activated, follow these steps:
 
-    1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+    1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
     2. Go to **Finance** > **Payouts**.
     3. If your account is not fully activated, a red bar appears at the top of the screen with a link to the page where you can upload the documents required to approve your account.
 

@@ -101,7 +101,7 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
 
 # Activate in dashboard
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings**. 
 3. To activate the payment method for:
     - All sites, go to **Payment methods**.
@@ -119,8 +119,8 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
 
 1. To check you are eligible for AfterPay, email <sales@multisafepay.com>
 2. For new AfterPay clients, apply directly to AfterPay:
-    - The Netherlands: [Offerte](https://www.afterpay.nl/nl/zakelijk/offerte)
-    - Belgium: [Offerte aanvragen](https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen)
+    - The Netherlands: <a href="https://www.afterpay.nl/nl/zakelijk/offerte" target="_blank">Offerte</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - Belgium: <a href="https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen" target="_blank">Offerte aanvragen</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 3. For existing AfterPay clients, to activate AfterPay for your MultiSafepay account, email AfterPay Sales at <sales@afterpay.nl>  
 </details>
 
@@ -150,7 +150,7 @@ You must:
 <summary>How to activate Edenred</summary>
 <br>
 
-1. Fill out the Edenred – [Registreer mijn website](https://registreermijnwebsite.edenred.be/) form, selecting the relevant checkbox for each voucher you want to offer.
+1. Fill out the Edenred – <a href="https://registreermijnwebsite.edenred.be/" target="_blank">Registreer mijn website</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> form, selecting the relevant checkbox for each voucher you want to offer.
 2. Sign a contract with Edenred. They'll give you an Edenred Merchant ID.
 3. Email your Edenred Merchant ID to <sales@multisafepay.com>
 4. We activate the payment method for your account.
@@ -164,9 +164,9 @@ You must:
 1. To check your eligibility, email <sales@multisafepay.com> 
 2. Send a request to the **card issuer**, providing your company details and MultiSafepay account ID.
 3. The issuer connects you to the card via either:
-    - [Intersolve](https://intersolve.nl/contact) (majority of gift cards)
-    - [Fashioncheque](https://www.fashioncheque.com/nl/customerservice)
-    - [123TCS](https://www.123tcs.com/#Contact)
+    - <a href="https://intersolve.nl/contact" target="_blank">Intersolve</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (majority of gift cards)
+    - <a href="https://www.fashioncheque.com/nl/customerservice" target="_blank">Fashioncheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.123tcs.com/#Contact" target="_blank">123TCS</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 4.  The issuer sends us the connection details and we activate the card for your account.
 </details>
 
@@ -177,7 +177,7 @@ How to activate with a Klarna:
 <summary>Test account</summary>
 <br>
 
-1. At [Klarna.com](https://www.klarna.com/nl/), sign up for a test account, selecting the **Playground** environment. 
+1. At <a href="https://www.klarna.com/nl/" target="_blank">Klarna.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, sign up for a test account, selecting the **Playground** environment. 
 2. Under **Settings**, click **Generate new Klarna API credentials** to generate a user name and password.
 3. Email these credentials to <sales@multisafepay.com> 
 4. MultiSafepay connects to Klarna. 
@@ -198,7 +198,7 @@ We recommend testing Klarna payments via the Klarna Portal to experience the ful
 4. We activate Klarna for your MultiSafepay account. 
 5. If using a ready-made integration, activate Klarna in your <<glossary:backend>>.
 
-For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klantenservice).
+For questions, see Klarna – <a href="https://www.klarna.com/nl/klantenservice" target="_blank">Klantenservice</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 > **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 </details>
@@ -210,7 +210,7 @@ For questions, see Klarna – [Klantenservice](https://www.klarna.com/nl/klanten
 
 To configure your PayPal account, follow these steps:
 
-1. Sign in to your business account at [Paypal.com](https://www.paypal.com).
+1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">Paypal.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Mouse over your account name in the top-right corner, and then select **Account settings**.
 3. On the **Account access** tab, under **API access**, click **Update**.
 4. Under **Pre-built payment solution**, click **Grant API permission**.
@@ -224,7 +224,7 @@ To configure your PayPal account, follow these steps:
 
 To complete the configuration, change the language encoding setting of your PayPal account to **UTF-8**:
 
-1. Click PayPal – [Profile language encoding](https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-language-encoding).
+1. Click PayPal – <a href="https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-language-encoding" target="_blank">Profile language encoding</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Next to **Language coding for PayPal buttons**, click **Edit**.
 3. From the list, select **Western European languages (including English)**.
 4. Click **More options**.
@@ -234,7 +234,7 @@ To complete the configuration, change the language encoding setting of your PayP
 For support:
 
 - MultiSafepay – <integration@multisafepay.com>
-- PayPal – [Contact us](https://www.paypal.com/us/smarthelp/contact-us)
+- PayPal – <a href="https://www.paypal.com/us/smarthelp/contact-us" target="_blank">Contact us</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 > ⚠️ Known error
 > If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account.
@@ -247,10 +247,10 @@ For support:
 
 To configure your MultiSafepay account for PayPal, follow these steps:
 
-1. Sign in to your business account at [Paypal.com](https://www.paypal.com).
+1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">Paypal.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Mouse over your account name in the top-right corner, and then select **Account settings**.
 3. On the **Business information** tab, copy your PayPal Merchant ID.
-4. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com), and then go to **Settings**. 
+4. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, and then go to **Settings**. 
 5. To activate PayPal for:
     - All your sites:
         - Go to **Payment methods**, and then select **PayPal**.

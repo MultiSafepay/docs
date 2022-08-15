@@ -31,7 +31,7 @@ The customer isn't counted as a referral when they return to your success page.
 
 > **Note:** This feature is only available for sites using gtag.js or analytics.js. It is **not** supported for ga.js (Classic Analytics).
 
-For instructions, see Google Analytics – [Referral exclusions](https://support.google.com/analytics/answer/2795830).
+For instructions, see Google Analytics – <a href="https://support.google.com/analytics/answer/2795830" target="_blank">Referral exclusions</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 When you click **+Add referral exclusion**, enter the following:
 

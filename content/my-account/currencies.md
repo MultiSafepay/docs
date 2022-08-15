@@ -46,7 +46,7 @@ You must also add to your account a business bank account that supports the curr
 <summary>How to add a business bank account</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Finance > Balance > Add bank account**.
 3. Process a Bank Transfer in the new currency to confirm the business bank account.
 
@@ -108,7 +108,7 @@ Make sure you:
 
 ## Conversion
 
-To convert other currencies to Euros (EUR) in your [MultiSafepay dashboard](https://merchant.multisafepay.com), go to **Finance > Currency conversion**. 
+To convert other currencies to Euros (EUR) in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, go to **Finance > Currency conversion**. 
 
 ❗️ Take into account the exchange rate and MultiSafepay's 4% conversion fee.
 

@@ -28,7 +28,7 @@ The minimum transaction amount we can process is 1 euro cent (0.01 EUR).
   
 The currency is not supported. The standard currency for all transactions is EUR.
 
-For help identifying currencies, see [ISO-4217](https://www.iso.org/iso-4217-currency-codes.html).
+For help identifying currencies, see <a href="https://www.iso.org/iso-4217-currency-codes.html" target="_blank">ISO-4217</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ---
 ### 1003: Invalid account ID
@@ -208,7 +208,7 @@ Check that the:
 
 Cloudflare overwrites the customer IP address field.
 
-To provide the correct IP address, see Cloudflare – [Restoring original visitor IPs](https://support.cloudflare.com/hc/en-us/articles/200170786-Restoring-original-visitor-IPs).
+To provide the correct IP address, see Cloudflare – <a href="https://support.cloudflare.com/hc/en-us/articles/200170786-Restoring-original-visitor-IPs" target="_blank">Restoring original visitor IPs</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ---
 ### 1025: Only one currency allowed in shopping cart

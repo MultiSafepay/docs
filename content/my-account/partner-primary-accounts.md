@@ -13,7 +13,7 @@ Partner account holders manage the accounts of multiple affiliated merchants, wh
 
 To create a new affiliated account in your dashboard, follow these steps:
 
-1. Sign in to your [partner/primary account](https://merchant.multisafepay.com/).
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">partner/primary account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to the affiliate dashboard, and then click **Affiliates**. 
 3. In the affiliate dashboard top-right corner, copy the **Partnerlink** and send it to your affiliates.
 4. To customize a welcome email, go to **Settings** > **Email templates**.
@@ -32,7 +32,7 @@ You can also automate onboarding affiliates [via our API](/docs/affiliate-onboar
 
 To access an affiliate's account:
 
-1. Sign in to your [partner/primary account](https://merchant.multisafepay.com/).
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">partner/primary account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Under the **Action** column for the relevant merchant, click **Sign in**.
 
 Here you can manage: 

@@ -17,7 +17,7 @@ To process payments from a site operated by a separate legal entity, you must si
 <summary>How to add a site</summary>
 <br>
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com). 
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 2. Go to **Settings** > **Website settings**.
 3. Click **Quick add site**.
     - From the **Category** list, select what type of products or services your site sells.
@@ -56,7 +56,7 @@ You can specify how your company name appears on customer bank statements (if su
 
 To set how your company name displays, follow these steps:
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings** > **Website settings**.
 3. In the **Name** field, enter the name to display (maximum 35 characters).
 4. Click **Save**.
@@ -80,9 +80,9 @@ To delete a site from your account, follow these steps:
 
 ## Logos and icons
 
-For MultiSafepay logos, see our Github repository – [MultiSafepay logos](https://github.com/MultiSafepay/MultiSafepay-logos).
+For MultiSafepay logos, see our Github repository – <a href="https://github.com/MultiSafepay/MultiSafepay-logos" target="_blank">MultiSafepay logos</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-For the logos and icons of all MultiSafepay payment methods, see our Github repository – [MultiSafepay icons](https://github.com/MultiSafepay/MultiSafepay-icons).
+For the logos and icons of all MultiSafepay payment methods, see our Github repository – <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">MultiSafepay icons</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 <details id="how-to-generate-logo-png">
 <summary>How to generate a PNG of logos</summary>
@@ -90,7 +90,7 @@ For the logos and icons of all MultiSafepay payment methods, see our Github repo
 
 To generate a portable network graphic (PNG) of a payment method logo to display on your site, follow these steps:
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com).
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Tools** > **Payment logo designer**.
 3. Select a layout template.
 4. From the **Select elements** window, select the logos you want to include.
@@ -106,7 +106,7 @@ To generate a portable network graphic (PNG) of a payment method logo to display
 
 To view the site ID, API key, and security code for a site:
 
-1. Sign in to your [live](https://merchant.multisafepay.com) or [test](https://testmerchant.multisafepay.com) MultiSafepay dashboard.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">live</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> or <a href="https://testmerchant.multisafepay.com" target="_blank">test</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> MultiSafepay dashboard.
 2. Go to **Settings** > **Website settings**.
 3. Click on the relevant site to view the **Website details** page.
 <br>

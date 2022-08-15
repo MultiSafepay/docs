@@ -30,12 +30,12 @@ If you sell alcohol, you must:
     <summary>How to download a declaration</summary>
     <br>
 
-    - [Dutch merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/NL-Verklaring_alcoholische_dranken.pdf)   
-    - [English merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/EN-Declaration_alcoholic_beverages.pdf)  
-    - [French merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/FR-D%C3%A9claration_des_boissons_alcoolis%C3%A9es.pdf)  
-    - [German merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/DE-Erkl%C3%A4rung_f%C3%BCr_alkoholischen_Getr%C3%A4nke.pdf)
-    - [Italian merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/IT-Dichiarazione_per_la_vendita_di_bevande_alcoliche.docx) 
-    - [Spanish merchant declaration](https://github.com/MultiSafepay/docs/raw/master/static/forms/ES-Declaraci%C3%B3n_sobre_bebidas_alcoh%C3%B3licas.docx)  
+    - <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/NL-Verklaring_alcoholische_dranken.pdf" target="_blank">Dutch merchant declaration</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>   
+    - <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/EN-Declaration_alcoholic_beverages.pdf" target="_blank">English merchant declaration</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  
+    - <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/FR-D%C3%A9claration_des_boissons_alcoolis%C3%A9es.pdf" target="_blank">French merchant declaration</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  
+    - <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/DE-Erkl%C3%A4rung_f%C3%BCr_alkoholischen_Getr%C3%A4nke.pdf" target="_blank">German merchant declaration</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/IT-Dichiarazione_per_la_vendita_di_bevande_alcoliche.docx" target="_blank">Italian merchant declaration</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
+    - <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/ES-Declaraci%C3%B3n_sobre_bebidas_alcoh%C3%B3licas.docx" target="_blank">Spanish merchant declaration</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  
 
     </details>
 

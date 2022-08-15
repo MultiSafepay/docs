@@ -42,14 +42,14 @@ Wrappers and SDKs
 
 We provide the following SDKs and wrappers to facilitate integrating via our API:
 
-- [Django wrapper](https://github.com/edoburu/django-multisafepay)
-- [Go wrapper](https://github.com/kurt-stolle/go-multisafepay)
-- [Java wrapper](https://github.com/MultiSafepay/Java)
-- [Laravel wrapper](https://github.com/MultiSafepay/laravel-api)
-- [.NET wrapper](https://github.com/MultiSafepay/.Net)
-- [NodeJS wrapper](https://github.com/MultiSafepay/multisafepay-node-wrapper)
-- [PHP SDK](https://github.com/MultiSafepay/php-sdk)
-- [Python wrapper](https://github.com/MultiSafepay/multisafepay-python-wrapper)
+- <a href="https://github.com/edoburu/django-multisafepay" target="_blank">Django wrapper</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://github.com/kurt-stolle/go-multisafepay" target="_blank">Go wrapper</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://github.com/MultiSafepay/Java" target="_blank">Java wrapper</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://github.com/MultiSafepay/laravel-api" target="_blank">Laravel wrapper</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://github.com/MultiSafepay/.Net" target="_blank">.NET wrapper</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://github.com/MultiSafepay/multisafepay-node-wrapper" target="_blank">NodeJS wrapper</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://github.com/MultiSafepay/php-sdk" target="_blank">PHP SDK</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://github.com/MultiSafepay/multisafepay-python-wrapper" target="_blank">Python wrapper</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 Deprecated XML API
 ------------------
