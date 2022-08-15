@@ -23,11 +23,11 @@ jobs:
       - name: Pass filenames to steps.changed-files.outputs.all_changed_files
         if: steps.changed-files-specific.outputs.any_changed == 'true'
         run: |
-          echo "PATHS=$${{ steps.changed-files-specific.outputs. all_changed_files }}" >> $GITHUB_ENV
+          echo "PATHS=${{ steps.changed-files-specific.outputs. all_changed_files }}" >> $GITHUB_ENV
 
       - name: Run URL replacer
         if: steps.changed-files-specific.outputs.any_changed == 'true'
-        run: python .github/external-link-replacer.py
+        run: python .github/external-link-replace.py
 
       - name: Commit changes and push
         if: steps.changed-files-specific.outputs.any_changed == 'true'
