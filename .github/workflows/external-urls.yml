@@ -11,6 +11,9 @@ jobs:
     name: Convert external URLs
     steps:
       - uses: actions/checkout@v3
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Get specific changed files
         id: changed-files-specific
@@ -19,11 +22,13 @@ jobs:
           files: |
             content/**/*.md
             api/**/*.md
-      
+          sha: ${{ github.event.pull_request.head.sha }}
+          base_sha: ${{ github.event.pull_request.base.sha }}
+
       - name: Pass filenames to steps.changed-files.outputs.all_changed_files
         if: steps.changed-files-specific.outputs.any_changed == 'true'
         run: |
-          echo "PATHS=${{ steps.changed-files-specific.outputs. all_changed_files }}" >> $GITHUB_ENV
+          echo "DOCS_PATHS=${{ steps.changed-files-specific.outputs. all_changed_files }}" >> $GITHUB_ENV
 
       - name: Run URL replacer
         if: steps.changed-files-specific.outputs.any_changed == 'true'
@@ -33,8 +38,8 @@ jobs:
         if: steps.changed-files-specific.outputs.any_changed == 'true'
         run: |
           if [[ `git status --porcelain` ]]; then
-            git config --global user.name 'github-actions'
-            git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email 'github-actions[bot]@users.noreply.github.com'
             git add -A
             git commit -m "Automated external URL lint."
           fi
