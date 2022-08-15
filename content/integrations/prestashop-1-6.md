@@ -383,6 +383,7 @@ Release date: Nov 11, 2014
 - Fixed bug to show payment method when the Min and Max amount in the config are equal.
 
 [Top of page](#)
+
 ---
 </details>
 

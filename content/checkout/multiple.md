@@ -362,9 +362,11 @@ When you're ready to process real payments, make the following changes:
     });
     ```
 
-3. In [Step 3: Create an order](#step-3-create-an-order), change the test endpoint to the live endpoint:  
+3. In [Step 3: Create an order](#step-3-create-an-order), change the test endpoint to the live endpoint:
+    ```
+    https://api.multisafepay.com/v1/json/orders
+    ```
 
-    `https://api.multisafepay.com/v1/json/orders`
 <br>
 
 ---

@@ -25,7 +25,7 @@ slug: 'shopware'
 ## Prequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Shopware 6.3.x, 6.4.x _(<a href="https://www.shopware.com/en/pricing" target="_blank">Starter Edition</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> supported)_*
+- Shopware 6.3.x, 6.4.x _(<a href="https://www.shopware.com/en/pricing" target="_blank">Starter Edition</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> supported)_
 - Tested on PHP 7.2.0
 
 ## How to install and configure
