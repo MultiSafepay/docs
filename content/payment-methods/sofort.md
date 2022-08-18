@@ -16,7 +16,7 @@ Read how Sofort can benefit your business on <a href="https://www.multisafepay.c
 
 | Supports | Details |  
 |---|---|
-| **Amount limit** | Minimum amount: 0,10 EUR |
+| **Amount limit** | Minimum amount: 0,10 EUR <br> See also [Amount limits and processing times](#amount-limits-and-processing-times) below. |
 | [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland <br> ❗ Transactions processed in non-supported countries return a [1024 error](/docs/troubleshooting#error-1024-transaction-refused). |
 | [Currencies](/docs/currencies/)  | CHF, EUR, GBP, HUF, PLN | 
 | [Chargebacks](/docs/chargebacks/)  | No |
@@ -51,8 +51,14 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | **Refunds:** Refund complete. | Completed | Completed |
 <br>
 
-> ℹ Note
-> Amounts less than 100 EUR are transfered immediately. The status of orders over 100 EUR changes to **Uncleared** and then to **Completed** after 24 hours.
+### Amount limits and processing times
+
+Amounts **less than** 100 EUR are transfered immediately. 
+Amounts **over** 100 EUR require approval from Sofort and can take a few days to change to **Completed**. 
+
+To speed up Sofort payments, you can increase your limit above 100 EUR. First consider how much risk is acceptable to your business in case Sofort declines a payment. 
+
+To adjust your Sofort limit, email <sales@multisafepay.com> 
 
 # Activation
 
