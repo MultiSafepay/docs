@@ -7,7 +7,7 @@ parentDoc: 62a728d48b97080046c1d220
 slug: 'trustly'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Trustly.svg" width="60" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/trustly.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a href="https://www.trustly.net/nl-NL" target="_blank">Trustly</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a quick, secure banking payment method that is available in 29 European countries. 
 Customers pay from their own online banking environment.

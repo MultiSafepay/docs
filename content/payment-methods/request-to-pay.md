@@ -7,7 +7,7 @@ parentDoc: 62a728d48b97080046c1d220
 slug: 'request-to-pay'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/RTP.svg" width="60" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/RTP.svg" width="60" align="right" style="margin: 20px; max-height: 75px"/>
 
 Request to Pay is a Deutsche Bank payment method based on the PSD2 Open Banking API. Customers are redirected to Deutsche Bank online banking to authenticate themselves, and authorize a secure SEPA transfer. <<glossary:Settlement>> is instant (if supported) or within 24 hours. 
 

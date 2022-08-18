@@ -7,7 +7,7 @@ parentDoc: 62a32bf042021c00e1cd7e5c
 slug: 'edenred'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/edenred.svg" width="80" align="right" style="margin: 20px 20px 20px 30px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/giftcards/edenred.svg" width="80" align="right" style="margin: 20px 20px 20px 30px; max-height: 75px"/>
 
 <a href="https://www.edenred.be/nl" target="_blank">Edenred</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> lets employers provide their employees with a prepaid card loaded with Edenred vouchers:  
 

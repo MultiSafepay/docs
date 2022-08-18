@@ -7,7 +7,7 @@ parentDoc: 62a32bf042021c00e1cd7e5c
 slug: 'paysafecard'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Paysafecard.svg" width="45" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/paysafecard-lock.svg" width="100" align="right" style="margin: 15px; max-height: 75px"/>
 
 <a href="https://www.paysafecard.com/en/" target="_blank">Paysafecard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> lets customers make online payments using secure prepaid vouchers, available for purchase locally. The funds are available immediately. The customer chooses a fixed voucher amount: 10, 25, 50 or 100 EUR. 
 

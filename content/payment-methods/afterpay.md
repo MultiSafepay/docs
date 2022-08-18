@@ -7,7 +7,7 @@ parentDoc: 62bd75142e264000a66d62b5
 slug: 'afterpay'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/AfterPay.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/afterpay.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a href="https://www.afterpay.nl/en/" target="_blank">AfterPay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a widely used <<glossary:BNPL>> method in the Netherlands and Belgium. AfterPay bears the risk and guarantees <<glossary:settlement>>.
 

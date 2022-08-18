@@ -7,7 +7,7 @@ parentDoc: 62a32bf042021c00e1cd7e5c
 slug: 'gift-cards'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/VVV_Giftcards.svg" width="45" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/giftcards/vvvcadeaukaart.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 Gift cards are pre-loaded with a specific amount of credit that customers can use to make online or POS payments. Customers can use gift cards to pay for a transaction in full or in part, and make up the rest with another payment method. Gift card payments are processed by the <<glossary:card issuer>>.
 

@@ -7,7 +7,7 @@ slug: google-pay
 parentDoc: 62a6ec51d7a8100053916d99
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/GooglePay.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/googlepay.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
 
 Google Pay™ is a digital wallet for in-app and online payments. Customers can tokenize their payment details in their Google Pay account.
 

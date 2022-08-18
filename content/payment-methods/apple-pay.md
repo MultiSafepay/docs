@@ -7,7 +7,7 @@ parentDoc: 62a6ec51d7a8100053916d99
 slug: 'apple-pay'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Apple.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/applepay.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a href="https://www.apple.com/apple-pay/" target="_blank">Apple Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a leading global payment method that lets customers tokenize their payment details in a digital wallet. It supports American Express, Maestro, Mastercard, Visa, and Dutch bank accounts. Customers can make both online and near-field communication (NFC) payments. 
 

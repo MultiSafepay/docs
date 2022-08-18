@@ -7,7 +7,7 @@ parentDoc: 62a728d48b97080046c1d220
 slug: 'bancontact'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Bancontact.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/bancontact.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a href="https://www.bancontact.com/en" target="_blank">Bancontact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a leading Belgian payment method that supports online, mobile, QR, POS, and wallet payments. It is a household name and supported by over 80% of Belgian webshops. Once payment is completed, the customer cannot reverse it and Bancontact guarantees <<glossary:settlement>>. 
 
