@@ -12,17 +12,17 @@ This technical manual is for integrating a payment component using multiple paym
 # 1. Add the elements
 
 1. Add the component's CSS to the `<head>` of your checkout page:  
-    ```
+    ``` html
     <link rel="stylesheet" href="https://testpay.multisafepay.com/sdk/components/v2/components.css">
     ```
 
 2. Add the component's script to the bottom of the `<body>` of your checkout page:  
-    ```
+    ``` html
     <script src="https://testpay.multisafepay.com/sdk/components/v2/components.js"></script>
     ```
 
 3. Add the DOM element for the component's UI in the `<body>` of your checkout page:
-    ```
+    ``` html
     <div id="MultiSafepayPayment"></div>
     ```
 
@@ -30,11 +30,11 @@ This technical manual is for integrating a payment component using multiple paym
 
 Decide if you want to:
 
-- Generate a button with the component (see [Step 2](#step-2-initialize-the-component) below). **Recommended.**
+- Generate a button with the component (see [Step 2](#2-initialize-the-component) below). **Recommended.**
 - Use an existing button, e.g. if your checkout already includes one.
 - Create your own button:
 
-    ```
+    ``` html
     <button id="payment-button"></button>
     ```
 
@@ -48,7 +48,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 ## Construct the component object
 
 1. Initialize an `orderData` object containing information about the customer's order collected during the checkout process:
-    ```
+    ``` js
     const orderData = {
         currency: 'EUR',
         amount: 10000,
@@ -104,7 +104,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
     - Add the `cardOnFile` recurring model
     - Provide the relevant `customer.reference`
 
-    ```
+    ``` js
     const orderData = {
         currency: 'EUR',
         amount: 10000,
@@ -118,6 +118,10 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
         }
     };
     ```
+
+    > ✅ Success
+    > 
+    > Your payment component now automatically renders a checkbox for your customers to toggle whether they would like to store their (payment) details for future visits.
 
     Recurring payments are supported for all credit card payments.
 
@@ -133,7 +137,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
 
-    ```
+    ``` js
     PaymentComponent = new MultiSafepay({
         env: 'test',
         apiToken: apiToken,
@@ -149,7 +153,7 @@ Initialize the component using:
 <summary>Payment component button</summary>
 <br>
 
-```
+``` js
 PaymentComponent.init('dropin', {
     container : '#MultiSafepayPayment',
     onSelect : state => {
@@ -191,7 +195,7 @@ PaymentComponent.init('dropin', {
 <summary>Own or existing button</summary>
 <br>
 
-```    
+``` js
 PaymentComponent.init('dropin', {
     container : '#MultiSafepayPayment',
     onSelect : state => {
@@ -246,39 +250,27 @@ The `PaymentComponent` has the following methods:
 
 1. Assign the button element to a variable:
 
-    ```
+    ``` js
     const paymentButton = document.querySelector('#payment-button');
     ```
 
 2. Create an event handler for the payment button:
 
-    - When the customer clicks the payment button, call the `getPaymentData()` method.
+    - When the customer clicks the payment button, call the component's `getPaymentData()` method.
     - Send the response to your server and [create an order](#create-an-order).
     - Return the reponse from your server to the client-side to redirect the customer.
     <br>
 
-    ```
-    paymentButton.addEventListener('click', e => {
-        paymentButton.addAttribute('disabled');
-        if (PaymentComponent.hasErrors()) {
-            let errors = PaymentComponent.getErrors();
-            console.log(errors);
-            return false;
-        }
-        createOrder(PaymentComponent.getPaymentData()).then(response => {
-            if(!response || !response.success) {
-                paymentButton.removeAttribute('disabled');
-                console.log(response);
-            } else {
-                PaymentComponent.init('redirection', {
-                    order: response.data
-                });
-            }
-        });
-    });
-    ```
+### Redirect the customer
+
+The component's `redirection` handler redirects the customer to the relevant page:
+
+- If the customer actions are required to complete the payment (e.g. by completing 3D Secure or iDEAL issuer authentication), the customer is redirected to the relevant page. If successful, the customer is then redirected to the `redirect_url` (i.e. the 'success page'). 
+- If no customer actions are required to complete the payment, the customer is then redirected to the `redirect_url` (i.e. the 'success page').
+- If the customer chooses to pay by bank transfer, the component displays the banking details for customers to complete the payment. 
+- If a QR code is available for customers to complete the payment on their mobile device, the component displays the QR code. 
   
-## Avoid duplicate orders
+### Avoid duplicate orders
 
 When using your own payment button, if the customer clicks it again during the latency before redirection, this creates duplicate orders. 
 
@@ -288,48 +280,26 @@ Then, check `response.success`:
 - If `true`, don't re-enable the button and proceed to the redirect.
 - If `false`, re-enable the button for the customer to try again. 
 
-    <details id="redirect-to-3d-authentication">
-    <summary>Redirect to 3D authentication</summary>
-    <br>
-
-    The `init('redirection')` method redirects customers paying by credit card to the relevant page.
-
-    If 3D Secure authentication is:
-
-    - Required, the customer is first directed to 3D Secure. If successful, they are then redirected to the `redirect_url`. 
-
-    - Not required, the customer is redirected to the `redirect_url`.
-
-    </details>
-
-    <details id="redirect-bank-transfer-payments">
-    <summary>Redirect Bank Transfer payments</summary>
-    <br>
-
-    In the `gateway_info` object, you receive the bank account details for the customer to wire the funds to.
-
-    Render the account details in the interface for the customer with clear instructions. (MultiSafepay also emails these details to the customer.)
-
-    **Example gateway_info object**
+    ``` js
+    paymentButton.addEventListener('click', e => {
+        paymentButton.addAttribute('disabled');
+        if (PaymentComponent.hasErrors()) {
+            let errors = PaymentComponent.getErrors();
+            console.log(errors);
+            return false;
+        }
+        createOrder(PaymentComponent.getPaymentData()).then(response => {
+            if(!response || !response.success) {
+                paymentButton.disabled = false;
+                console.log(response);
+            } else {
+                PaymentComponent.init('redirection', {
+                    order: response.data
+                });
+            }
+        });
+    });
     ```
-    {
-    "gateway_info":{
-        "mtpinfo":"NL25DEUT7351811717",
-        "reference":"9202124254788300",
-        "issuer_name":"Sofortbank",
-        "destination_account_id":"003001380000",
-        "destination_holder_name":"MultiSafepay",
-        "destination_holder_city":"Zurich",
-        "destination_holder_country":"CH",
-        "destination_holder_iban":"NL25DEUT7351811717",
-        "destination_holder_swift":"DEUTCHZZ",
-        "account_holder_name":"testperson-nl approved",
-        "account_holder_city":"gravenhage",
-        "account_holder_coutry":"NL"
-    }
-    }
-    ```
-    </details>
 
 ## Create an order
 
@@ -343,18 +313,18 @@ To test the payment methods, use our [Testing](/docs/testing#test-payment-detail
 
 When you're ready to process real payments, make the following changes:
 
-1. In [Step 1: Add the elements](#step-1-add-the-elements), replace test JavaScript library with the live JavaScript library:
-    ```
+1. In [Step 1: Add the elements](#1-add-the-elements), replace test JavaScript library with the live JavaScript library:
+    ``` html
     <script src="https://pay.multisafepay.com/sdk/components/v2/components.js"></script>
     ```
 
     Next, replace the test CSS file with the live CSS file:
-    ```
+    ``` html
     <link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v2/components.css">
     ```
 
-2. In [Step 2: Construct the component object](#step-2-construct-the-component-object), change the environment from `test` to `live`:
-    ```
+2. In [Step 2: Construct the component object](#2-construct-the-component-object), change the environment from `test` to `live`:
+    ``` js
     PaymentComponent = new MultiSafepay({
         env: 'live',
         apiToken: apiToken,
@@ -362,7 +332,7 @@ When you're ready to process real payments, make the following changes:
     });
     ```
 
-3. In [Step 3: Create an order](#step-3-create-an-order), change the test endpoint to the live endpoint:
+3. In [Step 3: Create an order](#3-create-an-order), change the test endpoint to the live endpoint:
     ```
     https://api.multisafepay.com/v1/json/orders
     ```

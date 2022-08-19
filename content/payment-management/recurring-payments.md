@@ -99,6 +99,15 @@ We send you an agreement to sign, including terms and conditions for data usage.
 
 # Integration
 
+## Payment component
+
+Our [payment components](/docs/payment-components) support recurring payments. 
+
+To enable them, see payment component:
+
+- [Single payment method](/docs/payment-component-single/#how-to-process-recurring-payments)
+- [Multiple payment methods](/docs/payment-component-multiple/#how-to-process-recurring-payments)
+
 ## Recurring models
 MultiSafepay offers three recurring models:
 
