@@ -7,7 +7,7 @@ parentDoc: 62a728d48b97080046c1d220
 slug: 'giropay'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Giropay.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/giropay.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a href="https://www.giropay.de/" target="_blank">Giropay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is the leading inter-bank payment method in Germany, connecting all major German retail banks. Customers pay from their own online banking environment. <<glossary:Settlement>> is instant and guaranteed.
 

@@ -46,7 +46,7 @@ When a cardholder requests a chargeback, they must provide a reason. Below are t
 If you have asked MultiSafepay to dispute a chargeback on your behalf, we specify what documentary evidence you need to provide for each chargeback reason. Try to provide as much evidence as possible. 
 
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Amex.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/amex.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 ## American Express 
 
@@ -235,7 +235,7 @@ To dispute this type of chargeback, you need to provide proof that the transacti
 </details>
 
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Mastercard.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/mastercard.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
 
 ## Mastercard 
 
@@ -354,7 +354,7 @@ To dispute this type of chargeback, you need to provide evidence that:
 </details>
 
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/VISA.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/visa.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 ## Visa
 

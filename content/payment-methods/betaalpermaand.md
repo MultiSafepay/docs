@@ -7,7 +7,7 @@ parentDoc: 62bd75142e264000a66d62b5
 slug: betaal-per-maand
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/betaalpermaand.svg" width="200" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/betaalplan-nl.svg" width="200" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a href="https://www.santander.nl/veelgestelde-vragen/betaal-per-maand" target="_blank">Betaal per Maand</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a MultiSafepay <<glossary:BNPL>> method in collaboration with Santander. It is intended for large amounts paid as a one-off payment or in monthly installments. Santander bears the risk and guarantees <<glossary:settlement>>.
 

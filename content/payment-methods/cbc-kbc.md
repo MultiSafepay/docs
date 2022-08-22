@@ -7,7 +7,7 @@ parentDoc: 62a728d48b97080046c1d220
 slug: 'cbc-kbc'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/CBC.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/cbc.svg" width="60" align="right" style="margin: 30px; max-height: 75px"/>
 
 An online banking payment method of two of Belgium's largest banks: <a href="https://www.cbc.be/particuliers/fr.html" target="_blank">CBC</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> which serves the French speaking population, and <a href="https://www.kbc.be/particulieren/nl.html" target="_blank">KBC</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> which serves the Dutch-speaking population.
 

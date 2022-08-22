@@ -7,7 +7,7 @@ parentDoc: 62bd75142e264000a66d62b5
 slug: 'e-invoicing'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/e-invoicing.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/e-invoicing.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 E-Invoicing is a MultiSafepay <<glossary:BNPL>> method with automation tools that gives you full control of credit management, the payment process, and customer communications.
 
