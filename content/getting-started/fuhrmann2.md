@@ -8,7 +8,9 @@ slug: 'fuhrmann2'
 excerpt: 'Payment button legislation'
 ---
 
-European merchants must ensure that text on their payment button makes it clear to customers that, as soon as they click it, they are placing an order _with an obligation to pay_. This is required for the electronic contract between the parties to be valid. This guidance flows from the Court of Justice of the European Union decision in Fuhrmann-2 Case C-249/21 in April 2022.
+European merchants must ensure that text on their payment button makes it clear to customers that, as soon as they click it, they are placing an order _with an obligation to pay_. This is required for the electronic contract between the parties to be valid. 
+
+This guidance flows from the Court of Justice of the European Union decision in Fuhrmann-2 Case C-249/21 in April 2022.
 
 The text on payment buttons must be both easily legible and unambiguous. The Court provided an example formulation of "Order with obligation to pay". Merchants are permitted to use any other similar formulation. 
 
