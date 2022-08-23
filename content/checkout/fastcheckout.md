@@ -14,7 +14,8 @@ FastCheckout is highly flexible and fully customizable. It consists of modular c
 
 New features and payment methods are made available automatically. No updates or upgrades are required. FastCheckout is optimized for both mobile and desktop.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOExample.png" align ="left"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOExample.png" align ="center"/>
+<br>
 
 The FastCheckout page comprises 4 elements that can be displayed or hidden, and configured per transaction.
 
@@ -44,13 +45,13 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
   <br>
 
   **List**
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersList.png" align ="center"/>
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersList.png" align ="left"/>
 
   **Dropdown**
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersDropdown.png" align ="center"/>
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersDropdown.png" align ="left"/>
 
   **Buttons**
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersButtons.png" align ="center"/>
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersButtons.png" align ="left"/>
 
   </details>
 
