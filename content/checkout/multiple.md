@@ -121,7 +121,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
     > ✅ Success
     > 
-    > Your payment component now automatically renders a checkbox for your customers to toggle whether they would like to store their (payment) details for future visits.
+    > Your payment component now automatically renders a checkbox for your customers to toggle whether they would like to store their payment details for future visits.
 
     Recurring payments are supported for all credit card payments.
 
