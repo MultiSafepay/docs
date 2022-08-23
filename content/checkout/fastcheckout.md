@@ -2,7 +2,7 @@
 title: 'FastCheckout'
 category: 62bd999547298d001abc714c
 order: 5
-hidden: true
+hidden: false
 slug: 'fastcheckout'
 ---
 
