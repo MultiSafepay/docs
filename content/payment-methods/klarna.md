@@ -7,7 +7,7 @@ parentDoc: 62bd75142e264000a66d62b5
 slug: 'klarna'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Klarna.svg" width="50" align="right" style="margin: 20px 20px 20px 40px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/klarna.svg" width="150" align="right" style="margin: 20px 20px 20px 40px; max-height: 75px"/>
 
 <a href="https://www.klarna.com/" target="_blank">Klarna</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a flexible online payment method that lets customers pay now, in 30 days (Pay Later 30), or in 3 interest-free installments. It also offers financing. Klarna bears the risk and guarantees <<glossary:settlement>>.
 

@@ -7,7 +7,7 @@ parentDoc: 62bd75142e264000a66d62b5
 slug: 'pay-after-delivery'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Pay_After_Delivery.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/payafter-en.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 Pay After Delivery (Betaal Na Ontvangst) is MultiSafepay's own <<glossary:BNPL>> method for increasing customer confidence and <<glossary:conversion>>. MultiSafepay bears the risk, based on the customer's history, and guarantees <<glossary:settlement>>.
 

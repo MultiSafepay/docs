@@ -7,7 +7,7 @@ parentDoc: 62a728d48b97080046c1d220
 slug: 'dotpay'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Payment_methods/Dotpay.svg" width="60" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/dotpay.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a href="https://www.dotpay.pl/en" target="_blank">Dotpay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is an inter-bank payment method that links all major Polish retail banks. 
 Customers pay from their own online banking environment.

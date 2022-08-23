@@ -20,9 +20,16 @@ To activate Manual Capture for your MultiSafepay account, email <sales@multisafe
 
 # Integration
 
-See API reference – [Capture payment](/reference/capturepayment/).
-
 Manual Capture is not supported in our [ready-made integrations](/docs/our-integrations/) by default, but you can customize it via our API.
+
+See Recipes:
+- [Manual capture: Initial payment](/recipes/manual-capture-initial-payment/)
+- [Manual capture: Capture payment](/recipes/manual-capture-capture-payment/)
+
+See API reference:
+- [Create order](/reference/createorder/) > Set `manual` to `capture`.
+- [Capture payment](/reference/capturepayment/)
+
 <br>
 
 ---
