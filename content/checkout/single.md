@@ -105,7 +105,7 @@ Add the following elements to your checkout page:
 
     > ✅ Success
     > 
-    > Your payment component now automatically renders a checkbox where customers can toggle whether they would like to store their cardholder data for future visits. 
+    > Your payment component now automatically renders a checkbox where customers can choose whether they would like to store their cardholder data for future visits. 
 
     Recurring payments are supported for all credit card payments.
 
@@ -216,19 +216,20 @@ Add the following elements to your checkout page:
 
 The component's `redirection` handler redirects the customer to the relevant page:
 
-- If the customer actions are required to complete the payment (e.g. by completing 3D Secure or iDEAL issuer authentication), the customer is redirected to the relevant page. If successful, the customer is then redirected to the `redirect_url` (i.e. the 'success page'). 
-- If no customer actions are required to complete the payment, the customer is then redirected to the `redirect_url` (i.e. the 'success page').
-- If the customer chooses to pay by bank transfer, the component displays the banking details for customers to complete the payment. 
-- If a QR code is available for customers to complete the payment on their mobile device, the component displays the QR code. 
+- If customer actions are required to complete payment (e.g. by completing 3D Secure or iDEAL issuer authentication), the customer is redirected to the relevant page. If successful, the customer is then redirected to the `redirect_url`, i.e. the "success page". 
+- If no customer action is required to complete payment, the customer is redirected to the `redirect_url`, i.e. the "success page".
+- If the customer chooses to pay by bank transfer, the component displays the banking details needed for customers to complete payment. 
+- If a QR code is available for customers to complete payment on their mobile device, the component displays the QR code. 
   
 ### Avoid duplicate orders
 
-If the customer clicks your payment button during the latency before redirection, this creates duplicate orders. 
+When using your own payment button, if the customer clicks it again before they are redirected, this can create duplicate orders.
 
-To avoid duplicate orders, disable the button until you have attempted to create an order.  
+To avoid duplicate orders, disable the button until you have attempted to create an order. 
+
 Then, check `response.success`:
 
-- If `true`, don't re-enable the button and proceed to the redirect.
+- If `true`, don't re-enable the button, and proceed to the redirect.
 - If `false`, re-enable the button for the customer to try again. 
 
     ``` js
@@ -278,9 +279,9 @@ See API reference – [Create order](/reference/createorder/) > Payment componen
 
     The component's `redirection` handler redirects the customer to the relevant page:
     
-    - If the customer actions are required to complete the payment (e.g. by completing 3D Secure or iDEAL issuer authentication), the customer is redirected to the relevant page. If successful, the customer is then redirected to the `redirect_url` (i.e. the 'success page'). 
-    - If no customer actions are required to complete the payment, the customer is then redirected to the `redirect_url` (i.e. the 'success page').
-    - If the customer chooses to pay by bank transfer, the component displays the banking details for customers to complete the payment. 
+    - If customer action is required to complete payment (e.g. by completing 3D Secure or iDEAL issuer authentication), the customer is redirected to the relevant page. If successful, the customer is then redirected to the `redirect_url`, (i.e. the "success page"). 
+    - If no customer action is required to complete payment, the customer is redirected to the `redirect_url`, (i.e. the "success page").
+    - If the customer chooses to pay by bank transfer, the component displays the banking details needed for customers to complete payment. 
     - If a QR code is available for customers to complete the payment on their mobile device, the component displays the QR code. 
 
 # 4. Go live
