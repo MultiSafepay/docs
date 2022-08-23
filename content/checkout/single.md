@@ -282,7 +282,7 @@ See API reference – [Create order](/reference/createorder/) > Payment componen
     - If customer action is required to complete payment (e.g. by completing 3D Secure or iDEAL issuer authentication), the customer is redirected to the relevant page. If successful, the customer is then redirected to the `redirect_url`, (i.e. the "success page"). 
     - If no customer action is required to complete payment, the customer is redirected to the `redirect_url`, (i.e. the "success page").
     - If the customer chooses to pay by bank transfer, the component displays the banking details needed for customers to complete payment. 
-    - If a QR code is available for customers to complete the payment on their mobile device, the component displays the QR code. 
+    - If a QR code is available for customers to complete payment on their mobile device, the component displays the QR code. 
 
 # 4. Go live
 
@@ -290,7 +290,7 @@ To test the payment method, use our [Testing](/docs/testing#test-payment-details
 
 When you're ready to process real payments, make the following changes:
 
-1. In [Step 1: Add the elements](#1-add-the-elements), replace test JavaScript library with the live JavaScript library:
+1. In [Step 1: Add the elements](#1-add-the-elements), replace the test JavaScript library with the live JavaScript library:
     ``` html
     <script src="https://pay.multisafepay.com/sdk/components/v2/components.js"></script>
     ```

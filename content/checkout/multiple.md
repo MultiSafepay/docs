@@ -265,19 +265,20 @@ The `PaymentComponent` has the following methods:
 
 The component's `redirection` handler redirects the customer to the relevant page:
 
-- If the customer actions are required to complete the payment (e.g. by completing 3D Secure or iDEAL issuer authentication), the customer is redirected to the relevant page. If successful, the customer is then redirected to the `redirect_url` (i.e. the 'success page'). 
-- If no customer actions are required to complete the payment, the customer is then redirected to the `redirect_url` (i.e. the 'success page').
-- If the customer chooses to pay by bank transfer, the component displays the banking details for customers to complete the payment. 
-- If a QR code is available for customers to complete the payment on their mobile device, the component displays the QR code. 
+- If customer actions are required to complete the payment (e.g. by completing 3D Secure or iDEAL issuer authentication), the customer is redirected to the relevant page. If successful, the customer is then redirected to the `redirect_url`, i.e. the "success page". 
+- If no customer action is required to complete the payment, the customer is redirected to the `redirect_url`, i.e. the "success page".
+- If the customer chooses to pay by bank transfer, the component displays the banking details needed for customers to complete payment. 
+- If a QR code is available for customers to complete payment on their mobile device, the component displays the QR code. 
   
 ### Avoid duplicate orders
 
-When using your own payment button, if the customer clicks it again during the latency before redirection, this creates duplicate orders. 
+When using your own payment button, if the customer clicks it again before they are redirected, this can create duplicate orders. 
 
 To avoid duplicate orders, disable the button until you have attempted to create an order.  
+
 Then, check `response.success`:
 
-- If `true`, don't re-enable the button and proceed to the redirect.
+- If `true`, don't re-enable the button, and proceed with the redirect.
 - If `false`, re-enable the button for the customer to try again. 
 
     ``` js
@@ -313,7 +314,7 @@ To test the payment methods, use our [Testing](/docs/testing#test-payment-detail
 
 When you're ready to process real payments, make the following changes:
 
-1. In [Step 1: Add the elements](#1-add-the-elements), replace test JavaScript library with the live JavaScript library:
+1. In [Step 1: Add the elements](#1-add-the-elements), replace the test JavaScript library with the live JavaScript library:
     ``` html
     <script src="https://pay.multisafepay.com/sdk/components/v2/components.js"></script>
     ```
