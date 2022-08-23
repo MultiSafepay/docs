@@ -9,20 +9,20 @@ parentDoc: 62a848399bb3eb004023f291
 
 This technical manual is for integrating a payment component using multiple payment methods.
 
-# 1. Add the elements
+# 1. Add the HTML elements
 
 1. Add the component's CSS to the `<head>` of your checkout page:  
-    ```
+    ```html
     <link rel="stylesheet" href="https://testpay.multisafepay.com/sdk/components/v2/components.css">
     ```
 
 2. Add the component's script to the bottom of the `<body>` of your checkout page:  
-    ```
+    ```html
     <script src="https://testpay.multisafepay.com/sdk/components/v2/components.js"></script>
     ```
 
 3. Add the DOM element for the component's UI in the `<body>` of your checkout page:
-    ```
+    ```html
     <div id="MultiSafepayPayment"></div>
     ```
 
@@ -34,21 +34,21 @@ Decide if you want to:
 - Use an existing button, e.g. if your checkout already includes one.
 - Create your own button:
 
-    ```
+    ```html
     <button id="payment-button"></button>
     ```
 
 # 2. Initialize the component
 
 ## Generate an API token
-Payment Components require a MultiSafepay API token. See API reference – [Generate an API token](/reference/generateapitoken/).
+Payment components require a MultiSafepay API token. See API reference – [Generate an API token](/reference/generateapitoken/).
 
-> **Tip!** To keep your API key private, request the token from your own server. 
+✅ &nbsp; **Tip!** To keep your API key private, request the token from your own server. 
 
 ## Construct the component object
 
 1. Initialize an `orderData` object containing information about the customer's order collected during the checkout process:
-    ```
+    ```javascript
     const orderData = {
         currency: 'EUR',
         amount: 10000,
@@ -76,16 +76,16 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
     <summary>Properties</summary>
     <br>
 
-    | Key | Value |
-    | ---- | ---- |
-    | currency| The currency of the order. Format: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `EUR`. **Required**. |
-    | amount| The value of the order. Format: Number without decimal points, e.g. 100 euro is formatted as `10000`. **Required**. |
-    | customer.country|The customer's country code. Used to validate the availability of the payment method. Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL`. **Optional**. |
-    |customer.locale | The customer's language. Sets the language of the payment component UI. Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL`. Supported languages: `EN`, `ES`, `FR`, `IT`, `NL`. **Optional**.|
-    | customer.reference| Your unique customer reference. **Required for recurring payments**. |
-    | recurring.model| The [recurring model](/docs/recurring-payments/). **Required for recurring payments**. |
-    | template.settings.embed_mode| A template designed to blend in seamlessly with your ecommerce platform. Format:&nbsp;Boolean. **Optional**. |
-    |payment_options.settings.connect.group_cards| Groups all credit card payment methods as a single option in the list of payment methods. Format:&nbsp;Boolean. **Optional**. Default: `false`.|
+    | Key | Required | Value |
+    |---|---|
+    | amount | Yes | The value of the order. <br> Format: Number without decimal points, e.g. 100 euro is formatted as `10000` |
+    | currency | Yes | The currency of the order. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `EUR` |
+    | customer.country | No | The customer's country code. Used to validate the availability of the payment method. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL` |
+    | customer.locale | No | The customer's language. Sets the language of the payment component UI. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL` <br> Supported languages: `EN`, `ES`, `FR`, `IT`, `NL` |
+    | customer.reference | Yes, for recurring payments | Your unique customer reference. |
+    | payment_options.settings.connect.group_cards | No | Groups all credit card payment methods as a single option in the list of payment methods. <br> Format: Boolean <br> Default: `false`.|
+    | recurring.model | Yes, for recurring payments | The [recurring model](/docs/recurring-payments/). |
+    | template.settings.embed_mode | No | A template designed to blend in seamlessly with your ecommerce platform. <br> Format: Boolean |
 
     <br>
 
@@ -95,7 +95,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
     <summary>How to process recurring payments</summary>
     <br>
 
-    [Recurring payments](/docs/recurring-payments/) is a feature that lets you store a customer’s payment details as a secure, encrypted token.
+    [Recurring payments](/docs/recurring-payments/) is a solution that lets you store a customer’s payment details as a secure, encrypted token.
 
     Upon subsequent payments, customers can select their stored payment details and pay with a single click.
 
@@ -104,7 +104,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
     - Add the `cardOnFile` recurring model
     - Provide the relevant `customer.reference`
 
-    ```
+    ```javascript
     const orderData = {
         currency: 'EUR',
         amount: 10000,
@@ -121,11 +121,9 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
     Recurring payments are supported for all credit card payments.
 
-    > **Note**: For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
+    > **Note:** For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
 
     To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email <sales@multisafepay.com>
-
-    ---
 
     </details>
     
@@ -133,7 +131,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
 
-    ```
+    ```javascript
     PaymentComponent = new MultiSafepay({
         env: 'test',
         apiToken: apiToken,
@@ -149,7 +147,7 @@ Initialize the component using:
 <summary>Payment component button</summary>
 <br>
 
-```
+```javascript
 PaymentComponent.init('dropin', {
     container : '#MultiSafepayPayment',
     onSelect : state => {
@@ -191,7 +189,7 @@ PaymentComponent.init('dropin', {
 <summary>Own or existing button</summary>
 <br>
 
-```    
+```javascript
 PaymentComponent.init('dropin', {
     container : '#MultiSafepayPayment',
     onSelect : state => {
@@ -214,9 +212,9 @@ In the method call, create event handlers for the following events:
 <br>
 
 | Event | Event handler |
-| ---- | ---- |
+|---|---|
+|`onError`| Occurs when there is an error in the payment component. |
 |`onLoad`| Occurs when the payment component UI is rendered. |
-|`onError`| Occurs when an error occurs in the payment component. |
 |`onSelect`| Occurs when the customer selects an <<glossary:issuer>> with iDEAL. |
 |`onSubmit`| Occurs when the customer clicks the payment button (when using the button generated by the component). |
 |`onValidation`| Occurs when form validation changes. Can be used to disable the payment button until all fields are validated. |
@@ -230,11 +228,11 @@ The `PaymentComponent` has the following methods:
 <br>
 
 | Method | Description |
-| ---- | ---- |
-|`getErrors`| Returns error messages or codes|
-|`hasErrors`| Returns a boolean value about whether errors were registered |
-|`getPaymentData`| Returns a `payment_data` object with a `payload` containing the customer's payment details, used to [create orders](/docs/payment-component-single/), and the `gateway`.|
+|---|---|
+|`getErrors`| Returns error messages or codes. |
+|`hasErrors`| Returns a boolean value about whether errors were registered. |
 |`getOrderData`| Returns an object containing a `payment_data` object and the full order configuration. |
+|`getPaymentData`| Returns a `payment_data` object with a `payload` containing the customer's payment details, used to [create orders](/docs/payment-component-single/), and the `gateway`.|
 
 </details>
 
@@ -242,11 +240,11 @@ The `PaymentComponent` has the following methods:
 
 ## Handle the interaction
 
-> **Tip!** This step only applies if using your own or an existing payment button.
+✅ &nbsp; **Tip!** This step only applies if using your own or an existing payment button.
 
 1. Assign the button element to a variable:
 
-    ```
+    ```javascript
     const paymentButton = document.querySelector('#payment-button');
     ```
 
@@ -257,7 +255,7 @@ The `PaymentComponent` has the following methods:
     - Return the reponse from your server to the client-side to redirect the customer.
     <br>
 
-    ```
+    ```javascript
     paymentButton.addEventListener('click', e => {
         paymentButton.addAttribute('disabled');
         if (PaymentComponent.hasErrors()) {
@@ -311,7 +309,7 @@ Then, check `response.success`:
     Render the account details in the interface for the customer with clear instructions. (MultiSafepay also emails these details to the customer.)
 
     **Example gateway_info object**
-    ```
+    ```json
     {
     "gateway_info":{
         "mtpinfo":"NL25DEUT7351811717",
@@ -339,22 +337,23 @@ See API reference – [Create order](/reference/createorder/) > Payment componen
 
 # 4. Go live
 
-To test the payment methods, use our [Testing](/docs/testing#test-payment-details).
+To test the payment methods, see [Testing](/docs/testing#test-payment-details).
 
 When you're ready to process real payments, make the following changes:
 
-1. In [Step 1: Add the elements](#step-1-add-the-elements), replace test JavaScript library with the live JavaScript library:
-    ```
+1. In [Step 1: Add the HTML elements](#1-add-the-html-elements), replace the:
+   - Test JavaScript library with the **live** JavaScript library:
+    ```html
     <script src="https://pay.multisafepay.com/sdk/components/v2/components.js"></script>
     ```
 
-    Next, replace the test CSS file with the live CSS file:
-    ```
+    - Test CSS file with the **live** CSS file:
+    ```html
     <link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v2/components.css">
     ```
 
-2. In [Step 2: Construct the component object](#step-2-construct-the-component-object), change the environment from `test` to `live`:
-    ```
+2. In [Step 2: Construct the component object](#construct-the-component-object), change the environment from `test` to `live`:
+    ```javascript
     PaymentComponent = new MultiSafepay({
         env: 'live',
         apiToken: apiToken,
@@ -362,7 +361,7 @@ When you're ready to process real payments, make the following changes:
     });
     ```
 
-3. In [Step 3: Create an order](#step-3-create-an-order), change the test endpoint to the live endpoint:
+3. In [Step 3: Create an order](#3-create-an-order), change the test endpoint to the **live** endpoint:
     ```
     https://api.multisafepay.com/v1/json/orders
     ```

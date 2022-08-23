@@ -7,7 +7,7 @@ slug: 'payment-components'
 ---
 Payment components let you embed payment methods directly into your checkout.
 
-- Creates a seamless checkout experience to increase <<glossary:conversion>>
+- Creates a seamless payment experience to increase <<glossary:conversion>>
 - Encrypts customer payment details for secure processing
 - Reduces your [PCI DSS](/docs/pci-dss/) responsibility, falling only under <a href="https://www.pcisecuritystandards.org/documents/SAQ_A_v3.pdf" target="_blank">Self-Assessment Questionaire A</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - Supports [recurring payments](/docs/recurring-payments/)

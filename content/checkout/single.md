@@ -9,22 +9,22 @@ parentDoc: 62a848399bb3eb004023f291
 
 This technical manual is for integrating a payment component using a single payment method.
 
-# 1. Add the elements
+# 1. Add the HTML elements
 
 Add the following elements to your checkout page:
 
 1. Add the component's CSS to the `<head>` of your checkout page:  
-    ```
+    ```html
     <link rel="stylesheet" href="https://testpay.multisafepay.com/sdk/components/v2/components.css">
     ```
 
 2. Add the component's script to the bottom of the `<body>` of your checkout page:  
-    ```
+    ```html
     <script src="https://testpay.multisafepay.com/sdk/components/v2/components.js"></script>
     ```
 
 3. Add the DOM element for the component's UI in the `<body>` of your checkout page:
-    ```
+    ```html
     <div id="MultiSafepayPayment"></div>
     ```
 
@@ -34,13 +34,13 @@ Add the following elements to your checkout page:
 
   Payment Components require a MultiSafepay API token. See API reference – [Generate an API token](/reference/generateapitoken/).
 
-  > **Tip!** To keep your API key private, request the token from your own server.  
+  ✅ &nbsp; **Tip!** To keep your API key private, request the token from your own server.  
 
 ## Construct the component object
 
 1. Initialize an `orderData` object, containing information about the customer's order collected during the checkout process:
 
-    ```
+    ```javascript
     const orderData = {
         currency: 'EUR',
         amount: 10000,
@@ -61,16 +61,15 @@ Add the following elements to your checkout page:
     <summary>Properties</summary>
     <br>
 
-    | Key | Value |
-    | ---- | ---- |
-    | currency| The currency of the order. Format: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `EUR`. **Required**. |
-    | amount| The value of the order. Format: Number without decimal points, e.g. 100 euro is formatted as `10000`. **Required**. |
-    | customer.country| The customer's country code. Checks the availability of the payment method. Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL`. **Optional**. |
-    |customer.locale | The customer's language. Sets the language of the payment component UI. Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL`. Supported languages: `EN`, `ES`, `FR`, `IT`, `NL`. **Optional**.|
-    | customer.reference| Your unique customer reference. **Required for recurring payments**. |
-    | recurring.model| The [tokenization model](/docs/recurring-payments/). **Required for recurring payments**. |
-    | template.settings.embed_mode| A template designed to blend in seamlessly with your ecommerce platform. Format: Boolean. **Optional**. |
-
+    | Key | Required | Value |
+    |---|---|---|
+    | amount | Yes | The value of the order. <br> Format: Number without decimal points, e.g. 100 euro is formatted as `10000` |
+    | currency | Yes | The currency of the order. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `EUR` |
+    | customer.country | No | The customer's country code. Checks the availability of the payment method. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL` |
+    | customer.locale | No | The customer's language. Sets the language of the payment component UI. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL` <br> Supported languages: `EN`, `ES`, `FR`, `IT`, `NL` |
+    | customer.reference | Yes, for recurring payments | Your unique customer reference. |
+    | recurring.model | Yes, for recurring payments | The [tokenization model](/docs/recurring-payments/). |
+    | template.settings.embed_mode | No | A template designed to blend in seamlessly with your ecommerce platform. <br> Format: Boolean |
     <br>
 
     </details>
@@ -88,7 +87,7 @@ Add the following elements to your checkout page:
     - Add the `cardOnFile` recurring model
     - Provide the relevant `customer.reference`
 
-        ```
+        ```javascript
         const orderData = {
             currency: 'EUR',
             amount: 10000,
@@ -105,7 +104,7 @@ Add the following elements to your checkout page:
 
     Recurring payments are supported for all credit card payments.
 
-    **Note**: For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
+    **Note:** For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
 
     To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email <sales@multisafepay.com>
 
@@ -117,7 +116,7 @@ Add the following elements to your checkout page:
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
 
-    ```
+    ```javascript
     PaymentComponent = new MultiSafepay({
         env: 'test',
         apiToken: apiToken,
@@ -128,7 +127,7 @@ Add the following elements to your checkout page:
 ## Initialize the component
 
 1. Call the `PaymentComponent.init()` method with the following arguments:
-    ```
+    ```javascript
     PaymentComponent.init('payment', {
         container: '#MultiSafepayPayment',
         gateway: '<GATEWAY>',
@@ -146,15 +145,15 @@ Add the following elements to your checkout page:
     <summary>Gateway IDs</summary>
     <br>
 
-    | Payment method| Gateway ID|
+    | Payment method | Gateway ID |
     |---|---|
     | Bank Transfer | `BANKTRANS` |
     | Bancontact | `MISTERCASH` |
-    | Credit cards |`CREDITCARD`|
-    | iDEAL|`IDEAL`|
+    | Credit cards | `CREDITCARD` |
+    | iDEAL| `IDEAL` |
     | PayPal | `PAYPAL` |
     | SEPA Direct Debit | `DIRDEB` |
-    | Sofort | `DIRECTBANK`|
+    | Sofort | `DIRECTBANK` |
 
     </details>
 
@@ -165,9 +164,9 @@ Add the following elements to your checkout page:
     <br>
 
     | Event | Event handler |
-    | ---- | ---- |
-    |`onError`| Called when an error occurs in the payment component|
-    |`onLoad`| Called when the payment component UI is rendered |
+    |---|---|
+    |`onError`| Called when an error occurs in the payment component. |
+    |`onLoad`| Called when the payment component UI is rendered. |
     |`onSelect`| Occurs when the customer selects an <<glossary:issuer>> with iDEAL. |
     |`onSubmit`| Occurs when the customer clicks the payment button (when using the button generated by the component). |
     |`onValidation`| Occurs when form validation changes. Can be used to disable the payment button until all fields are validated. |
@@ -181,9 +180,9 @@ Add the following elements to your checkout page:
     <br>
 
     | Method | Description |
-    | ---- | ---- |
-    |`getErrors`| Returns error details, e.g. error messages or codes|
-    |`hasErrors`| Returns a boolean value depending on whether errors have been registered |
+    |---|---|
+    |`getErrors`| Returns error details, e.g. error messages or codes.|
+    |`hasErrors`| Returns a boolean value depending on whether errors have been registered. |
     |`getPaymentData`| Returns a `payment_data` object with a `payload` containing the customer's payment details, used to [create orders](/docs/payment-component-single#step-3-create-an-order), and the `gateway`.|
     |`getOrderData`| Returns an object containing a `payment_data` object and the full order configuration. |
 
@@ -195,7 +194,7 @@ Add the following elements to your checkout page:
 
 1. To collect the customer's payment details from the payment component UI, call the `PaymentComponent.getPaymentData()` method:
 
-    ```
+    ```javascript
     PaymentComponent.getPaymentData()
     ```
 
@@ -224,7 +223,7 @@ See API reference – [Create order](/reference/createorder/) > Payment componen
     Render the account details in the interface for the customer with clear instructions. (MultiSafepay also emails these details to the customer.)
 
     **Example gateway_info object**
-    ```
+    ```json
     {
     "gateway_info":{
         "mtpinfo":"NL25DEUT7351811717",
@@ -249,7 +248,7 @@ See API reference – [Create order](/reference/createorder/) > Payment componen
     <br>
 
     Call the `PaymentComponent.init()` method using the following arguments:
-    ```
+    ```javascript
     PaymentComponent.init('redirection', {
         order: response.data
     });
@@ -268,18 +267,20 @@ To test the payment method, use our [Testing](/docs/testing#test-payment-details
 
 When you're ready to process real payments, make the following changes:
 
-1. In [Step 1: Add the elements](#step-1-add-the-elements), replace test JavaScript library with the live JavaScript library:
+1. In [Step 1: Add the HTML elements](#1-add-the-html-elements), replace the:
+   
+   - Test JavaScript library with the **live** JavaScript library:
     ```
     <script src="https://pay.multisafepay.com/sdk/components/v2/components.js"></script>
     ```
 
-    Next, replace the test CSS file with the live CSS file:
+    - Test CSS file with the **live** CSS file:
     ```
     <link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v2/components.css">
     ```
 
-2. In [Step 2: Construct the component object](#step-2-initialize-the-component), change the environment from `test` to `live`:
-    ```
+2. In [Step 2: Construct the component object](#construct-the-component-object), change the environment from `test` to `live`:
+    ```javascript
     PaymentComponent = new MultiSafepay({
         env: 'live',
         apiToken: apiToken,
