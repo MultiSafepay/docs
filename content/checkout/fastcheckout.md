@@ -44,14 +44,14 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
   <summary>Examples of how issuers can be displayed</summary>
   <br>
 
-  **List**
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersList.png" align ="left"/>
+  <div style="text-align: center">List</div>
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersList.png" align ="center"/>
 
-  **Dropdown**
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersDropdown.png" align ="left"/>
+  <div style="text-align: center">Dropdown</div>
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersDropdown.png" align ="center"/>
 
-  **Buttons**
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersButtons.png" align ="left"/>
+  <div style="text-align: center">Buttons</div>
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersButtons.png" align ="center"/>
 
   </details>
 
@@ -59,7 +59,7 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
   <summary>Example of single credit card gateway</summary>
   <br>
 
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOCreditCards.png" align ="center"/>
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOCreditCards.png" align ="left"/>
 
   </details>
 
