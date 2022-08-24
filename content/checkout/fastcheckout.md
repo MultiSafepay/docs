@@ -187,7 +187,7 @@ FastCheckout supports all payment methods, including QR codes, **except** for Pa
 
 ## Second Chance
 
-You can follow up abandoned FastCheckout pages with [Second Chance](/features/second-chance/).
+You can follow up abandoned FastCheckout pages with [Second Chance](/docs/second-chance/).
 
 ## Split payments
 
