@@ -7,7 +7,7 @@ slug: 'payment-pages'
 ---
 Payment pages are hosted by MultiSafepay and are the easiest way to integrate all payment methods. 
 
-They are completely secure, fully mobile responsive, and can be styled to fit the look and feel of your site.
+They are completely secure, [Fuhrmann-2 compliant](/docs/fuhrmann2/), fully mobile responsive, and can be styled to fit the look and feel of your site.
 
 # How it works
 
