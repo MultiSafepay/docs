@@ -30,7 +30,7 @@ This technical manual is for integrating a payment component using multiple paym
 
 Decide if you want to:
 
-- Generate a button with the component (see [Step 2](#step-2-initialize-the-component) below). **Recommended.**
+- Generate a button with the component (see [Step 2](#2-initialize-the-component) below). **Recommended.**
 - Use an existing button, e.g. if your checkout already includes one.
 - Create your own button:
 
@@ -118,6 +118,10 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
         }
     };
     ```
+
+    > ✅ Success
+    > 
+    > Your payment component now automatically renders a checkbox where customers can choose whether they would like to store their payment details for future visits.
 
     Recurring payments are supported for all credit card payments.
 
@@ -250,12 +254,32 @@ The `PaymentComponent` has the following methods:
 
 2. Create an event handler for the payment button:
 
-    - When the customer clicks the payment button, call the `getPaymentData()` method.
+    - When the customer clicks the payment button, call the component's `getPaymentData()` method.
     - Send the response to your server and [create an order](#create-an-order).
     - Return the reponse from your server to the client-side to redirect the customer.
     <br>
 
-    ```javascript
+### Redirect the customer
+
+The component's `redirection` handler redirects the customer to the relevant page:
+
+- If customer actions are required to complete the payment (e.g. by completing 3D Secure or iDEAL issuer authentication), the customer is redirected to the relevant page. If successful, the customer is then redirected to the `redirect_url`, i.e. the "success page". 
+- If no customer action is required to complete the payment, the customer is redirected to the `redirect_url`, i.e. the "success page".
+- If the customer chooses to pay by bank transfer, the component displays the banking details needed for customers to complete payment. 
+- If a QR code is available for customers to complete payment on their mobile device, the component displays the QR code. 
+  
+### Avoid duplicate orders
+
+When using your own payment button, if the customer clicks it again before they are redirected, this can create duplicate orders. 
+
+To avoid duplicate orders, disable the button until you have attempted to create an order.  
+
+Then, check `response.success`:
+
+- If `true`, don't re-enable the button, and proceed with the redirect.
+- If `false`, re-enable the button for the customer to try again. 
+
+    ``` js
     paymentButton.addEventListener('click', e => {
         paymentButton.addAttribute('disabled');
         if (PaymentComponent.hasErrors()) {
@@ -265,7 +289,7 @@ The `PaymentComponent` has the following methods:
         }
         createOrder(PaymentComponent.getPaymentData()).then(response => {
             if(!response || !response.success) {
-                paymentButton.removeAttribute('disabled');
+                paymentButton.disabled = false;
                 console.log(response);
             } else {
                 PaymentComponent.init('redirection', {
@@ -275,59 +299,6 @@ The `PaymentComponent` has the following methods:
         });
     });
     ```
-  
-## Avoid duplicate orders
-
-When using your own payment button, if the customer clicks it again during the latency before redirection, this creates duplicate orders. 
-
-To avoid duplicate orders, disable the button until you have attempted to create an order.  
-Then, check `response.success`:
-
-- If `true`, don't re-enable the button and proceed to the redirect.
-- If `false`, re-enable the button for the customer to try again. 
-
-    <details id="redirect-to-3d-authentication">
-    <summary>Redirect to 3D authentication</summary>
-    <br>
-
-    The `init('redirection')` method redirects customers paying by credit card to the relevant page.
-
-    If 3D Secure authentication is:
-
-    - Required, the customer is first directed to 3D Secure. If successful, they are then redirected to the `redirect_url`. 
-
-    - Not required, the customer is redirected to the `redirect_url`.
-
-    </details>
-
-    <details id="redirect-bank-transfer-payments">
-    <summary>Redirect Bank Transfer payments</summary>
-    <br>
-
-    In the `gateway_info` object, you receive the bank account details for the customer to wire the funds to.
-
-    Render the account details in the interface for the customer with clear instructions. (MultiSafepay also emails these details to the customer.)
-
-    **Example gateway_info object**
-    ```json
-    {
-    "gateway_info":{
-        "mtpinfo":"NL25DEUT7351811717",
-        "reference":"9202124254788300",
-        "issuer_name":"Sofortbank",
-        "destination_account_id":"003001380000",
-        "destination_holder_name":"MultiSafepay",
-        "destination_holder_city":"Zurich",
-        "destination_holder_country":"CH",
-        "destination_holder_iban":"NL25DEUT7351811717",
-        "destination_holder_swift":"DEUTCHZZ",
-        "account_holder_name":"testperson-nl approved",
-        "account_holder_city":"gravenhage",
-        "account_holder_coutry":"NL"
-    }
-    }
-    ```
-    </details>
 
 ## Create an order
 
@@ -341,19 +312,18 @@ To test the payment methods, see [Testing](/docs/testing#test-payment-details).
 
 When you're ready to process real payments, make the following changes:
 
-1. In [Step 1: Add the HTML elements](#1-add-the-html-elements), replace the:
-   - Test JavaScript library with the **live** JavaScript library:
-    ```html
+1. In [Step 1: Add the elements](#1-add-the-elements), replace the test JavaScript library with the live JavaScript library:
+    ``` html
     <script src="https://pay.multisafepay.com/sdk/components/v2/components.js"></script>
     ```
 
-    - Test CSS file with the **live** CSS file:
-    ```html
+    Next, replace the test CSS file with the live CSS file:
+    ``` html
     <link rel="stylesheet" href="https://pay.multisafepay.com/sdk/components/v2/components.css">
     ```
 
-2. In [Step 2: Construct the component object](#construct-the-component-object), change the environment from `test` to `live`:
-    ```javascript
+2. In [Step 2: Construct the component object](#2-construct-the-component-object), change the environment from `test` to `live`:
+    ``` js
     PaymentComponent = new MultiSafepay({
         env: 'live',
         apiToken: apiToken,

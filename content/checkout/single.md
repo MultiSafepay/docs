@@ -102,6 +102,10 @@ Add the following elements to your checkout page:
         };
         ```
 
+    > ✅ Success
+    > 
+    > Your payment component now automatically renders a checkbox where customers can choose whether they would like to store their cardholder data for future visits. 
+
     Recurring payments are supported for all credit card payments.
 
     **Note:** For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
@@ -149,8 +153,10 @@ Add the following elements to your checkout page:
     |---|---|
     | Bank Transfer | `BANKTRANS` |
     | Bancontact | `MISTERCASH` |
-    | Credit cards | `CREDITCARD` |
-    | iDEAL| `IDEAL` |
+    | Betaal per maand | `SANTANDER` |
+    | Credit cards |`CREDITCARD`|
+    | iDEAL|`IDEAL`|
+    | In3 | `IN3`
     | PayPal | `PAYPAL` |
     | SEPA Direct Debit | `DIRDEB` |
     | Sofort | `DIRECTBANK` |
@@ -180,25 +186,73 @@ Add the following elements to your checkout page:
     <br>
 
     | Method | Description |
-    |---|---|
-    |`getErrors`| Returns error details, e.g. error messages or codes.|
-    |`hasErrors`| Returns a boolean value depending on whether errors have been registered. |
-    |`getPaymentData`| Returns a `payment_data` object with a `payload` containing the customer's payment details, used to [create orders](/docs/payment-component-single#step-3-create-an-order), and the `gateway`.|
+    | ---- | ---- |
+    |`getErrors`| Returns error details, e.g. error messages or codes|
+    |`hasErrors`| Returns a boolean value depending on whether errors have been registered |
+    |`getPaymentData`| Returns a `payment_data` object containing the `gateway`, and a `payload` containing the customer's payment details, used to [create orders](/docs/payment-component-single#3-create-an-order).|
     |`getOrderData`| Returns an object containing a `payment_data` object and the full order configuration. |
 
     </details>
 
 # 3. Create an order
 
-## Collect payment data
+## Handle the interaction
 
-1. To collect the customer's payment details from the payment component UI, call the `PaymentComponent.getPaymentData()` method:
+1. Assign the button element to a variable:
 
     ```javascript
     PaymentComponent.getPaymentData()
     ```
 
-2. Pass the `payment_data` to your server.
+2. Create an event handler for the payment button to:
+
+    - When the customer clicks the payment button, call the component's `getPaymentData()` method.
+    - Send the response to your server and [create an order](#create-an-order).
+    - Return the reponse from your server to the client-side to redirect the customer.
+    <br>
+
+### Redirect the customer
+
+The component's `redirection` handler redirects the customer to the relevant page:
+
+- If customer actions are required to complete payment (e.g. by completing 3D Secure or iDEAL issuer authentication), the customer is redirected to the relevant page. If successful, the customer is then redirected to the `redirect_url`, i.e. the "success page". 
+- If no customer action is required to complete payment, the customer is redirected to the `redirect_url`, i.e. the "success page".
+- If the customer chooses to pay by bank transfer, the component displays the banking details needed for customers to complete payment. 
+- If a QR code is available for customers to complete payment on their mobile device, the component displays the QR code. 
+  
+### Avoid duplicate orders
+
+When using your own payment button, if the customer clicks it again before they are redirected, this can create duplicate orders.
+
+To avoid duplicate orders, disable the button until you have attempted to create an order. 
+
+Then, check `response.success`:
+
+- If `true`, don't re-enable the button, and proceed to the redirect.
+- If `false`, re-enable the button for the customer to try again. 
+
+    ``` js
+    paymentButton.addEventListener('click', e => {
+        paymentButton.disabled = true;
+        if (PaymentComponent.hasErrors()) {
+            let errors = PaymentComponent.getErrors();
+            console.log(errors);
+            return false;
+        }
+        createOrder(PaymentComponent.getOrderData()).then(response => {
+            if(!response || !response.success) {
+                paymentButton.disabled = false;
+                console.log(response);
+            } else {
+                PaymentComponent.init('redirection', {
+                    order: response.data
+                });
+            }
+        });
+    });
+    ``` 
+
+Use the `createOrder()` function to pass the `orderData` to your server.
 
 ## Create an order
 
@@ -212,54 +266,22 @@ See API reference – [Create order](/reference/createorder/) > Payment componen
 
 2. Check that `response.success` is `true`.
 
-3. Handle the response:
-
-    <details id="bank-transfer-payments">
-    <summary>Bank Transfer payments</summary>
-    <br>
-
-    In the `gateway_info` object, you receive the bank account details for the customer to wire the funds to.
-
-    Render the account details in the interface for the customer with clear instructions. (MultiSafepay also emails these details to the customer.)
-
-    **Example gateway_info object**
-    ```json
-    {
-    "gateway_info":{
-        "mtpinfo":"NL25DEUT7351811717",
-        "reference":"9202124254788300",
-        "issuer_name":"Sofortbank",
-        "destination_account_id":"003001380000",
-        "destination_holder_name":"MultiSafepay",
-        "destination_holder_city":"Zurich",
-        "destination_holder_country":"CH",
-        "destination_holder_iban":"NL25DEUT7351811717",
-        "destination_holder_swift":"DEUTCHZZ",
-        "account_holder_name":"testperson-nl approved",
-        "account_holder_city":"gravenhage",
-        "account_holder_coutry":"NL"
-    }
-    }
-    ```
-    </details>
-
-    <details id="other-payment-methods">
-    <summary>Other payment methods</summary>
-    <br>
+3. Handle the response
 
     Call the `PaymentComponent.init()` method using the following arguments:
-    ```javascript
+
+    ``` js
     PaymentComponent.init('redirection', {
         order: response.data
     });
     ```
 
-    If 3D Secure verification is:
-
-    - Required, the customer is first directed to 3D Secure. If successful, the customer is then redirected to the `redirect_url`. 
-    - Not required, the customer is redirected to the `redirect_url`.
-
-    </details>
+    The component's `redirection` handler redirects the customer to the relevant page:
+    
+    - If customer action is required to complete payment (e.g. by completing 3D Secure or iDEAL issuer authentication), the customer is redirected to the relevant page. If successful, the customer is then redirected to the `redirect_url`, (i.e. the "success page"). 
+    - If no customer action is required to complete payment, the customer is redirected to the `redirect_url`, (i.e. the "success page").
+    - If the customer chooses to pay by bank transfer, the component displays the banking details needed for customers to complete payment. 
+    - If a QR code is available for customers to complete payment on their mobile device, the component displays the QR code. 
 
 # 4. Go live
 
@@ -287,7 +309,7 @@ When you're ready to process real payments, make the following changes:
         order: orderData
     });
     ```
-3. In [Step 3: Create an order](#step-3-create-an-order), change the test endpoint to the live endpoint:
+3. In [Step 3: Create an order](#3-create-an-order), change the test endpoint to the live endpoint:
     ```
     https://api.multisafepay.com/v1/json/orders
     ```
