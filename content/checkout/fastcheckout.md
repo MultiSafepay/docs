@@ -6,6 +6,17 @@ hidden: false
 slug: 'fastcheckout'
 ---
 
+<blockquote class="callout callout_warning">
+    <h3 class="callout-heading false">Closed beta phase</h3>
+</blockquote>
+
+<style>
+blockquote.callout_warning div.heading-text {
+font-size: 5 rem;
+color: rgb(241, 173, 0) !important;
+}
+</style>
+
 FastCheckout is MultiSafepay's own complete checkout solution for a fast, frictionless checkout experience and increased <<glossary:conversion>>.
 
 ## How it works
