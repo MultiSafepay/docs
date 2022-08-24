@@ -189,7 +189,7 @@ Add the following elements to your checkout page:
     | ---- | ---- |
     |`getErrors`| Returns error details, e.g. error messages or codes|
     |`hasErrors`| Returns a boolean value depending on whether errors have been registered |
-    |`getPaymentData`| Returns a `payment_data` object with a `payload` containing the customer's payment details, used to [create orders](/docs/payment-component-single#3-create-an-order), and the `gateway`.|
+    |`getPaymentData`| Returns a `payment_data` object containing the `gateway`, and a `payload` containing the customer's payment details, used to [create orders](/docs/payment-component-single#3-create-an-order).|
     |`getOrderData`| Returns an object containing a `payment_data` object and the full order configuration. |
 
     </details>
