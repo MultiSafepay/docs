@@ -39,6 +39,7 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
 - Styles how <<glossary:issuers>> are displayed and how to connect to their environment
 - Validates input instantly and suggests actionable errors
 - Saves space by bundling all available credit cards in a single gateway that auto-detects the card type
+- Is [Fuhrmann-2 compliant](/docs/fuhrmann2/)
 
   <details id="issuer-example">
   <summary>Examples of how issuers can be displayed</summary>
