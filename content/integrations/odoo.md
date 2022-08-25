@@ -97,6 +97,31 @@ Supported since release: 1.1.0, July 2nd 2021.
 
 </details>
 
+## Orders
+
+<details id="how-to-create-orders">
+<summary>How to create orders</summary>
+<br>
+
+1. Select the payment method on the checkout page, and then click **Pay now**.
+2. Provide any required information (e.g. bank account number), and confirm payment.
+3. When the transaction is completed, you receive a _Order { order ID } Confirmed_ <a href="https://docs.multisafepay.com/docs/configure-your-webhook" target="_blank">webhook notification</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+</details>
+
+<details id="how-to-ship-orders">
+<summary>How to ship orders</summary>
+<br>
+
+
+1. Go to the **Website** menu> **Orders**, and then select the relevant order.
+2. To mark the order as **Shipped**, go to **Delivery** and **Validate transfer**.
+    The transaction status changes to **Shipped**.
+3. Under **Order details**, you can create an invoice. Its status is **Paid** right away because the order was prepaid.
+4. If you want to update the invoice ID of the transaction with MultiSafepay, go to **Configuration** > **Payment transactions**, select the relevant transaction, and then click **Update invoice ID**.
+
+</details>
+
 ## Payment methods
 
 <details id="supported-payment-methods">
@@ -118,6 +143,35 @@ Supported since release: 1.1.0, July 2nd 2021.
     - [SEPA Direct Debit](/docs/sepa-direct-debit/)
     - [Sofort](/docs/sofort/)
     - [Trustly](/docs/trustly/)
+
+</details>
+
+## Refunds
+
+<details id="how-to-refund-orders">
+<summary>How to refund orders</summary>
+<br>
+
+In your Odoo backend, you can only refund **Completed** orders.
+
+1. To create a refund invoice, go to **Order invoices**, and then click **Add credit note**.
+2. Enter a **Refund reason** and check the invoice lines you want to return, and then click **Post**.
+3. To create a refund request, click **Refund with MultiSafepay**.
+4. If the request is created successfully, the invoice status changes.
+5. When the status of the MultiSafepay refund transaction changes to **Completed**, the status of the refund invoice changes to **Paid**.
+
+</details>
+
+<details id="how-to-refund-bnpl">
+<summary>How to refund BNPL orders</summary>
+<br>
+
+For <<glossary:BNPL>> orders, the refund request must include a `shopping_cart` object where:
+
+- The `item_quantity` must not be more than `quantity` in the original order.
+- The `item_price` must be equal to the `unit_price` in the original order.
+
+**Note:** You cannot refund BNPL orders if a gift card or promo code was used for the original order.
 
 </details>
 
