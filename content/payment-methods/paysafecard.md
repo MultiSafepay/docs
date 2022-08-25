@@ -62,8 +62,18 @@ For any questions, email <sales@multisafepay.com>
 # Integration
 
 ### API
-- [Create order](/reference/createorder/) > Prepaid card order.
-- Examples > Gift card redirect.
+- See API reference – [Create order](/reference/createorder/) > Prepaid card order.
+
+  <details id="example-requests"> 
+  <summary>Example requests</summary>
+  <br>
+
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Gift card redirect**.
+
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+
+  </details>
+
 - Transactions expire after 3 hours.
 
 ### Ready-made integrations

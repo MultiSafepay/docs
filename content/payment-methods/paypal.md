@@ -123,8 +123,18 @@ We strongly recommend [testing transactions](/docs/testing/) before processing l
 # Integration
 
 ### API
-- [Create order](/reference/createorder/) > Wallet order. 
-- Examples > PayPal direct/redirect.
+- See API reference – [Create order](/reference/createorder/) > Wallet order. 
+
+  <details id="example-requests"> 
+  <summary>Example requests</summary>
+  <br>
+
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **PayPal direct/redirect**.
+
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+
+  </details>
+
 - Transactions expire after 14 days.
 
 ### Ready-made integrations

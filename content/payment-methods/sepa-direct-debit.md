@@ -84,8 +84,17 @@ First apply to MultiSafepay, and then activate in your dashboard.
 # Integration
 
 ### API
-- [Create order](/reference/createorder/) > Banking order.
-- Examples > SEPA Direct Debit direct/redirect.
+- See API reference – [Create order](/reference/createorder/) > Banking order.
+
+  <details id="example-requests"> 
+  <summary>Example requests</summary>
+  <br>
+
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **SEPA Direct Debit direct/redirect**.
+
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+
+  </details>
 
 ### Ready-made integrations
 Supported in all [ready-made integrations](/docs/our-integrations/) (direct).

@@ -14,7 +14,7 @@ This guidance flows from the Court of Justice of the European Union decision in 
 
 The text on payment buttons must be both easily legible and unambiguous. The Court provided an example formulation of "Order with obligation to pay". Merchants are permitted to use any other similar formulation. 
 
-Payment buttons on MultiSafepay [payment pages](/docs/payment-page/) and [FastCheckout pages](/docs/fastcheckout/) are compliant. 
+Payment buttons on MultiSafepay [payment pages](/docs/payment-pages/) and [FastCheckout pages](/docs/fastcheckout/) are compliant. 
 
 <br>
 

@@ -70,8 +70,18 @@ You can activate Bancontact yourself in your dashboard.
 # Integration
 
 ### API
-- [Create order](/reference/createorder/) > Banking order. 
-- Examples > Bancontact redirect/QR.
+- See API reference – [Create order](/reference/createorder/) > Banking order. 
+
+  <details id="example-requests"> 
+  <summary>Example requests</summary>
+  <br>
+
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Bancontact redirect/QR**.
+
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+
+  </details>
+
 - Transactions expire after 1 hour (banking only).
 
 ### Ready-made integrations

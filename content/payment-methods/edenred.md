@@ -72,8 +72,18 @@ Register with Edenred and we'll activate it for your account.
 # Integration
 
 ### API
-- [Create order](/reference/createorder/) > Prepaid card order 
-- Examples > Edenred redirect 
+- See API reference – [Create order](/reference/createorder/) > Prepaid card order.
+
+  <details id="example-requests"> 
+  <summary>Example requests</summary>
+  <br>
+
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Edenred redirect**.
+
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+
+  </details>
+
 - By default, all activated Edenred vouchers display at checkout, but you can also specify which Edenred vouchers to display per transaction.
 
 ### Ready-made integrations

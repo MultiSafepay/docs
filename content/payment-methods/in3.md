@@ -75,8 +75,18 @@ First apply to MultiSafepay, and then activate in your dashboard.
 # Integration
 
 ### API
-- [Create order](/reference/createorder/) > BNPL order. 
-- Examples > in3 direct/redirect.
+- See API reference – [Create order](/reference/createorder/) > BNPL order. 
+
+  <details id="example-requests"> 
+  <summary>Example requests</summary>
+  <br>
+
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **in3 direct/redirect**.
+
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+
+  </details>
+
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions expire after 2 hours.
 
