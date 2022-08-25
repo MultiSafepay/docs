@@ -39,11 +39,11 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| The customer has initiated a transaction. | Initialized | Initialized |
+| The customer has initiated a transaction (non-mobile only). | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | Bancontact has declined the transaction. | Declined | Declined   |
 | The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment and the transaction expired. | Expired | Expired |
+| The customer didn't complete payment and the transaction expired (non-mobile only). | Expired | Expired |
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |
 
