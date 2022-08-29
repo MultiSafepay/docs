@@ -73,8 +73,18 @@ You can activate MyBank in your dashboard.
 # Integration
 
 ### API
-- [Create order](/reference/createorder/) > Banking order. In the `customer` object, set the `locale` to `IT`.
-- Examples > MyBank direct/redirect.
+- See API reference – [Create order](/reference/createorder/) > Banking order. In the `customer` object, set the `locale` to `IT`.
+
+  <details id="example-requests"> 
+  <summary>Example requests</summary>
+  <br>
+
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **MyBank direct/redirect**.
+
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+
+  </details>
+
 - Transactions expire after 1 hour.
 
 ### Ready-made integrations

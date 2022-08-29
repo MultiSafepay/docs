@@ -99,8 +99,18 @@ First apply to MultiSafepay, and then activate in your dashboard.
 # Integration
 
 ### API
-- [Create order](/reference/createorder/) > Card order 
-- See Examples and select the relevant <<glossary:card scheme>> example. 
+- See API reference – [Create order](/reference/createorder/) > Card order.
+
+  <details id="example-requests"> 
+  <summary>Example requests</summary>
+  <br>
+
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** and select the relevant <<glossary:card scheme>> example.
+
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+
+  </details>
+
 - Transactions expire after 1 hour.
 
 #### Co-branded cards

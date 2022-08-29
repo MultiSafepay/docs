@@ -66,23 +66,40 @@ You need to contact AfterPay to activate it for your account.
 # Integration
 
 ### API
-- [Create order](/reference/createorder/) > Pay later order.
-- Examples > AfterPay direct/redirect.
+- See API reference – [Create order](/reference/createorder/) > BNPL order.
+  
+  <details id="example-requests"> 
+  <summary>Example requests</summary>
+  <br>
+
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **AfterPay direct/redirect**.
+
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+
+  </details>
+
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions expire after 90 days.
 
 ### Ready-made integrations
-AfterPay is supported in:
-- [Craft Commerce](/docs/craft-commerce/)
-- [CS-Cart](/docs/cs-cart/)
-- [Drupal 8](/docs/drupal/)
-- [Magento 1](/docs/magento-1/) & [Magento 2](/docs/magento-2/)
-- [Odoo](/docs/odoo/)
-- [OpenCart](/docs/opencart/)
-- [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/)
-- [Shopware 5 and 6](/docs/shopware/)
-- [WooCommerce](/docs/woocommerce/)
-- [X-Cart](/docs/x-cart/)
+
+AfterPay is supported in many of our ready-made integrations.
+
+    <details id="supported-ready-made-integrations"> 
+    <summary>Supported ready-made integrations</summary>
+    <br>
+  - [Craft Commerce](/docs/craft-commerce/)
+  - [CS-Cart](/docs/cs-cart/)
+  - [Drupal 8](/docs/drupal/)
+  - [Magento 1](/docs/magento-1/) & [Magento 2](/docs/magento-2/)
+  - [Odoo](/docs/odoo/)
+  - [OpenCart](/docs/opencart/)
+  - [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/)
+  - [Shopware 5 and 6](/docs/shopware/)
+  - [WooCommerce](/docs/woocommerce/)
+  - [X-Cart](/docs/x-cart/)
+
+  </details>
 
 ### Testing
 To test AfterPay payments, see [Testing](/docs/testing#pay-later-methods).
