@@ -45,7 +45,7 @@ Add the Google Pay JavaScript library to the bottom of the `<body>` of your chec
   onload="onGooglePayLoaded()">
 </script>
 ```
-> **Note:** The `onload` event handler is used to display the **Google Pay** button. For more information, see [Display the Google Pay button](#display-the-google-pay-button).
+**Note:** The `onload` event handler is used to display the **Google Pay** button. For more information, see [Display the Google Pay button](#display-the-google-pay-button).
 
 ## Place the Google Pay button
 

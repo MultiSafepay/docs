@@ -21,8 +21,7 @@ With direct integration, the ** Pay** button appears in your checkout page. C
 - Your domain must have a valid SSL certificate.
 - Your server must support the TLS protocol version 1.2 or later.
 
-> ℹ More information
-> See Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/setting_up_your_server" target="_blank">Setting up your server</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+For more information, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/setting_up_your_server" target="_blank">Setting up your server</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ### Customer device compatibility
 
@@ -48,9 +47,7 @@ To request registration for Apple Pay direct, email the relevant site ID to <sal
     ```javascript
     if (window.ApplePaySession && ApplePaySession.canMakePayments())
     ```
-
-    > ℹ More information
-    > See Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability" target="_blank">Checking for Apple Pay availability</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+    For more information, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability" target="_blank">Checking for Apple Pay availability</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 2. If Apple Pay is supported, display the ** Pay** button in your checkout page.
 
@@ -98,15 +95,14 @@ When the customer clicks or taps the ** Pay** button:
 
     You can use the `requiredBillingContactFields` to collect the customer's billing and/or shipping details through Apple Pay. If the customer hasn't previously provided their billing address to Apple Pay, they are prompted to do so.
 
-    > **Note:** The billing and shipping details aren't required for creating Apple Pay direct orders with MultiSafepay. However, since the collected details are available to you in unencrypted form, you can use them to reduce checkout friction and manage orders.
+    **Note:** The billing and shipping details aren't required for creating Apple Pay direct orders with MultiSafepay. However, since the collected details are available to you in unencrypted form, you can use them to reduce checkout friction and manage orders.
 
     </details>
     <br>
 
     **Note:** The `total.amount` is in euros, whereas the amount set in our order requests is in cents. 
 
-    > ℹ More information
-    > To learn more about the `ApplePayRequest` object, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepayrequest" target="_blank">ApplePayRequest</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+    For more information about the `ApplePayRequest` object, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepayrequest" target="_blank">ApplePayRequest</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 2. Create an Apple Pay session.
 
@@ -116,15 +112,12 @@ When the customer clicks or taps the ** Pay** button:
 
     - As the first argument, specify the Apple Pay version your site supports. 
     - As the second argument, pass the `ApplePayRequest` object.
-    <br>
 
-    > ℹ More information
-    > To learn more about Apple Pay versions, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_on_the_web_version_history" target="_blank">Apple Pay on the web version history</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+    For more information about Apple Pay versions, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_on_the_web_version_history" target="_blank">Apple Pay on the web version history</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-    > **Note:** You can only create a session within a user gesture handler. For example, you can create the session when the user taps the ** Pay** button.
+    **Note:** You can only create a session within a user gesture handler. For example, you can create the session when the user taps the ** Pay** button.
 
-    > ℹ More information
-    > See Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/creating_an_apple_pay_session" target="_blank">Creating an Apple Pay session</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+    For more information, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/creating_an_apple_pay_session" target="_blank">Creating an Apple Pay session</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 3. Create an `onvalidatemerchant` event handler that is called once the Apple Pay payment form is displayed to the customer.
     ```javascript
@@ -139,10 +132,9 @@ When the customer clicks or taps the ** Pay** button:
         session.completeMerchantValidation(<apple-pay-payment-session-data>);
     };
     ```
-    > ℹ More information
-    > See Apple Developer:
-    > - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/providing_merchant_validation" target="_blank">Providing merchant validation</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    > - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaysession/1778021-onvalidatemerchant" target="_blank">onvalidatemerchant</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    For more information, see Apple Developer:
+    - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/providing_merchant_validation" target="_blank">Providing merchant validation</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaysession/1778021-onvalidatemerchant" target="_blank">onvalidatemerchant</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 4. To begin the merchant validation process, call the `session.begin()` method. 
     ```javascript
@@ -164,7 +156,7 @@ When the customer clicks or taps the ** Pay** button:
     }'
     ```
 
-    > **Note:** The code depends on your server-side framework.
+    **Note:** The code depends on your server-side framework.
 
     A successful response contains an Apple Pay merchant `session`, which expires after five minutes.
 
@@ -197,10 +189,9 @@ When the customer clicks or taps the ** Pay** button:
 
     The `payment` object contains the customer's encrypted payment details (`payment.token`) and, if requested, the `billingContact` and `shippingContact`.
 
-    > ℹ More information
-    > To learn more about the `payment` object, see Apple Developer:
-    > - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypaymentauthorizedevent/1777999-payment" target="_blank">payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    > - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    For more information about the `payment` object, see Apple Developer:
+    - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypaymentauthorizedevent/1777999-payment" target="_blank">payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 ### Server-side integration
 
@@ -211,10 +202,9 @@ When the customer clicks or taps the ** Pay** button:
     - To access the shipping and/or billing details from the `payment` object, use the `payment.billingContact` and `payment.shippingContact` properties.
     - To add the details to the order request, format them in accordance with [create order](/reference/createorder/) requests.
 
-> **Note:** Billing and shipping data are not encrypted.
+    **Note:** Billing and shipping data are not encrypted.
 
-> ℹ More information
-> To learn more about the `payment` object and its properties, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+    For more information about the `payment` object and its properties, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## 6. Test your integration
 
