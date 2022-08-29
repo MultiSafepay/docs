@@ -77,7 +77,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 <summary>How to activate cards</summary>
 <br>
 
-1. Email a request to <risk@multisafepay.com> 
+1. Email a request to activate cards to <risk@multisafepay.com> 
     
     Include in the request your: 
     - Average, minimum, and maximum transaction amount 
@@ -92,7 +92,6 @@ First apply to MultiSafepay, and then activate in your dashboard.
 6. Select the checkbox for the payment method, and then click **Save changes**.
 
 > **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
-
 
 </details>
 

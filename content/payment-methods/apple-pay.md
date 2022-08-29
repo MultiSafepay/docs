@@ -54,13 +54,13 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-First, apply to MultiSafepay and then activate Apple Pay in your dashboard.
+To activate Apple Pay, you must have [card payments](/docs/card-payments/) activated for your account.
 
-<details id="how-to-activate-apple-pay"> 
-<summary>How to activate Apple Pay</summary>
+<details id="how-to-activate-cards"> 
+<summary>How to activate cards</summary>
 <br>
 
-1. Email a request to <risk@multisafepay.com> 
+1. Email a request to activate cards to <risk@multisafepay.com> 
     
     Include in the request your: 
     - Average, minimum, and maximum transaction amount 
@@ -76,6 +76,29 @@ First, apply to MultiSafepay and then activate Apple Pay in your dashboard.
 
 > **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 
+</details>
+
+Then, apply to MultiSafepay for Apple Pay, and activate it in your dashboard.
+
+<details id="how-to-activate-apple-pay"> 
+<summary>How to activate Apple Pay</summary>
+<br>
+
+1. Email a request to activate Apple Pay to <risk@multisafepay.com> 
+    
+    Include in the request your: 
+    - Average, minimum, and maximum transaction amount 
+    - Annual turnover 
+
+2. We check your eligibilty and if approved, activate the payment method for your account. 
+3. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+4. Go to **Settings**. 
+5. To activate the payment method for:
+    - All sites, go to **Payment methods**.
+    - A specific site, go to **Website settings**, and click the relevant site.
+6. Select the checkbox for the payment method, and then click **Save changes**.
+
+> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 
 </details>
 
