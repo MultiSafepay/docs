@@ -55,8 +55,9 @@ hidden: false
 | Fashioncheque                          | `FASHIONCHQ`  |
 | Fashiongiftcard                        | `FASHIONGFT`  |
 | Fietsenbon                             | `FIETSENBON`  |
-| Good4fun                               | `GOOD4FUN`    |
 | Gezondheidsbon                         | `GEZONDHEID`  |
+| Good4fun                               | `GOOD4FUN`    |
+| Horses & Gifts                         | `HORSESGIFT` |
 | Nationale bioscoopbon                  | `NATNLBIOSC`  |
 | Nationaletuinbon                       | `NATNLETUIN`  |
 | Parfumcadeaukaart                      | `PARFUMCADE`  |
