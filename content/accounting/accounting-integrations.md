@@ -147,10 +147,10 @@ To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – <a 
     <br>
 
     1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-    2. Go to **Reports** > **Accountant Export**:  
+    2. Go to **Reports** > **Accountant Export:**  
         - In **Data Selection**, select a date range.
         - In the **Report Type** field, select **MT940**.
-    3. Click **Advanced options**:
+    3. Click **Advanced options:**
         - In the **Bank Account / IBAN** field, enter the dummy IBAN.
         - In the **BIC** field, enter the dummy BIC code.
 
@@ -187,8 +187,8 @@ You can automatically insert MultiSafepay [payment links](/docs/payment-links/) 
 
 For each new invoice in Exact, if you:
 
-- **Email**: The customer receives a second email containing a payment link, in addition to the normal email.
-- **Print and process**: The customer receives an email containing a payment link.
+- **Email:** The customer receives a second email containing a payment link, in addition to the normal email.
+- **Print and process:** The customer receives an email containing a payment link.
 
 </details >
 
