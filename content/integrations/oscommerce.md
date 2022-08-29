@@ -120,13 +120,13 @@ Release date: Mar 28, 2014
 - Wallets: [PayPal](/docs/paypal/)
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
-    - [Bank Transfer](/docs/bank-transfer/)
+    - [Bank transfer](/docs/bank-transfer/)
     - [CBC/KBC](/docs/cbc-kbc/)
     - [Dotpay](/docs/dotpay/)
     - [EPS](/docs/eps/)
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
-    - [SEPA Direct Debit](/docs/sepa-direct-debit/)
+    - [Direct debit](/docs/sepa-direct-debit/)
     - [Sofort](/docs/sofort/)
 - Prepaid cards:
     - Beauty and Wellness gift card

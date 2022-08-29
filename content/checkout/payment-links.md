@@ -14,7 +14,7 @@ Use cases include:
 - A customer wants to adjust an existing order and instead of starting over with a new order.
 - You need to create a transaction for a manually generated order.
 - MultiSafepay collects a payment for an amount that doesn't match any order. If you accept the payment, you need to manually generate a payment link and email it to <support@multisafepay.com>
-- A [Bank Transfer](/docs/bank-transfer/) transaction has expired.
+- A [bank transfer](/docs/bank-transfer/) transaction has expired.
 
 # Activation
 
@@ -123,7 +123,7 @@ This only applies to certain payment methods:
 
 | Adjustable | Non-adjustable |
 |---|---|
-| Banking methods, except SEPA Direct Debit | SEPA Direct Debit |
+| Banking methods, except direct debit | Direct debit |
 | Gift cards | Edenred, Paysafecard |
 | Wallets | PayPal – Links are valid for 14 days. The lifetime is set by PayPal. |
 | Credit cards |  |

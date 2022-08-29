@@ -36,7 +36,7 @@ There are two ways to install the plugin:
 1. Sign in to your WooCommerce backend.
 2. Go to **Plugins** > **Add new**.
 3. Search for **MultiSafepay**.
-4. For the **MultiSafepay plugin for WooCommerce**, click the **Install now** button.
+4. For the **MultiSafepay plugin for WooCommerce**, click **Install now**.
 
 **Manual installation**
 
@@ -52,7 +52,8 @@ There are two ways to install the plugin:
 3. On the **Account** tab, enter your [API key](/docs/sites#site-id-api-key-and-security-code).
 4. On the **Order status** tab, confirm the match between WooCommerce order statuses and MultiSafepay order statuses, and then click **Save changes**.
 4. On the **Options** tab, confirm your settings, and then click **Save changes**.
-5. On the **WooCommerce** > **Settings** > **Payments**. Enable the relevant payment methods and confirm the settings.
+5. Go to **WooCommerce** > **Settings** > **Payments**. 
+6. Enable the relevant payment methods and confirm the settings.
 <br>
 
 ---
@@ -63,7 +64,7 @@ There are two ways to install the plugin:
 
 The plugin supports generic gateways, which allows you to add a payment method manually. This is particularly useful for integrating gift cards specific to your business. 
 
-Supported since release: 4.5.0, March 31st 2021.
+Supported since release: 4.5.0, March 31 2021.
 
 <details id="how-to-configure-generic-gateways">
 <summary>How to configure generic gateways</summary>

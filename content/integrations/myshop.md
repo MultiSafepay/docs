@@ -26,13 +26,13 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 - Prepaid cards: [123TCS](/docs/gift-cards/), [Intersolve](/docs/gift-cards/), and [Fashioncheque](/docs/gift-cards/)
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
-    - [Bank Transfer](/docs/bank-transfer/)
+    - [Bank transfer](/docs/bank-transfer/)
     - [Dotpay](/docs/dotpay/)
     - [EPS](/docs/eps/)
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
     - [Maestro](/docs/card-payments/)
-    - [SEPA Direct Debit](/docs/sepa-direct-debit/)
+    - [Direct debit](/docs/sepa-direct-debit/)
     - [Sofort](/docs/sofort/)
 </details>
 

@@ -82,7 +82,7 @@ For any technical queries about the plugin, see Logic4 – <a href="https://www.
     - [Visa](/docs/card-payments/)
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
-    - [Bank Transfer](/docs/bank-transfer/)
+    - [Bank transfer](/docs/bank-transfer/)
     - [Belfius](/docs/belfius/)
     - [CBC/KBC](/docs/cbc-kbc/)
     - [EPS](/docs/eps/)
@@ -135,10 +135,10 @@ For technical support, contact LogiVert - <a href="https://www.logivert.com/nl/s
     - [Visa](/docs/card-payments/), [Cartes Bancaires](/docs/card-payments/), and [Dankort](/docs/card-payments/)
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
-    - [Bank Transfer](/docs/bank-transfer/)
+    - [Bank transfer](/docs/bank-transfer/)
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
-    - [SEPA Direct Debit](/docs/sepa-direct-debit/)
+    - [Direct debit](/docs/sepa-direct-debit/)
     - [Sofort](/docs/sofort)
 - <<glossary:BNPL>>: [Klarna](/docs/klarna/)
 
@@ -277,7 +277,7 @@ ZilverCMS provides a free app to integrate with MultiSafepay.
 - Prepaid cards: <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
-    - [Bank Transfer](/docs/bank-transfer/)
+    - [Bank transfer](/docs/bank-transfer/)
     - [Belfius](/docs/belfius/)
     - [CBC/KBC](/docs/cbc-kbc/)
     - [Dotpay](/docs/dotpay/)
@@ -285,7 +285,7 @@ ZilverCMS provides a free app to integrate with MultiSafepay.
     - [Giropay](/docs/giropay/) 
     - [iDEAL and iDEAL QR](/docs/ideal/)
     - [Request to Pay](/docs/request-to-pay/)
-    - [SEPA Direct Debit](/docs/sepa-direct-debit/)
+    - [Direct debit](/docs/sepa-direct-debit/)
 
 </details>
 
