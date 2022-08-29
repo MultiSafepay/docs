@@ -1,5 +1,5 @@
 ---
-title: 'Bank Transfer'
+title: 'Bank transfer'
 category: 6298bd782d1cf4006032e765
 parentDoc: 62a728d48b97080046c1d220
 order: 102
@@ -9,9 +9,9 @@ slug: 'bank-transfer'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/banktransfer-en.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
 
-Bank Transfer (also known as SEPA Credit Transfer) is a secure, trusted, international banking method. Customers can make any type of online payment in euros within the SEPA area. 
+Bank transfers (also known as SEPA Credit Transfer) are a secure, trusted, international banking method. Customers can make any type of online payment in euros within the SEPA area. 
 
-Read how Bank Transfer can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/bank-transfer" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+Read how bank transfers can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/bank-transfer" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details | 
 |---|---|
@@ -20,7 +20,7 @@ Read how Bank Transfer can benefit your business on <a href="https://www.multisa
 | [Payment components](/docs/payment-components/) | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial |
-| [Virtual IBANs](/docs/virtual-ibans/) | Yes, to better manage Bank Transfer payments |
+| [Virtual IBANs](/docs/virtual-ibans/) | Yes, to better manage bank transfer payments |
 
 # Payment flow
 
@@ -46,10 +46,10 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-You can activate Bank Transfer yourself in your dashboard. 
+You can activate bank transfers yourself in your dashboard. 
 
 <details id="how-to-activate-bank-transfer"> 
-<summary>How to activate Bank Transfer</summary>
+<summary>How to activate bank transfers</summary>
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
@@ -73,7 +73,7 @@ You can activate Bank Transfer yourself in your dashboard.
   <summary>Example requests</summary>
   <br>
 
-  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Bank Transfer direct/redirect**.
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Bank transfer direct/redirect**.
 
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 
@@ -85,7 +85,7 @@ You can activate Bank Transfer yourself in your dashboard.
 Supported in all [ready-made integrations](/docs/our-integrations/).
 
 ### Testing
-To test Bank Transfer payments, see [Testing](/docs/testing#banking-methods).
+To test bank transfers, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---
@@ -197,7 +197,7 @@ To create the transaction again, check if a [payment link](/docs/payment-links/)
 <br>
 
 1. Click the link to open the payment page. 
-2. Click **Bank Transfer**.
+2. Click **Bank transfer**.
 3. If the customer didn't fill in the **Bank account number** field, enter their bank account number (if known) to help us match the payment.
 4. Click **Confirm** to create the transaction in our system.
 
@@ -209,7 +209,7 @@ To create the transaction again, check if a [payment link](/docs/payment-links/)
 
 1. [Generate a link manually](/docs/payment-links/). 
 2. Include in the description the customer's name and the order number (for your records). 
-3. Click **Bank Transfer**.
+3. Click **Bank transfer**.
 4. Add the customer's bank account number (if known) to help us match the payment.
 5. Click **Confirm** to create the transaction in our system.
 

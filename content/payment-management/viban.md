@@ -64,7 +64,7 @@ VIBANs can only be used for transactions in EUR.
 
 ## Matching payments
 
-Most incoming payments are automatically matched to the relevant order in your account. However, if the customer accidentally provides incorrect information or pays the wrong amount, MultiSafepay matches them manually. See Bank Transfer – [Matching payments](/docs/bank-transfer#matching-payments). 
+Most incoming payments are automatically matched to the relevant order in your account. However, if the customer accidentally provides incorrect information or pays the wrong amount, MultiSafepay matches them manually. See Bank transfer – [Matching payments](/docs/bank-transfer#matching-payments). 
 
 With a VIBAN, you can resolve unmatched payments yourself in your MultiSafepay dashboard. You need to request this functionality when applying for your VIBAN.
 
@@ -77,7 +77,7 @@ Once activated, an alert appears on your dashboard home page when you have unmat
 |  | Partially match and reserve the excess | The order status changes to **Completed**. <br> The excess amount is reserved for future orders. |
 |  | Match and keep the excess | The order status changes to **Completed**. <br> A new order (status **Completed**) linked to the original order is created to credit the excess to your account balance. <br> - An explanation appears on the **Transaction details** page under **Notes**. |
 | Amount too low | Match and make up deficit from your account balance | The order status changes to **Completed**. <br> The deficit is debited from your balance as a transaction fee. <br> - An explanation appears on the **Transaction details** page under **Notes**. |
-|  | Match and collect deficit | The order status changes to **Completed**. <br> A new Bank Transfer order (linked to the original order) is created with a payment link for the customer to pay the outstanding amount. |
+|  | Match and collect deficit | The order status changes to **Completed**. <br> A new bank transfer order (linked to the original order) is created with a payment link for the customer to pay the outstanding amount. |
 | Refund requested | Refund in full | A refund order linked to the original order is created and the payment is refunded. |
 | Lump payment | Match the payment to multiple orders | Divide the payment across multiple orders and their status changes to **Completed**. <br> If there is any excess after all relevant orders are matched, you can refund, reserve, or keep the excess (see above). <br> If there are not enough funds for all relevant orders, you can make up the deficit from your account balance or create a new order for the outstanding amount (see above).| 
 

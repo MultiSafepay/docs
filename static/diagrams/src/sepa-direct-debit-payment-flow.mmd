@@ -5,7 +5,7 @@ sequenceDiagram
     participant Mu as MultiSafepay
     participant CB as Customer's bank
     
-    C->>Me: Selects SEPA Direct Debit at checkout
+    C->>Me: Selects direct debit at checkout
     alt Redirect flow
     Mu->>C: Redirects to payment page to confirm their IBAN and account name, <br> then to your success page
     Me->>Mu: [Direct flow] Sends request and customer information

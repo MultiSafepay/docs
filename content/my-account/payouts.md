@@ -28,7 +28,7 @@ To add additional bank accounts to your account (once fully onboarded), follow t
 5. From the **Currency** list, select the currency of the bank account.
 6. Click **Save**.
 7. To verify the account, on the **Business bank account** page either:
-    - Make a payment of 1 EUR from the business bank account via iDEAL or Bank Transfer to your account balance, **or**
+    - Make a payment of 1 EUR from the business bank account via iDEAL or a bank transfer to your account balance, **or**
     - Upload a copy of a bank statement. Select the file, and then click **Upload**.
     **Note:** The company name on the bank statement must exactly match one of the trade names on your Chamber of Commerce extract.
 

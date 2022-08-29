@@ -21,8 +21,9 @@ MultiSafepay can help you manage your email communications with customers. Use o
     <summary>Template types</summary>
     <br>
 
-    **Bank Transfer details email (to customer)**  
-    For sending customers MultiSafepay's bank details when they select [Bank Transfer](/docs/bank-transfer/) as payment method and you send a [`redirect`](/reference/introduction#direct-vs-redirect) transaction request. 
+    **Bank transfer details email (to customer)**  
+    For sending customers MultiSafepay's bank details for [`redirect`](/reference/introduction#direct-vs-redirect) [bank 
+    transfers](/docs/bank-transfer/). 
 
     **Chargeback email (to merchant)**  
     For notifying you when a customer requests a [chargeback](/docs/chargebacks/) (recommended if you accept credit card payments).
