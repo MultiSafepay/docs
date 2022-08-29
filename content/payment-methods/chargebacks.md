@@ -33,7 +33,7 @@ Card schemes generally allow cardholders to request chargebacks for up to 180 da
 
 By offering credit card payment methods, you agree to the cardholder rights guaranteed by the card schemes.
 
-# SEPA Direct Debit chargebacks
+# Direct debit chargebacks
 
 Customers can request a chargeback within 56 days, or for unauthorized transactions (i.e. without verifiable consent from the customer) within 13 months. Chargebacks can cost up to 65 EUR in bank fees.
 

@@ -144,7 +144,7 @@ This only applies to certain payment methods:
 
 | Adjustable | Non-adjustable |
 |---|---|
-| Banking methods, except SEPA Direct Debit | SEPA Direct Debit |
+| Banking methods, except direct debits | Direct debits |
 | Gift cards | Edenred, Paysafecard |
 | Wallets | PayPal – Links are valid for 14 days. The lifetime is set by PayPal. |
 | Credit cards |  |
@@ -159,10 +159,10 @@ This only applies to certain payment methods:
 
 Most payment methods are supported, **except for**: 
 
-- [Bank Transfer](/docs/bank-transfer/)
+- [Bank transfer](/docs/bank-transfer/)
 - [E-Invoicing](/docs/e-invoicing/)
 - [PayPal](/docs/paypal/)
-- [SEPA Direct Debit](/docs/sepa-direct-debit/)
+- [Direct debit](/docs/sepa-direct-debit/)
 - [Pay After Delivery](/docs/pay-after-delivery/)
 
 </details>

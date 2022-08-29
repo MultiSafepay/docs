@@ -25,9 +25,9 @@ Tokens are stored at account level rather than site level. If you operate multip
 
 For both initial and subsequent payments:
 - Cards: American Express, Maestro, Mastercard, and Visa 
-- SEPA Direct Debit – First you need to provide us with some information. <br> See SEPA Direct Debit – [Activation](/docs/sepa-direct-debit/#activation).
+- Direct debit – First you need to provide us with some information. <br> See Direct debit – [Activation](/docs/sepa-direct-debit/#activation).
 
-For initial payments then subsequent payments via SEPA Direct Debit:
+For initial payments then subsequent payments via direct debit:
 - Bancontact
 - iDEAL
 - Sofort
@@ -141,7 +141,7 @@ We support recurring payments in our plugins for:
 
 See API reference – [Create order](/reference/createorder/) > `customer.reference`.
 
-> **Note:** Tokens for SEPA Direct Debit transactions are originally received as iDEAL or Sofort transactions. 
+> **Note:** Tokens for direct debits are originally received as iDEAL or Sofort transactions. 
 
 <details id="additional-parameters">
 <summary>Additional parameters</summary>

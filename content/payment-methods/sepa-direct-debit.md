@@ -1,5 +1,5 @@
 ---
-title: 'SEPA Direct Debit'
+title: 'Direct debit'
 category: 6298bd782d1cf4006032e765
 order: 114
 hidden: false
@@ -9,9 +9,9 @@ slug: 'sepa-direct-debit'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/directdebit-en.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
 
-SEPA Direct Debit is a European banking payment method where customers authorize automatic one-off or recurring debits directly from their bank account. It is available in 36 countries and supports Sofort and iDEAL.
+Direct debits are a European banking method where customers authorize automatic one-off or recurring debits directly from their bank account. It is available in 36 countries and supports Sofort and iDEAL.
 
-Read how SEPA Direct Debit can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/direct-debit" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+Read how direct debits can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/direct-debit" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -23,7 +23,7 @@ Read how SEPA Direct Debit can benefit your business on <a href="https://www.mul
 | [Recurring payments](/docs/recurring-payments/) | Yes |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial  |
 | [Second Chance](/docs/second-chance/) | Yes |
-| [Virtual IBANs](/docs/virtual-ibans/) | Yes,  to better manage SEPA Direct Debit payments | 
+| [Virtual IBANs](/docs/virtual-ibans/) | Yes,  to better manage direct debits | 
 
 # Payment flow
 
@@ -54,13 +54,13 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 First apply to MultiSafepay, and then activate in your dashboard. 
 
 <details id="how-to-activate-sepa-direct-debit"> 
-<summary>How to activate SEPA Direct Debit</summary>
+<summary>How to activate direct debits</summary>
 <br>
 
 1. Email a request to <risk@multisafepay.com> 
     
     Include in the request the following information:
-    - Monthly and annual SEPA Direct Debit transaction volume
+    - Monthly and annual direct debit volume
     - Minimum and maximum transaction amount
     - Type of products sold using this payment method
     - Whether you want to accept [recurring payments](/docs/recurring-payments/)
@@ -90,7 +90,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
   <summary>Example requests</summary>
   <br>
 
-  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **SEPA Direct Debit direct/redirect**.
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Direct debit direct/redirect**.
 
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 
@@ -100,7 +100,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 Supported in all [ready-made integrations](/docs/our-integrations/) (direct).
 
 ### Testing
-To test SEPA Direct Debit payments, see [Testing](/docs/testing#banking-methods).
+To test direct debits, see [Testing](/docs/testing#banking-methods).
 <br>
 
 ---
@@ -109,13 +109,13 @@ To test SEPA Direct Debit payments, see [Testing](/docs/testing#banking-methods)
 
 ## Chargebacks
 
-Customers can request a [chargeback](/docs/chargebacks/) within 56 days, or for unauthorized transactions (i.e. without verifiable consent from the customer) within 13 months. This makes SEPA Direct Debit unsuitable for most retail businesses, e.g.&nbsp;clothing.
+Customers can request a [chargeback](/docs/chargebacks/) within 56 days, or for unauthorized transactions (i.e. without verifiable consent from the customer) within 13 months. This makes direct debits unsuitable for most retail businesses, e.g.&nbsp;clothing.
 
 You cannot dispute chargebacks and there is no facilitated process like there is for credit card chargebacks. Chargebacks can cost up to 65 EUR in bank fees.
 
 ## Declined transactions
 
-If a SEPA Direct Debit transaction is declined, a reason code is provided.
+If a direct debit is declined, a reason code is provided.
 
 If the IBAN or BIC is incorrect, our bank informs us the next business day.
 
@@ -164,7 +164,7 @@ For more information in:
 
 ## E-mandates
 
-An e-mandate represents an agreement between you and the customer and is required for every SEPA Direct Debit payment. We create them automatically based on the customer's IBAN and the `site_id`, and specify if it is a one-time, initial, or recurring debit (see [Recurring payments](/docs/recurring-payments)). 
+An e-mandate represents an agreement between you and the customer and is required for every direct debit. We create them automatically based on the customer's IBAN and the `site_id`, and specify if it is a one-time, initial, or recurring debit (see [Recurring payments](/docs/recurring-payments)). 
 
 E-mandates are needed when resolving customer disputes and [chargebacks](#chargebacks).
 

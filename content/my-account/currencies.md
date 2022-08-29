@@ -48,7 +48,7 @@ You must also add to your account a business bank account that supports the curr
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Finance > Balance > Add bank account**.
-3. Process a Bank Transfer in the new currency to confirm the business bank account.
+3. Process a bank transfer in the new currency to confirm the business bank account.
 
 </details>
 
@@ -126,38 +126,38 @@ Cards support all currencies.
 | AED United Arab Emirates dirham | Cards |
 | AUD Australian dollar | Cards, PayPal |
 | BRL Brazilian real | Cards, PayPal |
-| CAD Canadian dollar | Bank Transfer, cards, PayPal |
-| CHF Swiss franc | Bank Transfer, cards, PayPal, Sofort |
+| CAD Canadian dollar | Bank transfer, cards, PayPal |
+| CHF Swiss franc | Bank transfer, cards, PayPal, Sofort |
 | CLP Chilean peso | Cards |
 | CNY Chinese yuan | Cards |
 | COP Colombian peso | Cards |
-| CZK Czech koruna | Bank Transfer, cards, PayPal, TrustPay |
-| DKK Danish krone | Bank Transfer, cards, Klarna, PayPal |
+| CZK Czech koruna | Bank transfer, cards, PayPal, TrustPay |
+| DKK Danish krone | Bank transfer, cards, Klarna, PayPal |
 | EUR Euro | All payment methods |
-| GBP Pound Sterling | Bank Transfer, cards, Klarna, PayPal, Paysafecard, Sofort, Trustly |
-| HKD Hong Kong dollar | Alipay+, Bank Transfer, cards, PayPal |
+| GBP Pound Sterling | Bank transfer, cards, Klarna, PayPal, Paysafecard, Sofort, Trustly |
+| HKD Hong Kong dollar | Alipay+, bank transfer, cards, PayPal |
 | HRK Croatian kuna | Cards, PayPal |
-| HUF Hungarian forint | Bank Transfer, cards, Google Pay, Maestro, Mastercard, PayPal, Sofort |
+| HUF Hungarian forint | Bank transfer, cards, Google Pay, Maestro, Mastercard, PayPal, Sofort |
 | ILS Israeli new shekel | Cards |
 | INR Indian rupee | Cards |
 | ISK Icelandic króna | Cards |
-| JPY Japanese yen | Bank Transfer, cards, PayPal |
+| JPY Japanese yen | Bank transfer, cards, PayPal |
 | KRW South Korean won | Alipay+, cards |
 | MXN Mexican peso | Cards, PayPal |
 | MYR Malaysian ringgit | Alipay+, cards, PayPal |
-| NOK Norwegian krone | Bank Transfer, cards, Klarna, PayPal |
+| NOK Norwegian krone | Bank transfer, cards, Klarna, PayPal |
 | NZD New Zealand dollar | Cards, PayPal |
 | PEN Peruvian Sol | Cards |
 | PHP Philippine peso | Alipay+, PayPal |
-| PLN Polish złoty | Bank Transfer, cards, Dotpay, PayPal, Sofort |
+| PLN Polish złoty | Bank transfer, cards, Dotpay, PayPal, Sofort |
 | RON Romanian leu | Cards |
 | RUB Russian ruble | Cards, PayPal |
-| SEK Swedish krona | Bank Transfer, cards, Klarna, PayPal, Trustly |
+| SEK Swedish krona | Bank transfer, cards, Klarna, PayPal, Trustly |
 | SGD Singapore dollar | Cards, PayPal |
 | THB Thai baht | Alipay+, PayPal |
 | TRY Turkish lira | Cards, PayPal |
 | TWD New Taiwan dollar | Cards, PayPal |
-| USD United States dollar | Alipay+, Alipay, Bank Transfer, cards, PayPal, Paysafecard |
+| USD United States dollar | Alipay+, Alipay, bank transfer, cards, PayPal, Paysafecard |
 | VEF Venezuelan bolívar | Cards |
 | ZAR South African rand | Cards |
 

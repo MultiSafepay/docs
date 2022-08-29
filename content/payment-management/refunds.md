@@ -113,7 +113,7 @@ For some payment methods, refund orders in the live environment are processed au
 
 Refund orders in the live environment are processed automatically for the following methods:
 
-- Banking methods: Bancontact (not QR), Bank Transfer, Belfius, CBC/KBC, Dotpay, EPS, Giropay, iDEAL (not QR), SEPA Direct Debit, Sofort, Trustly
+- Banking methods: Bancontact (not QR), bank transfers, Belfius, CBC/KBC, direct debits, Dotpay, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
 - Credit and debit cards
 - Wallets: Alipay, PayPal, WeChat Pay
 
@@ -122,7 +122,7 @@ Refund orders in the live environment are processed automatically for the follow
 ## Processing time
 
 - Banking methods and credit cards: 1 business day 
-- Bank Transfer: 2 to 3 business days, depending on the customer's bank
+- Bank transfers: 2 to 3 business days, depending on the customer's bank
 
 ## Refunding more than the original amount
 
@@ -134,7 +134,7 @@ You can refund customers more than the amount of the original transaction, e.g. 
 
 **Supported payment methods** 
 
-- All banking methods, except EPS and SEPA Direct Debit
+- All banking methods, except direct debit and EPS
 - Gift cards
 - Paysafecard
 - Alipay
@@ -179,7 +179,7 @@ Follow these steps:
 
 **Supported payment methods**
 
-- Banking methods: Bancontact (not QR), Bank Transfer, Belfius, CBC/KBC, Dotpay, EPS, Giropay, iDEAL (not QR), SEPA Direct Debit, Sofort, Trustly
+- Banking methods: Bancontact (not QR), bank transfers, Belfius, CBC/KBC, direct debits, Dotpay, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
 - Credit and debit cards
 - <<glossary:BNPL>>: in3, Klarna
 - Wallets: Alipay, PayPal, WeChat Pay
@@ -200,7 +200,7 @@ Follow these steps:
 
 **Supported payment methods**
 
-- Banking methods: Bancontact (not QR), EPS, Giropay, iDEAL (not QR), SEPA Direct Debit, Sofort, Trustly
+- Banking methods: Bancontact (not QR), direct debits, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
 - Credit and debit cards
 - <<glossary:BNPL>>: in3
 - Wallets: PayPal, WeChat Pay
@@ -209,7 +209,7 @@ Follow these steps:
 
 ## Time limits
 
-There is a limit on how long after payment was completed that you can refund via MultiSafepay. After this time, we recommend using a Bank Transfer (no time limit, so long as the receiving bank can process the refund).
+There is a limit on how long after payment was completed that you can refund via MultiSafepay. After this time, we recommend doing a bank transfer (no time limit, so long as the receiving bank can process the refund).
 
 <details id="multiSafepay-time-limits">
 <summary>MultiSafepay time limits</summary>

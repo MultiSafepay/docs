@@ -11,7 +11,7 @@ Some payment methods you can activate yourself in your dashboard, but for some y
 
 | Activation flow | Payment methods |
 |---|---|
-| [Apply to MultiSafepay](#apply-to-multisafepay) then activate in dashboard | Credit and debit cards and wallets (**except** PayPal), Dotpay, in3, Pay After Delivery, SEPA Direct Debit |
+| [Apply to MultiSafepay](#apply-to-multisafepay) then activate in dashboard | Credit and debit cards and wallets (**except** PayPal), direct debit, Dotpay, in3, Pay After Delivery |
 | [Activate in dashboard](#activate-in-dashboard) | Banking methods, E-Invoicing   |
 | [Own flow](#own-flow) | AfterPay, Betaal per Maand, Klarna, Edenred, gift cards, Paysafecard, PayPal |
 
@@ -37,7 +37,7 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
 | Czech Republic | PayPal, Trustly, TrustPay |
 | Denmark | Dankort, Klarna, PayPal, Trustly |
 | Estonia | PayPal, Trustly |
-| Europe (SEPA area) | Bank Transfer, PayPal, SEPA Direct Debit |
+| Europe (SEPA area) | Bank transfer, direct debit, PayPal |
 | Finland | PayPal, Trustly |
 | France | Cartes Bancaires, Klarna, PayPal |
 | Germany | Giropay, Klarna, Request to Pay, PayPal, Sofort, Trustly |
@@ -80,11 +80,11 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
     </details>
 
     <details id="required-information-for-sepa-direct-debit"> 
-    <summary>Required information for SEPA Direct Debit</summary>
+    <summary>Required information for direct debits</summary>
     <br>
 
-    For SEPA Direct Debit, include in the request the following information:
-    - Monthly and annual SEPA Direct Debit transaction volume
+    For direct debits, include in the request the following information:
+    - Monthly and annual direct debit transaction volume
     - Minimum and maximum transaction amount
     - Type of products sold using this payment method
     - Whether you want to accept [recurring payments](/docs/recurring-payments/)
