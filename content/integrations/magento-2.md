@@ -409,8 +409,8 @@ We also offer full extensions for [ScandiPWA](/docs/scandipwa/) and [Vue Storefr
 1. Sign in to your Magento 2 backend. 
 2. On the **Invoices** tab, click the invoice created by MultiSafepay, and then click **Credit memo**. 
 3. Click the relevant refund button:  
-    - **Offline refund**: Doesn't send a refund request to MultiSafepay.
-    - **Refund**: Sends a refund request to MultiSafepay.
+    - **Offline refund:** Doesn't send a refund request to MultiSafepay.
+    - **Refund:** Sends a refund request to MultiSafepay.
 
 </details>
 

@@ -38,7 +38,7 @@ With direct integration, the **Google Pay** button appears in your checkout page
 
 Add the Google Pay JavaScript library to the bottom of the `<body>` of your checkout page:
 
-```
+```javascript
 <script
   async
   src="https://pay.google.com/gp/p/js/pay.js"
@@ -51,11 +51,11 @@ Add the Google Pay JavaScript library to the bottom of the `<body>` of your chec
 
 Create an element in the `<body>` of your checkout page where you want to display the **Google Pay** button:
 
-```
+```html
 <div id="button-container" style="width: 160px; height: 40px;"></div>
 ```
 
-> **Note**: This element is populated in a later step. For more information, see [Display the Google Pay button](#display-the-google-pay-button).
+**Note:** This element is populated in a later step. For more information, see [Display the Google Pay button](#display-the-google-pay-button).
 
 ## Configure Google Pay
 
@@ -63,7 +63,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
     On the client-side, create an object containing the major and minor versions of the Google Pay API that your integration supports:
 
-    ```
+    ```javascript
     const baseRequest = {
     apiVersion: 2,
     apiVersionMinor: 0
@@ -76,7 +76,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
     Create a `tokenizationSpecification` object: 
 
-    ```
+    ```javascript
     const tokenizationSpecification = {
     type: 'PAYMENT_GATEWAY',
     parameters: {
@@ -93,11 +93,11 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
     Create an `allowedCardNetworks` array containing card networks accepted by your site:
 
-    ```
+    ```javascript
     const allowedCardNetworks = ["MASTERCARD", "VISA"];
     ```
 
-    **Options**: `MASTERCARD`, `VISA`.
+    **Options:** `MASTERCARD`, `VISA`.
 
     For more information about supported payment card networks, see Google Pay – <a href="https://developers.google.com/pay/api/web/reference/request-objects#CardParameters" target="_blank">Request objects</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -105,11 +105,11 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
     Create an `allowedCardAuthMethods` array containing authentication methods accepted by your site:
 
-    ```
+    ```javascript
     const allowedCardAuthMethods = ["CRYPTOGRAM_3DS", "PAN_ONLY"];
     ```
 
-    **Options**: `CRYPTOGRAM_3DS`, `PAN_ONLY`.
+    **Options:** `CRYPTOGRAM_3DS`, `PAN_ONLY`.
 
     For more information about authentication methods, see Google Pay – <a href="https://developers.google.com/pay/api/web/reference/request-objects#CardParameters" target="_blank">Request objects</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -117,7 +117,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
     Combine the supported payment card networks and authentication methods to describe what your site supports for the `CARD` payment method:
 
-    ```
+    ```javascript
     const baseCardPaymentMethod = {
     type: 'CARD',
     parameters: {
@@ -129,7 +129,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
 6. Extend the `baseCardPaymentMethod` object to include the `tokenizationSpecification`:
 
-    ```
+    ```javascript
     const cardPaymentMethod = Object.assign(
     {tokenizationSpecification: tokenizationSpecification},
     baseCardPaymentMethod
@@ -140,7 +140,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
 Create a Google Pay `paymentsClient` object and specify the relevant environment:
 
-```
+```javascript
 const paymentsClient =
     new google.payments.api.PaymentsClient({environment: 'TEST'});
 ```
@@ -153,7 +153,7 @@ When you have finished testing, change the environment to `PRODUCTION`.
 
 1. Add your supported payment methods to your `baseRequest` object:
 
-    ```
+    ```javascript
     const isReadyToPayRequest = Object.assign({}, baseRequest);
     isReadyToPayRequest.allowedPaymentMethods = [baseCardPaymentMethod];
     ```
@@ -162,7 +162,7 @@ When you have finished testing, change the environment to `PRODUCTION`.
 
     With the `isReadyToPay()` method, check if the Google Pay API is supported by the customer's device and browser:
     
-        ```
+        ```javascript
         function onGooglePayLoaded() {
             paymentsClient.isReadyToPay(IsReadyToPayRequest)
                 .then(function(response) {
@@ -181,7 +181,7 @@ When you have finished testing, change the environment to `PRODUCTION`.
 
 To create a **Google Pay** button, populate the `button-container` element:
 
-    ```
+    ```javascript
     function addGooglePayButton() {
         const buttonContainer = document.getElementById('button-container');
         const button = paymentsClient.createButton({
@@ -210,7 +210,7 @@ Create a function that returns a `PaymentDataRequest` object:
 - Add the country code as `NL`.
 - Add your merchant name and Google Pay merchant ID for display.
 
-```
+```javascript
 function getGooglePaymentDataRequest() {
     const paymentDataRequest = Object.assign({}, baseRequest);
     paymentDataRequest.allowedPaymentMethods = [cardPaymentMethod];
@@ -256,7 +256,7 @@ For more information about the `merchantInfo` object, see Google Pay – <a href
     - Google prompts the customer to select their card and authorize the payment.
     - After the customer authorizes the payment, handle the response from the Google Pay API.
 
-    ```
+    ```javascript
     function onGooglePaymentButtonClicked() {
         const paymentDataRequest = getGooglePaymentDataRequest();
         paymentsClient.loadPaymentData(paymentDataRequest)
@@ -271,7 +271,7 @@ For more information about the `merchantInfo` object, see Google Pay – <a href
 
 2. Pass the `paymentData` from the response to your server:
 
-    ```
+    ```javascript
     function processPayment(paymentData) {
         // send paymentData to your server
     }

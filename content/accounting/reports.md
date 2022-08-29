@@ -79,8 +79,8 @@ You can view them in your dasboard under **Transaction overview**.
 4. From the **Currency** list, select the relevant currency.
 5. From the **Report type** list, select the relevant export format. 
 6. **Group costs in 1 record** toggle:   
-    - **Yes**: Show only the total of all MultiSafepay transaction fees for the selected timeframe.
-    - **No**: List each MultiSafepay fee below the matching transaction.
+    - **Yes:** Show only the total of all MultiSafepay transaction fees for the selected timeframe.
+    - **No:** List each MultiSafepay fee below the matching transaction.
 7. Click **Generate report**.
 
 </details>

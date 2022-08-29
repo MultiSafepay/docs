@@ -33,6 +33,7 @@ To see which Apple products are compatible with Apple Pay, see Apple Developer �
 1. <a href="https://github.com/MultiSafepay/docs/raw/master/static/domain-validation-apple-pay/domain-validation-apple-pay.zip" target="_blank">Download the compressed Apple Pay domain validation files</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Unzip the folder and select the relevant file.
 3. Place the domain validation file at:
+    
     ```
     https://{your-domain}/.well-known/apple-developer-merchantid-domain-association
     ```
@@ -44,7 +45,7 @@ To request registration for Apple Pay direct, email the relevant site ID to <sal
 ## 3. Check for Apple Pay support
 
 1. From the customer's device, check if Apple Pay is supported:
-    ```
+    ```javascript
     if (window.ApplePaySession && ApplePaySession.canMakePayments())
     ```
 
@@ -65,7 +66,7 @@ To request registration for Apple Pay direct, email the relevant site ID to <sal
 When the customer clicks or taps the ** Pay** button:
 
 1. Create a paymentRequest object containing details about the order.
-    ```
+    ```javascript
     var ApplePayRequest = {
         "countryCode": "NL",
         "currencyCode": "EUR",
@@ -102,14 +103,14 @@ When the customer clicks or taps the ** Pay** button:
     </details>
     <br>
 
-    > **Note:** The `total.amount` is in euro's, whereas the amount set in our order requests is in cents. 
+    **Note:** The `total.amount` is in euros, whereas the amount set in our order requests is in cents. 
 
     > ℹ More information
     > To learn more about the `ApplePayRequest` object, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepayrequest" target="_blank">ApplePayRequest</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 2. Create an Apple Pay session.
 
-    ```
+    ```javascript
     var session = new ApplePaySession(10, ApplePayRequest);
     ```
 
@@ -126,7 +127,7 @@ When the customer clicks or taps the ** Pay** button:
     > See Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/creating_an_apple_pay_session" target="_blank">Creating an Apple Pay session</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 3. Create an `onvalidatemerchant` event handler that is called once the Apple Pay payment form is displayed to the customer.
-    ```
+    ```javascript
     session.onvalidatemerchant = function (event) {
         var validationUrl = event.validationURL;
         var originDomain = window.location.hostname;
@@ -144,7 +145,7 @@ When the customer clicks or taps the ** Pay** button:
     > - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaysession/1778021-onvalidatemerchant" target="_blank">onvalidatemerchant</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 4. To begin the merchant validation process, call the `session.begin()` method. 
-    ```
+    ```javascript
     session.begin();
     ```
 
@@ -174,7 +175,7 @@ When the customer clicks or taps the ** Pay** button:
 ### Client-side integration
 
 1. Create an `onpaymentauthorized` event handler that is called once the customer authorizes the payment with Touch ID, Face ID, or passcode.
-    ```
+    ```javascript
     session.onpaymentauthorized = function (event) {
 
         // Create a payment object
@@ -219,8 +220,8 @@ When the customer clicks or taps the ** Pay** button:
 
 To test your Apple Pay direct integration, you need to:
 
-- Meet the [testing prerequisites](/docs/apple-pay-integration#prerequisites)
-- Have an <a href="https://developer.apple.com/apple-pay/sandbox-testing" target="_blank">Apple Developer account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, configured for Apple Pay, with at least one Apple Pay test card in your wallet
+- Meet the [testing prerequisites](/docs/apple-pay-integration#prerequisites).
+- Have an <a href="https://developer.apple.com/apple-pay/sandbox-testing" target="_blank">Apple Developer account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, configured for Apple Pay, with at least one Apple Pay test card in your wallet.
 
 To test, follow these steps:
 
@@ -239,23 +240,23 @@ With redirect integration, customers are redirected to a [payment page](/docs/pa
 
 ## API
 
-- See API reference – [Create order](/reference/createorder/) > Wallet order.
+See API reference – [Create order](/reference/createorder/) > Wallet order.
 
-  <details id="example-requests"> 
-  <summary>Example requests</summary>
-  <br>
+<details id="example-requests"> 
+<summary>Example requests</summary>
+<br>
 
-  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Apple Pay direct/redirect**.
+For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Apple Pay direct/redirect**.
 
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 
-  </details>
+</details>
 
 ## Detecting Apple Pay on the customer's device
 
 If a customer uses an unsupported device to navigate to an Apple Pay payment page, they won't be able to complete the payment. To prevent this, check whether Apple Pay is supported on the customer's device before creating the payment page.
 
-``` 
+```javascript
 try {
     if (window.ApplePaySession && ApplePaySession.canMakePayments()) {
     console.log('Apple Pay available');
