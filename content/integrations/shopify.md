@@ -70,7 +70,7 @@ Payments are processed in the webshop's default currency only.
     - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052872" target="_blank">Alipay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052852" target="_blank">American Express</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052848" target="_blank">Bancontact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052868" target="_blank">Bank Transfer</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052868" target="_blank">Bank transfer</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052846" target="_blank">Belfius</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052862" target="_blank">CBC/KBC</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052874" target="_blank">Dotpay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
@@ -82,7 +82,7 @@ Payments are processed in the webshop's default currency only.
     - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052854" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052856" target="_blank">Paysafecard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1055441" target="_blank">Request to Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052858" target="_blank">SEPA Direct Debit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052858" target="_blank"> Direct debit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1052866" target="_blank">Sofort</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1053945" target="_blank">Trustly</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.shopify.com/login?redirect=%2Fadmin%2Fauthorize_gateway%2F1030328" target="_blank">Visa (including Cartes Bancaires & Dankort)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
@@ -108,7 +108,7 @@ Payments are processed in the webshop's default currency only.
 - Prepaid cards: [Paysafecard](/docs/paysafecard/)
 - Banking methods: 
   - [Bancontact](/docs/bancontact/)
-  - [Bank Transfer](/docs/bank-transfer/)
+  - [Bank transfer](/docs/bank-transfer/)
   - [Belfius](/docs/belfius/)
   - [CBC/KBC](/docs/cbc-kbc/)
   - [Dotpay](/docs/dotpay/)

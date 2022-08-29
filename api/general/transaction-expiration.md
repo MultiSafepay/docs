@@ -55,4 +55,4 @@ Transactions do not expire for:
 - EPS 
 - Giropay 
 - Gift cards and Edenred vouchers
-- SEPA Direct Debit
+- Direct debits

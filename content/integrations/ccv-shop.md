@@ -39,7 +39,7 @@ ___
 - Wallets: [PayPal](/docs/paypal/)
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
-    - [Bank Transfer](/docs/bank-transfer/)
+    - [Bank transfer](/docs/bank-transfer/)
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
     - [Sofort](/docs/sofort/)

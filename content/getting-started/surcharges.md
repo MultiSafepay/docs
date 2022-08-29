@@ -25,7 +25,7 @@ Surcharges are banned for both individual and business customers on:
 - Most credit card transactions when the bank/card <<glossary:issuer>> and the merchant's PSP are both located within the EEA
 - Debit card transactions 
 - Standard bank transfers 
-- SEPA Direct Debit payments 
+- Direct debits 
 
 If you are currently surcharging prohibited transactions, you may need to update your settings in your <<glossary:backend>>. For support, contact your ecommerce platform or your developer. 
 You do **not** need to change any settings in your MultiSafepay dashboard.

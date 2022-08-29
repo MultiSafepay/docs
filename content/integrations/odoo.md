@@ -133,14 +133,14 @@ Supported since release: 1.1.0, July 2nd 2021.
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
-    - [Bank Transfer](/docs/bank-transfer/)
+    - [Bank transfer](/docs/bank-transfer/)
     - [Belfius](/docs/belfius/)
     - [CBC/KBC](/docs/cbc-kbc/)
     - [Dotpay](/docs/dotpay/)
     - [EPS](/docs/eps/)
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
-    - [SEPA Direct Debit](/docs/sepa-direct-debit/)
+    - [Direct debit](/docs/sepa-direct-debit/)
     - [Sofort](/docs/sofort/)
     - [Trustly](/docs/trustly/)
 

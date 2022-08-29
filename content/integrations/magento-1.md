@@ -80,7 +80,7 @@ Release date: Oct 21, 2020
 - PLGMAGONE-472: Set order to status shipped for all payment methods
 - PLGMAGONE-674: Always set redirect_url
 - DAVAMS-28: Rebrand Santander Betaalplan to Pay per Month
-- DAVAMS-295: Rebrand Direct Bank Transfer to Request to Pay
+- DAVAMS-295: Rebrand direct bank transfer to Request to Pay
 - DAVAMS-308: Rebrand Klarna to Klarna - buy now, pay later
 - Update payment method names
   - KBC

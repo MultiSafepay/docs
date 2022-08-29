@@ -58,7 +58,7 @@ Release date: Nov 25, 2021
 **Changed**
 - PLGPRSS-408: When a payment is cancelled, the shopping_cart is no longer emptied
 - DAVAMS-314: Add new Klarna logo
-- DAVAMS-298: Rebrand Direct Bank Transfer as Request to Pay
+- DAVAMS-298: Rebrand direct bank transfer as Request to Pay
 
 ---
 
@@ -451,7 +451,7 @@ Supported since release: 3.8.0, Jul 13, 2022
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Banking methods: 
     - [Bancontact](/docs/bancontact/)
-    - [Bank Transfer](/docs/bank-transfer/)
+    - [Bank transfer](/docs/bank-transfer/)
     - [Belfius](/docs/belfius/)
     - [CBC/KBC](/docs/cbc-kbc/)
     - [Dotpay](/docs/dotpay/)
@@ -459,7 +459,7 @@ Supported since release: 3.8.0, Jul 13, 2022
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
     - [Request to Pay](/docs/request-to-pay/)
-    - [SEPA Direct Debit](/docs/sepa-direct-debit/)
+    - [Direct debit](/docs/sepa-direct-debit/)
     - [Sofort](/docs/sofort/)
 - Prepaid cards:
     - Beauty and Wellness gift card

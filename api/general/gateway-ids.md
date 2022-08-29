@@ -14,7 +14,7 @@ hidden: false
 | American Express                       | `AMEX`        |
 | Apple Pay                              | `APPLEPAY`    |
 | Bancontact                             | `MISTERCASH`  |
-| Bank Transfer                          | `BANKTRANS`   |
+| Bank transfer                          | `BANKTRANS`   |
 | Belfius                                | `BELFIUS`     |
 | Betaal per Maand                       | `SANTANDER`   |
 | CBC/KBC                                | `CBC` / `KBC` |
@@ -36,7 +36,7 @@ hidden: false
 | PayPal                                 | `PAYPAL`      |
 | Paysafecard                            | `PSAFECARD`   |
 | Request to Pay                         | `DBRTP`       |
-| SEPA Direct Debit                      | `DIREB`       |
+| Direct debit                           | `DIRDEB`       |
 | Sofort                                 | `DIRECTBANK`  |
 | Trustly                                | `TRUSTLY`     |
 | TrustPay                               | `TRUSTPAY`    |

@@ -151,14 +151,14 @@ Add the following elements to your checkout page:
 
     | Payment method | Gateway ID |
     |---|---|
-    | Bank Transfer | `BANKTRANS` |
+    | Bank transfer | `BANKTRANS` |
     | Bancontact | `MISTERCASH` |
     | Betaal per maand | `SANTANDER` |
     | Credit cards |`CREDITCARD`|
+    | Direct debit | `DIRDEB` |
     | iDEAL|`IDEAL`|
     | In3 | `IN3`
     | PayPal | `PAYPAL` |
-    | SEPA Direct Debit | `DIRDEB` |
     | Sofort | `DIRECTBANK` |
 
     </details>

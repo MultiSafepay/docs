@@ -21,7 +21,7 @@ You can embed a single or multiple payment methods in your checkout.
 <br>
 
 - [Bancontact](/docs/bancontact/)
-- [Bank Transfer](/docs/bank-transfer/)
+- [Bank transfer](/docs/bank-transfer/)
 - Credit cards:  
     - [American Express](/docs/card-payments/)
     - [Mastercard](/docs/card-payments/)
@@ -30,7 +30,7 @@ You can embed a single or multiple payment methods in your checkout.
 - [iDEAL](/docs/ideal/)
 - [MyBank](/docs/mybank/)
 - [PayPal](/docs/paypal/)
-- [SEPA Direct Debit](/docs/sepa-direct-debit/)
+- [Direct debit](/docs/sepa-direct-debit/)
 - [Sofort](/docs/sofort/)
 
 </details>
