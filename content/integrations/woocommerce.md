@@ -11,7 +11,7 @@ slug: 'woocommerce'
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/WooCommerce/releases/download/4.17.2/Plugin_WooCommerce_4.17.2.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/WooCommerce/releases/download/5.0.0/Plugin_WooCommerce_5.0.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/WooCommerce" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
@@ -22,8 +22,8 @@ slug: 'woocommerce'
 # Prequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Wordpress 5.0
-- PHP 7.2
+- Wordpress 5.0 or higher
+- PHP 7.3 or 7.4
 
 # How to install
 
