@@ -36,18 +36,20 @@ hidden: false
 | PayPal                                 | `PAYPAL`      |
 | Paysafecard                            | `PSAFECARD`   |
 | Request to Pay                         | `DBRTP`       |
-| Direct debit                           | `DIRDEB`       |
+| Direct debit                           | `DIRDEB`      |
 | Sofort                                 | `DIRECTBANK`  |
 | Trustly                                | `TRUSTLY`     |
 | TrustPay                               | `TRUSTPAY`    |
 | Visa, Cartes Bancaires, Dankort, V Pay | `VISA`        |
 | WeChat Pay                             | `WECHAT`      |
 | **Gift cards**                         |               |
+| Amsterdam stadspas                     | `AMSGIFT`     |
 | Baby Cadeaubon                         | `BABYCAD`     |
 | Beautyandwellness                      | `BEAUTYWELL`  |
 | Bloemencadeaukaart                     | `BLOEMENCAD`  |
 | Boekenbon                              | `BOEKENBON`   |
 | Degrotespeelgoedwinkel                 | `DEGROTESPL`  |
+| Dordtpas                               | `DORDTPAS`    |
 | Edenred Ticket Compliments             | `EDENCOM`     |
 | Edenred Ticket EcoCheque               | `EDENCO`      |
 | Edenred Ticket Restaurant              | `EDENRES`     |
@@ -55,12 +57,15 @@ hidden: false
 | Fashioncheque                          | `FASHIONCHQ`  |
 | Fashiongiftcard                        | `FASHIONGFT`  |
 | Fietsenbon                             | `FIETSENBON`  |
+| Gelrepas                               | `GELREPAS`    |
 | Gezondheidsbon                         | `GEZONDHEID`  |
 | Good4fun                               | `GOOD4FUN`    |
-| Horses & Gifts                         | `HORSESGIFT` |
+| Horses & Gifts                         | `HORSESGIFT`  |
 | Nationale bioscoopbon                  | `NATNLBIOSC`  |
 | Nationaletuinbon                       | `NATNLETUIN`  |
 | Parfumcadeaukaart                      | `PARFUMCADE`  |
+| Rotterdampas                           | `ROTGIFT`     |
+| U-pas                                  | `UPAS`        |
 | Sportenfit                             | `SPORTENFIT`  |
 | Vuur & rook gift card                  | `VRGIFTCARD`  |
 | VVV Cadeaukaart                        | `VVVGIFTCRD`  |
