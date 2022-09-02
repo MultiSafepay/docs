@@ -51,8 +51,8 @@ You can charge fees to affiliates at three levels.
 
 | Account level | Charge |
 |---|---|
-| **Partner/primary level** | Set fixed or percentage-based transaction charges for **all** affiliated merchant accounts. |
-| **Affiliate level** | Set fixed or percentage-based transaction charges for a specific affiliated merchant account. <br> This overrides the partner/primary-level settings. |
+| **Partner/primary level** | Set fixed or percentage-based transaction fees for **all** affiliated merchant accounts. |
+| **Affiliate level** | Set fixed or percentage-based transaction fees for a specific affiliated merchant account. <br> This overrides the partner/primary-level settings. |
 | **Transaction level** | [Split incoming payments](/docs/split-payments/) between multiple merchant and/or partner accounts. <br> You can use this feature for both partner/primary and affiliate-level charges.|
 
 </details>
