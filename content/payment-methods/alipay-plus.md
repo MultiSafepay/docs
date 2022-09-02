@@ -45,7 +45,6 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete.  | Completed | Completed |
 
-
 # Activation 
 
 First apply to MultiSafepay, and then activate in your dashboard. 
@@ -113,6 +112,16 @@ Minimum and maximum amounts apply to some wallets.
 | TrueMoney | Thai baht (THB) | 1  | - |
 
 </details>
+
+## Branding requirement
+
+Alipay+ requires all merchants to display the Alipay+ partner logo **and** the logos of at least 3 of its [supported wallets](#wallets) in every payment interface, e.g. [payment pages](/docs/payment-pages/), [payment components](/docs/payment-components/), [FastCheckout](/docs/fastcheckout/). 
+
+#### Example
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Alipay+Logos.png" align ="center"/>
+
+For all logos, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">Icons</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## Wallets
 
