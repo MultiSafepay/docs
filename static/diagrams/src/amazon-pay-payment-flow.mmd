@@ -1,0 +1,18 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant A as Amazon Pay
+    participant Me as Merchant
+
+    C->>Mu: Selects Amazon Pay at checkout
+    alt Redirect flow
+    Mu->>C: Redirects to payment page
+    C->>Mu: Confirms order
+    else Direct flow
+    Mu->>A: Sends payment request
+    end
+    Mu->>C: Redirects to Amazon Pay
+    C->>A: Signs in and completes payment
+    A->>Mu: Confirms payment complete
+    A->>Me: Transfers funds

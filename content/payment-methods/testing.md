@@ -540,6 +540,19 @@ Any other card number receives an "Invalid card number" error.
 
 </details>
 
+<details id="amazon-pay">
+<summary>How to test Amazon Pay</summary>
+<br>
+
+1. [Create an order](/reference/createorder/) > Wallet order.
+    Example: Amazon Pay direct/redirect
+2. On the **Test platform** page, wait for 5 seconds or click **Amazon Pay**.
+3. From the **Test scenario** list, select **Completed**.
+4. Click **Test**.  
+    The payment is processed in your MultiSafepay test account as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Initialized**.
+
+</details>
+
 <details id="apple-pay">
 <summary>How to test Apple Pay</summary>
 <br>
