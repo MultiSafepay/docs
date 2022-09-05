@@ -3,6 +3,7 @@ title: List gateways
 category: 62430422470152003dc86e53
 slug: listgateways
 ---
+**Note:** The [generic `CREDITCARD` gateway](/docs/card-payments#generic-gateway) is **not** returned for this request. 
 
 ## How to test
 
