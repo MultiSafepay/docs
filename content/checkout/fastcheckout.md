@@ -19,7 +19,7 @@ color: rgb(241, 173, 0) !important;
 
 FastCheckout is MultiSafepay's own complete checkout solution for a fast, frictionless checkout experience and increased <<glossary:conversion>>.
 
-## How it works
+# How it works
 
 FastCheckout is highly flexible and fully customizable. It consists of modular checkout steps (billing, shipping, and payment) that let you create a tailored experience for each customer. 
 
@@ -83,13 +83,13 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
 - Updates automatically when different shipping options are selected
 - Supports discounts
 
-## Activation
+# Activation
 
 Email a request to activate FastCheckout for specific sites under your account to <sales@multisafepay.com>
 
 Specify in your request the relevant [site IDs](/docs/sites#site-id-api-key-and-security-code). 
 
-## Integration
+# Integration
 
 To integrate FastCheckout as a hosted page via our API, see:
 
