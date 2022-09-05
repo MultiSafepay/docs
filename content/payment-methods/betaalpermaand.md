@@ -16,7 +16,7 @@ Read how Betaal per Maand can benefit your business on <a href="https://www.mult
 | Supports | Details |
 |---|---|
 | **Amount limits** | Minimum amount: 250 EUR, maximum amount: 8000 EUR |
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | The Netherlands  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Netherlands  | 
 | [Currencies](/docs/currencies/)  | EUR  | 
 | [Chargebacks](/docs/chargebacks/)  | No |
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions)  |

@@ -49,6 +49,7 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
 | Lithuania | PayPal, Trustly |
 | Luxembourg | PayPal, Trustly |
 | Malta | PayPal, Trustly |
+| Netherlands | AfterPay, Betaal per Maand, gift cards, iDEAL, in3, Klarna, Pay After Delivery, PayPal, Trustly |
 | Norway | Klarna, PayPal, Trustly |
 | Poland | Dotpay, PayPal, Sofort, Trustly |
 | Portugal | PayPal, Trustly |
@@ -58,7 +59,6 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
 | Spain | Klarna, PayPal, Sofort, Trustly |
 | Sweden | Klarna, PayPal, Trustly |
 | Switzerland | PayPal, Sofort |
-| The Netherlands | AfterPay, Betaal per Maand, gift cards, iDEAL, in3, Klarna, Pay After Delivery, PayPal, Trustly  |
 | United Kingdom | PayPal, Trustly |
 
 </details>
@@ -114,15 +114,15 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
 # Own flow
 
 ## AfterPay
+
 <details id="how-to-activate-afterpay"> 
 <summary>How to activate AfterPay</summary>
 <br>
 
-1. To check you are eligible for AfterPay, email <sales@multisafepay.com>
-2. For new AfterPay clients, apply directly to AfterPay:
-    - The Netherlands: <a href="https://www.afterpay.nl/nl/zakelijk/offerte" target="_blank">Offerte</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - Belgium: <a href="https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen" target="_blank">Offerte aanvragen</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-3. For existing AfterPay clients, to activate AfterPay for your MultiSafepay account, email AfterPay Sales at <sales@afterpay.nl>  
+To activate AfterPay for your account, email AfterPay at <sales@afterpay.nl> 
+
+AfterPay provides you with an API key per country and per site, and you must accept AfterPay's terms and conditions for each. 
+
 </details>
 
 ## Betaal per Maand

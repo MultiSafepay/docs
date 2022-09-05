@@ -15,7 +15,7 @@ Read how iDEAL can benefit your business on <a href="https://www.multisafepay.co
 
 | Supports | Details |
 |---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | The Netherlands  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Netherlands  | 
 | [Currencies](/docs/currencies/)  | EUR | 
 | [Chargebacks](/docs/chargebacks/)  | No |
 | [Payment components](/docs/payment-components/) | Yes | 
