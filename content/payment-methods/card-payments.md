@@ -120,7 +120,7 @@ In the `customer` object, set the `locale` parameter:
 - Postepay: `it_IT` (Italy) 
 
 #### Generic gateway
-- The generic `CREDITCARD` gateway saves space in your checkout and the payment page detects the card scheme based on the first 4 digits of the card number. 
+- The generic `CREDITCARD` gateway bundles all cards activated for your account into a single gateway to save space in your checkout. The [payment page](/docs/payment-pages/) automatically detects the specific card scheme based on the first 4 digits of the card number the customer enters. 
 - See Examples > Credit card redirect. 
 
 ### Ready-made integrations
