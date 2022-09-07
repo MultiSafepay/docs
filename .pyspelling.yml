@@ -1,0 +1,37 @@
+matrix:
+- name: markdown
+  glob_flags: N|G
+  sources:
+  - 'content/**/*.md|!content/payment-methods/unmatched-payments-dutch.md|!content/integrations/webshop-access-spanish.md|!content/integrations/webshop-access-ita.md|!content/payment-methods/unmatched-payments-german.md|!content/payment-methods/buy-now-pay-later.md|!content/payment-methods/credit-debit-cards.md|!content/integrations/our-integrations.md'
+  - 'api/**/*.md'
+  aspell:
+    lang: en
+    d: en_US
+  dictionary:
+    wordlists:
+    - wordlist.txt
+  pipeline:
+    - pyspelling.filters.context:
+        context_visible_first: true
+        escapes: '\\[\\`]'
+        delimiters:
+          # Ignore multiline content between fences (fences can have 3 or more back ticks)
+          # ```
+          # content
+          # ```
+          - open: '(?s)^(?P<open> *`{3,})'
+            close: '^(?P=open)$'
+            # Ignore text between inline back ticks
+          - open: '(?P<open>`+)'
+            close: '(?P=open)'
+            # Insides of URL links
+          - open: '\]\('
+            close: '\)'
+            # Inside HTML tags
+          - open: '(?s)(?P<open>[<])'
+            close: '[>]'
+            # Inside yaml headers
+          - open: '(?s)^(?P<open> *-{3,})'
+            close: '^(?P=open)$'
+    - pyspelling.filters.markdown:
+    - pyspelling.filters.url:
