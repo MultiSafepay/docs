@@ -1,7 +1,7 @@
 ---
 title: 'FastCheckout JavaScript integration'
 category: 62bd999547298d001abc714c
-order: 6
+order: 2
 hidden: false
 slug: 'fastcheckout-integration'
 parentDoc: 62fcc05ac034cb06771c46fc
