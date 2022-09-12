@@ -24,7 +24,7 @@ Since MOTO skips [3D Secure](/docs/3ds2/) authentication, you bear the increased
 
 You handle the transaction via your MultiSafepay dashboard or our API. 
 
-# Prequisites
+# Prerequisites
 
 To handle MOTO transactions via our API, you must be PCI DSS compliant. 
 See [Cardholder data](/docs/cardholder-data/).

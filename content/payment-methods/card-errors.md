@@ -220,7 +220,7 @@ Cardholder: Contact the issuer.
 Merchant: Do **not** reattempt on the same day to allow limits to reset.
 
 ---
-#### 78: Invalid/non-existant account
+#### 78: Invalid/non-existent account
 The account is temporarily blocked. The card may not have been activated yet. 
 
 Cardholder: Contact the issuer.  

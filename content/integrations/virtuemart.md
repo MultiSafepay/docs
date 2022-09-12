@@ -22,7 +22,7 @@ slug: 'virtuemart'
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Joomla 2.5 & 3.x + Virtuemart 2.x & 3.x
+- Joomla 2.5 & 3.x + VirtueMart 2.x & 3.x
 - Tested on PHP 7.0
 
 # How to install

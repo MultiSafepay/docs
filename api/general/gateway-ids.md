@@ -71,4 +71,4 @@ hidden: false
 | VVV Cadeaukaart                        | `VVVGIFTCRD`  |
 | Webshopgiftcard                        | `WEBSHOPGFT`  |
 | Wijncadeau                             | `WIJNCADEAU`  |
-| Yourgift                               | `YOURGIFT`    |
+| YourGift                               | `YOURGIFT`    |

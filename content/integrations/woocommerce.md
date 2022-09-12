@@ -19,7 +19,7 @@ slug: 'woocommerce'
 
 </div>
 
-# Prequisites
+# Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - Wordpress 5.0 or higher

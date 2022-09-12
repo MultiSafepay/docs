@@ -45,7 +45,7 @@ Add the following to your CSS to edit the payment component to add a:
 - 5-pixel `border-radius` to the form fields
 - Shadow to the fields on `focus`
 - 10-pixel `border-radius` to the component container
-- Light grey `background-color` to the component container
+- Light gray `background-color` to the component container
 
   ```
   .msp-ui-form-control {

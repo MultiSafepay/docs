@@ -583,7 +583,7 @@ Make sure your refund and return policies are clear and fair.
 Including your logo in customer's online bank environments and applications can help:
 
 - Increase brand presence, recognition, and trust.
-- Reduce chargebacks, disputes, and friendly fraud – when customers mistakenly initiate chargebacks because they don't recognise or trust a transaction.
+- Reduce chargebacks, disputes, and friendly fraud – when customers mistakenly initiate chargebacks because they don't recognize or trust a transaction.
 
 <a href="https://logo.ethoca.com/" target="_blank">Upload your logo</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the card scheme to display in all participating banking environments and applications. 
 </details>

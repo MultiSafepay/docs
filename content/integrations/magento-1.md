@@ -24,7 +24,7 @@ slug: 'magento-1'
 Release date: Nov. 24, 2021
 
 **Fixed**
-- PLGMAGONE-736: Fix invalid method backendOrdersAllowed on backend orders
+- PLGMAGONE-736: Fix invalid method `backendOrdersAllowed` on backend orders
 
 ---
 
@@ -72,16 +72,16 @@ Release date: Oct 21, 2020
 
 **Fixed**
 - PLGMAGONE-678: Fix bug in calculating correct price and tax for Fooman surcharge
-- PLGMAGONE-671: Fix maximum nesting level error with Idev OneStepCheckout
+- PLGMAGONE-671: Fix maximum nesting level error with `Idev` OneStepCheckout
 - PLGMAGONE-668: Fix non working days/seconds_active for backend orders
 
 **Changed**
 - PLGMAGONE-634: Switch from XML API to JSON API (Only API key is needed)
 - PLGMAGONE-472: Set order to status shipped for all payment methods
 - PLGMAGONE-674: Always set redirect_url
-- DAVAMS-28: Rebrand Santander Betaalplan to Pay per Month
-- DAVAMS-295: Rebrand direct bank transfer to Request to Pay
-- DAVAMS-308: Rebrand Klarna to Klarna - buy now, pay later
+- DAVAMS-28: Re-brand Santander Betaalplan to Pay per Month
+- DAVAMS-295: Re-brand direct bank transfer to Request to Pay
+- DAVAMS-308: Re-brand Klarna to Klarna - buy now, pay later
 - Update payment method names
   - KBC
   - ING Home'Pay
@@ -120,7 +120,7 @@ Release date: Mar 25, 2019
 
 **Added**
 - PLGMAGONE-457: Added Handelsbanken iDEAL issuer logo
-- PLGMAGONE-406: Added support for Modman
+- PLGMAGONE-406: Added support for `Modman`
 
 **Changed**
 - PLGMAGONE-344: Enable refund shipping amount when shipping includes tax
@@ -176,8 +176,8 @@ Release date: Mar 12, 2018
 - PLGMAGONE-370: Updated Dutch translations
 - PLGMAGONE-369: Update Klarna payment method logo
 - PLGMAGONE-368: Add keep cart alive for ING Home'Pay, Belfius, KBC and iDEAL QR
-- PLGMAGONE-346: Add support for prefilled gender/dob fields in Klarna/Pay After Delivery
-- PLGMAGONE-195: Housenumber extension added when Onestepcheckout is used
+- PLGMAGONE-346: Add support for pre-filled gender/dob fields in Klarna/Pay After Delivery
+- PLGMAGONE-195: House number extension added when OneStepCheckout is used
 - PLGMAGONE-356: Support direct transactions for ING/KBC
 - PLGMAGONE-362: Update ING Home'Pay name within backend configuration
 - PLGMAGONE-341: Don't add payment fee twice to credit memo
@@ -186,10 +186,10 @@ Release date: Mar 12, 2018
 - PLGMAGONE-343: Don't update an order when it's closed (due to offline refund)
 - PLGMAGONE-337: Add check to only update order status when order exists
 - PLGMAGONE-338: Undefined index error on expired orders
-- PLGMAGONE-357: Update ING gateway to INGHOME
+- PLGMAGONE-357: Update ING gateway to `INGHOME`
 - PLGMAGONE-340: Prevent cancel on api error when order has already been paid
 - PLGMAGONE-342: Fixes headers already send error when credit card gateway is used
-- PLGMAGONE-336: Undefined index custom_refund_desc
+- PLGMAGONE-336: Undefined index `custom_refund_desc`
 
 ---
 
@@ -248,7 +248,7 @@ Release date: Aug 3, 2017
 **2.3.3**
 Release date: Feb 16, 2017
 **Fixes**
-- Resolved PHP7 deprecated warnings occuring in the MultiSafepay class file.
+- Resolved PHP7 deprecated warnings occurring in the MultiSafepay class file.
 
 ---
 
@@ -264,8 +264,8 @@ Release date: Jan 25, 2017
 Release date: Oct 12, 2016
 **Improvements**
 - Added EPS and FerBuy as payment methods.
-- iDEAL issuerlist alignment improved.
-- Added official support for the FastCheckout productfeed v1.0
+- iDEAL issuer list alignment improved.
+- Added official support for the FastCheckout product feed v1.0
 - Added some missing German translations for Klarna.
 
 **Fixes**
@@ -296,7 +296,7 @@ Release date: June 21, 2016
 
 **Fixes**
 - Fixed an undefined notice within the logs.
-- Resolved an issue resulting in the transactional data not being set, such as; parent_id and additional_information
+- Resolved an issue resulting in the transaction data not being set, such as; parent_id and additional_information
 
 **Changes**
 - Updated Bancontact image
@@ -356,14 +356,14 @@ Release date: Dec 28, 2015
 - Added configurable FastCheckout field for phone number.
 
 **Fixes**
-- Fixes undefined configMain notice.
-- Added missing klarna.phtml
+- Fixes undefined `configMain` notice.
+- Added missing `klarna.phtml`
 - In case an order is paid by Second Chance and an other payment method is used as the initial, the order will be updated with the correct payment method.
-- Fixes bug with directdebit using a wrong gateway code
+- Fixes bug with direct debit using a wrong gateway code
 - Fixes for wrong credit memo amounts that are processed.
-- Fixes Store id is now used to get the correct store URL's to redirect to
+- Fixes Store id is now used to get the correct store URLs to redirect to
 - Fixes cancelled status for Pay After Delivery and Klarna notifications are now ignored as the order was already set to Paid. If set to cancelled then a credit memo can't be created anymore.
-- Fixes bug causing the order status set to "payment review" instead of "processing". This was caused because the order grandtotal had to be rounded to two so it matches the paid amount in the transaction.
+- Fixes bug causing the order status set to "payment review" instead of "processing". This was caused because the order total had to be rounded to two so it matches the paid amount in the transaction.
 
 
 **2.2.1**
@@ -376,9 +376,9 @@ Release date: Nov 12, 2015
 - Added Klarna to the language file.
 
 **Fixes**
-- Fixed undefined variable isAllowConvert notice.
-- Fixed undefined variable Currencies notice.
-- Fixed issue using wrong StoreConfig.
+- Fixed undefined variable `isAllowConvert` notice.
+- Fixed undefined variable `Currencies` notice.
+- Fixed issue using wrong `StoreConfig`.
 - Fixed issue when selecting all the available currencies in the configuration.
 - Fixed issue using the wrong account credentials for FastCheckout.
 - Fixed issue causing shipping method not to be correct for Klarna and Pay After Delivery.
@@ -391,10 +391,10 @@ Release date: Nov 12, 2015
 Release date: Aug 20, 2015
 **New features**
 - Added Klarna as payment method.
-- gift card now have their own API key config.
+- gift card now have their own API key configuration.
 - Refunds now work for Klarna, Coupons and Pay After Delivery.
 - Success page now visible when using a payment link or pay using Second Chance.
-- FCO button now also language based.
+- FastCheckout button now also language based.
 - Fallback to configured gateway code if gateway is not available within the quote.
 - Fallback if issuer is set but no gateway, then somehow we lost the gateway although iDEAL was selected. We now default to iDEAL.
 - Added Beauty and Wellness gift card.
@@ -403,7 +403,7 @@ Release date: Aug 20, 2015
 - Added PODIUM gift card.
 - Added missing Gifcard logos.
 - All available currencies can be selected when configuring the gateway.
-- Added option to remove all buttons to the normal checkout for when only FCO is enabled.
+- Added option to remove all buttons to the normal checkout for when only FastCheckout is enabled.
 
 **Improvements**
 - Updated order of FastCheckout in menu.
@@ -416,7 +416,7 @@ Release date: Aug 20, 2015
 - Disabled FastCheckout payment method in normal checkout as this is causing confusion for merchants.
 - Don't set state to cancelled when partial refunded as it still has to be processed partially.
 - Disabled some gift cards that are for one merchant.
-- Added FCO button on login/register page.
+- Added FastCheckout button on login/register page.
 - Redirect URL always added for Pay After Delivery.
 - Check for stock settings before processing stock.
 - Now use current selected currency to recalculate fee. Fee is always configured in EUR.
@@ -441,7 +441,7 @@ Release date: Aug 20, 2015
 **2.1.2**
 Release date: May 7th, 2015
 **Improvements**
-- Paymentlinks generated in the Magento Admin for manually created orders now use the 'Daysactive' setting in the main plugin configuration.
+- Payment links generated in the Magento Admin for manually created orders now use the `Daysactive` setting in the main plugin configuration.
 - The transaction status 'Expired' no longer triggers the plugin to cancel orders with an invoice.
 
 **Changes**
@@ -452,10 +452,10 @@ Release date: May 7th, 2015
 **Fixes**
 - 'Allowed currencies' for the MultiSafepay Gateways were not requested correctly.
 - Added delivery address data to orders for PayPal's Sellers Protection.
-- Call to undefined method error occuring with the Pay After Delivery object
-- Paymentlinks generated in the Magento backend for manually created orders always used the test environment
+- Call to undefined method error occurring with the Pay After Delivery object
+- Payment links generated in the Magento backend for manually created orders always used the test environment
 - Fixed double payment method titles
-- Resolved DIRECTebanking gateway code bug
+- Resolved DIRECT banking gateway code bug
 - Magento didn't always update and store the amount correctly when converting from USD to EUR resulting in the wrong amount paid after the plugin conversion.
 - The Pay After Delivery (MultiFactor) rejection message has been added to the language files.
 - The Pay After Delivery (MultiFactor) rejection message has been altered to only show relevant information to customers.
@@ -480,35 +480,35 @@ Release date: Mar 19, 2015
 - Special status for initialized Bank transfer transactions
 - Added support for fixed fee and/or percentage fee for each gateway
 - Show Pay After Delivery rejection notice within the store when transaction is rejected
-- Added enable/disable config value for FCO product feed
-- Feed action. Feed can be requested at /msp/standard/feed/
-- Enable/disable config option check is now added. Check is also added for API key to check if the given key matches the configured key
+- Added enable/disable configuration value for FastCheckout product feed
+- Feed action. Feed can be requested at `/msp/standard/feed/`
+- Enable/disable configuration option check is now added. Check is also added for API key to check if the given key matches the configured key
 - Order now using translation files
-- Added updateInvoice function. Send Magento invoice ID to MultiSafepay, this will be added to the accountant export
-- Added daysactive to connect
+- Added `updateInvoice` function. Send Magento invoice ID to MultiSafepay, this will be added to the accountant export
+- Added `daysactive` to connect
 - When creating an order we now use the selected payment method for the manual transaction request
-- Payment link added to a manually created order by an admin. When an admin creates an order manually, we will create a transaction request for it and add the payment link to the order. The merchant now doesn't need to Sign in to the Ewallet and manually create a payment link for the order
+- Payment link added to a manually created order by an admin. When an admin creates an order manually, we will create a transaction request for it and add the payment link to the order. The merchant now doesn't need to Sign in to the E-wallet and manually create a payment link for the order
 
 **Improvements**
 - If there is an invoice, the order can't be cancelled anymore
 - Added more language files
-- Better support for Keep Cart alive, so it is compatible with Onestepcheckout
-- Added check for - phone number for BNO trans. Compatibility with some Onestepcheckout modules that add - when phone number is empty or not available as custom field
+- Better support for Keep Cart alive, so it is compatible with OneStepCheckout
+- Added check for - phone number for BNO trans. Compatibility with some OneStepCheckout modules that add - when phone number is empty or not available as custom field
 - Check if payment is object, if not, default to standard gateway model This will solve the 1016 error message
 - Manual payment link process has changed. Updated the observer. The payment link is now only added when the order is being created from the Magento Admin and no longer on every save action within the Magento Admin
 - If title isn't added then fallback tot main gateway title
 - Updated upgrade script
-- Updated bno.phtml for better layout in OneStepCheckout
-- Better support for gateway images. Works with default, onestepcheckout.com and Apptha checkout
+- Updated `bno.phtml` for better layout in OneStepCheckout
+- Better support for gateway images. Works with `default`, `onestepcheckout.com` and `Apptha` checkout
 - Removed disable option for text titles
-- Disabled check for active table rates config. This was old code from when this was configured within the FCO configuration
+- Disabled check for active table rates configuration. This was old code from when this was configured within the FastCheckout configuration
 - Transaction errors for normal transaction request now also result in a closed order
 - Added extra check for enabled fee for the payment method
 - After transaction error with DIRECT Pay After Delivery transactions we will close the order because replacing using another payment method will create a new order
-- When status is refunded just return ok and exit. The Magento plugin can process partial refunds so we should ignore refunded status because this can update the order wrong with partial refunds. Status updates are done by creating the credit memo
-- Added fallback for refund status for when new base.php is used with older releases
+- When status is refunded just return OK and exit. The Magento plugin can process partial refunds so we should ignore refunded status because this can update the order wrong with partial refunds. Status updates are done by creating the credit memo
+- Added fallback for refund status for when new `base.php` is used with older releases
 - Added transaction details to the transaction record that is created when creating an invoice automatically
-- Added default config to the plugin that sets the fee after the shipping cost in the totals overviews
+- Added default configuration to the plugin that sets the fee after the shipping cost in the totals overviews
 - Rewrite of the refund API integration. The implementation was wrong and causing every MultiSafepay refunded to be processed online. This supposed to be a choice by order to refund online. Merchants can now refund online when it's enabled within the configuration and by going to the invoice, click credit memo and then refund. Then can choose to refund, or refund offline where the refund offline won't submit the refund to MultiSafepay
 
 **Changes**
@@ -519,14 +519,14 @@ Release date: Mar 19, 2015
 - Fixed bug for ordering same pages with different options results in an error 1027
 - Pay After Delivery option for sending invoice email. When enabled resulted in NOT sending and vice-versa
 - Fixed bug Maintransaction ID errors when auto redirect is enabled with direct iDEAL
-- Reset fee before trying to set it. Solves issue with some installations not reseting, resulting in fee from other selected payment method
-- Added extra setQuote to solve issues reported by one merchant where Magento didn't add the quote correctly to the order. To solve this bug with Magento, we set the quote manually within the order
+- Reset fee before trying to set it. Solves issue with some installations not resetting, resulting in fee from other selected payment method
+- Added extra `setQuote` to solve issues reported by one merchant where Magento didn't add the quote correctly to the order. To solve this bug with Magento, we set the quote manually within the order
 - Fixed bug with payment details to be added to the transaction record. Payment details are now stored again within the transaction record
 - Fixed bug with unpaid invoices when completed
 - Fixed issue to treat order status cancelled or cancelled (American vs English) the same correct way
 - Fixed bug that caused product from a manually created order to be in the cart for the customer that the order was created for when the customer returns to the store and logs in
 - Fixed bug with paid status
-- When creating an invoice, Magento gets the totalpaid value and add it to the total invoiced value. When we don't create an invoice automatically, we set the totalpaid to inform the merchant that the order was paid. This resulted in a double totalPaid value because Magento added the invoiced total to the totalPaid when manually creating the invoice. This is now changed so that we reset the Total Paid in this situation just before the invoice is created and Magento updates the totalPaid again
+- When creating an invoice, Magento gets the `totalPaid` value and add it to the total invoiced value. When we don't create an invoice automatically, we set the `totalPaid` to inform the merchant that the order was paid. This resulted in a double `totalPaid` value because Magento added the invoiced total to the `totalPaid` when manually creating the invoice. This is now changed so that we reset the Total Paid in this situation just before the invoice is created and Magento updates the `totalPaid` again
 
 ---
 
@@ -537,7 +537,7 @@ Release date: Oct 10, 2014
 - Added extra line to set the order total to paid if it hasn't been done
 - Now use the fee price formatter so it includes the selected currency
 - Force ordertotal set to paid when transaction is completed and invoice creation is disabled. Only show creation of transaction note once.
-- Added version number to config title line.
+- Added version number to configuration title line.
 - Textual improvements.
 - Better check on order confirmation email sending.
 - Rrecalculate the product price without tax as Magento round at 2 decimals by default and we use 4. This resulted in a amount mismatch when ordering larger quantities of the same product.
@@ -546,15 +546,15 @@ Release date: Oct 10, 2014
 
 **Changes**
 - FEE base is rewritten.
-- Upgrade the php dependence to 5.5.1**2.
-- Now get the selected gateway from the quote instead of the gateway model. This adds better compatibility with third-party onestepcheckout plugins.
+- Upgrade the PHP dependence to 5.5.1**2.
+- Now get the selected gateway from the quote instead of the gateway model. This adds better compatibility with third-party OneStepCheckout plugins.
 
 **Fixes**
 - Fixed bug for error #1016 on the Return-URL.
 - Fixed bug with gateway title not being visible in checkout.
 - Fixed bug with missing house number on connect transactions.
 - Fixed bug with order email not being sent after transaction complete.
-- Fixed bug with double totalPaid amount.
+- Fixed bug with double `totalPaid` amount.
 
 ---
 
@@ -565,27 +565,27 @@ Release date: May 20, 2014
 - Fast Checkout now use the Magento Shipping methods
 - When the order status of an Pay After Delivery order in the webshop is set to 'Shipped', the status of the transaction is also changed in the MultiSafepay backend.
 - Currency not supported by MultiSafepay can now be converted to euro's.
-- Programm structure of the plugin changed to the standard Magento convention.
-- added support for Fashion-cheque.
-- added support for Lief cadeaukaart.
-- added support in the configuration for minimal order amount for iDEAL.
-- added (limited) support for Magento Connect package (Only for new installations, not for an update from an older version of plugin).
+- Program structure of the plugin changed to the standard Magento convention.
+- Added support for Fashion-cheque.
+- Added support for Liefcadeaukaart.
+- Added support in the configuration for minimal order amount for iDEAL.
+- Added (limited) support for Magento Connect package (Only for new installations, not for an update from an older version of plugin).
 
 **Changes**
 - The 'Solve fee bug' setting has been removed from the configuration. This is fixed in the software.
-- The gateway 'Fijncadeau' is deleted because it is no longer available.
+- The gateway `Fijncadeau` is deleted because it is no longer available.
 - Transaction-ID is added to the redirect URL, for the case that our system doesn't.
-- disable log for status-request to avoid large log files.
-- lockfile systeem disabled.
+- Disable log for status-request to avoid large log files.
+- Lock file system disabled.
 
 **Fixes**
-- Fixed bug in the American Express config.
-- Fixed 500 error when developers mode is enabled and iDEAL is selected without bank preselection.
+- Fixed bug in the American Express configuration.
+- Fixed 500 error when developers mode is enabled and iDEAL is selected without bank pre-selection.
 - Fixed bug with images in checkout.
 - Fixed bug with currency for separate gateway's.
 - Fixed bug with the language.
 - The additional fee is removed by normal operation.(Bug reported in v1.4.4).
-- Fixed memory limit bug cause by recursion in the Payafter.php model.
+- Fixed memory limit bug cause by recursion in the `Payafter.php` model.
 - Fixed undefined index notices.
 
 ---
@@ -616,11 +616,11 @@ Release date: Apr 8, 2014
 **Changes**
 - Always get first IP address for customer IP and forwarded IP that it finds within the given value.
 - Create invoice after payment has been completed, Magento changed things, if invoice isn't created then the order is processing with unpaid status.
-- Changed default/template/msp/default.phtml files. This provides gateway html for other gateways other then MultiSafepay.
+- Changed `default/template/msp/default.phtml` files. This provides gateway html for other gateways other then MultiSafepay.
 - Removed house number feature. If house number isn't available after parse the address then we use street2.
 - Changed the way how discounts are processed.
 - Change store name for connect transactions.
-- No more redirect to checkoutcontroller for FCO transactions. All is done from within the standardcontroller. This solves 302 and 307 offline action errors.
+- No more redirect to `checkoutcontroller` for FastCheckout transactions. All is done from within the `standardcontroller`. This solves 302 and 307 offline action errors.
 
 **Fixes**
 - Google checkout bug fix.
@@ -628,7 +628,7 @@ Release date: Apr 8, 2014
 - Fixed bug with order data.
 - Fixed return to empty cart page when offline actions are slow.
 - fixed issue on error 503 in offline actions. No need to fill in account details in 3 different places.
-- Fixed bug with directdebit and SOFORT Banking.
+- Fixed bug with direct debit and SOFORT Banking.
 - Fixed bug with empty return-url.
 
 ---
@@ -647,12 +647,12 @@ Release date: Sep 19, 2013
 - Support for free shipping method
 - Fee configurable option for the amount.
 - HTML instructions support for connect Gateway
-- Support for the onestepcheckout house number feature. This function seperates the address and house number, with this option enabled Pay After Delivery would fail on missing data.
-- Amount validation check. If the quote amount is not equal to the order amount the transaction creation will stoped to prevent an underpaid order.
+- Support for the OneStepCheckout house number feature. This function separates the address and house number, with this option enabled Pay After Delivery would fail on missing data.
+- Amount validation check. If the quote amount is not equal to the order amount the transaction creation will stop to prevent an underpaid order.
 - Currency selection support for each separate gateway. Now you can select the currencies that are supported, the gateway will only be visible with the selected currencies.
 - Degrotespeelgoedwinkel coupon as supported gateway
 - Support for gateway descriptions per gateway. You can also use html within the description field to add nice gateway descriptions.
-- Configurable 'multisafepay servicekosten' label for Pay After Delivery. This label can now be changed
+- Configurable `multisafepay servicekosten` label for Pay After Delivery. This label can now be changed
 - Support for gateway images. Option to select only an image, the title, or both.
 - Support for void, declined and expire status codes in combination with CANCELLED STATE.
 
@@ -667,7 +667,7 @@ Release date: Sep 19, 2013
 - Wrong fee percentage for BNO Tax
 - Disable visibility for the (old) notification URL
 - Language was missing by use of Fast Checkout
-- Bank selection was alway visible with iDEAL, even when the option was disabled.
+- Bank selection was always visible with iDEAL, even when the option was disabled.
 - Parfumcadeaukaart coupon is now working correctly
 - 'The cart is not equal' is now solved for normal checkout as the one step checkout.
 - When no fee is active the service cost's won't be visible.
@@ -712,14 +712,14 @@ Release date: Mar 10, 2013
 **1.3.1**
 Release date: Jan 10, 2013
 **Improvements**
-- DirectXML for Bank transfer.
+- `DirectXML` for Bank transfer.
 
 ---
 
 **1.3.0**
 Release date: Dec 10, 2012
 **Improvements**
-- DirectXML for iDEAL.
+- `DirectXML` for iDEAL.
 
 ---
 
@@ -830,7 +830,7 @@ This change is only for Magento developers. We recommend testing the change and 
 
 The plugin is compatible with most Magento 1 checkouts. However, we cannot guarantee that all checkout features will function properly.
 
-We test the plugin with Magento 1 core checkout and OneStepCheckout.com (Idev).
+We test the plugin with Magento 1 core checkout and OneStepCheckout.com (`Idev`).
 
 > **Note:** Always test OneStepCheckout to make sure it is compatible with your configuration of the plugin.
 

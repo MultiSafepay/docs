@@ -12,7 +12,7 @@ slug: 'prestashop-1-6'
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.8.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 > ⚠️ Action required
-> We are phasing out support for this plugin. We recommend migrating to our [Prestashop 1.7 plugin](/docs/prestashop-1-7/) as soon as possible.
+> We are phasing out support for this plugin. We recommend migrating to our [PrestaShop 1.7 plugin](/docs/prestashop-1-7/) as soon as possible.
 
 # Changelog
 
@@ -58,7 +58,7 @@ Release date: Nov 25, 2021
 **Changed**
 - PLGPRSS-408: When a payment is cancelled, the shopping_cart is no longer emptied
 - DAVAMS-314: Add new Klarna logo
-- DAVAMS-298: Rebrand direct bank transfer as Request to Pay
+- DAVAMS-298: Re-brand direct bank transfer as Request to Pay
 
 ---
 
@@ -145,16 +145,16 @@ Release date: Sept 8, 2017
 - Update Dutch translation-files.
 - Resized all payment logos.
 - Removed underscore in the name of all gift cards.
-- Adjust birthdate to correct layout for Klarna and Pay After Delivery.
-- Removed own order-confirmation.tpl and use PrestaShop default.
+- Adjust birth date to correct layout for Klarna and Pay After Delivery.
+- Removed own `order-confirmation.tpl` and use PrestaShop default.
 
 **Fixes**
 - Customer is now correct redirected to the order-confirmation page.
 - Check whether or not update order status failed sometimes.
-- Confirmation-form for PaySafecard was not loaded due to a misspelled filename.
+- Confirmation-form for Paysafecard was not loaded due to a misspelled filename.
 - When using the Connect gateway the button for 'All payment methods' was not available.
 - Shipping methods where selected based on language-code instead of country-code.
-- When using the CreditCard gateway the customer wasn't redirect to the correct payment-page.
+- When using the credit cards gateway the customer wasn't redirected to the correct payment page.
 - In exceptional cases no order was created due to an invalid security-key.
 - FastCheckout failed in updating the order status.
 - FastCheckout did not support Free shipping.
@@ -208,7 +208,7 @@ Release date: Nov 23, 2016
 - Add extra option in the configuration to select the HTTP / HTTPS protocol to use for Offline Actions.
 - Added EPS.
 - Added Ferbuy.
-- Errors are now shown on the Prestashop storefront.
+- Errors are now shown on the PrestaShop storefront.
 
 **Fixes**
 - Multiple free shipping methods are now shown correctly instead of just one.
@@ -279,12 +279,12 @@ Release date: Apr 15, 2016
 - Added a debug configuration option. Debug output are logged to: 'prestashop_root_directory/log/MultiSafepay.log'.
 - Added the following gift cards:
 
-1.	Beautyandwellness
+1.	Wellness & Beauty
 2.	Brouwmarkt
-3.	Fashiongiftcard
+3.	Fashion Giftcard
 4.	Fietsenbon
 5.	Gezondheidsbon
-6.	Goodcard
+6.	Good4fun
 7.	Jewelstore
 8.	Kellygiftcard
 9.	Liefcadeaukaart
@@ -320,7 +320,7 @@ Release date: Apr 15, 2016
 Release date: Nov 2, 2015
 
 **Improvements**
-- Added support for gift card VVV-Bon.
+- Added support for gift card VVV Cadeaukaart.
 - During installation of the plugin, the order states will not be removed anymore. So old orders remain their correct order status.
 
 **Fixes**
@@ -336,10 +336,10 @@ Release date: Oct 8, 2015
 **Improvements**
 
 - Added support for the BVK Payments module for the payment method Pay After Delivery.
-- MultiSafepay Transaction IDs are now added to, and visible within, the Prestashop order.
+- MultiSafepay Transaction IDs are now added to, and visible within, the PrestaShop order.
 - Changed the Fast Checkout button.
 - The payment method used to pay for an order is now shown within the order overview.
-- The payment hook template now uses the default Prestashop style within the checkout and can be overruled by template overrides.
+- The payment hook template now uses the default PrestaShop style within the checkout and can be overruled by template overrides.
 - Added Fashzoncheque.
 
 **Changes**
@@ -348,7 +348,7 @@ Release date: Oct 8, 2015
 
 **Fixes**
 - Resolved double paid/invoice notices.
-- Fixed bug to show payment method when the Min and Max amount in the config are equal.
+- Fixed bug to show payment method when the Min and Max amount in the configuration are equal.
 - Fixed undefined index notice warnings.
 - Fixed double payment method titles.
 - Improved the support of shipping methods, coupons, taxes, free shipping and free products.
@@ -360,27 +360,26 @@ Release date: Oct 8, 2015
 Release date: Nov 11, 2014
 
 **Improvements**
-- Added special NL config files.
+- Added special NL configuration files.
 - Added Italian language files.
 - Added Gateway image for Wallet.
-- Added support for Prestashop 1.6.x.
+- Added support for PrestaShop 1.6.x.
 - Added support for erotiekbon.
 - Added support for e-bon.
 - Added support for degrotespeelgoedwinkel.
-- Added support for boekenbon.
+- Added support for Boekenbon.
 - Added support for babygiftcard.
-- Added Notification info field to FCO config for when only Fast Checkout is active.
+- Added Notification info field to FastCheckout configuration for when only Fast Checkout is active.
 - Added better support for IP6.
 
 **Changes**
-- Make some ### Changes to the config screen.
-- Updated language files.
+- Made some ### Changes to the configuration screen.
 - Updated local images.
-- Updated lang files ES en FR.
+- Updated language files ES en FR.
 
 **Fixes**
 - Fixed bug with wrong Shipping price calculation.
-- Fixed bug to show payment method when the Min and Max amount in the config are equal.
+- Fixed bug to show payment method when the Min and Max amount in the configuration are equal.
 
 [Top of page](#)
 
@@ -476,19 +475,19 @@ Supported since release: 3.8.0, Jul 13, 2022
     - VVV gift card
     - Webshop gift card
     - Wijncadeau
-    - Yourgift
+    - YourGift
 
 </details>
 
 ## Matching orders
 
-In Prestashop 1.6, the order ID is generated after the payment, which causes a mismatch with the order ID in your MultiSafepay dashboard. You can match orders using the transaction ID. 
+In PrestaShop 1.6, the order ID is generated after the payment, which causes a mismatch with the order ID in your MultiSafepay dashboard. You can match orders using the transaction ID. 
 
 <details id="how-to-view-transaction-ids">
 <summary>How to view transaction IDs</summary>
 <br>
 
-1. Sign in to your Prestashop 1.6 backend.
+1. Sign in to your PrestaShop 1.6 backend.
 2. Go to **Payment** > **Order details**. 
 
 </details>
@@ -537,7 +536,7 @@ The Integration Team will do their best to support you with installing BVK, but 
 
 ## Thirty Bees
 
-For support for the Prestashop <a href="https://thirtybees.com/blog/what-is-thirty-bees" target="_blank">Thirty Bees</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> fork, email <integration@multisafepay.com>
+For support for the PrestaShop <a href="https://thirtybees.com/blog/what-is-thirty-bees" target="_blank">Thirty Bees</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> fork, email <integration@multisafepay.com>
 
 ## Updates
 

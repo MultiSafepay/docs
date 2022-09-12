@@ -62,7 +62,7 @@ To activate PayPal, follow these steps:
 
 To configure your PayPal account, follow these steps:
 
-1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">Paypal.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Mouse over your account name in the top-right corner, and then select **Account settings**.
 3. On the **Account access** tab, under **API access**, click **Update**.
 4. Under **Pre-built payment solution**, click **Grant API permission**.
@@ -98,7 +98,7 @@ To complete the configuration, change the language encoding setting of your PayP
 
 To configure your MultiSafepay account for PayPal, follow these steps:
 
-1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">Paypal.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Mouse over your account name in the top-right corner, and then select **Account settings**.
 3. On the **Business information** tab, copy your PayPal Merchant ID.
 4. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, and then go to **Settings**. 

@@ -270,11 +270,11 @@ For import instructions, see Octopus – <a href="https://www.octopus.be/nl/hand
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Snelstart.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
 <br>
 
-# Snelstart
+# SnelStart
 
-<a href="https://www.snelstart.nl" target="_blank">Snelstart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (MT940 format).
+<a href="https://www.snelstart.nl" target="_blank">SnelStart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (MT940 format).
 
-For import instructions, see Snelstart – <a href="https://www.snelstart.nl/klantenservice" target="_blank">Klantenservice</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+For import instructions, see SnelStart – <a href="https://www.snelstart.nl/klantenservice" target="_blank">Klantenservice</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 To add MultiSafepay [payment links](/docs/payment-links/) to SnelStart invoices to let customers pay directly, see SnelKoppeling – <a href="https://snelkoppeling.eu/productoverzicht/boekhoudtechnisch/emailplus" target="_blank">Betaallinks via payment service provider</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -282,7 +282,7 @@ To add MultiSafepay [payment links](/docs/payment-links/) to SnelStart invoices 
 
 ## Premarc plugins
 
-<a href="https://www.snelkoppeling.eu/productoverzicht/webwinkelkoppelingen" target="_blank">Premarc</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> offers plugins to reconcile Snelstart with popular ecommerce platforms.
+<a href="https://www.snelkoppeling.eu/productoverzicht/webwinkelkoppelingen" target="_blank">Premarc</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> offers plugins to reconcile SnelStart with popular ecommerce platforms.
 
 <details id="supported-ecommerce-platforms">
 <summary>Supported ecommerce platforms</summary>
@@ -292,7 +292,7 @@ To add MultiSafepay [payment links](/docs/payment-links/) to SnelStart invoices 
 - <a href="https://www.snelkoppeling.eu/lightspeed" target="_blank">Lightspeed</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - <a href="https://www.snelkoppeling.eu/magento" target="_blank">Magento</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - <a href="https://www.snelkoppeling.eu/shopify" target="_blank">Shopify</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-- <a href="https://www.snelkoppeling.eu/woocommerce" target="_blank">Woocommerce</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://www.snelkoppeling.eu/woocommerce" target="_blank">WooCommerce</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 </details>
 

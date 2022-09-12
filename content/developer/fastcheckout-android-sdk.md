@@ -114,7 +114,7 @@ The customer is automatically redirected to the **Register** screen:
 # How to install
 
 1. Copy your [site API key](/docs/sites#site-id-api-key-and-security-code) to get the SDK from our <a href="https://github.com/MultiSafepay/fastcheckout-android-sdk" target="_blank">GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Add the msp-android-sdk-release.aar:
+2. Add the `msp-android-sdk-release.aar`:
     - As an embedded framework into your project
     - Into your library’s /lib folder.
 3. In your build.gradle (Module.app) in the dependencies script, add the following:
@@ -177,7 +177,7 @@ YourActivity.this.runOnUiThread(new Runnable() {
 ```
 #### Change the environment
 
-To change the running environment from **live** to **test**, add the following line of code after SDK.setApiKey(API_KEY):
+To change the running environment from **live** to **test**, add the following line of code after `SDK.setApiKey(API_KEY)`:
 
 ```java
 …

@@ -104,7 +104,7 @@ To install and configure the plugin, see Logic4 – <a href="https://www.logic4.
 
 ___
 
-## Logivert
+## LogiVert
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/LogiVert.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 LogiVert provides a free app to integrate with MultiSafepay. 
@@ -150,7 +150,7 @@ For technical support, contact LogiVert - <a href="https://www.logivert.com/nl/s
 
 To install and configure, see LogiVert – <a href="https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen" target="_blank">Manual</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-> **Tip!** We recommend first installing the plugin in a test environment, following the Logivert installation procedure. Always make a backup.
+> **Tip!** We recommend first installing the plugin in a test environment, following the LogiVert installation procedure. Always make a backup.
 </details>
 
 ___
@@ -293,7 +293,7 @@ ___
 
 # Business growth
 
-## Picquer
+## Picqer
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Picqer.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 

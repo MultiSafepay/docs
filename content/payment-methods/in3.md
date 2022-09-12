@@ -40,7 +40,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | Description | Order status | Transaction status |
 |---|---|---|
 | in3's credit check is in progress. You can still cancel. | Initialized   | Initialized  |
-| in3 is waiting for the customer to pay the first installment (within 5 mins). | Uncleared  | Initialized  |
+| in3 is waiting for the customer to pay the first installment (within 5 minutes). | Uncleared  | Initialized  |
 | The customer has paid the first installment. Settlement is now guaranteed. <br> You can no longer cancel. You can only refund. | Completed  | Uncleared  |
 | You can [manually change the order status to shipped](#shipment) for your records, but this is not required to trigger invoicing. | Shipped | Uncleared | 
 | MultiSafepay has collected payment. | Completed | Completed |
@@ -59,7 +59,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 <br>
 
 1. Email a request to <risk@multisafepay.com> 
-2. We check your eligibilty and if approved, activate the payment method for your account. 
+2. We check your eligibility and if approved, activate the payment method for your account. 
 3. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 4. Go to **Settings**. 
 5. To activate the payment method for:
