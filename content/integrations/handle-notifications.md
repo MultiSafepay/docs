@@ -29,9 +29,9 @@ The updated order details make up the payload of the request.
 
 Check the <<glossary:order status>> in the `status` field. If necessary, update your <<glossary:backend>>.
 
-> **Note:** You can ignore notifications that:
-> - Don't have the `timestamp` parameter in the URL  
-> - Have the same <<glossary:order status>> 
+**Note:** You can ignore notifications that:
+- Don't have the `timestamp` parameter in the URL  
+- Have the same <<glossary:order status>> 
 
 # 2. Validate the request
 
@@ -159,17 +159,16 @@ Until we receive your acknowledgment, we resend the notification 4 times at 15 m
 
 If for some reason you don't receive a notification:
 
-1. In your MultiSafepay test account, go to **Transactions** > **Transaction overview** > **Transaction details**.    
-    Scroll to the bottom to find **Offline actions**.
-2. Click <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/offline-actions-webhookendpoint.png'> and check that the URL displayed is the correct webhook endpoint.
-3. If the webhook endpoint is correct, click <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/offline-actions-resend.png'> to resend the notification.
+1. In your MultiSafepay test account, go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+2. On the **Transaction details** page, under **Offline actions**, click <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/offline-actions-webhookendpoint.png'> and check that the URL displayed is the correct webhook endpoint.
+4. If the webhook endpoint is correct, click <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/offline-actions-resend.png'> to resend the notification.
 
-> **Tip!** If you **still** don't receive a notification, you may need to authorize MultiSafepay servers' IP addresses on your web server. For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
+✅&nbsp; **Tip!** If you **still** don't receive a notification, you may need to authorize MultiSafepay servers' IP addresses on your web server. For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
 <br>
 
 ---
 
-> ✅  Congratulations!
+> ✅ Congratulations!
 > You've successfully created an order, configured your webhook endpoint, and set up your web server to handle notifications.
 <br>
 

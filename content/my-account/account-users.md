@@ -7,33 +7,53 @@ parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'account-users'
 ---
 
-Your MultiSafepay account can have an unlimited number of authorized users. All users on one account share the same security code. You can disable users, but not delete them.
+Your MultiSafepay account can have an unlimited number of authorized users. All users on one account share the same [security code](/docs/sites#site-id-api-key-and-security-code). You can block users, but not delete them.
 
 # User permission profiles
 
 | User | Permissions |
 |---|---|
 | Administrator | Access all functionalities |
-| Basic | View all transactions <br> Generate payment links |
-| DisableBalance | Cannot view the account balance |
-| Refund | Create refunds <br> View all transactions <br> Generate payment links |
-| Reporting | View all transactions and the account balance <br> Create and download reports <br> Generate payment links |
-| Technical | View all transactions <br> Add and edit sites and payment pages <br> Edit email templates <br> Resend offline actions |
-| Uncleared | View all transactions <br> Accept or decline uncleared transactions |
+| Payment links manager | View all transactions <br> Generate payment links |
+| Balance hidden | Cannot view the account balance |
+| Orders manager | Create refunds <br> View all transactions <br> Generate payment links |
+| Reports manager | View all transactions and the account balance <br> Create and download reports <br> Generate payment links |
+| Sites manager | View all transactions <br> Add and edit sites and payment pages <br> Style emails <br> Resend offline actions |
+| Captures manager | View all transactions <br> Accept or decline uncleared transactions |
 
-# How to add users to your account
+# How to add and block users
+
+<details id="how-to-add-users">
+<summary>How to add users</summary>
+<br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Settings** > **User management**.
-3. Click **Add new user** in the top right corner.
+2. Go to **Settings** > **Account users**.
+3. Click **Add new user**.
 4. Enter the new user's:  
-    - Full name
     - Username
+    - Full name
     - Password
     - Email address
 5. From the **Status** list, select **Active**.
 6. Under **Rights** on the right side of the page, select the appropriate user permissions check boxes. 
 7. Click **Add user** in the top-right corner.
+   ✅   The user appears under **Account users** with status **Active**.
+
+</details>
+
+<details id="how-to-block-users">
+<summary>How to block users</summary>
+<br>
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Settings** > **Account users**, and then click the relevant user profile.
+3. On the **User profile** pages, from the **Status** list, select **Blocked**.
+4. Click **Save changes**.
+   ✅   The user's status under **Account users** changes to **Blocked**.
+
+</details>
+
 <br>
 
 ---
@@ -64,9 +84,9 @@ Only administrators can enable 2FA.
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **User management**.
+2. Go to **Settings** > **Account users**.
 3. Click the name of the user you want to enable 2FA for.
-4. On the **User details** page, from the **Two-factor** list, select **Enable**.
+4. On the **User details** page, from the **Two-factor authentication** list, select **Enabled**.
 5. Click **Save changes**.
 
 </details>

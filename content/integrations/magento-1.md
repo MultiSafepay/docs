@@ -832,7 +832,7 @@ The plugin is compatible with most Magento 1 checkouts. However, we cannot guara
 
 We test the plugin with Magento 1 core checkout and OneStepCheckout.com (`Idev`).
 
-> **Note:** Always test OneStepCheckout to make sure it is compatible with your configuration of the plugin.
+**Note:** Always test OneStepCheckout to make sure it is compatible with your configuration of the plugin.
 
 ## Currencies
 

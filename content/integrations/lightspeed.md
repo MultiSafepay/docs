@@ -31,12 +31,12 @@ slug: 'lightspeed'
 1. Sign in to your Lightspeed <<glossary:backend>>.
 2. Go to **Apps** on the left-hand side of the dashboard.
 3. Search for the **MultiSafepay payments app**.
-4. Click on the app, and then on **Install app** in the top-right corner.  
+4. Click the app, and then **Install app** in the top-right corner.  
 5. In the dialog, approve the permissions required for the app.  
    You are redirected to Lightspeed – <a href="https://lightspeed.multisafepay.com/install" target="_blank">MultiSafepay: How to log in</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 6. In the **Setup** page:
   - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
-  - Select **Test** or **Live** environment, and click **Save and continue**.  
+  - Select **Test** or **Live** environment, and then click **Save and continue**.  
 You are redirected to the **Settings** page.
 7. We recommend enabling:
   - Refunds
@@ -272,8 +272,9 @@ By default, newly activated payment methods for your MultiSafepay account are di
 
 If a payment method is missing:
 
-1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and check that the payment method is enabled.
-2. Sign in to your Lightspeed app, go to **Settings**, and then enable the payment method again. 
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Settings** > **Payment methods**, and check that the payment method is enabled.
+3. Sign in to your Lightspeed app, go to **Settings**, and then enable the payment method again. 
 
 </details>
 

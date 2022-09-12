@@ -8,15 +8,15 @@ slug: 'onboarding'
 
 Onboarding involves MultiSafepay checking and approving information submitted by merchants and partners applying for a live account to process real transactions.  
 
-# 1. Submit sign up form
+# 1. Submit signup form
 
-Complete and submit the <a href="https://merchant.multisafepay.com/signup" target="_blank">live account sign up form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+Complete and submit the <a href="https://merchant.multisafepay.com/signup" target="_blank">live account signup form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 MultiSafepay creates a live account and email you a security code to sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">live dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # 2. Provide company information
 
-Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">live dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and, under <a href="https://merchant.multisafepay.com/onboarding" target="_blank">Business details</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, provide the following information:
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">live dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and, under <a href="https://merchant.multisafepay.com/onboarding" target="_blank">Business details</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, provide the following information:
 
 | Information | Details |
 |---|---|
@@ -32,7 +32,7 @@ MultiSafepay pre-screens your account to check if the products/services you sell
 
 We may ask you to provide additional documents, e.g. if you have an unusual company structure.
 
-> **Note:** Requests to process credit cards may be denied, e.g. if you sell [prohibited products or services](/docs/prohibited-products-services/).
+**Note:** Requests to process credit cards may be denied, e.g. if you sell [prohibited products or services](/docs/prohibited-products-services/).
 
 ## Changes to company information
 

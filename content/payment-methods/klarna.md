@@ -197,7 +197,7 @@ If your link has expired or you haven't received an email, email <support@multis
 
 1. In the email, click **Activate account**.
 2. Read the Merchant Portal Agreement, agree to the terms and conditions, and then click **Continue**.
-3. Enter a password, and click **Update password**.
+3. Enter a password, and then click **Update password**.
 4. Enter your first and last names, and then click **Update profile**.
 5. To sign in for the first time, enter your email address and the password you just created, and then click **Log in**.
 
@@ -214,7 +214,7 @@ If you want to increase the security of your Klarna Merchant Portal, set up two-
 1. Under **To-dos**, click **Activate two-factor authentication**. 
 2. In the dialog, click **Start the setup**.
 3. Open the Google Authenticator app and scan the QR code. 
-4. Enter the one-time authorization code from the app, and click **Set up authentication**.
+4. Enter the one-time authorization code from the app, and then click **Set up authentication**.
 
 </details>
 
@@ -297,11 +297,10 @@ When you ship the order, you **must** manually change the [order status](/docs/p
 **In your dashboard**
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Transactions** > **Transactions overview**.
-3. Search for the transaction, and click to open the **Transaction details** page. 
-4. Under **Order details**, click **Change order status**. 
-5. Change the status to **Shipped**.
-6. Send the customer the track and trace details, if relevant.
+2. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, under **Order details**, click **Change order status**. 
+4. Change the status to **Shipped**.
+5. Send the customer the track and trace details, if relevant.
 
 **In your backend**
 
@@ -327,8 +326,8 @@ If the order is not captured during this time, the <<glossary:order status>> and
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction.
-3. In the **Transaction details** page, click **Extend**.
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, under **Order summary**, click **Extend**.
 
 </details>
 

@@ -20,8 +20,7 @@ To accept payments in a currency other than the default (EUR), the currency must
 - Supported in your <<glossary:backend>>
 - Correctly processed in the [create order](/reference/createorder/) request
 
-> ℹ Note
-> If the currency the customer wants to pay in is **not** supported by a payment method, the payment method does not appear in your checkout. 
+**Note:** If the currency the customer wants to use is **not** supported by a payment method, the payment method does not appear in your checkout. 
 
 ## Payouts
 
@@ -47,8 +46,9 @@ You must also add to your account a business bank account that supports the curr
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Finance > Balance > Add bank account**.
-3. Process a bank transfer in the new currency to confirm the business bank account.
+2. Go to **Finances** > **Bank accounts**.
+3. Click **Add new**. 
+4. Process a bank transfer in the new currency to confirm the business bank account.
 
 </details>
 
@@ -93,6 +93,14 @@ To view the currencies currently enabled for your account, go to your dashboard 
 To enable new currencies, email <support@multisafepay.com>
 
 # Integration
+
+<details id="prerequisites">
+<summary>Prerequisistes</summary>
+<br>
+
+You must have a business bank account under your account that supports the currency so that no conversion is required there.
+
+</details>
 
 Make sure you:
 

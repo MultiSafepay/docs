@@ -108,7 +108,7 @@ To cancel an order, email <annuleren@santander.com> with the following details:
 - Order ID
 - PSP ID (MultiSafepay's transaction reference number)
 
-> **Note:** You can't cancel a Betaal per Maand order via your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+**Note:** You can't cancel a Betaal per Maand order via your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## Collection period
 
@@ -141,11 +141,10 @@ You can still change an order between approval from Santander and shipment.
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Transactions** > **Transaction overview**.
-3. Search for the transaction and click to open the **Transaction details** page.
-4. Under **Order summary**, click **Change order status**.
-5. Change the status of the initial order to **Shipped**, and then add a **Memo**.
-6. Refund the required amount [in full or in part](/docs/refund-payments/). 
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, under **Order summary**, click **Change order status**.
+4. Change the status of the initial order to **Shipped**, and then add a **Memo**.
+5. Refund the required amount [in full or in part](/docs/refund-payments/). 
 
 You cannot increase the amount of the initial order by default. Email a request to <sales@multisafepay.com>
 
@@ -166,11 +165,10 @@ When you ship the order, you **must** manually change the [order status](/docs/p
 **In your dashboard**
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Transactions** > **Transactions overview**.
-3. Search for the transaction, and click to open the **Transaction details** page. 
-4. Under **Order details**, click **Change order status**. 
-5. Change the status to **Shipped**.
-6. Send the customer the track and trace details, if relevant.
+2. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, under **Order details**, click **Change order status**. 
+4. Change the status to **Shipped**.
+5. Send the customer the track and trace details, if relevant.
 
 **In your backend**
 

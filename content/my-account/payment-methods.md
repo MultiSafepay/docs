@@ -102,13 +102,14 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
 # Activate in dashboard
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Settings**. 
-3. To activate the payment method for:
-    - All sites, go to **Payment methods**.
-    - A specific site, go to **Website settings**, and click the relevant site.
-4. Select the checkbox for the payment method, and then click **Save changes**.
+2. To activate the payment method for:
+    - All sites, go to **Settings** > **Payment methods**.
+    - A specific site:
+        - Go to **Integrations** > **Sites**, and then click the relevant site.
+        - Under **Payment methods**, click **Select payment methods**.
+3. Select the checkbox for the payment method, and then click **Save changes**.
 
-> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+**Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 
 # Own flow
 
@@ -200,7 +201,7 @@ We recommend testing Klarna payments via the Klarna Portal to experience the ful
 
 For questions, see Klarna – <a href="https://www.klarna.com/nl/klantenservice" target="_blank">Klantenservice</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+**Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 </details>
 
 ## PayPal
@@ -250,14 +251,15 @@ To configure your MultiSafepay account for PayPal, follow these steps:
 1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Mouse over your account name in the top-right corner, and then select **Account settings**.
 3. On the **Business information** tab, copy your PayPal Merchant ID.
-4. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, and then go to **Settings**. 
+4. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 5. To activate PayPal for:
-    - All your sites:
-        - Go to **Payment methods**, and then select **PayPal**.
-        - In the **PayPal Merchant ID** field, paste your ID, and click **Save changes**.
+    - All your sites, go to **Settings** > **Payment methods**, and then select the **PayPal** checkbox.
     - A specific site:
-        - Go to **Website settings**, and click the relevant site.
-        - Under **Payment methods**, select the **PayPal** checkbox, and click **Save changes**.
+        - Go to **Integrations** > **Sites**, and then click the relevant site.
+        - Under **Payment methods**, click **Select payment methods**. 
+        - Select the **PayPal** checkbox, and then click **Save changes**.
+6. In the **PayPal** dialog, in the **PayPal merchant ID** field, paste your ID.
+7. Click **Save changes**.
 
 > ℹ **Notes** 
 > - You can link each site to a separate PayPal business account, or all sites can use your main PayPal business account.

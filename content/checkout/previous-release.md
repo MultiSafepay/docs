@@ -68,7 +68,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
     </details>
 
-    > **Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and transaction amount are supported. 
+    **Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and transaction amount are supported. 
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
 
@@ -122,7 +122,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
     </details>
 
-    > **Note:** The `PaymentComponent` uses the following methods:
+    **Note:** The `PaymentComponent` uses the following methods:
 
     <details id="methods">
     <summary>Methods</summary>

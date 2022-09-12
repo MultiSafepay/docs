@@ -136,9 +136,9 @@ If you're new to accepting credit card payments, email a request to activate the
 3. Select the **Payment methods** tab and then expand the method of your choice.
 4. Enable **Payment Component** and optionally **Tokenization**.
 
-> **Note:** Tokenization is available only when **Payment Component** is activated.
+**Note:** Tokenization is available only when **Payment Component** is activated.
 
-> **Support:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+**Support:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
@@ -260,7 +260,7 @@ You can update the plugin using the extension installer tool in your OpenCart ba
 4. Go to **Extensions** > **Installer**.
 5. Click the **Upload** button, and then select the downloaded file.
 6. Once installed, in the menu go to **Dashboard**.
-7. To clear both caches, click the blue cog wheel icon in the top-right corner, and then click on the **Refresh** icon. 
+7. To clear both caches, click the blue cog wheel icon in the top-right corner, and then click the **Refresh** icon. 
 8. Go to **Extensions** > **Modifications**, and then click the **Refresh** icon.
 9. Go to **Extensions** > **Payments** > **MultiSafepay**.
 10. To access the **Settings** page, click the **Edit** button.

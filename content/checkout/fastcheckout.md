@@ -112,8 +112,9 @@ You can add your brand's logo at the top of the FastCheckout page.
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Settings** > **Website settings**.
-3. From the **Payment logo (FastCheckout)** list, select the relevant logo. 
+2. Go to **Integrations** > **Sites**, and then click the relevant site.
+3. On the **Site profile** page, under **Functionality**, from the **FastCheckout logo** list, select the relevant logo. 
+4. Click **Save changes**.
 
 </details>
 

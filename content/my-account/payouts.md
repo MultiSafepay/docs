@@ -11,7 +11,7 @@ A payout is when you transfer funds from your account balance to your business b
 You can make payouts any time for 0,50 EUR each.
 
 # Business bank accounts
-As part of your onboarding, you specify a business bank account to pay out to. 
+As part of your onboarding, specify a business bank account to pay out to. 
 
 <details id="how-to-add-additional-bank-accounts">
 <summary>How to add additional bank accounts</summary>
@@ -20,8 +20,8 @@ As part of your onboarding, you specify a business bank account to pay out to.
 To add additional bank accounts to your account (once fully onboarded), follow these steps:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-2. Go to **Finance** > **Bank accounts**.
-3. Click **Add new bank account**.
+2. Go to **Finances** > **Bank accounts**.
+3. Click **Add new**.
 4. Fill in the:
     - **Account holder name**
     - **IBAN**
@@ -53,15 +53,13 @@ You can schedule automated payouts on specific day, or make them manually.
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-2. Go to **Finance** > **Payouts**.
-3. Under **Automatic withdrawals**, click **+ Add**.
-4. In the **Automatic withdrawals** window:
-    - Under **Select days**, select a specific day of the week, or the end of the month. 
+2. Go to **Finances** > **Payouts**.
+3. Under **Automate payout**, click **+ Add**:
+    - Under **Select days**, select a specific day or days of the week, and/or the end of the month. 
     - From the **Select currency** list, select the currency. 
-    - If you want to schedule withdrawals only when your balance exceeds a specified amount, in the **Withdraw when balance exceeds** fields, enter the amount. 
-    - If you want to specify a minimum amount to retain in your balance, in the **Reserve amount** fields, enter an amount.
-    - From the **Select the account number** list, select the business bank account number you want to transfer the withdrawal to.
-5. Click **Schedule payments**.
+    - If you want to schedule payouts only when your balance exceeds a specified amount, in the **Pay out when balance exceeds** fields, enter the amount. 
+    - If you want to specify a minimum amount to retain in your balance, in the **Set reserve balance** fields, enter an amount.
+4. Click **Add payout**.
 
 **Note:** To schedule payouts for different currencies, you must have a account balance and an active business bank account for each currency.
 
@@ -74,14 +72,11 @@ You can schedule automated payouts on specific day, or make them manually.
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Finance** > **Payouts**.
-3. Under **Withdraw funds**:  
+2. Go to **Finances** > **Payouts**.
+3. Under **Pay out funds**:  
     - Select the currency.
-    - Enter an amount.
-    - Click **Withdraw funds**.
-4. Check the details of the payout, and then click **Submit**.
-5. From the **Select bank account** list, select the business bank account number you want to transfer the withdrawal to. 
-6. Click **Continue**.
+    - Enter the amount.
+4. Click **Pay out**.
 
 </details>
 
@@ -144,10 +139,10 @@ You cannot make payouts if:
     To check if your account is fully activated, follow these steps:
 
     1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-    2. Go to **Finance** > **Payouts**.
-    3. If your account is not fully activated, a red bar appears at the top of the screen with a link to the page where you can upload the documents required to approve your account.
+       If your account is not fully activated, on the dashboard home page, under **Alerts**, a message appears that your account is incomplete. 
+    2. Click **Go to activation**.
 
-    The Risk Team then checks and approves your account details and the information on your site. Once approved, we will send you an email that your account is fully activated. 
+    We check and approve your account details and the information on your site. Once approved, we will send you an email that your account is fully activated. 
 
     </details>
 

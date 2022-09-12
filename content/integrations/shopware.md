@@ -47,8 +47,8 @@ composer require multisafepay/shopware6
 1. Navigate to our <a href="https://github.com/MultiSafepay/shopware6/releases" target="_blank">Shopware 6 GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Under **Assets**, download the latest release, which starts with Plugin_Shopware6_x.x.x.zip.
 3. Sign in to your Shopware 6 <<glossary:backend>>.
-4. Go to **Extensions** > **My extensions** and click **...** (more) button. 
-5. In the drop-down menu, select **Test**.
+4. Go to **Extensions** > **My extensions**, and then click **... More**. 
+5. From the list, select **Test**.
 6. In the **API key** field, enter your [API key](/docs/sites#site-id-api-key-and-security-code).
 7. Fill out the other fields as required.
 
@@ -108,11 +108,11 @@ If you're new to accepting credit card payments, email a request to activate the
 
 1. Sign in to your Shopware backend.
 2. Go to **Settings** > **Payment**.
-3. Select each payment method and click the **Component** toggle.
+3. Select each payment method, and then enable the **Component** toggle.
 
 For questions, email <integration@multisafepay.com>
 
-> **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
@@ -158,7 +158,7 @@ For questions, email <integration@multisafepay.com>
 [Activate recurring payments](/docs/recurring-payments) and then:
 1. Sign in to your Shopware backend.
 2. Go to **Settings** > **Payment**.
-3. Select each payment method and click the **Tokenization** toggle.
+3. Select each payment method, and then enable the **Tokenization** toggle.
 
 </details>
 
@@ -221,9 +221,9 @@ You can update the plugin in your backend and the CMS marketplace, or via using 
 
 1. Sign in to your Shopware 5 backend.
 2. Go to **Configuration** > **Plugin manager**.
-3. Search for the MultiSafepay plugin and click **Download now**.
+3. Search for the MultiSafepay plugin, and then click **Download now**.
 4. Go to **Configuration** > **Plugin manager** > **Installed**.
-5. Search for the installed MultiSafepay plugin and click on the pencil icon.
+5. Search for the installed MultiSafepay plugin, and then click the **Edit** pencil icon.
 6. In the **API key** field, enter your [API key](/docs/sites#site-id-api-key-and-security-code).
 7. Fill out the other fields as required.
 8. Go to **Configuration** and select the required payment methods.

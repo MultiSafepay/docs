@@ -58,16 +58,16 @@ First apply to MultiSafepay, and then activate in your dashboard.
 <br>
 
 1. Email a request to <risk@multisafepay.com> 
-2. We check your eligibility and if approved, activate the payment method for your account. 
-3. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-4. Go to **Settings**. 
-5. To activate the payment method for:
-    - All sites, go to **Payment methods**.
-    - A specific site, go to **Website settings**, and click the relevant site.
-6. Select the checkbox for the payment method, and then click **Save changes**.
+   We check your eligibilty and if approved, activate the payment method for your account. 
+2. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+3. To activate the payment method for:
+    - All sites, go to **Settings** > **Payment methods**.
+    - A specific site:
+      - Go to **Integrations** > **Sites**, and then click the relevant site.
+      - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
+4. Select the checkbox for the payment method, and then click **Save changes**.
 
-> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
-
+**Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 
 </details>
 
@@ -115,13 +115,12 @@ If a customer pays into your business bank account directly instead of paying Mu
 To close a transaction manually, follow these steps:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Transactions** > **Transaction overview**.
-3. Search for the transaction and click to open the **Transaction details** page.
-4. Click **Complete own funds**. 
-5. Enter a comment about what happened with the order, and click **Complete**.  
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, click **Complete own funds**. 
+4. Enter a comment about what happened with the order, and then click **Complete**.  
     The total amount of the transaction is deducted from your account balance. 
 
-> **Note:** Once the <<glossary:transaction status>> changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/docs/refund-payments/) instead. 
+**Note:** Once the <<glossary:transaction status>> changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/docs/refund-payments/) instead. 
 
 </details>
 
@@ -184,10 +183,9 @@ When you ship the order, you **must** manually change the [order status](/docs/p
 **In your dashboard**
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Transactions** > **Transactions overview**.
-3. Search for the transaction, and click to open the **Transaction details** page. 
-4. Under **Order details**, click **Change order status**. 
-5. Change the status to **Shipped**.
+2. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, under **Order details**, click **Change order status**.
+5. Select **Shipped**.
 6. Send the customer the track and trace details, if relevant.
 
 **In your backend**

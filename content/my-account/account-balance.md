@@ -13,15 +13,17 @@ excerpt: 'The funds held in your MultiSafepay account.'
 To add funds to your balance, follow these steps:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Finance** > **Fund account**.
-3. Select the:
-    - Currency and amount you want to add to your balance
+2. Go to **Finances** > **Top up balance**.
+3. Under **Step 1**:
+    - Select the **Currency**.
+    - Enter the **Amount**.
     - Payment method you want to use for the transaction
-4. Click **Send**.
+4. Under **Step 2**, select the payment method (iDEAL or bank transfer).
+5. Click **Add funds**.
 
 # Daily balance
 
-To view your daily balance in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, go to **Finance** > **Daily balance**.
+To view your daily balance in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, go to **Reports** > **Daily balance**.
 
 There you can see your:
 
@@ -34,7 +36,7 @@ There you can see your:
 
 # Uncaptured balance
 
-You can set your daily balance report to include the balance of uncleared transactions. This is particularly useful if you offer <<glossary:BNPL>> and/or credit card payment methods. 
+You can set your daily balance report to include the balance of uncaptured transactions (status: **Uncleared**). This is particularly useful if you offer <<glossary:BNPL>> and/or credit card payment methods. 
 
 To activate this feature in your daily balance report, email a request to <sales@multisafepay.com>
 <br>

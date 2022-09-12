@@ -147,9 +147,13 @@ To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – <a 
     <br>
 
     1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-    2. Go to **Reports** > **Accountant Export:**  
-        - In **Data Selection**, select a date range.
-        - In the **Report Type** field, select **MT940**.
+    2. Go to **Reports** > **Accountant export**:  
+        - From the **Date selection** list, select a date range.
+        - From the **Currency** list, select the currency. 
+        - From the **Report type** list, select **MT940**.
+        - For the **Group costs in 1 record** toggle, set to:   
+          - **Yes:** Show only the total of all MultiSafepay transaction fees for the selected timeframe.
+          - **No:** List each MultiSafepay fee below the matching transaction.
     3. Click **Advanced options:**
         - In the **Bank Account / IBAN** field, enter the dummy IBAN.
         - In the **BIC** field, enter the dummy BIC code.
@@ -427,7 +431,7 @@ Provide Duopact with your MultiSafepay [site API key](/docs/sites#site-id-api-ke
 3. Go to **Bankmutaties** > **MultiSafepay**.
 4. Click the green button under the **Status** tab.
 
-> **Note:** Manually importing transactions doesn't affect automatic imports.
+**Note:** Manually importing transactions doesn't affect automatic imports.
 
 </details>
 

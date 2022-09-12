@@ -200,7 +200,7 @@ If you're new to accepting credit card payments, email a request to activate the
 
 For questions, email <integration@multisafepay.com>
 
-> **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 

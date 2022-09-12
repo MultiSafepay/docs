@@ -274,7 +274,7 @@ The plugin supports [Payment Components](/docs/payment-components/), which:
 3. Click **Payment type** and select **Credit card component**.
 4. Click **Save config**.
 
-> **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
@@ -342,7 +342,7 @@ You cannot add payment links to order confirmation emails created in your **fron
 2. Replace the **New order confirmation template** with your template.
 3. Test the template to confirm it is working.
 
-> **Note:** You can also implement this directly in the email template files.
+**Note:** You can also implement this directly in the email template files.
 
 </details>
 
@@ -396,7 +396,7 @@ We also offer full extensions for [ScandiPWA](/docs/scandipwa/) and [Vue Storefr
 
 | Platform | Supported refunds  |
 |---|---|
-| MultiSafepay dashboard | Full and partial refunds <br> Orders with [Fooman surcharges](/docs/magento-2#surcharges) <br> Orders from the deprecated plugin <br> **Note:** Credit memos are **not** generated |
+| MultiSafepay dashboard | Full and partial refunds <br> Orders with [Fooman surcharges](/docs/magento-2#surcharges) <br> Orders from the deprecated plugin <br**Note:** Credit memos are **not** generated |
 | Backend | Full and partial refunds, and credit memos <br> You can't refund more than the original amount in your backend |
 | API | See [Refund order](/reference/refundorder/) > BNPL refund <br> PATCH requests **not** supported |
 
@@ -424,7 +424,7 @@ To avoid this, match the order lifetime to the [payment link](/docs/payment-link
 
 See [Order lifetimes](#order-lifetimes) above. 
 
-> **Note:** We recommend setting order lifetimes to 2 days (2880 minutes) to allow enough time for the customer to pay, but avoid issues with external services.
+**Note:** We recommend setting order lifetimes to 2 days (2880 minutes) to allow enough time for the customer to pay, but avoid issues with external services.
 
 <details id="how-to-set-payment-link-lifetimes">
 <summary>How to set payment link lifetimes</summary>

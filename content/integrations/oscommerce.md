@@ -95,7 +95,7 @@ Release date: Mar 28, 2014
 - OsCommerce 2.3
 - Tested on PHP 7.0
 
-> **Note:** Version 3.0.0 is tested on PHP 5.6. Previous versions are no longer tested for compatibility. For more information, email <sales@multisafepay.com>
+**Note:** Version 3.0.0 is tested on PHP 5.6. Previous versions are no longer tested for compatibility. For more information, email <sales@multisafepay.com>
 
 # How to install and configure
 
