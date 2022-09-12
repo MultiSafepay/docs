@@ -52,19 +52,18 @@ The transaction appears in your **Transaction overview**.
 
 See API reference – [Create order](/reference/createorder/) > Card order.
 
-In the `gateway_info` object, include the `moto` parameter.
+  <details id="example-requests"> 
+  <summary>Example requests</summary>
+  <br>
 
-<details id="supported-payment-methods">
-<summary>Supported payment methods</summary>
-<br>
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** and select the **Credit card direct** example.
 
-- American Express
-- Generic credit card gateway
-- Maestro, **except for** non-domestic transactions in France, Ireland, and Turkey
-- Mastercard
-- Visa
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 
-</details>
+  </details>
+
+See Recipes – [Create a MOTO order](/recipes/create-a-moto-order).
+
 <br>
 
 ---
