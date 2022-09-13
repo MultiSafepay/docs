@@ -492,6 +492,27 @@ In PrestaShop 1.6, the order ID is generated after the payment, which causes a m
 
 </details>
 
+## Payment components
+
+The plugin supports [payment components](/docs/payment-components/), which:
+
+- Provide a seamless checkout experience to increase <<glossary:conversion>>.
+- Encrypt customer payment details for secure processing.
+- Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
+
+<details id="how-to-activate-payment-components">
+<summary>How to activate payment components</summary>
+<br>
+
+If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
+
+1. Sign in to your PrestaShop 1.6 backend.
+2. Go to **Modules and services** > **MultiSafepay**.
+3. Slide the **Payment component** radio button to **Yes**.
+4. Click **Save**.
+
+</details>
+
 ## Payment links
 
 Payment links generated manually in your MultiSafepay dashboard don't automatically create or update orders in your PrestaShop 1.6 backend.
