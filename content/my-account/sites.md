@@ -80,9 +80,9 @@ To delete a site from your account, follow these steps:
 
 ## Logos and icons
 
-For MultiSafepay logos, see our Github repository – <a href="https://github.com/MultiSafepay/MultiSafepay-logos" target="_blank">MultiSafepay logos</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+For MultiSafepay logos, see our GitHub repository – <a href="https://github.com/MultiSafepay/MultiSafepay-logos" target="_blank">MultiSafepay logos</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-For the logos and icons of all MultiSafepay payment methods, see our Github repository – <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">MultiSafepay icons</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+For the logos and icons of all MultiSafepay payment methods, see our GitHub repository – <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">MultiSafepay icons</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 <details id="how-to-generate-logo-png">
 <summary>How to generate a PNG of logos</summary>

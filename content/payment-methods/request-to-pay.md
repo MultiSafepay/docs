@@ -45,7 +45,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to Deutsche Bank. | Initialized | Initialized |
-| Deutsche Bank has authorized the transaction and is transfering the funds. | Completed  | Uncleared |
+| Deutsche Bank has authorized the transaction and is transferring the funds. | Completed  | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | Deutsche Bank declined the transaction. | Declined | Declined   |
 | The customer cancelled the transaction at Deutsche Bank. | Void | Void |

@@ -36,11 +36,11 @@ See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-m
 
 # Installation
 
-1. Install the MultiSafepay plugin for supporting GraphQL queries, which includes the MultiSafepay Core, Frontend and Adminhtml plugins. For instructions, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">Magento 2 GraphQL</a>.    
+1. Install the MultiSafepay plugin for supporting `GraphQL` queries, which includes the `MultiSafepay Core`, `Frontend` and `Adminhtml` plugins. For instructions, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">Magento 2 GraphQL</a>.    
 2. Configure the payment methods and your API keys in the Magento admin panel.
-3. To configure the URLs for your success and cancellation pages, go to **Stores** > **Configuration** > **MultiSafepay** > **General settings** > **Advanced settings** > **Use custom return urls for PWA storefront integration**.
-    - For **Custom redirect URL after canceling the payment**, we recommend using: *<your_pwa_url>/cart?maskedId={{quote.masked_id}}&multisafepayRestore=true*
-    - For the **Custom success page URL**, we recommend using: *<your_pwa_url>/multisafepay/checkout/success/{{order.increment_id}}/maskedId/{{quote.masked_id}}*
+3. To configure the URLs for your success and cancellation pages, go to **Stores** > **Configuration** > **MultiSafepay** > **General settings** > **Advanced settings** > **Use custom return URLs for PWA storefront integration**.
+    - For **Custom redirect URL after canceling the payment**, we recommend using: `<your_pwa_url>/cart?maskedId={{quote.masked_id}}&multisafepayRestore=true`
+    - For the **Custom success page URL**, we recommend using: `<your_pwa_url>/multisafepay/checkout/success/{{order.increment_id}}/maskedId/{{quote.masked_id}}`
 4. Install Venia storefront. For instructions, see Magento GitHub – <a href="https://magento.github.io/pwa-studio/venia-pwa-concept/setup/" target="_blank">Venia PWA concept</a>.
     - Go to the extension folder:
    ```bash 

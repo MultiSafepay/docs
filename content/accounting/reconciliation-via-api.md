@@ -18,7 +18,7 @@ Use the optional parameters to filter transactions.
 **Sample request:**
 ```
 curl -X GET "https://testapi.multisafepay.com/v1/json/transactions" --header "accept: application/json" --header "api_key: <your-account-api-key>"
-```  
+```
 
 ## Accounting reconciliation
 

@@ -145,7 +145,7 @@ Release date: Mar 28, 2014
     - <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Wijncadeau
     - <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.yourgift.nl/" target="_blank">Yourgift</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.yourgift.nl/" target="_blank">YourGift</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 </details>
 

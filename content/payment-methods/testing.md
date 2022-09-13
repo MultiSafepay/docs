@@ -41,7 +41,7 @@ For all payment methods **except** AfterPay, you need your site's test [API key]
 4. To check the transaction details, sign in to your <a href="https://testmerchant.multisafepay.com/" target="_blank">test dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 5. Go to **Transactions** > **Transactions overview**.
 6. In the **Transactions overview** list, select the transaction to view the **Transaction details** page. 
-7. To check that you have succesfully connected to our system, under **Offline actions**, check that you've correctly received the **notifyMerchantTrans** action.  
+7. To check that you have successfully connected to our system, under **Offline actions**, check that you've correctly received the **notifyMerchantTrans** action.  
     For information about errors, see [HTTP errors](/docs/http-errors/).
 
 > ✅ Success!
@@ -549,7 +549,7 @@ Any other card number receives an "Invalid card number" error.
 
 For compatible devices, see Apple – <a href="https://support.apple.com/en-us/HT208531" target="_blank">Devices compatible with Apple Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-If you don't own an Apple device, we recommend using the <a href="https://appetize.io" target="_blank">Appetize.io</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> emulator. When you try to complete a test payment on the payment page, you get a _This device is not supported_ error. But the emulator creates an order with the Apple Pay <<glossary:gateway>> preselected to check if there is an existing connection to our server. However, you can't fully complete the test transaction.
+If you don't own an Apple device, we recommend using the <a href="https://appetize.io" target="_blank">Appetize.io</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> emulator. When you try to complete a test payment on the payment page, you get a _This device is not supported_ error. But the emulator creates an order with the Apple Pay <<glossary:gateway>> pre-selected to check if there is an existing connection to our server. However, you can't fully complete the test transaction.
 
 **Prerequisites**
 

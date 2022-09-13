@@ -62,7 +62,7 @@ To request registration for Apple Pay direct, email the relevant site ID to <sal
 
 When the customer clicks or taps the ** Pay** button:
 
-1. Create a paymentRequest object containing details about the order.
+1. Create a `paymentRequest` object containing details about the order.
     ```javascript
     var ApplePayRequest = {
         "countryCode": "NL",

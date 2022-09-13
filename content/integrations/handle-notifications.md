@@ -153,7 +153,7 @@ Acknowledge that you have successfully received a valid notification by returnin
 - HTTP status code `200` with `OK` at the start or end of the message body, **or**
 - HTTP status code `200` with `MULTISAFEPAY_OK` anywhere in the message body.
 
-Until we receive your acknowledgement, we resend the notification 4 times at 15 minute intervals, each with a new timestamp.
+Until we receive your acknowledgment, we resend the notification 4 times at 15 minute intervals, each with a new timestamp.
 
 # 4. Troubleshooting notifications
 

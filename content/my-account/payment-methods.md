@@ -96,7 +96,7 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
     We send you an agreement to sign and email back to us.
     
     </details>
-2. We check your eligibilty and if approved, activate the payment method for your account. 
+2. We check your eligibility and if approved, activate the payment method for your account. 
 3. Once approved, activate the method in your dashboard as below.
 
 # Activate in dashboard
@@ -210,7 +210,7 @@ For questions, see Klarna – <a href="https://www.klarna.com/nl/klantenservice"
 
 To configure your PayPal account, follow these steps:
 
-1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">Paypal.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Mouse over your account name in the top-right corner, and then select **Account settings**.
 3. On the **Account access** tab, under **API access**, click **Update**.
 4. Under **Pre-built payment solution**, click **Grant API permission**.
@@ -247,7 +247,7 @@ For support:
 
 To configure your MultiSafepay account for PayPal, follow these steps:
 
-1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">Paypal.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Mouse over your account name in the top-right corner, and then select **Account settings**.
 3. On the **Business information** tab, copy your PayPal Merchant ID.
 4. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, and then go to **Settings**. 

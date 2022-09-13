@@ -43,7 +43,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized |
-| The customer's bank has authorized the transaction and is transfering the funds. This may take up to 3 business days for all amounts. <br> Do **not** ship yet! MultiSafepay assumes no responsibility if you ship and the transaction fails. | Uncleared | Uncleared |
+| The customer's bank has authorized the transaction and is transferring the funds. This may take up to 3 business days for all amounts. <br> Do **not** ship yet! MultiSafepay assumes no responsibility if you ship and the transaction fails. | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer cancelled the transaction via Sofort. | Void   | Void/Cancelled   |
 | The customer didn't complete payment within 1 day. | Expired | Expired |
@@ -53,7 +53,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 ### Amount limits and processing times
 
-Amounts **less than** 100 EUR are transfered immediately. 
+Amounts **less than** 100 EUR are transferred immediately. 
 Amounts **over** 100 EUR require approval from Sofort and can take a few days to change to **Completed**. 
 
 To speed up Sofort payments, you can increase your limit above 100 EUR. First consider how much risk is acceptable to your business in case Sofort declines a payment. 

@@ -7,7 +7,7 @@ parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'email-styling'
 excerpt: "Customize emails to customers to match your brand's look and feel."
 ---
-MultiSafepay can help you manage your email communications with customers. Use our preformatted and/or prewritten templates and populate them with your content.
+MultiSafepay can help you manage your email communications with customers. Use our pre-formatted and/or pre-written templates and populate them with your content.
 
 # How to customize emails
 
@@ -115,20 +115,20 @@ MultiSafepay can help you manage your email communications with customers. Use o
 
     | Code | Language & country |
     |---|---|
-    | cs_CZ | Czech |
-    | de_AT | German (Austria) |
-    | de_DE | German (Germany) |
-    | en_US | American English |
-    | fi_FI | Finnish |
-    | fr_BE | French (Belgium) |
-    | fr_FR | French (France) |
-    | it_IT | Italian |
-    | nl_BE | Dutch (Belgium) |
-    | nl_NL | Dutch (Netherlands) |
-    | pl_PL | Polish |
-    | es_ES | Spanish |
-    | sv_SE | Swedish |
-    | zh_CN | Chinese |
+    | `cs_CZ` | Czech |
+    | `de_AT` | German (Austria) |
+    | `de_DE` | German (Germany) |
+    | `en_US` | American English |
+    | `fi_FI` | Finnish |
+    | `fr_BE` | French (Belgium) |
+    | `fr_FR` | French (France) |
+    | `it_IT` | Italian |
+    | `nl_BE` | Dutch (Belgium) |
+    | `nl_NL` | Dutch (Netherlands) |
+    | `pl_PL` | Polish |
+    | `es_ES` | Spanish |
+    | `sv_SE` | Swedish |
+    | `zh_CN` | Chinese |
 
     </details>
 
@@ -142,7 +142,9 @@ MultiSafepay can help you manage your email communications with customers. Use o
     
     ❗️ If you enter a different from address than noreply@multisafepay.com to avoid emails being marked as spam, we recommend adding the following DNS record to your domain: 
 
-    **v=spf1 ip4:213.189.0.0/23 ip4:185.99.128.0/22 mx**
+    ```
+    v=spf1 ip4:213.189.0.0/23 ip4:185.99.128.0/22 mx
+    ```
 
     </details>
         

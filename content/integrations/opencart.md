@@ -20,7 +20,7 @@ slug: 'opencart'
 </div>
 
 > ℹ More information
-> For more information about the plugin and a preview, see Opencart – <a href="https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960" target="_blank">MultiSafepay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+> For more information about the plugin and a preview, see OpenCart – <a href="https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960" target="_blank">MultiSafepay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # Prerequisites
 
@@ -32,7 +32,7 @@ slug: 'opencart'
 
 > **Tip!** We recommend first installing the plugin in a test environment, following the OpenCart installation procedure. Always make a backup.
 
-1. Download the Plugin_OpenCart_3.x.x.ocmod.zip.
+1. Download the `Plugin_OpenCart_3.x.x.ocmod.zip`.
 2. Sign in to your OpenCart <<glossary:backend>>.
 3. Go to **Extensions** > **Installer**.
 4. Click the **Upload** button, and then select the downloaded file.

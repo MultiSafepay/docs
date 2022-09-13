@@ -17,7 +17,7 @@ Help us by answering the following questions:
 
 - Does the issue occur in the plugin core?
 - Does it occur in the payment method core?
-- When did the issue start occuring?
+- When did the issue start occurring?
 - Has there been a recent plugin or system update?
 - Can you reproduce the issue?
 - Do you have any examples?

@@ -19,7 +19,7 @@ Read how Paysafecard can benefit your business on <a href="https://www.multisafe
 
 | Supports | Details |
 |---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | Worldwide – Go to <a href="https://www.paysafecard.com/en-gb/" target="_blank">paysafecard.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, and click the globe icon in the banner.  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Worldwide – Go to <a href="https://www.paysafecard.com/en-gb/" target="_blank">Paysafecard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, and click the globe icon in the banner.  | 
 | [Currencies](/docs/currencies/)  | EUR, GBP, USD  | 
 | [Chargebacks](/docs/chargebacks/)  | No | 
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |

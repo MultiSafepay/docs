@@ -17,7 +17,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 > **Tip!** We recommend first installing the plugin in a test environment, following the Mijnwebwinkel installation procedure. Always make a backup.
 
-1. Sign in to your Mijwebwinkel <<glossary:backend>>.
+1. Sign in to your Mijnwebwinkel <<glossary:backend>>.
 2. Go to **Online orders** > **Payment method** > **MultiSafepay**.
 2. Add your MultiSafepay account ID, [site ID, site security code, and API key](/docs/sites#site-id-api-key-and-security-code).
 6. Select the relevant payment methods.

@@ -26,7 +26,7 @@ Read how TrustPay can benefit your business on <a href="https://www.multisafepay
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/trustpay-payment-flow.svg" alt="Trustpay payment flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/trustpay-payment-flow.svg" alt="TrustPay payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;
@@ -73,7 +73,7 @@ You can activate TrustPay yourself in your dashboard.
   <summary>Example requests</summary>
   <br>
 
-  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Trustpay redirect**.
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **TrustPay redirect**.
 
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 

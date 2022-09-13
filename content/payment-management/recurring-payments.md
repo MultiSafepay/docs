@@ -54,7 +54,7 @@ See [Zero Authorization](/docs/zero-authorization/).
 ## Subsequent payments: Customer-initiated 
 
 1. You display the customer's available tokens at checkout, e.g. `MASTERCARD **43`. 
-2. The customer selects a token and confirms payment. They don't need to reprovide any payment details or pass 3D Secure authentication again. 
+2. The customer selects a token and confirms payment. They don't need to re-provide any payment details or pass 3D Secure authentication again. 
 3. You include the token in the request to MultiSafepay. 
 4. MultiSafepay decrypts the payment details and processes the payment. 
 
