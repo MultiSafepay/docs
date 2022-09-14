@@ -17,8 +17,8 @@ Read how Sofort can benefit your business on <a href="https://www.multisafepay.c
 | Supports | Details |  
 |---|---|
 | **Amount limit** | Minimum amount: 0,10 EUR <br> See also [Amount limits and processing times](#amount-limits-and-processing-times) below. |
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria, Belgium, Germany, Italy, Spain, Switzerland, Poland <br> ❗ Transactions processed in non-supported countries return a [1024 error](/docs/troubleshooting#error-1024-transaction-refused). |
-| [Currencies](/docs/currencies/)  | CHF, EUR, GBP, HUF, PLN | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria, Belgium, France, Germany, Italy, Poland, Spain, Switzerland, UK <br> ❗ Transactions processed in non-supported countries return a [1024 error](/docs/troubleshooting#error-1024-transaction-refused). |
+| [Currencies](/docs/currencies/)  | EUR | 
 | [Chargebacks](/docs/chargebacks/)  | No |
 | [Payment components](/docs/payment-components/) | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |
