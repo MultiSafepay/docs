@@ -6,30 +6,30 @@ jobs:
     name: Spellcheck
     runs-on: ubuntu-latest
     steps:
-    # The checkout step
-    - uses: actions/checkout@v3
-      with:
-        repository: ${{ github.event.pull_request.head.repo.full_name }}
-        ref: ${{ github.event.pull_request.head.ref }}
-      
-    - name: Get specific changed files
-      id: changed-files-specific
-      uses: tj-actions/changed-files@v25
-      with:
-        files: |
-          content/**/*.md
-          api/**/*.md
-        sha: ${{ github.event.pull_request.head.sha }}
-        base_sha: ${{ github.event.pull_request.base.sha }}
+      # The checkout step
+      - uses: actions/checkout@v3
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.ref }}
+        
+      - name: Get specific changed files
+        id: changed-files-specific
+        uses: tj-actions/changed-files@v25
+        with:
+          files: |
+            content/**/*.md
+            api/**/*.md
+          sha: ${{ github.event.pull_request.head.sha }}
+          base_sha: ${{ github.event.pull_request.base.sha }}
 
-    - name: List all changed files
-      if: steps.changed-files-specific.outputs.any_changed == 'true'
-      run: |
-        echo "Changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
+      - name: List all changed files
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        run: |
+          echo "Changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
 
-    - name: Run spellchecker on changed files
-      if: steps.changed-files-specific.outputs.any_changed == 'true'
-    - uses: rojopolis/spellcheck-github-actions@0.27.0
-      with:
-        source_files: ${{ steps.changed-files.outputs.all_changed_files }}
-        task_name: markdown
+      - name: Run spellchecker on changed files
+        if: steps.changed-files-specific.outputs.any_changed == 'true'
+        uses: rojopolis/spellcheck-github-actions@0.27.0
+        with:
+          source_files: ${{ steps.changed-files.outputs.all_changed_files }}
+          task_name: markdown
