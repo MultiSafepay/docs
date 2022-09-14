@@ -24,7 +24,7 @@ matrix:
             # Ignore text between inline back ticks
           - open: '(?P<open>`+)'
             close: '(?P=open)'
-            # Insides of URL links
+            # Inside URL links
           - open: '\]\('
             close: '\)'
             # Inside HTML tags

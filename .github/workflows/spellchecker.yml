@@ -1,5 +1,9 @@
-name: Spellcheck Action
-on: [workflow_dispatch]
+name: Check spelling weekly
+on:
+  schedule:
+  - cron: "0 3 * * 3"
+
+  workflow_dispatch:
 
 jobs:
   build:
