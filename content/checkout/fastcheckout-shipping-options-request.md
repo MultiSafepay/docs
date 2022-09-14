@@ -7,7 +7,14 @@ slug: 'fastcheckout-shipping-options'
 parentDoc: 62fcc05ac034cb06771c46fc
 ---
 
-If it is not possible for you to send your available shipping options for the FastCheckout page in your [create order](/reference/createorder) request, you can trigger a `GET` or `POST` request from MultiSafepay to your [webhook endpoint](/docs/configure-your-webhook) to retrieve the options.
+If it is not possible for you to send your available shipping options for the shipping element on the [FastCheckout page](/docs/fastcheckout/) in your [create order](/reference/createorder) request, you can trigger a `GET` or `POST` request from MultiSafepay to your [webhook endpoint](/docs/configure-your-webhook) to retrieve the options.
+
+# How it works
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/fastcheckout-shipping-options.svg" alt="FastCheckout shipping options" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;">
 
 # Integration
 
@@ -17,7 +24,7 @@ See Recipe – [Create a FastCheckout page](/recipes/create-a-fastcheckout-page)
 
 # Request
 
-The HTTP method of the shipping options request depends on whether you set `payment_options.notification_method` to `POST` (recommended) or `GET` when you create an order. 
+The HTTP method of the shipping options request depends on whether you set `payment_options.notification_method` to `POST` (recommended) or `GET` when you created the order. 
 
 See Recipe – [Create a FastCheckout page](/recipes/create-a-fastcheckout-page) > Step 1. Create an order. 
 

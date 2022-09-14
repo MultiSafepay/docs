@@ -1,0 +1,17 @@
+sequenceDiagram
+    autonumber
+    participant Me as Merchant
+    participant Mu as MultiSafepay
+    participant C as Customer
+
+    Me->>Mu: Creates FastCheckout order, <br> triggering shipping options request
+    alt POST request (recommended)
+    Mu->>Me: Requests shipping options
+    else GET request
+    Mu->>Me: Requests shipping options
+    end
+    Me->>Mu: Returns shipping options
+    Mu->>C: Displays options on FastCheckout page
+    C->>Mu: Selects an option and confirms order
+    Mu->>Me: Sends webhook notification <br> containing shipping options and order details
+    Mu->>C: Redirects to your success page
