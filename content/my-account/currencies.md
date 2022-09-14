@@ -95,7 +95,7 @@ To enable new currencies, email <support@multisafepay.com>
 # Integration
 
 <details id="prerequisites">
-<summary>Prerequisistes</summary>
+<summary>Prerequisites</summary>
 <br>
 
 You must have a business bank account under your account that supports the currency so that no conversion is required there.
