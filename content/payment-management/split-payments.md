@@ -39,13 +39,11 @@ You can process full and partial refunds, but only from the account that created
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Transactions** > **Transaction overview**.
-3. Search for the transaction and open the **Transaction details** page.
-4. Click **Refund**.
-5. Enter the amount you want to refund to the customer.
-6. Click **Confirm refund**.  
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, click **Refund**.
+4. Enter the amount you want to refund to the customer, and then click **Confirm refund**.  
     The <<glossary:transaction status>> changes to **Initialized**.
-7. [Cancel the refund](/docs/refund-payments/).  
+5. [Cancel the refund](/docs/refund-payments/).  
 
 
 When the transaction status changes to **Completed**, the refund has been processed correctly. The customer receives the refund in the bank account the transaction was originally paid from the next business day.

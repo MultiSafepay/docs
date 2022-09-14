@@ -12,9 +12,8 @@ MultiSafepay can help you manage your email communications with customers. Use o
 # How to customize emails
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-2. Go to **Settings** > **Email templates**.  
-3. Click the relevant site.  
-4. Click **Add new template**.   
+2. Go to **Settings** > **Email styling**, and then click the relevant site.  
+3. On the **Email templates** page, click **Add new**.   
 5. From the **Type** list, select the template type.  
 
     <details id="template-types">
@@ -188,8 +187,8 @@ MultiSafepay can help you manage your email communications with customers. Use o
     
     The table below describes all available tokens.
 
-    | Tags                          |     Result    |      
-    | ----------------------------- | ------------- | 
+    | Tags | Result |      
+    |---|---| 
     | ACCOUNT                       | Account_id of FastCheckout customer |   
     | ACCOUNTADDRESS                | Customer address and street name   |  
     | ACCOUNTADDRESSAPARTMENT       | Customer house number |
@@ -263,14 +262,17 @@ MultiSafepay can help you manage your email communications with customers. Use o
     To add your logo to emails to increase customers' recognition and trust, follow these steps:
 
     1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-    2. Go to **Settings** > **Website settings** > **Upload a new file**.  
-    3. In the **Files** directory, under **Actions**, click **Copy to clipboard** to copy the file's URL (starting with https://media.multisafepay.com/merchants/).
-    4. Go to **Settings** > **Email templates**, and then click the relevant site.
-    5. Click the orange pen icon to edit the template.
-    6. Click the **Image** icon in the first row of the editor.
-    7. In the **Image properties** window, in the **URL field**, paste the URL.
-    8. Edit other parameters as required: height, border, horizontal space, vertical space, and alignment.
-    9. Click **OK**. 
+    2. Go to **Settings** > **Files**.
+    3. Under **Upload a new file**, select the relevant file, and then click **Choose file**. 
+    4. Under **Upload queue**, click **Upload** or **Upload all**.
+       The file appears under **File directory**.
+    5. Go to **Settings** > **Email styling**, and then click the relevant site.
+    6. At the end of the row of the relevant email, click the orange pen icon to edit the template.
+    7. Click the **Image** icon in the first row of the editor.
+    8. In the **Image properties** dialog, under **URL**, click **Browse server**.
+    9. On the row of the relevant file, click the green **Use image** icon.
+    10. In the **Image properties** dialog, edit the image's parameters as required: height, border, horizontal space, vertical space, and alignment.
+    11. Click **OK**, and then click **Save**.
     <br>
 
     </details>
@@ -288,7 +290,7 @@ MultiSafepay can help you manage your email communications with customers. Use o
 
     </details>
 
-9. Click **Save**.
+9.  Click **Save**.
 <br>
 
 ---

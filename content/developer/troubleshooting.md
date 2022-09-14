@@ -43,14 +43,18 @@ Your account ID appears in the top-right corner of your dashboard.
 
 The [create order](/reference/createorder/) request contains an invalid site ID, or the site ID doesn’t match the account ID. 
 
-To retrieve a site ID from your dashboard, go to **Settings** > **Website settings**, and then click the relevant site.
+To retrieve a site ID from your dashboard:
+1. Go to **Integrations** > **Sites**, and then click the relevant site.
+2. On the **Site profile** page, the site ID is listed under **Details**. 
 
 ---
 ### 1005: Invalid security code
 
 The [create order](/reference/createorder/) request contains an invalid security code, or the security code doesn't match the account ID or site ID. 
 
-To retrieve a security code from your dashboard, go to **Settings** > **Website settings**, and then click the relevant site.
+To retrieve a security code from your dashboard:
+1. Go to **Integrations** > **Sites**, and then click the relevant site.
+2. On the **Site profile** page, the security code is listed under **Details**. 
 
 ---
 ### 1006: Invalid transaction ID
@@ -152,12 +156,12 @@ The country code in the [create order](/reference/createorder/) request was not 
 ---
 ### 1019: Site is inactive
 
-The site is disabled in your account.
+The site is blocked in your account.
 
 To reactivate the site in your MultiSafepay dashboard:
 
-1. Go to **Settings** > **Website settings**, and select the relevant site.
-2. From the **Status** list, select **Active**.
+1. Go to **Integrations** > **Sites**, and then click the relevant site.
+2. On the **Site profile** page, under **Details**, from the **Status** list, select **Active**.
 3. Click **Save**.
 
 ---

@@ -33,7 +33,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
   max-width: 750px;
   width: 100%;">
 
-> **Note:** MultiSafepay doesn’t automatically receive the customer's IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed.
+**Note:** MultiSafepay doesn’t automatically receive the customer's IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed.
 
 # Payment statuses  
 
@@ -49,7 +49,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | **Refunds:** Refund complete. | Completed | Completed |
 <br>
 
-> **Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**. We import our bank statements daily and match all incoming payments.  
+**Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**. We import our bank statements daily and match all incoming payments.  
 
 # Activation 
 
@@ -60,13 +60,14 @@ You can activate CBC/KBC in your dashboard.
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Settings**. 
-3. To activate the payment method for:
-    - All sites, go to **Payment methods**.
-    - A specific site, go to **Website settings**, and click the relevant site.
-4. Select the checkbox for the payment method, and then click **Save changes**.
+2. To activate the payment method for:
+    - All sites, go to **Settings** > **Payment methods**.
+    - A specific site:
+      - Go to **Integrations** > **Sites**, and then click the relevant site.
+      - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
+3. Select the checkbox for the payment method, and then click **Save changes**.
 
-> **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+**Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 
 
 </details>

@@ -33,9 +33,9 @@ You can activate Second Chance yourself in your dashboard.
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Settings** > **Website settings**.
-3. Select the relevant site.
-4. Under **Website functionality**, select the **Enable Second Chance** checkbox.
+2. Go to **Integrations** > **Sites**, and then click the relevant site.
+3. On the **Site profile** page, under **Site functionality**, select the **Enable Second Chance** checkbox.
+4. Click **Save**.
 
 </details>
 
@@ -138,7 +138,7 @@ Payment links in Second Chance emails have the same lifetime as the original pay
 
 To set or adjust the lifetime of a payment link, see API reference – [Create order](/reference/createorder/): `days_active` parameter.
 
-> **Note:** This is different to [transaction expiration times per payment method](/reference/transaction-expiration/). 
+**Note:** This is different to [transaction expiration times per payment method](/reference/transaction-expiration/). 
 
 This only applies to certain payment methods:
 

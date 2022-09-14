@@ -39,9 +39,8 @@ For all payment methods **except** AfterPay, you need your site's test [API key]
 2. Enter the [test payment details](/docs/testing#test-payment-details) for the payment method you are testing, or select a payment scenario.
 3. Complete the test payment.
 4. To check the transaction details, sign in to your <a href="https://testmerchant.multisafepay.com/" target="_blank">test dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-5. Go to **Transactions** > **Transactions overview**.
-6. In the **Transactions overview** list, select the transaction to view the **Transaction details** page. 
-7. To check that you have successfully connected to our system, under **Offline actions**, check that you've correctly received the **notifyMerchantTrans** action.  
+5. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
+6. On the **Transaction details** page, under **Offline actions**, to see if you have succesfully connected to our system, check that you've correctly received the **notifyMerchantTrans** action.  
     For information about errors, see [HTTP errors](/docs/http-errors/).
 
 > ✅ Success!
@@ -117,7 +116,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 | Any other IBAN | **Expired** | Transaction is initiated. After 5 days, this changes to **Expired**. |
 <br>
 
-> **Note:** You can't test making direct API requests with an IBAN to test different <<glossary:transaction statuses>>.
+**Note:** You can't test making direct API requests with an IBAN to test different <<glossary:transaction statuses>>.
 
 </details>
 
@@ -269,7 +268,7 @@ You can also test the following scenarios:
 | Visa/co-branded: <br> 4012001038488884 | **Declined**  | Transaction was declined (3D authentication was successful, but insufficient funds) |
 <br>
 
-> **Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
+**Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
 
 </details>
 
@@ -315,10 +314,10 @@ To change the order status, either:
 - Make an [update order](/reference/updateorder/) request, or 
 - In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
-> **Note:** You can't test:  
-> - Receiving successful payment notifications from AfterPay
-> - Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**
-> - Processing refunds
+**Note:** You can't test:  
+ - Receiving successful payment notifications from AfterPay
+ - Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**
+ - Processing refunds
 
 </details>
 
@@ -537,7 +536,7 @@ Any other card number receives an "Invalid card number" error.
 3. Click **Test**.  
     The payment is processed in your MultiSafepay test account as **Successful**, with <<glossary:order status>> **Completed**, and transaction status **Initialized**.
 
-> **Note:** You can't test Alipay declining transactions.
+**Note:** You can't test Alipay declining transactions.
 
 </details>
 
@@ -615,7 +614,7 @@ To test Google Pay payments, follow these steps:
 3. Click **Test**.  
     The payment is processed in your MultiSafepay test account as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Initialized**.
 
-> **Note:** Since MultiSafepay does not collect payments on behalf of PayPal, the <<glossary:transaction status>> remains **Initialized** and can't be changed to **Completed**.
+**Note:** Since MultiSafepay does not collect payments on behalf of PayPal, the <<glossary:transaction status>> remains **Initialized** and can't be changed to **Completed**.
 
 **Change the order status**
 

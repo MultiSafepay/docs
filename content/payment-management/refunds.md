@@ -24,15 +24,15 @@ You can process refunds:
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.  
-2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction to open the **Transaction details** page.  
-3. Under **Order summary**, click **Refund order**:    
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.  
+3. On the **Transaction details** page, under **Order summary**, click **Refund order**:    
     - Partial refund: In the **Amount** field, enter the amount to refund.
     - Full refund: Don't change the amount.  
 4. Click **Continue**, and then click **Confirm**.
 
 The refund becomes a new transaction, which you can find on the original **Transaction details** page under **Related transactions**.
 
-The status of the refund starts as **reserved**, and changes to **Completed** at midnight. 
+The status of the refund starts as **Reserved**, and changes to **Completed** at midnight. 
 
 </details>
 
@@ -48,11 +48,11 @@ You can refund <<glossary:BNPL>> orders via:
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction to open the **Transaction details** page.
-3. Under **Order summary**, click **Refund order**, and then click **Refund complete order**.
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction. 
+3. On the **Transaction details** page, under **Order summary**, click **Refund order** > **Refund whole order**.
 4. Add any relevant comments in the **Description** field.
-5. Click **Save item changes**.  
-  The <<glossary:order status>> changes to **void**.
+5. Click **Save changes**.  
+  The <<glossary:order status>> changes to **Void**.
 
 </details>
 
@@ -63,15 +63,15 @@ You can refund <<glossary:BNPL>> orders via:
 To refund part of the amount:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Transactions** > **Transaction overview**, and click on the relevant transaction to open the **Transaction details** page.
-3. Under **Order summary**, click **Change order**.
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction. 
+3. On the **Transaction details** page, under **Order details**, click **Edit order**.
     - In the **Quantity** field, enter the number of units to refund.
     - In the **Name** field, enter the name of the item to refund.
     - In the **Unit price** field, enter the single unit price as a _negative_ number, e.g. -10.
     - From the **Tax** list, select **None (0.0%)**. 
-4. Click **Add**, and then check that the **New total** amount is correct. 
+4. Click **Add**, and then check that the **Total** amount is correct. 
 5. To display a field to enter add any relevant comments, click **Description**.
-6. Click **Save item changes**.  
+6. Click **Save changes**.  
   A new refund transaction is generated and the <<glossary:order status>> is **Completed**.
 
 </details>

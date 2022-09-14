@@ -274,7 +274,7 @@ The plugin supports [Payment Components](/docs/payment-components/), which:
 3. Click **Payment type** and select **Credit card component**.
 4. Click **Save config**.
 
-> **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
@@ -342,7 +342,7 @@ You cannot add payment links to order confirmation emails created in your **fron
 2. Replace the **New order confirmation template** with your template.
 3. Test the template to confirm it is working.
 
-> **Note:** You can also implement this directly in the email template files.
+**Note:** You can also implement this directly in the email template files.
 
 </details>
 
@@ -424,7 +424,7 @@ To avoid this, match the order lifetime to the [payment link](/docs/payment-link
 
 See [Order lifetimes](#order-lifetimes) above. 
 
-> **Note:** We recommend setting order lifetimes to 2 days (2880 minutes) to allow enough time for the customer to pay, but avoid issues with external services.
+**Note:** We recommend setting order lifetimes to 2 days (2880 minutes) to allow enough time for the customer to pay, but avoid issues with external services.
 
 <details id="how-to-set-payment-link-lifetimes">
 <summary>How to set payment link lifetimes</summary>

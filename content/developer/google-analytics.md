@@ -91,7 +91,7 @@ In your PHP code, the parameter would look like this: `$this→_redirect('checko
 
 Make sure you do this for all links from the payment gateway to your site.
 
-> **Note:** Our ready-made integrations for Magento 1 and 2 do this automatically. 
+**Note:** Our ready-made integrations for Magento 1 and 2 do this automatically. 
 <br>
 
 ---

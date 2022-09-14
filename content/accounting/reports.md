@@ -78,7 +78,7 @@ You can view them in your dashboard under **Transaction overview**.
 3. From the **Date selection** list, select the relevant timeframe (last 2 years only), and then click **Apply**.
 4. From the **Currency** list, select the relevant currency.
 5. From the **Report type** list, select the relevant export format. 
-6. **Group costs in 1 record** toggle:   
+6. For the **Group costs in 1 record** toggle, set to:   
     - **Yes:** Show only the total of all MultiSafepay transaction fees for the selected timeframe.
     - **No:** List each MultiSafepay fee below the matching transaction.
 7. Click **Generate report**.
@@ -123,10 +123,10 @@ This report provides an overview (in Excel or CSV format) of:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Reports** > **Financial report**.
-3. In the **Between** and **And** fields, enter the start and end dates of the period you want the report to cover.
-4. In the **Cost grouping** list:  
-    - **No grouping:** Show only the total of all MultiSafepay transaction fees for the selected timeframe.
-    - **Single entry for all costs:** List each MultiSafepay fee below the matching transaction.
+3. To specify the period you want the report to cover, click the date selector under **Period**.
+4. From the **Cost grouping** list, select:  
+    - **No grouping**: Show only the total of all MultiSafepay transaction fees for the selected timeframe.
+    - **Single entry for all costs**: List each MultiSafepay fee below the matching transaction.
 5. Click **Generate report**.
 
 </details >
@@ -200,8 +200,8 @@ The report does **not** include:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Reports** > **Financial summary**.
-3. Under **Options** > in the **Date** field, enter the start and end dates of the period you want the report to cover.
-4. Under **Currency**, select the relevant currency.
+3. Under **Options**, in the **Date** field, enter the start and end dates of the period you want the report to cover.
+4. From the **Currency** list, select the relevant currency.
 5. Click **Generate report**.
 
 </details>
@@ -250,10 +250,10 @@ This report provides an overview (in Excel format) of the specific transactions 
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Finance** > **Daily balance**.
-3. In the **Daily balance overview** page, under **Payout transaction** for the relevant date, click the green Excel icon.
+2. Go to **Reports** > **Daily balance**.
+3. Under **Payout ID** for the relevant date, click the green **Export** icon.
 
-> **Note:** You must have completed at least one payout to generate a payout report.
+**Note:** You must have completed at least one payout to generate a payout report.
 
 </details >
 
@@ -349,8 +349,8 @@ This report provides an overview (in Excel or PDF format) of all transactions wi
     - **Currency** field: Select the relevant currency.
     - **Status** field: Select the <<glossary:order status>> or <<glossary:transaction status>>, if relevant
     - **Payment method** field: Select the relevant payment method.
-    - **Website** field: Select the relevant site.
-    - **Group** field: Specify if you want to group costs by **Site**, **Payment method**, or **Country**.
+    - **Site** field: Select the relevant site.
+    - **Grouping method** field: Specify if you want to total fees together per **Site**, **Payment method**, or **Country**, or not at all.
     - To group all transactions and only show the daily total, select the **Show per day** checkbox.
 5. Click **Generate report**.
 

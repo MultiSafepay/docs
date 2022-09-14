@@ -34,21 +34,28 @@ Or via your dashboard:
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Tools** > **Payment link generator**.
+2. Go to **Transactions** > **Payment links**.
 3. Click **New payment link**.
 4. From the **Site** list, select the relevant site.
 5. Under **Amount**, select the currency from the list, and then enter the whole value and cents.
 6. In the **Order ID** field, enter the order ID from your webshop.  
-**Note:** The order ID for every payment link must be unique.
+    **Note:** The order ID for every payment link must be unique.
 7. In the **Description** field, enter a description of the order. 
-8. In the **Link expiration (days)** field, enter the number of days for the link to remain active. Default: 30 days.
-9. To send [Second Chance emails](/docs/second-chance/), select the **Second chance email** check box. 
+8. In the **Link expiry** field, enter the number of days for the link to remain active. Default: 30 days.
+9. To send [Second Chance emails](/docs/second-chance/), select the **Second chance email** checkbox. 
 10. Optionally, enter the customer's:  
     - **First name** and **Last name**
     - **Email address**
     - **Country**
     - **Language**
-11. To include additional information, in the top-right corner, click **Advanced mode** to display more fields. 
+11. To include additional information that may be required for some payment methods, in the top-right corner, click **Advanced mode** to display the following fields:
+    - **Items** (For the items in the customer's shopping cart)
+    - **Postal code/ House number**
+    - **Address**
+    - **City**
+    - **State/Province**
+    - **Birthday**
+    - **Phone number**
 12. Click **Generate payment link**.
 13. In the green bar that appears, copy the link from the green bar and pass it to the customer.
 
@@ -59,11 +66,10 @@ Or via your dashboard:
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Transactions** > **Transaction overview**.
-3. Click on the relevant transaction.
-4. In the **Transaction details** page, under **Order summary**, click **Payment link** > **Duplicate this order**.
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+4. On the **Transaction details** page, under **Order summary**, click **Generate payment link** > **Duplicate this order**.
 
-> **Note:** The order ID must be unique.
+**Note:** The order ID must be unique.
 
 </details>
 <br>
@@ -85,24 +91,24 @@ See API reference – [Update or cancel an order](/reference/updateorder/).
 **Via dashboard**
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Tools** > **Payment link generator**.
-3. Next to the relevant payment link, click the red cross icon.  
+2. Go to **Transactions** > **Payment links**.
+3. Next to the relevant payment link, click the red cross **Cancel payment link** icon.  
 The <<glossary:order status>> changes to **cancelled**. 
 
 </details>
 
 ## Duplication
 
-If you need to generate multiple payment links, you can speed up the process by duplicating existing links.
+If you need to generate multiple payment links, you can speed up the process by cloning existing links.
 
-<details id="how-to-duplicate-a-payment-link">
-<summary>How to duplicate a payment link</summary>
+<details id="how-to-clone-a-payment-link">
+<summary>How to clone a payment link</summary>
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Tools** > **Payment link generator**.
-3. Next to the relevant payment link, click the blue copy icon.  
-A new link generator window opens with the same details prefilled.  
+2. Go to **Transactions** > **Payment links**.
+3. Next to the relevant payment link, click the blue **Clone** icon.  
+    A new **Payment links** window opens with the same details prefilled.  
 4. Click **Generate payment link**.
 
 </details>
@@ -117,7 +123,7 @@ The lifetime of a payment link is how long it remains active for the customer to
 
 To set or adjust the lifetime of a payment link, see API reference – [Create order](/reference/createorder/): `days_active` parameter.
 
-> **Note:** This is different to [transaction expiration times per payment method](/reference/transaction-expiration/). 
+**Note:** This is different to [transaction expiration times per payment method](/reference/transaction-expiration/). 
 
 This only applies to certain payment methods:
 
@@ -145,7 +151,7 @@ Each attempt creates a new transaction. If the customer completes payment in one
 For an overview of all payment links:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Tools** > **Payment link generator**.
+2. Go to **Transactions** > **Payment links**.
 
 | Payment link status | Description |
 |---|---|

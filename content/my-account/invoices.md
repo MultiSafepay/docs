@@ -14,7 +14,7 @@ excerpt: 'MultiSafepay generates invoices at month end for your records.'
 
 Merchant and primary account holders receive a monthly invoice for the total amount of VAT we deduct from your account balance at the end of each month.
 
-To view VAT invoices in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, go to **Finance** > **Invoices**.
+To view VAT invoices in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, go to **Finances** > **Invoices**.
 
 For payment methods where MultiSafepay:
 
@@ -26,7 +26,7 @@ For payment methods where MultiSafepay:
 - At month end: Bank fees and [Interchange++](/docs/interchange/) fees
 - During processing: <<glossary:Payout>>, transaction, and (collecting/non-collecting) refund fees
 
-> **Note:** The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay).
+**Note:** The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay.
 
 </details>  
 
@@ -69,8 +69,10 @@ If you do not specify an email address, we use the main business email address p
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. From the list in the right hand corner of your screen, click **Contact details**. 
-3. In the **Financial email** field, enter the email address.
+2. From the account list at the top-right of your screen, click **Account information**.
+   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/DashboardAccountList.png" align ="left"/> 
+  <br>
+3. On the **Contact details** page, in the **Invoices email** field, enter the email address.
 4. Click **Save**. 
 </details>
 <br>

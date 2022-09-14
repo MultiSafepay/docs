@@ -13,7 +13,7 @@ slug: 'manage-account'
 - [Sites](/docs/sites/)
 
 ---
-**Manage your funds**
+**Manage your finances**
 
 - [Account balance](/docs/account-balance/)
 - [Currencies](/docs/currencies/)

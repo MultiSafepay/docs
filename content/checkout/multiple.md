@@ -125,13 +125,13 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
 
     Recurring payments are supported for all credit card payments.
 
-    > **Note:** For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
+    **Note:** For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
 
     To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email <sales@multisafepay.com>
 
     </details>
     
-    > **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and transaction value. 
+    **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and transaction value. 
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
 

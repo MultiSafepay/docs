@@ -386,7 +386,7 @@ To integrate MultiSafepay as your payment provider, follow these steps:
 2. Click **Login as client**.  
     You are redirected to the client area
 3. From the left menu, select **Billing** to view the client’s invoices. 
-4. Choose an invoice and click **Pay selected invoices**.
+4. Choose an invoice, and then click **Pay selected invoices**.
 5. Perform a test transaction.
 6. When the transaction is complete, check its status under **Payments**.
 

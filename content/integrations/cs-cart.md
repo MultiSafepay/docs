@@ -41,7 +41,7 @@ slug: 'cs-cart'
 3. To add payment methods, click the **+** button.
 4. In the next screen, enter a name for the payment method to display during checkout. 
 5. In the **Processing unit** field, specify the payment method. 
-6. Fill out the other fields as required, and click **Create**.
+6. Fill out the other fields as required, and then click **Create**.
 7. In the **Configure** tab, enter your [account ID, site ID, and site code](/docs/sites#site-id-api-key-and-security-code). 
 
 Extra options such as **IP-Validation** and **Debug mode** are intended for developers. Leave them unchanged.

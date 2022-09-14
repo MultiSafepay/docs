@@ -37,12 +37,12 @@ The Risk Team assesses your request and, if approved, activates MOTO for your Mu
 Once activated, to process MOTO payments, follow these steps:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Tools** > **Mail & phone payments**.
-3. Under **Payment details**:  
-    - From the **Currency** list, select the currency, and then enter the amount.
+2. Go to **Transactions** > **Mail & phone payments**.
+3. Under **Order details**:  
+    - From the **Currency** list, select the currency, and then fill out the **Amount** field.
     - From the **Site** list, select the relevant site. 
-    - Enter an order ID, if relevant.
-    - Enter an order description.
+    - Optionally, in the **Order ID** field, enter an order ID.
+    - In the **Description** text box, enter an order description.
 4. Under **Credit card details**, enter the payment details provided by the customer by email or telephone. 
 5. Under **Customer details**, enter the customer's name, address, and contact information. 
 6. Click **Submit order**.  

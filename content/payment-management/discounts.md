@@ -23,10 +23,9 @@ You can apply discounts to orders via your dashboard or the API.
 ## How to discount in your dashboard
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.  
-2. Go to **Transactions** > **Transaction overview**.  
-3. Search for the transaction you want to discount and click to open the **Transaction details** page.  
-4. Under **Order details**, click **Checkout editor**.  
-5. Click **Change order**.
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, under **Order details**, click **Edit order**.  
+4. In the dialog, click **Change**.
 
     <details id="discount-specific-items">
     <summary>Discount specific items</summary>
@@ -37,9 +36,9 @@ You can apply discounts to orders via your dashboard or the API.
     - In the **Unit price** field, enter the single unit price as a _negative_ number, e.g. -10.
     - From the **Tax** list, select **None (0.0%)**. 
     - Click **Add**.
-    - Check that the **New total** amount is correct. 
+    - Check that the **Total** is correct. 
     - To display a field to enter add any relevant comments, click **Description**.
-    - Click **Save item changes**.
+    - Click **Save changes**.
 
     <br>
     
@@ -58,9 +57,9 @@ You can apply discounts to orders via your dashboard or the API.
     - In the **Unit price** field, enter the discount amount as a _negative_ number, e.g. -10.
     - From the **Tax** list, select **None (0.0%)**. 
     - Click **Add**.
-    - Check that the **New total** amount is correct. 
+    - Check that the **Total** amount is correct. 
     - To display a field to enter add any relevant comments, click **Description**.
-    - Click **Save item changes**.  
+    - Click **Save changes**.  
 
     <br>
     
