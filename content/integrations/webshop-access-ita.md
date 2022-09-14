@@ -47,4 +47,3 @@ Se per qualche caso particolare dovessimo chiedere gli accessi alla versione liv
 > Un time-boxed project consiste in un periodo che va tipicamente dalle due alle cinque settimane.
 >
 > Nell'eventualità di una causa sconosciuta, non garantiamo una soluzione del malfunzionamento.
-   
