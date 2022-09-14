@@ -221,7 +221,7 @@ We recommend styling payment pages to be consistent with the look and feel of yo
     **Style the header**  
     Under **Configure page style** > **Header**, you can:
     - Set the header **Background** color. 
-    - Select a **Background image** you have uploaded under **Settings** > **Files**.
+    - Select a **Background image** that you have uploaded under **Settings** > **Files**.
 
     **Style the body**  
     Under **Configure page style** > **Body**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, text, and links on the page and when the user mouses over them.

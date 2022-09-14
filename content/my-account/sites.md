@@ -27,7 +27,7 @@ To process payments from a site operated by a separate legal entity, you must si
     - If you want to receive [status updates](/docs/payment-statuses/) via webhook, in the **Webhook URL** field, enter a URL for us to send them to.
 4. Click **Save**.
     A **Site profile** page for the new site appears, including the site ID, API key, and security code. 
-5. Optionally, provider your **Customer support phone** and **Custom support email**. 
+5. Optionally, provider your **Customer support phone** and **Customer support email**. 
 6. To style your payment page for this site, see Payment pages – [Styling](/docs/payment-pages/#styling).
 </details>
 

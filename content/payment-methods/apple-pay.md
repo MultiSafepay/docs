@@ -66,7 +66,7 @@ To activate Apple Pay, you must have [card payments](/docs/card-payments/) activ
     - Average, minimum, and maximum transaction amount 
     - Annual turnover 
 
-   We check your eligibilty and if approved, activate the payment method for your account. 
+   We check your eligibility and if approved, activate the payment method for your account. 
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. To activate the payment method for:
     - All sites, go to **Settings** > **Payment methods**.
@@ -91,7 +91,7 @@ Then, apply to MultiSafepay for Apple Pay, and activate it in your dashboard.
     - Average, minimum, and maximum transaction amount 
     - Annual turnover 
 
-   We check your eligibilty and if approved, activate the payment method for your account. 
+   We check your eligibility and if approved, activate the payment method for your account. 
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. To activate the payment method for:
     - All sites, go to **Settings** > **Payment methods**.

@@ -315,9 +315,9 @@ To change the order status, either:
 - In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
 **Note:** You can't test:  
-> - Receiving successful payment notifications from AfterPay
-> - Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**
-> - Processing refunds
+ - Receiving successful payment notifications from AfterPay
+ - Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**
+ - Processing refunds
 
 </details>
 

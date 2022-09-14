@@ -54,7 +54,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 <br>
 
 1. Email a request to <risk@multisafepay.com> 
-   We check your eligibilty and onboard you with Alipay+. We may contact you for information.
+   We check your eligibility and onboard you with Alipay+. We may contact you for information.
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. To activate the payment method for:
     - All sites, go to **Settings** > **Payment methods**.
