@@ -15,11 +15,8 @@ Google Analytics is a popular web analytics service used to analyze data collect
 | <a href="https://developers.google.com/analytics/devguides/collection/gtagjs" target="_blank">Universal Analytics (GA3)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | `gtag.js` | Until 1st July 2023 |
 | <a href="https://developers.google.com/analytics/devguides/collection/ga4" target="_blank">Google Analytics 4 (GA4)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | `gtag.js` with a different data model | Supported |
 
-# Universal Analytics
-Universal Analytics is an older version of Google Analytics that uses a data model based on sessions and page views. 
-
-# Google Analytics 4
-Google Analytics 4 is the most recent version of Google Analytics that uses a data model based on events and parameters.
+# Data models
+Universal Analytics is an older version of Google Analytics that uses a data model based on sessions and page views. Google Analytics 4 is the most recent version of Google Analytics that uses a data model based on events and parameters.
 
 # Javascript libraries
 
@@ -27,26 +24,38 @@ If you use `analytics.js`, Google gives you a **tracking ID** that needs to be a
 
 If you use `gtag.js`, then you use **tags** instead of tracking IDs. The `gtag.js` library adds a single tag to your site to connect with multiple Google products and services (including Google Analytics). 
 
-> **Note:** All Google Analytics accounts since 2017 use `gtag.js`. Prior to 2017, `analytics.js` was the default method for tagging.
+**Note:** All Google Analytics accounts since 2017 use `gtag.js`. Prior to 2017, `analytics.js` was the default method for tagging.
+
+<br>
 
 ## Ready-made integrations
 
 You can add your tracking ID or tag to the following ready-made integrations, so that if you use our [payment pages](/docs/payment-pages/) we embed it in the HTML of the page to continue data collection:
 
-- Magento 2
-- Magento 1
-- Odoo
-- WooCommerce
-- OpenCart
-- PrestaShop 1.6
-- Shopware 5
-- OsCommerce
-- X-Cart
-- Zen Cart
+<details id="ready-made-integrations">
+<summary>Supported ready-made integrations</summary>
+<br>
+
+- [Magento 1](/docs/magento-1/)
+- [Magento 2](/docs/magento-2/)
+- [Odoo](/docs/odoo)
+- [OpenCart](/docs/opencart)
+- [OsCommerce](/docs/oscommerce)
+- [PrestaShop 1.6](/docs/prestashop-1-6/)
+- [Shopware 5](/docs/shopware#shopware-5)
+- [WooCommerce](/docs/woocommerce/)
+- [X-Cart](/docs/x-cart/)
+- [Zen Cart](/docs/zen-cart/)
+
+</details>
+
+<br>
 
 ## Self-made integrations
 
 You can add your tracking ID or tag in your self-made integration by adding it in `google_analytics.account` when you [create an order](/reference/createorder/).
+
+<br>
 
 ---
 
@@ -61,19 +70,23 @@ Sometimes Google Analytics can miss or incorrectly report part of a customer's j
 
 This makes Google Analytics reports unreliable, and they don't accurately capture <<glossary:conversion>> rates. There are some ways to mitigate this.
 
+<br>
+
 ## Client side solutions
 
 ### How to exclude referrals
 
-To prevent third-party shopping carts initiating new sessions, you can exclude referral domains. 
+To prevent third-party shopping carts initiating new sessions, you can exclude referral domains. This prevents your customer being counted as a referral when they return to your success page. 
 
-The customer isn't counted as a referral when they return to your success page. 
-
-> **Note:** This feature is only available for sites using `gtag.js` or `analytics.js`.
+**Note:** This feature is only available for sites using `gtag.js` or `analytics.js`.
 
 For instructions, see Google Analytics – <a href="https://support.google.com/analytics/answer/2795830" target="_blank">Referral exclusions</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 When you click **+Add referral exclusion**, enter the following:
+
+<details id="referral-exclusion-list">
+<summary>Referral exclusion list</summary>
+<br>
 
 ```
 *.wlp-acs.com
@@ -118,8 +131,11 @@ ps4acs.netcetera-payment.ch
 sofort.com
 verifiedbyvisa.comdirect.de
 ```
+</details>
 
-### utm_nooverride=1 parameter
+<br>
+
+### How to keep sessions alive
 
 To tell Google that your customer's initial session is still in progress and to ignore referral information for the "new" session, add the `utm_nooverride=1` parameter to your payment <<glossary:gateway>> success pages. 
 
@@ -131,18 +147,26 @@ Make sure you do this for all links from the payment gateway to your site.
 
 **Note:** Our ready-made integrations for Magento 1 and 2 do this automatically. 
 
+<br>
+
 ## Server side solutions
 
 These solutions need a server environment and may require significant development effort.
 
-> **Note:** Server side solutions are still in their infancy and due to ongoing political discussions implementing a server side solution could require regular adjustment and maintenance.
+**Note:**
+- Server side solutions are still in their infancy and due to ongoing political discussions implementing a server side solution could require regular adjustment and maintenance.
+- It is not possible to use client side and server side solutions at the same time.
 
-### Measurement protocol
-To send additional event data to Google Analytics you can use Google's <a href="https://developers.google.com/analytics/devguides/collection/protocol/ga4" target="_blank">measurement protocol</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. You can use notifications from our [webhook](/docs/configure-your-webhook) to send additional information about a customer's journey to Google Analytics. For example, that payment was successful or that the order was cancelled.
+<br>
 
-### Google Tag Manager server side tagging
+### How to send additional data
+To send additional event data to Google Analytics, you can use Google's <a href="https://developers.google.com/analytics/devguides/collection/protocol/ga4" target="_blank">measurement protocol</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. You can use notifications from our [webhook](/docs/configure-your-webhook) to send additional information about a customer's journey. For example, that payment was successful or that the order was cancelled.
 
-Instead of using client side javascript libraries to collect and send data directly to Google Analytics, you can send data to your server for further processing before forwarding to Google Analytics.
+<br>
+
+### How to process data on your server
+
+Instead of collecting data client side and sending directly to Google Analytics, you can send data to your server for further processing before forwarding to Google Analytics by using Google Tag Manager server side tagging.
 
 This provides several benefits:
 - Moves data processing from client side to server side, which reduces page load time.
@@ -151,9 +175,13 @@ This provides several benefits:
 
 For more information, see Google Tag Manager - <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank">Server-side tagging</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-To follow your customers' journeys between different sessions or browsers, you need to also update the data layer of your site to capture information that allows you to accurately identify your customers. For more information, see Google Tag Manager - <a href="https://developers.google.com/tag-platform/tag-manager/web/datalayer" target="_blank">The data layer</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+<br>
 
-> **Note:** It is not possible to use client side and server side solutions at the same time.
+### How to follow customers between sessions
+
+To follow your customers' journeys between different sessions or browsers, in addition to using Google Tag Manager server side tagging, you need to also update the data layer of your site to capture information that allows you to accurately identify your customers. For more information, see Google Tag Manager - <a href="https://developers.google.com/tag-platform/tag-manager/web/datalayer" target="_blank">The data layer</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+<br>
 
 ---
 
