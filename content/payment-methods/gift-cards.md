@@ -15,7 +15,7 @@ Read how gift cards can benefit your business on <a href="https://www.multisafep
 
 | Supports | Details |
 |---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | Belgium, The Netherlands  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Belgium, Netherlands  | 
 | [Currencies](/docs/currencies/) | EUR  |  
 | [Chargebacks](/docs/chargebacks/) | No  |
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |

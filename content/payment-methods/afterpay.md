@@ -15,7 +15,7 @@ Read how AfterPay can benefit your business on <a href="https://www.multisafepay
 
 | Supports | Details |
 |---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | The Netherlands, Belgium  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria, Belgium, Germany, Netherlands | 
 | [Currencies](/docs/currencies/)  | EUR  | 
 | [Chargebacks](/docs/chargebacks/) | No  |
 | [Discounts](/docs/discounts/) | Yes |
@@ -49,23 +49,14 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-You need to contact AfterPay to activate it for your account.
+To activate AfterPay for your account, email AfterPay at <sales@afterpay.nl>  
 
-<details id="how-to-activate-afterpay"> 
-<summary>How to activate AfterPay</summary>
-<br>
-
-1. To check you are eligible for AfterPay, email <sales@multisafepay.com>
-2. For new AfterPay clients, apply directly to AfterPay:
-    - The Netherlands: <a href="https://www.afterpay.nl/nl/zakelijk/offerte" target="_blank">Offerte</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - Belgium: <a href="https://www.afterpay.be/be/footer/zakelijke-partners/offerte-aanvragen" target="_blank">Offerte aanvragen</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-3. For existing AfterPay clients, to activate AfterPay for your MultiSafepay account, email AfterPay Sales at <sales@afterpay.nl>  
-
-</details>
+AfterPay provides you with an API key per country and per site, and you must accept AfterPay's terms and conditions for each. 
 
 # Integration
 
 ### API
+- You will need an API key from AfterPay per country per [site](/docs/sites/).
 - See API reference – [Create order](/reference/createorder/) > BNPL order.
   
   <details id="example-requests"> 

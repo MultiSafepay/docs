@@ -15,7 +15,7 @@ Read how in3 can benefit your business on <a href="https://www.multisafepay.com/
 
 | Supports | Details |
 |---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | The Netherlands – in3 checks the customer's country, and billing/shipping address to confirm.  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Netherlands – in3 checks the customer's country, and billing/shipping address to confirm.  | 
 | [Currencies](/docs/currencies/)  | EUR  |  
 | [Chargebacks](/docs/chargebacks/)  | No  |
 | [Discounts](/docs/discounts/) | Yes <br> You can request in3 to process a full or partial refund, either before <<glossary:payout>> or up to 1 year afterwards. |
