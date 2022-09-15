@@ -77,11 +77,39 @@ To refund part of the amount:
   A new refund transaction is generated and the <<glossary:order status>> is **Completed**.
 
 </details>
+
+# Card refunds
+
+For information about credit and debit card refunds and reversals, see [Card refunds](/docs/card-refunds/).
+
 <br>
 
 ---
 
 # User guide
+
+## Amount limits
+
+You can refund customers more than the amount of the original transaction, e.g. if you want to cover the customer's postage costs when returning an order. A maximum amount applies.
+
+<details id="how-to-refund-more-than-original-amount">
+<summary>How to refund more than the original amount</summary>
+<br>
+
+**Supported payment methods** 
+
+- All banking methods, except direct debit and EPS
+- Gift cards
+- Paysafecard
+- Alipay
+
+**Activation**
+
+Email a request to <sales@multisafepay.com>
+
+The Risk Team assesses your request. Once approved, we enable it for your account.
+
+</details>
 
 ## Batches
 
@@ -121,33 +149,11 @@ Refund orders in the live environment are processed automatically for the follow
 
 </details>
 
-## Processing time
+## Processing times
 
-- Banking methods and credit cards: 1 business day 
+- Banking methods: 1 business day 
 - Bank transfers: 2 to 3 business days, depending on the customer's bank
-
-## Refunding more than the original amount
-
-You can refund customers more than the amount of the original transaction, e.g. if you want to cover the customer's postage costs when returning an order. A maximum amount applies.
-
-<details id="how-to-refund-more-than-original-amount">
-<summary>How to refund more than the original amount</summary>
-<br>
-
-**Supported payment methods** 
-
-- All banking methods, except direct debit and EPS
-- Gift cards
-- Paysafecard
-- Alipay
-
-**Activation**
-
-Email a request to <sales@multisafepay.com>
-
-The Risk Team assesses your request. Once approved, we enable it for your account.
-
-</details>
+- Cards: 1 to 14 business days, depending on the <<glossary:issuer>>
 
 ## Testing
 
