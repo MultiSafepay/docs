@@ -11,6 +11,8 @@ This page provides information about processing refunds with MultiSafepay.
 - Refunds are only processed if there are enough funds in your account balance.
 - Customers receive refunds in the bank account they originally paid from.
 
+For information about credit and debit card refunds and reversals, see [Card refunds](/docs/card-refunds/).
+
 # Full and partial refunds
 
 You can process refunds:

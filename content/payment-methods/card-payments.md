@@ -151,25 +151,9 @@ The redirect integration means MultiSafepay handles sensitive cardholder data. Y
 
 See [Cardholder data](/docs/cardholder-data/).
 
-## Refunds
+## Refunds and reversals
 
-- You **cannot** refund more than the original transaction. 
-- Whether or not the refund is visible to the customer depends on the issuer's system.
-- Depending on the issuer, the amount may not appear directly on the customer's card. We recommend that they contact the issuer. If they need an acquirer reference number (ARN), you can find this in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> in the transaction details. 
-- You can process refunds via MultiSafepay for up to 180 days after payment was completed. 
-- MultiSafepay sends refunds to the <<glossary:issuer>> within 1 business day.
-- You can cancel a refund while the status is **Initialized** or **Reserved**. For more information, see [Cancellation](/docs/refund-payments#cancellation).
-
-## Reversals
-
-If you process a partial refund on the same day, this is technically a <<glossary:reversal>>, but for simplicity is logged as a refund in your MultiSafepay dashboard. 
-
-On the customer's credit card statement, the transaction may either be:
-
-- Adjusted to the new amount= Partial reversal
-- Not debited at all= Full reversal
-
-> Note: You can't cancel a reversal as the funds are immediately returned to the customer.
+See [Card refunds](/docs/card-refunds/).
 
 <br>
 
