@@ -1,0 +1,12 @@
+sequenceDiagram
+    autonumber
+    participant Me as Merchant
+    participant Mu as MultiSafepay
+    participant C as Customer
+
+    Me->>Mu: Creates FastCheckout order
+    Mu->>C: Displays FastCheckout page
+    C->>Mu: Confirms order and completes payment
+    Note over C,Mu: Payment flow depends on selected payment method
+    Mu->>Me: Sends webhook notification with order details
+    Mu->>C: Redirects to your success page

@@ -83,6 +83,13 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
 - Updates automatically when different shipping options are selected
 - Supports discounts
 
+#### Sequence
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/fastcheckout.svg" alt="FastCheckout flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;">
+
 # Activation
 
 Email a request to activate FastCheckout for specific sites under your account to <sales@multisafepay.com>
@@ -97,6 +104,8 @@ To integrate FastCheckout as a hosted page via our API, see:
 - Recipes – [Create a FastCheckout page](/recipes/create-a-fastcheckout-page).
 
 To embed FastCheckout into your site, see [FastCheckout JavaScript integration](/docs/fastcheckout-integration/).
+
+If it is not possible for you to send your available shipping options for the shipping element in your [create order](/reference/createorder) request, see [FastCheckout shipping options request](/docs/fastcheckout-shipping-options/).
 
 <br>
 
