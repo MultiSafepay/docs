@@ -26,7 +26,7 @@ Release date: Sep. 16th, 2022
 ### Added
 + DAVAMS-518: Add Amazon Pay payment method
 + DAVAMS-489: Add MyBank payment method
-+ PLGMAGONE-744: Add DatePicker for birthday checkout fields
++ PLGMAGONE-744: Add Date Picker for birthday checkout fields
 + PLGMAGONE-742: Add Second Chance settings field for each payment method
 
 ### Changed
@@ -72,7 +72,7 @@ Release date: Jun 15, 2021
 
 **Fixed**
 - PLGMAGONE-719: Prevent a zero amount refund leading to a full refund
-- PLGMAGONE-706: Show payment instructions for giftcards too
+- PLGMAGONE-706: Show payment instructions for gift cards too
 
 **Changed**
 - DAVAMS-344: Update Trustly logo
