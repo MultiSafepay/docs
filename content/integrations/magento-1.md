@@ -9,7 +9,7 @@ slug: 'magento-1'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.1.3.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.2.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 > ⚠️ Action required
 > Magento 1 is end-of-life. We recommend [upgrading as soon as possible](/docs/magento-1#upgrades).
@@ -19,6 +19,23 @@ slug: 'magento-1'
 <details id="changelog">
 <summary>Changelog</summary>
 <br>
+
+**3.2.0**
+Release date: Sep. 16th, 2022
+
+### Added
++ DAVAMS-518: Add Amazon Pay payment method
++ DAVAMS-489: Add MyBank payment method
++ PLGMAGONE-744: Add DatePicker for birthday checkout fields
++ PLGMAGONE-742: Add Second Chance settings field for each payment method
+
+### Changed
++ PLGMAGONE-753: Klarna is updated to work as a redirect payment method, removing the related checkout fields
+
+### Fixed
++ PLGMAGONE-740: Include the shipping email address missing in the shipping object within the order request
+
+---
 
 **3.1.3**
 Release date: Nov. 24, 2021
