@@ -12,6 +12,13 @@ Payment components let you embed payment methods directly into your checkout.
 - Reduces your [PCI DSS](/docs/pci-dss/) responsibility, falling only under <a href="https://www.pcisecuritystandards.org/documents/SAQ_A_v3.pdf" target="_blank">Self-Assessment Questionnaire A</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - Supports [recurring payments](/docs/recurring-payments/)
 
+# How it works
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/payment-components.svg" alt="AfterPay payment flow" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;">
+
 # Payment methods
 
 You can embed a single or multiple payment methods in your checkout.

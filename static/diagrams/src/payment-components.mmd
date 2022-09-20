@@ -1,0 +1,14 @@
+sequenceDiagram
+    autonumber
+    participant C as Client-side 
+    participant Me as Merchant's server
+    participant Mu as MultiSafepay
+
+    C->>Me: Places order
+    Me->>Mu: Requests API token
+    Mu->>Me: Returns API token
+    Me->>C: Forwards API token
+    Note over C: Initializes payment component
+    C->>Me: Collects and sends payment data
+    Me->>Mu: Creates order
+    Mu->>Me: Notifies of payment updates via webhook

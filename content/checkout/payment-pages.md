@@ -17,6 +17,11 @@ If you specify a payment method <<glossary:gateway>>, the page is tailored for t
 
 If you don't specify a gateway, all payment methods enabled in your account appear on the payment page.
 
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/payment-pages.svg" alt="Payment pages" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;">
+
 # Activation
 
 Payment pages are automatically activated when you [add a site](/docs/sites/) to your account.
