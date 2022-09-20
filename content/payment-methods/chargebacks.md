@@ -48,7 +48,7 @@ If you have asked MultiSafepay to dispute a chargeback on your behalf, we specif
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/amex.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-## American Express 
+### American Express 
 
 #### Fraud
 <details id="reason-code-4573-fraud-full-recourse">
@@ -237,7 +237,7 @@ To dispute this type of chargeback, you need to provide proof that the transacti
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/mastercard.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
 
-## Mastercard 
+### Mastercard 
 
 #### Fraud
 
@@ -356,7 +356,7 @@ To dispute this type of chargeback, you need to provide evidence that:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/visa.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-## Visa
+### Visa
 
 #### Fraud 
 <details id="reason-code-10-4-card-absent-environment">
@@ -511,7 +511,7 @@ The table below sets out the process for disputing chargebacks.
 | 8.  | Card scheme  | If the chargeback is unsuccessful, the card scheme reclaims the amount from MultiSafepay directly.  |  
 | 9.  | MultiSafepay  | We debit the amount from your account balance.  |  
 
-## MultiSafepay disputing chargebacks on your behalf
+### MultiSafepay disputing chargebacks on your behalf
 MultiSafepay can dispute chargebacks on your behalf for a fee. 
 
 You need to upload relevant documentary evidence either:
