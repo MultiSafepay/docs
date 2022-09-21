@@ -18,6 +18,10 @@ A financial institution that processes card payments with issuers on behalf of m
 A unique number assigned to card payments as they move from the merchant's bank (acquiring bank) to the cardholder's bank (issuer). Banks can use ARNs to trace refunds.
 
 ---
+#### affiliated merchant (affiliate)
+A merchant (a legal entity that sells products and services to customers) managed by a partner account.
+
+---
 #### API endpoint
 A specific URL in [our API](/reference/) where merchants send requests to exchange information, e.g. about /orders, /gateways.
 
