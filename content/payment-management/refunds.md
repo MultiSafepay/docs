@@ -1,7 +1,7 @@
 ---
 title: 'Refunds'
 category: 6278c92bf4ad4a00361431b0
-order: 70
+order: 40
 hidden: false
 slug: 'refund-payments'
 ---

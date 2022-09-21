@@ -209,66 +209,124 @@ If you include a `shopping_cart` object when you [create an order](/reference/cr
 
 We recommend styling payment pages to be consistent with the look and feel of your site.
 
-<details id="in-your-dashboard">
-<summary>In your dashboard</summary>
-<br>
+### Via the dashboard
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Integrations** > **Sites**, and then click the relevant site.
 3. On the **Site profile** page, under **Functionality**, click **Edit template**. 
 4. On the **Payment page styling** page:  
 
-    **Style the logo**  
+    <details id="how-to-style-the-logo">
+    <summary>How to style the logo</summary>
+    <br>
+
     - Go to **Settings** > **Files**, and upload your logo file.
     - On the **Payment page styling** page, under **Configure page style**, from the **Logo** list, select the logo file.
     - To hide the logo, under **Configure page style** > **Settings**, select the **Hide main logo** checkbox. 
 
-    **Style the header**  
+    </details>
+
+    <details id="how-to-style-the-header">
+    <summary>How to style the header</summary>
+    <br>
+
     Under **Configure page style** > **Header**, you can:
     - Set the header **Background** color. 
     - Select a **Background image** that you have uploaded under **Settings** > **Files**.
 
-    **Style the body**  
+    </details>
+
+    <details id="how-to-style-the-body">
+    <summary>How to style the body</summary>
+    <br>
+
     Under **Configure page style** > **Body**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, text, and links on the page and when the user mouses over them.
 
-    **Style the body container**
+    </details>
+
+    <details id="how-to-style-the-body-container">
+    <summary>How to style the body container</summary>
+    <br>
+
     Under **Configure page style** > **Container**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, text, labels, and links. 
+
+    </details>
+
+    <details id="how-to-style-the-cart">
+    <summary>How to style the cart</summary>
+    <br>
       
-    **Style the cart**
     Under **Configure page style** > **Cart**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, border, text, and labels. 
 
-    **Style the payment form**
+    </details>
+
+    <details id="how-to-style-the-payment-form">
+    <summary>How to style the payment form</summary>
+    <br>
+
     Under **Configure page style** > **Payment form**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, border, text, input border, and input labels. 
 
-    **Style the buttons**
+    </details>
+
+    <details id="how-to-style-the-buttons">
+    <summary>How to style the buttons</summary>
+    <br>
+
     Under **Configure page style** > **Buttons**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, border, text on the page and when moused over. 
 
-    **Set a default template**  
+    </details>
+
+    <details id="how-to-set-a-default-template">
+    <summary>How to set a default template</summary>
+    <br>
+
     If you have more than one template and want to set one as your default template, use the **Set default** option. You can also give this template a name, which is used as the `template_id`.   
 
-    **Edit saved templates**  
+    </details>
+
+    <details id="how-to-edit-saved-templates">
+    <summary>How to edit saved templates</summary>
+    <br>
+
     Click **Edit template** (top-right corner).  
 
-    **Duplicate styling to another template**  
+    </details>
+
+    <details id="how-to-duplicate-styling-to-another-template">
+    <summary>How to duplicate styling to another template</summary>
+    <br>
+
     - Click **Apply style from** (top-right corner). 
     - Select the relevant template. 
 
-    **Set as default template**
+    </details>
+
+    <details id="how-to-set-a-default-template">
+    <summary>How to set a default template</summary>
+    <br>
+
     To set this as the default template for this site, under **Configure page style**, click **Set as default template**. 
+
+    </details>
 
 5. To save the finished template to the relevant site, enter a name in the **Save template as** field, and then click **Save template**. 
 
-</details>
 
-<details id="via-the-api">
-<summary>Via the API</summary>
+### Via the API
+
+You can dynamically style the payment page for specific transaction requests via our API. 
+
+See:
+- API reference – [Create order](/reference/createorder/) > Payment page/link > `payment_options` object
+- Recipes – [Style the payment page](/recipes/style-the-payment-page)
+
+The `items` parameter is an HTML string for displaying order items on the payment page, instead of including a `shopping_cart`. 
+
+Some HTML tags and elements are supported and all others are stripped out.
+
+<details id="supported-html-tags-and-elements">
+<summary>Supported HTML tags and elements</summary>
 <br>
-
-You can dynamically style the payment page template for specific transaction requests via our API. 
-
-See API reference – [Create order](/reference/createorder/) > Payment page/link > `payment_options` object. 
-
-The `items` parameter is an HTML string for displaying order items on the payment page, instead of including a `shopping_cart`. The following HTML tags and elements are supported (all others are stripped out):
 
 - b, br
 - div (align)
@@ -283,6 +341,8 @@ The `items` parameter is an HTML string for displaying order items on the paymen
 - small, span, strong
 - table (width, border, bordercolor, cellpadding, cellspacing), thead, tbody, tfoot, th (width, scope, colspan, align), td (height, width, align, valign, colspan, bgcolor), tr (bgcolor, valign)
 - u, ul
+
+---
 
 </details>
 

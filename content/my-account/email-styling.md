@@ -5,11 +5,13 @@ order: 205
 hidden: false
 parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'email-styling'
-excerpt: "Customize emails to customers to match your brand's look and feel."
 ---
-MultiSafepay can help you manage your email communications with customers. Use our pre-formatted and/or pre-written templates and populate them with your content.
 
-# How to customize emails
+You can style emails to customers, payment pages, and success pages to match your brand's look and feel.
+
+# Emails to customers
+
+Use our pre-formatted and/or pre-written templates and populate them with your content.
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 2. Go to **Settings** > **Email styling**, and then click the relevant site.  
@@ -21,19 +23,19 @@ MultiSafepay can help you manage your email communications with customers. Use o
     <br>
 
     **Bank transfer details email (to customer)**  
-    For sending customers MultiSafepay's bank details for [`redirect`](/reference/introduction#direct-vs-redirect) [bank 
+    For sending customers MultiSafepay's bank details for `redirect` [bank 
     transfers](/docs/bank-transfer/). 
 
     **Chargeback email (to merchant)**  
-    For notifying you when a customer requests a [chargeback](/docs/chargebacks/) (recommended if you accept credit card payments).
+    For notifying you when a customer requests a [chargeback](/docs/chargebacks/).
 
-    Make sure you add one or more email addresses to send these emails to in your MultiSafepay dashboard, under 
-    **Contact information** > **Chargeback email**. 
+    Make sure you add an email addresses for us to send these emails to in your dashboard, under 
+    **Account information** > **Chargebacks email**. 
 
-    **Manual Capture reservation completed (to customer)**  
+    **Manual capture completed (to customer)**  
     For notifying customers that you have manually captured reserved funds for an [uncaptured transaction](/docs/uncaptured/). 
 
-    **Manual Capture reservation completed (to merchant)**  
+    **Manual capture completed (to merchant)**  
     For confirming that you have manually captured reserved funds for an [uncaptured transaction](/docs/uncaptured/).  
 
     **Partial and/or full capture completed (to customer)**  
@@ -55,7 +57,8 @@ MultiSafepay can help you manage your email communications with customers. Use o
 
     **Transaction completed email (to merchant)**  
     For notifying you that a customer has successfully completed a payment.
-    <br>
+
+    ---
 
     </details>
 
@@ -72,9 +75,11 @@ MultiSafepay can help you manage your email communications with customers. Use o
     - Italian
     - Spanish
 
+    ---
+
     </details>
 
-    ❗️ The language set here is overridden by the `locale` parameter in the `customer` object in [create order](/reference/createorder/) API requests. 
+    ❗️ The language you set here is overridden by the `customer.locale` parameter in [create order](/reference/createorder/) requests. 
 
     <details id="locale-example">
     <summary>Locale example</summary>
@@ -137,13 +142,15 @@ MultiSafepay can help you manage your email communications with customers. Use o
     <summary>From address field</summary>
     <br>
 
-    In the **From address** field, enter the email address you want the email sent from, e.g. sales@yourcompany.com
+    In the **From address** field, enter the email address you want the email sent from, e.g. sales@yourcompany.com.
     
-    ❗️ If you enter a different from address than noreply@multisafepay.com to avoid emails being marked as spam, we recommend adding the following DNS record to your domain: 
+    ❗️ If you enter a from address other than noreply@multisafepay.com, to avoid emails being marked as spam, we recommend adding the following DNS record to your domain: 
 
     ```
     v=spf1 ip4:213.189.0.0/23 ip4:185.99.128.0/22 mx
     ```
+
+    ---
 
     </details>
         
@@ -153,6 +160,8 @@ MultiSafepay can help you manage your email communications with customers. Use o
     
     In the **From name** field, enter the name you want the email sent by, e.g. your company name.
 
+    ---
+
     </details>
 
     <details id="subject-field">
@@ -160,6 +169,8 @@ MultiSafepay can help you manage your email communications with customers. Use o
     <br>
     
     In the **Subject** field, enter a subject.  
+
+    ---
 
     </details>
 
@@ -170,9 +181,10 @@ MultiSafepay can help you manage your email communications with customers. Use o
     <br>
 
     1. Click the **Link** icon.
-    2. Select the link type: URL, anchor link, or mail to link
+    2. Select the link type: **URL**, **Anchor link**, or **Mailto link**.
     3. Fill in the additional fields as required, and then click **OK**. 
-    <br>
+    
+    ---
 
     </details>
 
@@ -180,79 +192,80 @@ MultiSafepay can help you manage your email communications with customers. Use o
     <summary>How to use tokens</summary>
     <br>
 
-    To save time, you can use @tokens@ to auto-fill personalized details into emails.
+    To save time, you can use @tokens@ to auto-fill personalized details in emails.
 
-    1. Go to the Body HTML editor on the email template page, and then click the **Token** icon.
+    1. In the **Body HTML editor**, click the **Token** icon.
     2. Select a token from the list, and then click **OK**.
-    
+    <br>
+
     The table below describes all available tokens.
 
-    | Tags | Result |      
+    | Token | Output |      
     |---|---| 
-    | ACCOUNT                       | Account_id of FastCheckout customer |   
-    | ACCOUNTADDRESS                | Customer address and street name   |  
-    | ACCOUNTADDRESSAPARTMENT       | Customer house number |
-    | ACCOUNTCITY                   | Customer city of residence |
-    | ACCOUNTCOUNTRY                | Customer country of residence |
-    | ACCOUNT EMAIL                 | Customer email address |
-    | ACCOUNTFIRSTNAME              | Customer first name |
-    | ACCOUNTLASTNAME               | Customer last name |
-    | ACCOUNTNR                     | Your MultiSafepay AccountID |
-    | ACCOUNTZIPCODE                | Customer zip code |
+    | ACCOUNT                       | The `account_id` of a FastCheckout customer |   
+    | ACCOUNTADDRESS                | The customer's address and street name   |  
+    | ACCOUNTADDRESSAPARTMENT       | The customer's house number |
+    | ACCOUNTCITY                   | The customer's city of residence |
+    | ACCOUNTCOUNTRY                | The customer's country of residence |
+    | ACCOUNT EMAIL                 | The customer's email address |
+    | ACCOUNTFIRSTNAME              | The customer's first name |
+    | ACCOUNTLASTNAME               | The customer's last name |
+    | ACCOUNTNR                     | Your MultiSafepay account ID |
+    | ACCOUNTZIPCODE                | The customer's ZIP code |
     | ADDRESS1                      | Your company address line 1 |
     | ADDRESS2                      | Your company address line 2 |
     | ADDRESS3                      | Your company address line 3 |
-    | BANKHOLDERNAME                | Account holder used by the customer to process bank transfer transactions |
-    | BANKIBAN                      | IBAN used by the customer to process bank transfer transactions |
-    | BANKPAYMENTID                 | Reference used by the customer to process bank transfer transactions |
-    | BANKTRANSFERBIC               | BIC used by the customer to process bank transfer transactions |
-    | BANKTRANSFERHOLDER            | Account holder name of IBAN to receive the money |
-    | BANKTRANSFERID                | Reference used with the bank transfer |
-    | BIRTHYDAY                     | Customer date of birth |
+    | BANKHOLDERNAME                | The account holder name for a bank transfer |
+    | BANKIBAN                      | The IBAN for a bank transfer |
+    | BANKPAYMENTID                 | The payment reference for a bank transfer |
+    | BANKTRANSFERBIC               | The BIC for a bank transfer |
+    | BANKTRANSFERHOLDER            | The account holder name receiving a bank transfer |
+    | BANKTRANSFERID                | The reference for a bank transfer |
+    | BIRTHYDAY                     | The customer's date of birth |
     | CITY                          | Your company city of residence |
     | COMPANYNAME                   | Your company name given in your MultiSafepay account |
-    | CONTENT                       | Shopping cart info |
-    | COUNTRY                       | <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> code for your company country |
-    | COUNTRYCODE                   | <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> code for your company country |
+    | CONTENT                       | The items in the shopping cart |
+    | COUNTRY                       | The <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> code for your company country |
+    | COUNTRYCODE                   | The <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> code for your company country |
     | CURRENTDATE                   | Today's date |
-    | DESCRIPTION                   | AccountID to receive money |
-    | DESTAMOUNT                    | Amount to be received |
-    | DESTAMOUNTFORMATCUR           | Amount including currency to be paid by the customer via bank transfer transactions |
-    | DESTCURRENCY                  | Currency of amount to be received |
-    | DESTFORMATAMOUNTCUR           | Currency and amount to be paid out |
-    | EMAIL                         | Customer email address |
-    | FINANCIAL EMAIL               | Email address for financial email |
-    | FIRSTNAME                     | Customer first name and email address set as sender for emails |
-    | FROMNAME                      | Name of the sender's email account |
-    | GENDER                        | Customer gender |
-    | LASTNAME                      | Customer last name |
+    | DESCRIPTION                   | The account ID to receive money |
+    | DESTAMOUNT                    | The amount to be received |
+    | DESTAMOUNTFORMATCUR           | The amount (and currency to be paid by the customer via bank transfer transactions |
+    | DESTCURRENCY                  | The currency of the amount to be received |
+    | DESTFORMATAMOUNTCUR           | The currency and amount to be paid out |
+    | EMAIL                         | The customer's email address |
+    | FINANCIAL EMAIL               | Your invoices email address |
+    | FIRSTNAME                     | The customer's first name and email address set as sender for emails |
+    | FROMNAME                      | The name of the sender's email account |
+    | GENDER                        | The customer's gender |
+    | LASTNAME                      | The customer's last name |
     | MERCHANTCITY                  | Your company city of residence |
     | MERCHANTCOUNTRY               | Your company country of residence  |
-    | MERCHANTLOGOHTML              | HTML code for your logo |
-    | MERCHANTNAME                  | Your company full name |
+    | MERCHANTLOGOHTML              | The HTML code for your logo |
+    | MERCHANTNAME                  | Your company's full name |
     | MERCHANTPHONESUPPORT          | Your customer service phone number |
     | MERCHANTSUPPORT EMAIL         | Your customer service email address |
-    | MERCHANTTRANSACTIONID         | Your reference number |
-    | PAYLINK                       | Link to the [payment page](/docs/payment-pages/) for this transaction |
-    | PAYMENTMETHOD                 | Payment method used for this transaction |
-    | PHONE                         | Your company phone number given in your MultiSafepay account |
-    | REFUNDDESTINATION             | Bank account number to receive the refund |
-    | REPORT EMAIL                  | Email address to receive report emails |
-    | SITENAME                      | Nname of your webshop given in your MultiSafepay account |
-    | SITEURL                       | URL of your webshop given in your MultiSafepay account |
-    | STATE                         | Province or state within the country |
-    | STATUS                        | <<glossary:Transaction status>> |
-    | SUBJECT                       | Subject of the email |
-    | TOTALAMOUNT                   | Total of the order |
-    | TRANSACTIONID                 | MultiSafepay PSP ID |
-    | TRANSCOMP EMAIL               | Email address to receive transaction completed mails |
-    | VARA                          | var1 from your transaction request |
-    | VARB                          | var2 from your transaction request |
-    | VARC                          | var3 from your transaction request |
-    | VATNUMBER                     | Your VAT number given in your MultiSafepay account |
-    | ZIPCODE                       | Your company zip code |
+    | MERCHANTTRANSACTIONID         | Your transaction reference number |
+    | PAYLINK                       | The [payment link](/docs/payment-links/) |
+    | PAYMENTMETHOD                 | The payment method  |
+    | PHONE                         | Your company phone number  |
+    | REFUNDDESTINATION             | The bank account number to receive a refund |
+    | REPORT EMAIL                  | Your reports email address |
+    | SITENAME                      | The site name |
+    | SITEURL                       | The site URL |
+    | STATE                         | The province or state |
+    | STATUS                        | The <<glossary:transaction status>> |
+    | SUBJECT                       | The email subject line |
+    | TOTALAMOUNT                   | The total amount of the order |
+    | TRANSACTIONID                 | The MultiSafepay transaction ID  |
+    | TRANSCOMP EMAIL               | Your email address for completed transactions |
+    | VARA                          | Var1 from your create order request |
+    | VARB                          | Var2 from your create order request |
+    | VARC                          | Var3 from your create order request |
+    | VATNUMBER                     | Your company VAT number  |
+    | ZIPCODE                       | Your company ZIP code |
 
-    <br>
+    ---
 
     </details>
     <details id="how-to-add-your-logo">
@@ -273,7 +286,8 @@ MultiSafepay can help you manage your email communications with customers. Use o
     9. On the row of the relevant file, click the green **Use image** icon.
     10. In the **Image properties** dialog, edit the image's parameters as required: height, border, horizontal space, vertical space, and alignment.
     11. Click **OK**, and then click **Save**.
-    <br>
+    
+    ---
 
     </details>
 
@@ -288,9 +302,12 @@ MultiSafepay can help you manage your email communications with customers. Use o
     3. Edit other parameters as required: width, height, alignment, name, and title.
     4. Click **OK**. 
 
+    ---
+
     </details>
 
 9.  Click **Save**.
+
 <br>
 
 ---
