@@ -42,34 +42,6 @@ Run the following command in the root of your Shopware root directory. Make sure
 composer require multisafepay/shopware6
 ```
 
-### Manual installation
-
-1. Navigate to our <a href="https://github.com/MultiSafepay/shopware6/releases" target="_blank">Shopware 6 GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Under **Assets**, download the latest release, which starts with Plugin_Shopware6_x.x.x.zip.
-3. Sign in to your Shopware 6 <<glossary:backend>>.
-4. Go to **Extensions** > **My extensions**, and then click **... More**. 
-5. From the list, select **Test**.
-6. In the **API key** field, enter your [API key](/docs/sites#site-id-api-key-and-security-code).
-7. Fill out the other fields as required.
-
-<details id="how-to-install-old-version">
-<summary>How to install versions < 6.4</summary>
-<br>
-
-1. Navigate to our <a href="https://github.com/MultiSafepay/shopware6/releases" target="_blank">Shopware 6 GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Under **Assets**, download the latest release, which starts with Plugin_Shopware6_x.x.x.zip.
-3. Sign in to your Shopware 6 <<glossary:backend>>.
-4. Go to **Settings** > **System** on the left hand side.
-5. Select **Plugins**.
-6. Click **Upload plugin** at the top of the page, and then select the file you downloaded in step 2.
-7. When the plugin appears, make sure the **Activated** button is toggled.
-8. Click the **...** (more) button, and then select **Config**.
-9. In the drop-down menu, select **Test**.
-10. In the **API key** field, enter your [API key](/docs/sites#site-id-api-key-and-security-code).
-11. Fill out the other fields as required.
-
-</details>
-
 <br>
 
 ---
