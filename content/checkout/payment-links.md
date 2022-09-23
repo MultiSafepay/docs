@@ -140,7 +140,7 @@ This only applies to certain payment methods:
 
 The customer can open the link to the payment page up to 20 times, after which the link is disabled.
 
-Each attempt creates a new transaction. If the customer completes payment in one of these transactions, the [status](/docs/payment-statuses/) of the other transactions remains **Initialized** until they expire.
+Each attempt creates a new transaction with the same `order_id`. If the customer completes payment in one of these transactions, the [status](#overview-and-statuses) of the other transactions changes to **Duplicate**.
 
 ## Overview and statuses
 
@@ -155,10 +155,11 @@ For an overview of all payment links:
 
 | Payment link status | Description |
 |---|---|
-| Active | The customer hasn't paid yet.  | 
-| Completed | The customer has paid. | 
-| Cancelled | You cancelled the link.| 
-| Expired | The link lifetime has expired.  | 
+| Active | The customer hasn't paid yet. | 
+| Cancelled | You cancelled the link.|
+| Completed | The customer has paid. |  
+| Duplicate | The customer completed payment in a duplicate transaction. |
+| Expired | The link lifetime has expired. | 
 
 </details>
 
