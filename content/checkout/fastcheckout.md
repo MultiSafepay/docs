@@ -204,7 +204,20 @@ See API reference > [Create order](/reference/createorder) > FastCheckout order 
 
 ## Payment methods
 
-FastCheckout supports all payment methods, including QR codes, **except** for Pay After Delivery and E-Invoicing.
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
+<br>
+
+- Apple Pay
+- Bancontact
+- Bank transfers
+- Cards
+- Google Pay
+- iDEAL
+
+---
+
+</details>
 
 ## Second Chance
 
