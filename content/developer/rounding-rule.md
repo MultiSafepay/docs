@@ -28,92 +28,92 @@ For the following order:
 
 ```json Order object
 ...
-"shopping_cart": {
-        "items": [
-            {
-                "name": "Product 1",
-                "description": "",
-                "unit_price": 13.761467889,
-                "quantity": 2,
-                "merchant_item_id": "00001",
-                "tax_table_selector": "BTW9",
-                "weight": {
-                    "unit": "KG",
-                    "value": 12
-                }
-            },
-            {
-                "name": "Product 2",
-                "description": "",
-                "unit_price": 8.2644628099,
-                "quantity": 4,
-                "merchant_item_id": "00002",
-                "tax_table_selector": "BTW21",
-                "weight": {
-                    "unit": "KG",
-                    "value": 1
-                }
-            },
-            {
-                "name": "Shipping",
-                "description": "",
-                "unit_price": 4.5412844037,
-                "quantity": 1,
-                "merchant_item_id": "msp-shipping",
-                "tax_table_selector": "BTW9",
-                "weight": {
-                    "unit": "KG",
-                    "value": 0
-                }
-            }
-        ]
+"shopping_cart":{
+  "items":[
+    {
+      "name":"Product 1",
+      "description":"",
+      "unit_price":13.761467889,
+      "quantity":2,
+      "merchant_item_id":"00001",
+      "tax_table_selector":"BTW9",
+      "weight":{
+        "unit":"KG",
+        "value":12
+      }
     },
-    "checkout_options": {
-        "tax_tables": {
-            "default": {
-                "shipping_taxed": true,
-                "rate": 0.21
-            },
-            "alternate": [
-                {
-                    "name": "BTW21",
-                    "standalone": true,
-                    "rules": [
-                        {
-                            "rate": 0.21
-                        }
-                    ]
-                },
-                {
-                    "name": "BTW9",
-                    "standalone": true,
-                    "rules": [
-                        {
-                            "rate": 0.09
-                        }
-                    ]
-                },
-                {
-                    "name": "none",
-                    "standalone": false,
-                    "rules": [
-                        {
-                            "rate": 0
-                        }
-                    ]
-                }
-            ]
-        }
+    {
+      "name":"Product 2",
+      "description":"",
+      "unit_price":8.2644628099,
+      "quantity":4,
+      "merchant_item_id":"00002",
+      "tax_table_selector":"BTW21",
+      "weight":{
+        "unit":"KG",
+        "value":1
+      }
+    },
+    {
+      "name":"Shipping",
+      "description":"",
+      "unit_price":4.5412844037,
+      "quantity":1,
+      "merchant_item_id":"msp-shipping",
+      "tax_table_selector":"BTW9",
+      "weight":{
+        "unit":"KG",
+        "value":0
+      }
     }
+  ]
+},
+"checkout_options":{
+  "tax_tables":{
+    "default":{
+      "shipping_taxed":true,
+      "rate":0.21
+    },
+    "alternate":[
+      {
+        "name":"BTW21",
+        "standalone":true,
+        "rules":[
+          {
+            "rate":0.21
+          }
+        ]
+      },
+      {
+        "name":"BTW9",
+        "standalone":true,
+        "rules":[
+          {
+            "rate":0.09
+          }
+        ]
+      },
+      {
+        "name":"none",
+        "standalone":false,
+        "rules":[
+          {
+            "rate":0
+          }
+        ]
+      }
+    ]
+  }
+}
 ...
 ```
 
 | Item name | Unit price   | VAT % | VAT per item | Quantity | Total excl. VAT | Total incl. VAT |
-| --------- | ------------ | ----- | ------------ | -------- | --------------- | --------------- |
-| Product 1 | 13.761467889 | 9%    | 1.2385321101 | 2        | 27.5229357798   | 30.00           |
-| Product 2 | 8.2644628099 | 21%   | 1.7355371901 | 4        | 33.0578512396   | 40.00           |
-| Shipping  | 4.5412844037 | 9%    | 0.4087155963 | 1        | 4.5412844037    | 4.95            |
-| Total     |              |       |              |          |                 | 74.95           |
+|---|---|---|---|---|---|---|
+| Product 1 | 13.761467889 | 9% | 1.2385321101 | 2 | 27.5229357798 | 30.00 |
+| Product 2 | 8.2644628099 | 21% | 1.7355371901 | 4 | 33.0578512396 | 40.00 |
+| Shipping  | 4.5412844037 | 9% | 0.4087155963 | 1 | 4.5412844037 | 4.95 |
+| Total     |   |    |     |   |     | 74.95 |
 
 1. Calculate the total cost of all items in the shopping cart (excluding VAT): Multiply the `unit_price` of each item by the `quantity` of the item, then add the results together, rounding to 2 decimal places= Items total.
 > 13.7614678899 \* 2 = 27.5229357798
@@ -124,7 +124,7 @@ For the following order:
 
 2. Calculate the total VAT for all items in the cart (if applicable): Multiply the total cost of each item by the VAT rate, then add the results together, rounding to 2 decimal places= VAT total.
 > 13.7614678899 \* 2 \* 0.09 = 2.4770642202
-> 8.2644628099 \* 2 \* 0.21  = 6.9421487604
+> 8.2644628099 \* 4 \* 0.21  = 6.9421487604
 > 4.5412844037 \* 0.09 = 0.4087155963
 > 2.4770642202 + 6.9421487604 + 0.4087155963 = **9.8279285769**
 > 9.8279285769 = **9.83**
