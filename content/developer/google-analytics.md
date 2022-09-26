@@ -4,7 +4,7 @@ category: 62962df622e99600810c117d
 order: 20
 hidden: false
 slug: 'google-analytics'
-excerpt: 'Follow your customers' journeys with Google Analytics.'
+excerpt: 'Follow customer journeys with Google Analytics.'
 ---
 Google Analytics is a popular web analytics service used to analyze data collected from your site, e.g. site activity and session duration.
 
