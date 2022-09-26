@@ -6,7 +6,7 @@ hidden: false
 slug: 'getting-started-guide'
 ---
 
-Learn how to get started with MultiSafepay as your smart payment service provider.
+Learn how to get started with MultiSafepay as your smart payment services provider.
 
 # 1. Create a free test account
 
@@ -27,12 +27,12 @@ Choose an integration method that matches your business needs and tech stack.
 For help selecting an integration method, email <integration@multisafepay.com>
 
 ### Ready-made integrations  
-MultiSafepay's integrations developed in-house require fewer development resources and let you start testing straight away. We have a wide range of plugins and apps to integrate with platforms like Magento, WooCommerce, Shopware, and Lightspeed.
+MultiSafepay's integrations, which we develop in house, require fewer development resources and let you start testing straight away. We have a wide range of plugins and apps available to integrate with platforms like Magento, WooCommerce, Shopware, and Lightspeed.
 
 **Full guidance:** [Ready-made integrations](/docs/our-integrations/)
 
 ### Self-made integrations
-Build your own integration, especially if you are developing a new ecommerce website or app. This generally requires more development resources, but lets you fully customize the look, feel, and functionality of your checkout experience.
+Alternatively, you can build your own integration, especially if you're developing a new ecommerce website or app. This generally requires more development resources, but lets you fully customize the look, feel, and functionality of your customers' experience.
 
 **Full guidance:** [Self-made integrations](/docs/self-made/)
 
@@ -44,11 +44,11 @@ Before you start processing real transactions, test each payment method.
 
 # 5. Onboard your account
 
-To start processing real transaction, we need to check and approve your company information.
+To start processing real transactions, we need to check and approve your company information.
 
-- Complete the live account sign up form.
+- Complete the live account signup form.
 - Provide information about your company, including the ultimate beneficial owners.
-- Check the list of prohibited products and services.
+- Check our list of prohibited products and services.
 - Display required information on your site.
 
 We then perform know your customer (KYC) checks. If approved, your account goes live.
