@@ -208,7 +208,6 @@ See API reference > [Create order](/reference/createorder) > FastCheckout order 
 <summary>Supported payment methods</summary>
 <br>
 
-- Apple Pay
 - Bancontact
 - Bank transfers
 - Cards
