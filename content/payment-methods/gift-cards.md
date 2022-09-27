@@ -119,6 +119,10 @@ You are solely responsible for this in your integration.
     - Max transaction amount: 50 EUR
     - Amounts over 50 EUR must be paid with an additional payment method.
 
+## Confirmation emails
+
+To disable sending payment confirmation emails to the customer for gift card payments, email <sales@multisafepay.com>
+
 ## Custom gift cards
 
 Contact MultiSafepay to develop your own custom gift card! 
