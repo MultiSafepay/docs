@@ -101,11 +101,11 @@ Specify in your request the relevant [site IDs](/docs/sites#site-id-api-key-and-
 To integrate FastCheckout as a hosted page via our API, see:
 
 - API reference – [Create order](/reference/createorder) > FastCheckout order
-- Recipes – [Create a FastCheckout page](/recipes/create-a-fastcheckout-page).
+- Recipes – [Create a FastCheckout page](/recipes/create-a-fastcheckout-page)
 
 To embed FastCheckout into your site, see [FastCheckout JavaScript integration](/docs/fastcheckout-integration/).
 
-If it is not possible for you to send your available shipping options for the shipping element in your [create order](/reference/createorder) request, see [FastCheckout shipping options request](/docs/fastcheckout-shipping-options/).
+If you cannot send your available shipping options for the shipping element in your [create order](/reference/createorder) request, see [FastCheckout shipping options request](/docs/fastcheckout-shipping-options/).
 
 <br>
 
@@ -125,6 +125,8 @@ You can add your brand's logo at the top of the FastCheckout page.
 3. On the **Site profile** page, under **Functionality**, from the **FastCheckout logo** list, select the relevant logo. 
 4. Click **Save changes**.
 
+---
+
 </details>
 
 ## Language
@@ -142,9 +144,11 @@ FastCheckout pages are supported in 6 languages.
 - Italian
 - Spanish
 
+---
+
 </details>
 
-The customer can also change the page to their preferred language using the flag toggle.
+The customer can change the page to their preferred language using the flag toggle.
 
 You can also localize FastCheckout pages to automatically hide payment methods that are not available in the customer's country, and to display local variants. 
 
@@ -167,6 +171,8 @@ See API reference > [Create order](/reference/createorder) > FastCheckout order 
 | nl_BE | Dutch (Belgium) |
 | nl_NL | Dutch (Netherlands) |
 | es_ES | Spanish |
+
+---
 
 </details>
 
@@ -199,6 +205,8 @@ See API reference > [Create order](/reference/createorder) > FastCheckout order 
   }
 }
 ```
+
+---
 
 </details>
 
