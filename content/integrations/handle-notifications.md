@@ -22,6 +22,7 @@ This URL is your webhook endpoint combined with two additional parameters:
 
 - `transactionid`: Your unique identifier for the order, previously set as `order_id` in your API request.
 - `timestamp`: The time the notification was triggered.
+- `identifier=shipping`: For [FastCheckout shipping options updates](/docs/fastcheckout-shipping-options).
 
 The updated order details make up the payload of the request. 
 

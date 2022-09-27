@@ -22,7 +22,7 @@ You can configure the webhook at site level or at order level.
 
 # How it works
 
-The webhook is triggered when the <<glossary:order status>> or <<glossary:transaction status>> changes, e.g. when:
+The webhook is triggered when we have data to send you, or when the <<glossary:order status>> or <<glossary:transaction status>> changes, e.g. when:
 
 - A customer completes payment
 - A customer's payment is declined or fails
@@ -42,14 +42,14 @@ Our webhook uses the `POST` method to inform your web server when there is an up
 > ℹ Note
 > International bank account numbers (IBANs) are sensitive data. For security reasons, we mask them by default in POST webhook notifications so that only the last 4 digits are visible, e.g. *** 1234. 
 >
-> To unmask IBANs, see [IBANs](/docs/ibans/).
+> To unmask them, see [IBANs](/docs/ibans/).
 
 # Prerequisites
 
 You must set a webhook endpoint, which is a URL that:
 
-- Doesn't include port numbers.
-- Is publicly accessible, or has MultiSafepay on your allow list.
+- Doesn't include port numbers
+- Is publicly accessible, or has MultiSafepay on your allow list
 - Uses HTTPS - We don't accept HTTP for security reasons.
 
 For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
@@ -66,6 +66,8 @@ You can configure the webhook endpoint at:
 2. Go to **Integrations** > **Sites**, and then click the relevant site.
 3. On the **Site profile** page, under **Functionality**, in the **Webhook URL** field, set your webhook endpoint.
 
+**Note:** These instructions apply to your `notification_url` for order updates. For [FastCheckout shipping options updates](/docs/fastcheckout-shipping-options), see Order level below.
+
 </details>
 
 <details id="order-level">
@@ -74,8 +76,13 @@ You can configure the webhook endpoint at:
 
 1. [Create an order](/reference/createorder/) via our API.
 2. In the request body, set:
-	- `payment_options.notification_url` to your webhook endpoint
-	- `payment_options.notification_method` to `POST`
+	- For order updates: 
+    - `payment_options.notification_url` to your webhook endpoint 
+	  - `payment_options.notification_method` to `POST`
+  - For [FastCheckout shipping options](/docs/fastcheckout-shipping-options) updates:
+    - `payment_options.feed_url` to your other notifications endpoint (defaults to `POST`)
+
+---
 
 </details>
 

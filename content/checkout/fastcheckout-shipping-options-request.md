@@ -7,7 +7,7 @@ slug: 'fastcheckout-shipping-options'
 parentDoc: 62fcc05ac034cb06771c46fc
 ---
 
-If it is not possible for you to send your available shipping options for the shipping element on the [FastCheckout page](/docs/fastcheckout/) in your [create order](/reference/createorder) request, you can trigger a `GET` or `POST` request from MultiSafepay to your [webhook endpoint](/docs/configure-your-webhook) to retrieve the options.
+If you cannot send your available shipping options for the shipping element on the [FastCheckout page](/docs/fastcheckout/) in your [create order](/reference/createorder) request, you can trigger a `GET` or `POST` request from MultiSafepay to your [webhook endpoint](/docs/configure-your-webhook) to retrieve the options.
 
 # How it works
 
@@ -18,17 +18,20 @@ If it is not possible for you to send your available shipping options for the sh
 
 # Integration
 
-To trigger the shipping options request, in your create order request, set `checkout_options.use_shipping_notification` (boolean) to `true`.
+To trigger the shipping options request, in your [create order](/reference/createorder) request, set `checkout_options.use_shipping_notification` (boolean) to `true`.
 
 See Recipe – [Create a FastCheckout page](/recipes/create-a-fastcheckout-page) > Step 6. Configure shipping options. 
 
 # Request
 
-The HTTP method of the shipping options request depends on whether you set `payment_options.notification_method` to `POST` (recommended) or `GET` when you created the order. 
+## Via notification_url
+
+1. In `payment_options.notification_url`, specify your webhook endpoint.
+2. Set `payment_options.notification_method` to `POST` (recommended) or `GET`. 
 
 See Recipe – [Create a FastCheckout page](/recipes/create-a-fastcheckout-page) > Step 1. Create an order. 
 
-## POST
+### POST
 
 The following is an example `POST` request from MultiSafepay to you. 
 
@@ -115,7 +118,7 @@ The following is an example `POST` request from MultiSafepay to you.
 
 </details>
 
-## GET
+### GET
 
 The following is an example `GET` request from MultiSafepay to you.
 
@@ -141,7 +144,7 @@ items_count=2
 
 | Parameter | Description |
 |---|---|
-| `notification_url` | The [webhook endpoint](/docs/configure-your-webhook/) for MultiSafepay to send status updates and other notifications for this site. |
+| `notification_url` | The [webhook endpoint](/docs/configure-your-webhook/) for MultiSafepay to send order updates and other notifications for this site. <br> See also [feed_url](#via-feedurl) below. |
 | `identifier` | The identifier of the request. Set to `shipping`. |
 | `country` | The customer's country. |
 | `countrycode` | The country code. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL`. |
@@ -154,6 +157,10 @@ items_count=2
 | `items_count` | The total number of items in the order. |
 
 </details>
+
+## Via feed_url
+
+An alternative to `payment_options.notification_url` is `payment_options.feed_url`, which is a dedicated webhook URL for non-order related updates, particularly shipping options. It defaults to `POST`. 
 
 # Response
 
