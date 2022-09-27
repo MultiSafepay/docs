@@ -28,7 +28,7 @@ This technical manual is for embedding FastCheckout into your site using JavaScr
 
 # 2. Create an order
 
-1. Create an order from your server. See API reference – [Create order](/reference/createorder/) > FastCheckout order.
+1. [Create an order](/reference/createorder/) from your server:
 
    ```javascript
    const createOrderResponse = createOrder()
@@ -51,10 +51,10 @@ This technical manual is for embedding FastCheckout into your site using JavaScr
    <br>
 
    | Key | Required | Value |
-   |----|----|---|
-   | `brand` | No | Applies the default FastCheckout styling. Set to `fco`. |
-   | `locale` | No | Sets the language of the FastCheckout page. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> Supported languages: `DE`, `EN`, `ES`, `FR`, `IT`, `NL` |   
-   | `sessionId` | Yes | The identifier of the MultiSafepay session. |
+   |---|---|---|
+   | `brand` | No | Applies the default FastCheckout styling <br> Set to `fco` |
+   | `locale` | No | Sets the language of the FastCheckout page <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> Supported languages: `DE`, `EN`, `ES`, `FR`, `IT`, `NL` |   
+   | `sessionId` | Yes | The identifier of the MultiSafepay session |
    <br>
 
 </details>
@@ -97,14 +97,15 @@ This technical manual is for embedding FastCheckout into your site using JavaScr
 
    | Key | Value |
    |---|---|
-   | `cart.disabled` | Whether to display the shopping cart summary on the FastCheckout page. <br> - `true`: Hides the shopping cart. <br> - `false` (default): Displays the shopping cart.  |
-   | `checkout.customer.enabled` | Whether to display the billing element on the FastCheckout page. <br> - `true`: Displays billing element. <br> - `false` (default): Hides billing element.  |
-   | `coupons.disabled` | Whether to display available gift cards in the payment element. <br> - `true`: Hides gift cards. <br> - `false` (default): Displays gift cards. |
-   | `group_cards` | Whether to bundle available credit cards into a single gateway. <br> - `true` (recommended): Displays a single credit card gateway. <br>- `false` (default): Displays all available credit cards as separate options.  |
-   | `issuers_display_mode` | How to display available <<glossary:issuers>>. <br> - `list`: Displays issuers in a list with logos. <br> - `select`: Displays issuers in a dropdown list, without logos. <br> - `select-button` (default): Displays issuers as buttons with logos.  |
-   | `redirect_mode` | How to redirect the customer to the issuer. <br> - `modal`: Displays the issuer page as a modal window over the FastCheckout page. <br> - `redirect` (default): Redirects to the issuer page in the current browser tab. |
-   | `shipping.address.required` | Whether to display the shipping element on the FastCheckout page. <br> - `true`: Displays the shipping element. <br> - `false` (default): Hides the shipping element. |
+   | `cart.disabled` | Whether to display the shopping cart summary on the FastCheckout page: <br> - `true`: Hides the shopping cart <br> - `false` (default): Displays the shopping cart |
+   | `checkout.customer.enabled` | Whether to display the billing element on the FastCheckout page: <br> - `true`: Displays billing element <br> - `false` (default): Hides billing element |
+   | `coupons.disabled` | Whether to display available gift cards in the payment element: <br> - `true`: Hides gift cards <br> - `false` (default): Displays gift cards |
+   | `group_cards` | Whether to bundle available credit cards into a single gateway: <br> - `true` (recommended): Displays a single credit card gateway <br>- `false` (default): Displays all available credit cards as separate options  |
+   | `issuers_display_mode` | How to display available <<glossary:issuers>>: <br> - `list`: Displays issuers in a list with logos <br> - `select`: Displays issuers in a dropdown list, without logos <br> - `select-button` (default): Displays issuers as buttons with logos  |
+   | `redirect_mode` | How to redirect the customer to the issuer: <br> - `modal`: Displays the issuer page as a modal window over the FastCheckout page <br> - `redirect` (default): Redirects to the issuer page in the current browser tab |
+   | `shipping.address.required` | Whether to display the shipping element on the FastCheckout page: <br> - `true`: Displays the shipping element <br> - `false` (default): Hides the shipping element |
    <br>
+
    </details>
 
 2. Initialize FastCheckout:
@@ -127,16 +128,16 @@ This technical manual is for embedding FastCheckout into your site using JavaScr
 3. In the method call, create event handlers for the following events: 
 
    | Event | Event handler |
-   | ---- | ---- |
-   |`onError`| Occurs when there is an error in the FastCheckout page. |
-   |`onLoad`| Occurs when the FastCheckout page is rendered. |
-   |`onSubmit`| Occurs when the transaction is successfully submitted. |
+   |---|---|
+   |`onError`| Occurs when there is an error in the FastCheckout page |
+   |`onLoad`| Occurs when the FastCheckout page is rendered |
+   |`onSubmit`| Occurs when the transaction is successfully submitted |
 
 4. `fastCheckout` has one method:
 
    | Method | Description |
-   | ---- | ---- |
-   | `clear()` | Removes all elements in the library leaving the parent container empty. |
+   |---|---|
+   | `clear()` | Removes all elements in the library leaving the parent container empty |
 
 # 5. Test
 
