@@ -242,7 +242,7 @@ Used for account status inquiries.
 
 ---
 #### 86: Cannot verify PIN
-Merchant: You can reattempt within the same day, or attempt POS transactions as non-PIN transactions, if applicable. 
+Merchant: You can reattempt within the same day, or attempt <<glossary:POS>> transactions as non-PIN transactions, if applicable. 
 
 ---
 #### 87: No cashback allowed
