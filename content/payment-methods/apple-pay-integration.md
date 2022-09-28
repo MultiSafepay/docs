@@ -53,8 +53,8 @@ To request registration for Apple Pay direct, email the relevant site ID to <sal
 
     To style the button, see Apple Developer:
 
-    - <a href="https://developer.apple.com/design/human-interface-guidelines/apple-pay/overview/buttons-and-marks/#apple-pay-mark" target="_blank">Buttons&nbsp;and&nbsp;marks</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons_using_css" target="_blank">Displaying Apple Pay Buttons Using CSS</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://developer.apple.com/design/human-interface-guidelines/apple-pay/overview/buttons-and-marks/#apple-pay-mark" target="_blank">Buttons and marks</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons_using_css" target="_blank">Displaying Apple Pay buttons using CSS</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 ## 4. Create an Apple Pay session
 
@@ -93,14 +93,15 @@ When the customer clicks or taps the ** Pay** button:
     <summary>How to request shipping and billing details</summary>
     <br>
 
-    You can use the `requiredBillingContactFields` to collect the customer's billing and/or shipping details through Apple Pay. If the customer hasn't previously provided their billing address to Apple Pay, they are prompted to do so.
+    You can use `requiredBillingContactFields` to collect the customer's billing and/or shipping details from Apple Pay. If the customer hasn't previously provided their billing address to Apple Pay, they are prompted to do so.
 
-    **Note:** The billing and shipping details aren't required for creating Apple Pay direct orders with MultiSafepay. However, since the collected details are available to you in unencrypted form, you can use them to reduce checkout friction and manage orders.
+    **Note:** The billing and shipping details are not required to create Apple Pay direct orders with MultiSafepay. However, since the collected details are available to you in unencrypted form, you can use them to reduce checkout friction and manage orders.
+    
+    ---
 
     </details>
-    <br>
 
-    **Note:** The `total.amount` is in euros, whereas the amount set in our order requests is in cents. 
+    **Note:** The `total.amount` is in euros, whereas the `amount` in MultiSafepay order requests is in eurocents. 
 
     For more information about the `ApplePayRequest` object, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepayrequest" target="_blank">ApplePayRequest</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -119,7 +120,7 @@ When the customer clicks or taps the ** Pay** button:
 
     For more information, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/creating_an_apple_pay_session" target="_blank">Creating an Apple Pay session</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-3. Create an `onvalidatemerchant` event handler that is called once the Apple Pay payment form is displayed to the customer.
+3. Create an `onvalidatemerchant` event handler, which is called once the Apple Pay payment form is displayed to the customer.
     ```javascript
     session.onvalidatemerchant = function (event) {
         var validationUrl = event.validationURL;
@@ -156,7 +157,7 @@ When the customer clicks or taps the ** Pay** button:
     }'
     ```
 
-    **Note:** The code depends on your server-side framework.
+    **Note:** The actual code depends on your server-side framework.
 
     A successful response contains an Apple Pay merchant `session`, which expires after five minutes.
 
@@ -166,7 +167,7 @@ When the customer clicks or taps the ** Pay** button:
 
 ### Client-side integration
 
-1. Create an `onpaymentauthorized` event handler that is called once the customer authorizes the payment with Touch ID, Face ID, or passcode.
+1. Create an `onpaymentauthorized` event handler, which is called once the customer authorizes the payment with Touch ID, Face ID, or passcode.
     ```javascript
     session.onpaymentauthorized = function (event) {
 
@@ -195,20 +196,21 @@ When the customer clicks or taps the ** Pay** button:
 
 ### Server-side integration
 
-1. From your server, [create an order](/reference/createorder/) > Wallet order. See also Examples > Apple pay direct, using the `payment.token` property. To use the `payment.token` property in the order request, convert it to an escaped JSON string.
+1. From your server, [create an order](/reference/createorder/) > Wallet order. <br> See also Examples > Apple pay direct, using the `payment.token` property. <br> To use the `payment.token` property in the order request, convert it to an escaped JSON string.
 
-2. The billing and shipping details are not required for Apple Pay direct orders. 
+**Note:** The billing and shipping details are **not** required for Apple Pay direct orders. 
 
-    - To access the shipping and/or billing details from the `payment` object, use the `payment.billingContact` and `payment.shippingContact` properties.
-    - To add the details to the order request, format them in accordance with [create order](/reference/createorder/) requests.
+2. To access the shipping and/or billing details from the `payment` object, use the `payment.billingContact` and `payment.shippingContact` properties.
 
-    **Note:** Billing and shipping data are not encrypted.
+3. To add the details to the order request, format them in accordance with [create order](/reference/createorder/) requests.
 
-    For more information about the `payment` object and its properties, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+**Note:** Billing and shipping data are **not** encrypted.
+
+For more information about the `payment` object and its properties, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## 6. Test your integration
 
-To test your Apple Pay direct integration, you need to:
+To test your Apple Pay direct integration, you must:
 
 - Meet the [testing prerequisites](/docs/apple-pay-integration#prerequisites).
 - Have an <a href="https://developer.apple.com/apple-pay/sandbox-testing" target="_blank">Apple Developer account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, configured for Apple Pay, with at least one Apple Pay test card in your wallet.
@@ -219,7 +221,8 @@ To test, follow these steps:
     You can ignore the "This device is not supported" error.
 2. Sign in to your Apple Developer account and select your test card.
 3. Authorize the payment.
-  The transaction is completed.
+
+✅ &nbsp;  The transaction is completed.
 <br>
 
 ---
@@ -228,7 +231,7 @@ To test, follow these steps:
 
 With redirect integration, customers are redirected to a [payment page](/docs/payment-pages/) to complete payment.
 
-## API
+### API
 
 See API reference – [Create order](/reference/createorder/) > Wallet order.
 
@@ -242,9 +245,9 @@ For example requests, on the [Create order](/reference/createorder/) page, in th
 
 </details>
 
-## Detecting Apple Pay on the customer's device
+### Detecting Apple Pay on the customer's device
 
-If a customer uses an unsupported device to navigate to an Apple Pay payment page, they won't be able to complete the payment. To prevent this, check whether Apple Pay is supported on the customer's device before creating the payment page.
+If a customer uses an unsupported device to navigate to an Apple Pay payment page, they won't be able to complete the payment. To prevent this, before creating the payment page, check whether Apple Pay is supported on the customer's device.
 
 ```javascript
 try {
