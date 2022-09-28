@@ -14,3 +14,5 @@ slug: createorder
 4. Enter a unique order ID, and then click **Try it!**
 
 ❗️ Never use a live API key, or real customer or payment details!
+
+💬&nbsp; For support, email <integration@multisafepay.com>

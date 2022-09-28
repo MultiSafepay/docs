@@ -12,3 +12,5 @@ slug: updateorder
 4. Fill in the required parameters, and then click **Try it!**
 
 ❗️ Never use a live API key!
+
+💬&nbsp; For support, email <integration@multisafepay.com>
