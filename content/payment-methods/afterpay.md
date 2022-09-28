@@ -99,7 +99,7 @@ AfterPay is supported in many of our ready-made integrations.
 
 ### Testing
 
-To test AfterPay payments, see Testing payment methods –[BNPL methods](/docs/testing#bnpl-methods).
+To test AfterPay payments, see Testing payment methods – [BNPL methods](/docs/testing#bnpl-methods).
 <br>
 
 ---

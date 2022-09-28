@@ -93,7 +93,7 @@ in3 (direct) is supported in:
 - [WooCommerce](/docs/woocommerce/)
 
 ### Testing
-To test in3 payments, see Testing payment methods –[BNPL methods](/docs/testing#bnpl-methods).
+To test in3 payments, see Testing payment methods – [BNPL methods](/docs/testing#bnpl-methods).
 <br>
 
 ---

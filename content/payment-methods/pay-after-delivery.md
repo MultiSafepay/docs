@@ -85,7 +85,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 Supported in all [ready-made integrations](/docs/our-integrations/) (direct).
 
 ### Testing
-To test Pay After Delivery payments, see Testing payment methods –[BNPL methods](/docs/testing#bnpl-methods).
+To test Pay After Delivery payments, see Testing payment methods – [BNPL methods](/docs/testing#bnpl-methods).
 <br>
 
 ---
