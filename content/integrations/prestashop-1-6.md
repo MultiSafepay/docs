@@ -9,7 +9,7 @@ slug: 'prestashop-1-6'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.8.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.8.1.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 > ⚠️ Action required
 > We are phasing out support for this plugin. We recommend migrating to our [PrestaShop 1.7 plugin](/docs/prestashop-1-7/) as soon as possible.
@@ -19,6 +19,14 @@ slug: 'prestashop-1-6'
 <details id="changelog">
 <summary>Changelog</summary>
 <br>
+
+**3.8.1**
+Release date: Sep 28, 2022
+
+**Fixed**
+- PLGPRSS-455: Generic gateway code not used
+
+---
 
 **3.8.0**
 Release date: Jul 13, 2022
@@ -118,7 +126,7 @@ Release date: Nov 8, 2017
 - Order Confirmation screen now also contains the order information.
 - Changed the layout for gateways during checkout (iDEAL, Pay After Delivery, Klarna, E-Invoice, Bank transfer).
 - Module descriptions are now uniform.
-- Critical debug- and error messages are added to the PrestaShop-Logger, wether or not the debug function in the module is enabled.
+- Critical debug- and error messages are added to the PrestaShop-Logger, whether or not the debug function in the module is enabled.
 - Tokenization is included.
 - Some small ### Changes to the styling.
 - Update translations.
@@ -129,7 +137,7 @@ Release date: Nov 8, 2017
 - The order-confirmation screen was also showed for non-MultiSafepay payment methods.
 
 **Changes**
-- Removed the configuration option for by-passing the order-confirmation screen. This because the order-confirmation screen is default PrestaShop behaviour and mandatory for some payment methods.
+- Removed the configuration option for by-passing the order-confirmation screen. This because the order-confirmation screen is default PrestaShop behavior and mandatory for some payment methods.
 - Removed the configuration option for HTTP or HTTPS since this was added in the past for one merchant having some issues.
 - Removed the lock mechanism in the offline-action script. Since this was unnecessary.
 
@@ -171,7 +179,7 @@ Release date: May 12, 2017
 
 **Improvements**
 - New logo for Mastercard.
-- Add PaySafeCard as payment method.
+- Add Paysafecard as payment method.
 
 **Fixes**
 - Order confirmation screen is now also showed when option 'Moment of order creation' is set to 'After order is paid in full'
@@ -203,11 +211,11 @@ Release date: Nov 23, 2016
 
 **Improvements**
 - Added full support for BVK payment fees module; percentages, fixed amounts and combinations are supported.
-- Added bundled gift card payment method; the seperate gateways Visa, Mastercard, Maestro and American Express are not visible during checkout.
-- Added some translational ### Improvements
+- Added bundled gift card payment method; the separate gateways Visa, Mastercard, Maestro and American Express are not visible during checkout.
+- Added some translation ### Improvements
 - Add extra option in the configuration to select the HTTP / HTTPS protocol to use for Offline Actions.
 - Added EPS.
-- Added Ferbuy.
+- Added FerBuy.
 - Errors are now shown on the PrestaShop storefront.
 
 **Fixes**
@@ -270,13 +278,13 @@ Release date: Apr 15, 2016
 **Improvements**
 - The payment method shown in the Fast Checkout orders are now updated to show the payment method eventually used.
 - Added (limited) support for the BVK Additional Payment Fees module; payment fees can be applied per payment method.
-- Added "daysactive" to the configuration. Orders are cancelled after X number of days when configured.
+- Added `daysactive` to the configuration. Orders are cancelled after X number of days when configured.
 - An extra configuration option has been added for skipping the default extra confirmation screen before payment.
 - Added Dotpay as a payment method.
-- Added e-Invoice as a payment method.
-- Added tooltips to the configuration options in the plugin.
+- Added E-Invoicing as a payment method.
+- Added tool tips to the configuration options in the plugin.
 - Improved the payment logos.
-- Added a debug configuration option. Debug output are logged to: 'prestashop_root_directory/log/MultiSafepay.log'.
+- Added a debug configuration option. Debug output are logged to: `prestashop_root_directory/log/MultiSafepay.log`.
 - Added the following gift cards:
 
 1.	Wellness & Beauty
@@ -286,10 +294,10 @@ Release date: Apr 15, 2016
 5.	Gezondheidsbon
 6.	Good4fun
 7.	Jewelstore
-8.	Kellygiftcard
+8.	Kelly Fashion Giftcard
 9.	Liefcadeaukaart
-10.	Nationaletuinbon
-11.	Nationaleverwencadeaubon
+10.	Nationale tuinbon
+11.	Nationale verwen cadeaubon
 12.	Parfumcadeaukaart
 13.	Parfumnl
 14.	Podium
@@ -340,7 +348,7 @@ Release date: Oct 8, 2015
 - Changed the Fast Checkout button.
 - The payment method used to pay for an order is now shown within the order overview.
 - The payment hook template now uses the default PrestaShop style within the checkout and can be overruled by template overrides.
-- Added Fashzoncheque.
+- Added Fashioncheque.
 
 **Changes**
 - The iDEAL bank list is now shown under the payment method iDEAL, rather than the next step.
@@ -396,7 +404,7 @@ Release date: Nov 11, 2014
 
 > **Tip!** We recommend first installing the plugin in a test environment, following the PrestaShop 1.6 installation procedure. Always make a backup.
 
-1. Unpack the contents of the .zip archive and upload the **Modules** folder via SFTP to the PrestaShop root directoy, merging the two folders.
+1. Unpack the contents of the .zip archive and upload the **Modules** folder via SFTP to the PrestaShop root directory, merging the two folders.
 2. Sign in to your PrestaShop 1.6 <<glossary:backend>>.
 3. Go to **Modules and services** > **Payments and gateways**.  
     **Note:** You must install and configure the MultiSafepay Core Module (MultiSafepay) because all payment methods require certain settings and/or the API key in the core module.

@@ -62,7 +62,7 @@ hidden: false
 | Good4fun                               | `GOOD4FUN`    |
 | Horses & Gifts                         | `HORSESGIFT`  |
 | Nationale bioscoopbon                  | `NATNLBIOSC`  |
-| Nationaletuinbon                       | `NATNLETUIN`  |
+| Nationale tuinbon                      | `NATNLETUIN`  |
 | Parfumcadeaukaart                      | `PARFUMCADE`  |
 | Rotterdampas                           | `ROTGIFT`     |
 | U-pas                                  | `UPAS`        |
