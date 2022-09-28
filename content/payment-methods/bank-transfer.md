@@ -46,12 +46,6 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-You can activate bank transfers yourself in your dashboard. 
-
-<details id="how-to-activate-bank-transfer"> 
-<summary>How to activate bank transfers</summary>
-<br>
-
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. To activate the payment method for:
     - All sites, go to **Settings** > **Payment methods**.
@@ -61,9 +55,6 @@ You can activate bank transfers yourself in your dashboard.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 
 **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
-
-
-</details>
 
 # Integration
 
@@ -86,7 +77,7 @@ You can activate bank transfers yourself in your dashboard.
 Supported in all [ready-made integrations](/docs/our-integrations/).
 
 ### Testing
-To test bank transfers, see [Testing](/docs/testing#banking-methods).
+To test bank transfers, see Testing payment methods - [Banking methods](/docs/testing#banking-methods).
 <br>
 
 ---
@@ -118,11 +109,13 @@ To send a customer the details of a local MultiSafepay bank account, include the
 | Spain | EUR |
 | UK | GBP |
 
+---
+
 </details>
 
 ## Payment instructions
 
-MultiSafepay emails the customer the following payment details to include when transfering the funds, or your can email them yourself.
+MultiSafepay emails the customer the following payment details to include when transferring the funds, or your can email them yourself.
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Bank-Transfer-Payment-Details.png" width="100%" align="left"/>
 
@@ -133,6 +126,8 @@ MultiSafepay emails the customer the following payment details to include when t
 You may prefer to email the customer the payment details yourself, e.g. for consistent, branded communications. Make sure you include clear instructions about what details the customer needs to provide and the required format (see [Transfer guidance for customers](#transfer-guidance-for-customers) below).
 
 To prevent us from emailing the customer, see API reference – [Create order](/reference/createorder/) > Banking order. Set the `disable_send_email` parameter to `true`. 
+
+---
 
 </details>
 
@@ -169,6 +164,8 @@ We may not be able to match a payment if the customer:
 
 Sometimes, the customer's bank has added comments to the transfer.
 
+---
+
 </details>
 
 <details id="transaction-not-successfully-created">
@@ -181,6 +178,8 @@ The customer made a transfer but did not:
 - Click **Confirm** on the [payment page](/docs/payment-pages/) (redirect orders).  
 
 This means the transaction was not created successfully in our system.
+
+---
 
 </details>
 
@@ -202,6 +201,8 @@ To create the transaction again, check if a [payment link](/docs/payment-links/)
 3. If the customer didn't fill in the **Bank account number** field, enter their bank account number (if known) to help us match the payment.
 4. Click **Confirm** to create the transaction in our system.
 
+---
+
 </details>
 
 <details id="payment-link-not-created">
@@ -215,6 +216,8 @@ To create the transaction again, check if a [payment link](/docs/payment-links/)
 5. Click **Confirm** to create the transaction in our system.
 
 **Note:** The order ID must be unique for each payment link.
+
+---
 
 </details>
 

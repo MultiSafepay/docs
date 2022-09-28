@@ -52,12 +52,6 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-First apply to MultiSafepay, and then activate in your dashboard.
-
-<details id="how-to-activate-in3"> 
-<summary>How to activate in3</summary>
-<br>
-
 1. Email a request to <risk@multisafepay.com> 
    We check your eligibility and if approved, activate the payment method for your account. 
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
@@ -69,8 +63,6 @@ First apply to MultiSafepay, and then activate in your dashboard.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
 **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
-
-</details>
 
 # Integration
 
@@ -89,6 +81,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions expire after 2 hours.
+- For direct orders, you must display your terms and conditions in your checkout.
 
 ### Ready-made integrations
 in3 (direct) is supported in:
@@ -100,7 +93,7 @@ in3 (direct) is supported in:
 - [WooCommerce](/docs/woocommerce/)
 
 ### Testing
-To test in3 payments, see [Testing](/docs/testing#bnpl-methods).
+To test in3 payments, see Testing payment methods –[BNPL methods](/docs/testing#bnpl-methods).
 <br>
 
 ---
@@ -126,13 +119,11 @@ You are solely responsible for this in your integration.
 
 ## Shipment
 
-When you ship the order, you can change the order status to **Shipped** for your records, bu this is not required to trigger invoicing.
+When you ship the order, you can change the <<glossary:order status>> to **Shipped** for your records, bu this is not required to trigger invoicing.
 
 <details id="how-to-change-order-status-to-shipped">
 <summary>How to change the order status to shipped</summary>
 <br>
-
-You can change the [order status](/docs/payment-statuses/) from **Completed** to **Shipped**:
 
 **In your dashboard**
 
@@ -152,6 +143,8 @@ If you change the order status in your backend, the following [ready-made integr
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
 **Note:** Some third-party plugins may not support updating the status via our API.
+
+---
 
 </details>
 

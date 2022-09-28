@@ -46,14 +46,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete.  | Completed | Completed |
 
-
 # Activation 
-
-First apply to MultiSafepay, and then activate in your dashboard. 
-
-<details id="how-to-activate-Alipay"> 
-<summary>How to activate Alipay</summary>
-<br>
 
 1. Email a request to <risk@multisafepay.com> 
    We check your eligibility and if approved, activate the payment method for your account. 
@@ -66,9 +59,6 @@ First apply to MultiSafepay, and then activate in your dashboard.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
 **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
-
-
-</details>
 
 # Integration
 
@@ -92,7 +82,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 - Exceptions: PrestaShop 1.6, OsCommerce, and Zen Cart.
 
 ### Testing
-To test Alipay payments, see [Testing](/docs/testing#wallets).
+To test Alipay payments, see Testing payment methods - [Wallets](/docs/testing#wallets).
 <br>
 
 ---

@@ -71,12 +71,6 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-First apply to MultiSafepay, and then activate in your dashboard.
-
-<details id="how-to-activate-cards"> 
-<summary>How to activate cards</summary>
-<br>
-
 1. Email a request to activate cards to <risk@multisafepay.com> 
     
     Include in the request your: 
@@ -93,8 +87,6 @@ First apply to MultiSafepay, and then activate in your dashboard.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
 **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
-
-</details>
 
 # Integration
 
@@ -130,7 +122,7 @@ All our [ready-made integrations](/docs/our-integrations/) support:
 - Visa (including Cartes Bancaires, Dankort, Postepay, V Pay) (redirect) 
 
 ### Testing
-To test card payments, see [Testing](/docs/testing#credit-and-debit-cards).
+To test card payments, see Testing payment methods - [Credit and debit cards](/docs/testing#credit-and-debit-cards).
 <br>
 
 ---

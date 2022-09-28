@@ -47,12 +47,6 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-First apply to MultiSafepay, and then activate in your dashboard. 
-
-<details id="how-to-activate-dotpay"> 
-<summary>How to activate Dotpay</summary>
-<br>
-
 1. Email a request to <risk@multisafepay.com> 
    We check your eligibility and if approved, activate the payment method for your account. 
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
@@ -64,8 +58,6 @@ First apply to MultiSafepay, and then activate in your dashboard.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
 **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
-
-</details>
 
 # Integration
 
@@ -88,7 +80,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 Supported in all [ready-made integrations](/docs/our-integrations/). 
 
 ### Testing
-To test Dotpay payments, see [Testing](/docs/testing#banking-methods).
+To test Dotpay payments, see Testing payment methods - [Banking methods](/docs/testing#banking-methods).
 <br>
 
 ---

@@ -142,7 +142,7 @@ We strongly recommend [testing transactions](/docs/testing/) before processing l
 Supported in all [ready-made integrations](/docs/our-integrations/).
 
 ### Testing
-To test PayPal payments, see [Testing](/docs/testing#wallets).
+To test PayPal payments, see Testing payment methods - [Wallets](/docs/testing#wallets).
 <br>
 
 ---

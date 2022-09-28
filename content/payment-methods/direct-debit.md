@@ -51,12 +51,6 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-First apply to MultiSafepay, and then activate in your dashboard. 
-
-<details id="how-to-activate-sepa-direct-debit"> 
-<summary>How to activate direct debits</summary>
-<br>
-
 1. Email a request to <risk@multisafepay.com> 
     
     Include in the request the following information:
@@ -79,9 +73,6 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 
-
-</details>
-
 # Integration
 
 ### API
@@ -101,7 +92,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 Supported in all [ready-made integrations](/docs/our-integrations/) (direct).
 
 ### Testing
-To test direct debits, see [Testing](/docs/testing#banking-methods).
+To test direct debits, see Testing payment methods - [Banking methods](/docs/testing#banking-methods).
 <br>
 
 ---

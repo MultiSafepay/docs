@@ -308,7 +308,7 @@ See API reference – [Create order](/reference/createorder/) > Payment componen
 
 # 4. Go live
 
-To test the payment methods, see [Testing](/docs/testing#test-payment-details).
+To test the payment methods, see Testing payment methods - [(/docs/testing#test-payment-details).
 
 When you're ready to process real payments, make the following changes:
 

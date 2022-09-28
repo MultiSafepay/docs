@@ -38,7 +38,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| AfterPay has authorized the transaction and the funds are awaiting capture. You can still cancel. <br> ❗️ To capture the funds, when you ship the order you must [manually change the order status to shipped](#shipment). | Completed  | Uncleared  |
+| AfterPay has authorized the transaction and the funds are awaiting capture. You can still cancel. <br> ❗️ To capture the funds, when you ship the order you must manually [change the order status to Shipped](#shipment). | Completed  | Uncleared  |
 | The funds are captured. <br> You can no longer cancel. You can only refund. | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped | Completed |
 | AfterPay has declined the transaction. <br> Only the customer can contact AfterPay to find out why (for privacy and compliance reasons).  | Declined | Declined |
@@ -56,6 +56,7 @@ AfterPay provides you with an API key per country and per site, and you must acc
 # Integration
 
 ### API
+
 - You will need an API key from AfterPay per country per [site](/docs/sites/).
 - See API reference – [Create order](/reference/createorder/) > BNPL order.
   
@@ -71,29 +72,34 @@ AfterPay provides you with an API key per country and per site, and you must acc
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions expire after 90 days.
+- For direct orders, you must display your terms and conditions in your checkout. 
 
 ### Ready-made integrations
 
 AfterPay is supported in many of our ready-made integrations.
 
-    <details id="supported-ready-made-integrations"> 
-    <summary>Supported ready-made integrations</summary>
-    <br>
-  - [Craft Commerce](/docs/craft-commerce/)
-  - [CS-Cart](/docs/cs-cart/)
-  - [Drupal 8](/docs/drupal/)
-  - [Magento 1](/docs/magento-1/) & [Magento 2](/docs/magento-2/)
-  - [Odoo](/docs/odoo/)
-  - [OpenCart](/docs/opencart/)
-  - [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/)
-  - [Shopware 5 and 6](/docs/shopware/)
-  - [WooCommerce](/docs/woocommerce/)
-  - [X-Cart](/docs/x-cart/)
+<details id="supported-ready-made-integrations"> 
+<summary>Supported ready-made integrations</summary>
+<br>
 
-  </details>
+- [Craft Commerce](/docs/craft-commerce/)
+- [CS-Cart](/docs/cs-cart/)
+- [Drupal 8](/docs/drupal/)
+- [Magento 1](/docs/magento-1/) & [Magento 2](/docs/magento-2/)
+- [Odoo](/docs/odoo/)
+- [OpenCart](/docs/opencart/)
+- [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/)
+- [Shopware 5 and 6](/docs/shopware/)
+- [WooCommerce](/docs/woocommerce/)
+- [X-Cart](/docs/x-cart/)
+
+---
+
+</details>
 
 ### Testing
-To test AfterPay payments, see [Testing](/docs/testing#pay-later-methods).
+
+To test AfterPay payments, see Testing payment methods –[BNPL methods](/docs/testing#bnpl-methods).
 <br>
 
 ---
