@@ -12,3 +12,5 @@ slug: updatecardexpirydate
 4. Click **Try it!**
 
 ❗️ Never use a live API key or real customer details!
+
+💬&nbsp; For support, email <integration@multisafepay.com>

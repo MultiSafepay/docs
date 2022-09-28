@@ -11,3 +11,5 @@ slug: updatesite
 3. Click **Try it!**
 
 ❗️ Never use a live API key!
+
+💬&nbsp; For support, email <integration@multisafepay.com>
