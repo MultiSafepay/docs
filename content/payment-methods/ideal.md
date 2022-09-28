@@ -51,12 +51,6 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation
 
-You can activate iDEAL yourself in your dashboard.
-
-<details id="how-to-activate-ideal"> 
-<summary>How to activate iDEAL</summary>
-<br>
-
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. To activate the payment method for:
     - All sites, go to **Settings** > **Payment methods**.
@@ -66,8 +60,6 @@ You can activate iDEAL yourself in your dashboard.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 
 **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
-
-</details>
 
 # Integration
 
@@ -102,7 +94,7 @@ You can activate iDEAL yourself in your dashboard.
     - [X-Cart](/docs/x-cart/)
 
 ### Testing
-To test iDEAL payments, see [Testing](/docs/testing#banking-methods).
+To test iDEAL payments, see Testing payment methods - [Banking methods](/docs/testing#banking-methods).
 <br>
 
 ---

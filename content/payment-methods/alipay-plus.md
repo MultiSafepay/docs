@@ -47,12 +47,6 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-First apply to MultiSafepay, and then activate in your dashboard. 
-
-<details id="how-to-activate-Alipay"> 
-<summary>How to activate Alipay</summary>
-<br>
-
 1. Email a request to <risk@multisafepay.com> 
    We check your eligibility and onboard you with Alipay+. We may contact you for information.
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
@@ -64,8 +58,6 @@ First apply to MultiSafepay, and then activate in your dashboard.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
 **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
-
-</details>
 
 # Integration
 
@@ -89,7 +81,7 @@ First apply to MultiSafepay, and then activate in your dashboard.
 Coming soon in [our integrations](/docs/our-integrations/).
 
 ### Testing
-To test Alipay+ payments, see [Testing](/docs/testing#wallets).
+To test Alipay+ payments, see Testing payment methods - [Wallets](/docs/testing#wallets).
 <br>
 
 ---

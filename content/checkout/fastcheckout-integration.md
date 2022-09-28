@@ -141,7 +141,7 @@ This technical manual is for embedding FastCheckout into your site using JavaScr
 
 # 5. Test
 
-To test the payment methods, see [Testing](/docs/testing#test-payment-details).
+To test the payment methods, see Testing payment methods - [(/docs/testing#test-payment-details).
 
 # 6. Go live
 

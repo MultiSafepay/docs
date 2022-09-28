@@ -134,7 +134,7 @@ Then, apply to MultiSafepay for Apple Pay, and activate it in your dashboard.
 - [Redirect integration](/docs/apple-pay-integration#redirect-integration)
 
 ### Testing
-To test Apple Pay payments, see [Testing](/docs/testing#wallets).
+To test Apple Pay payments, see Testing payment methods - [Wallets](/docs/testing#wallets).
 
 ### Branding
 When integrating Apple Pay into your website, you must follow Apple's <a href="https://developer.apple.com/apple-pay/marketing" target="_blank">branding guidelines</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.

@@ -40,7 +40,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 |---|---|---|
 | The customer has been redirected to Klarna. You can still cancel with Klarna using the reservation number. | Initialized   | Initialized  |
 | Klarna has authorized the transaction and the funds are awaiting capture. You can no longer cancel; you can only refund. | Completed  | Uncleared  |
-| **Important:** To capture the funds, [manually change the order status to shipped](#shipment). | Shipped | Uncleared |
+| ❗️ To capture the funds, [manually change the order status to Shipped](#shipment). | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped    | Completed  |
 | The transaction expired after 1 hour or you didn't [change the order status to shipped](#shipment) within 28 days. <br> See [Expired orders](#expired-orders).  | Expired    | Expired    |
 | Klarna authorized the transaction, but either you or the customer cancelled it before capture. | Void   | Void |
@@ -99,12 +99,13 @@ For support, email <integration@multisafepay.com>
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions expire after 1 hour.
+- For direct orders, you must display your terms and conditions in your checkout.
 
 ### Ready-made integrations
 Supported in all [ready-made integrations](/docs/our-integrations/) (redirect).
 
 ### Testing
-To test Klarna payments, see [Testing](/docs/testing#bnpl-methods).
+To test Klarna payments, see Testing payment methods - [BNPL methods](/docs/testing#bnpl-methods).
 <br>
 
 ---
@@ -183,7 +184,8 @@ A dispute is when you and a customer disagree about an order:
 - Payments, e.g. invoicing errors, or the customer paid Klarna instead of you
 - Other, e.g. insolvency, or bankruptcy
 
-Klarna provides support for resolving disputes. For a step-by-step overview, see Klarna – <a href="https://docs.klarna.com/disputes/" target="_blank">How to handle disputes at Klarna</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+Klarna provides support for resolving disputes. 
+For a step-by-step overview, see Klarna – <a href="https://docs.klarna.com/disputes/" target="_blank">How to handle disputes at Klarna</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 The easiest way to handle disputes is using the Disputes app in the Klarna Merchant Portal. 
 

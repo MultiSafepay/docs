@@ -40,7 +40,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 |---|---|---|
 | MultiSafepay's risk analysis is in progress. You can still cancel. | Initialized   | Initialized  |
 | E-Invoicing has authorized the transaction. <br> You can no longer cancel. You can only refund. | Completed  | Initialized  |
-| ❗️ [Manually change the order status to shipped](#shipment). <br> You must ship to receive payment. | Shipped | Initialized |
+| ❗️ [Manually change the order status to Shipped](#shipment). <br> You must ship to receive payment. | Shipped | Initialized |
 | MultiSafepay has collected payment. | Completed    | Completed  |
 | E-Invoicing declined the transaction. | Declined | Declined |
 | The transaction has been cancelled. | Void/Cancelled | Void/Cancelled |
@@ -49,12 +49,6 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | **Refunds:** Refund complete.  | Completed | Completed |
 
 # Activation 
-
-You can activate E-Invoicing yourself in your dashboard. 
-
-<details id="how-to-activate-e-invoicing"> 
-<summary>How to activate E-Invoicing</summary>
-<br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. To activate the payment method for:
@@ -65,8 +59,6 @@ You can activate E-Invoicing yourself in your dashboard.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 
 **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
-
-</details>
 
 # Integration
 
@@ -85,12 +77,13 @@ You can activate E-Invoicing yourself in your dashboard.
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions don't expire.
+- For direct orders, you must display your terms and conditions in your checkout.
 
 ### Ready-made integrations
 Supported in all [ready-made integrations](/docs/our-integrations/) (direct).
 
 ### Testing
-To test E-Invoicing payments, see [Testing](/docs/testing#bnpl-methods).
+To test E-Invoicing payments, see Testing payment methods –[BNPL methods](/docs/testing#bnpl-methods).
 <br>
 
 ---

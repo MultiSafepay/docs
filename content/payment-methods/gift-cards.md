@@ -60,16 +60,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-Contact the card issuer and share the details with us to activate in your account.
-
-<details id="how-to-activate-gift-cards">
-<summary>How to activate gift cards</summary>
-<br>
-
 1. Send a request to the **card issuer**, providing your company details and MultiSafepay account ID.
 2. The issuer sends us the connection details and we activate the card for your account.
-
-</details>
 
 # Integration
 
@@ -93,7 +85,7 @@ Contact the card issuer and share the details with us to activate in your accoun
 - To check if a specific gift card is supported in your ready-made integration, email the Integration Team at <integration@multisafepay.com> 
 
 ### Testing
-To test gift card payments, see [Testing](/docs/testing#prepaid-cards).
+To test gift card payments, see Testing payment methods - [Prepaid cards](/docs/testing#prepaid-cards).
 <br>
 
 ---

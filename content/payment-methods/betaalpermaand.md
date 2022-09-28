@@ -15,7 +15,6 @@ Read how Betaal per Maand can benefit your business on <a href="https://www.mult
 
 | Supports | Details |
 |---|---|
-| **Amount limits** | Minimum amount: 250 EUR, maximum amount: 8000 EUR |
 | [Countries](/docs/payment-methods#payment-methods-by-country)  | Netherlands  | 
 | [Currencies](/docs/currencies/)  | EUR  | 
 | [Chargebacks](/docs/chargebacks/)  | No |
@@ -41,7 +40,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | The customer has been redirected to Santander. | Initialized   | Initialized  |
 | The customer has completed the pre-form and Santander is authorizing the transaction. | Uncleared | Initialized |
 | Santander has authorized the transaction and the funds are awaiting capture. <br> You can no longer cancel. You can only refund. | Completed  | Uncleared  |
-| **Important:** To capture the funds, manually change the order status to Shipped and send us the track-and-trace code (see [Track-and-trace codes](#track-and-trace-codes) below).  | Shipped | Uncleared |
+| ❗️ To capture the funds, when you ship the order you must manually [change the order status to Shipped](#shipment) and send us the [track-and-trace code](#track-and-trace-codes).  | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped    | Completed  |
 | Santander declined the transaction. <br> Only the customer can contact them to find out why (for privacy and compliance reasons). | Declined   | Declined   |
 | You cancelled the transaction before capture.   | Void   | Void   |
@@ -59,16 +58,12 @@ You must:
 - Sell products or services to European citizens with a residential or delivery address in the Netherlands (no exceptions)
 - Connect to MultiSafepay via our API or [ready-made integrations](/docs/our-integrations/)
 
-<details id="how-to-activate-betaal-per-maand">
-<summary>How to activate Betaal per Maand</summary>
-<br>
+To activate:
 
 1. Email a request to <sales@multisafepay.com>
 2. In the request, let us know if you already have a Santander account. If you don't, we'll submit an application for you. 
 3. We check your eligibility and type of connection. 
 4. Once approved, we activate the payment method for your account.
-
-</details>
 
 # Integration
 
@@ -87,6 +82,7 @@ You must:
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions expire after 1 day.
+- For direct orders, you must display your terms and conditions in your checkout. 
 
 ### Ready-made integrations
 - Supported in most [ready-made integrations](/docs/our-integrations/).
@@ -100,6 +96,11 @@ You must:
 ---
 
 # User guide
+
+## Amount limits
+
+- Minimum order amount: 250 EUR
+- Maximum order amount: 8000 EUR
 
 ## Cancellation
 

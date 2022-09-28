@@ -54,20 +54,12 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | For partial payment with another method: The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 
-
 # Activation 
-
-Register with Edenred and we'll activate it for your account. 
-
-<details id="how-to-activate-edenred">
-<summary>How to activate Edenred</summary>
-<br>
 
 1. Fill out the Edenred – <a href="https://registreermijnwebsite.edenred.be/" target="_blank">Registreer mijn website</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> form, selecting the relevant checkbox for each voucher you want to offer.
 2. Sign a contract with Edenred. They'll give you an Edenred Merchant ID.
 3. Email your Edenred Merchant ID to <sales@multisafepay.com>
 4. We activate the payment method for your account.
-</details >
 
 # Integration
 
@@ -90,7 +82,7 @@ Register with Edenred and we'll activate it for your account.
 Only supported in our [Magento 2](/docs/magento-2/) integration.
 
 ### Testing
-To test Edenred payments, see [Testing](/docs/testing#prepaid-cards).
+To test Edenred payments, see Testing payment methods - [Prepaid cards](/docs/testing#prepaid-cards).
 <br>
 
 ---

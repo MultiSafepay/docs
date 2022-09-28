@@ -9,13 +9,12 @@ slug: 'pay-after-delivery'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/payafter-en.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
-Pay After Delivery (Betaal Na Ontvangst) is MultiSafepay's own <<glossary:BNPL>> method for increasing customer confidence and <<glossary:conversion>>. MultiSafepay bears the risk, based on the customer's history, and guarantees <<glossary:settlement>>.
+Pay After Delivery (Betaal Na Ontvangst) is MultiSafepay's own <<glossary:BNPL>> method for increasing customer confidence and <<glossary:conversion>>. MultiSafepay bears the risk and guarantees <<glossary:settlement>>.
 
 Read how Pay After Delivery can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
-| **Amount limits** | Minimum and maximum order amounts apply. Email <sales@multisafepay.com> |
 | [Countries](/docs/payment-methods#payment-methods-by-country)  | Netherlands  | 
 | [Currencies](/docs/currencies/) | EUR  | 
 | [Chargebacks](/docs/chargebacks/)  | No  | 
@@ -41,7 +40,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 |---|---|---|
 | MultiSafepay's risk analysis is in progress. You can still cancel. | Initialized | Initialized | 
 | We have authorized the transaction and the funds are awaiting capture. You can no longer cancel. You can only refund. <br> See [Close transactions](#close-transactions). | Completed | Uncleared | 
-| **Important:** To capture the funds, [manually change the order status to shipped](#shipment). | Shipped | Uncleared |
+| ❗️ To capture the funds, [manually change the order status to Shipped](#shipment). | Shipped | Uncleared |
 | MultiSafepay has collected payment.  | Shipped | Completed |
 | The transaction was cancelled. | Void/Cancelled   | Void/Cancelled | 
 | MultiSafepay declined the transaction. | Declined | Declined |
@@ -50,12 +49,6 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | **Refunds:** Refund complete. | Completed | Completed | 
 
 # Activation 
-
-First apply to MultiSafepay, and then activate in your dashboard.
-
-<details id="how-to-activate-pay-after-delivery"> 
-<summary>How to activate Pay After Delivery</summary>
-<br>
 
 1. Email a request to <risk@multisafepay.com> 
    We check your eligibility and if approved, activate the payment method for your account. 
@@ -68,8 +61,6 @@ First apply to MultiSafepay, and then activate in your dashboard.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
 **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
-
-</details>
 
 # Integration
 
@@ -88,12 +79,13 @@ First apply to MultiSafepay, and then activate in your dashboard.
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions expire after 90 days.
+- For direct orders, you must display your terms and conditions in your checkout.
 
 ### Ready-made integrations
 Supported in all [ready-made integrations](/docs/our-integrations/) (direct).
 
 ### Testing
-To test Pay After Delivery payments, see [Testing](/docs/testing#bnpl-methods).
+To test Pay After Delivery payments, see Testing payment methods –[BNPL methods](/docs/testing#bnpl-methods).
 <br>
 
 ---
@@ -103,6 +95,10 @@ To test Pay After Delivery payments, see [Testing](/docs/testing#bnpl-methods).
 ## Addresses
 
 The billing and shipping addresses must be the **same** to prevent fraud. 
+
+## Amount limits
+
+Minimum and maximum order amounts apply. Email <sales@multisafepay.com>
 
 ## Close transactions
 

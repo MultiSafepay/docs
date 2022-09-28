@@ -95,7 +95,7 @@ If you receive an error in the response, see [Troubleshooting](/docs/troubleshoo
 
 Otherwise, open the `payment_url` to complete the payment on the payment page. 
 
-For further details on how to test each payment method, see [Testing](/docs/testing#test-payment-details). If this is your first time, we recommend following the steps for [iDEAL](/docs/testing#ideal).
+For further details on how to test each payment method, see Testing payment methods - [(/docs/testing#test-payment-details). If this is your first time, we recommend following the steps for [iDEAL](/docs/testing#ideal).
 
 # 2. Get order details
 
