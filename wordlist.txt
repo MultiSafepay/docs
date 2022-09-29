@@ -53,6 +53,7 @@ BKR
 BNO
 BNPL
 BRL
+Brouwmarkt
 BVK
 BVKPayment
 Backend
@@ -75,12 +76,14 @@ Boeken
 Boekenbon
 Boekhouden
 Burgerlijk
+cadeaubon
 CAMT
 CCV
 CCVshop
 CEST
 CET
 CFDs
+Changs
 CHARGEBACK
 CHF
 CLI
@@ -192,10 +195,12 @@ IPs
 ISK
 Instellingen
 Intersolve
+Jewelstore
 JPY
 JSON
 Jong
 Joomla
+Kelly Fashion Giftcard
 KBC
 KLARNA
 KRW
@@ -241,12 +246,14 @@ MisterCash
 MultiFactor
 MultiSafepay
 MultiSafepay's
+MultiSafepayClient
 MyBank
 NL
 NOK
 NZD
 Nationale
-Nationaletuinbon
+Nationale tuinbon
+Nationale verwen cadeaubon
 Nederland
 Nname
 NodeJS
@@ -274,6 +281,7 @@ PSP
 PWA
 PWAs
 Parfumcadeaukaart
+Parfumnl
 Partnerlink
 Payconiq
 Paylink
@@ -539,6 +547,7 @@ url
 utm
 venia
 verder
+verwen
 verwerking
 voorkoming
 voorraad
