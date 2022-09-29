@@ -1,7 +1,7 @@
 ---
-title: Troubleshooting
+title: Error reference
 category: 623dacddb0cbdd0394b9f5a9
-slug: 'troubleshooting'
+slug: 'error-reference'
 order: 7
 hidden: false
 ---
