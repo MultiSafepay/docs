@@ -34,28 +34,7 @@ We may ask you to provide additional documents, e.g. if you have an unusual comp
 
 **Note:** Requests to process credit cards may be denied, e.g. if you sell [prohibited products or services](/docs/prohibited-products-services/).
 
-## Changes to company information
-
-You **must** inform us of any of the following changes to your company information.
-
-<details id="changes-to-company-information">
-<summary>Changes to company information</summary>
-<br>
-
-**Changes of address**  
-Email the new address and your account ID to <support@multisafepay.com>  
-
-**Changes in the company form, directors, or UBOs**  
-Email the new details and your account ID to <risk@multisafepay.com>
-
-We will request new documentation, such as UBO statements or copies of identification documents. 
-
-**Company takeover**  
-If a different company is taking over your account, we recommend opening a **new** account to separate the money flow. 
-
-Make sure you update all company details on the site(s), including the registration number, VAT number, and address. The company details on the site must match the details in your account.
-
-</details>
+See also [Changes to company information](/docs/company-information/).
 
 # 3. Validate bank account
 
