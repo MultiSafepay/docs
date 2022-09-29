@@ -1,7 +1,7 @@
 ---
 title: "Payment methods"
 category: 62962dcdbccb9a001d4bbc81
-order: 207
+order: 208
 hidden: false
 parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'payment-methods'
