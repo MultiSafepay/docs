@@ -1,9 +1,9 @@
 ---
-title: "Troubleshooting"
-category: 62962df622e99600810c117d
-order: 50
-hidden: false
+title: Troubleshooting
+category: 623dacddb0cbdd0394b9f5a9
 slug: 'troubleshooting'
+order: 6
+hidden: false
 ---
 
 This page lists error codes you may encounter in transaction responses or statuses, or under **Offline actions** in your MultiSafepay dashboard, possible causes and how to resolve them.

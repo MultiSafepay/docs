@@ -2,7 +2,7 @@
 title: Gateway IDs
 category: 623dacddb0cbdd0394b9f5a9
 slug: 'gateway-ids'
-order: 5
+order: 4
 hidden: false
 ---
 
