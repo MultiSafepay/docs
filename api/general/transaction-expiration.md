@@ -2,7 +2,7 @@
 title: Transaction expiration
 category: 623dacddb0cbdd0394b9f5a9
 slug: 'transaction-expiration'
-order: 5
+order: 6
 hidden: false
 ---
 
