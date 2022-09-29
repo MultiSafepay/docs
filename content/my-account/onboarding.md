@@ -16,7 +16,7 @@ MultiSafepay creates a live account and email you a security code to sign in to 
 
 # 2. Provide company information
 
-1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">live dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and, under <a href="https://merchant.multisafepay.com/onboarding" target="_blank">Business details</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, provide the following information:
+Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">live dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and, under <a href="https://merchant.multisafepay.com/onboarding" target="_blank">Business details</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, provide the following information:
 
 | Information | Details |
 |---|---|
@@ -24,7 +24,9 @@ MultiSafepay creates a live account and email you a security code to sign in to 
 | **Business bank account number** | This must exactly match at least one of the trade names listed on your Chamber of Commerce extract. |
 | **Products/services** | See [Prohibited products and services](/docs/prohibited-products-services/). | 
 | **Site URL** | The URL of at least one site you accept payments through, or select the **I don't have a site** checkbox. <br> If you provide a URL, you can now start receiving payments into your MultiSafepay balance. However, you cannot make <<glossary:payouts>> until onboarding is complete. |
-| **Credit card payments** | If you intend to accept cards, provide your: <br> - Minimum, average, and maximum order value <br> - Annual turnover from credit card transactions |
+| **Card payments** | If you intend to accept cards, provide your: <br> - Minimum, average, and maximum order value <br> - Annual turnover from credit card transactions |
+
+See also [Changes to company information](/docs/company-information/).
 
 ## Pre-screening
 
@@ -33,8 +35,6 @@ MultiSafepay pre-screens your account to check if the products/services you sell
 We may ask you to provide additional documents, e.g. if you have an unusual company structure.
 
 **Note:** Requests to process credit cards may be denied, e.g. if you sell [prohibited products or services](/docs/prohibited-products-services/).
-
-See also [Changes to company information](/docs/company-information/).
 
 # 3. Validate bank account
 
