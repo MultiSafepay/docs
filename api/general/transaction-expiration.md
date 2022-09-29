@@ -13,15 +13,13 @@ Different payment methods set different expiration times for transactions. The t
 
 The expiration time is set by the payment method and cannot be changed.
 
-> 📘 
-> 
 **Note:** Transaction expiration times are different to session lifetimes of payment pages.
 
 The table below sets out the expiration time per payment method:
 
-| Payment method                                                                                                     | Expiration time                                |
-| ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- |
-| **Credit and debit cards** <br> American Express, Cartes Bancaires, Dankort, <br> Maestro, Mastercard, Visa, V Pay | 1 hour                                         |
+| Payment method | Expiration time |
+|---|---|
+| **Cards** <br> American Express, Cartes Bancaires, Dankort, <br> Maestro, Mastercard, Visa, V Pay | 1 hour  |
 | AfterPay                                                                                                           | 90 days                                        |
 | Alipay                                                                                                             | 5 hours                                        |
 | Alipay+                                                                                                            | 10 minutes on Alipay+, after 1 hour in our system |
@@ -46,8 +44,7 @@ The table below sets out the expiration time per payment method:
 | TrustPay                                                                                                           | 10 days                                        |
 | WeChat Pay                                                                                                         | 2 hours                                        |
 
-Exceptions
-----------
+# Exceptions
 
 Transactions do not expire for:
 
