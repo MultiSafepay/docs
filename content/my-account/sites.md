@@ -49,15 +49,17 @@ ___
 
 # User guide
 
-## Block a site
+## Block/unblock a site
 
-<details id="how-to-block-a-site">
-<summary>How to block a site</summary>
+<details id="how-to-block-unblock-a-site">
+<summary>How to block/unblock a site</summary>
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Integrations** > **Sites**, and then click the relevant site.
-3. On the **Site profile** page, from the **Status** list, select **Blocked**.
+3. On the **Site profile** page, from the **Status** list:
+  - To block, select **Blocked**.
+  - To unblock, select **Active**.
 4. Click **Save changes**. 
    ✅ &nbsp; On the **Sites** page, the site's status changes to **Blocked**.
 

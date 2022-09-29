@@ -112,7 +112,11 @@ Not all Dutch banking apps support iDEAL QR yet, so we recommend that customers 
 
 ## Issuers
 
-iDEAL supports the following <<glossary:issuers>>:
+iDEAL supports the a number of Dutch <<glossary:issuers>>
+
+<details id="supported-issuers"> 
+<summary>Supported issuers</summary>
+<br>
 
 - ABN AMRO 
 - ASN Bank 	
@@ -126,6 +130,11 @@ iDEAL supports the following <<glossary:issuers>>:
 - SNS Bank
 - Triodos Bank
 - Van Lanschot Bankiers 
+
+---
+
+</details>
+
 <br>
 
 ---
