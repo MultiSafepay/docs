@@ -110,8 +110,32 @@ Then, apply to MultiSafepay for Apple Pay, and activate it in your dashboard.
 - Customers must use the Safari browser. 
 - An SSL secured connection (HTTPS) is required.
 
+### Direct integration
+For direct integration with a self-made integration, see [Apple Pay direct integration](/docs/apple-pay-direct/).
+
 ### API
-- See API reference – [Create order](/reference/createorder/) > Wallet order. 
+- For redirect integration, see API reference – [Create order](/reference/createorder/) > Wallet order. 
+
+  <details id="how-to-detect-apple-pay-on-the-customers-device"> 
+  <summary>How to detect Apple Pay on the customer's device</summary>
+  <br>
+
+  If a customer uses an unsupported device to navigate to an Apple Pay payment page, they won't be able to complete the payment. To prevent this, before creating the payment page, check whether Apple Pay is supported on the customer's device.
+
+  ```javascript
+  try {
+      if (window.ApplePaySession && ApplePaySession.canMakePayments()) {
+      console.log('Apple Pay available');
+      // Create an Apple Pay payment page from your server
+      }
+      } catch (error) {
+      console.debug('An error occurred while verifying if Apple Pay is available:', error);
+      }
+  ```
+  
+  ---
+
+  </details>
 
   <details id="example-requests"> 
   <summary>Example requests</summary>
@@ -128,10 +152,6 @@ Then, apply to MultiSafepay for Apple Pay, and activate it in your dashboard.
 ### Ready-made integrations
 - Apple Pay redirect is supported in most [ready-made integrations](/docs/our-integrations/).
 - Exceptions: OsCommerce, VirtueMart, X-Cart, Zen Cart.
-
-### Self-made integration
-- [Direct integration](/docs/apple-pay-integration#direct-integration) 
-- [Redirect integration](/docs/apple-pay-integration#redirect-integration)
 
 ### Testing
 To test Apple Pay payments, see Testing payment methods - [Wallets](/docs/testing#wallets).

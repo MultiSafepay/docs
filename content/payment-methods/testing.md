@@ -577,7 +577,7 @@ To test, follow these steps:
 
 **Testing Apple Pay direct**
 
-See Apple Pay direct integration – [Test your integration](/docs/apple-pay-integration#6-test-your-integration).
+See Apple Pay direct integration – [Test your integration](/docs/apple-pay-direct#6-test-your-integration).
 
 </details>
 

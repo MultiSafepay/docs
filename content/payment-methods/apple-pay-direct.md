@@ -1,13 +1,11 @@
 ---
-title: "Apple Pay integration"
+title: "Apple Pay direct integration"
 category: 6298bd782d1cf4006032e765
 order: 504
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
-slug: 'apple-pay-integration'
+slug: 'apple-pay-direct'
 ---
-
-# Direct integration
 
 With direct integration, the ** Pay** button appears in your checkout page. Customers complete payment without being redirected to a [payment page](/docs/payment-pages/).
 
@@ -212,7 +210,7 @@ For more information about the `payment` object and its properties, see Apple De
 
 To test your Apple Pay direct integration, you must:
 
-- Meet the [testing prerequisites](/docs/apple-pay-integration#prerequisites).
+- Meet the [testing prerequisites](#prerequisites).
 - Have an <a href="https://developer.apple.com/apple-pay/sandbox-testing" target="_blank">Apple Developer account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, configured for Apple Pay, with at least one Apple Pay test card in your wallet.
 
 To test, follow these steps:
@@ -223,42 +221,7 @@ To test, follow these steps:
 3. Authorize the payment.
 
 ✅ &nbsp;  The transaction is completed.
-<br>
 
----
-
-# Redirect integration
-
-With redirect integration, customers are redirected to a [payment page](/docs/payment-pages/) to complete payment.
-
-### API
-
-See API reference – [Create order](/reference/createorder/) > Wallet order.
-
-<details id="example-requests"> 
-<summary>Example requests</summary>
-<br>
-
-For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Apple Pay direct/redirect**.
-
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
-
-</details>
-
-### Detecting Apple Pay on the customer's device
-
-If a customer uses an unsupported device to navigate to an Apple Pay payment page, they won't be able to complete the payment. To prevent this, before creating the payment page, check whether Apple Pay is supported on the customer's device.
-
-```javascript
-try {
-    if (window.ApplePaySession && ApplePaySession.canMakePayments()) {
-    console.log('Apple Pay available');
-    // Create an Apple Pay payment page from your server
-    }
-    } catch (error) {
-    console.debug('An error occurred while verifying if Apple Pay is available:', error);
-    }
-```
 <br>
 
 ---
