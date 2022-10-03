@@ -247,6 +247,16 @@ To extend the lifetime of pending payments orders, increase the **Order Cron set
 
 For instructions, see Magento – <a href="https://docs.magento.com/user-guide/sales/order-pending-payment-lifetime.html" target="_blank">Pending payment order lifetime</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
+## Order requests
+
+<details id="how-to-modify-order-requests">
+<summary>How to modify order requests</summary>
+<br>
+
+To modify an OrderRequest before a transaction is processed, create an observer based on the `before_send_multisafepay_order_request` event in the plugin.
+
+For an example, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento2/magento2-example-module.zip" target="_blank">Magento 2 example module</a>.
+
 **ERP systems**
 
 For ERP systems, if the <<glossary:order status>> is **Declined**, successful payments often fail to process for orders with **Cancelled** status.
