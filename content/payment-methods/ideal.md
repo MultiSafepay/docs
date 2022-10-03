@@ -112,7 +112,7 @@ Not all Dutch banking apps support iDEAL QR yet, so we recommend that customers 
 
 ## Issuers
 
-iDEAL supports the a number of Dutch <<glossary:issuers>>
+iDEAL supports a number of Dutch <<glossary:issuers>>:
 
 <details id="supported-issuers"> 
 <summary>Supported issuers</summary>
