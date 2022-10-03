@@ -253,9 +253,9 @@ For instructions, see Magento – <a href="https://docs.magento.com/user-guide/s
 <summary>How to modify order requests</summary>
 <br>
 
-To change something in an OrderRequest before a transaction is processed, create an observer based on the `before_send_multisafepay_order_request` event in the plugin.
+To modify an OrderRequest before a transaction is processed, create an observer based on the `before_send_multisafepay_order_request` event in the plugin.
 
-Check out our <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento2/magento2-example-module.zip" target="_blank">example module</a> for a complete example of how it can be done.
+For an example, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento2/magento2-example-module.zip" target="_blank">Magento 2 example module</a>.
 
 **ERP systems**
 
