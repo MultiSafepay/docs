@@ -155,7 +155,7 @@ First, read the following:
 
 Example of how to implement and overwrite the shopping cart: 
 
-``` 
+``` javascript
 add_filter('multisafepay_order_request', 'return_my_multisafepay_order_request');
 function return_my_own_locale( \MultiSafepay\Api\Transactions\OrderRequest $order_request) {
     // Your conditions and logic to return a valid order request
@@ -230,7 +230,7 @@ To generate a payment link in your backend once an order is created, follow thes
 - Cards: [All](/docs/card-payments/) (The credit card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
 - Banking methods: All, except TrustPay
 - <<glossary:BNPL>>: All
-- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
+- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [Google Pay](/docs/google-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Baby Cadeaubon
     - Beauty and Wellness gift card
