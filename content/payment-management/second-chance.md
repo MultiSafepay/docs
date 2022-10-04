@@ -1,7 +1,7 @@
 ---
 title: 'Second Chance reminders'
 category: 6278c92bf4ad4a00361431b0
-order: 80
+order: 50
 hidden: false
 slug: 'second-chance'
 excerpt: 'Boost conversion by sending customers reminders about abandoned payments.'
