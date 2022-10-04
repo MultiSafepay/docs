@@ -59,7 +59,7 @@ It does **not** support the following methods:
 
 | Method type | Unsupported methods |
 |---|---|
-| **BNPL** | AfterPay, Betaal per Maand, in3, Klarna |
+| **BNPL** | Betaal per Maand, in3, Klarna, Riverty |
 | **Wallets** | Alipay, Apple Pay, WeChat Pay |
 | **Banking** | Bancontact QR, Belfius, CBC/KBC, EPS, iDEAL QR, Request to Pay, Sofort, Trustly |
 | **Prepaid cards** | PaySafecard |

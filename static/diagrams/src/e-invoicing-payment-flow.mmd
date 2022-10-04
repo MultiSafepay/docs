@@ -14,7 +14,7 @@ sequenceDiagram
     MF->>Mu: Authorizes the payment
     Mu->>MF: Captures the funds
     Me->>C: Ships the order
-    Note over Me,C: Manually change the order status to Shipped. 
+    Note over Me: Manually change the order status to Shipped. 
     MF->>C: Sends invoice (settlement is now guaranteed)
     C->>MF: Completes payment 
     MF->>Mu: Transfers funds 

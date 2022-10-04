@@ -11,12 +11,12 @@ You can apply discounts to orders via your dashboard or the API.
 <summary>Supported payment methods</summary>
 <br>
 
-- AfterPay
 - Alipay
 - E-Invoicing
 - in3
 - Klarna
 - Pay After Delivery
+- Riverty
 
 </details>
 
