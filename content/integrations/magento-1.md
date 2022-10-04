@@ -9,7 +9,7 @@ slug: 'magento-1'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.2.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.3.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 > ⚠️ Action required
 > Magento 1 is end-of-life. We recommend [upgrading as soon as possible](/docs/magento-1#upgrades).
@@ -19,6 +19,17 @@ slug: 'magento-1'
 <details id="changelog">
 <summary>Changelog</summary>
 <br>
+
+**3.3.0**
+Release date: Oct 4, 2022
+
+### Added
++ DAVAMS-528: Add Alipay+ payment method
+
+### Fixed
++ PLGMAGONE-757: Fixed issue to ensure all payment methods display in the checkout, related to the case sensitivity declaration in the config.xml file
+
+---
 
 **3.2.0**
 Release date: Sep. 16th, 2022
