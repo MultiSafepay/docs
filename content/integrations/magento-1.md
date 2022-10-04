@@ -24,7 +24,7 @@ slug: 'magento-1'
 Release date: Oct 4, 2022
 
 ### Added
-+ DAVAMS-528: Add AliPay+ payment method
++ DAVAMS-528: Add Alipay+ payment method
 
 ### Fixed
 + PLGMAGONE-757: Fixed issue to ensure all payment methods display in the checkout, related to the case sensitivity declaration in the config.xml file
