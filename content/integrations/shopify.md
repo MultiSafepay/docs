@@ -23,16 +23,22 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 To install or migrate, follow these steps:
 
 1. For increased security and stability, wait for off-peak hours and temporarily enable password protection for your webshop.
-2. From the Shopify app store, install the <a href="https://apps.shopify.com/multisafepay-payments" target="_blank">MultiSafepay Payments app</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-3. Enter your [site API key](/docs/sites#site-id-api-key-and-security-code), and specify whether it is a **live** or **test** key.
-4. Click **Save and continue** (might take a few seconds).
-    A pop up or new tab opens.
-5. Scroll down and click **Activate MultiSafepay payments**.
-6. Under **Admin** > **Settings** > **Payments** > **Alternative payment methods**, check that the app has been successfully added. 
-7. In your Shopify checkout, test the **MultiSafepay payments** gateway.
-    ❗️ If using a test API key, make sure you also enable **Test mode**.
-8. For existing merchants, under **Admin** > **Settings** > **Payments** > **Third-party payment providers**, disable the deprecated individual MultiSafepay payment method gateways.
-9. Once testing is complete, disable password protection again.
+2. Check that the payment methods you want to use in Shopify are [activated for your MultiSafepay account](/docs/payment-methods). 
+3. From the Shopify app store, install the <a href="https://apps.shopify.com/multisafepay-payments" target="_blank">MultiSafepay payments app</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+4. Under **Settings**:
+   - **Website API key**: Enter your [site API key](/docs/sites#site-id-api-key-and-security-code).
+   - **Environment**: Set whether it is a **live** or **test** key.
+5. Click **Save and continue** (might take a few seconds).
+    You are redirected to **Settings** > **Payments**.
+6. For each payment method you want to activate, on the **<Payment method> app** page:
+   - If Shopify has not reviewed the payment method yet, click **Install unlisted app**.
+   - Select the payment method checkbox.
+   - Under **Test mode**, select the **Enable test mode** checkbox.
+   - Click **Activate <payment method>**.
+    If the payment method is **not** activated for your MultiSafepay account, an error appears. 
+7. [Activate the method for your MultiSafepay account](/docs/payment-methods), and then in Shopify, click **Retry**. 
+
+**Note:** We recommend first testing each payment method before setting your **live** API key. 
 <br>
 
 ---
@@ -103,21 +109,20 @@ Payments are processed in the webshop's default currency only.
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/card-payments/)
-- Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/paypal/)
-- Prepaid cards: [Paysafecard](/docs/paysafecard/)
 - Banking methods: 
   - [Bancontact](/docs/bancontact/)
   - [Bank transfer](/docs/bank-transfer/)
   - [Belfius](/docs/belfius/)
-  - [CBC/KBC](/docs/cbc-kbc/)
-  - [Dotpay](/docs/dotpay/)
+  - [Direct debit](/docs/direct-debit/)
   - [EPS](/docs/eps/)
   - [Giropay](/docs/giropay/)
-  - [iDEAL and iDEAL QR](/docs/ideal/)
-  - [Request to Pay](/docs/request-to-pay/)
+  - [iDEAL](/docs/ideal/)
   - [Sofort](/docs/sofort/)
   - [Trustly](/docs/trustly/)
+- BNPL: [in3](/docs/in3/)
+- Cards: [All](/docs/card-payments/)
+- Prepaid cards: [Paysafecard](/docs/paysafecard/), Fashioncheque
+- Wallets: [WeChat Pay](/docs/wechat-pay/)
 
 </details> 
 
