@@ -27,7 +27,7 @@ Release date: Oct 4, 2022
 + DAVAMS-528: Add Alipay+ payment method
 
 ### Fixed
-+ PLGMAGONE-757: Fixed issue to ensure all payment methods display in the checkout, related to the case sensitivity declaration in the config.xml file
++ PLGMAGONE-757: Fixed issue to ensure all payment methods display in the checkout, related to the case sensitivity declaration in the configuration file
 
 ---
 
