@@ -1,17 +1,17 @@
 ---
-title: 'AfterPay'
+title: 'Riverty (Riverty)'
 category: 6298bd782d1cf4006032e765
-order: 201
+order: 206
 hidden: false
 parentDoc: 62bd75142e264000a66d62b5
-slug: 'afterpay'
+slug: 'riverty'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/afterpay.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://github.com/MultiSafepay/MultiSafepay-icons/blob/master/methods/afterpay-riverty-transition-logo.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a href="https://www.afterpay.nl/en/" target="_blank">AfterPay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a widely used <<glossary:BNPL>> method in the Netherlands and Belgium. AfterPay bears the risk and guarantees <<glossary:settlement>>.
+<a href="https://www.riverty.com/nl-nl/" target="_blank">Riverty</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (formerly AfterPay) is a widely used <<glossary:BNPL>> method in the Netherlands and Belgium. Riverty bears the risk and guarantees <<glossary:settlement>>.
 
-Read how AfterPay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/afterpay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+<!--Read how Riverty can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/afterpay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>-->
 
 | Supports | Details |
 |---|---|
@@ -27,7 +27,7 @@ Read how AfterPay can benefit your business on <a href="https://www.multisafepay
 This diagram shows the flow for a successful transaction. Click to magnify.
 
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/afterpay-payment-flow.svg" alt="AfterPay payment flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/riverty-payment-flow.svg" alt="Riverty payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;width: 100%;">
@@ -38,33 +38,33 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| AfterPay has authorized the transaction and the funds are awaiting capture. You can still cancel. <br> ❗️ To capture the funds, when you ship the order you must manually [change the order status to Shipped](#shipment). | Completed  | Uncleared  |
+| Riverty has authorized the transaction and the funds are awaiting capture. You can still cancel. <br> ❗️ To capture the funds, when you ship the order you must manually [change the order status to Shipped](#shipment). | Completed  | Uncleared  |
 | The funds are captured. <br> You can no longer cancel. You can only refund. | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped | Completed |
-| AfterPay has declined the transaction. <br> Only the customer can contact AfterPay to find out why (for privacy and compliance reasons).  | Declined | Declined |
-| AfterPay authorized the transaction, but you or the customer cancelled it before capture. | Void | Void/Cancelled |
-| AfterPay authorized the transaction, but you didn't ship within 90 days of creating the transaction **or** the customer didn't complete payment. | Expired | Expired |
+| Riverty has declined the transaction. <br> Only the customer can contact Riverty to find out why (for privacy and compliance reasons).  | Declined | Declined |
+| Riverty authorized the transaction, but you or the customer cancelled it before capture. | Void | Void/Cancelled |
+| Riverty authorized the transaction, but you didn't ship within 90 days of creating the transaction **or** the customer didn't complete payment. | Expired | Expired |
 | **Refunds:** Refund initiated. | Initialized | Completed |
 | **Refunds:** Refund complete. | Completed | Completed |
 
 # Activation 
 
-To activate AfterPay for your account, email AfterPay at <sales@afterpay.nl>  
+To activate Riverty for your account, email Riverty at <sales@riverty.nl>  
 
-AfterPay provides you with an API key per country and per site, and you must accept AfterPay's terms and conditions for each. 
+Riverty provides you with an API key per country and per site, and you must accept Riverty's terms and conditions for each. 
 
 # Integration
 
 ### API
 
-- You will need an API key from AfterPay per country per [site](/docs/sites/).
+- You will need an API key from Riverty per country per [site](/docs/sites/).
 - See API reference – [Create order](/reference/createorder/) > BNPL order.
   
   <details id="example-requests"> 
   <summary>Example requests</summary>
   <br>
 
-  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **AfterPay direct/redirect**.
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Riverty direct/redirect**.
 
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 
@@ -76,7 +76,7 @@ AfterPay provides you with an API key per country and per site, and you must acc
 
 ### Ready-made integrations
 
-AfterPay is supported in many of our ready-made integrations.
+Riverty is supported in many of our ready-made integrations.
 
 <details id="supported-ready-made-integrations"> 
 <summary>Supported ready-made integrations</summary>
@@ -99,7 +99,7 @@ AfterPay is supported in many of our ready-made integrations.
 
 ### Testing
 
-To test AfterPay payments, see Testing payment methods – [BNPL methods](/docs/testing#bnpl-methods).
+To test Riverty payments, see Testing payment methods – [BNPL methods](/docs/testing#bnpl-methods).
 <br>
 
 ---
@@ -118,9 +118,9 @@ Phone **+31 207 230 230** or email <merchant@afterpay.com>
 
 ## Gift cards
 
-When paying with a gift card and AfterPay, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
+When paying with a gift card and Riverty, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. 
 
-This is because AfterPay collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+This is because Riverty collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
 
@@ -160,9 +160,9 @@ For other ready-made integrations, make an [update order](/reference/updateorder
 ## Surcharges  
 Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to <<glossary:BNPL>> methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
-AfterPay therefore strongly recommends discontinuing any surcharges. 
+Riverty therefore strongly recommends discontinuing any surcharges. 
 
-For more information, see AfterPay – <a href="https://www.afterpay.nl/nl/consumenten/vraag-en-antwoord/" target="_blank">Merchant support</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+For more information, see Riverty – <a href="https://www.afterpay.nl/nl/consumenten/vraag-en-antwoord/" target="_blank">Merchant support</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 <br>
 
 ---

@@ -13,7 +13,7 @@ Some payment methods you can activate yourself in your dashboard, but for some y
 |---|---|
 | [Apply to MultiSafepay](#apply-to-multisafepay) then activate in dashboard | Credit and debit cards and wallets (**except** PayPal), direct debit, Dotpay, in3, Pay After Delivery |
 | [Activate in dashboard](#activate-in-dashboard) | Banking methods, E-Invoicing   |
-| [Own flow](#own-flow) | AfterPay, Betaal per Maand, Klarna, Edenred, gift cards, Paysafecard, PayPal |
+| [Own flow](#own-flow) | Betaal per Maand, Klarna, Edenred, gift cards, Paysafecard, PayPal, Riverty |
 
 ### Ready-made integrations
 
@@ -30,7 +30,7 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
 |---|---|
 | All countries | Alipay, Alipay+, American Express, Apple Pay, E-Invoicing, Google Pay, Maestro, Mastercard, PayPal, Paysafecard, Visa, WeChat Pay |
 | Austria | EPS, Klarna, PayPal, Sofort, Trustly |
-| Belgium | AfterPay, Bancontact, Belfius, CBC/KBC, Edenred, gift cards, Klarna, PayPal, Sofort, Trustly |
+| Belgium | Bancontact, Belfius, CBC/KBC, Edenred, gift cards, Klarna, PayPal, Riverty, Sofort, Trustly |
 | Bulgaria | PayPal, Trustly |
 | Croatia | PayPal, Trustly |
 | Cyprus | PayPal, Trustly |
@@ -49,7 +49,7 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
 | Lithuania | PayPal, Trustly |
 | Luxembourg | PayPal, Trustly |
 | Malta | PayPal, Trustly |
-| Netherlands | AfterPay, Betaal per Maand, gift cards, iDEAL, in3, Klarna, Pay After Delivery, PayPal, Trustly |
+| Netherlands | Betaal per Maand, gift cards, iDEAL, in3, Klarna, Pay After Delivery, PayPal, Riverty, Trustly |
 | Norway | Klarna, PayPal, Trustly |
 | Poland | Dotpay, PayPal, Sofort, Trustly |
 | Portugal | PayPal, Trustly |
@@ -112,18 +112,6 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
 **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 
 # Own flow
-
-## AfterPay
-
-<details id="how-to-activate-afterpay"> 
-<summary>How to activate AfterPay</summary>
-<br>
-
-To activate AfterPay for your account, email AfterPay at <sales@afterpay.nl> 
-
-AfterPay provides you with an API key per country and per site, and you must accept AfterPay's terms and conditions for each. 
-
-</details>
 
 ## Betaal per Maand
 
@@ -269,6 +257,18 @@ To configure your MultiSafepay account for PayPal, follow these steps:
 > Your account is now configured!  
 
 We strongly recommend [testing transactions](/docs/testing/) before processing live payments. 
+</details>
+
+## Riverty
+
+<details id="how-to-activate-riverty"> 
+<summary>How to activate Riverty</summary>
+<br>
+
+To activate Riverty for your account, email Riverty at <sales@riverty.nl> 
+
+Riverty provides you with an API key per country and per site, and you must accept Riverty's terms and conditions for each. 
+
 </details>
 
 <br>

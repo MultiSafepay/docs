@@ -8,7 +8,6 @@ hidden: false
 
 | Payment method                         | Gateway ID    |
 | -------------------------------------- | ------------- |
-| AfterPay                               | `AFTERPAY`    |
 | Alipay                                 | `ALIPAY`      |
 | Alipay+                                | `ALIPAYPLUS`  |
 | American Express                       | `AMEX`        |
@@ -36,6 +35,7 @@ hidden: false
 | PayPal                                 | `PAYPAL`      |
 | Paysafecard                            | `PSAFECARD`   |
 | Request to Pay                         | `DBRTP`       |
+| Riverty                                | `AFTERPAY`    |
 | Direct debit                           | `DIRDEB`      |
 | Sofort                                 | `DIRECTBANK`  |
 | Trustly                                | `TRUSTLY`     |

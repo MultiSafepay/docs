@@ -2,21 +2,21 @@ sequenceDiagram
     autonumber
     participant C as Customer
     participant Mu as MultiSafepay
-    participant A as AfterPay
+    participant R as Riverty
     participant Me as Merchant
 
-    C->>Mu: Selects AfterPay at checkout
+    C->>Mu: Selects Riverty at checkout
     alt Redirect flow
     Mu->>C: Redirects to payment page to accept terms & conditions <br> and provide their email address, date of birth, and phone number, <br> then redirects to your success page
     else Direct flow
-    Mu->>C: Redirects to AfterPay
+    Mu->>C: Redirects to Riverty
     end
-    A->>Mu: Authorizes the payment
-    Mu->>A: Captures the funds
+    R->>Mu: Authorizes the payment
+    Mu->>R: Captures the funds
     Me->>C: Ships the order
-    Note over Me,C: Manually change the order status to Shipped. 
-    A->>C: Sends invoice (standard period of 14 days, settlement is now guaranteed)
-    C->>A: Completes payment with preferred method
-    A->>Mu: Transfers funds 
+    Note over Me: Manually change the order status to Shipped. 
+    R->>C: Sends invoice (standard period of 14 days, settlement is now guaranteed)
+    C->>R: Completes payment with preferred method
+    R->>Mu: Transfers funds 
     Mu->>Me: Settles funds
 

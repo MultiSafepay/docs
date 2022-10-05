@@ -10,7 +10,7 @@ Before you start processing real transactions with MultiSafepay, we recommend te
 
 # Credentials
 
-For all payment methods **except** AfterPay, you need your site's test [API key](/docs/sites#site-id-api-key-and-security-code).
+For all payment methods **except** Riverty, you need your site's test [API key](/docs/sites#site-id-api-key-and-security-code).
 
 # How to make a test payment
 
@@ -275,52 +275,6 @@ You can also test the following scenarios:
 ---
 ## BNPL methods
 
-<details id="afterpay">
-<summary>How to test AfterPay</summary>
-<br>
-
-**Request an API key**
-
-1. Request a test API key from AfterPay via either:
-    - Your implementation ticket with AfterPay, **or**
-    - Email <sales@afterpay.nl>
-
-    AfterPay shares the test key with MultiSafepay.
-
-2. To enable AfterPay in your MultiSafepay test account, email <integration@multisafepay.com>
-
-**Test an AfterPay order**
-
-1. [Create an order](/reference/createorder/) > BNPL order  
-    Example: AfterPay direct/redirect
-2. For redirect orders, select the checkbox at the bottom of the AfterPay page, and then click **Confirm**.  
-The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Uncleared**.
-
-**Test declining an order**  
-
-To decline an order, in your test account under **Order summary**, click **Decline**.  
-The transaction and order statuses change to **Void**.
-
-**Test AfterPay rejecting an order**  
-
-To test AfterPay rejecting an order, in your direct or redirect API request, use the following email address: <rejection@afterpay.nl>  
-The transaction and order statuses change to **Declined**.
-
-**Change the order status**  
-
-You can change the order status to **Shipped** or **Cancelled**.
-To change the order status, either:  
-
-- Make an [update order](/reference/updateorder/) request, or 
-- In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
-
-**Note:** You can't test:  
- - Receiving successful payment notifications from AfterPay
- - Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**
- - Processing refunds
-
-</details>
-
 <details id="e-invoicing-pay-after-delivery">
 <summary>How to test E-Invoicing & Pay After Delivery</summary>
 <br>
@@ -457,12 +411,58 @@ To refund an order:
 
 You can only test invoicing in your MultiSafepay live account. To do this, change the order status to **Shipped**.
 
-> **Note** You can't test:
-> - Receiving successful payment notifications from Klarna
-> - Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**, except for refunds
+**Note** You can't test:
+- Receiving successful payment notifications from Klarna
+- Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**, except for refunds
 
-> ℹ More information
-> To learn more about integrating Klarna with MultiSafepay, see [Klarna](/docs/klarna/).
+ℹ More information
+To learn more about integrating Klarna with MultiSafepay, see [Klarna](/docs/klarna/).
+
+</details>
+
+<details id="riverty">
+<summary>How to test Riverty</summary>
+<br>
+
+**Request an API key**
+
+1. Request a test API key from Riverty via either:
+    - Your implementation ticket with Riverty, **or**
+    - Email <sales@riverty.nl>
+
+    Riverty shares the test key with MultiSafepay.
+
+2. To enable Riverty in your MultiSafepay test account, email <integration@multisafepay.com>
+
+**Test an Riverty order**
+
+1. [Create an order](/reference/createorder/) > BNPL order  
+    Example: Riverty direct/redirect
+2. For redirect orders, select the checkbox at the bottom of the Riverty page, and then click **Confirm**.  
+The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Uncleared**.
+
+**Test declining an order**  
+
+To decline an order, in your test account under **Order summary**, click **Decline**.  
+The transaction and order statuses change to **Void**.
+
+**Test Riverty rejecting an order**  
+
+To test Riverty rejecting an order, in your direct or redirect API request, use the following email address: <rejection@afterpay.nl>  
+The transaction and order statuses change to **Declined**.
+
+**Change the order status**  
+
+You can change the order status to **Shipped** or **Cancelled**.
+To change the order status, either:  
+
+- Make an [update order](/reference/updateorder/) request, or 
+- In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
+
+**Note:** You can't test:  
+ - Receiving successful payment notifications from Riverty
+ - Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**
+ - Processing refunds
 
 </details>
 
