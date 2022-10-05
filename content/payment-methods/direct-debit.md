@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 107
 hidden: false
 parentDoc: 62a728d48b97080046c1d220
-slug: 'sepa-direct-debit'
+slug: 'direct-debit'
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/directdebit-en.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
