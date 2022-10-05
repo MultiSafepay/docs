@@ -53,7 +53,7 @@ This technical manual is for embedding FastCheckout into your site using JavaScr
    | Key | Required | Value |
    |---|---|---|
    | `brand` | No | Applies the default FastCheckout styling <br> Set to `fco` |
-   | `locale` | No | Sets the language of the FastCheckout page <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> Supported languages: `DE`, `EN`, `ES`, `FR`, `IT`, `NL` |   
+   | `locale` | No | Sets the language and country of the FastCheckout page <br> Format: <br> - <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO-639 language code </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> - <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2 country code</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> Supported locales: `de_DE`, `en_US`, `es_ES`, `fr_FR`, `it_IT`, `nl_NL` |   
    | `sessionId` | Yes | The identifier of the MultiSafepay session |
    <br>
 
