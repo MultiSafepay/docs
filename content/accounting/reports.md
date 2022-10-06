@@ -441,7 +441,7 @@ To identify transactions in reports by payment method, use the following N-codes
 | N102   | [BELFIUS](/docs/belfius/) |
 | N103   | [EPS](/docs/eps/) |
 | N104   | [EINVOICE](/docs/e-invoicing/) |
-| N105   | [AFTERPAY](/docs/afterpay/) |
+| N105   | [Riverty](/docs/riverty/) |
 | N107   | FERBUY  |
 | N108   | [TRUSTLY](/docs/trustly/) |
 | N109   | [KBC](/docs/cbc-kbc/) | 
