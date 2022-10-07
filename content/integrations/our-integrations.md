@@ -21,29 +21,33 @@ Check out our most popular integrations:
 We also offer integrations for the following platforms:
 <br>
 
-[block:html]
-{
-  "html": "<div class=\"auto-grid\">\n    <div class=\"card-container\">\n        <a href=\"/docs/craft-commerce/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Craft_Commerce.svg" style=\"margin: 5px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>Craft Commerce</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/cs-cart/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/CS-Cart.svg" style=\"margin: 5px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>CS-Cart</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n  <div class=\"card-container\">\n        <a href=\"/docs/drupal/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Drupal_8.svg" style=\"margin: 5px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>Drupal</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/magento-1/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Magento.svg" style=\"margin: 5px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>Magento 1</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n  </div>"
-}
-[/block]
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Craft_Commerce.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [Craft Commerce](/docs/craft-commerce)
 
-[block:html]
-{
-  "html": "<div class=\"auto-grid\">\n    <div class=\"card-container\">\n        <a href=\"/docs/odoo/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Odoo.svg" style=\"margin: 5px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>Odoo</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/opencart/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/OpenCart.svg" style=\"margin: 5px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>OpenCart</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n  <div class=\"card-container\">\n        <a href=\"/docs/oscommerce/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/OsCommerce.svg" style=\"margin: 5px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>OsCommerce</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/prestashop-1-6/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/PrestaShop_16.svg" style=\"margin: 5px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>PrestaShop 1.6</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n  </div>"
-}
-[/block]
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/CS-Cart.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [CS-Cart](/docs/cs-cart)
 
-[block:html]
-{
-  "html": "<div class=\"auto-grid\">\n    <div class=\"card-container\">\n        <a href=\"/docs/pwa-studio-venia/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento_PWA.svg" style=\"margin: 5px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>PWA Studio (Venia)</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/scandipwa/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/ScandiPWA.svg" style=\"margin: 5px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>ScandiPWA</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n  <div class=\"card-container\">\n        <a href=\"/docs/virtuemart/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/VirtueMart.svg" style=\"margin: 5px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>VirtueMart</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/vue-storefront/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Vue_Storefront.svg" style=\"margin: 5px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>Vue Storefront</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n  </div>"
-}
-[/block]
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Drupal_8.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [Drupal](/docs/drupal)
 
-[block:html]
-{
-  "html": "<div class=\"auto-grid\">\n    <div class=\"card-container\">\n        <a href=\"/docs/x-cart/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/X-Cart.svg" style=\"margin: 5px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>X-Cart</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/zen-cart/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Zen_Cart.svg" style=\"margin: 5px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>Zen Cart</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n  </div>"
-}
-[/block]
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Magento.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [Magento 1](/docs/magento-1)
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Odoo.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [Odoo](/docs/odoo)
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/OpenCart.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [OpenCart](/docs/opencart)
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/OsCommerce.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [OsCommerce](/docs/oscommerce)
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/PrestaShop_16.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [PrestaShop 1.6](/docs/prestashop-1-6)
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento_PWA.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [PWA Studio (Venia)](/docs/pwa-studio-venia)
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/ScandiPWA.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [ScandiPWA](/docs/scandipwa)
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/VirtueMart.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [VirtueMart](/docs/virtuemart)
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Vue_Storefront.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [Vue Storefront](/docs/vue-storefront)
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/X-Cart.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [X-Cart](/docs/x-cart)
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Zen_Cart.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [Zen Cart](/docs/zen-cart)
 
 <br>
 

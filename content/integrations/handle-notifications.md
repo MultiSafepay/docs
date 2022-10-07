@@ -161,7 +161,7 @@ Until we receive your acknowledgment, we resend the notification 4 times at 15 m
 If for some reason you don't receive a notification:
 
 1. In your MultiSafepay test account, go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
-2. On the **Transaction details** page, under **Offline actions**, click <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/offline-actions-webhookendpoint.png'> and check that the URL displayed is the correct webhook endpoint.
+2. On the **Transaction details** page, under **Notification history**, click <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/offline-actions-webhookendpoint.png'> and check that the URL displayed is the correct webhook endpoint.
 4. If the webhook endpoint is correct, click <img src='https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/offline-actions-resend.png'> to resend the notification.
 
 ✅&nbsp; **Tip!** If you **still** don't receive a notification, you may need to authorize MultiSafepay servers' IP addresses on your web server. For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>

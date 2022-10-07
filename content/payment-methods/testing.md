@@ -40,7 +40,7 @@ For all payment methods **except** Riverty, you need your site's test [API key](
 3. Complete the test payment.
 4. To check the transaction details, sign in to your <a href="https://testmerchant.multisafepay.com/" target="_blank">test dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 5. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
-6. On the **Transaction details** page, under **Offline actions**, to see if you have successfully connected to our system, check that you've correctly received the **notifyMerchantTrans** action.  
+6. On the **Transaction details** page, under **Notification history**, to see if you have successfully connected to our system, check that you've correctly received the **notifyMerchantTrans** action.  
     For information about errors, see [HTTP errors](/docs/http-errors/).
 
 > ✅ Success!

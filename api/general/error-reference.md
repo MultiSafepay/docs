@@ -6,7 +6,7 @@ order: 7
 hidden: false
 ---
 
-This page lists error codes you may encounter in transaction responses or statuses, or under **Offline actions** in your MultiSafepay dashboard, possible causes and how to resolve them.
+This page lists error codes you may encounter in transaction responses or statuses, or under **Notification history** in your MultiSafepay dashboard, possible causes and how to resolve them.
 
 ---
 ### 1000: Unknown error
