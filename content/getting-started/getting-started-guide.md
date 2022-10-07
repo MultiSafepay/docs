@@ -6,7 +6,9 @@ hidden: false
 slug: 'getting-started-guide'
 ---
 
-Learn how to get started with MultiSafepay as your smart payment services provider.
+This page provides an overview of how to get started with MultiSafepay as your smart payment services provider.
+
+For detailed information about each step, read the full guidance.
 
 # 1. Create a free test account
 
