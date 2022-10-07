@@ -15,10 +15,12 @@ Check out our most popular integrations:
 [/block]
 
 ---
+
 <br>
 
 We also offer integrations for the following platforms:
 <br>
+
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Craft_Commerce.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [Craft Commerce](/docs/craft-commerce)
 
