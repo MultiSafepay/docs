@@ -329,7 +329,7 @@ You can't refund more than the original amount in your backend.
 <br>
 
 - For refunds created in your Lightspeed backend, a short message appears in the **Notes** section of the order where any errors are explained.
-- Refunds created in your MultiSafepay dashboard are not reported back to Lightspeed. Under **Offline actions**, an error appears: "Already a completed transaction".
+- Refunds created in your MultiSafepay dashboard are not reported back to Lightspeed. Under **Notification history**, an error appears: "Already a completed transaction".
 - Some <<glossary:BNPL>> orders:
     - Require product IDs for each refunded item. When using product variants, make sure each variant has a unique identifier. If you provide duplicate IDs, we cannot distinguish which items to refund.
     - Do not let you refund a partial amount and a full item in a single request, e.g. a shopping cart contains 3 items for a total of 1.70 EUR. If you refund 1 item and 0.40 EUR, it fails. Make sure you refund items and amounts separately.
