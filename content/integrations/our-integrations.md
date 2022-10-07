@@ -16,7 +16,11 @@ Check out our most popular integrations:
 
 ---
 
+<br>
+
 We also offer integrations for the following platforms:
+<br>
+
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Craft_Commerce.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [Craft Commerce](/docs/craft-commerce)
 
@@ -34,17 +38,18 @@ We also offer integrations for the following platforms:
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/PrestaShop_16.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [PrestaShop 1.6](/docs/prestashop-1-6)
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/CS-Cart.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [PWA Stuio (Venia)](/docs/pwa-studio-venia)
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento_PWA.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [PWA Studio (Venia)](/docs/pwa-studio-venia)
 
-<img src=https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento_PWA.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [ScandiPWA](/docs/scandipwa)
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/ScandiPWA.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [ScandiPWA](/docs/scandipwa)
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/VirtueMart.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [VirtueMart](/docs/virtuemart)
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Vue_Storefront.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [Vue Storefront](/docs/vue-storefront)
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/x-cart.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [X-Cart](/docs/x-cart)
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/X-Cart.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [X-Cart](/docs/x-cart)
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/zen-cart.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [Zen Cart](/docs/zen-cart)
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Zen-Cart.svg" width="20" align ="left" style="transform: translate(-50%, -50%);"/> [Zen Cart](/docs/zen-cart)
+<br>
 
 ---
 
