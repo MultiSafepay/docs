@@ -15,7 +15,6 @@ To test using the API sandbox, you need to [create a test account](/docs/create-
 }
 [/block]
 
-
 # Direct vs redirect
 
 With our API, you can create transactions through direct and redirect requests.
