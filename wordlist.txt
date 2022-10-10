@@ -461,6 +461,7 @@ dropdown
 ecommerce
 eps
 erotiekbon
+fff
 facto
 fastcheckout
 fijncadeau
@@ -496,10 +497,12 @@ magento
 merchanttransactionid
 middleware
 mijn
+minmax
 msi
 multisafepay
 myShop
 naar
+nb
 nbsp
 nistp
 nl
@@ -524,9 +527,11 @@ pauzed
 paymentmethod
 png
 pre
+px
 readme
 reputational
 rgb
+rgba
 signup
 smartcard
 sofort
