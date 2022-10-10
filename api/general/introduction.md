@@ -16,7 +16,6 @@ To test using the API sandbox, you need to [create a test account](/docs/create-
 
 # Direct vs redirect
 
-
 With our API, you can create transactions through direct and redirect requests.
 
 Direct requests connect directly to the payment method, whereas redirect requests first send the customer to a [payment page](/docs/payment-pages/).
