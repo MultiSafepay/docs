@@ -9,8 +9,11 @@ hidden: false
 Welcome to the MultiSafepay API reference (JSON gateway)!
 
 To test using the API sandbox, you need to [create a test account](/docs/create-account/).
-
-Take the <a href="https://youtu.be/hH6zdzN9BRs" target="_blank">video tour</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>!
+[block:html]
+{
+  "html": "<iframe width="300" src="https://www.youtube.com/embed/hH6zdzN9BRs" title="API reference video tour" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+}
+[/block]
 
 # Direct vs redirect
 
