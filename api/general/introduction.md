@@ -10,12 +10,11 @@ Welcome to the MultiSafepay API reference (JSON gateway)!
 
 To test using the API sandbox, you need to [create a test account](/docs/create-account/).
 
-Take the video tour!
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIRefVideoTourThumbnail.png" align ="left"/>
 
-[MultiSafepay API reference video tour](https://youtu.be/hH6zdzN9BRs "@embed")
+<a href="https://youtu.be/hH6zdzN9BRs" target="_blank">Video tour</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 # Direct vs redirect
-
 
 With our API, you can create transactions through direct and redirect requests.
 
