@@ -1,3 +1,4 @@
+aan
 ABN
 ABNA
 ACCOUNTADDRESS
@@ -183,6 +184,7 @@ HRK
 HUF
 Handelsbanken
 Handleiding
+Herinnering
 Home'Pay
 Huis
 IBAN
@@ -265,6 +267,7 @@ Ohmygood
 Omnipay
 OneStepCheckout
 Ontvangst
+onze
 OpenCart
 OroCommerce
 OsCommerce
@@ -294,6 +297,8 @@ Picqer
 Popolare
 Postbus
 Postepay
+prefinances
+prefinancing
 Premarc
 PrestaShop
 Proef
