@@ -28,7 +28,7 @@ All affiliates must [onboard](/docs/onboarding/) and sign an agreement with Mult
 
 You can also automate onboarding affiliates [via our API](/docs/affiliate-onboarding-api).
 
-**Support:** For any questions, affiliates can email <partner@multisafepay.com>
+💬  **Support:** For any questions, affiliates can email <partner@multisafepay.com>
 
 # 3. Access affiliated accounts
 

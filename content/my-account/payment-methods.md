@@ -109,7 +109,7 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
         - Under **Payment methods**, click **Select payment methods**.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 
-**Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 
 # Own flow
 
@@ -189,7 +189,7 @@ We recommend testing Klarna payments via the Klarna Portal to experience the ful
 
 For questions, see Klarna – <a href="https://www.klarna.com/nl/klantenservice" target="_blank">Klantenservice</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-**Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 </details>
 
 ## PayPal
