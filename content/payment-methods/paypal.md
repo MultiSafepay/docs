@@ -83,7 +83,7 @@ To complete the configuration, change the language encoding setting of your PayP
 5. From the **Encoding** list, select **UTF-8**.
 6. Select the **Yes** checkbox, and then click **Save**.
 
-**Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
+💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
 > - MultiSafepay – <integration@multisafepay.com>
 > - PayPal – <a href="https://www.paypal.com/us/smarthelp/contact-us" target="_blank">Contact us</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 

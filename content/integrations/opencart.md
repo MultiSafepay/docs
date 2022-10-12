@@ -138,7 +138,7 @@ If you're new to accepting credit card payments, email a request to activate the
 
 **Note:** Tokenization is available only when **Payment Component** is activated.
 
-**Support:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+💬  **Support:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
