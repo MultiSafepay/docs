@@ -9,7 +9,7 @@ slug: 'e-invoicing'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/e-invoicing.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
-E-Invoicing is a MultiSafepay <<glossary:BNPL>> method with automation tools that gives you full control of credit management, the payment process, and customer communications.
+E-Invoicing is a highly flexible MultiSafepay <<glossary:BNPL>> method that gives you full control of credit management, the collection flow, and customer communications in multiple languages. Optionally, leverage MultiSafepay's powerful customer credibility score technology to reduce fraud. 
 
 Read how E-Invoicing can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/e-invoicing" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
@@ -18,6 +18,7 @@ Read how E-Invoicing can benefit your business on <a href="https://www.multisafe
 | [Countries](/docs/payment-methods#payment-methods-by-country)  | Worldwide  | 
 | [Currencies](/docs/currencies/) | EUR  | 
 | [Chargebacks](/docs/chargebacks/)  | No |
+| [Partial capture](#partially-ship-order) | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
 | [Refunds](/docs/refund-payments/) | Yes: Full, partial, and API refunds, and [discounts](/docs/discounts/) |
 | [Second Chance](/docs/second-chance/) | Yes |
@@ -38,13 +39,13 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| MultiSafepay's risk analysis is in progress. You can still cancel. | Initialized   | Initialized  |
-| E-Invoicing has authorized the transaction. <br> You can no longer cancel. You can only refund. | Completed  | Initialized  |
+| The [customer credibility score](#customer-credibility-score) (if requested) is in progress. You can still cancel. | Initialized   | Initialized  |
+| MultiFactor has authorized the transaction. <br> You can no longer cancel. You can only refund. | Completed  | Initialized  |
 | ❗️ [Manually change the order status to Shipped](#shipment). <br> You must ship to receive payment. | Shipped | Initialized |
 | MultiSafepay has collected payment. | Completed    | Completed  |
-| E-Invoicing declined the transaction. | Declined | Declined |
+| MultiFactor declined the transaction. | Declined | Declined |
 | The transaction has been cancelled. | Void/Cancelled | Void/Cancelled |
-| The customer didn't complete payment. | Expired | Expired |
+| The customer didn't complete payment, or the order [expired](#expiration-and-extensions). | Expired | Expired |
 | **Refunds:** Refund initiated. | Initialized | Initialized |
 | **Refunds:** Refund complete.  | Completed | Completed |
 
@@ -63,7 +64,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 # Integration
 
 ### API
-- See API reference – [Create order](/reference/createorder/) > BNPL order. 
+See API reference – [Create order](/reference/createorder/) > BNPL order. 
 
   <details id="example-requests"> 
   <summary>Example requests</summary>
@@ -75,20 +76,20 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   </details>
 
-- A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
-- Transactions don't expire.
-- For direct orders, you must display your terms and conditions in your checkout.
-
 ### Ready-made integrations
-Supported in all [ready-made integrations](/docs/our-integrations/) (direct).
+Supported in all [ready-made integrations](/docs/our-integrations/) (direct and redirect).
 
 ### Testing
-To test E-Invoicing payments, see Testing payment methods – [BNPL methods](/docs/testing#bnpl-methods).
+See Testing payment methods – [BNPL methods](/docs/testing#bnpl-methods).
 <br>
 
 ---
 
 # User guide
+
+## Addresses
+
+Different billing and shipping addresses are supported. Email a request to <sales@multisafepay.com> 
 
 ## Batches
 
@@ -105,6 +106,130 @@ You can generate E-Invoicing transactions in batches for subscription payments.
 
 </details>
 
+## Cancellation
+
+You can cancel the invoice order **before** shipment or **after** partial shipment.
+
+<details id="how-to-cancel-an-order">
+<summary>How to cancel an order</summary>
+<br>
+
+**In your dashboard**
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, click **Cancel**.
+4. Add a description of what happened with the order, and then click **Complete**.
+   The <<glossary:order status>> changes to **Void** and the <<glossary:transaction status>> to **Cancelled**.
+
+**Via the API** 
+
+See API reference – [Update or cancel order](/reference/updateorder).
+
+---
+
+</details>
+
+## Collection flow
+
+You can fully customize the collection flow.
+
+<details id="how-to-customize-collection-flows">
+<summary>How to customize collection flows</summary>
+<br>
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+2. Go to **E-Invoicing** > **Workflows**.
+3. Click **Create new**.
+4. Under **Settings**, you can select a previous template, if relevant. 
+5. In the **Description** field, enter the name of this collection flow. 
+6. From **Drag and drop**, drag and drop the relevant collection flow elements under **Drop elements here**.
+7. For each element, in the **Communication settings** dialog, you can:
+
+    - Rename the communication flow in the **Description** field. 
+    - Request manual approval before the communication is sent. 
+    - Adjust the transaction fee by a fixed amount or percentage.
+    - Set how many days the payment link is valid for.
+    - Schedule when the next step in the collection flow will take place. 
+    - Specify the day of the week and time of day to send the communication.
+8. Click **Save**.
+
+---
+
+</details>
+
+## Communications with the customer
+
+You can fully customize your communications with the customer, including via email, letter (within the EU), SMS, and WhatsApp. 
+
+MultiSafepay can also append a PDF invoice (with your custom formatting) to the communication (except for SMS) on request. Email <sales@multisafepay.com>
+
+<details id="how-to-customize-communications">
+<summary>How to customize communications</summary>
+<br>
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+2. Go to **E-Invoicing** > **Actions**.
+3. Click **Add new template**.
+4. Select the delivery method: Email, SMS, or letter.
+5. In the **Description** field, enter the name of the template. 
+6. From the **Language** list, select the template language: Dutch, English, French, German, Italian, Portuguese, Russian, Spanish.
+7. In the **From address** field, enter the email address you want the communication to appear to be sent from. 
+8. In the **From name** field, enter your company name. 
+9. In the **Subject** field, enter the communication subject line. 
+10. Edit the text **either** in the **Body plain** field, **or** if you know HTML and CSS, you can fully customize the content and layout in the **Body HTML** field. To view the HTML/CSS code, click **Source**.
+11. Click **Save**.
+
+---
+
+</details>
+
+## Customer credibility score
+
+You can request MultiSafepay to perform a credibility assessment of the customer to help reduce fraud. 
+Email <sales@multisafepay.com>
+
+## Customer pays you directly
+
+If the customer pays you directly instead of MultiSafepay, to complete the order, simply pay MultiSafepay the order amount from your account balance. This stops MultiSafepay sending the customer an invoice. 
+
+If you do so:
+- **After** MultiSafepay has paid you out, then we refund you the order amount
+- **Before** MultiSafepay pays you out, then we cancel the payout
+
+After paying for an order from your account balance, you can no longer refund the customer.
+
+<details id="how-to-complete-an-order-with-your-own-funds">
+<summary>How to complete an order with your own funds</summary>
+<br>
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, click **Complete own funds**.
+4. Add a description of what happened with the order, and then click **Complete**.
+   The <<glossary:transaction status>> changes to **Completed**.
+
+---
+
+</details>
+
+## Expiration and extensions
+
+You define the expiration period for the order, up to a maximum of 180 days (including extensions). If the order is not at least [partially shipped](#partially-ship-order) within this period, it is cancelled and [refunded](#refunds).
+
+<details id="how-to-extend-an-order">
+<summary>How to extend an order</summary>
+<br>
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, click **Extend**.
+   While extended, the <<glossary:order status>> remains **Shipped** and the <<glossary:transaction status>> remains **Uncleared**.
+
+---
+
+</details>
+
 ## Gift cards
 
 When paying with a gift card and E-Invoicing, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. Otherwise our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
@@ -113,73 +238,184 @@ You are solely responsible for this in your integration.
 
 ## Invoices
 
+MultiSafepay can customize the formatting of your invoices on request. Email <sales@multisafepay.com>
+
 <details id="how-to-view-invoices">
 <summary>How to view invoices</summary>
 <br>
-
-To see an overview of all successful transactions:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **E-Invoicing** > **Invoices**. 
 
 </details>
 
-<details id="how-to-customize-invoices">
-<summary>How to customize invoices</summary>
+<details id="how-to-generate-an-invoice">
+<summary>How to generate an invoice</summary>
 <br>
 
-To customize invoices:
-
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **E-Invoicing** > **E-Invoice generator**. 
+2. Go to **E-Invoicing** > **E-Invoice generator**.
+3. Fill out the shopping cart:
+
+    - In the **Quantity** field, enter the number of units of the item.
+    - In the **Name** field, enter the name of the item.
+    - In the **Unit price** field, enter the unit price of the item. 
+    - In the **Tax** field, enter the tax rate that applies to the item. 
+    - To add a new line for a different type of item, click **Add**.
+4. Fill out the required fields: **Address**, **Birthday**, **City**, **Country**, **Currency**, **Description**, **Email address**, **First name**, **Last name**, **Order ID**, **Phone number**, **Postal code / House number**, **State / Province**.
+5. From the **Site** list, select the relevant site. 
+6. From the **Payment flow** list, select the relevant collection flow. 
+7. Click **Generate invoice**. 
 
 The invoice is sent to the email address provided. 
+
+---
+
+</details>
+
+## Payment methods
+
+Customers can pay MultiSafepay using any of our payment methods, **except for** <<glossary:BNPL>> methods.
+
+## Refunds
+
+After shipment, you can refund the invoice order in full or in part, and with or without the `shopping_cart` object. 
+See [Shopping carts](#shopping-carts) below.
+
+<details id="about-partial-refunds">
+<summary>About partial refunds</summary>
+<br>
+
+For partial refunds:
+
+| Amount paid | Outcome |
+|---|---|
+| Equal to new order amount | The order is completed. |
+| Less than new order amount | The order is updated. |
+| More than new order amount | The order is completed and the outstanding amount refunded. |
+
+---
+
+</details>
+
+<details id="how-to-refund-an-order">
+<summary>How to refund an order</summary>
+<br>
+
+**In your dashboard**
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, click **Refund order**.
+4. In the **Reason / Description** field, enter the reason for the refund or a description of what happened with the order, and then click **Complete**.
+5. In the **Comment** field, enter any additional information.
+6. In the **Amount** fields, enter the amount to refund. 
+7. Click **Continue**.
+8. Review the **Refund confirmation**, and then click **Confirm**.
+
+**Via the API** 
+
+See API reference – [Refund order](/reference/refundorder).
+
+---
 
 </details>
 
 ## Shipment
 
-### Addresses
+- You must ship to receive paymen **before** the order expires.
+- Share the track & trace details with the customer and MultiSafepay, if relevant. 
+- You can ship orders in full or in multiple parts. See [Partially ship order](#partially-ship-order) below.
+- You must update the <<glossary:order status>> to **Shipped**. See [Update the order status](#update-the-order-status) below. 
 
-Different billing and shipping addresses are supported. Email a request to <sales@multisafepay.com> 
+### Partially ship order
 
-### Shipping policies
-
-- <a href="https://www.multifactor.nl/voorwaarden/shipping-policies/" target="_blank">Shipping Policy Nederland</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
-- <a href="https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy" target="_blank">Herinnering aan onze shipping policy</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
-
-### Order status
-
-When you ship the order, you **must** manually change the [order status](/docs/payment-statuses/) from **Completed** to **Shipped**:
-
-- Captures the funds
-- Triggers sending the invoice to the customer
-- Prevents the order from expiring
-
-<details id="how-to-change-order-status-to-shipped">
-<summary>How to change the order status to shipped</summary>
+<details id="how-to-partially-ship-an-order">
+<summary>How to partially ship an order</summary>
 <br>
+
+If you cannot ship all the items for an order at the same time, you can ship the order in multiple parts.
+
+See API reference – [Update or cancel order](/reference/updateorder) > **Ship order**.
+
+**Partial capture**
+
+If you have partially shipped an order and the order expires, MultiSafepay collects the funds for all shipped items and cancels the unshipped items. 
+
+API integration: In your [Ship order](/reference/updateorder) request, set the `amount` for the first partial shipment lower than the total order `amount` (or the total of the `shopping_cart`) in the original [create order](/reference/createorder) request. 
+
+**Multi-shipment**
+
+MultiSafepay collects for each partial shipment when it is shipped, until all items are shipped, or you or the customer cancels the outstanding items. 
+
+Multi-shipment is disabled by default. To enable, email <sales@multisafepay.com>
+
+**Integration**
+
+A unique shipment `order_id` is generated for each partial shipment.
+
+See API reference – [Update or cancel order](/api/ship-invoice-order/) > **Ship order**.
+
+**Notifications**
+
+You receive a webhook notification when the [order status](/glossary/#order-status) of each partial shipment changes to **Shipped**.
+
+The status of the main transaction never changes to **Completed**. It remains **Initialized**, with a flag.
+
+**Refunds**
+
+You must must refund partial shipments separately, using the specific **shipment** `order_id`, instead of the original **invoice** `order_id`.
+
+See API reference – [Refund order](/api/refund/).
+
+---
+
+</details>
+
+### Update the order status
+
+<details id="how-to-update-the-order-status">
+<summary>How to update the order status</summary>
+<br>
+
+When you ship the order, you **must** update the <<glossary:order status>> via the dashboard or your integration from **Completed** to **Shipped** to receive your payout, and to prevent the order from expiring.
 
 **In your dashboard**
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
-3. On the **Transaction details** page, under **Order details**, click **Change order status**. 
-4. Change the status to **Shipped**.
-5. Send the customer the track and trace details, if relevant.
+3. On the **Transaction details** page, under **Order details**, click **Change order status**.
+4. From the **Change status to** list, select **Shipped**.
+5. In the **Memo** field, enter a comment.
+6. Click **OK**.
 
 **In your backend**
 
 If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/docs/our-integrations/) pass the updated status to your dashboard automatically:
 
 - Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
-- Shopware 5: When you set the order to **delivered** in your backend.
+- Shopware 5: When you set the order to **Delivered** in your backend.
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
 **Note:** Some third-party plugins may not support updating the status via our API.
 
+---
+
 </details>
+
+## Shopping carts
+
+You can choose whether or not to include a `shopping_cart` object in your [create order](/reference/createorder) request (we normally recommend this for BNPL orders).
+
+See Recipes – [Display shopping cart](/recipes/display-shopping-cart).
+
+You can also then refund with or without the `shopping_cart`, but for simplicity we recommend matching the refund request to the original order request.
+
+## Terms and conditions
+
+- [Direct flow](/reference/introduction#direct-vs-redirect): You must display your terms and conditions in your checkout.
+- [Redirect flow](/reference/introduction#direct-vs-redirect): MultiSafepay terms and conditions are displayed by default on [payment pages](/docs/payment-pages/).
 
 <br>
 

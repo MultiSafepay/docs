@@ -13,9 +13,9 @@ sequenceDiagram
     end
     MF->>Mu: Authorizes the payment
     Mu->>MF: Captures the funds
-    Me->>C: Ships the order
-    Note over Me: Manually change the order status to Shipped. 
+    Me->>C: Ships the order (in full or in part)
+    Note over Me: Manually changes the order status to Shipped. 
     MF->>C: Sends invoice (settlement is now guaranteed)
-    C->>MF: Completes payment 
+    C->>MF: Completes payment via any non-BNPL method
     MF->>Mu: Transfers funds 
     Mu->>Me: Settles funds
