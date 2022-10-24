@@ -82,10 +82,10 @@ You can't test the following methods in your MultiSafepay test account. You can 
 
 | Card number| Scenario | Description |
 | ---| --- | --- |
-| 67034500054620008 | **Completed** | Transaction was completed (3D enrolled). <br> Also use this card number when creating orders to test [refunds and API refunds](#refunds). |
-| 67034500054610009| **Declined**  | Transaction was declined (card must be 3D enrolled). |
-| 67039902990000045| **Declined**  | Transaction was declined (3D authentication failed). |
-| 67039902990000011| **Declined**  | Transaction was declined (3D authentication successful, but insufficient funds). |
+| 67034500054620008 | **Completed** | The transaction was completed (3D enrolled). <br> Also use this card number when creating orders to test [refunds and API refunds](#refunds). |
+| 67034500054610009| **Declined**  | The transaction was declined (card must be 3D enrolled). |
+| 67039902990000045| **Declined**  | The transaction was declined (3D authentication failed). |
+| 67039902990000011| **Declined**  | The transaction was declined (3D authentication successful, but insufficient funds). |
 <br>
 
 You can see the reason the transaction was declined in your MultiSafepay test account under **Notes**.
@@ -110,10 +110,10 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 
 | IBAN | Scenario | Description |
 | ---| ---| ---|
-| NL87ABNA0000000001| **Completed** | Transaction is initiated. After 2 minutes, this changes to **Completed**. <br> Also use this for [testing refunds](#refunds). |
-| NL87ABNA0000000002| **Expired** | Transaction is initiated. After 2 minutes, this changes to **Expired**. |
-| NL87ABNA0000000004| **Declined** | Transaction is initiated. After 2 minutes, this changes to **Declined**. |
-| Any other IBAN | **Expired** | Transaction is initiated. After 5 days, this changes to **Expired**. |
+| NL87ABNA0000000001| **Completed** | The transaction is initiated. <br> After 2 minutes, this changes to **Completed**. <br> Also use this for [testing refunds](#refunds). |
+| NL87ABNA0000000002| **Expired** | The transaction is initiated. <br> After 2 minutes, this changes to **Expired**. |
+| NL87ABNA0000000004| **Declined** | The transaction is initiated. <br> After 2 minutes, this changes to **Declined**. |
+| Any other IBAN | **Expired** | The transaction is initiated. <br> After 5 days, this changes to **Expired**. |
 <br>
 
 **Note:** You can't test making direct API requests with an IBAN to test different <<glossary:transaction statuses>>.
@@ -190,9 +190,9 @@ You can also test the following scenarios:
 
 | Scenario | Description |
 | --- | --- |
-| **Declined** | Transaction was declined. |
-| **Open** **Completed** | Transaction is initiated. After 1 minute, this changes to **Completed**. |
-| **Open** **Declined**  | Transaction is initiated. After 1 minute, this changes to **Declined**. |
+| **Declined** | The transaction was declined. |
+| **Open** **Completed** | The transaction is initiated. <br> After 1 minute, this changes to **Completed**. |
+| **Open** **Declined**  | The transaction is initiated. <br> After 1 minute, this changes to **Declined**. |
 
 </details>
 
@@ -209,10 +209,10 @@ You can also test the following scenarios:
 
 | IBAN | Scenario | Description |
 | ---| --- | --- |
-| NL87ABNA0000000001| **Completed** | Transaction is initiated. After 2 minutes, this changes to **Completed**. <br> Also use this IBAN to test [refunds and API refunds](#refunds). |
-| NL87ABNA0000000002| **Declined** | Transaction is initiated. After 2 minutes, this changes to **Declined**. |
-| NL87ABNA0000000003| **Uncleared** > **Completed** | Transaction is initiated. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Completed**. |
-| NL87ABNA0000000004| **Uncleared** > **Declined** | Transaction is initiated. After 2 minutes, this changes to **Uncleared**. After 1 more minute, it changes to **Declined**. |
+| NL87ABNA0000000001| **Completed** | The transaction is initiated. <br> After 2 minutes, this changes to **Completed**. <br> Also use this IBAN to test [refunds and API refunds](#refunds). |
+| NL87ABNA0000000002| **Declined** | The transaction is initiated. <br> After 2 minutes, this changes to **Declined**. |
+| NL87ABNA0000000003| **Uncleared** > **Completed** | The transaction is initiated. <br> After 2 minutes, this changes to **Uncleared**. <br> After 1 more minute, it changes to **Completed**. |
+| NL87ABNA0000000004| **Uncleared** > **Declined** | The transaction is initiated. <br> After 2 minutes, this changes to **Uncleared**. <br> After 1 more minute, it changes to **Declined**. |
 
 </details>
 
@@ -228,10 +228,10 @@ You can also test the following scenarios:
 
 | Bank | Scenario | Description |
 | ---| --- | --- |
-| Allianz Bank FA SPA | **Completed** | Transaction is initiated. After 2 minutes, this changes to **Completed**. <br> Also use this IBAN to test [refunds and API refunds](#refunds). |
-| Banca di Cesena - Credito Coop. | **Declined** | Transaction is initiated. After 2 minutes, this changes to **Declined**. |
-| Credito Artigiano | **Cancelled** | Transaction is initiated. After 2 minutes, this changes to **Cancelled**.  |
-| Volksbank - Banca Popolare | **Expired** | Transaction is initiated. After 2 minutes, this changes to **Expired**.  |
+| Allianz Bank FA SPA | **Completed** | The transaction is initiated. <br> After 2 minutes, this changes to **Completed**. <br> Also use this IBAN to test [refunds and API refunds](#refunds). |
+| Banca di Cesena - Credito Coop. | **Declined** | The transaction is initiated. <br> After 2 minutes, this changes to **Declined**. |
+| Credito Artigiano | **Cancelled** | The transaction is initiated. <br> After 2 minutes, this changes to **Cancelled**.  |
+| Volksbank - Banca Popolare | **Expired** | The transaction is initiated. <br> After 2 minutes, this changes to **Expired**.  |
 
 </details>
 
@@ -261,11 +261,11 @@ You can also test the following scenarios:
 
 | Card number | Scenario | Description |
 | --- | --- | --- |
-| Amex: 378282246310005 <br> Maestro: 6759000000005 <br> Mastercard: 5500000000000004 <br> Visa/co-branded: <br> 4111111111111111 | **Completed** | Transaction was completed (3D enrolled) |
-| Visa/co-branded: <br> 4917300000000008 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Void**. |
-| Amex: 378734493671000 <br> Visa/co-branded: <br> 4462000000000003 | **Uncleared** | Transaction is uncleared. After 3 minutes, this changes to **Completed**. |
-| Amex: 374200000000004 <br> Visa/co-branded: <br> 4012001037461114 | **Declined**  | Transaction was declined (3D authentication failed) |
-| Visa/co-branded: <br> 4012001038488884 | **Declined**  | Transaction was declined (3D authentication was successful, but insufficient funds) |
+| Amex: 378282246310005 <br> Maestro: 6759000000005 <br> Mastercard: 5500000000000004 <br> Visa/co-branded: <br> 4111111111111111 | **Completed** | The transaction was completed (3D enrolled). |
+| Visa/co-branded: <br> 4917300000000008 | **Uncleared** | The transaction is uncleared. <br> After 3 minutes, this changes to **Void**. |
+| Amex: 378734493671000 <br> Visa/co-branded: <br> 4462000000000003 | **Uncleared** | The transaction is uncleared. <br> After 3 minutes, this changes for Amex to **Void** and for Visa to **Completed**. |
+| Amex: 374200000000004 <br> Visa/co-branded: <br> 4012001037461114 | **Declined**  | The transaction was declined (3D authentication failed). |
+| Visa/co-branded: <br> 4012001038488884 | **Declined**  | The transaction was declined (3D authentication was successful, but insufficient funds). |
 <br>
 
 **Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
