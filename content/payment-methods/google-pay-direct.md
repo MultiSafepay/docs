@@ -1,7 +1,7 @@
 ---
 title: "Google Pay direct integration"
 category: 6298bd782d1cf4006032e765
-order: 506
+order: 508
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'google-pay-direct'
@@ -45,7 +45,7 @@ Add the Google Pay JavaScript library to the bottom of the `<body>` of your chec
   onload="onGooglePayLoaded()">
 </script>
 ```
-**Note:** The `onload` event handler is used to display the **Google Pay** button. For more information, see [Display the Google Pay button](#display-the-google-pay-button).
+**Note:** The `onload` event handler is used to display the **Google Pay** button. For more information, see [Display the Google Pay button](#3-display-the-google-pay-button).
 
 ## Place the Google Pay button
 

@@ -1,7 +1,7 @@
 ---
 title: 'WeChat Pay'
 category: 6298bd782d1cf4006032e765
-order: 508
+order: 510
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'wechat-pay'
