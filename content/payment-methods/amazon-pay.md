@@ -47,14 +47,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete.  | Completed | Completed |
 
-
 # Activation 
-
-First apply to MultiSafepay, and then activate in your dashboard. 
-
-<details id="how-to-activate-amazon-pay"> 
-<summary>How to activate Amazon Pay</summary>
-<br>
 
 1. Email a request to <risk@multisafepay.com> 
   We check your eligibility and if approved, activate the payment method for your account. 
@@ -65,14 +58,12 @@ First apply to MultiSafepay, and then activate in your dashboard.
 5. Enter the required information to create an account.
   Amazon sends you a confirmation email.
 
-**Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
-
-
-</details>
+💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 
 # Integration
 
-Our integration with Amazon Pay supports an additional payment button. For more information, see Amazon Pay – <a href="https://developer.amazon.com/docs/amazon-pay-recurring-apb-checkout/additional-payment-button-overview.html" target="_blank">Additional payment button</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+Our integration with Amazon Pay supports an additional payment button. 
+For more information, see Amazon Pay – <a href="https://developer.amazon.com/docs/amazon-pay-recurring-apb-checkout/additional-payment-button-overview.html" target="_blank">Additional payment button</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ### API
 - See API reference – [Create order](/reference/createorder/) > Wallet order.
