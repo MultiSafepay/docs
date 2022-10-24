@@ -11,7 +11,7 @@ slug: 'amazon-pay'
 
 <a href="https://pay.amazon.eu/" target="_blank">Amazon Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a payment method that Amazon customers can use to purchase goods on other sites using their Amazon account. Amazon customers can use any of their stored addresses or payment methods, such as credit or debit cards.
 
-<!-- Read how Amazon Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/amazon-pay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> -->
+Read how Amazon Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/amazonpay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
