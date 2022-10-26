@@ -62,6 +62,9 @@ hidden: false
 | Gezondheidsbon                         | `GEZONDHEID`  |
 | Good4fun                               | `GOOD4FUN`    |
 | Horses & Gifts                         | `HORSESGIFT`  |
+| Monizze eco voucher                    | `MONICO`      |
+| Monizze gift voucher                   | `MONICOM`     |
+| Monizze meal voucher                   | `MONIRES`     |
 | Nationale bioscoopbon                  | `NATNLBIOSC`  |
 | Nationale tuinbon                      | `NATNLETUIN`  |
 | Parfumcadeaukaart                      | `PARFUMCADE`  |

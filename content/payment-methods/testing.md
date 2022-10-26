@@ -522,6 +522,18 @@ Any other card number receives an "Invalid card number" error.
 
 </details>
 
+<details id="monizze">
+<summary>How to test Monizze</summary>
+<br>
+
+1. [Create an order](/reference/createorder/) > Prepaid card order  
+    Example: Monizze redirect
+2. On the payment page, click **Add discount**.???
+3. From the **Test scenario** list, select the relevant discount, and then click **Test**.???
+  The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
+
+</details>
+
 ---
 ## Wallets
 
