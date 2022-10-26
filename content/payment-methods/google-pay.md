@@ -1,7 +1,7 @@
 ---
 title: 'Google Pay'
 category: 6298bd782d1cf4006032e765
-order: 505
+order: 507
 hidden: false
 slug: google-pay
 parentDoc: 62a6ec51d7a8100053916d99

@@ -33,6 +33,12 @@ Card schemes generally allow cardholders to request chargebacks for up to 180 da
 
 By offering credit card payment methods, you agree to the cardholder rights guaranteed by the card schemes.
 
+# Amazon Pay chargebacks
+
+If an Amazon customer requests a chargeback from their bank or credit card issuer for an Amazon Pay payment, Amazon Pay notifies you by email. If you do not respond within 11 calendar days, then Amazon Pay automatically debits the chargeback amount from your Amazon Payments merchant account.
+
+For more information, see Amazon Pay - <a href="https://pay.amazon.eu/help/201749650" target="_blank">Handling chargebacks</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 # Direct debit chargebacks
 
 Customers can request a chargeback within 56 days, or for unauthorized transactions (i.e. without verifiable consent from the customer) within 13 months. Chargebacks can cost up to 65 EUR in bank fees.

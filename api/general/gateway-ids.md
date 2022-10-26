@@ -10,6 +10,7 @@ hidden: false
 | -------------------------------------- | ------------- |
 | Alipay                                 | `ALIPAY`      |
 | Alipay+                                | `ALIPAYPLUS`  |
+| Amazon Pay                             | `AMAZONBTN`   |
 | American Express                       | `AMEX`        |
 | Apple Pay                              | `APPLEPAY`    |
 | Bancontact                             | `MISTERCASH`  |

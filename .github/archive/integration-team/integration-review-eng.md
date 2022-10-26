@@ -56,4 +56,4 @@ We would greatly appreciate it!
 - [Twitter](https://twitter.com/multisafepay)  
 - [Facebook](https://www.facebook.com/multisafepay)  
 - [Stackshare](https://stackshare.io/multisafepay/multisafepay)  
-- [Instagram](https://www.instagram.com/multisafepay)
+

@@ -1,7 +1,7 @@
 ---
 title: 'PayPal'
 category: 6298bd782d1cf4006032e765
-order: 507
+order: 509
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'paypal'
