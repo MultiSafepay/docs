@@ -103,6 +103,14 @@ Payments are processed in the webshop's default currency only.
 
 </details>
 
+## Order expiration
+
+Shopify orders expire after **3** days. 
+
+The `pendingExpiresAt` value matches the date and time when the order expires and must be within 3 days of calling the `paymentSessionPending` mutation (once only).
+
+For more information, see Shopify.dev – <a href="https://shopify.dev/apps/payments/processing-a-payment#pend-a-payment" target="_blank">Pend a payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 ## Payment methods
 
 <details id="supported-payment-methods">
