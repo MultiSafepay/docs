@@ -205,6 +205,14 @@ You can update the plugin in your backend and the CMS marketplace, or via using 
 
 ## User guide
 
+### Backend orders
+
+To create backend orders in the MultiSafepay Shopware 5 plugin, Shopware uses a third-party plugin. 
+
+See shopwareLabs GitHub – <a href="https://github.com/shopwareLabs/SwagBackendOrder" target="_blank">SwagBackendOrder</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+We support V2.x versions.
+
 ### Generic gateways
 
 The plugin supports generic gateways, which allows you to add a payment method manually. This is particularly useful for integrating gift cards specific to your business. 
