@@ -70,7 +70,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
   <summary>Example requests</summary>
   <br>
 
-  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Edenred redirect**.
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Gift card redirect**. 
+  Set `gateway` to the [gateway ID](/reference/gateway-ids) of the relevant voucher.
 
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 

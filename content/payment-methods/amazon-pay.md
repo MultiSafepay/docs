@@ -73,6 +73,7 @@ For more information, see Amazon Pay – <a href="https://developer.amazon.com/d
   <br>
 
   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Amazon Pay direct/redirect**.
+  Set `type` to `direct` or `redirect`.
 
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 

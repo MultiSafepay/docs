@@ -97,7 +97,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
   <summary>Example requests</summary>
   <br>
 
-  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** and select the relevant <<glossary:card scheme>> example.
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Card direct/redirect**. Set `gateway` to `AMEX`, `MAESTRO`, `MASTERCARD`, `VISA`, or the generic `CREDITCARD`.
 
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 
