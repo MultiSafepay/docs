@@ -148,6 +148,12 @@ You cannot refund more than the original amount in your backend.
 
 </details>
 
+### Shipping orders
+
+For <<glossary:BNPL>> orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+
+If you change the <<glossary:order status>> to **Delivered** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
+
 ### Updates
 
 You can update the plugin in your backend and the CMS marketplace, or via using SFTP.
@@ -218,8 +224,8 @@ We support V2.x versions.
 The plugin supports generic gateways, which allows you to add a payment method manually. This is particularly useful for integrating gift cards specific to your business. 
 
 Supported since releases:
-- 2.3.0, March 24th 2021
-- 2.6.0, December 7th 2020
+- 2.3.0, March 24, 2021
+- 2.6.0, December 7, 2020
 
 <details id="how-to-configure-generic-gateways">
 <summary>How to configure generic gateways</summary>
@@ -276,10 +282,6 @@ You cannot refund more than the original amount in your backend.
 
 ### Session data
 
-<details id="missing-session-data">
-<summary>Missing session data</summary>
-<br>
-
 Shopware 5 can remove sessions before the order is created in the backend.
 To prevent this, we recommend making the following changes to the <a href="https://developers.shopware.com/developers-guide/shopware-config/" target="_blank">config.php</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -292,8 +294,6 @@ To prevent this, we recommend making the following changes to the <a href="https
 ```
 
 For more information, see Shopware – <a href="https://developers.shopware.com/sysadmins-guide/sessions/#blocking-transactions" target="_blank">Blocking transactions</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-
-</details>
 
 ### Shipping orders
 
