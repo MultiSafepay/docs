@@ -65,6 +65,7 @@ Riverty provides you with an API key per country and per site, and you must acce
   <br>
 
   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Riverty direct/redirect**.
+  Set `type` to `direct` or `redirect`.
 
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 

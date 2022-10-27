@@ -75,6 +75,7 @@ To activate:
   <br>
 
   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Betaal per Maand direct/redirect**.
+  Set `type` to `direct` or `redirect`.
 
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 

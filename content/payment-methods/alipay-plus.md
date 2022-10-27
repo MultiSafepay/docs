@@ -68,7 +68,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
   <summary>Example requests</summary>
   <br>
 
-  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Alipay+ direct/redirect**.
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Alipay(+) direct/redirect**. 
+  Set `gateway` to `ALIPAYPLUS`, and `type` to `direct` or `redirect`.
 
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 

@@ -72,6 +72,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
   <br>
 
   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Pay After Delivery direct/redirect**.
+  Set `type` to `direct` or `redirect`.
 
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 
