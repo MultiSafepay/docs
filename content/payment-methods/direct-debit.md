@@ -41,7 +41,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| MultiSafepay's customer background check was successful and we've generated an [e-mandate](#e-mandates). | Initialized  | Initialized |
+| MultiSafepay's customer background check was successful and we've generated an [e-mandate](#e-mandates). | Uncleared  | Initialized |
 | We've sent the e-mandate to the customer's bank. You can no longer cancel. | Uncleared | Uncleared |
 | MultiSafepay has collected payment.| Completed | Completed |
 | The customer cancelled the transaction or requested a chargeback, or their bank declined the transaction. | Void | Void |
