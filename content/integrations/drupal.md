@@ -121,7 +121,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
 ### Upgrades
 
-❗️ Drupal no longer provides support for Drupal 8.9.x. 
+❗️ **Note:** Drupal no longer provides support for Drupal 8.9.x. 
 
 For how to upgrade Drupal 8 to Drupal 9, see Drupal - <a href="https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher" target="_blank">Upgrading from Drupal 8 to Drupal 9 or higher</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 <br>

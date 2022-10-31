@@ -203,7 +203,7 @@ If your link has expired or you haven't received an email, email <support@multis
 4. Enter your first and last names, and then click **Update profile**.
 5. To sign in for the first time, enter your email address and the password you just created, and then click **Log in**.
 
-❗️ If viewing orders in the portal, you must still manually change the order status to Shipped to trigger the invoicing process and receive payment.
+❗️ **Note:** If viewing orders in the portal, you must still manually change the order status to Shipped to trigger the invoicing process and receive payment.
 
 </details>
 
@@ -313,7 +313,7 @@ If you change the order status in your backend, the following [ready-made integr
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
-❗️ Some third-party plugins may not support updating the status via our API.
+❗️ **Note:** Some third-party plugins may not support updating the status via our API.
 
 </details>
 

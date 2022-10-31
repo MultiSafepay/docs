@@ -237,7 +237,7 @@ If you notice errors in shopping cart calculations, email <integration@multisafe
 
 As a temporary solution, you can disable sending the shopping cart with the payment request.
 
-❗️ <<glossary:BNPL>> methods do not work if the shopping cart is disabled. 
+❗️ **Note:** <<glossary:BNPL>> methods do not work if the shopping cart is disabled. 
 
 <details id="how-to-disable-the-shopping-cart">
 <summary>How to disable the shopping cart</summary>

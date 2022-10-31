@@ -115,7 +115,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 | Any other IBAN | **Expired** | The transaction is initiated. <br> After 5 days, this changes to **Expired**. |
 <br>
 
-❗️ You cannot test making <<glossary:direct>> API requests with an IBAN to test different <<glossary:transaction statuses>>.
+❗️ **Note:** You cannot test making <<glossary:direct>> API requests with an IBAN to test different <<glossary:transaction statuses>>.
 
 </details>
 
@@ -458,7 +458,7 @@ To change the order status, either:
 - Make an [update order](/reference/updateorder/) request, or 
 - In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
-❗️ You can't test:  
+❗️ **Note:** You can't test:  
  - Receiving successful payment notifications from Riverty
  - Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**
  - Processing refunds
@@ -535,7 +535,7 @@ Any other card number receives an "Invalid card number" error.
 3. Click **Test**.  
     The payment is processed in your MultiSafepay test account as **Successful**, with <<glossary:order status>> **Completed**, and transaction status **Initialized**.
 
-❗️ You can't test Alipay declining transactions.
+❗️ **Note:** You can't test Alipay declining transactions.
 
 </details>
 

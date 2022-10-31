@@ -154,7 +154,7 @@ You can also localize FastCheckout pages to automatically hide payment methods t
 
 See API reference > [Create order](/reference/createorder) > FastCheckout order > `customer` object > `locale` parameter.
 
-❗️ The `locale` parameter can be overriden on initializing the JavaScript application, or when the customer changes the flag toggle.  
+❗️ **Note:** The `locale` parameter can be overriden on initializing the JavaScript application, or when the customer changes the flag toggle.  
 
 <details id="locale-codes">
 <summary>Locale codes per language and country</summary>
