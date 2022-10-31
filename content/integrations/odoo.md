@@ -105,7 +105,7 @@ Supported since release: 1.1.0, July 2nd 2021.
 
 1. Select the payment method on the checkout page, and then click **Pay now**.
 2. Provide any required information (e.g. bank account number), and confirm payment.
-3. When the transaction is completed, you receive a _Order { order ID } Confirmed_ <a href="https://docs.multisafepay.com/docs/configure-your-webhook" target="_blank">webhook notification</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+3. When the transaction is completed, you receive a _Order { order ID } Confirmed_ <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook notification</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 </details>
 

@@ -28,15 +28,15 @@ To set up your account, you need to:
 Choose an integration method that matches your business needs and tech stack.   
 For help selecting an integration method, email <integration@multisafepay.com>
 
-### Ready-made integrations  
+### Ready-made integration
 MultiSafepay's integrations, which we develop in house, require fewer development resources and let you start testing straight away. We have a wide range of plugins and apps available to integrate with platforms like Magento, WooCommerce, Shopware, and Lightspeed.
 
 **Full guidance:** [Ready-made integrations](/docs/our-integrations/)
 
-### Self-made integrations
+### API integration
 Alternatively, you can build your own integration, especially if you're developing a new ecommerce website or app. This generally requires more development resources, but lets you fully customize the look, feel, and functionality of your customers' experience.
 
-**Full guidance:** [Self-made integrations](/docs/self-made/)
+**Full guidance:** [API integration](/docs/api-integration/)
 
 # 4. Test your integration 
 

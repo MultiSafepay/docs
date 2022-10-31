@@ -7,7 +7,7 @@ slug: 'fastcheckout-shipping-options'
 parentDoc: 62fcc05ac034cb06771c46fc
 ---
 
-If you cannot send your available shipping options for the shipping element on the [FastCheckout page](/docs/fastcheckout/) in your [create order](/reference/createorder) request, you can trigger a `GET` or `POST` request from MultiSafepay to your [webhook endpoint](/docs/configure-your-webhook) to retrieve the options.
+If you cannot send your available shipping options for the shipping element on the [FastCheckout page](/docs/fastcheckout/) in your [create order](/reference/createorder) request, you can trigger a `GET` or `POST` request from MultiSafepay to your [webhook endpoint](/docs/webhook/) to retrieve the options.
 
 # How it works
 
@@ -144,7 +144,7 @@ items_count=2
 
 | Parameter | Description |
 |---|---|
-| `notification_url` | The [webhook endpoint](/docs/configure-your-webhook/) for MultiSafepay to send order updates and other notifications for this site. <br> See also [feed_url](#via-feedurl) below. |
+| `notification_url` | The [webhook endpoint](/docs/webhook/) for MultiSafepay to send order updates and other notifications for this site. <br> See also [feed_url](#via-feedurl) below. |
 | `identifier` | The identifier of the request. Set to `shipping`. |
 | `country` | The customer's country. |
 | `countrycode` | The country code. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL`. |

@@ -51,9 +51,9 @@ You can add your tracking ID or tag to the following ready-made integrations, so
 
 <br>
 
-## Self-made integrations
+## API integrations
 
-You can add your tracking ID or tag in your self-made integration by adding it in `google_analytics.account` when you [create an order](/reference/createorder/).
+You can add your tracking ID or tag in your integration by adding it in `google_analytics.account` when you [create an order](/reference/createorder/).
 
 <br>
 
@@ -162,7 +162,7 @@ These solutions need a server environment and may require significant developmen
 ### How to send additional data
 To send additional event data to Google Analytics, you can use Google's <a href="https://developers.google.com/analytics/devguides/collection/protocol/ga4" target="_blank">Measurement protocol</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
-To send additional information about a customer's journey, you can use notifications from our [webhook](/docs/configure-your-webhook/). For example, that payment was successful or that the <<glossary:order>> was cancelled.
+To send additional information about a customer's journey, you can use notifications from our [webhook](/docs/webhook/). For example, that payment was successful or that the <<glossary:order>> was cancelled.
 
 <br>
 
@@ -173,7 +173,7 @@ Instead of collecting data client side and sending it directly to Google Analyti
 This provides several benefits:
 - It moves data processing from client side to server side, which reduces page load time.
 - If your server is hosted on a subdomain of your site, you collect customers' data yourself instead of a third party. This avoids conflicts with third-party cookies.
-- You can add additional event data from other sources like MultiSafepay's [webhook notifications](/docs/configure-your-webhook).
+- You can add additional event data from other sources like MultiSafepay's [webhook notifications](/docs/webhook/).
 
 For more information, see Google Tag Manager - <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank">Server-side tagging</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
