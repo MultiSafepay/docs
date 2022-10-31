@@ -1,13 +1,13 @@
 ---
-title: 'Self-made integrations'
+title: 'API integration'
 category: 62962dd7e272a6002ebbbbc5
 hidden: false
 order: 400
-excerpt: 'Build your own payments integration with our API, wrappers, or SDKs.'
-slug: 'self-made'
+excerpt: 'Build your own payments integration using our API, wrappers, or SDKs.'
+slug: 'api-integration'
 ---
 
-This tutorial explains how to create orders and track their progress via our webhook in your self-made integration.
+This tutorial explains how to build your own integration using our API, and how to create orders and track their progress via our webhook.
 
 # Prerequisites
 

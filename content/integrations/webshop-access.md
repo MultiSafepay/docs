@@ -6,7 +6,7 @@ hidden: true
 slug: 'help-us-help-you'
 ---
 
-We test all our ready-made integrations before release, but your integration may still encounter configuration issues or a bug - especially if you have created your own self-made integration.
+We test all our ready-made integrations before release, but your integration may still encounter configuration issues or a bug - especially if you have created your own [API integration](/docs/api-integration/).
 
 We are best able to support issues that are reproducible in a standard website environment. But we always try to offer support, even for issues outside our scope.
 

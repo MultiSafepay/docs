@@ -83,7 +83,7 @@ When a person tries to receive products without paying for them by tricking a cu
 
 ---
 #### integration
-Software merchants use to sell products and services and accept payments, e.g website, mobile app, [PWA](/docs/pwa-studio-venia/). Merchants may use [ecommerce platforms](/docs/our-integrations/) or [build their own integration](/docs/self-made/).
+Software merchants use to sell products and services and accept payments, e.g website, mobile app, [PWA](/docs/pwa-studio-venia/). Merchants may use [ecommerce platforms](/docs/our-integrations/) or [build their own integration](/docs/api-integration/).
 
 ---
 #### item
