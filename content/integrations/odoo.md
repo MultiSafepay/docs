@@ -26,9 +26,9 @@ slug: 'odoo'
 - Odoo 13.0
 - Tested on Python 3.6
 
-# How to install
+# Installation
 
-> **Tip!** We recommend first installing the plugin in a test environment, following the Odoo installation procedure. Always make a backup.
+✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the Odoo installation procedure. Always make a backup.
 
 1. Download the ZIP archive with module.
 2. Unpack the content of the .ZIP file.
@@ -48,7 +48,7 @@ slug: 'odoo'
 8. Search for and open the MultiSafepay payments module `payment_multisafepay_official`.
 9. Click **Install**.
 
-# How to configure
+# Configuration
 
 1. Sign in to your Odoo backend. 
 2. Go to the **Invoicing** or **Website** menu > **Configuration** > **Payment acquirers**.
@@ -171,7 +171,7 @@ For <<glossary:BNPL>> orders, the refund request must include a `shopping_cart` 
 - The `item_quantity` must not be more than `quantity` in the original order.
 - The `item_price` must be equal to the `unit_price` in the original order.
 
-**Note:** You cannot refund BNPL orders if a gift card or promo code was used for the original order.
+❗️ You cannot refund BNPL orders if a gift card or promo code was used for the original order.
 
 </details>
 

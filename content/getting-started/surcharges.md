@@ -41,12 +41,13 @@ Surcharges are permitted for:
 <br>
 
 > ⚠️ **Attention Dutch merchants** 
-> Due to changes to the Wet op het consumentenkrediet, Dutch merchants who apply surcharges to <<glossary:BNPL>> methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).
 >
+> Due to changes to the Wet op het consumentenkrediet, Dutch merchants who apply surcharges to <<glossary:BNPL>> methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).
 > We therefore strongly recommend **not** applying surcharges.
 <br>
 
 > ❕ **Disclaimer** 
+>
 > This page is for information only. 
 > Given the changing nature of the law, rules, regulations and the risks of electronic communication, this page may contain omissions or inaccuracies. We took great care in writing it, but cannot guarantee its completeness, timeliness, or accuracy. 
 > Always seek advice from a professional consultant or competent authority before taking any decision or action. 

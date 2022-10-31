@@ -253,7 +253,7 @@ This report provides an overview (in Excel format) of the specific transactions 
 2. Go to **Reports** > **Daily balance**.
 3. Under **Payout ID** for the relevant date, click the green **Export** icon.
 
-**Note:** You must have completed at least one payout to generate a payout report.
+✅ &nbsp; **Tip!** You must have completed at least one payout to generate a payout report.
 
 </details >
 

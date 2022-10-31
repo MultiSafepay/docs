@@ -25,16 +25,16 @@ slug: 'virtuemart'
 - Joomla 2.5 & 3.x + VirtueMart 2.x & 3.x
 - Tested on PHP 7.0
 
-# How to install
+# Installation
 
-> **Tip!** We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup.
+✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup.
 
 1. Sign in to your VirtueMart <<glossary:backend>>.
 2. Go to **Extensions** > **Extension manager**.
 3. Install the Plugin_VirtueMart_x.x.x.zip file using **Drag and drop** or **Browse for file**. 
 4. Click **Upload & install**.
 
-# How to configure
+# Configuration
 
 1. Sign in to your VirtueMart backend.
 2. Go to **Extensions** > **Plugins**.
@@ -106,7 +106,7 @@ You can update the plugin in your backend and the CMS marketplace, via SFTP.
 <summary>How to update in your backend</summary>
 <br>
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

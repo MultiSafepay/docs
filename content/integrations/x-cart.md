@@ -25,16 +25,16 @@ slug: 'x-cart'
 - X-Cart 5.x        
 - Tested on PHP 7.0
 
-# How to install
+# Installation
 
-> **Tip!** We recommend first installing the plugin in a test environment, following the X-Cart installation procedure. Always make a backup.
+✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the X-Cart installation procedure. Always make a backup.
 
 1. In the root of your webshop, unzip the content of the .ZIP file.
 2. Sign in to your X-Cart <<glossary:backend>>.
 3. Go to **System tools** > **Cache management** > **Re-deploy the store**.
 4. Click **Start**.
 
-# How to configure
+# Configuration
 
 1. Sign in to your X-Cart backend.
 2. Go to **My Addons**, and search for **MultiSafepay**.
@@ -97,7 +97,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 <summary>How to update in your backend</summary>
 <br>
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 1.

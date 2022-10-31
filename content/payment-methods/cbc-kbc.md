@@ -1,7 +1,7 @@
 ---
 title: 'CBC/KBC'
 category: 6298bd782d1cf4006032e765
-order: 106
+order: 104
 hidden: false
 parentDoc: 62a728d48b97080046c1d220
 slug: 'cbc-kbc'
@@ -33,7 +33,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
   max-width: 750px;
   width: 100%;">
 
-**Note:** MultiSafepay doesn’t automatically receive the customer's IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed.
+📘 **Note:** MultiSafepay doesn’t automatically receive the customer's IBAN when a transaction is completed, but we import our bank statements daily. All incoming payments are then completed.
 
 # Payment statuses  
 
@@ -49,7 +49,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | **Refunds:** Refund complete. | Completed | Completed |
 <br>
 
-**Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**. We import our bank statements daily and match all incoming payments.  
+📘 **Note:** If the customer doesn’t click the **Return to website** button, MultiSafepay doesn’t receive an update and the transaction status remains **Initialized**. We import our bank statements daily and match all incoming payments.  
 
 # Activation 
 

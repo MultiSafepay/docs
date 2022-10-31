@@ -132,7 +132,7 @@ To prevent us from emailing the customer, see API reference – [Create order](/
 
 </details>
 
-**Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/docs/ibans/).
+📘 **Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/docs/ibans/).
 
 ### Transfer guidance for customers
 
@@ -144,6 +144,7 @@ The customer must only pay for **one** <<glossary:order>> per bank transfer. Whe
     **Format:** 16 digits, numbers only, no words
 
 >❗ Note
+>
 > Customers **must** enter the details accurately to avoid unmatched payments (see below).
 
 ## Matching payments
@@ -216,7 +217,7 @@ To create the transaction again, check if a [payment link](/docs/payment-links/)
 4. Add the customer's bank account number (if known) to help us match the payment.
 5. Click **Confirm** to create the transaction in our system.
 
-**Note:** The order ID must be unique for each payment link.
+✅ &nbsp; **Tip!** The order ID must be unique for each payment link.
 
 ---
 

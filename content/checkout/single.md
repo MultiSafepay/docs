@@ -1,13 +1,15 @@
 ---
 title: "Single payment method"
 category: 62bd999547298d001abc714c
-order: 11
+order: 101
 hidden: false
 slug: 'payment-component-single'
 parentDoc: 62a848399bb3eb004023f291 
 --- 
 
 This technical manual is for integrating a payment component using a single payment method.
+
+<img src="/static/img/payment-component-single.png" width="450"/>
 
 # 1. Add the HTML elements
 
@@ -108,7 +110,7 @@ Add the following elements to your checkout page:
 
     Recurring payments are supported for all credit card payments.
 
-    **Note:** For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
+    📘 **Note:** For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
 
     To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email <sales@multisafepay.com>
 
@@ -116,7 +118,7 @@ Add the following elements to your checkout page:
     
     </details>
 
-    **Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and order amount are supported. 
+    📘 **Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and order amount are supported. 
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
 

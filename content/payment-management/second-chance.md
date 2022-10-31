@@ -138,7 +138,7 @@ Payment links in Second Chance emails have the same lifetime as the original pay
 
 To set or adjust the lifetime of a payment link, see API reference – [Create order](/reference/createorder/): `days_active` parameter.
 
-**Note:** This is different to [transaction expiration times per payment method](/reference/transaction-expiration/). 
+📘 **Note:** This is different to [transaction expiration times per payment method](/reference/transaction-expiration/). 
 
 This only applies to certain payment methods:
 

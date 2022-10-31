@@ -1,7 +1,7 @@
 ---
 title: 'Previous release'
 category: 62bd999547298d001abc714c
-order: 14
+order: 104
 hidden: false
 slug: 'payment-component-previous-release'
 parentDoc: 62a848399bb3eb004023f291 
@@ -31,7 +31,7 @@ This technical manual is for integrating the previous release of the payment com
 ## Generate an API token
 Payment Components require a MultiSafepay API token. See API reference – [Generate an API token](/reference/generateapitoken/).
 
-> **Tip!** To keep your API key private, request the token from your own server. 
+✅ &nbsp; **Tip!** To keep your API key private, request the token from your own server. 
 
 ## Construct the component object
 
@@ -122,7 +122,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
     </details>
 
-    **Note:** The `PaymentComponent` uses the following methods:
+    The `PaymentComponent` uses the following methods:
 
     <details id="methods">
     <summary>Methods</summary>

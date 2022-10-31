@@ -20,7 +20,7 @@ To accept payments in a currency other than the default (EUR), the currency must
 - Supported in your <<glossary:backend>>
 - Correctly processed in the [create order](/reference/createorder/) request
 
-**Note:** If the currency the customer wants to use is **not** supported by a payment method, the payment method does not appear in your checkout. 
+❗️ If the currency the customer wants to use is **not** supported by a payment method, the payment method does not appear in your checkout. 
 
 ## Payouts
 

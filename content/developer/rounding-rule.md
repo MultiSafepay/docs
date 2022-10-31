@@ -12,7 +12,7 @@ MultiSafepay applies the following rounding rule when calculating the total cost
 2. Calculate the total VAT for all items in the cart (if applicable): Multiply the total cost of each item by the VAT rate, then add the results together, rounding to 2 decimal places= VAT total.
 3. Add the items total to the VAT total= Cart total.
 
-**Note:** When rounding to 2 decimal places, always <a href="https://en.wikipedia.org/wiki/Rounding#Round_half_up" target="_blank">round half up</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+✅ &nbsp; **Tip!** When rounding to 2 decimal places, always <a href="https://en.wikipedia.org/wiki/Rounding#Round_half_up" target="_blank">round half up</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 Apply the same rounding rule in your integration to ensure:
 
@@ -252,3 +252,14 @@ vat_total = math.Round(vat_total, 2)
 // Step 3: Add the items total to the VAT total: cart_total.
 cart_total = items_total + vat_total
 ```
+<br>
+
+---
+
+[block:html]
+{
+  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></p>\n</blockquote>\n"
+}
+[/block]
+
+[Top of page](#)

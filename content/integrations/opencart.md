@@ -20,6 +20,7 @@ slug: 'opencart'
 </div>
 
 > ℹ More information
+>
 > For more information about the plugin and a preview, see OpenCart – <a href="https://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=39960" target="_blank">MultiSafepay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # Prerequisites
@@ -28,9 +29,9 @@ slug: 'opencart'
 - OpenCart 2.X, 3.X
 - PHP version 7.2, 7.3, or 7.4
 
-# How to install
+# Installation
 
-> **Tip!** We recommend first installing the plugin in a test environment, following the OpenCart installation procedure. Always make a backup.
+✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the OpenCart installation procedure. Always make a backup.
 
 1. Download the `Plugin_OpenCart_3.x.x.ocmod.zip`.
 2. Sign in to your OpenCart <<glossary:backend>>.
@@ -41,7 +42,7 @@ slug: 'opencart'
 8. Go to **Extensions** > **Modifications**, and then click the **Refresh** button.
 9. Go to **Extensions** > **Payments** > **MultiSafepay**, and then click the **Install** button. 
 
-## How to configure
+## Configuration
 
 1. Sign in to your OpenCart backend and go to **Extensions** > **Extensions** > **Payments** > **MultiSafepay**.
 2. On the **MultiSafepay configuration** page, configure the:  
@@ -137,7 +138,7 @@ If you're new to accepting credit card payments, email a request to activate the
 3. Select the **Payment methods** tab and then expand the method of your choice.
 4. Enable **Payment Component** and optionally **Tokenization**.
 
-**Note:** Tokenization is available only when **Payment Component** is activated.
+❗️ Tokenization is available only when **Payment Component** is activated.
 
 💬  **Support:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
@@ -244,7 +245,8 @@ As a temporary solution, you can disable payments with shopping carts.
 [Surcharges](/docs/surcharges/) are no longer supported, but you can request a patch.  
 Email <integration@multisafepay.com> 
 
-> ⚠️ **Attention Dutch merchants** 
+> ⚠️ Attention Dutch merchants
+>
 > We strongly recommend **not** applying surcharges to <<glossary:BNPL>> orders. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates

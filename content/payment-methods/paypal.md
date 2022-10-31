@@ -34,6 +34,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
   width: 100%;">
 
 > ℹ **Note** 
+>
 > MultiSafepay does **not** collect funds for PayPal transactions.
 
 # Payment statuses 

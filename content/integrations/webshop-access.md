@@ -29,6 +29,7 @@ Help us by answering the following questions:
 - We only ask for the credentials for your live ecommerce platform account in extraordinary circumstances. In such cases, we recommended making a backup beforehand, just in case.
 
 > ⚠️ **Note:** 
+>
 > MultiSafepay assumes **no** responsibility for mistakes in your live environment.
 >
 > - If we require server access, we work exclusively with SFTP and SSH, using Port 22. For security reasons, we no longer support the FTP protocol.

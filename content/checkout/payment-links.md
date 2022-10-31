@@ -1,7 +1,7 @@
 ---
 title: 'Payment links'
 category: 62bd999547298d001abc714c
-order: 20
+order: 300
 hidden: false
 slug: 'payment-links'
 ---
@@ -69,7 +69,7 @@ Or via your dashboard:
 2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
 4. On the **Transaction details** page, under **Order summary**, click **Generate payment link** > **Duplicate this order**.
 
-**Note:** The order ID must be unique.
+✅ &nbsp; **Tip!** The order ID must be unique.
 
 </details>
 <br>
@@ -123,7 +123,7 @@ The lifetime of a payment link is how long it remains active for the customer to
 
 To set or adjust the lifetime of a payment link, see API reference – [Create order](/reference/createorder/): `days_active` parameter.
 
-**Note:** This is different to [transaction expiration times per payment method](/reference/transaction-expiration/). 
+📘 **Note:** This is different to [transaction expiration times per payment method](/reference/transaction-expiration/). 
 
 This only applies to certain payment methods:
 

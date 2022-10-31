@@ -26,6 +26,7 @@ Read how Apple Pay can benefit your business on <a href="https://www.multisafepa
 <br>
 
 > ℹ More information 
+>
 > See Apple – <a href="https://support.apple.com/en-us/HT201239" target="_blank">How to use Apple Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # Payment flow

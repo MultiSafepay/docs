@@ -107,7 +107,7 @@ The customer is automatically redirected to the **Register** screen:
 - iOS 9+ target
 - Swift 5.3 or Objective-C
 
-# How to install
+# Installation
 
 1. Copy your [site API key](/docs/sites#site-id-api-key-and-security-code) to get the SDK from our <a href="https://github.com/MultiSafepay/fastcheckout-ios-sdk" target="_blank">GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Add the FastCheckoutKit.xcframework as an embedded framework into your project. 

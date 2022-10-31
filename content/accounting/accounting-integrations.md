@@ -344,7 +344,7 @@ You must first provide Twinfield with an additional international bank account n
 
 </details>
 
-> **Tip!** For a free 30-day trial including all accounting functions, see Twinfield – <a href="https://www.wolterskluwer.com/nl-nl/solutions/twinfield-accounting/twinfield-boekhouden-probeer-nu" target="_blank">Proef abonnement aanvragen</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+✅ &nbsp; **Tip!** For a free 30-day trial including all accounting functions, see Twinfield – <a href="https://www.wolterskluwer.com/nl-nl/solutions/twinfield-accounting/twinfield-boekhouden-probeer-nu" target="_blank">Proef abonnement aanvragen</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 <br>
 
@@ -431,7 +431,7 @@ Provide Duopact with your MultiSafepay [site API key](/docs/sites#site-id-api-ke
 3. Go to **Bankmutaties** > **MultiSafepay**.
 4. Click the green button under the **Status** tab.
 
-**Note:** Manually importing transactions doesn't affect automatic imports.
+📘 **Note:** Manually importing transactions doesn't affect automatic imports.
 
 </details>
 

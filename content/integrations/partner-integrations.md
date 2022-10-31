@@ -1,7 +1,7 @@
 ---
 title: 'Partner integrations'
 category: 62962dd7e272a6002ebbbbc5
-order: 200
+order: 130
 hidden: false
 excerpt: "Explore integrations with our partners to help manage your business."
 slug: 'partner-integrations'
@@ -150,7 +150,7 @@ For technical support, contact LogiVert - <a href="https://www.logivert.com/nl/s
 
 To install and configure, see LogiVert – <a href="https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen" target="_blank">Manual</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-> **Tip!** We recommend first installing the plugin in a test environment, following the LogiVert installation procedure. Always make a backup.
+✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the LogiVert installation procedure. Always make a backup.
 </details>
 
 ___
@@ -441,12 +441,10 @@ ___
 
 ---
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
-        <p>Support</p>
-    </h3>
-    <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
-</blockquote>
+[block:html]
+{
+  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: create a technical issue</li>\n  </ul>  \n</blockquote>"
+}
+[/block]
 
 [Top of page](#)

@@ -16,6 +16,7 @@ slug: 'lightspeed'
 </details>
 
 > ⚠️ Action required
+>
 > We recommend [upgrading to the latest version](/docs/lightspeed#how-to-upgrade-to-the-new-app) as soon as possible.
 
 # Prerequisites
@@ -24,9 +25,9 @@ slug: 'lightspeed'
 - A MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code)
 - The app only supports one account per webshop
 
-# How to install 
+# Installation 
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Sign in to your Lightspeed <<glossary:backend>>.
 2. Go to **Apps** on the left-hand side of the dashboard.

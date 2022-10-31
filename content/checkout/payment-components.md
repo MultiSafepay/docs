@@ -1,7 +1,7 @@
 ---
 title: 'Payment components'
 category: 62bd999547298d001abc714c
-order: 10
+order: 100
 hidden: false
 slug: 'payment-components'
 ---
@@ -53,11 +53,7 @@ You can embed a single or multiple payment methods in your checkout.
 # Integration 
 
 - [Single payment method integration](/docs/payment-component-single/): Embed a single payment method into your site
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/payment-component-single.png" width="450"/>
-
 - [Multiple payment method integration](/docs/payment-component-multiple/): Embed multiple payment methods into your site
-<img src="https://raw.githubusercontent.com/Kris-MultiSafepay/docs/master/static/img/payment-component-multiple.png" width="450"/>
-
 - [Payment component customization manual](/docs/payment-component-customization/)
 - [Previous release integration manual](/docs/payment-component-previous-release/)
 <br>

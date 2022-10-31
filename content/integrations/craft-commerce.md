@@ -30,7 +30,7 @@ slug: 'craft-commerce'
 - PHP 7.0 and higher
 - Tested with PHP 7.0 
 
-# How to install
+# Installation
 
 These instructions are for installing the plugin via Composer. You can also install via the <a href="https://plugins.craftcms.com/multisafepay" target="_blank">Craft Plugin Store</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -43,7 +43,7 @@ composer require multisafepay/craft-commerce
 
 The latest stable release is downloaded and installed in your Craft Commerce webshop.
 
-# How to configure
+# Configuration
 1. Sign in to your Craft Commerce <<glossary:backend>>.
 2. To configure the plugin settings, go to **MultiSafepay** > **Settings**.  
 3. To add payment methods activated in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and configure <<glossary:gateways>>, go to **Commerce** > **System settings** > **Gateways**.  

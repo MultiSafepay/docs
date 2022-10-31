@@ -117,7 +117,7 @@ To close a transaction manually, follow these steps:
 4. Enter a comment about what happened with the order, and then click **Complete**.  
     The total amount of the transaction is deducted from your account balance. 
 
-**Note:** Once the <<glossary:transaction status>> changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/docs/refund-payments/) instead. 
+📘 **Note:** Once the <<glossary:transaction status>> changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/docs/refund-payments/) instead. 
 
 </details>
 
@@ -194,7 +194,7 @@ If you change the order status in your <<glossary:backend>>, the following [read
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
-**Note:** Some third-party plugins may not support updating the status via our API.
+❗️ Some third-party plugins may not support updating the status via our API.
 
 </details>
 

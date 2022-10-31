@@ -93,13 +93,13 @@ When the customer clicks or taps the ** Pay** button:
 
     You can use `requiredBillingContactFields` to collect the customer's billing and/or shipping details from Apple Pay. If the customer hasn't previously provided their billing address to Apple Pay, they are prompted to do so.
 
-    **Note:** The billing and shipping details are not required to create Apple Pay direct orders with MultiSafepay. However, since the collected details are available to you in unencrypted form, you can use them to reduce checkout friction and manage orders.
+    📘 **Note:** The billing and shipping details are not required to create Apple Pay direct orders with MultiSafepay. However, since the collected details are available to you in unencrypted form, you can use them to reduce checkout friction and manage orders.
     
     ---
 
     </details>
 
-    **Note:** The `total.amount` is in euros, whereas the `amount` in MultiSafepay order requests is in eurocents. 
+    📘 **Note:** The `total.amount` is in euros, whereas the `amount` in MultiSafepay order requests is in eurocents. 
 
     For more information about the `ApplePayRequest` object, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepayrequest" target="_blank">ApplePayRequest</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -114,7 +114,7 @@ When the customer clicks or taps the ** Pay** button:
 
     For more information about Apple Pay versions, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_on_the_web_version_history" target="_blank">Apple Pay on the web version history</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-    **Note:** You can only create a session within a user gesture handler. For example, you can create the session when the user taps the ** Pay** button.
+    📘 **Note:** You can only create a session within a user gesture handler. For example, you can create the session when the user taps the ** Pay** button.
 
     For more information, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/creating_an_apple_pay_session" target="_blank">Creating an Apple Pay session</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -155,7 +155,7 @@ When the customer clicks or taps the ** Pay** button:
     }'
     ```
 
-    **Note:** The actual code depends on your server-side framework.
+    📘 **Note:** The actual code depends on your server-side framework.
 
     A successful response contains an Apple Pay merchant `session`, which expires after five minutes.
 
@@ -165,44 +165,45 @@ When the customer clicks or taps the ** Pay** button:
 
 ### Client-side integration
 
-1. Create an `onpaymentauthorized` event handler, which is called once the customer authorizes the payment with Touch ID, Face ID, or passcode.
-    ```javascript
-    session.onpaymentauthorized = function (event) {
+Create an `onpaymentauthorized` event handler, which is called once the customer authorizes the payment with Touch ID, Face ID, or passcode.
 
-        // Create a payment object
-        var payment = event.payment;
+```javascript
+session.onpaymentauthorized = function (event) {
 
-        // With the payment object:
-        // - Create an Apple Pay direct order from your server
-        // - Return the success attribute of the response 
+    // Create a payment object
+    var payment = event.payment;
 
-        if (success == true) {
-            session.completePayment(ApplePaySession.STATUS_SUCCESS);
-        // Redirect the customer to your success page
-        };
-        if (success == false) {
-            session.completePayment(ApplePaySession.STATUS_FAILURE);
-        };
+    // With the payment object:
+    // - Create an Apple Pay direct order from your server
+    // - Return the success attribute of the response 
+
+    if (success == true) {
+        session.completePayment(ApplePaySession.STATUS_SUCCESS);
+    // Redirect the customer to your success page
     };
-    ```
+    if (success == false) {
+        session.completePayment(ApplePaySession.STATUS_FAILURE);
+    };
+};
+```
 
-    The `payment` object contains the customer's encrypted payment details (`payment.token`) and, if requested, the `billingContact` and `shippingContact`.
+The `payment` object contains the customer's encrypted payment details (`payment.token`) and, if requested, the `billingContact` and `shippingContact`.
 
-    For more information about the `payment` object, see Apple Developer:
-    - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypaymentauthorizedevent/1777999-payment" target="_blank">payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+For more information about the `payment` object, see Apple Developer:
+- <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypaymentauthorizedevent/1777999-payment" target="_blank">payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 ### Server-side integration
 
 1. From your server, [create an order](/reference/createorder/) > Wallet order. <br> See also Examples > Apple pay direct, using the `payment.token` property. <br> To use the `payment.token` property in the order request, convert it to an escaped JSON string.
 
-**Note:** The billing and shipping details are **not** required for Apple Pay direct orders. 
+📘 **Note:** The billing and shipping details are **not** required for Apple Pay direct orders. 
 
 2. To access the shipping and/or billing details from the `payment` object, use the `payment.billingContact` and `payment.shippingContact` properties.
 
 3. To add the details to the order request, format them in accordance with [create order](/reference/createorder/) requests.
 
-**Note:** Billing and shipping data are **not** encrypted.
+📘 **Note:** Billing and shipping data are **not** encrypted.
 
 For more information about the `payment` object and its properties, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -220,7 +221,7 @@ To test, follow these steps:
 2. Sign in to your Apple Developer account and select your test card.
 3. Authorize the payment.
 
-✅ &nbsp;  The transaction is completed.
+✅ &nbsp; **Success!** The transaction is completed.
 
 <br>
 
