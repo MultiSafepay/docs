@@ -35,7 +35,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
 ## Construct the component object
 
-1. Initialize an `orderData` object, containing information about the customer's order collected during the checkout process:
+1. Initialize an `orderData` object, containing information about the customer's <<glossary:order>> collected during the checkout process:
 
     ```
     const orderData = {
@@ -68,7 +68,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
     </details>
 
-    **Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and transaction amount are supported. 
+    📘 **Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and order amount are supported. 
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
 

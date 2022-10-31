@@ -116,7 +116,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 | Any other IBAN | **Expired** | The transaction is initiated. <br> After 5 days, this changes to **Expired**. |
 <br>
 
-**Note:** You can't test making direct API requests with an IBAN to test different <<glossary:transaction statuses>>.
+**Note:** You can't test making <<glossary:direct>> API requests with an IBAN to test different <<glossary:transaction statuses>>.
 
 </details>
 
@@ -181,7 +181,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order (Example: iDEAL direct/redirect)
-2. For redirect, select a bank.
+2. For <<glossary:redirect>>, select a bank.
 3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 4. Click **Test**.  
     The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
@@ -201,7 +201,7 @@ You can also test the following scenarios:
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order (Example: Direct debit direct/redirect)
-2. For redirect orders, open the payment link. 
+2. For <<glossary:redirect>> orders, open the payment link. 
 3. Enter in the:
     - **Account holder** field the account holder name.
     - **IBAN** field an IBAN (see table below).
@@ -222,7 +222,7 @@ You can also test the following scenarios:
 
 1. [Create an order](/reference/createorder/) > Banking order (Example: MyBank direct/redirect)
     In the `customer` object, set the `locale` parameter to `it_IT`.
-2. For redirect orders, open the payment link. 
+2. For <<glossary:redirect>> orders, open the payment link. 
 3. Select the bank/payment scenario below.
 4. Click **Continua sull'online banking**.
 
@@ -283,7 +283,7 @@ You can also test the following scenarios:
 
 1. [Create an order](/reference/createorder/) > BNPL order  
     Example: E-Invoicing/Pay After Delivery direct/redirect
-2. For redirect orders, open the payment link.
+2. For <<glossary:redirect>> orders, open the payment link.
 3. Enter in the:
     - **Birthdate** field any date of birth. Format: DD-MM-YYYY.
     - **Bank account** field any 10-digit bank account number.
@@ -316,7 +316,7 @@ To test shipping an order, make an [update order](/reference/updateorder/) API r
     - Postal code: 1234AB
     - House number: 1
 
-    For redirect orders:
+    For <<glossary:redirect>> orders:
     - Enter in the:
       - **Birthdate** field: `01-01-1999`
       - **Phone number** field: Any phone number  
@@ -438,7 +438,7 @@ To learn more about integrating Klarna with MultiSafepay, see [Klarna](/docs/kla
 
 1. [Create an order](/reference/createorder/) > BNPL order  
     Example: Riverty direct/redirect
-2. For redirect orders, select the checkbox at the bottom of the Riverty page, and then click **Confirm**.  
+2. For <<glossary:redirect>> orders, select the checkbox at the bottom of the Riverty page, and then click **Confirm**.  
 The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Uncleared**.
 
 **Test declining an order**  
@@ -448,7 +448,7 @@ The transaction and order statuses change to **Void**.
 
 **Test Riverty rejecting an order**  
 
-To test Riverty rejecting an order, in your direct or redirect API request, use the following email address: <rejection@afterpay.nl>  
+To test Riverty rejecting an order, in your <<glossary:direct>> or <<glossary:redirect>> API request, use the following email address: <rejection@afterpay.nl>  
 The transaction and order statuses change to **Declined**.
 
 **Change the order status**  
@@ -573,7 +573,7 @@ If these requirements are not met, Apple Pay doesn't appear on the checkout page
 
 **Testing Apple Pay redirect**
 
-To test your Apple Pay redirect integration, there are two ways:
+To test your Apple Pay <<glossary:redirect>> integration, there are two ways:
 
 - If you have an Apple account with at least one credit card in your wallet, you can use your own account and card details in our test environment without incurring any costs.
 - Alternatively, you can use an <a href="https://developer.apple.com/apple-pay/sandbox-testing" target="_blank">Apple Developer account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> configured for Apple Pay, with at least one Apple Pay test card in your wallet.

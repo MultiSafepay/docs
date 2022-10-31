@@ -314,7 +314,7 @@ We recommend styling payment pages to be consistent with the look and feel of yo
 
 ### Via the API
 
-You can dynamically style the payment page for specific transaction requests via our API. 
+You can dynamically style the payment page for specific order requests via our API. 
 
 See:
 - API reference – [Create order](/reference/createorder/) > Payment page/link > `payment_options` object

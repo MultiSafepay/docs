@@ -32,7 +32,7 @@ Manchmal fügt die Bank des Kunden/der Kundin Kommentare zur Überweisung hinzu.
 Der Kunde/die Kundin hat eine Überweisung getätigt, jedoch nicht:
 
 - die Bestellung in Ihrem Onlinehandel aufgegeben, **oder**
-- **Bestätigen** auf der MultiSafepay Zahlungsseite geklickt (redirect orders).
+- **Bestätigen** auf der MultiSafepay Zahlungsseite geklickt (<<glossary:redirect>> orders).
 
 Dies bedeutet, dass die Transaktion nicht erfolgreich in unserem System generiert werden konnte.
 

@@ -118,8 +118,8 @@ In the `customer` object, set the `locale` parameter:
 
 ### Ready-made integrations
 All our [ready-made integrations](/docs/our-integrations/) support: 
-- Amex, Maestro, Mastercard (redirect) 
-- Visa (including Cartes Bancaires, Dankort, Postepay, V Pay) (redirect) 
+- Amex, Maestro, Mastercard (<<glossary:redirect>>) 
+- Visa (including Cartes Bancaires, Dankort, Postepay, V Pay) (<<glossary:redirect>>) 
 
 ### Testing
 To test card payments, see Testing payment methods - [Credit and debit cards](/docs/testing#credit-and-debit-cards).
@@ -139,7 +139,7 @@ If you use your Amex merchant account number:
 
 ## Cardholder data
 
-The redirect integration means MultiSafepay handles sensitive cardholder data. You can also integrate directly and handle data on your PCI DSS compliant server.
+The <<glossary:redirect>> integration means MultiSafepay handles sensitive cardholder data. You can also integrate directly and handle data on your PCI DSS compliant server.
 
 See [Cardholder data](/docs/cardholder-data/).
 

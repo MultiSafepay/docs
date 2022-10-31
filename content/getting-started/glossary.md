@@ -31,7 +31,7 @@ The part of a merchant's integration not accessible to customers. Here you can c
 
 ---
 #### BNPL
-Buy now pay later methods let customers pay for their order after receiving it, and only for the items they keep. 
+Buy now pay later methods let customers pay for their <<glossary:order>> after receiving it, and only for the items they keep. 
 
 ---
 #### cardholder
@@ -47,11 +47,11 @@ A 3 or 4 digit code customers enter as an additional layer of security for onlin
 
 ---
 #### collecting party
-The party that receives the funds for a transaction directly from the customer, before transferring them to the merchant.
+The party that receives the funds for a <<glossary:transaction>> directly from the customer, before transferring them to the merchant.
 
 ---
 #### conversion rate
-How often customers visiting a merchant's integration place an order and complete payment.
+How often customers visiting a merchant's integration place an <<glossary:order>> and complete payment.
 
 ---
 #### credit card
@@ -68,6 +68,10 @@ A card issued by a bank that transfers funds directly from the customer's bank a
 ---
 #### developer
 A software developer a merchant employs to work on the technical side of their integration.
+
+---
+#### direct flow
+The customer selects the payment method in your embedded checkout and is connected directly to the payment method. Contrast with [redirect flow](#redirect-flow) below.
 
 ---
 #### ecommerce platform
@@ -99,7 +103,7 @@ A merchant's account with MultiSafepay, managed via a <a href="https://merchant.
 
 ---
 #### order
-All information related to a single instance of products and/or services sold to a customer that is linked to one or more transactions.
+A data element that contains all information about a single instance of products and/or services sold to a customer, which is linked to one or more transactions.
 
 ---
 #### payment
@@ -133,12 +137,16 @@ See [Payouts](/docs/payouts).
 A terminal that accepts payments, usually by card or near-field communication (NFC), at a merchant's physical location, e.g. a store.
 
 ---
+#### redirect flow
+Redirect requests first send the customer to a [payment page](/docs/payment-pages/) and then connect them to the selected payment method.
+
+---
 #### RESTful API (application programming interface)
 The interface and set of protocols merchants use to exchange data with the MultiSafepay server. Our [API reference](/reference/introduction/) specifies the content and format of requests to our server and the responses the server sends back.
 
 ---
 #### reversal
-When a customer cancels an order paid by credit or debit card and takes the funds back.
+When a customer cancels an <<glossary:order>> paid by credit or debit card and takes the funds back.
 
 ---
 #### SEPA
@@ -151,7 +159,7 @@ To withdraw funds, make a [payout](/docs/payouts).
 
 ---
 #### shopping cart
-A container in the merchant's integration where customers place items for an order preparing for payment.
+A container in the merchant's integration where customers place items for an <<glossary:order>> preparing for payment.
 
 ---
 #### transaction

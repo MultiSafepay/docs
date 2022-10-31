@@ -156,16 +156,16 @@ Check whether the customer’s bank is experiencing a temporary malfunction.
 
 The transaction may already exist with a third party.
 
-For example, if an iDEAL transaction already exists and another direct iDEAL transaction is initiated, you receive an `Error 1022: Kan geen transactie starten: ERR_EXISTS: transaction error.`
+For example, if an iDEAL transaction already exists and another <<glossary:direct>> iDEAL transaction is initiated, you receive an `Error 1022: Kan geen transactie starten: ERR_EXISTS: transaction error.`
 
 ---
 ### 1023: Gateway unavailable
 
-The `gateway` is unavailable. This error can occur with [direct](/reference/introduction#direct-vs-redirect) requests.
+The `gateway` is unavailable. This error can occur with <<glossary:direct>> requests.
 
-- Check whether the payment method supports direct requests.
+- Check whether the payment method supports <<glossary:direct>> requests.
 - Ensure you specified a gateway in the create order request.
-- Check if the site is correctly configured for direct requests.
+- Check if the site is correctly configured for <<glossary:direct>> requests.
 
 ---
 ### 1024: Transaction declined
@@ -283,7 +283,7 @@ The MD5 signature supplied with the message doesn’t match the message contents
 ---
 ### 1036: Invalid iDEAL issuer ID
 
-The bank identifier for a direct iDEAL transaction was not recognized.
+The bank identifier for a <<glossary:direct>> iDEAL transaction was not recognized.
 
 Check:
 

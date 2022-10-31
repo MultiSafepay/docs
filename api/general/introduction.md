@@ -30,7 +30,7 @@ For redirect requests, if the gateway for a specific payment method is:
 Then, if further customer action is:
 
 - Required: The customer is redirected to complete payment, e.g. for iDEAL, they are redirected to their online banking environment. 
-- Not required: The transaction is completed automatically. 
+- Not required: The <<glossary:transaction>> is completed automatically. 
 
 If you provide a `redirect_url`, after completing payment the customer is directed to your success/thank you page.
 

@@ -28,7 +28,7 @@ New features and payment methods are made available automatically. No updates or
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOExample.png" align ="center"/>
 <br>
 
-The FastCheckout page comprises 4 elements that can be displayed or hidden, and configured per transaction.
+The FastCheckout page comprises 4 elements that can be displayed or hidden, and configured per <<glossary:order>>.
 
 You can also include custom fields, e.g. terms and conditions, newsletter signup.
 

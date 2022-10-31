@@ -38,7 +38,7 @@ Add the following elements to your checkout page:
 
 ## Construct the component object
 
-1. Initialize an `orderData` object, containing information about the customer's order collected during the checkout process:
+1. Initialize an `orderData` object, containing information about the customer's <<glossary:order>> collected during the checkout process:
 
     ```javascript
     const orderData = {
@@ -116,7 +116,7 @@ Add the following elements to your checkout page:
     
     </details>
 
-    **Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and transaction amount are supported. 
+    **Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and order amount are supported. 
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
 
@@ -256,7 +256,7 @@ Use the `createOrder()` function to pass the `orderData` to your server.
 
 ## Create an order
 
-Create an order from your server, appending the `payment_data` collected from the payment component UI to the order data.
+Create an <<glossary:order>> from your server, appending the `payment_data` collected from the payment component UI to the order data.
 
 See API reference – [Create order](/reference/createorder/) > Payment component.
 

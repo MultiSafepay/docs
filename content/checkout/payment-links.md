@@ -11,8 +11,8 @@ You can manually generate a link to a [payment page](/docs/payment-pages/) to pa
 
 Use cases include:
 
-- A customer wants to adjust an existing order and instead of starting over with a new order.
-- You need to create a transaction for a manually generated order.
+- A customer wants to adjust an existing <<glossary:order>> and instead of starting over with a new order.
+- You need to create a <<glossary:transaction>> for a manually generated order.
 - MultiSafepay collects a payment for an amount that doesn't match any order. If you accept the payment, you need to manually generate a payment link and email it to <support@multisafepay.com>
 - A [bank transfer](/docs/bank-transfer/) transaction has expired.
 
@@ -140,7 +140,7 @@ This only applies to certain payment methods:
 
 The customer can open the link to the payment page up to 20 times, after which the link is disabled.
 
-Each attempt creates a new transaction with the same `order_id`. If the customer completes payment in one of these transactions, the [status](#overview-and-statuses) of the other transactions changes to **Duplicate**.
+Each attempt creates a new <<glossary:transaction>> with the same `order_id`. If the customer completes payment in one of these transactions, the [status](#overview-and-statuses) of the other transactions changes to **Duplicate**.
 
 ## Overview and statuses
 

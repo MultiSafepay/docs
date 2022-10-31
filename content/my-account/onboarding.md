@@ -159,7 +159,7 @@ To help you start accepting payments as quickly as possible, we divide our check
 We may ask for a deposit in case:
 
 - A merchant goes bankrupt and we can't collect funds for chargebacks from their account.
-- A merchant uses payment methods that let you withdraw funds from your account balance when there are no funds available, e.g. SEPA direct debits or credit card payments. 
+- A merchant uses payment methods that let you withdraw funds from your account balance when there are no funds available, e.g. direct debits or credit card payments. 
 
 Deposits are based on various factors:
 

@@ -64,7 +64,7 @@ VIBANs can only be used for transactions in EUR.
 
 ## Matching payments
 
-Most incoming payments are automatically matched to the relevant order in your account. However, if the customer accidentally provides incorrect information or pays the wrong amount, MultiSafepay matches them manually. See Bank transfer – [Matching payments](/docs/bank-transfer#matching-payments). 
+Most incoming payments are automatically matched to the relevant <<glossary:order>> in your account. However, if the customer accidentally provides incorrect information or pays the wrong amount, MultiSafepay matches them manually. See Bank transfer – [Matching payments](/docs/bank-transfer#matching-payments). 
 
 With a VIBAN, you can resolve unmatched payments yourself in your MultiSafepay dashboard. You need to request this functionality when applying for your VIBAN.
 

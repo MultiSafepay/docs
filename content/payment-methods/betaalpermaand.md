@@ -40,7 +40,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | The customer has been redirected to Santander. | Initialized   | Initialized  |
 | The customer has completed the pre-form and Santander is authorizing the transaction. | Uncleared | Initialized |
 | Santander has authorized the transaction and the funds are awaiting capture. <br> You can no longer cancel. You can only refund. | Completed  | Uncleared  |
-| ❗️ To capture the funds, when you ship the order you must manually [change the order status to Shipped](#shipment) and send us the [track-and-trace code](#track-and-trace-codes).  | Shipped | Uncleared |
+| ❗️ To capture the funds, when you ship the <<glossary:order>> you must manually [change the order status to Shipped](#shipment) and send us the [track-and-trace code](#track-and-trace-codes).  | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped    | Completed  |
 | Santander declined the transaction. <br> Only the customer can contact them to find out why (for privacy and compliance reasons). | Declined   | Declined   |
 | You cancelled the transaction before capture.   | Void   | Void   |
@@ -83,7 +83,7 @@ To activate:
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions expire after 1 day.
-- For direct orders, you must display your terms and conditions in your checkout. 
+- For <<glossary:direct>> orders, you must display your terms and conditions in your checkout. 
 
 ### Ready-made integrations
 - Supported in most [ready-made integrations](/docs/our-integrations/).

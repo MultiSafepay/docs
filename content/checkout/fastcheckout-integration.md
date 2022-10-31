@@ -131,7 +131,7 @@ This technical manual is for embedding FastCheckout into your site using JavaScr
    |---|---|
    |`onError`| Occurs when there is an error in the FastCheckout page |
    |`onLoad`| Occurs when the FastCheckout page is rendered |
-   |`onSubmit`| Occurs when the transaction is successfully submitted |
+   |`onSubmit`| Occurs when the order is successfully submitted |
 
 4. `fastCheckout` has one method:
 

@@ -81,7 +81,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions expire after 2 hours.
-- For direct orders, you must display your terms and conditions in your checkout.
+- For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
 
 ### Ready-made integrations
 in3 (direct) is supported in:
