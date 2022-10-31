@@ -40,7 +40,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 |---|---|---|
 | MultiSafepay's risk analysis is in progress. You can still cancel. | Initialized | Initialized | 
 | We have authorized the transaction and the funds are awaiting capture. You can no longer cancel. You can only refund. <br> See [Close transactions](#close-transactions). | Completed | Uncleared | 
-| ❗️ To capture the funds, [manually change the order status to Shipped](#shipment). | Shipped | Uncleared |
+| ❗️ **Note:** To capture the funds, [manually change the order status to Shipped](#shipment). | Shipped | Uncleared |
 | MultiSafepay has collected payment.  | Shipped | Completed |
 | The transaction was cancelled. | Void/Cancelled   | Void/Cancelled | 
 | MultiSafepay declined the transaction. | Declined | Declined |
@@ -194,7 +194,7 @@ If you change the order status in your <<glossary:backend>>, the following [read
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
-❗️ Some third-party plugins may not support updating the status via our API.
+❗️ **Note:** Some third-party plugins may not support updating the status via our API.
 
 </details>
 

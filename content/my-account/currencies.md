@@ -20,7 +20,7 @@ To accept payments in a currency other than the default (EUR), the currency must
 - Supported in your <<glossary:backend>>
 - Correctly processed in the [create order](/reference/createorder/) request
 
-❗️ If the currency the customer wants to use is **not** supported by a payment method, the payment method does not appear in your checkout. 
+❗️ **Note:** If the currency the customer wants to use is **not** supported by a payment method, the payment method does not appear in your checkout. 
 
 ## Payouts
 
@@ -35,7 +35,7 @@ You can [make payouts](/docs/payouts/) in:
 
 If you receive funds in any other currency, you need to convert them to a payout currency to pay them out. 
 
-❗️ MultiSafepay applies a 4% conversion fee. 
+❗️ **Note:** MultiSafepay applies a 4% conversion fee. 
 
 ## Business bank account
 
@@ -118,7 +118,7 @@ Make sure you:
 
 To convert other currencies to Euros (EUR) in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, go to **Finance > Currency conversion**. 
 
-❗️ Take into account the exchange rate and MultiSafepay's 4% conversion fee.
+❗️ **Note:** Take into account the exchange rate and MultiSafepay's 4% conversion fee.
 
 ## Payment methods per currency
 

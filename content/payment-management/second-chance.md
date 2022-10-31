@@ -65,7 +65,7 @@ To integrate, see Recipes – [Send payment reminders](/recipes/send-payment-rem
 
 To set the language of Second Chance emails, see [Email styling](/docs/email-styling/) > Step 6.
 
-❗️ The language set in the dashboard is overridden by the `locale` parameter in the `customer` object in [create order](/reference/createorder/) API requests.
+❗️ **Note:** The language set in the dashboard is overridden by the `locale` parameter in the `customer` object in [create order](/reference/createorder/) API requests.
 
 <details id="locale-codes">
 <summary>Locale codes per language and country</summary>

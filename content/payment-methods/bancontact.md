@@ -86,7 +86,9 @@ To test Bancontact payments, see Testing payment methods - [Banking methods](/do
 
 ---
 
-# Bancontact WIP Service
+# User guide
+
+## Bancontact WIP Service
 
 Bancontact WIP is a wallet initiated payment service you can use for:
 
