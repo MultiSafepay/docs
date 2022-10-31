@@ -179,7 +179,7 @@ Follow these steps:
     - **Reason/Description** field the reason for the refund. 
 5. Click **Continue**.
 6. Under **Refund confirmation**, check that the description and amount are correct, and then click **Confirm**.
-    A new order is created for the refund, with status **reserved** or **Initialized**.
+    A new <<glossary:order>> is created for the refund, with status **reserved** or **Initialized**.
 7. Under **Related transactions**, select the **ID** of the refund order.
 8. Under **Order summary**, click **Accept**.
 9. In the **Add transaction comment** field, add a comment, and then click **Add**.
@@ -200,7 +200,7 @@ Follow these steps:
 
 1. [Create an order](/reference/createorder/). 
 2. Make a [refund](/reference/refundorder/) API request.
-    A new order is created for the refund. The order status for the refund changes to **reserved** or **Initialized**.
+    A new order is created for the refund. The <<glossary:order>> status for the refund changes to **reserved** or **Initialized**.
 3. In your MultiSafepay test dashboard, go to **Related transactions**, and then select the **ID** of the refund order.
 4. Under **Order summary**, click **Accept**.
 5. In the **Add transaction comment** field, add a comment, and then click **Add**.

@@ -73,7 +73,7 @@ Riverty provides you with an API key per country and per site, and you must acce
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions expire after 90 days.
-- For direct orders, you must display your terms and conditions in your checkout. 
+- For <<glossary:direct>> orders, you must display your terms and conditions in your checkout. 
 
 ### Ready-made integrations
 

@@ -77,7 +77,7 @@ See API reference – [Create order](/reference/createorder/) > BNPL order.
   </details>
 
 ### Ready-made integrations
-Supported in all [ready-made integrations](/docs/our-integrations/) (direct and redirect).
+Supported in all [ready-made integrations](/docs/our-integrations/) (<<glossary:direct>> and <<glossary:redirect>>).
 
 ### Testing
 See Testing payment methods – [BNPL methods](/docs/testing#bnpl-methods).
@@ -414,8 +414,8 @@ You can also then refund with or without the `shopping_cart`, but for simplicity
 
 ## Terms and conditions
 
-- [Direct flow](/reference/introduction#direct-vs-redirect): You must display your terms and conditions in your checkout.
-- [Redirect flow](/reference/introduction#direct-vs-redirect): MultiSafepay terms and conditions are displayed by default on [payment pages](/docs/payment-pages/).
+- For <<glossary:direct>> flows, you must display your terms and conditions in your checkout.
+- For <<glossary:redirect>> flows, MultiSafepay terms and conditions are displayed by default on [payment pages](/docs/payment-pages/).
 
 <br>
 

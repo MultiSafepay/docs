@@ -136,7 +136,7 @@ To prevent us from emailing the customer, see API reference – [Create order](/
 
 ### Transfer guidance for customers
 
-The customer must only pay for **one** order per bank transfer. When transferring the funds, provide:  
+The customer must only pay for **one** <<glossary:order>> per bank transfer. When transferring the funds, provide:  
     
 - The amount
 - Their bank account number
@@ -176,7 +176,7 @@ Sometimes, the customer's bank has added comments to the transfer.
 The customer made a transfer but did not:
     
 - Place their order with you, **or**
-- Click **Confirm** on the [payment page](/docs/payment-pages/) (redirect orders).  
+- Click **Confirm** on the [payment page](/docs/payment-pages/) (<<glossary:redirect>> orders).  
 
 This means the transaction was not created successfully in our system.
 

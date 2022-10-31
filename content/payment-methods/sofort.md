@@ -9,7 +9,7 @@ slug: 'sofort'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/sofort.svg" width="85" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a href="https://www.klarna.com/pay-now/" target="_blank">Sofort</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a banking payment method by Klarna. It integrates directly with the customer's bank like a direct bank transfer. The customer verifies the payment, which reduces the risks associated with traditional transfers. 
+<a href="https://www.klarna.com/pay-now/" target="_blank">Sofort</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a banking payment method by Klarna. It integrates with the customer's bank like a <<glossary:direct>> bank transfer. The customer verifies the payment, which reduces the risks associated with traditional transfers. 
 Once payment is completed, the customer cannot reverse it and Sofort guarantees <<glossary:settlement>>.
 
 Read how Sofort can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/sofort" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>

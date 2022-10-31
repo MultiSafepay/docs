@@ -111,10 +111,10 @@ Then, apply to MultiSafepay for Apple Pay, and activate it in your dashboard.
 - An SSL secured connection (HTTPS) is required.
 
 ### Direct integration
-For direct integration with a self-made integration, see [Apple Pay direct integration](/docs/apple-pay-direct/).
+For <<glossary:direct>> integration with a self-made integration, see [Apple Pay direct integration](/docs/apple-pay-direct/).
 
 ### API
-- For redirect integration, see API reference – [Create order](/reference/createorder/) > Wallet order. 
+- For <<glossary:redirect>> integration, see API reference – [Create order](/reference/createorder/) > Wallet order. 
 
   <details id="how-to-detect-apple-pay-on-the-customers-device"> 
   <summary>How to detect Apple Pay on the customer's device</summary>

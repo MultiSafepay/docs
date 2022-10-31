@@ -30,7 +30,7 @@ We kunnen de betaling niet matchen als de klant:
 De klant heeft wél een bankoverschrijving gedaan, maar heeft niet:
     
 - Een bestelling bij u geplaatst, **of**
-- Geklikt op **Bevestig** op de MultiSafepay betaalpagina (redirect orders). 
+- Geklikt op **Bevestig** op de MultiSafepay betaalpagina (<<glossary:redirect>> orders). 
 
 Beide gevallen leiden ertoe dat er geen transactie bestaat in ons systeem waarmee de overschrijving gematcht kan worden.
 

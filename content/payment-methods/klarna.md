@@ -99,10 +99,10 @@ For support, email <integration@multisafepay.com>
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions expire after 1 hour.
-- For direct orders, you must display your terms and conditions in your checkout.
+- For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
 
 ### Ready-made integrations
-Supported in all [ready-made integrations](/docs/our-integrations/) (redirect).
+Supported in all [ready-made integrations](/docs/our-integrations/) (<<glossary:redirect>>).
 
 ### Testing
 To test Klarna payments, see Testing payment methods - [BNPL methods](/docs/testing#bnpl-methods).

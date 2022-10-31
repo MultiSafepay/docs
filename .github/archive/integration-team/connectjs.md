@@ -19,7 +19,7 @@ MultiSafepay's ConnectJS JavaScript library supports all payment methods and [gi
 <div id="multisafepayContainer"></div>  
 ```
 
-3. When the order is created, add the reference to a global JavaScript object. The object must also contain the `onPaymentAction` method where ConnectJS sends the response to the ecommerce platform when the transaction is executed.
+3. When the <<glossary:order>> is created, add the reference to a global JavaScript object. The object must also contain the `onPaymentAction` method where ConnectJS sends the response to the ecommerce platform when the <<glossary:transaction>> is executed.
 
 ```
 MultiSafepay = {

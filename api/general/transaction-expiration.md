@@ -8,12 +8,12 @@ hidden: false
 
 Different payment methods set different expiration times for transactions. The time begins:
 
-- For direct requests: When you make the [create order](/reference/createorder) request.
-- For redirect requests: When the customer selects the payment method on the [payment page](/docs/payment-pages/).
+- For <<glossary:direct>> requests: When you make the [create order](/reference/createorder) request.
+- For <<glossary:redirect>> requests: When the customer selects the payment method on the [payment page](/docs/payment-pages/).
 
 The expiration time is set by the payment method and cannot be changed.
 
-**Note:** Transaction expiration times are different to session lifetimes of payment pages.
+📘 **Note:** Transaction expiration times are different to session lifetimes of payment pages.
 
 The table below sets out the expiration time per payment method:
 

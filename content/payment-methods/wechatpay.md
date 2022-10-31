@@ -74,8 +74,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
   </details>
 
 - Transactions expire after 2 hours.
-- For direct orders, retrieve the `qr_url`, and render the QR code in your system to display it to the customer.
-- For redirect orders to [payment pages](/docs/payment-pages/), the QR code displays under **Payment methods**.
+- For <<glossary:direct>> orders, retrieve the `qr_url`, and render the QR code in your system to display it to the customer.
+- For <<glossary:redirect>> orders, the QR code displays on the [payment page](/docs/payment-pages/) under **Payment methods**.
 
 ### Ready-made integrations
 Supported in our [PrestaShop 1.7 plugin](/docs/prestashop-1-7/).

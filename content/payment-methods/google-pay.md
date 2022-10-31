@@ -107,7 +107,7 @@ Then, apply to MultiSafepay for Google Pay, and activate it in your dashboard.
 # Integration
 
 ### API
-- To easily integrate Google Pay using MultiSafepay payment pages (redirect), see API reference – [Create order](/reference/createorder/) > Wallet order.
+- To easily integrate Google Pay using MultiSafepay payment pages (<<glossary:redirect>>), see API reference – [Create order](/reference/createorder/) > Wallet order.
 
   <details id="example-requests"> 
   <summary>Example requests</summary>
@@ -123,7 +123,7 @@ Then, apply to MultiSafepay for Google Pay, and activate it in your dashboard.
 - Transactions expire after 1 hour.
 
 ### Ready-made integrations
-- Supported in most [ready-made integrations](/docs/our-integrations/) (redirect). 
+- Supported in most [ready-made integrations](/docs/our-integrations/) (<<glossary:redirect>>). 
 - Exceptions: Magento 2 and WooCommerce. For these, you can use a generic gateway. See the relevant manual.
 
 ### Testing

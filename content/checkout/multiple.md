@@ -47,7 +47,7 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
 
 ## Construct the component object
 
-1. Initialize an `orderData` object containing information about the customer's order collected during the checkout process:
+1. Initialize an `orderData` object containing information about the customer's <<glossary:order>> collected during the checkout process:
     ```javascript
     const orderData = {
         currency: 'EUR',
@@ -131,7 +131,7 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
 
     </details>
     
-    **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and transaction value. 
+    **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and order value. 
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
 
@@ -302,7 +302,7 @@ Then, check `response.success`:
 
 ## Create an order
 
-Create an order from your server, appending the `payment_data` collected from the payment component UI to the order data.
+Create an <<glossary:order>> from your server, appending the `payment_data` collected from the payment component UI to the order data.
 
 See API reference – [Create order](/reference/createorder/) > Payment component.
 

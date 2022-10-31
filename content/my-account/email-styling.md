@@ -23,7 +23,7 @@ Use our pre-formatted and/or pre-written templates and populate them with your c
     <br>
 
     **Bank transfer details email (to customer)**  
-    For sending customers MultiSafepay's bank details for `redirect` [bank 
+    For sending customers MultiSafepay's bank details for <<glossary:redirect>> [bank 
     transfers](/docs/bank-transfer/). 
 
     **Chargeback email (to merchant)**  
