@@ -10,6 +10,7 @@ slug: 'shopify'
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shopify.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 > ❗️ Urgent action required!
+>
 > As of July 31, 2022, the deprecated version of the app will no longer be supported. Payments will **not** be processed. 
 > [Migrate to our updated app](#how-to-install) as soon as possible.
 > The new app leverages a single, powerful <<glossary:gateway>> for a faster, safer integration.
@@ -18,7 +19,7 @@ slug: 'shopify'
 
 You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
-# How to install
+# Installation
 
 To install or migrate, follow these steps:
 
@@ -38,7 +39,7 @@ To install or migrate, follow these steps:
     If the payment method is **not** activated for your MultiSafepay account, an error appears. 
 7. [Activate the method for your MultiSafepay account](/docs/payment-methods), and then in Shopify, click **Retry**. 
 
-**Note:** We recommend first testing each payment method before setting your **live** API key. 
+✅ &nbsp; **Tip!** We recommend first testing each payment method before setting your **live** API key. 
 <br>
 
 ---
@@ -99,7 +100,7 @@ Payments are processed in the webshop's default currency only.
 5. Enter your [site ID and security code](/docs/sites#site-id-api-key-and-security-code).
 6. Activate the payment method.
 
-**Note:** To bundle all payment methods under a single MultiSafepay payment gateway at checkout, under **Alternative payments**, activate the **MultiSafepay** payment method.
+✅ &nbsp; **Tip!** To bundle all payment methods under a single MultiSafepay payment gateway at checkout, under **Alternative payments**, activate the **MultiSafepay** payment method.
 
 </details>
 

@@ -18,6 +18,7 @@ slug: 'magento-2'
 </div>
 
 > ⚠️ Action required
+>
 > If you are still using the deprecated plugin, we recommend [upgrading to the latest version](/docs/magento-2#upgrades) as soon as possible.
 
 Our plugin is supported by a certified Magento 2 Solution Specialist and receives regular updates for the latest features from Magento and MultiSafepay.
@@ -62,7 +63,7 @@ The installation process is the same for the Adobe Commerce version.
 
 </details>
 
-# How to install
+# Installation
 
 1. We recommend installing the meta-package using Composer:
     ``` 
@@ -87,7 +88,7 @@ If you have a Magento 2 environment with MSI disabled, to enable the MultiSafepa
 php bin/magento module:disable MultiSafepay_ConnectCatalogInventory
 ```
 
-# How to configure
+# Configuration
 
 1. Sign in to your Magento 2 <<glossary:backend>>.
 2. Go to **Stores** > **Configuration** > **MultiSafepay**.
@@ -247,6 +248,8 @@ To extend the lifetime of pending payments orders, increase the **Order Cron set
 
 For instructions, see Magento – <a href="https://docs.magento.com/user-guide/sales/order-pending-payment-lifetime.html" target="_blank">Pending payment order lifetime</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
+</details>
+
 ## Order requests
 
 <details id="how-to-modify-order-requests">
@@ -284,7 +287,7 @@ The plugin supports [Payment Components](/docs/payment-components/), which:
 3. Click **Payment type** and select **Credit card component**.
 4. Click **Save config**.
 
-**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
@@ -352,7 +355,7 @@ You cannot add payment links to order confirmation emails created in your **fron
 2. Replace the **New order confirmation template** with your template.
 3. Test the template to confirm it is working.
 
-**Note:** You can also implement this directly in the email template files.
+✅ &nbsp; **Tip!** You can also implement this directly in the email template files.
 
 </details>
 
@@ -434,7 +437,7 @@ To avoid this, match the order lifetime to the [payment link](/docs/payment-link
 
 See [Order lifetimes](#order-lifetimes) above. 
 
-**Note:** We recommend setting order lifetimes to 2 days (2880 minutes) to allow enough time for the customer to pay, but avoid issues with external services.
+✅ &nbsp; **Tip!** We recommend setting order lifetimes to 2 days (2880 minutes) to allow enough time for the customer to pay, but avoid issues with external services.
 
 <details id="how-to-set-payment-link-lifetimes">
 <summary>How to set payment link lifetimes</summary>

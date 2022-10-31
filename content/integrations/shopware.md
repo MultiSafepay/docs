@@ -28,9 +28,9 @@ slug: 'shopware'
 - Shopware 6.3.x, 6.4.x _(<a href="https://www.shopware.com/en/pricing" target="_blank">Starter Edition</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> supported)_
 - Tested on PHP 7.2.0
 
-## How to install and configure
+## Installation and configuration
 
-> **Tip!** We recommend first installing the plugin in a test environment, following the Shopware 6 installation procedure. Always make a backup.
+✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the Shopware 6 installation procedure. Always make a backup.
 
 ### Marketplace installation
 Get the free MultiSafepay plugin from the <a href="https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html" target="_blank">Shopware 6 marketplace</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and connect your webshop with your Shopware account.
@@ -84,7 +84,7 @@ If you're new to accepting credit card payments, email a request to activate the
 
 For questions, email <integration@multisafepay.com>
 
-**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
@@ -162,7 +162,7 @@ You can update the plugin in your backend and the CMS marketplace, or via using 
 <summary>How to update in your backend</summary>
 <br>
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 3.
@@ -193,9 +193,9 @@ You can update the plugin in your backend and the CMS marketplace, or via using 
 - Shopware 5.6.x or 5.5.7 and above.
 - Tested on PHP 7.0
 
-## How to install and configure
+## Installation and configuration
 
-> **Tip!** We recommend first installing the plugin in a test environment, following the Shopware 5 installation procedure. Always make a backup.
+✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the Shopware 5 installation procedure. Always make a backup.
 
 1. Sign in to your Shopware 5 backend.
 2. Go to **Configuration** > **Plugin manager**.
@@ -317,7 +317,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 <summary>How to update in your backend</summary>
 <br>
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

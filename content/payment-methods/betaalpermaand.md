@@ -110,7 +110,7 @@ To cancel an order, email <annuleren@santander.com> with the following details:
 - Order ID
 - PSP ID (MultiSafepay's transaction reference number)
 
-**Note:** You can't cancel a Betaal per Maand order via your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+❗️ You cannot cancel a Betaal per Maand order via your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## Collection period
 
@@ -181,7 +181,7 @@ If you change the order status in your <<glossary:backend>>, the following [read
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
-**Note:** Some third-party plugins may not support updating the status via our API.
+❗️ Some third-party plugins may not support updating the status via our API.
 
 </details>
 

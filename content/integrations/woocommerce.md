@@ -25,9 +25,9 @@ slug: 'woocommerce'
 - Wordpress 5.0 or higher
 - PHP 7.3 or 7.4
 
-# How to install
+# Installation
 
-> **Tip!** We recommend first installing the plugin in a test environment, following the WooCommerce installation procedure. Always make a backup.
+✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the WooCommerce installation procedure. Always make a backup.
 
 There are two ways to install the plugin:
 
@@ -46,7 +46,7 @@ There are two ways to install the plugin:
 4. Click **Browse file**.
 5. Upload the Plugin_WooCommerce_x.x.x.zip file.
 
-# How to configure
+# Configuration
 1. Sign in to your WooCommerce backend.
 2. Go to **WooCommerce** > **MultiSafepay settings**
 3. On the **Account** tab, enter your [API key](/docs/sites#site-id-api-key-and-security-code).
@@ -200,7 +200,7 @@ If you're new to accepting credit card payments, email a request to activate the
 
 For questions, email <integration@multisafepay.com>
 
-**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
@@ -273,7 +273,8 @@ If you change the <<glossary:order status>> to **Shipped** in your backend, the 
 
 You can apply [surcharges](/docs/surcharges/) in the plugin when combined with a relevant third-party package. 
 
-> ⚠️ **Attention Dutch merchants** 
+> ⚠️ Attention Dutch merchants
+>
 > We strongly recommend **not** applying surcharges to <<glossary:BNPL>> methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 <details id="how-to-apply-surcharges-with-third-party-packages">
@@ -296,7 +297,7 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 <summary>How to update in your backend</summary>
 <br>
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

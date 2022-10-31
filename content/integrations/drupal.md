@@ -28,9 +28,9 @@ slug: 'drupal'
 - Tested on PHP 7.2
 - Drupal Commerce 2.x
 
-## How to install
+## Installation
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 These instructions are for Composer. You can also install the plugin in your <<glossary:backend>>. 
 
@@ -40,7 +40,7 @@ To install the latest stable version of the Drupal Commerce 2.x plugin, run the 
 composer require drupal/commerce_multisafepay_payments
 ```
 
-## How to configure  
+## Configuration  
 
 1. Sign in to your Drupal backend.
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
@@ -112,7 +112,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 <summary>How to update in your backend</summary>
 <br>
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation instructions and the Configuration instructions from step 2.
@@ -150,9 +150,9 @@ For how to upgrade Drupal 8 to Drupal 9, see Drupal - <a href="https://www.drupa
 - Drupal 7.x
 - Tested on PHP 7.0
 
-## How to install and configure
+## Installation and configuration
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Unpack the content of the .ZIP file in the root of your Drupal 7 webshop.
 2. Sign in to your Drupal 7 backend.
@@ -209,7 +209,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 <summary>How to update via SFTP</summary>
 <br>
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

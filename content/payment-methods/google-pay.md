@@ -24,6 +24,7 @@ Read how Google Pay can benefit your business on <a href="https://www.multisafep
 | [Second Chance](/docs/second-chance/) | Yes |
 
 > ℹ Notes 
+>
 > - By processing Google Pay payments, you agree to the <a href="https://payments.developers.google.com/terms/sellertos" target="_blank">Google API Terms of Service</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 > - When integrating Google Pay into your ecommerce platform, you must follow <a href="https://developers.google.com/pay/api/web/guides/brand-guidelines" target="_blank">Google's brand guidelines</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 > - For more information, see Google Pay – <a href="https://developers.google.com/pay/api/web/overview" target="_blank">Overview</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.

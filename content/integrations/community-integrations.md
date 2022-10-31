@@ -1,7 +1,7 @@
 ---
 title: "Community integrations"
 category: 62962dd7e272a6002ebbbbc5
-order: 300
+order: 145
 hidden: false
 excerpt: "Submit and promote your plugin and become part of the MultiSafepay community."
 slug: 'community-integrations'
@@ -59,20 +59,22 @@ ___
 
 # Build a community integration
 
-At MultiSafepay, our developers write code in-house for processing transactions. However, there are also many fantastic external developers worldwide who create code wrappers, plugins, and applications in order to integrate our products and services.
+At MultiSafepay, our developers write all our code for processing transactions in house. However, there are also many fantastic external developers worldwide who create code wrappers, plugins, and applications to integrate our products and services.
 
 We'd like to work with you, and will help market your work and promote it on MultiSafepay Docs. To add your project to MultiSafepay Docs, email <integration@multisafepay.com>
 
-If you want to publish a MultiSafepay community integration, you have to adhere to the following agreements:
+If you want to publish a MultiSafepay community integration, you must agree to the following:
 
-* The plugin information should be visible in the JSON format and include how to configure the integration. For more information, see [Create order](/reference/createorder/) > Body params > .. > Plugin.
-* The readme should indicate that full responsibility lies with the developer of the community integration. This includes customer support and maintenance of the code. It should also be clear that the integration was **not created by MultiSafepay**
-* If we decide to add the community integration as one of the supported integrations by MultiSafepay, we will have the authority to also remove the community integration without the breach of contract.
-* The community integration should be updated to maintain its functionality.
+- Provide the plugin information in JSON format and describe how to configure the integration. For more information, see [Create order](/reference/createorder/) > Body params > .. > Plugin.
+- The readme file must indicate that full responsibility for customer support and maintenance lies with the developer and clearly state that the integration was **not** created by MultiSafepay.
+- If MultiSafepay decides to add support your integration, we are also entitled to remove it without breach of contract.
+- You must maintain the integration.
 
 For any questions about joining our developer community, email <integration@multisafepay.com>
 
-**MultiSafepay expects you to provide a high level of service and support to merchants. We may take action if we receive a large number of complaints.**
+> ⚠️ Quality expectation
+> 
+> MultiSafepay expects you to provide a high level of service and support to merchants. We may take action if we receive a large number of complaints.
 <br>
 
 ---

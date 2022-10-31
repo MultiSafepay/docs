@@ -12,6 +12,7 @@ slug: 'magento-1'
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.3.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 > ⚠️ Action required
+>
 > Magento 1 is end-of-life. We recommend [upgrading as soon as possible](/docs/magento-1#upgrades).
 
 # Changelog
@@ -800,11 +801,11 @@ ___
 - Magento Open Source 1.7 - 1.9
 - Tested on PHP 7.0
 
-# How to install
+# Installation
 
 These instructions are for SFTP upload. You can also install via .ZIP file upload in Connect.
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Unpack the content of the .ZIP file in the root of your webshop.
 2. Sign in to your Magento 1 <<glossary:backend>>.
@@ -813,7 +814,7 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 5. Add the content of the app, lib, and media folders to the existing folders with the same name.
 6. Sign out.
 
-# How to configure
+# Configuration
 
 1. Sign in to your Magento 1 backend.
 2. Go to **System** > **Configuration** > **MultiSafepay x.x.x** > **Connect settings**.  
@@ -860,7 +861,7 @@ The plugin is compatible with most Magento 1 checkouts. However, we cannot guara
 
 We test the plugin with Magento 1 core checkout and OneStepCheckout.com (`Idev`).
 
-**Note:** Always test OneStepCheckout to make sure it is compatible with your configuration of the plugin.
+✅ &nbsp; **Tip!** Always test OneStepCheckout to make sure it is compatible with your configuration of the plugin.
 
 ## Currencies
 
@@ -1015,7 +1016,8 @@ You can:
 
 </details>
 
-> ⚠️ **Attention Dutch merchants** 
+> ⚠️ Attention Dutch merchants
+>
 > We strongly recommend **not** applying surcharges to <<glossary:BNPL>> orders. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
@@ -1026,7 +1028,7 @@ You can update the plugin in your Magento 1 backend or the CMS marketplace, or v
 <summary>How to update via SFTP</summary>
 <br>
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

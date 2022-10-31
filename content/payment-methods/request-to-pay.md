@@ -1,7 +1,7 @@
 ---
 title: 'Request to Pay'
 category: 6298bd782d1cf4006032e765
-order: 113
+order: 111
 hidden: false
 parentDoc: 62a728d48b97080046c1d220
 slug: 'request-to-pay'
@@ -16,6 +16,7 @@ The funds are transferred directly to your business bank account, instead of you
 Read how Request to Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/request-to-pay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 > ⚠️ Availability
+>
 > Request to Pay is currently not available to new merchants. It is still supported for existing merchants. 
 
 | Supports | Details |

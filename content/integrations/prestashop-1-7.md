@@ -20,6 +20,7 @@ slug: 'prestashop-1-7'
 </div>
 
 > ⚠️ Action required
+>
 > If you are still using the <a href="https://github.com/MultiSafepay/prestashop" target="_blank">deprecated plugin</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, we recommend [upgrading to the latest version](#upgrades) as soon as possible.
 
 # Prerequisites
@@ -28,18 +29,18 @@ slug: 'prestashop-1-7'
 - PrestaShop version 1.7.6 or higher
 - PHP version 7.2 or higher
 
-> **Tip!** If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an older version (4.x) of our plugin which can be found in our <a href="https://github.com/MultiSafepay/prestashop/releases" target="_blank">PrestaShop GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+✅ &nbsp; **Tip!** If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an older version (4.x) of our plugin which can be found in our <a href="https://github.com/MultiSafepay/prestashop/releases" target="_blank">PrestaShop GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
-# How to install
+# Installation
 
-> **Tip!** We recommend first installing the plugin in a test environment, following the PrestaShop 1.7 installation procedure. Always make a backup.
+✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the PrestaShop 1.7 installation procedure. Always make a backup.
 
 1. Sign in to your PrestaShop 1.7 <<glossary:backend>>.
 2. Go to **Modules** > **Module Manager** > **Upload a module**.
 3. Select the Plugin_PrestaShop.zip file, and then click **Configure**.
 4. Clear your cache.
 
-# How to configure
+# Configuration
 
 1. Sign in to your PrestaShop 1.7 backend.
 2. Go to **Improve** > **MultiSafepay**, and enter your [site API key](/docs/sites/#site-id-api-key-and-security-code).
@@ -153,7 +154,7 @@ If you're new to accepting credit card payments, email a request to activate the
 3. Slide the **Enable payment component** radio button to **Enabled**.
 4. Click **Save config**.
 
-**Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
@@ -293,7 +294,7 @@ To translate the names of payment methods:
 <summary>How to update in your backend</summary>
 <br>
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the [Installation](/docs/prestashop-1-7#how-to-install) instructions.

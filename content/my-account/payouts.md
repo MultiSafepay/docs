@@ -61,7 +61,7 @@ You can schedule automated payouts on specific day, or make them manually.
     - If you want to specify a minimum amount to retain in your balance, in the **Set reserve balance** fields, enter an amount.
 4. Click **Add payout**.
 
-**Note:** To schedule payouts for different currencies, you must have a account balance and an active business bank account for each currency.
+✅ &nbsp; **Tip!** To schedule payouts for different currencies, you must have a account balance and an active business bank account for each currency.
 
 <img class="-radius max-width medium-img" src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Screenshot-Automatic-Withdrawals.png" alt="Screenshot of an automatic withdrawal in the MultiSafepay dashboard" >
 

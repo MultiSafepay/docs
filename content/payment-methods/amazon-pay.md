@@ -33,6 +33,7 @@ This diagram shows the flow for a successful transaction. Click to magnify.
   max-width: 750px;width: 100%;">
 
 > ℹ **Note** 
+>
 > MultiSafepay does **not** collect funds for Amazon Pay transactions.
 
 # Payment statuses

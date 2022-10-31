@@ -114,7 +114,7 @@ The updated order details make up the payload of the request.
 
 Check the <<glossary:order status>> in the `status` field. If necessary, update your <<glossary:backend>>.
 
-**Note:** You can ignore notifications that:
+📘 **Note:** You can ignore notifications that:
 - Don't have the `timestamp` parameter in the URL  
 - Have the same <<glossary:order status>> 
 

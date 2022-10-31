@@ -1,7 +1,7 @@
 ---
 title: "Mijnwebwinkel"
 category: 62962dd7e272a6002ebbbbc5
-order: 204
+order: 143
 hidden: false
 parentDoc: 62a9a54aba9800011a8bda88
 excerpt: "Technical manual for Mijnwebwinkel's free app."
@@ -13,9 +13,9 @@ slug: 'mijnwebwinkel'
 
 You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
-# How to install and configure
+# Installation and configuration
 
-> **Tip!** We recommend first installing the plugin in a test environment, following the Mijnwebwinkel installation procedure. Always make a backup.
+✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the Mijnwebwinkel installation procedure. Always make a backup.
 
 1. Sign in to your Mijnwebwinkel <<glossary:backend>>.
 2. Go to **Online orders** > **Payment method** > **MultiSafepay**.
@@ -82,7 +82,8 @@ To change the order of payment methods in your checkout, follow these steps:
 
 [Surcharges](/docs/surcharges/) are supported.
 
-> ⚠️ **Attention Dutch merchants** 
+> ⚠️ Attention Dutch merchants
+>
 > We strongly recommend **not** applying surcharges to <<glossary:BNPL>> orders. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ---

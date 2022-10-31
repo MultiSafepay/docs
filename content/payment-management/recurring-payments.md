@@ -141,7 +141,7 @@ We support recurring payments in our plugins for:
 
 See API reference – [Create order](/reference/createorder/) > `customer.reference`.
 
-**Note:** Tokens for direct debits are originally received as iDEAL or Sofort transactions. 
+📘 **Note:** Tokens for direct debits are originally received as iDEAL or Sofort transactions. 
 
 <details id="additional-parameters">
 <summary>Additional parameters</summary>

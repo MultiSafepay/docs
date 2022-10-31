@@ -1,7 +1,7 @@
 ---
 title: "Ecwid"
 category: 62962dd7e272a6002ebbbbc5
-order: 203
+order: 142
 hidden: false
 parentDoc: 62a9a54aba9800011a8bda88
 slug: 'ecwid'
@@ -15,7 +15,7 @@ Ecwid provides a free app to integrate with MultiSafepay [payment pages](/docs/p
 
 You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
-# How to install and configure
+# Installation and configuration
 
 1. Sign in to your Ecwid <<glossary:backend>> and install the MultiSafepay app from the App Store.
 2. Go to **Ecwid control panel** > **Settings** > **Payment page**.
@@ -26,6 +26,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 <br>
 
 > ℹ More information
+>
 > See Ecwid – <a href="https://support.ecwid.com/hc/en-us/articles/207808285-MultiSafepay#Howtosetup" target="_blank">How to set up</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 <br>
 

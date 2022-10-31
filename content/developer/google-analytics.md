@@ -11,8 +11,8 @@ Google Analytics is a popular web analytics service used to analyze data collect
 | Version | Javascript library | Google support |
 |---|---|---|
 | <a href="https://developers.google.com/analytics/devguides/collection/gajs?hl=en" target="_blank">Classic Google Analytics (GA1)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | `ga.js` | Deprecated |
-| <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs" target="_blank">Universal Analytics (GA2)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | `analytics.js` | Until 1st July 2023 |
-| <a href="https://developers.google.com/analytics/devguides/collection/gtagjs" target="_blank">Universal Analytics (GA3)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | `gtag.js` | Until 1st July 2023 |
+| <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs" target="_blank">Universal Analytics (GA2)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | `analytics.js` | Until July 1, 2023 |
+| <a href="https://developers.google.com/analytics/devguides/collection/gtagjs" target="_blank">Universal Analytics (GA3)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | `gtag.js` | Until July 1, 2023 |
 | <a href="https://developers.google.com/analytics/devguides/collection/ga4" target="_blank">Google Analytics 4 (GA4)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | `gtag.js` with a different data model | Supported |
 
 # Data models
@@ -24,9 +24,7 @@ If you use `analytics.js`, Google gives you a **tracking ID** that you need to a
 
 If you use `gtag.js`, then you use **tags** instead of tracking IDs. The `gtag.js` library adds a single tag to your site to connect with multiple Google products and services, including Google Analytics. 
 
-**Note:** All Google Analytics accounts since 2017 use `gtag.js`. Prior to 2017, `analytics.js` was the default method for tagging.
-
-<br>
+📘 **Note:** All Google Analytics accounts since 2017 use `gtag.js`. Prior to 2017, `analytics.js` was the default method for tagging.
 
 ## Ready-made integrations
 
@@ -49,15 +47,9 @@ You can add your tracking ID or tag to the following ready-made integrations, so
 
 </details>
 
-<br>
-
 ## API integrations
 
 You can add your tracking ID or tag in your integration by adding it in `google_analytics.account` when you [create an order](/reference/createorder/).
-
-<br>
-
----
 
 # Errors
 
@@ -70,15 +62,13 @@ Sometimes Google Analytics can miss or incorrectly report part of a customer's j
 
 This can impact the reliability of Google Analytics reports, and they won't accurately capture <<glossary:conversion>> rates. There are some ways to mitigate this.
 
-<br>
-
 ## Client side solutions
 
 ### How to exclude referrals
 
 To prevent third-party shopping carts initiating new sessions, you can exclude referral domains. This prevents the customer being counted as a referral when they return to your success page. 
 
-**Note:** This feature is only available for sites using `gtag.js` or `analytics.js`.
+📘 **Note:** This feature is only available for sites using `gtag.js` or `analytics.js`.
 
 For instructions, see Google Analytics – <a href="https://support.google.com/analytics/answer/2795830" target="_blank">Referral exclusions</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -133,8 +123,6 @@ verifiedbyvisa.comdirect.de
 ```
 </details>
 
-<br>
-
 ### How to keep sessions alive
 
 To tell Google that the customer's initial session is still in progress and to ignore referral information for the "new" session, add the `utm_nooverride=1` parameter to your payment <<glossary:gateway>> success pages. 
@@ -145,26 +133,20 @@ In your PHP code, the parameter should look like this: `$this→_redirect('check
 
 Make sure you do this for **all** links from the payment gateway to your site.
 
-**Note:** Our ready-made integrations for Magento 1 and 2 do this automatically. 
-
-<br>
+✅ &nbsp; **Tip!** Our ready-made integrations for Magento 1 and 2 do this automatically. 
 
 ## Server-side solutions
 
 These solutions need a server environment and may require significant development effort.
 
-**Note:**
+📘 **Note:**
 - Server-side solutions are still in their infancy and could require regular adjustment and maintenance.
 - It is not possible to use client-side and server-side solutions at the same time.
-
-<br>
 
 ### How to send additional data
 To send additional event data to Google Analytics, you can use Google's <a href="https://developers.google.com/analytics/devguides/collection/protocol/ga4" target="_blank">Measurement protocol</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
 To send additional information about a customer's journey, you can use notifications from our [webhook](/docs/webhook/). For example, that payment was successful or that the <<glossary:order>> was cancelled.
-
-<br>
 
 ### How to process data on your server
 
@@ -176,8 +158,6 @@ This provides several benefits:
 - You can add additional event data from other sources like MultiSafepay's [webhook notifications](/docs/webhook/).
 
 For more information, see Google Tag Manager - <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank">Server-side tagging</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-
-<br>
 
 ### How to follow customers between sessions
 

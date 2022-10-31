@@ -154,7 +154,7 @@ If you change the order status in your <<glossary:backend>>, the following [read
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
-**Note:** Some third-party plugins may not support updating the status via our API.
+❗️ Some third-party plugins may not support updating the status via our API.
 
 </details>
 

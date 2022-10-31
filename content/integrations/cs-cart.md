@@ -25,16 +25,16 @@ slug: 'cs-cart'
 - CS-Cart 4.x
 - Tested on PHP 7.0
 
-# How to install
+# Installation
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Unpack the content of the .ZIP file in the root of your CS-Cart webshop.
 2. To trigger the installation, go to `yourdomain.com/msp_installer.php`. 
 3. Delete the `msp_installer.php` file.
 4. In your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, provide your [webhook endpoint](/docs/webhook/).
 
-# How to configure
+# Configuration
 
 1. Sign in to your CS-Cart <<glossary:backend>>.
 2. Go to **Administration** > **Payment methods**.
@@ -90,7 +90,8 @@ Extra options such as **IP-Validation** and **Debug mode** are intended for deve
 
 You can apply surcharges when configuring the payment method under **Surcharge**. Always enter the amount **including** VAT.
 
-> ⚠️ **Attention Dutch merchants** 
+> ⚠️ Attention Dutch merchants
+>
 > We strongly recommend **not** applying surcharges to <<glossary:BNPL>> orders. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
 
 ## Updates
@@ -101,7 +102,7 @@ You can update the plugin in your CS-Cart backend or the CMS marketplace, or via
 <summary>How to update via SFTP</summary>
 <br>
 
-> **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation instructions from step 2 and then the Configuration instructions.

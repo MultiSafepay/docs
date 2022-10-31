@@ -43,8 +43,7 @@ For all payment methods **except** Riverty, you need your site's test [API key](
 6. On the **Transaction details** page, under **Notification history**, to see if you have successfully connected to our system, check that you've correctly received the **notifyMerchantTrans** action.  
     For information about errors, see [HTTP errors](/docs/http-errors/).
 
-> ✅ Success!
-> Once your live account is approved, make sure you use the site API key from your **live** account instead of your test account. 
+✅ **Success!** Once your live account is approved, make sure you use the site API key from your **live** account instead of your test account. 
 
 ---
 # Test payment details
@@ -116,7 +115,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 | Any other IBAN | **Expired** | The transaction is initiated. <br> After 5 days, this changes to **Expired**. |
 <br>
 
-**Note:** You can't test making <<glossary:direct>> API requests with an IBAN to test different <<glossary:transaction statuses>>.
+❗️ You cannot test making <<glossary:direct>> API requests with an IBAN to test different <<glossary:transaction statuses>>.
 
 </details>
 
@@ -268,7 +267,7 @@ You can also test the following scenarios:
 | Visa/co-branded: <br> 4012001038488884 | **Declined**  | The transaction was declined (3D authentication was successful, but insufficient funds). |
 <br>
 
-**Note:** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
+✅ &nbsp; **Tip!** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
 
 </details>
 
@@ -459,7 +458,7 @@ To change the order status, either:
 - Make an [update order](/reference/updateorder/) request, or 
 - In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
-**Note:** You can't test:  
+❗️ You can't test:  
  - Receiving successful payment notifications from Riverty
  - Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**
  - Processing refunds
@@ -536,7 +535,7 @@ Any other card number receives an "Invalid card number" error.
 3. Click **Test**.  
     The payment is processed in your MultiSafepay test account as **Successful**, with <<glossary:order status>> **Completed**, and transaction status **Initialized**.
 
-**Note:** You can't test Alipay declining transactions.
+❗️ You can't test Alipay declining transactions.
 
 </details>
 
@@ -627,7 +626,7 @@ To test Google Pay payments, follow these steps:
 3. Click **Test**.  
     The payment is processed in your MultiSafepay test account as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Initialized**.
 
-**Note:** Since MultiSafepay does not collect payments on behalf of PayPal, the <<glossary:transaction status>> remains **Initialized** and can't be changed to **Completed**.
+📘 **Note:** Since MultiSafepay does not collect payments on behalf of PayPal, the <<glossary:transaction status>> remains **Initialized** and can't be changed to **Completed**.
 
 **Change the order status**
 
@@ -765,6 +764,7 @@ You can test refunds for the following methods:
 ---
 
 > ℹ See also
+>
 > If you encounter any issues during testing, see [Troubleshooting](/docs/troubleshooting/).
 
 [block:html]
