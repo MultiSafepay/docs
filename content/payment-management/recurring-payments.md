@@ -25,7 +25,7 @@ Tokens are stored at account level rather than site level. If you operate multip
 
 For both initial and subsequent payments:
 - Cards: American Express, Maestro, Mastercard, and Visa 
-- Direct debit – First you need to provide us with some information. <br> See Direct debit – [Activation](/docs/sepa-direct-debit/#activation).
+- Direct debit – First you need to provide us with some information. <br> See Direct debit – [Activation](/docs/direct-debit/#activation).
 
 For initial payments then subsequent payments via direct debit:
 - Bancontact

@@ -128,7 +128,7 @@ Release date: Mar 28, 2014
     - [EPS](/docs/eps/)
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
-    - [Direct debit](/docs/sepa-direct-debit/)
+    - [Direct debit](/docs/direct-debit/)
     - [Sofort](/docs/sofort/)
 - Prepaid cards:
     - Beauty and Wellness gift card

@@ -140,7 +140,7 @@ Supported since release: 1.1.0, July 2nd 2021.
     - [EPS](/docs/eps/)
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
-    - [Direct debit](/docs/sepa-direct-debit/)
+    - [Direct debit](/docs/direct-debit/)
     - [Sofort](/docs/sofort/)
     - [Trustly](/docs/trustly/)
 

@@ -42,7 +42,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
     - [Maestro](/docs/card-payments/)
-    - [Direct debit](/docs/sepa-direct-debit/)
+    - [Direct debit](/docs/direct-debit/)
     - [Sofort](/docs/sofort/)
 - Prepaid cards:
     - <a href="https://www.babycadeaubon.nl" target="_blank">Baby Cadeaubon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>

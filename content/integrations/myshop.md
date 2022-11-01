@@ -32,7 +32,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
     - [Maestro](/docs/card-payments/)
-    - [Direct debit](/docs/sepa-direct-debit/)
+    - [Direct debit](/docs/direct-debit/)
     - [Sofort](/docs/sofort/)
 </details>
 

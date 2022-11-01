@@ -162,7 +162,7 @@ Most payment methods are supported, **except for**:
 - [Bank transfer](/docs/bank-transfer/)
 - [E-Invoicing](/docs/e-invoicing/)
 - [PayPal](/docs/paypal/)
-- [Direct debit](/docs/sepa-direct-debit/)
+- [Direct debit](/docs/direct-debit/)
 - [Pay After Delivery](/docs/pay-after-delivery/)
 
 </details>

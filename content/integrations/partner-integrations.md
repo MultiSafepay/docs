@@ -138,7 +138,7 @@ For technical support, contact LogiVert - <a href="https://www.logivert.com/nl/s
     - [Bank transfer](/docs/bank-transfer/)
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
-    - [Direct debit](/docs/sepa-direct-debit/)
+    - [Direct debit](/docs/direct-debit/)
     - [Sofort](/docs/sofort)
 - <<glossary:BNPL>>: [Klarna](/docs/klarna/)
 
@@ -285,7 +285,7 @@ ZilverCMS provides a free app to integrate with MultiSafepay.
     - [Giropay](/docs/giropay/) 
     - [iDEAL and iDEAL QR](/docs/ideal/)
     - [Request to Pay](/docs/request-to-pay/)
-    - [Direct debit](/docs/sepa-direct-debit/)
+    - [Direct debit](/docs/direct-debit/)
 
 </details>
 

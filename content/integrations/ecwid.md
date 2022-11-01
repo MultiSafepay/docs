@@ -46,7 +46,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
     - [Bank transfer](/docs/bank-transfer/)
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
-    - [Direct debit](/docs/sepa-direct-debit/)
+    - [Direct debit](/docs/direct-debit/)
     - [Sofort](/docs/sofort/)
 
 </details>
