@@ -37,7 +37,7 @@ You can embed a single or multiple payment methods in your checkout.
 - [iDEAL](/docs/ideal/)
 - [MyBank](/docs/mybank/)
 - [PayPal](/docs/paypal/)
-- [Direct debit](/docs/sepa-direct-debit/)
+- [Direct debit](/docs/direct-debit/)
 - [Sofort](/docs/sofort/)
 
 </details>

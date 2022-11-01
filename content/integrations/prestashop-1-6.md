@@ -467,7 +467,7 @@ Supported since release: 3.8.0, Jul 13, 2022
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
     - [Request to Pay](/docs/request-to-pay/)
-    - [Direct debit](/docs/sepa-direct-debit/)
+    - [Direct debit](/docs/direct-debit/)
     - [Sofort](/docs/sofort/)
 - Prepaid cards:
     - Beauty and Wellness gift card

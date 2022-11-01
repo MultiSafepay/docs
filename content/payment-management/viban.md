@@ -6,7 +6,7 @@ hidden: false
 slug: 'virtual-ibans'
 excerpt: "Collect bank transfers and direct debits in your own bank account."
 ---
-A virtual international bank account number (VIBAN) in your company name improves the customer experience for [bank transfers](/docs/bank-transfer/) and [SEPA direct debits](/docs/sepa-direct-debit/):
+A virtual international bank account number (VIBAN) in your company name improves the customer experience for [bank transfers](/docs/bank-transfer/) and [SEPA direct debits](/docs/direct-debit/):
 
 - Customers appear to pay your company directly, instead of a collecting party.
 - Customers receive refunds in your name rather than from MultiSafepay.
@@ -24,7 +24,7 @@ With a VIBAN, bank transfer instructions on [payment pages](/docs/payment-pages/
 
 Descriptors on bank statements for both payments and refunds display "[Merchant name] by MultiSafepay", making it easier for your customers to recognize you.
 
-Increasing brand recognition helps reduce your customer support load and potential [chargebacks](/docs/sepa-direct-debit#chargebacks).
+Increasing brand recognition helps reduce your customer support load and potential [chargebacks](/docs/direct-debit#chargebacks).
 
 ### Match payments
 

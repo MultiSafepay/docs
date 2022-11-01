@@ -79,7 +79,7 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
 
     </details>
 
-    <details id="required-information-for-sepa-direct-debit"> 
+    <details id="required-information-for-direct-debits"> 
     <summary>Required information for direct debits</summary>
     <br>
 

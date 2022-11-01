@@ -195,7 +195,7 @@ You can also test the following scenarios:
 
 </details>
 
-<details id="sepa-direct-debit">
+<details id="direct-debit">
 <summary>How to test direct debits</summary>
 <br>
 

@@ -436,7 +436,7 @@ To identify transactions in reports by payment method, use the following N-codes
 | N096   | WITHDRAWAL |
 | N097   | Refund  |
 | N098   | [COUPON](/docs/gift-cards/)  | 
-| N101   | [DIRDEB](/docs/sepa-direct-debit/) | 
+| N101   | [DIRDEB](/docs/direct-debit/) | 
 | N102   | [iDEAL QR](/docs/ideal/) |
 | N102   | [BELFIUS](/docs/belfius/) |
 | N103   | [EPS](/docs/eps/) |
