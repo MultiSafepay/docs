@@ -262,6 +262,13 @@ For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
 
 ✅ **Success!** You have configured your webhook endpoint and set up your web server to handle notifications.
 
+### Notifications overview
+
+To see a filterable overview of all notifications you've received:
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Transactions** > **Notifications**.
+
 <br>
 
 ---
