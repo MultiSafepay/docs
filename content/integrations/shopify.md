@@ -128,7 +128,6 @@ For more information, see Shopify.dev – <a href="https://shopify.dev/apps/paym
   - [iDEAL](/docs/ideal/)
   - [Sofort](/docs/sofort/)
   - [Trustly](/docs/trustly/)
-- BNPL: [in3](/docs/in3/)
 - Cards: [All](/docs/card-payments/)
 - Prepaid cards: [Paysafecard](/docs/paysafecard/), Fashioncheque
 - Wallets: [WeChat Pay](/docs/wechat-pay/)
