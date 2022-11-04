@@ -6,38 +6,36 @@ hidden: false
 slug: 'second-chance'
 excerpt: 'Boost conversion by sending customers reminders about abandoned payments.'
 ---
-Second Chance is a MultiSafepay solution that automatically emails customers a payment link when they initiate but don't complete a transaction. This helps boost <<glossary:conversion>> and impulse purchases. The first email is sent 1 hour after the customer initiates the payment, and a second after 24 hours.
+Second Chance is a MultiSafepay solution that automatically emails customers a payment link when they initiate but don't complete a transaction. This helps boost <<glossary:conversion>> and impulse purchases. 
 
-Second Chance emails are also sent for manually generated [payment links](/docs/payment-links/) if the customer doesn't click the link to complete payment.
+# How it works
 
-# Prerequisites
+Second Chance emails are sent:
 
-- Under the [GDPR](/docs/gdpr/), you must obtain documented consent from the customer to send Second Chance emails.
-- You must include the customer's email address in the transaction API request.
-
-# Exclusions
+- 1 hour after the customer initiates the payment, and a second email after 24 hours.
+- For manually generated [payment links](/docs/payment-links/) if the customer doesn't click the link to complete payment.
+- For a transaction for the same customer, email address, merchant, and site as a previous transaction initiated **more than** 120 minutes ago, even if the amount is different.
 
 Second Chance emails are **not** sent:
 
 - While the status of the original transaction is **Uncleared**, **Shipped**, or **Completed**
 - For [recurring payments](/docs/recurring-payments/)
 - If you have another **Completed** transaction with the same `order_id` and/or `session_id`
-- For each separate transaction for orders with multiple linked transactions (one email is sent per `order_id` and `session_id`)
+- For each separate transaction for orders with multiple linked transactions (one email is sent per `order_id` and `session_id`
+- For a transaction for the same customer, email address, merchant, and site as a previous transaction initiated **less than** 120 minutes ago, even if the amount is different.
+
+
+# Prerequisites
+
+- Under the [GDPR](/docs/gdpr/), you must obtain documented consent from the customer to send Second Chance emails.
+- You must include the customer's email address in the transaction API request.
 
 # Activation
-
-You can activate Second Chance yourself in your dashboard. 
-
-<details id="how-to-activate-second-chance">
-<summary>How to activate Second Chance</summary>
-<br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Integrations** > **Sites**, and then click the relevant site.
 3. On the **Site profile** page, under **Site functionality**, select the **Enable Second Chance** checkbox.
 4. Click **Save**.
-
-</details>
 
 # Integration
 
