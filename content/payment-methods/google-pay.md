@@ -87,7 +87,7 @@ Then, apply to MultiSafepay for Google Pay, and activate it in your dashboard.
 <summary>How to activate Google Pay</summary>
 <br>
 
-1. Email a request to <risk@multisafepay.com> 
+1. Email a request to <sales@multisafepay.com> 
     
     Include in the request your: 
     - Average, minimum, and maximum transaction amount 

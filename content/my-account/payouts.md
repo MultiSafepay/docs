@@ -163,7 +163,7 @@ You cannot make payouts if:
     <summary>How to resolve</summary>
     <br>
 
-    To check why we have deactivated payouts for your account, email <risk@multisafepay.com>
+    To check why we have deactivated payouts for your account, email <support@multisafepay.com>
     </details>
     
 <br>

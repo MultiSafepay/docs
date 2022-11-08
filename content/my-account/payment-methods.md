@@ -65,7 +65,7 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
 
 # Apply to MultiSafepay 
 
-1. Email a request to <risk@multisafepay.com> 
+1. Email a request to <sales@multisafepay.com> 
     
     <details id="required-information-for-cards-apple-google"> 
     <summary>Required information for cards, Apple Pay, and Google Pay</summary>

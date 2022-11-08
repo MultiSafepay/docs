@@ -71,7 +71,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-1. Email a request to activate cards to <risk@multisafepay.com> 
+1. Email a request to activate cards to <sales@multisafepay.com> 
     
     Include in the request your: 
     - Average, minimum, and maximum transaction amount 
