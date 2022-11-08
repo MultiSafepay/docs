@@ -108,7 +108,7 @@ To activate:
 To cancel an order, email <annuleren@santander.com> with the following details:
 - Customer's first and last name
 - Order ID
-- PSP ID (MultiSafepay's transaction reference number)
+- Transaction ID (MultiSafepay's transaction reference number)
 
 ❗️ **Note:** You cannot cancel a Betaal per Maand order via your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
