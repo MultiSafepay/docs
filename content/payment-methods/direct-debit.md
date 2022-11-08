@@ -51,7 +51,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-1. Email a request to <risk@multisafepay.com> 
+1. Email a request to <sales@multisafepay.com> 
     
     Include in the request the following information:
     - Monthly and annual direct debit volume

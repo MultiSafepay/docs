@@ -46,7 +46,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-1. Email a request to <risk@multisafepay.com> 
+1. Email a request to <sales@multisafepay.com> 
 2. We check your eligibility and if approved, activate the payment method for your account. 
 3. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 4. To activate the payment method for:
