@@ -11,6 +11,8 @@ Chargebacks arise when a cardholder disagrees with or doesn't recognize a transa
 
 You are solely liable for paying chargebacks.
 
+When a customer requests a chargeback, an alert to review it appears on your dashboard homepage. 
+
 # Chargeback reasons
 
 The most common reasons for requesting chargebacks are:
