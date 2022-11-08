@@ -49,7 +49,7 @@ Deprecated: The [security code](/docs/sites#site-id-api-key-and-security-code) w
 ---
 ### 1006: Invalid transaction ID
 
-The `transaction_id` (PSP ID) was invalid. 
+The `transaction_id` was invalid. 
 
 The transaction ID must be unique. The transaction ID you provided may have already been used for a completed transaction for that site ID. 
 Consider creating a new site profile in your dashboard.

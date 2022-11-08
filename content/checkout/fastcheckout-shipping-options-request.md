@@ -149,7 +149,7 @@ items_count=2
 | `country` | The customer's country. |
 | `countrycode` | The country code. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL`. |
 | `weight` | The weight of the item to be shipped. |
-| `transactionid` | MultiSafepay's unique identifier for the transaction (also known as the PSP ID). |
+| `transactionid` | MultiSafepay's unique identifier for the transaction. |
 | `currency` | The currency of the shipping cost. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217 currency code</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. | 
 | `amount` | The total amount of the order. |
 | `total_incl_vat` | The total amount of the order including VAT. |
