@@ -55,7 +55,7 @@ To create and [onboard](/docs/onboarding/) a live account and start processing r
 
 # Switching to MultiSafepay from another PSP
 
-You can sign up for a MultiSafepay account while still using another PSP without incurring any costs. 
+You can sign up for a MultiSafepay account while still using another <<glossary:PSP>> without incurring any costs. 
 
 A test account lets you process test payments and gives access to all features. MultiSafepay only starts charging monthly fees when you onboard, go live, and begin processing real payments. 
 

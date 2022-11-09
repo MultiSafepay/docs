@@ -22,7 +22,7 @@ In the Netherlands, the <a href="https://www.acm.nl" target="_blank">Authority f
 
 Surcharges are banned for both individual and business customers on:
 
-- Most credit card transactions when the bank/card <<glossary:issuer>> and the merchant's PSP are both located within the EEA
+- Most credit card transactions when the bank/card <<glossary:issuer>> and the merchant's <<glossary:PSP>> are both located within the EEA
 - Debit card transactions 
 - Standard bank transfers 
 - Direct debits 
