@@ -108,7 +108,8 @@ Then, apply to MultiSafepay for Google Pay, and activate it in your dashboard.
 # Integration
 
 ### API
-- To easily integrate Google Pay using MultiSafepay payment pages (<<glossary:redirect>>), see API reference – [Create order](/reference/createorder/) > Wallet order.
+- To easily integrate Google Pay using [payment pages](/docs/payment-pages/) (<<glossary:redirect>> flow), see API reference – [Create order](/reference/createorder/) > Wallet order.
+- For Google Pay to display on [payment pages](/docs/payment-pages/) and in [payment components](/docs/payment-components), you must have [card payments](/docs/card-payments/) activated for your account. 
 
   <details id="example-requests"> 
   <summary>Example requests</summary>
