@@ -149,6 +149,7 @@ For <<glossary:direct>> integration with an [API integration](/docs/api-integrat
   </details>
 
 - Transactions expire after 1 hour. 
+- For Apple Pay to display on [payment pages](/docs/payment-pages/) and in [payment components](/docs/payment-components), you must have [card payments](/docs/card-payments/) activated for your account. 
 
 ### Ready-made integrations
 - Apple Pay redirect is supported in most [ready-made integrations](/docs/our-integrations/).
