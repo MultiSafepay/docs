@@ -94,8 +94,16 @@ A product or service in a customer's shopping cart and/or order.
 The customer's bank, which verifies transaction information and sends funds to the collecting party. For credit or debit card payments, the bank issues the card.
 
 ---
+#### know your customer (KYC)
+As a payment service provider and acquirer, MultiSafepay is legally required to perform KYC checks on the merchant and their site, business bank account, and the account holder
+
+---
 #### merchant
 A company (legal entity) that sells products and services to customers.
+
+---
+#### merchant of record
+A legal entity that sells goods or services to an end customer, who must pay the merchant for their order. The merchant handles all payments and assumes liability for each transaction.
 
 ---
 #### MultiSafepay account
