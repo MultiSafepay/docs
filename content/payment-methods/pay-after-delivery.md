@@ -38,7 +38,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| MultiSafepay's risk analysis is in progress. You can still cancel. | Initialized | Initialized | 
+| MultiSafepay's automated risk analysis is in progress. You can still cancel. | Initialized | Initialized |
+| We are authorizing the transaction. | Uncleared | Uncleared |  
 | We have authorized the transaction and the funds are awaiting capture. You can no longer cancel. You can only refund. <br> See [Close transactions](#close-transactions). | Completed | Uncleared | 
 | ❗️ **Note:** To capture the funds, [manually change the order status to Shipped](#shipment). | Shipped | Uncleared |
 | MultiSafepay has collected payment.  | Shipped | Completed |
