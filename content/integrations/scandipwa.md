@@ -50,6 +50,7 @@ slug: 'scandipwa'
     - Parfumcadeaukaart
     - Podium
     - Sport en Fit
+    - Sodexo
     - VVV gift card
     - Webshop gift card
     - Wellness gift card
