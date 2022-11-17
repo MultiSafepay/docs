@@ -8,9 +8,12 @@ parentDoc: 62a848399bb3eb004023f291
 ---
 After integrating the payment component, the default user interface (UI) styling is applied. 
 
-You can customize the styling to match your brand's visual identity, including fonts, colors, and layout. 
+You can customize the styling to match your brand's visual identity, including fonts, colors, and layout in your:
 
-# How to customize the UI
+- Checkout page
+- Dashboard
+
+# Via your checkout page
 
 To edit the default styling of the component:
 
@@ -66,6 +69,51 @@ The payment component now looks like this:
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Screenshot-Payment-Component.png" align ="center"/>
 <br>
+
+# Via the dashboard
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Integrations** > **Sites**, and then click the relevant site.
+3. On the **Site profile** page, under **Style your checkout solution**, for **Payment component** click **Edit**. 
+4. On the **Components settings** page, under **Preview - Default**, select whether you want to:
+- Apply the styling from another saved template.
+- Edit an existing template. 
+- Style a new single payment method component.
+- Style a new multiple payment method component. 
+- View the style in JSON format. 
+5. Under **Configure page style**, style the:  
+
+    <details id="container">
+    <summary>Container</summary>
+    <br>
+
+
+    - To set the color of the container background, in the **Background color** field, enter the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+    - To set the font for the field labels, from the **Font family** list, select a font.
+
+    </details> 
+
+    <details id="fields">
+    <summary>Fields</summary>
+    <br>
+
+    - Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, placeholder text, label text, text entered by the customer, and the borders. 
+    - Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the labels, font, border radius, and box shadow.
+
+    </details>
+
+    <details id="settings-for-ideal-issuers">
+    <summary>Settings for iDEAL issuers</summary>
+    <br>
+
+   - To add the default padding, border, and labels for the issuers container, select the **Embed mode** checkbox. 
+   - To specify the layout of the issuers, from the **iDEAL issuer selection** list, choose **Select button**, **List**, or **Dropdown**. 
+
+   </details>
+
+ 6. To set this as your default template, select the **Set as default template** checkbox. 
+
+7. In the **Save template as** field, enter the name of the template (used as the `template_id`), and then click **Submit settings**.
 
 ---
 
