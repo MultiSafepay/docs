@@ -9,6 +9,10 @@ slug: 'apple-pay-direct'
 
 With direct integration, the ** Pay** button appears in your checkout page. Customers complete payment without being redirected to a [payment page](/docs/payment-pages/).
 
+If using:
+- Your own integration, follow all steps in this manual. 
+- A [ready-made integration](/docs/our-integrations) which builds the Apple Pay button, start from [Step 4](#4-create-an-apple-pay-session).
+
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/applePayHero.png" align ="center"/>
 
 ## Prerequisites
