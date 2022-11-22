@@ -103,12 +103,15 @@ You can make payouts in:
 </details>
 
 # Processing times 
-The time taken to process payouts is determined by the Risk Team. The default payout delay is 1 day. 
-Payouts may take up to three business days to arrive in your business bank account.
 
-Payment batches are not processed on weekends. That is, payouts initiated on Fridays are processed on Monday morning.
+The time it takes to process payouts is set by our Risk Team. The default delay before funds arrive in your business bank account for merchants in:
 
-Not all banks support instant payments and therefore may take extra time to process payments.
+- Belgium and the Netherlands is 1 business day
+- Other countries is 3-5 business days
+
+Payout batches are not processed on weekends. That is, payouts initiated on Friday evenings are processed on Monday mornings.
+
+Not all banks support instant payments and therefore may take extra time to process payouts. 
 
 ### Bank holidays
 
