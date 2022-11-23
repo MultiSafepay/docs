@@ -213,9 +213,10 @@ The plugin supports [recurring payments](/docs/recurring-payments).
 
 ## Refunds
 
-- [Full and partial refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.  
+- [Full and partial refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend**.  
 - [BNPL refunds](/docs/refund-payments#bnpl-refunds) are only supported in your dashboard.
     
+** Orders which include Cart rule discounts can not be refunded through the PrestaShop backend. These can be refunded through your MultiSafepay dashboard.
 <details id="how-to-disable-api-refunds">
 <summary>How to disable API refunds</summary>
 <br>
