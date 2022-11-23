@@ -155,6 +155,28 @@ Refund orders in the live environment are processed automatically for the follow
 - Bank transfers: 2 to 3 business days, depending on the customer's bank
 - Cards: 1 to 14 business days, depending on the <<glossary:issuer>>
 
+## Proof of refund
+
+You can download a proof of refund via your dashboard.
+
+<details id="proof-of-payment">
+<summary>How to download proof of refund</summary>
+<br>
+
+To download proof of refund:
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Transactions** > **Transaction overview**.
+3. In the **Keyword** search box, enter **Refunds**, and then click the relevant transaction. 
+3. On the **Transaction details** page, under **Transaction summary**, click the **PDF icon** in the payment method.
+    The proof of refund is downloaded in a PDF document format.
+
+**Supported payment methods** 
+
+- All payment methods except pay later methods
+
+</details>
+
 ## Testing
 
 <details id="how-to-test-refunds-via-your-dashboard">
