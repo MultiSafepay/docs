@@ -155,6 +155,27 @@ Refund orders in the live environment are processed automatically for the follow
 - Bank transfers: 2 to 3 business days, depending on the customer's bank
 - Cards: 1 to 14 business days, depending on the <<glossary:issuer>>
 
+## Refund receipts
+
+If a customer wants a receipt for a refund, you can download a PDF version from your dashboard. This is supported for all payment methods except <<glossary:BNPL>>.
+
+<details id="how-to-download-refund-receipt">
+<summary>How to download a refund receipt</summary>
+<br>
+
+To download a refund receipt:
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Transactions** > **Transaction overview**.
+3. In the **Keyword** search box, enter "refund", and then click **Search** (or press **Enter**).
+4. Click the relevant transaction. 
+5. On the **Transaction details** page, under **Transaction summary**, click the **PDF icon** next to **Payment method: Refund**
+     The receipt PDF is downloaded.
+
+</details>
+
+For how to add your header or logo to the receipt, see [Logos and icons](/docs/sites#logos-and-icons).
+
 ## Testing
 
 <details id="how-to-test-refunds-via-your-dashboard">

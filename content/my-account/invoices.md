@@ -71,8 +71,6 @@ If you do not specify an email address, we use the main business email address p
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. From the account list at the top-right of your screen, click **Account information**.
-   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/DashboardAccountList.png" align ="left"/> 
-  <br>
 3. On the **Contact details** page, in the **Invoices email** field, enter the email address.
 4. Click **Save**. 
 </details>
