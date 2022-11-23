@@ -213,9 +213,10 @@ The plugin supports [recurring payments](/docs/recurring-payments).
 
 ## Refunds
 
-- [Full and partial refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.  
-- [BNPL refunds](/docs/refund-payments#bnpl-refunds) are only supported in your dashboard.
-    
+- [Full and partial refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and <<glossary:backend>>.  
+- [BNPL refunds](/docs/refund-payments#bnpl-refunds) are supported in the dashboard only.
+- Refunds for orders that include shopping cart rule discounts are supported in the dashboard only.
+
 <details id="how-to-disable-api-refunds">
 <summary>How to disable API refunds</summary>
 <br>
