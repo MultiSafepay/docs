@@ -7,9 +7,12 @@ parentDoc: 62a6ec51d7a8100053916d99
 slug: 'alipay-plus'
 ---
 
-> ⚠️ Action required
->
-> If you are still using the deprecated plugin, we recommend [activating to the latest version](docs/alipay-plus#activation) as soon as possible.
+> ℹ️ For migrating merchants
+> 
+> If you are migrating from Alipay, you first need to [activate Alipay+](docs/alipay-plus#activation) for your account. 
+> Then, if using:
+> - A [ready-made integration](/docs/our-integrations/), activate Alipay+ in your plugin or app
+> - An [API integration](/docs/api-integration), use the gateway ID `ALIPAYPLUS`
 
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/alipayplus.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
