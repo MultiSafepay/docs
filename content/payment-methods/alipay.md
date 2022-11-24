@@ -7,8 +7,11 @@ parentDoc: 62a6ec51d7a8100053916d99
 slug: 'alipay'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/alipay.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
+> ⚠️ Action required
+>
+> We will soon deprecate Alipay. We recommend migrating to [Alipay+](/docs/alipay-plus) as soon as possible.
 
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/alipay.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 <a href="https://global.alipay.com/platform/site/ihome" target="_blank">Alipay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online, QR, and contactless <<glossary:POS>> payments, as well as international money transfers.
 
 For Chinese customers, Alipay accounts are verified and linked to their Chinese bank account. Since 2021, non-Chinese customers can also pay with Alipay using the Tour Pass.
