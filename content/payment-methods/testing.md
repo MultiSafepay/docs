@@ -1,7 +1,7 @@
 ---
 title: 'Testing payment methods'
 category: 6298bd782d1cf4006032e765
-order: 600
+order: 50
 hidden: false
 slug: 'testing'
 excerpt: 'Test payment methods and resolve common issues.'

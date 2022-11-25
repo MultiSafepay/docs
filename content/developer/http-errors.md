@@ -1,7 +1,7 @@
 ---
 title: 'HTTP errors'
 category: 62962df622e99600810c117d
-order: 30
+order: 3
 hidden: false
 slug: 'http-errors'
 ---

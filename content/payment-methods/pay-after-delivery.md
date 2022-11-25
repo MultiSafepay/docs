@@ -1,7 +1,7 @@
 ---
 title: 'Pay After Delivery'
 category: 6298bd782d1cf4006032e765
-order: 205
+order: 21
 hidden: false
 parentDoc: 62bd75142e264000a66d62b5
 slug: 'pay-after-delivery'

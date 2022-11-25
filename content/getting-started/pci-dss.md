@@ -1,7 +1,7 @@
 ---
 title: "PCI DSS"
 category: 627bbcf80c1c9c0050320b60
-order: 105
+order: 6
 hidden: false
 parentDoc: 62a087abb10eb40052c9fd04
 slug: 'pci-dss'

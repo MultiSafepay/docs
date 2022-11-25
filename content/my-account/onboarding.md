@@ -1,7 +1,7 @@
 ---
 title: 'Onboard my account'
 category: 62962dcdbccb9a001d4bbc81
-order: 300
+order: 14
 hidden: false
 slug: 'onboarding'
 ---

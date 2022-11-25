@@ -1,7 +1,7 @@
 ---
 title: 'Success pages'
 category: 6278c92bf4ad4a00361431b0
-order: 70
+order: 7
 hidden: false
 slug: 'success-pages'
 ---

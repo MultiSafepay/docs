@@ -2,7 +2,7 @@
 title: "Onboarding affiliates via API"
 category: 62962dcdbccb9a001d4bbc81
 parentDoc: 62a2055be5b9db006a2545a7
-order: 302
+order: 15
 hidden: false
 slug: 'affiliate-onboarding-api'
 excerpt: ''

@@ -1,7 +1,7 @@
 ---
 title: "Email authentication"
 category: 62962df622e99600810c117d
-order: 10
+order: 1
 hidden: false
 slug: 'email-authentication'
 ---

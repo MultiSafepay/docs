@@ -1,7 +1,7 @@
 ---
 title: 'Interchange++'
 category: 6298bd782d1cf4006032e765
-order: 307
+order: 30
 hidden: false
 parentDoc: 62a727569e389a012f577acd
 excerpt: 'A pricing model used by banks and card schemes.'

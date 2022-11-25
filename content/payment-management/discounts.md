@@ -1,7 +1,7 @@
 ---
 title: 'Discounts'
 category: 6278c92bf4ad4a00361431b0
-order: 10
+order: 1
 hidden: false
 slug:  'discounts'
 ---

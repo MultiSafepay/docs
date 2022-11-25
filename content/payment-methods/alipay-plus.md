@@ -1,7 +1,7 @@
 ---
 title: 'Alipay+'
 category: 6298bd782d1cf4006032e765
-order: 502
+order: 41
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'alipay-plus'
@@ -9,7 +9,8 @@ slug: 'alipay-plus'
 
 > ℹ️ For migrating merchants
 > 
-> If you are migrating from Alipay, you first need to [activate Alipay+](docs/alipay-plus#activation) for your account. 
+> If you are migrating from Alipay, you first need to [activate Alipay+](/docs/alipay-plus#activation) for your account. 
+>
 > Then, if using:
 > - A [ready-made integration](/docs/our-integrations/), activate Alipay+ in your plugin or app
 > - An [API integration](/docs/api-integration), use the gateway ID `ALIPAYPLUS`

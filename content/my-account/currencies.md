@@ -1,7 +1,7 @@
 ---
 title: "Currencies"
 category: 62962dcdbccb9a001d4bbc81
-order: 204
+order: 6
 hidden: false
 parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'currencies'

@@ -1,7 +1,7 @@
 ---
 title: 'Recurring payments'
 category: 6278c92bf4ad4a00361431b0
-order: 30
+order: 3
 hidden: false
 slug: 'recurring-payments'
 excerpt: 'Boost conversion and manage subscriptions using tokenization.'

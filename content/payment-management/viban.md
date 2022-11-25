@@ -1,7 +1,7 @@
 ---
 title: 'Virtual IBANs'
 category: 6278c92bf4ad4a00361431b0
-order: 80
+order: 8
 hidden: false
 slug: 'virtual-ibans'
 excerpt: "Collect bank transfers and direct debits in your own bank account."
