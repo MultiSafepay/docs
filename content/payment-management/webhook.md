@@ -1,7 +1,7 @@
 ---
 title: 'Webhook'
 category: 6278c92bf4ad4a00361431b0
-order: 90
+order: 9
 hidden: false
 excerpt: 'Configure a webhook to receive notifications about orders.'
 slug: 'webhook'

@@ -1,7 +1,7 @@
 ---
 title: 'Split payments'
 category: 6278c92bf4ad4a00361431b0
-order: 60
+order: 6
 hidden: false
 slug: 'split-payments'
 ---

@@ -1,7 +1,7 @@
 ---
 title: "PSD2"
 category: 627bbcf80c1c9c0050320b60
-order: 106
+order: 7
 hidden: false
 parentDoc: 62a087abb10eb40052c9fd04
 slug: 'psd2'

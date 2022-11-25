@@ -1,7 +1,7 @@
 ---
 title: "Community integrations"
 category: 62962dd7e272a6002ebbbbc5
-order: 145
+order: 23
 hidden: false
 excerpt: "Submit and promote your plugin and become part of the MultiSafepay community."
 slug: 'community-integrations'

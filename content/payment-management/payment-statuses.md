@@ -1,7 +1,7 @@
 ---
 title: "Payment statuses"
 category: 6278c92bf4ad4a00361431b0
-order: 20
+order: 2
 hidden: false
 slug: 'payment-statuses'
 ---

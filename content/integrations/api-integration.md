@@ -2,7 +2,7 @@
 title: 'API integration'
 category: 62962dd7e272a6002ebbbbc5
 hidden: false
-order: 146
+order: 22
 excerpt: 'Build your own payments integration using our API, wrappers, or SDKs.'
 slug: 'api-integration'
 ---

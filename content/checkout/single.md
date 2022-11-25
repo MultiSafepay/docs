@@ -1,7 +1,7 @@
 ---
 title: "Single payment method"
 category: 62bd999547298d001abc714c
-order: 101
+order: 5
 hidden: false
 slug: 'payment-component-single'
 parentDoc: 62a848399bb3eb004023f291 

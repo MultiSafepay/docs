@@ -1,7 +1,7 @@
 ---
 title: 'Card refunds'
 category: 6298bd782d1cf4006032e765
-order: 304
+order: 27
 hidden: false
 parentDoc: 62a727569e389a012f577acd
 slug: 'card-refunds'

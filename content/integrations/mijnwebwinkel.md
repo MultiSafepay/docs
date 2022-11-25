@@ -1,7 +1,7 @@
 ---
 title: "Mijnwebwinkel"
 category: 62962dd7e272a6002ebbbbc5
-order: 143
+order: 28
 hidden: false
 parentDoc: 62a9a54aba9800011a8bda88
 excerpt: "Technical manual for Mijnwebwinkel's free app."

@@ -1,7 +1,7 @@
 ---
 title: "PrestaShop 1.7"
 category: 62962dd7e272a6002ebbbbc5
-order: 111
+order: 12
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
