@@ -7,6 +7,14 @@ parentDoc: 62a6ec51d7a8100053916d99
 slug: 'alipay-plus'
 ---
 
+> ℹ️ For migrating merchants
+> 
+> If you are migrating from Alipay, you first need to [activate Alipay+](docs/alipay-plus#activation) for your account. 
+> Then, if using:
+> - A [ready-made integration](/docs/our-integrations/), activate Alipay+ in your plugin or app
+> - An [API integration](/docs/api-integration), use the gateway ID `ALIPAYPLUS`
+
+
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/alipayplus.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a href="https://www.alipayplus.com/" target="_blank">Alipay+</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is the next generation of Alipay: a leading global payment method that lets customers link their credit card or bank account to a wide range of Asian wallets. It supports online, QR, and contactless <<glossary:POS>> payments, as well as international money transfers.
