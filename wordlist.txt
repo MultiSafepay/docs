@@ -1,6 +1,7 @@
 aan
 ABN
 ABNA
+ACA
 ACCOUNTADDRESS
 ACCOUNTADDRESSAPARTMENT
 ACCOUNTCITY
@@ -348,6 +349,7 @@ Shoptrader
 Shopware
 SnelKoppeling
 SnelStart
+Sodexo
 Speelgoedwinkel
 Sportenfit
 Sylius
@@ -397,6 +399,7 @@ Volksbank
 Voordeel
 Vue
 Vuur
+WIP
 WWFT
 WeChat
 Webshopgiftcard
@@ -478,6 +481,7 @@ erotiekbon
 fff
 facto
 fastcheckout
+favicon
 fijncadeau
 financials
 financieren
