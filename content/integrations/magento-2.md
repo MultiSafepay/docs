@@ -222,7 +222,7 @@ You must:
 <summary>How to activate Magento Vault</summary>
 <br>
  
-To activate Magento Vault, email a request to enable [recurring payments](/docs/recurring-payments/) to <sales@multisafepay.com>
+To activate Magento Vault, and enable [recurring payments](/docs/recurring-payments/), email a request to <sales@multisafepay.com>
 
 </details>
 
