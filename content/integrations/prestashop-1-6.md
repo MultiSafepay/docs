@@ -51,8 +51,8 @@ slug: 'prestashop-1-6'
 
 ## Upgrading to 3.9.x
 
-Note that the component and tokenization configurations have been moved to payment method level settings.\
-Please make sure configuration is still correct by navigating to **Modules > Module Manager > Select your payment method**.
+We've moved the component and tokenization configurations to payment method level settings.\
+To check configuration is still correct go to **Modules and Services > Select the payment method**.
 
 ---
 
