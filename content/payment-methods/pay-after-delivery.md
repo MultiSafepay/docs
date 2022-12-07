@@ -7,9 +7,9 @@ parentDoc: 62bd75142e264000a66d62b5
 slug: 'pay-after-delivery'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/payafter-en.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/PAD-en.svg" width="100" align ="right" style="margin: 20px; max-height: 75px"/>
 
-Pay After Delivery (Betaal Na Ontvangst) is MultiSafepay's own <<glossary:BNPL>> method for increasing customer confidence and <<glossary:conversion>>. MultiSafepay bears the risk and guarantees <<glossary:settlement>>.
+Pay After Delivery (Betaal Na Ontvangst) is MultiSafepay's own <<glossary:BNPL>> method for increasing customer confidence and <<glossary:conversion>>. MultiSafepay prefinances you, bears the risk, and guarantees settlement. 
 
 Read how Pay After Delivery can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
@@ -19,6 +19,7 @@ Read how Pay After Delivery can benefit your business on <a href="https://www.mu
 | [Currencies](/docs/currencies/) | EUR  | 
 | [Chargebacks](/docs/chargebacks/)  | No  | 
 | [Discounts](/docs/discounts/) | Yes |
+| [Partial capture](#partially-ship-order) | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
 | [Refunds](/docs/refund-payments/) | Yes: Full, partial, and API refunds| 
 
@@ -66,28 +67,25 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 # Integration
 
 ### API
-- See API reference – [Create order](/reference/createorder/) > BNPL order. 
 
-  <details id="example-requests"> 
-  <summary>Example requests</summary>
-  <br>
+See API reference – [Create order](/reference/createorder/) > BNPL order. 
 
   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Pay After Delivery direct/redirect**.
   Set `type` to `direct` or `redirect`.
 
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Pay After Delivery direct/redirect**.
 
-  </details>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 - Transactions expire after 90 days.
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
 
 ### Ready-made integrations
-Supported in all [ready-made integrations](/docs/our-integrations/) (direct).
+Supported in all [ready-made integrations](/docs/our-integrations/) (direct and redirect).
 
 ### Testing
-To test Pay After Delivery payments, see Testing payment methods – [BNPL methods](/docs/testing#bnpl-methods).
+See Testing – [BNPL methods](/docs/testing#bnpl-methods).
 <br>
 
 ---
@@ -96,95 +94,214 @@ To test Pay After Delivery payments, see Testing payment methods – [BNPL metho
 
 ## Addresses
 
-The billing and shipping addresses must be the **same** to prevent fraud. 
+The customer's billing and shipping addresses must be the **same** to prevent fraud. 
 
 ## Amount limits
 
 Minimum and maximum order amounts apply. Email <sales@multisafepay.com>
 
-## Close transactions
+## Cancellation
 
-If a customer pays into your business bank account directly instead of paying MultiFactor, you need to manually change the <<glossary:transaction status>> to **Completed**. This closes the transaction and stops MultiFactor sending the customer payment requests. 
+You can cancel the invoice order **before** shipment or **after** partial shipment.
 
-<details id="how-to-close-transactions">
-<summary>How to close transactions</summary>
+<details id="how-to-cancel-an-order">
+<summary>How to cancel an order</summary>
 <br>
 
-To close a transaction manually, follow these steps:
+**In your dashboard**
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
-3. On the **Transaction details** page, click **Complete own funds**. 
-4. Enter a comment about what happened with the order, and then click **Complete**.  
-    The total amount of the transaction is deducted from your account balance. 
+3. On the **Transaction details** page, click **Cancel**.
+4. Add a description of what happened with the order, and then click **Complete**.
+   The <<glossary:order status>> changes to **Void** and the <<glossary:transaction status>> to **Cancelled**.
 
 📘 **Note:** Once the <<glossary:transaction status>> changes to **Completed**, the **Complete own funds** button is hidden. You must process a [full refund](/docs/refund-payments/) instead. 
 
 </details>
 
-## Failure to pay
+## Collection flow
 
-If the customer fails to pay within the initial 14 day period, MultiFactor emails them reminders with new payment links, each valid for 6 days: 
+- MultiSafepay sends the customer an invoice after the order is shipped in full, **or** partially shipped and the remaining items cancelled. 
+- If the customer fails to pay within the initial 14 day period, MultiSafepay sends reminders of their obligation to pay, in accordance with the Wet Incasso Kosten (WIK). 
+- The customer can contact MultiSafepay if there is an issue with the payment.
+- If the customer still fails to pay, MultiSafepay sends the invoice to a debt collector. 
+- If necessary, you can delay the collection flow by placing the transaction on hold.
 
-- Reminders 1 and 2: No additional fee 
-- Reminder 3: Additional fee of 7.50 EUR 
-- Reminder 4: Additional fee of 12.50 EUR  
-
-If the customer still fails to pay, the total invoice is transferred to a debt collection agency. 
-
-<details id="how-to-stop-reminders">
-<summary>How to stop reminders</summary>
+<details id="how-to-delay-the-collection-flow">
+<summary>How to delay the collection flow</summary>
 <br>
 
-To stop sending reminders, you can either:
-
-- Credit the invoice for a zero amount, or
-- Request to place the transaction on hold for up to 1 month
-
-Email requests to place transactions on hold to <klantenservice@multifactor.nl>  
+Email a request to place the transaction on hold to <klantenservice@multifactor.nl>  
 
 Provide the following information:
 
 - Transaction details
 - Reason for your request
-- When you expect to start the billing process again
+- When you expect to re-start the collection flow
+
+---
 
 </details>
 
-## Gift cards
+## Customer pays you directly
 
-When paying with a gift card and Pay After Delivery, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. Otherwise our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+If the customer pays you directly instead of MultiSafepay, to complete the order, simply pay MultiSafepay the order amount from your account balance. This stops MultiSafepay sending the customer an invoice or reminders. 
 
-You are solely responsible for this in your integration.
+If you do so:
+- **After** MultiSafepay has paid you out, then we refund you the order amount
+- **Before** MultiSafepay pays you out, then we cancel the payout
+
+After paying for an order from your account balance, you can no longer refund the customer.
+
+<details id="how-to-complete-an-order-with-your-own-funds">
+<summary>How to complete an order with your own funds</summary>
+<br>
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, click **Complete own funds**.
+4. Add a description of what happened with the order, and then click **Complete**.
+   The <<glossary:transaction status>> changes to **Completed**.
+
+---
+
+</details>
+
+## Expiration and extensions
+
+The default expiration period for an invoice order is **30** days after it was created. If the order is not at least [partially shipped](#partially-ship-order) within this period, it is cancelled and [refunded](#refunds).
+
+After a first partial shipment, the expiration period is reduced. You have only **10** days to ship the remaining items from the order, or the order expires. 
+
+If you cannot ship within 30 days, but don't want to cancel the order, you can extend the expiration period by a further 30 days, up to 180 days. After this time, the order is cancelled and refunded. 
+
+<details id="how-to-extend-an-order">
+<summary>How to extend an order</summary>
+<br>
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, click **Extend**.
+   While extended, the <<glossary:order status>> remains **Completed** and the <<glossary:transaction status>> remains **Uncleared**.
+
+---
+
+</details>
+
+## Payment methods
+
+Customers pay MultiSafepay via [iDEAL](/docs/ideal/) or a [bank transfer](/docs/bank-transfer/).
 
 ## Refunds
 
-- You can't process refunds after the invoice is passed to a collection agency (usually 6 weeks after shipment). This is not visible in your dashboard. To check when the invoice was passed to the agency, email <support@multifactor.nl>
-- You can't see whether the customer has paid the invoice. If they have already paid, they receive a refund. If not, they receive an adjusted payment request or the invoice is cancelled.
-- For both full and partial refunds, any additional administration costs for the customer are deducted from the invoice. The customer has a further 14 days to complete the payment. 
-- You cannot reverse full refunds. 
+After shipment, the invoice order can be refunded in full or in part.
+
+<details id="about-partial-refunds">
+<summary>About partial refunds</summary>
+<br>
+
+For partial refunds:
+
+| Amount paid | Outcome |
+|---|---|
+| Equal to new order amount | The order is completed. |
+| Less than new order amount | The order is updated. |
+| More than new order amount | The order is completed and the outstanding amount refunded. |
+
+---
+
+</details>
+
+<details id="how-to-refund-an-order">
+<summary>How to refund an order</summary>
+<br>
+
+**In your dashboard**
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, click **Refund order**.
+4. In the **Reason / Description** field, enter the reason for the refund or a description of what happened with the order, and then click **Complete**.
+5. In the **Comment** field, enter any additional information.
+6. In the **Amount** fields, enter the amount to refund. 
+7. Click **Continue**.
+8. Review the **Refund confirmation**, and then click **Confirm**.
+
+**Via the API** 
+
+See API reference – [Refund order](/reference/refundorder).
+
+---
+
+</details>
 
 ## Shipment
 
-### Change the order status
+- You must ship to receive payment, and within **30 days** or the order expires.
+- Share the track & trace details with the customer and MultiSafepay, if relevant. 
+- You can ship orders in full or in multiple parts. See [Partially ship order](#partially-ship-order) below.
+- You must update the <<glossary:order status>> to **Shipped**. See [Update the order status](#update-the-order-status) below.
+- You must comply with relevant [shipping policies](#shipping-policies). 
 
-When you ship the order, you **must** manually change the [order status](/docs/payment-statuses/) from **Completed** to **Shipped** to:
+### Partially ship order
 
-- Capture the funds
-- Trigger sending the invoice to the customer
-- Prevent the order from expiring
-
-<details id="how-to-change-order-status-to-shipped">
-<summary>How to change order status to shipped</summary>
+<details id="how-to-partially-ship-an-order">
+<summary>How to partially ship an order</summary>
 <br>
+
+If you cannot ship all the items for an order at the same time, you can ship the order in multiple parts.
+
+See API reference – [Update or cancel order](/reference/updateorder) > **Ship order**.
+
+**Collection flow** 
+
+MultiSafepay begins the [collection flow](#collection-flow) after at least 1 partial shipment if all other items from the order are cancelled.
+
+MultiSafepay does **not** invoice partial shipment amounts separately. We invoice the total outstanding amount.
+
+**Expiration**
+
+After the first partial shipment, you have **10** days to ship the remaining items, or the order expires.
+
+**Integration**
+
+A unique shipment `order_id` is generated for each partial shipment.
+
+See API reference – [Update or cancel order](/api/ship-invoice-order/) > **Ship order**.
+
+**Notifications**
+
+You receive a webhook notification when the [order status](/glossary/#order-status) of each partial shipment changes to **Shipped**.
+
+The status of the main transaction never changes to **Completed**. It remains **Initialized**, with a flag.
+
+**Refunds**
+
+You must must refund partial shipments separately, using the specific **shipment** `order_id`, instead of the original **invoice** `order_id`.
+
+See API reference – [Refund order](/api/refund/).
+
+---
+
+</details>
+
+### Update the order status
+
+<details id="how-to-update-the-order-status">
+<summary>How to update the order status</summary>
+<br>
+
+When you ship the order, you **must** update the <<glossary:order status>> via the dashboard or your integration from **Completed** to **Shipped** to receive your payout, and to prevent the order from expiring.
 
 **In your dashboard**
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
 3. On the **Transaction details** page, under **Order details**, click **Change order status**.
-5. Select **Shipped**.
-6. Send the customer the track and trace details, if relevant.
+4. From the **Change status to** list, select **Shipped**.
+5. In the **Memo** field, enter a comment.
+6. Click **OK**.
 
 **In your backend**
 
@@ -197,21 +314,32 @@ For other ready-made integrations, make an [update order](/reference/updateorder
 
 ❗️ **Note:** Some third-party plugins may not support updating the status via our API.
 
+---
+
 </details>
 
 ### Shipping policies
 
+You must read the following shipping policies:
+
 - <a href="https://www.multifactor.nl/voorwaarden/shipping-policies" target="_blank">MultiFactor shipping policies</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-- <a href="https://www.multifactor.nl/voorwaarden/shipping-policies/" target="_blank">Shipping Policy Nederland</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
+- <a href="https://www.multifactor.nl/voorwaarden/shipping-policies/" target="_blank">Shipping policy Nederland</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
 - <a href="https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy" target="_blank">Herinnering aan onze shipping policy</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
+
+❗️ Failure to comply with these policies can impact on prefinancing and MultiSafepay's settlement guarantee. 
 
 ## Surcharges  
 
 Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to <<glossary:BNPL>> methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
-We therefore strongly recommend **not** applying surcharges. 
+We therefore strongly recommend **not** applying surcharges to Pay After Delivery. 
 
 For more information, email <sales@multisafepay.com> 
+
+## Terms and conditions
+
+- [Direct flow](/reference/introduction#direct-vs-redirect): You must display your terms and conditions in your checkout.
+- [Redirect flow](/reference/introduction#direct-vs-redirect): MultiSafepay terms and conditions are displayed by default on [payment pages](/docs/payment-pages/).
 <br>
 
 ---
