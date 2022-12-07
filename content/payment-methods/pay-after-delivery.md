@@ -7,7 +7,7 @@ parentDoc: 62bd75142e264000a66d62b5
 slug: 'pay-after-delivery'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/PAD-en.svg" width="100" align ="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://files.readme.io/cf02361-PAD-en.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 Pay After Delivery (Betaal Na Ontvangst) is MultiSafepay's own <<glossary:BNPL>> method for increasing customer confidence and <<glossary:conversion>>. MultiSafepay prefinances you, bears the risk, and guarantees settlement. 
 
@@ -70,16 +70,19 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 See API reference – [Create order](/reference/createorder/) > BNPL order. 
 
-  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Pay After Delivery direct/redirect**.
-  Set `type` to `direct` or `redirect`.
+<details id="example-requests"> 
+<summary>Example requests</summary>
+<br>
 
 For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Pay After Delivery direct/redirect**.
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 
-- A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
-- Transactions expire after 90 days.
-- For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
+***
+
+</details>
+
+A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
 
 ### Ready-made integrations
 Supported in all [ready-made integrations](/docs/our-integrations/) (direct and redirect).
@@ -282,6 +285,8 @@ You must must refund partial shipments separately, using the specific **shipment
 
 See API reference – [Refund order](/api/refund/).
 
+❗️ **Note:** To partially ship an order, email a request to <sales@multisafepay.com>
+
 ---
 
 </details>
@@ -338,8 +343,9 @@ For more information, email <sales@multisafepay.com>
 
 ## Terms and conditions
 
-- [Direct flow](/reference/introduction#direct-vs-redirect): You must display your terms and conditions in your checkout.
+- [Direct flow](/reference/introduction#direct-vs-redirect): You must display our terms and conditions in your checkout.
 - [Redirect flow](/reference/introduction#direct-vs-redirect): MultiSafepay terms and conditions are displayed by default on [payment pages](/docs/payment-pages/).
+
 <br>
 
 ---
