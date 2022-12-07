@@ -285,7 +285,7 @@ You must must refund partial shipments separately, using the specific **shipment
 
 See API reference – [Refund order](/api/refund/).
 
-❗️ **Note:** To partially ship an order, email a request to <sales@integration.com>
+❗️ **Note:** To partially ship an order, email a request to <sales@multisafepay.com>
 
 ---
 
@@ -343,9 +343,8 @@ For more information, email <sales@multisafepay.com>
 
 ## Terms and conditions
 
-- [Direct flow](/reference/introduction#direct-vs-redirect): You must display your terms and conditions in your checkout.
+- [Direct flow](/reference/introduction#direct-vs-redirect): You must display our terms and conditions in your checkout.
 - [Redirect flow](/reference/introduction#direct-vs-redirect): MultiSafepay terms and conditions are displayed by default on [payment pages](/docs/payment-pages/).
-- For direct orders: You must display your terms and conditions in your checkout.
 
 <br>
 
