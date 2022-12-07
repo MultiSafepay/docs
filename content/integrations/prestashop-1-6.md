@@ -26,10 +26,10 @@ Release date: Dec 7th, 2022
 
 ### Changed
 - Removed extra confirmation step in the checkout
-- Component and tokenization configurations have been moved from global level, to payment method level settings. Please make sure configuration is still correct by navigating to **Modules > Module Manager > Select your payment method**.
-- Modules are now installable via PrestaShop backoffice
+- Component and tokenization configurations have been moved from global level, to payment method level settings. Please make sure configuration is still correct by navigating to **Modules > Module Manager > Select your payment method**
+- It is now possible to upload modules in the PrestaShop backend
 - All payment methods modules only can be activated when MultiSafepay main module is installed
-- Afterpay rebranding to Riverty
+- Re-brand AfterPay to Riverty
 
 ### Added
 - MyBank
@@ -43,7 +43,7 @@ Release date: Dec 7th, 2022
 - Fietsenbon
 - Givacard
 - Goodcard
-- Kelly giftcard
+- Kelly gift card
 - Nationale Verwen cadeaubon
 - Winkelcheque
 - ING Home'Pay
