@@ -190,8 +190,8 @@ You can update the plugin in your backend and the CMS marketplace, or via using 
 ## Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Shopware 5.6.x or 5.5.7 and above.
-- Tested on PHP 7.0
+- Shopware 5.6 and above.
+- Tested on PHP 7.4
 
 ## Installation and configuration
 
