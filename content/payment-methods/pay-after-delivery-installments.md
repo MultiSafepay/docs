@@ -1,7 +1,7 @@
 ---
-title: 'Pay After Delivery'
+title: 'Pay After Delivery installments'
 category: 6298bd782d1cf4006032e765
-order: 21
+order: 22
 hidden: false
 parentDoc: 62bd75142e264000a66d62b5
 slug: 'pay-after-delivery'
@@ -10,8 +10,9 @@ slug: 'pay-after-delivery'
 <img src="https://files.readme.io/cf02361-PAD-en.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 Pay After Delivery (Betaal Na Ontvangst) is MultiSafepay's own <<glossary:BNPL>> method for increasing customer confidence and <<glossary:conversion>>. MultiSafepay prefinances you, bears the risk, and guarantees settlement. 
+Customers can choose to pay for orders in three equal installments.
 
-Read how Pay After Delivery can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+Read how pay in installments can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery-installments" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -25,9 +26,7 @@ Read how Pay After Delivery can benefit your business on <a href="https://www.mu
 
 # Payment flow
 
-This diagram shows the flow for a successful transaction. Click to magnify.
-
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/pay-after-delivery-payment-flow.svg" alt="Pay After Delivery payment flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/pay-after-delivery-installment-flow.svg" alt="Pay After Delivery payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;
@@ -125,8 +124,10 @@ You can cancel the invoice order **before** shipment or **after** partial shipme
 
 ## Collection flow
 
+- The collection only starts when the customer pays installment 1 of the order.
 - MultiSafepay sends the customer an invoice after the order is shipped in full, **or** partially shipped and the remaining items cancelled. 
-- If the customer fails to pay within the initial 14 day period, MultiSafepay sends reminders of their obligation to pay, in accordance with the Wet Incasso Kosten (WIK). 
+- MultiSafepay sends reminders to the customer 5 days before and on the day of each installment due.
+- If the customer fails to pay within 14 days of overdue installments, MultiSafepay sends reminders of their obligation to pay with an added fee per the Wet Incasso Kosten (WIK). 
 - The customer can contact MultiSafepay if there is an issue with the payment.
 - If the customer still fails to pay, MultiSafepay sends the invoice to a debt collector. 
 - If necessary, you can delay the collection flow by placing the transaction on hold.
@@ -195,11 +196,11 @@ If you cannot ship within 30 days, but don't want to cancel the order, you can e
 
 ## Payment methods
 
-Customers pay MultiSafepay via [iDEAL](/docs/ideal/) or a [bank transfer](/docs/bank-transfer/).
+Customers pay MultiSafepay via [iDEAL](/docs/ideal/).
 
 ## Refunds
 
-After shipment, the invoice order can be refunded in full or in part.
+After shipment, the invoice order can be refunded fully or partially.
 
 <details id="about-partial-refunds">
 <summary>About partial refunds</summary>
@@ -267,6 +268,11 @@ MultiSafepay does **not** invoice partial shipment amounts separately. We invoic
 **Expiration**
 
 After the first partial shipment, you have **10** days to ship the remaining items, or the order expires.
+
+
+**Installments**
+
+Partial shipment is supported for installments orders.
 
 **Integration**
 
