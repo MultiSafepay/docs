@@ -4,7 +4,7 @@ category: 6298bd782d1cf4006032e765
 order: 22
 hidden: false
 parentDoc: 62bd75142e264000a66d62b5
-slug: 'pay-after-delivery'
+slug: 'pay-after-delivery-installments'
 ---
 
 <img src="https://files.readme.io/cf02361-PAD-en.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
