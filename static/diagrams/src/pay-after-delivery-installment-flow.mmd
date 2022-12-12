@@ -1,0 +1,19 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Me as Merchant
+    participant Mu as MultiSafepay
+    C->>Me: Selects Pay After Delivery at checkout
+    Me->>Mu: Creates order <br> (direct and redirect flow supported)
+     Note over Mu: Performs risk assessment 
+        alt MultiSafepay declines the order 
+    Mu->>Me: Advises that order was declined
+    Me->>C: Advises that order was declined
+    else MultiSafepay accepts the order 
+    end
+    Mu->>Me: Creates an invoice order
+    C->>Mu: Pays installment 1 within 30 minutes 
+     Me->>C: Ships order fully or partially
+    Mu->>Me: Pays out merchant after clearing period
+    C->>Mu: Pays installment 2 within 30 days 
+    C->>Mu: Pays installment 3 within 60 days 
