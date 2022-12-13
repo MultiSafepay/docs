@@ -37,7 +37,7 @@ Read how Monizze can benefit your business on <a href="https://www.multisafepay.
 
 # Payment flow
 
-This diagram shows the flow for a successful transaction. Click to magnify.
+This diagram shows the flow of a successful transaction. Click to magnify.
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/monizze-payment-flow.svg" alt="Monizze payment flow" style="display: block;
   margin-left: auto;
@@ -57,13 +57,14 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 # Activation 
 
 1. Fill out the Monizze <a href="https://hello.monizze.be/nl/merchant/e-commerce/" target="_blank">application form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> form, selecting the checkbox for each voucher you want to offer.
-2. Sign a contract with Monizze. They'll give you an Monizze Merchant ID.
+2. Sign a contract with Monizze. They'll give you a Monizze Merchant ID.
 3. Email your Monizze Merchant ID to <sales@multisafepay.com>
 4. We activate the payment method for your account.
 
 # Integration
 
 ### API
+
 - See API reference – [Create order](/reference/createorder/) > Prepaid card order.
 
   <details id="example-requests"> 
@@ -79,6 +80,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 - By default, all activated Monizze vouchers display at checkout, but you can also specify which ones to display per transaction.
 
 ### Ready-made integrations
+
 You can integrate Monizze as a generic gateway in several of our ready-made integrations.
 
 <details id="supported-ready-made-integrations">
