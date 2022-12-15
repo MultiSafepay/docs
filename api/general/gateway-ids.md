@@ -33,6 +33,7 @@ hidden: false
 | Mastercard                             | `MASTERCARD`  |
 | MyBank                                 | `MYBANK`      |
 | Pay After Delivery                     | `PAYAFTER`    |
+| Pay After Delivery installments        | `BNPL_INSTM`  |
 | PayPal                                 | `PAYPAL`      |
 | Paysafecard                            | `PSAFECARD`   |
 | Request to Pay                         | `DBRTP`       |
