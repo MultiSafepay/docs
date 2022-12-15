@@ -16,7 +16,7 @@ Read how Amazon Pay can benefit your business on <a href="https://www.multisafep
 | Supports | Details |
 |---|---|
 | [Countries](/docs/payment-methods#payment-methods-by-country) | Austria, Belgium, Cyprus, Denmark, France, Germany, Hungary, Ireland, Italy, Luxembourg, Netherlands, Portugal, Spain, Sweden, and Switzerland | 
-| [Currencies](/docs/currencies/)  | AUD, CHF, DKK, EUR, GBP, HKD, JPY, NOK, NZD, SEK, USD, ZAR | 
+| [Currencies](/docs/currencies/)  | AUD, CHF, DKK, EUR, GBP, HKD, JPY, NOK, NZD, SEK, USD, ZAR <br> **Note:** Settlement currency is **only** available in EUR.| 
 | [Chargebacks](/docs/chargebacks/)  | Yes |
 | [Discounts](/docs/discounts/) | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (current version only)  |
@@ -25,7 +25,7 @@ Read how Amazon Pay can benefit your business on <a href="https://www.multisafep
 
 # Payment flow
 
-This diagram shows the flow for a successful transaction. Click to magnify.
+This diagram shows the flow of a successful transaction. Click to magnify.
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/amazon-pay-payment-flow.svg" alt="Amazon Pay payment flow" style="display: block;
   margin-left: auto;
@@ -55,7 +55,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. Go to **Settings** > **Payment methods**.
 4. Under **Additional payment methods**, click **Amazon** > **Merchant registration**. 
-  You are redirected to create an Amazon Payments merchant account at Amazon Pay – <a href="https://pay.amazon.com/signup" target="_blank">Sign up</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+  You are redirected to create an Amazon Payments merchant account at Amazon Pay.
 5. Enter the required information to create an account.
   Amazon sends you a confirmation email.
 
