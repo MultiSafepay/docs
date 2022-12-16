@@ -8,9 +8,12 @@ slug: 'google-pay-direct'
 ---
 With direct integration, the **Google Pay** button appears in your checkout page, where customers complete payment without being redirected to a [payment page](/docs/payment-pages/).
 
-If using:
-- Your own integration, follow all steps in this manual. 
-- A [ready-made integration](/docs/our-integrations) which builds the Google Pay button, start from [Step 7](#7-test-and-go-live).
+> ℹ️ Note
+> 
+> If using:
+>
+> - Your own integration, follow all steps in this manual. 
+> - A [ready-made integration](/docs/our-integrations) which builds the Google Pay button, start from [Step 7](#7-test-and-go-live).
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/google-pay-screen.png"  align ="center"/>
 
