@@ -284,6 +284,20 @@ Riverty provides you with an API key per country and per site, and you must acce
 
 </details>
 
+## Sodexo
+
+<details id="how-to-activate-sodexo">
+<summary>How to activate Sodexo</summary>
+<br>
+
+1. Fill out the Monizze <a href="https://sportculture.sodexo.be/nl/" target="_blank">application form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Sign a contract with Sodexo. They'll give you a Sodexo Merchant ID.
+3. Email your Sodexo Merchant ID to <sales@multisafepay.com>
+4. We activate the payment method for your account.
+
+</details >
+
+
 <br>
 
 ---

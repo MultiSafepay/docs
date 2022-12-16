@@ -72,6 +72,7 @@ hidden: false
 | Rotterdampas                           | `ROTGIFT`     |
 | U-pas                                  | `UPAS`        |
 | Sportenfit                             | `SPORTENFIT`  |
+| Sodexo                                 | `SODESPORTS`  |
 | Vuur & rook gift card                  | `VRGIFTCARD`  |
 | VVV Cadeaukaart                        | `VVVGIFTCRD`  |
 | Webshopgiftcard                        | `WEBSHOPGFT`  |
