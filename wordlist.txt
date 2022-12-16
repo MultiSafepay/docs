@@ -1,3 +1,4 @@
+aan
 ABN
 ABNA
 ACCOUNTADDRESS
@@ -76,7 +77,9 @@ Boeken
 Boekenbon
 Boekhouden
 Burgerlijk
+cadeau
 cadeaubon
+cadeaucheque
 CAMT
 CCV
 CCVshop
@@ -85,6 +88,7 @@ CET
 CFDs
 Changs
 CHARGEBACK
+chèque
 CHF
 CLI
 CLP
@@ -141,6 +145,8 @@ Dropdown
 Duopact
 Dynamicweb
 EBA
+eco
+ecocheque
 EEA
 EINVOICE
 EPS
@@ -183,6 +189,7 @@ HRK
 HUF
 Handelsbanken
 Handleiding
+Herinnering
 Home'Pay
 Huis
 IBAN
@@ -219,6 +226,7 @@ Laravel
 Liefcadeaukaart
 Lightspeed
 LogiVert
+maaltijdcheques
 MERCHANTCITY
 MERCHANTCOUNTRY
 MERCHANTLOGOHTML
@@ -243,6 +251,8 @@ Mijn
 MijnDomein
 Mijnwebwinkel
 MisterCash
+Monizze
+Monizze's
 MultiFactor
 MultiSafepay
 MultiSafepay's
@@ -265,6 +275,7 @@ Ohmygood
 Omnipay
 OneStepCheckout
 Ontvangst
+onze
 OpenCart
 OroCommerce
 OsCommerce
@@ -294,6 +305,8 @@ Picqer
 Popolare
 Postbus
 Postepay
+prefinances
+prefinancing
 Premarc
 PrestaShop
 Proef
@@ -305,6 +318,7 @@ Rabobank
 Regio
 Registratie
 Registreer
+repas
 Revolut
 Riverty
 Riverty's

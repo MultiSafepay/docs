@@ -9,7 +9,7 @@ slug: 'prestashop-1-6'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.8.1.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-1.6-internal/releases/download/3.9.0/Plugin_PrestaShop_1_6_3.9.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 > ⚠️ Action required
 >
@@ -20,6 +20,36 @@ slug: 'prestashop-1-6'
 <details id="changelog">
 <summary>Changelog</summary>
 <br>
+
+## 3.9.0
+Release date: Dec 7th, 2022
+
+### Changed
+- Removed extra confirmation step in the checkout
+- Component and tokenization configurations have been moved from global level, to payment method level settings. Please make sure configuration is still correct by navigating to **Modules > Module Manager > Select your payment method**
+- It is now possible to upload modules in the PrestaShop backend
+- All payment methods modules only can be activated when MultiSafepay main module is installed
+- Re-brand AfterPay to Riverty
+
+### Added
+- MyBank
+- Google Pay
+- Alipay
+- Alipay+
+- Add checkout modal for direct payment methods
+
+### Removed
+- Erotiekbon
+- Fietsenbon
+- Givacard
+- Goodcard
+- Kelly gift card
+- Nationale Verwen cadeaubon
+- Winkelcheque
+- ING Home'Pay
+- Parfumcadeaukaart
+
+---
 
 **3.8.1**
 Release date: Sep 28, 2022
