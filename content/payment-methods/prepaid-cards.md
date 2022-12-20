@@ -1,9 +1,9 @@
 ---
-title: "Prepaid cards"
+title: 'Prepaid cards'
 category: 6298bd782d1cf4006032e765
 order: 35
 hidden: false
-slug: "prepaid-cards"
+slug: 'prepaid-cards'
 ---
 
 [block:html]
