@@ -532,6 +532,8 @@ Any other card number receives an "Invalid card number" error.
 3. From the **Test scenario** list, select the relevant discount, and then click **Test**.???
   The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
 
+  </details>
+
 <details id="sodexo">
 <summary>How to test Sodexo</summary>
 <br>
