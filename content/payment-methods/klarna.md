@@ -15,7 +15,7 @@ Read how Klarna can benefit your business on <a href="https://www.multisafepay.c
 
 | Supports | Details |
 |---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria, Belgium, Denmark, Finland, France, Germany, Italy, Netherlands, Norway, Portugal, Spain, Sweden, Switzerland, UK | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria, Belgium, Denmark, Finland, France, Germany, Italy, Netherlands, Norway, Portugal, Spain, Sweden, UK | 
 | [Currencies](/docs/currencies/)  | DKK, EUR, GBP, NOK, SEK | 
 | [Chargebacks](/docs/chargebacks/)  | No  | 
 | [Discounts](/docs/discounts/) | Yes |
