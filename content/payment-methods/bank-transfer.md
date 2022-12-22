@@ -118,21 +118,22 @@ To send a customer the details of a local MultiSafepay bank account, include the
 
 MultiSafepay emails the customer the following payment details to include when transferring the funds, or your can email them yourself.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Bank-Transfer-Payment-Details.png" width="100%" align="left"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/bank-transfer.png" width="100%" align="left"/>
+<br>
+
+📘 **Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/docs/ibans/).
 
 <details id="how-to-email-payment-instructions-yourself"> 
 <summary>How to email payment instructions yourself</summary>
 <br>
 
-You may prefer to email the customer the payment details yourself, e.g. for consistent, branded communications. Make sure you include clear instructions about what details the customer needs to provide and the required format (see [Transfer guidance for customers](#transfer-guidance-for-customers) below).
+You may prefer to email the customer the payment details yourself, e.g. for consistent, branded communications. Make sure you include clear instructions about what details the customer needs to provide, and the required format (see [Transfer guidance for customers](#transfer-guidance-for-customers) below).
 
-To prevent us from emailing the customer, see API reference – [Create order](/reference/createorder/) > Banking order. Set the `disable_send_email` parameter to `true`. 
-
----
+To prevent us from emailing the customer:
+- See API reference – [Create order](/reference/createorder/), under **Body params** > select **Banking order** 
+- Click **customer object**, and set the `disable_send_email` parameter to `true`
 
 </details>
-
-📘 **Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/docs/ibans/).
 
 ### Transfer guidance for customers
 
