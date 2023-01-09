@@ -90,7 +90,7 @@ To change the order of payment methods in your checkout, follow these steps:
 
 [block:html]
 {
-  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>For:</p>\n  <ul>\n    <li>General information about the app, see Mijnwebwinkel – <a href=\"https://www.mijnwebwinkel.nl/support-resources/apps-integraties/multisafepay">MultiSafepay</a>.</li>\n    <li>Technical queries about the app, see Mijnwebwinkel – <a href=\"https://www.mijnwebwinkel.nl/contact">Contact form</a>.</li>\n    <li>Support documentation, see Mijnwebwinkel – <a href=\"https://www.mijnwebwinkel.nl/support-resources">Support</a>.</li>\n  </ul>  \n</blockquote>"
+  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>For:</p>\n  <ul>\n    <li>General information about the app, see Mijnwebwinkel – <a href=\"https://www.mijnwebwinkel.nl/support-resources/apps-integraties/multisafepay\">MultiSafepay</a>.</li>\n    <li>Technical queries about the app, see Mijnwebwinkel – <a href=\"https://www.mijnwebwinkel.nl/contact\">Contact form</a>.</li>\n    <li>Support documentation, see Mijnwebwinkel – <a href=\"https://www.mijnwebwinkel.nl/support-resources\">Support</a>.</li>\n  </ul>  \n</blockquote>"
 }
 [/block]
 
