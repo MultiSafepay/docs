@@ -183,10 +183,16 @@ If you cannot ship within 30 days, but don't want to cancel the order, you can e
 <summary>How to extend an order</summary>
 <br>
 
+**In your dashboard**
+
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
 3. On the **Transaction details** page, click **Extend**.
    While extended, the <<glossary:order status>> remains **Completed** and the <<glossary:transaction status>> remains **Uncleared**.
+
+**Via API**
+
+See API reference – [Put PAD order on hold](/reference/padputorderonhold).   
 
 ---
 
