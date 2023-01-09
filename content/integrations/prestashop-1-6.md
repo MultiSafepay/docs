@@ -9,11 +9,15 @@ slug: 'prestashop-1-6'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
+<div style="display: flex; flex-wrap: wrap;">
+
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-1.6/releases/download/3.9.0/Plugin_PrestaShop_1_6_3.9.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-1.6" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-1.6/blob/main/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+
+</div>
 
 > ⚠️ Action required
 >
@@ -42,17 +46,9 @@ slug: 'prestashop-1-6'
 
 # User guide
 
-## Confirmation page
-
-PrestaShop 1.6 version 3.1.7 lets you skip the extra confirmation page so that the customer is redirected straight to the MultiSafepay payment page.
-
-This is no longer supported from version 3.2.0. If you want to skip the extra confirmation page, you can <a href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/prestashop-1-6/Plugin_PrestaShop1.6_3.7.1.zip" target="_blank">download version 3.1.7</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. New features might be lost when downgrading.
-
 ## Generic gateways
 
-The plugin supports generic gateways, which let you add payment methods manually. This is particularly useful for integrating gift cards specific to your business. 
-
-Supported since release: 3.8.0, Jul 13, 2022
+The plugin supports generic gateways, which let you add payment methods manually. This is particularly useful for integrating gift cards specific to your business.
 
 <details id="how-to-configure-generic-gateways">
 <summary>How to configure generic gateways</summary>
@@ -80,8 +76,8 @@ Supported since release: 3.8.0, Jul 13, 2022
 
 - Cards: [All](/docs/card-payments/)
 - <<glossary:BNPL>>: All, except Betaal per Maand
-- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
-- Banking methods: 
+- Wallets: [Alipay](/docs/alipay/), [Alipay+](/docs/alipay-plus/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
+- Banking methods:
     - [Bancontact](/docs/bancontact/)
     - [Bank transfer](/docs/bank-transfer/)
     - [Belfius](/docs/belfius/)
@@ -89,7 +85,9 @@ Supported since release: 3.8.0, Jul 13, 2022
     - [Dotpay](/docs/dotpay/)
     - [EPS](/docs/eps/)
     - [Giropay](/docs/giropay/)
+    - [Google Pay](/docs/google-pay/)
     - [iDEAL](/docs/ideal/)
+    - [MyBank](/docs/mybank/)
     - [Request to Pay](/docs/request-to-pay/)
     - [Direct debit](/docs/direct-debit/)
     - [Sofort](/docs/sofort/)
@@ -99,7 +97,6 @@ Supported since release: 3.8.0, Jul 13, 2022
     - Degrotespeelgoedwinkel
     - Fashioncheque
     - Fashion gift card
-    - Fietsenbon
     - Gezondheidsbon
     - Good4fun
     - Parfumcadeaukaart
@@ -140,8 +137,8 @@ The plugin supports [payment components](/docs/payment-components/), which:
 If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
 
 1. Sign in to your PrestaShop 1.6 backend.
-2. Go to **Modules and services** > **MultiSafepay**.
-3. Slide the **Payment component** radio button to **Yes**.
+2. Go to **Modules and services** > **Credit cards**.
+3. Slide the **Use Payment component** radio button to **Yes**.
 4. Click **Save**.
 
 </details>
@@ -159,7 +156,7 @@ Payment links generated manually in your MultiSafepay dashboard don't automatica
 <br>
 
 1. Sign in to your PrestaShop 1.6 backend. 
-2. Go to **Modules and services** > **Modules and services** > **MultiSafepay**.
+2. Go to **Modules and services** > **Modules and services** > **Credit cards**.
 3. Click **Configure**.
 4. Set the **Tokenization** field to **YES**.
 5. Click **Save**.
