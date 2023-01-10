@@ -284,11 +284,11 @@ Partial shipment is supported for installments orders.
 
 A unique shipment `order_id` is generated for each partial shipment.
 
-See API reference – [Update or cancel order](/api/ship-invoice-order/) > **Ship order**.
+See API reference – [Update or cancel order](/reference/updateorder) > **Ship order**.
 
 **Notifications**
 
-You receive a webhook notification when the [order status](/glossary/#order-status) of each partial shipment changes to **Shipped**.
+You receive a webhook notification when the <<glossary:order status>>  of each partial shipment changes to **Shipped**.
 
 The status of the main transaction never changes to **Completed**. It remains **Initialized**, with a flag.
 
@@ -296,7 +296,7 @@ The status of the main transaction never changes to **Completed**. It remains **
 
 You must must refund partial shipments separately, using the specific **shipment** `order_id`, instead of the original **invoice** `order_id`.
 
-See API reference – [Refund order](/api/refund/).
+See API reference – [Refund order](reference/refundorder).
 
 ❗️ **Note:** To partially ship an order, email a request to <sales@multisafepay.com>
 
