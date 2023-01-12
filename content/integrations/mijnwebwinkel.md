@@ -90,7 +90,7 @@ To change the order of payment methods in your checkout, follow these steps:
 
 [block:html]
 {
-  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n   <ul>\n    <li>For technical queries about the app, contact <a href=\"https://www.mijnwebwinkel.nl/contact\">Mijnwebwinkel</a></li>\n    <li>For general information about the app, see Mijnwebwinkel  <a href=\"https://www.mijnwebwinkel.nl/support-resources\">Support</a></li>\n  </ul>  \n</blockquote>"
+  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n   <ul>\n    <li>For technical queries about the app, contact <a href=\"https://www.mijnwebwinkel.nl/contact \">Mijnwebwinkel</a></li>\n    <li>For general information about the app, see Mijnwebwinkel  <a href=\"https://www.mijnwebwinkel.nl/support-resources \">Support</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
 
