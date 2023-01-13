@@ -192,8 +192,8 @@ As a temporary solution, you can disable payments with shopping carts.
 
 [Surcharges](/docs/surcharges/) are not supported by default.
 
-<details id="applying-surcharges-with-bvk">
-<summary>Applying surcharges with BVK</summary>
+<details id="applying-surcharges-with-third-party-extensions">
+<summary>Applying surcharges with third-party extensions</summary>
 <br>
 
 To apply a surcharge or payment fee to a payment method, you can use the <a href="https://www.opencart.com/index.php?route=marketplace/extension" rel="nofollow" target="_blank">third-party extensions</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
