@@ -260,7 +260,7 @@ You can also test the following scenarios:
 
 | Card number | Scenario | Description |
 | --- | --- | --- |
-| Amex: 378282246310005 <br> Maestro: 6799990000000000011 <br> Mastercard: 5500000000000004 <br> Visa/co-branded: <br> 4111111111111111 | **Completed** | The transaction was completed (3D enrolled). |
+| Amex: 374500000000015 <br> Maestro: 6799990000000000011 <br> Mastercard: 5500000000000004 <br> Visa/co-branded: <br> 4111111111111111 | **Completed** | The transaction was completed (3D enrolled). |
 | Visa/co-branded: <br> 4917300000000008 | **Uncleared** | The transaction is uncleared. <br> After 3 minutes, this changes to **Void**. |
 | Amex: 378734493671000 <br> Visa/co-branded: <br> 4462000000000003 | **Uncleared** | The transaction is uncleared. <br> After 3 minutes, this changes for Amex to **Void** and for Visa to **Completed**. |
 | Amex: 374200000000004 <br> Visa/co-branded: <br> 4012001037461114 | **Declined**  | The transaction was declined (3D authentication failed). |
@@ -516,6 +516,43 @@ Use the following card numbers to test different gift card balances.
 | 111115  | € 100  |
 | 111112 | € 5  |
 | 111110 | No balance  |
+<br>
+
+Any other card number receives an "Invalid card number" error.
+
+</details>
+
+<details id="monizze">
+<summary>How to test Monizze</summary>
+<br>
+
+1. [Create an order](/reference/createorder/) > Prepaid card order  
+    Example: Monizze redirect
+2. On the payment page, click **Add discount**.???
+3. From the **Test scenario** list, select the relevant discount, and then click **Test**.???
+  The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
+
+  </details>
+
+<details id="sodexo">
+<summary>How to test Sodexo</summary>
+<br>
+
+1. [Create an order](/reference/createorder/) > Prepaid card order  
+    Example: Sodexo redirect
+2. Open the payment link.
+3. Enter in the:
+    - **Card number** field `111115`
+    - **Security code** field any 4-digit number
+4. Click **Add discount**.  
+  The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
+
+Use the following card numbers to test different gift card balances.
+
+| Card numbers | Balance |
+| --- | --- |
+| 111115  | € 100  |
+| 111112 | € 5  |
 <br>
 
 Any other card number receives an "Invalid card number" error.

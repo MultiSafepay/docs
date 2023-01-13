@@ -9,7 +9,7 @@ slug: 'edenred'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/giftcards/edenred.svg" width="80" align="right" style="margin: 20px 20px 20px 30px; max-height: 75px"/>
 
-<a href="https://www.edenred.be/nl" target="_blank">Edenred</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> lets employers provide their employees with a prepaid card loaded with Edenred vouchers:  
+<a href="https://www.edenred.be/nl" target="_blank">Edenred</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> lets employers gift employees a prepaid card loaded with Edenred vouchers:  
 
 - Ticket Restaurant
 - Ticket EcoCheques
@@ -30,7 +30,7 @@ Read how Edenred can benefit your business on <a href="https://www.multisafepay.
 ### Terms and conditions
   
 - You must sign a contract with Edenred.
-- For each voucher, you must comply with Edenred's rules regarding permitted products and services. 
+- For each voucher, you must comply with Edenred's rules on permitted products and services. 
 - An Edenred prepaid card can contain multiple Edenred vouchers.
 - Edenred vouchers can be used for partial payments in combination with another payment method.
 - View all the Edenred transactions for your site in <a href="https://myedenred.be" target="_blank">My Edenred</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
