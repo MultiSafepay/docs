@@ -190,12 +190,20 @@ As a temporary solution, you can disable payments with shopping carts.
 
 ## Surcharges
 
-[Surcharges](/docs/surcharges/) are no longer supported, but you can request a patch.  
-Email <integration@multisafepay.com> 
+[Surcharges](/docs/surcharges/) are not supported by default.
 
-> ⚠️ Attention Dutch merchants
->
-> We strongly recommend **not** applying surcharges to <<glossary:BNPL>> orders. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+<details id="applying-surcharges-with-bvk">
+<summary>Applying surcharges with BVK</summary>
+<br>
+
+To apply a surcharge or payment fee to a payment method, you can use the <a href="https://www.opencart.com/index.php?route=marketplace/extension" rel="nofollow" target="_blank">third-party extensions</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+The Integration Team will do their best to support you with installing surcharges module, but bear in mind that it is a third-party package. We can't guarantee perfect compatibility.
+
+> ⚠️ **Attention Dutch merchants**
+> We strongly recommend **not** applying surcharges to <<glossary:BNPL>> methods. This is now considered providing credit under the Wet op het consumentenkrediet and article 7:57 of the Burgerlijk Wetboek, and requires a permit from the Authority for Financial Markets (AFM).
+
+</details>
 
 ## Updates
 
