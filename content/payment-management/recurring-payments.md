@@ -28,7 +28,7 @@ For both initial and subsequent payments:
 - Direct debit – First you need to provide us with some information. <br> See Direct debit – [Activation](/docs/direct-debit/#activation).
 
 For initial payments then subsequent payments via direct debit:
-- Bancontact
+- Bancontact - [Bancontact WIP](/docs/bancontact#bancontact-wip-service)
 - iDEAL
 - Sofort
 
