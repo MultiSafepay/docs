@@ -121,7 +121,6 @@ iDEAL supports a number of Dutch <<glossary:issuers>>:
 - ABN AMRO 
 - ASN Bank 	
 - bunq 
-- Handelsbanken 
 - ING 
 - Knab 
 - Rabobank 
