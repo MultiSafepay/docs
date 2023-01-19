@@ -547,6 +547,7 @@ png
 pre
 px
 readme
+rebranded
 reputational
 rgb
 rgba
@@ -563,6 +564,7 @@ timeframe
 tokenization
 tokenize
 tokenized
+translateY
 trustly
 tuinbon
 ul
@@ -582,6 +584,7 @@ webshop
 webshops
 witwassen
 www
+xml
 xCore
 xcframework
 yireo
