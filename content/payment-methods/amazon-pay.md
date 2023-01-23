@@ -59,7 +59,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 5. Enter the required information to create an account.
   Amazon sends you a confirmation email.
 
-💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
 
 # Integration
 

@@ -70,7 +70,7 @@ To adjust your Sofort limit, email <sales@multisafepay.com>
       - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 
-💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
 
 # Integration
 
