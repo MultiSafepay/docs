@@ -112,6 +112,9 @@ The `pendingExpiresAt` value matches the date and time when the order expires an
 
 For more information, see Shopify.dev – <a href="https://shopify.dev/apps/payments/processing-a-payment#pend-a-payment" target="_blank">Pend a payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
+**Note:** If an order is not completed within **2** hours, the <<glossary:order status>> changes from **Pending** to **Expired**. 
+
+
 ## Payment methods
 
 <details id="supported-payment-methods">
