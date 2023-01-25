@@ -26,7 +26,7 @@ Read how Sodexo can benefit your business on <a href="https://www.multisafepay.c
 Terms and conditions
   
 - You must sign a contract with Sodexo.
-- For each voucher, you must comply with Sodexo's rules regarding permitted products and services. 
+- For each voucher, you must comply with Sodexo rules regarding permitted products and services. 
 - Sodexo voucher can be used for partial payments with another payment method.
 
 # Payment flow

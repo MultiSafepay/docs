@@ -358,6 +358,7 @@ For more information, email <sales@multisafepay.com>
 
 - [Direct flow](/reference/introduction#direct-vs-redirect): You must display our terms and conditions in your checkout.
 - [Redirect flow](/reference/introduction#direct-vs-redirect): MultiSafepay terms and conditions are displayed by default on [payment pages](/docs/payment-pages/).
+- By placing an order, you agree to all terms and conditions of Pay After Delivery including MultiFactor payment terms, and privacy policy. 
 
 <br>
 

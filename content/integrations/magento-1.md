@@ -25,7 +25,7 @@ slug: 'magento-1'
 Release date: Dec. 15th, 2022
 
 ### Changed
-+ DAVAMS-541: Rebrand Afterpay - Riverty
++ DAVAMS-541: AfterPay rebranded as Riverty
 
 ### Fixed
 + PLGMAGONE-759: Fix difference between xml declaration and file name (letter-case sensitive) which might be preventing display the template in rare cases.
