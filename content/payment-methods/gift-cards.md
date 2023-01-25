@@ -139,8 +139,7 @@ Contact MultiSafepay to develop your own custom gift card!
     - Using our API, see API reference – [Create order](/reference/createorder/) > Prepaid card order.
     - In a ready-made integration, add your gateway ID.
 
-💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
-> Email <integration@multisafepay.com>
+💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
 
 </details>
 
