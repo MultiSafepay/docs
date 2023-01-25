@@ -56,7 +56,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
       - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
 5. Select the checkbox for the payment method, and then click **Save changes**.
 
-💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
 
 # Integration
 
