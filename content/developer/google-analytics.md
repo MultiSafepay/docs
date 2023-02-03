@@ -26,26 +26,6 @@ If you use `gtag.js`, then you use **tags** instead of tracking IDs. The `gtag.j
 
 📘 **Note:** All Google Analytics accounts since 2017 use `gtag.js`. Prior to 2017, `analytics.js` was the default method for tagging.
 
-## Ready-made integrations
-
-You can add your tracking ID or tag to the following ready-made integrations, so that if you use our [payment pages](/docs/payment-pages/) we embed it in the page's HTML to continue collecting data:
-
-<details id="ready-made-integrations">
-<summary>Supported ready-made integrations</summary>
-<br>
-
-- [Magento 1](/docs/magento-1/)
-- [Magento 2](/docs/magento-2/)
-- [Odoo](/docs/odoo)
-- [OpenCart](/docs/opencart)
-- [OsCommerce](/docs/oscommerce)
-- [PrestaShop 1.6](/docs/prestashop-1-6/)
-- [Shopware 5](/docs/shopware#shopware-5)
-- [WooCommerce](/docs/woocommerce/)
-- [X-Cart](/docs/x-cart/)
-- [Zen Cart](/docs/zen-cart/)
-
-</details>
 
 ## API integrations
 
