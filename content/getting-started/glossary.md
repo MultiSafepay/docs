@@ -74,6 +74,10 @@ A software developer a merchant employs to work on the technical side of their i
 The customer selects the payment method in your embedded checkout and is connected directly to the payment method. Contrast with [redirect flow](#redirect-flow) below.
 
 ---
+#### domestic transactions
+A transaction occurring where the issuer and merchant are registered in the same country.
+---
+
 #### ecommerce platform
 An online [platform](/docs/our-integrations/) merchants use for accepting payments, e.g. website, mobile app, PWAs. 
 
