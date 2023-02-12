@@ -2,7 +2,7 @@
 title: "Google Analytics"
 category: 62962df622e99600810c117d
 order: 2
-hidden: false
+hidden: true
 slug: 'google-analytics'
 excerpt: 'Follow customer journeys with Google Analytics.'
 ---
