@@ -96,8 +96,8 @@ If a customer selects Apple Pay at checkout but isn't on an Apple device, they r
 
 ## Refunds
 
-[Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and your backend.  
-You cannot refund more than the original amount in your backend.
+[Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard.  
+You cannot refund more than the original amount in your dashboard.
 
 ## Updates
 
