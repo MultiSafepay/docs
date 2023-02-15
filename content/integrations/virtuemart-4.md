@@ -1,54 +1,55 @@
 ---
-title: "VirtueMart"
+title: "VirtueMart 4"
 category: 62962dd7e272a6002ebbbbc5
 order: 18
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
-slug: 'virtuemart'
+slug: 'virtuemart 4'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/VirtueMart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/VirtueMart/releases/download/2.2.2/Plugin_VirtueMart_2.2.2.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/virtuemart-4/releases/download/1.0.0/Plugin_VirtueMart-4_1.0.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/Virtuemart" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/virtuemart-4" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/VirtueMart/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/virtuemart-4/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
 
 </div>
 
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Joomla 2.5 & 3.x + VirtueMart 2.x & 3.x
-- Tested on PHP 7.0
+- Joomla 4.x + VirtueMart 4.x
+- Tested on PHP 8.1
 
 # Installation
 
 ✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup.
 
 1. Sign in to your VirtueMart <<glossary:backend>>.
-2. Go to **Extensions** > **Extension manager**.
-3. Install the Plugin_VirtueMart_x.x.x.zip file using **Drag and drop** or **Browse for file**. 
+2. Go to **System** > **Install** > **Extensions**.
+3. Install the Plugin_VirtueMart-4_x.x.x.zip file using **Drag and drop** or **Browse for file**. 
 4. Click **Upload & install**.
 
 # Configuration
 
 1. Sign in to your VirtueMart backend.
-2. Go to **Extensions** > **Plugins**.
+2. Go to **System** > **Manage** > **Plugins**.
 3. In the search box, enter **MultiSafepay**, and then set the plugin status to **Enabled**.
 4. Go to **Components** > **VirtueMart**. 
-5. Click **Shop** > **Payment methods**. 
+5. Click **Payment methods**. 
 6. To install and configure each payment method separately:  
     - Click **New**.
-    - Set the payment method to **VirtueMart – Payment, MultiSafepay**.
+    - Set the payment method to **VirtueMart Payment - MultiSafepay**.
     - To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:  
-    - Account ID (top-right corner of your dashboard)
+    - **Account ID** (top-right corner of your dashboard)
     - [Site ID, API key, and security code](/docs/sites#site-id-api-key-and-security-code)
     - [Gateway ID](/reference/gateway-ids/)
+    - [Notification URL](/docs/faq/general/generating-notification-url/)
     
 <br>
 
