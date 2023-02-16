@@ -108,13 +108,14 @@ To grant MultiSafepay permission to access your Exact Online account:
     You are redirected to Exact Online. 
 3. Enter your email address and Exact Online password, and then click **Next**.
     A list of required permissions is displayed.
-4. Grant MultiSafepay access to Exact Online only or to Exact Online and future companies. 
-5. Select the terms and conditions and risk disclaimer checkboxes to accept them.
-6. Click **Allow**.
-    You are redirected to your MultiSafepay dashboard. This make take a few seconds while MultiSafepay creates ledger accounts for you. 
+4. To grant MultiSafepay access:
+-  Select either Exact Online only or Exact Online and future companies checkbox. 
+- Select the terms and conditions and risk disclaimer checkboxes.
+5. Click **Allow**.
+    You are redirected to your MultiSafepay dashboard. This may take a few seconds while MultiSafepay creates ledger accounts for you. 
     ✅ &nbsp; You have successfully granted MultiSafepay access permissions.
 
-❗️If you rename, modify, or delete information in Exact Online, exports will fail. If you get an error, email <support@multisafepay.com>
+❗️If you delete, or modify information in Exact Online, exports will fail. If you get an error, email <support@multisafepay.com>
 
 To schedule automated exports:
    
@@ -132,24 +133,6 @@ To enable/disable exports:
 In your dashboard, under **Schedule export**, toggle the **Enabled/Disabled** radio button as needed.
 
 ❗️You must add the data for periods when exports are disabled to Exact Online **manually**, otherwise it is lost.
-
-### Financial year
-
-<details id="how-to-import-manually">
-<summary>How to add a financial year </summary>
-<br>
-
-1. Sign in to your Exact Online account.
-2. On the navigation menu > click  **sample company Exact online** > **Master Data**.
-3. Under **Financial** > select **Period-data table**.
-4. Under **Financial years** page > click on **New** >  **Create** <br> Create new financial year pop-up screen appears.
-5. Click **Close**.
-
-❗️You must add the financial year to Exact Online every year. Otherwise, your exports will fail.
- 
----
-
-</details>
 
 ### Manual imports
 
@@ -218,6 +201,24 @@ In your dashboard, under **Schedule export**, toggle the **Enabled/Disabled** ra
     3. Click **Choose File**, and then select the MT940 file you want to upload.
     4. Click **Import**.
 ---
+</details>
+
+### Financial year
+
+<details id="how-to-import-manually">
+<summary>How to add a financial year </summary>
+<br>
+
+1. Sign in to your Exact Online account.
+2. On the navigation menu > click  **sample company Exact online** > **Master Data**.
+3. Under **Financial** > select **Period-data table**.
+4. Under **Financial years** page > click on **New** >  **Create** <br> Create new financial year pop-up screen appears.
+5. Click **Close**.
+
+❗️You must add the financial year to Exact Online every year. Otherwise, your exports will fail.
+ 
+---
+
 </details>
 
 ### Denovit integration

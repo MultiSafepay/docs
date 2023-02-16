@@ -64,6 +64,14 @@ See API reference – [Create order](/reference/createorder/) > Card order.
 
 See Recipes – [Create a MOTO order](/recipes/create-a-moto-order).
 
+# Restrictions for MOTO
+
+Only <<glossary:domestic transactions>>: can be processed for the following combinations of payment method and country:
+
+| Card                                                                                                                                                                                        | Countries                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
+| <a href="https://www.multisafepay.com/solutions/payment-methods/maestro/" target="_blank">Maestro</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (debit card) | Ireland, Turkey, and France |
+
 <br>
 
 ---

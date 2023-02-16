@@ -30,7 +30,9 @@ For both initial and subsequent payments:
 For initial payments then subsequent payments via direct debit:
 - Bancontact - [Bancontact WIP](/docs/bancontact#bancontact-wip-service)
 - iDEAL
-- Sofort
+- Sofort 
+
+❗️ **Note:**  For subsequent payments to be successful via direct debit, ensure that direct debit [is activated in your MultiSafepay account](/docs/direct-debit/#activation).
 
 ✅  &nbsp;**Tip:** Test every payment method flow you intend to use. 
 
