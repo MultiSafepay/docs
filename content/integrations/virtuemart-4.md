@@ -69,7 +69,6 @@ If a customer selects Apple Pay at checkout but isn't on an Apple device, they r
 
 - Cards: [All](/docs/card-payments/)
 - Banking methods: All
-- <<glossary:BNPL>>: All
 - Wallets: All
 - Prepaid cards:
     - Beauty and Wellness gift card
