@@ -143,16 +143,26 @@ The plugin supports [payment components](/docs/payment-components/), which:
 - Encrypt customer payment details for secure processing.
 - Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
 
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
+<br>
+
+- Cards: Amex, Maestro, Mastercard, and Visa.
+- <<glossary:BNPL>>: [Pay After Delivery installments](/docs/pay-after-delivery-installments)
+
+</details>
+
 <details id="how-to-activate-payment-components">
 <summary>How to activate payment components</summary>
 <br>
 
-If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
-
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **MultiSafepay module** > **Payment methods** > **Credit card**.
-3. Slide the **Enable payment component** radio button to **Enabled**.
-4. Click **Save config**.
+2. Go to **MultiSafepay module** > **Payment methods**.
+3. Select the relevant payment methods.
+4. Select the **Enable payment component** radio button to **Enabled**.
+4. Select **Save config**.
+
+💬 Support: If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
 
 📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
