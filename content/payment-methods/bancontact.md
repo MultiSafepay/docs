@@ -75,7 +75,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   </details>
 
-- You can now include `seconds_active` parameter to set how long the QR remains valid. The set time **cannot** exceed 1 hour. See recipes - [Seconds_active](/recipes/days_active-seconds_active)  
+- If `seconds_active` is set, it applies to the expiry time of the QR. See recipes - [Seconds_active](/recipes/days_active-seconds_active).
 
 - Transactions expire after 1 hour.
 
