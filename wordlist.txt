@@ -1,6 +1,7 @@
 aan
 ABN
 ABNA
+ACA
 ACCOUNTADDRESS
 ACCOUNTADDRESSAPARTMENT
 ACCOUNTCITY
@@ -77,7 +78,9 @@ Boeken
 Boekenbon
 Boekhouden
 Burgerlijk
+cadeau
 cadeaubon
+cadeaucheque
 CAMT
 CCV
 CCVshop
@@ -86,6 +89,7 @@ CET
 CFDs
 Changs
 CHARGEBACK
+chèque
 CHF
 CLI
 CLP
@@ -142,6 +146,8 @@ Dropdown
 Duopact
 Dynamicweb
 EBA
+eco
+ecocheque
 EEA
 EINVOICE
 EPS
@@ -221,6 +227,7 @@ Laravel
 Liefcadeaukaart
 Lightspeed
 LogiVert
+maaltijdcheques
 MERCHANTCITY
 MERCHANTCOUNTRY
 MERCHANTLOGOHTML
@@ -245,6 +252,8 @@ Mijn
 MijnDomein
 Mijnwebwinkel
 MisterCash
+Monizze
+Monizze's
 MultiFactor
 MultiSafepay
 MultiSafepay's
@@ -310,6 +319,7 @@ Rabobank
 Regio
 Registratie
 Registreer
+repas
 Revolut
 Riverty
 Riverty's
@@ -339,6 +349,7 @@ Shoptrader
 Shopware
 SnelKoppeling
 SnelStart
+Sodexo
 Speelgoedwinkel
 Sportenfit
 Sylius
@@ -388,6 +399,7 @@ Volksbank
 Voordeel
 Vue
 Vuur
+WIP
 WWFT
 WeChat
 Webshopgiftcard
@@ -469,6 +481,7 @@ erotiekbon
 fff
 facto
 fastcheckout
+favicon
 fijncadeau
 financials
 financieren
@@ -534,6 +547,7 @@ png
 pre
 px
 readme
+rebranded
 reputational
 rgb
 rgba
@@ -550,6 +564,7 @@ timeframe
 tokenization
 tokenize
 tokenized
+translateY
 trustly
 tuinbon
 ul
@@ -569,6 +584,7 @@ webshop
 webshops
 witwassen
 www
+xml
 xCore
 xcframework
 yireo

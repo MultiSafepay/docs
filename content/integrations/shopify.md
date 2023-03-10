@@ -1,7 +1,7 @@
 ---
 title: "Shopify"
 category: 62962dd7e272a6002ebbbbc5
-order: 15
+order: 16
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free app."
@@ -111,6 +111,9 @@ Shopify orders expire after **3** days.
 The `pendingExpiresAt` value matches the date and time when the order expires and must be within 3 days of calling the `paymentSessionPending` mutation (once only).
 
 For more information, see Shopify.dev – <a href="https://shopify.dev/apps/payments/processing-a-payment#pend-a-payment" target="_blank">Pend a payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+**Note:** If an order is not completed within **2** hours, the <<glossary:order status>> changes from **Pending** to **Expired**. 
+
 
 ## Payment methods
 

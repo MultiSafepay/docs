@@ -1,17 +1,17 @@
 ---
-title: 'Pay After Delivery'
+title: 'Pay After Delivery installments'
 category: 6298bd782d1cf4006032e765
-order: 21
+order: 22
 hidden: false
 parentDoc: 62bd75142e264000a66d62b5
-slug: 'pay-after-delivery'
+slug: 'pay-after-delivery-installments'
 ---
 
 <img src="https://files.readme.io/cf02361-PAD-en.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
-Pay After Delivery is MultiSafepay's <<glossary:BNPL>> method that lets customers pay in 14 days. MultiSafepay bears the risk and guarantees settlement. 
+Pay After Delivery is MultiSafepay's <<glossary status:BNPL>> method that allows customers to pay for orders in **3** equal installments within a period of time.
 
-Read how Pay After Delivery can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+Read more on how installment payments can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery-installments" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -25,9 +25,7 @@ Read how Pay After Delivery can benefit your business on <a href="https://www.mu
 
 # Payment flow
 
-This diagram shows the flow for a successful transaction. Click to magnify.
-
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/pay-after-delivery-payment-flow.svg" alt="Pay After Delivery payment flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/pay-after-delivery-installment-flow.svg" alt="Pay After Delivery payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;
@@ -41,20 +39,19 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 |---|---|---|
 | MultiSafepay's automated risk analysis is in progress. You can still cancel the transaction. | Initialized | Initialized |
 | MultiSafepay is authorizing the transaction. | Uncleared | Uncleared |  
-| MultiSafepay has approved the transaction, but you can still cancel the order. See - [Update or cancel order](/reference/updateorder). | Completed | Uncleared | 
-| ❗️ **Note:** To capture the funds, [manually change the order status to Shipped](#shipment). | Shipped | Uncleared |
-| MultiSafepay has settled the order, and funds have been added to your account. | Shipped | Completed |
+| We have authorized the transaction and received the first payment from the customer. You can no longer cancel. You can only refund. <br> See [Close transactions](#close-transactions). | Completed | Uncleared | 
+|The order has been shipped. MultiSafepay has started the collection flow. | Shipped | Uncleared |
+| MultiSafepay has settled the order, and funds have been added to your account.  | Shipped | Completed |
 | The transaction was cancelled. | Void/Cancelled   | Void/Cancelled | 
 | MultiSafepay declined the transaction. | Declined | Declined |
-| The order has not been within **30** days.<br> Order can still be extend. For more information – [Expiration and extensions](/#expiration-and-extensions). | Expired | Expired | 
+| The transaction was not captured within **30** days.<br> The capture period can be extended. See - [Put PAD order on hold](/reference/padputorderonhold). | Expired | Expired | 
 | **Refunds:** Refund initiated. | Reserved | Reserved |  
 | **Refunds:** Refund complete. | Completed | Completed | 
-
 
 # Activation 
 
 1. Email a request to <sales@multisafepay.com> 
-  We check your eligibility and if approved, you will receive the MultiFactor contract. <br>Once signed, we activate the payment method for your account.
+   We check your eligibility and if approved, activate the payment method for your account. 
 2. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. To activate the payment method for:
     - All sites, go to **Settings** > **Payment methods**.
@@ -124,8 +121,10 @@ You can cancel the invoice order **before** shipment or **after** partial shipme
 
 ## Collection flow
 
+- The collection only starts when the customer pays installment 1 of the order.
 - MultiSafepay sends the customer an invoice after the order is shipped in full, **or** partially shipped and the remaining items cancelled. 
-- If the customer fails to pay within the initial 14 day period, MultiSafepay sends reminders of their obligation to pay, in accordance with the Wet Incasso Kosten (WIK). 
+- MultiSafepay sends reminders to the customer 5 days before and on the day of each installment due.
+- If the customer fails to pay within 14 days of overdue installments, MultiSafepay sends reminders of their obligation to pay with an added fee per the Wet Incasso Kosten (WIK). 
 - The customer can contact MultiSafepay if there is an issue with the payment.
 - If the customer still fails to pay, MultiSafepay sends the invoice to a debt collector. 
 - If necessary, you can delay the collection flow by placing the transaction on hold.
@@ -177,10 +176,9 @@ The default expiration period for an invoice order is **30** days after it was c
 
 After the first partial shipment, the expiration period is reduced. You have **14** days to ship the remaining items, or the order expires. The capture period can be extended twice, each by 14 days. After partial shipment, you have **58** days to ship an order.
 
-If an order cannot be shipped within 30 days and you do not want to cancel the order, you can extend the expiration period to a maximum of 180 days. After this time, the order is canceled and refunded. 
+If an order can't be shipped within **30** days and you do not want to cancel the order, you can extend the expiration period to a maximum of **180** days. After this time, the order is canceled and refunded. 
 
 After an order expires, the expiration period cannot be extended.
-
 <details id="how-to-extend-an-order">
 <summary>How to extend an order</summary>
 <br>
@@ -194,7 +192,7 @@ After an order expires, the expiration period cannot be extended.
 
 **Via API**
 
-See API reference – [Put PAD order on hold](/reference/padputorderonhold).   
+See API reference – [Put PAD order on hold](/reference/padputorderonhold).    
 
 ---
 
@@ -203,11 +201,11 @@ See API reference – [Put PAD order on hold](/reference/padputorderonhold).
 
 ## Payment methods
 
-Customers pay MultiSafepay via [iDEAL](/docs/ideal/) or a [bank transfer](/docs/bank-transfer/).
+Customers pay MultiSafepay via [iDEAL](/docs/ideal/).
 
 ## Refunds
 
-After shipment, the invoice order can be refunded in full or in part.
+After shipment, the invoice order can be refunded fully or partially.
 
 <details id="about-partial-refunds">
 <summary>About partial refunds</summary>
@@ -276,6 +274,11 @@ MultiSafepay does **not** invoice partial shipment amounts separately. We invoic
 
 After the first partial shipment, you have **14** days to ship the remaining items, or the order expires.
 
+
+**Installments**
+
+Partial shipment is supported for installments orders.
+
 **Integration**
 
 A unique shipment `order_id` is generated for each partial shipment.
@@ -284,7 +287,7 @@ See API reference – [Update or cancel order](/reference/updateorder) > **Ship 
 
 **Notifications**
 
-You receive a webhook notification when the <<glossary:order status>> of each partial shipment changes to **Shipped**.
+You receive a webhook notification when the <<glossary:order status>>  of each partial shipment changes to **Shipped**.
 
 The status of the main transaction never changes to **Completed**. It remains **Initialized**, with a flag.
 

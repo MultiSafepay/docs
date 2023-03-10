@@ -522,6 +522,43 @@ Any other card number receives an "Invalid card number" error.
 
 </details>
 
+<details id="monizze">
+<summary>How to test Monizze</summary>
+<br>
+
+1. [Create an order](/reference/createorder/) > Prepaid card order  
+    Example: Monizze redirect
+2. On the payment page, click **Add discount**.???
+3. From the **Test scenario** list, select the relevant discount, and then click **Test**.???
+  The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
+
+  </details>
+
+<details id="sodexo">
+<summary>How to test Sodexo</summary>
+<br>
+
+1. [Create an order](/reference/createorder/) > Prepaid card order  
+    Example: Sodexo redirect
+2. Open the payment link.
+3. Enter in the:
+    - **Card number** field `111115`
+    - **Security code** field any 4-digit number
+4. Click **Add discount**.  
+  The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
+
+Use the following card numbers to test different gift card balances.
+
+| Card numbers | Balance |
+| --- | --- |
+| 111115  | € 100  |
+| 111112 | € 5  |
+<br>
+
+Any other card number receives an "Invalid card number" error.
+
+</details>
+
 ---
 ## Wallets
 

@@ -1,7 +1,7 @@
 ---
 title: "VirtueMart"
 category: 62962dd7e272a6002ebbbbc5
-order: 17
+order: 18
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -84,6 +84,7 @@ If a customer selects Apple Pay at checkout but isn't on an Apple device, they r
     - <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - [Postepay](/docs/card-payments/)
     - <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+     - [Sodexo](/docs/sodexo/)
     - <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
@@ -95,8 +96,8 @@ If a customer selects Apple Pay at checkout but isn't on an Apple device, they r
 
 ## Refunds
 
-[Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and your backend.  
-You cannot refund more than the original amount in your backend.
+[Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard.  
+You cannot refund more than the original amount in your dashboard.
 
 ## Updates
 

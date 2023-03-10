@@ -192,6 +192,19 @@ For questions, see Klarna – <a href="https://www.klarna.com/nl/klantenservice"
 💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 </details>
 
+## Monizze
+<details id="how-to-activate-monizze">
+<summary>How to activate Monizze</summary>
+<br>
+
+1. Fill out the Monizze <a href="https://hello.monizze.be/nl/merchant/e-commerce/" target="_blank">application form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> form, selecting the checkbox for each voucher you want to offer.
+2. Sign a contract with Monizze. They'll give you an Monizze Merchant ID.
+3. Email your Monizze Merchant ID to <sales@multisafepay.com>
+4. We activate the payment method for your account.
+
+</details>
+
+
 ## PayPal
 <details id="how-to-configure-your-paypal-account">
 <summary>How to configure your PayPal account</summary>
@@ -270,6 +283,20 @@ To activate Riverty for your account, email Riverty at <sales@riverty.nl>
 Riverty provides you with an API key per country and per site, and you must accept Riverty's terms and conditions for each. 
 
 </details>
+
+## Sodexo
+
+<details id="how-to-activate-sodexo">
+<summary>How to activate Sodexo</summary>
+<br>
+
+1. Fill out the Monizze <a href="https://sportculture.sodexo.be/nl/" target="_blank">application form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Sign a contract with Sodexo. They'll give you a Sodexo Merchant ID.
+3. Email your Sodexo Merchant ID to <sales@multisafepay.com>
+4. We activate the payment method for your account.
+
+</details >
+
 
 <br>
 
