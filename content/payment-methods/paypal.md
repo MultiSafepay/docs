@@ -7,6 +7,16 @@ parentDoc: 62a6ec51d7a8100053916d99
 slug: 'paypal'
 ---
 
+> ⚠️ Action required
+> 
+> If you have an existing PayPal account connected to your MultiSafepay dashboard, we recommend you to [upgrade to the latest PayPal API](/docs/paypal#activation) as soon as possible.
+> 
+> Under the latest PayPal API, you can:
+> 
+> - Add  an [invoice_id](/docs/paypal#integration) in your request.
+> - Add a [shopping cart](/docs/paypal#integration) in your request.
+> - Integrate the [PayPal smart button](/docs/paypal-smart-integration). 
+
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/paypal.svg" width="125" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a href="https://www.paypal.com/nl/home" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a leading global payment method that lets customers pay by credit card or create a digital wallet linked to multiple payment methods.
@@ -53,73 +63,45 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | Refund declined. | Declined | Declined |
 | PayPal is authorizing the refund, **or** <br> There are not enough funds in your PayPal business account to process the refund. <br> For more information, see your PayPal business account. | Uncleared | Initialized   |
 
-# Activation 
+# Activation
 
 To activate PayPal, follow these steps:
 
-<details id="how-to-configure-your-paypal-account">
+<details id="how-to-activate-your-paypal-account">
 <summary>How to configure your PayPal account</summary>
 <br>
 
-To configure your PayPal account, follow these steps:
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Settings** > **Payment methods**
+3. In the **PayPal** tab, click on **Set up PayPal** button <br> You are redirected to PayPal to sign in to your PayPal business account.                              
+4. Grant PayPal access to connect with your MultiSafepay account.
+5. Your **PayPal Merchant ID** is now displayed in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+
+If your **PayPal Merchant ID** isn't displayed in your dashboard, you can add it manually.
+
+<details id="how-to-configure-your-paypal-account">
+<summary> How to add your PayPal Merchant ID</summary>
+<br>
 
 1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Mouse over your account name in the top-right corner, and then select **Account settings**.
-3. On the **Account access** tab, under **API access**, click **Update**.
-4. Under **Pre-built payment solution**, click **Grant API permission**.
-5. In the **Third-party permission username** field, enter `paypal_api1.multisafepay.com`. 
-7. Click **Lookup**.  
-8. Select the checkboxes of the relevant permissions:  
-    - Use Express Checkout to process payments.
-    - Issue a refund for a specific transaction.
-    - Process your customers' credit or debit card payments.
-    - Obtain information about a single transaction.
+2. On the navigation menu > mouse over your account name in the top-right corner, and then select **Account settings**.
+3. On the **Business information** tab, copy your PayPal Merchant ID.
+4. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+5. To set manually your PayPal Merchant ID:
 
-To complete the configuration, change the language encoding setting of your PayPal account to **UTF-8**:
+- Go to **Settings** > **Payment methods**> **PayPal ** tab.
+- Click **add PayPal ID** link at the bottom of **PayPal** tab.
+- In the **PayPal merchant ID field**, paste your PayPal Merchant ID.
+- Click **Save changes**.
 
-1. Click PayPal – <a href="https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-language-encoding" target="_blank">Profile language encoding</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Next to **Language coding for PayPal buttons**, click **Edit**.
-3. From the list, select **Western European languages (including English)**.
-4. Click **More options**.
-5. From the **Encoding** list, select **UTF-8**.
-6. Select the **Yes** checkbox, and then click **Save**.
+✅ PayPal has been successfully configured in your MultiSafepay account.
 
-💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com> 
-> - MultiSafepay – <integration@multisafepay.com>
-> - PayPal – <a href="https://www.paypal.com/us/smarthelp/contact-us" target="_blank">Contact us</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+📘 **Note:** If you already have a PayPal account connected to MultiSafepay dashboard, we recommend upgrading to the latest PayPal API as soon as possible by following all the steps above. No other actions are required after this step.
 
-> ⚠️ Known error
-> If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account.
+We strongly recommend [testing transactions](/docs/testing/) before processing live payments.
 
 </details>
 
-<details id="how-to-configure-your-multisafepay-account">
-<summary>How to configure your MultiSafepay account</summary>
-<br>
-
-To configure your MultiSafepay account for PayPal, follow these steps:
-
-1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Mouse over your account name in the top-right corner, and then select **Account settings**.
-3. On the **Business information** tab, copy your PayPal Merchant ID.
-4. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-5. To activate PayPal for:
-    - All your sites, go to **Settings** > **Payment methods**, and then select the **PayPal** checkbox.
-    - A specific site:
-        - Go to **Integrations** > **Sites**, and then click the relevant site.
-        - Under **Payment methods**, click **Select payment methods**. 
-        - Select the **PayPal** checkbox, and then click **Save changes**.
-6. In the **PayPal** dialog, in the **PayPal merchant ID** field, paste your ID.
-7. Click **Save changes**.
-
-> ℹ **Notes** 
-> - You can link each site to a separate PayPal business account, or all sites can use your main PayPal business account.
-> - If PayPal isn't visible as a payment method in your dashboard, email <integration@multisafepay.com> 
-
-> ✅ Success
-> Your account is now configured!  
-
-We strongly recommend [testing transactions](/docs/testing/) before processing live payments. 
 </details>
 
 # Integration
@@ -136,6 +118,10 @@ We strongly recommend [testing transactions](/docs/testing/) before processing l
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 
   </details>
+
+- A `shopping_cart` object can be included in your [create order](/reference/createorder) request, see Recipe – [Include shopping_cart in order](/recipes/display-shopping-cart).
+
+- A unique `invoice_id`  can be included in your [create order](/reference/createorder) request, which is displayed on the transaction history.<br> When an `invoice_id` is not set in your request, a unique `order_id` will be displayed.
 
 - Transactions expire after 14 days.
 
@@ -159,6 +145,8 @@ To be eligible, for specific countries, transaction requests must contain the co
 - For a list of the countries, see PayPal API – <a href="https://developer.paypal.com/api/rest/reference/state-codes/" target="_blank">State codes</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 - For more information, see PayPal – <a href="https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156" target="_blank">What is Seller Pretection</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
+**Note**: For disputes and disbursement information, further details appear in a transaction note  in your dashboard under  **Transaction overview** > **Transaction summary**.
+
 ## Refunds
 
 Refunds are only processed if there are enough funds in your PayPal business account. Otherwise, PayPal issues an <a href="https://www.paypal.com/us/smarthelp/article/what-is-an-echeck-faq1082" target="_blank">eCheck</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
@@ -167,21 +155,13 @@ To avoid PayPal cancelling the refund, in your PayPal account, authorize PayPal 
 
 For support, contact PayPal – <a href="https://www.paypal.com/us/smarthelp/home" target="_blank">Help Center Home</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
+## Shopping carts
+
+You can include shopping cart in your [create order](/reference/createorder/) request, which is displayed on the PayPal checkout page, and PayPal communications.
+
 ## Your logo in PayPal's checkout
 
-You can display your logo in the PayPal checkout to increase brand recognition and trust. 
-
-<details id="how-to-display-your-logo-in-paypal-checkout">
-<summary>How to display your logo in PayPal's checkout</summary>
-<br>
-
-To display your header or logo on the PayPal checkout page, follow these steps:
-
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Settings** > **Files**, and upload the relevant images. 
-3. Go to **Payment methods** at the bottom right, and then select the relevant images from the **Logo** and **Header** list. 
-4. Click **Save**.
-</details>
+You can no longer display your logo; your website name is displayed in the PayPal checkout.
 
 <br>
 
