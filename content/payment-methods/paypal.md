@@ -15,7 +15,7 @@ slug: 'paypal'
 > 
 > - Add  an [invoice_id](/docs/paypal#integration) in your request.
 > - Add a [shopping cart](/docs/paypal#integration) in your request.
-> - Integrate the [PayPal smart button](/docs/paypal-smart-integration). 
+> - Integrate the [PayPal smart button](/docs/paypal-direct). 
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/paypal.svg" width="125" align="right" style="margin: 20px; max-height: 75px"/>
 
