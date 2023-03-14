@@ -108,10 +108,9 @@ To grant MultiSafepay permission to access your Exact Online account:
     You are redirected to Exact Online. 
 3. Enter your email address and Exact Online password, and then click **Next**.
     A list of required permissions is displayed.
-4. To grant MultiSafepay access:
--  Select either Exact Online only or Exact Online and future companies checkbox. 
-- Select the terms and conditions and risk disclaimer checkboxes.
-5. Click **Allow**.
+4. Grant MultiSafepay access to Exact Online only or Exact Online and future companies. 
+5. Select the checkbox to accept the Exact Online terms and conditions.
+6. Click **Allow**.
     You are redirected to your MultiSafepay dashboard. This may take a few seconds while MultiSafepay creates ledger accounts for you. 
     ✅ &nbsp; You have successfully granted MultiSafepay access permissions.
 
