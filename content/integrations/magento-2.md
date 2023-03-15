@@ -169,9 +169,9 @@ The base values are required if you have enabled the `use base currency` setting
 2. Go to **Stores** > **Configuration** > **MultiSafepay**.
 3. Select **General settings** > **Advanced settings**.
 4. In the **Use custom return urls** field, select **Yes**.
-5. Add your custom URL to either:
-  - **Custom redirect url after  canceling the payment** field, **or**
-  - **Custom "Success page" url** field.
+5. Enter your custom URL in either:
+  - The **Custom redirect url after canceling the payment** field, **or**
+  - The **Custom "Success page" url** field.
 6. Click **Save Config**.
 
 
