@@ -192,7 +192,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: Amex, Maestro, Mastercard, and Visa.
+- Cards: Amex, Maestro, Mastercard, and Visa
 - <<glossary:BNPL>>: [Pay After Delivery installments](/docs/pay-after-delivery-installments)
 
 </details>
@@ -204,10 +204,10 @@ The plugin supports [payment components](/docs/payment-components/), which:
 1. Sign in to your Wordpress backend.
 2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** > 
 3. Select the relevant payment methods, and click **Manage**.
-4. Select the **Payment components** checkbox.
+4. Select the checkbox for the **Payment components**.
 5. Click **Save changes**.
 
-💬 Support: If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
+💬 Support: If you're new to accepting credit card payments, email a request to activate them to <risk@multisafepay.com>
 
 📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
@@ -275,8 +275,7 @@ You need to [activate recurring payments](/docs/recurring-payments/) and then en
 1. Sign in to your Wordpress backend.
 2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** 
 3. Select relevant credit cards, and then click **Manage**.
-4. Select the **Payment components** checkbox.
-5. Select the **Tokezation** checkbox.
+4. Select the checkbox for **Payment components** and **Tokezation**.
 5. Click **Save changes**.
 
 📘 **Note:** To activate recurring payments, ensure that the Payment component is enabled.

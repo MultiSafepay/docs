@@ -134,7 +134,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: Amex, Maestro, Mastercard, and Visa.
+- Cards: Amex, Maestro, Mastercard, and Visa
 - <<glossary:BNPL>>: [Pay After Delivery installments](/docs/pay-after-delivery-installments)
 
 </details>
@@ -146,10 +146,10 @@ The plugin supports [payment components](/docs/payment-components/), which:
 1. Sign in to your PrestaShop 1.6 backend.
 2. Go to **Modules and services**
 3. Select the relevant payment methods.
-4. Select the **Use Payment component** radio button to **Yes**.
+4. Set the **Use Payment component** toggle to **Yes**.
 5. Click **Save**.
 
-💬 Support: If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
+💬 Support: If you're new to accepting credit card payments, email a request to activate them to <risk@multisafepay.com>
 
 </details>
 
@@ -169,7 +169,7 @@ Payment links generated manually in your MultiSafepay dashboard don't automatica
 2. Go to **Modules and services** > **Modules and services** 
 3. Select either the bundled credit cards <<glossary:gateway>>, **or** select specific credit cards.
 4. Click **Configure**.
-5. Set the **Tokenization** field to **YES**.
+5. Set the **Tokenization** field to **Yes**.
 6. Click **Save**.
 
 </details>
