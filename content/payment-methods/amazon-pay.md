@@ -43,7 +43,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected to Amazon Pay. | Initialized | Initialized |
-| The customer has confirmed the order. | Initialized | Completed |
+| The customer has confirmed the order. | Completed | Initialized  |
 | Amazon Pay has declined the order. | Declined | Declined |
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete.  | Completed | Completed |
