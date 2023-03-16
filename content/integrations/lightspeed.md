@@ -157,6 +157,7 @@ When you generate a payment link in your MultiSafepay dashboard, you cannot upda
     - <a href="https://www.bloemen-cadeaukaart.nl" target="_blank">Bloemencadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.degrotespeelgoedwinkel.nl/cadeaukaart" target="_blank">Degrotespeelgoedwinkel</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - <a href="https://www.edenred.be/nl" target="_blank">Edenred</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.fashioncheque.com/nl/" target="_blank">Fashion Cheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.fashion-giftcard.nl/" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Fietsenbon

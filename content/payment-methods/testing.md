@@ -657,11 +657,15 @@ To test Google Pay payments, follow these steps:
 
 **Test a PayPal order**
 
+PayPal must be activated via your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+To test, follow these steps:
+
 1. [Create an order](/reference/createorder/) > Wallet order  
-    Example: PayPal direct
+   Example: PayPal direct
 2. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 3. Click **Test**.  
-    The payment is processed in your MultiSafepay test account as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Initialized**.
+   The payment is processed in your MultiSafepay test account as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Initialized**.
 
 📘 **Note:** Since MultiSafepay does not collect payments on behalf of PayPal, the <<glossary:transaction status>> remains **Initialized** and can't be changed to **Completed**.
 
@@ -669,11 +673,12 @@ To test Google Pay payments, follow these steps:
 
 You can change the order status to:
 
-| Status | Description | Test scenario |
-| --- | --- | --- |
-| **Completed** | Order was completed | Completed  |
-| **Void** | Order was cancelled | Cancelled  |
-| **Initialized**/ **Completed** | Payment blocked by PayPal, then accepted after 2 minutes | Initialized completed |
+| Status        | Description         | Test scenario |
+| ------------- | ------------------- | ------------- |
+| **Completed** | Order was completed | Approved      |
+| **Void**      | Order was cancelled | Cancelled     |
+| **Expired**   | Order not completed | Closed        |
+
 <br>
 
 To change the order status, on the Test platform page, from the **Test scenario** list, select the relevant test scenario.
