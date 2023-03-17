@@ -47,8 +47,8 @@ Add the following elements to your checkout page:
         currency: 'EUR',
         amount: 10000,
         customer: {
-            locale: 'en',
-            country: 'NL',
+            locale: 'de_De',
+            country: 'de',
             reference: 'Customer123'
         },
         template : {
@@ -68,7 +68,7 @@ Add the following elements to your checkout page:
     | amount | Yes | The value of the order. <br> Format: Number without decimal points, e.g. 100 euro is formatted as `10000` |
     | currency | Yes | The currency of the order. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `EUR` |
     | customer.country | No | The customer's country code. Checks the availability of the payment method. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL` |
-    | customer.locale | No | The customer's language. Sets the language of the payment component UI. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO 639</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> Supported languages: `en`, `es`, `fr`, `it`, `nl` |
+    | customer.locale | No | The customer's language. Sets the language of the payment component UI. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO 639 language codes</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO 3166 country codes.</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> Supported languages: `en_EN`, `es_ES`, `fr_FR`, `it_IT`, `nl_NL` |
     | customer.reference | Yes, for recurring payments | Your unique customer reference. |
     | recurring.model | Yes, for recurring payments | The [tokenization model](/docs/recurring-payments/). |
     | template.settings.embed_mode | No | A template designed to blend in seamlessly with your ecommerce platform. <br> Format: Boolean |

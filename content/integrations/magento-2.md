@@ -416,15 +416,32 @@ We also offer full extensions for [ScandiPWA](/docs/scandipwa/) and [Vue Storefr
 </details>
 
 <details id="how-to-process-backend-refunds">
-<summary>How to process backend refunds</summary>
+<summary>How to process refunds</summary>
 <br>
 
-1. Sign in to your Magento 2 backend. 
+To process backend refunds:
+
+1. Sign in to your Magento 2 <<glossary:backend>>. 
 2. On the **Invoices** tab, click the invoice created by MultiSafepay, and then click **Credit memo**. 
 3. Click the relevant refund button:  
     - **Offline refund:** Doesn't send a refund request to MultiSafepay.
     - **Refund:** Sends a refund request to MultiSafepay.
 
+To process refunds via the REST API:
+
+1. Use the following endpoint in your request:
+
+```
+POST V1/invoice/:invoiceId/refund
+```
+
+For more information, see Magento REST API - <a href="https://devdocs.magento.com/guides/v2.3/rest/modules/sales/refunds.html#endpoint" target="_blank">Refunds</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+
+2. Add `is_online` parameter to the JSON body:
+
+```
+"is_online": true
+```
 </details>
 
 ## Second Chance
