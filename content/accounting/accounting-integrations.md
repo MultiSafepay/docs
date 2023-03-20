@@ -114,7 +114,7 @@ To grant MultiSafepay permission to access your Exact Online account:
     You are redirected to your MultiSafepay dashboard. This may take a few seconds while MultiSafepay creates ledger accounts for you. 
     ✅ &nbsp; You have successfully granted MultiSafepay access permissions.
 
-❗️If you delete, or modify information in Exact Online, exports will fail. If you get an error, email <support@multisafepay.com>
+❗️If you delete or modify information in Exact Online, exports will fail. If you encounter an error, email <support@multisafepay.com>
 
 To schedule automated exports:
    
@@ -211,7 +211,7 @@ In your dashboard, under **Schedule export**, toggle the **Enabled/Disabled** ra
 1. Sign in to your Exact Online account.
 2. On the navigation menu > click  **sample company Exact online** > **Master Data**.
 3. Under **Financial** > select **Period-data table**.
-4. Under **Financial years** page > click on **New** >  **Create** <br> Create new financial year pop-up screen appears.
+4. Under **Financial years** > click on **New** >  **Create** <br> Create new financial year pop-up screen appears.
 5. Click **Close**.
 
 ❗️You must add the financial year to Exact Online every year. Otherwise, your exports will fail.
