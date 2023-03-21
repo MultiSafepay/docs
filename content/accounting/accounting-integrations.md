@@ -133,6 +133,8 @@ In your dashboard, under **Schedule export**, toggle the **Enabled/Disabled** ra
 
 ❗️You must add the data for periods when exports are disabled to Exact Online **manually**, otherwise it is lost.
 
+</details>
+
 ### Manual imports
 
 <details id="prerequisites">
@@ -219,6 +221,7 @@ In your dashboard, under **Schedule export**, toggle the **Enabled/Disabled** ra
 ---
 
 </details>
+
 
 ### Denovit integration
 
