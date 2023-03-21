@@ -159,6 +159,24 @@ The base values are required if you have enabled the `use base currency` setting
 
 </details>
 
+## Custom URLs
+
+<details id="how-to-set-up-custom-urls">
+<summary>How to set up custom URLs</summary>
+<br>
+
+1. Sign in to your Magento 2 backend.
+2. Go to **Stores** > **Configuration** > **MultiSafepay**.
+3. Select **General settings** > **Advanced settings**.
+4. In the **Use custom return urls** field, select **Yes**.
+5. Enter your custom URL in either:
+  - The **Custom redirect url after canceling the payment** field, **or**
+  - The **Custom "Success page" url** field.
+6. Click **Save Config**.
+
+
+</details>
+
 ## Generic gateways
 
 The plugin supports generic gateways, which allows you to add a payment method manually. This is particularly useful for integrating gift cards specific to your business. 
