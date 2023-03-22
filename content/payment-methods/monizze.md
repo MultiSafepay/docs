@@ -80,10 +80,10 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 ### Ready-made integrations
 
-You can integrate Monizze as a generic gateway in several of our ready-made integrations.
+You can add Monizze [gateway ID](/reference/gateway-ids) using a generic gateway in several of our ready-made integrations.
 
 <details id="supported-ready-made-integrations">
-<summary>Supported ready-made integrations</summary>
+<summary>Supported in:</summary>
 <br>
 
 - [Craft Commerce](/docs/craft-commerce)
@@ -97,6 +97,7 @@ You can integrate Monizze as a generic gateway in several of our ready-made inte
 </details>
 
 ### Testing
+
 To test Monizze payments, see Testing payment methods - [Prepaid cards](/docs/testing#prepaid-cards).
 <br>
 

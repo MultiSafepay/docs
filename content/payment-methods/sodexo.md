@@ -77,9 +77,10 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 ### Ready-made integrations 
 
-- We don’t support Sodexo in our [ready-made integrations](/docs/our-integrations/).
+- You can add Sodexo [gateway ID](/reference/gateway-ids) using a generic gateway in several of our ready-made integrations.
 
 ### Testing
+
 To test Sodexo payments, see Testing payment methods - [Prepaid cards](/docs/testing#prepaid-cards).
 <br>
 
