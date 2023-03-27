@@ -41,17 +41,17 @@ See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-m
 
 # Installation
 
-1. First, the MultiSafepay plugin for supporting GraphQL queries needs to be installed. The installation guide can be found <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">here</a>.    
+1. Install the MultiSafepay plugin for supporting GraphQL requests. The guide can be found <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">here</a>.    
    
    **Note:** By installing the MultiSafepay GraphQL plugin, the MultiSafepay Core, Frontend and Adminhtml plugins will also be installed.
 
 2. Configure the MultiSafepay payment methods and API keys in the Magento admin panel.
 
-3. In the Magento admin panel configure cancel and success return redirect URLs in Stores → Configuration → MultiSafepay → General Settings → Advanced Settings → Use custom return urls
+3. To configure cancel and success return redirect URLs go to **Stores** > **Configuration** > **MultiSafepay** > **General Settings** > **Advanced Settings** > **Use custom return urls**
 
-  - For the 'custom redirect URL after canceling the payment' we suggest using the next link: *<your_pwa_url>/cart?maskedId={{quote.masked_id}}&multisafepayRestore=true*
+  - For the **Custom redirect url after cancelling the payment**, we suggest using the next link: *<your_pwa_url>/cart?maskedId={{quote.masked_id}}&multisafepayRestore=true*
 
-  - For the 'Custom "Success page" url' we suggest using the next link: *<your_pwa_url>/multisafepay/checkout/success/{{order.increment_id}}/maskedId/{{quote.masked_id}}*
+  - For the **Custom "Success page" url**, we suggest using the next link: *<your_pwa_url>/multisafepay/checkout/success/{{order.increment_id}}/maskedId/{{quote.masked_id}}*
 
 4. Setup a PWA Studio storefront following the steps in this  <a href="https://developer.adobe.com/commerce/pwa-studio/tutorials/setup-storefront/" target="_blank">installation guide</a>.
 
