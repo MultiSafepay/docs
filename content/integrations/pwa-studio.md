@@ -71,7 +71,7 @@ See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-m
    git clone https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration.git ./multisafepay-payment-integration
    ```
 
-   4.4. If your application is based in a PWA Studio version lower than 12.X, switch to the proper branch. There are 3 branches in which retrocompatibility is supported:
+   4.4. If your application is based in a PWA Studio version lower than 12.X, switch to the proper branch. There are 3 branches in which backward compatibility is supported:
    ``` 
    git checkout compatibility-v9
    git checkout compatibility-v10
