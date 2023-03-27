@@ -41,7 +41,7 @@ See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-m
 
 # Installation
 
-1. Install the MultiSafepay plugin for supporting GraphQL requests. The guide can be found <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">here</a>.    
+1. Install the MultiSafepay plugin for supporting GraphQL queries. The guide can be found <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">here</a>.    
    
    **Note:** By installing the MultiSafepay GraphQL plugin, the MultiSafepay Core, Frontend and Adminhtml plugins will also be installed.
 
@@ -49,7 +49,7 @@ See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-m
 
 3. To configure cancel and success return redirect URLs go to **Stores** > **Configuration** > **MultiSafepay** > **General Settings** > **Advanced Settings** > **Use custom return urls**
 
-  - For the **Custom redirect url after cancelling the payment**, we suggest using the next link: *<your_pwa_url>/cart?maskedId={{quote.masked_id}}&multisafepayRestore=true*
+  - For the **Custom redirect URL after cancelling the payment**, we suggest using the next link: *<your_pwa_url>/cart?maskedId={{quote.masked_id}}&multisafepayRestore=true*
 
   - For the **Custom "Success page" url**, we suggest using the next link: *<your_pwa_url>/multisafepay/checkout/success/{{order.increment_id}}/maskedId/{{quote.masked_id}}*
 
@@ -65,7 +65,7 @@ See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-m
    mkdir multisafepay-payment-integration
    ```
 
-   4.3. Clone all extension files from this repository in *multisafepay-payment-integration* folder
+   4.3. Clone all extension files from this repository in **multisafepay-payment-integration** folder
 
    ``` 
    git clone https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration.git ./multisafepay-payment-integration
@@ -79,12 +79,12 @@ See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-m
    ```
 
    4.5. Link extension in venia-concept package.json.   
-   Go to the venia-concept folder and open *package.json:*
+   Go to the venia-concept folder and open **package.json**:
    ``` 
    cd your_project/
    ```
    
-   4.6. Add next dependency:
+   4.6. Add the next dependency:
    ``` 
    "dependencies": {
         "@multisafepay/multisafepay-payment-integration": "link:./packages/extensions/multisafepay-payment-integration"
