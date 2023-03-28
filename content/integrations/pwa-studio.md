@@ -41,15 +41,13 @@ See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-m
 
 # Installation
 
-1. Install the MultiSafepay plugin for supporting GraphQL queries. The guide can be found <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">here</a>.    
+1. Install the MultiSafepay plugin for supporting `GraphQL` queries, which includes the `MultiSafepay Core`, `Frontend`, and `Adminhtml` plugins. For instructions, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">Magento 2 GraphQL</a>.    
    
-   **Note:** By installing the MultiSafepay GraphQL plugin, the MultiSafepay Core, Frontend and Adminhtml plugins will also be installed.
-
 2. Configure the MultiSafepay payment methods and API keys in the Magento admin panel.
 
-3. To configure cancel and success return redirect URLs go to **Stores** > **Configuration** > **MultiSafepay** > **General Settings** > **Advanced Settings** > **Use custom return urls**
+3. To configure URL redirects for your success and cancellation pages, go to **Stores** > **Configuration** > **MultiSafepay** > **General Settings** > **Advanced Settings** > **Use custom return urls**
 
-  - For the **Custom redirect URL after cancelling the payment**, we suggest using the next link: *<your_pwa_url>/cart?maskedId={{quote.masked_id}}&multisafepayRestore=true*
+  - For the **Custom redirect URL after canceling the payment**, we suggest using the next link: *<your_pwa_url>/cart?maskedId={{quote.masked_id}}&multisafepayRestore=true*
 
   - For the **Custom "Success page" url**, we suggest using the next link: *<your_pwa_url>/multisafepay/checkout/success/{{order.increment_id}}/maskedId/{{quote.masked_id}}*
 
@@ -65,21 +63,20 @@ See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-m
    mkdir multisafepay-payment-integration
    ```
 
-   4.3. Clone all extension files from this repository in **multisafepay-payment-integration** folder
-
+   4.3. Clone all extension files from this repository in **multisafepay-payment-integration** folder.
    ``` 
    git clone https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration.git ./multisafepay-payment-integration
    ```
 
-   4.4. If your application is based in a PWA Studio version lower than 12.X, switch to the proper branch. There are 3 branches in which backward compatibility is supported:
+   4.4.If your application is based on a PWA Studio version below 12.X, switch to the proper branch. Backward compatibility is supported by these 3 branches:
    ``` 
    git checkout compatibility-v9
    git checkout compatibility-v10
    git checkout compatibility-v11
    ```
 
-   4.5. Link extension in venia-concept package.json.   
-   Go to the venia-concept folder and open **package.json**:
+   4.5. Link extension in **venia-concept package.json**.   
+   Go to the **venia-concept** folder and open **package.json**:
    ``` 
    cd your_project/
    ```
