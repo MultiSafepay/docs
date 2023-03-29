@@ -11,7 +11,7 @@ slug: 'prestashop-1-6'
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-1.6/releases/download/3.9.0/Plugin_PrestaShop_1_6_3.9.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-1.6/releases/download/3.10.0/Plugin_PrestaShop_1_6_3.10.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-1.6" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
@@ -130,16 +130,26 @@ The plugin supports [payment components](/docs/payment-components/), which:
 - Encrypt customer payment details for secure processing.
 - Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
 
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
+<br>
+
+- Cards: Amex, Maestro, Mastercard, and Visa
+- <<glossary:BNPL>>: [Pay After Delivery installments](/docs/pay-after-delivery-installments)
+
+</details>
+
 <details id="how-to-activate-payment-components">
 <summary>How to activate payment components</summary>
 <br>
 
-If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
-
 1. Sign in to your PrestaShop 1.6 backend.
-2. Go to **Modules and services** > **Credit cards**.
-3. Slide the **Use Payment component** radio button to **Yes**.
-4. Click **Save**.
+2. Go to **Modules and services**
+3. Select the relevant payment methods.
+4. Set the **Use Payment component** toggle to **Yes**.
+5. Click **Save**.
+
+💬 Support: If you're new to accepting credit card payments, email a request to activate them to <risk@multisafepay.com>
 
 </details>
 
@@ -156,10 +166,11 @@ Payment links generated manually in your MultiSafepay dashboard don't automatica
 <br>
 
 1. Sign in to your PrestaShop 1.6 backend. 
-2. Go to **Modules and services** > **Modules and services** > **Credit cards**.
-3. Click **Configure**.
-4. Set the **Tokenization** field to **YES**.
-5. Click **Save**.
+2. Go to **Modules and services** > **Modules and services** 
+3. Select either the bundled credit cards <<glossary:gateway>>, **or** select specific credit cards.
+4. Click **Configure**.
+5. Set the **Tokenization** field to **Yes**.
+6. Click **Save**.
 
 </details>
 

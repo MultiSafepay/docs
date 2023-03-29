@@ -13,6 +13,50 @@ You are solely liable for paying chargebacks.
 
 When a customer requests a chargeback, an alert to review it appears on your dashboard homepage. 
 
+# Disputing chargebacks
+
+The table below sets out the process for disputing chargebacks.
+
+| Step  | Who  | Action  |   
+|---|---|---|
+| 1. | Cardholder  | To find out more about a transaction, the cardholder can file a free retrieval request for more information. This can help identify and clarify transactions and avoid chargebacks. <br> You can still refund the transaction at this stage.  |   
+| 2.  | Cardholder  | If the cardholder still disagrees with the transaction, they request a chargeback.  | 
+| 3.  | Issuer  | The issuer usually refunds the cardholder as soon as they request the chargeback. <br> We don't support refunding chargeback transactions from this point, because then the cardholder likely receives the refund twice. |
+| 4.  | Merchant  | MultiSafepay can dispute the chargeback on your behalf. <br> You must provide evidence that the chargeback is unjustified. <br> A separate transaction for the chargeback, connected to the original transaction, is created under your MultiSafepay account.  | 
+| 5.  | Cardholder  | If the cardholder disagrees with the outcome of the dispute, the chargeback process continues.  | 
+| 6.  | Merchant  | You can dispute again, but the potential costs involved are significant. <br> The card scheme may charge fees. <br> You need to present strong **new** evidence not provided already.  | 
+| 7.  | Card scheme | The card scheme makes the final decision about the chargeback.  | 
+| 8.  | Card scheme  | If the chargeback is unsuccessful, the card scheme reclaims the amount from MultiSafepay directly.  |  
+| 9.  | MultiSafepay  | We debit the amount from your account balance.  |  
+
+### MultiSafepay disputing chargebacks on your behalf
+
+MultiSafepay can dispute chargebacks on your behalf. 
+
+You need to upload relevant documentary evidence:
+
+- In the **Transaction details** page of the original transaction in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, **or**
+- Via our API - see [Challenge chargebacks](/reference/challengechargeback/).
+
+<details id=“how-to-upload-files”>
+<summary>How to upload files</summary>
+<br>
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Settings** > **Files**.
+3. Under **Upload a new file**, click **Choose file**.<br> **Note:** You must upload files in PDF format.
+4. Select the relevant file(s), and then click **Open**.
+5. Under **Upload queue**, to upload:
+    - A specific file, click **Upload**.
+    - A batch of files, click **Upload all**.
+
+</details>
+
+The Chargeback Team then assesses the evidence provided and decides whether the chargeback can be disputed.
+
+- For questions about disputes, email <retrieval@multisafepay.com>
+- For more information about fees, email <support@multisafepay.com>
+
 # Chargeback reasons
 
 The most common reasons for requesting chargebacks are:
@@ -502,50 +546,6 @@ To dispute this type of chargeback, you need to provide:
 </details>
 
 ---
-
-# Disputing chargebacks
-
-The table below sets out the process for disputing chargebacks.
-
-| Step  | Who  | Action  |   
-|---|---|---|
-| 1. | Cardholder  | To find out more about a transaction, the cardholder can file a free retrieval request for more information. This can help identify and clarify transactions and avoid chargebacks. <br> You can still refund the transaction at this stage.  |   
-| 2.  | Cardholder  | If the cardholder still disagrees with the transaction, they request a chargeback.  | 
-| 3.  | Issuer  | The issuer usually refunds the cardholder as soon as they request the chargeback. <br> We don't support refunding chargeback transactions from this point, because then the cardholder likely receives the refund twice. |
-| 4.  | Merchant  | MultiSafepay can dispute the chargeback on your behalf. <br> You must provide evidence that the chargeback is unjustified. <br> A separate transaction for the chargeback, connected to the original transaction, is created under your MultiSafepay account.  | 
-| 5.  | Cardholder  | If the cardholder disagrees with the outcome of the dispute, the chargeback process continues.  | 
-| 6.  | Merchant  | You can dispute again, but the potential costs involved are significant. <br> The card scheme may charge fees. <br> You need to present strong **new** evidence not provided already.  | 
-| 7.  | Card scheme | The card scheme makes the final decision about the chargeback.  | 
-| 8.  | Card scheme  | If the chargeback is unsuccessful, the card scheme reclaims the amount from MultiSafepay directly.  |  
-| 9.  | MultiSafepay  | We debit the amount from your account balance.  |  
-
-### MultiSafepay disputing chargebacks on your behalf
-MultiSafepay can dispute chargebacks on your behalf for a fee. 
-
-You need to upload relevant documentary evidence either:
-
-- In the **Transaction details** page of the original transaction in your dashboard, **or**
-- Via our API, see [Challenge chargebacks](/reference/challengechargeback/), **or**
-- By email to <retrieval@multisafepay.com>
-
-<details id=“how-to-upload-files”>
-<summary>How to upload files</summary>
-<br>
-
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Settings** > **Files**.
-3. Under **Upload a new file**, click **Choose file**.
-4. Select the relevant file(s), and then click **Open**.
-5. Under **Upload queue**, to upload:
-    - A specific file, click **Upload**.
-    - A batch of files, click **Upload all**.
-
-</details>
-
-The Chargeback Team then assesses the evidence provided and decides whether the chargeback can be disputed.
-
-- For questions about disputes, email <retrieval@multisafepay.com>
-- For more information about fees, email <support@multisafepay.com>
 
 # Minimizing chargebacks
 

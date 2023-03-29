@@ -11,7 +11,7 @@ slug: 'woocommerce'
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/woocommerce/releases/download/5.1.2/Plugin_WooCommerce_5.1.2.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/woocommerce/releases/download/5.2.1/Plugin_WooCommerce_5.2.1.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/WooCommerce" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
@@ -188,18 +188,26 @@ The plugin supports [payment components](/docs/payment-components/), which:
 - Encrypt customer payment details for secure processing.
 - Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
 
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
+<br>
+
+- Cards: Amex, Maestro, Mastercard, and Visa
+- <<glossary:BNPL>>: [Pay After Delivery installments](/docs/pay-after-delivery-installments)
+
+</details>
+
 <details id="how-to-activate-payment-components">
 <summary>How to activate payment components</summary>
 <br>
 
-If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
-
 1. Sign in to your Wordpress backend.
-2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** > **Credit card**, and then click **Manage**.
-3. Select the **Payment components** checkbox.
-4. Click **Save changes**.
+2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** > 
+3. Select the relevant payment methods, and click **Manage**.
+4. Select the checkbox for the **Payment components**.
+5. Click **Save changes**.
 
-For questions, email <integration@multisafepay.com>
+💬 Support: If you're new to accepting credit card payments, email a request to activate them to <risk@multisafepay.com>
 
 📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
@@ -259,6 +267,20 @@ To generate a payment link in your backend once an order is created, follow thes
 ## Recurring payments
 
 You need to [activate recurring payments](/docs/recurring-payments/) and then enable it in the plugin settings.
+
+<details id="how-to-activate-recurring-payments">
+<summary>How to activate recurring payments</summary>
+<br>
+
+1. Sign in to your Wordpress backend.
+2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** 
+3. Select relevant credit cards, and then click **Manage**.
+4. Select the checkbox for **Payment components** and **Tokezation**.
+5. Click **Save changes**.
+
+📘 **Note:** To activate recurring payments, ensure that the Payment component is enabled.
+
+</details>
 
 ## Refunds
 
