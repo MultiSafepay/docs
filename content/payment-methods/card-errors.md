@@ -113,7 +113,7 @@ Merchant: Check the transaction data.
 Cardholder: Contact the issuer. 
 
 ---
-#### 41: Lost/blocked/cancelled card
+#### 41: Lost/blocked/canceled card
 The cardholder has reported this card lost. 
 
 Merchant: 
@@ -342,7 +342,7 @@ Our automated fraud filter flagged the transaction as probably fraudulent.
 Email <support@multisafepay.com> 
 
 ---
-### 3D Secure authentication cancelled 
+### 3D Secure authentication canceled 
 Ask the cardholder if they want to try the transaction again. 
 
 ---

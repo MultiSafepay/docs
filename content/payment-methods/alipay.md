@@ -45,7 +45,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 |---|---|---|
 | The customer has been redirected to Alipay. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
-| The customer didn't complete payment within 5 hours, or it was cancelled. | Expired | Expired |
+| The customer didn't complete payment within 5 hours, or it was canceled. | Expired | Expired |
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete.  | Completed | Completed |
 

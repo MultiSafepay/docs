@@ -256,7 +256,7 @@ However, the vault only contains tokens valid in your webshop. If your server is
 
 ## Order lifetimes
 
-The default lifetime of **Pending payment** orders in Magento 2 is 480 minutes (8 hours). For payment methods with a longer authorization period, the <<glossary:order status changes>> to **Cancelled** after 8 hours.
+The default lifetime of **Pending payment** orders in Magento 2 is 480 minutes (8 hours). For payment methods with a longer authorization period, the <<glossary:order status changes>> to **Canceled** after 8 hours.
 
 <details title="how-to-extend-order-lifetimes">
 <summary>How to extend order lifetimes</summary>
@@ -280,11 +280,11 @@ For an example, see MultiSafepay GitHub – <a href="https://github.com/MultiSaf
 
 **ERP systems**
 
-For ERP systems, if the <<glossary:order status>> is **Declined**, successful payments often fail to process for orders with **Cancelled** status.
+For ERP systems, if the <<glossary:order status>> is **Declined**, successful payments often fail to process for orders with **Canceled** status.
 
 The lifetime of bank transfers is 86400 minutes (60 days).
 
-The <<glossary:order status>> in Magento 2 changes to **Cancelled** before the payment can be matched to the order.
+The <<glossary:order status>> in Magento 2 changes to **Canceled** before the payment can be matched to the order.
 
  </details>
 
@@ -464,7 +464,7 @@ For more information, see Magento REST API - <a href="https://devdocs.magento.co
 
 ## Second Chance
 
-[Second Chance](/docs/second-chance/) emails are sent 1 hour and 24 hours after orders are created. By default, the <<glossary:order status>> changes from **Pending payment** to **Cancelled** after 8 hours (480 minutes).
+[Second Chance](/docs/second-chance/) emails are sent 1 hour and 24 hours after orders are created. By default, the <<glossary:order status>> changes from **Pending payment** to **Canceled** after 8 hours (480 minutes).
 
 If the customer pays via the **second** email (24 hours later), the payment is processed but the transaction update may not be handled correctly in Magento 2 because the order has expired. This may cause issues with external services, e.g. ERP/inventory management, if items are low in stock, or for one-off products like antiques.
 
@@ -601,7 +601,7 @@ _Order statuses and flow_
 
 As of version 2.16, you can assign the following MultiSafepay statuses to a Magento order status:
 
-- Cancelled
+- Canceled
 - Chargeback
 - Declined
 - Expired
@@ -618,7 +618,7 @@ We have updated the order status flow from version 2.5.0:
 - When redirecting the customer, the status changes to **Pending payment**, until the customer reaches your success page. 
 - If the payment is succesfully received at this point, the status changes to **Processing**. 
 - Around the same time, the webhook is triggered and the invoice is created. The webhook changes the status to **Processing** (if it isn't already). 
-- For bank transfers, the status doesn't change to **Pending payment**, therefore the order isn't automatically cancelled after a set period of time to give the customer more time to pay.
+- For bank transfers, the status doesn't change to **Pending payment**, therefore the order isn't automatically canceled after a set period of time to give the customer more time to pay.
 
 _Payment links_ 
 

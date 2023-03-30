@@ -24,7 +24,7 @@ refunds.md:
 /faq/refunds
 /faq/refunds/initiating-refunds/
 /faq/refunds/initiating-refunds-in-batches/
-/faq/refunds/cancelling-refunds/
+/faq/refunds/canceling-refunds/
 /faq/refunds/refund-period-for-payment-methods/
 /faq/refunds/refund-processing-time/
 /faq/refunds/delays-in-processing-refunds/

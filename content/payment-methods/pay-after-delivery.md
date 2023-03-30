@@ -44,7 +44,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | MultiSafepay has approved the transaction, but you can still cancel the order. See - [Update or cancel order](/reference/updateorder). | Completed | Uncleared | 
 | ❗️ **Note:** To capture the funds, [manually change the order status to Shipped](#shipment). | Shipped | Uncleared |
 | MultiSafepay has settled the order, and funds have been added to your account. | Shipped | Completed |
-| The transaction was cancelled. | Void/Cancelled   | Void/Cancelled | 
+| The transaction was canceled. | Void/Canceled   | Void/Canceled | 
 | MultiSafepay declined the transaction. | Declined | Declined |
 | The order has not been within **30** days.<br> Order can still be extend. For more information – [Expiration and extensions](/#expiration-and-extensions). | Expired | Expired | 
 | **Refunds:** Refund initiated. | Reserved | Reserved |  
@@ -104,7 +104,7 @@ The customer's billing and shipping addresses must be the **same** to prevent fr
 
 Minimum and maximum order amounts apply. Email <sales@multisafepay.com>
 
-## Cancellation
+## Cancelation
 
 You can cancel the invoice order **before** shipment or **after** partial shipment.
 
@@ -118,13 +118,13 @@ You can cancel the invoice order **before** shipment or **after** partial shipme
 2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
 3. On the **Transaction details** page, click **Cancel**.
 4. Add a description of what happened with the order, and then click **Complete**.
-   The <<glossary:order status>> changes to **Void** and the <<glossary:transaction status>> to **Cancelled**.
+   The <<glossary:order status>> changes to **Void** and the <<glossary:transaction status>> to **Canceled**.
 
 </details>
 
 ## Collection flow
 
-- MultiSafepay sends the customer an invoice after the order is shipped in full, **or** partially shipped and the remaining items cancelled. 
+- MultiSafepay sends the customer an invoice after the order is shipped in full, **or** partially shipped and the remaining items canceled. 
 - If the customer fails to pay within the initial 14 day period, MultiSafepay sends reminders of their obligation to pay, in accordance with the Wet Incasso Kosten (WIK). 
 - The customer can contact MultiSafepay if there is an issue with the payment.
 - If the customer still fails to pay, MultiSafepay sends the invoice to a debt collector. 
@@ -173,7 +173,7 @@ After you have paid for an order from your account, you can no longer refund tra
 
 ## Expiration and extensions
 
-The default expiration period for an invoice order is **30** days after it was created. If the order is not at least [partially shipped](#partially-ship-order) within this period, it is cancelled and [refunded](#refunds).
+The default expiration period for an invoice order is **30** days after it was created. If the order is not at least [partially shipped](#partially-ship-order) within this period, it is canceled and [refunded](#refunds).
 
 After the first partial shipment, the expiration period is reduced. You have **14** days to ship the remaining items, or the order expires. The capture period can be extended twice, each by 14 days. After partial shipment, you have **58** days to ship an order.
 
@@ -268,7 +268,7 @@ See API reference – [Update or cancel order](/reference/updateorder) > **Ship 
 
 **Collection flow** 
 
-MultiSafepay begins the [collection flow](#collection-flow) after at least 1 partial shipment if all other items from the order are cancelled.
+MultiSafepay begins the [collection flow](#collection-flow) after at least 1 partial shipment if all other items from the order are canceled.
 
 MultiSafepay does **not** invoice partial shipment amounts separately. We invoice the total outstanding amount.
 

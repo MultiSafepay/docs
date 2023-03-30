@@ -63,7 +63,7 @@ slug: 'scandipwa'
 
 1. Install the MultiSafepay plugin for supporting `GraphQL` queries, which also installs the `MultiSafepay Core`, `Frontend` and `Adminhtml` plugins. For instructions, see MultiSafepay GitHub <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">Magento 2 GraphQL</a>.    
 2. Configure the payment methods and your API keys in the Magento admin panel.  
-3. To configure URLs to your success and cancellation pages, go to **Stores** > **Configuration** > **MultiSafepay** > **General settings** > **Advanced settings** > **Use custom return URLs for PWA storefront integration**.
+3. To configure URLs to your success and cancelation pages, go to **Stores** > **Configuration** > **MultiSafepay** > **General settings** > **Advanced settings** > **Use custom return URLs for PWA storefront integration**.
     - For the **Custom redirect URL after canceling the payment**, we recommend using: `{{store.secure_base_url}}cart`
     - For the **Custom success page url**, we recommend using: `{{store.secure_base_url}}checkout/success?incrementId={{order.increment_id}}&paymentCode={{payment.code}}`
 4. Install the ScandiPWA frontend plugin from this repository into your ScandiPWA theme. For instructions, see ScandiPWA - <a href="https://docs.scandipwa.com/stack/extensions/installing-an-extension" target="_blank">Installing an extension</a>.

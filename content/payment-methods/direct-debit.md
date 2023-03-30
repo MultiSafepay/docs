@@ -44,7 +44,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | MultiSafepay's customer background check was successful and we've generated an [e-mandate](#e-mandates). | Uncleared  | Initialized |
 | We've sent the e-mandate to the customer's bank. You can no longer cancel. | Uncleared | Uncleared |
 | MultiSafepay has collected payment.| Completed | Completed |
-| The customer cancelled the transaction or requested a chargeback, or their bank declined the transaction. | Void | Void |
+| The customer canceled the transaction or requested a chargeback, or their bank declined the transaction. | Void | Void |
 | The customer's bank declined the transaction. See the [reason codes](#declined-transactions) below. | Declined | Declined   |
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed | 
@@ -132,7 +132,7 @@ If the IBAN or BIC is incorrect, our bank informs us the next business day.
 |ED05|Settlement failed | Depends on the SLA between the debtor's bank and the Clearing and Settlement Mechanism (CSM). |
 |FF01|Invalid file format| Repair the XML file. |
 |FF05|Direct debit type incorrect| |
-|FOCR|Return following a cancellation request| |
+|FOCR|Return following a cancelation request| |
 |MD01|No mandate| Analyse the characteristics of the SDD collection. Contact the debtor if they request a refund. |
 |MD02|Required infomation missing from mandate| Amend the mandate.  |
 |MD06|Customer requested chargeback| Contact the debtor. |

@@ -40,7 +40,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 |---|---|---|
 | The customer has been redirected to Belfius. | Initialized | Initialized |
 | MultiSafepay has collected payment.| Completed | Completed |
-| You cancelled the transaction. | Void   | Void/Cancelled   |
+| You canceled the transaction. | Void   | Void/Canceled   |
 | The customer didn't complete payment within 5 days. | Expired | Expired |
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |

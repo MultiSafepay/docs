@@ -39,7 +39,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 |---|---|---|
 | A QR code has been generated. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
-| The customer cancelled the payment. | Void   | Void   |
+| The customer canceled the payment. | Void   | Void   |
 | The customer didn't complete payment within 2 hours. | Expired | Expired |
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete.  | Completed | Completed |

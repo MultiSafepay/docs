@@ -41,7 +41,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment.| Completed | Completed |
-| The customer cancelled the transaction at their bank. | Cancelled   | Cancelled   |
+| The customer canceled the transaction at their bank. | Canceled   | Canceled   |
 | The customer didn't complete payment within 2 days. | Expired | Expired |
 | In rare cases, the transaction is marked as **uncleared**. <br> Trustly then informs MultiSafepay of the correct status, which may be **Completed**, **declined**, or **expired**. <br> **Uncleared** status automatically expires after 5 days. | Uncleared | Uncleared   |
 | **Refunds:** Refund initiated. | Initialized | Initialized |

@@ -43,7 +43,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | ❗️ **Note:** To capture the funds, [manually change the order status to Shipped](#shipment). | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped    | Completed  |
 | The transaction expired after 1 hour or you didn't [change the order status to shipped](#shipment) within 28 days. <br> See [Expired orders](#expired-orders).  | Expired    | Expired    |
-| Klarna authorized the transaction, but either you or the customer cancelled it before capture. | Void   | Void |
+| Klarna authorized the transaction, but either you or the customer canceled it before capture. | Void   | Void |
 | Klarna declined the transaction. <br> Only the customer can contact Klarna to find out why (for privacy and compliance reasons). <br> For merchant support, email <klarna@multisafepay.com> | Declined | Declined |
 | **Refunds:** Refund initiated. | Initialized | Completed |
 | **Refunds:** Refund complete.  | Completed | Completed |

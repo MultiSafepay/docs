@@ -42,7 +42,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | The customer has initiated a transaction (non-mobile only). | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
 | Bancontact has declined the transaction. | Declined | Declined   |
-| The transaction was cancelled. | Void   | Cancelled   |
+| The transaction was canceled. | Void   | Canceled   |
 | The customer didn't complete payment and the transaction expired (non-mobile only). | Expired | Expired |
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |
@@ -105,7 +105,7 @@ There is no shift in liability for [chargebacks](/docs/chargebacks/) from <<glos
 
 - Bancontact WIP is only available to low-risk, high-volume merchants (25,000 transactions quarterly), within the SEPA area. 
 - Applies to services only, not physical products. 
-- You must have easy-to-use procedures in place for refunds, cancellations, and disputes.
+- You must have easy-to-use procedures in place for refunds, cancelations, and disputes.
 - Customers must be able to add, update, and delete their stored payment details.  
 - You must be able to continually demonstrate low rates of fraudulent transactions, or access to your merchant wallet may be revoked. 
 

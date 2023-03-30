@@ -20,7 +20,7 @@ If you accept card payments, you must include the following information on your 
 - Official company name and registration number in the companies register
 - Full company address, email address, and phone number
 - VAT number 
-- Your cancellation and privacy policies
+- Your cancelation and privacy policies
 - Terms and conditions for customers in your checkout, preferably with a checkbox 
 
 # Security testing 

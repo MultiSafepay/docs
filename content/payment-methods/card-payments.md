@@ -63,9 +63,9 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/docs/uncaptured/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | ([Amex account number flow](#amex-merchant-account-number)) American Express has collected payment. | Completed | Initialized |
-| Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
+| Payment wasn't captured manually or within 5 days. | Void | Void/Canceled |
 | The customer didn't complete 3D Secure authentication. | Expired | Expired |
-| The customer failed 3D Secure authentication or cancelled payment. <br> See [Card errors](/docs/card-errors/). | Declined | Declined   |
+| The customer failed 3D Secure authentication or canceled payment. <br> See [Card errors](/docs/card-errors/). | Declined | Declined   |
 | Refund/chargeback initiated. | Reserved    | Reserved   |
 | Refund/chargeback complete.  | Completed      | Completed   |
 

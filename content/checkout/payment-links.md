@@ -78,7 +78,7 @@ Or via your dashboard:
 
 # User guide
 
-## Cancellation
+## Cancelation
 
 <details id="how-to-cancel-a-payment-link">
 <summary>How to cancel a payment link</summary>
@@ -93,7 +93,7 @@ See API reference – [Update or cancel an order](/reference/updateorder/).
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Payment links**.
 3. Next to the relevant payment link, click the red cross **Cancel payment link** icon.  
-The <<glossary:order status>> changes to **cancelled**. 
+The <<glossary:order status>> changes to **canceled**. 
 
 </details>
 
@@ -156,7 +156,7 @@ For an overview of all payment links:
 | Payment link status | Description |
 |---|---|
 | Active | The customer hasn't paid yet. | 
-| Cancelled | You cancelled the link.|
+| Canceled | You canceled the link.|
 | Completed | The customer has paid. |  
 | Duplicate | The customer completed payment in a duplicate transaction. |
 | Expired | The link lifetime has expired. | 

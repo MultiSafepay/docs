@@ -48,9 +48,9 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | The customer has been redirected for 3D Secure authentication, or the <<glossary:card scheme>> is authorizing the transaction. | Initialized | Initialized |
 | The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/docs/uncaptured/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
-| Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
+| Payment wasn't captured manually or within 5 days. | Void | Void/Canceled |
 | The customer didn't complete 3D Secure authentication. | Expired | Expired |
-| The customer failed 3D Secure authentication or cancelled payment. See [Card errors](/docs/card-errors/). | Declined | Declined   |
+| The customer failed 3D Secure authentication or canceled payment. See [Card errors](/docs/card-errors/). | Declined | Declined   |
 | **Refunds:** Refund initiated. | Reserved | Reserved   |
 | **Refunds:** Refund complete.  | Completed | Completed   |
 

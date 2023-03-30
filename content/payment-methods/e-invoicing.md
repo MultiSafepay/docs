@@ -44,7 +44,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | ❗️ **Note:** [Manually change the order status to Shipped](#shipment). <br> You must ship to receive payment. | Shipped | Initialized |
 | MultiSafepay has collected payment. | Completed    | Completed  |
 | MultiFactor declined the transaction. | Declined | Declined |
-| The transaction has been cancelled. | Void/Cancelled | Void/Cancelled |
+| The transaction has been canceled. | Void/Canceled | Void/Canceled |
 | The customer didn't complete payment, or the order [expired](#expiration-and-extensions). | Expired | Expired |
 | **Refunds:** Refund initiated. | Initialized | Initialized |
 | **Refunds:** Refund complete.  | Completed | Completed |
@@ -106,7 +106,7 @@ You can generate E-Invoicing transactions in batches for subscription payments.
 
 </details>
 
-## Cancellation
+## Cancelation
 
 You can cancel the invoice order **before** shipment or **after** partial shipment.
 
@@ -120,7 +120,7 @@ You can cancel the invoice order **before** shipment or **after** partial shipme
 2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
 3. On the **Transaction details** page, click **Cancel**.
 4. Add a description of what happened with the order, and then click **Complete**.
-   The <<glossary:order status>> changes to **Void** and the <<glossary:transaction status>> to **Cancelled**.
+   The <<glossary:order status>> changes to **Void** and the <<glossary:transaction status>> to **Canceled**.
 
 **Via the API** 
 
@@ -215,7 +215,7 @@ After paying for an order from your account balance, you can no longer refund th
 
 ## Expiration and extensions
 
-You define the expiration period for the order, up to a maximum of 180 days (including extensions). If the order is not at least [partially shipped](#partially-ship-order) within this period, it is cancelled and [refunded](#refunds).
+You define the expiration period for the order, up to a maximum of 180 days (including extensions). If the order is not at least [partially shipped](#partially-ship-order) within this period, it is canceled and [refunded](#refunds).
 
 <details id="how-to-extend-an-order">
 <summary>How to extend an order</summary>

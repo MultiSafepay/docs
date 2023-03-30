@@ -149,7 +149,7 @@ The cardholder informs American Express that they believe the transaction is fra
 To dispute this type of chargeback, you need to provide:
 
 - Proof that the cardholder agreed to the transaction, made the booking/reservation, and received confirmation 
-- Your site name, URL, IP address, and cancellation policy 
+- Your site name, URL, IP address, and cancelation policy 
 - Signed proof that the product/service was shipped and delivered, and the delivery address and date
 
 </details>
@@ -173,16 +173,16 @@ To dispute this type of chargeback, you need to provide:
 <summary>Reason code 4513: Credit not presented</summary>
 <br>
 
-The cardholder received written acknowledgement from you for a credit or they cancelled in line with your policy, but they haven't received the credit in their account.
+The cardholder received written acknowledgement from you for a credit or they canceled in line with your policy, but they haven't received the credit in their account.
 
 To dispute this type of chargeback, you need to provide:
 
 - Proof that you have already processed a corrective credit card transaction 
 - A fully itemized document that links the cardholder to each charge processed and proves that all transactions are valid
-- Screenshots of your cancellation policy 
+- Screenshots of your cancelation policy 
 - Evidence that:
     - the cardholder clicks to accept the terms and conditions
-    - your cancellation policy doesn't include the right to dispute the policy 
+    - your cancelation policy doesn't include the right to dispute the policy 
 
 </details>
 
@@ -235,8 +235,8 @@ To dispute this type of chargeback, you need to provide fully itemized documents
 </details>
 
 #### Customer dispute
-<details id="reason-code-4544-goods-and-services-cancellation-of-recurring-payments">
-<summary>Reason code 4544: Goods and services, cancellation of recurring payments</summary>
+<details id="reason-code-4544-goods-and-services-cancelation-of-recurring-payments">
+<summary>Reason code 4544: Goods and services, cancelation of recurring payments</summary>
 <br>
 
 You have continued to charge the cardholder's account after they notified you to cancel or revoke consent for [Recurring payments](/docs/recurring-payments/).
@@ -244,7 +244,7 @@ You have continued to charge the cardholder's account after they notified you to
 To dispute this type of chargeback, you need to provide:
 
 - A signed letter refuting the cardholder's claim, and/or proof that their evidence is incorrect 
-- A copy of your cancellation policy and a statement indicating why the cancellation doesn't comply with your policy
+- A copy of your cancelation policy and a statement indicating why the cancelation doesn't comply with your policy
 
 </details>
 
@@ -272,7 +272,7 @@ To dispute this type of chargeback, you need to provide evidence that:
 
 - The cardholder or authorized person did receive the product/service, e.g. proof of delivery 
 - The product/service was delivered to the cardholder's billing address 
-- The cardholder neither cancelled nor returned the product/service 
+- The cardholder neither canceled nor returned the product/service 
 
 </details>
 
@@ -387,8 +387,8 @@ To dispute this type of chargeback, you need to provide:
 
 </details>
 
-<details id="reason-code-4841-digital-goods-cancelled-recurring-transaction">
-<summary>Reason code 4841: Digital goods, cancelled recurring transaction</summary>
+<details id="reason-code-4841-digital-goods-canceled-recurring-transaction">
+<summary>Reason code 4841: Digital goods, canceled recurring transaction</summary>
 <br>
 
 The cardholder:
@@ -399,7 +399,7 @@ The cardholder:
 To dispute this type of chargeback, you need to provide evidence that:
 
 - You have previously completed successful transactions from that bank account 
-- The cardholder used the product/service after the cancellation, e.g. ID and/or login history 
+- The cardholder used the product/service after the cancelation, e.g. ID and/or login history 
 - The transaction was properly authorized and settled as a recurring transaction
 - The transaction was a recurring transaction, including proof that the cardholder had to click to accept the terms and conditions of recurring transactions, or that they signed a contract agreeing to the terms and conditions
 
@@ -476,8 +476,8 @@ To dispute this type of chargeback, you need to provide:
 
 </details>
 
-<details id="reason-code-13-2-cancelled-recurring-transaction">
-<summary>Reason code 13.2: Cancelled recurring transaction</summary>
+<details id="reason-code-13-2-canceled-recurring-transaction">
+<summary>Reason code 13.2: Canceled recurring transaction</summary>
 <br>
 
 The cardholder:
@@ -488,7 +488,7 @@ The cardholder:
 To dispute this type of chargeback, you need to provide evidence that:
 
 - You have previously completed successful transactions from that bank account 
-- The product/service was used after the cancellation, e.g. ID and/or login history 
+- The product/service was used after the cancelation, e.g. ID and/or login history 
 - The transaction was properly authorized and settled as a recurring transaction
 - The transaction was a recurring transaction, including proof that the cardholder had to click to accept the terms and conditions of recurring transactions, or that they signed a contract agreeing to the terms and conditions
 
@@ -528,17 +528,17 @@ To dispute this type of chargeback, you need to provide:
 
 </details>
 
-<details id="reason-code-13-7-cancelled-service-and-or-merchandise">
-<summary>Reason code 13.7: Cancelled service and/or merchandise</summary>
+<details id="reason-code-13-7-canceled-service-and-or-merchandise">
+<summary>Reason code 13.7: Canceled service and/or merchandise</summary>
 <br>
 
-The cardholder cancelled or returned the product/service. Or, you did not properly disclose, or did disclose but did not apply, a limited return or cancellation policy at the time of the transaction.
+The cardholder canceled or returned the product/service. Or, you did not properly disclose, or did disclose but did not apply, a limited return or cancelation policy at the time of the transaction.
 
 To dispute this type of chargeback, you need to provide:
 
 - Evidence of the cardholder using the service 
 - Evidence of delivery of products/services that the cardholder didn't return
-- Evidence that the cardholder had to click to accept your cancellation policy, and that your policy doesn't include the right to dispute terms and conditions available on your site 
+- Evidence that the cardholder had to click to accept your cancelation policy, and that your policy doesn't include the right to dispute terms and conditions available on your site 
 - An invoice number 
 - A track & trace number
 - Evidence of communications with the cardholder

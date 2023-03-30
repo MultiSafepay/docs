@@ -52,7 +52,7 @@ MultiSafepay's [Second Chance](/docs/second-chance/) feature is **not** supporte
 
 See Shopify – <a href="https://help.shopify.com/en/manual/orders/abandoned-checkouts" target="_blank">Recovering abandoned checkouts</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-## Cancellation
+## Cancelation
 
 If a customer cancels a payment to use another payment method instead, they must complete payment within **2 hours** to avoid errors.
 

@@ -45,7 +45,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | The customer has been redirected to their bank. | Initialized | Initialized |
 | The customer's bank has authorized the transaction and is transferring the funds. This may take up to 3 business days for all amounts. <br> Do **not** ship yet! MultiSafepay assumes no responsibility if you ship and the transaction fails. | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
-| The customer cancelled the transaction via Sofort. | Void   | Void/Cancelled   |
+| The customer canceled the transaction via Sofort. | Void   | Void/Canceled   |
 | The customer didn't complete payment within 1 day. | Expired | Expired |
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |

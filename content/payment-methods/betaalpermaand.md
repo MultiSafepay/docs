@@ -43,7 +43,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | ❗️ **Note:** To capture the funds, when you ship the <<glossary:order>> you must manually [change the order status to Shipped](#shipment) and send us the [track-and-trace code](#track-and-trace-codes).  | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped    | Completed  |
 | Santander declined the transaction. <br> Only the customer can contact them to find out why (for privacy and compliance reasons). | Declined   | Declined   |
-| You cancelled the transaction before capture.   | Void   | Void   |
+| You canceled the transaction before capture.   | Void   | Void   |
 | The customer didn't complete payment or the funds weren't captured within 1 day. | Expired | Expired  |
 | **Refunds:** Refund initiated. | Reserved    | Reserved   |
 | **Refunds:** Refund complete.  | Completed      | Completed   |
@@ -103,7 +103,7 @@ To activate:
 - Minimum order amount: 250 EUR
 - Maximum order amount: 8000 EUR
 
-## Cancellation
+## Cancelation
 
 To cancel an order, email <annuleren@santander.com> with the following details:
 - Customer's first and last name

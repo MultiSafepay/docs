@@ -176,7 +176,7 @@ class ViewController: UIViewController {
            if let status = status {
                print(status)
                switch status.state {
-                case .cancelled:
+                case .canceled:
                     break
                 case .completed:
                     break

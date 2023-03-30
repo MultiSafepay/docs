@@ -56,7 +56,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | The customer has been redirected to PayPal. | Initialized | Initialized |
 | Awaiting the customer to pay in their PayPal account, **or** <br> PayPal is authorizing the transaction, **or** <br> You may need to enable the currency and then authorize the payment in your PayPal business account.  | Uncleared | Initialized |
 | PayPal has collected payment. | Completed | Initialized |
-| The customer cancelled the payment in PayPal. | Void   | Void/Cancelled   |
+| The customer canceled the payment in PayPal. | Void   | Void/Canceled   |
 | The customer didn't complete payment within 14 days. | Expired | Expired |
 | **Refunds:** Refund initiated. | Reserved | Initialized |
 | **Refunds:** Refund complete.  | Completed | Initialized |
@@ -151,7 +151,7 @@ To be eligible, for specific countries, transaction requests must contain the co
 
 Refunds are only processed if there are enough funds in your PayPal business account. Otherwise, PayPal issues an <a href="https://www.paypal.com/us/smarthelp/article/what-is-an-echeck-faq1082" target="_blank">eCheck</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
-To avoid PayPal cancelling the refund, in your PayPal account, authorize PayPal to withdraw funds from another bank account instead. 
+To avoid PayPal canceling the refund, in your PayPal account, authorize PayPal to withdraw funds from another bank account instead. 
 
 For support, contact PayPal – <a href="https://www.paypal.com/us/smarthelp/home" target="_blank">Help Center Home</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 

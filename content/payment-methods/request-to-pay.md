@@ -49,7 +49,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | Deutsche Bank has authorized the transaction and is transferring the funds. | Completed  | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | Deutsche Bank declined the transaction. | Declined | Declined   |
-| The customer cancelled the transaction at Deutsche Bank. | Void | Void |
+| The customer canceled the transaction at Deutsche Bank. | Void | Void |
 | The customer didn't complete payment within 1 hour. | Expired | Expired |
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |

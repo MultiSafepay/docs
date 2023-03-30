@@ -42,7 +42,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 |---|---|---|
 | The customer has been redirected to their bank. | Initialized | Initialized |
 | MultiSafepay has collected payment. | Completed | Completed |
-| The customer cancelled the transaction via their bank. | Void   | Void/Cancelled   |
+| The customer canceled the transaction via their bank. | Void   | Void/Canceled   |
 | iDEAL processing error. | Declined   | Declined   |
 | The customer didn't complete payment within 1.5 hours. | Expired | Expired |
 | **Refunds:** Refund initiated. | Initialized | Initialized |

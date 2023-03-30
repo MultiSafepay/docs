@@ -45,7 +45,7 @@ See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-m
    
 2. Configure the MultiSafepay payment methods and API keys in the Magento admin panel.
 
-3. To configure URL redirects for your success and cancellation pages, go to **Stores** > **Configuration** > **MultiSafepay** > **General Settings** > **Advanced Settings** > **Use custom return urls**
+3. To configure URL redirects for your success and cancelation pages, go to **Stores** > **Configuration** > **MultiSafepay** > **General Settings** > **Advanced Settings** > **Use custom return urls**
 
   - For the **Custom redirect URL after canceling the payment**, we suggest using the next link: *<your_pwa_url>/cart?maskedId={{quote.masked_id}}&multisafepayRestore=true*
 

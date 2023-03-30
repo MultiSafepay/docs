@@ -42,7 +42,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | The funds are captured. <br> You can no longer cancel. You can only refund. | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped | Completed |
 | Riverty has declined the transaction. <br> Only the customer can contact Riverty to find out why (for privacy and compliance reasons).  | Declined | Declined |
-| Riverty authorized the transaction, but you or the customer cancelled it before capture. | Void | Void/Cancelled |
+| Riverty authorized the transaction, but you or the customer canceled it before capture. | Void | Void/Canceled |
 | Riverty authorized the transaction, but you didn't ship within 90 days of creating the transaction **or** the customer didn't complete payment. | Expired | Expired |
 | **Refunds:** Refund initiated. | Initialized | Completed |
 | **Refunds:** Refund complete. | Completed | Completed |

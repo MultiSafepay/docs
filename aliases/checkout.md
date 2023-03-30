@@ -57,10 +57,10 @@ payment-pages.md:
 payment-links.md:
 /tools/payment-link/payment-link-api/
 /payments/checkout/payment-link/
-/payment-links/cancellation/
+/payment-links/cancelation/
 /payment-links/disabling-payment-links-for-payment-methods/
 /payment-links/disabling-links/
-/payment-links/cancelling-cloning-payment-links/
+/payment-links/canceling-cloning-payment-links/
 /tools/payment-link/manually-generating-a-payment-link/
 /tools/payment-link/payment-link-api/
 /tools/multisafepay-control/manually-generated-payment-link

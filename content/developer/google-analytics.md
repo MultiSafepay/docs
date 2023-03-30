@@ -126,7 +126,7 @@ These solutions need a server environment and may require significant developmen
 ### How to send additional data
 To send additional event data to Google Analytics, you can use Google's <a href="https://developers.google.com/analytics/devguides/collection/protocol/ga4" target="_blank">Measurement protocol</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
-To send additional information about a customer's journey, you can use notifications from our [webhook](/docs/webhook/). For example, that payment was successful or that the <<glossary:order>> was cancelled.
+To send additional information about a customer's journey, you can use notifications from our [webhook](/docs/webhook/). For example, that payment was successful or that the <<glossary:order>> was canceled.
 
 ### How to process data on your server
 

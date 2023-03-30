@@ -122,10 +122,10 @@
 
 /tools/payment-link/payment-link-api/ -> /docs/payment-links/
 /payments/checkout/payment-link/ -> /docs/payment-links/
-/payment-links/cancellation/ -> /docs/payment-links/
+/payment-links/cancelation/ -> /docs/payment-links/
 /payment-links/disabling-payment-links-for-payment-methods/ -> /docs/payment-links/
 /payment-links/disabling-links/ -> /docs/payment-links/
-/payment-links/cancelling-cloning-payment-links/ -> /docs/payment-links/
+/payment-links/canceling-cloning-payment-links/ -> /docs/payment-links/
 /tools/payment-link/manually-generating-a-payment-link/ -> /docs/payment-links/
 /tools/payment-link/payment-link-api/ -> /docs/payment-links/
 /tools/multisafepay-control/manually-generated-payment-link -> /docs/payment-links/
@@ -1234,7 +1234,7 @@
 /faq/refunds -> /docs/refund-payments/
 /faq/refunds/initiating-refunds/ -> /docs/refund-payments/
 /faq/refunds/initiating-refunds-in-batches/ -> /docs/refund-payments/
-/faq/refunds/cancelling-refunds/ -> /docs/refund-payments/
+/faq/refunds/canceling-refunds/ -> /docs/refund-payments/
 /faq/refunds/refund-period-for-payment-methods/ -> /docs/refund-payments/
 /faq/refunds/refund-processing-time/ -> /docs/refund-payments/
 /faq/refunds/delays-in-processing-refunds/ -> /docs/refund-payments/

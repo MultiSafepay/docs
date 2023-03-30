@@ -8,11 +8,11 @@ slug: 'card-refunds'
 ---
 # Refunds
 
-## Cancellation
+## Cancelation
 
 You can cancel a refund while the status is **Initialized** or **Reserved**. 
 
-For more information, see Refund payments – [Cancellation](/docs/refund-payments#cancellation).
+For more information, see Refund payments – [Cancelation](/docs/refund-payments#cancelation).
 
 ## Amount limit
 

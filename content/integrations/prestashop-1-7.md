@@ -109,7 +109,7 @@ The plugin supports two flows for creating orders: **before** or **after** the t
 By default, order confirmation emails are sent before the payment is finalized.  
 You can disable this feature. 
 
-The status of abandoned payments changes to **Cancelled**.
+The status of abandoned payments changes to **Canceled**.
 
 </details>
 

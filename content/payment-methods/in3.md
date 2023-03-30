@@ -45,7 +45,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | You can [manually change the order status to shipped](#shipment) for your records, but this is not required to trigger invoicing. | Shipped | Uncleared | 
 | MultiSafepay has collected payment. | Completed | Completed |
 | in3 declined the transaction. | Declined | Declined |
-| The customer cancelled the transaction or abandoned the first installment. | Void | Void |
+| The customer canceled the transaction or abandoned the first installment. | Void | Void |
 | The customer didn't pay the first installment. | Expired | Expired |
 | **Refunds:** in3 has successfully processed a full or partial refund. | Completed | Completed |
 | **Refunds:** The refund was declined. | Declined | Declined   |

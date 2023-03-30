@@ -43,7 +43,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 |---|---|---|
 | The customer has been redirected to Paysafecard. | Initialized | Initialized |
 | MultiSafepay has collected payment.| Completed | Completed |
-| The customer cancelled the transaction at Paysafecard. | Void   | Void   |
+| The customer canceled the transaction at Paysafecard. | Void   | Void   |
 | The customer didn't complete payment within 3 hours. | Expired | Expired |
 | **Refunds:** Refund initiated. | Initialized | Initialized |
 | **Refunds:** Refund complete. | Completed | Completed |

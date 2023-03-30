@@ -229,7 +229,7 @@ You can also test the following scenarios:
 | ---| --- | --- |
 | Allianz Bank FA SPA | **Completed** | The transaction is initiated. <br> After 2 minutes, this changes to **Completed**. <br> Also use this IBAN to test [refunds and API refunds](#refunds). |
 | Banca di Cesena - Credito Coop. | **Declined** | The transaction is initiated. <br> After 2 minutes, this changes to **Declined**. |
-| Credito Artigiano | **Cancelled** | The transaction is initiated. <br> After 2 minutes, this changes to **Cancelled**.  |
+| Credito Artigiano | **Canceled** | The transaction is initiated. <br> After 2 minutes, this changes to **Canceled**.  |
 | Volksbank - Banca Popolare | **Expired** | The transaction is initiated. <br> After 2 minutes, this changes to **Expired**.  |
 
 </details>
@@ -392,7 +392,7 @@ The transaction and order statuses change to **Void**.
 
 **Change the order status**  
 
-You can change the order status to **Shipped** or **Cancelled**.
+You can change the order status to **Shipped** or **Canceled**.
 To change the order status, either:  
 
 - Make an [update order](/reference/updateorder/) API request, or 
@@ -452,7 +452,7 @@ The transaction and order statuses change to **Declined**.
 
 **Change the order status**  
 
-You can change the order status to **Shipped** or **Cancelled**.
+You can change the order status to **Shipped** or **Canceled**.
 To change the order status, either:  
 
 - Make an [update order](/reference/updateorder/) request, or 
@@ -676,7 +676,7 @@ You can change the order status to:
 | Status        | Description         | Test scenario |
 | ------------- | ------------------- | ------------- |
 | **Completed** | Order was completed | Approved      |
-| **Void**      | Order was cancelled | Cancelled     |
+| **Void**      | Order was canceled | Canceled     |
 | **Expired**   | Order not completed | Closed        |
 
 <br>
@@ -703,14 +703,14 @@ To change the order status, on the Test platform page, from the **Test scenario*
 
 # User guide
 
-## Cancellations
+## Cancelation
 
-<details id="how-to-test-cancelling-order">
-<summary>How to test cancelling an order</summary>
+<details id="how-to-test-canceling-order">
+<summary>How to test canceling an order</summary>
 <br>
 
 1. Create an order in your <<glossary:backend>> or via the API as above.
-2. On the **Test platform** page, from the **Test scenario** list, select **Cancelled**.
+2. On the **Test platform** page, from the **Test scenario** list, select **Canceled**.
 3. Click **Test**.  
     The order status changes to **Void**.
 
@@ -722,7 +722,7 @@ If you refund a payment in your MultiSafepay test dashboard, the [transaction st
 
 **Supported payment methods**
 
-You can test cancelling orders for the following methods:
+You can test canceling orders for the following methods:
 
 - Banking methods: Belfius, CBC/KBC, Dotpay, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
 - Wallets: Alipay, PayPal
