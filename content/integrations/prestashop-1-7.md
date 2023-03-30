@@ -7,11 +7,12 @@ parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
 slug: 'prestashop-1-7'
 ---
+
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official/releases/download/5.7.0/Plugin_PrestaShop_5.7.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official/releases/download/5.8.0/Plugin_PrestaShop_5.8.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
@@ -43,7 +44,7 @@ slug: 'prestashop-1-7'
 # Configuration
 
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **Improve** > **MultiSafepay**, and enter your [site API key](/docs/sites/#site-id-api-key-and-security-code).
+2. Go to **MultiSafepay**, and enter your [site API key](/docs/sites/#site-id-api-key-and-security-code).
 3. On the **Payment methods** tab, enable the relevant payment methods.
 4. Click **Save**.
 <br>
@@ -85,7 +86,7 @@ Supported since release: 5.0.0-RC-1, Oct 27th 2021.
 <br>
 
 1. Sign in to your Prestashop 1.7 backend.
-2. Go to **Improve** > **MultiSafepay** > **Payment methods** > **Generic gateway**.
+2. Go to **MultiSafepay** > **Payment methods** > **Generic gateway**.
 3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/) and the gateway icon.
 
 You can filter payment methods by:
@@ -128,10 +129,9 @@ If the notification hasn't been processed yet, a waiting page with a loader disp
 To change the flow you are using, follow these steps:
 
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **Improve** > **Module manager** > **MultiSafepay**.
-3. In the **MultiSafepay module**, go to the **General settings** tab.
-4. In the **Create order before payment** field, select the flow.
-5. Click **Save**.
+2. Go to **MultiSafepay** > **General settings** tab.
+3. In the **Create order before payment** field, select the flow.
+4. Click **Save**.
 
 </details>
 
@@ -143,16 +143,26 @@ The plugin supports [payment components](/docs/payment-components/), which:
 - Encrypt customer payment details for secure processing.
 - Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
 
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
+<br>
+
+- Cards: Amex, Maestro, Mastercard, and Visa
+- <<glossary:BNPL>>: [Pay After Delivery installments](/docs/pay-after-delivery-installments)
+
+</details>
+
 <details id="how-to-activate-payment-components">
 <summary>How to activate payment components</summary>
 <br>
 
-If you're new to accepting credit card payments, email a request to activate them to <sales@multisafepay.com>
-
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **MultiSafepay module** > **Payment methods** > **Credit card**.
-3. Slide the **Enable payment component** radio button to **Enabled**.
-4. Click **Save config**.
+2. Go to **MultiSafepay** > **Payment methods** tab.
+3. Select the relevant payment methods.
+4. Set **Enable payment component** toggle to **Enabled**.
+5. Click **Save**.
+
+💬 Support: If you're new to accepting credit card payments, email a request to activate them to <risk@multisafepay.com>
 
 📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
@@ -203,11 +213,10 @@ The plugin supports [recurring payments](/docs/recurring-payments).
 <br>
 
 1. Sign in to your PrestaShop 1.7 backend. 
-2. Go to **Improve** > **Module manager** > **MultiSafepay**.
-3. In the MultiSafepay module, go to the **Payment methods** tab.  
-4. Select either the bundled credit cards <<glossary:gateway>>, **or** select specific credit cards. 
-5. Set the **Enable tokenization** toggle to **Enabled**.
-6. Click **Save**.
+2. Go to **MultiSafepay** > **Payment methods** tab.  
+3. Select either the bundled credit cards <<glossary:gateway>>, **or** select specific credit cards. 
+4. Set the **Enable tokenization** toggle to **Enabled**.
+5. Click **Save**.
 
 </details>
 
@@ -226,7 +235,7 @@ By default, refunds initiated in your backend are automatically processed via ou
 To disable this, follow these steps:
 
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **MultiSafepay module** > **Manage hooks**.
+2. Go to **MultiSafepay** > **Manage hooks**.
 3. Select **Display non-positionable hooks**.
 4. For **actionOrderSlipAdd**, select the three dots, and then click **Unhook**.
 
@@ -245,10 +254,9 @@ As a temporary solution, you can disable sending the shopping cart with the paym
 <br>
 
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **Improve** > **Module manager** > **MultiSafepay**.
-3. In the MultiSafepay module, go to the **General settings** tab.
-4. Set the **Disable Shopping Cart** toggle to **Enabled**.
-5. Click **Save**.
+2. Go to **MultiSafepay** > **General settings** tab.
+3. Set the **Disable Shopping Cart** toggle to **Enabled**.
+4. Click **Save**.
 
 </details>
 
@@ -276,14 +284,14 @@ There are several <a href="https://addons.prestashop.com/en/search?search_query=
 To translate elements of the MultiSafepay module in the plugin, follow these steps:
 
 1. Sign in to your PrestaShop 1.7 backend.
-2. Go to **Improve** > **International** > **Translations**.
+2. Go to **International** > **Translations**.
 3. On the **Modify translations** tab, from the **Type of translation** list, select **Installed module translations**.
 4. Select the **MultiSafepay** module and the **Language**, and then click **Modify**.
 5. Enter the required translations, and then click **Save**. 
 
 To translate the names of payment methods:
 
-1. Go to **Improve** > **MultiSafepay** > **Payment methods**.
+1. Go to **MultiSafepay** > **Payment methods**.
 2. Select the payment method you want to translate.
 3. Make sure the **Title** field is empty.
 

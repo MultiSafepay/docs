@@ -57,9 +57,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 # Activation 
 
 1. Fill out the Monizze <a href="https://hello.monizze.be/nl/merchant/e-commerce/" target="_blank">application form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> form, selecting the checkbox for each voucher you want to offer.
-2. Sign a contract with Monizze. They'll give you a Monizze Merchant ID.
-3. Email your Monizze Merchant ID to <sales@multisafepay.com>
-4. We activate the payment method for your account.
+2. Sign a contract with Monizze. They'll give you a Monizze Merchant ID. <br> The <<glossary:issuer>> communicates your **Merchant ID** to us.
+3. We activate the payment method for your account.
 
 # Integration
 

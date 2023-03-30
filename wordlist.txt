@@ -161,6 +161,7 @@ Edenred's
 Edoburu
 Electronische
 Electrosex
+favicon
 FERBUY
 FI
 FROMNAME
@@ -258,6 +259,7 @@ MultiFactor
 MultiSafepay
 MultiSafepay's
 MultiSafepayClient
+MultiSafepayImportedRows
 MyBank
 NL
 NOK
@@ -591,3 +593,6 @@ yireo
 youtube
 yukiworks
 zoeken
+maskedId
+multisafepayRestore
+urls

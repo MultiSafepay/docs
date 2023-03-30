@@ -25,6 +25,8 @@ Read more on how installment payments can benefit your business on <a href="http
 
 # Payment flow
 
+This diagram shows the flow of a successful transaction. Click to magnify.
+
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/pay-after-delivery-installment-flow.svg" alt="Pay After Delivery payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;

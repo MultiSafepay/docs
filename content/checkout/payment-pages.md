@@ -66,10 +66,6 @@ It does **not** support the following methods:
 
 </details>
 
-## Google Analytics tracking
-
-You can track the behavior of customers on payment pages through Google Analytics tracking. When the customer is redirected to the payment page, the UA-code is generated and appears in the HTML.
-
 ## iframes
 
 An inline frame (iframe) is an HTML document embedded inside another HTML document on a site. 
