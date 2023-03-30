@@ -89,7 +89,8 @@ in3 (direct) is supported in:
 - [Magento 1](/docs/magento-1/) and [Magento 2](/docs/magento-2/) 
 - [OpenCart](/docs/opencart/)
 - [PrestaShop 1.7](/docs/prestashop-1-7/)
-- [VirtueMart](/docs/virtuemart/)
+- [VirtueMart 3](/docs/virtuemart-3/)
+- [VirtueMart 4](/docs/virtuemart-4/)
 - [WooCommerce](/docs/woocommerce/)
 
 ### Testing
