@@ -89,7 +89,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
     - [OpenCart](/docs/opencart/)
     - [PrestaShop 1.7](/docs/prestashop-1-7/)
     - [Shopware 5](/docs/shopware/)
-    - [VirtueMart](/docs/virtuemart/)
+    - [VirtueMart 3](/docs/virtuemart-3/)
+    - [VirtueMart 4](/docs/virtuemart-4/)
     - [WooCommerce](/docs/woocommerce/)
     - [X-Cart](/docs/x-cart/)
 

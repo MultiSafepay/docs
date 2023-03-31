@@ -80,7 +80,8 @@ For any questions, email <sales@multisafepay.com>
 Supported in:
 - [OsCommerce](/docs/oscommerce/)
 - [Magento 1](/docs/magento-1/)
-- [VirtueMart](/docs/virtuemart/)
+- [VirtueMart 3](/docs/virtuemart-3/)
+- [VirtueMart 4](/docs/virtuemart-4/)
 - [X-Cart](/docs/x-cart/)
 - [Zen Cart](/docs/zen-cart/)
 
