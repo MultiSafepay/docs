@@ -27,10 +27,8 @@ slug: 'prestashop-1-7'
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- PrestaShop 1.7.6 and above or PrestaShop 8
+- PrestaShop version 1.7.6 or higher
 - PHP version 7.2 or higher
-
-✅ &nbsp; **Tip!** If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an older version (4.x) of our plugin which can be found in our <a href="https://github.com/MultiSafepay/prestashop/releases" target="_blank">PrestaShop GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
 # Installation
 
