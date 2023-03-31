@@ -22,15 +22,15 @@ slug: 'prestashop-1-7'
 
 > ⚠️ Action required
 >
-> If you are still using the <a href="https://github.com/MultiSafepay/prestashop" target="_blank">deprecated plugin</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, we recommend [upgrading to the latest version](#upgrades) as soon as possible.
+> If you are still using the <a href="https://github.com/MultiSafepay/prestashop" target="_blank">deprecated plugin</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, we recommend [upgrading to the latest version](#upgrades) as soon as possible, since we drop support for it.
 
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- PrestaShop 1.7.6 and above or PrestaShop 8
+- PrestaShop version 1.7.6 or higher
 - PHP version 7.2 or higher
 
-✅ &nbsp; **Tip!** If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop or use an older version (4.x) of our plugin which can be found in our <a href="https://github.com/MultiSafepay/prestashop/releases" target="_blank">PrestaShop GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+✅ &nbsp; **Tip!** If you're on PrestaShop 1.7.5 or lower, consider updating PrestaShop. 
 
 # Installation
 
