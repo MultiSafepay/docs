@@ -47,11 +47,11 @@ Deprecated: The [`site_id`](/docs/sites#site-id-api-key-and-security-code) was i
 Deprecated: The [security code](/docs/sites#site-id-api-key-and-security-code) was invalid, or doesn't match the account ID or site ID. 
 
 ---
-### 1006: Invalid transaction ID
+### 1006: Invalid order ID
 
-The `transaction_id` was invalid. 
+The `order_id` was invalid. 
 
-The transaction ID must be unique. The transaction ID you provided may have already been used for a completed transaction for that site ID. 
+The order ID must be unique. The order ID you provided may have already been used for a completed transaction for that site ID. 
 Consider creating a new site profile in your dashboard.
 
 ---
