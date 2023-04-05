@@ -49,7 +49,6 @@ slug: 'virtuemart-4'
     - **Account ID** (top-right corner of your dashboard)
     - [Site ID, API key, and security code](/docs/sites#site-id-api-key-and-security-code)
     - [Gateway ID](/reference/gateway-ids/)
-    - [Notification URL](/docs/faq/general/generating-notification-url/)
     
 <br>
 
