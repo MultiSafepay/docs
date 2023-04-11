@@ -137,6 +137,28 @@ If no specific rule is set for a language, **Default** language is used.
 
 </details>
 
+## Payment components
+
+Lightspeed supports [Payment Components](/docs/payment-components/), which:
+
+- Provide a seamless checkout experience to increase <<glossary:conversion>>.
+- Encrypt customer payment details for secure processing.
+- Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
+
+<details id="how-to-activate-payment-component-in-backend">
+<summary>How to activate the payment component in your backend</summary>
+<br>
+
+1. Sign in to your Lightspeed app.
+2. Go to **Settings**.
+3. Scroll down to **Enable MultiSafepay Checkout scripts** and select **Enabled script** checkbox.
+4. To activate payment component:
+- Go to **Credit cards**.
+- Scroll down to **Enable MultiSafepay Components** and select **Enabled** checkbox.
+5. Click **Save**.
+
+</details>
+
 ## Payment links
 
 When you generate a payment link in your MultiSafepay dashboard, you cannot update the <<glossary:transaction status>> or link it to a transaction in Lightspeed via our app. This is by design in Lightspeed. 
