@@ -26,7 +26,7 @@ To process payments from a site operated by a separate legal entity, you must si
     - In the **Base URL** field, add the site’s URL. This must be the URL where you receive payments.
     - If you want to receive [status updates](/docs/payment-statuses/) via webhook, in the **Webhook URL** field, enter a URL for us to send them to.
 4. Click **Save**.
-    A **Site profile** page for the new site appears, including the site ID, API key, and security code. 
+    A **Sites** page for the new site appears, including the site ID, API key, and security code. 
 5. Optionally, provider your **Customer support phone** and **Customer support email**. 
 6. To style your payment page for this site, see Payment pages – [Styling](/docs/payment-pages/#styling).
 </details>
@@ -57,7 +57,7 @@ ___
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Integrations** > **Sites**, and then click the relevant site.
-3. On the **Site profile** page, from the **Status** list:
+3. On the **Sites** page, from the **Status** list:
   - To block, select **Blocked**.
   - To unblock, select **Active**.
 4. Click **Save changes**. 
@@ -133,7 +133,7 @@ To view the site ID, API key, and security code for a site:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">live</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> or <a href="https://testmerchant.multisafepay.com" target="_blank">test</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> MultiSafepay dashboard.
 2. Go to **Integrations** > **Sites**, and then click the relevant site.
-3. On the **Site profile** page, the site ID, API key, and security code appear under **Details**..
+3. The site ID, API key, and security code appears in the top-right corner of your profile.
 
 ## Specify company name
 
