@@ -503,13 +503,13 @@ You can't test other gift cards in your MultiSafepay test account. You can only 
 1. [Create an order](/reference/createorder/) > Prepaid card order  
     Example: Gift card redirect
 2. Open the payment link.
-3. Enter in the:
-    - **Card number** field `111115`
-    - **Security code** field any 4-digit number
+3. Enter the following details:
+    - In the **Card number** field, `111115`
+    - In the **Security code** field, any 4-digit number
 4. Click **Add discount**.  
   The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
 
-Use the following card numbers to test different gift card balances.
+Use the following card numbers to test different gift card balances:
 
 | Card numbers | Balance |
 | --- | --- |
@@ -528,9 +528,20 @@ Any other card number receives an "Invalid card number" error.
 
 1. [Create an order](/reference/createorder/) > Prepaid card order  
     Example: Monizze redirect
-2. On the payment page, click **Add discount**.???
-3. From the **Test scenario** list, select the relevant discount, and then click **Test**.???
+2. Open the payment link.
+3. Enter the following details:
+    - In the **Card number** field, `111115`
+    - In the **Security code** field, any 4-digit number
+4. Click **Add discount**.
   The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
+
+ Use the following card numbers to test different gift card balances:
+
+| Card numbers | Balance |
+| --- | --- |
+| 111115  | € 100  |
+| 111112 | € 5  |
+| 111110  | € 0 |
 
   </details>
 
@@ -541,18 +552,19 @@ Any other card number receives an "Invalid card number" error.
 1. [Create an order](/reference/createorder/) > Prepaid card order  
     Example: Sodexo redirect
 2. Open the payment link.
-3. Enter in the:
-    - **Card number** field `111115`
-    - **Security code** field any 4-digit number
+3. Enter the following details:
+    - In the **Card number** field, `111115`
+    - In the **Security code** field, any 4-digit number
 4. Click **Add discount**.  
   The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
 
-Use the following card numbers to test different gift card balances.
+Use the following card numbers to test different gift card balances:
 
 | Card numbers | Balance |
 | --- | --- |
 | 111115  | € 100  |
 | 111112 | € 5  |
+| 111110  | € 0 |
 <br>
 
 Any other card number receives an "Invalid card number" error.

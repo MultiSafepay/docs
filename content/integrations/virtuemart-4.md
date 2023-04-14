@@ -1,47 +1,64 @@
 ---
-title: "Zen Cart"
+title: "VirtueMart 4"
 category: 62962dd7e272a6002ebbbbc5
-order: 23
+order: 19
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
-slug: 'zen-cart'
+slug: 'virtuemart-4'
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Zen_Cart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/VirtueMart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/Zencart/releases/download/3.1.0/Plugin_ZenCart_3.1.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/virtuemart-4/releases/download/1.0.0/Plugin_VirtueMart-4_1.0.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/Zencart" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/virtuemart-4" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/Zencart/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/virtuemart-4/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
 
 </div>
 
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- ZenCart 1.5.5
-- Tested on PHP 7.0
+- Joomla 4.x and VirtueMart 4.x
+- Tested on PHP 8.1
 
-# Installation and configuration
+# Installation
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the Zen Cart installation procedure. Always make a backup.
+✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup.
 
-1. In the root of your webshop, unpack the content of the .ZIP file.
-2. Sign in to your Zen Cart <<glossary:backend>>.
-3. Go to **Modules** > **Payment**.
-4. Select **MultiSafepay - Connect**, and then click **Install**.
-5. Enter your [API key](/docs/sites#site-id-api-key-and-security-code).
-6. Click **Update**.
-7. Disable the **MultiSafepay - Connect** module.
-8. Enable the relevant payment methods.
+1. Sign in to your VirtueMart <<glossary:backend>>.
+2. Go to **System** > **Install** > **Extensions**.
+3. Install the Plugin_VirtueMart-4_x.x.x.zip file using **Drag and drop** or **Browse for file**. 
+4. Click **Upload & install**.
+
+# Configuration
+
+1. Sign in to your VirtueMart backend.
+2. Go to **System** > **Manage** > **Plugins**.
+3. In the search box, enter **MultiSafepay**, and then set the plugin status to **Enabled**.
+4. Go to **Components** > **VirtueMart**. 
+5. Click **Payment methods**. 
+6. To install and configure each payment method separately:  
+    - Click **New**.
+    - Set the payment method to **VirtueMart Payment - MultiSafepay**.
+    - To install, save the **Payment method name**.
+7. On the **Configuration** tab, enter your:  
+    - **Account ID** (top-right corner of your dashboard)
+    - [Site ID, API key, and security code](/docs/sites#site-id-api-key-and-security-code)
+    - [Gateway ID](/reference/gateway-ids/)
+    
 <br>
 
 ---
 
 # User guide
+
+## Checkouts
+
+If a customer selects Apple Pay at checkout but isn't on an Apple device, they receive a notification to select another payment method. 
 
 ## Payment methods
 
@@ -50,12 +67,12 @@ slug: 'zen-cart'
 <br>
 
 - Cards: [All](/docs/card-payments/)
-- Banking methods: All, except iDEAL QR and TrustPay
-- <<glossary:BNPL>>: All, except in3
-- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
+- Banking methods: All
+- Wallets: All
 - Prepaid cards:
     - Beauty and Wellness gift card
     - <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - [Edenred](/docs/edenred/)
     - <a href="https://www.fashioncheque.com/nl" target="_blank">Fashioncheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - Fietsenbon
@@ -64,7 +81,9 @@ slug: 'zen-cart'
     - <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - [Paysafecard](/docs/paysafecard/)
     - <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+    - [Postepay](/docs/card-payments/)
     - <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+     - [Sodexo](/docs/sodexo/)
     - <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
@@ -76,15 +95,15 @@ slug: 'zen-cart'
 
 ## Refunds
 
-[Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.  
-You cannot refund more than the original amount in your backend.
+[Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard.  
+You cannot refund more than the original amount in your dashboard.
 
 ## Updates
 
-You can update the plugin in your backend and the CMS marketplace, or via SFTP.
+You can update the plugin in your backend and the CMS marketplace, via SFTP.
 
-<details id="how-to-update-via-sftp">
-<summary>How to update via SFTP</summary>
+<details id="how-to-update-in-your-backend">
+<summary>How to update in your backend</summary>
 <br>
 
 ✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
