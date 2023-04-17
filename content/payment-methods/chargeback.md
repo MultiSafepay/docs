@@ -1,10 +1,10 @@
 ---
-title: 'Chargeback'
+title: 'Chargebacks'
 category: 6298bd782d1cf4006032e765
 order: 29
-hidden: true
+hidden: false
 parentDoc: 62a727569e389a012f577acd
-slug: 'chargeback'
+slug: 'chargebacks'
 ---
 
 Chargeback is a process of dispute that occurs when a cardholder disagrees with or doesn't recognize a transaction charged to their credit card and requests the <<glossary:issuer>> to reverse it. The <<glossary:card scheme>> notifies MultiSafepay and reclaims your transaction amount.
@@ -550,22 +550,6 @@ To dispute this type of chargeback, you need to provide the following:
 </details>
 
 ***
-
-# Chargeback reasons
-
-The most common reasons for requesting chargebacks are:
-
-- Processing or authorization errors by the merchant
-- Customer disputes, e.g.: 
-  - The order didn't arrive.
-  - The items were defective, damaged, or not as described in the specification.
-  - Service wasn't performed as expected. 
-  - The customer didn't receive the expected credit. 
-- Fraud, which may be genuine or "friendly fraud," e.g., if the customer:
-  - Doesn't recognize your company name or a specific transaction.
-  - Requests a chargeback instead of following your refund or returns process.
-  - Regrets the purchase.
-  - Forgets to cancel a subscription.
 
 # Chargeback period
 
