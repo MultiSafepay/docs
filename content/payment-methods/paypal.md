@@ -91,7 +91,7 @@ If your **PayPal Merchant ID** isn't displayed in your dashboard, you can add it
 
 - Go to **Settings** > **Payment methods**> **PayPal ** tab.
 - Click **add PayPal ID** link at the bottom of **PayPal** tab.
-- In the **PayPal merchant ID field**, paste your PayPal Merchant ID.
+- In the **PayPal merchant ID** field, paste your PayPal Merchant ID.
 - Click **Save changes**.
 
 ✅ PayPal has been successfully configured in your MultiSafepay account.

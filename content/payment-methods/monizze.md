@@ -82,20 +82,6 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 You can add Monizze [gateway ID](/reference/gateway-ids) using a generic gateway in several of our ready-made integrations.
 
-<details id="supported-ready-made-integrations">
-<summary>Supported in:</summary>
-<br>
-
-- [Craft Commerce](/docs/craft-commerce)
-- [Magento 1](/docs/magento-1) and [Magento 2](/docs/magento-2)
-- [Odoo](/docs/odoo)
-- PrestaShop [1.6](/docs/prestashop-1-6) and [1.7](/docs/prestashop-1-7)
-- [Shopware](/docs/shopware)
-- [WooCommerce](/docs/woocommerce)
-- [OpenCart](/docs/opencart)
-
-</details>
-
 ### Testing
 
 To test Monizze payments, see Testing payment methods - [Prepaid cards](/docs/testing#prepaid-cards).
