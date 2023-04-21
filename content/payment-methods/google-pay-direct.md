@@ -171,7 +171,7 @@ When you have finished testing, change the environment to `PRODUCTION`.
     
         ```javascript
         function onGooglePayLoaded() {
-            paymentsClient.isReadyToPay(IsReadyToPayRequest)
+            paymentsClient.isReadyToPay(isReadyToPayRequest)
                 .then(function(response) {
                     if (response.result) {
                         addGooglePayButton();
@@ -228,7 +228,7 @@ function getGooglePaymentDataRequest() {
         countryCode: 'NL'
     };
     paymentDataRequest.merchantInfo = {
-        merchantName: 'Example Merchant'
+        merchantName: 'Example Merchant',
         merchantId: '12345678901234567890'
     };
     return paymentDataRequest;
