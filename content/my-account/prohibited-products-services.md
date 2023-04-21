@@ -21,28 +21,7 @@ Dutch law states that alcohol cannot be sold to customers under the age of **18*
 - Dutch driving license
 - European or Dutch ID card
 
-If you sell alcohol, you must:
-
-- State this clearly on your site.
-- Email a signed declaration about alcoholic beverages (once only) to <risk@multisafepay.com>
-
-    <details id="how-to-download-a-declaration">
-    <summary>How to download a declaration</summary>
-    <br>
-
-    - <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/NL-Verklaring_alcoholische_dranken.pdf" target="_blank">Dutch merchant declaration</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>   
-    - <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/EN-Declaration_alcoholic_beverages.pdf" target="_blank">English merchant declaration</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  
-    - <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/FR-D%C3%A9claration_des_boissons_alcoolis%C3%A9es.pdf" target="_blank">French merchant declaration</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  
-    - <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/DE-Erkl%C3%A4rung_f%C3%BCr_alkoholischen_Getr%C3%A4nke.pdf" target="_blank">German merchant declaration</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/IT-Dichiarazione_per_la_vendita_di_bevande_alcoliche.docx" target="_blank">Italian merchant declaration</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
-    - <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/ES-Declaraci%C3%B3n_sobre_bebidas_alcoh%C3%B3licas.docx" target="_blank">Spanish merchant declaration</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  
-
-    </details>
-
-If you sell spirits with an alcohol content of 15% or higher, you must:
-
-- Hold a valid liquor license. 
-- Email a copy of your license to <risk@multisafepay.com>
+If you sell alcohol, you must clearly state it on your site.
 
 # Prohibited products and services
 

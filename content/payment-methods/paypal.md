@@ -91,7 +91,7 @@ If your **PayPal Merchant ID** isn't displayed in your dashboard, you can add it
 
 - Go to **Settings** > **Payment methods**> **PayPal ** tab.
 - Click **add PayPal ID** link at the bottom of **PayPal** tab.
-- In the **PayPal merchant ID field**, paste your PayPal Merchant ID.
+- In the **PayPal merchant ID** field, paste your PayPal Merchant ID.
 - Click **Save changes**.
 
 ✅ PayPal has been successfully configured in your MultiSafepay account.
@@ -121,7 +121,7 @@ We strongly recommend [testing transactions](/docs/testing/) before processing l
 
 - A `shopping_cart` object can be included in your [create order](/reference/createorder) request, see Recipe – [Include shopping_cart in order](/recipes/display-shopping-cart).
 
-- A unique `invoice_id`  can be included in your [create order](/reference/createorder) request, which is displayed on the transaction history.<br> When an `invoice_id` is not set in your request, a unique `order_id` will be displayed.
+- An `invoice_id`  can be included in your [create order](/reference/createorder) request, which appears in the transaction history.<br> **Note:** If no `invoice_id` is set, the `order_id` defaults to `invoice_id`.
 
 - Transactions expire after 14 days.
 
