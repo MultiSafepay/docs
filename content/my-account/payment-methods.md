@@ -206,71 +206,44 @@ For questions, see Klarna – <a href="https://www.klarna.com/nl/klantenservice"
 
 
 ## PayPal
-<details id="how-to-configure-your-paypal-account">
+
+<details id="how-to-activate-your-paypal-account">
 <summary>How to configure your PayPal account</summary>
 <br>
 
-To configure your PayPal account, follow these steps:
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Settings** > **Payment methods**
+3. In the **PayPal** tab, click on **Set up PayPal** button <br> You are redirected to PayPal to sign in to your PayPal business account.                              
+4. Grant PayPal access to connect with your MultiSafepay account.
+5. Your **PayPal Merchant ID** is now displayed in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
-1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Mouse over your account name in the top-right corner, and then select **Account settings**.
-3. On the **Account access** tab, under **API access**, click **Update**.
-4. Under **Pre-built payment solution**, click **Grant API permission**.
-5. In the **Third-party permission username** field, enter `paypal_api1.multisafepay.com`. 
-7. Click **Lookup**.  
-8. Select the checkboxes of the relevant permissions:  
-    - Use Express Checkout to process payments.
-    - Issue a refund for a specific transaction.
-    - Process your customers' credit or debit card payments.
-    - Obtain information about a single transaction.
+If your **PayPal Merchant ID** isn't displayed in your dashboard, you can add it manually.
 
-To complete the configuration, change the language encoding setting of your PayPal account to **UTF-8**:
-
-1. Click PayPal – <a href="https://www.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-language-encoding" target="_blank">Profile language encoding</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Next to **Language coding for PayPal buttons**, click **Edit**.
-3. From the list, select **Western European languages (including English)**.
-4. Click **More options**.
-5. From the **Encoding** list, select **UTF-8**.
-6. Select the **Yes** checkbox, and then click **Save**.
-
-For support:
-
-- MultiSafepay – <integration@multisafepay.com>
-- PayPal – <a href="https://www.paypal.com/us/smarthelp/contact-us" target="_blank">Contact us</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-
-> ⚠️ Known error
-> If your PayPal business account isn't yet fully verified or approved, you might get a PayPal error 10002: Restricted account.
-
-</details>
-
-<details id="how-to-configure-your-multisafepay-account">
-<summary>How to configure your MultiSafepay account</summary>
+<details id="how-to-configure-your-paypal-account">
+<summary> How to add your PayPal Merchant ID</summary>
 <br>
 
-To configure your MultiSafepay account for PayPal, follow these steps:
-
 1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Mouse over your account name in the top-right corner, and then select **Account settings**.
+2. On the navigation menu > mouse over your account name in the top-right corner, and then select **Account settings**.
 3. On the **Business information** tab, copy your PayPal Merchant ID.
-4. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-5. To activate PayPal for:
-    - All your sites, go to **Settings** > **Payment methods**, and then select the **PayPal** checkbox.
-    - A specific site:
-        - Go to **Integrations** > **Sites**, and then click the relevant site.
-        - Under **Payment methods**, click **Select payment methods**. 
-        - Select the **PayPal** checkbox, and then click **Save changes**.
-6. In the **PayPal** dialog, in the **PayPal merchant ID** field, paste your ID.
-7. Click **Save changes**.
+4. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+5. To set manually your PayPal Merchant ID:
 
-> ℹ **Notes** 
-> - You can link each site to a separate PayPal business account, or all sites can use your main PayPal business account.
-> - If PayPal isn't visible as a payment method in your dashboard, email <integration@multisafepay.com> 
+- Go to **Settings** > **Payment methods**> **PayPal ** tab.
+- Click **add PayPal ID** link at the bottom of **PayPal** tab.
+- In the **PayPal merchant ID** field, paste your PayPal Merchant ID.
+- Click **Save changes**.
 
-> ✅ Success
-> Your account is now configured!  
+✅ PayPal has been successfully configured in your MultiSafepay account.
 
-We strongly recommend [testing transactions](/docs/testing/) before processing live payments. 
+📘 **Note:** If you already have a PayPal account connected to MultiSafepay dashboard, we recommend upgrading to the latest PayPal API as soon as possible by following all the steps above. No other actions are required after this step.
+
+We strongly recommend [testing transactions](/docs/testing/) before processing live payments.
+
 </details>
+
+</details>
+
 
 ## Riverty
 
