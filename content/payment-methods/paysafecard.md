@@ -77,15 +77,29 @@ For any questions, email <sales@multisafepay.com>
 - Transactions expire after 3 hours.
 
 ### Ready-made integrations
+
 Supported in:
+
+- [CS-Cart](/docs/cs-cart/)
+- [Drupal 7](/docs/drupal/)
+- [Drupal 8 & 9](/docs/drupal/)
 - [OsCommerce](/docs/oscommerce/)
 - [Magento 1](/docs/magento-1/)
-- [VirtueMart 3](/docs/virtuemart-3/)
+- [Magento 2](/docs/magento-2/)
+- [OpenCart 3](/docs/opencart/)
+- [OpenCart 4](/docs/opencart-4/)
+- [PrestaShop 1.6](/docs/prestashop-1-6/)
+- [PrestaShop 1.7](/docs/prestashop-1-7/)
+- [Shopware 5](docs/shopware/)
+- [Shopware 6](docs/shopware/)
+- [VirtueMart 3](/docs/virtuemart/)
 - [VirtueMart 4](/docs/virtuemart-4/)
+- [WooCommerce](/docs/woocommerce/)
 - [X-Cart](/docs/x-cart/)
 - [Zen Cart](/docs/zen-cart/)
 
 ### Testing
+
 - You can’t test Paysafecard in your MultiSafepay test account.
 - You can only make test payments in your MultiSafepay live account. 
 <br>

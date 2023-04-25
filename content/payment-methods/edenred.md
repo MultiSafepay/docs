@@ -80,7 +80,9 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 - By default, all activated Edenred vouchers display at checkout, but you can also specify which Edenred vouchers to display per transaction.
 
 ### Ready-made integrations
-Only supported in our [Magento 2](/docs/magento-2/) integration.
+
+- You can add Edenred [gateway ID](/reference/gateway-ids) using a generic gateway in several of our ready-made integrations.
+- Supported in our [Magento 2](/docs/magento-2/) integration.
 
 ### Testing
 To test Edenred payments, see Testing payment methods - [Prepaid cards](/docs/testing#prepaid-cards).
