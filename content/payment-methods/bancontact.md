@@ -75,9 +75,10 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   </details>
 
-- If `seconds_active` is set, it applies to the expiry time of the QR. See recipes - [Seconds_active](/recipes/days_active-seconds_active).
+- By default, transactions expire after 1 hour. 
 
-- Transactions expire after 1 hour.
+-  If `seconds_active` is set, the QR code will expire at the time specified. See recipes - [Seconds_active](/recipes/days_active-seconds_active).
+
 
 ### Ready-made integrations
 Supported in all [ready-made integrations](/docs/our-integrations/). 
