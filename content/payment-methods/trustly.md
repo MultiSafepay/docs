@@ -79,7 +79,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 ### Ready-made integrations
 - Trustly (direct) is supported in most [ready-made integrations](/docs/our-integrations/).
-- Exceptions: Lightspeed, Shopify, OsCommerce, PWAs, Vue Storefront, Zen Cart.
+- Exceptions: OsCommerce, PWAs, Vue Storefront, and Zen Cart.
 
 ### Testing
 To test Trustly payments, see Testing payment methods - [Banking methods](/docs/testing#banking-methods).
