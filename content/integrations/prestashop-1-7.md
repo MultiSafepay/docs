@@ -166,6 +166,28 @@ The plugin supports [payment components](/docs/payment-components/), which:
 
 </details>
 
+## Payment links
+
+<details id="how-to-generate-payment-links-for-backend-orders">
+<summary>How to generate payment links for backend orders</summary>
+<br>
+
+1. Sign in to your PrestaShop 1.7 backend.
+2. Locate the **Orders** dropdown menu and click on the **Orders** subsection.
+3. In the top-right corner, click on **Add new order**.
+4. Choose a customer by either using **Search for a customer** or **Add a new customer**.
+5. Add products to the order by:
+   - Selecting **Use** from the available **Carts** or **Orders**, or ...
+   - **Search for a product**, adjusting currency and language if needed, and clicking on **Add to cart**.
+6. If available, **Addresses** will be filled in automatically. Otherwise, click on **Add new address**.
+7. For **Shipping**, select a **Delivery option** or choose **Free shipping**.
+8. In the **Summary** section, you may enter an optional **Order message**. Additionally, complete the following mandatory fields:
+   - For **Payment**, select **MultiSafepay**.
+   - For **Order status**, choose **MultiSafepay initialized**.
+9. Click on **Create order** to finalize. A **payment link** will appear in the message field.
+
+</details>
+
 ## Payment methods
 
 <details id="supported-payment-methods">
