@@ -39,6 +39,18 @@ slug: 'prestashop-1-7'
 3. Select the Plugin_PrestaShop.zip file, and then click **Configure**.
 4. Clear your cache.
 
+# Upgrade
+
+You need to use the **Transplant a module** tool to access the latest features, and ensure compatibility with any newly added hooks in the most recent version of the plugin.
+
+1. Sign in to your PrestaShop 1.7 <<glossary:backend>>.
+2. Find the **Design** dropdown menu and select the **Positions** subsection.
+3. In the top-right corner, click on **Transplant a module**.
+4. For the **Module** field, click on **Please select a module** and choose **MultiSafepay**.
+5. In the **Transplant to** field, select an **Available hook** from the dropdown list.
+6. Click on **Save** at the bottom of the page.
+7. Repeat steps **5** and **6** for all the **Available hooks** associated with the **MultiSafepay** module.
+
 # Configuration
 
 1. Sign in to your PrestaShop 1.7 backend.
