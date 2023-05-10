@@ -175,14 +175,12 @@ The plugin supports [payment components](/docs/payment-components/), which:
 1. Sign in to your PrestaShop back office.
 2. Go to **Orders** > **Orders**.
 3. Click on **Add new order** at the top right corner.
-4. To add a new order - see <a href="https://devdocs.prestashop-project.org/1.7/development/page-reference/back-office/order/add-new-order/" target="_blank">PrestaShop add new order reference page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br>
+4. To add new order, follow all steps in PrestaShop 8 core reference page - see <a href="https://devdocs.prestashop-project.org/8/development/page-reference/back-office/order/add-new-order/" target="_blank"> PrestaShop back office page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br>
 
 > 📘 **Note:** To successfully generate payment links from the back office, ensure that you have followed the steps below:  
 > Under **Summary** section:
->   - Select **MultiSafepay** for **Payment**.
->   - Select **MultiSafepay initialized** for **Order status**.
-
-
+>   - Select **MultiSafepay** as **Payment**.
+>   - Select **MultiSafepay initialized** as **Order status**.
 
 </details>
 

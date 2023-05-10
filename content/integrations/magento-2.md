@@ -155,7 +155,7 @@ The plugin is compatible with most Magento checkouts.
     <td> <a href="https://www.onestepcheckout.com/" target="_blank">OneStepCheckout.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> </td>
     <td>By default, OneStepCheckout.com is supported. </td>
   </tr>
-  <table>
+</table>
 
 **Note** We recommend testing compatibility with your configuration.
 
