@@ -122,14 +122,7 @@ The plugin is compatible with most Magento checkouts.
 <details id="supported-checkouts">
 <summary>Supported checkouts</summary>
 <br>
-<!--
-- <a href="https://amasty.com/one-step-checkout-for-magento-2.html" target="_blank">Amasty One Step Checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-- <a href="https://hyva.io/hyva-themes-license.html" target="_blank"> Hyvä themes</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and <a href="https://hyva.io/hyva-checkout.html" target="_blank"> Hyvä Checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i><br> See MultiSafepay GitHub - <a href="https://github.com/MultiSafepay/magento2-hyva-checkout-multisafepay" target="_blank">Hyvä checkout module.</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-- Magento 2 core checkout: works out of the box, based on the Luma theme
-- <a href="https://www.mageplaza.com/magento-2-one-step-checkout-extension" target="_blank">MagePlaza One Step Checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-- <a href="https://github.com/MultiSafepay/magewire-checkout" target="_blank">Magewire Checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-- <a href="https://www.onestepcheckout.com/" target="_blank">OneStepCheckout.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
---->
+
 <table>
   <tr>
    <th><b>Checkout</b></th>
