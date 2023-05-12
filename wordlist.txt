@@ -120,6 +120,7 @@ Credito
 Cryptocurrencies
 Cryptocurrency
 Cryptographic
+CTAP
 DANKORT
 DAVAMS
 DESTAMOUNT
@@ -262,6 +263,7 @@ MultiSafepay's
 MultiSafepayClient
 MultiSafepayImportedRows
 MyBank
+MCC
 NL
 NOK
 NZD
@@ -338,6 +340,7 @@ SGD
 SHA
 SITENAME
 SITEURL
+SmartPOS
 SMS
 SNS
 SRC
@@ -400,6 +403,7 @@ Viske
 Visma
 Volksbank
 Voordeel
+V Pay
 Vue
 Vuur
 WIP

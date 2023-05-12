@@ -1,0 +1,12 @@
+sequenceDiagram
+    autonumber
+    participant W as Web application 
+    participant T as Terminal
+   
+    W->>T: Initiate payments via the link
+    T->>W:Returns payment status via callback
+    opt Notification
+    T->>W: Configure webhook notification
+    end
+   
+    

@@ -1,0 +1,14 @@
+sequenceDiagram
+
+    autonumber
+    participant N as Native application 
+     participant T as Terminal
+   
+   
+    N->>T: Initiates payment via intent call
+    T->>N: Response for order created
+    opt Notification
+    T->>N: Configure webhook notification
+    end
+   
+    
