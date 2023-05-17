@@ -45,7 +45,7 @@ To see which Apple products are compatible with Apple Pay, see Apple Developer â
 
 ## 2. Request to register 
 
-To request registration for Apple Pay direct, email the relevant site ID to <sales@multisafepay.com>
+To request registration for Apple Pay direct, email the relevant site ID to <support@multisafepay.com>
 
 ## 3. Check for Apple Pay support
 

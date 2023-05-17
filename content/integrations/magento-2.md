@@ -149,9 +149,8 @@ The plugin is compatible with most Magento checkouts.
     <td>By default, OneStepCheckout.com is supported. </td>
   </tr>
 </table>
-
+<br>
 **Note** We recommend testing compatibility with your configuration.
-
 
 For support, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
 
