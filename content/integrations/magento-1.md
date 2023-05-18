@@ -28,7 +28,7 @@ Release date: May 18th, 2023
 + DAVAMS-576: Add Pay After Delivery Installments payment method
 
 ### Removed
-+ DAVAMS-569: Remove Google Analytics tracking ID, within the orderRequest data
++ DAVAMS-569: Remove Google Analytics tracking ID, within the OrderRequest data
 
 **3.4.0**
 Release date: Dec. 15th, 2022
