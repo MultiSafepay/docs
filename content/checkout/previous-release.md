@@ -37,14 +37,14 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
 1. Initialize an `orderData` object, containing information about the customer's <<glossary:order>> collected during the checkout process:
 
-    ```
+     ```javascript
     const orderData = {
         currency: 'EUR',
         amount: 10000,
         customer: {
             locale: 'en',
             country: 'NL',
-            reference: 'Customer123'
+            reference: 's9Q8ikjFJBCX'
         },
         template : {
             settings: {
@@ -72,7 +72,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
 
-    ```
+     ```javascript
     PaymentComponent = new MultiSafepay({
         env: 'test',
         apiToken: apiToken,
@@ -84,7 +84,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
 1. Call the `PaymentComponent.init()` method with the following arguments:
 
-    ```
+    ```javascript
     PaymentComponent.init('payment', {
         container: '#MultiSafepayPayment',
         gateway: '<GATEWAY>',
@@ -142,7 +142,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
 1. To collect the customer's payment details from the payment component UI, call the `PaymentComponent.getPaymentData()` method:
 
-    ```
+    ```javascript
     PaymentComponent.getPaymentData()
     ```
 
@@ -181,7 +181,7 @@ Make a [Create order](/reference/createorder/) > Payment component request from 
 2. Check that `response.success` is `true`.
 
 3. Call the `PaymentComponent.init()` method using the following arguments:
-    ```
+     ```javascript
     PaymentComponent.init('redirection', {
         order: response.data
     });
@@ -196,7 +196,7 @@ Make a [Create order](/reference/createorder/) > Payment component request from 
 When you're ready to process real payments, make the following changes:
 
 1. In [Step 2: Construct the component object](#step-2-initialize-the-component), change the environment from `test` to `live`:
-    ```
+     ```javascript
     PaymentComponent = new MultiSafepay({
         env: 'live',
         apiToken: apiToken,
