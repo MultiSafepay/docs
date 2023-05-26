@@ -53,7 +53,7 @@ We would greatly appreciate it!
 ### Check out our social media pages
 
 - [LinkedIn](https://www.linkedin.com/company/multisafepay)  
-- [Twitter](https://twitter.com/multisafepay)  
+- [Twitter](https://www.twitter.com/multisafepay)  
 - [Facebook](https://www.facebook.com/multisafepay)  
 - [Stackshare](https://stackshare.io/multisafepay/multisafepay)  
 
