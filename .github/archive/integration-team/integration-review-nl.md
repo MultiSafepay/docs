@@ -47,7 +47,7 @@ Wij waarderen dat enorm en zullen u niet vergeten.
 
 ### Sociale media
 - [LinkedIn](https://www.linkedin.com/company/multisafepay)  
-- [Twitter](https://twitter.com/multisafepay)  
+- [Twitter](https://www.twitter.com/multisafepay)  
 - [Facebook](https://www.facebook.com/multisafepay)  
 - [Stackshare](https://stackshare.io/multisafepay/multisafepay)  
  

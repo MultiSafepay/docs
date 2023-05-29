@@ -49,7 +49,7 @@ Add the following elements to your checkout page:
         customer: {
             locale: 'de_De',
             country: 'de',
-            reference: 'Customer123'
+            reference: 's9Q8ikjFJBCX'
         },
         template : {
             settings: {
