@@ -324,7 +324,8 @@ The plugin supports [Payment Components](/docs/payment-components/), which:
 <br>
 
 1. Sign in to your Magento 2 backend.
-2. Go to **Configuration** > **Credit card**, and then click **Configure**.
+2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment Gateways**.
+3. Select the relevant payment methods and then click **Configure**.
 3. Click **Payment type** and select **Credit card component**.
 4. Click **Save config**.
 
