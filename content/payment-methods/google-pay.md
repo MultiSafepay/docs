@@ -126,7 +126,7 @@ Then, apply to MultiSafepay for Google Pay, and activate it in your dashboard.
 
 ### Ready-made integrations
 - Supported in most [ready-made integrations](/docs/our-integrations/) (<<glossary:redirect>>). 
-- Exceptions: Magento 2 and WooCommerce. For these, you can use a generic gateway. See the relevant manual.
+- Exceptions: Magento 2, Shopware 5, and WooCommerce. For these, you can use a generic gateway. See the relevant manual.
 
 ### Testing
 To test Google Pay payments, see Testing payment methods - [Wallets](/docs/testing#wallets).
