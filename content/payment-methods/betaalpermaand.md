@@ -87,7 +87,7 @@ To activate:
 
 ### Ready-made integrations
 - Supported in most [ready-made integrations](/docs/our-integrations/).
-- Exceptions: Lightspeed, Shopify, OsCommerce, PWAs, Vue Storefront, Zen Cart
+- Exceptions: Santander, Shopify, OsCommerce, PWAs, Vue Storefront, Zen Cart
 
 ### Testing
 - You cannot test Betaal per Maand in your MultiSafepay test account. 
