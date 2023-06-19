@@ -9,7 +9,7 @@ slug: "card-payment-errors"
 This page lists card error codes you may encounter in authentication and authorization responses or statuses and descriptions.
 
 **Authentication errors** occur when the person introducing the card details cannot demonstrate that they are the cardholder. Authentication errors can be either technical or non-technical, for example 3DS code inserted incorrectly.
-**Authorization errors:** occur when the issuer bank, schemes or other intermediates reject the authorization (this is possible for both 3DS-verified and non-verified transactions).
+**Authorization errors** occur when the issuer bank, schemes or other intermediates reject the authorization (this is possible for both 3DS-verified and non-verified transactions).
 
 ## Authentication errors
 
