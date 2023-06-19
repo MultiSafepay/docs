@@ -102,6 +102,7 @@ COUNTRYCODE
 CRM
 CSRF
 CSV
+CTAP
 CURRENTDATE
 CVC
 CZK
@@ -350,6 +351,7 @@ ShopFactory
 Shopify
 Shoptrader
 Shopware
+SmartPOS
 SnelKoppeling
 SnelStart
 Sodexo
