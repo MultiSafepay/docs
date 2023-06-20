@@ -57,7 +57,7 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
         customer: {
             locale: 'en',
             country: 'NL',
-            reference: 'Customer123'
+            reference: 's9Q8ikjFJBCX'
         },    
         payment_options: {
             settings: {

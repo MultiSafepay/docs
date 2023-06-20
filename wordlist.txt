@@ -83,6 +83,7 @@ cadeaubon
 cadeaucheque
 CAMT
 CCV
+CVV
 CCVshop
 CEST
 CET
@@ -477,6 +478,7 @@ derden
 di
 dotpay
 dropdown
+dCVV
 ecommerce
 eps
 erotiekbon
@@ -497,6 +499,7 @@ het
 html
 http
 https
+iCVV
 iDEAL
 iframe
 iframes
