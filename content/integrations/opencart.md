@@ -65,7 +65,7 @@ The plugin supports the OpenCart core checkout and is compatible with most premi
 <summary>Patches for third-party themes and extensions</summary>
 <br>
 
-The following patches for third-party themes and extensions are available:
+The table belows shows the patches available for third-party themes and extensions:
 
 | Patch | Download |
 |---|---|

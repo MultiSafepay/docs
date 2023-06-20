@@ -12,7 +12,7 @@ slug: 'prestashop-1-7'
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official/releases/download/5.8.0/Plugin_PrestaShop_5.8.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official/releases/download/5.10.1/Plugin_PrestaShop_5.10.1.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
@@ -163,6 +163,24 @@ The plugin supports [payment components](/docs/payment-components/), which:
 💬 Support: If you're new to accepting credit card payments, email a request to activate them to <risk@multisafepay.com>
 
 📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+
+</details>
+
+## Payment links
+
+<details id="how-to-generate-payment-links-for-backend-orders">
+<summary>How to generate payment links from back office</summary>
+<br>
+
+1. Sign in to your PrestaShop back office.
+2. Go to **Orders** > **Orders**.
+3. Click on **Add new order** at the top right corner.
+4. To add new order, follow all steps in PrestaShop 8 core reference page - see <a href="https://devdocs.prestashop-project.org/8/development/page-reference/back-office/order/add-new-order/" target="_blank"> PrestaShop back office page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br>
+
+> 📘 **Note:** To successfully generate payment links from the back office, ensure that you have followed the steps below:  
+> Under **Summary** section:
+>   - Select **MultiSafepay** as **Payment**.
+>   - Select **MultiSafepay initialized** as **Order status**.
 
 </details>
 

@@ -9,7 +9,7 @@ slug: 'magento-1'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.4.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.5.1.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 > ⚠️ Action required
 >
@@ -20,6 +20,23 @@ slug: 'magento-1'
 <details id="changelog">
 <summary>Changelog</summary>
 <br>
+
+**3.5.1**
+Release date: Jun. 16th, 2023
+
+### Changed
++ DAVAMS-605: Rename "Credit Card" payment method as "Card payment"
+
+***
+
+**3.5.0**
+Release date: May 18th, 2023
+
+### Added
++ DAVAMS-576: Add Pay After Delivery Installments payment method
+
+### Removed
++ DAVAMS-569: Remove Google Analytics tracking ID, within the OrderRequest data
 
 **3.4.0**
 Release date: Dec. 15th, 2022
