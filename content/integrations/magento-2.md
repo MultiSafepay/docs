@@ -134,7 +134,7 @@ The plugin is compatible with most Magento checkouts.
   </tr>
   <tr>
     <td><a href="https://github.com/hyva-themes/magento2-react-checkout" target="_blank"> Hyvä React checkout </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  </td>
-    <td><a href="https://github.com/MultiSafepay/magento2-hyva-checkout-multisafepay" target="_blank"> Hyvä checkout module</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i></td>
+    <td><a href="https://github.com/MultiSafepay/magento2-react-checkout-multisafepay" target="_blank"> Hyvä checkout module</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i></td>
   </tr>
   <tr>
     <td><a href="https://www.mageplaza.com/magento-2-one-step-checkout-extension" target="_blank">MagePlaza One Step checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> </td>
