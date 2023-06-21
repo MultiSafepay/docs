@@ -23,7 +23,7 @@ The table below sets out the expiration time per payment method:
 | Alipay  | 5 hours  |
 | Alipay+| 10 minutes on Alipay+, after 1 hour in our system |
 | Apple Pay| 1 hour   |
-| Bancontact| Banking: 1 hour, QR: Doesn't apply  |
+| Bancontact| Banking: 1 hour  |
 | Bank transfer| 60 days  |
 | Belfius| 5 days   |
 | Betaal per Maand| 1 day |
