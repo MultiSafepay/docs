@@ -18,13 +18,15 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 ✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Sign in to your CCV Shop <<glossary:backend>> and install the MultiSafepay app from the App Store.
-2. Go to **Mijn webshop** > **Instellingen** > **Bestelproces & voorraad** > **Betaalmethoden**.
-3. In the **Electronische betalingen** tab, select **MultiSafepay**.
-4. Enter your [account ID, site ID and security code](/docs/sites#site-id-api-key-and-security-code).
-5. If using your MultiSafepay test account, select **Test mode**.
-6. Click **Synchroniseer betaalmethodes met MultiSafepay**, and then click **Save**.
+2. Enter your [site API key](/docs/sites#site-id-api-key-and-security) and then click **Install**.
+**Note:** Your MultiSafepay environment is based on your API Key.
+3. To enable refunds:
+- Click **Edit**, and then click the **Enable/disable automatic refunds** toggle. 
+- Click **Update**.
+4. To update payment methods,
+- Click **Edit**, and then click **Update payment methods**. 
+- Click **Update**.
 <br>
-
 ___
 
 # User guide
@@ -35,20 +37,48 @@ ___
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/card-payments/)
-- Wallets: [PayPal](/docs/paypal/)
+- Cards: [All](/docs/card-payments/) 
+- BNPL:
+  - [Betaal per Maand (Santander)](/docs/betaal-per-maand)
+  - [E-invoicing](/docs/E-invoicing/)
+  - [in3](/docs/in3)
+  - [Klarna](/docs/klarna)
+  - [Pay After Delivery](/docs/pay-after-delivery)
+  - [Riverty (AfterPay)](/docs/riverty)
 - Banking methods:
-    - [Bancontact](/docs/bancontact/)
-    - [Bank transfer](/docs/bank-transfer/)
-    - [Giropay](/docs/giropay/)
-    - [iDEAL](/docs/ideal/)
-    - [Sofort](/docs/sofort/)
+  - [Bancontact](/docs/bancontact/)
+  - [Bank transfer](/docs/bank-transfer/)
+  - [Belfius](/doc/belfius)
+  - [Direct debit](/doc/direct-debit)
+  - [Dotpay](/docs/dotpay)
+  - [EPS](/doc/eps)
+  - [Giropay](/docs/giropay/)
+  - [iDEAL](/docs/ideal/)
+  - [CBC/KBC](/doc/cbc-kbc)
+  - [MyBank](/docs/mybank)
+  - [Request to Pay](/doc/request-to-pay)
+  - [Sofort](/docs/sofort/)
+  - [Trustly](/doc/trustly)
+  - [TrustPay](/doc/trustpay)
+- Prepaid cards:
+  - [Edenred](/docs/edenred)
+  - [Paysafecard](/docs/paysafecard)
+- Wallets: 
+  - [Alipay](/docs/alipay)
+  - [Alipay+](/docs/alipay-plus)
+  - [Amazon Pay](/docs/amazon-pay)
+  - [Google Pay](/docs/google-pay)
+  - [PayPal](/doc/paypal)
+  - [WeChat Pay](/doc/wechat-pay)
 
 </details>
 
 ## Refunds
 
-You can process refunds from your MultiSafepay dashboard, but not in your <<glossary:backend>>.
+You can process refunds from your MultiSafepay dashboard, and <<glossary:backend>>.
+
+**Note:** To process refunds from your <<glossary:backend>>, you need to have refunds enabled in your MultiSafepay app.
+
 <br>
 
 ---
