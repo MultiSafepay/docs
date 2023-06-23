@@ -97,7 +97,7 @@ For questions, email <integration@multisafepay.com>
 - Cards: [All](/docs/card-payments/)
 - Banking methods: All, except iDEAL QR
 - <<glossary:BNPL>>: All
-- Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/),  [Google Pay](/docs/google-pay), and [PayPal](/docs/paypal/)
+- Wallets: [Alipay](/docs/alipay/), [Amazon Pay](/docs/amazon-pay/), [Apple Pay](/docs/apple-pay/),  [Google Pay](/docs/google-pay), and [PayPal](/docs/paypal/), [WeChat Pay](/docs/wechat-pay/),
 - Prepaid cards:
     - Beauty and Wellness gift card
     - <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
