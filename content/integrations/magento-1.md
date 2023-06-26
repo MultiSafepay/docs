@@ -987,8 +987,9 @@ All expired orders retain **Waiting** status until you cancel them:
 1. Sign in to your Magento 1 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **MultiSafepay settings**.
 
-**Credit cards**
-Recurring Payments are not available for the generic credit card gateway. You must enable the Visa, Mastercard, and/or Maestro gateways separately. This displays the **Save card** option at checkout.
+**Card payments**
+
+Recurring Payments are not available for the generic card payments gateway. You must enable the Visa, Mastercard, and/or Maestro gateways separately. This displays the **Save card** option at checkout.
 
 </details>
 

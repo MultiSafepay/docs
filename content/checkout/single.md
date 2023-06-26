@@ -156,7 +156,7 @@ Add the following elements to your checkout page:
     | Bank transfer | `BANKTRANS` |
     | Bancontact | `MISTERCASH` |
     | Betaal per maand | `SANTANDER` |
-    | Credit cards |`CREDITCARD`|
+    | Card payments |`CREDITCARD`|
     | Direct debit | `DIRDEB` |
     | iDEAL|`IDEAL`|
     | In3 | `IN3`

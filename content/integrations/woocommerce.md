@@ -274,7 +274,7 @@ You need to [activate recurring payments](/docs/recurring-payments/) and then en
 
 1. Sign in to your Wordpress backend.
 2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** 
-3. Select relevant credit cards, and then click **Manage**.
+3. Select relevant card payments, and then click **Manage**.
 4. Select the checkbox for **Payment components** and **Tokezation**.
 5. Click **Save changes**.
 

@@ -146,7 +146,7 @@ This report provides insight (in Excel format) into your conversion rate. You ca
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Reports** > **Advanced reporting** > **Credit cards conversion**.
+2. Go to **Reports** > **Advanced reporting**.
     - Under **Date**, select the date range you want the report to cover.
     - Under **Currency**, select the relevant currency.
     - Under **Site** and **Site 2**, specify one or two sites (if relevant).

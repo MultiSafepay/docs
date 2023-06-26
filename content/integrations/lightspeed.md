@@ -153,7 +153,7 @@ Lightspeed supports [Payment Components](/docs/payment-components/), which:
 2. Go to **Settings**.
 3. Scroll down to **Enable MultiSafepay Checkout scripts** and select **Enabled script** checkbox.
 4. To activate payment component:
-- Go to **Credit cards**.
+- Go to **Card payment**.
 - Scroll down to **Enable MultiSafepay Components** and select **Enabled** checkbox.
 5. Click **Save**.
 
