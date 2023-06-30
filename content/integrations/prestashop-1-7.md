@@ -230,7 +230,7 @@ The plugin supports [recurring payments](/docs/recurring-payments).
 
 1. Sign in to your PrestaShop 1.7 backend. 
 2. Go to **MultiSafepay** > **Payment methods** tab.  
-3. Select either the bundled credit cards <<glossary:gateway>>, **or** select specific credit cards. 
+3. Select either the bundled card payments <<glossary:gateway>>, **or** select specific card. 
 4. Set the **Enable tokenization** toggle to **Enabled**.
 5. Click **Save**.
 

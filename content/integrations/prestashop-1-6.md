@@ -167,7 +167,7 @@ Payment links generated manually in your MultiSafepay dashboard don't automatica
 
 1. Sign in to your PrestaShop 1.6 backend. 
 2. Go to **Modules and services** > **Modules and services** 
-3. Select either the bundled credit cards <<glossary:gateway>>, **or** select specific credit cards.
+3. Select either the bundled card payments <<glossary:gateway>>, **or** select specific card.
 4. Click **Configure**.
 5. Set the **Tokenization** field to **Yes**.
 6. Click **Save**.

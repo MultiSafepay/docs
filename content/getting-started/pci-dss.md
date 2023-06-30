@@ -8,7 +8,7 @@ slug: 'pci-dss'
 excerpt: 'Payment Card Industry Data Security Standard'
 ---
 
-The PCI DSS is an information security standard mandated by major card schemes, which applies to organizations that handle branded credit cards. The standard is administered by the Payment Card Industry Security Standards Council.
+The PCI DSS is an information security standard mandated by major card schemes, which applies to organizations that handle branded cards. The standard is administered by the Payment Card Industry Security Standards Council.
 
 Under the PCI DSS, payment service providers and businesses that handle credit card data must follow extensive security protocols and data management practices to protect customers and merchants. 
 

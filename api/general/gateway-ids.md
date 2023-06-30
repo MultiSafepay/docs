@@ -18,7 +18,7 @@ hidden: false
 | Belfius                                | `BELFIUS`     |
 | Betaal per Maand                       | `SANTANDER`   |
 | CBC/KBC                                | `CBC` / `KBC` |
-| Credit cards                           | `CREDITCARD`  |
+| Card payments                          | `CREDITCARD`  |
 | Dotpay                                 | `DOTPAY`      |
 | Edenred                                | `EDENCOM`     |
 | E-Invoicing                            | `EINVOICE`    |
