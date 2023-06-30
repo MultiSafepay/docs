@@ -107,7 +107,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 <summary>How to activate payment components</summary>
 <br>
 
-If you're new to accepting credit card payments, email a request to activate them to <risk@multisafepay.com>
+If you're new to accepting card payments, email a request to activate them to <risk@multisafepay.com>
 
 1. Sign in to your OpenCart 4 <<glossary:backend>>.
 2. Go to **Extensions** > **Extensions** > **Payments** > **MultiSafepay** > **Edit Icon**.

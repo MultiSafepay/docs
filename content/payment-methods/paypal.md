@@ -19,7 +19,7 @@ slug: 'paypal'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/paypal.svg" width="125" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a href="https://www.paypal.com/nl/home" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a leading global payment method that lets customers pay by credit card or create a digital wallet linked to multiple payment methods.
+<a href="https://www.paypal.com/nl/home" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a leading global payment method that lets customers pay by credit or debit card or create a digital wallet linked to multiple payment methods.
 
 Read how PayPal can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/paypal" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 

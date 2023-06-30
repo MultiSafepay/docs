@@ -149,7 +149,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 4. Set the **Use Payment component** toggle to **Yes**.
 5. Click **Save**.
 
-💬 Support: If you're new to accepting credit card payments, email a request to activate them to <risk@multisafepay.com>
+💬 Support: If you're new to accepting card payments, email a request to activate them to <risk@multisafepay.com>
 
 </details>
 

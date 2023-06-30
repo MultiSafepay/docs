@@ -13,7 +13,7 @@ They are completely secure, [Fuhrmann-2 compliant](/docs/fuhrmann2/), fully mobi
 
 A customer selects a payment method at checkout, and is redirected to a secure page to complete payment with a URL starting with `payv2.multisafepay.com`.
 
-If you specify a payment method <<glossary:gateway>>, the page is tailored for that payment method. For example, for Visa, the page includes fields for the customer to enter their credit card details.  
+If you specify a payment method <<glossary:gateway>>, the page is tailored for that payment method. For example, for Visa, the page includes fields for the customer to enter their card details.  
 
 If you don't specify a gateway, all payment methods enabled in your account appear on the payment page.
 

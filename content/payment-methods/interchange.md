@@ -8,7 +8,7 @@ excerpt: 'A pricing model used by banks and card schemes.'
 slug: interchange
 ---
 
-Banks and <<glossary:card schemes>> all charge different fees to cover the operational costs of managing their network and processing credit card payments.
+Banks and <<glossary:card schemes>> all charge different fees to cover the operational costs of managing their network and processing card payments.
 
 There are three cost components for the Interchange++ model:
 

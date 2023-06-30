@@ -243,7 +243,7 @@ You can also test the following scenarios:
 
 1. [Create an order](/reference/createorder/) > Card order.  
     See also the Examples for the specific <<glossary:card scheme>>.  
-    For co-branded cards, see the Credit card redirect example. In the `customer` object, set the `locale` parameter:
+    For co-branded cards, see the Card payment redirect example. In the `customer` object, set the `locale` parameter:
     - Cartes Bancaires: `fr_FR` 
     - Dankort: `da_DK`
     - Postepay: `it_IT`
@@ -623,7 +623,7 @@ If these requirements are not met, Apple Pay doesn't appear on the checkout page
 
 To test your Apple Pay <<glossary:redirect>> integration, there are two ways:
 
-- If you have an Apple account with at least one credit card in your wallet, you can use your own account and card details in our test environment without incurring any costs.
+- If you have an Apple account with at least one card in your wallet, you can use your own account and card details in our test environment without incurring any costs.
 - Alternatively, you can use an <a href="https://developer.apple.com/apple-pay/sandbox-testing" target="_blank">Apple Developer account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> configured for Apple Pay, with at least one Apple Pay test card in your wallet.
 
 To test, follow these steps:

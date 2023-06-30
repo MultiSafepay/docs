@@ -85,7 +85,7 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     | customer.country | No | The customer's country code. Used to validate the availability of the payment method. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL` |
     | customer.locale | No | The customer's language. Sets the language of the payment component UI. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO 639</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> Supported languages: `en`, `es`, `fr`, `it`, `nl` |
     | customer.reference | Yes, for recurring payments | Your unique customer reference. |
-    | payment_options.settings.connect.group_cards | No | Groups all credit card payment methods as a single option in the list of payment methods. <br> Format: Boolean <br> Default: `false`.|
+    | payment_options.settings.connect.group_cards | No | Groups all card payment methods as a single option in the list of payment methods. <br> Format: Boolean <br> Default: `false`.|
     | recurring.model | Yes, for recurring payments | The [recurring model](/docs/recurring-payments/). |
     | template.settings.embed_mode | No | A template designed to blend in seamlessly with your ecommerce platform. <br> Format: Boolean |
 
@@ -125,9 +125,9 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     > 
     > Your payment component now automatically renders a checkbox where customers can choose whether they would like to store their payment details for future visits.
 
-    Recurring payments are supported for all credit card payments.
+    Recurring payments are supported for all card payments.
 
-    📘 **Note:** For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
+    📘 **Note:** To test card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
 
     To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email <sales@multisafepay.com>
 

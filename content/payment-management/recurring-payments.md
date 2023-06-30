@@ -122,7 +122,7 @@ Our [ready-made integrations](/docs/our-integrations/) use `cardOnFile` only.
 
 ## Ready-made integrations
 
-You must have **both** credit card payments and recurring payments enabled for your MultiSafepay account.
+You must have **both** card payments and recurring payments enabled for your MultiSafepay account.
 
 <details id="supported-integrations">
 <summary>Supported integrations</summary>

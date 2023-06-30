@@ -160,7 +160,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 4. Set **Enable payment component** toggle to **Enabled**.
 5. Click **Save**.
 
-💬 Support: If you're new to accepting credit card payments, email a request to activate them to <risk@multisafepay.com>
+💬 Support: If you're new to accepting card payments, email a request to activate them to <risk@multisafepay.com>
 
 📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 

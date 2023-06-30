@@ -36,7 +36,7 @@ There you can see your:
 
 # Uncaptured balance
 
-You can set your daily balance report to include the balance of uncaptured transactions (status: **Uncleared**). This is particularly useful if you offer <<glossary:BNPL>> and/or credit card payment methods. 
+You can set your daily balance report to include the balance of uncaptured transactions (status: **Uncleared**). This is particularly useful if you offer <<glossary:BNPL>> and/or card payment methods. 
 
 To activate this feature in your daily balance report, email a request to <sales@multisafepay.com>
 <br>

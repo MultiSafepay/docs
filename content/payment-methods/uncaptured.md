@@ -60,7 +60,7 @@ The following indicators paint a cumulative picture of uncaptured payments, but 
 <summary>3D Secure</summary>
 <br>
 
-[3D Secure](/docs/3ds2/) is an authentication protocol for verifying the cardholder's identity, e.g. with an additional password or code, or a credit card reader. If the customer passes authentication, you are protected against fraud-related [chargebacks](/docs/chargebacks/).
+[3D Secure](/docs/3ds2/) is an authentication protocol for verifying the cardholder's identity, e.g. with an additional password or code, or a card reader. If the customer passes authentication, you are protected against fraud-related [chargebacks](/docs/chargebacks/).
 
 Check if the customer is enrolled for 3D Secure. On the **Transaction details** page > **Risk summary**, their status displays as **Enrolled**.  
  
@@ -88,7 +88,7 @@ Consider:
 - In case of doubt, contact the customer. Have you ever had contact with them before? What is your impression of them?
 - Ask if the customer is willing to complete the order using a different payment method with a
 payment guarantee, such as a bank transfer. 
-- You can also ask the customer for a copy of their ID card and/or a credit card statement to verify that they are the cardholder.
+- You can also ask the customer for a copy of their ID card and/or a card statement to verify that they are the cardholder.
 
 In many cases, the cardholder did initiate the transaction, but that is no guarantee it is not fraudulent.
 
@@ -98,7 +98,7 @@ In many cases, the cardholder did initiate the transaction, but that is no guara
 <summary>Location</summary>
 <br>
 
-Does the country address match the location of the IP address and country where the credit card was issued? Discrepancies are often easily explained, e.g. vacations or business trips. 
+Does the country address match the location of the IP address and country where the card was issued? Discrepancies are often easily explained, e.g. vacations or business trips. 
 
 We recommend comparing where payments were made to where the card was initially issued. Pay attention to locations that are far apart, particularly if one is in a high-risk area.
 
