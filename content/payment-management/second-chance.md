@@ -145,7 +145,6 @@ This only applies to certain payment methods:
 | Banking methods, except direct debits | Direct debits |
 | Gift cards | Edenred, Paysafecard |
 | Wallets | PayPal – Links are valid for 14 days. The lifetime is set by PayPal. |
-| Credit cards |  |
 
 </details>
 

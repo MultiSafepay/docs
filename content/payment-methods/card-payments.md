@@ -11,9 +11,9 @@ parentDoc: 62a727569e389a012f577acd
 <summary>About credit and debit cards</summary>
 <br>
 
-Credit cards are issued by a bank, building society, or <<glossary:card scheme>> and let customers pay on credit. Debit cards are issued by a bank and let customers transfer funds directly from their bank account. Cardholders can pay for products or services at a point of sale, online, or on a mobile app. They can also withdraw cash, or link their card to digital wallets or other local payment methods.
+Cards are issued by a bank, building society, or <<glossary:card scheme>> and let customers pay on credit. Debit cards are issued by a bank and let customers transfer funds directly from their bank account. Cardholders can pay for products or services at a point of sale, online, or on a mobile app. They can also withdraw cash, or link their card to digital wallets or other local payment methods.
 
-Credit cards are a very common payment method in many countries. Their widespread acceptance, ease of use, and ability to process payments in multiple currencies make them the ideal choice for many customers.
+Cards are a very common payment method in many countries. Their widespread acceptance, ease of use, and ability to process payments in multiple currencies make them the ideal choice for many customers.
 
 Cards may feature:
 
