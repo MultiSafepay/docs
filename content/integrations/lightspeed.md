@@ -35,14 +35,9 @@ slug: 'lightspeed'
 4. Click the app, and then **Install app** in the top-right corner.  
 5. In the dialog, approve the permissions required for the app.  
    You are redirected to Lightspeed – <a href="https://lightspeed.multisafepay.com/install" target="_blank">MultiSafepay: How to log in</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-6. In the **Setup** page:
-  - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
-  - Select **Test** or **Live** environment, and then click **Save and continue**.  
+6. In the **Setup** page, enter your [API key](/docs/sites#site-id-api-key-and-security-code).  
 You are redirected to the **Settings** page.
-7. We recommend enabling:
-  - Refunds
-  - MultiSafepay checkout scripts – Creates a list of iDEAL <<glossary:issuers>>, and suppresses Apple Pay for non-Apple devices.
-8. Verify the other settings, and then click **Save**.  
+7. Click **Save**.  
 <br>
 
 ---
@@ -60,6 +55,7 @@ You can change your [site API key](/docs/sites/#site-id-api-key-and-security-cod
 1. Sign in to the app.
 2. Tap the hamburger menu and go to **Environment**.
 3. Edit your **API key** and/or the **Environment**.
+Your enviroment is based on the API key.
 
 </details>
 
@@ -73,7 +69,8 @@ This app is tested using the default 1-step and 1-page checkout using the defaul
 
 To change the order in which payment methods appear on your checkout page, follow these steps:
 
-1. Go to **Settings** > **Payment method settings**. 
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Settings** > **Payment method settings**. 
 2. Drag and drop the payment methods to the preferred order.
 3. Click **Save**.
 
@@ -113,7 +110,7 @@ To view your shop ID, follow these steps:
 
 </details>
 
-## Order amounts
+<!--## Order amounts
 
 <details id="how-to-set-maximum-minimum-order-amounts">
 <summary>How to set maximum/minimum order amounts</summary>
@@ -136,6 +133,7 @@ To set different maximum/minimum order amounts for different languages, under th
 If no specific rule is set for a language, **Default** language is used.
 
 </details>
+-->
 
 ## Payment components
 
@@ -395,7 +393,7 @@ Lightspeed single sign-on lets you sign in to the app's **Settings** directly fr
 
 </details>
 
-## Surcharges
+<!--## Surcharges
 
 <details id="how-to-apply-surcharges">
 <summary>How to apply surcharges</summary>
@@ -416,7 +414,7 @@ Lightspeed single sign-on lets you sign in to the app's **Settings** directly fr
 
 ## Updates
 
-You don't need to manually update the app. 
+You don't need to manually update the app. -->
 
 ## Upgrades
 
