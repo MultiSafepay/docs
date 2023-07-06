@@ -1,9 +1,9 @@
 ---
 title: 'SmartPOS features'
+parentDoc: 64674fbc74bc4007521ebbcb
 category: 6477597e0e2961004638cd5d
 order: 1
 hidden: false
-parentDoc: 64674fbc74bc4007521ebbcb
 slug: 'smartPOS-features'
 
 ---

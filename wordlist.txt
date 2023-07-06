@@ -1,4 +1,5 @@
 aan
+Acquiris
 ABN
 ABNA
 ACA
@@ -120,6 +121,7 @@ Credito
 Cryptocurrencies
 Cryptocurrency
 Cryptographic
+CTAP
 DANKORT
 DAVAMS
 DESTAMOUNT
@@ -230,6 +232,7 @@ Liefcadeaukaart
 Lightspeed
 LogiVert
 maaltijdcheques
+MCC
 MERCHANTCITY
 MERCHANTCOUNTRY
 MERCHANTLOGOHTML
