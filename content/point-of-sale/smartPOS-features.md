@@ -1,6 +1,6 @@
 ---
 title: 'SmartPOS features'
-category: 6465ecf2ab2f6510645ed927
+category: 6477597e0e2961004638cd5d
 order: 1
 hidden: false
 parentDoc: 64674fbc74bc4007521ebbcb
