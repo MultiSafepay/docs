@@ -1,33 +1,59 @@
 ---
-title: "Card errors"
+title: "Card payment errors"
 category: 6298bd782d1cf4006032e765
 order: 26
 hidden: false
 parentDoc: 62a727569e389a012f577acd
-slug: "card-errors"
+slug: "card-payment-errors"
 ---
-This page sets out reasons for common credit card errors returned by <<glossary:issuers>> and recommended actions.
+This page lists card error codes you may encounter in authentication and authorization responses or statuses and descriptions.
+
+**Authentication errors** occur when the person introducing the card details cannot demonstrate that they are the cardholder. Authentication errors can be either technical or non-technical, for example 3DS code inserted incorrectly.
+**Authorization errors:** occur when the issuer bank, schemes or other intermediates reject the authorization (this is possible for both 3DS-verified and non-verified transactions).
+
+## Authentication errors
+
+This table lists the most common 3DS authentication failed errors response and descriptions.
+
+In these cases, neither MultiSafepay nor the merchant can take specific actions to unblock the transaction. Advise the cardholder to contact their bank if the reason for the error is unclear to them.
+
+| Code     | Card error                                                         |
+| :-------- | :----------------------------------------------------------------------- |
+| **3001** | 3DS Authentication Failed / Card authentication failed.                  |
+| **3002** | 3DS Authentication Failed / Unknown device.                              |
+| **3003** | Authentication Failed / Unsupported device.                              |
+| **3004** | 3DS Authentication Failed / Exceeds authentication frequency limit.      |
+| **3005** | 3DS Authentication Failed / Expired card.                                |
+| **3006** | 3DS Authentication Failed / Invalid card number.                         |
+| **3007** | 3DS Authentication Failed / Invalid transaction.                         |
+| **3008** | 3DS Authentication Failed / No Card record.                              |
+| **3009** | 3DS Authentication Failed / Security failure.                            |
+| **3010** | 3DS Authentication Failed / Stolen card.                                 |
+| **3011** | 3DS Authentication Failed / Suspected fraud.                             |
+| **3012** | 3DS Authentication Failed / Transaction not permitted to the cardholder. |
+
+## Authorization errors
+
+The table below lists common card errors returned by <<glossary:issuers>> and recommended actions.
 
 If the issue can't be resolved, ask the cardholder for another card number or to use a different payment method.
 
+| Code | Card error | Description| Action recommended|
+| :-------- | :--------| :--------|:---------- |
+| **4001** | Do not honor |The issuer has flagged a problem with the card.|**Cardholder:** Contact the issuer.|
+| **4002** | Insufficient funds | The cardholder has exceeded their maximum daily credit limit.| **Cardholder:** Contact the issuer to increase your credit limit or pay into your account to make more credit available. Once resolved, reattempt.<br> **Merchant:** Consider implementing a partial authorization service to accept a lesser amount than requested. |
+| **4003** | Suspected fraud | There is a security violation, suspected fraud, or the card is temporarily blocked. | **Cardholder:**  Contact the issuer. |
+| **4004** | Soft decline | Authentication required.| **Cardholder:**  Contact the issuer. |
+| **4005** | Expired card, **or** Invalid Account Number | The card may have expired, or the account may be invalid or closed. |**Cardholder:**  Check the expiry date or try another card.<br> **Merchant:**  Do not reattempt. Make sure you update any recurring payments with the new card details. |
+| **4999** | Declined | See below for a description. | See below for the action required. |
 
-| Card error | Description | Action |
-|---|---| --- |
-| **4001:**  Do not honor | The issuer has flagged a problem with the card. | **Cardholder:** Contact the issuer  |   
-| **4002:** Insufficient funds | The cardholder has exceeded their maximum daily credit limit. | **Cardholder:** Contact the issuer to increase your credit limit or pay into your account to make more credit available. Once resolved, reattempt.<br>**Merchant:** Consider implementing a partial authorization service to accept a lesser amount than requested.|
-| **4003:** Suspected fraud| There is a security violation, suspected fraud, or the card is temporarily blocked. | **Cardholder:**  Contact the issuer. |
-| **4004:** Soft decline|  Authentication required. | **Cardholder:**  Contact the issuer.|
-| **4005:** Expired card, **or** Invalid Account Number| The card may have expired, or the account may be invalid or closed. | **Cardholder:**  Check the expiry date or try another card.<br>**Merchant:**  Do not reattempt. Make sure you update any recurring payments with the new card details.|
-|**4999:** Declined| See below for a description. | See below for the action required. | 
-
-<br>
 <details>
 
 <summary>  Specific reason codes for <b>4999</b> Declined error</summary>
  <br>
 
 | Card error | Description | Action |
-|---|---| --- |
+|:---|:---| :--- |
 | **Refer to the card issuer** | The issuer wants to check the transaction. | **Cardholder:** Contact the issuer to complete the transaction. |
 | **Invalid merchant or service provider** | The issuer restricts the merchant or service provider.| **Cardholder:** Contact the issuer.|
 | **Pick up the card** | The transaction was declined because the cardholder's account was closed or blocked.|  **Cardholder:**  Contact the issuer to complete the transaction |
