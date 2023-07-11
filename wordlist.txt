@@ -250,6 +250,7 @@ Maintransaction
 Mastercard
 Mastercard's
 Mc
+MCC
 Mijn
 MijnDomein
 Mijnwebwinkel
@@ -271,6 +272,7 @@ Nationale verwen cadeaubon
 Nederland
 Nname
 NodeJS
+OrderRequest
 OFBiz
 ORRTIZ
 Odoo
@@ -340,6 +342,7 @@ SGD
 SHA
 SITENAME
 SITEURL
+SmartPOS
 SMS
 SNS
 SRC
