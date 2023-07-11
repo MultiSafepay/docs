@@ -352,6 +352,7 @@ ShopFactory
 Shopify
 Shoptrader
 Shopware
+SmartPOS
 SnelKoppeling
 SnelStart
 Sodexo
