@@ -1,0 +1,13 @@
+sequenceDiagram
+
+    autonumber
+    participant W as Web applications 
+    participant T as Terminal
+   
+    W->>T: Initiates payment 
+    T->>W:Returns payment status via callback
+    opt 
+    W->>T: Webhook
+    end
+   
+    
