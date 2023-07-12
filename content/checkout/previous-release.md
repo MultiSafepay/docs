@@ -104,7 +104,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
     |Payment method|Gateway IDs|
     |---|---|
-    |Credit card|`CREDITCARD`|
+    |Card payments|`CREDITCARD`|
     |iDEAL|`IDEAL`|
 
     </details>

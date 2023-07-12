@@ -239,7 +239,7 @@ Magento Vault enables you to use <a href="https://magento.com/innovations-lab/in
 <summary>How it works</summary>
 <br>
 
-1. After filling out their credit card number, CVC, and expiry date at checkout, customers can give permission to store these details for future payments. 
+1. After filling out their card number, CVC, and expiry date at checkout, customers can give permission to store these details for future payments. 
 2. MultiSafepay encrypts the sensitive payment details and stores the encrypted version on our secure, GDPR compliant servers. 
 3. We return a non-sensitive identifier for the payment details, known as a token, which can only be used in your Magento webshop. 
 4. The token is automatically stored in your Magento Vault. 
@@ -326,7 +326,7 @@ The plugin supports [Payment Components](/docs/payment-components/), which:
 1. Sign in to your Magento 2 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment Gateways**.
 3. Select the relevant payment methods and then click **Configure**.
-3. Click **Payment type** and select **Credit card component**.
+3. Click **Payment type** and select **Card payment component**.
 4. Click **Save config**.
 
 📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.

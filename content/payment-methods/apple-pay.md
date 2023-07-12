@@ -21,7 +21,7 @@ Read how Apple Pay can benefit your business on <a href="https://www.multisafepa
 | [Currencies](/docs/currencies/) | AED, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EUR, GBP, HKD, HRK, HUF, ILS, INR, ISK, JPY, KRW, MXN, MYR, NOK, NZD, PEN, PHP, PLN, RON, RUB, SEK, SGD, THB, TRY, TWD, UAH, USD, VEF, ZAR <br> For more information, see Apple - <a href="https://support.apple.com/en-us/HT207957" target="_blank">Multiple</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. | 
 | [Chargebacks](/docs/chargebacks/) | Yes | 
 | [Payment pages](/docs/payment-pages/) | Yes (current version only)  |
-| [Refunds](/docs/refund-payments/) | Yes: Full and partial <br> Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial <br> Customers receive refunds in their Apple Pay account, and they appear on their card statement within the next business day.  |
 | [Second Chance](/docs/second-chance/) | Yes |
 <br>
 

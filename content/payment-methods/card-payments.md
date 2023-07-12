@@ -116,7 +116,7 @@ In the `customer` object, set the `locale` parameter:
 
 #### Generic gateway
 - The generic `CREDITCARD` gateway bundles all cards activated for your account into a single gateway to save space in your checkout. The [payment page](/docs/payment-pages/) automatically detects the specific card scheme based on the first 4 digits of the card number the customer enters. 
-- See Examples > Credit card redirect. 
+- See Examples > Card payment redirect. 
 
 ### Ready-made integrations
 All our [ready-made integrations](/docs/our-integrations/) support: 

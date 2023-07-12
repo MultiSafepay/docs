@@ -108,9 +108,9 @@ Add the following elements to your checkout page:
     > 
     > Your payment component now automatically renders a checkbox where customers can choose whether they would like to store their cardholder data for future visits. 
 
-    Recurring payments are supported for all credit card payments.
+    Recurring payments are supported for all card payments.
 
-    📘 **Note:** For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
+    📘 **Note:** To test card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
 
     To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email <sales@multisafepay.com>
 

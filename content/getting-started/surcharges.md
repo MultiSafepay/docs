@@ -22,7 +22,7 @@ In the Netherlands, the <a href="https://www.acm.nl" target="_blank">Authority f
 
 Surcharges are banned for both individual and business customers on:
 
-- Most credit card transactions when the bank/card <<glossary:issuer>> and the merchant's <<glossary:PSP>> are both located within the EEA
+- Most card transactions when the bank/card <<glossary:issuer>> and the merchant's <<glossary:PSP>> are both located within the EEA
 - Debit card transactions 
 - Standard bank transfers 
 - Direct debits 
@@ -34,7 +34,7 @@ You do **not** need to change any settings in your MultiSafepay dashboard.
 
 Surcharges are permitted for:
 
-- Card payments with cards issued outside the EEA, e.g. a tourist with a credit card issued in India
+- Card payments with cards issued outside the EEA, e.g. a tourist with a card issued in India
 - Hybrid <<glossary:card schemes>> such as American Express: Each EU state can decide whether to permit surcharging. Under Dutch law, surcharges **are** permitted.
 - [PayPal](/docs/paypal/) and <<glossary:BNPL>> methods: You can only charge customers for the actual cost you incur for using the payment method and no more.
 

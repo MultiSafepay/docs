@@ -7,13 +7,13 @@ parentDoc: 62a727569e389a012f577acd
 slug: 'chargebacks'
 ---
 
-Chargeback is a process of dispute that occurs when a cardholder disagrees with or doesn't recognize a transaction charged to their credit card and requests the <<glossary:issuer>> to reverse it. The <<glossary:card scheme>> notifies MultiSafepay and reclaims your transaction amount.
+Chargeback is a process of dispute that occurs when a cardholder disagrees with or doesn't recognize a transaction charged to their credit or debit card and requests the <<glossary:issuer>> to reverse it. The <<glossary:card scheme>> notifies MultiSafepay and reclaims your transaction amount.
 
 When a customer requests a chargeback, an alert to review it appears on your dashboard homepage.
 
-# Credit card chargebacks
+# Credit or debit chargebacks
 
-To dispute a chargeback on a credit card, see the process flow below. Click to magnify.
+To dispute a chargeback on a credit or debit card, see the process flow below. Click to magnify.
 
 #### Initial stage
 
@@ -162,7 +162,7 @@ You sent multiple transactions for the same amount.
 
 To dispute this type of chargeback, you need to provide the following:
 
-- Proof that you have already processed a corrective credit card transaction.
+- Proof that you have already processed a corrective card transaction.
 - A fully itemized document that links the cardholder to each charge processed and proves that all transactions are valid.
 
 </details>
@@ -175,7 +175,7 @@ The cardholder received written acknowledgment from you for credit, or they canc
 
 To dispute this type of chargeback, you need to provide the following:
 
-- Proof that you have already processed a corrective credit card transaction 
+- Proof that you have already processed a corrective card transaction 
 - A fully itemized document that links the cardholder to each charge processed and proves that all transactions are valid
 - Screenshots of your cancellation policy 
 - Evidence that:
@@ -203,7 +203,7 @@ To dispute this chargeback, you need to prove that the cardholder's payment was 
 
 American Express asked you to provide documents to support a charge queried by a cardholder, but you have yet to respond.
 
-To dispute this chargeback, you must provide proof that you have already processed a corrective credit card transaction.
+To dispute this chargeback, you must provide proof that you have already processed a corrective card transaction.
 
 </details>
 
@@ -555,11 +555,11 @@ To dispute this type of chargeback, you need to provide the following:
 
 Card schemes generally allow cardholders to request chargebacks for up to 180 days after the transaction. However, if you require a longer period (e.g., for annual subscriptions paid in advance), you may be able to negotiate this with the card scheme.
 
-By offering credit card payment methods, you agree to the cardholder rights guaranteed by the card schemes.
+By offering card payment methods, you agree to the cardholder rights guaranteed by the card schemes.
 
 # Amazon Pay chargebacks
 
-If an Amazon customer requests a chargeback from their bank or credit card issuer for an Amazon Pay payment, Amazon Pay notifies you by email. If you do not respond within 11 calendar days, then Amazon Pay automatically debits the chargeback amount from your Amazon Payments merchant account.
+If an Amazon customer requests a chargeback from their bank or card issuer for an Amazon Pay payment, Amazon Pay notifies you by email. If you do not respond within 11 calendar days, then Amazon Pay automatically debits the chargeback amount from your Amazon Payments merchant account.
 
 For more information, see Amazon Pay - <a href="https://pay.amazon.eu/help/201749650" target="_blank">Handling chargebacks</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -567,7 +567,7 @@ For more information, see Amazon Pay - <a href="https://pay.amazon.eu/help/20174
 
 Customers can request a chargeback within 56 days or for unauthorized transactions (i.e., without verifiable consent from the customer) within 13 months. Chargebacks can cost up to 65 EUR in bank fees.
 
-You cannot dispute chargebacks, and there is no facilitated process like there is for credit card chargebacks. 
+You cannot dispute chargebacks, and there is no facilitated process like there is for credit or debit card chargebacks. 
 
 ***
 
@@ -583,7 +583,7 @@ Ways to minimize the most common types of chargeback include:
 <summary>Fraud</summary>
 <br>
 
-Use [3DS2](/docs/3ds2/) for all credit card transactions. 
+Use [3DS2](/docs/3ds2/) for all credit or debit card transactions. 
 
 Cardholders are not allowed to request chargebacks due to fraud for 3D Secure-protected transactions.  
 

@@ -304,7 +304,7 @@ document.location = payment_url
 
 Depending on how the customer's card is stored in their Google Pay account, the URL references your success page, or a 3D Secure authentication page.
 
-If the customer's credit card was stored as:
+If the customer's card was stored as:
 
 - **Token** (`CRYPTOGRAM_3DS`), the `payment_url` redirects to your success page.
 - **Card on file** (`PAN_ONLY`), the `payment_url` may redirect to a 3D Secure authentication page.
