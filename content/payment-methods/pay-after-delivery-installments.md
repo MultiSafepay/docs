@@ -42,11 +42,11 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | MultiSafepay's automated risk analysis is in progress. You can still cancel the transaction. | Initialized | Initialized |
 | MultiSafepay is authorizing the transaction. | Uncleared | Uncleared |  
 | We have authorized the transaction and received the first payment from the customer. You can no longer cancel. You can only refund. <br> See [Close transactions](#close-transactions). | Completed | Uncleared | 
-|The order has been shipped. MultiSafepay has started the collection flow. | Shipped | Uncleared |
+|The order has been shipped. The payout period has started.  | Shipped | Uncleared |
 | MultiSafepay has settled the order, and funds have been added to your account.  | Shipped | Completed |
 | The transaction was cancelled. | Void/Cancelled   | Void/Cancelled | 
 | MultiSafepay declined the transaction. | Declined | Declined |
-| The transaction was not captured within **30** days.<br> The capture period can be extended. See - [Put PAD order on hold](/reference/padputorderonhold). | Expired | Expired | 
+| The transaction was not captured within **14** days.<br> The capture period can be extended. See - [Put PAD order on hold](/reference/padputorderonhold). | Expired | Expired | 
 | **Refunds:** Refund initiated. | Reserved | Reserved |  
 | **Refunds:** Refund complete. | Completed | Completed | 
 
@@ -124,7 +124,7 @@ You can cancel the invoice order **before** shipment or **after** partial shipme
 ## Collection flow
 
 - The collection only starts when the customer pays installment 1 of the order.
-- MultiSafepay sends the customer an invoice after the order is shipped in full, **or** partially shipped and the remaining items cancelled. 
+- MultiSafepay sends the customer an invoice for the second installment after installment first payment is made. The second installment is due within **30** days.   
 - MultiSafepay sends reminders to the customer 5 days before and on the day of each installment due.
 - If the customer fails to pay within 14 days of overdue installments, MultiSafepay sends reminders of their obligation to pay with an added fee per the Wet Incasso Kosten (WIK). 
 - The customer can contact MultiSafepay if there is an issue with the payment.
@@ -174,11 +174,11 @@ After you have paid for an order from your account, you can no longer refund tra
 
 ## Expiration and extensions
 
-The default expiration period for an invoice order is **30** days after it was created. If the order is not at least [partially shipped](#partially-ship-order) within this period, it is cancelled and [refunded](#refunds).
+The default expiration period for an invoice order is **14** days after it was created. If the order is not at least [partially shipped](#partially-ship-order) within this period, it is cancelled and [refunded](#refunds).
 
 After the first partial shipment, the expiration period is reduced. You have **14** days to ship the remaining items, or the order expires. The capture period can be extended twice, each by 14 days. After partial shipment, you have **58** days to ship an order.
 
-If an order can't be shipped within **30** days and you do not want to cancel the order, you can extend the expiration period to a maximum of **180** days. After this time, the order is canceled and refunded. 
+If an order can't be shipped within **14** days and you do not want to cancel the order, you can extend the expiration period to a maximum of **21** days. After this time, the order is cancelled and refunded. 
 
 After an order expires, the expiration period cannot be extended.
 <details id="how-to-extend-an-order">
@@ -250,10 +250,9 @@ See API reference – [Refund order](/reference/refundorder).
 
 ## Shipment
 
-- You must ship to receive payment, and within **30 days** or the order expires.
 - Share the track & trace details with the customer and MultiSafepay, if relevant. 
 - You can ship orders in full or in multiple parts. See [Partially ship order](#partially-ship-order) below.
-- You must update the <<glossary:order status>> to **Shipped**. See [Update the order status](#update-the-order-status) below.
+- You must update the <<glossary:order status>> to **Shipped** within **14** days, or otherwise the order expires. See [Update the order status](#update-the-order-status) below.
 - You must comply with relevant [shipping policies](#shipping-policies). 
 
 ### Partially ship order

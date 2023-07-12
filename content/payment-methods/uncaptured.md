@@ -8,7 +8,7 @@ excerpt: Capture or decline potentially fraudulent card payments.
 slug: 'uncaptured'
 ---
 
-To help reduce the risks associated with accepting credit cards, MultiSafepay's automated fraud filter reviews all card payments.
+To help reduce the risks associated with accepting cards, MultiSafepay's automated fraud filter reviews all card payments.
 
 # How it works 
 
@@ -110,7 +110,7 @@ We recommend comparing where payments were made to where the card was initially 
 
 Under **Fraud info** (next to the fraud score), there are several other fraud risk indicators based on the email address and shipping details.
 
-Under **History data**, there is information about the number of credit cards used from the same IP address or with the same email address. If this number is high, it may indicate a fraudster, but may also indicate a big order from a large business.
+Under **History data**, there is information about the number of cards used from the same IP address or with the same email address. If this number is high, it may indicate a fraudster, but may also indicate a big order from a large business.
 
 </details>
 

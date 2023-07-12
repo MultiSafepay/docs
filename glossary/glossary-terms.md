@@ -20,7 +20,7 @@ When a customer cancels an order paid by credit or debit card and takes the fund
 
 card scheme / card schemes
 
-A financial institution that issues credit cards, provides infrastructure, and processes payments for a fee, e.g. Visa, Mastercard, American Express.
+A financial institution that issues cards, provides infrastructure, and processes payments for a fee, e.g. Visa, Mastercard, American Express.
 
 gateway / gateways
 

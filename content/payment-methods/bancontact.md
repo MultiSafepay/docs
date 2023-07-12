@@ -17,7 +17,7 @@ Read how Bancontact can benefit your business on <a href="https://www.multisafep
 |---|---|
 | [Countries](/docs/payment-methods#payment-methods-by-country)  | Belgium  | 
 | [Currencies](/docs/currencies/)  | EUR | 
-| [3D Secure 2.0](/docs/3ds2/) | Yes (all non-mobile payments) |
+| [3D Secure 2.0](/docs/3ds2/) | Yes (all non-mobile payments)|
 | [Chargebacks](/docs/chargebacks/)  | No |
 | [Payment components](/docs/payment-components/) | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (Current (banking and QR) and deprecated (banking) versions |
@@ -43,7 +43,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | MultiSafepay has collected payment. | Completed | Completed |
 | Bancontact has declined the transaction. | Declined | Declined   |
 | The transaction was cancelled. | Void   | Cancelled   |
-| The customer didn't complete payment and the transaction expired (non-mobile only). | Expired | Expired |
+| The customer didn't complete payment and the transaction expired. | Expired | Expired |
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |
 
@@ -62,6 +62,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 # Integration
 
 ### API
+
 - See API reference – [Create order](/reference/createorder/) > Banking order. 
 
   <details id="example-requests"> 
@@ -74,7 +75,10 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   </details>
 
-- Transactions expire after 1 hour (banking only).
+- By default, transactions expire after 1 hour. 
+
+-  If `seconds_active` is set, the QR code will expire at the time specified. See recipes - [Seconds_active](/recipes/days_active-seconds_active).
+
 
 ### Ready-made integrations
 Supported in all [ready-made integrations](/docs/our-integrations/). 

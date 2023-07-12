@@ -11,7 +11,7 @@ slug: 'prestashop-1-6'
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-1.6/releases/download/3.10.3/Plugin_PrestaShop_1_6_3.10.3.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-1.6/releases/download/3.10.5/Plugin_PrestaShop_1_6_3.10.5.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-1.6" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
@@ -167,7 +167,7 @@ Payment links generated manually in your MultiSafepay dashboard don't automatica
 
 1. Sign in to your PrestaShop 1.6 backend. 
 2. Go to **Modules and services** > **Modules and services** 
-3. Select either the bundled credit cards <<glossary:gateway>>, **or** select specific credit cards.
+3. Select either the bundled card payments <<glossary:gateway>>, **or** select specific card.
 4. Click **Configure**.
 5. Set the **Tokenization** field to **Yes**.
 6. Click **Save**.
@@ -220,7 +220,7 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 
 [block:html]
 {
-  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: create a technical issue</li>\n  </ul>  \n</blockquote>"
+  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: <a href=\"https://github.com/MultiSafepay/prestashop-1.6/issues\" target=\"_blank\"> create a technical issue</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
 

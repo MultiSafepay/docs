@@ -39,7 +39,7 @@ A customer who uses a card issued by a bank to make cashless payments to a merch
 
 ---
 #### card scheme
-A financial institution that issues credit cards, provides infrastructure, and processes payments for a fee, e.g. Visa, Mastercard, American Express.
+A financial institution that issues credit or debit cards, provides infrastructure, and processes payments for a fee, e.g. Visa, Mastercard, American Express.
 
 ---
 #### card verification code (CVC)

@@ -49,7 +49,7 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
 - Dynamically displays payment methods based on the customer's country, device, and the order amount
 - Styles how <<glossary:issuers>> are displayed and how to connect to their environment
 - Validates input instantly and suggests actionable errors
-- Saves space by bundling all available credit cards in a single gateway that auto-detects the card type
+- Saves space by bundling all available cards in a single gateway that auto-detects the card type
 - Is [Fuhrmann-2 compliant](/docs/fuhrmann2/)
 
   <details id="issuer-example">
@@ -70,10 +70,10 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
   </details>
 
   <details id="cards-example">
-  <summary>Example of single credit card gateway</summary>
+  <summary>Example of single card payment gateway</summary>
   <br>
 
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOCreditCards.png" align ="center"/>
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOCard.png" align ="center"/>
 
   </details>
 

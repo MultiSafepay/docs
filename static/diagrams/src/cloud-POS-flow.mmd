@@ -1,0 +1,21 @@
+sequenceDiagram
+
+    autonumber
+    participant K as Kiosk
+    participant M as Merchant 
+    participant MSP as MultiSafepay
+    participant T as Terminal
+   
+    K->>M: Initiates an order payment
+    M->>MSP:Creates an order via API
+    MSP->>M:Returns response
+    MSP->>T: Initiates payment
+    M->>MSP: Subscribes to event notifications
+    T->>MSP: Authorizes payment process
+    MSP->>K: Event notifications
+    opt 
+    MSP->>K: Webhook
+    end
+    
+    
+    

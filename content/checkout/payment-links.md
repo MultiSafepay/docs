@@ -11,7 +11,7 @@ You can manually generate a link to a [payment page](/docs/payment-pages/) to pa
 
 Use cases include:
 
-- A customer wants to adjust an existing <<glossary:order>> and instead of starting over with a new order.
+- A customer wants to adjust an existing <<glossary:order>> instead of starting over with a new order.
 - You need to create a <<glossary:transaction>> for a manually generated order.
 - MultiSafepay collects a payment for an amount that doesn't match any order. If you accept the payment, you need to manually generate a payment link and email it to <support@multisafepay.com>
 - A [bank transfer](/docs/bank-transfer/) transaction has expired.
@@ -132,7 +132,6 @@ This only applies to certain payment methods:
 | Banking methods, except direct debit | Direct debit |
 | Gift cards | Edenred, Paysafecard |
 | Wallets | PayPal – Links are valid for 14 days. The lifetime is set by PayPal. |
-| Credit cards |  |
 
 </details>
 

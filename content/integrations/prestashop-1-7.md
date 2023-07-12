@@ -230,7 +230,7 @@ The plugin supports [recurring payments](/docs/recurring-payments).
 
 1. Sign in to your PrestaShop 1.7 backend. 
 2. Go to **MultiSafepay** > **Payment methods** tab.  
-3. Select either the bundled credit cards <<glossary:gateway>>, **or** select specific credit cards. 
+3. Select either the bundled card payments <<glossary:gateway>>, **or** select specific card. 
 4. Set the **Enable tokenization** toggle to **Enabled**.
 5. Click **Save**.
 
@@ -349,7 +349,7 @@ If upgrading from 5.x to a newer version, see [Updates](/docs/prestashop-1-7#upd
 
 [block:html]
 {
-  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: create a technical issue</li>\n  </ul>  \n</blockquote>"
+  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: <a href=\"https://github.com/MultiSafepay/prestashop-official/issues\" target=\"_blank\"> create a technical issue</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
 
