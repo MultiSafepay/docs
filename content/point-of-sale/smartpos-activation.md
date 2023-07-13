@@ -1,10 +1,10 @@
 ---
 title: 'SmartPOS-activation'
-parentDoc: 64674fbc74bc4007521ebbcb 
-category: 6477597e0e2961004638cd5d 
+parentDoc: 64674fbc74bc4007521ebbcb
+category: 6477597e0e2961004638cd5d
 order: 0
 hidden: false
-slug: 'smartPOS-activation'
+slug: 'smartpos-activation'
 ---
 
 > ⚠️ Note:
@@ -74,3 +74,5 @@ Install the MultiSafepay payment app on your terminal to scan the QR code.
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
 }
 [/block]
+
+[Top of page](#)
