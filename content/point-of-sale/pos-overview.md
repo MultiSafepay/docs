@@ -3,7 +3,7 @@ title: 'Overview'
 category: 6477597e0e2961004638cd5d
 order: 0
 hidden: false
-slug: 'overview'
+slug: 'POS-overview'
 ---
 
 > ⚠️ Note:
@@ -58,4 +58,3 @@ Read how our POS solutions can benefit your business on <a href="https://www.mul
 [/block]
 
 [Top of page](#)
-

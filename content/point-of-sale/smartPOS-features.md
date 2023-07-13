@@ -4,7 +4,8 @@ parentDoc: 64674fbc74bc4007521ebbcb
 category: 6477597e0e2961004638cd5d
 order: 1
 hidden: false
-slug: 'smartpos-features'
+slug: 'smartPOS-features'
+
 ---
 
 After activating your SmartPOS terminal, you can add features from your SmartPOS payment app. SmartPOS features let you:
@@ -28,7 +29,7 @@ To add payment flow features, follow these steps:
 1. On the navigation menu, click the **Back** button.
 2. Select **Settings**.
 <br>
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SmartPOS-pay-flow.png" alt="Pay-flow" width="250" style="display: block;"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SmartPOS-pay-flow.png" alt="POS-display" style="display: block; min-width: unset!important; max-width: 70vw!important; max-height: 50vh!important;"/>
 <br>
 
 <details id="display-items">
@@ -41,7 +42,7 @@ To add payment flow features, follow these steps:
 Once you've initiated the payment, the items are displayed on the payment screen.
 
 **Example:**  
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-items-screen.png" alt="Items" width="250" style="display: block;"/>  
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-items-screen.png" alt="POS-display" style="display: block; min-width: unset!important; max-width: 70vw!important; max-height: 40vh!important;"/>  
 <br>
 
 ***
@@ -58,7 +59,7 @@ Once you've initiated the payment, the items are displayed on the payment screen
 After the payment has been processed, the option to tip is displayed on the payment screen.
 
 **Example:**  
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-tipping-screen.png" alt="Tipping" width="250" style="display: block;"/>  
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-tipping-screen.png" alt="smartPOS_print" style="display: block; min-width: unset!important; max-width: 70vw!important; max-height: 50vh!important;"/>  
 <br>
 
 ***
@@ -76,7 +77,7 @@ After the payment has been processed, the option to tip is displayed on the paym
 
 **Example:**
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-print-screen.png" alt="smartPOS_print" width="250" style="display: block;"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-print-screen.png" alt="smartPOS_print" style="display: block; min-width: unset!important; max-width: 70vw!important; max-height: 50vh!important;"/>
 <br>
 
 ***
@@ -106,7 +107,7 @@ After the payment has been processed, the option to tip is displayed on the paym
 After you've enabled the **Cloud mode**, the **Navigation** list appears. This feature allows you to hide the cancel button and system navigation.
 
 **Example:**  
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SmartPOS-cloud-mode.png" alt="smartPOS_cloud" width="250" style="display: block;"/>  
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SmartPOS-cloud-mode.png" alt="smartPOS_print" style="display: block; min-width: unset!important; max-width: 70vw!important; max-height: 50vh!important;"/>  
 <br>
 
 <details id="navigation">
