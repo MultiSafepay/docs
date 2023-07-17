@@ -103,7 +103,7 @@ To test direct debits, see Testing payment methods - [Banking methods](/docs/tes
 
 Customers can request a [chargeback](/docs/chargebacks/) within 56 days, or for unauthorized transactions (i.e. without verifiable consent from the customer) within 13 months. This makes direct debits unsuitable for most retail businesses, e.g.&nbsp;clothing.
 
-You cannot dispute chargebacks and there is no facilitated process like there is for credit card chargebacks. Chargebacks can cost up to 65 EUR in bank fees.
+You cannot dispute chargebacks and there is no facilitated process like there is for credit or debit card chargebacks. Chargebacks can cost up to 65 EUR in bank fees.
 
 ## Declined transactions
 

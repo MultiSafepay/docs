@@ -38,7 +38,7 @@ You **cannot** refund more than the original transaction.
 
 - If you process a partial refund within the same day as the transaction, this is technically called a <<glossary:reversal>>. For simplicity, reversals are recorded as refunds in your MultiSafepay dashboard. 
 
-- On the customer's credit card statement, the transaction may either be:
+- On the customer's card statement, the transaction may either be:
   - Adjusted to the new amount= Partial reversal
   - Not debited at all= Full reversal
 

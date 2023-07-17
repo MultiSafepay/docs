@@ -24,7 +24,7 @@ Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">liv
 | **Business bank account number** | This must exactly match at least one of the trade names listed on your Chamber of Commerce extract. |
 | **Products/services** | See [Prohibited products and services](/docs/prohibited-products-services/). | 
 | **Site URL** | The URL of at least one site you accept payments through, or select the **I don't have a site** checkbox. <br> If you provide a URL, you can now start receiving payments into your MultiSafepay balance. However, you cannot make <<glossary:payouts>> until onboarding is complete. |
-| **Card payments** | If you intend to accept cards, provide your: <br> - Minimum, average, and maximum order value <br> - Annual turnover from credit card transactions |
+| **Card payments** | If you intend to accept  cards, provide your: <br> - Minimum, average, and maximum order value <br> - Annual turnover from card transactions |
 
 See also [Changes to company information](/docs/company-information/).
 
@@ -159,11 +159,11 @@ To help you start accepting payments as quickly as possible, we divide our check
 We may ask for a deposit in case:
 
 - A merchant goes bankrupt and we can't collect funds for chargebacks from their account.
-- A merchant uses payment methods that let you withdraw funds from your account balance when there are no funds available, e.g. direct debits or credit card payments. 
+- A merchant uses payment methods that let you withdraw funds from your account balance when there are no funds available, e.g. direct debit or credit card payments. 
 
 Deposits are based on various factors:
 
-- Credit card volume
+- Card volume
 - Delivery timelines
 - Financials
 - Performance and experience

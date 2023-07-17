@@ -20,7 +20,7 @@ Read how Google Pay can benefit your business on <a href="https://www.multisafep
 | [Chargebacks](/docs/chargebacks/)  | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |
 | [Recurring payments](/docs/recurring-payments/) | Yes  |
-| [Refunds](/docs/refund-payments/) | Yes: Full and partial <br> Customers receive refunds in their Google Pay account, and they appear on their credit card statement within the next business day.  |
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial <br> Customers receive refunds in their Google Pay account, and they appear on their card statement within the next business day.  |
 | [Second Chance](/docs/second-chance/) | Yes |
 
 > ℹ Notes 

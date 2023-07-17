@@ -43,7 +43,7 @@ Once activated, to process MOTO payments, follow these steps:
     - From the **Site** list, select the relevant site. 
     - Optionally, in the **Order ID** field, enter an order ID.
     - In the **Description** text box, enter an order description.
-4. Under **Credit card details**, enter the payment details provided by the customer by email or telephone. 
+4. Under **Card details**, enter the payment details provided by the customer by email or telephone. 
 5. Under **Customer details**, enter the customer's name, address, and contact information. 
 6. Click **Submit order**.  
 The transaction appears in your **Transaction overview**.
@@ -56,7 +56,7 @@ See API reference – [Create order](/reference/createorder/) > Card order.
   <summary>Example requests</summary>
   <br>
 
-  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** and select the **Credit card direct** example.
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** and select the **`Credit card` direct** example.
 
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 

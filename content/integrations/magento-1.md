@@ -245,7 +245,7 @@ Release date: Mar 12, 2018
 - PLGMAGONE-338: Undefined index error on expired orders
 - PLGMAGONE-357: Update ING gateway to `INGHOME`
 - PLGMAGONE-340: Prevent cancel on api error when order has already been paid
-- PLGMAGONE-342: Fixes headers already send error when credit card gateway is used
+- PLGMAGONE-342: Fixes headers already send error when card payment gateway is used
 - PLGMAGONE-336: Undefined index `custom_refund_desc`
 
 ---
@@ -285,7 +285,7 @@ Release date: Aug 3, 2017
 - Fixes an issue with de credit card gateway not processing the brand.
 
 **Improvements**
-- Added missing logo used for the credit card payment method option.
+- Added missing logo used for the card payment method option.
 - Updated the install script.
 - Updated Bancontact logo and title.
 - Removed Thumbs.db from the package.
@@ -312,7 +312,7 @@ Release date: Feb 16, 2017
 **2.3.2**
 Release date: Jan 25, 2017
 **Fixes**
-- Removed whitespace which resulted in the PHP error "headers already sent" being triggered when selecting the credit card gateway
+- Removed whitespace which resulted in the PHP error "headers already sent" being triggered when selecting the card gateway
 - Resolved an issue when used with OneStepCheckout causing the wrong gateway to be used.
 
 ---

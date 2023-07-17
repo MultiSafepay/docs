@@ -239,7 +239,7 @@ Magento Vault enables you to use <a href="https://magento.com/innovations-lab/in
 <summary>How it works</summary>
 <br>
 
-1. After filling out their credit card number, CVC, and expiry date at checkout, customers can give permission to store these details for future payments. 
+1. After filling out their card number, CVC, and expiry date at checkout, customers can give permission to store these details for future payments. 
 2. MultiSafepay encrypts the sensitive payment details and stores the encrypted version on our secure, GDPR compliant servers. 
 3. We return a non-sensitive identifier for the payment details, known as a token, which can only be used in your Magento webshop. 
 4. The token is automatically stored in your Magento Vault. 
@@ -326,7 +326,7 @@ The plugin supports [Payment Components](/docs/payment-components/), which:
 1. Sign in to your Magento 2 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment Gateways**.
 3. Select the relevant payment methods and then click **Configure**.
-3. Click **Payment type** and select **Credit card component**.
+3. Click **Payment type** and select **Card payment component**.
 4. Click **Save config**.
 
 📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
@@ -734,7 +734,7 @@ If you installed the plugin via the Magento Marketplace, go to **System** > **We
 
 [block:html]
 {
-  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: <a href="https://github.com/MultiSafepay/magento2/issues/new/choose" target="_blank"> create a technical issue</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i></li>\n  </ul>  \n</blockquote>"
+  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: <a href=\"https://github.com/MultiSafepay/magento2/issues/new/choose\" target=\"_blank\"> create a technical issue</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
 

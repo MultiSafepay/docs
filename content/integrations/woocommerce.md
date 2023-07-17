@@ -36,7 +36,7 @@ There are two ways to install the plugin:
 1. Sign in to your WooCommerce backend.
 2. Go to **Plugins** > **Add new**.
 3. Search for **MultiSafepay**.
-4. For the **MultiSafepay plugin for WooCommerce**, click **Install now**.
+4. For the **MultiSafepay plugin for WooCommerce**, click **Install now** > **Activate**.
 
 **Manual installation**
 
@@ -207,7 +207,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 4. Select the checkbox for the **Payment components**.
 5. Click **Save changes**.
 
-💬 Support: If you're new to accepting credit card payments, email a request to activate them to <risk@multisafepay.com>
+💬 Support: If you're new to accepting card payments, email a request to activate them to <risk@multisafepay.com>
 
 📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
@@ -236,7 +236,7 @@ To generate a payment link in your backend once an order is created, follow thes
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/card-payments/) (The credit card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
+- Cards: [All](/docs/card-payments/) (The card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
 - Banking methods: All, except TrustPay
 - <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [Google Pay](/docs/google-pay/), [PayPal](/docs/paypal/)
@@ -331,7 +331,7 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 
 [block:html]
 {
-  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: <a href="https://github.com/MultiSafepay/woocommerce/issues" target="_blank"> create a technical issue</a></li>\n  </ul>  \n</blockquote>"
+  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: <a href=\"https://github.com/MultiSafepay/woocommerce/issues\" target=\"_blank\"> create a technical issue</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
 
