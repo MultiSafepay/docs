@@ -56,8 +56,7 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
         amount: 10000,
         customer: {
             locale: 'en',
-            country: 'NL',
-            reference: 's9Q8ikjFJBCX'
+            country: 'NL'
         },    
         payment_options: {
             settings: {
@@ -66,14 +65,9 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
                 }
             }
         },
-        template : {
-            settings: {
-                embed_mode: true
-            }
-        }
     };
     ```
-
+    
     <details id="properties">
     <summary>Properties</summary>
     <br>
@@ -104,21 +98,48 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     To process recurring payments in your payment component:
 
     - Add the `cardOnFile` recurring model
-    - Provide the relevant `customer.reference`
-
-    ```javascript
+    - Make [List tokens](/reference/listtokens) request from your server and provide a`tokens` 
+    <br>
+    ```JavaScript
     const orderData = {
         currency: 'EUR',
         amount: 10000,
         customer: {
             locale: 'en',
-            country: 'NL',
-            reference: 'Customer123'
+            country: 'NL'
         },
-        recurring: {
-            model: 'cardOnFile'
+    template : {
+        settings: {
+            embed_mode: true
         }
+    }
     };
+      
+    const recurringData = {
+    "model": "cardOnFile",
+    "tokens": [
+        {
+            "token": "AvqeOjgdm8A",
+            "code": "IDEAL",
+            "display": "xxxxxxxxxNL81PSTB0000012345",
+            "bin": null,
+            "name_holder": "Schilder",
+            "expiry_date": "",
+            "expired": 0,
+            "last4": null,
+            "model": "cardOnFile"
+        },
+        {
+            "token": "BcEWsknWsYg",
+            "code": "MASTERCARD",
+            "display": "Card xxxx xxxx xxxx 4444",
+            "bin": 555555,
+            "name_holder": "Holder",
+            "expiry_date": 2412,
+            "expired": 0,
+            "last4": 4444,
+            "model": "cardOnFile"
+        }]};
     ```
 
     > ✅ Success
@@ -135,7 +156,7 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     
     📘 **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and order value. 
 
-2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
+2. Construct a `PaymentComponent` object in the `test` environment using the `order` object and your API token:
 
     ```javascript
     PaymentComponent = new MultiSafepay({
@@ -253,6 +274,34 @@ The `PaymentComponent` has the following methods:
     ```javascript
     const paymentButton = document.querySelector('#payment-button');
     ```
+
+
+The `payment_data` includes the following parameters:
+
+```JSON
+  {
+    "payment_data": {
+    "gateway": "CREDITCARD",
+    "payload": "xxxxxxxx",
+    "tokenize": true
+  }};
+```
+
+<details id="properties">
+   <summary>Parameters</summary>
+   <br>
+
+| Key        | Required | Description|
+| ---------- | :------- | ------|
+| `gateway`  | Yes      | The unique `gateway_id` to redirect the customer to the specific payment method.                                                                                                                            |
+| `payload`  | Yes      | Information required to process the payment.<br> **Note:** Do not edit or modify the `payload` or otherwise the payment fails.                                                                              |
+| `tokenize` | Optional | For [recurring payments](/docs/recurring-payments).<br> If a customer selects to either save their cardholder data for future visits or use an existing token, a`payment_data.tokenize` parameter is added. |
+
+<br>
+
+**Note:** When `payment_data.tokenize` is set to `true`you need to append `customer.reference` to the order data.
+
+</details>
 
 2. Create an event handler for the payment button:
 
