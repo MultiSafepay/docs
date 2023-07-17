@@ -3,7 +3,7 @@ title: 'Overview'
 category: 6477597e0e2961004638cd5d
 order: 0
 hidden: false
-slug: 'POS-overview'
+slug: 'overview'
 ---
 
 > ⚠️ Note:
