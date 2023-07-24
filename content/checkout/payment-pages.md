@@ -207,7 +207,7 @@ We recommend styling payment pages to be consistent with the look and feel of yo
 ### Via the dashboard
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Integrations** > **Sites**, and then click the relevant site.
+2. Go to **Sites**, and then click the relevant site.
 3. On the **Site profile** page, under **Functionality**, click **Edit template**. 
 4. On the **Payment page styling** page, under **Configure page style**:  
 

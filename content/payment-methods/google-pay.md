@@ -73,7 +73,7 @@ To activate Google Pay, you must have [card payments](/docs/card-payments/) acti
 4. To activate the payment method for:
     - All sites, go to **Settings** > **Payment methods**.
     - A specific site:
-      - Go to **Integrations** > **Sites**, and then click the relevant site.
+      - Go to **Sites**, and then click the relevant site.
       - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
 5. Select the checkbox for the payment method, and then click **Save changes**.
 
@@ -97,7 +97,7 @@ Then, apply to MultiSafepay for Google Pay, and activate it in your dashboard.
 3. To activate the payment method for:
     - All sites, go to **Settings** > **Payment methods**.
     - A specific site:
-      - Go to **Integrations** > **Sites**, and then click the relevant site.
+      - Go to **Sites**, and then click the relevant site.
       - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
