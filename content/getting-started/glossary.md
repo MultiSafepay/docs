@@ -76,6 +76,7 @@ The customer selects the payment method in your embedded checkout and is connect
 ---
 #### domestic transactions
 A transaction occurring where the issuer and merchant are registered in the same country.
+
 ---
 
 #### ecommerce platform

@@ -9,7 +9,7 @@ slug: 'pay-after-delivery-installments'
 
 <img src="https://files.readme.io/cf02361-PAD-en.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
-Pay After Delivery is MultiSafepay's <<glossary status:BNPL>> method that allows customers to pay for orders in **3** equal installments within a period of time.
+Pay After Delivery is MultiSafepay's <<glossary:BNPL>> method that allows customers to pay for orders in **3** equal installments within a period of time.
 
 Read more on how installment payments can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery-installments" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
