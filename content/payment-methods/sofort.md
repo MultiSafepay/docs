@@ -66,7 +66,7 @@ To adjust your Sofort limit, email <sales@multisafepay.com>
 2. To activate the payment method for:
     - All sites, go to **Settings** > **Payment methods**.
     - A specific site:
-      - Go to **Integrations** > **Sites**, and then click the relevant site.
+      - Go to **Sites**, and then click the relevant site.
       - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 

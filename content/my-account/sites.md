@@ -18,7 +18,7 @@ To process payments from a site operated by a separate legal entity, you must si
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-2. Go to **Integrations** > **Sites**.
+2. Go to **Sites**.
 3. Click **Add new site**.
     - From the **Category** list, select what type of products or services your site sells.
     - In the **Description** field, enter the site name.  
@@ -56,7 +56,7 @@ ___
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Integrations** > **Sites**, and then click the relevant site.
+2. Go to **Sites**, and then click the relevant site.
 3. On the **Sites** page, from the **Status** list:
   - To block, select **Blocked**.
   - To unblock, select **Active**.
@@ -74,7 +74,7 @@ ___
 To delete a site:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Integrations** > **Sites**.
+2. Go to **Sites**.
 3. On the row of the relevant site, click ❌ &nbsp; **Disable payments** > **Delete**. 
    ✅ &nbsp; The site profile disappears from the **Sites** page.
 
@@ -96,7 +96,7 @@ You can temporarily disable payments for a site, and then re-enable them.
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Integrations** > **Sites**.
+2. Go to **Sites**.
 3. On the row of the relevant site:
    - To disable payments, click ❌ &nbsp; **Disable payments** > **Yes**. <br> On the **Sites** page, the site's status changes to **Blocked**.
    - To enable payments, click ✅ &nbsp; **Enable payments** > **Yes**. <br> On the **Sites** page, the site's status changes to **Active**.
@@ -132,7 +132,7 @@ To generate a portable network graphic (PNG) of a payment method logo to display
 To view the site ID, API key, and security code for a site:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">live</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> or <a href="https://testmerchant.multisafepay.com" target="_blank">test</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> MultiSafepay dashboard.
-2. Go to **Integrations** > **Sites**, and then click the relevant site.
+2. Go to **Sites**, and then click the relevant site.
 3. The site ID, API key, and security code appears in the top-right corner of your profile.
 
 ## Specify company name
@@ -146,7 +146,7 @@ You can specify how your company name appears on customer bank statements (if su
 To set how your company name displays, follow these steps:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Integrations** > **Sites**, and then click the relevant site.
+2. Go to **Sites**, and then click the relevant site.
 3. In the **Site name** field, enter the name to display (maximum 35 characters).
 4. Click **Save**.
 

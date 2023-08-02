@@ -30,7 +30,7 @@ Traditional (CTAP) is a terminal that has passed <a href="https://wp.acquiris.eu
  To activate a traditional (CTAP) terminal, follow these steps:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Integrations** > **Terminals**.
+2. Go to **Devices** > **Terminals**.
 3. Select **Add Traditional (CTAP)**.
 4. On the **New Traditional (CTAP)** tab >  select **Add new group**.
 5. Fill out the following fields:

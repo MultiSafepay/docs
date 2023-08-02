@@ -104,7 +104,7 @@ To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – <a 
 To grant MultiSafepay permission to access your Exact Online account:
    
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Integrations** > **Accounting** > **Exact Online** > **Configure**.
+2. Go to **Reports** > **Accounting** > **Exact Online** > **Configure**.
     You are redirected to Exact Online. 
 3. Enter your email address and Exact Online password, and then click **Next**.
     A list of required permissions is displayed.
