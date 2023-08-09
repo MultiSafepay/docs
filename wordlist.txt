@@ -202,6 +202,7 @@ IBAN
 IBANs
 ICT
 ILS
+Incasso
 ING
 INR
 IPs
@@ -216,6 +217,7 @@ Joomla
 Kelly Fashion Giftcard
 KBC
 KLARNA
+Kosten
 KRW
 KYC
 Klantenservice
@@ -413,6 +415,7 @@ Voordeel
 Vue
 Vuur
 WIP
+WIK
 WWFT
 WeChat
 Webshopgiftcard
@@ -609,3 +612,5 @@ zoeken
 maskedId
 multisafepayRestore
 urls
+Zinia
+
