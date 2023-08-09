@@ -16,6 +16,7 @@ sequenceDiagram
         Zi->>Mu: Authorizes the payment
     C->>Zi: Pays installment 1 within 15 minutes
     Me->>C: Ships order fully or partially
+     Note over Me: Manually changes the order status to Shipped.
     Zi->>Mu: Transfers funds
     Mu->>Me: Settles funds
     C->>Zi: Pays installment 2 within 30 days 
