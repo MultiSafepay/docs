@@ -29,7 +29,7 @@ Subscribe to event notifications to receive order payments updates when, e.g.,
 
 # 1. Initiate payments
 
-1. [Create an order](/reference/createorder/), and set`terminal_id` in your request. See Recipe - [Event notifications.](/recipes/cloud-payment-notifications)
+1. [Create an order](/reference/createorder/), and set`terminal_id` in your request. See Recipe - [Cloud POS payment](/recipes/cloud-pos-payment)
 2. In response to the API request you made, you receive a `event_url` and `event_token`.
 3. Copy the `event_url` and `event_token`.
 

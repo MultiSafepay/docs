@@ -46,7 +46,7 @@ This diagram shows a successful cloud-based POS payment flow. Click to magnify.
 
   📘 **Note:** Before you start initiating payments, you must ensure **cloud mode** is enabled - see [SmartPOS features](/docs/smartpos-features).
 
-Create an order - see [Recipe](/recipes/cloud-payment-notifications).
+Create an order. See Recipe - [Cloud POS payment](/recipes/cloud-pos-payment).
 
 To receive order payments updates subscribe to [Event notifications.](/docs/event-notifications)
 
