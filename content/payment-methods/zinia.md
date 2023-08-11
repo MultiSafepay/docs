@@ -86,11 +86,10 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 1. Email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)  
    We check your eligibility and if approved, activate the payment method for your account. 
 2. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-3. To activate the payment method for all sites, go to **Settings** > **Payment methods**.
-4. To activate the payment method for a specific site:
-   - Go to **Sites**, and then click the relevant site.
-   - Under **Payment methods**, click **Select payment methods**.
-5. Select the checkbox for the payment method, and then click **Save changes**.
+3. To activate the payment method for:
+- All sites, go to **Settings** > **Payment methods**.
+- A specific site, go to **Sites**, and then click the relevant site.
+4. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email [integration@multisafepay.com](mailto:intergration@multisafepay.com)
 

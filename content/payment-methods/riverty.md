@@ -11,7 +11,7 @@ slug: 'riverty'
 
 <a href="https://www.riverty.com/nl-nl/" target="_blank">Riverty</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (formerly AfterPay) is a widely used <<glossary:BNPL>> method in the Netherlands and Belgium. Riverty bears the risk and guarantees <<glossary:settlement>>.
 
-<!--Read how Riverty can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/afterpay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>-->
+Read how Riverty can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/riverty" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
