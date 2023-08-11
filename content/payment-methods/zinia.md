@@ -84,8 +84,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 # Activation
 
 1. Email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)  
-   We check your eligibility and if approved, you will receive the Zinia contract. 
-2. Once signed, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+   We check your eligibility and if approved, activate the payment method for your account. 
+2. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. To activate the payment method for all sites, go to **Settings** > **Payment methods**.
 4. To activate the payment method for a specific site:
    - Go to **Sites**, and then click the relevant site.
@@ -195,7 +195,7 @@ The default expiration period for an order is **10** days after it was created. 
 
 After the first partial shipment, the expiration period is reduced. You have **10** days to ship the remaining items, or the order expires. The capture period can be extended twice, each by **14** days.
 
-You cannot extend the shipping period of an installment transaction. After 10 days, the order is canceled and refunded.
+If an order cannot be shipped within **10** days and you do not want to cancel the order, you can extend the expiration period to a maximum of **180** days. After this time, the order is canceled and refunded. 
 
 </details>
 
