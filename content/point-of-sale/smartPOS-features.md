@@ -129,8 +129,10 @@ To exit the cloud mode payment screen, click the **MultiSafepay** logo and then 
 3. Click **Change** and then enter your new PIN code. 
 4. Click ✔.
 
----
 </details>
+
+---
+<br>
 
 After you've enabled the **Cloud mode**, the **Navigation** list appears. This feature allows you to hide the cancel button and system navigation.
 
