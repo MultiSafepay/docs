@@ -32,7 +32,7 @@ hidden: false
 | Maestro                                | `MAESTRO`     |
 | Mastercard                             | `MASTERCARD`  |
 | MyBank                                 | `MYBANK`      |
-| Pay After Delivery                     | `PAYAFTER`    |
+| Pay After Delivery                     | `BNPL_MF`    |
 | Pay After Delivery installments        | `BNPL_INSTM`  |
 | PayPal                                 | `PAYPAL`      |
 | Paysafecard                            | `PSAFECARD`   |
