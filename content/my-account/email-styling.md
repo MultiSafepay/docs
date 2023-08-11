@@ -228,6 +228,12 @@ Use our pre-formatted and/or pre-written templates and populate them with your c
     | COUNTRY                       | The <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> code for your company country |
     | COUNTRYCODE                   | The <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> code for your company country |
     | CURRENTDATE                   | Today's date |
+    | DELIVERYINVOICEURL            | The invoice URL for delivery |
+    | DELIVERYREASON                | The reason for delivery |
+    | DELIVERYCARRIER               | The carrier used for delivery |
+    | DELIVERYTRACKINGURL           | The track and trace URL for delivery |
+    | DELIVERYTRACKINGCODE          | The track and trace code for delivery |
+    | DELIVERYSHIPDATE              | The shipping date for delivery |
     | DESCRIPTION                   | The account ID to receive money |
     | DESTAMOUNT                    | The amount to be received |
     | DESTAMOUNTFORMATCUR           | The amount (and currency to be paid by the customer via bank transfer transactions |
@@ -244,8 +250,10 @@ Use our pre-formatted and/or pre-written templates and populate them with your c
     | MERCHANTLOGOHTML              | The HTML code for your logo |
     | MERCHANTNAME                  | Your company's full name |
     | MERCHANTPHONESUPPORT          | Your customer service phone number |
+    | MERCHANTPO                    | Your customer tracking number |
     | MERCHANTSUPPORT EMAIL         | Your customer service email address |
     | MERCHANTTRANSACTIONID         | Your transaction reference number |
+    | ORDERSTATUS                   | The <<glossary:order status>> |
     | PAYLINK                       | The [payment link](/docs/payment-links/) |
     | PAYMENTMETHOD                 | The payment method  |
     | PHONE                         | Your company phone number  |
