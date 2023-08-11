@@ -125,6 +125,12 @@ Cryptographic
 CTAP
 DANKORT
 DAVAMS
+DELIVERYCARRIER
+DELIVERYINVOICEURL
+DELIVERYREASON
+DELIVERYSHIPDATE
+DELIVERYTRACKINGCODE
+DELIVERYTRACKINGURL
 DESTAMOUNT
 DESTAMOUNTFORMATCUR
 DESTCURRENCY
@@ -258,6 +264,7 @@ Mastercard
 Mastercard's
 Mc
 MCC
+MERCHANTPO
 Mijn
 MijnDomein
 Mijnwebwinkel
@@ -280,6 +287,7 @@ Nederland
 Nname
 NodeJS
 OrderRequest
+ORDERSTATUS
 OFBiz
 ORRTIZ
 Odoo
@@ -440,6 +448,7 @@ ZIPCODE
 ZV
 ZenCart
 ZilverCMS
+Zinia
 aangeleverd
 aanvragen
 abonnement
@@ -613,5 +622,5 @@ zoeken
 maskedId
 multisafepayRestore
 urls
-Zinia
+
 
