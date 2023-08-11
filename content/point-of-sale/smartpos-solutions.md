@@ -46,7 +46,7 @@ This diagram shows a successful cloud-based POS payment flow. Click to magnify.
 
   📘 **Note:** Before you start initiating payments, you must ensure **cloud mode** is enabled - see [SmartPOS features](/docs/smartpos-features).
 
-Create an order - see [Recipe](/recipes/cloud-payment-notifications).
+Create an order. See Recipe - [Cloud POS payment](/recipes/cloud-pos-payment).
 
 To receive order payments updates subscribe to [Event notifications.](/docs/event-notifications)
 
@@ -91,7 +91,7 @@ Native applications let you initiate payments on-same devices from app to paymen
 This diagram shows a successful native application payment flow. Click to magnify.
 
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/static/diagrams/svg/native-flow.svg" alt="native-app-POS" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/native-flow.svg" alt="native-app-POS" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;width: 100%;"/>
