@@ -15,8 +15,8 @@ Read how TrustPay can benefit your business on <a href="https://www.multisafepay
 
 | Supports | Details | 
 |---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | Czech Republic  | 
-| [Currencies](/docs/currencies/)  | CZK | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria, Czech Republic, Denmark, Estonia, Finland, Germany, Italy, Latvia, Netherlands, Norway, Poland, Spain, Sweden, United Kingdom  | 
+| [Currencies](/docs/currencies/)  | CZK, DKK, EUR, GBP, NOK, SEK | 
 | [Chargebacks](/docs/chargebacks/)  | No  | 
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
 | [Refunds](/docs/refund-payments/) | Yes: Full and partial  |
