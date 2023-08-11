@@ -114,7 +114,7 @@ To test Klarna payments, see Testing payment methods - [BNPL methods](/docs/test
 
 ## Addresses
 
-The customer's billing and shipping addresses must be the **same**.
+Different billing and shipping addresses are supported.
 
 ## Branding
 
