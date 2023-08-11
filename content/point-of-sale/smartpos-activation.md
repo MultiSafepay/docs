@@ -26,6 +26,14 @@ To process payments, you will need:
 - A [MultiSafepay account](/docs/getting-started-guide/)
 - A SmartPOS terminal
 
+> ℹ Note:
+> 
+> Before you start the activation process, ensure that Initial PIN Encrypted Key(IPEK) is registered on your terminal. 
+> 
+> To verify IPEK registration, turn on your terminal and click **Configured**.
+> 
+> If your IPEK is not correct, email [support@mulitsafepay.com](mailto:support@mulitsafepay.com)
+
 # Activation
 
 To activate a SmartPOS terminal, follow these steps:
