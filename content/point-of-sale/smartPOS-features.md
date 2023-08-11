@@ -114,6 +114,26 @@ After the payment has been processed, the option to tip is displayed on the paym
 1. In the **Payment** list, click the ** Cloud mode** toggle to the right.
 2. To return to the main screen, click the **Back** button.
 
+---
+
+To exit the cloud mode payment screen, click the **MultiSafepay** logo and then enter the default PIN. The default PIN code is `1324`.
+
+**Note:** For your security, we recommend you change the default PIN code as soon as possible. 
+
+<details id="navigation">
+<summary>How to change the PIN code </summary>
+<br>
+
+1. Go to **Settings** >  **Security**.
+2. Enter the default PIN code.
+3. Click **Change** and then enter your new PIN code. 
+4. Click ✔.
+
+</details>
+
+---
+<br>
+
 After you've enabled the **Cloud mode**, the **Navigation** list appears. This feature allows you to hide the cancel button and system navigation.
 
 **Example:**  

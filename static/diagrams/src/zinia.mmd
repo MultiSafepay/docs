@@ -15,7 +15,7 @@ sequenceDiagram
     end
     Zi->>Mu: Authorizes the payment
      Me->>C: Ships order fully or partially
-      Note over Me: Manually change the order status to Shipped.
+      Note over Me: Manually changes the order status to Shipped.
     Zi->>Mu: Transfers funds
     Mu->>Me: Settles funds 
     loop While payment is outstanding
