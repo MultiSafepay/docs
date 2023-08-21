@@ -34,16 +34,16 @@ De klant heeft wél een bankoverschrijving gedaan, maar heeft niet:
 
 Beide gevallen leiden ertoe dat er geen transactie bestaat in ons systeem waarmee de overschrijving gematcht kan worden.
 
-Om een transactie aan te maken kunt u gebruik maken van onze betaallinks ([payment links](/docs/payment-links/)):
+Om niet gematchede betalingen op te lossen, controleer of er een [transactie](/docs/payment-links/) aangemaakt is:
 
-## Er bestaat al een betaallink
+## Transactie aangemaakt
 
 1. Klik op de link om de betaalpagina te openen. 
 2. Klik op **Bankoverschrijving**.
 3. Als de klant het veld **Bankrekeningnummer** niet heeft ingevuld, vul dan het bankrekeningnummer van de klant in (indien bij u bekend).
 4. Klik op **Bevestig** om de transactie aan te maken in ons systeem.
 
-## Er bestaat nog geen betaallink
+## Transactie niet aangemaakt
 
 1. [Genereer handmatig een betaallink](/docs/payment-links/). 
 2. Voeg de naam van de klant en het ordernummer toe aan de beschrijving (voor uw eigen administratie). 
