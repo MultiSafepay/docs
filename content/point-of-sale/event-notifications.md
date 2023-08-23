@@ -46,7 +46,7 @@ The table below sets out possible payment statuses and what they commonly mean.
 | Description                  | Payment status |
 | :---------------------------| :-------------- |
 | The <<glossary:card scheme>> is processing your payment request. | Initialized    |
-| he payment has been cancelled on the terminal or via API. For more information - see [Cancellation.](/docs/solutions#cancellation)  <br>**Note:**  You can now initiate another cloud POS payment.   | Cancelled.     |
+| The payment has been cancelled on the terminal or via API. For more information - see [Cancellation.](/docs/solutions#cancellation)  <br>**Note:**  You can now initiate another cloud POS payment.   | Cancelled.     |
 | The customer has completed the payment.  <br>**Note:**  You can now initiate another cloud POS payment.  | Completed      |
 | The <<glossary:card scheme>> has declined the payment. The customer will be redirected to the payment screen to retry the payment.  | Declined. |
 
