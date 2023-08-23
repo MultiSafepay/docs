@@ -116,6 +116,7 @@ Casper
 Cesena
 Changelog
 Cloudflare
+CloudSuite
 Coppermine
 Creditdebit
 Credito
