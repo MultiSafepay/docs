@@ -116,9 +116,14 @@ After the payment has been processed, the option to tip is displayed on the paym
 
 ---
 
-To exit the cloud mode payment screen, click the **MultiSafepay** logo and then enter the default PIN. The default PIN code is `1324`.
+To exit the cloud mode payment screen:
+
+1. Tap and hold the **MultiSafepay** logo for few seconds.
+2. Enter the default **PIN code**. <br>The default PIN code is `1324`.
 
 **Note:** For your security, we recommend you change the default PIN code as soon as possible. 
+
+---
 
 <details id="navigation">
 <summary>How to change the PIN code </summary>

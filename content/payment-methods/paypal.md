@@ -71,11 +71,12 @@ To activate PayPal, follow these steps:
 <summary>How to configure your PayPal account</summary>
 <br>
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Settings** > **Payment methods**
-3. In the **PayPal** tab, click on **Set up PayPal** button <br> You are redirected to PayPal to sign in to your PayPal business account.                              
-4. Grant PayPal access to connect with your MultiSafepay account.
-5. Your **PayPal Merchant ID** is now displayed in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+1. Email a request to <support@multisafepay.com>
+2. After we confirm activation, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+3. Go to **Settings** > **Payment methods**
+4. In the **PayPal** tab, click on **Set up PayPal** button <br> You are redirected to PayPal to sign in to your PayPal business account.                              
+5. Grant PayPal access to connect with your MultiSafepay account.
+6. Your **PayPal Merchant ID** is now displayed in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
 If your **PayPal Merchant ID** isn't displayed in your dashboard, you can add it manually.
 
