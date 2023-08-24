@@ -308,8 +308,8 @@ When you ship the order, you **must** manually change the [order status](/docs/p
 
 If you change the order status in your backend, the following [ready-made integrations](/docs/our-integrations/) pass the updated status to your dashboard automatically:
 
-- Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
-- Shopware 5: When you set the order to **delivered** in your backend.
+- Lightspeed, Magento 2, and WooCommerce: When you set the order to **Shipped** in your backend.
+- Shopware 5: When you set the order to **Delivered** in your backend.
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
