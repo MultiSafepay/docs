@@ -20,7 +20,7 @@ If you cannot send your available shipping options for the shipping element on t
 
 To trigger the shipping options request, in your [create order](/reference/createorder) request, set `checkout_options.use_shipping_notification` (boolean) to `true`.
 
-See Recipe – [Create a FastCheckout page](/recipes/create-a-fastcheckout-page) > Step 6. Configure shipping options. 
+See Recipe – <a href="https://docs.multisafepay.com/recipes/create-a-fastcheckout-page" target="_blank"> Create a FastCheckout page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> > Step 6. Configure shipping options. 
 
 # Request
 
@@ -29,7 +29,7 @@ See Recipe – [Create a FastCheckout page](/recipes/create-a-fastcheckout-page)
 1. In `payment_options.notification_url`, specify your webhook endpoint.
 2. Set `payment_options.notification_method` to `POST` (recommended) or `GET`. 
 
-See Recipe – [Create a FastCheckout page](/recipes/create-a-fastcheckout-page) > Step 1. Create an order. 
+See Recipe – <a href="https://docs.multisafepay.com/recipes/create-a-fastcheckout-page" target="_blank"> Create a FastCheckout page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> > Step 1. Create an order. 
 
 ### POST
 
@@ -112,9 +112,9 @@ The following is an example `POST` request from MultiSafepay to you.
 | `order_id` | string | Your unique (client-defined) identifier for the order. |
 | `amount` | integer | The payment amount in the currency's smallest unit: <br> - Decimal currencies: Value for 10 EUR = 1000 (1000 cents) <br> - Zero-decimal currencies: Value for 10 YEN = 10 |
 | `currency` | The currency of the payment. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217 currency code</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. |
-| `customer` | object | See Recipes – [customer object](/recipes/customer-object-1). |
-| `delivery` | object | See Recipes – [delivery object](/recipes/delivery-object). |
-| `shopping_cart` | object | See Recipes – [Display shopping cart](/recipes/display-shopping-cart). |
+| `customer` | object | See Recipes – <a href="https://docs.multisafepay.com/recipes/customer-object-1" target="_blank">Customer object</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. |
+| `delivery` | object | See Recipes – <a href="https://docs.multisafepay.com/recipes/delivery-object" target="_blank">Delivery object</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.|
+| `shopping_cart` | object | See Recipes – <a href="https://docs.multisafepay.com/display-shopping-cart" target="_blank">Display shopping cart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. |
 
 </details>
 

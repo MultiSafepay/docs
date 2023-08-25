@@ -25,7 +25,7 @@ No activation is required.
 You can generate payment links via the API:
 
 - API reference – [Create order](/reference/createorder/) > Payment page/link
-- API recipe – [Create a payment page/link](/reference/createorder/)
+- API recipe – <a href="https://docs.multisafepay.com/recipes/create-a-payment-pagelink" target="_blank">Create a payment page/link</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
 
 Or via your dashboard:
 

@@ -406,7 +406,8 @@ For other ready-made integrations, make an [update order](/reference/updateorder
 
 You can choose whether or not to include a `shopping_cart` object in your [create order](/reference/createorder) request (we normally recommend this for BNPL orders).
 
-See Recipes – [Display shopping cart](/recipes/display-shopping-cart).
+See Recipes – <a href="https://docs.multisafepay.com/recipes/display-shopping-cart" target="_blank">Display shopping cart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 
 You can also then refund with or without the `shopping_cart`, but for simplicity we recommend matching the refund request to the original order request.
 
