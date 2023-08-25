@@ -1,8 +1,8 @@
 ---
 title: "Onboarding affiliates via API"
-category: 62962dcdbccb9a001d4bbc81
-parentDoc: 62a2055be5b9db006a2545a7
-order: 15
+category: 627bbcf80c1c9c0050320b60
+parentDoc: 64e862b37076730073a1cd5c
+order: 0
 hidden: false
 slug: 'affiliate-onboarding-api'
 excerpt: ''
