@@ -160,7 +160,11 @@ The table below sets out options available for receiving updates on the payments
 
 ## Cancellation
 
-You can only [cancel an order](/reference/updateorder) when the terminal displays the payment screen before any customer interaction. Once the payment is processed, you can no longer cancel.
+To cancel an order, make a POST request using the `order_id`.
+
+```
+curl -X POST 'https://testapi.multisafepay.com/v1/json/orders/{order_id}/cancel?api_key={your-api-key}'
+```
 
 ## Refunds
 
