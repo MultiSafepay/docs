@@ -15,7 +15,7 @@ slug: 'smartpos-features'
 > - Netherlands
 > 
 > Please note that in this stage, you cannot request terminals yet to use POS services.  
-> If you are interested in participating in the next stage of our pilot, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
+> If you are interested in participating in the next stage of our pilot, email <sales@multisafepay.com>
 
 After activating your SmartPOS terminal, you can add features from your SmartPOS payment app. SmartPOS features let you:
 
