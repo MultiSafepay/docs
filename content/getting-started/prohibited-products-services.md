@@ -1,7 +1,7 @@
 ---
 title: "Prohibited products and services"
 category: 627bbcf80c1c9c0050320b60
-parentDoc: 64e862b37076730073a1cd5c
+parentDoc: 64e860b148351600329afa5d
 order: 1
 hidden: false
 slug: 'prohibited-products-services'
