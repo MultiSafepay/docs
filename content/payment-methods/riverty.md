@@ -149,7 +149,7 @@ When you ship the order, you **must** manually change the <<glossary:order statu
 
 If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/docs/our-integrations/) pass the updated status to your dashboard automatically:
 
-- Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
+- Lightspeed, Magento 2, and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **Delivered** in your backend.
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
