@@ -20,7 +20,8 @@ Apply the same rounding rule in your integration to ensure:
 - [Payment pages](/docs/payment-pages/) display the correct (sub)totals.
 - [E-Invoices](/docs/e-invoicing/) to your customers match your records.
 
-For more information about the `shopping_cart` object, see Recipe – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
+For more information about the `shopping_cart` object, see Recipe – <a href="https://docs.multisafepay.com/recipes/create-a-fastcheckout-page" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 
 ## Example
 

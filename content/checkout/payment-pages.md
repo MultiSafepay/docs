@@ -28,7 +28,7 @@ Payment pages are automatically activated when you [add a site](/docs/sites/) to
 
 # Integration 
 
-See Recipes – [Create a payment page](/recipes/create-a-payment-pagelink).
+See Recipes – <a href="https://docs.multisafepay.com/recipes/create-a-payment-pagelink" target="_blank">Create a payment page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 <details id="known-errors">
 <summary>Known errors</summary>
@@ -313,7 +313,7 @@ You can dynamically style the payment page for specific order requests via our A
 
 See:
 - API reference – [Create order](/reference/createorder/) > Payment page/link > `payment_options` object
-- Recipes – [Style the payment page](/recipes/style-the-payment-page)
+- Recipes – <a href="https://docs.multisafepay.com/recipes/style-the-payment-page" target="_blank">Style the payment page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 The `items` parameter is an HTML string for displaying order items on the payment page, instead of including a `shopping_cart`. 
 

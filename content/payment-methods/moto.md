@@ -62,7 +62,7 @@ See API reference – [Create order](/reference/createorder/) > Card order.
 
   </details>
 
-See Recipes – [Create a MOTO order](/recipes/create-a-moto-order).
+See Recipes – <a href="https://docs.multisafepay.com/recipes/create-a-moto-order" target="_blank">Create a MOTO order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # Restrictions for MOTO
 

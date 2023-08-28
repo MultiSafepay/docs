@@ -29,7 +29,7 @@ Subscribe to event notifications to receive order payments updates when, e.g.,
 
 # 1. Initiate payments
 
-1. [Create an order](/reference/createorder/), and set`terminal_id` in your request. See Recipe - [Cloud POS payment](/recipes/cloud-pos-payment)
+1. [Create an order](/reference/createorder/), and set`terminal_id` in your request. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. In response to the API request you made, you receive a `event_url` and `event_token`.
 3. Copy the `event_url` and `event_token`.
 

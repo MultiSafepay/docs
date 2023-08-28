@@ -120,7 +120,7 @@ We strongly recommend [testing transactions](/docs/testing/) before processing l
 
   </details>
 
-- A `shopping_cart` object can be included in your [create order](/reference/createorder) request, see Recipe – [Include shopping_cart in order](/recipes/display-shopping-cart).
+- A `shopping_cart` object can be included in your [create order](/reference/createorder) request, see Recipe – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 - An `invoice_id`  can be included in your [create order](/reference/createorder) request, which appears in the transaction history.<br> **Note:** If no `invoice_id` is set, the `order_id` defaults to `invoice_id`.
 
