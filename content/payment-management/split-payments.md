@@ -21,7 +21,8 @@ None.
 
 # Integration
 
-See Recipes – [Split a payment](/recipes/split-a-payment).
+See Recipes – <a href="https://docs.multisafepay.com/recipes/split-a-payment" target="_blank">Split a payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 
 Split Payments are not supported in our [ready-made integrations](/docs/our-integrations/).
 <br>

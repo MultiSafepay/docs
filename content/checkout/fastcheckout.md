@@ -101,7 +101,7 @@ Specify in your request the relevant [site IDs](/docs/sites#site-id-api-key-and-
 To integrate FastCheckout as a hosted page via our API, see:
 
 - API reference – [Create order](/reference/createorder) > FastCheckout order
-- Recipes – [Create a FastCheckout page](/recipes/create-a-fastcheckout-page)
+- Recipes – <a href="https://docs.multisafepay.com/recipes/create-a-fastcheckout-page" target="_blank">Create a FastCheckout page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
 
 To embed FastCheckout into your site, see [FastCheckout JavaScript integration](/docs/fastcheckout-integration/).
 

@@ -39,7 +39,8 @@ Second Chance emails are **not** sent:
 
 # Integration
 
-To integrate, see Recipes – [Send payment reminders](/recipes/send-payment-reminders).
+To integrate, see Recipes – <a href="https://docs.multisafepay.com/recipes/send-payment-reminders" target="_blank">Send payment reminders</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 <br>
 
 ---

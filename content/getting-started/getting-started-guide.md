@@ -1,7 +1,7 @@
 ---
 title: 'Getting started guide'
 category: 627bbcf80c1c9c0050320b60
-order: 1
+order: 0
 hidden: false
 slug: 'getting-started-guide'
 ---

@@ -71,8 +71,8 @@ You can apply discounts to orders via your dashboard or the API.
 
 To discount:
 
-- <<glossary:BNPL>> orders, see Recipes – [Discount a BNPL order](/recipes/discount-a-bnpl-order/)
-- Orders with other payment methods, see Recipes – [Discount an order](/recipes/discount-an-order/)
+- <<glossary:BNPL>> orders, see Recipes – <a href="https://docs.multisafepay.com/recipes/discount-a-bnpl-order/" target="_blank">Discount a BNPL order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- Orders with other payment methods, see Recipes – <a href="https://docs.multisafepay.com/recipes/discount-a-bnpl-order/" target="_blank">Discount a BNPL order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 
 See API reference – [Create order](/reference/createorder/).

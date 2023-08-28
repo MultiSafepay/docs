@@ -43,7 +43,7 @@ Set `type` to `direct`.
 When you collect cardholder data, you must also collect the contextual information about the customer's device (fingerprint) required for [3DS2](/docs/3ds2) authentication. The fingerprint can be created through JavaScript interfaces and methods in the customer's browser.
 
 
-To learn how to create a fingerprint, see Recipe – [Create a customer.browser object](/recipes/create-a-customerbrowser-object).
+To learn how to create a fingerprint, see Recipe – <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Create a customer.browser object</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ---
 

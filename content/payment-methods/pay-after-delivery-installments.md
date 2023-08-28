@@ -80,7 +80,7 @@ For example requests, on the [Create order](/reference/createorder/) page, in th
 
 </details>
 
-A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
+A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ### Ready-made integrations
 Supported in all [ready-made integrations](/docs/our-integrations/) (direct and redirect).

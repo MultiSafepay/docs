@@ -32,7 +32,7 @@ You can dynamically style the MultiSafepay success page in the create order requ
 
 See:
 - API reference – [Create order](/reference/createorder/) > Payment page/link > `payment_options` object
-- Recipes – [Style the payment page](/recipes/style-the-payment-page)
+- Recipes – <a href="https://docs.multisafepay.com/recipes/style-the-payment-page" target="_blank">Style the payment page </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 <br>
 

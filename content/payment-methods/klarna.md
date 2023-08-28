@@ -97,7 +97,7 @@ For support, email <integration@multisafepay.com>
 
   </details>
 
-- A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
+- A `shopping_cart` object is required for all BNPL orders. See Recipes –  <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 - Transactions expire after 1 hour.
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
 
