@@ -13,7 +13,7 @@ slug: 'overview'
 > - Netherlands
 >
 > Please note that in this stage, you cannot request terminals yet to use POS services.
-> If you are interested in participating in the next stage of our pilot, email sales@multisafepay.com
+> If you are interested in participating in the next stage of our pilot, email <sales@multisafepay.com>
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-1.svg" width="80" align="right" style="margin: 20px 20px 20px 30px; max-height: 75px"/>
 

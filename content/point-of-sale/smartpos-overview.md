@@ -13,7 +13,7 @@ slug: 'smartpos-terminal'
 > - Netherlands
 > 
 > Please note that in this stage, you cannot request terminals yet to use POS services.  
-> If you are interested in participating in the next stage of our pilot, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
+> If you are interested in participating in the next stage of our pilot, email <sales@multisafepay.com>
 >
 
 This section provides an overview of our SmartPOS terminal.
