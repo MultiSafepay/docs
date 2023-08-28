@@ -1,9 +1,9 @@
 ---
 title: "Account balance"
-category: 62962dcdbccb9a001d4bbc81
-order: 3
+category: 627bbcf80c1c9c0050320b60
+order: 0
 hidden: false
-parentDoc: 62b0845857c8ab006af6a4f7
+parentDoc: 64e860ee689287003b75de98
 slug: 'account-balance'
 excerpt: 'The funds held in your MultiSafepay account.'
 ---

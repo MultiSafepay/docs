@@ -1,7 +1,7 @@
 ---
 title: 'Manage my account'
-category: 62962dcdbccb9a001d4bbc81
-order: 2
+category: 627bbcf80c1c9c0050320b60
+order: 3
 hidden: false
 slug: 'manage-account'
 ---
