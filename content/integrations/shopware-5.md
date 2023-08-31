@@ -76,6 +76,44 @@ You can filter generic gateways by country, and minimum and maximum amount.
 
 </details>
 
+## Order flows
+
+The plugin supports two flows for creating orders: **before** or **after** the transaction is completed.
+
+<details id="before-flow">
+<summary>Before flow</summary>
+<br>
+
+By default, order confirmation emails are sent before the payment is finalized.  
+You can disable this feature. 
+
+The status of abandoned payments changes to **Cancelled**.
+
+</details>
+
+<details id="after-flow">
+<summary>After flow</summary>
+<br>
+
+Orders are created via a MultiSafepay notification to Shopware 5 using the `transaction ID`. After completing payment, the customer is redirected to your order confirmation page.  
+
+</details>
+
+<details id="how-to-switch-order-flows">
+<summary>How to switch order flows</summary>
+<br>
+
+To change the flow you are using, follow these steps:
+
+1. Sign in to your Shopware 5 backend.
+2. Go to **Configuration** > **Plugin manager** > **Installed**.
+3. Search for the installed **MultiSafepay** plugin, and then click the **Edit** pencil icon.
+4. Click the dropdown icon to select the relevant status in the **Status** fields.
+5. Click **Save**.
+
+</details>
+
+
 ### Payment methods
 
 <details id="supported-payment-methods">
