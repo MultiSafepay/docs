@@ -1,7 +1,7 @@
 ---
 title: 'Edenred'
 category: 6298bd782d1cf4006032e765
-order: 36
+order: 0
 hidden: false
 parentDoc: 62a32bf042021c00e1cd7e5c
 slug: 'edenred'
