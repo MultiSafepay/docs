@@ -30,14 +30,27 @@ Subscribe to event notifications to receive order payments updates when, e.g.,
 # 1. Initiate payments
 
 1. [Create an order](/reference/createorder/), and set`terminal_id` in your request. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. In response to the API request you made, you receive a `event_url` and `event_token`.
-3. Copy the `event_url` and `event_token`.
+2. In response to the API request you made, you receive the `events_token`.
 
 📘 **Note:** You cannot initiate another payment until the current payment is **Cancelled** or **Completed**.
 
 # 2. Subscribe to the event notifications
 
-To subscribe to event notifications, pass the `events_url` and `events_token` to the <a href="https://github.com/MultiSafepay/message-bus" target="_blank">Message-bus-js</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+To subscribe to event notifications make a GET request, using the `events_token` from your response.
+
+```
+curl -H 'Authorization: events_token' https://testapi.multisafepay.com/events/stream/'
+```
+<details id="example-requests"> 
+  <summary>Example requests</summary>
+  <br>
+
+```
+curl -H 'Authorization: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2OTQwNzEyMDcsImdydtdfI6WyJtYnVzOnNlc3Npb24ub3JkZXIiLCJtYnVzOnNlc3Npb24ucXIiXSwicGlkIjoiNTk5TWM0VWhOWDhYczNmNU55b3JnaVZZMlhab1BsVVkxa28iLCJzdWIiOiJwciJ9.p1txKa0wlR6Pn-DvQW8oYmYcesU49GgZsPebME_EvYs' \
+'https://testapi.multisafepay.com/events/stream/'
+```
+
+  </details>
 
 # 3. Payment statuses
 

@@ -1,7 +1,7 @@
 ---
 title: 'Previous release'
 category: 62bd999547298d001abc714c
-order: 7
+order: 0
 hidden: false
 slug: 'payment-component-previous-release'
 parentDoc: 62a848399bb3eb004023f291 
