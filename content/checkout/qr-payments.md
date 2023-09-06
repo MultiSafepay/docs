@@ -1,7 +1,7 @@
 ---
 title: 'QR payments'
 category: 62bd999547298d001abc714c
-order: 11
+order: 4
 hidden: false
 slug: 'qr-payments'
 ---
