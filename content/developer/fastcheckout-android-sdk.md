@@ -1,7 +1,7 @@
 ---
 title: "FastCheckout Android SDK"
 category: 62962df622e99600810c117d
-order: 70
+order: 2
 hidden: true
 slug: 'fastcheckout-android'
 ---
