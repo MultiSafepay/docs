@@ -39,7 +39,7 @@ Subscribe to event notifications to receive order payments updates when, e.g.,
 To subscribe to event notifications make a GET request, using the `events_token` from your response.
 
 ```
-curl -H 'Authorization: events_token' https://testapi.multisafepay.com/events/stream/'
+curl -H 'Authorization: events_token' 'https://testapi.multisafepay.com/events/stream/'
 ```
 <details id="example-requests"> 
   <summary>Example requests</summary>
