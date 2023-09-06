@@ -48,7 +48,7 @@ This diagram shows a successful cloud-based POS payment flow. Click to magnify.
 
 Create an order. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-To receive order payments updates subscribe to [Event notifications.](/docs/event-notifications)
+To receive payments updates subscribe to [Event notifications.](/docs/event-notifications)
 
 <br>
 
@@ -67,7 +67,30 @@ This diagram shows a successful web application payment flow. Click to magnify.
   margin-right: auto;
   max-width: 750px;width: 100%;"/>
 
-To initiate an order payment, use the URL below:
+### Initiate payments 
+
+1. Before initiating web application payments, you need to create an order.
+
+**Example**
+
+```
+curl -X POST \
+"https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
+-d '{
+  "type": "redirect",
+  "order_id": "my_order_id",
+  "gateway": "",
+  "currency": "EUR",
+  "amount": 10,
+  "description": "Order Description",
+  "payment_options": {
+      "notification_url": "https://www.example.com/paymentnotification",
+      "notification_method": "POST"
+  }
+}'
+```
+
+2. Initiate a payment using the URL below:
 
 ``` URL
 msp://?amount={$amount}&order_id={$order_id}&callback={$callback_url}&notification_url={$notification_url}
@@ -96,13 +119,36 @@ This diagram shows a successful native application payment flow. Click to magnif
   margin-right: auto;
   max-width: 750px;width: 100%;"/>
 
-To initiate payments - see <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">MultiSafepay Android POS integration </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+### Initiate payments 
+
+1. Before initiating native application payments, you need to create an order.
+
+**Example**
+
+```
+curl -X POST \
+"https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
+-d '{
+  "type": "redirect",
+  "order_id": "my_order_id",
+  "gateway": "",
+  "currency": "EUR",
+  "amount": 10,
+  "description": "Order Description",
+  "payment_options": {
+      "notification_url": "https://www.example.com/paymentnotification",
+      "notification_method": "POST"
+  }
+}'
+```
+
+2. To initiate payments - see <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">MultiSafepay Android POS integration </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 <br>
 
 # Handle notifications
 
-The table below sets out options available for receiving updates on order payments.
+The table below sets out options available for receiving updates on the payments.
 
 | POS Solutions       | Required     | Optional            |
 | :------------ |:---------------- | :--------------|
