@@ -1,11 +1,11 @@
 ---
 title: "OpenCart 3"
 category: 62962dd7e272a6002ebbbbc5
-order: 9
+order: 7
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
-slug: 'opencart'
+slug: 'opencart-3'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/OpenCart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
