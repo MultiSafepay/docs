@@ -1,7 +1,7 @@
 ---
 title: 'Partner integrations'
 category: 62962dd7e272a6002ebbbbc5
-order: 24
+order: 3
 hidden: false
 excerpt: "Explore integrations with our partners to help manage your business."
 slug: 'partner-integrations'
