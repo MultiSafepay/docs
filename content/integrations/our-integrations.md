@@ -1,7 +1,7 @@
 ---
 title: 'Our integrations'
 category: 62962dd7e272a6002ebbbbc5
-order: 1
+order: 0
 hidden: false
 slug: 'our-integrations'
 ---
