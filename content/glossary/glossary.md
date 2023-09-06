@@ -1,10 +1,9 @@
 ---
 title: "Glossary"
-category: 627bbcf80c1c9c0050320b60
-order: 2
+category: 64f71308dd215a026fa77609
+order: 0
 hidden: false
 slug: 'glossary'
-parentDoc: 62a0b32d04068d0093718038
 ---
 #### account balance
 The balance of funds held in a MultiSafepay account.
