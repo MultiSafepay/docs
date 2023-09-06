@@ -1,7 +1,7 @@
 ---
 title: 'Payment components'
 category: 62bd999547298d001abc714c
-order: 4
+order: 1
 hidden: false
 slug: 'payment-components'
 ---
