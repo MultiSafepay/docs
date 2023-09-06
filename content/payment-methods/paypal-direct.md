@@ -1,7 +1,7 @@
 ---
 title: "PayPal smart button integration"
 category: 6298bd782d1cf4006032e765
-order: 49
+order: 9
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'paypal-direct'

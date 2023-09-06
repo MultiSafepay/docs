@@ -1,7 +1,7 @@
 ---
 title: "Accounting integrations"
 category: 62962dee7af1c800355771a1
-order: 1
+order: 0
 hidden: false
 slug: 'accounting-integrations'
 ---

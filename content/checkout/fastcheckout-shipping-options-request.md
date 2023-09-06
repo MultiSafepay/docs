@@ -1,7 +1,7 @@
 ---
 title: 'FastCheckout shipping options request'
 category: 62bd999547298d001abc714c
-order: 3
+order: 1
 hidden: false
 slug: 'fastcheckout-shipping-options'
 parentDoc: 62fcc05ac034cb06771c46fc

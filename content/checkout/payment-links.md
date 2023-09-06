@@ -1,7 +1,7 @@
 ---
 title: 'Payment links'
 category: 62bd999547298d001abc714c
-order: 9
+order: 2
 hidden: false
 slug: 'payment-links'
 ---

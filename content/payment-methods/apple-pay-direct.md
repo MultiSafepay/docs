@@ -1,7 +1,7 @@
 ---
 title: "Apple Pay direct integration"
 category: 6298bd782d1cf4006032e765
-order: 45
+order: 5
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'apple-pay-direct'
