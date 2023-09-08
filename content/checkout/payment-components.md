@@ -29,6 +29,14 @@ You can embed a single or multiple payment methods in your checkout.
 
 - [Bancontact](/docs/bancontact/)
 - [Bank transfer](/docs/bank-transfer/)
+- <<glossary:BNPL>>:
+    - [E-invoicing](/docs/e-invoicing/)
+    - [Klarna](/docs/klarna/)
+    - [In3](/docs/in3/)
+    - [Pay After Delivery](/docs/pay-after-delivery/)
+    - [Pay After Delivery installments](/docs/pay-after-delivery-installments/)
+    - [Riverty](/docs/riverty/)
+    - [Zinia](/docs/zinia/)
 - Cards:  
     - [American Express](/docs/card-payments/)
     - [Mastercard](/docs/card-payments/)
