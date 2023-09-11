@@ -33,16 +33,16 @@ Use our pre-formatted and/or pre-written templates and populate them with your c
     **Account information** > **Chargebacks email**. 
 
     **Manual capture completed (to customer)**  
-    For notifying customers that you have manually captured reserved funds for an [uncaptured transaction](/docs/uncaptured/). 
+    For notifying customers that you have manually captured reserved funds for an [uncleared transaction](/docs/uncleared/). 
 
     **Manual capture completed (to merchant)**  
-    For confirming that you have manually captured reserved funds for an [uncaptured transaction](/docs/uncaptured/).  
+    For confirming that you have manually captured reserved funds for an [uncleared transaction](/docs/uncleared/).  
 
     **Partial and/or full capture completed (to customer)**  
-    For notifying customers that you have partially or fully captured reserved funds for an [uncaptured transaction](/docs/uncaptured/). 
+    For notifying customers that you have partially or fully captured reserved funds for an [uncleared transaction](/docs/uncleared/). 
 
     **Partial and/or full capture completed (to merchant)**  
-    For confirming that you have partially or fully captured reserved funds for an [uncaptured transaction](/docs/uncaptured/).
+    For confirming that you have partially or fully captured reserved funds for an [uncleared transaction](/docs/uncleared/).
 
     **Refund complete email (to customer)**  
     For notifying customers that you have processed their refund. 
