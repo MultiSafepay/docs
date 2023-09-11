@@ -7,7 +7,7 @@ parentDoc: 62a9a54aba9800011a8bda88
 excerpt: "Technical manual for Mijnwebwinkel's free app."
 slug: 'mijnwebwinkel'
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Mijnwebwinkel.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="../../static/logo/Integrations/Mijnwebwinkel.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 # Prerequisites
 

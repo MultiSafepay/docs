@@ -11,7 +11,7 @@ If you cannot send your available shipping options for the shipping element on t
 
 # How it works
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/fastcheckout-shipping-options.svg" alt="FastCheckout shipping options" style="display: block;
+<img src="../../static/diagrams/svg/fastcheckout-shipping-options.svg" alt="FastCheckout shipping options" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;width: 100%;">

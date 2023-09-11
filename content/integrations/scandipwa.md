@@ -7,7 +7,7 @@ parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
 slug: 'scandipwa'
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/ScandiPWA.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="../../static/logo/Plugins/ScandiPWA.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 <div style="display: flex; flex-wrap: wrap;">
 

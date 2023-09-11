@@ -6,7 +6,7 @@ hidden: false
 slug: 'accounting-integrations'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/ACA.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
+<img src="../../static/svgs/ACA.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
 <br>
 
 # ACA
@@ -19,7 +19,7 @@ To reconcile the refund automatically with your MultiSafepay account, see ACA - 
 
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/actuals-io.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
+<img src="../../static/svgs/actuals-io.svg" width="150" align ="right" style="margin: 20px; max-height: 75px"/>
 <br>
 
 # Actuals
@@ -46,7 +46,7 @@ To connect your Actuals account to your MultiSafepay account:
 
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/AFAS.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
+<img src="../../static/svgs/AFAS.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
 <br>
 
 # AFAS
@@ -65,7 +65,7 @@ For middleware solutions to automate processes and efficiently exchange data bet
 
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/E-boekhouden.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
+<img src="../../static/svgs/E-boekhouden.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
 <br>
 
 # e-Boekhouden
@@ -88,7 +88,7 @@ To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – <a 
 
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Exact.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
+<img src="../../static/svgs/Exact.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
 <br>
 
 # Exact
@@ -320,7 +320,7 @@ For import instructions, see Octopus – <a href="https://www.octopus.be/nl/hand
 ---
 
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Snelstart.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
+<img src="../../static/svgs/Snelstart.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
 <br>
 
 # SnelStart
@@ -351,7 +351,7 @@ To add MultiSafepay [payment links](/docs/payment-links/) to SnelStart invoices 
 
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Twinfield.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
+<img src="../../static/svgs/Twinfield.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
 <br>
 
 # Twinfield
@@ -399,7 +399,7 @@ You must first provide Twinfield with an additional international bank account n
 
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Unit4.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
+<img src="../../static/svgs/Unit4.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
 <br>
 
 # Unit4
@@ -412,7 +412,7 @@ For import instructions, see Unit4 – <a href="https://accountancygemak.nl/supp
 
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Visma.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
+<img src="../../static/svgs/Visma.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
 <br>
 
 # Visma
@@ -425,7 +425,7 @@ For import instructions, see Visma – <a href="https://nl.visma.com/accountview
 
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Yuki.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
+<img src="../../static/svgs/Yuki.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
 <br>
 
 # Yuki

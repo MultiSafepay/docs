@@ -15,7 +15,7 @@ If `payment_options.redirect_url` in your [create order](/reference/createorder)
 
 #### Example
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SuccessPage.png" align ="center"/>
+<img src="../../static/img/SuccessPage.png" align ="center"/>
 
 # Add order details to your success page
 

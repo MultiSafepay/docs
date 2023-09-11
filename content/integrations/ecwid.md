@@ -7,7 +7,7 @@ parentDoc: 62a9a54aba9800011a8bda88
 slug: 'ecwid'
 excerpt: "Free app for MultiSafepay payment solutions."
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Ecwid.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="../../static/logo/Integrations/Ecwid.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 Ecwid provides a free app to integrate with MultiSafepay [payment pages](/docs/payment-pages/).
 

@@ -39,7 +39,7 @@ To edit the default styling of the component:
 
     </details>
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/CCC_CSS.svg" width="500" align="center"/>
+<img src="../../static/diagrams/svg/CCC_CSS.svg" width="500" align="center"/>
 
 ### Example
 
@@ -67,7 +67,7 @@ Add the following to your CSS to edit the payment component to add a:
 
 The payment component now looks like this:
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Screenshot-Payment-Component.png" align ="center"/>
+<img src="../../static/img/Screenshot-Payment-Component.png" align ="center"/>
 <br>
 
 # Via the dashboard

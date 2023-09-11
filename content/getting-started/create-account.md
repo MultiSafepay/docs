@@ -18,7 +18,7 @@ All account types represent a single legal entity, but can support multiple bank
 
 Check which type of account best fits your company:
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/account-types.svg" alt="Flowchart to select your account type" style="display: block;
+<img src="../../static/diagrams/svg/account-types.svg" alt="Flowchart to select your account type" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;

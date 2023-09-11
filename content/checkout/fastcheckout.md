@@ -25,7 +25,7 @@ FastCheckout is highly flexible and fully customizable. It consists of modular c
 
 New features and payment methods are made available automatically. No updates or upgrades are required. FastCheckout is optimized for both mobile and desktop.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOExample.png" align ="center"/>
+<img src="../../static/img/FCOExample.png" align ="center"/>
 <br>
 
 The FastCheckout page comprises 4 elements that can be displayed or hidden, and configured per <<glossary:order>>.
@@ -57,15 +57,15 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
   <br>
 
   <div style="text-align: center">List</div>
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersList.png" align ="center"/>
+  <img src="../../static/img/FCOIssuersList.png" align ="center"/>
   <br>
 
   <div style="text-align: center">Dropdown</div>
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersDropdown.png" align ="center"/>
+  <img src="../../static/img/FCOIssuersDropdown.png" align ="center"/>
   <br>
 
   <div style="text-align: center">Buttons</div>
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersButtons.png" align ="center"/>
+  <img src="../../static/img/FCOIssuersButtons.png" align ="center"/>
 
   </details>
 
@@ -73,7 +73,7 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
   <summary>Example of single card payment gateway</summary>
   <br>
 
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOCard.png" align ="center"/>
+  <img src="../../static/img/FCOCard.png" align ="center"/>
 
   </details>
 
@@ -85,7 +85,7 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
 
 #### Sequence
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/fastcheckout.svg" alt="FastCheckout flow" style="display: block;
+<img src="../../static/diagrams/svg/fastcheckout.svg" alt="FastCheckout flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;width: 100%;">

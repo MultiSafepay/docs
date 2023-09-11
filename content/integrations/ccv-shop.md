@@ -7,7 +7,7 @@ parentDoc: 62a9a54aba9800011a8bda88
 slug: 'ccv-shop'
 excerpt: "Technical manual for MultiSafepay's free app."
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/CCVShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="../../static/logo/Integrations/CCVShop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 # Prerequisites
 

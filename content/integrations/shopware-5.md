@@ -8,7 +8,7 @@ excerpt: "Technical manuals for MultiSafepay's free plugins."
 slug: 'shopware-5'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Shopware_5.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="../../static/logo/Plugins/Shopware_5.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 <div style="display: flex; flex-wrap: wrap;">
 

@@ -14,7 +14,7 @@ Payment components let you embed payment methods directly into your checkout.
 
 # How it works
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/payment-components.svg" alt="Payment component flow" style="display: block;
+<img src="../../static/diagrams/svg/payment-components.svg" alt="Payment component flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;width: 100%;">

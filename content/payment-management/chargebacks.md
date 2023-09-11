@@ -17,7 +17,7 @@ To dispute a chargeback on a credit or debit card, see the process flow below. C
 
 #### Initial stage
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Chargeback-1.png" align ="center"/>
+<img src="../../static/img/Chargeback-1.png" align ="center"/>
 
 <br>
 
@@ -27,7 +27,7 @@ To dispute a chargeback on a credit or debit card, see the process flow below. C
 
 #### Dispute stage
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Chargeback-2.png" align ="center"/>
+<img src="../../static/img/Chargeback-2.png" align ="center"/>
 
 <br>
 
@@ -37,7 +37,7 @@ To dispute a chargeback on a credit or debit card, see the process flow below. C
 
 #### Final stage
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Chargeback-3.png" align ="center"/>
+<img src="../../static/img/Chargeback-3.png" align ="center"/>
 
 <br>
 

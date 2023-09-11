@@ -11,7 +11,7 @@ Check out our integrations built and managed by external developer communities:
 
 # Apache OFBiz
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Apache_OFBiz.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/Apache_OFBiz.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 ORRTIZ.COM provides a MultiSafepay plugin for Apache OFBiz.
 
@@ -20,7 +20,7 @@ ___
 
 # nopCommerce
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/nopcommerce.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/nopcommerce.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 Yidna provides a MultiSafepay extension for nopCommerce.
 
@@ -29,7 +29,7 @@ Yidna provides a MultiSafepay extension for nopCommerce.
 ___
 
 # Omnipay
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Omnipay.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/Omnipay.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 The League of Extraordinary Packages provides a MultiSafepay driver for the Omnipay PHP payment processing library.
 
@@ -39,7 +39,7 @@ ___
 
 # OroCommerce
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/OroCommerce.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/OroCommerce.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 Casper provides a MultiSafepay extension for OroCommerce.
 
@@ -49,7 +49,7 @@ ___
 
 # Sylius
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Sylius.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/Sylius.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 BitBag provides a MultiSafepay plugin for Sylius.
 

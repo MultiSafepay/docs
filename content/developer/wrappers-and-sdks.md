@@ -7,7 +7,7 @@ slug: 'wrappers-sdks'
 ---
 
 ## Django
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Django.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/Django.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 A Django integration developed by Edoburu.
 
@@ -16,7 +16,7 @@ A Django integration developed by Edoburu.
 ___
 
 ## GO
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Go.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/Go.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 Go wrapper for MultiSafepay's REST API developed by kurt-stolle.
 
@@ -25,7 +25,7 @@ Go wrapper for MultiSafepay's REST API developed by kurt-stolle.
 ___
 
 ## Java
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Java.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/Java.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 A Java wrapper for MultiSafepay's payments API, which supports all payment methods.
 
@@ -34,7 +34,11 @@ A Java wrapper for MultiSafepay's payments API, which supports all payment metho
 ___
 
 ## Laravel
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Laravel.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<<<<<<< Updated upstream
+<img src="../../logo/Integrations/Laravel.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+=======
+<img src="../../static/logo/Integrations/Laravel.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+>>>>>>> Stashed changes
 
 A Laravel wrapper for MultiSafepay's PHP SDK.
 
@@ -43,7 +47,7 @@ A Laravel wrapper for MultiSafepay's PHP SDK.
 ___
 
 ## .NET
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/NET.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/NET.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 The .NET wrapper for MultiSafepay's payments API, which supports all payment methods.
 
@@ -52,7 +56,7 @@ The .NET wrapper for MultiSafepay's payments API, which supports all payment met
 ___
 
 ## Node.js
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/NodeJS.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/NodeJS.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 The Node.js wrapper for MultiSafepay's REST API.
 
@@ -61,7 +65,7 @@ The Node.js wrapper for MultiSafepay's REST API.
 ___
 
 ## PHP SDK
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/PHP.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/PHP.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 The PHP SDK for MultiSafepay's REST API.
 
@@ -70,7 +74,7 @@ The PHP SDK for MultiSafepay's REST API.
 ___
 
 ## Python
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Python.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/Python.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 The Python wrapper for MultiSafepay's REST API.
 

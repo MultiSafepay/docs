@@ -11,7 +11,7 @@ Check out our integrations built with and managed by our partners:
 # Business management
 
 ## CloudSuite
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/CloudSuite.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/CloudSuite.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 <a href="https://www.cloudsuite.com/en_US/" target="_blank">CloudSuite</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> provides a free plugin to integrate with MultiSafepay.
 
@@ -39,7 +39,7 @@ Email <integration@multisafepay.com>
 ___
 
 ## Dynamicweb
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Dynamic_Web.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/Dynamic_Web.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 <a href="https://dynamicweb.nl/" target="_blank">Dynamicweb</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> provides a free app to integrate with MultiSafepay. 
 
@@ -60,7 +60,7 @@ For support, see Dynamicweb - <a href="https://www.dynamicweb.com/about/contact-
 ___
 
 ## Easywebshop
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/EasyWebshop.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/EasyWebshop.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 <a href="https://easywebshop.com/" target="_blank"> Easywebshop</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> provides a free app to integrate with MultiSafepay.
 
@@ -81,7 +81,7 @@ For other support, see Easywebshop – <a href="https://www.easywebshop.com/soft
 ___
 
 ## Logic4
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Logic_4.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/Logic_4.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 <a href="https://logic4.nl/" target="_blank">Logic4</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> provides a free plugin to integrate with MultiSafepay. 
 
@@ -133,7 +133,7 @@ To install and configure the plugin, see Logic4 – <a href="https://www.logic4.
 ___
 
 ## LogiVert
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/LogiVert.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/LogiVert.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 <a href="https://www.logivert.com/" target="_blank">LogiVert</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> provides a free app to integrate with MultiSafepay. 
 
@@ -185,7 +185,7 @@ ___
 
 ## Sana Commerce
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Sana_Commerce.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/Sana_Commerce.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 Sana Commerce (version 9.3 and higher) provides a free app to integrate with MultiSafepay. 
 
@@ -207,7 +207,7 @@ ____
 
 ## ShopFactory
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/ShopFactory.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/ShopFactory.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 <a href="https://www.shopfactory.nl/index.html" target="_blank">ShopFactory</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> provides a free plugin to integrate with MultiSafepay.
 
@@ -245,7 +245,7 @@ ___
 
 ## Shoptrader
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shoptrader.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/Shoptrader.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 <a href="https://www.shoptrader.nl/" target="_blank">Shoptrader</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> provides a free plugin to integrate with MultiSafepay. 
 
@@ -283,7 +283,7 @@ ___
 
 ## ZilverCMS
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/ZilverCMS.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/logo/Integrations/ZilverCMS.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 <a href="https://www.zilverhq.nl/" target="_blank">ZilverCMS</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> provides a free app to integrate with MultiSafepay.
 
@@ -323,7 +323,7 @@ ___
 
 ## Picqer
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Picqer.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/svgs/Picqer.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 <a href="https://picqer.com/nl" target="_blank">Picqer</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
@@ -331,7 +331,7 @@ ___
 
 ## Sherpan
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Sherpaan.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../master/static/svgs/Sherpaan.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 <a href="https://sherpaan.nl/project/multisafepay/" target="_blank">Sherpaan</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
@@ -340,7 +340,7 @@ ___
 # Reservations
 
 ## Planyo
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Planyo.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/svgs/Planyo.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 Our partner <a href="https://www.planyo.com/" target="_blank">Planyo</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> offers online reservation software that lets customers make, confirm, and modify reservations, and pay online. You can also customize the reservation form. 
 
@@ -364,7 +364,7 @@ ___
 
 ## MplusKASSA
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/MplusKASSA.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/svgs/MplusKASSA.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 Our partner <a href="https://www.mpluskassa.nl" target="_blank">MplusKASSA</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> offers order management software for restaurants, cafes, and hotels that can integrate with MultiSafepay.
 
@@ -388,7 +388,7 @@ ___
 
 ## HostBill
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/HostBill.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/svgs/HostBill.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 Our partner <a href="https://hostbillapp.com/" target="_blank">HostBill</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> provides billing and automation software handles all aspects of running an online business, from client acquisition, invoicing, payments and management, to customer service and support.
 
@@ -423,7 +423,7 @@ To integrate MultiSafepay as your payment provider, follow these steps:
 ___
 
 ## Twikey
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Twikey.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/svgs/Twikey.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 Our partner <a href="https://www.twikey.com/" target="_blank">Twikey</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> offers an online tool for managing and collecting subscriptions that includes <br> <a href="https://www.twikey.com/solution/mandate.html" target="_blank">SEPA direct debit mandate management</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -453,7 +453,7 @@ ___
 
 ## Duda
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/duda.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/svgs/duda.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 <a href="https://www.duda.co/" target="_blank">Duda</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
@@ -461,7 +461,7 @@ ___
 
 ## MijnDomein
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Mijndomein.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+<img src="../../static/svgs/Mijndomein.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 <a href="https://www.mijndomein.nl/" target="_blank">MijnDomein</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 

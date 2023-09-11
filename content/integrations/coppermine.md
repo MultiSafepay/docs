@@ -7,7 +7,7 @@ parentDoc: 62a9a54aba9800011a8bda88
 slug: 'coppermine'
 excerpt: "Free integration for MultiSafepay payment solutions."
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/coppermine-docs.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="../../static/logo/Integrations/coppermine-docs.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 MultiSafepay has partnered with <a href="https://www.coppermine.nl/" target="_blank">Coppermine</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, which offers a complete ecommerce suite including CRM, B2B, B2C, subscriptions, customer service, logistics, and finance.
 
