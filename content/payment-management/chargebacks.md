@@ -587,7 +587,7 @@ Use [3DS2](/docs/3ds2/) for all credit or debit card transactions.
 
 Cardholders are not allowed to request chargebacks due to fraud for 3D Secure-protected transactions.  
 
-Carefully review all [uncaptured card payments](/docs/uncaptured) flagged by MultiSafepay's fraud filter.
+Carefully review all [uncleared card payments](/docs/uncleared) flagged by MultiSafepay's fraud filter.
 
 </details>
 

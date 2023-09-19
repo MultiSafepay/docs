@@ -1,11 +1,11 @@
 ---
-title: 'Uncaptured card payments'
+title: 'Uncleared card payments'
 category: 6298bd782d1cf4006032e765
 order: 33
 hidden: false
 parentDoc: 62a727569e389a012f577acd
 excerpt: Capture or decline potentially fraudulent card payments.
-slug: 'uncaptured'
+slug: 'uncleared'
 ---
 
 To help reduce the risks associated with accepting cards, MultiSafepay's automated fraud filter reviews all card payments.
@@ -24,21 +24,21 @@ For higher-risk transactions, the payment is placed on hold and the [transaction
 
 📘 **Note:** High-scoring transactions aren't always fraudulent, and low-scoring ones may still carry risk.
 
-# Reviewing uncaptured payments
+# Reviewing uncleared payments
 
-When uncaptured payments are awaiting your review in your dashboard, you receive a notification in your dashboard and an email to the address provided under **Account information** in the account list at the top-right of the screen.
+When uncleared payments are awaiting your review in your dashboard, you receive a notification in your dashboard and an email to the address provided under **Account information** in the account list at the top-right of the screen.
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/DashboardAccountList.png" align ="center"/> 
 
 The final decision to capture or decline lies with you, as you are solely liable for any financial damage.
 For professional advice on reviewing and evaluating potential risks or fraud indicators, email <risk@multisafepay.com> 
 
-If you take no action, uncaptured transactions automatically expire after 5 days.
+If you take no action, uncleared transactions automatically expire after 5 days.
 
-<details id="how-to-review-uncaptured-payments">
-<summary>How to review uncaptured payments</summary>
+<details id="how-to-review-uncleared-payments">
+<summary>How to review uncleared payments</summary>
 <br>
 
-To review uncaptured payments, click the dashboard notification, or:
+To review uncleared payments, click the dashboard notification, or:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Uncleared transactions**.
@@ -53,8 +53,8 @@ To review uncaptured payments, click the dashboard notification, or:
 
 </details>
 
-# Evaluating uncaptured payments
-The following indicators paint a cumulative picture of uncaptured payments, but are no guarantee against fraud. If you are in any doubt about a payment, we recommend declining it and notifying the customer.
+# Evaluating uncleared payments
+The following indicators paint a cumulative picture of uncleared payments, but are no guarantee against fraud. If you are in any doubt about a payment, we recommend declining it and notifying the customer.
 
 <details id="3d-secure">
 <summary>3D Secure</summary>
@@ -164,7 +164,7 @@ Check if the transaction amount is noticeably higher or lower than average. Are 
 
 > ℹ See also
 >
-> [Viewing your uncaptured balance](/docs/account-balance#uncaptured-balance)
+> [Viewing your uncleared balance](/docs/account-balance#uncleared-balance)
 
 [block:html]
 {
