@@ -59,7 +59,7 @@ Consider creating a new site profile in your dashboard.
 
 The `ip_address` or `forwarded_ip` was invalid. 
 
-For <<glossary:BNPL>> and card orders, we check the customer's IP address as part of our [fraud check](/docs/uncaptured/).   
+For <<glossary:BNPL>> and card orders, we check the customer's IP address as part of our [fraud check](/docs/uncleared/).   
 
 ---
 ### 1008: Invalid description
@@ -173,7 +173,7 @@ The `gateway` is unavailable. This error can occur with <<glossary:direct>> requ
 For Pay After Delivery and card orders:
 
 - The `customer` data may be incorrect.
-- The transaction was flagged in our [fraud check](/docs/uncaptured/). 
+- The transaction was flagged in our [fraud check](/docs/uncleared/). 
 - We considered the customer’s risk profile unacceptable.
 
 Check that the:
