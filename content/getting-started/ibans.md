@@ -1,7 +1,7 @@
 ---
 title: "IBANs"
 category: 627bbcf80c1c9c0050320b60
-order: 5
+order: 3
 hidden: false
 parentDoc: 64e860ee689287003b75de98
 slug: 'ibans'
