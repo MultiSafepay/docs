@@ -1,7 +1,7 @@
 ---
 title: "Payouts"
 category: 627bbcf80c1c9c0050320b60
-order: 9
+order: 10
 hidden: false
 parentDoc: 64e860ee689287003b75de98
 slug: 'payouts'
