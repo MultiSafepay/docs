@@ -3,7 +3,7 @@ title: "Account balance"
 category: 627bbcf80c1c9c0050320b60
 order: 0
 hidden: false
-parentDoc: 64e860ee689287003b75de98
+parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'account-balance'
 excerpt: 'The funds held in your MultiSafepay account.'
 ---
@@ -34,9 +34,9 @@ There you can see your:
 - Transactions and statuses
 - Uncleared balance (if activated, see below)
 
-# Uncaptured balance
+# Uncleared balance
 
-You can set your daily balance report to include the balance of uncaptured transactions (status: **Uncleared**). This is particularly useful if you offer <<glossary:BNPL>> and/or card payment methods. 
+You can set your daily balance report to include the balance of uncleared transactions (status: **Uncleared**). This is particularly useful if you offer <<glossary:BNPL>> and/or card payment methods. 
 
 To activate this feature in your daily balance report, email a request to <sales@multisafepay.com>
 <br>

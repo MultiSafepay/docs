@@ -292,6 +292,8 @@ From your server, [create an order](/reference/createorder/) > Wallet order. See
 
 For the `gateway_info.payment_token`, use `paymentData.paymentMethodData.tokenizationData.token`.
 
+For 3D Secure authentication, add `customer.browser` object in your request. See recipe - <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Customer browser</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 # 6. Redirect the customer
 
 In response to the API request you made in the previous step, you receive a `payment_url`.
