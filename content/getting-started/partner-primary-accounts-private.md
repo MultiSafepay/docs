@@ -1,10 +1,10 @@
 ---
 title: "Partner and primary accounts"
 category: 627bbcf80c1c9c0050320b60
-order: 4
-hidden: false
+order: 5
+hidden: true
 parentDoc: 64e860ee689287003b75de98
-slug: 'partner-accounts'
+slug: 'partner-and-primary-accounts'
 ---
 
 Partner account holders manage the accounts of multiple affiliated merchants, which they charge a fee. 
@@ -58,8 +58,27 @@ You can charge fees to affiliates at three levels.
 | **Transaction level** | [Split incoming payments](/docs/split-payments/) between multiple merchant and/or partner accounts. <br> You can use this feature for both partner/primary and affiliate-level charges.|
 
 </details>
-<br>
 
+# 5. Change affiliates sell rate
+
+Buy/sell pricing module allows partners to modify an affiliate sell rate.
+
+To modify an affiliate sell rate, follow these steps:
+
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Affiliates** > **Overview**.
+3. To open the price module, click the **arrow-down icon :arrow-down-small: ** <i class="bi bi-caret-down-fill"></i> next to the affiliate's account number. 
+4. Click **Edit** to modify the pricing of a payment method.<br>A pop-up screen appears.
+5. Add the **New sell rate** > **Save** .<br> Your ** New sell rate** is updated in your dashboard and in future transaction.
+</br>
+
+> ℹ Note:
+> 
+> - By default, the **Standard sell rate** is displayed in light gray. Once modified, it is displayed in black.
+> - The **Sell rate** cannot be less than the **Buy rate**.
+> 
+>  For more information, contact your account manager.
+</br>
 ---
 
 [block:html]
