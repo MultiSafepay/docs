@@ -1,9 +1,9 @@
 ---
 title: "Partner and primary accounts"
 category: 627bbcf80c1c9c0050320b60
-order: 4
+order: 7
 hidden: false
-parentDoc: 64e860ee689287003b75de98
+parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'partner-accounts'
 ---
 
