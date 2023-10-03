@@ -1,7 +1,7 @@
 ---
 title: "Payouts"
 category: 627bbcf80c1c9c0050320b60
-order: 9
+order: 10
 hidden: false
 parentDoc: 64e860ee689287003b75de98
 slug: 'payouts'
@@ -54,12 +54,12 @@ You can schedule automated payouts on specific day, or make them manually.
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 2. Go to **Finances** > **Payouts**.
-3. Under **Automate payout**, click **+ Add**:
-    - Under **Select days**, select a specific day or days of the week, and/or the end of the month. 
+3. Under **Automate payout**, click **Add**:
+    - Under **Select days**, select one or more days of the week, and/or the end of the month. 
     - From the **Select currency** list, select the currency. 
     - If you want to schedule payouts only when your balance exceeds a specified amount, in the **Pay out when balance exceeds** fields, enter the amount. 
     - If you want to specify a minimum amount to retain in your balance, in the **Set reserve balance** fields, enter an amount.
-4. Click **Add payout**.
+4. Click **Schedule payouts**.
 
 ✅ &nbsp; **Tip!** To schedule payouts for different currencies, you must have a account balance and an active business bank account for each currency.
 
@@ -73,7 +73,7 @@ You can schedule automated payouts on specific day, or make them manually.
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Finances** > **Payouts**.
-3. Under **Pay out funds**:  
+3. Under **One-time payout**:  
     - Select the currency.
     - Enter the amount.
 4. Click **Pay out**.

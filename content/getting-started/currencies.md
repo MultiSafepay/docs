@@ -3,7 +3,7 @@ title: "Currencies"
 category: 627bbcf80c1c9c0050320b60
 order: 3
 hidden: false
-parentDoc: 64e860ee689287003b75de98
+parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'currencies'
 ---
 
@@ -116,7 +116,15 @@ Make sure you:
 
 ## Conversion
 
-To convert other currencies to Euros (EUR) in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, go to **Finance > Currency conversion**. 
+To convert other currencies to Euros (EUR), follow these steps:
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Finance** > **Payouts**. 
+3. Under **Currency Converter**:
+  - Select the currency.
+  - Enter the amount.
+5. Click **Convert**.
+
 
 ❗️ **Note:** Take into account the exchange rate and MultiSafepay's 4% conversion fee.
 
