@@ -273,6 +273,7 @@ Mijnwebwinkel
 MisterCash
 Monizze
 Monizze's
+Multibanco
 MultiFactor
 MultiSafepay
 MultiSafepay's

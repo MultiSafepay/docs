@@ -1,5 +1,5 @@
 ---
-title: "Amazon Pay integration"
+title: "Amazon Pay direct integration"
 category: 6298bd782d1cf4006032e765
 order: 3
 hidden: false
