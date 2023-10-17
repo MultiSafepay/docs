@@ -38,6 +38,73 @@ Email <integration@multisafepay.com>
 
 ___
 
+## Divide
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Divide.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
+
+<a href="https://www.divide.nl/" target="_blank">Divide</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>,provides a free plugin to integrate with MultiSafepay.
+
+<details id="divide-prerequisites">
+<summary>Prerequisites</summary>
+<br>
+
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
+</details>
+
+<details id="divide-support">
+<summary>Support</summary>
+<br>
+
+For any technical queries, see – <a href="https://www.divide.nl/contact/" target="_blank">Divide support</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+</details>
+
+<details id="divide-payment-components">
+<summary>Payment components</summary>
+<br>
+
+Divide supports [Payment Components](/docs/payment-components/), which:
+
+- Provide a seamless checkout experience to increase <<glossary:conversion>>.
+- Encrypt customer payment details for secure processing.
+- Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
+
+</details>
+
+<details id="divide-payment-methods">
+<summary>Recurring payments</summary>
+<br>
+
+By default, [Recurring payments](/docs/recurring-payments) are supported.
+
+</details>
+
+<details id="divide-payment-methods">
+<summary>Supported payment methods</summary>
+<br>
+
+- Cards:[All](/docs/card-payments/)
+- Banking methods:
+    - [Bancontact](/docs/bancontact/)
+    - [Bank transfer](/docs/bank-transfer/)
+    - [iDEAL](/docs/ideal/)
+    - [Sofort](/docs/sofort/)
+- BNPL: [Riverty](//docs/riverty)    
+- Wallets: 
+    - [Apple](/docs/apple-pay/)
+    - [Google](/docs/google-pay/)
+    - [PayPal](/docs/paypal/)
+
+</details>
+
+<details id="divide-installation">
+<summary>Installation and configuration</summary>
+<br>
+
+To install and configure the plugin, see Divide – <a href="https://www.divide.nl/contact/" target="_blank">Contact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+</details>
+
+___
+
 ## Dynamicweb
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Dynamic_Web.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
