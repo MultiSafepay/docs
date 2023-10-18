@@ -181,7 +181,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 1. Sign in to your Wordpress backend.
 2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** > 
 3. Select the relevant payment methods, and click **Manage**.
-4. Select the checkbox for the **Payment components**.
+4. Select Payment component for the **Payment Type**.
 5. Click **Save changes**.
 
 💬 Support: If you're new to accepting card payments, email a request to activate them to <risk@multisafepay.com>
@@ -208,6 +208,9 @@ To generate a payment link in your backend once an order is created, follow thes
 </details>
 
 ## Payment methods
+
+The WooCommerce plugin, suppports all the payment methods provided by MultiSafepay. 
+If the payment method is enabled in your account, then it should appear on the payment method list.
 
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>
@@ -252,8 +255,9 @@ You need to [activate recurring payments](/docs/recurring-payments/) and then en
 1. Sign in to your Wordpress backend.
 2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** 
 3. Select relevant card payments, and then click **Manage**.
-4. Select the checkbox for **Payment components** and **Tokezation**.
-5. Click **Save changes**.
+4. Select Payment component for the **Payment Type**.
+5. Select Enabled for the **Recurring payments**.
+6. Click **Save changes**.
 
 📘 **Note:** To activate recurring payments, ensure that the Payment component is enabled.
 
