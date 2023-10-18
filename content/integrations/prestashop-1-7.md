@@ -45,9 +45,21 @@ slug: 'prestashop-1-7'
 2. Go to **MultiSafepay**, and enter your [site API key](/docs/sites/#site-id-api-key-and-security-code).
 3. On the **Payment methods** tab, enable the relevant payment methods.
 4. Click **Save**.
+
+### Additional configuration steps
+
+After completing the configuration, enable specific countries to make the payment methods available.
+
+<details id="how-to-configure-countries">
+<summary>How to enable countries</summary>
 <br>
 
+1. Go to **Improve** > **Payment** > **Preferences** > **Country restrictions**.
+2. Select the checkbox to enable the relevant countries. 
+3. Click **Save**.
+
 ---
+</details>
 
 # User guide
 
