@@ -60,29 +60,6 @@ There are two ways to install the plugin:
 
 # User guide
 
-## Generic gateways
-
-The plugin supports generic gateways, which allows you to add a payment method manually. This is particularly useful for integrating gift cards specific to your business. 
-
-Supported since release: 4.5.0, March 31 2021.
-
-<details id="how-to-configure-generic-gateways">
-<summary>How to configure generic gateways</summary>
-<br>
-
-1. Sign in to your backend.
-2. Go to **Settings** > **Payments** tab > **Generic gateway**.
-3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/), and the gateway logo and label.
-4. For <<glossary:BNPL>> orders, include the shopping cart in refunds.
-
-You can:
-
-- Filter the generic gateway by country, and minimum and maximum amount.
-- Set a custom initial <<glossary:order status>>.
-- Process full and partial refunds (except for <<glossary:BNPL>> orders), and backend orders.
-
-</details>
-
 ## Languages
 
 MultiSafepay payment pages and messages to customers (e.g. Second Chance emails, links, order confirmations) are supported in several languages. 
