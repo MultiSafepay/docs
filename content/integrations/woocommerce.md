@@ -60,29 +60,6 @@ There are two ways to install the plugin:
 
 # User guide
 
-## Generic gateways
-
-The plugin supports generic gateways, which allows you to add a payment method manually. This is particularly useful for integrating gift cards specific to your business. 
-
-Supported since release: 4.5.0, March 31 2021.
-
-<details id="how-to-configure-generic-gateways">
-<summary>How to configure generic gateways</summary>
-<br>
-
-1. Sign in to your backend.
-2. Go to **Settings** > **Payments** tab > **Generic gateway**.
-3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/), and the gateway logo and label.
-4. For <<glossary:BNPL>> orders, include the shopping cart in refunds.
-
-You can:
-
-- Filter the generic gateway by country, and minimum and maximum amount.
-- Set a custom initial <<glossary:order status>>.
-- Process full and partial refunds (except for <<glossary:BNPL>> orders), and backend orders.
-
-</details>
-
 ## Languages
 
 MultiSafepay payment pages and messages to customers (e.g. Second Chance emails, links, order confirmations) are supported in several languages. 
@@ -204,7 +181,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 1. Sign in to your Wordpress backend.
 2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** > 
 3. Select the relevant payment methods, and click **Manage**.
-4. Select the checkbox for the **Payment components**.
+4. In the **Payment Type** field, select **Payment component**.
 5. Click **Save changes**.
 
 💬 Support: If you're new to accepting card payments, email a request to activate them to <risk@multisafepay.com>
@@ -231,6 +208,8 @@ To generate a payment link in your backend once an order is created, follow thes
 </details>
 
 ## Payment methods
+
+By default, activated payment methods from your MultiSafepay account appear on the payment method list.
 
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>
@@ -275,8 +254,9 @@ You need to [activate recurring payments](/docs/recurring-payments/) and then en
 1. Sign in to your Wordpress backend.
 2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** 
 3. Select relevant card payments, and then click **Manage**.
-4. Select the checkbox for **Payment components** and **Tokezation**.
-5. Click **Save changes**.
+4. In the **Payment Type** field, select **Payment component**.
+5. In the **Recurring payments** filed, select **Enabled**.
+6. Click **Save changes**.
 
 📘 **Note:** To activate recurring payments, ensure that the Payment component is enabled.
 
