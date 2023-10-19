@@ -373,6 +373,7 @@ Shopify
 Shoptrader
 Shopware
 SmartPOS
+Smartpad
 SmartPad
 SnelKoppeling
 SnelStart
