@@ -1,8 +1,7 @@
 ---
 title: 'Hardware setup'
 parentDoc: 64674fbc74bc4007521ebbcb
-category: 6477597e0e2961004638cd5d
-order: 4
+order: 1
 hidden: false
 slug: 'hardware-setup'
 ---
@@ -30,11 +29,11 @@ For more information about Wi-Fi connection, refer to the manual provided with t
 
 ***
 
-### Connect to the SmartPad
+### Connect to the Smartpad
 
-SmartPad is a cable-powered terminal that must be connected to a power cable. 
+Smartpad is a cable-powered terminal that must be connected to a power cable. 
 
-To enhance network stability, we recommend that you connect the SmartPad to a network cable.
+To enhance network stability, we recommend that you connect the Smartpad to a network cable.
 
 ***
 

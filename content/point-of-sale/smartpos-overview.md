@@ -1,7 +1,7 @@
 ---
 title: 'SmartPOS terminal'
 category: 6477597e0e2961004638cd5d
-order: 2
+order: 3
 hidden: false
 slug: 'smartpos-terminal'
 ---
