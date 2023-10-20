@@ -35,7 +35,7 @@ When the internet connection isn't working correctly:
 | :---------------------------| :-------------- |
 |
 <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/green-internet-signal.png\" width=\"35\" align=\"center\" style=\"padding: 5px;\"/>  | The network connection good.   |
-|  <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/red-internet-signal.png\" width=\"35\" align =\"center\"/>  | The terminal isn't working correctly. <br> For the P2 Smartpad terminal, connect to the Wi-Fi cable and try again. <br>Improve the network connectivity.    |
+|  <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/red-internet-signal.png\" width=\"35\" align =\"center\"/>  | The terminal isn't working correctly. <br> For the P2 Smartpad terminal, connect to the connection cable and try again. <br>Improve the network connectivity.    |
  
 ---
 
@@ -55,7 +55,7 @@ If you haven't activated your terminal, follow these steps:
 - [Traditional (CTAP) terminal](doc:traditional-ctap-terminal)
 - [SmartPOS activation](doc:smartpos-activation)
 
-If your SmartPOS terminal isn't onboarded correctly, send a request to [pos-support@multisafepay.com](mailto:pos-support@multisafepay.com)
+If your SmartPOS terminal isn't onboarded correctly, email <pos-support@multisafepay.com>
 
 </details>
 
@@ -82,7 +82,7 @@ Before you begin activation, ensure that the Initial PIN Encrypted Key(IPEK) is 
 
 To check if IPEK is registered, turn on your terminal and click **Configured**.
 
-If your IPEK is not configured, email [pos-support@multisafepay.com](mailto:pos-support@multisafepay.com)
+If your IPEK is not configured, email <pos-support@multisafepay.com>
 
 ***
 
@@ -96,8 +96,8 @@ If your payment is declined, check if you encountered any error messages.
 
 | Error status | Solution |
 | :---         | :---     |
-| Configuration error. Try again | Send a request to [pos-support@multisafepay.com](mailto:pos-support@multisafepay.com) |
-| Card not supported | Send a request to [pos-support@multisafepay.com](mailto:pos-support@multisafepay.com) |
+| Configuration error. Try again | Send a request to  <pos-support@multisafepay.com> |
+| Card not supported | Send a request to  <pos-support@multisafepay.com>|
 | Use a different interface | Initiate the transaction again. <br>  Ask the customer to insert the card instead of doing a contactless payment. |
 
 ***
