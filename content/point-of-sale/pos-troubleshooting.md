@@ -1,6 +1,5 @@
 ---
 title: 'POS troubleshooting'
-parentDoc: 64674fbc74bc4007521ebbcb
 category: 6477597e0e2961004638cd5d
 order: 4
 hidden: false
