@@ -1,0 +1,46 @@
+---
+title: "Onboarding & affiliate management via API"
+category: 627bbcf80c1c9c0050320b60
+parentDoc: 62a2055be5b9db006a2545a7
+order: 2
+hidden: true
+slug: 'onboarding-affiliates-via-api'
+excerpt: ''
+---
+
+Partner account holders can manage and onboard affiliated merchant accounts via our API.
+
+# Prerequisites
+
+To authenticate requests, you must include a partner account API key.  
+For more information, email your partner manager.
+
+# Affiliate Onboarding
+
+The table below lists our API references for onboarding an affiliate's account.
+
+[block:html]
+{
+  "html": "<table style=\"text-align:left;\">\n  <tr>\n    <th>Onboard account</th>\n    <th style=\"text-align:left;\">API reference</th>\n  </tr>\n <tr>\n    <td>Create merchant account</td>\n    <td><a href=\"https://docs.multisafepay.com/reference/createaffiliate\" target=\"_blank\">Create affiliate</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n    <td rowspan=\"3\">Provide bank accounts</td>\n    <td><a href=\"https://docs.multisafepay.com/reference/addaffiliatebankaccount\" target=\"_blank\">Add bank account</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n   <td><a href=\"https://docs.multisafepay.com/reference/listaffiliatebankaccounts\" target=\"_blank\">List bank accounts</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n\t<tr>\n<td><a href=\"https://docs.multisafepay.com/reference/getbankaccount\" target=\"_blank\">Get bank account</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n</tr>\n   <tr>\n    <td>Validate the ownership of a bank account</td>\n     <td><a href=\"https://docs.multisafepay.com/reference/validatebankaccount\" target=\"_blank\">Validate bank account</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n   <tr>\n    <td rowspan=\"3\">Provide bank statement</td>\n    <td><a href=\"https://docs.multisafepay.com/reference/addbankstatement\" target=\"_blank\">Add bank statement</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n  <td><a href=\"https://docs.multisafepay.com/reference/listbankstatements\" target=\"_blank\">List bank statements</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n\t<tr>\n\t<td><a href=\"https://docs.multisafepay.com/reference/getbankstatement\" target=\"_blank\">Get bank statement</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n </tr>\n   <tr>\n    <td rowspan=\"2\">Manage merchant account</td>\n    <td><a href=\"https://docs.multisafepay.com/reference/addaffiliatesite\" target=\"_blank\">Add site</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n <td><a href=\"https://docs.multisafepay.com/reference/listaffiliatesites\" target=\"_blank\">List sites</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n  <td rowspan=\"4\">Provide UBO details</td>\n  <td><a href=\"https://docs.multisafepay.com/reference/addaffiliateubo\" target=\"_blank\">Add UBO</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n <td><a href=\"https://docs.multisafepay.com/reference/listaffiliateubos\" target=\"_blank\">List UBOs</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n\t<tr>\n\t<td><a href=\"https://docs.multisafepay.com/reference/updateubo\" target=\"_blank\">Update UBO</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n<tr>\n\t<td><a href=\"https://docs.multisafepay.com/reference/getubo\" target=\"_blank\">Get UBO</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n    <td rowspan=\"3\">Provide identity document</td>\n   <td><a href=\"https://docs.multisafepay.com/reference/addidentitydoc\" target=\"_blank\">Add identity document</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n<td><a href=\"https://docs.multisafepay.com/reference/listidentitydocs\" target=\"_blank\">List identity documents</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n\t<tr>\n<td><a href=\"https://docs.multisafepay.com/reference/getidentitydoc\" target=\"_blank\">Get identity document</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n </tr>\n</table>"
+}
+[/block]
+
+# Affiliate management
+
+The table below lists our API references for managing an affiliate's account.
+
+[block:html]
+{
+  "html": "<table style=\"text-align:left;\">\n  <tr>\n    <th>Manage account</th>\n    <th style=\"text-align:left;\">API reference</th>\n  </tr>\n \t<tr>\n    <td rowspan=\"4\">Access affiliated accounts</td>\n    <td><a href=\"https://docs.multisafepay.com/reference/listaffiliates\" target=\"_blank\">List affiliates</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n   <td><a href=\"https://docs.multisafepay.com/reference/addaffiliatebankaccount\" target=\"_blank\">Get affiliate</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n    <td><a href=\"https://docs.multisafepay.com/reference/updateaffiliate\" target=\"_blank\">Update affiliate</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n  <td><a href=\"https://docs.multisafepay.com/reference/listaffiliatebalances\" target=\"_blank\">List affiliate's balances</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n    </tr>\n  <tr>\n  <td> Charge fees to affiliates</td>\n   <td><a href=\"https://docs.multisafepay.com/reference/chargeaffiliate\" target=\"_blank\">Charge affiliate</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n  <td> Fund affiliates</td>\n <td><a href=\"https://docs.multisafepay.com/reference/partnercreatefundforsubaccount\" target=\"_blank\">Fund affiliate</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n   <td>Payout affiliates</td>\n  <td><a href=\"https://docs.multisafepay.com/reference/payoutaffiliate\" target=\"_blank\">Payout affiliate</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n    <td rowspan=\"2\"> Access requests made to affiliates </td>\n<td><a href=\"https://docs.multisafepay.com/reference/partnerlistaccountinquiries\" target=\"_blank\">List inquiries</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n   <td><a href=\"https://docs.multisafepay.com/reference/partnergetaccountinquiry\" target=\"_blank\">Get inquiry</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n    <td rowspan=\"2\">Access messages sent to affiliates  </td>\n<td><a href=\"https://docs.multisafepay.com/reference/partnerlistaccountmessages\" target=\"_blank\">List message</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n   <td><a href=\"https://docs.multisafepay.com/reference/partnergetaccountmessage\" target=\"_blank\">Get message</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n    <td> List all UBOs</td>\n<td><a href=\"https://docs.multisafepay.com/reference/listaffiliateubos\" target=\"_blank\">List UBOs</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n    <td>Get closing balances</td>\n<td><a href=\"https://docs.multisafepay.com/reference/partnerlistaccountclosingbalances\" target=\"_blank\">List affiliate's closing balances</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n     <td>Adjust fees</td>\n<td><a href=\"https://docs.multisafepay.com/reference/partnerupdatefee\" target=\"_blank\">Adjust fees for an affiliate account</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n    <td>Get site categories</td>\n<td><a href=\"https://docs.multisafepay.com/reference/listsitecategories\" target=\"_blank\">List site categories</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i></td>\n  </tr>\n  <tr>\n</table>\n\n"
+}
+[/block]
+
+---
+
+[block:html]
+{
+  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
+}
+[/block]
+
+[Top of page](#)
