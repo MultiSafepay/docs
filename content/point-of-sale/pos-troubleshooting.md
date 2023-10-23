@@ -31,12 +31,11 @@ When the internet connection isn't working correctly:
 - If the Wi-Fi is connected, check the color of the internet icon on your terminal.
 
 
-| Connection color               | Description |
-| :---------------------------| :-------------- |
-|
-<img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/green-internet-signal.png\" width=\"35\" align=\"center\" style=\"padding: 5px;\"/>  | The network connection good.   |
-|  <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/red-internet-signal.png\" width=\"35\" align =\"center\"/>  | The terminal isn't working correctly. <br> For the P2 Smartpad terminal, connect to the connection cable and try again. <br>Improve the network connectivity.    |
- 
+[block:html]
+{
+  "html": "<table style=\"text-align:left;\">\n<tr>\n    <th>Connection color</th>\n    <th style=\"text-align:left;\">Description</th>\n  </tr>\n  <tr>\n  <td><img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/green-internet-signal.png\" width=\"35\" align =\"center\" style=\"padding: 5px;\"/> </td>\n   <td>The network connection good.</td>\n  </tr>\n  <tr>\n  <td><img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/red-internet-signal.png\" width=\"35\" align =\"center\"/> </td>\n <td>The terminal isn't working correctly. <br> For the P2 Smartpad terminal, connect to the connection cable and try again. <br>Improve the network connectivity.</td>\n  </tr>\n</table>\n\n"
+}
+[/block]
 ---
 
 # Activation
