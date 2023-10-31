@@ -15,7 +15,7 @@ Read how Amazon Pay can benefit your business on <a href="https://www.multisafep
 
 | Supports | Details |
 |---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country) | Austria, Belgium, Cyprus, Denmark, France, Germany, Hungary, Ireland, Italy, Luxembourg, Netherlands, Portugal, Spain, Sweden, and Switzerland | 
+| [Countries](/docs/payment-methods#payment-methods-by-country) | Worldwide | 
 | [Currencies](/docs/currencies/)  | AUD, CHF, DKK, EUR, GBP, HKD, JPY, NOK, NZD, SEK, USD, ZAR <br> **Note:** Settlement currency is **only** available in EUR.| 
 | [Chargebacks](/docs/chargebacks/)  | Yes |
 | [Discounts](/docs/discounts/) | Yes |
