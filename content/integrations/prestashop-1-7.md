@@ -12,7 +12,7 @@ slug: 'prestashop-1-7'
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official/releases/download/5.11.1/Plugin_PrestaShop_5.11.1.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official/releases/download/5.11.2/Plugin_PrestaShop_5.11.2.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
@@ -27,7 +27,7 @@ slug: 'prestashop-1-7'
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- PrestaShop 1.7.6 and above or PrestaShop 8
+- PrestaShop 1.7.6 and above or PrestaShop 8.1.x
 - PHP version 7.2 or higher
 
 # Installation
