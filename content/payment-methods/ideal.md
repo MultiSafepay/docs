@@ -122,12 +122,15 @@ iDEAL supports a number of Dutch <<glossary:issuers>>:
 - bunq 
 - ING 
 - Knab 
+- Nationale Nederlanden
+- N26
 - Rabobank 
 - Regio Bank 
 - Revolut 
 - SNS Bank
 - Triodos Bank
-- Van Lanschot Bankiers 
+- Van Lanschot Kempen
+- Yoursafe
 
 ---
 
