@@ -15,7 +15,7 @@ Read how Riverty can benefit your business on <a href="https://www.multisafepay.
 
 | Supports | Details |
 |---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria, Belgium, Germany, Netherlands | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria, Belgium, Germany, Netherlands, Switzerland | 
 | [Currencies](/docs/currencies/)  | EUR  | 
 | [Chargebacks](/docs/chargebacks/) | No  |
 | [Discounts](/docs/discounts/) | Yes |
