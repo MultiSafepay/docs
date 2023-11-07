@@ -27,7 +27,7 @@ For higher-risk transactions, the payment is placed on hold and the [transaction
 # Reviewing uncleared payments
 
 When uncleared payments are awaiting your review in your dashboard, you receive a notification in your dashboard and an email to the address provided under **Account information** in the account list at the top-right of the screen.
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/DashboardAccountList.png" align ="center"/> 
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/profile-dashboard.png" align ="center"/> 
 
 The final decision to capture or decline lies with you, as you are solely liable for any financial damage.
 For professional advice on reviewing and evaluating potential risks or fraud indicators, email <risk@multisafepay.com> 
