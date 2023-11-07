@@ -43,6 +43,8 @@ To see which Apple products are compatible with Apple Pay, see Apple Developer â
     https://{your-domain}/.well-known/apple-developer-merchantid-domain-association
     ```
 
+ðŸ“˜ **Note:** For testing, download the domain validation in the **test** folder.
+
 ## 2. Request to register 
 
 To request registration for Apple Pay direct, email the relevant site ID to <support@multisafepay.com>
