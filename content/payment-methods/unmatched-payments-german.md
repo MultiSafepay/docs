@@ -36,9 +36,9 @@ Der Kunde/die Kundin hat eine Überweisung getätigt, jedoch nicht:
 
 Dies bedeutet, dass die Transaktion nicht erfolgreich in unserem System generiert werden konnte.
 
-Um die Transaktion erneut zu erstellen, überprüfen Sie, ob ein [Zahlungslink](/docs/payment-links/) generiert wurde: 
+Um nicht abgeglichene Zahlungen aufzulösen, prüfen Sie, ob eine [Transaktion](//docs/payment-links/) erstellt wurde:
 
-## Zahlungslink wurde generiert
+## Transaktion nicht erstellt
 
 1. Klicken Sie auf den Link, um die Zahlungsseite zu öffnen. 
 2. Klicken Sie auf **Banküberweisung**.
