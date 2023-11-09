@@ -56,6 +56,14 @@ If you haven't activated your terminal, follow these steps:
 
 If your SmartPOS terminal isn't onboarded correctly, email <pos-support@multisafepay.com>
 
+> **Note:**
+>
+> To help us resolve the issues faster, provide us with the following:
+> - Account ID
+> - Terminal serial number
+> - Description of the issue
+> - If available, pictures or video
+>
 </details>
 
 ***
@@ -98,6 +106,15 @@ If your payment is declined, check if you encountered any error messages.
 | Configuration error. Try again | Send a request to  <pos-support@multisafepay.com> |
 | Card not supported | Send a request to  <pos-support@multisafepay.com>|
 | Use a different interface | Initiate the transaction again. <br>  Ask the customer to insert the card instead of doing a contactless payment. |
+
+> **Note:**
+>
+> To help us resolve POS issues faster, provide us with the following:
+> - Account ID
+> - Terminal serial number
+> - Description of the issue
+> - If available, pictures or video
+>
 
 ***
 
