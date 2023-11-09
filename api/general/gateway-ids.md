@@ -31,8 +31,10 @@ hidden: false
 | Klarna                                 | `KLARNA`      |
 | Maestro                                | `MAESTRO`     |
 | Mastercard                             | `MASTERCARD`  |
+| MB Way                                 | `MBWAY`      |
+| Multibanco                             | `MULTIBANCO`  |
 | MyBank                                 | `MYBANK`      |
-| Pay After Delivery                     | `BNPL_MF`    |
+| Pay After Delivery                     | `BNPL_MF`     |
 | Pay After Delivery installments        | `BNPL_INSTM`  |
 | PayPal                                 | `PAYPAL`      |
 | Paysafecard                            | `PSAFECARD`   |
