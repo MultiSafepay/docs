@@ -1,10 +1,10 @@
 ---
-title: 'MB YWAY'
+title: 'MB WAY'
 category: 6298bd782d1cf4006032e765
 order: 10
 hidden: false
 parentDoc: 62a728d48b97080046c1d220
-slug: 'myway'
+slug: 'mb-way'
 ---
 
 > ⚠️ Note:
@@ -34,7 +34,7 @@ slug: 'myway'
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/MBWAY=FLOW1.svg" alt="MBWAY payment flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/MBWAY-FLOW1.svg" alt="MBWAY payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;
