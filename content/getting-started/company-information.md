@@ -13,6 +13,18 @@ You **must** inform us of any of the following changes to your company informati
 
 Email your new company address and your account ID (top-right corner of your dashboard) to <support@multisafepay.com>  
 
+To update your contact details, provide us with your address in your dashboard:
+
+<details id="provide-email">
+<summary>How to update email address</summary>
+<br>
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. In the top-right corner of your dashboard, click <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/profile-icon.png"/>  > **Account information**.
+3. Under **Contact details**, provide the relevant email address. 
+
+</details>
+
 ## Change in the company form, directors, or UBOs 
 
 Email the new details and your account ID (top-right corner of your dashboard) to <risk@multisafepay.com>
