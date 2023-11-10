@@ -97,7 +97,9 @@ If your **PayPal Merchant ID** isn't displayed in your dashboard, you can add it
 
 ✅ PayPal has been successfully configured in your MultiSafepay account.
 
-📘 **Note:** If you already have a PayPal account connected to MultiSafepay dashboard, we recommend upgrading to the latest PayPal API as soon as possible by following all the steps above. No other actions are required after this step.
+> 📘 **Note:** 
+> 
+> If you already have a PayPal account connected to MultiSafepay dashboard, we recommend upgrading to the latest PayPal API as soon as possible by following all the steps above. No other actions are required after this step.
 
 We strongly recommend [testing transactions](/docs/testing/) before processing live payments.
 
