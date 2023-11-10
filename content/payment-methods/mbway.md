@@ -1,5 +1,5 @@
 ---
-title: 'MYWAY'
+title: 'MB YWAY'
 category: 6298bd782d1cf4006032e765
 order: 10
 hidden: false
@@ -16,7 +16,7 @@ slug: 'myway'
 
 <img src="https://media.multisafepay.com/img/methods/svg/mbway.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a href="https://www.mbway.pt/" target="_blank">MB Way</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a popular payment method in Portugal that lets customers make payments, send or request money, and manage funds using their mobile application.
+<a href="https://www.mbway.pt/" target="_blank">MB WAY</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a popular payment method in Portugal that lets customers make payments, send or request money, and manage funds using their mobile application.
 
 <!--Read how Multibanco can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/mbway" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>-->
 
@@ -34,7 +34,7 @@ slug: 'myway'
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/mbway-flow.svg" alt="MBWAY payment flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/MBWAY=FLOW1.svg" alt="MBWAY payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;
@@ -75,7 +75,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
     <summary>Example requests</summary>
     <br> 
 
-   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **MB Way direct/redirect**.  
+   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **MB WAY direct/redirect**.  
   Set `gateway` to `MBWAY`, and `type` to `direct` or `redirect`.
 
     <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
