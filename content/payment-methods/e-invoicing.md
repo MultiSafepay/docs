@@ -53,8 +53,10 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. To activate the payment method for:
-- All sites, go to **Settings** > **Payment methods**.
-- A specific site, go to **Sites**, and then click the relevant site.
+    - All sites, go to **Settings** > **Payment methods**.
+    - A specific site:
+      - Go to **Integrations** > **Sites**, and then click the relevant site.
+      - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
@@ -82,12 +84,11 @@ See Testing payment methods – [BNPL methods](/docs/testing#bnpl-methods).
 <br>
 
 ---
-
 # User guide
 
 ## Addresses
 
-Different billing and shipping addresses are supported. Email a request to <sales@multisafepay.com> 
+Different billing and shipping addresses are supported. Email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com) 
 
 ## Batches
 
@@ -99,8 +100,9 @@ You can generate E-Invoicing transactions in batches for subscription payments.
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **E-Invoicing** > **Batches**. 
-3. Upload a file in .xls, .xlsx or .csv format.
-4. Follow the templates in your MultiSafepay dashboard.
+3. Click **New batch**.
+4. Click the **Choose file** field to upload a file in .xls, .xlsx, or .csv format.
+5. Click **Upload**.
 
 </details>
 
@@ -115,16 +117,16 @@ You can cancel the invoice order **before** shipment or **after** partial shipme
 **In your dashboard**
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+2. Go to **Transactions** > **Transaction overview**, then click the relevant transaction.
 3. On the **Transaction details** page, click **Cancel**.
-4. Add a description of what happened with the order, and then click **Complete**.
+4. Add a description of what happened with the order, and then click **Complete**.  
    The <<glossary:order status>> changes to **Void** and the <<glossary:transaction status>> to **Cancelled**.
 
 **Via the API** 
 
 See API reference – [Update or cancel order](/reference/updateorder).
 
----
+***
 
 </details>
 
@@ -142,29 +144,20 @@ You can fully customize the collection flow.
 4. Under **Settings**, you can select a previous template, if relevant. 
 5. In the **Description** field, enter the name of this collection flow. 
 6. From **Drag and drop**, drag and drop the relevant collection flow elements under **Drop elements here**.
-7. For each element, in the **Communication settings** dialog, you can:
+7. Click **Save**.
 
-    - Rename the communication flow in the **Description** field. 
-    - Request manual approval before the communication is sent. 
-    - Adjust the transaction fee by a fixed amount or percentage.
-    - Set how many days the payment link is valid for.
-    - Schedule when the next step in the collection flow will take place. 
-    - Specify the day of the week and time of day to send the communication.
-8. Click **Save**.
-
----
+***
 
 </details>
 
 ## Communications with the customer
 
-You can fully customize your communications with the customer, including via email, letter (within the EU), SMS, and WhatsApp. 
+You can fully customize your communications with the customer via email, letter (within the EU), SMS, and WhatsApp. 
 
-MultiSafepay can also append a PDF invoice (with your custom formatting) to the communication (except for SMS) on request. Email <sales@multisafepay.com>
+MultiSafepay can also attach a PDF invoice with your custom formatting to the communication (except for SMS) on request. Email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
 <details id="how-to-customize-communications">
 <summary>How to customize communications</summary>
-<br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 2. Go to **E-Invoicing** > **Actions**.
@@ -175,23 +168,39 @@ MultiSafepay can also append a PDF invoice (with your custom formatting) to the 
 7. In the **From address** field, enter the email address you want the communication to appear to be sent from. 
 8. In the **From name** field, enter your company name. 
 9. In the **Subject** field, enter the communication subject line. 
-10. Edit the text **either** in the **Body plain** field, **or** if you know HTML and CSS, you can fully customize the content and layout in the **Body HTML** field. To view the HTML/CSS code, click **Source**.
-11. Click **Save**.
+10. Edit the text **either** in the **Body plain** field **or** customize the content and layout in the **Body HTML** field. To view the HTML/CSS code, click **Source**.  
+11. To personalized details in emails, use tokens:
 
----
+- In the **Body HTML editor**, click the **[T] Token**.
+- Select a token from the list, and then click **OK**.
+
+Alternatively, you can use @tokens@ to auto-fill personalized details in emails.
+12. Click **Save**.
+
+   <details id="how-to-use-tokens">
+    <summary>How to edit your existing template</summary>
+    <br>
+
+1. In the **Actions** page, click the **Pencil** icon to select the relevant template.
+2. Once you've edited the template, click **Save**.
+
+***
+
+</details>
 
 </details>
 
 ## Customer credibility score
 
-You can request MultiSafepay to perform a credibility assessment of the customer to help reduce fraud. 
-Email <sales@multisafepay.com>
+You can request MultiSafepay to perform a credibility assessment of the customer to help reduce fraud.  
+For more infomation, send request to [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
 ## Customer pays you directly
 
 If the customer pays you directly instead of MultiSafepay, to complete the order, simply pay MultiSafepay the order amount from your account balance. This stops MultiSafepay sending the customer an invoice. 
 
 If you do so:
+
 - **After** MultiSafepay has paid you out, then we refund you the order amount
 - **Before** MultiSafepay pays you out, then we cancel the payout
 
@@ -204,16 +213,16 @@ After paying for an order from your account balance, you can no longer refund th
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
 3. On the **Transaction details** page, click **Complete own funds**.
-4. Add a description of what happened with the order, and then click **Complete**.
+4. Add a description of what happened with the order, and then click **Complete**.  
    The <<glossary:transaction status>> changes to **Completed**.
 
----
+***
 
 </details>
 
 ## Expiration and extensions
 
-You define the expiration period for the order, up to a maximum of 180 days (including extensions). If the order is not at least [partially shipped](#partially-ship-order) within this period, it is cancelled and [refunded](#refunds).
+You can define the expiration period for the order up to a maximum of 180 days (including extensions). If the order is not at least [Partially shipped](#partially-ship-order) within this period, it is cancelled and [Refunded](#refunds).
 
 <details id="how-to-extend-an-order">
 <summary>How to extend an order</summary>
@@ -221,29 +230,38 @@ You define the expiration period for the order, up to a maximum of 180 days (inc
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
-3. On the **Transaction details** page, click **Extend**.
+3. On the **Transaction details** page, click **Extend**.  
    While extended, the <<glossary:order status>> remains **Shipped** and the <<glossary:transaction status>> remains **Uncleared**.
 
----
+***
 
 </details>
 
 ## Gift cards
 
-When paying with a gift card and E-Invoicing, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. Otherwise our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+When paying with a gift card and E-Invoicing, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. Otherwise, our platform will interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
 
 ## Invoices
 
-MultiSafepay can customize the formatting of your invoices on request. Email <sales@multisafepay.com>
+With E-invoicing, you can generate a PDF invoice attached to the communication sent to the customer. This invoice follows a default design or can be customized to your standard. Configuration of custom invoices is at an additional setup fee. To customize the formatting of your invoices, send a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
 <details id="how-to-view-invoices">
 <summary>How to view invoices</summary>
 <br>
 
+**In your dashboard**
+
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **E-Invoicing** > **Invoices**. 
+
+**Via API**
+
+```javascript
+curl -X GET 'https://testapi.multisafepay.com/v1/json/orders/order_id/invoice?api_key={your-test-api-key}' \ 
+-H 'accept: application/json'
+```
 
 </details>
 
@@ -251,15 +269,11 @@ MultiSafepay can customize the formatting of your invoices on request. Email <sa
 <summary>How to generate an invoice</summary>
 <br>
 
+**In your dashboard**
+
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **E-Invoicing** > **E-Invoice generator**.
-3. Fill out the shopping cart:
-
-    - In the **Quantity** field, enter the number of units of the item.
-    - In the **Name** field, enter the name of the item.
-    - In the **Unit price** field, enter the unit price of the item. 
-    - In the **Tax** field, enter the tax rate that applies to the item. 
-    - To add a new line for a different type of item, click **Add**.
+3. Fill out the shopping cart fields: **Quantity**, **Name**, **Unit price**,**Tax**, and to add a new line for a different type of item, click **Add**.
 4. Fill out the required fields: **Address**, **Birthday**, **City**, **Country**, **Currency**, **Description**, **Email address**, **First name**, **Last name**, **Order ID**, **Phone number**, **Postal code / House number**, **State / Province**.
 5. From the **Site** list, select the relevant site. 
 6. From the **Payment flow** list, select the relevant collection flow. 
@@ -267,7 +281,99 @@ MultiSafepay can customize the formatting of your invoices on request. Email <sa
 
 The invoice is sent to the email address provided. 
 
----
+</details>
+
+<details id="how-to-generate-an-invoice">
+<summary>How to generate PDF invoice</summary>
+<br>
+
+**Via API**
+
+1. [Create order](/reference/createorder/) > BNPL order.
+2. [Update the <<glossary:order status>> status](/reference/updateorder) to **Shipped**, include `invoice_id` in the request. 
+3. Once the collecting flow is executed, the invoice will be generated. 
+4. Fetch the initial invoice using the `order_id`.
+
+#### Example:
+
+```javascript
+curl -X GET 'https://testapi.multisafepay.com/v1/json/orders/order_id/invoice?api_key={your-test-api-key}' \ 
+-H 'accept: application/json'
+```
+
+5. In response to the initial invoice request, you receive an object with a PDF encoded in `base_64`. 
+
+   To convert the `base_64` to a PDF, you need to use a converter.
+
+***
+
+</details>
+
+<details id="how-to-generate-an-invoice">
+<summary>How to generate credit invoice</summary>
+<br>
+
+1. [Create order](/reference/createorder/) > BNPL order.
+2. [Update the <<glossary:order status>> status](/reference/updateorder) to **Shipped**, include `invoice_id` in the request. 
+3. Once the collecting flow is executed, the initial invoice will be generated.
+4. Make a [Refund ](/reference/refundorder) API request with `refund_order_id`. 
+
+**Note:** For a credit invoice to be created, set `refund_order_id` in your request.
+
+5. Fetch the credit invoice, use the `refund_order_id`:
+
+#### Example
+
+```javascript
+curl -X GET 'https://testapi.multisafepay.com/v1/json/orders/refund_order_id/invoice?api_key={your-test-api-key}' \ 
+-H 'accept: application/json'
+```
+
+6. In response to the refund invoice request, you receive an object with a PDF encoded in `base_64`. 
+
+   To convert the `base_64` to a PDF, you need to use a converter.
+
+**Note:** To fetch the initial invoice with the following endpoint: 
+
+```javascript
+curl -X GET 'https://testapi.multisafepay.com/v1/json/orders/order_id/invoice?api_key={your-test-api-key}' \ 
+-H 'accept: application/json'
+```
+
+***
+
+</details>
+
+
+## Matching payments
+
+Most incoming payments are automatically matched to the relevant order in your account. However, if the customer accidentally provides incorrect information or pays the wrong amount, you can match them manually in your dashboard.
+
+<details id="how-to-match-payments">
+<summary>How to match payment manually</summary>
+<br>
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Transactions** > **Unmatched payments**.
+3. Click the relevant unmatched payment to view the details under **Info**.
+4. Go to **Transaction search**, and use the following parameters to find the matching transaction(s):  
+
+- Keyword(s) search
+- Status (transaction status)
+- Amount margin (EUR)
+- Date margin (days)
+- Click **Search**.
+
+5. The transactions appear on the **Unmatched payments** page under **Selected transactions**. 
+6. Under the **Selected transactions**,
+
+- Enter the amount to match the **Order amount**.
+- Select to either keep the balance in your account or open it for future orders.
+- In the **Note** field, add a description.
+
+7. Click **Match**.
+
+***
 
 </details>
 
@@ -277,7 +383,7 @@ Customers can pay MultiSafepay using any of our payment methods, **except for** 
 
 ## Refunds
 
-After shipment, you can refund the invoice order in full or in part, and with or without the `shopping_cart` object. 
+After shipment, you can refund the invoice order in full or partially, and with or without the `shopping_cart` object.  
 See [Shopping carts](#shopping-carts) below.
 
 <details id="about-partial-refunds">
@@ -286,13 +392,13 @@ See [Shopping carts](#shopping-carts) below.
 
 For partial refunds:
 
-| Amount paid | Outcome |
-|---|---|
-| Equal to new order amount | The order is completed. |
-| Less than new order amount | The order is updated. |
+| Amount paid                | Outcome                                                     |
+| -------------------------- | ----------------------------------------------------------- |
+| Equal to new order amount  | The order is completed.                                     |
+| Less than new order amount | The order is updated.                                       |
 | More than new order amount | The order is completed and the outstanding amount refunded. |
 
----
+***
 
 </details>
 
@@ -315,13 +421,13 @@ For partial refunds:
 
 See API reference – [Refund order](/reference/refundorder).
 
----
+***
 
 </details>
 
 ## Shipment
 
-- You must ship to receive paymen **before** the order expires.
+- To receive payment, you must ship the order **before** it expires.
 - Share the track & trace details with the customer and MultiSafepay, if relevant. 
 - You can ship orders in full or in multiple parts. See [Partially ship order](#partially-ship-order) below.
 - You must update the <<glossary:order status>> to **Shipped**. See [Update the order status](#update-the-order-status) below. 
@@ -340,13 +446,13 @@ See API reference – [Update or cancel order](/reference/updateorder) > **Ship 
 
 If you have partially shipped an order and the order expires, MultiSafepay collects the funds for all shipped items and cancels the unshipped items. 
 
-API integration: In your [Ship order](/reference/updateorder) request, set the `amount` for the first partial shipment lower than the total order `amount` (or the total of the `shopping_cart`) in the original [create order](/reference/createorder) request. 
+API integration: In your [Ship order](/reference/updateorder) request, set the `amount` for the first partial shipment lower than the total order `amount` (or the total of the `shopping_cart`) in the original [Create order](/reference/createorder) request. 
 
 **Multi-shipment**
 
-MultiSafepay collects for each partial shipment when it is shipped, until all items are shipped, or you or the customer cancels the outstanding items. 
+MultiSafepay collects for partial shipment when it is shipped until all items are shipped or you or the customer cancels the outstanding items.
 
-Multi-shipment is disabled by default. To enable, email <sales@multisafepay.com>
+Multi-shipment is disabled by default. To enable, email [sales@multisafepay.com](mailto:[sales@multisafepay.com])
 
 **Integration**
 
@@ -362,11 +468,11 @@ The status of the main transaction never changes to **Completed**. It remains **
 
 **Refunds**
 
-You must must refund partial shipments separately, using the specific **shipment** `order_id`, instead of the original **invoice** `order_id`.
+You must refund partial shipments separately, using the specific **shipment** `order_id`, instead of the original **invoice** `order_id`.
 
 See API reference – [Refund order](/reference/refundorder).
 
----
+***
 
 </details>
 
@@ -391,14 +497,14 @@ When you ship the order, you **must** update the <<glossary:order status>> via t
 
 If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/docs/our-integrations/) pass the updated status to your dashboard automatically:
 
-- Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
-- Shopware 5: When you set the order to **Delivered** in your backend.
+- Magento 2 and WooCommerce: when you set the order to **Shipped** in your backend.
+- Shopware 5: when you set the order to **Delivered** in your backend.
 
-For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
+For other ready-made integrations, make an [Update order](/reference/updateorder/) API request.
 
 ❗️ **Note:** Some third-party plugins may not support updating the status via our API.
 
----
+***
 
 </details>
 
@@ -406,15 +512,14 @@ For other ready-made integrations, make an [update order](/reference/updateorder
 
 You can choose whether or not to include a `shopping_cart` object in your [create order](/reference/createorder) request (we normally recommend this for BNPL orders).
 
-See Recipes – <a href="https://docs.multisafepay.com/recipes/display-shopping-cart" target="_blank">Display shopping cart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+See Recipes – [Display shopping cart](/recipes/display-shopping-cart).
 
-
-You can also then refund with or without the `shopping_cart`, but for simplicity we recommend matching the refund request to the original order request.
+You can also refund with or without the `shopping_cart`, but for simplicity we recommend matching the refund request to the original order request.
 
 ## Terms and conditions
 
 - For <<glossary:direct>> flows, you must display your terms and conditions in your checkout.
-- For <<glossary:redirect>> flows, MultiSafepay terms and conditions are displayed by default on [payment pages](/docs/payment-pages/).
+- For <<glossary:redirect>> flows, MultiSafepay terms, and conditions are displayed by default on [payment pages](/docs/payment-pages/).
 
 <br>
 

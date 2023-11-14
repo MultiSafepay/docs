@@ -288,8 +288,9 @@ You can also test the following scenarios:
     - **Bank account** field any 10-digit bank account number.
     - **Email address** field any email address.
     - **Phone number** field any phone number.
-4. Click **Confirm**.  
-The payment is processed in the test environment as **Successful**, with order and transaction statuses **Uncleared**.
+4. Click **Confirm**. 
+ 
+The payment order is processed in the test environment as **Successful**, with order statuses **Uncleared** and transaction statuses **Initialized**.
 
 **Test declining an order**  
 
@@ -298,7 +299,7 @@ The <<glossary:order status>> and <<glossary:transaction status>> change to **Vo
 
 **Test shipping an E-Invoicing order**  
 
-To test shipping an order, make an [update order](/reference/updateorder/) API request with status `"shipped"`. You receive the `invoice_url` in the API response.
+To test shipping an order, make an [Update order](/reference/updateorder/) API request with status `Shipped`. You receive the `Success` in the API response.
 
 </details>
 
