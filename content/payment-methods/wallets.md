@@ -20,6 +20,13 @@ slug: 'wallets'
 
 <br>
 
+To implement Express Checkouts, see 
+
+- [Amazon Pay direct integration](docs/amazon-pay-direct)
+- [Apple Pay direct integration](docs/apple-pay-direct)
+- [Google Pay direct integration](docs/google-pay-direct)
+- [PayPal direct integration](docs/paypal-direct)
 ---
+
 
 [Top of page](#)
