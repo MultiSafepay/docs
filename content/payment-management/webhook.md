@@ -77,7 +77,7 @@ You can configure the webhook endpoint at:
 
 📘 **Note:** If you configure your webhook endpoint at site **and** order level, the order level endpoint is used by default.
 
-### Example
+### Example request
 
 ``` javascript
 curl -X POST \
@@ -93,7 +93,86 @@ curl -X POST \
       "notification_method": "POST"
   }
 }'
+
 ```
+<details id="example-get-response">
+<summary><b>Example response</b></summary>
+
+```json
+{
+  "success": true,
+  "data": {"amount":1000,
+  "amount_refunded":0,
+  "costs":[
+    {"amount":0.44,
+  "description":"0.44 For iDEAL Transactions",
+  "transaction_id":"8009375",
+  "type":"SYSTEM"}
+  ],
+  "created":"2022-09-07T11:19:59",
+  "currency":"EUR",
+  "custom_info":
+  {
+  "custom_1":null,
+  "custom_2":null,
+  "custom_3":null
+  },
+  "customer": {
+  "address1":"Neherkade",
+  "address2":null,
+  "city":"Gravenhage",
+  "country":"NL",
+  "country_name":"Netherlands",
+  "email":"example@multisafepay.com",
+  "first_name":"Testperson-nl",
+  "house_number":"XI",
+  "last_name":"Approved",
+  "locale":"nl_NL",
+  "phone1":"0612345678",
+  "phone2":null,
+  "state":null,
+  "zip_code":"2521VA"
+  },
+  "description":"Product description",
+  "fastcheckout":"NO",
+  "financial_status":"initialized",
+  "items":null,
+  "modified":"2022-09-07T11:19:59",
+  "order_id":"my-order-id-1",
+  "payment_details":{
+    "account_holder_name":null,
+    "account_iban":"https://testpayv2.multisafepay.com/simulator/ideal?trxid=3924195754138182&ideal=prob&issuerid=0031&merchantReturnURL=https%3A%2F%2Ftestpayv2%2Emultisafepay%2Ecom%2Fconnect%2Fredirect%3Flang%3Dnl%5FNL%26mspid%3D8996625",
+    "account_id":null,
+    "card_authentication_result":null,
+    "external_transaction_id":"3924195754138182",
+    "issuer_id":"0031",
+    "recurring_flow":null,
+    "recurring_id":null,
+    "recurring_model":null,
+    "type":"IDEAL"
+    },
+    "payment_methods":[
+      {"amount":1000,
+      "currency":"EUR",
+      "description":"Product description",
+      "external_transaction_id":"3924195754138182",
+      "payment_description":"iDEAL",
+      "status":"initialized",
+      "type":"IDEAL"}
+      ],
+      "reason":null,
+      "reason_code":null,
+      "related_transactions":null,
+      "status":"initialized",
+      "transaction_id":8996625,
+      "var1":null,
+      "var2":null,
+      "var3":null
+      }
+}
+```
+</details>
+<br>
 
 ✅ **Success!** You have configured your webhook endpoint Now you need to configure your web server to handle notifications correctly.
 
