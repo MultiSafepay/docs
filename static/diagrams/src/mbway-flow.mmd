@@ -3,7 +3,7 @@ sequenceDiagram
     participant C as Customer
     participant Me as Merchant
     participant Mu as MultiSafepay
-    participant Mb as Multibanco
+    participant Mb as MB WAY
     C->>Me: Selects MB WAY at checkout
     Me->>Mu: Creates order <br> (direct and redirect flow supported)
     Mu->>Mb: Requests reference number
