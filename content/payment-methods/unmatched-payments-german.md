@@ -36,7 +36,7 @@ Der Kunde/die Kundin hat eine Überweisung getätigt, jedoch nicht:
 
 Dies bedeutet, dass die Transaktion nicht erfolgreich in unserem System generiert werden konnte.
 
-Um nicht abgeglichene Zahlungen aufzulösen, prüfen Sie, ob eine [Transaktion](//docs/payment-links/) erstellt wurde:
+Um nicht abgeglichene Zahlungen aufzulösen, prüfen Sie, ob eine [Transaktion](/docs/payment-links/) erstellt wurde:
 
 ## Transaktion nicht erstellt
 
