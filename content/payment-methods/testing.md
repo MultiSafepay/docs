@@ -715,6 +715,10 @@ To change the order status, on the Test platform page, from the **Test scenario*
 
 # User guide
 
+## Transaction details
+
+**Note:** In your MultiSafepay Test environment, the PSP ID is 16 digits long (as opposed to currently 12 digits in Live environment.) This does not have any influence on the processing of payment methods.
+
 ## Cancellations
 
 <details id="how-to-test-cancelling-order">
