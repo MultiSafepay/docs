@@ -1,7 +1,7 @@
 ---
 title: "Apple Pay direct integration"
 category: 6298bd782d1cf4006032e765
-order: 45
+order: 5
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'apple-pay-direct'
@@ -35,13 +35,15 @@ To see which Apple products are compatible with Apple Pay, see Apple Developer â
 
 ## 1. Validate your domain
 
-1. <a href="https://github.com/MultiSafepay/docs/raw/master/static/domain-validation-apple-pay/domain-validation-apple-pay.zip" target="_blank">Download the compressed Apple Pay domain validation files</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+1. <a href="https://github.com/MultiSafepay/docs/raw/master/static/domain-validation-apple-pay/new-domain-validation-apple-pay.zip" target="_blank">Download the compressed Apple Pay domain validation files</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Unzip the folder and select the relevant file.
 3. Place the domain validation file at:
     
     ```
     https://{your-domain}/.well-known/apple-developer-merchantid-domain-association
     ```
+
+ðŸ“˜ **Note:** For testing, download the domain validation in the **test** folder.
 
 ## 2. Request to register 
 

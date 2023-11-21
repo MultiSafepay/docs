@@ -11,9 +11,9 @@ parentDoc: 62a727569e389a012f577acd
 <summary>About credit and debit cards</summary>
 <br>
 
-Credit cards are issued by a bank, building society, or <<glossary:card scheme>> and let customers pay on credit. Debit cards are issued by a bank and let customers transfer funds directly from their bank account. Cardholders can pay for products or services at a point of sale, online, or on a mobile app. They can also withdraw cash, or link their card to digital wallets or other local payment methods.
+Cards are issued by a bank, building society, or <<glossary:card scheme>> and let customers pay on credit. Debit cards are issued by a bank and let customers transfer funds directly from their bank account. Cardholders can pay for products or services at a point of sale, online, or on a mobile app. They can also withdraw cash, or link their card to digital wallets or other local payment methods.
 
-Credit cards are a very common payment method in many countries. Their widespread acceptance, ease of use, and ability to process payments in multiple currencies make them the ideal choice for many customers.
+Cards are a very common payment method in many countries. Their widespread acceptance, ease of use, and ability to process payments in multiple currencies make them the ideal choice for many customers.
 
 Cards may feature:
 
@@ -29,7 +29,9 @@ MultiSafepay supports the following credit and debit cards:
 - <a href="https://www.multisafepay.com/solutions/payment-methods/american-express" target="_blank">American Express</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (Amex)
 - <a href="https://www.multisafepay.com/solutions/payment-methods/mastercard/" target="_blank">Mastercard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (credit card) and <a href="https://www.multisafepay.com/solutions/payment-methods/maestro/" target="_blank">Maestro</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (debit card)
 - <a href="https://www.multisafepay.com/solutions/payment-methods/postepay/" target="_blank">Postepay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-- <a href="https://www.multisafepay.com/solutions/payment-methods/visa/" target="_blank">Visa</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and co-branded cards <a href="https://www.cartes-bancaires.com/" target="_blank">Cartes Bancaires</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, <a href="https://www.multisafepay.com/solutions/payment-methods/dankort/" target="_blank">Dankort</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, <a href="https://www.multisafepay.com/solutions/payment-methods/vpay" target="_blank">V&nbsp;Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (debit card) 
+- <a href="https://www.multisafepay.com/solutions/payment-methods/visa/" target="_blank">Visa</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and co-branded cards <a href="https://www.multisafepay.com/solutions/payment-methods/carte-bleue" target="_blank">Cartes Bancaires</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, <a href="https://www.multisafepay.com/solutions/payment-methods/dankort/" target="_blank">Dankort</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, <a href="https://www.multisafepay.com/solutions/payment-methods/vpay" target="_blank">V&nbsp;Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (debit card) 
+
+📘 **Note:** [Co-branded cards](/docs/card-payments#co-branded-cards) are processed through the VISA <<glossary:gateway>>.
 
 | Supports | Details |
 |---|---|
@@ -60,7 +62,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected for 3D Secure authentication, or the <<glossary:card scheme>> is authorizing the transaction. | Initialized | Initialized |
-| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/docs/uncaptured/). | Uncleared | Uncleared |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/docs/uncleared/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | ([Amex account number flow](#amex-merchant-account-number)) American Express has collected payment. | Completed | Initialized |
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
@@ -80,10 +82,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
    We check your eligibilty and if approved, activate the payment method for your account. 
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. To activate the payment method for:
-    - All sites, go to **Settings** > **Payment methods**.
-    - A specific site:
-      - Go to **Integrations** > **Sites**, and then click the relevant site.
-      - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
+- All sites, go to **Settings** > **Payment methods**.
+- A specific site, go to **Sites**, and then click the relevant site.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
@@ -114,7 +114,7 @@ In the `customer` object, set the `locale` parameter:
 
 #### Generic gateway
 - The generic `CREDITCARD` gateway bundles all cards activated for your account into a single gateway to save space in your checkout. The [payment page](/docs/payment-pages/) automatically detects the specific card scheme based on the first 4 digits of the card number the customer enters. 
-- See Examples > Credit card redirect. 
+- See Examples > Card payment redirect. 
 
 ### Ready-made integrations
 All our [ready-made integrations](/docs/our-integrations/) support: 

@@ -1,0 +1,15 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Me as Merchant
+    participant Mu as MultiSafepay
+    participant Mb as MB WAY
+    C->>Me: Selects MB WAY at checkout
+    Me->>Mu: Creates order <br> (direct and redirect flow supported)
+    Mu->>Mb: Requests reference number
+    Mb->>C: Sends push notification
+    Mb->>Mu: Provides reference number
+    C->>Mb: Completes payment 
+    Mb->>Mu: Notifies of payment success
+    Mu->>Me:  Notifies of payment success
+    

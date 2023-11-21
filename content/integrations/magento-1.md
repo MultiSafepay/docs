@@ -1,7 +1,7 @@
 ---
 title: "Magento 1"
 category: 62962dd7e272a6002ebbbbc5
-order: 6
+order: 4
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -9,7 +9,7 @@ slug: 'magento-1'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.5.1.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.6.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 > ⚠️ Action required
 >
@@ -20,6 +20,14 @@ slug: 'magento-1'
 <details id="changelog">
 <summary>Changelog</summary>
 <br>
+
+**3.6.0**
+Release date: Oct. 16th, 2023
+
+### Added
++ DAVAMS-660: Add Zinia payment method
+
+***
 
 **3.5.1**
 Release date: Jun. 16th, 2023
@@ -245,7 +253,7 @@ Release date: Mar 12, 2018
 - PLGMAGONE-338: Undefined index error on expired orders
 - PLGMAGONE-357: Update ING gateway to `INGHOME`
 - PLGMAGONE-340: Prevent cancel on api error when order has already been paid
-- PLGMAGONE-342: Fixes headers already send error when credit card gateway is used
+- PLGMAGONE-342: Fixes headers already send error when card payment gateway is used
 - PLGMAGONE-336: Undefined index `custom_refund_desc`
 
 ---
@@ -285,7 +293,7 @@ Release date: Aug 3, 2017
 - Fixes an issue with de credit card gateway not processing the brand.
 
 **Improvements**
-- Added missing logo used for the credit card payment method option.
+- Added missing logo used for the card payment method option.
 - Updated the install script.
 - Updated Bancontact logo and title.
 - Removed Thumbs.db from the package.
@@ -312,7 +320,7 @@ Release date: Feb 16, 2017
 **2.3.2**
 Release date: Jan 25, 2017
 **Fixes**
-- Removed whitespace which resulted in the PHP error "headers already sent" being triggered when selecting the credit card gateway
+- Removed whitespace which resulted in the PHP error "headers already sent" being triggered when selecting the card gateway
 - Resolved an issue when used with OneStepCheckout causing the wrong gateway to be used.
 
 ---
@@ -987,8 +995,9 @@ All expired orders retain **Waiting** status until you cancel them:
 1. Sign in to your Magento 1 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **MultiSafepay settings**.
 
-**Credit cards**
-Recurring Payments are not available for the generic credit card gateway. You must enable the Visa, Mastercard, and/or Maestro gateways separately. This displays the **Save card** option at checkout.
+**Card payments**
+
+Recurring Payments are not available for the generic card payments gateway. You must enable the Visa, Mastercard, and/or Maestro gateways separately. This displays the **Save card** option at checkout.
 
 </details>
 
@@ -1074,7 +1083,7 @@ For more information and instructions, see MultiSafepay blog – <a href="https:
 
 [block:html]
 {
-  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: create a technical issue</li>\n  </ul>  \n</blockquote>"
+  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
 

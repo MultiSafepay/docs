@@ -1,7 +1,7 @@
 ---
 title: 'Klarna'
 category: 6298bd782d1cf4006032e765
-order: 20
+order: 3
 hidden: false
 parentDoc: 62bd75142e264000a66d62b5
 slug: 'klarna'
@@ -97,7 +97,7 @@ For support, email <integration@multisafepay.com>
 
   </details>
 
-- A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
+- A `shopping_cart` object is required for all BNPL orders. See Recipes –  <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 - Transactions expire after 1 hour.
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
 
@@ -114,7 +114,7 @@ To test Klarna payments, see Testing payment methods - [BNPL methods](/docs/test
 
 ## Addresses
 
-The customer's billing and shipping addresses must be the **same**.
+Different billing and shipping addresses are supported.
 
 ## Branding
 
@@ -308,8 +308,8 @@ When you ship the order, you **must** manually change the [order status](/docs/p
 
 If you change the order status in your backend, the following [ready-made integrations](/docs/our-integrations/) pass the updated status to your dashboard automatically:
 
-- Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
-- Shopware 5: When you set the order to **delivered** in your backend.
+- Lightspeed, Magento 2, and WooCommerce: When you set the order to **Shipped** in your backend.
+- Shopware 5: When you set the order to **Delivered** in your backend.
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 

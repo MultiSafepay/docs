@@ -1,7 +1,7 @@
 ---
 title: 'Payment components'
 category: 62bd999547298d001abc714c
-order: 4
+order: 1
 hidden: false
 slug: 'payment-components'
 ---
@@ -29,7 +29,15 @@ You can embed a single or multiple payment methods in your checkout.
 
 - [Bancontact](/docs/bancontact/)
 - [Bank transfer](/docs/bank-transfer/)
-- Credit cards:  
+- <<glossary:BNPL>>:
+    - [E-invoicing](/docs/e-invoicing/)
+    - [Klarna](/docs/klarna/)
+    - [In3](/docs/in3/)
+    - [Pay After Delivery](/docs/pay-after-delivery/)
+    - [Pay After Delivery installments](/docs/pay-after-delivery-installments/)
+    - [Riverty](/docs/riverty/)
+    - [Zinia](/docs/zinia/)
+- Cards:  
     - [American Express](/docs/card-payments/)
     - [Mastercard](/docs/card-payments/)
     - [Visa](/docs/card-payments/)
@@ -42,12 +50,12 @@ You can embed a single or multiple payment methods in your checkout.
 
 </details>
 
-# Credit card features
+# Card payment features
 
-- Bundles all supported credit cards in one <<glossary:gateway>>
+- Bundles all supported card payments in one <<glossary:gateway>>
 - Displays the logos of available card brands in the card number field, and then detects the specific brand as the customer enters their card number and displays the relevant logo
 - Validates the card number
-- Displays error messages for credit card fields, e.g. card not supported, card expired
+- Displays error messages for card fields, e.g. card not supported, card expired
 - Supports tokenization for fast, secure recurring payments
 
 # Integration 

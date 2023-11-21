@@ -1,7 +1,7 @@
 ---
 title: 'Betaal per Maand'
 category: 6298bd782d1cf4006032e765
-order: 17
+order: 0
 hidden: false
 parentDoc: 62bd75142e264000a66d62b5
 slug: betaal-per-maand
@@ -81,13 +81,14 @@ To activate:
 
   </details>
 
-- A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
+- A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 - Transactions expire after 1 day.
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout. 
 
 ### Ready-made integrations
 - Supported in most [ready-made integrations](/docs/our-integrations/).
-- Exceptions: Lightspeed, Shopify, OsCommerce, PWAs, Vue Storefront, Zen Cart
+- Exceptions: Shopify, OsCommerce, Vue Storefront, Zen Cart
 
 ### Testing
 - You cannot test Betaal per Maand in your MultiSafepay test account. 

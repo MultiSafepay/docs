@@ -1,7 +1,7 @@
 ---
 title: 'Alipay'
 category: 6298bd782d1cf4006032e765
-order: 40
+order: 0
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'alipay'
@@ -12,7 +12,7 @@ slug: 'alipay'
 > Alipay will soon deprecate. We recommend migrating to [Alipay+](/docs/alipay-plus/) as soon as possible.
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/alipay.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
-<a href="https://global.alipay.com/platform/site/ihome" target="_blank">Alipay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online, QR, and contactless <<glossary:POS>> payments, as well as international money transfers.
+<a href="https://global.alipay.com/platform/site/ihome" target="_blank">Alipay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a leading global payment method that lets Chinese customers link their card or bank account to a digital wallet. It supports online, QR, and contactless <<glossary:POS>> payments, as well as international money transfers.
 
 For Chinese customers, Alipay accounts are verified and linked to their Chinese bank account. Since 2021, non-Chinese customers can also pay with Alipay using the Tour Pass.
 
@@ -55,10 +55,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
    We check your eligibility and if approved, activate the payment method for your account. 
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. To activate the payment method for:
-    - All sites, go to **Settings** > **Payment methods**.
-    - A specific site:
-      - Go to **Integrations** > **Sites**, and then click the relevant site.
-      - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
+- All sites, go to **Settings** > **Payment methods**.
+- A specific site, go to **Sites**, and then click the relevant site.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>

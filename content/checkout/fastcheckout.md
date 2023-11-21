@@ -1,7 +1,7 @@
 ---
 title: 'FastCheckout'
 category: 62bd999547298d001abc714c
-order: 1
+order: 0
 hidden: false
 slug: 'fastcheckout'
 ---
@@ -49,7 +49,7 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
 - Dynamically displays payment methods based on the customer's country, device, and the order amount
 - Styles how <<glossary:issuers>> are displayed and how to connect to their environment
 - Validates input instantly and suggests actionable errors
-- Saves space by bundling all available credit cards in a single gateway that auto-detects the card type
+- Saves space by bundling all available cards in a single gateway that auto-detects the card type
 - Is [Fuhrmann-2 compliant](/docs/fuhrmann2/)
 
   <details id="issuer-example">
@@ -70,10 +70,10 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
   </details>
 
   <details id="cards-example">
-  <summary>Example of single credit card gateway</summary>
+  <summary>Example of single card payment gateway</summary>
   <br>
 
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOCreditCards.png" align ="center"/>
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOCard.png" align ="center"/>
 
   </details>
 
@@ -101,7 +101,7 @@ Specify in your request the relevant [site IDs](/docs/sites#site-id-api-key-and-
 To integrate FastCheckout as a hosted page via our API, see:
 
 - API reference – [Create order](/reference/createorder) > FastCheckout order
-- Recipes – [Create a FastCheckout page](/recipes/create-a-fastcheckout-page)
+- Recipes – <a href="https://docs.multisafepay.com/recipes/create-a-fastcheckout-page" target="_blank">Create a FastCheckout page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
 
 To embed FastCheckout into your site, see [FastCheckout JavaScript integration](/docs/fastcheckout-integration/).
 
@@ -121,7 +121,7 @@ You can add your brand's logo at the top of the FastCheckout page.
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Integrations** > **Sites**, and then click the relevant site.
+2. Go to **Sites**, and then click the relevant site.
 3. On the **Site profile** page, under **Functionality**, from the **FastCheckout logo** list, select the relevant logo. 
 4. Click **Save changes**.
 

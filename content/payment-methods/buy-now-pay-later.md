@@ -1,7 +1,7 @@
 ---
 title: 'Buy now pay later'
 category: 6298bd782d1cf4006032e765
-order: 16
+order: 2
 hidden: false
 slug: 'bnpl'
 --- 
@@ -9,7 +9,7 @@ slug: 'bnpl'
 
 [block:html]
 {
-  "html": "<div class=\"auto-grid\">\n    <div class=\"card-container\">\n        <a href=\"/docs/in3/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/in3.svg\" style=\"margin: 10px; max-height: 30px\">\n                <div class=\"container\">\n                    <h4><b>in3</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/klarna/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/klarna.svg\" style=\"margin: 10px; max-height: 50px\">\n                <div class=\"container\">\n                    <h4><b>Klarna</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/riverty/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/afterpay-riverty-transition-logo.svg\" style=\"margin: 10px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>Riverty</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    </div>"
+  "html": "<div class=\"auto-grid\">\n    <div class=\"card-container\">\n        <a href=\"/docs/in3/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/in3.svg\" style=\"margin: 10px; max-height: 30px\">\n                <div class=\"container\">\n                    <h4><b>in3</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/klarna/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/klarna.svg\" style=\"margin: 10px; max-height: 50px\">\n                <div class=\"container\">\n                    <h4><b>Klarna</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/riverty/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/afterpay-riverty-transition-logo.svg\" style=\"margin: 10px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>Riverty</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n  <div class=\"card-container\">\n        <a href=\"/docs/zinia/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/zinia.svg\" style=\"margin: 10px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>Zinia</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    </div>"
 }
 [/block]
 <br>

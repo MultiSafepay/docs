@@ -1,7 +1,7 @@
 ---
 title: "Lightspeed"
 category: 62962dd7e272a6002ebbbbc5
-order: 5
+order: 3
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free app."
@@ -150,12 +150,18 @@ Lightspeed supports [Payment Components](/docs/payment-components/), which:
 <br>
 
 1. Sign in to your Lightspeed app.
-2. Go to **Settings**.
-3. Scroll down to **Enable MultiSafepay Checkout scripts** and select **Enabled script** checkbox.
-4. To activate payment component:
-- Go to **Credit cards**.
-- Scroll down to **Enable MultiSafepay Components** and select **Enabled** checkbox.
-5. Click **Save**.
+2. Go to **Apps** > **Purchased apps** > **MultiSafepay payments**.
+3. Click **Go to app**.
+4. In the **Setup** page:
+  - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
+  - Select **Test** or **Live** environment, and then click **Save and continue**.  
+You are redirected to the **Settings** page.
+5. On the **Payment method settings** tab:
+- Select the relevant **Payment method settings**.
+- To expand the payment method, click on the tab.
+- On the **Enable MultiSafepay Components** and select the **Enabled** checkbox. 
+6. On the **Enable MultiSafepay checkout scripts** tab, select the **Enabled script** checkbox.
+7. Click **Save**.
 
 </details>
 
@@ -208,11 +214,17 @@ By default, the app does **not** support adding payment methods logos to your si
 **How to add logos via our script**
 
 1. Sign in to your Lightspeed app.
-2. Go to **Settings** > **Storefront payment icons**.
-3. Click **Copy to clipboard**. 
-5. In your **Lightspeed admin area**, go to **Settings** > **Web extras and custom Javascript**. 
-6. Paste the script into the **Javascript textbox**, and set the status to **Enable**.
-7. Click **Save**. The logos appear in the footer.
+2. Go to **Apps** > **Purchased apps** > **MultiSafepay payments**.
+3. Click **Go to app**.
+4. In the **Setup** page:
+  - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
+  - Select **Test** or **Live** environment, and then click **Save and continue**.  
+You are redirected to the **Settings** page.
+5. On the **Storefront payment icons** tab, click **Copy to clipboard**. 
+6. In your **Lightspeed admin area**, go to **Settings** > **Web extras and custom Javascript**. 
+7. Paste the script into the **Javascript textbox**, and set the status to **Enable**.
+8. Click **Save**. 
+The logos appear in the footer.
 
 **Display order**  
 
@@ -332,8 +344,13 @@ You can't refund more than the original amount in your backend.
 <br>
 
 1. Sign in to your Lightspeed app.
-2. Go to **Settings**.
-3. In the sidebar, click **Enable refunds**.
+2. Go to **Apps** > **Purchased apps** > **MultiSafepay payments**.
+3. Click **Go to app**.
+4. In the **Setup** page:
+  - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
+  - Select **Test** or **Live** environment, and then click **Save and continue**.  
+You are redirected to the **Settings** page.
+3. On the **Allow refunds** tab, select the **Refunds enabled** checkbox.
 4. Select the relevant setting:
     - Refunds disabled (default)
     - Refunds enabled:
@@ -435,7 +452,7 @@ To access the MultiSafepay Payments app **Settings** page:
 
 [block:html]
 {
-  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: create a technical issue</li>\n  </ul>  \n</blockquote>"
+  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n </ul>  \n</blockquote>"
 }
 [/block]
 

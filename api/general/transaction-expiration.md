@@ -23,7 +23,7 @@ The table below sets out the expiration time per payment method:
 | Alipay  | 5 hours  |
 | Alipay+| 10 minutes on Alipay+, after 1 hour in our system |
 | Apple Pay| 1 hour   |
-| Bancontact| Banking: 1 hour, QR: Doesn't apply  |
+| Bancontact| Banking: 1 hour  |
 | Bank transfer| 60 days  |
 | Belfius| 5 days   |
 | Betaal per Maand| 1 day |
@@ -33,8 +33,11 @@ The table below sets out the expiration time per payment method:
 | iDEAL| 1.5 hours|
 | in3| 2 hours  |
 | Klarna| 1 hour   |
+| MB WAY| 4 minutes  |
+| Multibanco| 72 hours   |
 | MyBank| 1 hour   |
-| Pay After Delivery  | 90 days  |
+| Pay After Delivery | 90 days  |
+| Pay After Delivery installments | 14 days  |
 | PayPal| 14 days  |
 | Paysafecard| 3 hours  |
 | Request to Pay| 1 hour   |
@@ -43,6 +46,9 @@ The table below sets out the expiration time per payment method:
 | Trustly| 2 hours  |
 | TrustPay| 10 days  |
 | WeChat Pay| 2 hours  |
+| Zinia| 14 days  |
+| Zinia installments| 10 days  |
+
 
 # Exceptions
 

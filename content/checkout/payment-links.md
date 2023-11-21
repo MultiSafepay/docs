@@ -1,7 +1,7 @@
 ---
 title: 'Payment links'
 category: 62bd999547298d001abc714c
-order: 9
+order: 2
 hidden: false
 slug: 'payment-links'
 ---
@@ -11,7 +11,7 @@ You can manually generate a link to a [payment page](/docs/payment-pages/) to pa
 
 Use cases include:
 
-- A customer wants to adjust an existing <<glossary:order>> and instead of starting over with a new order.
+- A customer wants to adjust an existing <<glossary:order>> instead of starting over with a new order.
 - You need to create a <<glossary:transaction>> for a manually generated order.
 - MultiSafepay collects a payment for an amount that doesn't match any order. If you accept the payment, you need to manually generate a payment link and email it to <support@multisafepay.com>
 - A [bank transfer](/docs/bank-transfer/) transaction has expired.
@@ -25,7 +25,7 @@ No activation is required.
 You can generate payment links via the API:
 
 - API reference – [Create order](/reference/createorder/) > Payment page/link
-- API recipe – [Create a payment page/link](/reference/createorder/)
+- API recipe – <a href="https://docs.multisafepay.com/recipes/create-a-payment-pagelink" target="_blank">Create a payment page/link</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
 
 Or via your dashboard:
 
@@ -132,7 +132,6 @@ This only applies to certain payment methods:
 | Banking methods, except direct debit | Direct debit |
 | Gift cards | Edenred, Paysafecard |
 | Wallets | PayPal – Links are valid for 14 days. The lifetime is set by PayPal. |
-| Credit cards |  |
 
 </details>
 

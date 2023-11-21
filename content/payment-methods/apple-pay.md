@@ -1,7 +1,7 @@
 ---
 title: 'Apple Pay'
 category: 6298bd782d1cf4006032e765
-order: 44
+order: 4
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'apple-pay'
@@ -21,7 +21,7 @@ Read how Apple Pay can benefit your business on <a href="https://www.multisafepa
 | [Currencies](/docs/currencies/) | AED, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EUR, GBP, HKD, HRK, HUF, ILS, INR, ISK, JPY, KRW, MXN, MYR, NOK, NZD, PEN, PHP, PLN, RON, RUB, SEK, SGD, THB, TRY, TWD, UAH, USD, VEF, ZAR <br> For more information, see Apple - <a href="https://support.apple.com/en-us/HT207957" target="_blank">Multiple</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. | 
 | [Chargebacks](/docs/chargebacks/) | Yes | 
 | [Payment pages](/docs/payment-pages/) | Yes (current version only)  |
-| [Refunds](/docs/refund-payments/) | Yes: Full and partial <br> Customers receive refunds in their Apple Pay account, and they appear on their credit card statement within the next business day.  |
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial <br> Customers receive refunds in their Apple Pay account, and they appear on their card statement within the next business day.  |
 | [Second Chance](/docs/second-chance/) | Yes |
 <br>
 
@@ -45,7 +45,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected for 3D Secure authentication, or the <<glossary:card scheme>> is authorizing the transaction. | Initialized | Initialized |
-| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/docs/uncaptured/). | Uncleared | Uncleared |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/docs/uncleared/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
 | The customer didn't complete 3D Secure authentication. | Expired | Expired |
@@ -72,7 +72,7 @@ To activate Apple Pay, you must have [card payments](/docs/card-payments/) activ
 3. To activate the payment method for:
     - All sites, go to **Settings** > **Payment methods**.
     - A specific site:
-      - Go to **Integrations** > **Sites**, and then click the relevant site.
+      - Go to **Sites**, and then click the relevant site.
       - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
@@ -95,10 +95,8 @@ Then, apply to MultiSafepay for Apple Pay, and activate it in your dashboard.
    We check your eligibility and if approved, activate the payment method for your account. 
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. To activate the payment method for:
-    - All sites, go to **Settings** > **Payment methods**.
-    - A specific site:
-      - Go to **Integrations** > **Sites**, and then click the relevant site.
-      - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
+- All sites, go to **Settings** > **Payment methods**.
+- A specific site, go to **Sites**, and then click the relevant site.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>

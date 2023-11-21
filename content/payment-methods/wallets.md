@@ -1,7 +1,7 @@
 ---
 title: 'Wallets'
 category: 6298bd782d1cf4006032e765
-order: 39
+order: 5
 hidden: false
 slug: 'wallets'
 --- 
@@ -20,6 +20,13 @@ slug: 'wallets'
 
 <br>
 
+To implement Express Checkouts, see 
+
+- [Amazon Pay direct integration](docs/amazon-pay-direct)
+- [Apple Pay direct integration](docs/apple-pay-direct)
+- [Google Pay direct integration](docs/google-pay-direct)
+- [PayPal direct integration](docs/paypal-direct)
 ---
+
 
 [Top of page](#)

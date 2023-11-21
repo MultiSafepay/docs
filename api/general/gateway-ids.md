@@ -18,7 +18,7 @@ hidden: false
 | Belfius                                | `BELFIUS`     |
 | Betaal per Maand                       | `SANTANDER`   |
 | CBC/KBC                                | `CBC` / `KBC` |
-| Credit cards                           | `CREDITCARD`  |
+| Card payments                          | `CREDITCARD`  |
 | Dotpay                                 | `DOTPAY`      |
 | Edenred                                | `EDENCOM`     |
 | E-Invoicing                            | `EINVOICE`    |
@@ -31,8 +31,10 @@ hidden: false
 | Klarna                                 | `KLARNA`      |
 | Maestro                                | `MAESTRO`     |
 | Mastercard                             | `MASTERCARD`  |
+| MB Way                                 | `MBWAY`      |
+| Multibanco                             | `MULTIBANCO`  |
 | MyBank                                 | `MYBANK`      |
-| Pay After Delivery                     | `PAYAFTER`    |
+| Pay After Delivery                     | `BNPL_MF`     |
 | Pay After Delivery installments        | `BNPL_INSTM`  |
 | PayPal                                 | `PAYPAL`      |
 | Paysafecard                            | `PSAFECARD`   |
@@ -44,6 +46,7 @@ hidden: false
 | TrustPay                               | `TRUSTPAY`    |
 | Visa, Cartes Bancaires, Dankort, V Pay | `VISA`        |
 | WeChat Pay                             | `WECHAT`      |
+| Zinia                                  | `ZINIA`
 | **Gift cards**                         |               |
 | Amsterdam stadspas                     | `AMSGIFT`     |
 | Baby Cadeaubon                         | `BABYCAD`     |
@@ -63,9 +66,9 @@ hidden: false
 | Gezondheidsbon                         | `GEZONDHEID`  |
 | Good4fun                               | `GOOD4FUN`    |
 | Horses & Gifts                         | `HORSESGIFT`  |
-| Monizze eco voucher                    | `MONICO`      |
-| Monizze gift voucher                   | `MONICOM`     |
-| Monizze meal voucher                   | `MONIRES`     |
+| Monizze eco voucher                    | `MONIECO`      |
+| Monizze gift voucher                   | `MONIGIFT`     |
+| Monizze meal voucher                   | `MONIMEAL`     |
 | Nationale bioscoopbon                  | `NATNLBIOSC`  |
 | Nationale tuinbon                      | `NATNLETUIN`  |
 | Parfumcadeaukaart                      | `PARFUMCADE`  |

@@ -1,7 +1,7 @@
 ---
 title: "CCV Shop"
 category: 62962dd7e272a6002ebbbbc5
-order: 25
+order: 0
 hidden: false
 parentDoc: 62a9a54aba9800011a8bda88
 slug: 'ccv-shop'

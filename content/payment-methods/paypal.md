@@ -1,7 +1,7 @@
 ---
 title: 'PayPal'
 category: 6298bd782d1cf4006032e765
-order: 48
+order: 8
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'paypal'
@@ -19,7 +19,7 @@ slug: 'paypal'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/paypal.svg" width="125" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a href="https://www.paypal.com/nl/home" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a leading global payment method that lets customers pay by credit card or create a digital wallet linked to multiple payment methods.
+<a href="https://www.paypal.com/nl/home" target="_blank">PayPal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a leading global payment method that lets customers pay by credit or debit card or create a digital wallet linked to multiple payment methods.
 
 Read how PayPal can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/paypal" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
@@ -71,11 +71,12 @@ To activate PayPal, follow these steps:
 <summary>How to configure your PayPal account</summary>
 <br>
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Settings** > **Payment methods**
-3. In the **PayPal** tab, click on **Set up PayPal** button <br> You are redirected to PayPal to sign in to your PayPal business account.                              
-4. Grant PayPal access to connect with your MultiSafepay account.
-5. Your **PayPal Merchant ID** is now displayed in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+1. Email a request to <support@multisafepay.com>
+2. After we confirm activation, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+3. Go to **Settings** > **Payment methods**
+4. In the **PayPal** tab, click on **Set up PayPal** button <br> You are redirected to PayPal to sign in to your PayPal business account.                              
+5. Grant PayPal access to connect with your MultiSafepay account.
+6. Your **PayPal Merchant ID** is now displayed in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
 If your **PayPal Merchant ID** isn't displayed in your dashboard, you can add it manually.
 
@@ -96,7 +97,9 @@ If your **PayPal Merchant ID** isn't displayed in your dashboard, you can add it
 
 ✅ PayPal has been successfully configured in your MultiSafepay account.
 
-📘 **Note:** If you already have a PayPal account connected to MultiSafepay dashboard, we recommend upgrading to the latest PayPal API as soon as possible by following all the steps above. No other actions are required after this step.
+> 📘 **Note:** 
+> 
+> If you already have a PayPal account connected to MultiSafepay dashboard, we recommend upgrading to the latest PayPal API as soon as possible by following all the steps above. No other actions are required after this step.
 
 We strongly recommend [testing transactions](/docs/testing/) before processing live payments.
 
@@ -119,7 +122,7 @@ We strongly recommend [testing transactions](/docs/testing/) before processing l
 
   </details>
 
-- A `shopping_cart` object can be included in your [create order](/reference/createorder) request, see Recipe – [Include shopping_cart in order](/recipes/display-shopping-cart).
+- A `shopping_cart` object can be included in your [create order](/reference/createorder) request, see Recipe – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 - An `invoice_id`  can be included in your [create order](/reference/createorder) request, which appears in the transaction history.<br> **Note:** If no `invoice_id` is set, the `order_id` defaults to `invoice_id`.
 

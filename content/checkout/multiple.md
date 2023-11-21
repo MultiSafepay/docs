@@ -1,7 +1,7 @@
 ---
 title: "Multiple payment methods"
 category: 62bd999547298d001abc714c
-order: 6
+order: 2
 hidden: false
 slug: 'payment-component-multiple'
 parentDoc: 62a848399bb3eb004023f291 
@@ -56,8 +56,7 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
         amount: 10000,
         customer: {
             locale: 'en',
-            country: 'NL',
-            reference: 's9Q8ikjFJBCX'
+            country: 'NL'
         },    
         payment_options: {
             settings: {
@@ -66,14 +65,9 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
                 }
             }
         },
-        template : {
-            settings: {
-                embed_mode: true
-            }
-        }
     };
     ```
-
+    
     <details id="properties">
     <summary>Properties</summary>
     <br>
@@ -85,7 +79,7 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     | customer.country | No | The customer's country code. Used to validate the availability of the payment method. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL` |
     | customer.locale | No | The customer's language. Sets the language of the payment component UI. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO 639</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> Supported languages: `en`, `es`, `fr`, `it`, `nl` |
     | customer.reference | Yes, for recurring payments | Your unique customer reference. |
-    | payment_options.settings.connect.group_cards | No | Groups all credit card payment methods as a single option in the list of payment methods. <br> Format: Boolean <br> Default: `false`.|
+    | payment_options.settings.connect.group_cards | No | Groups all card payment methods as a single option in the list of payment methods. <br> Format: Boolean <br> Default: `false`.|
     | recurring.model | Yes, for recurring payments | The [recurring model](/docs/recurring-payments/). |
     | template.settings.embed_mode | No | A template designed to blend in seamlessly with your ecommerce platform. <br> Format: Boolean |
 
@@ -104,30 +98,57 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     To process recurring payments in your payment component:
 
     - Add the `cardOnFile` recurring model
-    - Provide the relevant `customer.reference`
-
-    ```javascript
+    - Make [List tokens](/reference/listtokens) request from your server and provide a`tokens` 
+    <br>
+    ```JavaScript
     const orderData = {
         currency: 'EUR',
         amount: 10000,
         customer: {
             locale: 'en',
-            country: 'NL',
-            reference: 'Customer123'
+            country: 'NL'
         },
-        recurring: {
-            model: 'cardOnFile'
+    template : {
+        settings: {
+            embed_mode: true
         }
+    }
     };
+      
+    const recurringData = {
+    "model": "cardOnFile",
+    "tokens": [
+        {
+            "token": "AvqeOjgdm8A",
+            "code": "IDEAL",
+            "display": "xxxxxxxxxNL81PSTB0000012345",
+            "bin": null,
+            "name_holder": "Schilder",
+            "expiry_date": "",
+            "expired": 0,
+            "last4": null,
+            "model": "cardOnFile"
+        },
+        {
+            "token": "BcEWsknWsYg",
+            "code": "MASTERCARD",
+            "display": "Card xxxx xxxx xxxx 4444",
+            "bin": 555555,
+            "name_holder": "Holder",
+            "expiry_date": 2412,
+            "expired": 0,
+            "last4": 4444,
+            "model": "cardOnFile"
+        }]};
     ```
 
     > ✅ Success
     > 
     > Your payment component now automatically renders a checkbox where customers can choose whether they would like to store their payment details for future visits.
 
-    Recurring payments are supported for all credit card payments.
+    Recurring payments are supported for all card payments.
 
-    📘 **Note:** For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
+    📘 **Note:** To test card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
 
     To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email <sales@multisafepay.com>
 
@@ -135,7 +156,7 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     
     📘 **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and order value. 
 
-2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
+2. Construct a `PaymentComponent` object in the `test` environment using the `order` object and your API token:
 
     ```javascript
     PaymentComponent = new MultiSafepay({
@@ -253,6 +274,34 @@ The `PaymentComponent` has the following methods:
     ```javascript
     const paymentButton = document.querySelector('#payment-button');
     ```
+
+
+The `payment_data` includes the following parameters:
+
+```JSON
+  {
+    "payment_data": {
+    "gateway": "CREDITCARD",
+    "payload": "xxxxxxxx",
+    "tokenize": true
+  }};
+```
+
+<details id="properties">
+   <summary>Parameters</summary>
+   <br>
+
+| Key        | Required | Description|
+| ---------- | :------- | ------|
+| `gateway`  | Yes      | The unique `gateway_id` to redirect the customer to the specific payment method.                                                                                                                            |
+| `payload`  | Yes      | Information required to process the payment.<br> **Note:** Do not edit or modify the `payload` or otherwise the payment fails.                                                                              |
+| `tokenize` | Optional | For [recurring payments](/docs/recurring-payments).<br> If a customer selects to either save their cardholder data for future visits or use an existing token, a`payment_data.tokenize` parameter is added. |
+
+<br>
+
+**Note:** When `payment_data.tokenize` is set to `true`you need to append `customer.reference` to the order data.
+
+</details>
 
 2. Create an event handler for the payment button:
 

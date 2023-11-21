@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - uses: readmeio/rdme@7.2.0
+    - uses: readmeio/rdme@v8
       with:
         rdme: docs content --version=v1.0 --key=${{ secrets.README }}
-    - uses: readmeio/rdme@7.2.0
+    - uses: readmeio/rdme@v8
       with:
         rdme: docs api --version=v1.0 --key=${{ secrets.README }}

@@ -1,0 +1,14 @@
+sequenceDiagram
+
+    autonumber
+    participant N as Native applications 
+     participant T as Terminal
+   
+   
+    N->>T: Initiates payment via intent call
+    T->>N: Returns payment status via callback
+    opt 
+    T->>N: Webhook
+    end
+   
+    

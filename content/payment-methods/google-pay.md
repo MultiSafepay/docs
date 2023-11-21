@@ -1,7 +1,7 @@
 ---
 title: 'Google Pay'
 category: 6298bd782d1cf4006032e765
-order: 46
+order: 6
 hidden: false
 slug: google-pay
 parentDoc: 62a6ec51d7a8100053916d99
@@ -20,7 +20,7 @@ Read how Google Pay can benefit your business on <a href="https://www.multisafep
 | [Chargebacks](/docs/chargebacks/)  | Yes |
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |
 | [Recurring payments](/docs/recurring-payments/) | Yes  |
-| [Refunds](/docs/refund-payments/) | Yes: Full and partial <br> Customers receive refunds in their Google Pay account, and they appear on their credit card statement within the next business day.  |
+| [Refunds](/docs/refund-payments/) | Yes: Full and partial <br> Customers receive refunds in their Google Pay account, and they appear on their card statement within the next business day.  |
 | [Second Chance](/docs/second-chance/) | Yes |
 
 > ℹ Notes 
@@ -46,7 +46,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has been redirected for 3D Secure authentication, or the <<glossary:card scheme>> is authorizing the transaction. | Initialized | Initialized |
-| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/docs/uncaptured/). | Uncleared | Uncleared |
+| The card scheme authorized the transaction, but we've flagged it as potentially fraudulent. <br> Review it and then [manually capture or decline](/docs/uncleared/). | Uncleared | Uncleared |
 | MultiSafepay has collected payment. | Completed | Completed |
 | Payment wasn't captured manually or within 5 days. | Void | Void/Cancelled |
 | The customer didn't complete 3D Secure authentication. | Expired | Expired |
@@ -71,10 +71,8 @@ To activate Google Pay, you must have [card payments](/docs/card-payments/) acti
 2. We check your eligibility and if approved, activate the payment method for your account. 
 3. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 4. To activate the payment method for:
-    - All sites, go to **Settings** > **Payment methods**.
-    - A specific site:
-      - Go to **Integrations** > **Sites**, and then click the relevant site.
-      - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
+- All sites, go to **Settings** > **Payment methods**.
+- A specific site, go to **Sites**, and then click the relevant site.
 5. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
@@ -97,7 +95,7 @@ Then, apply to MultiSafepay for Google Pay, and activate it in your dashboard.
 3. To activate the payment method for:
     - All sites, go to **Settings** > **Payment methods**.
     - A specific site:
-      - Go to **Integrations** > **Sites**, and then click the relevant site.
+      - Go to **Sites**, and then click the relevant site.
       - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
@@ -126,7 +124,7 @@ Then, apply to MultiSafepay for Google Pay, and activate it in your dashboard.
 
 ### Ready-made integrations
 - Supported in most [ready-made integrations](/docs/our-integrations/) (<<glossary:redirect>>). 
-- Exceptions: Magento 2 and WooCommerce. For these, you can use a generic gateway. See the relevant manual.
+- Exceptions: Shopware 5. For this one, you can use a generic gateway. See the relevant manual.
 
 ### Testing
 To test Google Pay payments, see Testing payment methods - [Wallets](/docs/testing#wallets).

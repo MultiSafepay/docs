@@ -1,4 +1,5 @@
 aan
+Acquiris
 ABN
 ABNA
 ACA
@@ -102,6 +103,7 @@ COUNTRYCODE
 CRM
 CSRF
 CSV
+CTAP
 CURRENTDATE
 CVC
 CZK
@@ -114,14 +116,22 @@ Casper
 Cesena
 Changelog
 Cloudflare
+CloudSuite
 Coppermine
 Creditdebit
 Credito
 Cryptocurrencies
 Cryptocurrency
 Cryptographic
+CTAP
 DANKORT
 DAVAMS
+DELIVERYCARRIER
+DELIVERYINVOICEURL
+DELIVERYREASON
+DELIVERYSHIPDATE
+DELIVERYTRACKINGCODE
+DELIVERYTRACKINGURL
 DESTAMOUNT
 DESTAMOUNTFORMATCUR
 DESTCURRENCY
@@ -164,6 +174,7 @@ Electronische
 Electrosex
 favicon
 FERBUY
+Fi
 FI
 FROMNAME
 Fashioncheque
@@ -199,8 +210,10 @@ IBAN
 IBANs
 ICT
 ILS
+Incasso
 ING
 INR
+IPEK
 IPs
 ISK
 Instellingen
@@ -213,6 +226,7 @@ Joomla
 Kelly Fashion Giftcard
 KBC
 KLARNA
+Kosten
 KRW
 KYC
 Klantenservice
@@ -230,6 +244,7 @@ Liefcadeaukaart
 Lightspeed
 LogiVert
 maaltijdcheques
+MCC
 MERCHANTCITY
 MERCHANTCOUNTRY
 MERCHANTLOGOHTML
@@ -250,12 +265,15 @@ Maintransaction
 Mastercard
 Mastercard's
 Mc
+MCC
+MERCHANTPO
 Mijn
 MijnDomein
 Mijnwebwinkel
 MisterCash
 Monizze
 Monizze's
+Multibanco
 MultiFactor
 MultiSafepay
 MultiSafepay's
@@ -271,6 +289,8 @@ Nationale verwen cadeaubon
 Nederland
 Nname
 NodeJS
+OrderRequest
+ORDERSTATUS
 OFBiz
 ORRTIZ
 Odoo
@@ -281,7 +301,9 @@ OneStepCheckout
 Ontvangst
 onze
 OpenCart
+OrderRequest
 OroCommerce
+OrderRequest
 OsCommerce
 PAYAFTER
 PCI
@@ -338,6 +360,7 @@ SGD
 SHA
 SITENAME
 SITEURL
+SmartPOS
 SMS
 SNS
 SRC
@@ -350,6 +373,9 @@ ShopFactory
 Shopify
 Shoptrader
 Shopware
+SmartPOS
+Smartpad
+SmartPad
 SnelKoppeling
 SnelStart
 Sodexo
@@ -403,13 +429,16 @@ Voordeel
 Vue
 Vuur
 WIP
+WIK
 WWFT
 WeChat
 Webshopgiftcard
 Wetboek
+Wi
 Wijn
 Wijncadeau
 Winkelcheque
+WLAN
 WooCommerce
 Wordpress
 Wwft
@@ -426,6 +455,7 @@ ZIPCODE
 ZV
 ZenCart
 ZilverCMS
+Zinia
 aangeleverd
 aanvragen
 abonnement
@@ -599,3 +629,5 @@ zoeken
 maskedId
 multisafepayRestore
 urls
+
+

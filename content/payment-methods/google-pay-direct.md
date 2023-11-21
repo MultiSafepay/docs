@@ -1,7 +1,7 @@
 ---
 title: "Google Pay direct integration"
 category: 6298bd782d1cf4006032e765
-order: 47
+order: 7
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'google-pay-direct'
@@ -292,6 +292,8 @@ From your server, [create an order](/reference/createorder/) > Wallet order. See
 
 For the `gateway_info.payment_token`, use `paymentData.paymentMethodData.tokenizationData.token`.
 
+For 3D Secure authentication, add `customer.browser` object in your request. See recipe - <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Customer browser</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 # 6. Redirect the customer
 
 In response to the API request you made in the previous step, you receive a `payment_url`.
@@ -304,7 +306,7 @@ document.location = payment_url
 
 Depending on how the customer's card is stored in their Google Pay account, the URL references your success page, or a 3D Secure authentication page.
 
-If the customer's credit card was stored as:
+If the customer's card was stored as:
 
 - **Token** (`CRYPTOGRAM_3DS`), the `payment_url` redirects to your success page.
 - **Card on file** (`PAN_ONLY`), the `payment_url` may redirect to a 3D Secure authentication page.

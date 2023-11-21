@@ -8,11 +8,11 @@ slug: 'pci-dss'
 excerpt: 'Payment Card Industry Data Security Standard'
 ---
 
-The PCI DSS is an information security standard mandated by major card schemes, which applies to organizations that handle branded credit cards. The standard is administered by the Payment Card Industry Security Standards Council.
+The PCI DSS is an information security standard mandated by major card schemes, which applies to organizations that handle branded cards. The standard is administered by the Payment Card Industry Security Standards Council.
 
-Under the PCI DSS, payment service providers and businesses that handle credit card data must follow extensive security protocols and data management practices to protect customers and merchants. 
+Under the PCI DSS, payment service providers and businesses that handle card data must follow extensive security protocols and data management practices to protect customers and merchants. 
 
-MultiSafepay is fully PCI DSS certified. This means you can accept credit card payments through MultiSafepay [payment pages](/docs/payment-pages/) even if you are not PCI compliant.
+Multisafepay is PCI DSS level 1 certified. This means you can accept card payments through MultiSafepay [payment pages](/docs/payment-pages/).
 
 # Required information 
 If you accept card payments, you must include the following information on your site:

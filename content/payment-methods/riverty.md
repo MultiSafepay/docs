@@ -1,7 +1,7 @@
 ---
 title: 'Riverty (AfterPay)'
 category: 6298bd782d1cf4006032e765
-order: 23
+order: 6
 hidden: false
 parentDoc: 62bd75142e264000a66d62b5
 slug: 'riverty'
@@ -11,11 +11,11 @@ slug: 'riverty'
 
 <a href="https://www.riverty.com/nl-nl/" target="_blank">Riverty</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (formerly AfterPay) is a widely used <<glossary:BNPL>> method in the Netherlands and Belgium. Riverty bears the risk and guarantees <<glossary:settlement>>.
 
-<!--Read how Riverty can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/afterpay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>-->
+Read how Riverty can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/riverty" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria, Belgium, Germany, Netherlands | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria, Belgium, Germany, Netherlands, Switzerland | 
 | [Currencies](/docs/currencies/)  | EUR  | 
 | [Chargebacks](/docs/chargebacks/) | No  |
 | [Discounts](/docs/discounts/) | Yes |
@@ -71,7 +71,7 @@ Riverty provides you with an API key per country and per site, and you must acce
 
   </details>
 
-- A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
+- A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 - Transactions expire after 90 days.
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout. 
 
@@ -149,7 +149,7 @@ When you ship the order, you **must** manually change the <<glossary:order statu
 
 If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/docs/our-integrations/) pass the updated status to your dashboard automatically:
 
-- Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
+- Lightspeed, Magento 2, and WooCommerce: When you set the order to **Shipped** in your backend.
 - Shopware 5: When you set the order to **Delivered** in your backend.
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.

@@ -1,7 +1,7 @@
 ---
 title: 'E-Invoicing'
 category: 6298bd782d1cf4006032e765
-order: 18
+order: 1
 hidden: false
 parentDoc: 62bd75142e264000a66d62b5
 slug: 'e-invoicing'
@@ -53,10 +53,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. To activate the payment method for:
-    - All sites, go to **Settings** > **Payment methods**.
-    - A specific site:
-      - Go to **Integrations** > **Sites**, and then click the relevant site.
-      - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
+- All sites, go to **Settings** > **Payment methods**.
+- A specific site, go to **Sites**, and then click the relevant site.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
@@ -452,7 +450,8 @@ For other ready-made integrations, make an [update order](/reference/updateorder
 
 You can choose whether or not to include a `shopping_cart` object in your [create order](/reference/createorder) request (we normally recommend this for BNPL orders).
 
-See Recipes – [Display shopping cart](/recipes/display-shopping-cart).
+See Recipes – <a href="https://docs.multisafepay.com/recipes/display-shopping-cart" target="_blank">Display shopping cart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 
 You can also then refund with or without the `shopping_cart`, but for simplicity we recommend matching the refund request to the original order request.
 

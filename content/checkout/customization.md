@@ -1,7 +1,7 @@
 ---
 title: 'Payment component customization'
 category: 62bd999547298d001abc714c
-order: 8
+order: 3
 hidden: false
 slug: 'payment-component-customization'
 parentDoc: 62a848399bb3eb004023f291
@@ -73,7 +73,7 @@ The payment component now looks like this:
 # Via the dashboard
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Integrations** > **Sites**, and then click the relevant site.
+2. Go to **Sites**, and then click the relevant site.
 3. On the **Site profile** page, under **Style your checkout solution**, for **Payment component** click **Edit**. 
 4. On the **Components settings** page, under **Preview - Default**, select whether you want to:
 - Apply the styling from another saved template.

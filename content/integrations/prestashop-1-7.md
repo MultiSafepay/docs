@@ -1,7 +1,7 @@
 ---
 title: "PrestaShop 1.7"
 category: 62962dd7e272a6002ebbbbc5
-order: 13
+order: 11
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -12,7 +12,7 @@ slug: 'prestashop-1-7'
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official/releases/download/5.10.1/Plugin_PrestaShop_5.10.1.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official/releases/download/5.11.2/Plugin_PrestaShop_5.11.2.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-official" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
@@ -27,7 +27,7 @@ slug: 'prestashop-1-7'
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- PrestaShop 1.7.6 and above or PrestaShop 8
+- PrestaShop 1.7.6 up to PrestaShop 8.1.x
 - PHP version 7.2 or higher
 
 # Installation
@@ -45,9 +45,21 @@ slug: 'prestashop-1-7'
 2. Go to **MultiSafepay**, and enter your [site API key](/docs/sites/#site-id-api-key-and-security-code).
 3. On the **Payment methods** tab, enable the relevant payment methods.
 4. Click **Save**.
+
+### Additional configuration steps
+
+After completing the configuration, enable specific countries to make the payment methods available.
+
+<details id="how-to-configure-countries">
+<summary>How to enable countries</summary>
 <br>
 
+1. Go to **Improve** > **Payment** > **Preferences** > **Country restrictions**.
+2. Select the checkbox to enable the relevant countries. 
+3. Click **Save**.
+
 ---
+</details>
 
 # User guide
 
@@ -160,7 +172,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 4. Set **Enable payment component** toggle to **Enabled**.
 5. Click **Save**.
 
-💬 Support: If you're new to accepting credit card payments, email a request to activate them to <risk@multisafepay.com>
+💬 Support: If you're new to accepting card payments, email a request to activate them to <risk@multisafepay.com>
 
 📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
@@ -230,7 +242,7 @@ The plugin supports [recurring payments](/docs/recurring-payments).
 
 1. Sign in to your PrestaShop 1.7 backend. 
 2. Go to **MultiSafepay** > **Payment methods** tab.  
-3. Select either the bundled credit cards <<glossary:gateway>>, **or** select specific credit cards. 
+3. Select either the bundled card payments <<glossary:gateway>>, **or** select specific card. 
 4. Set the **Enable tokenization** toggle to **Enabled**.
 5. Click **Save**.
 
@@ -349,7 +361,7 @@ If upgrading from 5.x to a newer version, see [Updates](/docs/prestashop-1-7#upd
 
 [block:html]
 {
-  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: create a technical issue</li>\n  </ul>  \n</blockquote>"
+  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: <a href=\"https://github.com/MultiSafepay/prestashop-official/issues\" target=\"_blank\"> create a technical issue</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
 

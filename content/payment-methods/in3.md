@@ -1,7 +1,7 @@
 ---
 title: 'in3'
 category: 6298bd782d1cf4006032e765
-order: 19
+order: 2
 hidden: false
 parentDoc: 62bd75142e264000a66d62b5
 slug: 'in3'
@@ -56,10 +56,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
    We check your eligibility and if approved, activate the payment method for your account. 
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. To activate the payment method for:
-    - All sites, go to **Settings** > **Payment methods**.
-    - A specific site:
-      - Go to **Integrations** > **Sites**, and then click the relevant site.
-      - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
+- All sites, go to **Settings** > **Payment methods**.
+- A specific site, go to **Sites**, and then click the relevant site.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
@@ -79,7 +77,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   </details>
 
-- A `shopping_cart` object is required for all BNPL orders. See Recipes – [Include shopping_cart in order](/recipes/include-shopping_cart-in-order).
+- A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 - Transactions expire after 2 hours.
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
 

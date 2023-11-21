@@ -1,7 +1,7 @@
 ---
 title: 'Payment pages'
 category: 62bd999547298d001abc714c
-order: 10
+order: 3
 hidden: false
 slug: 'payment-pages'
 ---
@@ -13,7 +13,7 @@ They are completely secure, [Fuhrmann-2 compliant](/docs/fuhrmann2/), fully mobi
 
 A customer selects a payment method at checkout, and is redirected to a secure page to complete payment with a URL starting with `payv2.multisafepay.com`.
 
-If you specify a payment method <<glossary:gateway>>, the page is tailored for that payment method. For example, for Visa, the page includes fields for the customer to enter their credit card details.  
+If you specify a payment method <<glossary:gateway>>, the page is tailored for that payment method. For example, for Visa, the page includes fields for the customer to enter their card details.  
 
 If you don't specify a gateway, all payment methods enabled in your account appear on the payment page.
 
@@ -28,7 +28,7 @@ Payment pages are automatically activated when you [add a site](/docs/sites/) to
 
 # Integration 
 
-See Recipes – [Create a payment page](/recipes/create-a-payment-pagelink).
+See Recipes – <a href="https://docs.multisafepay.com/recipes/create-a-payment-pagelink" target="_blank">Create a payment page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 <details id="known-errors">
 <summary>Known errors</summary>
@@ -207,7 +207,7 @@ We recommend styling payment pages to be consistent with the look and feel of yo
 ### Via the dashboard
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Integrations** > **Sites**, and then click the relevant site.
+2. Go to **Sites**, and then click the relevant site.
 3. On the **Site profile** page, under **Functionality**, click **Edit template**. 
 4. On the **Payment page styling** page, under **Configure page style**:  
 
@@ -313,7 +313,7 @@ You can dynamically style the payment page for specific order requests via our A
 
 See:
 - API reference – [Create order](/reference/createorder/) > Payment page/link > `payment_options` object
-- Recipes – [Style the payment page](/recipes/style-the-payment-page)
+- Recipes – <a href="https://docs.multisafepay.com/recipes/style-the-payment-page" target="_blank">Style the payment page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 The `items` parameter is an HTML string for displaying order items on the payment page, instead of including a `shopping_cart`. 
 

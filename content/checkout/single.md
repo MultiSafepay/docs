@@ -1,7 +1,7 @@
 ---
 title: "Single payment method"
 category: 62bd999547298d001abc714c
-order: 5
+order: 1
 hidden: false
 slug: 'payment-component-single'
 parentDoc: 62a848399bb3eb004023f291 
@@ -36,50 +36,42 @@ Add the following elements to your checkout page:
 
   Payment Components require a MultiSafepay API token. See API reference – [Generate an API token](/reference/generateapitoken/).
 
-  ✅ &nbsp; **Tip!** To keep your API key private, request the token from your own server.  
+  ✅   **Tip!** To keep your API key private, request the token from your own server.  
 
 ## Construct the component object
 
 1. Initialize an `orderData` object, containing information about the customer's <<glossary:order>> collected during the checkout process:
 
-    ```javascript
-    const orderData = {
-        currency: 'EUR',
-        amount: 10000,
-        customer: {
-            locale: 'de_De',
-            country: 'de',
-            reference: 's9Q8ikjFJBCX'
-        },
-        template : {
-            settings: {
-                embed_mode: true
-            }
-        }
-    };
-    ```
+   ```javascript
+   const orderData = {
+       currency: 'EUR',
+       amount: 10000,
+       customer: {
+           locale: 'de_De',
+           country: 'de'
+       }
+   };
+   ```
 
-    <details id="properties">
-    <summary>Properties</summary>
-    <br>
+   <details id="properties">
+   <summary>Properties</summary>
+   <br>
 
-    | Key | Required | Value |
-    |---|---|---|
-    | amount | Yes | The value of the order. <br> Format: Number without decimal points, e.g. 100 euro is formatted as `10000` |
-    | currency | Yes | The currency of the order. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `EUR` |
-    | customer.country | No | The customer's country code. Checks the availability of the payment method. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL` |
-    | customer.locale | No | The customer's language. Sets the language of the payment component UI. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO 639 language codes</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO 3166 country codes.</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> Supported languages: `en_EN`, `es_ES`, `fr_FR`, `it_IT`, `nl_NL` |
-    | customer.reference | Yes, for recurring payments | Your unique customer reference. |
-    | recurring.model | Yes, for recurring payments | The [tokenization model](/docs/recurring-payments/). |
-    | template.settings.embed_mode | No | A template designed to blend in seamlessly with your ecommerce platform. <br> Format: Boolean |
-    <br>
+   | Key                            | Required                    | Value    |
+   | ------------ | ------------ | ------------- |
+   | `amount`                       | Yes  | The value of the order. <br> Format: Number without decimal points, e.g. 100 euro is formatted as `10000`                                                                                                                                                                                                                                                                      |
+   | `currency`                     | Yes                         | The currency of the order. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `EUR`                                                                                                                                                                                                                                                                                                         |
+   | `customer.country`             | No                          | The customer's country code. Checks the availability of the payment method. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL`                                                                                                                                                                                                                                     |
+   | `customer.locale`              | No                          | The customer's language. Sets the language of the payment component UI. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO 639 language codes</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO 3166 country codes.</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> Supported languages: `en_EN`, `es_ES`, `fr_FR`, `it_IT`, `nl_NL` |
+   | `recurring.model`              | Yes, for recurring payments | The [tokenization model](/docs/recurring-payments/).             |
+                                                                                                                                            
+   <br>
 
-    </details>
+   </details>
 
     <details id="how-to-process-recurring-payments">
     <summary>How to process recurring payments</summary>
     <br>
-
     [Recurring payments](/docs/recurring-payments/) lets you store a customer’s payment details as a secure, encrypted token.
 
     For subsequent payments, customers can select their stored payment details and pay with a single click.
@@ -87,114 +79,143 @@ Add the following elements to your checkout page:
     To process recurring payments in your payment component:
 
     - Add the `cardOnFile` recurring model
-    - Provide the relevant `customer.reference`
-
-        ```javascript
-        const orderData = {
-            currency: 'EUR',
-            amount: 10000,
-            customer: {
-                locale: 'en',
-                country: 'NL',
-                reference: 'Customer123'
-            },
-            recurring: {
-                model: 'cardOnFile'
-            }
-        };
-        ```
+    - Make [List tokens](/reference/listtokens) request from your server and provide a`tokens` 
+    <br>
+    ```JavaScript
+    const orderData = {
+        currency: 'EUR',
+        amount: 10000,
+        customer: {
+            locale: 'en',
+            country: 'NL'
+        },
+    template : {
+        settings: {
+            embed_mode: true
+        }
+    }
+    };
+      
+    const recurringData = {
+    "model": "cardOnFile",
+    "tokens": [
+        {
+            "token": "AvqeOjgdm8A",
+            "code": "IDEAL",
+            "display": "xxxxxxxxxNL81PSTB0000012345",
+            "bin": null,
+            "name_holder": "Schilder",
+            "expiry_date": "",
+            "expired": 0,
+            "last4": null,
+            "model": "cardOnFile"
+        },
+        {
+            "token": "BcEWsknWsYg",
+            "code": "MASTERCARD",
+            "display": "Card xxxx xxxx xxxx 4444",
+            "bin": 555555,
+            "name_holder": "Holder",
+            "expiry_date": 2412,
+            "expired": 0,
+            "last4": 4444,
+            "model": "cardOnFile"
+        }]};
+    ```
 
     > ✅ Success
     > 
-    > Your payment component now automatically renders a checkbox where customers can choose whether they would like to store their cardholder data for future visits. 
+    > Your payment component now automatically renders a checkbox where customers can choose whether they would like to store their cardholder data for future visits.
 
-    Recurring payments are supported for all credit card payments.
+    Recurring payments are supported for all card payments.
 
-    📘 **Note:** For test credit card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
+    📘 **Note:** To test card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
 
-    To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email <sales@multisafepay.com>
+    To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
-    ---
-    
+    ***
+
     </details>
 
-    📘 **Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and order amount are supported. 
+📘 **Note:** We use the `orderData` object to ensure the payment method is enabled, and the currency, country, and order amount are supported. 
 
-2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
+2. Construct a `PaymentComponent` object in the `test` environment using the `order` object and your API token:
 
-    ```javascript
-    PaymentComponent = new MultiSafepay({
-        env: 'test',
-        apiToken: apiToken,
-        order: orderData
-    });
-    ```
+```javascript
+const PaymentComponent = new MultiSafepay({
+	order: orderData,
+	recurring: recurringData
+});
+```
+
+📘 **Note:** To use recurring payments in your payment components, initialize the component using the `recurring` object.
 
 ## Initialize the component
 
 1. Call the `PaymentComponent.init()` method with the following arguments:
-    ```javascript
-    PaymentComponent.init('payment', {
-        container: '#MultiSafepayPayment',
-        gateway: '<GATEWAY>',
-        onLoad: state => {
-            console.log('onLoad', state);
-        },
-        onError: state => {
-            console.log('onError', state);
-        }
-    });
-    ```
+   ```javascript
+   PaymentComponent.init('payment', {
+       container: '#MultiSafepayPayment',
+       gateway: '<GATEWAY>',
+       onLoad: state => {
+           console.log('onLoad', state);
+       },
+       onError: state => {
+           console.log('onError', state);
+       }
+   });
+   ```
+
 2. Replace the `<GATEWAY>` placeholder with the relevant payment gateway identifier.
 
-    <details id="gateway-ids">
-    <summary>Gateway IDs</summary>
-    <br>
+   <details id="gateway-ids">
+   <summary>Gateway IDs</summary>
+   <br>
 
-    | Payment method | Gateway ID |
-    |---|---|
-    | Bank transfer | `BANKTRANS` |
-    | Bancontact | `MISTERCASH` |
-    | Betaal per maand | `SANTANDER` |
-    | Credit cards |`CREDITCARD`|
-    | Direct debit | `DIRDEB` |
-    | iDEAL|`IDEAL`|
-    | In3 | `IN3`
-    | PayPal | `PAYPAL` |
-    | Sofort | `DIRECTBANK` |
+   | Payment method   | Gateway ID   |
+   | ---------------- | ------------ |
+   | Bank transfer    | `BANKTRANS`  |
+   | Bancontact       | `MISTERCASH` |
+   | Betaal per maand | `SANTANDER`  |
+   | Card payments    | `CREDITCARD` |
+   | Direct debit     | `DIRDEB`     |
+   | iDEAL            | `IDEAL`      |
+   | In3              | `IN3`        |
+   | PayPal           | `PAYPAL`     |
+   | Sofort           | `DIRECTBANK` |
 
-    </details>
+   </details>
 
 3. Create event handlers for the following events:
 
-    <details id="events">
-    <summary>Events</summary>
-    <br>
+   <details id="events">
+   <summary>Events</summary>
+   <br>
 
-    | Event | Event handler |
-    |---|---|
-    |`onError`| Called when an error occurs in the payment component. |
-    |`onLoad`| Called when the payment component UI is rendered. |
-    |`onSelect`| Occurs when the customer selects an <<glossary:issuer>> with iDEAL. |
-    |`onSubmit`| Occurs when the customer clicks the payment button (when using the button generated by the component). |
-    |`onValidation`| Occurs when form validation changes. Can be used to disable the payment button until all fields are validated. |
+   | Event          | Event handler                                                                                                  |
+   | -------------- | -------------------------------------------------------------------------------------------------------------- |
+   | `onError`      | Called when an error occurs in the payment component.                                                          |
+   | `onLoad`       | Called when the payment component UI is rendered.                                                              |
+   | `onSelect`     | Occurs when the customer selects an <<glossary:issuer>> with iDEAL.                                            |
+   | `onSubmit`     | Occurs when the customer clicks the payment button (when using the button generated by the component).         |
+   | `onValidation` | Occurs when form validation changes. Can be used to disable the payment button until all fields are validated. |
 
-    </details>
+   </details>
 
-    **Note:** The `PaymentComponent` uses the following methods:
+   **Note:** The `PaymentComponent` uses the following methods:
 
-    <details id="methods">
-    <summary>Methods</summary>
-    <br>
+   <details id="methods">
+   <summary>Methods</summary>
+   <br>
 
-    | Method | Description |
-    | ---- | ---- |
-    |`getErrors`| Returns error details, e.g. error messages or codes|
-    |`hasErrors`| Returns a boolean value depending on whether errors have been registered |
-    |`getPaymentData`| Returns a `payment_data` object containing the `gateway`, and a `payload` containing the customer's payment details, used to [create orders](/docs/payment-component-single#3-create-an-order).|
-    |`getOrderData`| Returns an object containing a `payment_data` object and the full order configuration. |
+   | Method           | Description      |
+   | ---------------- | ---------------------|
+   | `getErrors`      | Returns error details, e.g. error messages or codes                                                                                                                                             |
+   | `hasErrors`      | Returns a boolean value depending on whether errors have been registered                                                                                                                        |
+   | `getPaymentData` | Returns a `payment_data` object containing the `gateway`, and a `payload` containing the customer's payment details, used to [create orders](/docs/payment-component-single#3-create-an-order). |
+   | `getOrderData`   | Returns an object containing a `payment_data` object and the full order configuration.                                                                                                          |
 
-    </details>
+   </details>
 
 # 3. Create an order
 
@@ -202,16 +223,43 @@ Add the following elements to your checkout page:
 
 1. Assign the button element to a variable:
 
-    ```javascript
-    PaymentComponent.getPaymentData()
-    ```
+   ```javascript
+   PaymentComponent.getPaymentData()
+   ```
+
+The `payment_data` includes the following parameters:
+
+```JSON
+  {
+    "payment_data": {
+    "gateway": "CREDITCARD",
+    "payload": "xxxxxxxx",
+    "tokenize": true
+  }};
+```
+
+<details id="properties">
+   <summary>Parameters</summary>
+   <br>
+
+| Key        | Required | Description|
+| ---------- | :------- | ------|
+| `gateway`  | Yes      | The unique `gateway_id` to redirect the customer to the specific payment method.                                                                                                                            |
+| `payload`  | Yes      | Information required to process the payment.<br> **Note:** Do not edit or modify the `payload` or otherwise the payment fails.                                                                              |
+| `tokenize` | Optional | For [recurring payments](/docs/recurring-payments).<br> If a customer selects to either save their cardholder data for future visits or use an existing token, a`payment_data.tokenize` parameter is added. |
+
+<br>
+
+**Note:** When `payment_data.tokenize` is set to `true`you need to append `customer.reference` to the order data.
+
+</details>
+
 
 2. Create an event handler for the payment button to:
 
-    - When the customer clicks the payment button, call the component's `getPaymentData()` method.
-    - Send the response to your server and [create an order](#create-an-order).
-    - Return the reponse from your server to the client-side to redirect the customer.
-    <br>
+- When the customer clicks the payment button, call the component's `getPaymentData()` method.
+- Send the response to your server and [create an order](#create-an-order).
+- Return the response from your server to the client side to redirect the customer.
 
 ### Redirect the customer
 

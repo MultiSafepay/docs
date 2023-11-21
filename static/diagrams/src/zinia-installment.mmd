@@ -1,0 +1,25 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Me as Merchant
+    participant Mu as MultiSafepay
+    participant Zi as Zinia
+    C->>Me: Selects Zinia at checkout
+    Me->>Mu: Creates order <br> (direct and redirect flow supported)
+     Note over Zi: Performs risk assessment 
+        alt Zinia declines the order 
+    Zi->>Mu: Advises that order was declined
+    Mu->>Me: Advises that order was declined
+    Me->C: Advises that order was declined
+ 
+    end
+        Zi->>Mu: Authorizes the payment
+    C->>Zi: Pays installment 1 within 15 minutes
+    Me->>C: Ships order fully or partially
+     Note over Me: Manually changes the order status to Shipped.
+    Zi->>Mu: Transfers funds
+    Mu->>Me: Settles funds
+    C->>Zi: Pays installment 2 within 30 days 
+    C->>Zi: Pays installment 3 within 60 days 
+   
+    

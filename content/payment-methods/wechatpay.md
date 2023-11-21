@@ -1,7 +1,7 @@
 ---
 title: 'WeChat Pay'
 category: 6298bd782d1cf4006032e765
-order: 50
+order: 10
 hidden: false
 parentDoc: 62a6ec51d7a8100053916d99
 slug: 'wechat-pay'
@@ -9,7 +9,7 @@ slug: 'wechat-pay'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/wechatpay.svg" width="110" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a href="https://pay.weixin.qq.com/index.php/public/wechatpay" target="_blank">WeChat Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a leading global payment method that lets Chinese customers link their credit card or bank account to a digital wallet. It supports online and QR payments for **B2C only** (B2B is **not** supported).
+<a href="https://pay.weixin.qq.com/index.php/public/wechatpay" target="_blank">WeChat Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a leading global payment method that lets Chinese customers link their card or bank account to a digital wallet. It supports online and QR payments for **B2C only** (B2B is **not** supported).
 
 Read how WeChat Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/wechat-pay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
@@ -50,10 +50,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 2. We check your eligibility and if approved, activate the payment method for your account. 
 3. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 4. To activate the payment method for:
-    - All sites, go to **Settings** > **Payment methods**.
-    - A specific site:
-      - Go to **Integrations** > **Sites**, and then click the relevant site.
-      - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
+- All sites, go to **Settings** > **Payment methods**.
+- A specific site, go to **Sites**, and then click the relevant site.
 5. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>

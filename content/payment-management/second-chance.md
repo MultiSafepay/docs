@@ -33,13 +33,14 @@ Second Chance emails are **not** sent:
 # Activation
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Integrations** > **Sites**, and then click the relevant site.
+2. Go to **Sites**, and then click the relevant site.
 3. On the **Site profile** page, under **Site functionality**, select the **Enable Second Chance** checkbox.
 4. Click **Save**.
 
 # Integration
 
-To integrate, see Recipes – [Send payment reminders](/recipes/send-payment-reminders).
+To integrate, see Recipes – <a href="https://docs.multisafepay.com/recipes/send-payment-reminders" target="_blank">Send payment reminders</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 <br>
 
 ---
@@ -145,7 +146,6 @@ This only applies to certain payment methods:
 | Banking methods, except direct debits | Direct debits |
 | Gift cards | Edenred, Paysafecard |
 | Wallets | PayPal – Links are valid for 14 days. The lifetime is set by PayPal. |
-| Credit cards |  |
 
 </details>
 

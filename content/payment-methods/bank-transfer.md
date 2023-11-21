@@ -48,10 +48,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. To activate the payment method for:
-    - All sites, go to **Settings** > **Payment methods**.
-    - A specific site:
-      - Go to **Integrations** > **Sites**, and then click the relevant site.
-      - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
+- All sites, go to **Settings** > **Payment methods**.
+- A specific site, go to **Sites**, and then click the relevant site.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
@@ -193,10 +191,10 @@ We then try to match the payment manually. If that fails:
 
 ### Resolving unmatched payments
 
-To create the transaction again, check if a [payment link](/docs/payment-links/) was created: 
+To resolve unmatched payments, check if a [transaction](/docs/payment-links#integration) was created: 
 
-<details id="payment-link-created">
-<summary>Payment link created</summary>
+<details id="transaction-created">
+<summary>Transaction created</summary>
 <br>
 
 1. Click the link to open the payment page. 
@@ -208,11 +206,11 @@ To create the transaction again, check if a [payment link](/docs/payment-links/)
 
 </details>
 
-<details id="payment-link-not-created">
-<summary>Payment link not created</summary>
+<details id="transaction -not-created">
+<summary>Transaction not created</summary>
 <br>
 
-1. [Generate a link manually](/docs/payment-links/). 
+1. [Generate a link manually](/docs/payment-links/#integration). 
 2. Include in the description the customer's name and the order number (for your records). 
 3. Click **Bank transfer**.
 4. Add the customer's bank account number (if known) to help us match the payment.

@@ -1,7 +1,7 @@
 ---
 title: "WooCommerce"
 category: 62962dd7e272a6002ebbbbc5
-order: 21
+order: 20
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -11,7 +11,7 @@ slug: 'woocommerce'
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/woocommerce/releases/download/5.2.2/Plugin_WooCommerce_5.2.2.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://wordpress.org/plugins/multisafepay/" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/WooCommerce" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
@@ -36,7 +36,7 @@ There are two ways to install the plugin:
 1. Sign in to your WooCommerce backend.
 2. Go to **Plugins** > **Add new**.
 3. Search for **MultiSafepay**.
-4. For the **MultiSafepay plugin for WooCommerce**, click **Install now**.
+4. For the **MultiSafepay plugin for WooCommerce**, click **Install now** > **Activate**.
 
 **Manual installation**
 
@@ -59,29 +59,6 @@ There are two ways to install the plugin:
 ---
 
 # User guide
-
-## Generic gateways
-
-The plugin supports generic gateways, which allows you to add a payment method manually. This is particularly useful for integrating gift cards specific to your business. 
-
-Supported since release: 4.5.0, March 31 2021.
-
-<details id="how-to-configure-generic-gateways">
-<summary>How to configure generic gateways</summary>
-<br>
-
-1. Sign in to your backend.
-2. Go to **Settings** > **Payments** tab > **Generic gateway**.
-3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/), and the gateway logo and label.
-4. For <<glossary:BNPL>> orders, include the shopping cart in refunds.
-
-You can:
-
-- Filter the generic gateway by country, and minimum and maximum amount.
-- Set a custom initial <<glossary:order status>>.
-- Process full and partial refunds (except for <<glossary:BNPL>> orders), and backend orders.
-
-</details>
 
 ## Languages
 
@@ -204,10 +181,10 @@ The plugin supports [payment components](/docs/payment-components/), which:
 1. Sign in to your Wordpress backend.
 2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** > 
 3. Select the relevant payment methods, and click **Manage**.
-4. Select the checkbox for the **Payment components**.
+4. In the **Payment Type** field, select **Payment component**.
 5. Click **Save changes**.
 
-💬 Support: If you're new to accepting credit card payments, email a request to activate them to <risk@multisafepay.com>
+💬 Support: If you're new to accepting card payments, email a request to activate them to <risk@multisafepay.com>
 
 📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
@@ -232,11 +209,13 @@ To generate a payment link in your backend once an order is created, follow thes
 
 ## Payment methods
 
+By default, activated payment methods from your MultiSafepay account appear on the payment method list.
+
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: [All](/docs/card-payments/) (The credit card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
+- Cards: [All](/docs/card-payments/) (The card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
 - Banking methods: All, except TrustPay
 - <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [Google Pay](/docs/google-pay/), [PayPal](/docs/paypal/)
@@ -274,9 +253,10 @@ You need to [activate recurring payments](/docs/recurring-payments/) and then en
 
 1. Sign in to your Wordpress backend.
 2. Go to **WooCommerce** > **MultiSafepay settings** > **Payment methods** 
-3. Select relevant credit cards, and then click **Manage**.
-4. Select the checkbox for **Payment components** and **Tokezation**.
-5. Click **Save changes**.
+3. Select relevant card payments, and then click **Manage**.
+4. In the **Payment Type** field, select **Payment component**.
+5. In the **Recurring payments** filed, select **Enabled**.
+6. Click **Save changes**.
 
 📘 **Note:** To activate recurring payments, ensure that the Payment component is enabled.
 
@@ -331,7 +311,7 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 
 [block:html]
 {
-  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: create a technical issue</li>\n  </ul>  \n</blockquote>"
+  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: <a href=\"https://github.com/MultiSafepay/woocommerce/issues\" target=\"_blank\"> create a technical issue</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
 

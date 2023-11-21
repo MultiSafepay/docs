@@ -1,7 +1,7 @@
 ---
 title: "VirtueMart 4"
 category: 62962dd7e272a6002ebbbbc5
-order: 19
+order: 18
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -11,11 +11,11 @@ slug: 'virtuemart-4'
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/virtuemart-4/releases/download/1.0.2/Plugin_VirtueMart-4_1.0.2.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/virtuemart-4/releases/download/2.0.1/Plugin_VirtueMart-4_2.0.1.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/virtuemart-4" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/virtuemart-4/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/virtuemart-4/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
 
 </div>
 
@@ -100,25 +100,19 @@ You cannot refund more than the original amount in your dashboard.
 
 ## Updates
 
-You can update the plugin in your backend and the CMS marketplace, via SFTP.
-
-<details id="how-to-update-in-your-backend">
-<summary>How to update in your backend</summary>
-<br>
+You can update the plugin in your backend as described below:
 
 ✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.
-
-</details>
 <br>
 
 ---
 
 [block:html]
 {
-  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: create a technical issue</li>\n  </ul>  \n</blockquote>"
+  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n    <li>GitHub: <a href=\"https://github.com/MultiSafepay/virtuemart-4/issues\" target=\"_blank\"> create a technical issue</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
 
