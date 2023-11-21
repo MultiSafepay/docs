@@ -31,13 +31,13 @@ The table below sets out possible order and transaction statuses and what they c
 | Description | Order status | Transaction status |
 |---|---|---|
 | The customer has initiated a transaction. | Initialized | Initialized |
-| MultiSafepay has collected payment. | Completed | Completed |
+| The customer has successfully completed the transaction. | Completed | Completed |
 | The transaction has been cancelled. | Void | Cancelled |
 | The customer has requested a chargeback. | Void | Void |
 | The customer didn't complete payment and the transaction expired. <br> Transaction expiry times vary per payment method. | Expired | Expired |
 | The <<glossary:issuer>> or <<glossary:acquirer>> has declined the transaction. <br> See also [Card errors](/docs/card-errors/). | Declined | Declined |
 | Manually [capture or decline the transaction](/docs/uncleared/). | Uncleared | Uncleared |
-| Manually change the order status to shipped. | Shipped | Uncleared |
+| The order has been shipped and the funds are still pending. | Shipped | Uncleared |
 
 # Refund and chargeback statuses
 
