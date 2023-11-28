@@ -62,11 +62,7 @@ You can't test the following methods in your MultiSafepay test account. You can 
 - Request to Pay
 - TrustPay
 
-<br>
-
 </details>
-
----
 
 ## PSP ID
 
@@ -83,7 +79,8 @@ Testing this new format is possible on both our TEST and LIVE environment:
 - Review if your reconciliation and accounting process supports this longer ID.
 
 
----
+***
+
 ## Banking methods
 
 <details id="bancontact">
