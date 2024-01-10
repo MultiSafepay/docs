@@ -12,6 +12,7 @@ slug: 'smartpos-solutions'
 > We are currently in the pilot phase for this product in the following countries:
 > 
 > - Netherlands
+> - Belgium
 > 
 > Please note that in this stage, you cannot request terminals yet to use POS services.  
 > If you are interested in participating in the next stage of our pilot, email <sales@multisafepay.com>
