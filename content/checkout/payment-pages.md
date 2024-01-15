@@ -105,7 +105,11 @@ Payment pages support the following languages:
 
 You can also localize payment pages to automatically filter out payment methods that are not available in the customer's country, and to display local variants. 
 
-See API reference > [Create order](/reference/createorder) > `customer` object > `locale` parameter.
+The first parameter taken into account is the `country` parameter. Secondly, `locale` is checked.
+If `country`is not sent, the decision is based on `locale`.
+
+
+See API reference > [Create order](/reference/createorder) > `customer` object > `country` and `locale` parameters.
 
 <details id="locale-codes">
 <summary>Locale codes per language and country</summary>
