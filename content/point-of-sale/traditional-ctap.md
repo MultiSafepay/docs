@@ -32,14 +32,15 @@ Traditional (CTAP) is a terminal that has passed <a href="https://wp.acquiris.eu
 
 1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Devices** > **Terminals**.
-3. Select **Add Traditional (CTAP)**.
-4. On the **New Traditional (CTAP)** tab >  select **Add new group**.
-5. Fill out the following fields:
-- **New group name**.
-- **Terminal name**.
-- In the **MCC** field, click the **drop-down**  icon and then select the relevant MCC code.
-6. Select **Create**.
+3. Click **Add terminal**.
+4. Below the **<<glossary:group>> name**, click **Add new group**, or select a previously created group.
+5. For a new group, out the following fields:
+- **New group name**.  
+- **Webhook URL** (optional).
+- In the **Business category** field, click the **drop-down** icon and specify the relevant service or product offered. If a category has been assigned to your account in the past, it will be displayed automatically. 
+6. Select Terminal type **CTAP** and, if applicable, insert your TID. Otherwise, a unique Terminal ID will be automatically generated.
 7. Copy **Terminal ID**, **Account ID**, and **CTAP Acquirer** and send them to your POS provider.
+**Tip**: As long as the terminal is not bound, the TID and name can be changed via the "Edit" icon.
 8. After your POS provider has set up your terminal, the activation is completed.
 9. Terminal manufacturer and serial number are now displayed in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
