@@ -88,10 +88,6 @@ To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – <a 
 
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Exact.svg" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
-<br>
-
-
 
 # King Business Software
 
