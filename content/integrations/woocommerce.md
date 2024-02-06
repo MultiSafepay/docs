@@ -134,8 +134,8 @@ First, read the following:
 Example of how to implement and overwrite the shopping cart: 
 
 ``` javascript
-add_filter('multisafepay_order_request', 'return_my_multisafepay_order_request');
-function return_my_own_locale( \MultiSafepay\Api\Transactions\OrderRequest $order_request) {
+add_filter( 'multisafepay_order_request', 'return_my_multisafepay_order_request' );
+function return_my_multisafepay_order_request( \MultiSafepay\Api\Transactions\OrderRequest $order_request ) {
     // Your conditions and logic to return a valid order request
     // Register a CartItem
     $shopping_cart_items = array();
