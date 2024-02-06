@@ -27,7 +27,7 @@ slug: 'opencart-4'
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - OpenCart 4.0.1.1 or lower
-- PHP version 8.0, 8.1
+- PHP versions supported: 8.0, 8.1
 
 # Installation
 
