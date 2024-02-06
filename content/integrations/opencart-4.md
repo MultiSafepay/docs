@@ -26,8 +26,8 @@ slug: 'opencart-4'
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- OpenCart 4.0.1.x
-- PHP version 8.0, 8.1
+- OpenCart 4.0.1.1 or lower
+- PHP versions supported: 8.0, 8.1
 
 # Installation
 
