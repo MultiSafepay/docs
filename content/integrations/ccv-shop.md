@@ -22,7 +22,7 @@ Release date: Feb. 26th, 2024
 - Endpoints for CCV Shop app installation: Handshake, Install, Uninstall.
 - Localization for Install view based on `language` query variable (Dutch, English, German and French).
 - Payment Service Provider (PSP) configuration based on MultiSafepay merchant data: API key, selected payment methods.
-- Ability to update PSP's payment methods during CCV Shop app installation edit.
+- Ability to update payment methods during CCV Shop app installation edit.
 - Scheduled monitoring and updating of PSP's payment methods.
 - Endpoints for CCV Shop transactions creation and updating.
 - Possibility to enable/disable refunds while installing CCV Shop app/editing CCV Shop app installation.
