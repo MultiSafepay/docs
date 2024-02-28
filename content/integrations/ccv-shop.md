@@ -23,7 +23,7 @@ Release date: Feb. 26th, 2024
 - Localization for Install view based on `language` query variable (Dutch, English, German and French).
 - Payment Service Provider (PSP) configuration based on MultiSafepay merchant data: API key, selected payment methods.
 - Ability to update payment methods during CCV Shop app installation edit.
-- Scheduled monitoring and updating of PSP's payment methods.
+- Scheduled monitoring and updating of the payment methods.
 - Endpoints for CCV Shop transactions creation and updating.
 - Possibility to enable/disable refunds while installing CCV Shop app/editing CCV Shop app installation.
 - Support for CCV Shop webhook events: `invoices.updated.status`, `orders.deleted`, `orders.updated.status`, `orders.updated.trackandtrace`.
