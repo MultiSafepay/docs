@@ -1,7 +1,7 @@
 ---
 title: "myShop"
 category: 62962dd7e272a6002ebbbbc5
-order: 4
+order: 3
 hidden: false
 parentDoc: 62a9a54aba9800011a8bda88
 slug: 'myshop'
