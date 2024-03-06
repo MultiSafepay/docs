@@ -79,6 +79,7 @@ You can process full refunds for all payment methods, from your MultiSafepay das
 <summary>Refund rules</summary>
 <br>
 To process backend refunds:
+
 - In the configuration of the MultiSafepay app, **Automatic refunds** needs to be enabled.
 - To process a refund, the invoice status must be **Paid**.
 - The refund amount cannot exceed the original transaction amount.
