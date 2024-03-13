@@ -38,18 +38,16 @@ slug: 'shopware-5'
 6. In the **API key** field, enter your [API key](/docs/sites#site-id-api-key-and-security-code).
 7. Fill out the other fields as required.
 8. Go to **Configuration** and select the required payment methods.
-
+<br>
 ---
 
-## Enabling and disabling payment methods
+## User guide
+
+### Enabling and disabling payment methods
 
 Once the plugin is initially installed, reinstalling becomes necessary to manage the listing or delisting of enabled and disabled payment methods.
 
 Please follow the first four steps described in the installation and configuration process, then proceed to the fifth one, where you will find the **Reinstall** icon for clicking.
-
----
-
-## User guide
 
 ### Backend orders
 
@@ -58,30 +56,6 @@ To create backend orders in the MultiSafepay Shopware 5 plugin, Shopware uses a 
 See shopwareLabs GitHub – <a href="https://github.com/shopwareLabs/SwagBackendOrder" target="_blank">SwagBackendOrder</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 We support V2.x versions.
-
-### Generic gateways
-
-The plugin supports generic gateways, which allows you to add a payment method manually. This is particularly useful for integrating gift cards specific to your business. 
-
-Supported since releases:
-- 2.3.0, March 24, 2021
-- 2.6.0, December 7, 2020
-
-<details id="how-to-configure-generic-gateways">
-<summary>How to configure generic gateways</summary>
-<br>
-
-1. Sign in to your Shopware 5 backend.
-2. Go to **MultiSafepay settings**.
-3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/).
-4. Upload a custom gateway image, if relevant.
-5. For <<glossary:BNPL>> orders, specify whether to include a shopping cart.
-
-For support, email <integration@multisafepay.com>
-
-You can filter generic gateways by country, and minimum and maximum amount.
-
-</details>
 
 ## Order flows
 
