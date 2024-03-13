@@ -23,8 +23,8 @@ slug: 'shopware-5'
 ## Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Shopware 5.6.x or 5.5.7 and above.
-- Tested on PHP 7.0
+- Shopware 5.6.x and 5.7.x.
+- Tested on Shopware 5.7.11 and PHP 8.0
 
 ## Installation and configuration
 
@@ -38,7 +38,14 @@ slug: 'shopware-5'
 6. In the **API key** field, enter your [API key](/docs/sites#site-id-api-key-and-security-code).
 7. Fill out the other fields as required.
 8. Go to **Configuration** and select the required payment methods.
-<br>
+
+---
+
+## Enabling and disabling payment methods
+
+Once the plugin is initially installed, reinstalling becomes necessary to manage the listing or delisting of enabled and disabled payment methods.
+
+Please follow the first four steps described in the installation and configuration process, then proceed to the fifth one, where you will find the **Reinstall** icon for clicking.
 
 ---
 
@@ -115,6 +122,8 @@ To change the flow you are using, follow these steps:
 
 
 ### Payment methods
+
+By default, activated payment methods from your MultiSafepay account appear on the payment method list.
 
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>
