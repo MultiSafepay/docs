@@ -1,7 +1,7 @@
 ---
 title: "Shopware 5"
 category: 62962dd7e272a6002ebbbbc5
-order: 15
+order: 16
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manuals for MultiSafepay's free plugins."
@@ -23,8 +23,8 @@ slug: 'shopware-5'
 ## Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Shopware 5.6.x or 5.5.7 and above.
-- Tested on PHP 7.0
+- Shopware 5.6.x and 5.7.x.
+- Tested on Shopware 5.7.11 and PHP 8.0
 
 ## Installation and configuration
 
@@ -39,10 +39,15 @@ slug: 'shopware-5'
 7. Fill out the other fields as required.
 8. Go to **Configuration** and select the required payment methods.
 <br>
-
 ---
 
 ## User guide
+
+### Enabling and disabling payment methods
+
+Once the plugin is initially installed, reinstalling becomes necessary to manage the listing or delisting of enabled and disabled payment methods.
+
+Please follow the first four steps described in the installation and configuration process, then proceed to the fifth one, where you will find the **Reinstall** icon for clicking.
 
 ### Backend orders
 
@@ -51,30 +56,6 @@ To create backend orders in the MultiSafepay Shopware 5 plugin, Shopware uses a 
 See shopwareLabs GitHub – <a href="https://github.com/shopwareLabs/SwagBackendOrder" target="_blank">SwagBackendOrder</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 We support V2.x versions.
-
-### Generic gateways
-
-The plugin supports generic gateways, which allows you to add a payment method manually. This is particularly useful for integrating gift cards specific to your business. 
-
-Supported since releases:
-- 2.3.0, March 24, 2021
-- 2.6.0, December 7, 2020
-
-<details id="how-to-configure-generic-gateways">
-<summary>How to configure generic gateways</summary>
-<br>
-
-1. Sign in to your Shopware 5 backend.
-2. Go to **MultiSafepay settings**.
-3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/).
-4. Upload a custom gateway image, if relevant.
-5. For <<glossary:BNPL>> orders, specify whether to include a shopping cart.
-
-For support, email <integration@multisafepay.com>
-
-You can filter generic gateways by country, and minimum and maximum amount.
-
-</details>
 
 ## Order flows
 
@@ -115,6 +96,8 @@ To change the flow you are using, follow these steps:
 
 
 ### Payment methods
+
+By default, activated payment methods from your MultiSafepay account appear on the payment method list.
 
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>

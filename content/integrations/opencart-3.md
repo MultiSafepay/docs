@@ -1,7 +1,7 @@
 ---
 title: "OpenCart 3"
 category: 62962dd7e272a6002ebbbbc5
-order: 7
+order: 8
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -253,6 +253,15 @@ Email <integration@multisafepay.com>
 
 You can update the plugin using the extension installer tool in your OpenCart backend.
 
+<details id="how-to-update-from-version-3-x-or-higher">
+<summary>How to update from version 3.0.0 or higher</summary>
+<br>
+
+1. For security, create a backup of your OpenCart application.
+2. Follow the [installation](/docs/opencart#installation) instructions above.
+
+</details>
+
 <details id="how-to-update-from-version-2-2-to-3">
 <summary>How to update from version 2.2.0 to 3.x.x</summary>
 <br>
@@ -277,7 +286,7 @@ You can update the plugin using the extension installer tool in your OpenCart ba
 
 1. For security, create a backup of your OpenCart application.
 2. Manually remove all files from the MultiSafepay extension using an FTP program or server file administration program.
-3. Follow the [installation](/docs/opencart#how-to-install) instructions above.
+3. Follow the [installation](/docs/opencart#installation) instructions above.
 
 </details>
 <br>
