@@ -106,7 +106,6 @@ It was based on the Disclosure of Unusual Transactions or Financial Services Act
 4. Select the UBO form, and then click **Open**.
 5. Upload color copies of the identity documents of all UBOs.
 
-✅ &nbsp; **Tip!** We recommend using the <a href="https://www.rijksoverheid.nl/onderwerpen/identiteitsfraude/vraag-en-antwoord/veilige-kopie-identiteitsbewijs" target="_blank">KopieID app</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> to hide personal information on passports or IDs.
 </details>
 
 # 5. Display required information
