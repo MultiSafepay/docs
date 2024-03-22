@@ -84,18 +84,20 @@ For more information, see Amazon Pay – <a href="https://developer.amazon.com/d
 
 ### Ready-made integrations
 
-Coming soon in our [integrations](/docs/our-integrations/).
+Available for redirect transactions via our [integrations](/docs/our-integrations/).
 
 <!--Supported in:
 
-- Magento 2
-- Magento 1
-- OpenCart
-- Prestashop 1.7
-- Prestashop 1.6
-- Shopware 5
-- Shopware 6
-- WooCommerce
+-Shopware 6
+-Shopware 5
+-WooCommerce
+-OpenCart 3
+-OpenCart 4
+-Magento 2
+-Magento 1
+-PrestaShop 1.6
+-PrestaShop 1.7
+-Lightspeed
 
 -->
 
