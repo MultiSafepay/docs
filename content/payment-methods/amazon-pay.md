@@ -86,7 +86,7 @@ For more information, see Amazon Pay – <a href="https://developer.amazon.com/d
 
 Available for redirect transactions via our [integrations](/docs/our-integrations/).
 
-<!--Supported in:
+Supported in:
 
 -Shopware 6
 -Shopware 5
@@ -99,7 +99,7 @@ Available for redirect transactions via our [integrations](/docs/our-integration
 -PrestaShop 1.7
 -Lightspeed
 
--->
+
 
 ### Testing
 To test Amazon Pay payments, see Testing – [Wallets](/docs/testing#wallets).
