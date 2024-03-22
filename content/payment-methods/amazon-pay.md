@@ -100,7 +100,6 @@ Supported in:
 -Lightspeed
 
 
-
 ### Testing
 To test Amazon Pay payments, see Testing – [Wallets](/docs/testing#wallets).
 <br>
