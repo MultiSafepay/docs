@@ -62,6 +62,9 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
             settings: {
                 connect: {
                     group_cards: true
+                    qr: {
+                        enabled: true,
+                        autoload: false
                 }
             }
         },
@@ -80,7 +83,8 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     | customer.locale | No | The customer's language. Sets the language of the payment component UI. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO 639</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> Supported languages: `en`, `es`, `fr`, `it`, `nl` |
     | customer.reference | Yes, for recurring payments | Your unique customer reference. |
     | payment_options.settings.connect.group_cards | No | Groups all card payment methods as a single option in the list of payment methods. <br> Format: Boolean <br> Default: `false`.|
-    | recurring.model | Yes, for recurring payments | The [recurring model](/docs/recurring-payments/). |
+    | payment_options.settings.connect.qr.enabled | Allows QR code to be rendered for supported payment methods like: iDEAL, Bancontact, Wechat. Default: `false`.|
+    | payment_options.settings.connect.qr.autoload| Optional: Allows automatic display of QR code. Default: `true`. |
     | template.settings.embed_mode | No | A template designed to blend in seamlessly with your ecommerce platform. <br> Format: Boolean |
 
     <br>
@@ -260,6 +264,13 @@ The `PaymentComponent` has the following methods:
 |`hasErrors`| Returns a boolean value about whether errors were registered. |
 |`getOrderData`| Returns an object containing a `payment_data` object and the full order configuration. |
 |`getPaymentData`| Returns a `payment_data` object with a `payload` containing the customer's payment details, used to [create orders](/docs/payment-component-single/), and the `gateway`.|
+|`onGetQR - |Once autoload or QR button clicked, onGetQr will be triggered. ⚠️ At this point, the webshop needs to create an order with payment_data on server side, including all necessary customer information. The response should be used to initialize the QR component `MSP.setQR({...})`
+<br> onGetQR: function (state) {
+	     console.log('onGetQR', state);
+	     createMerchantOrderInServerSide(state.orderData).then(response => {
+		      PaymentComponent.setQR({
+			      order: response.data |
+|`setQR `| Helper to render the QR code with order information obtained from the result in callback onGetQR.|
 
 </details>
 

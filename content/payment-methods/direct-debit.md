@@ -44,10 +44,12 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | MultiSafepay's customer background check was successful and we've generated an [e-mandate](#e-mandates). | Uncleared  | Initialized |
 | We've sent the e-mandate to the customer's bank. You can no longer cancel. | Uncleared | Uncleared |
 | MultiSafepay has collected payment.| Completed | Completed |
-| The customer cancelled the transaction or requested a chargeback, or their bank declined the transaction. | Void | Void |
-| The customer's bank declined the transaction. See the [reason codes](#declined-transactions) below. | Declined | Declined   |
+| The customer cancelled the transaction, or their bank declined the transaction. | Void | Void |
+| The customer's bank declined the transaction. See the [reason codes](#declined-transactions) below. | Declined | Declined  
 | **Refunds:** Refund initiated. | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed | 
+|**Chargebacks** - original transaction: Chargeback complete |Completed |Chargedback |
+|**Chargebacks** - chargeback transaction: Chargeback complete | Completed | Completed |
 
 # Activation 
 
