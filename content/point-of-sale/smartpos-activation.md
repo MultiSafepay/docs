@@ -12,6 +12,7 @@ slug: 'smartpos-activation'
 > We are currently in the pilot phase for this product in the following countries:
 > 
 > - Netherlands
+> - Belgium
 > 
 > Please note that in this stage, you cannot request terminals yet to use POS services.  
 > If you are interested in participating in the next stage of our pilot, email <sales@multisafepay.com>
@@ -32,13 +33,14 @@ To activate a SmartPOS terminal, follow these steps:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Devices** > **Terminals**.
-3. Click **Add SmartPOS**.
-4. Below the **<<glossary:group>> name**, click **Add new group**.
+3. Click **Add terminal**.
+4. Below the **<<glossary:group>> name**, click **Add new group**, or select a previously created group.
 5. Fill out the following fields:
 - **New group name**.  
-- **Terminal name**.
-- In the **MCC** field, click the **drop-down** icon and select the relevant MCC code.
-6. Click **Get code**.<br> A dialog with a QR code appears.
+- **Webhook URL** (optional).
+- In the **Business category** field, click the **drop-down** icon and specify the relevant service or product offered. If a category has been assigned to your account in the past, it will be displayed automatically. 
+6. Select Terminal type **SmartPOS**
+
 
 Install the MultiSafepay payment app on your terminal to scan the QR code. 
 
