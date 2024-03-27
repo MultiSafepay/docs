@@ -105,7 +105,7 @@ Different billing and shipping addresses are supported.
 
 ## Amount limits
 
-- Minimum amount: 100 EUR 
+- Minimum amount: 50 EUR 
 - Maximum amount: 3000 EUR 
 
 You can adjust these limits in the <<glossary:backend>> of our [ready-made integrations](/docs/our-integrations/) to show or hide in3 on your checkout page depending on the order value.

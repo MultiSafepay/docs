@@ -46,7 +46,7 @@ Once the method is activated, also enable it in your <<glossary:backend>>.
 | Lithuania | PayPal, Trustly |
 | Luxembourg | PayPal, Trustly |
 | Malta | PayPal, Trustly |
-| Netherlands | Betaal per Maand, gift cards, iDEAL, in3, Klarna, Pay After Delivery, PayPal, Riverty, Trustly |
+| Netherlands | Gift cards, iDEAL, in3, Klarna, Pay After Delivery, PayPal, Riverty, Trustly |
 | Norway | Klarna, PayPal, Trustly |
 | Poland | Dotpay, PayPal, Sofort, Trustly |
 | Portugal | PayPal, Trustly |

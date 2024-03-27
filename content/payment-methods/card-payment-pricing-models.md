@@ -1,16 +1,16 @@
 ---
-title: 'Card payment pricing'
+title: 'Card payment pricing models'
 category: 6298bd782d1cf4006032e765
 order: 30
 hidden: false
 parentDoc: 62a727569e389a012f577acd
-excerpt: 'Distinction between Blended and Interchange++ pricing models'
-slug: interchange
+excerpt: 'Distinction between Blended and Interchange ++ pricing'
+slug: Card-payment-pricing
 ---
 
 Banks and <<glossary:card schemes>> charge different fees to cover the operational costs of managing their network and processing card payments.
 
-There are three cost components for the Interchange++ model:
+There are three cost components that determine the final card pricing:
 
 - The **Interchange** fee that is paid to the issuing bank
 - The **Scheme fee** charged by the scheme, like Visa or Mastercard
@@ -58,5 +58,3 @@ If your business mostly relies on cross-border and B2B sales, Interchange++ pric
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:sales@multisafepay.com\">sales@multisafepay.com</a></p>\n</blockquote>\n"
 }
 [/block]
-
-[Top of page](#)

@@ -1,7 +1,7 @@
 ---
 title: "PWA Studio (Venia)"
 category: 62962dd7e272a6002ebbbbc5
-order: 12
+order: 11
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's plugin."

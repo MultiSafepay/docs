@@ -32,7 +32,7 @@ The table below sets out the expiration time per payment method:
 | Google Pay| 1 hour   |
 | iDEAL| 1.5 hours|
 | in3| 2 hours  |
-| Klarna| 1 hour   |
+| Klarna| 1 day   |
 | MB WAY| 4 minutes  |
 | Multibanco| 72 hours   |
 | MyBank| 1 hour   |

@@ -62,6 +62,21 @@ You can't test the following methods in your MultiSafepay test account. You can 
 - Request to Pay
 - TrustPay
 
+## PSP ID
+
+> ⚠️ Note
+> 
+> We are currently updating the format of our PSP ID to consist of 16 digits.
+
+Testing this new format is possible on both our TEST and LIVE environment:
+
+- Create a transaction with customer_email '[enable-pspid-encoding@multisafepay.com](mailto:enable-pspid-encoding@multisafepay.com)''.  
+  You will receive a response in the new 16-digit format.
+- Review if your integration supports the longer ID:  
+  Check for example your offline actions, and any related operational processes.
+- Review if your reconciliation and accounting process supports this longer ID.
+
+
 </details>
 
 ---
