@@ -32,7 +32,7 @@ If you encounter an issue with payments while using one of our plugin integratio
 
 # Payments failing 
 
-When you encounter issues that affect payments, valuable first checks are:
+If you encounter issues that affect payments, valuable first checks are:
 
 - Log into your Merchant Dashboard and check for any alerts: You see alerts on your main page if we have recently requested information, or your account needs extra configuration.
 - Create a [payment link]\(payment link) and verify if the issue occurs as well. (!) 
