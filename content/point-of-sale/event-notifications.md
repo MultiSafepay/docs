@@ -9,13 +9,12 @@ slug: 'event-notifications'
 
 > ⚠️ Note:
 > 
-> We are currently in the pilot phase for this product in the following countries:
+> We currently offer this product in the following countries:
 > 
 > - Netherlands
 > - Belgium 
->
-> Please note that in this stage, you cannot request terminals yet to use POS services.  
-> If you are interested in participating in the next stage of our pilot, email <sales@multisafepay.com>
+>  
+> If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
 >
 
 Subscribe to event notifications to receive order payments updates when, e.g.,
@@ -27,6 +26,8 @@ Subscribe to event notifications to receive order payments updates when, e.g.,
 
 - SmartPOS terminal must be [activated in your MultiSafepay account](/docs/getting-started-guide/).
 - Payments must be initiated via [cloud <<glossary:POS>> payment](/docs/solutions).
+
+In other scenarios, you can make use of our [webhook ](https://docs.multisafepay.com/docs/webhook)notifications.
 
 # 1. Initiate payments
 

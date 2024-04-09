@@ -9,13 +9,12 @@ slug: 'traditional-ctap-terminal'
 
 > ⚠️ Note:
 > 
-> We are currently in the pilot phase for this product in the following countries:
+> We currently offer this product in the following countries:
 > 
 > - Netherlands
-> - Belgium
-> 
-> Please note that in this stage, you cannot request terminals yet to use POS services.  
-> If you are interested in participating in the next stage of our pilot, email <sales@multisafepay.com>
+> - Belgium 
+>  
+> If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
 
 Traditional (CTAP) is a terminal that has passed <a href="https://wp.acquiris.eu/" target="_blank">Acquiris </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> certification and can be connected to acquirers with a C-TAP host.
 
