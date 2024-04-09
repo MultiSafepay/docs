@@ -448,6 +448,18 @@ To access the MultiSafepay Payments app **Settings** page:
 </details>
 <br>
 
+
+# Troubleshooting 
+
+## Payment methods not displayed correctly
+
+Checks you can do:
+
+- are you using the correct API key and environment combination?
+- are the payment methods activated for your account? 
+- in **Payment method settings**, check that you have modified your preferences for the correct / all store languages. Check also: current setting is set to **enabled**.
+
+</details>
 ---
 
 [block:html]
