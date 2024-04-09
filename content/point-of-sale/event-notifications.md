@@ -27,7 +27,7 @@ Subscribe to event notifications to receive order payments updates when, e.g.,
 - SmartPOS terminal must be [activated in your MultiSafepay account](/docs/getting-started-guide/).
 - Payments must be initiated via [cloud <<glossary:POS>> payment](/docs/solutions).
 
-In other scenarios, you can make use of our [webhook ](https://docs.multisafepay.com/docs/webhook)notifications.
+In other scenarios, you can make use of our <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>notifications.
 
 # 1. Initiate payments
 
