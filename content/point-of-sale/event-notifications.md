@@ -49,8 +49,20 @@ curl -H 'Authorization: events_token' 'https://api.multisafepay.com/events/strea
 
 ```
 curl -H 'Authorization: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2OTQwNzEyMDcsImdydtdfI6WyJtYnVzOnNlc3Npb24ub3JkZXIiLCJtYnVzOnNlc3Npb24ucXIiXSwicGlkIjoiNTk5TWM0VWhOWDhYczNmNU55b3JnaVZZMlhab1BsVVkxa28iLCJzdWIiOiJwciJ9.p1txKa0wlR6Pn-DvQW8oYmYcesU49GgZsPebME_EvYs' \
-'https://testapi.multisafepay.com/events/stream/'
+'https://api.multisafepay.com/events/stream/'
 ```
+
+  </details>
+
+<details id="example-response"> 
+  <summary>Example response</summary>
+  <br>
+
+event: session.order
+data: {"financial_status":"initialized","order_id":"ExampleOrderID1234567","session_id":"1025J8hXqtM9dLcilPp3gqkXi8Res3tvRPN","status":"initialized","transaction_id":"893068351"}
+event: session.order
+data: {"financial_status":"completed","order_id":"ExampleOrderID1234567","session_id":"1025J8hXqtM9dLcilPp3gqkXi8Res3tvRPN","status":"completed","transaction_id":"893068351"}
+
 
   </details>
 
