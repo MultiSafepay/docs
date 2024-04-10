@@ -14,7 +14,7 @@ slug: 'sofort'
 > Sofort is no longer available as a standalone payment method due to its acquisition by Klarna.  
 > Existing integrations will be kept intact, yet it is not possible to activate Sofort for new merchants.
 > 
-> For alternatives in banking methods, see also [our overview](https://docs.multisafepay.com/docs/banking-methods).
+> For alternatives in banking methods, see also <a href="https://docs.multisafepay.com/docs/banking-methods" target="_blank">our overview</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 <a href="https://www.klarna.com/pay-now/" target="_blank">Sofort</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a banking payment method by Klarna. It integrates with the customer's bank like a <<glossary:direct>> bank transfer. The customer verifies the payment, which reduces the risks associated with traditional transfers. 
 Once payment is completed, the customer cannot reverse it and Sofort guarantees <<glossary:settlement>>.
