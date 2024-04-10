@@ -249,6 +249,58 @@ To install and configure, see LogiVert – <a href="https://confluence.prezent.n
 </details>
 
 ___
+##Pronamic Pay
+
+<a href="<https://www.pronamicpay.com/>" target="_blank">Pronamic Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>,provides a free plugin to integrate WooCommerce WordPress stores with MultiSafepay.
+
+<details id="pronamic-prerequisites">
+<summary>Prerequisites</summary>
+<br>
+
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
+
+</details>
+
+<details id="pronamic-support">
+<summary>Support</summary>
+<br>
+
+For any technical queries, see – <a href="<https://www.pronamicpay.com/support/>" target="_blank">Pronamic support</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+</details>
+
+<details id="pronamic-payment-methods">
+<summary>Supported payment methods</summary>
+<br>
+
+- Cards:[All](/docs/card-payments/)
+- Banking methods:
+  - [Bancontact](/docs/bancontact/)
+  - [Bank transfer](/docs/bank-transfer/)
+  - [Belfius](/docs/belfius/)
+  - [iDEAL](/docs/ideal/)
+  - [KBC](/docs/kbc/)
+  - [Direct Debit](/docs/direct-debit/)
+  - [Giropay](/docs/giropay/)
+  - [Sofort](/docs/sofort/)
+- BNPL: 
+  - [in3](//docs/in3)    
+- Wallets: 
+  - [Alipay +](/docs/alipay-plus/)
+  - [Apple](/docs/apple-pay/)
+  - [Google](/docs/google-pay/)
+  - [PayPal](/docs/paypal/)
+
+</details>
+
+<details id="pronamic-installation">
+<summary>Installation and configuration</summary>
+<br>
+
+To install and configure the plugin, see Pronamic Pay – <a href="<https://www.pronamicpay.com/manuals/how-to-connect-multisafepay-to-wordpress-with-pronamic-pay/>" target="_blank">Installation guide</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+</details>
+
+___
 
 ## Sana Commerce
 
