@@ -58,13 +58,13 @@ curl -H 'Authorization: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2OTQwNzEyMDcsImdydtdfI6W
   <summary>Example response</summary>
   <br>
 
+```
 event: session.order
-data: {"financial_status":"initialized","order_id":"ExampleOrderID1234567","session_id":"1025J8hXqtM9dLcilPp3gqkXi8Res3tvRPN","status":"initialized","transaction_id":"893068351"}
+data: {"financial_status":"initialized","order_id":"ExampleOrderID1234567","session_id":"1025J8hXqtM9dLcilPp3gqkXi8Res3tvZZZ","status":"initialized","transaction_id":"89000000"}
 event: session.order
-data: {"financial_status":"completed","order_id":"ExampleOrderID1234567","session_id":"1025J8hXqtM9dLcilPp3gqkXi8Res3tvRPN","status":"completed","transaction_id":"893068351"}
-
-
-  </details>
+data: {"financial_status":"completed","order_id":"ExampleOrderID1234567","session_id":"1025J8hXqtM9dLcilPp3gqkXi8Res3tvZZZ","status":"completed","transaction_id":"890000000"}
+```
+ </details>
 
 # 3. Payment statuses
 
