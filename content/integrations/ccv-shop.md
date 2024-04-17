@@ -15,6 +15,24 @@ excerpt: "Technical manual for MultiSafepay's free app."
 <summary>Changelog</summary>
 <br>
 
+**1.0.0**
+Release date: Apr. 16th, 2024
+### Added
+- MIDDLEWARE-133: Move checkout config to codeblock content
+- MIDDLEWARE-124: Error Handling for Payment Transactions
+- MIDDLEWARE-100: Add base confirmation popup
+- MIDDLEWARE-122: Add ip_address, within the customer object
+- MIDDLEWARE-118: Handle additional charges based on payment method settings
+- MIDDLEWARE-106: Add support for domains.updated webhook
+- MIDDLEWARE-125: Implement Payment Method Configuration Table and Dynamic Checkout Display Logic
+- MIDDLEWARE-115: Hide Apple Pay with codeblock
+- MIDDLEWARE-99: Add validate API key button
+
+### Fixed
+- MIDDLEWARE-121: Update payment methods
+- MIDDLEWARE-117: Improvements on install - edit page
+- MIDDLEWARE-127: Improvement over app installation
+
 **1.0.0-RC1**
 Release date: Feb. 26th, 2024
 
