@@ -9,33 +9,6 @@ excerpt: "Technical manual for MultiSafepay's free app."
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/a87cfe4f49a0fd17e939bc70f53b23900421f524/static/logo/Integrations/ccv-shop.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-# Changelog
-
-<details id="changelog">
-<summary>Changelog</summary>
-<br>
-
-**1.0.0-RC1**
-Release date: Feb. 26th, 2024
-
-### Added
-- Endpoints for CCV Shop app installation: Handshake, Install, Uninstall.
-- Localization for Install view based on `language` query variable (Dutch, English, German and French).
-- Payment Service Provider (PSP) configuration based on MultiSafepay merchant data: API key, selected payment methods.
-- Ability to update payment methods during CCV Shop app installation edit.
-- Scheduled monitoring and updating of the payment methods.
-- Endpoints for CCV Shop transactions creation and updating.
-- Possibility to enable/disable refunds while installing CCV Shop app/editing CCV Shop app installation.
-- Support for CCV Shop webhook events: `invoices.updated.status`, `orders.deleted`, `orders.updated.status`, `orders.updated.trackandtrace`.
-- `invoices.updated.status` webhook event handler to create a MultiSafepay refund after CCV Shop invoice status is changed to `Refunded.
-- `orders.deleted` webhook event handler to create a MultiSafepay refund after CCV Shop order is deleted.
-- `orders.updated.status` webhook event handler to update MultiSafepay order status to `Shipped` after CCV Shop order status is changed to `Sent`.
-- `orders.updated.trackandtrace` webhook event handler to update MultiSafepay order status to `Shipped` and populate track and trace information after CCV Shop order gets updated in **Shipment** section.
-- Created artisan command: `ccv:register-webhooks`.
-- CCV Shop **Order ID** as **Order ID** for MultiSafepay orders, which is used as **Transaction ID** for CCV Shop payments.
-
-</details>
-
 # Prerequisites
 
 You will need a [MultiSafepay account](/docs/getting-started-guide/).
