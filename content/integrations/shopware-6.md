@@ -12,8 +12,6 @@ slug: 'shopware-6'
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/shopware6/releases/download/2.8.0/Plugin_Shopware6_2.8.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
-
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/shopware6/" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/shopware6/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
@@ -24,7 +22,7 @@ slug: 'shopware-6'
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - Shopware 6.4.11.x or higher, and 6.5.x.x <!--_(<a href="https://www.shopware.com/en/pricing" target="_blank">Starter Edition</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> supported)_-->
-- Tested on Shopware 6.5.0.0, 6.4.20.2 and PHP8.1
+- Tested on Shopware 6.5.8.7, 6.4.20.2 and PHP 8.1
 
 ## Installation and configuration
 
@@ -152,20 +150,19 @@ For <<glossary:BNPL>> orders, after shipment, you must change the order status f
 
 If you change the <<glossary:order status>> to **Delivered** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
-### Updates
-
-You can update the plugin in your backend and the CMS marketplace, or via using SFTP.
-
-<details id="how-to-update-in-your-backend">
-<summary>How to update in your backend</summary>
-<br>
+## Updates
 
 ✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
-1. Download the plugin again above.
-2. Follow the Installation and configuration instructions from step 3.
+### Marketplace update
+Following the steps described in the installation process from <a href="https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html" target="_blank">Shopware 6 marketplace</a>.
 
-</details>
+### Composer update
+By executing the following command within the root directory of Shopware 6:
+
+```
+composer update multisafepay/shopware6
+```
 
 ---
 
