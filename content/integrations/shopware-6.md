@@ -161,7 +161,7 @@ Following the steps described in the installation process from <a href="https://
 By executing the following command within the root directory of Shopware 6:
 
 ```
-composer update
+composer update multisafepay/shopware6
 ```
 
 ---
