@@ -173,7 +173,7 @@ Initialize the component using:
  
 ```javascript
 PaymentComponent.init('dropin', {
-   container: '#MSPPayment',
+   container: '#MultiSafepayPayment',
     onGetQR: function (state) {      
         console.log('onGetQR', state);
     },
@@ -184,7 +184,25 @@ PaymentComponent.init('dropin', {
         console.log('onEvent', state);
     },
     onSubmit: function (state) {
-        console.log('onSubmit', state);
+        if(PaymentComponent.hasErrors()) {
+            let errors = PaymentComponent.getErrors();
+            console.log(errors);
+            return;
+        }
+
+        // Send state.paymentData to your server (createOrder)
+        // Create an order from your server
+        // Return the response from your server to the client-side
+        // With the response, redirect the customer or log an error
+
+        createOrder(PaymentComponent.getPaymentData()).then(response => {
+            console.log(response);
+            if(response.success) {
+                PaymentComponent.init('redirection', {
+                    order: response.data
+
+            }
+        });
     },    
     onValidation: function (state) {
      console.log('onValidation', state);
