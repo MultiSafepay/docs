@@ -10,7 +10,6 @@ parentDoc: 62a848399bb3eb004023f291
  
 This technical manual is for integrating a payment component using multiple payment methods.
 
-
  
 # 1. Add the HTML elements
  
