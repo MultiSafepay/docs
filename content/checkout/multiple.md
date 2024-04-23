@@ -85,50 +85,17 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
    <details id="properties">
 <summary>Properties</summary>
 <br>
- 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Key",
-    "h-1": "Required",
-    "h-2": "Value",
-    "0-0": "amount",
-    "0-1": "Yes",
-    "0-2": "The value of the order. <br> Format: Number without decimal points, e.g. 100 euro is formatted as `10000`",
-    "1-0": "currency",
-    "1-1": "Yes",
-    "1-2": "The currency of the order. <br> Format: <a href=\"https://en.wikipedia.org/wiki/ISO_4217\" target=\"_blank\">ISO-4217</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e;\"></i>, e.g. `EUR`",
-    "2-0": "customer.country",
-    "2-1": "No",
-    "2-2": "The customer's country code. Used to validate the availability of the payment method. <br> Format: <a href=\"https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2\" target=\"_blank\">ISO-3166-1 alpha-2</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e;\"></i>, e.g. `NL`",
-    "3-0": "customer.locale",
-    "3-1": "No",
-    "3-2": "The customer's language. Sets the language of the payment component UI. <br> Format: <a href=\"https://en.wikipedia.org/wiki/ISO_639\" target=\"_blank\">ISO 639</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e;\"></i> <br> Supported languages: `en`, `es`, `fr`, `it`, `nl`",
-    "4-0": "customer.reference",
-    "4-1": "Yes, for recurring payments",
-    "4-2": "Your unique customer reference.  \n(\\*currently not supported for QR payments.)",
-    "5-0": "payment_options.settings.connect.group_cards",
-    "5-1": "No",
-    "5-2": "Groups all card payment methods as a single option in the list of payment methods. <br> Format: Boolean <br> Default: `false`.",
-    "6-0": "payment_options.settings.connect.qr",
-    "6-1": "No",
-    "6-2": "Allows QR code to be rendered for iDEAL and Bancontact: `enabled`  \n `autoload` allows automatic display of QR code, and subsequent redirect for these methods. Default: `true`",
-    "7-0": "recurring.model",
-    "7-1": "Yes, for recurring payments",
-    "7-2": "The [recurring model](/docs/recurring-payments/).",
-    "8-0": "template.settings.embed_mode",
-    "8-1": "No",
-    "8-2": "A template designed to blend in seamlessly with your ecommerce platform. <br> Format: Boolean"
-  },
-  "cols": 3,
-  "rows": 9,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+| Key                              | Required               | Value                                                                                                                                                                                                                                                                                                                            |
+|----------------------------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| amount                           | Yes                    | The value of the order. <br> Format: Number without decimal points, e.g. 100 euro is formatted as `10000`                                                                                                                                                                                                                     |
+| currency                         | Yes                    | The currency of the order. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `EUR`                                                                                                                                                                                                                         |
+| customer.country                 | No                     | The customer's country code. Used to validate the availability of the payment method. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL`                                                                                                                                         |
+| customer.locale                  | No                     | The customer's language. Sets the language of the payment component UI. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO 639</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> Supported languages: `en`, `es`, `fr`, `it`, `nl`                                                                                                                                |
+| customer.reference               | Yes, for recurring payments | Your unique customer reference.  \n(\*currently not supported for QR payments.)                                                                                                                                                                                                                                                |
+| payment_options.settings.connect.group_cards | No           | Groups all card payment methods as a single option in the list of payment methods. <br> Format: Boolean <br> Default: `false`.                                                                                                                                                                                                 |
+| payment_options.settings.connect.qr | No                   | Allows QR code to be rendered for iDEAL and Bancontact: `enabled`  \n `autoload` allows automatic display of QR code, and subsequent redirect for these methods. Default: `true`                                                                                                                                           |
+| recurring.model                  | Yes, for recurring payments | The [recurring model](/docs/recurring-payments/).                                                                                                                                                                                                                                                                              |
+| template.settings.embed_mode     | No                     | A template designed to blend in seamlessly with your ecommerce platform. <br> Format: Boolean                                                                                                                                                                                                                                 |
  
    <br>
  
@@ -294,34 +261,14 @@ In the method call, create event handlers for the following events:
 <details id="events">
 <summary>Events</summary>
 <br>
- 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Event",
-    "h-1": "Event handler",
-    "0-0": "`onError`",
-    "0-1": "Occurs when there is an error in the payment component.",
-    "1-0": "`onGetQR`",
-    "1-1": "Occurs when the QR is rendered in the payment component.  \n**Example**:  \n  \n onGetQR: e => {  \n   createOrder(e.orderData).then(response => {  \n        PaymentComponent.setQR({  \n            order: response.data  \n            });  \n    });  \n},  \n\\`\\`\\`  \nAfter creating the order, you invoke getQR.",
-    "2-0": "`onLoad`",
-    "2-1": "Occurs when the payment component UI is rendered.",
-    "3-0": "`onSelect`",
-    "3-1": "Occurs when the customer selects an <<glossary:issuer>> with iDEAL.",
-    "4-0": "`onSubmit`",
-    "4-1": "Occurs when the customer clicks the payment button (when using the button generated by the component).",
-    "5-0": "`onValidation`",
-    "5-1": "Occurs when form validation changes. Can be used to disable the payment button until all fields are validated."
-  },
-  "cols": 2,
-  "rows": 6,
-  "align": [
-    null,
-    null
-  ]
-}
-[/block]
- 
+| Event       | Event handler                                                                                                                                           |
+|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `onError`   | Occurs when there is an error in the payment component.                                                                                                 |
+| `onGetQR`   | Occurs when the QR is rendered in the payment component. <br> **Example**:  <br>  <br> onGetQR: e => {  <br>   createOrder(e.orderData).then(response => {  <br>        PaymentComponent.setQR({  <br>            order: response.data  <br>            });  <br>    });  <br>},  <br>```  <br>After creating the order, you invoke getQR. |
+| `onLoad`    | Occurs when the payment component UI is rendered.                                                                                                        |
+| `onSelect`  | Occurs when the customer selects an <<glossary:issuer>> with iDEAL.                                                                                     |
+| `onSubmit`  | Occurs when the customer clicks the payment button (when using the button generated by the component).                                                   |
+| `onValidation` | Occurs when form validation changes. Can be used to disable the payment button until all fields are validated.                                           |
  
 </details>
  
@@ -330,31 +277,14 @@ The `PaymentComponent` has the following methods:
 <details id="methods">
 <summary>Methods</summary>
 <br>
- 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Method",
-    "h-1": "Description",
-    "0-0": "`getErrors`",
-    "0-1": "Returns error messages or codes.",
-    "1-0": "`hasErrors`",
-    "1-1": "Returns a boolean value about whether errors were registered.",
-    "2-0": "`getOrderData`",
-    "2-1": "Returns an object containing a `payment_data` object and the full order configuration.",
-    "3-0": "`getPaymentData`",
-    "3-1": "Returns a `payment_data` object with a `payload` containing the customer's payment details, used to [create orders](/docs/payment-component-single/), and the `gateway`.",
-    "4-0": "`setQR()`",
-    "4-1": "Returns a  boolean to set up the QR code. Requires argument `orderData`.  \nIf `orderData` is not sent, the payment will not be associated to the order."
-  },
-  "cols": 2,
-  "rows": 5,
-  "align": [
-    null,
-    null
-  ]
-}
-[/block]
+
+| Method          | Description                                                                                                                                                                                                                   |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `getErrors`     | Returns error messages or codes.                                                                                                                                                                                             |
+| `hasErrors`     | Returns a boolean value about whether errors were registered.                                                                                                                                                                |
+| `getOrderData`  | Returns an object containing a `payment_data` object and the full order configuration.                                                                                                                                       |
+| `getPaymentData`| Returns a `payment_data` object with a `payload` containing the customer's payment details, used to [create orders](/docs/payment-component-single/), and the `gateway`.                                                    |
+| `setQR()`       | Returns a boolean to set up the QR code. Requires argument `orderData`.  <br>If `orderData` is not sent, the payment will not be associated with the order.                                                                 |
  
  
 </details>
