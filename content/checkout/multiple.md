@@ -4,9 +4,9 @@ category: 62bd999547298d001abc714c
 order: 2
 hidden: false
 slug: 'payment-component-multiple'
-parentDoc: 62a848399bb3eb004023f291 
---- 
- 
+parentDoc: 62a848399bb3eb004023f291
+---
+
 This technical manual is for integrating a payment component using multiple payment methods.
 
 
@@ -19,7 +19,7 @@ This technical manual is for integrating a payment component using multiple paym
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/payment-component-multiple.png" width="450"/>
  
-# 1\. Add the HTML elements
+# 1. Add the HTML elements
  
 1. Add the component's CSS to the `<head>` of your checkout page:  
    ```html
