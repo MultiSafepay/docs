@@ -4,9 +4,9 @@ category: 62bd999547298d001abc714c
 order: 2
 hidden: false
 slug: 'payment-component-multiple'
-parentDoc: 62a848399bb3eb004023f291 
---- 
- 
+parentDoc: 62a848399bb3eb004023f291
+---
+
 This technical manual is for integrating a payment component using multiple payment methods.
 
 
@@ -19,7 +19,7 @@ This technical manual is for integrating a payment component using multiple paym
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/payment-component-multiple.png" width="450"/>
  
-# 1\. Add the HTML elements
+# 1. Add the HTML elements
  
 1. Add the component's CSS to the `<head>` of your checkout page:  
    ```html
@@ -88,9 +88,9 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
 | Key                              | Required               | Value                                                                                                                                                                                                                                                                                                                            |
 |----------------------------------|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | amount                           | Yes                    | The value of the order. <br> Format: Number without decimal points, e.g. 100 euro is formatted as `10000`                                                                                                                                                                                                                     |
-| currency                         | Yes                    | The currency of the order. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `EUR`                                                                                                                                                                                                                         |
-| customer.country                 | No                     | The customer's country code. Used to validate the availability of the payment method. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g. `NL`                                                                                                                                         |
-| customer.locale                  | No                     | The customer's language. Sets the language of the payment component UI. <br> Format: <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO 639</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> Supported languages: `en`, `es`, `fr`, `it`, `nl`                                                                                                                                |
+| currency                         | Yes                    | The currency of the order. <br> Format: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217), e.g. `EUR`                                                                                                                                                                                                                         |
+| customer.country                 | No                     | The customer's country code. Used to validate the availability of the payment method. <br> Format: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g. `NL`                                                                                                                                         |
+| customer.locale                  | No                     | The customer's language. Sets the language of the payment component UI. <br> Format: [ISO 639](https://en.wikipedia.org/wiki/ISO_639) <br> Supported languages: `en`, `es`, `fr`, `it`, `nl`                                                                                                                                |
 | customer.reference               | Yes, for recurring payments | Your unique customer reference.  \n(\*currently not supported for QR payments.)                                                                                                                                                                                                                                                |
 | payment_options.settings.connect.group_cards | No           | Groups all card payment methods as a single option in the list of payment methods. <br> Format: Boolean <br> Default: `false`.                                                                                                                                                                                                 |
 | payment_options.settings.connect.qr | No                   | Allows QR code to be rendered for iDEAL and Bancontact: `enabled`  \n `autoload` allows automatic display of QR code, and subsequent redirect for these methods. Default: `true`                                                                                                                                           |
