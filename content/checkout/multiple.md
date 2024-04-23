@@ -12,7 +12,7 @@ This technical manual is for integrating a payment component using multiple paym
 
 
  
-# 1\. Add the HTML elements
+# 1. Add the HTML elements
  
 1. Add the component's CSS to the `<head>` of your checkout page:  
    ```html
@@ -41,7 +41,7 @@ Decide if you want to:
 <button id="payment-button"></button>
   ```
  
-# 2\. Initialize the component
+# 2. Initialize the component
  
 ## Generate an API token
  
