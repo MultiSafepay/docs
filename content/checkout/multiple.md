@@ -6,13 +6,13 @@ hidden: false
 slug: 'payment-component-multiple'
 parentDoc: 62a848399bb3eb004023f291 
 --- 
-
  
 This technical manual is for integrating a payment component using multiple payment methods.
 
+<div style="display: flex; flex-wrap: wrap;">
+    <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/payment-components-examples" target="_blank"><span>Payment components examples</span></a>
+</div>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/payment-components-examples" target="_blank"><span>Component examples</span></a>
- 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/payment-component-multiple.png" width="450"/>
  
 # 1\. Add the HTML elements
@@ -44,7 +44,7 @@ Decide if you want to:
 <button id="payment-button"></button>
   ```
  
-# 2\. Initialize the component
+# 2. Initialize the component
  
 ## Generate an API token
  
