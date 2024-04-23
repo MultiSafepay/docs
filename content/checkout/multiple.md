@@ -85,7 +85,49 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
 <summary>Properties</summary>
 <br>
  
-   [block:parameters]{"data":{"h-0":"Key","h-1":"Required","h-2":"Value","0-0":"amount","0-1":"Yes","0-2":"The value of the order. <br> Format: Number without decimal points, e.g. 100 euro is formatted as `10000`","1-0":"currency","1-1":"Yes","1-2":"The currency of the order. <br> Format: <a href=\"https://en.wikipedia.org/wiki/ISO_4217\" target=\"_blank\">ISO-4217</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i>, e.g. `EUR`","2-0":"customer.country","2-1":"No","2-2":"The customer's country code. Used to validate the availability of the payment method. <br> Format: <a href=\"https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2\" target=\"_blank\">ISO-3166-1 alpha-2</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i>, e.g. `NL`","3-0":"customer.locale","3-1":"No","3-2":"The customer's language. Sets the language of the payment component UI. <br> Format: <a href=\"https://en.wikipedia.org/wiki/ISO_639\" target=\"_blank\">ISO 639</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i> <br> Supported languages: `en`, `es`, `fr`, `it`, `nl`","4-0":"customer.reference","4-1":"Yes, for recurring payments","4-2":"Your unique customer reference.  \n(\\*currently not supported for QR payments.)","5-0":"payment_options.settings.connect.group_cards","5-1":"No","5-2":"Groups all card payment methods as a single option in the list of payment methods. <br> Format: Boolean <br> Default: `false`.","6-0":"payment_options.settings.connect.qr","6-1":"No","6-2":"Allows QR code to be rendered for iDEAL and Bancontact: `enabled`  \n `autoload` allows automatic display of QR code, and subsequent redirect for these methods. Default: `true`","7-0":"recurring.model","7-1":"Yes, for recurring payments","7-2":"The [recurring model](/docs/recurring-payments/).","8-0":"template.settings.embed_mode","8-1":"No","8-2":"A template designed to blend in seamlessly with your ecommerce platform. <br> Format: Boolean"},"cols":3,"rows":9,"align":["left","left","left"]}[/block]
+[block:parameters]
+{
+  "data": {
+    "h-0": "Key",
+    "h-1": "Required",
+    "h-2": "Value",
+    "0-0": "amount",
+    "0-1": "Yes",
+    "0-2": "The value of the order. <br> Format: Number without decimal points, e.g. 100 euro is formatted as `10000`",
+    "1-0": "currency",
+    "1-1": "Yes",
+    "1-2": "The currency of the order. <br> Format: <a href=\"https://en.wikipedia.org/wiki/ISO_4217\" target=\"_blank\">ISO-4217</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i>, e.g. `EUR`",
+    "2-0": "customer.country",
+    "2-1": "No",
+    "2-2": "The customer's country code. Used to validate the availability of the payment method. <br> Format: <a href=\"https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2\" target=\"_blank\">ISO-3166-1 alpha-2</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i>, e.g. `NL`",
+    "3-0": "customer.locale",
+    "3-1": "No",
+    "3-2": "The customer's language. Sets the language of the payment component UI. <br> Format: <a href=\"https://en.wikipedia.org/wiki/ISO_639\" target=\"_blank\">ISO 639</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i> <br> Supported languages: `en`, `es`, `fr`, `it`, `nl`",
+    "4-0": "customer.reference",
+    "4-1": "Yes, for recurring payments",
+    "4-2": "Your unique customer reference.  \n(\\*currently not supported for QR payments.)",
+    "5-0": "payment_options.settings.connect.group_cards",
+    "5-1": "No",
+    "5-2": "Groups all card payment methods as a single option in the list of payment methods. <br> Format: Boolean <br> Default: `false`.",
+    "6-0": "payment_options.settings.connect.qr",
+    "6-1": "No",
+    "6-2": "Allows QR code to be rendered for iDEAL and Bancontact: `enabled`  \n `autoload` allows automatic display of QR code, and subsequent redirect for these methods. Default: `true`",
+    "7-0": "recurring.model",
+    "7-1": "Yes, for recurring payments",
+    "7-2": "The [recurring model](/docs/recurring-payments/).",
+    "8-0": "template.settings.embed_mode",
+    "8-1": "No",
+    "8-2": "A template designed to blend in seamlessly with your ecommerce platform. <br> Format: Boolean"
+  },
+  "cols": 3,
+  "rows": 9,
+  "align": [
+    "left",
+    "left",
+    "left"
+  ]
+}
+[/block]
  
    <br>
  
