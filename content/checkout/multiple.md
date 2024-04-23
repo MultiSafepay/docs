@@ -10,9 +10,7 @@ parentDoc: 62a848399bb3eb004023f291
  
 This technical manual is for integrating a payment component using multiple payment methods.
 
-Examples 
- 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/payment-component-multiple.png" width="450"/>
+
  
 # 1\. Add the HTML elements
  
