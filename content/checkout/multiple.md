@@ -71,10 +71,11 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
        payment_options: {
            settings: {
                connect: {
-                   group_cards: true
+                   group_cards: true,
                    qr: {
                        enabled: true,
                        autoload: false
+                  }
                }
            }
        },
@@ -273,14 +274,14 @@ PaymentComponent.init('dropin', {
  
 ```javascript
 PaymentComponent.init('dropin', {
-    container : '#MultiSafepayPayment',
-    onSelect : state => {
+    container: '#MultiSafepayPayment',
+    onSelect: state => {
         console.log('onSelect', state);
     }, 
-    onError : state => {
+    onError: state => {
         console.log('onError', state);
     },
-    onLoad : state => {
+    onLoad: state => {
         console.log('onLoad', state);
     }
 });
@@ -343,7 +344,7 @@ The `PaymentComponent` has the following methods:
     "2-1": "Returns an object containing a `payment_data` object and the full order configuration.",
     "3-0": "`getPaymentData`",
     "3-1": "Returns a `payment_data` object with a `payload` containing the customer's payment details, used to [create orders](/docs/payment-component-single/), and the `gateway`.",
-    "4-0": "`setQR ()`",
+    "4-0": "`setQR()`",
     "4-1": "Returns a  boolean to set up the QR code. Requires argument `orderData`.  \nIf `orderData` is not sent, the payment will not be associated to the order."
   },
   "cols": 2,
@@ -358,7 +359,7 @@ The `PaymentComponent` has the following methods:
  
 </details>
  
-# 3\. Create an order
+# 3. Create an order
  
 ## Handle the interaction
  
@@ -452,9 +453,9 @@ Create an <<glossary:order>> from your server, appending the `payment_data` coll
  
 See API reference – [Create order](/reference/createorder/) > Payment component.
  
-# 4\. Go live
+# 4. Go live
  
-To test the payment methods, see Testing payment methods - \[(/docs/testing#test-payment-details).
+To test the payment methods, see [Testing payment methods](/docs/testing#test-payment-details).
  
 When you're ready to process real payments, make the following changes:
  
