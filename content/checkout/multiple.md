@@ -19,7 +19,7 @@ This technical manual is for integrating a payment component using multiple paym
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/payment-component-multiple.png" width="450"/>
  
-# 1\. Add the HTML elements
+# 1. Add the HTML elements
  
 1. Add the component's CSS to the `<head>` of your checkout page:  
    ```html
