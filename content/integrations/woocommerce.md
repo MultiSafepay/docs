@@ -272,12 +272,14 @@ For <<glossary:BNPL>> orders, after shipment, you must change the order status f
 
 If you change the <<glossary:order status>> to **Shipped** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
-##Styling
+## Checkouts
 
-###Gutenberg editor
+The plugin supports the WooCommerce checkout and is compatible with most premium themes, unless you have a custom checkout.
 
-You can use the Gutenberg block for WooCommerce to customize your checkout. 
-Note: Only redirect payment methods are supported with this checkout at the moment. 
+### WooCommerce Checkout Blocks
+
+You can use the Checkout Blocks for WooCommerce to customize your checkout. 
+Note: Only redirect payment methods are supported with this checkout at the moment.
 
 ## Surcharges
 
