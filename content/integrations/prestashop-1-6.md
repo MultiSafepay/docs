@@ -27,7 +27,7 @@ slug: 'prestashop-1-6'
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - PrestaShop 1.6
-- Tested on PHP 7.0
+- Tested on PHP 5.6
 
 # Installation and configuration
 
