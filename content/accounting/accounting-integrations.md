@@ -87,7 +87,281 @@ To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – <a 
 <br>
 
 ---
+# Exact Online 
 
+<a href="https://www.exact.com/nl" target="_blank">Exact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> Globe and Online can integrate with MultiSafepay directly to export relevant transaction data via their API, or you can manually export MultiSafepay [accountant exports](/docs/reports#accountant-export) (MT940 format).
+
+ \#Exact Online
+
+Integration is available for Exact Online accounts with type "Accounting".
+
+## Automated exports
+ 
+
+<details id="how-to-automate-exports-with-exact-online">
+
+<summary>How to automate exports with Exact Online </summary>
+
+ 
+
+To grant MultiSafepay permission to access your Exact Online account:
+
+Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.  
+Go to **Reports** > **Accounting integrations** > **Exact Online** > **Configure**.    
+   You are redirected to Exact Online.
+
+- Enter your email address and Exact Online password, and then click **Next**.    
+     A list of required permissions is displayed.
+- Grant MultiSafepay access to Exact Online only or Exact Online and future companies.
+- Select the checkbox to accept the Exact Online terms and conditions.  
+  Click **Allow**.  
+- You are redirected to your MultiSafepay dashboard.  
+
+   ✅   You have successfully granted MultiSafepay access permissions.
+
+ 
+
+❗️If you delete or modify information in Exact Online, exports will fail. If you encounter an error, email [support@multisafepay.com](+support@multisafepay.com+)
+
+</details>
+
+<details id="how-to-link-ledger-account">
+
+<summary>How to link ledger accounts</summary>
+
+In the **Exact Online code** field:
+
+Click the **dropdown** icon and then select the relevant code, **or**  
+Enter the code or name to search for the relevant code.
+
+Once all accounts are linked, click **Submit**. This is essential for all changes to be saved.
+
+
+To edit the existing ledger account:
+ 
+
+Click the **Pencil** icon next to the **Exact Online code** field.  
+In the **Exact Online code** field, click the **dropdown** icon and then select the relevant code.  
+Click **Submit**.
+
+ 
+
+To create your own ledger account:
+
+
+Click **+ _  next to the \_Exact Online code_ field.\_  
+In the **Exact Online code** field, enter your **Code** and **Description\*\*.  
+Click ✔.
+
+
+</details>
+
+
+<details id="how-to-schedule-automated-exports">
+
+<summary>How to schedule automated exports</summary>
+
+In your dashboard, under **Schedule export_, toggle the _**Enabled/Disabled** radio button to **Enabled**.  
+Click **Save\*\*.    
+   ✅   The scheduled export appears below.
+
+ 
+
+Exports start the day **after** you set the schedule.  
+You can only have 1 scheduled export queued at a time.  
+You can view the status of previous exports under **Export history**. If exports are failing, email [support@multisafepay.com](+support@multisafepay.com+)  
+Export data for a specified time period **once only** to avoid duplicate data in Exact.  
+
+ 
+
+To enable/disable exports:
+
+- In your dashboard, under **Schedule export_, toggle the _**Enabled/Disabled\*\* radio button as needed.
+
+❗️You must add the data for periods when exports are disabled to Exact Online **manually**, otherwise it is lost.
+
+
+</details>
+
+
+## Financial year
+
+ 
+
+<details id="how-to-import-manually">
+
+<summary>How to add a new financial year </summary>
+
+
+
+Sign in to your Exact Online account.  
+On the navigation menu > click  **sample company Exact online** > **Master Data**.  
+Under **Financial** > select **Period-data table**.  
+Under **Financial years** page > click on **New** >  **Create** <br> Create new financial year pop-up screen appears.  
+Click **Close**.
+
+❗️You must add the financial year to Exact Online every year. Otherwise, your exports will fail.
+
+
+</details>
+
+
+## Manual imports
+
+
+<details id="prerequisites">
+
+<summary>Prerequisites</summary>
+
+ 
+
+Exact Basic / Standard package does **not** support the MT940 import function. You need at least Exact Advanced.    
+Lightspeed users must request Lightspeed to make an adjustment to make sure order numbers appear in the correct fields in Exact Online to successfully match the MultiSafepay MT940.  
+Exact Online imports and matches MultiSafepay MT940 reports provided that:  
+  - Your accounting package can process MT940 files.
+
+  \- The order numbers in the MT940 files also appear in the correct invoice fields in your accounting platform.
+
+  \- The customer's name and order amounts that appear in the exported MT940 files match your accounting platform.
+
+  
+
+</details>
+
+
+
+<details id="how-to-import-manually">
+
+<summary>How to import manually</summary>
+
+ 
+
+- Provide Exact with an additional international bank account number (IBAN). This can be a dummy (placeholder) IBAN.
+
+ 
+
+   \- Go to IBAN Calculator – <a href="https://www.ibancalculator.com/bic_und_iban.html" target="_blank">Calculate an IBAN</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+   \- From the **Country** list, select **The Netherlands**.
+
+   \- Under **Bank Code**, enter a bank, e.g. ING Group.
+
+   \- In the **Account number** field, enter any 7 digits.
+
+   \- Click **Calculate IBAN**.  
+
+     A dummy IBAN and BIC code are generated.
+
+ 
+
+- Submit the IBAN to the relevant platform
+
+   **Exact Online**
+
+
+
+   \- Sign in and go to **Financial** > **Banking & Cash** > **Bank accounts** > **Overview**.
+
+   \- Click **New**.
+
+   \- Enter your dummy IBAN, and then click **Save**.  
+
+     You can now register all transactions linked to this IBAN.
+
+Export a MT940 accountant export from your MultiSafepay dashboard.
+
+
+
+   \- Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+   \- Go to **Reports** > **Accountant export**:  
+
+     \- From the **Date selection** list, select a date range.
+
+     \- From the **Currency** list, select the currency.
+
+     \- From the **Report type** list, select **MT940**.
+
+   \- For the **Group costs in 1 record** toggle, set to:  
+
+     \- **Yes:** Show only the total of all MultiSafepay transaction fees for the selected timeframe.
+
+     \- **No:** List each MultiSafepay fee below the matching transaction.
+
+   \- Click **Advanced options:**
+
+     \- In the **Bank Account / IBAN** field, enter the dummy IBAN.
+
+     \- In the **BIC** field, enter the dummy BIC code.
+
+ 
+
+- Import the MT940 accountant export into Exact Online.
+
+ 
+
+   \- Sign in to your Exact Online account.
+
+   \- Go to **Financial** > **Banking & Cash** > **Statements** > **Import**.
+
+   \- Click **Choose File**, and then select the MT940 file you want to upload.
+
+   \- Click **Import**.
+
+  
+
+</details>
+
+
+
+</details>
+
+ 
+
+## Denovit integration\*
+
+ 
+
+<a href="https://www.denovit.nl/" target="_blank">Denovit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> automates payment link into Exact invoices.
+
+<details id="how-to-set-up-denovit">
+
+<summary>How to set up Denovit</summary>
+
+
+Sign in to your Denovit account.  
+Go to your **Dashboard_, and then select the _**Paylink** module.  
+Connect to your Exact account.  
+Under **PSP settings\*\*, enter your [MultiSafepay API key](/docs/sites#site-id-api-key-and-security-code) and the payment conditions you use in Exact.  
+Adjust other settings as relevant, e.g. personalize your email template, thank-you page, or notification email to improve customer experience.
+
+ 
+For each new invoice in Exact, if you:
+
+
+**Email:** The customer receives a second email containing a payment link, in addition to the normal email.  
+**Print and process:** The customer receives an email containing a payment link.
+
+
+***
+
+ 
+
+To add MultiSafepay [payment links](/docs/payment-links/) into Exact invoices, see Denovit – <a href="https://www.denovit.nl/exact-cashflow" target="_blank">Payment link module</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+ 
+
+</details >
+
+ 
+
+xCore integration\*
+
+
+xCore offers two reconciliation apps that retrieve all payment details from MultiSafepay for the day and automatically match each payment with its corresponding open item in Exact.
+ 
+
+For more information, see xCore – <a href="https://xcore.nl/afletteren-2-0-exact-online-multisafepay/" target="_blank">Afletteren 2.0 Exact Online with MultiSafepay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # King Business Software
 
