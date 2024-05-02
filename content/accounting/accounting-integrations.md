@@ -91,7 +91,6 @@ To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – <a 
 
 <a href="https://www.exact.com/nl" target="_blank">Exact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> Globe and Online can integrate with MultiSafepay directly to export relevant transaction data via their API, or you can manually export MultiSafepay [accountant exports](/docs/reports#accountant-export) (MT940 format).
 
- \#Exact Online
 
 Integration is available for Exact Online accounts with type "Accounting".
 
@@ -129,18 +128,18 @@ Go to **Reports** > **Accounting integrations** > **Exact Online** > **Configure
 
 <summary>How to link ledger accounts</summary>
 
-In the **Exact Online code** field:
+- In the **Exact Online code** field:
 
-Click the **dropdown** icon and then select the relevant code, **or**  
+- Click the **dropdown** icon and then select the relevant code, **or**  
 Enter the code or name to search for the relevant code.
 
-Once all accounts are linked, click **Submit**. This is essential for all changes to be saved.
+- Once all accounts are linked, click **Submit**. This is essential for all changes to be saved.
 
 
 To edit the existing ledger account:
  
 
-Click the **Pencil** icon next to the **Exact Online code** field.  
+- Click the **Pencil** icon next to the **Exact Online code** field.  
 In the **Exact Online code** field, click the **dropdown** icon and then select the relevant code.  
 Click **Submit**.
 
@@ -149,9 +148,9 @@ Click **Submit**.
 To create your own ledger account:
 
 
-Click **+ _  next to the \_Exact Online code_ field.\_  
+- Click **+ _  next to the \_Exact Online code_ field.\_  
 In the **Exact Online code** field, enter your **Code** and **Description\*\*.  
-Click ✔.
+- Click ✔.
 
 
 </details>
@@ -187,18 +186,16 @@ To enable/disable exports:
 ## Financial year
 
  
-
 <details id="how-to-import-manually">
 
 <summary>How to add a new financial year </summary>
 
 
-
-Sign in to your Exact Online account.  
-On the navigation menu > click  **sample company Exact online** > **Master Data**.  
-Under **Financial** > select **Period-data table**.  
-Under **Financial years** page > click on **New** >  **Create** <br> Create new financial year pop-up screen appears.  
-Click **Close**.
+- Sign in to your Exact Online account.  
+- On the navigation menu > click  **sample company Exact online** > **Master Data**.  
+- Under **Financial** > select **Period-data table**.  
+- Under **Financial years** page > click on **New** >  **Create** <br> Create new financial year pop-up screen appears.  
+- Click **Close**.
 
 ❗️You must add the financial year to Exact Online every year. Otherwise, your exports will fail.
 
@@ -215,8 +212,9 @@ Click **Close**.
 
  
 
-Exact Basic / Standard package does **not** support the MT940 import function. You need at least Exact Advanced.    
-Lightspeed users must request Lightspeed to make an adjustment to make sure order numbers appear in the correct fields in Exact Online to successfully match the MultiSafepay MT940.  
+- Exact Basic / Standard package does **not** support the MT940 import function. You need at least Exact Advanced.    
+- Lightspeed users must request Lightspeed to make an adjustment to make sure order numbers appear in the correct fields in Exact Online to successfully match the MultiSafepay MT940.  
+
 Exact Online imports and matches MultiSafepay MT940 reports provided that:  
   - Your accounting package can process MT940 files.
 
@@ -318,7 +316,7 @@ Export a MT940 accountant export from your MultiSafepay dashboard.
 
  
 
-## Denovit integration\*
+## Denovit integration
 
  
 
@@ -329,11 +327,11 @@ Export a MT940 accountant export from your MultiSafepay dashboard.
 <summary>How to set up Denovit</summary>
 
 
-Sign in to your Denovit account.  
-Go to your **Dashboard_, and then select the _**Paylink** module.  
-Connect to your Exact account.  
-Under **PSP settings\*\*, enter your [MultiSafepay API key](/docs/sites#site-id-api-key-and-security-code) and the payment conditions you use in Exact.  
-Adjust other settings as relevant, e.g. personalize your email template, thank-you page, or notification email to improve customer experience.
+- Sign in to your Denovit account.  
+- Go to your **Dashboard_, and then select the _**Paylink** module.  
+- Connect to your Exact account.  
+- Under **PSP settings\*\*, enter your [MultiSafepay API key](/docs/sites#site-id-api-key-and-security-code) and the payment conditions you use in Exact.  
+- Adjust other settings as relevant, e.g. personalize your email template, thank-you page, or notification email to improve customer experience.
 
  
 For each new invoice in Exact, if you:
@@ -355,7 +353,7 @@ To add MultiSafepay [payment links](/docs/payment-links/) into Exact invoices, s
 
  
 
-xCore integration\*
+xCore integration
 
 
 xCore offers two reconciliation apps that retrieve all payment details from MultiSafepay for the day and automatically match each payment with its corresponding open item in Exact.
