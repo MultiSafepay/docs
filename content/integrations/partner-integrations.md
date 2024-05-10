@@ -251,7 +251,7 @@ To install and configure, see LogiVert – <a href="https://confluence.prezent.n
 ___
 ##Pronamic Pay
 
-<a href="<https://www.pronamicpay.com/>" target="_blank">Pronamic Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>,provides a free plugin to integrate WooCommerce WordPress stores with MultiSafepay.
+<a href="<https://www.pronamicpay.com/>" target="_blank">Pronamic </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>,provides a Premium Pronamic Pay plugin to integrate MultiSafepay with multiple WordPress plugins.
 
 <details id="pronamic-prerequisites">
 <summary>Prerequisites</summary>
@@ -290,6 +290,22 @@ For any technical queries, see – <a href="<https://www.pronamicpay.com/support
   - [Apple](/docs/apple-pay/)
   - [Google](/docs/google-pay/)
   - [PayPal](/docs/paypal/)
+
+</details>
+
+<details id="pronamic-plugins">
+<summary>Supported plugins</summary>
+
+- Gravity Forms
+- Contact Form 7
+- Ninja Forms
+- Formidable Forms
+- WooCommerce
+- Easy Digital Downloads
+- Restrict Content Pro
+- MemberPress
+- Charitable
+- Give
 
 </details>
 
