@@ -178,6 +178,7 @@ After you've enabled the **Cloud mode**, the **Navigation** list appears. This f
 
 ***
 
+</details>
 
 <details id="transactions">
 <summary> How to view transaction overview</summary>
