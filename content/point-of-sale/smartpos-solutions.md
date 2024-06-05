@@ -145,6 +145,124 @@ curl -X POST \
 2. To initiate payments - see <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">MultiSafepay Android POS integration </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 <br>
+# API features 
+
+In addition to the features mentioned in our <a href="https://docs.multisafepay.com/reference/introduction" target="_blank">API reference</a>, there are POS-specific details you can retrieve via our API, including the **Terminal ID** that processed a transaction.
+
+**Example GET order**
+
+``` 
+
+{
+  "success": true,
+  "data": {
+    "amount": 1,
+    "amount_refunded": 0,
+    "completed": "2024-06-04T15:50:18",
+    "costs": [
+      {
+        "amount": 2,
+        "description": "2 For Visa Transactions",
+        "transaction_id": 899813954,
+        "type": "SYSTEM"
+      },
+      {
+        "amount": 0.6,
+        "description": "2.9 % For Visa CreditCards Transactions (min 60)",
+        "transaction_id": 899813955,
+        "type": "SYSTEM"
+      }
+    ],
+    "created": "2024-06-04T15:50:17",
+    "currency": "EUR",
+    "custom_info": {
+      "custom_1": null,
+      "custom_2": null,
+      "custom_3": null
+    },
+    "customer": {
+      "address1": null,
+      "address2": null,
+      "city": null,
+      "country": null,
+      "country_name": null,
+      "email": null,
+      "first_name": null,
+      "house_number": null,
+      "last_name": null,
+      "locale": "en_US",
+      "phone1": null,
+      "phone2": null,
+      "state": null,
+      "zip_code": null
+    },
+    "description": "12341234",
+    "fastcheckout": "NO",
+    "financial_status": "completed",
+    "items": null,
+    "modified": "2024-06-04T15:50:18",
+    "order_id": "TestGetOrder123123",
+    "payment_details": {
+      "account_holder_name": "card holder",
+      "account_id": null,
+      "application_id": "a0000000031010",
+      "authorization_code": "705151",
+      "card_acceptor_id": "1001001",
+      "card_acceptor_location": "Amsterdam",
+      "card_acceptor_name": "TestMSP",
+      "card_additional_response_data": {
+        "sca_details": {}
+      },
+      "card_authentication_result": null,
+      "card_entry_mode": "ICC_CONTACTLESS",
+      "card_expiry_date": "3112",
+      "card_funding": "D",
+      "card_product": "F",
+      "card_product_type": 1,
+      "card_sequence_number": "0000",
+      "card_verification_result": "2",
+      "cardholder_verification_method": "FAILED",
+      "cardholder_verification_result": "UNKNOWN",
+      "emv": {
+        "91": "ab1231231234"
+      },
+      "external_transaction_id": "12312312312",
+      "issuer_bin": "123123",
+      "issuer_country_code": "ES",
+      "last4": "1234",
+      "recurring_flow": null,
+      "recurring_id": "1231213123",
+      "recurring_model": null,
+      "response_code": "00",
+      "scheme_reference_id": "123123123123123",
+      "terminal_id": "0000004d",
+      "type": "VISA"
+    },
+    "payment_methods": [
+      {
+        "account_holder_name": "card holder",
+        "amount": 1,
+        "card_expiry_date": "3112",
+        "currency": "EUR",
+        "description": "12341234",
+        "external_transaction_id": "123123412341234",
+        "payment_description": "Visa",
+        "status": "completed",
+        "type": "VISA"
+      }
+    ],
+    "reason": "Approved",
+    "reason_code": "1000",
+    "related_transactions": null,
+    "status": "completed",
+    "transaction_id": 123412342341234,
+    "var1": null,
+    "var2": null,
+    "var3": null
+  }
+}
+
+``` 
 
 # Handle notifications
 
