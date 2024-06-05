@@ -117,5 +117,19 @@ If your payment is declined, check if you encountered any error messages.
 >
 
 ***
+## ROM version
+
+An outdated version of the firmware can cause miscellaneous issues.
+Always ensure to run your device on the latest available version. 
+
+You can update this on your terminal via:
+
+1. **Reboot** via the button on right of the device 
+2. Settings (terminal) > About device > (select model)
+
+You can view your current version, and **check update**.
+
+***
+
 
 [Top of page](#)

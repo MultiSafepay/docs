@@ -158,6 +158,8 @@ For other ready-made integrations, make an [update order](/reference/updateorder
 
 </details>
 
+## Strong customer authentication 
+
 ## Surcharges  
 Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to <<glossary:BNPL>> methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
 
