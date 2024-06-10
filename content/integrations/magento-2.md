@@ -746,7 +746,7 @@ _Tip_: This issue might appear after upgrading to our latest plugin version, pos
 To debug this issue on your side:
 
 1. Set to debug mode.
-2. Use our [Order Save Inspector](https://github.com/MultiSafepay/magento2-order-save-inspector) to check which module might interfere (for example, delivery software, ERP).
+2. Use our <a href="https://github.com/MultiSafepay/magento2-order-save-inspector" target="_blank">Order Save Inspector</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> to check which module might interfere (for example, delivery software, ERP).
 </details>
 
 
