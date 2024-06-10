@@ -315,8 +315,8 @@ does not return correct URL, which can be caused by a third party plugin making 
 
 Use the filter "woocommerce_get_checkout_order_received_url", provided by WooCommerce, and re-format into the returned value.
 
- [WooCommerce code reference](https://woocommerce.github.io/code-reference/files/woocommerce-includes-class-wc-order.html#source-view.1777)  
-[WooCommerce add filter](https://developer.wordpress.org/reference/functions/add_filter/)
+ <a href="https://woocommerce.github.io/code-reference/files/woocommerce-includes-class-wc-order.html#source-view.1777" target="_blank">WooCommerce code reference</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  
+<a href="https://developer.wordpress.org/reference/functions/add_filter/" target="_blank">WooCommerce add filter</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 ## Updates
 
