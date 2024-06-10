@@ -313,7 +313,7 @@ does not return correct URL, which can be caused by a third party plugin making 
 
 - possible solutions
 
-Use the filter "woocommerce_get_checkout_order_received_url", provided by WooCommerce, and re-format into the returned value.
+Use the filter "woocommerce_get_checkout_order_received_url", provided by WooCommerce, and re-format into the correct value.
 
  [WooCommerce code reference](https://woocommerce.github.io/code-reference/files/woocommerce-includes-class-wc-order.html#source-view.1777)  
 [WooCommerce add filter](https://developer.wordpress.org/reference/functions/add_filter/)
