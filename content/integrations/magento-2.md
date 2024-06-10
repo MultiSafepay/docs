@@ -737,14 +737,16 @@ If you installed the plugin via the Magento Marketplace, go to **System** > **We
 <summary>How to troubleshoot Magento 2 issues</summary>
 <br>
 
-### Order status updates
+### Order Status Update
 
-If you experience issues with order statusses not being updated correctly (e.g. incongruence pending - processing), consider the following:
+If you experience issues with order statuses not being updated correctly (e.g., incongruence between pending and processing), this might happen randomly and be difficult to replicate. This is generally caused by third-party solutions interfering in the order processing flow and the observer being based on a different instance of the order object.
 
-- this is generally caused by third party solutions interfering in the order processing flow and the observer being based on a different instance of the order object. 
-- to debug this issue on your side, check our  <a href="<https://github.com/MultiSafepay/magento2-order-save-inspector>" target="_blank"> Order Save Inspector </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e">
+_Tip_: This issue might appear after upgrading to our latest plugin version, possibly due to faster notification processing times surfacing an already existing update conflict.
 
+To debug this issue on your side:
 
+1. Set to debug mode.
+2. Use our <a href="https://github.com/MultiSafepay/magento2-order-save-inspector" target="_blank">Order Save Inspector</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> to check which module might interfere (for example, delivery software, ERP).
 </details>
 
 
