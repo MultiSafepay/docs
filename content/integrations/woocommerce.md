@@ -301,6 +301,23 @@ The Integration Team will do their best to help you install third-party packages
 
 </details>
 
+## Troubleshooting
+
+### Redirect URL not leading to thank you page 
+
+- possible reasons
+
+WC_Order::get_checkout_order_received_url() =>  
+<https://woocommerce.github.io/code-reference/classes/WC-Order.html#method_get_checkout_order_received_url>  
+does not return correct URL, which can be caused by a third party plugin making use of the "woocommerce_get_checkout_order_received_url" filter and returning a wrong value
+
+- possible solutions
+
+Use the filter "woocommerce_get_checkout_order_received_url", provided by WooCommerce, and re-format into the correct value.
+
+ <a href="https://woocommerce.github.io/code-reference/files/woocommerce-includes-class-wc-order.html#source-view.1777" target="_blank">WooCommerce code reference</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  
+<a href="https://developer.wordpress.org/reference/functions/add_filter/" target="_blank">WooCommerce add filter</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+
 ## Updates
 
 You can update the plugin in your backend and the CMS marketplace, or via SFTP.
