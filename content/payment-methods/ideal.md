@@ -9,6 +9,18 @@ slug: 'ideal'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/ideal.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
+> ⚠️ Note:
+> 
+> We are gradually migrating to iDeal 2.0, an enhanced version of this payment method. 
+> 
+> Changes:
+> 
+> - For users of our redirect solution:  
+>   From **26/06/2024 on**, our **payment page** no longer displays an issuer list when iDeal is selected.  
+>   Instead, the customer is redirected to the iDeal environment to select the issuer. 
+> - For users of our direct solution (via API):  
+>   By **01/01/2025**, slight modifications to your payment method integration will be necessary. Further information will follow.
+
 <a href="https://www.ideal.nl/en/" target="_blank">iDEAL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is the leading payment method in the Netherlands and links all major Dutch retail banks. Customers pay via mobile banking app, [QR code](#ideal-qr), or in their own online banking environment. Once a payment is completed, the customer cannot reverse it and iDEAL guarantees <<glossary:settlement>>.
 
 Read how iDEAL can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/ideal" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
