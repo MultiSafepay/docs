@@ -277,6 +277,33 @@ However, the vault only contains tokens valid in your webshop. If your server is
 
 </details>
 
+
+## Manual Capture
+
+The Magento 2 integration supports Manual Capture from version 4.0.0 and up. 
+
+<details title="how-to-use-manual-capture-magento">
+<summary>How to use manual capture in magento</summary>
+<br>
+It has been implemented for the following supported payment gateways:
+
+- Card payments
+- Maestro
+- Mastercard
+- Visa
+
+For more information about Manual capture and how to enable it for your MultiSafepay account, please check our [Manual capture](/docs/manual-capture#integration) https://docs.multisafepay.com/docs/manual-capture#integration instructions.
+
+To enable Manual capture in your Magento environment: 
+
+1. Go to Stores > Configuration > MultiSafepay > Payment Gateways 
+2. Select a supported payment gateway, e.g. 'Card Payment'
+3. Select **Enable Manual Capture** > Yes
+
+Please note that the full shipping amount will be captured whenever the first shipment has been made, even if it was just a partial shipment of the items. If the rest of the items in the order will not be shipped anymore, you can initiate a refund for the shipment costs of those items.
+
+</details>
+
 ## Order lifetimes
 
 The default lifetime of **Pending payment** orders in Magento 2 is 480 minutes (8 hours). For payment methods with a longer authorization period, the <<glossary:order status changes>> to **Cancelled** after 8 hours.
