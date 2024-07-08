@@ -20,7 +20,7 @@ To activate Manual Capture for your MultiSafepay account, email <sales@multisafe
 
 # Integration
 
-Manual Capture is supported for our [Magento 2](/docs/magento-2) solution.
+Manual Capture is supported for our [Magento 2](/docs/magento-2) integration.
 
 To activate it in other [ready-made integrations](/docs/our-integrations/), you can customize it via our API.
 

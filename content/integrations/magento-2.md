@@ -280,7 +280,7 @@ However, the vault only contains tokens valid in your webshop. If your server is
 
 ## Manual Capture
 
-The Magento 2 integration supports Manual Capture from version 4.0.0 and up. 
+The Magento 2 integration supports Manual Capture from version 3.7.0 and up. 
 
 <details title="how-to-use-manual-capture-magento">
 <summary>How to use manual capture in magento</summary>
