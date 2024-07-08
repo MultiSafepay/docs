@@ -157,6 +157,15 @@ After you've enabled the **Cloud mode**, the **Navigation** list appears. This f
 </details>
 
 ***
+<details id="language">
+<summary>How to switch languages</summary>
+<br>
+1. In the **Settings** section, go to **Languages*.
+2. Select between English, Dutch, and Spanish.
+
+</details>
+
+***
 
 <details id="navigation">
 <summary>How to enable ❌ cancel</summary>

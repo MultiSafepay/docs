@@ -1,5 +1,5 @@
 ---
-title: 'Card payment pricing models'
+title: 'Card payment pricing'
 category: 6298bd782d1cf4006032e765
 order: 30
 hidden: false

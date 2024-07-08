@@ -166,6 +166,16 @@ You can include shopping cart in your [create order](/reference/createorder/) re
 
 You can no longer display your logo; your website name is displayed in the PayPal checkout.
 
+
+## Troubleshooting
+
+If you encounter any issues with PayPal, for example a system error, do the following checks:
+
+- [you have upgraded to the latest PayPal API](/docs/paypal#activation)
+- PayPal is activated for your account
+- 
+
+
 <br>
 
 ---

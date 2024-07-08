@@ -272,6 +272,15 @@ For <<glossary:BNPL>> orders, after shipment, you must change the order status f
 
 If you change the <<glossary:order status>> to **Shipped** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
 
+## Checkouts
+
+The plugin supports the WooCommerce checkout and is compatible with most premium themes, unless you have a custom checkout.
+
+### WooCommerce Checkout Blocks
+
+You can use the Checkout Blocks for WooCommerce to customize your checkout. 
+Note: Only redirect payment methods are supported with this checkout at the moment.
+
 ## Surcharges
 
 You can apply [surcharges](/docs/surcharges/) in the plugin when combined with a relevant third-party package. 
@@ -291,6 +300,23 @@ Third-party packages must follow WooCommerce and Wordpress development guideline
 The Integration Team will do their best to help you install third-party packages, but we can't guarantee perfect compatibility.
 
 </details>
+
+## Troubleshooting
+
+### Redirect URL not leading to thank you page 
+
+- possible reasons
+
+WC_Order::get_checkout_order_received_url() =>  
+<https://woocommerce.github.io/code-reference/classes/WC-Order.html#method_get_checkout_order_received_url>  
+does not return correct URL, which can be caused by a third party plugin making use of the "woocommerce_get_checkout_order_received_url" filter and returning a wrong value
+
+- possible solutions
+
+Use the filter "woocommerce_get_checkout_order_received_url", provided by WooCommerce, and re-format into the correct value.
+
+ <a href="https://woocommerce.github.io/code-reference/files/woocommerce-includes-class-wc-order.html#source-view.1777" target="_blank">WooCommerce code reference</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  
+<a href="https://developer.wordpress.org/reference/functions/add_filter/" target="_blank">WooCommerce add filter</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 ## Updates
 
