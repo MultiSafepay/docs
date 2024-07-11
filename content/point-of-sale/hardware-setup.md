@@ -102,4 +102,5 @@ As a partner you can contact Sunmi support for any issues with the terminal.
 3. Go to **Contact Technical Support**
 4. Click **Need to raise a request**
 
+***
 [Top of page](#)
