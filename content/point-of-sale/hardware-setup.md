@@ -66,7 +66,7 @@ Always ensure to run your device on the latest available version.
 
 Via the Sunmi portal, 
 
-1. Go to **Device** > Device upgrade >Upgrade management
+1. Go to **Device** > Device upgrade > Upgrade management
 
 2. Remove the data filter
 
