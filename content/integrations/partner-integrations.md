@@ -251,7 +251,7 @@ To install and configure, see LogiVert – <a href="https://confluence.prezent.n
 ___
 ##Pronamic Pay
 
-<a href="<https://https://www.pronamicpay.com/payment-providers/multisafepay/>" target="_blank">Pronamic </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>,provides a Premium Pronamic Pay plugin to integrate MultiSafepay with multiple WordPress plugins.
+<a href="<https://www.pronamicpay.com/payment-providers/multisafepay/>" target="_blank">Pronamic </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>,provides a Premium Pronamic Pay plugin to integrate MultiSafepay with multiple WordPress plugins.
 
 <details id="pronamic-prerequisites">
 <summary>Prerequisites</summary>
