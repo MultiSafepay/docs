@@ -66,12 +66,11 @@ Always ensure to run your device on the latest available version.
 
 Via the Sunmi portal, 
 
-1. Go to **Device** > Device upgrade >Upgrade management
+1. Go to **Device** > Device upgrade > Upgrade management
 
 2. Remove the data filter
 
-3. If there is new firmware available, the **Add to Upgrade Group** button will be highlighted.
-If there is no new firmware available it will be greyed out. 
+3. If there is new firmware available, the **Add to Upgrade Group** button will be highlighted. 
 Adding a terminal to the update group means the terminal will detect new firmware and will start downloading.
 
 Tip: Make sure to unpack and activate the terminal so you can add it to the upgrade group.

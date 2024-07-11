@@ -128,27 +128,13 @@ If your payment is declined, check if you encountered any error messages.
 >
 
 ***
-## ROM version
-
-An outdated version of the firmware can cause miscellaneous issues.
-Always ensure to run your device on the latest available version. 
-
-You can update this on your terminal via:
-
-1. **Reboot** via the button on right of the device 
-2. Settings (terminal) > About device > (select model)
-
-You can view your current version, and **check update**.
-
-***
 ## Set device to developer mode
 
-Note: once a device is converted to developer mode, it cannot be reverted. This means it will not  
-be PCI compliant anymore.
+Note: once a device is converted to developer mode, it cannot be reverted. This means it will no longer be PCI compliant.
 
 1. Request TUSN code from Sumni.
 2. Navigate to Settings > System > About
-3. Scroll down to the \_TUSN \_button 
+3. Scroll down to the **TUSN** button 
 4. Press the TUSN button 8 times (alternative: SV button)
 5.  Enter the code received from Sunmi.  
    The 4-digit code is valid for 24 hours.
