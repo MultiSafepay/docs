@@ -147,6 +147,27 @@ For other support, see Easywebshop – <a href="https://www.easywebshop.com/soft
 
 ___
 
+## Gomage 
+
+<a href="https://gomage.nl/" target="_blank">Gomage</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  provides a plugin to integrate with MultiSafepay.
+
+<details id="gomage-prerequisites">
+<summary>Prerequisites</summary>
+<br>
+
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
+
+</details>
+
+<details id="gomage-support">
+<summary>Support</summary>
+<br>
+
+For support, see <a href="https://gomage.nl/contact/" target="_blank">Gomage</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+</details>
+___
+
 ## Logic4
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Logic_4.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
