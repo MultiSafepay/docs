@@ -92,7 +92,18 @@ To check if IPEK is registered, turn on your terminal and click **Configured**.
 If your IPEK is not configured, email <pos-support@multisafepay.com>
 
 ***
+### Logs
 
+Retrieving logs can be a helpful step to investigate an issue. You can generate them via your Sunmi portal:
+
+- Go to Device > **Log task management**
+- Clear _start time_
+- Press **New task**
+- Ensure to select **syslog** and add serial numbers
+- Define the timeframe during which the logs should be uploaded to the portal and replicate the issue during this time. _Start time \_must be later than \_current time_. 
+- Click **release**
+
+***
 # Payment errors
 
 The terminal isn't working correctly, payment information isn't displayed or payment is declined.
@@ -130,6 +141,18 @@ You can update this on your terminal via:
 You can view your current version, and **check update**.
 
 ***
+## Set device to developer mode
 
+Note: once a device is converted to developer mode, it cannot be reverted. This means it will not  
+be PCI compliant anymore.
+
+1. Request TUSN code from Sumni.
+2. Navigate to Settings > System > About
+3. Scroll down to the \_TUSN \_button 
+4. Press the TUSN button 8 times (alternative: SV button)
+5.  Enter the code received from Sunmi.  
+   The 4-digit code is valid for 24 hours.
+
+***
 
 [Top of page](#)
