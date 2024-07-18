@@ -31,20 +31,21 @@ Read how Pay After Delivery can benefit your business on <a href="https://www.mu
 
 ## New Gateway
 
-The old gateway "_PAYAFTER_" is deprecated in favor of the new gateway "_BNPL_MF_" (similar to the [Pay After Delivery Installments](https://docs.multisafepay.com/docs/pay-after-delivery-installments)]) product line. 
+The old gateway "PAYAFTER" is deprecated in favor of the new gateway "BNPL_MF" (similar to the [Pay After Delivery Installments](https://docs.multisafepay.com/docs/pay-after-delivery-installments)]) product line. 
 
 ### API integrations
 
- Switch the gateway code in either redirect or direct transactions to "_BNPL_MF_".  For _direct_ transaction requests, _bank account_ is no longer required. 
+ Switch the gateway code in either redirect or direct transactions to "BNPL_MF".  
+ For _direct_ transaction requests, _bank account_ is no longer required. 
 
 ### Plugin integrations
 
-- Configure "_BNPL_MF_" 
-- deactivate "_PAYAFTER_" gateway. 
+- Configure "BNPL_MF" gateway.
+- deactivate "PAYAFTER" gateway. 
 
 ### Redirect or Components
 
-Configure in your plugin integration "_BNPL_MF_" and deactivate "_PAYAFTER_" gateway in the MultiSafepay Control Panel. 
+Configure in your plugin integration "BNPL_MF" and deactivate "PAYAFTER" gateway in the MultiSafepay Control Panel. 
 
 **Questions?**  
 Contact our MultiFactor support at [klantenservice@multifactor.nl](mailto:klantenservice@multifactor.nl).
