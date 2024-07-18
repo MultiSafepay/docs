@@ -31,7 +31,7 @@ Read how Pay After Delivery can benefit your business on <a href="https://www.mu
 
 ## New Gateway
 
-The old gateway "PAYAFTER" is deprecated in favor of the new gateway "BNPL_MF" (similar to the [Pay After Delivery Installments](https://docs.multisafepay.com/docs/pay-after-delivery-installments)]) product line. 
+The old gateway "PAYAFTER" is deprecated in favor of the new gateway "BNPL_MF" (similar to the <a href="https://docs.multisafepay.com/docs/pay-after-delivery-installments" target="_blank">Pay After Delivery Installments</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>]) product line. 
 
 ### API integrations
 
