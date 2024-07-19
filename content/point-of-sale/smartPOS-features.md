@@ -160,8 +160,27 @@ After you've enabled the **Cloud mode**, the **Navigation** list appears. This f
 <details id="language">
 <summary>How to switch languages</summary>
 <br>
+
 1. In the **Settings** section, go to **Languages*.
 2. Select between English, Dutch, and Spanish.
+
+</details>
+
+***
+<details id="qr">
+<summary>How to scan qr codes</summary>
+<br>
+
+You can use the QR code reader within our app to easily recognize order information and include it in a transaction.
+
+1. In the **Settings** section, enable **Insert order*.
+2. When using **Manual input**, select **Scan QR*.
+
+The QR reader is able to detect the following parameters:
+- amount
+- order ID
+- description
+This information will be included in the payment request. 
 
 </details>
 
@@ -195,5 +214,19 @@ After you've enabled the **Cloud mode**, the **Navigation** list appears. This f
 ---
 </details>
 
+<details id="unbinding">
+<summary>How to unbind your terminal</summary>
+<br>
+
+1. In the **Settings** list, go to the the menu in the top left corner.
+2. Select **Security*, and insert your 4-digit PIN Code. 
+3. Click **Unbind* and confirm. 
+
+Note: Unbinding will result in a complete data erasure. 
+You can bind the terminal to the same or a different account, or terminal group. 
+
+</details>
+
+***
 
 [Top of page](#)
