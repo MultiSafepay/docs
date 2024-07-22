@@ -46,6 +46,10 @@ To install or migrate, follow these steps:
 
 # User guide
 
+## Checkout Configuration
+
+To send an order request with as much information as possible, we recommend setting up the checkout using as customer contact method the email and if required, adding the phone number in the customer information. This can be setup in Settings > Checkout page.
+
 ## Abandoned checkouts
 
 MultiSafepay's [Second Chance](/docs/second-chance/) feature is **not** supported because Shopify offers a similar native service.
