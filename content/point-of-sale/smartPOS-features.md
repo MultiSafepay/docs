@@ -218,7 +218,7 @@ This information will be included in the payment request.
 <summary>How to unbind your terminal</summary>
 <br>
 
-1. In the **Settings** list, go to the the menu in the top left corner.
+1. In the **Settings** list, go to the menu in the top left corner.
 2. Select **Security*, and insert your 4-digit PIN Code. 
 3. Click **Unbind* and confirm. 
 
