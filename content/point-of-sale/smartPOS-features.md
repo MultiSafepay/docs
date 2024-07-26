@@ -14,8 +14,8 @@ slug: 'smartpos-features'
 > 
 > - Netherlands
 > - Belgium 
->  
-> If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
+> 
+> If you are interested in our Point of Sale solutions, email [\[sales@multisafepay.com\](mailto:sales@multisafepay.com)](mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com))
 
 After activating your SmartPOS terminal, you can add features from your SmartPOS payment app. SmartPOS features let you:
 
@@ -36,15 +36,13 @@ After activating your SmartPOS terminal, you can add features from your SmartPOS
 To add payment flow features, follow these steps: 
 
 1. On the navigation menu, click the **Back** button.
-2. Select **Settings**.
-<br>
-<br>
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SmartPOS-pay-flow.png" alt="POS-display" width="250" style="display: block;"/>
-<br>
+2. Select **Settings**.  
+   <br>  
+   <br>  
+   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SmartPOS-pay-flow.png" alt="POS-display" width="250" style="display: block;"/>  
+   <br>
 
-<details id="display-items">
-<summary> How to enable display items</b></summary>
-<br>
+## How to enable display items
 
 1. In the **Global settings** list, click the **Display items** toggle.
 2. To return to the main screen, click the **Back** button.
@@ -57,11 +55,7 @@ Once you've initiated the payment, the items are displayed on the payment screen
 
 ***
 
-</details>
-
-<details id="tipping">
-<summary> How to enable tipping</summary>
-<br>
+## How to enable tipping
 
 1. In the **Global settings** list, click the **Tipping** toggle.
 2. To return to the main screen, click the  **Back** button.
@@ -74,13 +68,7 @@ After the payment has been processed, the option to tip is displayed on the paym
 
 ***
 
-</br>
-
-</details>
-
-<details id="print/email">
-<summary> How to enable print or email</b></summary>
-<br>
+## How to enable print or email
 
 1. In the **Global settings** list, click the **Print/Email** toggle.
 2. To return to the main screen, click the **Back** button.
@@ -92,29 +80,19 @@ After the payment has been processed, the option to tip is displayed on the paym
 
 ***
 
-</details>
-
-<details id="how-to-disable-manual-input">
-<summary> How to disable manual input</summary>
-<br>
+## How to enable manual input
 
 1. In the **Payment** list, click the ** Manual input** toggle.
 2. To return to the main screen, click the **Back** button.
 
 ***
 
-</details>
-
-</details>
-
-<details id="cloud-mode">
-<summary> How to enable cloud mode</summary>
-<br>
+## How to enable cloud mode
 
 1. In the **Payment** list, click the ** Cloud mode** toggle to the right.
 2. To return to the main screen, click the **Back** button.
 
----
+***
 
 To exit the cloud mode payment screen:
 
@@ -123,11 +101,9 @@ To exit the cloud mode payment screen:
 
 **Note:** For your security, we recommend you change the default PIN code as soon as possible. 
 
----
+***
 
-<details id="navigation">
-<summary>How to change the PIN code </summary>
-<br>
+## How to change the PIN code 
 
 1. Go to **Settings** >  **Security**.
 2. Enter the default PIN code.
@@ -136,8 +112,9 @@ To exit the cloud mode payment screen:
 
 </details>
 
----
-<br>
+***
+
+
 
 After you've enabled the **Cloud mode**, the **Navigation** list appears. This feature allows you to hide the cancel button and system navigation.
 
@@ -145,9 +122,9 @@ After you've enabled the **Cloud mode**, the **Navigation** list appears. This f
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SmartPOS-cloud-mode.png" alt="smartPOS_print" width="250" style="display: block;"/>  
 <br>
 
-<details id="navigation">
-<summary>How to hide navigation</summary>
-<br>
+
+
+## How to hide navigation
 
 1. In the **Navigation** list, click the ** System navigation** toggle to the right.
 2. To return to the main screen, click the **Back** button
@@ -157,38 +134,35 @@ After you've enabled the **Cloud mode**, the **Navigation** list appears. This f
 </details>
 
 ***
-<details id="language">
-<summary>How to switch languages</summary>
-<br>
 
-1. In the **Settings** section, go to **Languages*.
+## How to switch languages
+
+1. In the **Settings** section, go to \*_Languages_.
 2. Select between English, Dutch, and Spanish.
 
 </details>
 
 ***
-<details id="qr">
-<summary>How to scan qr codes</summary>
-<br>
+
+## How to scan qr codes
 
 You can use the QR code reader within our app to easily recognize order information and include it in a transaction.
 
-1. In the **Settings** section, enable **Insert order*.
-2. When using **Manual input**, select **Scan QR*.
+1. In the **Settings** section, enable \*_Insert order_.
+2. When using **Manual input**, select \*_Scan QR_.
 
 The QR reader is able to detect the following parameters:
+
 - amount
 - order ID
-- description
-This information will be included in the payment request. 
+- description  
+  This information will be included in the payment request. 
 
 </details>
 
 ***
 
-<details id="navigation">
-<summary>How to enable ❌ cancel</summary>
-<br>
+## How to enable ❌ cancel
 
 1. In the **Navigation** list, click the **Cancel button** toggle to the right.
 2. To return to the main screen, click the **Back** button.
@@ -197,12 +171,9 @@ This information will be included in the payment request.
 
 ***
 
-</details>
+## How to view transaction overview
 
-<details id="transactions">
-<summary> How to view transaction overview</summary>
 
-<br>
 
 1. On the navigation menu, click the **Back** button.
 2. Select **History**.
@@ -211,22 +182,18 @@ This information will be included in the payment request.
 - View transaction information **or**
 - Send a copy of the transaction via email.
 
----
-</details>
+***
 
-<details id="unbinding">
-<summary>How to unbind your terminal</summary>
-<br>
+## How to unbind your terminal
 
 1. In the **Settings** list, go to the menu in the top left corner.
-2. Select **Security*, and insert your 4-digit PIN Code. 
-3. Click **Unbind* and confirm. 
+2. Select \*_Security_, and insert your 4-digit PIN Code. 
+3. Click \*_Unbind_ and confirm. 
 
-Note: Unbinding will result in a complete data erasure. 
+Note: Unbinding will result in a complete data erasure.  
 You can bind the terminal to the same or a different account, or terminal group. 
 
 </details>
-
 ***
 
 [Top of page](#)
