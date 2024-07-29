@@ -108,7 +108,7 @@ Retrieving logs can be a helpful step to investigate an issue. You can generate 
 
 The terminal isn't working correctly, payment information isn't displayed or payment is declined.
 
-### Declined payment
+## Declined payment
 
 If your payment is declined, check if you encountered any error messages.
 
@@ -125,7 +125,39 @@ If your payment is declined, check if you encountered any error messages.
 > - Terminal serial number
 > - Description of the issue
 > - If available, pictures or video
->
+
+## Send back a terminal
+
+In specific cases it might be necessary to return a device to us for technical investigation, or hardware substitution.
+
+(!) Note: Only return a terminal if requested by us. 
+
+### Needed details
+
+To ensure a quick and efficient return procedure, indicate the following: 
+
+| MultiSafepay account ID |  
+| Serial number |  
+| Address for new terminal |  
+| Reason for return |  
+| Support ticket reference (ex. 172349)|
+
+Send this information to [pos-support@multisafepay.com](mailto:pos@multisafepay.com).
+
+### Reasons to return a terminal (temporarily)
+
+- Display broken
+- Keyboard broken
+- Printer broken
+- Scanner broken
+- Battery not working/no power
+- Payment issues (only send back on our request)
+- Chip reader broken
+- Hardware damage
+- Network not working
+- Account closure
+- Wrong terminal ordered
+
 
 ***
 ## Set device to developer mode
