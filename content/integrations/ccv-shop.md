@@ -41,6 +41,7 @@ ___
 <br>
 
 The activated payment methods from your MultiSafepay account appear will be registered in CCV Shop as a payment method.
+To keep the payment methods synchronised, ensure to toggle the "update payment methods" setting before pressing "update". 
 
 </details>
 

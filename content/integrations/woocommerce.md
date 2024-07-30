@@ -216,6 +216,7 @@ By default, activated payment methods from your MultiSafepay account appear on t
 <br>
 
 - Cards: [All](/docs/card-payments/) (The card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
+Tip: in your settings, you can enable the function "group Credit cards" to show cards as a single payment method.
 - Banking methods: All, except TrustPay
 - <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [Google Pay](/docs/google-pay/), [PayPal](/docs/paypal/)
