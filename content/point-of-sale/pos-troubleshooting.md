@@ -117,6 +117,7 @@ If your payment is declined, check if you encountered any error messages.
 | Configuration error. Try again | Send a request to  <pos-support@multisafepay.com> |
 | Card not supported | Send a request to  <pos-support@multisafepay.com>|
 | Use a different interface | Initiate the transaction again. <br>  Ask the customer to insert the card instead of doing a contactless payment. |
+| 1000 card declined | Contact support@multisafepay.com to confirm payment method configuration. |
 
 > **Note:**
 >
