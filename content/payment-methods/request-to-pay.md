@@ -17,7 +17,7 @@ Read how Request to Pay can benefit your business on <a href="https://www.multis
 
 > ⚠️ Availability
 >
-> Request to Pay is currently not available to new merchants. It is still supported for existing merchants. 
+> Request to Pay is no longer available. 
 
 | Supports | Details |
 |---|---|
