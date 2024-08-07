@@ -2,7 +2,7 @@
 title : "Integration Troubleshooting Guide"
 category: 62962dd7e272a6002ebbbbc5
 order: 500
-hidden: true
+hidden: false
 slug: 'help-us-help-you'
 ---
 
