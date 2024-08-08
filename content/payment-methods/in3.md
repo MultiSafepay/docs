@@ -1,10 +1,10 @@
 ---
-title: 'in3'
+title: 'iDeal in3'
 category: 6298bd782d1cf4006032e765
 order: 2
 hidden: false
 parentDoc: 62bd75142e264000a66d62b5
-slug: 'in3'
+slug: 'ideal-in3'
 ---
 
 <img src="https://github.com/MultiSafepay/MultiSafepay-icons/blob/master/methods/ideal-in3.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>

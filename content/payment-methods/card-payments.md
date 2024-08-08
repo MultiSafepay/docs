@@ -104,6 +104,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
   </details>
 
 - Transactions expire after 1 hour.
+- Note: Consider card-specific requirements for the [Create order request](/reference/createorder/), for example including `email` parameter for VISA payments. 
+
 
 #### Co-branded cards
 Co-branded cards are processed through the `VISA` <<glossary:gateway>>. 
