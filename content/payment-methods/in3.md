@@ -1,5 +1,5 @@
 ---
-title: 'in3'
+title: 'iDeal in3'
 category: 6298bd782d1cf4006032e765
 order: 2
 hidden: false

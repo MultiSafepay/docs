@@ -104,6 +104,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
   </details>
 
 - Transactions expire after 1 hour.
+- Note: VISA transactions need to include the following required fields: customer.email
+
 
 #### Co-branded cards
 Co-branded cards are processed through the `VISA` <<glossary:gateway>>. 
