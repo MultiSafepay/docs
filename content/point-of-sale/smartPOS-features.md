@@ -66,6 +66,10 @@ After the payment has been processed, the option to tip is displayed on the paym
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-tipping-screen.png" alt="smartPOS_print" width="250" style="display: block;"/>  
 <br>
 
+You can add an employee via **add employee** > Insert name and ID.
+
+
+
 ***
 
 ## How to enable print or email
@@ -122,6 +126,20 @@ After you've enabled the **Cloud mode**, the **Navigation** list appears. This f
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SmartPOS-cloud-mode.png" alt="smartPOS_print" width="250" style="display: block;"/>  
 <br>
 
+## How to generate closing balance
+
+At the end of a processing period, you can print an overview of total transaction amounts per payment method, and tips.  
+
+Via Settings > **Closing balance**, can set the following parameters:
+
+- Default date: today, yesterday
+- Closing start hour
+- Closing end hour
+- Filter by: Company, Terminal group, Terminal
+
+</details>
+
+***
 
 
 ## How to hide navigation
@@ -171,9 +189,17 @@ The QR reader is able to detect the following parameters:
 
 ***
 
+## How to validate a card
+
+1. In Settings > **Payment**, enable _Allow Zero Amount_ 
+2. Customer completes the 0 EUR transaction.
+3. You will see the transaction with 0 amount in your transaction overview.
+
+</details>
+
+***
+
 ## How to view transaction overview
-
-
 
 1. On the navigation menu, click the **Back** button.
 2. Select **History**.
@@ -192,6 +218,23 @@ The QR reader is able to detect the following parameters:
 
 Note: Unbinding will result in a complete data erasure.  
 You can bind the terminal to the same or a different account, or terminal group. 
+
+## How to use an external printer
+
+Additionally to our built-in printers within some of our devices, you can use the Sunmi kitchen cloud printer via 
+
+- Bluetooth
+- WiFi
+- USB connections
+
+You can set it up within your app:
+
+1. Via Settings, go to _External printer_
+2. Press _Discover_
+3. Select Connection Type
+4. List of printers available is displayed
+5. When a payment is completed, click the **printer icon** to print your receipt.
+
 
 </details>
 ***
