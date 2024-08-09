@@ -156,6 +156,31 @@ We therefore strongly recommend **not** applying surcharges.
 For more information, email <sales@multisafepay.com> 
 <br>
 
+# in3 Business 
+
+We are currently in the pilot phase with in3 Business. 
+To activate this payment method, email <sales@multisafepay.com> 
+
+
+<a href="https://payin3.eu/en/in3-business/" target="_blank">in3</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a Dutch <<glossary:BNPL>> method where customers pay in 3 installments, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 guarantees <<glossary:settlement>> after receiving the first installment.
+
+Read how in3 Business can benefit your webshop on <a href="https://www.multisafepay.com/solutions/payment-methods/in3-business" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+
+
+## User guide
+
+### Amount limits: 
+
+- Minimum amount: 50 EUR 
+- Maximum amount: 3000 EUR 
+
+### Integration:
+
+For `direct` requests: 
+
+- Gateway: IN3B2B
+- Required fields: First name, last name, address, email, business name, chamber of commerce number. 
+
 ---
 
 [block:html]
