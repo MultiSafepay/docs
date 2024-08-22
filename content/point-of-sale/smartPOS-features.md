@@ -107,6 +107,18 @@ To exit the cloud mode payment screen:
 
 ***
 
+## How to define your closing order flow
+
+Upon completed or declined payment, the customer is redirected to a page that confirms the outcome of the payment process.  
+Example: "Payment is completed successfully". 
+
+You can customize this flow:
+
+1. Go to **Settings** > Payment > *Close timeout*
+2. To display the confirmation screen for a fixed amount of time, select the seconds from the dropdown. If you want the customer to proceed without any confirmation screen, for example to redirect to your own application environment, you can *deactivate* the functionality.
+
+Note: This applies to both cloud mode and native application setups. 
+
 ## How to change the PIN code 
 
 1. Go to **Settings** >  **Security**.
