@@ -11,7 +11,8 @@ excerpt: "Technical manual for MultiSafepay's free app."
 
 # Prerequisites
 
-You will need a [MultiSafepay account](/docs/getting-started-guide/).
+- [MultiSafepay account](/docs/getting-started-guide/)
+- A MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code)
 
 # Installation and configuration
 
@@ -19,7 +20,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 2. Go to **App store** and search for **MultiSafepay** app.
 3. Once found, select the app and click in **Install** button.
 4. Review and accept the permissions required by the app.
-5. Follow the instructions and fill the required fields to configure the app. 
+5. Enter your [Site API key](/docs/sites#site-id-api-key-and-security-code), and fill the required fields to configure the app. 
 6. Click the **Install** button to complete the installation.
 7. Go to **My web shop** > **Settings** > **Ordering process & stock** > **Payment methods** and confirm your payments are enabled in the section **MultiSafepay Payment Service provider**
 
@@ -41,7 +42,7 @@ ___
 <br>
 
 The activated payment methods from your MultiSafepay account appear will be registered in CCV Shop as a payment method.
-To keep the payment methods synchronised, ensure to toggle the "update payment methods" setting before pressing "update". 
+To keep the payment methods synchronized, ensure to toggle the "update payment methods" setting before pressing "update". 
 
 </details>
 
@@ -73,6 +74,20 @@ To process backend refunds:
 5. A refund request will be processed in MultiSafepay.
 <br>
 </details>
+
+## Sorting Payment Methods
+
+To sort the payment methods on the checkout page, you can change the order in the MultiSafepay app configuration.
+
+1. Sign in to your CCV Shop <<glossary:backend>>.
+2. Go to **App Store** > **MultiSafepay**.
+3. Click on **Edit** button.
+4. Turn on the switch field **Payment methods order**.
+5. A list of the installed payment methods will be shown.
+6. Use the arrow icons to sort the payment methods. 
+7. Click on **Update** button to save the changes.
+
+📘 **Note:** Only payment methods provided by MultiSafepay can be reordered. CCV Shop does not support ordering of payment methods not provided by our app, so the order of other payment methods cannot be adjusted.
 
 ---
 
