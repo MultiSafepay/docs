@@ -19,6 +19,16 @@ slug: 'hardware-setup'
 
 This page outlines the configuration of the hardware.
 
+### Security check upon delivery
+
+To ensure the secure handling of your customers' card data, it is highly recommended to inspect your terminals for any signs of tampering.
+
+Steps to follow:
+
+1. Verify that the plastic cover around the terminal box is undamaged.
+2. Compare the device you received with the image of the device you ordered.
+3. Check the weight of the terminal to ensure no unauthorized objects, such as in the battery compartment, have been added.
+
 ### Connect to a Wi-Fi network
 
 To connect to a Wi-Fi network:
