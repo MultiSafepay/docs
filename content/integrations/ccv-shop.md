@@ -79,15 +79,21 @@ To process backend refunds:
 
 To sort the payment methods on the checkout page, you can change the order in the MultiSafepay app configuration.
 
+<details id="sorting-payment-methods">
+<summary>How to sort payment methods</summary>
+<br>
+
 1. Sign in to your CCV Shop <<glossary:backend>>.
 2. Go to **App Store** > **MultiSafepay**.
 3. Click on **Edit** button.
 4. Turn on the switch field **Payment methods order**.
 5. A list of the installed payment methods will be shown.
-6. Use the arrow icons to sort the payment methods. 
+6. Use the arrow icons to sort the payment methods.
 7. Click on **Update** button to save the changes.
 
 📘 **Note:** Only payment methods provided by MultiSafepay can be reordered. CCV Shop does not support ordering of payment methods not provided by our app, so the order of other payment methods cannot be adjusted.
+
+</details>
 
 ---
 
