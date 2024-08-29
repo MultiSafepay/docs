@@ -49,7 +49,7 @@ The accountant export lists all successful incoming and outgoing transactions, i
 | Paymenttype | A MultiSafepay fee, or the payment method |
 | Description 2-4 | Descriptions of the order |
 | Tr status | The <<glossary:transaction status>> |
-| Ms description | The site name |
+| Ms description | The site name, or name of the terminal group |
 | Mt merchanttransactionid | Your unique identifier for the order |
 | Mt cust firstname | The customer’s first name |
 | Mt cust lastname | The customer’s last name |
