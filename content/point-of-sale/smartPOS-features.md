@@ -109,13 +109,14 @@ To exit the cloud mode payment screen:
 
 ## How to define your closing order flow
 
-Upon completed or declined payment, the customer is redirected to a page that confirms the outcome of the payment process.  
-Example: "Payment is completed successfully". 
+Upon completed or declined payment, the customer can be redirected to a page that confirms the outcome of the payment process, OR go back automatically to your app.   
+Example message on the confirmation screen: "Payment is completed successfully". 
 
 You can customize this flow:
 
 1. Go to **Settings** > Payment > *Close timeout*
-2. To display the confirmation screen for a fixed amount of time, select the seconds from the dropdown. If you want the customer to proceed without any confirmation screen, for example to redirect to your own application environment, you can *deactivate* the functionality.
+2. To display the confirmation screen for a fixed amount of time, select the seconds from the dropdown. This is the timeout of the "Completed" page.
+If you select *disabled*, there is no automatic timeout, and you will need to press *Close Order* to close the confirmation screen and return to your own application. 
 
 Note: This applies to both cloud mode and native application setups. 
 
