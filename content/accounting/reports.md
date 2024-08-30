@@ -6,6 +6,10 @@ hidden: false
 slug: 'reports'
 ---
 
+Reports can be generated via your Merchant Dashboard, or received in a [subscription](/docs/reports#set-up-automated-reports). 
+
+Note: You can only retrieve data from approximately two years back.
+
 # Accountant export
 
 The accountant export lists all successful incoming and outgoing transactions, including the:
@@ -451,6 +455,16 @@ To identify transactions in reports by payment method, use the following N-codes
 
 <br>
 
+
+## Troubleshooting
+
+### Data range not applied 
+
+In some cases, the custom range selected for your report is not applied immediately. This can usually be solved by either accessing from a different browser, or deleting your cookies / cache data. 
+
+### Payout report not generated
+
+Note: The payout report is only available for automated withdrawals.
 ---
 
 [block:html]
