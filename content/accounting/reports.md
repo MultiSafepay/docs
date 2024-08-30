@@ -6,6 +6,10 @@ hidden: false
 slug: 'reports'
 ---
 
+Reports can be generated via your Merchant Dashboard, or received in a [subscription](/docs/reports#set-up-automated-reports). 
+
+Note: You can only retrieve data from approximately two years back.
+
 # Accountant export
 
 The accountant export lists all successful incoming and outgoing transactions, including the:
