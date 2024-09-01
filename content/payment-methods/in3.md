@@ -172,7 +172,7 @@ Read how in3 Business can benefit your webshop on <a href="https://www.multisafe
 ### Amount limits: 
 
 - Minimum amount: 50 EUR 
-- Maximum amount: 3000 EUR 
+- Maximum amount: 5000 EUR 
 
 ### Integration:
 
