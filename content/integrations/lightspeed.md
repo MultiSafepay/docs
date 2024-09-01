@@ -288,11 +288,11 @@ If no specific rule is set for a country, the **Default** order is used.
 
 </details>
 
-<details id="how-to-disable-payment-methods">
+<details id="how-to-enable-payment-methods">
 <summary>How to disable payment methods</summary>
 <br>
 
-You can disable payment methods in the **Payment method settings list**. The dot next to the payment methods is green when enabled, and grey when disabled.
+You can enable and disable payment methods in the **Payment method settings list**. The dot next to the payment methods is green when enabled, and grey when disabled.
 
 To disable payment methods for specific languages, follow these steps:
 
