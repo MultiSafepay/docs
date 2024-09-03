@@ -22,8 +22,8 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Magento Open Source version 2.3.x & 2.4.x **or** Adobe Commerce version 2.3.x & 2.4.x (For GraphQL, only Magento Open Source versions 2.4.x are supported)
-- PHP 7.1+
+- Magento Open Source version 2.3.6+ & 2.4.x **or** Adobe Commerce version 2.4.x (For GraphQL, only Magento Open Source versions 2.4.x are supported)
+- PHP 7.2+
 
 # Modules
 
