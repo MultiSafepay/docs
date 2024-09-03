@@ -614,7 +614,7 @@ You can update the plugin via <a href="https://getcomposer.org" target="_blank">
 
 ### Order Status Update
 
-If you experience issues with order statuses not being updated correctly (e.g., incongruence between pending and processing), this might happen randomly and be difficult to replicate. This is generally caused by third-party solutions interfering in the order processing flow and the observer being based on a different instance of the order object.
+If you experience issues with order statuses not being updated correctly (e.g., incongruent pending and processing), this might happen randomly and be difficult to replicate. This is generally caused by third-party solutions interfering in the order processing flow and the observer being based on a different instance of the order object.
 
 _Tip_: This issue might appear after upgrading to our latest plugin version, possibly due to faster notification processing times surfacing an already existing update conflict.
 
