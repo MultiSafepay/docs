@@ -17,10 +17,6 @@ slug: 'magento-2'
 
 </div>
 
-> ⚠️ Action required
->
-> If you are still using the deprecated plugin, we recommend [upgrading to the latest version](/docs/magento-2#upgrades) as soon as possible.
-
 Our plugin is supported by a certified Magento 2 Solution Specialist and receives regular updates for the latest features from Magento and MultiSafepay.
 
 # Prerequisites
