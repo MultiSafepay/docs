@@ -119,9 +119,7 @@ php bin/magento module:enable MultiSafepay_ConnectCatalogInventory
 
 The plugin is compatible with most Magento checkouts.
 
-<details id="supported-checkouts">
-<summary>Supported checkouts</summary>
-<br>
+### Supported checkouts 
 
 <table>
   <tr>
@@ -133,16 +131,16 @@ The plugin is compatible with most Magento checkouts.
     <td>By default, Amasty One Step checkout is supported.</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/hyva-themes/magento2-react-checkout" target="_blank"> Hyvä React checkout </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  </td>
-    <td><a href="https://github.com/MultiSafepay/magento2-react-checkout-multisafepay" target="_blank"> Hyvä checkout module</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i></td>
+    <td><a href="https://github.com/hyva-themes/magento2-react-checkout" target="_blank"> Hyvä React checkout </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> </td>
+    <td><a href="https://github.com/MultiSafepay/magento2-react-checkout-multisafepay" target="_blank"> Hyvä React checkout module</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i></td>
   </tr>
   <tr>
     <td><a href="https://www.mageplaza.com/magento-2-one-step-checkout-extension" target="_blank">MagePlaza One Step checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> </td>
     <td>By default, MagePlaza One Step checkout is supported. </td>
   </tr>
   <tr>
-    <td><a href="https://docs.hyva.io/checkout/hyva-checkout/index.html " target="_blank"> Hyvä Megawire checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> </td>
-    <td><a href="https://github.com/MultiSafepay/magewire-checkout" target="_blank"> Megawire checkout module</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i></td>
+    <td><a href="https://docs.hyva.io/checkout/hyva-checkout/index.html " target="_blank"> Hyvä checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> </td>
+    <td><a href="https://github.com/MultiSafepay/magento2-hyva-checkout" target="_blank">Hyvä checkout module</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i></td>
   </tr>
   <tr>
     <td> <a href="https://www.onestepcheckout.com/" target="_blank">OneStepCheckout.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> </td>
