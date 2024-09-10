@@ -171,8 +171,8 @@ Read how in3 Business can benefit your webshop on <a href="https://www.multisafe
 
 ### Amount limits: 
 
-- Minimum amount: 50 EUR 
-- Maximum amount: 5000 EUR 
+- Minimum amount: 150 EUR 
+- Maximum amount: 30000 EUR 
 
 ### Integration:
 
@@ -181,6 +181,13 @@ For `direct` requests:
 - Gateway: IN3B2B
 - Required fields: First name, last name, address, email, business name, chamber of commerce number. 
 
+Ready-made integrations: 
+
+- [Magento 2](/docs/magento-2/) 
+- Shopware 6
+- Prestashop 1.6
+- [PrestaShop 1.7](/docs/prestashop-1-7/)
+- Lightspeed 
 ---
 
 [block:html]
