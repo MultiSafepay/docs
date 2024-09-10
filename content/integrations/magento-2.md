@@ -17,17 +17,13 @@ slug: 'magento-2'
 
 </div>
 
-> ⚠️ Action required
->
-> If you are still using the deprecated plugin, we recommend [upgrading to the latest version](/docs/magento-2#upgrades) as soon as possible.
-
 Our plugin is supported by a certified Magento 2 Solution Specialist and receives regular updates for the latest features from Magento and MultiSafepay.
 
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Magento Open Source version 2.3.x & 2.4.x **or** Adobe Commerce version 2.3.x & 2.4.x (For GraphQL, only Magento Open Source versions 2.4.x are supported)
-- PHP 7.1+
+- Magento Open Source version 2.3.6+ & 2.4.x **or** Adobe Commerce version 2.4.x (For GraphQL, only Magento Open Source versions 2.4.x are supported)
+- PHP 7.2+
 
 # Modules
 
@@ -37,15 +33,16 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 
 The plugin consists of several Magento modules:
 
-| Module  | Description  |
-|---|---|
-| <a href="https://github.com/MultiSafepay/magento2-core" target="_blank">Multisafepay-magento2-core</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>   | Provides core functionalities  |
-| <a href="https://github.com/MultiSafepay/magento2-frontend" target="_blank">Multisafepay-magento2-frontend</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  | Enables payment <<glossary:gateways>> in the Magento checkout  |
-| <a href="https://github.com/MultiSafepay/magento2-adminhtml" target="_blank">Multisafepay-magento2-adminhtml</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  | Enables/disables payment gateways, and changes settings in the Magento backend  |
-| <a href="https://github.com/MultiSafepay/magento2-msi" target="_blank">Multisafepay-magento2-msi</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  | Handles stock when MSI is enabled  |
-| <a href="https://github.com/MultiSafepay/magento2-catalog-inventory" target="_blank">Multisafepay-magento2-catalog-inventory</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  | Handles stock when MSI is disabled  |
-| <a href="https://github.com/MultiSafepay/magento2" target="_blank">Multisafepay-magento2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  | Meta package that installs all the above  |
-| <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">Multisafepay-magento2-graphql</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>| For GraphQL support, extends and adds GraphQL queries and mutations |
+| Module                                                                                                                                                                                                    | Description  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
+| <a href="https://github.com/MultiSafepay/magento2-core" target="_blank">Multisafepay/magento2-core</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>                           | Provides core functionalities  |
+| <a href="https://github.com/MultiSafepay/magento2-frontend" target="_blank">Multisafepay/magento2-frontend</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>                   | Enables payment <<glossary:gateways>> in the Magento checkout  |
+| <a href="https://github.com/MultiSafepay/magento2-adminhtml" target="_blank">Multisafepay/magento2-adminhtml</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>                 | Enables/disables payment gateways, and changes settings in the Magento backend  |
+| <a href="https://github.com/MultiSafepay/magento2-msi" target="_blank">Multisafepay/magento2-msi</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>                             | Handles stock when MSI is enabled  |
+| <a href="https://github.com/MultiSafepay/magento2-catalog-inventory" target="_blank">Multisafepay/magento2-catalog-inventory</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | Handles stock when MSI is disabled  |
+| <a href="https://github.com/MultiSafepay/magento2" target="_blank">Multisafepay/magento2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>                                     | Meta package that installs all the above  |
+| <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">Multisafepay/magento2-graphql</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>                     | For GraphQL support, extends and adds GraphQL queries and mutations |
+| <a href="https://github.com/MultiSafepay/magento2-hyva-checkout" target="_blank">Multisafepay/hyva-checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>                  | Adds support for Hyvä Checkout |
 
 </details>
 
@@ -141,8 +138,8 @@ The plugin is compatible with most Magento checkouts.
     <td>By default, MagePlaza One Step checkout is supported. </td>
   </tr>
   <tr>
-    <td><a href="https://docs.hyva.io/checkout/hyva-checkout/index.html " target="_blank"> Hyvä Megawire checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> </td>
-    <td><a href="https://github.com/MultiSafepay/magewire-checkout" target="_blank"> Megawire checkout module</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i></td>
+    <td><a href="https://docs.hyva.io/checkout/hyva-checkout/index.html " target="_blank"> Hyvä Checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> </td>
+    <td><a href="https://github.com/MultiSafepay/magento2-hyva-checkout" target="_blank"> Hyvä Checkout module</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i></td>
   </tr>
   <tr>
     <td> <a href="https://www.onestepcheckout.com/" target="_blank">OneStepCheckout.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> </td>
@@ -394,16 +391,6 @@ To get a payment link for a customer, follow these steps:
 {{/depend}}
 ```
 
-**Magento 2.3.4+**
-
-The email template syntax is different for Magento 2.3.4+. Add this code snippet instead:
-
-```
-{{depend order.payment.additional_information.payment_link}}
-<a href="{{var order.payment.additional_information.payment_link}}">Pay now with {{var order.payment.additional_information.method_title}}</a>
-{{/depend}}
-```
-
 **Backend emails**
 
 To add payment links to order confirmation emails from your Magento **backend**, you can use the `payment_link` variable and an `if/else` statement in the template. 
@@ -618,145 +605,6 @@ You can update the plugin via <a href="https://getcomposer.org" target="_blank">
 
 </details>
 
-## Upgrades
-If you are still using the <a href="https://github.com/MultiSafepay/Magento2Msp" target="_blank">deprecated plugin</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, we recommend upgrading to the latest version as soon as possible.
-
-<details id="why-upgrade">
-<summary>Why upgrade?</summary>
-<br>
-
-The new plugin features code improvements, and unit and integration testing. It is built on top of the Magento payment provider <<glossary:gateway>> structure. Some payment methods now skip the MultiSafepay payment page, which increases <<glossary:conversion>>.
-
-We support most Magento functionalities. For any questions, email <integration@multisafepay.com>
-
-**New features**
-
-- Improved:
-    - Magento backend configuration, including support information
-    - Translations
-    - Error handling, and event and error logs
-- Documentation for payment methods 
-- Modular setup for greater installation flexibility
-- PWA (GraphQL) endpoints
-- Support for <a href="https://devdocs.magento.com/guides/v2.4/payments-integrations/vault/vault-intro.html" target="_blank">Magento Vault</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and <a href="https://docs.magento.com/user-guide/sales/checkout-instant-purchase.html" target="_blank">Instant Purchase</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (replace [recurring payments](/docs/recurring-payments/))
-
-**Configuration fields**
-
-We have removed or altered the following configuration fields:
-
-_Emailing invoices to customers_
-
-This feature now uses a Magento core configuration field: **Sales** > **Sales emails** > **Invoice** > **Enabled**.
-
-_Order statuses and flow_
-
-As of version 2.16, you can assign the following MultiSafepay statuses to a Magento order status:
-
-- Cancelled
-- Chargeback
-- Declined
-- Expired
-- Initialized
-- Partial refunded
-- Refunded
-- Reserved
-- Uncleared
-- Void
-
-We have updated the order status flow from version 2.5.0:
-
-- All new orders first receive **Pending** status.
-- When redirecting the customer, the status changes to **Pending payment**, until the customer reaches your success page. 
-- If the payment is succesfully received at this point, the status changes to **Processing**. 
-- Around the same time, the webhook is triggered and the invoice is created. The webhook changes the status to **Processing** (if it isn't already). 
-- For bank transfers, the status doesn't change to **Pending payment**, therefore the order isn't automatically cancelled after a set period of time to give the customer more time to pay.
-
-_Payment links_ 
-
-Payment links are now generated automatically. 
-
-_Reset gateway_  
-
-When creating an order in your Magento 2 backend, you can now select the MultiSafepay payment <<glossary:gateway>> instead. The payment gateway displays all active payment gateways to the customer based on the site settings in your MultiSafepay account. 
-
-To enable or disable the gateway on your checkout page, we have added a **Can use checkout** configuration field.
-
-_Keep cart alive_  
-
-The cart is now always kept alive when the customer clicks **Back** on the MultiSafepay payment page.
-
-_Checkout_
-
-We have changed the default payment flow from [redirect to direct](/reference/introduction#direct-vs-redirect) for:
-
-- AfterPay, E-Invoicing, in3, Pay After Delivery 
-- Direct Debit, Request to Pay
-
-We have included extra fields in the checkout for these payment methods. If you use a custom checkout, you must account for the iDEAL <<glossary:issuers>> checkout field and the new checkout fields for these payment methods.
-
-Alternatively, you can disable additional checkout fields for these payment methods and change the flow back to redirect. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment gateways** > **Gateway** > **Additional checkout fields**.
-
-</details>
-
-<details id="how-to-delete-the-deprecated-plugin">
-<summary>How to delete the deprecated plugin</summary>
-<br>
-
-Make sure you finish processing all orders created in the deprecated plugin before you delete it. The deprecated payment gateways are no longer available in Magento after deletion. 
-
-You can refund transactions processed through the deprecated plugin in your MultiSafepay dashboard, but **not** from your Magento 2 backend.
-
-The way you delete the deprecated plugin depends on the way you installed it:
-
-**Composer**
-
-There are two options:
-
-Option 1: Remove the code base
-
-``` 
-composer remove multisafepay/magento2msp
-php bin/magento setup:upgrade
-```
-
-Option 2: Do a complete uninstall
-
-This includes removing database entries and configuration.
-``` 
-bin/magento module:uninstall MultiSafepay_Connect --remove-data --clear-static-content
-php bin/magento setup:upgrade
-```
-
-_Backups_
-
-You can back up certain parts of the plugin by adding the following parameters: 
-
-- `--backup-code`
-- `--backup-media`
-- `--backup-db`
-
-For information about all parameters, see Magento - <a href="https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-uninstall-mods.html#instgde-cli-uninst-mod-uninst" target="_blank">Uninstall modules</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-If you want a field from the deprecated plugin back, email <integration@multisafepay.com>
-
-**app/code**
-
-1. Disable the plugin:
-    ``` 
-    php bin/magento module:disable --clear-static-content
-    php bin/magento setup:upgrade
-    ```
-2. To remove the code base, delete the app/code/MultiSafepay/Connect directory:
-    ```
-    cd app/code/MultiSafepay
-    rm -rf Connect
-    ```
-
-**Marketplace**
-
-If you installed the plugin via the Magento Marketplace, go to **System** > **Web setup wizard** > **Extension manager** > **Update / uninstall**.
-</details>
-<br>
-
 ---
 ## Troubleshooting
 
@@ -766,7 +614,7 @@ If you installed the plugin via the Magento Marketplace, go to **System** > **We
 
 ### Order Status Update
 
-If you experience issues with order statuses not being updated correctly (e.g., incongruence between pending and processing), this might happen randomly and be difficult to replicate. This is generally caused by third-party solutions interfering in the order processing flow and the observer being based on a different instance of the order object.
+If you experience issues with order statuses not being updated correctly (e.g., incongruent pending and processing), this might happen randomly and be difficult to replicate. This is generally caused by third-party solutions interfering in the order processing flow and the observer being based on a different instance of the order object.
 
 _Tip_: This issue might appear after upgrading to our latest plugin version, possibly due to faster notification processing times surfacing an already existing update conflict.
 
