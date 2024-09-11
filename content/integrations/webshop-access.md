@@ -45,7 +45,7 @@ With the results of these checks, reach out to us via [info@multisafepay.com](ma
 
 Tip: Check our status page for general updates or notifications.
 
-Further checks for for plugin integrations:
+Further checks for plugin integrations:
 
 - Set your backoffice to debug mode.
 - Send us the system report / error logs.
