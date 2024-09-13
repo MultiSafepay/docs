@@ -7,13 +7,13 @@ parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
 slug: 'drupal'
 ---
-# Drupal 8 & 9
+# Drupal 8 & 9 & 10
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Drupal_8.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/drupal-commerce-2/releases/download/3.0.0/commerce_multisafepay_payments-3.0.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/drupal-commerce-2/releases/download/4.0.0/commerce_multisafepay_payments-4.0.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/drupal-commerce-2/" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
