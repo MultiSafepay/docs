@@ -7,7 +7,7 @@ parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
 slug: 'drupal'
 ---
-# Drupal 8 & 9 & 10
+# Drupal 8, 9 & 10
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Drupal_8.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -24,7 +24,7 @@ slug: 'drupal'
 ## Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Drupal 8.9 and above or Drupal 9.x
+- Drupal 8.9 and above, Drupal 9.x and 10.x
 - Tested on PHP 7.2
 - Drupal Commerce 2.x
 
