@@ -23,6 +23,34 @@ Read how Pay After Delivery can benefit your business on <a href="https://www.mu
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
 | [Refunds](/docs/refund-payments/) | Yes: Full, partial, and API refunds| 
 
+# Gateway change - mandatory switch by August 31st 2024.
+
+> 🚧 Gateway change - mandatory switch by August 31st 2024.
+> 
+> Pay After Delivery has released an entirely new version of its payment method including a new gateway code. It is necessary to migrate to the new gateway ASAP as any new request to the old gateway after August 31st 2024 will be declined.
+
+## New Gateway
+
+The old gateway "PAYAFTER" is deprecated in favor of the new gateway "BNPL_MF" (similar to the <a href="https://docs.multisafepay.com/docs/pay-after-delivery-installments" target="_blank">Pay After Delivery Installments</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>]) product line. 
+
+### API integrations
+
+ Switch the gateway code in either redirect or direct transactions to "BNPL_MF".  
+ For _direct_ transaction requests, _bank account_ is no longer required. 
+
+### Plugin integrations
+
+- Configure "BNPL_MF" gateway.
+- deactivate "PAYAFTER" gateway. 
+
+### Redirect or Components
+
+Configure in your plugin integration "BNPL_MF" and deactivate "PAYAFTER" gateway in the MultiSafepay Control Panel. 
+
+**Questions?**  
+Contact our MultiFactor support at [klantenservice@multifactor.nl](mailto:klantenservice@multifactor.nl).
+
+
 # Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.

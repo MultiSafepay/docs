@@ -6,6 +6,10 @@ hidden: false
 slug: 'reports'
 ---
 
+Reports can be generated via your Merchant Dashboard, or received in a [subscription](/docs/reports#set-up-automated-reports). 
+
+Note: You can only retrieve data from approximately two years back.
+
 # Accountant export
 
 The accountant export lists all successful incoming and outgoing transactions, including the:
@@ -49,7 +53,7 @@ The accountant export lists all successful incoming and outgoing transactions, i
 | Paymenttype | A MultiSafepay fee, or the payment method |
 | Description 2-4 | Descriptions of the order |
 | Tr status | The <<glossary:transaction status>> |
-| Ms description | The site name |
+| Ms description | The site name, or name of the terminal group |
 | Mt merchanttransactionid | Your unique identifier for the order |
 | Mt cust firstname | The customer’s first name |
 | Mt cust lastname | The customer’s last name |
@@ -451,6 +455,16 @@ To identify transactions in reports by payment method, use the following N-codes
 
 <br>
 
+
+## Troubleshooting
+
+### Data range not applied 
+
+In some cases, the custom range selected for your report is not applied immediately. This can usually be solved by either accessing from a different browser, or deleting your cookies / cache data. 
+
+### Payout report not generated
+
+Note: The payout report is only available for automated withdrawals.
 ---
 
 [block:html]

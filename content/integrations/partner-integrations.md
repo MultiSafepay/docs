@@ -147,6 +147,27 @@ For other support, see Easywebshop – <a href="https://www.easywebshop.com/soft
 
 ___
 
+## Gomage 
+
+<a href="https://gomage.nl/" target="_blank">Gomage</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  provides a plugin to integrate with MultiSafepay.
+
+<details id="gomage-prerequisites">
+<summary>Prerequisites</summary>
+<br>
+
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
+
+</details>
+
+<details id="gomage-support">
+<summary>Support</summary>
+<br>
+
+For support, see <a href="https://gomage.nl/contact/" target="_blank">Gomage</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+</details>
+___
+
 ## Logic4
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Logic_4.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
@@ -251,7 +272,7 @@ To install and configure, see LogiVert – <a href="https://confluence.prezent.n
 ___
 ##Pronamic Pay
 
-<a href="<https://www.pronamicpay.com/>" target="_blank">Pronamic </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>,provides a Premium Pronamic Pay plugin to integrate MultiSafepay with multiple WordPress plugins.
+<a href="<https://www.pronamicpay.com/payment-providers/multisafepay/>" target="_blank">Pronamic </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>,provides a Premium Pronamic Pay plugin to integrate MultiSafepay with multiple WordPress plugins.
 
 <details id="pronamic-prerequisites">
 <summary>Prerequisites</summary>
@@ -313,7 +334,7 @@ For any technical queries, see – <a href="<https://www.pronamicpay.com/support
 <summary>Installation and configuration</summary>
 <br>
 
-To install and configure the plugin, see Pronamic Pay – <a href="<https://www.pronamicpay.com/manuals/how-to-connect-multisafepay-to-wordpress-with-pronamic-pay/>" target="_blank">Installation guide</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+To install and configure the plugin, see Pronamic Pay – <a href="<https://www.pronamicpay.com/nl/handleidingen/hoe-je-multisafepay-aan-wordpress-koppelt-met-pronamic-pay/>" target="_blank">Installation guide</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 </details>
 
 ___

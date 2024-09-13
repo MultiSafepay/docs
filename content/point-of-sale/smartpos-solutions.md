@@ -93,13 +93,15 @@ curl -X POST \
 2. Initiate a payment using the URL below:
 
 ``` URL
-msp://?amount={$amount}&order_id={$order_id}&callback={$callback_url}&notification_url={$notification_url}
+msp://?amount={$amount}&order_id={$order_id}&callback={$callback_url}&printing=true&tipping=true&notification_url={$notification_url}
 ```
 
 - `amount`: the amount specified in EUR cents. 
-- `order_id`: Your unique identifier for order ID.
-- `callback_url`: This URL redirects the customer to receive payment status notifications.
+- `order_id`: your unique identifier for order ID.
+- `callback_url`: this URL redirects the customer to receive payment status notifications.
 - Optionally, you can set `notification_url` to receive order payment updates notifications.
+- `tipping`: include a tip.
+- `printing`: activate printing function.
 
 Payment status received can either be  **Completed** or **Cancelled**.
 

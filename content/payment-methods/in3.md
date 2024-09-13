@@ -7,7 +7,7 @@ parentDoc: 62bd75142e264000a66d62b5
 slug: 'in3'
 ---
 
-<img src="https://github.com/MultiSafepay/MultiSafepay-icons/blob/master/methods/ideal-in3.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/ideal-in3.svg" width="80" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a href="https://payin3.eu/en/" target="_blank">in3</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a Dutch <<glossary:BNPL>> method where customers pay in 3 installments, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 guarantees <<glossary:settlement>> after receiving the first installment.
 
@@ -106,7 +106,7 @@ Different billing and shipping addresses are supported.
 ## Amount limits
 
 - Minimum amount: 50 EUR 
-- Maximum amount: 3000 EUR 
+- Maximum amount: 5000 EUR 
 
 You can adjust these limits in the <<glossary:backend>> of our [ready-made integrations](/docs/our-integrations/) to show or hide in3 on your checkout page depending on the order value.
 
@@ -156,6 +156,38 @@ We therefore strongly recommend **not** applying surcharges.
 For more information, email <sales@multisafepay.com> 
 <br>
 
+# in3 Business 
+
+We are currently in the pilot phase with in3 Business. 
+To activate this payment method, email <sales@multisafepay.com> 
+
+
+<a href="https://payin3.eu/en/in3-business/" target="_blank">in3</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a Dutch <<glossary:BNPL>> method where customers pay in 3 installments, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 guarantees <<glossary:settlement>> after receiving the first installment.
+
+Read how in3 Business can benefit your webshop on <a href="https://www.multisafepay.com/solutions/payment-methods/in3-business" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+
+
+## User guide
+
+### Amount limits: 
+
+- Minimum amount: 150 EUR 
+- Maximum amount: 30000 EUR 
+
+### Integration:
+
+For `direct` requests: 
+
+- Gateway: IN3B2B
+- Required fields: First name, last name, address, email, business name, chamber of commerce number. 
+
+Ready-made integrations: 
+
+- [Magento 2](/docs/magento-2/) 
+- Shopware 6
+- Prestashop 1.6
+- [PrestaShop 1.7](/docs/prestashop-1-7/)
+- Lightspeed 
 ---
 
 [block:html]

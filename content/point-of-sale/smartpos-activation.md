@@ -55,7 +55,7 @@ Install the MultiSafepay payment app on your terminal to scan the QR code.
 
 **Note:**  You can edit and link various terminals if you have already created a group.
 
-<details id="group"><summary>How to edit a group</summary>
+## How to edit a group
 
 1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Devices** > **Terminals**.
@@ -63,8 +63,11 @@ Install the MultiSafepay payment app on your terminal to scan the QR code.
 4. To edit an existing group:
 - Click the ** edit** icon next to the group name.
 - Fill in the **name** field.
-5. In the **<<glossary:MCC>>** field, click the **dropdown** icon and select the relevant MCC code.
+5. In the **Category** field, click the **dropdown** icon and select the relevant category code.
 6. Click **Create**.
+
+Tip: You can view your API key via *Manage groups* > API key. 
+
 
 ---
 </details>
