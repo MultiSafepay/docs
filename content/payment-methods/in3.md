@@ -7,7 +7,7 @@ parentDoc: 62bd75142e264000a66d62b5
 slug: 'in3'
 ---
 
-<img src="https://github.com/MultiSafepay/MultiSafepay-icons/blob/master/methods/ideal-in3.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/ideal-in3.svg" width="80" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a href="https://payin3.eu/en/" target="_blank">in3</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a Dutch <<glossary:BNPL>> method where customers pay in 3 installments, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 guarantees <<glossary:settlement>> after receiving the first installment.
 
