@@ -254,6 +254,19 @@ The plugin supports [recurring payments](/docs/recurring-payments).
 - [BNPL refunds](/docs/refund-payments#bnpl-refunds) are supported in the dashboard only.
 - Refunds for orders that include shopping cart rule discounts are supported in the dashboard only.
 
+<details id="how-to-process-refunds">
+<summary>How to process refunds</summary>
+<br>
+
+1. Sign in to your Prestahop 1.7 <<glossary:backend>>.
+2. Go to **Sell**>**Orders**>**Orders**
+3. Locate the order by **Order ID**, **Customer Name**, or other filters.
+4. Click on the relevant refund button:
+   - **Standard Refund**: If the order has not been shipped yet.
+   - **Partial Refund**: If the order has been shipped.
+
+</details>
+
 <details id="how-to-disable-api-refunds">
 <summary>How to disable API refunds</summary>
 <br>
