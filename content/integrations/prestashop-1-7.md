@@ -250,7 +250,7 @@ The plugin supports [recurring payments](/docs/recurring-payments).
 
 ## Refunds
 
-- [Full and partial refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and <<glossary:backend>>.  
+- [Full and partial refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and PrestaShop <<glossary:backend>>.  
 - [BNPL refunds](/docs/refund-payments#bnpl-refunds) are supported in the dashboard only.
 - Refunds for orders that include shopping cart rule discounts are supported in the dashboard only.
 
