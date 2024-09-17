@@ -127,6 +127,7 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     - Make [List tokens](/reference/listtokens) request from your server and provide a`tokens`  
     <br>
 
+
                 ```JavaScript
                 const orderData = {
                     currency: 'EUR',
