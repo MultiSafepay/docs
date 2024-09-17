@@ -13,7 +13,7 @@ slug: 'shopify-deprecated'
 >
 > As of January, 2025, this deprecated version of the Shopify app will no longer be supported.
 > [Migrate to our updated app](/docs/shopify#installation) as soon as possible.
-> The new app is designed as a single payment gateway option in the Shopify checkout, streamlining the payment process and speeding up transactions.
+> The main difference between the deprecated and the new integration is to provide the posibility to select a single payment option in the Shopify checkout, streamlining the payment process and speeding up transactions, instead of being redirected to the payment page of MultiSafepay to select the payment method.
 
 # Prerequisites
 
