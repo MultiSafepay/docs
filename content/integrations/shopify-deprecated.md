@@ -1,18 +1,18 @@
 ---
-title: "Shopify (deprecated)"
+title: "Shopify"
 category: 62962dd7e272a6002ebbbbc5
-order: 15
+order: 16
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free app."
-slug: 'shopify-deprecated'
+slug: 'shopify'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shopify.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 > ❗️ Urgent action required!
 >
-> As of January, 2025, the <a href="https://apps.shopify.com/multisafepay-payments" target="_blank">deprecated version of the app</a> will no longer be supported. 
-> [Migrate to our updated app](/docs/shopify#how-to-install) as soon as possible.
+> As of January, 2025, this deprecated version of the Shopify app will no longer be supported.
+> [Migrate to our updated app](/docs/shopify#installation) as soon as possible.
 > The new app is designed as a single payment gateway option in the Shopify checkout, streamlining the payment process and speeding up transactions.
 
 # Prerequisites
@@ -21,23 +21,23 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 # Installation
 
-To install or migrate, follow these steps:
+To install, follow these steps:
 
-1. Ensure that your Shopify user have <a href="https://help.shopify.com/en/manual/your-account/staff-accounts/staff-permissions/staff-permissions-descriptions#apps-and-channels-permissions" target="_blank">the permissions</a> to install new apps.
+1. For increased security and stability, wait for off-peak hours and temporarily enable password protection for your webshop.
 2. Check that the payment methods you want to use in Shopify are [activated for your MultiSafepay account](/docs/payment-methods). 
-3. Select the desired payment methods, installing their apps using one or more of the following links:
-    - <a href="https://apps.shopify.com/multisafepay-ideal" target="_blank">iDEAL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://apps.shopify.com/card-payment" target="_blank">Card Payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-5. Click on "Install" button.
-6. If necessary, log in to your Shopify store.
-7. On your admin page, select Install app. 
-6. Under **Settings**:
-   - **MultiSafepay API Key**: Enter your [site API key](/docs/sites#site-id-api-key-and-security-code).
-   - **Test mode**: Turn on if you are using a Test API key. Turn off for a Live API key.
-5. Click **Save**.
-6. Under **Payment configuration** click on the button **Payment configuration**
-   - Enable Test Mode if you are using a Test API key. Turn off for a Live API key.
-   - Enable or disable payment icons according your preferences.
+3. From the Shopify app store, install the <a href="https://apps.shopify.com/multisafepay-payments" target="_blank">MultiSafepay payments app</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+4. Under **Settings**:
+   - **Website API key**: Enter your [site API key](/docs/sites#site-id-api-key-and-security-code).
+   - **Environment**: Set whether it is a **live** or **test** key.
+5. Click **Save and continue** (might take a few seconds).
+    You are redirected to **Settings** > **Payments**.
+6. For each payment method you want to activate, on the **<Payment method> app** page:
+   - If Shopify has not reviewed the payment method yet, click **Install unlisted app**.
+   - Select the payment method checkbox.
+   - Under **Test mode**, select the **Enable test mode** checkbox.
+   - Click **Activate <payment method>**.
+    If the payment method is **not** activated for your MultiSafepay account, an error appears. 
+7. [Activate the method for your MultiSafepay account](/docs/payment-methods), and then in Shopify, click **Retry**. 
 
 ✅ &nbsp; **Tip!** We recommend first testing each payment method before setting your **live** API key. 
 <br>
@@ -78,7 +78,30 @@ The `pendingExpiresAt` value matches the date and time when the order expires an
 
 For more information, see Shopify.dev – <a href="https://shopify.dev/apps/payments/processing-a-payment#pend-a-payment" target="_blank">Pend a payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-**Note:** If an order is not completed within **2** hours, the <<glossary:order status>> changes from **Pending** to **Expired**.
+**Note:** If an order is not completed within **2** hours, the <<glossary:order status>> changes from **Pending** to **Expired**. 
+
+
+## Payment methods
+
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
+<br>
+
+- Banking methods: 
+  - [Bancontact](/docs/bancontact/)
+  - [Bank transfer](/docs/bank-transfer/)
+  - [Belfius](/docs/belfius/)
+  - [Direct debit](/docs/direct-debit/)
+  - [EPS](/docs/eps/)
+  - [Giropay](/docs/giropay/)
+  - [iDEAL](/docs/ideal/)
+  - [Sofort](/docs/sofort/)
+  - [Trustly](/docs/trustly/)
+- Cards: [All](/docs/card-payments/)
+- Prepaid cards: [Paysafecard](/docs/paysafecard/), Fashioncheque
+- Wallets: [WeChat Pay](/docs/wechat-pay/)
+
+</details> 
 
 ## Reconciliation
 
