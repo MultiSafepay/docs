@@ -13,7 +13,7 @@ slug: 'shopify'
 >
 > As of January, 2025, the <a href="https://apps.shopify.com/multisafepay-payments" target="_blank">deprecated version of the app</a> will no longer be supported. 
 > [Migrate to our updated app](/docs/shopify#how-to-install) as soon as possible.
-> The new app is designed as a single payment gateway option in the Shopify checkout, streamlining the payment process and speeding up transactions.
+> The new Shopify app allows you to list each payment method individually within your checkout. After selection, the customer is redirected to the payment page.
 
 # Prerequisites
 
