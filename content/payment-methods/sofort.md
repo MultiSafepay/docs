@@ -1,5 +1,5 @@
 ---
-title: 'Sofort'
+title: 'Sofort (Deprecated)'
 category: 6298bd782d1cf4006032e765
 order: 13
 hidden: false
