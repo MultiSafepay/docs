@@ -1,11 +1,11 @@
 ---
-title: "Shopify (deprecated)"
+title: "Shopify"
 category: 62962dd7e272a6002ebbbbc5
 order: 15
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free app."
-slug: 'shopify-deprecated'
+slug: 'shopify'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shopify.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
