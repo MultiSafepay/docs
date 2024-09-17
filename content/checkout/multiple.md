@@ -86,6 +86,7 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     <summary>Properties</summary>
     <br>
 
+
 | Key                                          | Required                   | Value                                                                                                                                                                             |
 |----------------------------------------------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `amount`                                     | Yes                        | The value of the order. <br> **Format**: Number without decimal points, e.g., 100 euro is formatted as `10000`.                                                                                                          |
@@ -103,6 +104,8 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
 <br>
 </details>
 
+
+
 <details id="how-to-process-recurring-payments">
 <summary>How to process recurring payments</summary>
 <br>
@@ -112,10 +115,11 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
 Upon subsequent payments, customers can select their stored payment details and pay with a single click.
 
 To process recurring payments in your payment component:
-- Add the `cardOnFile` recurring model
-- Make [List tokens](/reference/listtokens) request from your server and provide a`tokens`  
+  - Add the `cardOnFile` recurring model
+  - Make [List tokens](/reference/listtokens) request from your server and provide a`tokens`  
     <br>
 
+  
                 ```JavaScript
                 const orderData = {
                     currency: 'EUR',
@@ -159,6 +163,7 @@ To process recurring payments in your payment component:
                 };
                 ```
 
+
     > ✅ Success
     >
     > Your payment component now automatically renders a checkbox where customers can choose whether they would like to store their payment details for future visits.
@@ -170,6 +175,7 @@ To process recurring payments in your payment component:
     To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email [\[sales@multisafepay.com\](mailto:sales@multisafepay.com)](mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com))
 
 </details>
+
 
 📘 **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and order value.
 
