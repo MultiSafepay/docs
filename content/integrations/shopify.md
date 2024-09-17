@@ -23,7 +23,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 To install or migrate, follow these steps:
 
-1. Ensure that your Shopify user have <a href="https://help.shopify.com/en/manual/your-account/staff-accounts/staff-permissions/staff-permissions-descriptions#apps-and-channels-permissions" target="_blank">the permissions</a> to install new apps.
+1. Ensure that your Shopify user has <a href="https://help.shopify.com/en/manual/your-account/staff-accounts/staff-permissions/staff-permissions-descriptions#apps-and-channels-permissions" target="_blank">the permissions</a> to install new apps.
 2. Check that the payment methods you want to use in Shopify are [activated for your MultiSafepay account](/docs/payment-methods). 
 3. Select the desired payment methods, installing their apps using one or more of the following links:
    - <a href="https://apps.shopify.com/card-payment" target="_blank">Card Payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
@@ -37,7 +37,7 @@ To install or migrate, follow these steps:
 5. Click **Save**.
 6. Under **Payment configuration** click on the button **Payment configuration**
    - Enable Test Mode if you are using a Test API key. Turn off for a Live API key.
-   - Enable or disable payment icons according your preferences.
+   - Enable or disable payment icons according to your preferences.
 
 ✅ &nbsp; **Tip!** We recommend first testing each payment method before setting your **live** API key. 
 <br>
