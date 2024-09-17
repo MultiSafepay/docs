@@ -1,5 +1,5 @@
 ---
-title: 'Giropay'
+title: 'Giropay (Deprecated)'
 category: 6298bd782d1cf4006032e765
 order: 9
 hidden: false
