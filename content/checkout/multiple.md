@@ -123,10 +123,9 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     Upon subsequent payments, customers can select their stored payment details and pay with a single click.
 
     To process recurring payments in your payment component:
-
-            - Add the `cardOnFile` recurring model
-            - Make [List tokens](/reference/listtokens) request from your server and provide a`tokens`  
-                <br>
+    - Add the `cardOnFile` recurring model
+    - Make [List tokens](/reference/listtokens) request from your server and provide a`tokens`  
+    <br>
 
                 ```JavaScript
                 const orderData = {
