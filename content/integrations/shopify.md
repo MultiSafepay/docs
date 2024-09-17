@@ -58,7 +58,7 @@ If a customer cancels a payment to use another payment method instead, they must
 
 ## Checkout Configuration
 
-To send an order request with as much information as possible, we recommend setting up the checkout using as customer contact method the email and if required, adding the phone number in the customer information. This can be setup in **Settings** > Checkout page.
+To send an order request with as much information as possible, we recommend setting up the checkout by using the email as the primary customer contact method and, if required, adding the phone number in the customer information. This can be set up in Settings > Checkout Page.
 
 ## Countries
 
@@ -86,7 +86,7 @@ To match orders in your accounting system with your MultiSafepay account, use th
 
 ## Refunds
 
-[Full and partial refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.  
+[Full and partial refunds](/docs/refund-payments/) are supported via your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.
 
 ---

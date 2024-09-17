@@ -29,14 +29,13 @@ To install, follow these steps:
 4. Under **Settings**:
    - **Website API key**: Enter your [site API key](/docs/sites#site-id-api-key-and-security-code).
    - **Environment**: Set whether it is a **live** or **test** key.
-5. Click **Save and continue** (might take a few seconds).
+5. Click **Save and continue** (this process might take a few seconds).
     You are redirected to **Settings** > **Payments**.
-6. For each payment method you want to activate, on the **<Payment method> app** page:
-   - If Shopify has not reviewed the payment method yet, click **Install unlisted app**.
+6. For each payment method you wish to activate, follow the below steps on the **app** page:
    - Select the payment method checkbox.
    - Under **Test mode**, select the **Enable test mode** checkbox.
    - Click **Activate <payment method>**.
-    If the payment method is **not** activated for your MultiSafepay account, an error appears. 
+    If the payment method is **not** activated for your MultiSafepay account, then in Shopify an error appears. 
 7. [Activate the method for your MultiSafepay account](/docs/payment-methods), and then in Shopify, click **Retry**. 
 
 ✅ &nbsp; **Tip!** We recommend first testing each payment method before setting your **live** API key. 
@@ -58,7 +57,7 @@ If a customer cancels a payment to use another payment method instead, they must
 
 ## Checkout Configuration
 
-To send an order request with as much information as possible, we recommend setting up the checkout using as customer contact method the email and if required, adding the phone number in the customer information. This can be setup in **Settings** > Checkout page.
+To send an order request with as much information as possible, we recommend setting up the checkout by using the email as the primary customer contact method and, if required, adding the phone number in the customer information. This can be set up in Settings > Checkout Page.
 
 ## Countries
 
@@ -93,9 +92,7 @@ For more information, see Shopify.dev – <a href="https://shopify.dev/apps/paym
   - [Belfius](/docs/belfius/)
   - [Direct debit](/docs/direct-debit/)
   - [EPS](/docs/eps/)
-  - [Giropay](/docs/giropay/)
   - [iDEAL](/docs/ideal/)
-  - [Sofort](/docs/sofort/)
   - [Trustly](/docs/trustly/)
 - Cards: [All](/docs/card-payments/)
 - Prepaid cards: [Paysafecard](/docs/paysafecard/), Fashioncheque
@@ -109,7 +106,7 @@ To match orders in your accounting system with your MultiSafepay account, use th
 
 ## Refunds
 
-[Full and partial refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.  
+[Full and partial refunds](/docs/refund-payments/) are supported via your MultiSafepay dashboard and backend.  
 You can't refund more than the original amount in your backend.
 
 ---
