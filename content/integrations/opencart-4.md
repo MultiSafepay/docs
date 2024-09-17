@@ -161,7 +161,7 @@ You can't refund more than the original amount in your backend.
 <summary>How to process backend refunds</summary>
 <br>
 
-1. Sign in to your OpenCart 4 <glossary:backend>.
+1. Sign in to your OpenCart 4 <<glossary:backend>>.
 2. Go to **Orders** > **Order view button** > **Order history panel**. 
 3. Click the **Refund** button.  
 This only appears if the <<glossary:order status>> is **Completed** or **Shipped**.
