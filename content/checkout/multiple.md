@@ -90,9 +90,9 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     | Key                                          | Required                   | Value                                                                                                                                                                             |
     |----------------------------------------------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | `amount`                                     | Yes                        | The value of the order. <br> **Format**: Number without decimal points, e.g., 100 euro is formatted as `10000`.                                                                                                          |
-    | `currency`                                   | Yes                        | The currency of the order. <br> **Format**: [ISO-4217](https://en.wikipedia.org/wiki/ISO_4217), e.g., `EUR`.                                                                                                             |
-    | `customer.country`                           | No                         | The customer's country code. Used to validate the availability of the payment method. <br> **Format**: [ISO-3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2), e.g., `NL`.                              |
-    | `customer.locale`                            | No                         | The customer's language. Sets the language of the payment component UI. <br> **Format**: [ISO 639](https://en.wikipedia.org/wiki/ISO_639). <br> Supported languages: `en`, `es`, `fr`, `it`, `nl`.                     |
+    | `currency`                                   | Yes                        | The currency of the order. <br> **Format**: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g., `EUR`.                                                                                                             |
+    | `customer.country`                           | No                         | The customer's country code. Used to validate the availability of the payment method. <br> **Format**: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, e.g., `NL`.                              |
+    | `customer.locale`                            | No                         | The customer's language. Sets the language of the payment component UI. <br> **Format**: <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO 639</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. <br> Supported languages: `en`, `es`, `fr`, `it`, `nl`.                     |
     | `customer.reference`                         | Yes, for recurring payments | Your unique customer reference. <br> (\*currently not supported for QR payments.)                                                                                                                                        |
     | `payment_options.settings.connect.group_cards`| No                         | Groups all card payment methods as a single option in the list of payment methods. <br> **Format**: Boolean <br> **Default**: `false`.                                                                                   |
     | `payment_options.settings.connect.qr`         | No                         | Allows QR code to be rendered for iDEAL and Bancontact: `enabled`. <br> `autoload` allows automatic display of QR code, and subsequent redirect for these methods. **Default**: `true`.                                   |
@@ -173,65 +173,7 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
 
     </details>
 
-<!--   
-                ```JavaScript
-                const orderData = {
-                    currency: 'EUR',
-                    amount: 10000,
-                    customer: {
-                        locale: 'en',
-                        country: 'NL'
-                    },
-                    template : {
-                        settings: {
-                        embed_mode: true
-                    }
-                }
-                };
-                const recurringData = {
-                "model": "cardOnFile",
-                "tokens": [
-                    {
-                        "token": "AvqeOjgdm8A",
-                        "code": "IDEAL",
-                        "display": "xxxxxxxxxNL81PSTB0000012345",
-                        "bin": null,
-                        "name_holder": "Schilder",
-                        "expiry_date": "",
-                        "expired": 0,
-                        "last4": null,
-                        "model": "cardOnFile"
-                    },
-                    {
-                        "token": "BcEWsknWsYg",
-                        "code": "MASTERCARD",
-                        "display": "Card xxxx xxxx xxxx 4444",
-                        "bin": 555555,
-                        "name_holder": "Holder",
-                        "expiry_date": 2412,
-                        "expired": 0,
-                        "last4": 4444,
-                        "model": "cardOnFile"
-                    }
-                ]
-                };
-                ```
-
-
-    > ✅ Success
-    >
-    > Your payment component now automatically renders a checkbox where customers can choose whether they would like to store their payment details for future visits.
-
-    Recurring payments are supported for all card payments.
-
-    📘 **Note:** To test card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
-
-    To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email [\[sales@multisafepay.com\](mailto:sales@multisafepay.com)](mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com))
-
-</details> -->
-
-
-📘 **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and order value.
+    📘 **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and order value.
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `order` object and your API token:
 
