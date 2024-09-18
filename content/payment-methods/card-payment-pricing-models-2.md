@@ -1,12 +1,12 @@
 ---
-title: 'Card payment pricing models'
+title: "Card payment pricing models"
 category: 6298bd782d1cf4006032e765
 order: 30
 hidden: false
 parentDoc: 62a727569e389a012f577acd
-excerpt: 'Distinction between Blended and Interchange ++ pricing'
-slug: 'card-payment-pricing-models'
---- 
+excerpt: Distintion between Blended and Interchange ++ pricing
+slug: "card-payment-pricing-models"
+---
 
 Banks and <<glossary:card schemes>> charge different fees to cover the operational costs of managing their network and processing card payments.
 
@@ -58,3 +58,5 @@ If your business mostly relies on cross-border and B2B sales, Interchange++ pric
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:sales@multisafepay.com\">sales@multisafepay.com</a></p>\n</blockquote>\n"
 }
 [/block]
+
+[Top of page](#)
