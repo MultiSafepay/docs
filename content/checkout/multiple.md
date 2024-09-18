@@ -173,65 +173,7 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
 
     </details>
 
-<!--   
-                ```JavaScript
-                const orderData = {
-                    currency: 'EUR',
-                    amount: 10000,
-                    customer: {
-                        locale: 'en',
-                        country: 'NL'
-                    },
-                    template : {
-                        settings: {
-                        embed_mode: true
-                    }
-                }
-                };
-                const recurringData = {
-                "model": "cardOnFile",
-                "tokens": [
-                    {
-                        "token": "AvqeOjgdm8A",
-                        "code": "IDEAL",
-                        "display": "xxxxxxxxxNL81PSTB0000012345",
-                        "bin": null,
-                        "name_holder": "Schilder",
-                        "expiry_date": "",
-                        "expired": 0,
-                        "last4": null,
-                        "model": "cardOnFile"
-                    },
-                    {
-                        "token": "BcEWsknWsYg",
-                        "code": "MASTERCARD",
-                        "display": "Card xxxx xxxx xxxx 4444",
-                        "bin": 555555,
-                        "name_holder": "Holder",
-                        "expiry_date": 2412,
-                        "expired": 0,
-                        "last4": 4444,
-                        "model": "cardOnFile"
-                    }
-                ]
-                };
-                ```
-
-
-    > ✅ Success
-    >
-    > Your payment component now automatically renders a checkbox where customers can choose whether they would like to store their payment details for future visits.
-
-    Recurring payments are supported for all card payments.
-
-    📘 **Note:** To test card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
-
-    To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email [\[sales@multisafepay.com\](mailto:sales@multisafepay.com)](mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com))
-
-</details> -->
-
-
-📘 **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and order value.
+    📘 **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and order value.
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `order` object and your API token:
 
