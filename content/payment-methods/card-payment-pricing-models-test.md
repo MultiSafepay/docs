@@ -32,7 +32,7 @@ The actual cost for processing a card transaction vary considerably depending on
 
 We distinguish between two main card pricing models: **Blended** and **Interchange ++**.
 
-### Blended pricing
+### Blended pricing 
 
 In the Blended pricing model, a fixed percentage is charged based on an initial projection of the card volume and market.
 
