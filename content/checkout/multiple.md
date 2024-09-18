@@ -116,49 +116,48 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     - Add the `cardOnFile` recurring model
     - Make [List tokens](/reference/listtokens) request from your server and provide a`tokens`  
     <br>
-
         ```javascript
         const orderData = {
-        currency: 'EUR',
-        amount: 10000,
-        customer: {
-            locale: 'en',
-            country: 'NL'
-        },
-        template: {
-            settings: {
-                embed_mode: true
+            currency: 'EUR',
+            amount: 10000,
+            customer: {
+                locale: 'en',
+                country: 'NL'
+            },
+            template: {
+                settings: {
+                    embed_mode: true
+                }
             }
-        }
         };
 
         const recurringData = {
         model: "cardOnFile",
         tokens: [
-            {
-                token: "AvqeOjgdm8A",
-                code: "IDEAL",
-                display: "xxxxxxxxxNL81PSTB0000012345",
-                bin: null,
-                name_holder: "Schilder",
-                expiry_date: "",
-                expired: 0,
-                last4: null,
-                model: "cardOnFile"
-            },
-            {
-                token: "BcEWsknWsYg",
-                code: "MASTERCARD",
-                display: "Card xxxx xxxx xxxx 4444",
-                bin: 555555,
-                name_holder: "Holder",
-                expiry_date: 2412,
-                expired: 0,
-                last4: 4444,
-                model: "cardOnFile"
-                                }
-                            ]
-                        };
+                {
+                    token: "AvqeOjgdm8A",
+                    code: "IDEAL",
+                    display: "xxxxxxxxxNL81PSTB0000012345",
+                    bin: null,
+                    name_holder: "Schilder",
+                    expiry_date: "",
+                    expired: 0,
+                    last4: null,
+                    model: "cardOnFile"
+                },
+                {
+                    token: "BcEWsknWsYg",
+                    code: "MASTERCARD",
+                    display: "Card xxxx xxxx xxxx 4444",
+                    bin: 555555,
+                    name_holder: "Holder",
+                    expiry_date: 2412,
+                    expired: 0,
+                    last4: 4444,
+                    model: "cardOnFile"
+                }
+            ]
+        };
         ```              
 
     > ✅ Success
