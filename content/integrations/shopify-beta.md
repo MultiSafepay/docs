@@ -54,12 +54,6 @@ If a customer cancels a payment to use another payment method instead, they must
 
 To send an order request with as much information as possible, we recommend setting up the checkout by using the email as the primary customer contact method and, if required, adding the phone number in the customer information. This can be set up in Settings > Checkout Page.
 
-## Countries
-
-The app is unavailable in Norway and Finland. 
-
-For more information, email <integration@multisafepay.com>
-
 ## Currencies
 
 Payments are processed in the webshop's default currency only.
