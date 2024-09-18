@@ -116,9 +116,8 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     - Add the `cardOnFile` recurring model
     - Make [List tokens](/reference/listtokens) request from your server and provide a`tokens`  
     <br>
-
-        ```javascript
-        const orderData = {
+    ```javascript
+    const orderData = {
         currency: 'EUR',
         amount: 10000,
         customer: {
@@ -130,9 +129,9 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
                 embed_mode: true
             }
         }
-        };
+    };
 
-        const recurringData = {
+    const recurringData = {
         model: "cardOnFile",
         tokens: [
             {
@@ -156,10 +155,10 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
                 expired: 0,
                 last4: 4444,
                 model: "cardOnFile"
-                                }
-                            ]
-                        };
-        ```              
+            }
+        ]
+    };
+    ```              
 
     > ✅ Success
     >
