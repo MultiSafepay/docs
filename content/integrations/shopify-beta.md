@@ -58,16 +58,6 @@ To send an order request with as much information as possible, we recommend sett
 
 Payments are processed in the webshop's default currency only.
 
-## Order expiration
-
-Shopify orders expire after **3** days. 
-
-The `pendingExpiresAt` value matches the date and time when the order expires and must be within 3 days of calling the `paymentSessionPending` mutation (once only).
-
-For more information, see Shopify.dev – <a href="https://shopify.dev/apps/payments/processing-a-payment#pend-a-payment" target="_blank">Pend a payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-
-**Note:** If an order is not completed within **2** hours, the <<glossary:order status>> changes from **Pending** to **Expired**.
-
 ## Reconciliation
 
 To match orders in your accounting system with your MultiSafepay account, use the MultiSafepay order ID and the Shopify payment ID.
