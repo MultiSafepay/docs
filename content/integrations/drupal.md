@@ -25,7 +25,6 @@ slug: 'drupal'
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - Drupal 8.9 and above, Drupal 9.x and 10.x
-- Tested on PHP 7.2
 - Drupal Commerce 2.x
 
 ## Installation
