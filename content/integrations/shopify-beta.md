@@ -21,7 +21,8 @@ To install or migrate, follow these steps:
 2. Check that the payment methods you want to use in Shopify are [activated for your MultiSafepay account](/docs/payment-methods). 
 3. Select the desired payment methods, installing their apps using one or more of the following links:
    - <a href="https://apps.shopify.com/card-payment" target="_blank">Card Payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://apps.shopify.com/multisafepay-ideal" target="_blank">iDEAL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+   - <a href="https://apps.shopify.com/direct-debit" target="_blank">Direct debit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+   - <a href="https://apps.shopify.com/multisafepay-ideal" target="_blank">iDEAL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 5. Click on "Install" button.
 6. If necessary, log in to your Shopify store.
 7. On your admin page, select Install app. 
