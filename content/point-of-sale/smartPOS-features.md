@@ -152,6 +152,8 @@ Via Settings > **Closing balance**, can set the following parameters:
 
 </details>
 
+**Tip**: You can print your closing balance report using either the device printer, or the [external printer](docs/test-page#external-printer).
+
 ***
 
 
