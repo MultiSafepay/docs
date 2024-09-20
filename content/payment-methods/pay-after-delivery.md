@@ -35,7 +35,8 @@ The old gateway "PAYAFTER" is deprecated in favor of the new gateway "BNPL_MF" (
 
 ### API integrations
 
- Switch the gateway code in either redirect or direct transactions to "BNPL_MF".  
+ Switch the gateway code in either redirect or direct transactions to "BNPL_MF".
+ 
  For _direct_ transaction requests, _bank account_ is no longer required. 
 
 ### Plugin integrations

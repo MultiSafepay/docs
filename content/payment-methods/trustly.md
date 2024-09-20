@@ -16,7 +16,7 @@ Read how Trustly can benefit your business on <a href="https://www.multisafepay.
 
 | Supports | Details |  
 |---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, Germany, Greece, Hungary, Italy (does not cooperate with all major banks), Ireland, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, United Kingdom <br> <<glossary:Payouts>> are supported in all the above countries. See also countries that support [deposits](#deposits).  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Austria, Czech Republic, Denmark, Estonia, Finland, Germany, Latvia, Lithuania, Netherlands, Norway, Poland, Portugal, Spain, Sweden, United Kingdom <br> <<glossary:Payouts>> are supported in all the above countries. See also countries that support [deposits](#deposits).  | 
 | [Currencies](/docs/currencies/)  | EUR, GBP, SEK | 
 | [Chargebacks](/docs/chargebacks/)  | No | 
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |
