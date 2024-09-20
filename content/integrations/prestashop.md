@@ -32,16 +32,16 @@ slug: 'prestashop'
 
 # Installation
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the PrestaShop 1.7 installation procedure. Always make a backup.
+✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the PrestaShop installation procedure. Always make a backup.
 
-1. Sign in to your PrestaShop 1.7 <<glossary:backend>>.
+1. Sign in to your PrestaShop Back Office.
 2. Go to **Modules** > **Module Manager** > **Upload a module**.
 3. Select the Plugin_PrestaShop.zip file, and then click **Configure**.
 4. Clear your cache.
 
 # Configuration
 
-1. Sign in to your PrestaShop 1.7 backend.
+1. Sign in to your PrestaShop Back Office.
 2. Go to **MultiSafepay**, and enter your [site API key](/docs/sites/#site-id-api-key-and-security-code).
 3. On the **Payment methods** tab, enable the relevant payment methods.
 4. Click **Save**.
@@ -65,7 +65,7 @@ After completing the configuration, enable specific countries to make the paymen
 
 ## Backend orders
 
-In the previous release, PrestaShop backend orders were only created for MultiSafepay orders with **Completed** status. 
+In the previous release, PrestaShop Back Office orders were only created for MultiSafepay orders with **Completed** status. 
 In the current release, a backend order is created for **every** order attempt, that is for MultiSafepay orders with **Initialized** status.
 
 ## Checkouts
@@ -95,7 +95,7 @@ Supported since release: 5.0.0-RC-1, Oct 27th 2021.
 <summary>How to configure generic gateways</summary>
 <br>
 
-1. Sign in to your Prestashop 1.7 backend.
+1. Sign in to your PrestaShop Back Office.
 2. Go to **MultiSafepay** > **Payment methods** > **Generic gateway**.
 3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/) and the gateway icon.
 
@@ -138,7 +138,7 @@ If the notification hasn't been processed yet, a waiting page with a loader disp
 
 To change the flow you are using, follow these steps:
 
-1. Sign in to your PrestaShop 1.7 backend.
+1. Sign in to your  PrestaShop Back Office.
 2. Go to **MultiSafepay** > **General settings** tab.
 3. In the **Create order before payment** field, select the flow.
 4. Click **Save**.
@@ -166,7 +166,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 <summary>How to activate payment components</summary>
 <br>
 
-1. Sign in to your PrestaShop 1.7 backend.
+1. Sign in to your PrestaShop Back Office.
 2. Go to **MultiSafepay** > **Payment methods** tab.
 3. Select the relevant payment methods.
 4. Set **Enable payment component** toggle to **Enabled**.
@@ -240,7 +240,7 @@ The plugin supports [recurring payments](/docs/recurring-payments).
 <summary>How to enable recurring payments</summary>
 <br>
 
-1. Sign in to your PrestaShop 1.7 backend. 
+1. Sign in to your PrestaShop Back Office. 
 2. Go to **MultiSafepay** > **Payment methods** tab.  
 3. Select either the bundled card payments <<glossary:gateway>>, **or** select specific card. 
 4. Set the **Enable tokenization** toggle to **Enabled**.
@@ -250,7 +250,7 @@ The plugin supports [recurring payments](/docs/recurring-payments).
 
 ## Refunds
 
-- [Full and partial refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and <<glossary:backend>>.  
+- [Full and partial refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and PrestaShop <<glossary:backend>>.  
 - [BNPL refunds](/docs/refund-payments#bnpl-refunds) are supported in the dashboard only.
 - Refunds for orders that include shopping cart rule discounts are supported in the dashboard only.
 
@@ -262,12 +262,14 @@ By default, refunds initiated in your backend are automatically processed via ou
 
 To disable this, follow these steps:
 
-1. Sign in to your PrestaShop 1.7 backend.
+1. Sign in to your PrestaShop Back Office.
 2. Go to **MultiSafepay** > **Manage hooks**.
 3. Select **Display non-positionable hooks**.
 4. For **actionOrderSlipAdd**, select the three dots, and then click **Unhook**.
 
 </details>
+<br>
+For more information, see PrestaShop – <a href="https://docs.prestashop-project.org/v.8-documentation/user-guide/selling/managing-orders/order-page-management/creating-returns-and-refunds" target="_blank">Creating returns and refunds</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## Shopping carts
 
@@ -281,7 +283,7 @@ As a temporary solution, you can disable sending the shopping cart with the paym
 <summary>How to disable the shopping cart</summary>
 <br>
 
-1. Sign in to your PrestaShop 1.7 backend.
+1. Sign in to your PrestaShop Back Office.
 2. Go to **MultiSafepay** > **General settings** tab.
 3. Set the **Disable Shopping Cart** toggle to **Enabled**.
 4. Click **Save**.
@@ -311,7 +313,7 @@ There are several <a href="https://addons.prestashop.com/en/search?search_query=
 
 To translate elements of the MultiSafepay module in the plugin, follow these steps:
 
-1. Sign in to your PrestaShop 1.7 backend.
+1. Sign in to your PrestaShop Back Office.
 2. Go to **International** > **Translations**.
 3. On the **Modify translations** tab, from the **Type of translation** list, select **Installed module translations**.
 4. Select the **MultiSafepay** module and the **Language**, and then click **Modify**.
