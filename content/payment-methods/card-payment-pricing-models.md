@@ -1,7 +1,7 @@
 ---
 title: "Card payment pricing models"
 category: 6298bd782d1cf4006032e765
-order: 30
+order: 2
 hidden: false
 parentDoc: 62a727569e389a012f577acd
 excerpt: Distintion between Blended and Interchange ++ pricing

@@ -1,7 +1,7 @@
 ---
 title: 'Cardholder data'
 category: 6298bd782d1cf4006032e765
-order: 28
+order: 5
 hidden: false
 parentDoc: 62a727569e389a012f577acd
 excerpt: Handle sensitive cardholder data on your PCI DSS compliant server.

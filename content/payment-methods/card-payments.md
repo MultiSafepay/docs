@@ -1,7 +1,7 @@
 ---
 title: 'Card payments'
 category: 6298bd782d1cf4006032e765
-order: 24
+order: 3
 hidden: false
 slug: 'card-payments'
 parentDoc: 62a727569e389a012f577acd
