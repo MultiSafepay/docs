@@ -40,6 +40,19 @@ To install or migrate, follow these steps:
 
 ---
 
+# Uninstallation
+
+To uninstall, follow these steps:
+
+1. Ensure that your Shopify user has <a href="https://help.shopify.com/en/manual/your-account/staff-accounts/staff-permissions/staff-permissions-descriptions#apps-and-channels-permissions" target="_blank">the permissions</a> to uninstall apps.
+2. On your admin page, go to **Settings** > **Apps and sales channels**.
+3. Select the MultiSafepay payment app you want to uninstall, and clicking on the three dots icon, select the option **Uninstall**.
+4. On the dialog window, select a reason and confirm the action by clicking in the **Uninstall** button.
+
+<br>
+
+---
+
 # User guide
 
 ## Abandoned checkouts
