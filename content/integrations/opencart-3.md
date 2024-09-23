@@ -242,8 +242,7 @@ As a temporary solution, you can disable payments with shopping carts.
 
 ## Surcharges
 
-[Surcharges](/docs/surcharges/) are no longer supported, but you can request a patch.  
-Email <integration@multisafepay.com> 
+[Surcharges](/docs/surcharges/) are not supported by default. 
 
 > ⚠️ Attention Dutch merchants
 >
