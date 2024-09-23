@@ -50,6 +50,8 @@ Create an order. See Recipe - <a href="https://docs.multisafepay.com/recipes/clo
 
 To receive payments updates subscribe to [Event notifications.](/docs/event-notifications)
 
+**Tip**: You can use **cloud mode** to cancel a transaction on a terminal from your kiosk using the [Update or cancel order](https://docs.multisafepay.com/reference/updateorder) request.
+
 <br>
 
 ***
