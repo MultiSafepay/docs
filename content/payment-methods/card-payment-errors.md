@@ -1,7 +1,7 @@
 ---
 title: "Card payment errors"
 category: 6298bd782d1cf4006032e765
-order: 26
+order: 1
 hidden: false
 parentDoc: 62a727569e389a012f577acd
 slug: "card-payment-errors"
