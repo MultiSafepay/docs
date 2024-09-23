@@ -49,6 +49,9 @@ This diagram shows a successful cloud-based POS payment flow. Click to magnify.
 Create an order. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 To receive payments updates subscribe to [Event notifications.](/docs/event-notifications)
+
+**Tip**: You can use **cloud mode** to cancel a transaction on a terminal from your kiosk using the [Update or cancel order](https://docs.multisafepay.com/reference/updateorder) request.
+
 <br>
 
 ***
