@@ -242,7 +242,7 @@ As a temporary solution, you can disable payments with shopping carts.
 
 ## Surcharges
 
-[Surcharges](/docs/surcharges/) are not supported by default. 
+[Surcharges](/docs/surcharges/) are not supported by default.  
 
 > ⚠️ Attention Dutch merchants
 >
