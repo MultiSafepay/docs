@@ -207,7 +207,11 @@ For any technical queries about the plugin, see Logic4 – <a href="https://www.
     - [Sofort](/docs/sofort/)
     - [Trustly](/docs/trustly/)
 - <<glossary:BNPL>>: All, **except** E-Invoicing
-- Wallets: [PayPal](/docs/paypal/)
+- Wallets:
+    - [Apple Pay](/docs/apple-pay/)
+    - [Google Pay](/docs/google-pay/)
+    - [PayPal](/docs/paypal/)
+    
 
 </details>
 
