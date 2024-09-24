@@ -77,7 +77,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 ### Ready-made integrations 
 
-- You can add Sodexo [gateway ID](/reference/gateway-ids) using a generic gateway in several of our ready-made integrations.
+- You can add Sodexo [gateway ID](/reference/gateway-ids) using a generic gateway in several of our [ready-made integrations](/docs/our-integrations/).
 
 ### Testing
 

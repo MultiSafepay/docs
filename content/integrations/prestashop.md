@@ -268,7 +268,7 @@ To disable this, follow these steps:
 4. For **actionOrderSlipAdd**, select the three dots, and then click **Unhook**.
 
 </details>
-<br>
+
 For more information, see PrestaShop – <a href="https://docs.prestashop-project.org/v.8-documentation/user-guide/selling/managing-orders/order-page-management/creating-returns-and-refunds" target="_blank">Creating returns and refunds</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## Shopping carts

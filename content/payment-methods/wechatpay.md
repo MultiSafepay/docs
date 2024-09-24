@@ -76,7 +76,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 - For <<glossary:redirect>> orders, the QR code displays on the [payment page](/docs/payment-pages/) under **Payment methods**.
 
 ### Ready-made integrations
-Supported in our [PrestaShop 1.7 plugin](/docs/prestashop-1-7/).
+Supported in our [PrestaShop plugin](/docs/prestashop/).
 
 ### Testing
 To test WeChat Pay payments, see Testing payment methods - [Wallets](/docs/testing#wallets).

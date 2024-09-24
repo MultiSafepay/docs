@@ -18,7 +18,7 @@ Read how iDEAL in3 can benefit your business on <a href="https://www.multisafepa
 | [Countries](/docs/payment-methods#payment-methods-by-country)  | Netherlands – iDEAL in3 checks the customer's country, and billing/shipping address to confirm.  | 
 | [Currencies](/docs/currencies/)  | EUR  |  
 | [Chargebacks](/docs/chargebacks/)  | No  |
-| [Discounts](/docs/discounts/) | Yes <br> You can request in3 to process a full or partial refund, either before <<glossary:payout>> or up to 1 year afterwards. |
+| [Discounts](/docs/discounts/) | Yes <br> You can request iDEAL in3 to process a full or partial refund, either before <<glossary:payout>> or up to 1 year afterwards. |
 | [Payment pages](/docs/payment-pages/) | Yes (current version only) |
 | [Refunds](/docs/refund-payments/) | Yes: Full, partial, and API refunds | 
 | [Second Chance](/docs/second-chance/) | Yes |
@@ -40,14 +40,14 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | Description | Order status | Transaction status |
 |---|---|---|
 | iDEAL in3's credit check is in progress. You can still cancel. | Initialized   | Initialized  |
-| in3 is waiting for the customer to pay the first installment (within 5 minutes). | Uncleared  | Initialized  |
+| iDEAL in3 is waiting for the customer to pay the first installment (within 5 minutes). | Uncleared  | Initialized  |
 | The customer has paid the first installment. Settlement is now guaranteed. <br> You can no longer cancel. You can only refund. | Completed  | Uncleared  |
 | You can [manually change the order status to shipped](#shipment) for your records, but this is not required to trigger invoicing. | Shipped | Uncleared | 
 | MultiSafepay has collected payment. | Completed | Completed |
 | iDEAL in3 declined the transaction. | Declined | Declined |
 | The customer cancelled the transaction or abandoned the first installment. | Void | Void |
 | The customer didn't pay the first installment. | Expired | Expired |
-| **Refunds:** in3 has successfully processed a full or partial refund. | Completed | Completed |
+| **Refunds:** iDEAL in3 has successfully processed a full or partial refund. | Completed | Completed |
 | **Refunds:** The refund was declined. | Declined | Declined   |
 
 # Activation 
@@ -92,7 +92,7 @@ iDEAL in3 (direct) is supported in:
 - [WooCommerce](/docs/woocommerce/)
 
 ### Testing
-To test in3 payments, see Testing payment methods – [BNPL methods](/docs/testing#bnpl-methods).
+To test iDEAL in3 payments, see Testing payment methods – [BNPL methods](/docs/testing#bnpl-methods).
 <br>
 
 ---
@@ -112,7 +112,7 @@ You can adjust these limits in the <<glossary:backend>> of our [ready-made integ
 
 ## Gift cards
 
-When paying with a gift card and in, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. This is because in3 collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
+When paying with a gift card and in, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. This is because iDEAL in3 collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
 
 You are solely responsible for this in your integration.
 

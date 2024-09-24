@@ -89,7 +89,7 @@ Riverty is supported in many of our ready-made integrations.
 - [Magento 1](/docs/magento-1/) & [Magento 2](/docs/magento-2/)
 - [Odoo](/docs/odoo/)
 - [OpenCart](/docs/opencart/)
-- [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/)
+- [PrestaShop](/docs/prestashop/)
 - [Shopware 5 and 6](/docs/shopware/)
 - [WooCommerce](/docs/woocommerce/)
 - [X-Cart](/docs/x-cart/)
