@@ -97,7 +97,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
     - [Magento 1](/docs/magento-1/) & [Magento 2](/docs/magento-2/)
     - [Odoo](/docs/odoo/)
     - [OpenCart](/docs/opencart/)
-    - [PrestaShop 1.7](/docs/prestashop-1-7/)
+    - [PrestaShop](/docs/prestashop/)
     - [Shopware 5](/docs/shopware/)
     - [VirtueMart 3](/docs/virtuemart-3/)
     - [VirtueMart 4](/docs/virtuemart-4/)
@@ -117,7 +117,7 @@ To increase brand recognition for customers, the name of your website appears on
 
 ## iDEAL QR
  
-<a href="https://www.ideal.nl/en/businesses/offer-ideal-qr/" target="_blank">iDEAL QR</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> has a wide range of applications. Customers can scan QR codes off screens or paper (e.g. invoices, receipts), and change the amount to pay. This makes it particularly suitable for hospitality, charity collectors, and home deliveries. You can specify whether the same QR code can be used more than once.
+<a href="https://ideal.nl/en/products/ideal-qrcode" target="_blank">iDEAL QR</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> has a wide range of applications. Customers can scan QR codes off screens or paper (e.g. invoices, receipts), and change the amount to pay. This makes it particularly suitable for hospitality, charity collectors, and home deliveries. You can specify whether the same QR code can be used more than once.
 
 Not all Dutch banking apps support iDEAL QR yet, so we recommend that customers scan QR codes with their camera or a general QR reader. This redirects to the ideal.nl payment page, which works for all banks. 
 
