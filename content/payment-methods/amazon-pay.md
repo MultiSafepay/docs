@@ -87,18 +87,13 @@ For more information, see Amazon Pay – <a href="https://developer.amazon.com/d
 Available for redirect transactions via our [integrations](/docs/our-integrations/).
 
 Supported in:
-
--Shopware 6
--Shopware 5
--WooCommerce
--OpenCart 3
--OpenCart 4
--Magento 2
--Magento 1
--PrestaShop 1.6
--PrestaShop 1.7
--Lightspeed
-
+- [Lightspeed](/docs/lightspeed/)
+- [Magento 1](/docs/magento-1/) and [Magento 2](/docs/magento-2/) 
+- [OpenCart 3](/docs/opencart-3/) and [OpenCart 4](/docs/opencart-4/)
+- [PrestaShop](/docs/prestashop/)
+- [Shopware 6](/docs/shopware-6/)
+- [Shopware 5](/docs/shopware-5/)
+- [WooCommerce](/docs/woocommerce/)
 
 ### Testing
 To test Amazon Pay payments, see Testing – [Wallets](/docs/testing#wallets).

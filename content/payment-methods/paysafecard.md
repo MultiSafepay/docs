@@ -81,15 +81,14 @@ For any questions, email <sales@multisafepay.com>
 Supported in:
 
 - [CS-Cart](/docs/cs-cart/)
-- [Drupal 7](/docs/drupal/)
-- [Drupal 8 & 9](/docs/drupal/)
+- [Drupal](/docs/drupal/)
 - [OsCommerce](/docs/oscommerce/)
 - [Magento 1](/docs/magento-1/)
 - [Magento 2](/docs/magento-2/)
 - [OpenCart 3](/docs/opencart/)
 - [OpenCart 4](/docs/opencart-4/)
 - [PrestaShop 1.6](/docs/prestashop-1-6/)
-- [PrestaShop 1.7](/docs/prestashop-1-7/)
+- [PrestaShop](/docs/prestashop/)
 - [Shopware 5](/docs/shopware/)
 - [Shopware 6](/docs/shopware/)
 - [VirtueMart 3](/docs/virtuemart/)

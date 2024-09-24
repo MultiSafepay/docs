@@ -171,9 +171,8 @@ You can no longer display your logo; your website name is displayed in the PayPa
 
 If you encounter any issues with PayPal, for example a system error, do the following checks:
 
-- [you have upgraded to the latest PayPal API](/docs/paypal#activation)
+- [You have upgraded to the latest PayPal API](/docs/paypal#activation)
 - PayPal is activated for your account
-- 
 
 
 <br>

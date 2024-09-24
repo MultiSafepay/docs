@@ -82,7 +82,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 - [Craft Commerce](/docs/craft-commerce/)
 - [OpenCart](/docs/opencart/)
 - [Magento 1](/docs/magento-1/) & [Magento 2](/docs/magento-2/)
-- [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/)
+- [PrestaShop](/docs/prestashop/)
 - [Shopware 5 and 6](/docs/shopware/)
 - [WooCommerce](/docs/woocommerce/) 
 
