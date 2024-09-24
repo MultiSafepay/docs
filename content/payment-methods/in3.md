@@ -9,13 +9,13 @@ slug: 'in3'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/ideal-in3.svg" width="80" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a href="https://payin3.eu/en/" target="_blank">in3</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a Dutch <<glossary:BNPL>> method where customers pay in 3 installments, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 guarantees <<glossary:settlement>> after receiving the first installment.
+<a href="https://payin3.eu/en/ideal-in3/for-merchants/" target="_blank">iDEAL in3</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a Dutch <<glossary:BNPL>> method where customers pay in 3 installments, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). iDEAL in3 guarantees <<glossary:settlement>> after receiving the first installment.
 
-Read how in3 can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/in3" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+Read how iDEAL in3 can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/in3" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | Netherlands – in3 checks the customer's country, and billing/shipping address to confirm.  | 
+| [Countries](/docs/payment-methods#payment-methods-by-country)  | Netherlands – iDEAL in3 checks the customer's country, and billing/shipping address to confirm.  | 
 | [Currencies](/docs/currencies/)  | EUR  |  
 | [Chargebacks](/docs/chargebacks/)  | No  |
 | [Discounts](/docs/discounts/) | Yes <br> You can request in3 to process a full or partial refund, either before <<glossary:payout>> or up to 1 year afterwards. |
@@ -39,12 +39,12 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| in3's credit check is in progress. You can still cancel. | Initialized   | Initialized  |
+| iDEAL in3's credit check is in progress. You can still cancel. | Initialized   | Initialized  |
 | in3 is waiting for the customer to pay the first installment (within 5 minutes). | Uncleared  | Initialized  |
 | The customer has paid the first installment. Settlement is now guaranteed. <br> You can no longer cancel. You can only refund. | Completed  | Uncleared  |
 | You can [manually change the order status to shipped](#shipment) for your records, but this is not required to trigger invoicing. | Shipped | Uncleared | 
 | MultiSafepay has collected payment. | Completed | Completed |
-| in3 declined the transaction. | Declined | Declined |
+| iDEAL in3 declined the transaction. | Declined | Declined |
 | The customer cancelled the transaction or abandoned the first installment. | Void | Void |
 | The customer didn't pay the first installment. | Expired | Expired |
 | **Refunds:** in3 has successfully processed a full or partial refund. | Completed | Completed |
@@ -82,11 +82,11 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
 
 ### Ready-made integrations
-in3 (direct) is supported in:
+iDEAL in3 (direct) is supported in:
 - [Craft Commerce](/docs/craft-commerce/)
 - [Magento 1](/docs/magento-1/) and [Magento 2](/docs/magento-2/) 
 - [OpenCart](/docs/opencart/)
-- [PrestaShop 1.7](/docs/prestashop-1-7/)
+- [PrestaShop](/docs/prestashop/)
 - [VirtueMart 3](/docs/virtuemart-3/)
 - [VirtueMart 4](/docs/virtuemart-4/)
 - [WooCommerce](/docs/woocommerce/)
@@ -108,7 +108,7 @@ Different billing and shipping addresses are supported.
 - Minimum amount: 50 EUR 
 - Maximum amount: 5000 EUR 
 
-You can adjust these limits in the <<glossary:backend>> of our [ready-made integrations](/docs/our-integrations/) to show or hide in3 on your checkout page depending on the order value.
+You can adjust these limits in the <<glossary:backend>> of our [ready-made integrations](/docs/our-integrations/) to show or hide iDEAL in3 on your checkout page depending on the order value.
 
 ## Gift cards
 
