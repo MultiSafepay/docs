@@ -308,6 +308,8 @@ See API reference – [Refund order](/reference/refundorder).
 7. Click **Continue**.
 8. Review **Refund confirmation**, and then click **Confirm**.
 
+
+
 </details>
 
 ## Updates

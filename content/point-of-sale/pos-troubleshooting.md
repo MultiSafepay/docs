@@ -42,7 +42,7 @@ When the internet connection isn't working correctly:
 
 The terminal is not correctly onboarded or linked with the correct group.
 
-### Onboard the terminal
+## Onboard the terminal
 
 If you haven't activated your terminal, follow these steps: 
 
@@ -68,7 +68,18 @@ If your SmartPOS terminal isn't onboarded correctly, email <pos-support@multisaf
 
 ***
 
-### Incorrect API key
+## No **Devices** visible in Merchant dashboard 
+
+If you cannot see the **Devices** section in your Merchant Dashboard yet
+
+- check if your user has the correct permissions, or contact your administrator.
+- contact us via support@multisafepay.com.
+
+## MultiSafepay app not visible 
+
+Apps need to be whitelisted in the Sunmi account linked to the device. 
+
+## Incorrect API key
 
 If you have used an incorrect API key for cloud payments, check for the correct API key in your dashboard. 
 
@@ -83,7 +94,7 @@ If you have used an incorrect API key for cloud payments, check for the correct 
 
 ***
 
-### IPEK not configured
+## IPEK not configured
 
 Before you begin activation, ensure that the Initial PIN Encrypted Key(IPEK) is registered on your terminal.
 
@@ -92,7 +103,7 @@ To check if IPEK is registered, turn on your terminal and click **Configured**.
 If your IPEK is not configured, email <pos-support@multisafepay.com>
 
 ***
-### Logs
+## Logs
 
 Retrieving logs can be a helpful step to investigate an issue. You can generate them via your Sunmi portal:
 
@@ -108,6 +119,13 @@ Retrieving logs can be a helpful step to investigate an issue. You can generate 
 
 The terminal isn't working correctly, payment information isn't displayed or payment is declined.
 
+## Order placed - not shown on terminal 
+
+Checks you can do:
+
+- Is the terminal connected to wifi?
+- Did you use the correct API key for your terminal group? 
+
 ## Declined payment
 
 If your payment is declined, check if you encountered any error messages.
@@ -118,6 +136,9 @@ If your payment is declined, check if you encountered any error messages.
 | Card not supported | Send a request to  <pos-support@multisafepay.com>|
 | Use a different interface | Initiate the transaction again. <br>  Ask the customer to insert the card instead of doing a contactless payment. |
 | 1000 card declined | Contact support@multisafepay.com to confirm payment method configuration. |
+| Use Magstripe | Contact pos-support@multisafepay.com |
+
+Additional check: ensure that you did not deactivate any card payment methods in your Merchant Dashboard.
 
 > **Note:**
 >
@@ -127,6 +148,11 @@ If your payment is declined, check if you encountered any error messages.
 > - Description of the issue
 > - If available, pictures or video
 
+
+# Errors in the display of the app / screen 
+
+- Restart your terminal. 
+- contact us via support@multisafepay.com
 
 ***
 # Set device to developer mode
