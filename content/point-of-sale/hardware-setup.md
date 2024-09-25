@@ -19,7 +19,7 @@ slug: 'hardware-setup'
 
 This page outlines the configuration of the hardware.
 
-### Security check upon delivery
+# Security check upon delivery
 
 To ensure the secure handling of your customers' card data, it is highly recommended to inspect your terminals for any signs of tampering.
 
@@ -29,7 +29,7 @@ Steps to follow:
 2. Compare the device you received with the image of the device you ordered.
 3. Check the weight of the terminal to ensure no unauthorized objects, such as in the battery compartment, have been added.
 
-### Connect to a Wi-Fi network
+## Connect to a Wi-Fi network
 
 To connect to a Wi-Fi network:
 
@@ -40,7 +40,7 @@ For more information about Wi-Fi connection, refer to the manual provided with t
 
 ***
 
-### Connect to the Smartpad
+# Connect to the Smartpad
 
 Smartpad is a cable-powered terminal that must be connected to a power cable. 
 
@@ -48,19 +48,27 @@ To enhance network stability, we recommend that you connect the Smartpad to a ne
 
 ***
 
-### Manage battery
+# Manage battery
 
 If your battery is not charging, ensure that you are using a USB-C cable that is properly connected to the power source.
 
 ***
 
-### Print receipts
+# Print receipts
 
 To print your receipt, you need a thermal printer roll of either 57mm or 58mm.
 
 ***
 
-### Turn on the terminal
+# Serial number
+
+You can find your serial number (for SmartPOS / Sunmi)
+
+- on the device: some models display the serial number on the back of the terminal. 
+- in the MultiSafepay app: go to **Settings** > Menu > **About** > scroll to the bottom
+- in the Sunmi settings app: location depends on the Android version, for example under **Model and hardware** / **About device** 
+
+# Turn on the terminal
 
 - Charge the terminal for at least 30 minutes.
 - Press and hold the power button for a few seconds to switch it on.
@@ -69,7 +77,9 @@ For more information, see the manual provided with the terminal.
 
 ***
 
-## Update firmware
+
+
+# Update firmware
 
 An outdated version of the firmware can cause miscellaneous issues.
 Always ensure to run your device on the latest available version. 
@@ -102,7 +112,33 @@ Steps on the device:
 
 ***
 
-### Sunmi contact
+# Sunmi portal
+
+Functionalities you can access as a partner through your Sunmi portal:
+
+- remotely reboot a terminal 
+- whitelist apps to be displayed
+- remotely switch off a terminal
+- check installed Android version
+- check last wifi connection time of a device
+- push new software 
+- access terminal settings (automatic upgrades & installation; update message prompt etc.)
+
+
+## Automatic installation and updates 
+
+- Sign in to partner.sunmi.com.
+- Configure the app to automatically update or choose a specific version.
+- Set the app to install automatically when the POS terminal connects to a network.
+- Choose the terminal models you want to apply these settings to 
+
+## Add your app to the Sunmi App Store
+
+- Sign in to your Sunmi Partner Account via partner.sunmi.com.
+- Go to **Development** > App Publishing, and upload your APK file.
+
+
+# Sunmi contact
 
 As a partner you can contact Sunmi support for any issues with the terminal.
 
