@@ -27,7 +27,7 @@ For payment methods where MultiSafepay:
 - At month end: Bank fees and [Interchange++](/docs/interchange/) fees
 - During processing: <<glossary:Payout>>, transaction, and (collecting/non-collecting) refund fees
 
-📘 **Note:** The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay.
+**⚠️ Note:** The transaction fee total is the sum of all processed and completed transactions within a specified timeframe _plus_ the universal transaction fee agreed when you created an account with MultiSafepay.
 
 </details>  
 

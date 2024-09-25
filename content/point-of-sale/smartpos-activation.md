@@ -53,7 +53,7 @@ Install the MultiSafepay payment app on your terminal to scan the QR code.
 
 ✅ Success! You have successfully activated your terminal. You can now start accepting payments.
 
-**Note:**  You can edit and link various terminals if you have already created a group.
+**⚠️ Note:**  You can edit and link various terminals if you have already created a group.
 
 ## How to edit a group
 
@@ -66,7 +66,7 @@ Install the MultiSafepay payment app on your terminal to scan the QR code.
 5. In the **Category** field, click the **dropdown** icon and select the relevant category code.
 6. Click **Create**.
 
-Tip: You can view your API key via *Manage groups* > API key. 
+**💡 Tip!** You can view your API key via *Manage groups* > API key. 
 
 
 ---

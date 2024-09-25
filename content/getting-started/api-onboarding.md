@@ -40,7 +40,7 @@ MultiSafepay verifies all bank accounts added to merchant accounts. This can be 
 - We send the merchant a payment link for a test transaction of 1 EUR. 
 - You send us a bank statement for the merchant's bank account via our API.
 
-✅ &nbsp; **Tip!** The trade name associated with the bank account must exactly match one of the trade names listed in the chamber of commerce extract.
+&nbsp; **💡 Tip!** The trade name associated with the bank account must exactly match one of the trade names listed in the chamber of commerce extract.
 
 # 3. Add UBO details
 See API reference – [Add UBO](/reference/addaffiliateubo/) for how to submit details about the ultimate beneficial owner(s) (UBOs) of each merchant's company, including:

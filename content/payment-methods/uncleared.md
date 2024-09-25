@@ -22,7 +22,7 @@ For higher-risk transactions, the payment is placed on hold and the [transaction
 | 6–8 Medium risk | Yes | Review in your dashboard and capture or decline. |
 | 8–10 High risk | Yes | MultiSafepay reviews and captures or declines. |
 
-📘 **Note:** High-scoring transactions aren't always fraudulent, and low-scoring ones may still carry risk.
+**⚠️ Note:** High-scoring transactions aren't always fraudulent, and low-scoring ones may still carry risk.
 
 # Reviewing uncleared payments
 

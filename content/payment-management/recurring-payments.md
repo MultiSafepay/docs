@@ -31,9 +31,9 @@ For initial payments then subsequent payments via direct debit:
 - Bancontact - [Bancontact WIP](/docs/bancontact#bancontact-wip-service)
 - iDEAL
 
-❗️ **Note:**  For subsequent payments to be successful via direct debit, ensure that direct debit [is activated in your MultiSafepay account](/docs/direct-debit/#activation).
+**⚠️ Note:**  For subsequent payments to be successful via direct debit, ensure that direct debit [is activated in your MultiSafepay account](/docs/direct-debit/#activation).
 
-✅  &nbsp;**Tip:** Test every payment method flow you intend to use. 
+&nbsp;**💡 Tip!** Test every payment method flow you intend to use. 
 
 ## Initial payment
 
@@ -142,7 +142,7 @@ We support recurring payments in our plugins for:
 
 See API reference – [Create order](/reference/createorder/) > `customer.reference`.
 
-📘 **Note:** Tokens for direct debits are originally received as iDEAL or Sofort transactions. 
+**⚠️ Note:** Tokens for direct debits are originally received as iDEAL or Sofort transactions. 
 
 <details id="additional-parameters">
 <summary>Additional parameters</summary>

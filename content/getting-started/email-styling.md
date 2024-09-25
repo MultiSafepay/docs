@@ -79,7 +79,7 @@ Use our pre-formatted and/or pre-written templates and populate them with your c
 
     </details>
 
-    ❗️ **Note:** The language you set here is overridden by the `customer.locale` parameter in [create order](/reference/createorder/) requests. 
+    **⚠️ Note:** The language you set here is overridden by the `customer.locale` parameter in [create order](/reference/createorder/) requests. 
 
     <details id="locale-example">
     <summary>Locale example</summary>
@@ -144,7 +144,7 @@ Use our pre-formatted and/or pre-written templates and populate them with your c
 
     In the **From address** field, enter the email address you want the email sent from, e.g. sales@yourcompany.com.
     
-    ❗️ **Note:** If you enter a from address other than noreply@multisafepay.com, to avoid emails being marked as spam, we recommend adding the following DNS record to your domain: 
+    **⚠️ Note:** If you enter a from address other than noreply@multisafepay.com, to avoid emails being marked as spam, we recommend adding the following DNS record to your domain: 
 
     ```
     v=spf1 ip4:213.189.0.0/23 ip4:185.99.128.0/22 mx

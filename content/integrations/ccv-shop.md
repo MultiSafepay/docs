@@ -92,7 +92,7 @@ To sort the payment methods on the checkout page, you can change the order in th
 7. Click on **Update** button to save the changes.
 <br>
 
-📘 **Note:** Only payment methods provided by MultiSafepay can be reordered. CCV Shop does not support ordering of payment methods not provided by our app, so the order of other payment methods cannot be adjusted.
+**⚠️ Note:** Only payment methods provided by MultiSafepay can be reordered. CCV Shop does not support ordering of payment methods not provided by our app, so the order of other payment methods cannot be adjusted.
 
 <br>
 </details>

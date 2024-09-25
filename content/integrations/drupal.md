@@ -29,7 +29,7 @@ slug: 'drupal'
 
 ## Installation
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 These instructions are for Composer. You can also install the plugin in your <<glossary:backend>>. 
 
@@ -111,7 +111,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 <summary>How to update in your backend</summary>
 <br>
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation instructions and the Configuration instructions from step 2.
@@ -120,7 +120,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
 ### Upgrades
 
-❗️ **Note:** Drupal no longer provides support for Drupal 8.9.x. 
+**⚠️ Note:** Drupal no longer provides support for Drupal 8.9.x. 
 
 For how to upgrade Drupal 8 to Drupal 9, see Drupal - <a href="https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher" target="_blank">Upgrading from Drupal 8 to Drupal 9 or higher</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 <br>
@@ -151,7 +151,7 @@ For how to upgrade Drupal 8 to Drupal 9, see Drupal - <a href="https://www.drupa
 
 ## Installation and configuration
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Unpack the content of the .ZIP file in the root of your Drupal 7 webshop.
 2. Sign in to your Drupal 7 backend.
@@ -208,7 +208,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 <summary>How to update via SFTP</summary>
 <br>
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

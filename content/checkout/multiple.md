@@ -54,7 +54,7 @@ Decide if you want to:
  
 Payment components require a MultiSafepay API token. See API reference – [Generate an API token](/reference/generateapitoken/).
  
-✅   **Tip!** To keep your API key private, request the token from your own server.
+**💡 Tip!** To keep your API key private, request the token from your own server.
  
 ## Construct the component object
  
@@ -166,13 +166,13 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
 
     Recurring payments are supported for all card payments.
 
-    📘 **Note:** To test card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
+    **⚠️ Note:** To test card details, see Test payment details – [Credit and debit cards](/docs/testing#credit-and-debit-cards).
 
     To use recurring payments in your payment component, you need to enable recurring payments for your account. If you haven't already, email [\[sales@multisafepay.com\](mailto:sales@multisafepay.com)](mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com))
 
     </details>
 
-    📘 **Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and order value.
+    **⚠️ Note:** We use the `orderData` object to ensure the payment methods are enabled, e.g. for the currency, country, and order value.
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `order` object and your API token:
 
@@ -308,7 +308,7 @@ The `PaymentComponent` has the following methods:
 
 ## Handle the interaction
 
-✅   **Tip!** This step only applies if using your own or an existing payment button.
+**💡 Tip!** This step only applies if using your own or an existing payment button.
 
 1. Assign the button element to a variable:
 
@@ -334,10 +334,10 @@ The `payment_data` includes the following parameters:
 | Key        | Required | Description                                                                                                                                                                                                 |
 | ---------- | :------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `gateway`  | Yes      | The unique `gateway_id` to redirect the customer to the specific payment method.                                                                                                                            |
-| `payload`  | Yes      | Information required to process the payment.<br> **Note:** Do not edit or modify the `payload` or otherwise the payment fails.                                                                              |
+| `payload`  | Yes      | Information required to process the payment.<br> **⚠️ Note:** Do not edit or modify the `payload` or otherwise the payment fails.                                                                              |
 | `tokenize` | Optional | For [recurring payments](/docs/recurring-payments).<br> If a customer selects to either save their cardholder data for future visits or use an existing token, a`payment_data.tokenize` parameter is added. |
 
-**Note:** When `payment_data.tokenize` is set to `true`you need to append `customer.reference` to the order data.
+**⚠️ Note:** When `payment_data.tokenize` is set to `true`you need to append `customer.reference` to the order data.
 
 </details>
 

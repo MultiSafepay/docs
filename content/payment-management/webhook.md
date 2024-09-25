@@ -30,7 +30,7 @@ Our webhook uses the `POST` method to inform your web server when there is an up
   max-width: 750px;
   width: 100%;">
 
-📘 **Note:** International bank account numbers (IBANs) are sensitive data. For security reasons, we mask them by default in POST webhook notifications so that only the last 4 digits are visible, e.g. *** 1234. 
+**⚠️ Note:** International bank account numbers (IBANs) are sensitive data. For security reasons, we mask them by default in POST webhook notifications so that only the last 4 digits are visible, e.g. *** 1234. 
 To unmask them, see [IBANs](/docs/ibans/).
 
 # Prerequisites
@@ -55,7 +55,7 @@ You can configure the webhook endpoint at:
 2. Go to **Sites**, and then click the relevant site.
 3. On the **Site profile** page, under **Functionality**, in the **Webhook URL** field, set your webhook endpoint.
 
-📘 **Note:** These instructions apply to your `notification_url` for order updates. For [FastCheckout shipping options updates](/docs/fastcheckout-shipping-options), see Order level below.
+**⚠️ Note:*** These instructions apply to your `notification_url` for order updates. For [FastCheckout shipping options updates](/docs/fastcheckout-shipping-options), see Order level below.
 
 </details>
 
@@ -75,7 +75,7 @@ You can configure the webhook endpoint at:
 
 </details>
 
-📘 **Note:** If you configure your webhook endpoint at site **and** order level, the order level endpoint is used by default.
+**⚠️ Note:** If you configure your webhook endpoint at site **and** order level, the order level endpoint is used by default.
 
 ### Example request
 
@@ -193,7 +193,7 @@ The updated order details make up the payload of the request.
 
 Check the <<glossary:order status>> in the `status` field. If necessary, update your <<glossary:backend>>.
 
-📘 **Note:** You can ignore notifications that:
+**⚠️ Note:** You can ignore notifications that:
 - Don't have the `timestamp` parameter in the URL  
 - Have the same <<glossary:order status>> 
 

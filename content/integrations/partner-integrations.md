@@ -270,7 +270,7 @@ For technical support, contact LogiVert - <a href="https://www.logivert.com/nl/s
 
 To install and configure, see LogiVert – <a href="https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen" target="_blank">Manual</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the LogiVert installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the LogiVert installation procedure. Always make a backup.
 </details>
 
 ___

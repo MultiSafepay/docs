@@ -27,7 +27,7 @@ slug: 'zen-cart'
 
 # Installation and configuration
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the Zen Cart installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the Zen Cart installation procedure. Always make a backup.
 
 1. In the root of your webshop, unpack the content of the .ZIP file.
 2. Sign in to your Zen Cart <<glossary:backend>>.
@@ -87,7 +87,7 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 <summary>How to update via SFTP</summary>
 <br>
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

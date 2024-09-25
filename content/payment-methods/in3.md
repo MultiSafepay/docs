@@ -141,7 +141,7 @@ If you change the order status in your backend, the following [ready-made integr
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
-❗️ **Note:** Some third-party plugins may not support updating the status via our API.
+**⚠️ Note:** Some third-party plugins may not support updating the status via our API.
 
 ---
 

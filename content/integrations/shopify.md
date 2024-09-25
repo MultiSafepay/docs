@@ -32,7 +32,7 @@ To install, follow these steps:
     If the payment method is **not** activated for your MultiSafepay account, then in Shopify an error appears. 
 7. [Activate the method for your MultiSafepay account](/docs/payment-methods), and then in Shopify, click **Retry**. 
 
-✅ &nbsp; **Tip!** We recommend first testing each payment method before setting your **live** API key. 
+&nbsp; **💡 Tip!** We recommend first testing each payment method before setting your **live** API key. 
 <br>
 
 ---
@@ -71,7 +71,7 @@ The `pendingExpiresAt` value matches the date and time when the order expires an
 
 For more information, see Shopify.dev – <a href="https://shopify.dev/apps/payments/processing-a-payment#pend-a-payment" target="_blank">Pend a payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-**Note:** If an order is not completed within **2** hours, the <<glossary:order status>> changes from **Pending** to **Expired**. 
+**⚠️ Note:** If an order is not completed within **2** hours, the <<glossary:order status>> changes from **Pending** to **Expired**. 
 
 
 ## Payment methods

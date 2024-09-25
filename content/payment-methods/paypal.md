@@ -148,7 +148,7 @@ To be eligible, for specific countries, transaction requests must contain the co
 - For a list of the countries, see PayPal API – <a href="https://developer.paypal.com/api/rest/reference/state-codes/" target="_blank">State codes</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 - For more information, see PayPal – <a href="https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156" target="_blank">What is Seller Pretection</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-**Note**: For disputes and disbursement information, further details appear in a transaction note  in your dashboard under  **Transaction overview** > **Transaction summary**.
+**⚠️ Note:** For disputes and disbursement information, further details appear in a transaction note  in your dashboard under  **Transaction overview** > **Transaction summary**.
 
 ## Refunds
 

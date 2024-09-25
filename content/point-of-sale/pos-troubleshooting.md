@@ -173,7 +173,7 @@ If your device has been blocked due to the error on screen "Attacked! Please con
 
 1. On the <a href="https://www.sunmi.com/en-US/" target="_blank">Sunmi page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, go to *Contact Technical Support* > Create new request.
 2. Select **P Serial Tamper** and follow the steps in the Sunmi environment. 
-Tip: prepare a picture of your device to attach to the form. 
+**💡 Tip!** prepare a picture of your device to attach to the form. 
 3. Depending on the error code, you will receive a code to unblock your device. 
 
 Once the terminal is rebooted, the device is ready for use again. 

@@ -317,7 +317,7 @@ You must must refund partial shipments separately, using the specific **shipment
 
 See API reference – [Refund order](/reference/refundorder).
 
-❗️**Note:** To partially ship an order, email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com))
+**⚠️ Note:** To partially ship an order, email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com))
 
 ***
 

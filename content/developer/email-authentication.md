@@ -11,7 +11,7 @@ Sender Policy Framework (SPF) records let you specify who is authorized to send 
 1. Through your hosting provider, domain registrar, or DNS provider, create a DNS TXT record that is named after your domain, e.g. `example.com`.
 2. Add the following string your TXT record containing `v=spf1`: `include:spf.multisafepay.com`
 
-📘 **Note:** SPF records may contain a total of 10 DNS lookups (`include` and `mx`). If you have reached this limit, add our IP addresses instead: `ip4:213.189.0.0/23 ip4:185.99.128.0/22`.
+**⚠️ Note:** SPF records may contain a total of 10 DNS lookups (`include` and `mx`). If you have reached this limit, add our IP addresses instead: `ip4:213.189.0.0/23 ip4:185.99.128.0/22`.
 
 ✅ **Success!** You have created an SPF record.
 

@@ -27,7 +27,7 @@ slug: 'virtuemart-4'
 
 # Installation
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup.
 
 1. Sign in to your VirtueMart <<glossary:backend>>.
 2. Go to **System** > **Install** > **Extensions**.
@@ -102,7 +102,7 @@ You cannot refund more than the original amount in your dashboard.
 
 You can update the plugin in your backend as described below:
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

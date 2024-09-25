@@ -31,7 +31,7 @@ This technical manual is for integrating the previous release of the payment com
 ## Generate an API token
 Payment Components require a MultiSafepay API token. See API reference – [Generate an API token](/reference/generateapitoken/).
 
-✅ &nbsp; **Tip!** To keep your API key private, request the token from your own server. 
+&nbsp; **💡 Tip!** To keep your API key private, request the token from your own server. 
 
 ## Construct the component object
 
@@ -68,7 +68,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
     </details>
 
-    📘 **Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and order amount are supported. 
+    **⚠️ Note:** We use the `orderData` object to ensure the payment method is enabled and the currency, country, and order amount are supported. 
 
 2. Construct a `PaymentComponent` object in the `test` environment using the `orderData` object and your API token:
 

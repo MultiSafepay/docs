@@ -26,7 +26,7 @@ Customers pay in their own online banking environment. <<glossary:Settlement>> i
 
 The customer's bank may apply their own fee to MyBank transactions (not influenced by MultiSafepay or MyBank). This can have a significant impact on transactions for small amounts, e.g. 1 EUR transaction, but a 1,50 EUR issuer fee.
 
-✅ &nbsp; **Tip!** Consider setting a minimum amount limit for MyBank transactions in your integration.
+&nbsp; **💡 Tip!** Consider setting a minimum amount limit for MyBank transactions in your integration.
 
 # Payment flow
 This diagram shows the flow for a successful transaction. Click to magnify.
