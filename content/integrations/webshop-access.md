@@ -22,11 +22,13 @@ Seek assistance from your developer to make sure the basic configurations are in
 
 Check the **changelog** for your plugin to read about any recently added features, and bugfixes. 
 
-**💡 Tip**: Before conducting updates, always test via a **staging** environment.
+
+**💡 Tip!** Before conducting updates, always test via a **staging** environment.
 
 ## Third party solutions
 
-**⚠️ Note**: We cannot guarantee correct behavior with any third party solutions which are not explicitly mentioned as compatible in our documentation.
+**⚠️ Note:**: We cannot guarantee correct behaviour with any third party solutions which are not explicitly mentioned as compatible in our documentation.
+
 
 If you encounter an issue with payments while using one of our plugin integrations, always try to reproduce the issue with any third party solutions deactivated. This gives valuable insights for further investigation. 
 
@@ -38,13 +40,16 @@ If you encounter issues that affect payments, valuable first checks are:
 - Create a [payment link](/docs/payment-links/) and verify if the issue occurs as well. (!) 
   This helps narrow down if the cause lies in a payment configuration, or rather within the plugin /API integration.  
 
-  **💡 Tip**: Always indicate the result of this step when reaching out to us, best with a screenshot.
+  **💡 Tip!**: Always indicate the result of this step when reaching out to us, best with a screenshot.
+
 - Check if the payment method is available for the country and currency selected. 
 - Check if a transaction is created (and declined) or if no transaction arrives to the system in the first place. 
 
 With the results of these checks, reach out to us via [info@multisafepay.com](mailto:info@multisafepay.com).
 
-**💡 Tip**: Check our status page for general updates or notifications.
+
+**💡 Tip!** Check our status page for general updates or notifications.
+
 
 Further checks for plugin integrations:
 
@@ -85,7 +90,8 @@ As a temporary fix, while we investigate the issue, you can use our payments via
 
 - Check if the issue occurs also when deactivating any 3rd party solutions
 
-  **💡 Tip**: You can do this best via a staging environment. 
+**💡 Tip!** you can do this best via a staging environment. 
+
 - Contact us for support. 
 Alternative solutions in the meantime:
 - Activate payment components to avoid confusion with your customers.

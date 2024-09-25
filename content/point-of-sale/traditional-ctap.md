@@ -38,9 +38,9 @@ Traditional (CTAP) is a terminal that has passed <a href="https://wp.acquiris.eu
 - **Webhook URL** (optional).
 - In the **Business category** field, click the **drop-down** icon and specify the relevant service or product offered. If a category has been assigned to your account in the past, it will be displayed automatically. 
 6. Select Terminal type **CTAP**. A unique Terminal ID will be automatically generated.
-**Tip: you can modify TID until manually via Devices > Terminals > TID until transactions are processed. The name can still be modified after processing transactions.**
+**💡 Tip!** you can modify TID until manually via Devices > Terminals > TID until transactions are processed. The name can still be modified after processing transactions.
 7. Copy **Terminal ID**, **Account ID**, and **CTAP Acquirer** and send them to your POS provider.
-**Tip**: As long as the terminal is not bound, the TID and name can be changed via the "Edit" icon.
+**💡 Tip!** As long as the terminal is not bound, the TID and name can be changed via the "Edit" icon.
 8. After your POS provider has set up your terminal, the activation is completed.
 9. Terminal manufacturer and serial number are now displayed in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 

@@ -57,7 +57,7 @@ You need to upload relevant documentary evidence:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings** > **Files**.
-3. Under **Upload a new file**, click **Choose file**.<br> **Note:** You must upload files in PDF format.
+3. Under **Upload a new file**, click **Choose file**.<br> **⚠️ Note:** You must upload files in PDF format.
 4. Select the relevant file(s), and then click **Open**.
 5. Under **Upload queue**, to upload:
    - A specific file, click **Upload**.

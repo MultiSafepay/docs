@@ -31,7 +31,7 @@ Some payment methods, especially Banking methods, can be activated directly via 
 This overwrites your global selection. Only the payment methods selected for the site will then be available.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 
-**Tip: if you do not set site-specific methods, the global configuration will be applied.**
+**💡 Tip**: if you do not set site-specific methods, the global configuration will be applied.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email [support@multisafepay.com](mailto:support@multisafepay.com)
 

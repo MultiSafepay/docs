@@ -20,7 +20,7 @@ You must first:
 
 To authenticate requests, you must include your API key as a query parameter in the request URL.  
 
-✅&nbsp; **Tip!** While building your integration we recommend using the [test environment](/reference/environments/): `https://testapi.multisafepay.com/v1/json`.
+&nbsp; **💡 Tip!** While building your integration we recommend using the [test environment](/reference/environments/): `https://testapi.multisafepay.com/v1/json`.
 
 Before continuing with this tutorial, see if you can save development time with our range of [wrappers and SDKs](/docs/wrappers-sdks/).
 
@@ -87,7 +87,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/orders?api_key={your-test
 
 **3.** Open the `payment_url` to complete payment on the payment page. 
 
-❗️ **Note:** If you receive an error in the response, see [Troubleshooting](/docs/troubleshooting/).
+**⚠️ Note:** If you receive an error in the response, see [Troubleshooting](/docs/troubleshooting/).
 
 ✅ **Success!** You have successfully created an order. Now learn how to track orders via our webhook as they progress.
 

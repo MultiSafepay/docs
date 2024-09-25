@@ -13,7 +13,7 @@ Different payment methods set different expiration times for transactions. The t
 
 The expiration time is set by the payment method and cannot be changed.
 
-📘 **Note:** Transaction expiration times are different to session lifetimes of payment pages.
+**⚠️ Note:** Transaction expiration times are different to session lifetimes of payment pages.
 
 The table below sets out the expiration time per payment method:
 

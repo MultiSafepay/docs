@@ -28,7 +28,7 @@ slug: 'odoo'
 
 # Installation
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the Odoo installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the Odoo installation procedure. Always make a backup.
 
 1. Download the ZIP archive with module.
 2. Unpack the content of the .ZIP file.
@@ -171,7 +171,7 @@ For <<glossary:BNPL>> orders, the refund request must include a `shopping_cart` 
 - The `item_quantity` must not be more than `quantity` in the original order.
 - The `item_price` must be equal to the `unit_price` in the original order.
 
-❗️ **Note:** You cannot refund BNPL orders if a gift card or promo code was used for the original order.
+**⚠️ Note:** You cannot refund BNPL orders if a gift card or promo code was used for the original order.
 
 </details>
 

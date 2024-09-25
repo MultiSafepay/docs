@@ -31,7 +31,7 @@ MultiSafepay supports the following credit and debit cards:
 - <a href="https://www.multisafepay.com/solutions/payment-methods/postepay/" target="_blank">Postepay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - <a href="https://www.multisafepay.com/solutions/payment-methods/visa/" target="_blank">Visa</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and co-branded cards <a href="https://www.multisafepay.com/solutions/payment-methods/carte-bleue" target="_blank">Cartes Bancaires</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, <a href="https://www.multisafepay.com/solutions/payment-methods/dankort/" target="_blank">Dankort</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, <a href="https://www.multisafepay.com/solutions/payment-methods/vpay" target="_blank">V&nbsp;Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> (debit card) 
 
-📘 **Note:** [Co-branded cards](/docs/card-payments#co-branded-cards) are processed through the VISA <<glossary:gateway>>.
+**⚠️ Note:** [Co-branded cards](/docs/card-payments#co-branded-cards) are processed through the VISA <<glossary:gateway>>.
 
 | Supports | Details |
 |---|---|
@@ -99,7 +99,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Card direct/redirect**. Set `gateway` to `AMEX`, `MAESTRO`, `MASTERCARD`, `VISA`, or the generic `CREDITCARD`.
 
-  Note: Consider card-specific requirements for the [Create order request](/reference/createorder/), for example including correct details in the `email` or `phone` parameter for VISA payments. 
+  **⚠️ Note:** Consider card-specific requirements for the [Create order request](/reference/createorder/), for example including correct details in the `email` or `phone` parameter for VISA payments. 
 
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
 

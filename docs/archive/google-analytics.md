@@ -24,7 +24,7 @@ If you use `analytics.js`, Google gives you a **tracking ID** that you need to a
 
 If you use `gtag.js`, then you use **tags** instead of tracking IDs. The `gtag.js` library adds a single tag to your site to connect with multiple Google products and services, including Google Analytics.
 
-📘 **Note:** All Google Analytics accounts since 2017 use `gtag.js`. Prior to 2017, `analytics.js` was the default method for tagging.
+**⚠️ Note:** All Google Analytics accounts since 2017 use `gtag.js`. Prior to 2017, `analytics.js` was the default method for tagging.
 
 
 ## API integrations
@@ -48,7 +48,7 @@ This can impact the reliability of Google Analytics reports, and they won't accu
 
 To prevent third-party shopping carts initiating new sessions, you can exclude referral domains. This prevents the customer being counted as a referral when they return to your success page.
 
-📘 **Note:** This feature is only available for sites using `gtag.js` or `analytics.js`.
+**⚠️ Note:** This feature is only available for sites using `gtag.js` or `analytics.js`.
 
 For instructions, see Google Analytics – <a href="https://support.google.com/analytics/answer/2795830" target="_blank">Referral exclusions</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -113,13 +113,13 @@ In your PHP code, the parameter should look like this: `$this→_redirect('check
 
 Make sure you do this for **all** links from the payment gateway to your site.
 
-✅ &nbsp; **Tip!** Our ready-made integrations for Magento 1 and 2 do this automatically.
+&nbsp; **💡 Tip!** Our ready-made integrations for Magento 1 and 2 do this automatically.
 
 ## Server-side solutions
 
 These solutions need a server environment and may require significant development effort.
 
-📘 **Note:**
+**⚠️ Note:**
 - Server-side solutions are still in their infancy and could require regular adjustment and maintenance.
 - It is not possible to use client-side and server-side solutions at the same time.
 

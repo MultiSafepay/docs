@@ -35,7 +35,7 @@ To install or migrate, follow these steps:
    - Enable Test Mode if you are using a Test API key. Turn off for a Live API key.
    - Enable or disable payment icons according to your preferences.
 
-✅ &nbsp; **Tip!** We recommend first testing each payment method before setting your **live** API key. 
+&nbsp; **💡 Tip!** We recommend first testing each payment method before setting your **live** API key. 
 <br>
 
 ---

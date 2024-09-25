@@ -31,7 +31,7 @@ slug: 'opencart-3'
 
 # Installation
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the OpenCart installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the OpenCart installation procedure. Always make a backup.
 
 1. Download the `Plugin_OpenCart_3.x.x.ocmod.zip`.
 2. Sign in to your OpenCart <<glossary:backend>>.
@@ -138,7 +138,7 @@ If you're new to accepting card payments, email a request to activate them to <s
 3. Select the **Payment methods** tab and then expand the method of your choice.
 4. Enable **Payment Component** and optionally **Tokenization**.
 
-❗️ **Note:** Tokenization is available only when **Payment Component** is activated.
+**⚠️ Note:** Tokenization is available only when **Payment Component** is activated.
 
 💬  **Support:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
@@ -230,7 +230,7 @@ As a temporary solution, you can disable payments with shopping carts.
 <summary>How to disable shopping carts</summary>
 <br>
 
-❗️ **Note:** This disables all <<glossary:BNPL>> methods.
+**⚠️ Note:** This disables all <<glossary:BNPL>> methods.
 
 1. Sign in to your OpenCart backend.
 2. Go to **Extensions** > **Payments** > **MultiSafepay**.

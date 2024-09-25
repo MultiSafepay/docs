@@ -22,7 +22,7 @@ To process payments from a site operated by a separate legal entity, you must si
 3. Click **Add new site**.
     - From the **Category** list, select what type of products or services your site sells.
     - In the **Description** field, enter the site name.  
-    **Note:** If relevant, this is displayed on MultiSafepay payment pages and the customer’s bank statement.
+    **⚠️ Note:** If relevant, this is displayed on MultiSafepay payment pages and the customer’s bank statement.
     - In the **Base URL** field, add the site’s URL. This must be the URL where you receive payments.
     - If you want to receive [status updates](/docs/payment-statuses/) via webhook, in the **Webhook URL** field, enter a URL for us to send them to.
 4. Click **Save**.

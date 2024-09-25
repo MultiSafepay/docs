@@ -34,7 +34,7 @@ In other scenarios, you can make use of our <a href="https://docs.multisafepay.c
 1. [Create an order](/reference/createorder/), and set`terminal_id` in your request. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. In response to the API request you made, you receive the `events_token`.
 
-📘 **Note:** You cannot initiate another payment until the current payment is **Cancelled** or **Completed**.
+**⚠️ Note:** You cannot initiate another payment until the current payment is **Cancelled** or **Completed**.
 
 # 2. Subscribe to the event notifications
 

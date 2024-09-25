@@ -42,7 +42,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 <div id="AmazonPayButton"></div>
 ```
 
-📘 **Note:** This element is populated in a later step. For more information, see [Display the Amazon Pay button](#3-display-the-amazon-pay-button) below.
+**⚠️ Note:** This element is populated in a later step. For more information, see [Display the Amazon Pay button](#3-display-the-amazon-pay-button) below.
 
 # 2. Create an order
 

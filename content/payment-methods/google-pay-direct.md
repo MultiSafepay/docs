@@ -52,7 +52,7 @@ Add the Google Pay JavaScript library to the bottom of the `<body>` of your chec
   onload="onGooglePayLoaded()">
 </script>
 ```
-📘 **Note:** The `onload` event handler is used to display the **Google Pay** button. For more information, see [Display the Google Pay button](#3-display-the-google-pay-button).
+**⚠️ Note:** The `onload` event handler is used to display the **Google Pay** button. For more information, see [Display the Google Pay button](#3-display-the-google-pay-button).
 
 ## Place the Google Pay button
 
@@ -62,7 +62,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 <div id="button-container" style="width: 160px; height: 40px;"></div>
 ```
 
-📘 **Note:** This element is populated in a later step. For more information, see [Display the Google Pay button](#display-the-google-pay-button).
+**⚠️ Note:** This element is populated in a later step. For more information, see [Display the Google Pay button](#display-the-google-pay-button).
 
 ## Configure Google Pay
 
@@ -79,7 +79,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
 2. Configure the Google Pay payment token request.
 
-    📘 **Note:** Google Pay uses payment tokens to encrypt the customer's payment details for secure processing. 
+    **⚠️ Note:** Google Pay uses payment tokens to encrypt the customer's payment details for secure processing. 
 
     Create a `tokenizationSpecification` object: 
 

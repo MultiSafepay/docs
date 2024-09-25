@@ -28,7 +28,7 @@ slug: 'shopware-5'
 
 ## Installation and configuration
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the Shopware 5 installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the Shopware 5 installation procedure. Always make a backup.
 
 1. Sign in to your Shopware 5 backend.
 2. Go to **Configuration** > **Plugin manager**.
@@ -171,7 +171,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 <summary>How to update in your backend</summary>
 <br>
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

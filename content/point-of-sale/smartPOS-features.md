@@ -103,7 +103,7 @@ To exit the cloud mode payment screen:
 1. Tap and hold the **MultiSafepay** logo for few seconds.
 2. Enter the default **PIN code**. <br>The default PIN code is `1324`.
 
-**Note:** For your security, we recommend you change the default PIN code as soon as possible. 
+**⚠️ Note:** For your security, we recommend you change the default PIN code as soon as possible. 
 
 ***
 
@@ -118,7 +118,7 @@ You can customize this flow:
 2. To display the confirmation screen for a fixed amount of time, select the seconds from the dropdown. This is the timeout of the "Completed" page.
 If you select *disabled*, there is no automatic timeout, and you will need to press *Close Order* to close the confirmation screen and return to your own application. 
 
-Note: This applies to both cloud mode and native application setups. 
+**⚠️ Note:** This applies to both cloud mode and native application setups. 
 
 ## How to change the PIN code 
 
@@ -152,7 +152,7 @@ Via Settings > **Closing balance**, can set the following parameters:
 
 </details>
 
-**Tip**: You can print your closing balance report using either the device printer, or the [external printer](docs/test-page#external-printer).
+**💡 Tip!** You can print your closing balance report using either the device printer, or the [external printer](docs/test-page#external-printer).
 
 ***
 
@@ -231,7 +231,7 @@ The QR reader is able to detect the following parameters:
 2. Select \*_Security_, and insert your 4-digit PIN Code. 
 3. Click \*_Unbind_ and confirm. 
 
-Note: Unbinding will result in a complete data erasure.  
+**⚠️ Note:** Unbinding will result in a complete data erasure.  
 You can bind the terminal to the same or a different account, or terminal group. 
 
 ## How to use an external printer

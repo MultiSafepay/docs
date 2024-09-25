@@ -34,7 +34,7 @@ MultiSafepay pre-screens your account to check if the products/services you sell
 
 We may ask you to provide additional documents, e.g. if you have an unusual company structure.
 
-❗️ **Note:** Requests to process cards may be denied, e.g. if you sell [prohibited products or services](/docs/prohibited-products-services/).
+**⚠️ Note:** Requests to process cards may be denied, e.g. if you sell [prohibited products or services](/docs/prohibited-products-services/).
 
 # 3. Validate bank account
 

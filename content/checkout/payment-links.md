@@ -39,7 +39,7 @@ Or via your dashboard:
 4. From the **Site** list, select the relevant site.
 5. Under **Amount**, select the currency from the list, and then enter the whole value and cents.
 6. In the **Order ID** field, enter the order ID from your webshop.  
-    **Note:** The order ID for every payment link must be unique.
+    **⚠️ Note:** The order ID for every payment link must be unique.
 7. In the **Description** field, enter a description of the order. 
 8. In the **Link expiry** field, enter the number of days for the link to remain active. Default: 30 days.
 9. To send [Second Chance emails](/docs/second-chance/), select the **Second chance email** checkbox. 
@@ -69,7 +69,7 @@ Or via your dashboard:
 2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
 4. On the **Transaction details** page, under **Order summary**, click **Generate payment link** > **Duplicate this order**.
 
-✅ &nbsp; **Tip!** The order ID must be unique.
+&nbsp; **💡 Tip!** The order ID must be unique.
 
 </details>
 <br>
@@ -123,7 +123,7 @@ The lifetime of a payment link is how long it remains active for the customer to
 
 To set or adjust the lifetime of a payment link, see API reference – [Create order](/reference/createorder/): `days_active` parameter.
 
-📘 **Note:** This is different to [transaction expiration times per payment method](/reference/transaction-expiration/). 
+**⚠️ Note:** This is different to [transaction expiration times per payment method](/reference/transaction-expiration/). 
 
 This only applies to certain payment methods:
 

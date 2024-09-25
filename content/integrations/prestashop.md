@@ -32,7 +32,7 @@ slug: 'prestashop'
 
 # Installation
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the PrestaShop installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the PrestaShop installation procedure. Always make a backup.
 
 1. Sign in to your PrestaShop Back Office.
 2. Go to **Modules** > **Module Manager** > **Upload a module**.
@@ -174,7 +174,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 
 💬 Support: If you're new to accepting card payments, email a request to activate them to <risk@multisafepay.com>
 
-📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+**⚠️ Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
@@ -189,7 +189,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 3. Click on **Add new order** at the top right corner.
 4. To add new order, follow all steps in PrestaShop 8 core reference page - see <a href="https://devdocs.prestashop-project.org/8/development/page-reference/back-office/order/add-new-order/" target="_blank"> PrestaShop back office page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br>
 
-> 📘 **Note:** To successfully generate payment links from the back office, ensure that you have followed the steps below:  
+> **⚠️ Note:** To successfully generate payment links from the back office, ensure that you have followed the steps below:  
 > Under **Summary** section:
 >   - Select **MultiSafepay** as **Payment**.
 >   - Select **MultiSafepay initialized** as **Order status**.
@@ -277,7 +277,7 @@ If you notice errors in shopping cart calculations, email <integration@multisafe
 
 As a temporary solution, you can disable sending the shopping cart with the payment request.
 
-❗️ **Note:** <<glossary:BNPL>> methods do not work if the shopping cart is disabled. 
+**⚠️ Note:** <<glossary:BNPL>> methods do not work if the shopping cart is disabled. 
 
 <details id="how-to-disable-the-shopping-cart">
 <summary>How to disable the shopping cart</summary>
@@ -333,7 +333,7 @@ To translate the names of payment methods:
 <summary>How to update in your backend</summary>
 <br>
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the [Installation](/docs/prestashop-1-7#how-to-install) instructions.

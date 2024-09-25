@@ -27,7 +27,7 @@ slug: 'lightspeed'
 
 # Installation 
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Sign in to your Lightspeed <<glossary:backend>>.
 2. Go to **Apps** on the left-hand side of the dashboard.

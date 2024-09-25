@@ -94,7 +94,7 @@ Via the Sunmi portal,
 3. If there is new firmware available, the **Add to Upgrade Group** button will be highlighted. 
 Adding a terminal to the update group means the terminal will detect new firmware and will start downloading.
 
-Tip: Make sure to unpack and activate the terminal so you can add it to the upgrade group.
+**💡 Tip!** Make sure to unpack and activate the terminal so you can add it to the upgrade group.
 
 4. Download will start automatically. 
 By default, the download limit is set to 20KB/sec. You can increase this on the terminal itself in the **System update app**, ideally via the partner portal to apply it to all terminals. 

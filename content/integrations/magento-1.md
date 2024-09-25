@@ -841,7 +841,7 @@ ___
 
 These instructions are for SFTP upload. You can also install via .ZIP file upload in Connect.
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Unpack the content of the .ZIP file in the root of your webshop.
 2. Sign in to your Magento 1 <<glossary:backend>>.
@@ -897,7 +897,7 @@ The plugin is compatible with most Magento 1 checkouts. However, we cannot guara
 
 We test the plugin with Magento 1 core checkout and OneStepCheckout.com (`Idev`).
 
-✅ &nbsp; **Tip!** Always test OneStepCheckout to make sure it is compatible with your configuration of the plugin.
+&nbsp; **💡 Tip!** Always test OneStepCheckout to make sure it is compatible with your configuration of the plugin.
 
 ## Currencies
 
@@ -1065,7 +1065,7 @@ You can update the plugin in your Magento 1 backend or the CMS marketplace, or v
 <summary>How to update via SFTP</summary>
 <br>
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

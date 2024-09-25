@@ -26,7 +26,7 @@ slug: 'shopware-6'
 
 ## Installation and configuration
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the Shopware 6 installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the Shopware 6 installation procedure. Always make a backup.
 
 ### Marketplace installation
 Get the free MultiSafepay plugin from the <a href="https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html" target="_blank">Shopware 6 marketplace</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and connect your webshop with your Shopware account.
@@ -80,7 +80,7 @@ If you're new to accepting card payments, email a request to activate them to <r
 
 For questions, email <integration@multisafepay.com>
 
-📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+**⚠️ Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
@@ -152,7 +152,7 @@ If you change the <<glossary:order status>> to **Delivered** in your backend, th
 
 ## Updates
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 ### Marketplace update
 Following the steps described in the installation process from <a href="https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html" target="_blank">Shopware 6 marketplace</a>.

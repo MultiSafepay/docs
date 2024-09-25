@@ -27,7 +27,7 @@ slug: 'woocommerce'
 
 # Installation
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the WooCommerce installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the WooCommerce installation procedure. Always make a backup.
 
 There are two ways to install the plugin:
 
@@ -186,7 +186,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 
 💬 Support: If you're new to accepting card payments, email a request to activate them to <risk@multisafepay.com>
 
-📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+**⚠️ Note:*** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
@@ -216,7 +216,7 @@ By default, activated payment methods from your MultiSafepay account appear on t
 <br>
 
 - Cards: [All](/docs/card-payments/) (The card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
-Tip: in your settings, you can enable the function "group Credit cards" to show cards as a single payment method.
+**💡 Tip!** In your settings, you can enable the function "group Credit cards" to show cards as a single payment method.
 - Banking methods: All, except TrustPay
 - <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [Google Pay](/docs/google-pay/), [PayPal](/docs/paypal/)
@@ -259,7 +259,7 @@ You need to [activate recurring payments](/docs/recurring-payments/) and then en
 5. In the **Recurring payments** filed, select **Enabled**.
 6. Click **Save changes**.
 
-📘 **Note:** To activate recurring payments, ensure that the Payment component is enabled.
+**⚠️ Note:** To activate recurring payments, ensure that the Payment component is enabled.
 
 </details>
 
@@ -280,7 +280,7 @@ The plugin supports the WooCommerce checkout and is compatible with most premium
 ### WooCommerce Checkout Blocks
 
 You can use the Checkout Blocks for WooCommerce to customize your checkout. 
-Note: Only redirect payment methods are supported with this checkout at the moment.
+**⚠️ Note:** Only redirect payment methods are supported with this checkout at the moment.
 
 ## Surcharges
 
@@ -327,7 +327,7 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 <summary>How to update in your backend</summary>
 <br>
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.
