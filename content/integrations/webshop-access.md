@@ -22,11 +22,11 @@ Seek assistance from your developer to make sure the basic configurations are in
 
 Check the **changelog** for your plugin to read about any recently added features, and bugfixes. 
 
-Tip: Before conducting updates, always test via a **staging** environment.
+**💡 Tip**: Before conducting updates, always test via a **staging** environment.
 
 ## Third party solutions
 
-**Note**: We cannot guarantee correct behaviour with any third party solutions which are not explicitly mentioned as compatible in our documentation.
+**⚠️ Note**: We cannot guarantee correct behavior with any third party solutions which are not explicitly mentioned as compatible in our documentation.
 
 If you encounter an issue with payments while using one of our plugin integrations, always try to reproduce the issue with any third party solutions deactivated. This gives valuable insights for further investigation. 
 
@@ -35,15 +35,16 @@ If you encounter an issue with payments while using one of our plugin integratio
 If you encounter issues that affect payments, valuable first checks are:
 
 - Log into your Merchant Dashboard and check for any alerts: You see alerts on your main page if we have recently requested information, or your account needs extra configuration.
-- Create a [payment link]\(payment link) and verify if the issue occurs as well. (!) 
+- Create a [payment link](/docs/payment-links/) and verify if the issue occurs as well. (!) 
   This helps narrow down if the cause lies in a payment configuration, or rather within the plugin /API integration.  
-  **Tip**: Always indicate the result of this step when reaching out to us, best with a screenshot.
+
+  **💡 Tip**: Always indicate the result of this step when reaching out to us, best with a screenshot.
 - Check if the payment method is available for the country and currency selected. 
 - Check if a transaction is created (and declined) or if no transaction arrives to the system in the first place. 
 
 With the results of these checks, reach out to us via [info@multisafepay.com](mailto:info@multisafepay.com).
 
-Tip: Check our status page for general updates or notifications.
+**💡 Tip**: Check our status page for general updates or notifications.
 
 Further checks for plugin integrations:
 
@@ -57,14 +58,14 @@ Further checks for custom integrations:
 
 # Payment Component not displayed correctly
 
-Possible errors you may encounter incase of misconfigurations are:
+Possible errors you may encounter in case of misconfigurations are:
 
 - Payment component displayed empty
 - _Temporarily not available_  
   If you use our API  
   If you use one of our ready-made solutions, contact [integration@multisafepay.com](mailto:integration@multisafepay.com)
 
-**Checks **we recommend for our **plugins**: 
+**Checks** we recommend for our **plugins**: 
 
 - **Always** ensure that the setting Payment component is set to "enabled" within the payment method. 
 - Review which themes you are using and indicate these to us. 
@@ -83,7 +84,8 @@ As a temporary fix, while we investigate the issue, you can use our payments via
 # Amounts differ between shopping cart and payment page
 
 - Check if the issue occurs also when deactivating any 3rd party solutions
-**Tip**: you can do this best via a staging environment. 
+
+  **💡 Tip**: You can do this best via a staging environment. 
 - Contact us for support. 
 Alternative solutions in the meantime:
 - Activate payment components to avoid confusion with your customers.
@@ -91,9 +93,9 @@ Alternative solutions in the meantime:
 
 # Webhook issues
 
-If you encounter one of the following issues:
+If you encounter the following issue:
 
-- **Transaction status** in your backoffice differs from the status on your MultiSafepay Dashboard
+- **Transaction status** in your Back Office differs from the status on your MultiSafepay Dashboard
 
 You can try the following:
 
