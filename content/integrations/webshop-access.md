@@ -20,13 +20,13 @@ We strive for correct functionality, and support you best as possible with any c
 Always ensure your **plugin version is up to date**. Only then, we can guarantee correct functioning of our solutions.  
 Seek assistance from your developer to make sure the basic configurations are in place. 
 
-Check the **changelog **for your plugin to read about any recently added features, and bugfixes. 
+Check the **changelog** for your plugin to read about any recently added features, and bugfixes. 
 
-Tip: Before conducting updates, always test via a **staging **environment.
+Tip: Before conducting updates, always test via a **staging** environment.
 
 ## Third party solutions
 
-**Note: We cannot guarantee correct behaviour with any third party solutions which are not explicitly mentioned as compatible in our documentation. **
+**Note**: We cannot guarantee correct behaviour with any third party solutions which are not explicitly mentioned as compatible in our documentation.
 
 If you encounter an issue with payments while using one of our plugin integrations, always try to reproduce the issue with any third party solutions deactivated. This gives valuable insights for further investigation. 
 
@@ -37,7 +37,7 @@ If you encounter issues that affect payments, valuable first checks are:
 - Log into your Merchant Dashboard and check for any alerts: You see alerts on your main page if we have recently requested information, or your account needs extra configuration.
 - Create a [payment link]\(payment link) and verify if the issue occurs as well. (!) 
   This helps narrow down if the cause lies in a payment configuration, or rather within the plugin /API integration.  
-  **Tip: Always indicate the result of this step when reaching out to us, best with a screenshot. **
+  **Tip**: Always indicate the result of this step when reaching out to us, best with a screenshot.
 - Check if the payment method is available for the country and currency selected. 
 - Check if a transaction is created (and declined) or if no transaction arrives to the system in the first place. 
 
@@ -73,7 +73,7 @@ Possible errors you may encounter incase of misconfigurations are:
 
 
 
-**Checks **we recommend for **API **solutions:
+**Checks** we recommend for **API** solutions:
 
 - Ensure you have followed all instructions in the Payment component guide.
 - Reach out to us via [integration@multisafepay.com](mailto:integration@multisafepay.com)
@@ -83,7 +83,7 @@ As a temporary fix, while we investigate the issue, you can use our payments via
 # Amounts differ between shopping cart and payment page
 
 - Check if the issue occurs also when deactivating any 3rd party solutions
-Tip: you can do this best via a staging environment. 
+**Tip**: you can do this best via a staging environment. 
 - Contact us for support. 
 Alternative solutions in the meantime:
 - Activate payment components to avoid confusion with your customers.
@@ -111,7 +111,7 @@ If you notice any troubles during the integration of direct buttons for Apple Pa
 - Ensure that card payments, as well as Apple Pay are enabled for your website / account. 
 - Ensure you follow our step by step guide.
 - When validating your domain, double check to have associated the **correct URL**. 
-- Distinguish correctly between **TEST **and **LIVE **environments, and the respective domain validation files. 
+- Distinguish correctly between **TEST** and **LIVE** environments, and the respective domain validation files. 
 - Place the correct validation file, and do NOT copy-paste. 
 - Check if you whitelisted  <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/setting_up_your_server" target="_blank">Apple Pay's domain & IP addresses</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - When using a protected environment during testing, ensure you have **whitelisted **our IP ranges. You can mention this need to our support team via [info@multisafepay.com](mailto:info@multisafepay.com) who will send the information to you. 
@@ -129,7 +129,7 @@ If all the steps within your topic did not solve the issue, we are always availa
 When creating a ticket to [integration@multisafepay.com](mailto:integration@multisafepay.com), please **always** indicate the following:
 
 - **Confirm you have executed all the steps we recommend for self-troubleshooting**
-- Your **merchant ID **(MID) to identify your account.
+- Your **merchant ID** (MID) to identify your account.
 - Indicate if you are integrating via our API, or which plugin version you are using.
 - Send any examples (transactions, order IDs) and if possible, screenshots.
 - When did the issue start occurring?

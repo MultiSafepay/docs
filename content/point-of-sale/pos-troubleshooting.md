@@ -1,7 +1,7 @@
 ---
 title: 'POS troubleshooting'
 category: 6477597e0e2961004638cd5d
-order: 4
+order: 3
 hidden: false
 slug: 'pos-troubleshooting'
 
