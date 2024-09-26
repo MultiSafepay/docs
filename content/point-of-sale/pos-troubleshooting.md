@@ -105,6 +105,7 @@ If your IPEK is **not** configured, you can
 - attempt manual configuration via **Settings** > Advanced > Security Center > Key Injection > RKI > Key Inject
 - contact us via <pos-support@multisafepay.com> 
 
+
 ***
 ## Logs
 
