@@ -31,6 +31,7 @@ In these cases, neither MultiSafepay nor the merchant can take specific actions 
 | **3010** | 3DS Authentication Failed / Stolen card.                                 |
 | **3011** | 3DS Authentication Failed / Suspected fraud.                             |
 | **3012** | 3DS Authentication Failed / Transaction not permitted to the cardholder. |
+| **3100** | 3DS Authentication Failed / Initiation Failed. |
 
 ## Authorization errors
 
