@@ -161,7 +161,7 @@ When the customer clicks or taps the ** Pay** button:
     -H "Authorization: Bearer <website-api-key>" \
     -d '{
     "origin_domain": "originDomain",
-    "validation_url": "validationUrl",
+    "validation_url": "validationUrl"
     }'
     ```
 
