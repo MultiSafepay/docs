@@ -98,9 +98,12 @@ If you have used an incorrect API key for cloud payments, check for the correct 
 
 Before you begin activation, ensure that the Initial PIN Encrypted Key(IPEK) is registered on your terminal.
 
-To check if IPEK is registered, turn on your terminal and click **Configured**.
+To check if IPEK is correctly registered, turn on your terminal and view the **Configured** field.
 
-If your IPEK is not configured, email <pos-support@multisafepay.com>
+If your IPEK is **not** configured, you can 
+
+- attempt manual configuration via **Settings** > Advanced > Security Center > Key Injection > RKI > Key Inject
+- contact us via <pos-support@multisafepay.com> 
 
 ***
 ## Logs
