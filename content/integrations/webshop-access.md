@@ -27,7 +27,7 @@ Check the **changelog** for your plugin to read about any recently added feature
 
 ## Third party solutions
 
-**⚠️ Note:** We cannot guarantee correct behaviour with any third party solutions which are not explicitly mentioned as compatible in our documentation.
+**⚠️ Note:** We cannot guarantee correct behavior with any third party solutions which are not explicitly mentioned as compatible in our documentation.
 
 
 If you encounter an issue with payments while using one of our plugin integrations, always try to reproduce the issue with any third party solutions deactivated. This gives valuable insights for further investigation. 
@@ -94,7 +94,8 @@ As a temporary fix, while we investigate the issue, you can use our payments via
 - Contact us for support. 
 Alternative solutions in the meantime:
 - Activate payment components to avoid confusion with your customers.
-- Disable the shopping cart via your settings for the payment page in your Merchant Dashboard. 
+- Disable the shopping cart via your settings for the payment page in your Merchant Dashboard.
+    ⚠️ **Note:** This will disable BNPL methods.
 
 # Webhook issues
 
@@ -116,17 +117,17 @@ If you notice any troubles during the integration of direct buttons for Apple Pa
 ## Apple Pay direct integration
 
 - Ensure that card payments, as well as Apple Pay are enabled for your website / account. 
-- Ensure you follow our step by step guide.
+- Ensure you follow our [step by step guide](/docs/apple-pay-direct/).
 - When validating your domain, double check to have associated the **correct URL**. 
 - Distinguish correctly between **TEST** and **LIVE** environments, and the respective domain validation files. 
 - Place the correct validation file, and do NOT copy-paste. 
-- Check if you whitelisted  <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/setting_up_your_server" target="_blank">Apple Pay's domain & IP addresses</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- Check if you whitelisted  <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/setting_up_your_server" target="_blank">Apple Pay's domain & IP addresses</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 - When using a protected environment during testing, ensure you have **whitelisted **our IP ranges. You can mention this need to our support team via [info@multisafepay.com](mailto:info@multisafepay.com) who will send the information to you. 
 - Check if the issue occurs via the** redirect solution** as well. This result is valuable information when contacting [info@multisafepay.com](mailto:info@multisafepay.com).
 
 ## Google Pay direct integration
 
-- Ensure you follow our step by step guide.
+- Ensure you follow our [step by step guide](/docs/google-pay-direct/).
 - Ensure you have validated the URL correctly.
 - Check if the issue occurs via the redirect solution as well. This result is valuable information when contacting [info@multisafepay.com](mailto:info@multisafepay.com).
 
