@@ -36,14 +36,14 @@ For more information about the direct and redirect flows for a specific payment 
 - For POST and PATCH request:
 ```
 curl --request POST \
-     --url 'https://testapi.multisafepay.com/v1/json/orders/order_id?
+     --url '<URL here>'
      --header 'accept: application/json' \
      --header 'content-type: application/json'
 ```
 - For GET requests:
 ```
 curl --request GET \
-     --url 'https://testapi.multisafepay.com/v1/json/orders/order_id?
+     --url '<URL here>'
      --header 'accept: application/json' \
 ```
 
