@@ -33,7 +33,7 @@ For more information about the direct and redirect flows for a specific payment 
 
 **⚠️ Note**: Always include the relevant headers when submitting payment and refund requests via our API to prevent errors.
 
-- For POST and PATCH request:
+- For POST and PATCH requests:
 ```
 curl --request POST \
      --url '<URL here>'
