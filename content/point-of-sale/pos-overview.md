@@ -49,8 +49,5 @@ Read how our POS solutions can benefit your business on <a href="https://www.mul
 }
 [/block]
 
-For pricing information, contact [sales@multisafepay.com](mailto:sales@multisafepay.com)
-
-<br>
 
 [Top of page](#)
