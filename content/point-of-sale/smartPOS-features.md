@@ -76,8 +76,8 @@ You can add an employee via **add employee** > Insert name and ID.
 
 1. In the **Global settings** list, click the **Print/Email** toggle.
 2. To return to the main screen, click the **Back** button.
-<!-- 
-**Example:**
+
+<!-- **Example:**
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-print-screen.png" alt="smartPOS_print" width="250" style="display: block;"/>
 <br>
