@@ -37,10 +37,10 @@ To add payment flow features, follow these steps:
 
 1. On the navigation menu, click the **Back** button.
 2. Select **Settings**.  
-   <br>  
+   <!-- <br>  
    <br>  
    <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SmartPOS-pay-flow.png" alt="POS-display" width="250" style="display: block;"/>  
-   <br>
+   <br> -->
 
 ## How to enable display items
 
@@ -49,11 +49,11 @@ To add payment flow features, follow these steps:
 
 Once you've initiated the payment, the items are displayed on the payment screen.
 
-**Example:**  
+<!-- **Example:**  
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-items-screen.png" alt="POS-display" width="250" style="display: block;"/>  
 <br>
 
-***
+*** -->
 
 ## How to enable tipping
 
@@ -62,9 +62,9 @@ Once you've initiated the payment, the items are displayed on the payment screen
 
 After the payment has been processed, the option to tip is displayed on the payment screen.
 
-**Example:**  
+<!-- **Example:**  
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-tipping-screen.png" alt="smartPOS_print" width="250" style="display: block;"/>  
-<br>
+<br> -->
 
 You can add an employee via **add employee** > Insert name and ID.
 
@@ -77,12 +77,12 @@ You can add an employee via **add employee** > Insert name and ID.
 1. In the **Global settings** list, click the **Print/Email** toggle.
 2. To return to the main screen, click the **Back** button.
 
-**Example:**
+<!-- **Example:**
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-print-screen.png" alt="smartPOS_print" width="250" style="display: block;"/>
 <br>
 
-***
+*** -->
 
 ## How to enable manual input
 
@@ -135,9 +135,9 @@ If you select *disabled*, there is no automatic timeout, and you will need to pr
 
 After you've enabled the **Cloud mode**, the **Navigation** list appears. This feature allows you to hide the cancel button and system navigation.
 
-**Example:**  
+<!-- **Example:**  
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SmartPOS-cloud-mode.png" alt="smartPOS_print" width="250" style="display: block;"/>  
-<br>
+<br> -->
 
 ## How to generate closing balance
 
