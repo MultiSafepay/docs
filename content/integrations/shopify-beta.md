@@ -24,6 +24,7 @@ To install or migrate, follow these steps:
    - <a href="https://apps.shopify.com/card-payment" target="_blank">Card Payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/direct-debit" target="_blank">Direct debit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/multisafepay-ideal" target="_blank">iDEAL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+   - <a href="https://apps.shopify.com/multisafepay-mastercard" target="_blank">Mastercard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 5. Click on "Install" button.
 6. If necessary, log in to your Shopify store.
 7. On your admin page, select Install app. 
@@ -76,6 +77,10 @@ Payments are processed in the webshop's default currency only.
 ## Reconciliation
 
 To match orders in your accounting system with your MultiSafepay account, use the MultiSafepay order ID and the Shopify payment ID.
+
+## Payment capture method
+
+Payment capture method needs to be set to **Automatically at checkout** in your Shopify settings.  This can be set up in Settings > Payments > Payment capture method.
 
 ## Refunds
 
