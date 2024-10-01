@@ -72,7 +72,7 @@ To send an order request with as much information as possible, we recommend sett
 
 ## Currencies
 
-Payments are processed in the webshop's default currency only.
+Payments are processed only in the default currency of the webshop.
 
 ## Reconciliation
 
