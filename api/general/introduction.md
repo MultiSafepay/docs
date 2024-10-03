@@ -31,23 +31,25 @@ If you provide a `redirect_url`, after completing payment the customer is direct
 
 For more information about the direct and redirect flows for a specific payment method, see the payment method page.
 
-**⚠️ Note**: Always include the relevant headers when submitting payment and refund requests via our API to prevent errors.
+# Request types
+When submitting requests via our API, always include the relevant headers to prevent errors.
 
-- For POST and PATCH requests:
-```
-curl --request POST \
-     --url '<URL here>'
-     --header 'accept: application/json' \
-     --header 'content-type: application/json'
-```
-- For GET requests:
-```
-curl --request GET \
-     --url '<URL here>'
-     --header 'accept: application/json' \
+- For **POST** and **PATCH** requests:
+#### Example
+```JavaScript
+curl -X POST '<URL here>'\
+-H 'accept: application/json' \
+-H 'content-type: application/json'
 ```
 
-#### Flow
+- For **GET** and **DELETE** requests:
+#### Example
+```JavaScript
+curl -X GET '<URL here>'\
+-H 'accept: application/json' \
+```
+
+# Flow
 
 Click to magnify.
 
