@@ -27,6 +27,7 @@ The table below sets out the expiration time per payment method:
 | Bank transfer| 60 days  |
 | Belfius| 5 days   |
 | Betaal per Maand| 1 day |
+| Bizum| 30 minutes |
 | CBC/KBC| 5 days   |
 | Dotpay| 3 days   |
 | Google Pay| 1 hour   |
