@@ -244,22 +244,21 @@
 			padding: 50px;
 			border-radius: 10px;
 		}
-	  	/* Applies when system mode is dark */
-	  @media (prefers-color-scheme: dark) {
-			[data-color-mode="system"] .flex-item.padded-block {
-				background: #36454F !important; /* Charcoal black for system dark mode */
-			}
-		
-
-		/* Applies when user has explicitly chosen dark mode */
-			[data-color-mode="dark"] .flex-item.padded-block {
-			background: #36454F !important; /* Charcoal black for dark mode */
-			}
-		}
 	  @media screen and (max-width: 935px) {
 			.grey-background {
 				background: none;
 			}
+		}
+		/* Applies when system mode is dark */
+	  @media (prefers-color-scheme: dark) {
+		[data-color-mode="system"] .flex-item.padded-block {
+			background: #36454F !important; /* Charcoal black for system dark mode */
+			}
+		}
+
+		/* Applies when user has explicitly chosen dark mode */
+		[data-color-mode="dark"] .flex-item.padded-block {
+		background: #36454F !important; /* Charcoal black for dark mode */
 		}
 	</style>
 
