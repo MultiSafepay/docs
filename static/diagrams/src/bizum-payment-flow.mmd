@@ -1,0 +1,17 @@
+sequenceDiagram
+    autonumber
+    participant C as Customer
+    participant Mu as MultiSafepay
+    participant Bi as Bizum
+    participant Me as Merchant
+    
+    C->>Mu: Selects Bizum at checkout
+    Mu->>C: Sends redirect URL for authentication
+    alt Redirect flow
+    Mu->>C: Redirects to payment page, <br> then to Bizum environment
+    else Direct flow
+    Mu->>C: Redirects to Bizum environment
+    end
+    C->>Bi: Inserts phone number
+    C->>Bi: Authenticates
+    Mu->>Me: Settles funds
