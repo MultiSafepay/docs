@@ -146,9 +146,12 @@ At the end of a processing period, you can print an overview of total transactio
 Via Settings > **Closing balance**, can set the following parameters:
 
 - Default date: today, yesterday
-- Closing start hour
+- Closing start hour: if you include a start hour, the period will count 24 from the set time on
+  Example: set 10.00 >> period is 10.00 to 09:59
 - Closing end hour
 - Filter by: Company, Terminal group, Terminal
+
+You can see the selected details displayed on screen, and in the header of the receipt.  
 
 </details>
 
