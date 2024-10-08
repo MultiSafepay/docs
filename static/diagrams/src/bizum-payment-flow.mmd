@@ -3,8 +3,7 @@ sequenceDiagram
     participant C as Customer
     participant Mu as MultiSafepay
     participant Bi as Bizum
-    participant Me as Merchant
-    
+
     C->>Mu: Selects Bizum at checkout
     Mu->>C: Sends redirect URL for authentication
     alt Redirect flow
@@ -14,4 +13,3 @@ sequenceDiagram
     end
     C->>Bi: Inserts phone number
     C->>Bi: Authenticates
-    Mu->>Me: Settles funds
