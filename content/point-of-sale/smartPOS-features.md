@@ -41,14 +41,18 @@ After activating your SmartPOS terminal, you can add features from your SmartPOS
 **Navigation** Settings
 
 - Enable the Cancel function.
+<!-- <br>
 <br>
 <br>
-<br>
+  
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_feature_list.png" alt="Feature list" width="180" style="display: block;"/>
+  <br> -->
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_features.png" alt="POS main screen" width="180"  style="margin-right: 200px;"/>        
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_feature_list.png" alt="Feature list" width="180"/>
-<br>
-
+  <div style="display:flex; align-items:flex-start; margin-top:20px; margin-left:60px;">
+    <div style="margin-right: 20px;">
+      <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_feature_list.png" alt="Feature list" width="180" />
+    </div>
+  </div>
 
 <br><br>
 
