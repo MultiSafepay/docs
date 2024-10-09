@@ -17,21 +17,45 @@ slug: 'smartpos-features'
 > 
 > If you are interested in our Point of Sale solutions, email [\[sales@multisafepay.com\](mailto:sales@multisafepay.com)](mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com))
 
-After activating your SmartPOS terminal, you can add features from your SmartPOS payment app. SmartPOS features let you:
+
+
+## Features 
+
+After activating your SmartPOS terminal, you can add features from your SmartPOS payment app. SmartPOS features contains:
+
+**Global Settings**
 
 - Display items after payment have been processed. 
-
 - Add a tip to your payment flow.
+- Print a receipt.
 
-- Send an invoice to your customer via email or print.
+**Payment** Settings
 
+- Insert an order ID (or Scan QR)
+- Allow refunds
+- Allow card authorization
 - Initiate payments manually or using cloud mode.
-
 - Hide the navigation menu on the main screen.
+- Define the closing order flow. 
 
-- View the transaction overview.
+**Navigation** Settings
+
+- Enable the Cancel function.
+<br>
+<br>
+<br>
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_features.png" alt="POS main screen" width="180"  style="margin-right: 200px;"/>        
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_feature_list.png" alt="Feature list" width="180"/>
+<br>
+
+
+<br><br>
 
 # Add features
+
+
+<br>
 
 To add payment flow features, follow these steps: 
 
