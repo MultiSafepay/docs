@@ -58,7 +58,6 @@ After activating your SmartPOS terminal, you can add features from your SmartPOS
 
 # Add features
 
-
 <br>
 
 To add payment flow features, follow these steps: 
