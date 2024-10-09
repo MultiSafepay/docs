@@ -29,7 +29,7 @@ After activating your SmartPOS terminal, you can add features from your SmartPOS
 - Add a tip to your payment flow.
 - Print a receipt.
 
-**Payment** Settings
+**Payment Settings**
 
 - Insert an order ID (or Scan QR)
 - Allow refunds
@@ -38,16 +38,15 @@ After activating your SmartPOS terminal, you can add features from your SmartPOS
 - Hide the navigation menu on the main screen.
 - Define the closing order flow. 
 
-**Navigation** Settings
+**Navigation Settings**
 
 - Enable the Cancel function.
-<br>
-<br>
-<br>
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_features.png" alt="POS main screen" width="180"  style="margin-right: 200px;"/>        
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_feature_list.png" alt="Feature list" width="180"/>
-<br>
+<div style="display: flex; align-items: flex-start; margin-top: 20px;">
+  <div style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_feature_list.png" alt="Feature list" width="180"/>
+  </div>
+</div>
 
 
 <br><br>
