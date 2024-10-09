@@ -23,36 +23,48 @@ slug: 'smartpos-features'
 
 After activating your SmartPOS terminal, you can add features from your SmartPOS payment app. SmartPOS features contains:
 
-**Global Settings**
 
-- Display items after payment have been processed. 
-- Add a tip to your payment flow.
-- Print a receipt.
-
-**Payment** Settings
-
-- Insert an order ID (or Scan QR)
-- Allow refunds
-- Allow card authorization
-- Initiate payments manually or using cloud mode.
-- Hide the navigation menu on the main screen.
-- Define the closing order flow. 
-
-**Navigation** Settings
-
-- Enable the Cancel function.
-<!-- <br>
-<br>
-<br>
-  
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_feature_list.png" alt="Feature list" width="180" style="display: block;"/>
-  <br> -->
-
-  <div style="display:flex; align-items:flex-start; margin-top:20px; margin-left:60px;">
-    <div style="margin-right: 20px;">
-      <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_feature_list.png" alt="Feature list" width="180" />
-    </div>
+<div class="settings-container" style="display:flex; align-items:flex-start; margin-top:20px;">
+  <div style="margin-right: 80px;">
+    <strong>Global Settings</strong>
+    <ul><br>
+      <li>Display items after payment have been processed.</li>
+      <li>Add a tip to your payment flow.</li>
+      <li>Print a receipt.</li>
+    </ul>
+    <strong>Payment Settings</strong>
+    <ul><br>
+      <li>Insert an order ID (or Scan QR)</li>
+      <li>Allow refunds</li>
+      <li>Allow card authorization</li>
+      <li>Initiate payments manually or using cloud mode</li>
+      <li>Hide the navigation menu on the main screen</li>
+      <li>Define the closing order flow</li>
+    </ul>
+    <strong>Navigation Settings</strong>
+    <ul><br>
+      <li>Enable the Cancel function</li>
+    </ul>
   </div>
+
+  <div style="flex-shrink: 0;">
+    <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_feature_list.png" alt="Feature list" width="220" />
+  </div>
+</div>
+
+<!-- Add the following CSS styles -->
+
+<style>
+  @media (max-width: 480px) {
+    .settings-container {
+      flex-direction: column; /* Stacks items vertically on small screens */
+      align-items: flex-start; /* Align items at the start */
+    }
+    .settings-container img {
+      margin-top: 20px; /* Adds some space between the text and image */
+    }
+  }
+</style>
 
 <br><br>
 
