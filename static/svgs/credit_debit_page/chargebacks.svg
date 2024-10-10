@@ -1,0 +1,9 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M32 25.0556C32.9452 25.9015 33.7554 26.8951 34.3946 28H39C39.5523 28 40 27.5523 40 27V25C40 24.4477 39.5523 24 39 24H33C32.4477 24 32 24.4477 32 25V25.0556Z" fill="#00ABEE"/>
+<path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M6 6C4.89543 6 4 6.89543 4 8V32C4 33.1046 4.89543 34 6 34H12C12 27.3726 17.3726 22 24 22C30.6274 22 36 27.3726 36 34H42C43.1046 34 44 33.1046 44 32V8C44 6.89543 43.1046 6 42 6H6Z" fill="#00ABEE"/>
+<path d="M4 12H44V18H4V12Z" fill="#00ABEE"/>
+<path opacity="0.3" d="M34 34C34 39.5228 29.5228 44 24 44C18.4772 44 14 39.5228 14 34C14 28.4772 18.4772 24 24 24C29.5228 24 34 28.4772 34 34Z" fill="#00ABEE"/>
+<rect x="22.9793" y="30" width="2.08162" height="5.62758" rx="1.04081" transform="rotate(45 22.9793 30)" fill="#00ABEE"/>
+<rect x="24.4512" y="36.9068" width="2.08162" height="5.62758" rx="1.04081" transform="rotate(135 24.4512 36.9068)" fill="#00ABEE"/>
+<rect x="19.3104" y="35.2042" width="2.08162" height="9.68957" rx="1.04081" transform="rotate(-90 19.3104 35.2042)" fill="#00ABEE"/>
+</svg>
