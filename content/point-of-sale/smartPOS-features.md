@@ -15,11 +15,11 @@ slug: 'smartpos-features'
 > - Netherlands
 > - Belgium 
 > 
-> If you are interested in our Point of Sale solutions, email [\[sales@multisafepay.com\](mailto:sales@multisafepay.com)](mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com))
+> If you are interested in our Point of Sale solutions, email [sales@multisafepay.com](mailto:sales@multisafepay.com).
 
 
 
-## Features 
+# Features 
 
 After activating your SmartPOS terminal, you can add features from your SmartPOS payment app. SmartPOS features contains:
 
@@ -65,11 +65,6 @@ After activating your SmartPOS terminal, you can add features from your SmartPOS
     }
   }
 </style>
-
-<br><br>
-
-# Add features
-
 
 <br>
 
