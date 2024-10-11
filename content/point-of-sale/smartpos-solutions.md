@@ -46,7 +46,8 @@ This diagram shows a successful cloud-based POS payment flow. Click to magnify.
 
   **⚠️ Note:** Before you start initiating payments, you must ensure **cloud mode** is enabled - see [SmartPOS features](/docs/smartpos-features).
 
-Create an order. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- Create an order. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- Cancel an order. See [cancellation](#cancellation).
 
 To receive payments updates subscribe to [Event notifications.](/docs/event-notifications)
 
@@ -73,7 +74,7 @@ This diagram shows a successful web application payment flow. Click to magnify.
 
 **Example**
 
-```
+```cURL
 curl -X POST \
 "https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
 -d '{
@@ -127,7 +128,7 @@ This diagram shows a successful native application payment flow. Click to magnif
 
 **Example**
 
-```
+```cURL
 curl -X POST \
 "https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
 -d '{
@@ -153,7 +154,7 @@ In addition to the features mentioned in our <a href="https://docs.multisafepay.
 
 **Example GET order**
 
-``` 
+```JSON
 
 {
   "success": true,
@@ -280,11 +281,74 @@ The table below sets out options available for receiving updates on the payments
 
 ## Cancellation
 
-To cancel an order, make a POST request using the `order_id`.
+You can use two different request methods to cancel an order: **POST** or **PATCH**. Both methods require the use of an `order_id` and a group **API** key, which you can find at your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  under **Manage groups**.
 
+<details id="patch-request">
+<summary>PATCH request</summary>
+
+To cancel an order with a **PATCH** request, follow these instructions:
+
+- The `status` parameter (string) must be set to **cancelled**.
+- Set `exclude_order` (boolean) to **true**. This sets the outcome of the cancellation.
+
+**Example Request**
+```cURL PATCH
+curl --location --request PATCH \
+     --url 'https://api.multisafepay.com/v1/json/orders/{order_id}/?api_key={your-api-key}' \
+     --header 'Accept: application/json' \
+     --header 'Content-Type: application/json'
+     --data ' 
+{
+  "status": "cancelled",
+  "exclude_order": true
+}
+'
 ```
-curl -X POST 'https://testapi.multisafepay.com/v1/json/orders/{order_id}/cancel?api_key={your-api-key}'
+
+**Example Response**
+```JSON
+{
+  "success":true,
+	"data": {}
+}
 ```
+</details>
+
+<details id="post-request">
+<summary>POST request</summary>
+
+
+
+To cancel an order with a **POST** request, no additional parameters are required. Introduce the `order_id` and the **API** key in the URL. 
+
+**Example request**
+
+```cURL POST
+curl -X POST 
+"https://api.multisafepay.com/v1/json/orders/{order_id}/cancel?api_key={your-api-key}"
+```
+**Example response**
+```JSON
+{
+  "success": true,
+  "data": {
+    "costs": [],
+    "created": "dateTtime",
+    "custom_info": {
+      "custom_1": null,
+      "custom_2": null,
+      "custom_3": null
+    },
+    "fastcheckout": "NO",
+    "financial_status": null,
+    "modified": "dateTtime",
+    "payment_details": {},
+    "payment_methods": null,
+    "status": "cancelled"
+    }
+}
+```
+</details>
 
 ## Refunds
 
