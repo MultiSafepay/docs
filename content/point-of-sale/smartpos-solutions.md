@@ -74,6 +74,7 @@ This diagram shows a successful web application payment flow. Click to magnify.
 
 **Example**
 
+
 ```curl
 curl -X POST \
 "https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
@@ -128,6 +129,7 @@ This diagram shows a successful native application payment flow. Click to magnif
 1. Before initiating native application payments, you need to create an order.
 
 **Example**
+
 ```curl
 curl -X POST \
 "https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
@@ -282,7 +284,9 @@ The table below sets out options available for receiving updates on the payments
 
 ## Cancellation
 
+
 You can use two different request methods to cancel an order: **POST** or **PATCH**. Both methods require the use of an `order_id` and a group **API** key, which you can find at your [MultiSafepay dashboard](https://merchant.multisafepay.com/)  under **Manage groups**.
+
 
 <details id="patch-request">
 <summary>PATCH request</summary>
@@ -293,7 +297,9 @@ To cancel an order with a **PATCH** request, follow these instructions:
 - Set `exclude_order` (boolean) to **true**. This sets the outcome of the cancellation.
 
 **Example Request**
+
 ```curl cURL PATCH
+
 curl --location --request PATCH \
      --url 'https://api.multisafepay.com/v1/json/orders/{order_id}/?api_key={your-api-key}' \
      --header 'Accept: application/json' \
@@ -308,6 +314,7 @@ curl --location --request PATCH \
 
 **Example Response**
 ```json
+
 {
   "success":true,
 	"data": {}
