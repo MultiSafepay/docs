@@ -7,14 +7,6 @@ slug: 'pos-troubleshooting'
 
 ---
 
-> ⚠️ Note:
-> 
-> We currently offer this product in the following countries:
-> 
-> - Netherlands
-> - Belgium 
->  
-> If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
 
 This page provides troubleshooting steps to resolve common issues.
 

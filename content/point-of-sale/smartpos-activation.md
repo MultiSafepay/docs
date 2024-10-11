@@ -13,10 +13,14 @@ slug: 'smartpos-activation'
 > 
 > - Netherlands
 > - Belgium 
->  
+> 
+> As a partner, you can further connect accounts registered in the following countries:
+>
+> - Italy 
+> - Spain
+>
 > If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
 >
-
 SmartPOS is an advanced <<glossary:POS>> terminal with Android applications, providing added functionality.  It enables you to make payments through various options, such as manual input flow, cloud POS payment, or third-party on-device applications.
 
 # Prerequisites
