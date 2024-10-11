@@ -14,7 +14,7 @@ slug: 'bizum'
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bizum.svg/122px-Bizum.svg.png" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a href="[Bizum](https://bizum.es/)" target="_blank">Bizum</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a mobile payment system in Spain that enables users to make instant transfers through their banking app, providing a quick and secure way to conduct payments.
+<a href="<a href="https://bizum.es/" target="_blank">Bizum</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>" target="_blank">Bizum</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a mobile payment system in Spain that enables users to make instant transfers through their banking app, providing a quick and secure way to conduct payments.
 
 
 
