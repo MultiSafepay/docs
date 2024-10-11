@@ -38,6 +38,9 @@ To activate a SmartPOS terminal, follow these steps:
 - **New group name**.  
 - **Webhook URL** (optional).
 - In the **Business category** field, click the **drop-down** icon and specify the relevant service or product offered. If a category has been assigned to your account in the past, it will be displayed automatically. 
+- **Logo**: Select an image you want to display in different places of your payment app, to show customized branding. 
+To add new images, upload them first via Settings > Files. 
+The logo is then added to all terminals of this group.
 6. Select Terminal type **SmartPOS**
 
 

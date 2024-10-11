@@ -138,8 +138,14 @@ Functionalities you can access as a partner through your Sunmi portal:
 - Sign in to your Sunmi Partner Account via partner.sunmi.com.
 - Go to **Development** > App Publishing, and upload your APK file.
 
+## Sunmi developer documentation
 
-# Sunmi contact
+For guides on available tools and functions, you can refer to the <a href="https://developer.sunmi.com/docs/en-US/index" target="_blank">Sunmi Developer Documentation</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+
+To find specific information for your terminal model, go to <a href="https://developer.sunmi.com/docs/en-US/ceghjk502/fcmeghjk546" target="_blank">Documents by Model</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+
+## Sunmi contact
 
 As a partner you can contact Sunmi support for any issues with the terminal.
 
