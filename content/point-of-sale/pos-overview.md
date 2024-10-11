@@ -12,9 +12,14 @@ slug: 'overview'
 > 
 > - Netherlands
 > - Belgium 
->  
+> 
+> As a partner, you can further connect accounts registered in the following countries:
+>
+> - Italy 
+> - Spain
+>
 > If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
-
+>
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-1.svg" width="80" align="right" style="margin: 20px 20px 20px 30px; max-height: 75px"/>
 
 With MultiSafepay <<glossary:POS>> solutions, you can accept in-person payments through various terminals. Our <<glossary:POS>> solutions support multiple payment methods and offer flexible implementation options.

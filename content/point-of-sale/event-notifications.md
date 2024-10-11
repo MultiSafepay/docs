@@ -7,15 +7,7 @@ hidden: false
 slug: 'event-notifications'
 ---
 
-> ⚠️ Note:
-> 
-> We currently offer this product in the following countries:
-> 
-> - Netherlands
-> - Belgium 
->  
-> If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
->
+
 
 Subscribe to event notifications to receive order payments updates when, e.g.,
 
