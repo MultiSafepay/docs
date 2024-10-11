@@ -74,7 +74,7 @@ This diagram shows a successful web application payment flow. Click to magnify.
 
 **Example**
 
-```cURL
+```curl
 curl -X POST \
 "https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
 -d '{
@@ -88,7 +88,8 @@ curl -X POST \
       "notification_url": "https://www.example.com/paymentnotification",
       "notification_method": "POST"
   }
-}'
+}
+'
 ```
 
 2. Initiate a payment using the URL below:
@@ -127,11 +128,11 @@ This diagram shows a successful native application payment flow. Click to magnif
 1. Before initiating native application payments, you need to create an order.
 
 **Example**
-
-```cURL
+```curl
 curl -X POST \
 "https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
--d '{
+-d '
+{
   "type": "redirect",
   "order_id": "my_order_id",
   "gateway": "",
@@ -142,7 +143,8 @@ curl -X POST \
       "notification_url": "https://www.example.com/paymentnotification",
       "notification_method": "POST"
   }
-}'
+}
+'
 ```
 
 2. To initiate payments - see <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">MultiSafepay Android POS integration </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
@@ -154,8 +156,7 @@ In addition to the features mentioned in our <a href="https://docs.multisafepay.
 
 **Example GET order**
 
-```JSON
-
+```json
 {
   "success": true,
   "data": {
@@ -292,7 +293,7 @@ To cancel an order with a **PATCH** request, follow these instructions:
 - Set `exclude_order` (boolean) to **true**. This sets the outcome of the cancellation.
 
 **Example Request**
-```cURL PATCH
+```curl cURL PATCH
 curl --location --request PATCH \
      --url 'https://api.multisafepay.com/v1/json/orders/{order_id}/?api_key={your-api-key}' \
      --header 'Accept: application/json' \
@@ -306,7 +307,7 @@ curl --location --request PATCH \
 ```
 
 **Example Response**
-```JSON
+```json
 {
   "success":true,
 	"data": {}
