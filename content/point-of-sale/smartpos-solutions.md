@@ -46,7 +46,8 @@ This diagram shows a successful cloud-based POS payment flow. Click to magnify.
 
   **⚠️ Note:** Before you start initiating payments, you must ensure **cloud mode** is enabled - see [SmartPOS features](/docs/smartpos-features).
 
-Create an order. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- Create an order. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- Cancel an order. See [cancellation](#cancellation).
 
 To receive payments updates subscribe to [Event notifications.](/docs/event-notifications)
 
