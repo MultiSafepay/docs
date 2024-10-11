@@ -285,7 +285,7 @@ The table below sets out options available for receiving updates on the payments
 ## Cancellation
 
 
-You can use two different request methods to cancel an order: **POST** or **PATCH**. Both methods require the use of an `order_id` and a group **API** key, which you can find at your [MultiSafepay dashboard](https://merchant.multisafepay.com/)  under **Manage groups**.
+You can use two different request methods to cancel an order: **POST** or **PATCH**. Both methods require the use of an `order_id` and a group **API** key, which you can find at your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  under **Manage groups**.
 
 
 <details id="patch-request">
