@@ -42,7 +42,7 @@ slug: 'cards'
  	  </div>
 </div>
 
-<br>
+---
 
 ## Solutions
 <div class="auto-grid">
@@ -88,7 +88,7 @@ slug: 'cards'
     </div>
   </div>
 
-<br>
+---
 
 ## Payment management
 <div class="auto-grid">
@@ -124,7 +124,7 @@ slug: 'cards'
       </div>
 </div>
 
-<br>
+---
 
 ## Security
 <div class="auto-grid">
@@ -160,8 +160,9 @@ slug: 'cards'
     </div>
 </div>
 
-<br>
+---
 
+## Pricing
 <div class="auto-grid">
     <div class="card-container">
         <a href="/docs/card-payment-pricing-models/" style="text-decoration: none;">
