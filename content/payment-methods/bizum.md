@@ -53,7 +53,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | The customer didn't complete payment within 30 minutes.                                          | Expired      | Expired            |
 | The authentication failed.                                                                       | Declined     | Declined           |
 | **Refunds:** Refund complete.                                                                    | Completed    | Initialized        |
-| **Refunds: ** Refund declined.                                                                   | Declined     | Declined           |
+| **Refunds:** Refund declined.                                                                   | Declined     | Declined           |
 
 ***
 
