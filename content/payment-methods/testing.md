@@ -442,7 +442,7 @@ To learn more about integrating Klarna with MultiSafepay, see [Klarna](/docs/kla
 
 1. Request a test API key from Riverty via either:
     - Your implementation ticket with Riverty, **or**
-    - Email <sales@riverty.nl>
+    - Email <sales@riverty.com>
 
     Riverty shares the test key with MultiSafepay.
 

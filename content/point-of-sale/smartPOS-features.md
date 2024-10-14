@@ -15,7 +15,13 @@ slug: 'smartpos-features'
 > - Netherlands
 > - Belgium 
 > 
-> If you are interested in our Point of Sale solutions, email [sales@multisafepay.com](mailto:sales@multisafepay.com).
+> As a partner, you can further connect accounts registered in the following countries:
+>
+> - Italy 
+> - Spain
+>
+> If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
+>
 
 
 
