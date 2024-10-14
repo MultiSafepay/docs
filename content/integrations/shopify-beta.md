@@ -20,10 +20,16 @@ To install or migrate, follow these steps:
 1. Ensure that your Shopify user has <a href="https://help.shopify.com/en/manual/your-account/staff-accounts/staff-permissions/staff-permissions-descriptions#apps-and-channels-permissions" target="_blank">the permissions</a> to install new apps.
 2. Check that the payment methods you want to use in Shopify are [activated for your MultiSafepay account](/docs/payment-methods). 
 3. Select the desired payment methods, installing their apps using one or more of the following links:
+   - <a href="https://apps.shopify.com/american-express" target="_blank">American Express</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+   - <a href="https://apps.shopify.com/multisafepay-amazon-pay" target="_blank">Amazon Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/bancontact" target="_blank">Bancontact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/card-payment" target="_blank">Card Payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/direct-debit" target="_blank">Direct debit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/multisafepay-ideal" target="_blank">iDEAL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+   - <a href="https://apps.shopify.com/multisafepay-maestro" target="_blank">Maestro</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+   - <a href="https://apps.shopify.com/multisafepay-mb-way" target="_blank">MB WAY</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+   - <a href="https://apps.shopify.com/multisafepay-mastercard" target="_blank">Mastercard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+   - <a href="https://apps.shopify.com/visa" target="_blank">Visa</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 5. Click on "Install" button.
 6. If necessary, log in to your Shopify store.
 7. On your admin page, select Install app. 
@@ -61,21 +67,21 @@ MultiSafepay's [Second Chance](/docs/second-chance/) feature is **not** supporte
 
 See Shopify – <a href="https://help.shopify.com/en/manual/orders/abandoned-checkouts" target="_blank">Recovering abandoned checkouts</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-## Cancellation
-
-If a customer cancels a payment to use another payment method instead, they must complete payment within **2 hours** to avoid errors.
-
 ## Checkout Configuration
 
 To send an order request with as much information as possible, we recommend setting up the checkout by using the email as the primary customer contact method and, if required, adding the phone number in the customer information. This can be set up in Settings > Checkout Page.
 
 ## Currencies
 
-Payments are processed in the webshop's default currency only.
+Payments are processed only in the default currency of the webshop.
 
 ## Reconciliation
 
 To match orders in your accounting system with your MultiSafepay account, use the MultiSafepay order ID and the Shopify payment ID.
+
+## Payment capture method
+
+Payment capture method needs to be set to **Automatically at checkout** in your Shopify settings.  This can be set up in Settings > Payments > Payment capture method.
 
 ## Refunds
 

@@ -13,10 +13,14 @@ slug: 'smartpos-activation'
 > 
 > - Netherlands
 > - Belgium 
->  
+> 
+> As a partner, you can further connect accounts registered in the following countries:
+>
+> - Italy 
+> - Spain
+>
 > If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
 >
-
 SmartPOS is an advanced <<glossary:POS>> terminal with Android applications, providing added functionality.  It enables you to make payments through various options, such as manual input flow, cloud POS payment, or third-party on-device applications.
 
 # Prerequisites
@@ -38,6 +42,9 @@ To activate a SmartPOS terminal, follow these steps:
 - **New group name**.  
 - **Webhook URL** (optional).
 - In the **Business category** field, click the **drop-down** icon and specify the relevant service or product offered. If a category has been assigned to your account in the past, it will be displayed automatically. 
+- **Logo**: Select an image you want to display in different places of your payment app, to show customized branding. 
+To add new images, upload them first via Settings > Files. 
+The logo is then added to all terminals of this group.
 6. Select Terminal type **SmartPOS**
 
 

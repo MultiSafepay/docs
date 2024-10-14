@@ -6,14 +6,14 @@ order: 1
 hidden: false
 ---
 
-Welcome to the MultiSafepay API reference (JSON gateway)!
+Welcome to the MultiSafepay API reference.
 
 To test using the API sandbox, you need to [create a test account](/docs/create-account/).
 
 
-# Direct vs redirect
+# Request types
 
-With our API, you can create transactions through direct and redirect requests.
+With our API, you can create transactions through **direct** and **redirect** requests.
 
 Direct requests connect directly to the payment method, whereas redirect requests first send the customer to a [payment page](/docs/payment-pages/).
 
@@ -29,13 +29,33 @@ Then, if further customer action is:
 
 If you provide a `redirect_url`, after completing payment the customer is directed to your success/thank you page.
 
-For more information about the direct and redirect flows for a specific payment method, see the payment method page.
+---
 
-#### Flow
+# Flows
+For more information about the direct and redirect flows for a specific payment method, see the respective payment method page.
 
 Click to magnify.
 
 ![](https://files.readme.io/c702a54-DirectVsRedirectFlowchart.png "DirectVsRedirectFlowchart.png")
+
+---
+
+# Headers
+When submitting requests via our API to prevent errors, always include the relevant headers.
+- For **POST** and **PATCH** requests:
+#### Example
+```JavaScript
+curl -X POST '<URL here>'\
+-H 'accept: application/json' \
+-H 'content-type: application/json'
+```
+
+- For **GET** and **DELETE** requests:
+#### Example
+```JavaScript
+curl -X GET '<URL here>'\
+-H 'accept: application/json' \
+```
 
 # Wrappers and SDKs
 

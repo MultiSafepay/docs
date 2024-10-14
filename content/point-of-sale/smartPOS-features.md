@@ -15,23 +15,64 @@ slug: 'smartpos-features'
 > - Netherlands
 > - Belgium 
 > 
-> If you are interested in our Point of Sale solutions, email [\[sales@multisafepay.com\](mailto:sales@multisafepay.com)](mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com))
+> As a partner, you can further connect accounts registered in the following countries:
+>
+> - Italy 
+> - Spain
+>
+> If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
+>
 
-After activating your SmartPOS terminal, you can add features from your SmartPOS payment app. SmartPOS features let you:
 
-- Display items after payment have been processed. 
 
-- Add a tip to your payment flow.
+# Features 
 
-- Send an invoice to your customer via email or print.
+After activating your SmartPOS terminal, you can add features from your SmartPOS payment app. SmartPOS features contains:
 
-- Initiate payments manually or using cloud mode.
 
-- Hide the navigation menu on the main screen.
+<div class="settings-container" style="display:flex; align-items:flex-start; margin-top:20px;">
+  <div style="margin-right: 80px;">
+    <strong>Global Settings</strong>
+    <ul><br>
+      <li>Display items after payment have been processed.</li>
+      <li>Add a tip to your payment flow.</li>
+      <li>Print a receipt.</li>
+    </ul>
+    <strong>Payment Settings</strong>
+    <ul><br>
+      <li>Insert an order ID (or Scan QR)</li>
+      <li>Allow refunds</li>
+      <li>Allow card authorization</li>
+      <li>Initiate payments manually or using cloud mode</li>
+      <li>Hide the navigation menu on the main screen</li>
+      <li>Define the closing order flow</li>
+    </ul>
+    <strong>Navigation Settings</strong>
+    <ul><br>
+      <li>Enable the Cancel function</li>
+    </ul>
+  </div>
 
-- View the transaction overview.
+  <div style="flex-shrink: 0;">
+    <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_feature_list.png" alt="Feature list" width="220" />
+  </div>
+</div>
 
-# Add features
+<!-- Add the following CSS styles -->
+
+<style>
+  @media (max-width: 480px) {
+    .settings-container {
+      flex-direction: column; /* Stacks items vertically on small screens */
+      align-items: flex-start; /* Align items at the start */
+    }
+    .settings-container img {
+      margin-top: 20px; /* Adds some space between the text and image */
+    }
+  }
+</style>
+
+<br>
 
 To add payment flow features, follow these steps: 
 
@@ -146,9 +187,12 @@ At the end of a processing period, you can print an overview of total transactio
 Via Settings > **Closing balance**, can set the following parameters:
 
 - Default date: today, yesterday
-- Closing start hour
+- Closing start hour: if you include a start hour, the period will count 24 from the set time on
+  Example: set 10.00 >> period is 10.00 to 09:59
 - Closing end hour
 - Filter by: Company, Terminal group, Terminal
+
+You can see the selected details displayed on screen, and in the header of the receipt.  
 
 </details>
 

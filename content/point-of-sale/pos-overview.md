@@ -12,9 +12,14 @@ slug: 'overview'
 > 
 > - Netherlands
 > - Belgium 
->  
+> 
+> As a partner, you can further connect accounts registered in the following countries:
+>
+> - Italy 
+> - Spain
+>
 > If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
-
+>
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-1.svg" width="80" align="right" style="margin: 20px 20px 20px 30px; max-height: 75px"/>
 
 With MultiSafepay <<glossary:POS>> solutions, you can accept in-person payments through various terminals. Our <<glossary:POS>> solutions support multiple payment methods and offer flexible implementation options.
@@ -47,6 +52,7 @@ Read how our POS solutions can benefit your business on <a href="https://www.mul
 {
   "html": "<div class=\"auto-grid\">\n \n  <div class=\"card-container\">\n        <a href=\"/docs/traditionalctap-terminal\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-2.svg\" style=\"margin: 5px; max-height: 50px\">\n                <div class=\"container\">\n                    <h4><b>Traditional (CTAP) terminal</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n  <div class=\"card-container\">\n        <a href=\"/docs/smartpos-terminal\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-1.svg\" style=\"margin: 5px; max-height: 50px\">\n                <div class=\"container\">\n                    <h4><b>SmartPOS terminal</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n<style>\n\nb {\n  color: #384248 !important;\n}\n  \n.auto-grid {\n  --auto-grid-min-size: 250px;\n  \n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));\n}\n\n.card-container {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the \"card\" effect */\n  padding: 16px;\n  text-align: center;\n  border-radius: 5px;\n  margin: 15px\n} \n\n.card-container:hover {\n  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);\n  transform: translateY(-0.2rem);\n  transition: all 0.2s;\n  cursor: pointer;\n}  \n\n</style>"
 }
+
 [/block]
 
 ---
@@ -54,3 +60,4 @@ Read how our POS solutions can benefit your business on <a href="https://www.mul
 
 
 [Top of page](#)
+

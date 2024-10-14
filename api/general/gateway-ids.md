@@ -17,6 +17,7 @@ hidden: false
 | Bank transfer                          | `BANKTRANS`   |
 | Belfius                                | `BELFIUS`     |
 | Betaal per Maand                       | `SANTANDER`   |
+| Bizum                                  | `BIZUM`       |
 | CBC/KBC                                | `CBC` / `KBC` |
 | Card payments                          | `CREDITCARD`  |
 | Dotpay                                 | `DOTPAY`      |
