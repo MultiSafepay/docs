@@ -49,7 +49,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-To activate Riverty for your account, email Riverty at <sales@riverty.nl>  
+To activate Riverty for your account, email Riverty at <sales@riverty.com>  
 
 Riverty provides you with an API key per country and per site, and you must accept Riverty's terms and conditions for each. 
 
