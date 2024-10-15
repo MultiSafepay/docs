@@ -23,6 +23,8 @@ Payment components let you embed payment methods directly into your checkout.
 
 You can embed a single or multiple payment methods in your checkout.
 
+**⚠️ Note:** [Prepaid cards](/docs/prepaid-cards/) are not supported.
+
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>
 <br>
@@ -49,6 +51,7 @@ You can embed a single or multiple payment methods in your checkout.
 - [Sofort](/docs/sofort/)
 
 </details>
+
 
 # Card payment features
 
