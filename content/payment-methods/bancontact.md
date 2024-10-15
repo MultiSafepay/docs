@@ -73,6 +73,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   </details>
 
+  **⚠️ Note:** Bancontact doesn't support **direct** requests.
+
 - By default, transactions expire after 1 hour. 
 
 -  If `seconds_active` is set, the QR code will expire at the time specified. See recipes - <a href="https://docs.multisafepay.com/recipes/days_active-seconds_active" target="_blank">Seconds_active</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.

@@ -88,6 +88,8 @@ Testing this new format is possible on both our TEST and LIVE environment:
 
 **Test a Bancontact order**
 
+**⚠️ Note:** Bancontact doesn't support **direct** requests.
+
 1. [Create an order](/reference/createorder/) > Banking order (Example: Bancontact redirect).
 2. Open the payment link.
 3. In the **Card number** field, enter a card number (see table below).
