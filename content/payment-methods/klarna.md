@@ -282,6 +282,16 @@ For every transaction, Klarna generates two reference numbers:
 
 Both reference numbers appear in the **Transaction details** page in your dashboard.
 
+## Refunds
+
+To refund a Klarna transaction, follow these steps:
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Navigate to **Transactions / Transactions Overview** and find the transaction you want to refund, or search for the transaction you want to refund by using the search bar.
+3. Click on the transaction to go to the transaction details page.
+4. On the right side of the page are the order details and a blue Refund button.
+5. In this section you can remove order lines or refund the complete order.
+
 ## Shipment
 
 ### Change the order status
