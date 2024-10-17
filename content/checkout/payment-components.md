@@ -22,14 +22,14 @@ Payment components let you embed payment methods directly into your checkout.
 # Payment methods
 
 You can embed a single or multiple payment methods in your checkout.
-These ase the supported payment methods:
+These are the supported payment methods:
 
-- [Bancontact](/docs/bancontact/)
-- [Bank transfer](/docs/bank-transfer/)
-- [Direct debit](/docs/direct-debit/)
-- [iDEAL](/docs/ideal/)
-- [MyBank](/docs/mybank/)
-- [PayPal](/docs/paypal/)
+- Banking methods:
+  - [Bancontact](/docs/bancontact/)
+  - [Bank transfer](/docs/bank-transfer/)
+  - [Direct debit](/docs/direct-debit/)
+  - [iDEAL](/docs/ideal/)
+  - [MyBank](/docs/mybank/)
 - <<glossary:BNPL>>:
   - [E-invoicing](/docs/e-invoicing/)
   - [In3](/docs/in3/)
@@ -43,6 +43,7 @@ These ase the supported payment methods:
   - [Maestro](/docs/card-payments/)
   - [Mastercard](/docs/card-payments/)
   - [Visa](/docs/card-payments/)
+- Wallets: [PayPal](/docs/paypal/)
 
   
 **⚠️ Note:** [Prepaid cards](/docs/prepaid-cards/) are not supported.
