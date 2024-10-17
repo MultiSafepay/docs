@@ -17,7 +17,7 @@ slug: 'cards'
       	<div class="popup-text">Maestro</div>
     </div>
     <div class="credit-card">
-      	<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/American_Express_logo_%282018%29.svg" alt="American Express Logo">
+      	<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/refs/heads/master/methods/american-express.svg" alt="American Express Logo">
      	  <div class="popup-text">American Express</div>
     </div>
     <div class="credit-card">
@@ -29,7 +29,7 @@ slug: 'cards'
       	<div class="popup-text">V Pay</div>
     </div>
  	  <div class="credit-card">
-      	<img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Visa Logo">
+      	<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/refs/heads/master/methods/mastercard.svg" alt="Visa Logo">
       	<div class="popup-text">Mastercard</div>
     </div>
  	  <div class="credit-card">
