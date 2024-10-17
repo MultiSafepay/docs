@@ -22,33 +22,30 @@ Payment components let you embed payment methods directly into your checkout.
 # Payment methods
 
 You can embed a single or multiple payment methods in your checkout.
-
-<details id="supported-payment-methods">
-<summary>Supported payment methods</summary>
-<br>
+These ase the supported payment methods:
 
 - [Bancontact](/docs/bancontact/)
 - [Bank transfer](/docs/bank-transfer/)
-- <<glossary:BNPL>>:
-    - [E-invoicing](/docs/e-invoicing/)
-    - [Klarna](/docs/klarna/)
-    - [In3](/docs/in3/)
-    - [Pay After Delivery](/docs/pay-after-delivery/)
-    - [Pay After Delivery installments](/docs/pay-after-delivery-installments/)
-    - [Riverty](/docs/riverty/)
-    - [Zinia](/docs/zinia/)
-- Cards:  
-    - [American Express](/docs/card-payments/)
-    - [Mastercard](/docs/card-payments/)
-    - [Visa](/docs/card-payments/)
-    - [Maestro](/docs/card-payments/)
+- [Direct debit](/docs/direct-debit/)
 - [iDEAL](/docs/ideal/)
 - [MyBank](/docs/mybank/)
 - [PayPal](/docs/paypal/)
-- [Direct debit](/docs/direct-debit/)
-- [Sofort](/docs/sofort/)
+- <<glossary:BNPL>>:
+  - [E-invoicing](/docs/e-invoicing/)
+  - [In3](/docs/in3/)
+  - [Klarna](/docs/klarna/)
+  - [Pay After Delivery](/docs/pay-after-delivery/)
+  - [Pay After Delivery installments](/docs/pay-after-delivery-installments/)
+  - [Riverty](/docs/riverty/)
+  - [Zinia](/docs/zinia/)
+- Cards:
+  - [American Express](/docs/card-payments/)
+  - [Maestro](/docs/card-payments/)
+  - [Mastercard](/docs/card-payments/)
+  - [Visa](/docs/card-payments/)
 
-</details>
+  
+**⚠️ Note:** [Prepaid cards](/docs/prepaid-cards/) are not supported.
 
 # Card payment features
 
