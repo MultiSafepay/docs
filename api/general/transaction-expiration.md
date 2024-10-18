@@ -31,7 +31,7 @@ The table below sets out the expiration time per payment method:
 | CBC/KBC| 5 days   |
 | Dotpay| 3 days   |
 | Google Pay| 1 hour   |
-| iDEAL| 1.5 hours|
+| iDEAL| 20 minutes|
 | in3| 2 hours  |
 | Klarna| 1 day   |
 | MB WAY| 4 minutes  |

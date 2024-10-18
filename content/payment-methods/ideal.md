@@ -86,7 +86,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   </details>
 
-- Transactions expire after 1.5 hours.
+- Transactions expire after 20 minutes.
 
 ### Ready-made integrations
 - Banking is supported in most [ready-made integrations](/docs/our-integrations/), **except** ZenCart. 
