@@ -62,7 +62,7 @@ You can cancel a reservation created via manual capture. In case a partial captu
 
 **Via API**: 
 
-- See API reference - [Cancel authorized payment](https://docs.multisafepay.com/reference/cancelauthorizedorder) 
+- See API reference - <a href="https://docs.multisafepay.com/reference/cancelauthorizedorder" target="_blank">Cancel authorized payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
 
 **Via dashboard**:
 
