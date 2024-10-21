@@ -27,10 +27,12 @@ To activate it in other [ready-made integrations](/docs/our-integrations/), you 
 See Recipes:
 - <a href="https://docs.multisafepay.com/recipes/manual-capture-initial-payment/" target="_blank">Manual capture: Initial payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - <a href="https://docs.multisafepay.com/recipes/manual-capture-capture-payment/" target="_blank">Manual capture: Capture payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://docs.multisafepay.com/recipes/manual-capture-cancel-reservation/" target="_blank">Manual capture: Cancel reservation</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 See API reference:
 - [Create order](/reference/createorder/) > Set `manual` to `capture`.
 - [Capture payment](/reference/capturepayment/)
+- [Cancel authorized payment](/reference/cancelauthorizedorder)
 
 <br>
 
@@ -50,6 +52,27 @@ After expiration, the <<glossary:issuer>> can cancel the authorization.
 - Maestro 
 - Mastercard 
 - Visa
+
+## Cancellation
+
+You can cancel a reservation created via manual capture. In case a partial capture has been made, the cancellation will apply to the remaining amount. 
+
+<details id="cancel-authorization">
+<summary>How to cancel an authorized transaction</summary><br>
+
+**Via API**: 
+
+- See API reference - [Cancel authorized payment](https://docs.multisafepay.com/reference/cancelauthorizedorder) 
+
+**Via dashboard**:
+
+- Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+- On the **Transaction summary** page, in **Order Summary**, click **Cancel Reservation**.
+- Add a description of what happened with the order, and then click **Complete**.  
+  The <<glossary:order status>> changes to **Void** and the <<glossary:transaction status>> to Void.
+
+</details>
 
 ## Statuses
 
