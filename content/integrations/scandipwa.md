@@ -25,6 +25,8 @@ slug: 'scandipwa'
 
 # Payment methods
 
+Before activating the relevant payment methods in your backend you must first activate them in you MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
+
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>
 <br>

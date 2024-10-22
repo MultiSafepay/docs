@@ -31,6 +31,15 @@ slug: 'shopware-6'
 ### Marketplace installation
 Get the free MultiSafepay plugin from the <a href="https://store.shopware.com/en/mltis59465832976f/multisafepay-online-payments-for-shopware-ideal-cards-klarna-alipay-etc..html" target="_blank">Shopware 6 marketplace</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and connect your webshop with your Shopware account.
 
+### Configuration
+
+1. Sign in to your Shopware 6 <<glossary:backend>>.
+2. Go to **Extensions** > **My extensions**.
+3. In the **MultiSafepay** module, click **⋯** > **Configure**.
+4. Set the environment to **Test** or **Live**.
+5. In the **API key** field, enter your [API key](https://docs.multisafepay.com/docs/sites#site-id-api-key-and-security-code) and click **Validate API credentials**.
+6. Click **Save**.
+
 ### Composer installation
 Run the following command in the root of your Shopware root directory. Make sure the composer is installed on your hosting server.
 
@@ -85,6 +94,22 @@ For questions, email <integration@multisafepay.com>
 </details>
 
 ### Payment methods
+
+Before activating the relevant payment methods in your backend you must first activate them in you MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
+
+<details id="activate-payment-methods">
+<summary>How to activate payment methods</summary>
+<br>
+
+1. Sign in to your Shopware 6 <<glossary:backend>>.
+2. Go to **Settings** > **Payment Methods**.
+3. Filter the relevant payment methods that have been activated in your MultiSafepay dashboard, e.g.,  
+   Mastercard | MultiSafepay module for Shopware 6.
+4. Click **Activate**.
+
+**💡 Tip!** You can handle the positioning of payment methods in the checkout by clicking **Edit display order in checkout**.
+
+</details>
 
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>
