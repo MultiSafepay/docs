@@ -37,7 +37,7 @@ Get the free MultiSafepay plugin from the <a href="https://store.shopware.com/en
 2. Go to **Extensions** > **My extensions**.
 3. In the **MultiSafepay** module, click **⋯** > **Configure**.
 4. Set the environment to **Test** or **Live**.
-5. In the **API key** field, enter your [API key](https://docs.multisafepay.com/docs/sites#site-id-api-key-and-security-code) and click **Validate API credentials**.
+5. In the **API key** field, enter your <a href="https://docs.multisafepay.com/docs/sites#site-id-api-key-and-security-code" target="_blank">API key</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and click **Validate API credentials**.
 6. Click **Save**.
 
 ### Composer installation
