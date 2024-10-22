@@ -124,12 +124,6 @@ You can add an employee via **add employee** > Insert name and ID.
 <br>
 
 *** -->
-
-## How to enable manual input
-
-1. In the **Payment** list, click the ** Manual input** toggle.
-2. To return to the main screen, click the **Back** button.
-
 ***
 
 ## How to enable cloud mode
