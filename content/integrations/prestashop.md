@@ -198,7 +198,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 
 ## Payment methods
 
-Before activating the relevant payment methods in your backend you must first activate them in you MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
+Before activating the relevant payment methods in your <<glossary:backend>>, you must first activate them in your MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
 
 <details id="activate-payment-methods">
 <summary>How to activate payment methods</summary>
@@ -382,7 +382,7 @@ If upgrading from 5.x to a newer version, see [Updates](/docs/prestashop-1-7#upd
 <summary>How to activate debug mode</summary>
 <br>
 
-1. Sign in to you **PrestaShop** Back Office.
+1. Sign in to your **PrestaShop** Back Office.
 2. Go to **MultiSafepay** > **General Settings** > **Debug mode**.
 3. Click to enable.
 
@@ -392,7 +392,7 @@ If upgrading from 5.x to a newer version, see [Updates](/docs/prestashop-1-7#upd
 <summary>How to get a system report</summary>
 <br>
 
-1. Sign in to you **PrestaShop** Back Office.
+1. Sign in to your **PrestaShop** Back Office.
 2. Go to **MultiSafepay** > **General Settings** > **System Status**.
 3. Click **Get system report**
 4. A window will appear with the report. You can copy paste the content. 

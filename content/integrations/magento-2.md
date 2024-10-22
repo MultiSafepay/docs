@@ -304,7 +304,7 @@ Please note that the full shipping amount will be captured whenever the first sh
 
 ## Order confirmation email
 
-You can set the**stage** at which you want a confirmation email of an order to be sent.
+You can set the **stage** at which you want a confirmation email for an order to be sent.
 
 <details id="send-order-confirmation-email">
 <summary>How to set when an order confirmation email is sent</summary>
@@ -312,7 +312,7 @@ You can set the**stage** at which you want a confirmation email of an order to b
 
 1. Sign in to your Magento 2 backend.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **General Settings** > **Send the order confirmation email**.
-3. Choose on of the three options:
+3. Choose one of these three options:
    - On transaction completed status
    - On transaction initialized status
    - Immediately after placing the order
@@ -435,7 +435,7 @@ You cannot add payment links to order confirmation emails created in your **fron
 
 ## Payment methods
 
-Before activating the relevant payment methods in your backend you must first activate them in you MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
+Before activating the relevant payment methods in your <<glossary:backend>>, you must first activate them in your MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
 
 <details id="activate-payment-methods">
 <summary>How to activate payment methods</summary>
@@ -443,9 +443,9 @@ Before activating the relevant payment methods in your backend you must first ac
 
 1. Sign in to your Magento 2 <<glossary:backend>>.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment Gateways**.
-3. Choose the relevant payment from the list and click **Configure**.
-4. Set **Enabled** to yes.
-5. Click **Save Config**
+3. Choose the relevant payment method from the list and click **Configure**.
+4. Set **Enabled** to **Yes**.
+5. Click **Save Config**.
 
 </details>
 

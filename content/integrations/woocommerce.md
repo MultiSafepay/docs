@@ -209,7 +209,7 @@ To generate a payment link in your backend once an order is created, follow thes
 
 ## Payment methods
 
-Before activating the relevant payment methods in your backend you must first activate them in you MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
+Before activating the relevant payment methods in your <<glossary:backend>>, you must first activate them in your MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
 
 By default, activated payment methods from your MultiSafepay account appear on the payment method list.
 
@@ -278,8 +278,8 @@ You can process [Full and partial refunds](/docs/refund-payments/) for all payme
 3. In the item panel, click **Refund**.
 4. You can select a full or a partial refund modifying the line items above. The amount will show in **Refund amount**.
 5. There are two ways to process a refund:
-   - Refund via the selected payment method, which will process the refund automatically (recommended).
-   - Refund manually, where you will have to manually issue the payment through your MultiSafepay <<glossay:backend>>.
+   - **Refund via the selected payment method**, which will process the refund automatically (recommended).
+   - **Refund manually**, where you will have to manually issue the payment through your MultiSafepay <<glossay:backend>>.
 
 </details>
 
