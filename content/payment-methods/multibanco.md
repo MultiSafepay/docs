@@ -111,7 +111,7 @@ You can no longer cancel a transaction after the status changes to **Initialized
 
 Email the customer the following payment details to include when completing the payments. 
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Multibanco.png" width="100%" align="left"/>  
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Multibanco.png" width="100%" />
 <br>
 
 ## Refunds
