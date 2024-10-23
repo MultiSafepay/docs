@@ -55,7 +55,7 @@ After expiration, the <<glossary:issuer>> can cancel the authorization.
 
 ## Cancellation
 
-You can cancel a reservation created via manual capture. In case a partial capture has been made, the cancellation will apply to the remaining amount. 
+You can cancel a reservation created via manual capture. For partial captures, the cancellation will apply to the remaining amount. 
 
 <details id="cancel-authorization">
 <summary>How to cancel an authorized transaction</summary><br>
@@ -67,10 +67,10 @@ You can cancel a reservation created via manual capture. In case a partial captu
 **Via dashboard**:
 
 - Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-- Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+- Go to **Transactions** > **Transaction overview**, and then select the relevant transaction.
 - On the **Transaction summary** page, in **Order Summary**, click **Cancel Reservation**.
 - Add a description of what happened with the order, and then click **Complete**.  
-  The <<glossary:order status>> changes to **Void** and the <<glossary:transaction status>> to Void.
+  The <<glossary:order status>> changes to **Void** and the <<glossary:transaction status>> to **Void**.
 
 </details>
 
