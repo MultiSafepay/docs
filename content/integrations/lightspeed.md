@@ -171,6 +171,8 @@ When you generate a payment link in your MultiSafepay dashboard, you cannot upda
 
 ## Payment methods
 
+Before activating the relevant payment methods in your <<glossary:backend>>, you must first activate them in your MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
+
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>
 <br>
@@ -283,6 +285,8 @@ To change the order in which payment methods appear on your checkout page, follo
 **Setting payment method order per language**
 
 To set the payment method order for different languages, under the **Payment method settings** select a country / store language and set the order per language.
+
+To add a new language, go to **Settings** > **Store Country** > **Add Language** and include the desired language.
 
 If no specific rule is set for a country, the **Default** order is used.
 
