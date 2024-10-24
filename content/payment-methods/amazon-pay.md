@@ -59,6 +59,11 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 5. Enter the required information to create an account.
   Amazon sends you a confirmation email.
 
+If you already have an Amazon account, follow these steps:
+1. Choose your country.
+2. Click **Create an account**.
+3. In the footer of the box, click **Already have an account**.
+
 💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
 
 # Integration
