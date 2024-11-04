@@ -35,6 +35,34 @@ ___
 
 # User guide
 
+## Payment components
+
+The plugin supports [payment components](/docs/payment-components/), which:
+
+- Provide a seamless checkout experience to increase <<glossary:conversion>>.
+- Encrypt customer payment details for secure processing.
+- Shift responsibility for [PCI DSS compliance](/docs/pci-dss/) to MultiSafepay.
+
+<details id="supported-payment-methods">
+<summary>Supported payment methods</summary>
+<br>
+
+- Cards: Amex, Maestro, Mastercard, and Visa
+
+</details>
+
+<details id="how-to-activate-payment-components">
+<summary>How to activate payment components</summary>
+<br>
+
+1. Sign in to your CCV Shop <<glossary:backend>>.
+2. Go to **App store** and search for **MultiSafepay** app.
+3. Once found, select the app and click in **Edit** button.
+4. Set **Enable payment component** toggle to **Enabled**.
+5. Click **Save**.
+
+</details>
+
 ## Payment methods
 
 <details id="supported-payment-methods">
@@ -48,7 +76,7 @@ To keep the payment methods synchronized, ensure to toggle the "update payment m
 
 ## Refunds
 
-You can process full refunds for all payment methods, from your MultiSafepay dashboard, and from the CCV Shop <<glossary:backend>>.
+You can process full and partial refunds for all payment methods, from your MultiSafepay dashboard, and from the CCV Shop <<glossary:backend>>.
 
 <details id="refund-rules">
 <summary>Refund rules</summary>
@@ -56,7 +84,9 @@ You can process full refunds for all payment methods, from your MultiSafepay das
 To process backend refunds:
 
 - In the configuration of the MultiSafepay app, **Automatic refunds** needs to be enabled.
-- To process a refund, the invoice status must be **Paid**.
+- After enable **Automatic refunds**, select which invoice type will trigger the refunds: 
+  -  **Only "Credit"**: Refunds will be triggered when a credit invoice status is changed to **Refunded**.
+  -  **Both "Credit" and "Debit"**: Refunds will be triggered when a credit or debit invoice status is changed to **Refunded**. 
 - The refund amount cannot exceed the original transaction amount.
 - The refund amount cannot exceed the available funds in your MultiSafepay account.
 <br>
