@@ -56,10 +56,11 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 3. Go to **Settings** > **Payment methods**.
 4. Under **Additional payment methods**, click **Amazon** > **Merchant registration**. 
   You are redirected to create an Amazon Payments merchant account at Amazon Pay.
-5. Enter the required information to create an account.
+5. Choose a country and click **Create an Amazon Payments merchant account**.
+6. Enter the required information to create an account.
   Amazon sends you a confirmation email.
-
-If you **already have an Amazon account**, in the footer of the box, click **Sign in** and fill in your details.
+  
+    **💡 Tip!** If you already have an **Amazon account**, click **Sign in**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
 
