@@ -60,7 +60,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 6. Enter the required information to create an account.
   Amazon sends you a confirmation email.
   
-    **💡 Tip!** If you already have an **Amazon account**, click **Sign in**.
+    **💡 Tip!** If you already have an **Amazon account**, click **Sign in** at the bottom of the **Create an account** box.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
 
