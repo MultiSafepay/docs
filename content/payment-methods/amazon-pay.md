@@ -50,18 +50,39 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-1. Email a request to <sales@multisafepay.com>.
-  We check your eligibility and if approved, activate the payment method for your account. 
-2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-3. Go to **Settings** > **Payment methods**.
-4. Under **Additional payment methods**, click **Amazon** > **Merchant registration**. 
-  You are redirected to create an Amazon Payments merchant account at Amazon Pay.
-5. Choose a country and click **Create an Amazon Payments merchant account**.
-6. Enter the required information to create an account.
-  Amazon sends you a confirmation email.
-  
-    **💡 Tip!** If you already have an **Amazon account**, click **Sign in** at the bottom of the **Create an account** box.
+To activate Amazon Pay, you must meet the following requirements:
 
+  - Amazon Pay must be activated in your MultiSafepay account. Email a request to <sales@multisafepay.com>.
+  We check your eligibility, and if approved, <a href="https://merchant.multisafepay.com" target="_blank">activate the payment method</a> for your account.
+  - You need to have an Amazon Payments merchant account .
+  - Add all domains that you plan to integrate with Amazon Pay to the JavaScript Origins in <a href="https://sellercentral-europe.amazon.com/ap/signin?clientContext=261-3274178-1964801&openid.pape.max_auth_age=900&openid.return_to=https%3A%2F%2Fsellercentral-europe.amazon.com%2Fexternal-payments%2Famazon-pay%2Fintegration-central%2Flwa%3F&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=sc_eu_amazon_v2&openid.mode=checkid_setup&language=en_GB&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=sc_amazon_v3_unified&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&mons_redirect=sign_in&ssoResponse=eyJ6aXAiOiJERUYiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiQTI1NktXIn0.8v0nzcUNfvg87h79JzMgFgUezwKdM5Ml0uceIqcZEFofO9OhlWYI8Q.lPsF7E7Sbuflzfz3.DGZ_K1zIZSJW7bokKvKfYDl9PIntIAnwF2yZOV5bVUm9R2HRFhLHui0PBc69qJUh3_B2nY6_kbDBSn_NftsloX4ngqKs30Y4mbuWBieo6p2Pe012-drfSkOAmEgtl8WREgd1pl2WZL6dnkeutDGV6apzKELHb5A-dm1DCHmI2eHvzqxwOcSlocwYLemEM8HL1HoitUuOkg.EegmMY7Ej3whmku3BzG5sw" target="_blank">Seller Central</a>:
+      -	Your domain
+      -	MSP domain: https://payv2.multisafepay.com
+      -	A possible DEV URL.
+  - All domains must comply with <a href="https://pay.amazon.eu/help/6023" target="_blank">Amazon Pay's Acceptable Use Policy</a>.
+
+
+<br>
+<details id="create-amazon-pay-account">
+<summary>How to create an Amazon Payments merchant account
+</summary>
+<br>
+
+After Amazon Pay has been activated in your MultiSafepay dashboard, follow these steps:
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Settings** > **Payment methods**.
+3. Under **Additional payment methods**, click **Amazon** > **Merchant registration**. 
+  You are redirected to create an Amazon Payments merchant account at Amazon Pay.
+4. Choose a country and click **Create an Amazon Payments merchant account**.
+5. Enter the required information to create an account.
+  Amazon sends you a confirmation email.
+
+  
+    **💡 Tip!** If you already have an **Amazon Payments merchant account**, click **Sign in** at the bottom of the **Create an account** box.
+
+</details>
+<br>
 💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
 
 # Integration
