@@ -219,7 +219,7 @@ You can also test the following scenarios:
 1. [Create an order](/reference/createorder/) > Banking order.  
    See also the Examples for the specific payment method.
 2. For <<glossary:redirect>> orders, open the payment link.
-3. For **MB WAY**, enter your phone number in the corresponding field. 
+3. For **MB WAY** direct requests, enter a phone number in the **phone** parameter. For redirect requests, enter a phone number at the payment link and click **Confirm**. 
 
 | Amount                  | Scenario      | Description                                                                                                              |
 | ----------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
