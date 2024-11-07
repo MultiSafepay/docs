@@ -840,7 +840,7 @@ You can test refunds for the following methods:
 
 You can test refunds for the following methods:
 
-- Banking methods: Bancontact (not QR), direct debits, EPS, Giropay, iDEAL (not QR), MB WAY, Multibanco, Sofort, Trustly
+- Banking methods: Bancontact (not QR), direct debits, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
 - Credit and debit cards
 - <<glossary:BNPL>>: in3
 - Wallets: PayPal, WeChat Pay
