@@ -21,7 +21,7 @@ You can place an order for your desired product from the shop in your [MultiSafe
 1. Choose the desired devices and click **Add to cart**.
 2. Click the trolley icon to access your cart.
 3. In **My Cart**, click on **Pay with balance**.
-4. The delivery details will display your information by default, including your shipping address. Modify if necessary.
+4. Your delivery information, including your shipping address, will display by default. Modify if necessary.
 5. Click **Confirm**. The total cost of the items in your cart will be discounted from your balance.
 6. A message will appear stating that the order has been placed successfully.
 
