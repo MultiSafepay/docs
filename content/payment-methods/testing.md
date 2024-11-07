@@ -212,6 +212,23 @@ You can also test the following scenarios:
 
 </details>
 
+<details id="MBWAY-and-multibanco">
+<summary>How to test Multibanco & MB WAY</summary>
+<br>
+
+1. [Create an order](/reference/createorder/) > Banking order.  
+   See also the Examples for the specific payment method.
+2. For <<glossary:redirect>> orders, open the payment link.
+3. For **MB WAY**, enter your phone number in the corresponding field. 
+
+| Amount                  | Scenario      | Description                                                                                                              |
+| ----------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| 9.99 and below          | **Declined**  | The transaction is initiated. <br> Transaction will show as **Declined**.                                                |
+| Between 10.00 and 20.00 | **Completed** | The transaction is initiated. <br> Transaction will show as **Completed**.                                               |
+| Above 20.00             | **Expired**   | The transaction is initiated. <br> The status will show as **Initialized**. After 84 hours, this changes to **Expired**. |
+
+</details>
+
 <details id="direct-debit">
 <summary>How to test direct debits</summary>
 <br>
@@ -753,7 +770,7 @@ If you refund a payment in your MultiSafepay test dashboard, the [transaction st
 
 You can test cancelling orders for the following methods:
 
-- Banking methods: Belfius, CBC/KBC, Dotpay, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
+- Banking methods: Belfius, CBC/KBC, Dotpay, EPS, Giropay, iDEAL (not QR), MB WAY, Multibanco Sofort, Trustly
 - Wallets: Alipay, PayPal
 
 </details>
