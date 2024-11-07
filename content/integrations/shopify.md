@@ -82,17 +82,10 @@ Before activating the relevant payment methods in your <<glossary:backend>>, you
 <summary>Supported payment methods</summary>
 <br>
 
-- Banking methods: 
-  - [Bancontact](/docs/bancontact/)
-  - [Bank transfer](/docs/bank-transfer/)
-  - [Belfius](/docs/belfius/)
-  - [Direct debit](/docs/direct-debit/)
-  - [EPS](/docs/eps/)
-  - [iDEAL](/docs/ideal/)
-  - [Trustly](/docs/trustly/)
-- Cards: [All](/docs/card-payments/)
-- Prepaid cards: [Paysafecard](/docs/paysafecard/), Fashioncheque
-- Wallets: [WeChat Pay](/docs/wechat-pay/)
+Once MultiSafepay is selected during the checkout, the customer is redirected to the payment page. 
+
+**All active payment methods** (except BNPL methods) are available to be selected.
+
 
 </details> 
 
