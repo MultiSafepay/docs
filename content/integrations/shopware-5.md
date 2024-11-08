@@ -97,6 +97,8 @@ To change the flow you are using, follow these steps:
 
 ### Payment methods
 
+Before activating the relevant payment methods in your <<glossary:backend>>, you must first activate them in your MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
+
 By default, activated payment methods from your MultiSafepay account appear on the payment method list.
 
 <details id="supported-payment-methods">
