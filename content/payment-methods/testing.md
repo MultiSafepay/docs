@@ -220,7 +220,7 @@ You can also test the following scenarios:
    See also the Examples for the specific payment method.
 2. For <<glossary:redirect>> orders, open the payment link.
 3. Set the `amount` parameter according to the desired transaction scenario. Refer to the table below for details. 
-4. For **MB WAY** direct orders, in the `customer` object, fill the `phone` parameter. For redirect orders, enter a phone number at the payment link and click **Confirm**.
+4. For **MB WAY** direct orders, in the `customer` object, fill the `phone` parameter. For redirect orders, enter a phone number on the payment link and click **Confirm**.
 
 | Amount                  | Scenario      | Description                                                                                                              |
 | ----------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
