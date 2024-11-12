@@ -30,9 +30,10 @@ You can place an order for your desired product from the shop in your [MultiSafe
 If your balance is insufficient to complete the payment, you can add more funds:
 
 1. In **My Cart**, click **Top up balance**.
-2. Select the desired payment method and provide the required details.
-3. Click **Pay now**.
-4. The amount will be added to your balance.
+2. Select one of the following payment methods:
+   - [Card payments](https://docs.multisafepay.com/docs/card-payments) : Fill the relevant details and click **Pay now**.
+   - [iDEAL](https://docs.multisafepay.com/docs/ideal) : Click **Pay now**. You will be redirected to a iDEAL payment page. Follow the instructions to complete your payment.
+3. The amount selected will be added to your balance.
 
 ## Invoice and Shipping Information
 
