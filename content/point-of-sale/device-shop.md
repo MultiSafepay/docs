@@ -32,8 +32,8 @@ If your balance is insufficient to complete the payment, you can add more funds:
 
 1. In **My Cart**, click **Top up balance**.
 2. Select one of the following payment methods:
-   - [Card payments](https://docs.multisafepay.com/docs/card-payments) : Enter the required details and click **Pay now**.
-   - [iDEAL](https://docs.multisafepay.com/docs/ideal) : Click **Pay now**. You will be redirected to a iDEAL payment page. Follow the instructions to complete your payment.
+   - <a href="https://docs.multisafepay.com/docs/card-payments" target="_blank">Card payments</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> : Enter the required details and click **Pay now**.
+   - <a href="https://docs.multisafepay.com/docs/ideal" target="_blank">iDEAL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> : Click **Pay now**. You will be redirected to a iDEAL payment page. Follow the instructions to complete your payment.
 3. The amount selected will be added to your balance.
 
 
