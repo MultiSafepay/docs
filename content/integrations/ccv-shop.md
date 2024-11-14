@@ -57,7 +57,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 
 1. Sign in to your CCV Shop <<glossary:backend>>.
 2. Go to the **App store** and search for the **MultiSafepay** app.
-3. Once found, select the app and click in **Edit** button.
+3. Once found, select the app then click **Edit** button.
 4. Set the **Enable payment component** toggle to **Enabled**.
 5. Click **Save**.
 
