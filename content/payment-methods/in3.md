@@ -40,7 +40,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | Description | Order status | Transaction status |
 |---|---|---|
 | iDEAL in3's credit check is in progress. You can still cancel. | Initialized   | Initialized  |
-| iDEAL in3 is waiting for the customer to pay the first installment (within 5 minutes). | Uncleared  | Initialized  |
+| iDEAL in3 is waiting for the customer to pay the first installment. | Uncleared  | Initialized  |
 | The customer has paid the first installment. Settlement is now guaranteed. <br> You can no longer cancel. You can only refund. | Completed  | Uncleared  |
 | You can [manually change the order status to shipped](#shipment) for your records, but this is not required to trigger invoicing. | Shipped | Uncleared | 
 | MultiSafepay has collected payment. | Completed | Completed |
