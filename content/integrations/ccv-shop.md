@@ -17,8 +17,8 @@ excerpt: "Technical manual for MultiSafepay's free app."
 # Installation and configuration
 
 1. Sign in to your CCV Shop <<glossary:backend>>.
-2. Go to **App store** and search for **MultiSafepay** app.
-3. Once found, select the app and click in **Install** button.
+2. Go to the **App store** and search for the **MultiSafepay** app.
+3. Once found, select the app then click **Install** button.
 4. Review and accept the permissions required by the app.
 5. Enter your [Site API key](/docs/sites#site-id-api-key-and-security-code), and fill the required fields to configure the app. 
 6. Click the **Install** button to complete the installation.
@@ -27,8 +27,8 @@ excerpt: "Technical manual for MultiSafepay's free app."
 # Configuration
 
 1. Sign in to your CCV Shop <<glossary:backend>>.
-2. Go to **App store** and search for **MultiSafepay** app.
-3. Once found, select the app and click in **Edit** button.
+2. Go to the **App store** and search for the **MultiSafepay** app.
+3. Once found, select the app then click **Edit** button.
 4. Modify the settings according your preferences.
 
 ___
@@ -56,9 +56,9 @@ The plugin supports [payment components](/docs/payment-components/), which:
 <br>
 
 1. Sign in to your CCV Shop <<glossary:backend>>.
-2. Go to **App store** and search for **MultiSafepay** app.
+2. Go to the **App store** and search for the **MultiSafepay** app.
 3. Once found, select the app and click in **Edit** button.
-4. Set **Enable payment component** toggle to **Enabled**.
+4. Set the **Enable payment component** toggle to **Enabled**.
 5. Click **Save**.
 
 </details>
@@ -76,7 +76,7 @@ To keep the payment methods synchronized, ensure to toggle the "update payment m
 
 ## Refunds
 
-You can process full and partial refunds for all payment methods, from your MultiSafepay dashboard, and from the CCV Shop <<glossary:backend>>.
+You can process full and partial refunds for all payment methods from your MultiSafepay dashboard, and from the CCV Shop <<glossary:backend>>.
 
 <details id="refund-rules">
 <summary>Refund rules</summary>
@@ -84,7 +84,7 @@ You can process full and partial refunds for all payment methods, from your Mult
 To process backend refunds:
 
 - In the configuration of the MultiSafepay app, **Automatic refunds** needs to be enabled.
-- After enable **Automatic refunds**, select which invoice type will trigger the refunds: 
+- After enable **Automatic refunds**, select which invoice type will trigger refunds: 
   -  **Only "Credit"**: Refunds will be triggered when a credit invoice status is changed to **Refunded**.
   -  **Both "Credit" and "Debit"**: Refunds will be triggered when a credit or debit invoice status is changed to **Refunded**. 
 - The refund amount cannot exceed the original transaction amount.
@@ -114,7 +114,7 @@ To sort the payment methods on the checkout page, you can change the order in th
 <br>
 
 1. Sign in to your CCV Shop <<glossary:backend>>.
-2. Go to **App Store** > **MultiSafepay**.
+2. Go to the **App store** and search for the **MultiSafepay** app.
 3. Click on **Edit** button.
 4. Turn on the switch field **Payment methods order**.
 5. A list of the installed payment methods will be shown.
