@@ -16,6 +16,7 @@ How to access the terminal shop:
 
 ## How to place an order
 
+
 You can place an order for your desired product from the shop in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 1. Choose the desired devices and click **Add to cart**.
@@ -30,9 +31,11 @@ You can place an order for your desired product from the shop in your <a href="h
 If your balance is insufficient to complete the payment, you can add more funds:
 
 1. In **My Cart**, click **Top up balance**.
-2. Select the desired payment method and provide the required details.
-3. Click **Pay now**.
-4. The amount will be added to your balance.
+2. Select one of the following payment methods:
+   - <a href="https://docs.multisafepay.com/docs/card-payments" target="_blank">Card payments</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> : Enter the required details and click **Pay now**.
+   - <a href="https://docs.multisafepay.com/docs/ideal" target="_blank">iDEAL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> : Click **Pay now**. You will be redirected to a iDEAL payment page. Follow the instructions to complete your payment.
+3. The amount selected will be added to your balance.
+
 
 ## Invoice and Shipping Information
 
@@ -47,6 +50,7 @@ You can find your order in **Transactions** > **Transaction Overview**. Select t
 ***
 
 If you are experiencing issues with your device, you can request an RMA (Return Merchandise Authorization). See - <a href="https://docs.multisafepay.com/docs/pos-troubleshooting#send-back-a-terminal" target="_blank">Send back a terminal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 
 💬 **Support**: For questions, email [pos-support@multisafepay.com](mailto:pos-support@multisafepay.com).
 
