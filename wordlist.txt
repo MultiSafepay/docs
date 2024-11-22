@@ -629,5 +629,6 @@ zoeken
 maskedId
 multisafepayRestore
 urls
+Bizum
 
 
