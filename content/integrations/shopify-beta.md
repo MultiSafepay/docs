@@ -97,21 +97,21 @@ Payment capture method needs to be set to **Automatically at checkout** in your 
 <summary>How to process a refund in your backend</summary>
 <br>
 
-1. Sign in to your Shopify Shop
+1. Sign in to your Shopify backoffice.
 2. Go to **Orders**.
 3. Select the order you want to refund.
 4. Click on the **Refund** button.
 - Enter the refund amount.
 - Click on the **Refund** button.
-4. A refund request is sent to MultiSafepay. The refund status is updated in your Shopify backend as pending.
-5. The refund is processed by MultiSafepay. The refund status is updated in your Shopify backend as refunded.
+4. A refund request is sent to MultiSafepay. The refund status is updated in your Shopify backend as **pending**.
+5. The refund is processed by MultiSafepay. The refund status is updated in your Shopify backend as **refunded**.
 
 **Notes**
 
 - The refund amount cannot exceed the original transaction amount.
 - Refunds are not processed in real-time. 
-  - The refund status is updated in your Shopify backend as pending until the refund is processed by MultiSafepay.
-  - While the refund is pending in your Shopify backend, refund will appear as reserved in your MultiSafepay account.
+  - The refund status is updated in your Shopify backend as **pending** until the refund is processed by MultiSafepay.
+  - While the refund is **pending** in your Shopify backend, refund will appear as **reserved** in your MultiSafepay account.
 
 </details>
 
@@ -119,19 +119,19 @@ Payment capture method needs to be set to **Automatically at checkout** in your 
 
 ## Troubleshooting
 
+### Payment Order ID
+
 <details id="Shopify Troubleshooting">
 <summary>How to troubleshoot Shopify issues</summary>
 <br>
 
-### Payment Order ID
+If you experience issues with order statuses, or refund statuses not updating, we will need the payment ID of the original transaction to investigate the issue. 
 
-If you experience issues with order statuses, or refund statuses not updating, we will need the payment ID from Shopify to investigate the issue. 
-
-1. Sign in to your Shopify Shop
+1. Sign in to your Shopify backoffice.
 2. Go to **Orders**.
 3. Select the order related to the issue you want to report.
 4. In the timeline, look for the earliest payment event and find the Payment ID.
-5. Send the Payment ID to MultiSafepay support together with your support request.
+5. Include the payment ID when reporting your issue to <a href=\"mailto:integration@multisafepay.com\">MultiSafepay support</a>.
 
 </details>
 ---
