@@ -97,7 +97,7 @@ Payment capture method needs to be set to **Automatically at checkout** in your 
 <summary>How to process a refund in your backend</summary>
 <br>
 
-1. Sign in to your Shopify backoffice.
+1. Sign in to your Shopify backend.
 2. Go to **Orders**.
 3. Select the order you want to refund.
 4. Click on the **Refund** button.
@@ -127,7 +127,7 @@ Payment capture method needs to be set to **Automatically at checkout** in your 
 
 If you experience issues with order statuses, or refund statuses not updating, we will need the payment ID of the original transaction to investigate the issue. 
 
-1. Sign in to your Shopify backoffice.
+1. Sign in to your Shopify backend.
 2. Go to **Orders**.
 3. Select the order related to the issue you want to report.
 4. In the timeline, look for the earliest payment event and find the Payment ID.
