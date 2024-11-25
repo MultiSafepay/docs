@@ -314,8 +314,8 @@ We provide a code sample in Python for your reference.
 
 Acknowledge that you have successfully received a valid notification by returning:
 
-- HTTP status code `200` with `OK` at the start or end of the message body, **or**
-- HTTP status code `200` with `MULTISAFEPAY_OK` anywhere in the message body.
+- HTTP status code `200` with `OK` within the first 100 characters of the message body, **or**
+- HTTP status code `200` with `MULTISAFEPAY_OK` anywhere within the first 100 characters of the message body.
 
 Until we receive your acknowledgment, we resend the notification 3 times at 15 minute intervals, each with a new timestamp.
 

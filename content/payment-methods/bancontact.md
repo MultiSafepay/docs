@@ -142,6 +142,8 @@ You can perform 1 partial capture. The remaining amount will be released by the 
 3. Bancontact defines **maximum amounts** and **expiry times** for authorizations. 
 
 For a complete user guide, see  [Manual Capture](/docs/manual-capture).
+
+
 ---
 
 [block:html]
