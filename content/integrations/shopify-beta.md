@@ -49,9 +49,9 @@ To install or migrate, follow these steps:
 
 <br>
 
-> ⚠️ About API Key and Selected environment
+> ⚠️ About API key and Selected environment
 >
-> For all the above-listed MultiSafepay payment apps, the same API Key, and the selected environment (test or live) will be used. Once you change the API key in a payment app, or the environment selected, it is automatically changed for the other active apps associated with your shop.
+> For all the above-listed MultiSafepay payment apps, the same API key, and the selected environment (test or live) will be used. Once you change the API key in a payment app, or the environment selected, it is automatically changed for the other active apps associated with your shop.
 
 <br>
 ---
