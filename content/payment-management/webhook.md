@@ -61,7 +61,7 @@ For websites:
 
 For terminal groups:
 
-You can add a **Webhook URL** for a **terminal group** from your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. For more information, see **Activation** - [SmartPOS activation](https://docs.multisafepay.com/docs/smartpos-activation#activation) or [Traditional (CTAP) terminal](https://docs.multisafepay.com/docs/traditional-ctap-terminal#activation), depending on your terminal.
+You can add a **Webhook URL** for a **terminal group** from your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. For more information, see **Activation** - <a href="https://docs.multisafepay.com/docs/smartpos-activation#activation" target="_blank">SmartPOS activation</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> or <a href="https://docs.multisafepay.com/docs/traditional-ctap-terminal#activation" target="_blank">Traditional (CTAP) terminal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, depending on your terminal.
 
 </details>
 
