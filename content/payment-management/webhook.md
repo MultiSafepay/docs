@@ -51,11 +51,13 @@ You can configure the webhook endpoint at:
 <summary>Site level</summary>
 <br>
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Sites**, and then click the relevant site.
 3. On the **Site profile** page, under **Functionality**, in the **Webhook URL** field, set your webhook endpoint.
 
 **⚠️ Note:*** These instructions apply to your `notification_url` for order updates. For [FastCheckout shipping options updates](/docs/fastcheckout-shipping-options), see Order level below.
+
+You can add a **Webhook URL** for a **terminal group** from your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. For more information, see Activation - [SmartPOS activation](https://docs.multisafepay.com/docs/smartpos-activation#activation) or [Traditional (CTAP) terminal](https://docs.multisafepay.com/docs/traditional-ctap-terminal#activation), depending on your terminal.
 
 </details>
 
