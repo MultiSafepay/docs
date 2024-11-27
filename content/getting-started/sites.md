@@ -133,7 +133,7 @@ To view the ID, API key, and security code for a website:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">live</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> or <a href="https://testmerchant.multisafepay.com" target="_blank">test</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> MultiSafepay dashboard.
 2. Go to **Websites**, and then click on the relevant website.
-3. The website ID, API key, and security code appear in the top-right corner of your profile.
+3. You can find the website ID, API key, and security code in the top-right corner of the page.
 
 To view the ID and API key for a terminal group:
 
