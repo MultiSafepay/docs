@@ -21,6 +21,18 @@ slug: 'magento-1'
 <summary>Changelog</summary>
 <br>
 
+**3.7.0**
+Release date: Nov. 28th, 2024
+
+### Changed
++ DAVAMS-796: Rebrand Afterpay-Riverty Logo
++ DAVAMS-744: Rebranding in3 B2C
+
+### Fixed
++ PLGMAGONE-771: Fix surcharges where percentage not applied when fixed amount is 0
+
+***
+
 **3.6.0**
 Release date: Oct. 16th, 2023
 
