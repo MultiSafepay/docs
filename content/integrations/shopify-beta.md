@@ -24,6 +24,7 @@ To install or migrate, follow these steps:
    - <a href="https://apps.shopify.com/multisafepay-amazon-pay" target="_blank">Amazon Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/bancontact" target="_blank">Bancontact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/multisafepay-bank-transfer" target="_blank">Bank Transfer</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+   - <a href="https://apps.shopify.com/multisafepay-bizum" target="_blank">Bizum</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/card-payment" target="_blank">Card Payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/multisafepay-cbc" target="_blank">CBC</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/direct-debit" target="_blank">Direct debit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
@@ -46,9 +47,13 @@ To install or migrate, follow these steps:
    - Enable Test Mode if you are using a Test API key. Turn off for a Live API key.
    - Enable or disable payment icons according to your preferences.
 
-&nbsp; **💡 Tip!** We recommend first testing each payment method before setting your **live** API key. 
 <br>
 
+> ⚠️ About API key and Selected environment
+>
+> For all the above-listed MultiSafepay payment apps, the same API key, and the selected environment (test or live) will be used. Once you change the API key in a payment app, or the environment selected, it is automatically changed for the other active apps associated with your shop.
+
+<br>
 ---
 
 # Uninstallation
@@ -90,9 +95,49 @@ Payment capture method needs to be set to **Automatically at checkout** in your 
 
 ## Refunds
 
-[Full and partial refunds](/docs/refund-payments/) are supported via your MultiSafepay dashboard and backend.  
-You can't refund more than the original amount in your backend.
+[Full and partial refunds](/docs/refund-payments/) are supported via your MultiSafepay dashboard and backend.
 
+<details id="how-to-process-refunds-in-your-shopify-backend">
+<summary>How to process a refund in your backend</summary>
+<br>
+
+1. Sign in to your Shopify backend.
+2. Go to **Orders**.
+3. Select the order you want to refund.
+4. Click on the **Refund** button.
+- Enter the refund amount.
+- Click on the **Refund** button.
+4. A refund request is sent to MultiSafepay. The refund status is updated in your Shopify backend as **pending**.
+5. The refund is processed by MultiSafepay. The refund status is updated in your Shopify backend as **refunded**.
+
+**Notes**
+
+- The refund amount cannot exceed the original transaction amount.
+- Refunds are not processed in real-time. 
+  - The refund status is updated in your Shopify backend as **pending** until the refund is processed by MultiSafepay.
+  - While the refund is **pending** in your Shopify backend, refund will appear as **reserved** in your MultiSafepay account.
+
+</details>
+
+---
+
+## Troubleshooting
+
+### Payment Order ID
+
+<details id="Shopify Troubleshooting">
+<summary>How to troubleshoot Shopify issues</summary>
+<br>
+
+If you experience issues with order statuses, or refund statuses not updating, we will need the payment ID of the original transaction to investigate the issue. 
+
+1. Sign in to your Shopify backend.
+2. Go to **Orders**.
+3. Select the order related to the issue you want to report.
+4. In the timeline, look for the earliest payment event and find the Payment ID.
+5. Include the payment ID when reporting your issue to <a href=\"mailto:integration@multisafepay.com\">MultiSafepay support</a>.
+
+</details>
 ---
 
 [block:html]
