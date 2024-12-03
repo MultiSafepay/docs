@@ -55,7 +55,7 @@ For websites:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Websites**, and then click the relevant website.
-3. On the **Website profile** page, under **Functionality**, in the **Webhook URL** field, set your webhook endpoint. 
+3. Under **Functionality** > **Webhook URL**, set your webhook endpoint.
 
 **⚠️ Note:** These instructions apply to your `notification_url` for order updates. For [FastCheckout shipping options updates](/docs/fastcheckout-shipping-options), see Order level below.
 
