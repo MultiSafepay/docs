@@ -50,18 +50,18 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-How to activate your Klarna account:
+How to activate Klarna for your MultiSafepay account:
 
 <details id="test-account"> 
 <summary>Test account</summary>
 <br>
 
-1. Go to <a href="https://docs.klarna.com/resources/developer-tools/testing-payments/before-you-test/#accessing-the-test-merchant-portal" target="_blank">Klarna</a><i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and click **Log in** to sign up for a new account.
+1. Go to <a href="https://docs.klarna.com/resources/developer-tools/testing-payments/before-you-test/#accessing-the-test-merchant-portal" target="_blank">Klarna</a><i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and click **Log in** to sign up for a new test account.
 2. Select the **Playground** environment to create a test account.
 3. Follow the relevant steps.
-4. In the Klarna main panel, under **Settings**, click **Generate new Klarna API credentials** to generate a username and password.
+4. In the Klarna main panel, go to **Settings** and click **Generate new Klarna API credentials** to generate your username and password.
 5. Email these credentials to <support@multisafepay.com>.
-6. <<We:glossary>> will activate your Klarna test account for your MultiSafepay test account. 
+6. We will activate your Klarna test account for your MultiSafepay test account. 
 
 You can test Klarna payments via the Klarna Portal on your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -74,8 +74,8 @@ You can test Klarna payments via the Klarna Portal on your <a href="https://merc
 2. In your email, include the following details:
    - MultiSafepay as your payment service provider.
    - The websites and countries for which you want to activate Klarna.
-3. Sign an agreement with Klarna. This agreement includes the pricing details.
-4. <<We:glossary>> will activate Klarna for your MultiSafepay account. 
+3. Sign an agreement with Klarna. This agreement will include the pricing details.
+4. We will activate Klarna for your MultiSafepay account. 
 5. If you are using a ready-made integration, activate Klarna in your <<glossary:backend>>.
 
 For questions, see Klarna – <a href="https://www.klarna.com/nl/klantenservice" target="_blank">Klantenservice</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
