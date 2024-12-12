@@ -1,5 +1,5 @@
 ---
-title: "Shopify"
+title: "Shopify Payment Apps"
 category: 62962dd7e272a6002ebbbbc5
 order: 16
 hidden: false
