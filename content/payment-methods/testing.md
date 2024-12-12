@@ -153,6 +153,8 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <summary>How to test Dotpay</summary>
 <br>
 
+**⚠️ Note:** Dotpay doesn't support **direct** requests.
+
 1. [Create an order](/reference/createorder/) > Banking order (Example: Dotpay redirect)
 2. On the Dotpay page, enter in the:
     - **Email address** field: Any email address
