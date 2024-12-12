@@ -35,7 +35,7 @@ Traditional (CTAP) is a terminal that has passed <a href="https://wp.acquiris.eu
 4. Below the **<<glossary:group>> name**, click **Add new group**, or select a previously created group.
 5. For a new group, out the following fields:
 - **New group name**.  
-- **Webhook URL** (optional).
+- <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">**Webhook URL** </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>(optional).
 - In the **Business category** field, click the **drop-down** icon and specify the relevant service or product offered. If a category has been assigned to your account in the past, it will be displayed automatically. 
 6. Select Terminal type **CTAP**. A unique Terminal ID will be automatically generated.
 **💡 Tip!** you can modify TID until manually via Devices > Terminals > TID until transactions are processed. The name can still be modified after processing transactions.
