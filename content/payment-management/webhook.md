@@ -51,11 +51,17 @@ You can configure the webhook endpoint at:
 <summary>Site level</summary>
 <br>
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Sites**, and then click the relevant site.
-3. On the **Site profile** page, under **Functionality**, in the **Webhook URL** field, set your webhook endpoint.
+For websites:
 
-**⚠️ Note:*** These instructions apply to your `notification_url` for order updates. For [FastCheckout shipping options updates](/docs/fastcheckout-shipping-options), see Order level below.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Websites**, and then click the relevant website.
+3. Under **Functionality** > **Webhook URL**, set your webhook endpoint.
+
+**⚠️ Note:** These instructions apply to your `notification_url` for order updates. For [FastCheckout shipping options updates](/docs/fastcheckout-shipping-options), see Order level below.
+
+For terminal groups:
+
+You can add a **Webhook URL** for a **terminal group** from your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. For more information, see **Activation** - <a href="https://docs.multisafepay.com/docs/smartpos-activation#activation" target="_blank">SmartPOS activation</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> or <a href="https://docs.multisafepay.com/docs/traditional-ctap-terminal#activation" target="_blank">Traditional (CTAP) terminal</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, depending on your terminal.
 
 </details>
 
@@ -314,8 +320,8 @@ We provide a code sample in Python for your reference.
 
 Acknowledge that you have successfully received a valid notification by returning:
 
-- HTTP status code `200` with `OK` at the start or end of the message body, **or**
-- HTTP status code `200` with `MULTISAFEPAY_OK` anywhere in the message body.
+- HTTP status code `200` with `OK` within the first 100 characters of the message body, **or**
+- HTTP status code `200` with `MULTISAFEPAY_OK` anywhere within the first 100 characters of the message body.
 
 Until we receive your acknowledgment, we resend the notification 3 times at 15 minute intervals, each with a new timestamp.
 

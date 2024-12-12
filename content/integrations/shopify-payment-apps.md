@@ -1,25 +1,28 @@
 ---
-title: "Shopify (Beta)"
+title: "Shopify Payment Apps"
 category: 62962dd7e272a6002ebbbbc5
 order: 16
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Technical manual for MultiSafepay's free app."
-slug: 'shopify-beta'
+excerpt: "Technical manual for MultiSafepay's Shopify Payments Apps."
+slug: 'shopify-payment-apps'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shopify.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 # Prerequisites
 
-You will need a [MultiSafepay account](/docs/getting-started-guide/).
+- [MultiSafepay account](/docs/getting-started-guide/) registered in one of the following countries: The Netherlands, Belgium, Spain, Italy, Germany.
+- A MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code).
+- Country restrictions may apply per payment app.
 
 # Installation
 
-To install or migrate, follow these steps:
+To install Shopify Payments Apps, follow these steps:
 
-1. Ensure that your Shopify user has <a href="https://help.shopify.com/en/manual/your-account/staff-accounts/staff-permissions/staff-permissions-descriptions#apps-and-channels-permissions" target="_blank">the permissions</a> to install new apps.
-2. Check that the payment methods you want to use in Shopify are [activated for your MultiSafepay account](/docs/payment-methods). 
-3. Select the desired payment methods, installing their apps using one or more of the following links:
+1. Sign in to your Shopify backend.
+2. Ensure that your Shopify user has <a href="https://help.shopify.com/en/manual/your-account/staff-accounts/staff-permissions/staff-permissions-descriptions#apps-and-channels-permissions" target="_blank">the permissions</a> to install new apps.
+3. Check that the payment methods you want to use in Shopify are [activated for your MultiSafepay account](/docs/payment-methods). 
+4. Select the desired payment methods, and install their apps using one or more of the following links:
    - <a href="https://apps.shopify.com/american-express" target="_blank">American Express</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/multisafepay-amazon-pay" target="_blank">Amazon Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/bancontact" target="_blank">Bancontact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
@@ -36,30 +39,22 @@ To install or migrate, follow these steps:
    - <a href="https://apps.shopify.com/multisafepay-mybank" target="_blank">MyBank</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/visa" target="_blank">Visa</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/multisafepay-wechat-pay" target="_blank">WeChat Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-5. Click on "Install" button.
+5. Click "Install".
 6. If necessary, log in to your Shopify store.
-7. On your admin page, select Install app. 
-6. Under **Settings**:
-   - **MultiSafepay API Key**: Enter your [site API key](/docs/sites#site-id-api-key-and-security-code).
-   - **Test mode**: Turn on if you are using a Test API key. Turn off for a Live API key.
-5. Click **Save**.
-6. Under **Payment configuration** click on the button **Payment configuration**
+7. On your admin page, click **Install**. 
+8. Under **Settings**:
+   - **MultiSafepay website API Key**: Enter your [site API key](/docs/sites#site-id-api-key-and-security-code).
+   - **MultiSafepay Environment**: Turn on if you are using a Test API key. Turn off for a Live API key.
+9. Click **Save**.
+10. Under **Payment configuration** click the button **Payment configuration**
    - Enable Test Mode if you are using a Test API key. Turn off for a Live API key.
    - Enable or disable payment icons according to your preferences.
 
-&nbsp; **💡 Tip!** We recommend first testing each payment method before setting your **live** API key. 
 <br>
 
----
-
-# Uninstallation
-
-To uninstall, follow these steps:
-
-1. Ensure that your Shopify user has <a href="https://help.shopify.com/en/manual/your-account/staff-accounts/staff-permissions/staff-permissions-descriptions#apps-and-channels-permissions" target="_blank">the permissions</a> to uninstall apps.
-2. On your admin page, go to **Settings** > **Apps and sales channels**.
-3. Select the MultiSafepay payment app you want to uninstall, and clicking on the three dots icon, select the option **Uninstall**.
-4. On the dialog window, select a reason and confirm the action by clicking in the **Uninstall** button.
+> ⚠️ About API key and selected environment
+>
+> For all the above-listed MultiSafepay payment apps, the same API key, and the selected environment (test or live) will be used. Once you change the API key in a payment app, or the environment selected, it is automatically changed for the other active apps associated with your shop.
 
 <br>
 
@@ -69,25 +64,33 @@ To uninstall, follow these steps:
 
 ## Abandoned checkouts
 
-MultiSafepay's [Second Chance](/docs/second-chance/) feature is **not** supported because Shopify offers a similar native service.
+MultiSafepay's [Second Chance](/docs/second-chance/) feature is **not** supported. 
 
-See Shopify – <a href="https://help.shopify.com/en/manual/orders/abandoned-checkouts" target="_blank">Recovering abandoned checkouts</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+Shopify offers a similar native service. See Shopify – <a href="https://help.shopify.com/en/manual/orders/abandoned-checkouts" target="_blank">Recovering abandoned checkouts</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## Checkout Configuration
 
-To send an order request with as much information as possible, we recommend setting up the checkout by using the email as the primary customer contact method and, if required, adding the phone number in the customer information. This can be set up in Settings > Checkout Page.
+Configure settings for this payment app: activate the payment method, switch between Shopify Test / Live mode.
+
+In **Settings** > **Checkout**, you can configure which customer details to include in your order request:
+
+- Customer contact method: We recommend setting up the checkout by using the email as the primary customer contact method.
+- Customer information: We recommend setting up the shipping address phone number as required.
+
+Note: for some payment methods, certain customer data is required, e.g. phone number is required for Amazon Pay payments.
 
 ## Currencies
 
-Payments are processed only in the default currency of the webshop.
+Via MultiSafepay, you can only accept payments in **EUR**.
+Ensure the default currency is set to EUR under **Settings** > **General** > **Store defaults** > **Currencies to display**.
+
+## Payment capture method
+
+Payment capture method will be forced to **Automatically at checkout**  when a customer submits the order request via one of these apps.
 
 ## Reconciliation
 
 To match orders in your accounting system with your MultiSafepay account, use the MultiSafepay order ID and the Shopify payment ID.
-
-## Payment capture method
-
-Payment capture method needs to be set to **Automatically at checkout** in your Shopify settings.  This can be set up in Settings > Payments > Payment capture method.
 
 ## Refunds
 
@@ -100,11 +103,9 @@ Payment capture method needs to be set to **Automatically at checkout** in your 
 1. Sign in to your Shopify backend.
 2. Go to **Orders**.
 3. Select the order you want to refund.
-4. Click on the **Refund** button.
-- Enter the refund amount.
-- Click on the **Refund** button.
-4. A refund request is sent to MultiSafepay. The refund status is updated in your Shopify backend as **pending**.
-5. The refund is processed by MultiSafepay. The refund status is updated in your Shopify backend as **refunded**.
+4. Click **Refund**, enter the refund amount, and confirm.
+5. A refund request is sent to MultiSafepay. The refund status is updated in your Shopify backend as **pending**.
+6. The refund is processed by MultiSafepay. The refund status is updated in your Shopify backend as **refunded**.
 
 **Notes**
 
@@ -114,6 +115,15 @@ Payment capture method needs to be set to **Automatically at checkout** in your 
   - While the refund is **pending** in your Shopify backend, refund will appear as **reserved** in your MultiSafepay account.
 
 </details>
+
+# Uninstallation
+
+To uninstall, follow these steps:
+
+1. Ensure that your Shopify user has <a href="https://help.shopify.com/en/manual/your-account/staff-accounts/staff-permissions/staff-permissions-descriptions#apps-and-channels-permissions" target="_blank">the permissions</a> to uninstall apps.
+2. On your admin page, go to **Settings** > **Apps and sales channels**.
+3. Select the MultiSafepay payment app you want to uninstall, and clicking on the three dots icon, select the option **Uninstall**.
+4. On the dialog window, select a reason and confirm the action by clicking **Uninstall** button.
 
 ---
 
@@ -134,6 +144,7 @@ If you experience issues with order statuses, or refund statuses not updating, w
 5. Include the payment ID when reporting your issue to <a href=\"mailto:integration@multisafepay.com\">MultiSafepay support</a>.
 
 </details>
+
 ---
 
 [block:html]
