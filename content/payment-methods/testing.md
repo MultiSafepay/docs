@@ -198,7 +198,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 
 1. [Create an order](/reference/createorder/) > Banking order (Example: iDEAL direct/redirect)
 2. For <<glossary:redirect>> orders, open the payment link.
-3. On the **Test platform** page, from the **Test scenario** list, select the desired transaction scenario. Refer to the table below for details.
+3. On the **Test platform** page, from the **Test scenario** list, select the desired transaction scenario. Refer to the table below for details. 
 4. Click **Test**.
 
 | Scenario      | Description                                                                |
