@@ -21,8 +21,8 @@ slug: 'shopware-6'
 ## Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Shopware 6.4.11.x or higher, 6.5.x.x and 6.6.x.x <!--_(<a href="https://www.shopware.com/en/pricing" target="_blank">Starter Edition</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> supported)_-->
-- Tested on Shopware 6.4.20.2, 6.5.8.11, 6.6.3.0 and PHP 8.1–8.2
+- Shopware 6.6.x.x
+- Tested on Shopware 6.6.3.0 and PHP 8.1–8.2
 
 ## Installation and configuration
 
