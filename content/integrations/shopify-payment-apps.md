@@ -11,13 +11,13 @@ slug: 'shopify-payment-apps'
 
 # Prerequisites
 
-- [MultiSafepay account](/docs/getting-started-guide/) registered in one of the following countries: The Netherlands, Belgium, Spain, Italy.
+- [MultiSafepay account](/docs/getting-started-guide/) registered in one of the following countries: The Netherlands, Belgium, Spain, Italy, Germany.
 - A MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code).
-- Country / currency restrictions may apply per payment app.
+- Country restrictions may apply per payment app.
 
 # Installation
 
-To install follow these steps:
+To install Shopify Payments Apps, follow these steps:
 
 1. Sign in to your Shopify backend.
 2. Ensure that your Shopify user has <a href="https://help.shopify.com/en/manual/your-account/staff-accounts/staff-permissions/staff-permissions-descriptions#apps-and-channels-permissions" target="_blank">the permissions</a> to install new apps.
@@ -46,7 +46,7 @@ To install follow these steps:
    - **MultiSafepay website API Key**: Enter your [site API key](/docs/sites#site-id-api-key-and-security-code).
    - **MultiSafepay Environment**: Turn on if you are using a Test API key. Turn off for a Live API key.
 9. Click **Save**.
-10. Under **Payment configuration** click on the button **Payment configuration**
+10. Under **Payment configuration** click the button **Payment configuration**
    - Enable Test Mode if you are using a Test API key. Turn off for a Live API key.
    - Enable or disable payment icons according to your preferences.
 
@@ -82,11 +82,11 @@ Note: for some payment methods, certain customer data is required, e.g. phone nu
 ## Currencies
 
 Via MultiSafepay, you can only accept payments in **EUR**.
-Ensure the default currency is set to EUR under Settings > General > Store defaults > Currencies to display.
+Ensure the default currency is set to EUR under **Settings** > **General** > **Store defaults** > **Currencies to display**.
 
 ## Payment capture method
 
-Payment capture method will be force to **Automatically at checkout**  when a customer submit the order request via one of these apps.
+Payment capture method will be forced to **Automatically at checkout**  when a customer submits the order request via one of these apps.
 
 ## Reconciliation
 
@@ -103,7 +103,7 @@ To match orders in your accounting system with your MultiSafepay account, use th
 1. Sign in to your Shopify backend.
 2. Go to **Orders**.
 3. Select the order you want to refund.
-4. Click on the **Refund** button and enter the refund amount and confirm.
+4. Click **Refund**, enter the refund amount, and confirm.
 5. A refund request is sent to MultiSafepay. The refund status is updated in your Shopify backend as **pending**.
 6. The refund is processed by MultiSafepay. The refund status is updated in your Shopify backend as **refunded**.
 
@@ -123,7 +123,7 @@ To uninstall, follow these steps:
 1. Ensure that your Shopify user has <a href="https://help.shopify.com/en/manual/your-account/staff-accounts/staff-permissions/staff-permissions-descriptions#apps-and-channels-permissions" target="_blank">the permissions</a> to uninstall apps.
 2. On your admin page, go to **Settings** > **Apps and sales channels**.
 3. Select the MultiSafepay payment app you want to uninstall, and clicking on the three dots icon, select the option **Uninstall**.
-4. On the dialog window, select a reason and confirm the action by clicking in the **Uninstall** button.
+4. On the dialog window, select a reason and confirm the action by clicking **Uninstall** button.
 
 ---
 
