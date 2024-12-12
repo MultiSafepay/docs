@@ -166,6 +166,7 @@ The `gateway` is unavailable. This error can occur with <<glossary:direct>> requ
 - Check whether the payment method supports <<glossary:direct>> requests.
 - Ensure you specified a gateway in the create order request.
 - Check if the site is correctly configured for <<glossary:direct>> requests.
+- For payment components, check if the correct API token is used. Do not use an API key. 
 
 ---
 ### 1024: Transaction declined
