@@ -164,7 +164,7 @@ Sometimes this results in unwanted custom totals appearing on payment pages.
 <summary>How to exclude custom totals from payment pages</summary>
 <br>
 
-1. Sign in to your Magento 2 backend.
+1. Sign in to your Magento 2 <<glossary:backend>>.
 2. Go to **Stores** > **Configuration** > **MultiSafepay**.
 3. Select **General settings** > **Advanced settings** > **Exclude custom totals**.
 
@@ -186,7 +186,7 @@ The base values are required if you have enabled the `use base currency` setting
 <summary>How to set up custom URLs</summary>
 <br>
 
-1. Sign in to your Magento 2 backend.
+1. Sign in to your Magento 2 <<glossary:backend>>.
 2. Go to **Stores** > **Configuration** > **MultiSafepay**.
 3. Select **General settings** > **Advanced settings**.
 4. In the **Use custom return urls** field, select **Yes**.
@@ -208,8 +208,19 @@ Supported since release: 2.4.0, February 22nd 2021.
 <summary>How to configure generic gateways</summary>
 <br>
 
-1. Sign in to your Magento 2 backend.
-2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment methods** > **Generic gateway**.
+1. Sign in to your Magento 2 <<glossary:backend>>.
+2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment Gateways** > **Generic gateway**.
+3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/) and upload a custom gateway image.
+4. For <<glossary:BNPL>> orders, specify whether to include a shopping cart.
+
+</details>
+
+<details id="how-to-configure-generic-giftcards">
+<summary>How to configure generic giftcards</summary>
+<br>
+
+1. Sign in to your Magento 2 <<glossary:backend>>.
+2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Gift cards** > **Generic gateway**.
 3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/) and upload a custom gateway image.
 4. For <<glossary:BNPL>> orders, specify whether to include a shopping cart.
 
@@ -221,7 +232,7 @@ Supported since release: 2.4.0, February 22nd 2021.
 <summary>How to download MultiSafepay logs</summary>
 <br>
 
-1. Sign in to your Magento backend.
+1. Sign in to your Magento <<glossary:backend>>.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **General settings** > **MultiSafepay payment logs**.
 3. Click **Download**.
 
@@ -348,7 +359,7 @@ The plugin supports [Payment Components](/docs/payment-components/), which:
 <summary>How to activate the payment component in your backend</summary>
 <br>
 
-1. Sign in to your Magento 2 backend.
+1. Sign in to your Magento 2 <<glossary:backend>>.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment Gateways**.
 3. Select the relevant payment methods and then click **Configure**.
 3. Click **Payment type** and select **Card payment component**.
@@ -368,7 +379,7 @@ From version 2.0 and higher, [payment links](/docs/payment-links/) are automatic
 
 To get a payment link for a customer, follow these steps:
 
-1. Sign in to your Magento 2 backend.
+1. Sign in to your Magento 2 <<glossary:backend>>.
 2. Go to **Sales** > **Orders** > **Create new order**, and then create an order.
 3. Go to the **Orders overview**, and then select the newly created order.
 4. Go to **Comments history**.  
@@ -381,7 +392,7 @@ To get a payment link for a customer, follow these steps:
 <summary>How to add payment links to order confirmation emails</summary>
 <br>
 
-1. Sign in to your Magento 2 backend.
+1. Sign in to your Magento 2 <<glossary:backend>>.
 2. Go to **Marketing** > **Email templates**.
 3. Under **New order**, import a template.
 4. Add the following code snippet to the template:
@@ -394,7 +405,7 @@ To get a payment link for a customer, follow these steps:
 
 **Backend emails**
 
-To add payment links to order confirmation emails from your Magento **backend**, you can use the `payment_link` variable and an `if/else` statement in the template. 
+To add payment links to order confirmation emails from your Magento **<<glossary:backend>>**, you can use the `payment_link` variable and an `if/else` statement in the template. 
 
 **Frontend emails**
 
@@ -517,7 +528,7 @@ See [Order lifetimes](#order-lifetimes) above.
 <summary>How to set payment link lifetimes</summary>
 <br>
 
-1. Sign in to your Magento 2 backend.
+1. Sign in to your Magento 2 <<glossary:backend>>.
 2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment gateways**, and select the relevant <<glossary:gateway>>.
 3. Go to **Custom payment link lifetime**, select **Pending payment order lifetime**, and set to **2880 minutes**.
 
@@ -527,7 +538,7 @@ See [Order lifetimes](#order-lifetimes) above.
 
 When you ship <<glossary:BNPL>> orders, you need to change the <<glossary:order status>> from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
-If you do so in your Magento 2 backend, the updated status is passed to your MultiSafepay dashboard automatically.
+If you do so in your Magento 2 <<glossary:backend>>, the updated status is passed to your MultiSafepay dashboard automatically.
 
 ## Surcharges
 
@@ -541,7 +552,7 @@ To apply a surcharge or payment fee to a payment method, you can use the third-p
 
 **Refunds**
 
-You can refund orders with a Fooman surcharge applied in your MultiSafepay dashboard, but not from your Magento 2 backend. 
+You can refund orders with a Fooman surcharge applied in your MultiSafepay dashboard, but not from your Magento 2 <<glossary:backend>>. 
 
 **BNPL orders**
 
@@ -592,7 +603,7 @@ You can update the plugin via <a href="https://getcomposer.org" target="_blank">
 <br>
 
 1. Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
-2. Sign in to your Magento 2 backend.
+2. Sign in to your Magento 2 <<glossary:backend>>.
 3. Run the following commands via the CLI:
     ```
     composer update multisafepay/magento2 --with-all-dependencies
