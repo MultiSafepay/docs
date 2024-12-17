@@ -171,39 +171,9 @@ When you generate a payment link in your MultiSafepay dashboard, you cannot upda
 
 ## Payment methods
 
-<details id="supported-payment-methods">
-<summary>Supported payment methods</summary>
-<br>
-
-- Cards: [All](/docs/card-payments/)
-- Banking methods: All, **except** iDEAL QR and TrustPay
-- <<glossary:BNPL>>: All
-- Wallets: All
-- Prepaid cards: 
-    - Baby gift card
-    - Beauty and Wellness gift card
-    - <a href="https://www.bloemen-cadeaukaart.nl" target="_blank">Bloemencadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.degrotespeelgoedwinkel.nl/cadeaukaart" target="_blank">Degrotespeelgoedwinkel</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.edenred.be/nl" target="_blank">Edenred</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.fashioncheque.com/nl/" target="_blank">Fashion Cheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.fashion-giftcard.nl/" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - Fietsenbon
-    - <a href="https://www.gezondheidsbon.nl/mhome/" target="_blank">Gezondheidsbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - Goodcard
-    - <a href="https://www.bioscoopbon.nl" target="_blank">Nationale bioscoopbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.nationale-tuinbon.nl/" target="_blank">Nationale tuinbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.parfumcadeaukaart.nl/" target="_blank">Parfumcadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.sportenfitcadeau.nl/" target="_blank">Sport en Fit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.vvvcadeaukaarten.nl/" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.webshopgiftcard.nl/" target="_blank">Webshop gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - Wijncadeau
-    - <a href="https://www.winkelcheque.nl/" target="_blank">Winkelcheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.yourgift.nl" target="_blank">Yourgift</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  
+By default, activated payment methods from your MultiSafepay account appear on the payment method list. However, any newly activated payment methods for your MultiSafepay account must be enabled manually in your Lightspeed <<glossary:backend>> under MultiSafepay payment settings.
 
 To use MultiSafepay payment method icons, see GitHub <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">MultiSafepay icons</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-
-</details>
 
 <details id="payment-methods-logos-in-your-site-footer">
 <summary>Payment methods logos in your site footer</summary>
