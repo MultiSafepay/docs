@@ -30,6 +30,10 @@ transaction status
 
 Changes as the funds progress towards settlement in your account balance.
 
+pre-transactions
+
+The initial stage in the payment process, before a transaction is fully processed. This may involve authorization or reservation of funds, but no funds are transferred yet.
+
 order status
 
 Changes as the customer's order with you progresses towards shipment (independent of payment).

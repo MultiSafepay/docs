@@ -178,6 +178,10 @@ A container in the merchant's integration where customers place items for an <<g
 An instance of funds being transferred, e.g. customers paying merchants, merchants refunding customers. In our system, the <<glossary:transaction status>> changes as the funds move through the different stages of the payment flow.
 
 ---
+### pre-transaction
+The initial stage in the payment process, before a transaction is fully processed. This may involve authorization or reservation of funds, but no funds are transferred yet.
+
+---
 #### we
 MultiSafepay
 
