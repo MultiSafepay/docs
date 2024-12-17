@@ -28,7 +28,7 @@ You can retrieve details about a transaction to include on your success page, e.
 3. To retrieve the order details, make a [get order](/reference/getorder) request from your server using the `transaction_id`.
 4. Inject the details into your success page in your <<glossary:backend>>.
 
-**⚠️ Note:** When setting a redirect URL, remember to check that its syntax conforms  
+**⚠️ Note:** Make sure your URL only contains a specific set of ASCII characters (alphanumeric, -, _, ., :, /).
 
 # Dynamically style a MultiSafepay success page
 

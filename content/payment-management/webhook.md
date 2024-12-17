@@ -40,13 +40,7 @@ You must set a webhook endpoint, which is a URL that:
 - Doesn't include port numbers.
 - Is publicly accessible, or has MultiSafepay on your allow list.
 - Uses HTTPS - We don't accept HTTP for security reasons.
-- Contains a specific subset of ASCII characters, as shown in the table below:
-
-| Set	         | characters                                                                                                                  | URL usage                                            |
-| :----------- | :-------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------- |
-| Alphanumeric | a b c d e f g h i j k l m n o p q r s t u v w x y z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9 | Text strings, scheme usage (http), port (8080), etc. |
-| Unreserved   | - \_ . ~                                                                                                                    | Text strings                                         |
-| Reserved     | ! \* ' ( ) ; : @ & = + $ , / ? % # [ ]                                                                                      | Control characters and/or Text Strings               |
+- Only contains a specific set of ASCII characters (alphanumeric, -, _, ., :, /).
 
 For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
 
