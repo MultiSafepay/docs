@@ -42,10 +42,20 @@ To activate a SmartPOS terminal, follow these steps:
 - **New group name**.  
 - <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">**Webhook URL** </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>(optional).
 - In the **Business category** field, click the **drop-down** icon and specify the relevant service or product offered. If a category has been assigned to your account in the past, it will be displayed automatically. 
-- **Logo**: Select an image you want to display in different places of your payment app, to show customized branding. 
-To add new images, upload them first via Settings > Files. 
-The logo is then added to all terminals of this group.
-6. Select Terminal type **SmartPOS**
+- **Logo**: Select an image you want to display in different places of your payment app, to show customized branding.  
+    To add new images:
+
+  - Go to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+  - Go to **Settings** > **Files** and upload the desired image file. The file must meet the following requirements:
+    - Format: **PNG**
+    - Resolution: **512x512 pixels**  
+
+  The logo is added to all terminals of this group and will show in the background of your terminal.
+
+  **⚠️Note**: Individual terminals within a group cannot have different images.
+
+6. Select Terminal type **SmartPOS**.
+7. Click **Create**.
 
 
 Install the MultiSafepay payment app on your terminal to scan the QR code. 
@@ -67,13 +77,13 @@ Install the MultiSafepay payment app on your terminal to scan the QR code.
 1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Devices** > **Terminals**.
 3. Click **Manage groups**.
-4. To edit an existing group:
-- Click the ** edit** icon next to the group name.
-- Fill in the **name** field.
-5. In the **Category** field, click the **dropdown** icon and select the relevant category code.
-6. Click **Create**.
+4. Click the ** edit** icon on the right side of the panel to edit the desired terminal group. Here, you can:
+   - Change the **name** of the terminal group.
+   - Change the logo by selecting a different image file.
+   - Change the **webhook URL**.
+5. Click the **save** button.
 
-**💡 Tip!** You can view your API key via *Manage groups* > API key. 
+**💡 Tip!** You can view your API key via _Manage groups_ > API key. 
 
 
 ---
