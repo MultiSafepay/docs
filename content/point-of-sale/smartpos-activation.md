@@ -77,13 +77,13 @@ Install the MultiSafepay payment app on your terminal to scan the QR code.
 1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Devices** > **Terminals**.
 3. Click **Manage groups**.
-4. Click the ** edit** icon on the right side of the panel to edit the desired terminal group. Here, you can:
+4. Click the **edit** icon on the right side of the panel to edit the desired terminal group. Here, you can:
    - Change the **name** of the terminal group.
    - Change the logo by selecting a different image file.
    - Change the **webhook URL**.
 5. Click the **save** button.
 
-**💡 Tip!** You can view your API key via _Manage groups_ > API key. 
+**💡 Tip!** You can view your API key via **Manage groups** > **API key**. 
 
 
 ---
