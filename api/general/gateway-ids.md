@@ -52,6 +52,7 @@ hidden: false
 | Amsterdam stadspas                     | `AMSGIFT`     |
 | Baby Cadeaubon                         | `BABYCAD`     |
 | Beautyandwellness                      | `BEAUTYWELL`  |
+| Beauty cadeau                          | `BEAUTYCAD`   |
 | Bloemencadeaukaart                     | `BLOEMENCAD`  |
 | Boekenbon                              | `BOEKENBON`   |
 | Degrotespeelgoedwinkel                 | `DEGROTESPL`  |
