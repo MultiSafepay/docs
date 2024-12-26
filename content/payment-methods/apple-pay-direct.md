@@ -43,7 +43,7 @@ To see which Apple products are compatible with Apple Pay, see Apple Developer �
     https://{your-domain}/.well-known/apple-developer-merchantid-domain-association
     ```
 
-**⚠️ Note:** For testing, download the domain validation in the **test** folder.
+**⚠️ Note:** For testing, download the domain validation in the **test** folder. We recommend uploading the domain validation file to your web server to avoid possible issues.
 
 ## 2. Request to register 
 
