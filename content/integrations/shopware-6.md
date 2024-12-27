@@ -146,7 +146,7 @@ You cannot refund more than the original amount in your backend.
 
 ### Shipping orders
 
-For <<glossary:BNPL>> orders, once shipped, the delivery status must be manually updated from **Open** to **Shipped**." This change will then automatically reflect in your MultiSafepay dashboard.
+For <<glossary:BNPL>> orders, once shipped, the delivery status must be manually updated from **Open** to **Shipped**. This change will then automatically reflect in your MultiSafepay dashboard.
 
 ## Updates
 
