@@ -146,9 +146,7 @@ You cannot refund more than the original amount in your backend.
 
 ### Shipping orders
 
-For <<glossary:BNPL>> orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
-
-If you change the <<glossary:order status>> to **Delivered** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
+For <<glossary:BNPL>> orders, once shipped, the delivery status must be manually updated from **Open** to **Shipped**. This change will then automatically reflect in your MultiSafepay dashboard.
 
 ## Updates
 
