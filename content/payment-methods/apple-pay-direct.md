@@ -249,15 +249,23 @@ https://apple-pay-gateway-cert.apple.com/paymentservices/startSession
 https://apple-pay-gateway.apple.com/paymentservices/startSession
 ```
 
-Using the incorrect `validation_url` will result in an error:
+Using the incorrect `validation_url` will result in an error, such as:
 
+```json
+{
+  "errors": [
+    {
+      "message": "Merchant validation error"
+    }
+  ],
+  "message": "Validation failure",
+  "success": false
+}
 ```
-[{"message": "Merchant validation error"}], 'message':'Validation failure', 'success':false}"
-```
 
 
 
-Make sure to use the correct **TEST URL**, along with the appropriate website **TEST API key**. Enter the **Sandbox Validation URL**.
+Make sure to use the correct **TEST URL**, along with the appropriate website **TEST API key**. Be sure to use the **Sandbox Validation URL** provided above.
 
 #### Example
 
