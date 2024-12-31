@@ -78,7 +78,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
   </details>
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-- iDEAL sends an expiration notification after aproximately 2 days. Once we receive the notification, the transaction will expire.
+- iDEAL sends an expiration notification after aproximately 2 days. Once we receive the notification, the transaction expires.
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
 
 ### Ready-made integrations
