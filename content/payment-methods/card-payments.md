@@ -133,6 +133,12 @@ To test card payments, see Testing payment methods - [Credit and debit cards](/d
 
 # User guide
 
+## Amount limits
+
+For credit card payments, the maximum order amount will be limited to 5,000 EUR by default. To request a change to this limit, email <risk@multisafepay.com>.
+
+Occasional credit card payments that surpass the maximum limit must be justified. Email the invoice to <risk@multisafepay.com>
+
 ## Amex merchant account number
 
 If you use your Amex merchant account number:
