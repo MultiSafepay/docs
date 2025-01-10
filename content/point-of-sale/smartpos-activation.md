@@ -39,20 +39,20 @@ To activate a SmartPOS terminal, follow these steps:
 3. Click **Add terminal**.
 4. Below the **<<glossary:group>> name**, click **Add new group**, or select a previously created group.
 5. Fill out the following fields:
-- **New group name**.  
-- <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">**Webhook URL** </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>(optional).
-- In the **Business category** field, click the **drop-down** icon and specify the relevant service or product offered. If a category has been assigned to your account in the past, it will be displayed automatically. 
-- **Logo**: Select an image you want to display in different places of your payment app, to show customized branding.  
-    To add new images:
+    - **New group name**.  
+    - <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">**Webhook URL** </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>(optional).
+    - In the **Business category** field, click the **drop-down** icon and specify the relevant service or product offered. If a category has been assigned to your account in the past, it will be displayed automatically. 
+    - **Logo**: Select an image you want to display in different places of your payment app, to show customized branding.  
+        To add new images:
 
-  - Go to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-  - Go to **Settings** > **Files** and upload the desired image file. The file must meet the following requirements:
-    - Format: **PNG**
-    - Resolution: **512x512 pixels**  
+      - Go to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+      - Go to **Settings** > **Files** and upload the desired image file. The file must meet the following requirements:
+        - Format: **PNG**
+        - Resolution: **512x512 pixels**  
 
-  The logo is added to all terminals of this group and will show in the background of your terminal.
+    The logo is added to all terminals of this group and will show in the background of your terminal.
 
-  **⚠️Note**: Individual terminals within a group cannot have different images.
+    **⚠️Note**: Individual terminals within a group cannot have different images.
 
 6. Select Terminal type **SmartPOS**.
 7. Click **Create**.
