@@ -53,7 +53,6 @@ To activate a SmartPOS terminal, follow these steps:
    **⚠️Note**: Individual terminals within a group cannot have different images.
 
 6. Select Terminal type **SmartPOS**.
-
 7. Click **Create**.
 
 
