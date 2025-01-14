@@ -219,8 +219,8 @@ You can see the selected details displayed on screen, and in the header of the r
 
 If no logo has been selected for the terminal group, the **MultiSafepay** logo will display by default, even when the **Hide MSP logo** feature is enabled. For more information on how to upload and change your logo, see:
 
-- [How to upload your logo](https://docs.multisafepay.com/docs/smartpos-activation#how-to-upload-your-logo).
-- [How to edit a group](https://docs.multisafepay.com/docs/smartpos-activation#how-to-edit-a-group).
+- <a href="https://docs.multisafepay.com/docs/smartpos-activation#how-to-upload-your-logo" target="_blank">How to upload your logo</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- <a href="https://docs.multisafepay.com/docs/smartpos-activation#how-to-edit-a-group" target="_blank">How to edit a group</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 
 ***
