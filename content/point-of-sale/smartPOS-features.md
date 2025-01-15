@@ -37,6 +37,7 @@ After activating your SmartPOS terminal, you can add features from your SmartPOS
       <li>Display items after payment have been processed.</li>
       <li>Add a tip to your payment flow.</li>
       <li>Print a receipt.</li>
+      <li>Hide the MultiSafepay logo.</li>
     </ul>
     <strong>Payment Settings</strong>
     <ul><br>
@@ -46,15 +47,18 @@ After activating your SmartPOS terminal, you can add features from your SmartPOS
       <li>Initiate payments manually or using cloud mode</li>
       <li>Hide the navigation menu on the main screen</li>
       <li>Define the closing order flow</li>
+      <li>Change your payment method</li>
     </ul>
     <strong>Navigation Settings</strong>
     <ul><br>
       <li>Enable the Cancel function</li>
+      <li>Hide navigation</li>
     </ul>
   </div>
 
   <div style="flex-shrink: 0;">
-    <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_feature_list.png" alt="Feature list" width="220" />
+  <!-- <img
+    <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/POS_feature_list.png" alt="Feature list" width="220" /> \-->
   </div>
 </div>
 
@@ -77,7 +81,7 @@ After activating your SmartPOS terminal, you can add features from your SmartPOS
 To add payment flow features, follow these steps: 
 
 1. On the navigation menu, click the **Back** button.
-2. Select **Settings**.  
+2. Select **Features**.
    <!-- <br>  
    <br>  
    <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SmartPOS-pay-flow.png" alt="POS-display" width="250" style="display: block;"/>  
@@ -85,8 +89,9 @@ To add payment flow features, follow these steps:
 
 ## How to enable display items
 
-1. In the **Global settings** list, click the **Display items** toggle.
-2. To return to the main screen, click the **Back** button.
+1. Go to **Features** > **Global settings**.
+2. Click the **Display items** toggle.
+3. To return to the main screen, click the **Back** button.
 
 Once you've initiated the payment, the items are displayed on the payment screen.
 
@@ -98,22 +103,20 @@ Once you've initiated the payment, the items are displayed on the payment screen
 
 ## How to enable tipping
 
-1. In the **Global settings** list, click the **Tipping** toggle.
-2. To return to the main screen, click the  **Back** button.
+1. Go to **Features** > **Global settings**.
+2. Click the **Tipping** toggle.
+3. To return to the main screen, click the  **Back** button.
 
-Enabling this feature will display a tipping screen before the payment is processed.
+Enabling this feature will display a tipping screen before the payment is processed. On the tipping screen, you can:
 
 <!-- **Example:**
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-tipping-screen.png" alt="smartPOS_print" width="250" style="display: block;"/>
 <br>-->
-
-On the tipping screen, you can:
-
 - Click a suggested tipping amount or click **Custom** to add a specific amount.
 - Click **No Tip** to proceed without tipping.
 - Click the **Employee** icon to assign the employee you want to tip or to add a new employee.
 
-You can add an employee via **+ add employee** > Insert **Name** and **Employee ID**.
+To add a new employee, go to **Select employee** > **+ Add employee** > Insert **Name** and **Employee ID**.
 
 
 
@@ -134,17 +137,18 @@ You can add an employee via **+ add employee** > Insert **Name** and **Employee 
 
 ## How to enable cloud mode
 
-1. In the **Payment** list, click the ** Cloud mode** toggle to the right.
-2. To return to the main screen, click the **Back** button.
+1. Go to **Features** > **Payment**.
+2. Click the ** Cloud mode** toggle.
+3. To return to the main screen, click the **Back** button.
 
-***
+After you've enabled **Cloud mode**, the **System Navigation** feature will be available. This feature allows you to hide the cancel button and system navigation.
 
 To exit the cloud mode payment screen:
 
-1. Tap and hold the **MultiSafepay** logo or your personal logo for few seconds.
+1. Tap and hold the **MultiSafepay** logo or your company logo for few seconds.
 2. Enter the default **PIN code**. <br>The default PIN code is `1324`.
 
-**⚠️ Note:** For your security, we recommend you change the default PIN code as soon as possible. 
+**⚠️ Note:** For your security, we recommend you change the default PIN code as soon as possible.
 
 ***
 
@@ -203,24 +207,22 @@ You can see the selected details displayed on screen, and in the header of the r
 
 ## How to hide navigation
 
-1. In the **Navigation** list, click the ** System navigation** toggle to the right.
-2. To return to the main screen, click the **Back** button
+1. Go to **Features** > **Navigation**.
+2. Click the ** System navigation** toggle.
+3. To return to the main screen, click the **Back** button.
 
-**Note:** To access the navigation menu, tap the **MultiSafepay** logo or your personal logo.
+**Note:** To access the navigation menu, tap the **MultiSafepay** logo or your company logo.
 
 </details>
 
 ***
 ## How to hide the MultiSafepay logo
 
-1. In **Features**, go to **Global Settings** .
-2. Click the **Hide MSP logo** toggle to the right.
+1. Go to **Features** > **Navigation**.
+2. Click the **System navigation** toggle.
 3. To return to the main screen, click the **Back** button.
 
-If no logo has been selected for the terminal group, the **MultiSafepay** logo will display by default, even when the **Hide MSP logo** feature is enabled. For more information on how to upload and change your logo, see:
-
-- [How to upload your logo](https://docs.multisafepay.com/docs/smartpos-activation#how-to-upload-your-logo).
-- [How to edit a group](https://docs.multisafepay.com/docs/smartpos-activation#how-to-edit-a-group).
+**Note:** To access the navigation menu, tap the **MultiSafepay** logo or your company logo.
 
 
 ***
@@ -237,15 +239,16 @@ If no logo has been selected for the terminal group, the **MultiSafepay** logo w
 
 You can use the QR code reader within our app to easily recognize order information and include it in a transaction.
 
-1. In the **Settings** section, enable \*_Insert order_.
-2. When using **Manual input**, select \*_Scan QR_.
+1. Go to **Features** > **Global Settings**.
+2. Click the **Insert Order ID** toggle.
+3. When using **Manual input**, select **Scan QR**.
 
 The QR reader is able to detect the following parameters:
 
-- amount
-- order ID
-- description  
-  This information will be included in the payment request. 
+- Amount
+- Order ID
+- Description  
+  This information will be included in the payment request.
 
 </details>
 
@@ -253,8 +256,9 @@ The QR reader is able to detect the following parameters:
 
 ## How to enable ❌ cancel
 
-1. In the **Navigation** list, click the **Cancel button** toggle to the right.
-2. To return to the main screen, click the **Back** button.
+1. Go to **Features** > **Global Settings**.
+2. Under **Navigation**, click the **Cancel button** toggle.
+3. To return to the main screen, click the **Back** button.
 
 </details>
 
@@ -262,9 +266,10 @@ The QR reader is able to detect the following parameters:
 
 ## How to validate a card
 
-1. In Settings > **Payment**, enable _Allow Zero Amount_ 
-2. Customer completes the 0 EUR transaction.
-3. You will see the transaction with 0 amount in your transaction overview.
+1. Go to **Features** > **Global Settings**.
+2. Under **Payment**, enable **Allow Zero Amount**
+3. Customer completes the 0 EUR transaction.
+4. You will see the transaction with 0 amount in your transaction overview.
 
 </details>
 
@@ -284,8 +289,8 @@ The QR reader is able to detect the following parameters:
 ## How to unbind your terminal
 
 1. In the **Settings** list, go to the menu in the top left corner.
-2. Select \*_Security_, and insert your 4-digit PIN Code. 
-3. Click \*_Unbind_ and confirm. 
+2. Select **Security**, and insert your 4-digit PIN Code. 
+3. Click **Unbind** and confirm. 
 
 **⚠️ Note:** Unbinding will result in a complete data erasure.  
 You can bind the terminal to the same or a different account, or terminal group. 
@@ -300,8 +305,8 @@ Additionally to our built-in printers within some of our devices, you can use th
 
 You can set it up within your app:
 
-1. Via Settings, go to _External printer_
-2. Press _Discover_
+1. Via Settings, go to **External printer**
+2. Press **Discover**
 3. Select Connection Type
 4. List of printers available is displayed
 5. When a payment is completed, click the **printer icon** to print your receipt.
