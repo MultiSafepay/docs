@@ -21,8 +21,8 @@ To update your contact details, provide us with your address in your dashboard:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. In the top-right corner of your dashboard, click <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/profile-icon.png"/>  > **Account information**.
-3. Under **Contact details**, provide the relevant email address. 
-You can indicate where to receive emails about completed transactions, uncleared transactions, invoices, and chargebacks.
+3. Under **Contact details**, provide the relevant email address.
+4. Click **Save**.
 
 </details>
 
