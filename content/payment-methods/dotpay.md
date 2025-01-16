@@ -72,7 +72,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   </details>
 
-  **⚠️ Note:** Dotpay doesn't support **direct** requests.
+  **⚠️ Note:** **Direct** requests are not supported for Dotpay.
   
 - Transactions expire after 3 days.
 
