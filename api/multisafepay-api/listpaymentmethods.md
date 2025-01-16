@@ -1,8 +1,16 @@
 ---
 title: List payment methods
 category: 62430422470152003dc86e53
-slug: listpaymentmethods
+slug: listpaymentmethods-1
 ---
+
+### Update iDeal 2.0
+
+> ⚠️ Note:
+> 
+> Upon our migration to iDeal 2.0, the issuer is selected within the iDeal environment. The parameter  `issuer_id` is no longer required for requests with type  `direct`. 
+> 
+> In the `additional_data` object, `issuers` will not be returned.
 
 ## How to test
 
