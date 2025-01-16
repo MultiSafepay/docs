@@ -40,7 +40,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | Description | Order status | Transaction status |
 |---|---|---|
 | iDEAL in3's credit check is in progress. You can still cancel. | Initialized   | Initialized  |
-| iDEAL in3 is waiting for the customer to pay the first installment (within 5 minutes). | Uncleared  | Initialized  |
+| iDEAL in3 is waiting for the customer to pay the first installment. | Uncleared  | Initialized  |
 | The customer has paid the first installment. Settlement is now guaranteed. <br> You can no longer cancel. You can only refund. | Completed  | Uncleared  |
 | You can [manually change the order status to shipped](#shipment) for your records, but this is not required to trigger invoicing. | Shipped | Uncleared | 
 | MultiSafepay has collected payment. | Completed | Completed |
@@ -78,7 +78,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
   </details>
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-- Transactions expire after 2 hours.
+- iDEAL sends an expiration notification after approximately 2 days. Once we receive the notification, the transaction expires.
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
 
 ### Ready-made integrations

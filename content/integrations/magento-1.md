@@ -9,7 +9,7 @@ slug: 'magento-1'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.6.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.7.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 > ⚠️ Action required
 >
@@ -20,6 +20,18 @@ slug: 'magento-1'
 <details id="changelog">
 <summary>Changelog</summary>
 <br>
+
+**3.7.0**
+Release date: Nov. 28th, 2024
+
+### Changed
++ DAVAMS-796: Rebrand Afterpay-Riverty Logo
++ DAVAMS-744: Rebranding in3 B2C
+
+### Fixed
++ PLGMAGONE-771: Fix surcharges where percentage not applied when fixed amount is 0
+
+***
 
 **3.6.0**
 Release date: Oct. 16th, 2023
