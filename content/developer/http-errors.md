@@ -11,7 +11,7 @@ This table lists the most common HTTP error codes and descriptions:
 
 | Error | Description |
 |---|---|
-| HTTP 200: OK | The page is responding correctly but is missing the text `OK` in the body. |          
+| HTTP 204: No content | The page is responding correctly but is missing the text `OK` in the body. |          
 | HTTP 301: Moved permanently | The page has moved permanently. Check if your [webhook endpoint](/docs/webhook/) is configured correctly in your MultiSafepay account and/or the API request. | 
 | HTTP 302: Found | The page redirects to another location. Check if your [webhook endpoint](/docs/webhook/) is configured correctly in your MultiSafepay account and/or the API request. |                 
 | HTTP 403: Forbidden | The page appears to require a login. This often occurs in a testing environment. Either remove the login page, or add our IP ranges to your allow list. For a list of MultiSafepay IP addresses, email <integration@multisafepay.com> | 
