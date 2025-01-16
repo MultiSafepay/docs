@@ -205,7 +205,7 @@ The plugin supports generic gateways, which allows you to add a payment method m
 Supported since release: 2.4.0, February 22nd 2021.
 
 <details id="how-to-configure-generic-gateways">
-<summary>How to configure generic gateways</summary>
+<summary>How to configure generic gateways for payment methods</summary>
 <br>
 
 1. Sign in to your Magento 2 <<glossary:backend>>.
@@ -216,11 +216,11 @@ Supported since release: 2.4.0, February 22nd 2021.
 </details>
 
 <details id="how-to-configure-generic-giftcards">
-<summary>How to configure generic giftcards</summary>
+<summary>How to configure generic gateways for giftcards</summary>
 <br>
 
 1. Sign in to your Magento 2 <<glossary:backend>>.
-2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Gift cards** > **Generic gateway**.
+2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Gift cards** > **Generic giftcard**.
 3. Set the relevant [payment method gateway IDs](/reference/gateway-ids/) and upload a custom gateway image.
 4. For <<glossary:BNPL>> orders, specify whether to include a shopping cart.
 
