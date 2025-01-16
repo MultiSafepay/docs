@@ -233,6 +233,51 @@ To test, follow these steps:
 
 ✅ &nbsp; **Success!** The transaction is completed.
 
+### Handling errors
+
+When working with the Apple Pay sandbox environment, make sure to use the **Sandbox Validation URL** when requesting an Apple Pay merchant session.
+
+#### Sandbox Validation URL
+
+```
+https://apple-pay-gateway-cert.apple.com/paymentservices/startSession
+```
+
+#### Production Validation URL
+
+```
+https://apple-pay-gateway.apple.com/paymentservices/startSession
+```
+
+Using the incorrect `validation_url` will result in an error, such as:
+
+```json
+{
+  "errors": [
+    {
+      "message": "Merchant validation error"
+    }
+  ],
+  "message": "Validation failure",
+  "success": false
+}
+```
+
+
+
+Make sure to use the correct **TEST URL**, along with the appropriate website **TEST API key**. Be sure to use the **Sandbox Validation URL** provided above.
+
+#### Example
+
+```curl
+curl -X POST "<https://testapi.multisafepay.com/v1/json/wallets/sessions/applepay">  
+-H "Authorization: Bearer <test-website-api-key>"  
+-d '{  
+"origin_domain": "originDomain",  
+"validation_url": "https://apple-pay-gateway-cert.apple.com/paymentservices/startSession"  
+}'
+```
+
 <br>
 
 ---
