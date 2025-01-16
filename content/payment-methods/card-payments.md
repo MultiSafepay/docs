@@ -33,10 +33,12 @@ MultiSafepay supports the following credit and debit cards:
 
 **⚠️ Note:** [Co-branded cards](/docs/card-payments#co-branded-cards) are processed through the VISA <<glossary:gateway>>.
 
+**⚠️ Note:** Payments made with AMEX in CHF are settled in EUR.
+
 | Supports | Details |
 |---|---|
 | [Countries](/docs/payment-methods#payment-methods-by-country)  | Amex, Maestro, Mastercard, Visa: Worldwide <br> Cartes Bancaires: France <br> Dankort: Denmark <br>Postepay: Italy <br> V Pay: Europe | 
-| [Currencies](/docs/currencies/)  | Amex: EUR, GBP, USD <br> Maestro, Mastercard, Visa: AED, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EUR, GBP, HKD, HRK, HUF, ILS, INR, ISK, JPY, KRW, MXN, MYR, NOK, NZD, PEN, PHP, PLN, RON, RUB, SEK, SGD, THB, TRY, TWD, UAH, USD, VEF, ZAR <br> To support additional currencies, email <support@multisafepay.com> | 
+| [Currencies](/docs/currencies/)  | Amex: EUR, GBP, USD, CHF <br> Maestro, Mastercard, Visa: AED, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EUR, GBP, HKD, HRK, HUF, ILS, INR, ISK, JPY, KRW, MXN, MYR, NOK, NZD, PEN, PHP, PLN, RON, RUB, SEK, SGD, THB, TRY, TWD, UAH, USD, VEF, ZAR <br> To support additional currencies, email <support@multisafepay.com> | 
 | [3D Secure 2.0](/docs/3ds2/) | Yes |
 | [Chargebacks](/docs/chargebacks/)  | Yes, **except** Postepay | 
 | [Payment components](/docs/payment-components/) | Yes |
