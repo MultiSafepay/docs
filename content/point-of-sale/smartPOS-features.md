@@ -91,7 +91,7 @@ To add payment flow features, follow these steps:
 
 1. Go to **Features** > **Global settings**.
 2. Click the **Display items** toggle.
-3. To return to the main screen, click the **Back** button.
+3. Click **Back** to return to the main screen.
 
 Once you've initiated the payment, the items are displayed on the payment screen.
 
@@ -125,7 +125,7 @@ To add a new employee, go to **Select employee** > **+ Add employee** > Insert *
 ## How to enable print or email
 
 1. In the **Global settings** list, click the **Print/Email** toggle.
-2. To return to the main screen, click the **Back** button.
+2. Click **Back** to return to the main screen.
 
 <!-- **Example:**
 
@@ -139,7 +139,7 @@ To add a new employee, go to **Select employee** > **+ Add employee** > Insert *
 
 1. Go to **Features** > **Payment**.
 2. Click the ** Cloud mode** toggle.
-3. To return to the main screen, click the **Back** button.
+3. Click **Back** to return to the main screen.
 
 After you've enabled **Cloud mode**, the **System Navigation** feature will be available. This feature allows you to hide the cancel button and system navigation.
 
@@ -154,16 +154,26 @@ To exit the cloud mode payment screen:
 
 ## How to define your closing order flow
 
-Upon completed or declined payment, the customer can be redirected to a page that confirms the outcome of the payment process, OR go back automatically to your app.   
+After completing a payment process, the customer can be redirected to a confirmation page OR return to your app automatically.   
 Example message on the confirmation screen: "Payment is completed successfully". 
 
-You can customize this flow:
+To customize this flow:
 
-1. Go to **Settings** > Payment > *Close timeout*
-2. To display the confirmation screen for a fixed amount of time, select the seconds from the dropdown. This is the timeout of the "Completed" page.
-If you select *disabled*, there is no automatic timeout, and you will need to press *Close Order* to close the confirmation screen and return to your own application. 
+1. Go to **Features** > **Payment** > **Close timeout**
+2. To show the confirmation screen for a specific duration, select the desired number of seconds from the dropdown menu. This sets the timeout for the "Completed" page.
+If you select **disabled**, the confirmation screen will not automatically close, and you will need to press **Close Order** to close the confirmation screen and return to your own application. 
 
 **⚠️ Note:** This applies to both cloud mode and native application setups. 
+
+## How to enable additional payment methods
+
+To activate additional payment methods for your terminal, email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com). Once activated:
+
+1. Go to **Features** > **Payment**.
+2. At **Additional Payment methods**, click **Reload**. The newly added payment methods will be available in the dropdown menu.
+3. Click the **Dropdown** icon to display the payment methods.
+4. Click the toggle to enable or disable the desired payment method.
+5. Click **Back** to return to the main screen.
 
 ## How to change the PIN code 
 
@@ -186,19 +196,16 @@ After you've enabled the **Cloud mode**, the **Navigation** list appears. This f
 
 ## How to generate closing balance
 
-At the end of a processing period, you can print an overview of total transaction amounts per payment method, and tips.  
+After each processing period, you can print a summary of total transaction amounts for each payment method and including tips.  
 
-Via Settings > **Closing balance**, can set the following parameters:
+Via **Features** > **Closing balance**, you can set the following parameters:
 
-- Default date: today, yesterday
-- Closing start hour: if you include a start hour, the period will count 24 from the set time on
-  Example: set 10.00 >> period is 10.00 to 09:59
-- Closing end hour
-- Filter by: Company, Terminal group, Terminal
+- **Default date**: today, yesterday or select day
+- **Start hour**: the system will calculate 24 hours starting from the time you set. You must enter a value between 0 and 23.  
+  Example: If **Start hour** is set to 10, the period begins at 10:00 AM and ends at 09:59 AM the next day.
+- **Report level**: Company, Device group, Current device
 
-You can see the selected details displayed on screen, and in the header of the receipt.  
-
-</details>
+Click **View** to display the details entered. These details will also appear on the header of the receipt.  
 
 **💡 Tip!** You can print your closing balance report using either the device printer, or the [external printer](docs/test-page#external-printer).
 
@@ -209,7 +216,7 @@ You can see the selected details displayed on screen, and in the header of the r
 
 1. Go to **Features** > **Navigation**.
 2. Click the ** System navigation** toggle.
-3. To return to the main screen, click the **Back** button.
+3. Click **Back** to return to the main screen.
 
 **Note:** To access the navigation menu, tap the **MultiSafepay** logo or your company logo.
 
@@ -220,18 +227,10 @@ You can see the selected details displayed on screen, and in the header of the r
 
 1. Go to **Features** > **Navigation**.
 2. Click the **System navigation** toggle.
-3. To return to the main screen, click the **Back** button.
+3. Click **Back** to return to the main screen.
 
 **Note:** To access the navigation menu, tap the **MultiSafepay** logo or your company logo.
 
-
-***
-## How to switch languages
-
-1. In the **Settings** section, go to \*_Languages_.
-2. Select between English, Dutch, and Spanish.
-
-</details>
 
 ***
 
@@ -254,11 +253,12 @@ The QR reader is able to detect the following parameters:
 
 ***
 
-## How to enable ❌ cancel
+## How to enable payment cancellation.
+Enabling this feature will add a **❌ Cancel** button to the payment screen, allowing you to cancel a transaction during the payment process.
 
 1. Go to **Features** > **Global Settings**.
 2. Under **Navigation**, click the **Cancel button** toggle.
-3. To return to the main screen, click the **Back** button.
+3. Click **Back** to return to the main screen.
 
 </details>
 
@@ -267,7 +267,7 @@ The QR reader is able to detect the following parameters:
 ## How to validate a card
 
 1. Go to **Features** > **Global Settings**.
-2. Under **Payment**, enable **Allow Zero Amount**
+2. Under **Payment**, enable **Allow Zero Amount**.
 3. Customer completes the 0 EUR transaction.
 4. You will see the transaction with 0 amount in your transaction overview.
 
@@ -288,16 +288,16 @@ The QR reader is able to detect the following parameters:
 
 ## How to unbind your terminal
 
-1. In the **Settings** list, go to the menu in the top left corner.
-2. Select **Security**, and insert your 4-digit PIN Code. 
-3. Click **Unbind** and confirm. 
+1. Go to **Features** and open the menu in the top left corner.
+2. Select **Security**, and insert your 4-digit PIN Code.
+3. Click **Unbind** and confirm.
 
 **⚠️ Note:** Unbinding will result in a complete data erasure.  
 You can bind the terminal to the same or a different account, or terminal group. 
 
 ## How to use an external printer
 
-Additionally to our built-in printers within some of our devices, you can use the Sunmi kitchen cloud printer via 
+Additionally to our built-in printers found in some of our devices, you can use the Sunmi kitchen cloud printer via:
 
 - Bluetooth
 - WiFi
@@ -305,10 +305,10 @@ Additionally to our built-in printers within some of our devices, you can use th
 
 You can set it up within your app:
 
-1. Via Settings, go to **External printer**
-2. Press **Discover**
-3. Select Connection Type
-4. List of printers available is displayed
+1. Go to **Features** and open the menu in the top left corner.
+2. Click **External printer** and press **Discover**.
+3. You will see a list of available printers.
+4. Select the connection type.
 5. When a payment is completed, click the **printer icon** to print your receipt.
 
 
