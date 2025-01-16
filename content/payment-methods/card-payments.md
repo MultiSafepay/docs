@@ -88,6 +88,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 - A specific site, go to **Sites**, and then click the relevant site.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
+**⚠️ Note:** By default, recurring payments made with cards are limited to one transaction per IBAN every 24 hours. To request a change to this limit, email <sales@multisafepay.com>.
+
 💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
 
 # Integration
