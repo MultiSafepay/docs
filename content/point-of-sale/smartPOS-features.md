@@ -101,13 +101,19 @@ Once you've initiated the payment, the items are displayed on the payment screen
 1. In the **Global settings** list, click the **Tipping** toggle.
 2. To return to the main screen, click the  **Back** button.
 
-After the payment has been processed, the option to tip is displayed on the payment screen.
+Enabling this feature will display a tipping screen before the payment is processed.
 
-<!-- **Example:**  
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-tipping-screen.png" alt="smartPOS_print" width="250" style="display: block;"/>  
-<br> -->
+<!-- **Example:**
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-tipping-screen.png" alt="smartPOS_print" width="250" style="display: block;"/>
+<br>-->
 
-You can add an employee via **add employee** > Insert name and ID.
+On the tipping screen, you can:
+
+- Click a suggested tipping amount or click **Custom** to add a specific amount.
+- Click **No Tip** to proceed without tipping.
+- Click the **Employee** icon to assign the employee you want to tip or to add a new employee.
+
+You can add an employee via **+ add employee** > Insert **Name** and **Employee ID**.
 
 
 
@@ -135,7 +141,7 @@ You can add an employee via **add employee** > Insert name and ID.
 
 To exit the cloud mode payment screen:
 
-1. Tap and hold the **MultiSafepay** logo for few seconds.
+1. Tap and hold the **MultiSafepay** logo or your personal logo for few seconds.
 2. Enter the default **PIN code**. <br>The default PIN code is `1324`.
 
 **⚠️ Note:** For your security, we recommend you change the default PIN code as soon as possible. 
@@ -200,12 +206,24 @@ You can see the selected details displayed on screen, and in the header of the r
 1. In the **Navigation** list, click the ** System navigation** toggle to the right.
 2. To return to the main screen, click the **Back** button
 
-**Note:** To access the navigation menu, tap the **MultiSafepay** logo.
+**Note:** To access the navigation menu, tap the **MultiSafepay** logo or your personal logo.
 
 </details>
 
 ***
+## How to hide the MultiSafepay logo
 
+1. In **Features**, go to **Global Settings** .
+2. Click the **Hide MSP logo** toggle to the right.
+3. To return to the main screen, click the **Back** button.
+
+If no logo has been selected for the terminal group, the **MultiSafepay** logo will display by default, even when the **Hide MSP logo** feature is enabled. For more information on how to upload and change your logo, see:
+
+- <a href="https://docs.multisafepay.com/docs/smartpos-activation#how-to-upload-your-logo" target="_blank">How to upload your logo</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- <a href="https://docs.multisafepay.com/docs/smartpos-activation#how-to-edit-a-group" target="_blank">How to edit a group</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+
+***
 ## How to switch languages
 
 1. In the **Settings** section, go to \*_Languages_.
