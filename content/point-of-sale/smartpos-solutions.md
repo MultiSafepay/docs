@@ -56,6 +56,12 @@ This diagram shows a successful cloud-based POS payment flow. Click to magnify.
 
 To receive payments updates subscribe to [Event notifications.](/docs/event-notifications)
 
+## Soft declines
+
+When using **Cloud mode** and **Event Notifications**, you might encounter **soft declines**. A soft decline occurs when an initial payment attempt is declined, requiring the customer to take further action, such as entering their PIN, often for larger amounts.
+
+With a soft decline, you first receive a notification with an order status of **declined**. Once the customer completes the required verification (e.g., enters their PIN), you'll receive another notification. If successful, the order status will be **completed**.
+
 <br>
 
 ***
