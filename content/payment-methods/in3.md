@@ -110,6 +110,10 @@ Different billing and shipping addresses are supported.
 
 You can adjust these limits in the <<glossary:backend>> of our [ready-made integrations](/docs/our-integrations/) to show or hide iDEAL in3 on your checkout page depending on the order value.
 
+## iDEAL account
+
+  To use iDEAL in3 at checkout, customers are now required to have an iDEAL account to complete the payment.
+
 ## Gift cards
 
 When paying with a gift card and in, customers must enter the gift card details **before** placing their order, i.e. on your checkout page. This is because iDEAL in3 collects and require precise order specifications. Our platform would interpret the gift card as a discount and generate incorrect order information, e.g. tax calculations.
