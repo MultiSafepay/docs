@@ -56,6 +56,8 @@ This diagram shows a successful cloud-based POS payment flow. Click to magnify.
 
 To receive payments updates subscribe to [Event notifications.](/docs/event-notifications)
 
+**⚠️ Note:** When using **event notifications** on POS terminals, you might encounter **soft declines** when processing payments. For more information, see [Soft declines](/docs/smartpos-solutions#soft-declines).
+
 <br>
 
 ***
@@ -284,7 +286,12 @@ The table below sets out options available for receiving updates on the payments
 | Cloud POS payment   | Subscribe to the [event notifications.](/docs/event-notifications)             | Configure a [webhook](/docs/webhook#configure-your-webhook-endpoint.).                              |
 | Web applications    | Set `callback_url` in the [ link.](/docs/solutions#web-applications-pos)                           | Set `notification_url` in the [ link](/docs/solutions#web-applications-pos) to configure a webhook. |
 | Native applications | Set `package_name` in your <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">intent call.</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | Configure a [webhook.](/docs/webhook#configure-your-webhook-endpoint.)                              |
+<br>
 
+## Soft declines
+When using [webhook notifications](https://docs.multisafepay.com/docs/webhook) or [event notifications](https://docs.multisafepay.com/docs/event-notifications), you might encounter **soft declines**. A **soft decline** occurs when an initial payment attempt is declined, requiring the customer to take further action, such as entering their PIN, often for larger amounts.
+
+With a soft decline, you first receive a notification with an order status of declined. Once the customer completes the required verification (e.g., enters their PIN), you'll receive another notification. If successful, the order status will be completed. If the payment fails, the order status will be cancelled.
 # User guide
 
 ## Cancellation

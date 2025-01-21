@@ -203,6 +203,8 @@ Check the <<glossary:order status>> in the `status` field. If necessary, update 
 - Don't have the `timestamp` parameter in the URL  
 - Have the same <<glossary:order status>> 
 
+**⚠️ Note:** When using **webhook notifications** on POS terminals, you might encounter **soft declines** when processing payments. For more information, see [Soft declines](https://docs.multisafepay.com/docs/smartpos-solutions#soft-declines) - SmartPOS solutions.
+
 ## 2. Validate the request
 
 Every `POST` notification request includes an HMAC signature that you must use to validate its authenticity. To validate the request, you can either:
