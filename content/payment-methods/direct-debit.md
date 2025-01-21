@@ -69,6 +69,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 - A specific site, go to **Sites**, and then click the relevant site.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
+**⚠️ Note:** By default, Direct Debit payments are limited to one payment per IBAN every 24 hours. This restriction affects recurring payments. To request a change to this limit, email <sales@multisafepay.com>.
+
 💬  **Support:** If the payment method isn't visible in your dashboard, email <risk@multisafepay.com>
 
 # Integration

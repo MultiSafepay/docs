@@ -98,6 +98,13 @@ If your IPEK is **not** configured, you can
 - contact us via <pos-support@multisafepay.com> 
 
 ***
+
+## Sunmi system keyboard for Manual Input
+When using **Manual Input** for the first time on the **SUNMI P2 SE** model, the default system keyboard will be displayed instead of a numeric keypad.
+
+To fix this, at the **Manual Input** screen, click the **keyboard** icon in the bottom corner and choose the language you selected during the initial device setup. This will display the numeric keypad.
+
+***
 ## Logs
 
 Retrieving logs can be a helpful step to investigate an issue. You can generate them via your Sunmi portal:
