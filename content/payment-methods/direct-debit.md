@@ -146,6 +146,8 @@ If the IBAN or BIC is incorrect, our bank informs us the next business day.
 |RR04|Regulatory reason| Contact your bank. |
 |SL01|Specific service offered by debtor agent| Contact the debtor. |
 |TM01|File received after cut-off time| |
+|CUST|Is used sporadically (known to the collector)| Contact your bank. |
+|DUPL|Is used sporadically (duplicate payment)| Contact your bank. |
 <br>
 For more information in:
 
