@@ -308,6 +308,23 @@ Use the `createOrder()` function to pass the `orderData` to your server.
 
 Create an <<glossary:order>> from your server, appending the `payment_data` collected from the payment component UI to the order data.
 
+#### Example
+
+```json
+    {
+    "type": "direct",
+    "order_id": "test_order_id",
+    "currency": "EUR",   
+    "amount": 100,    
+    "description": "Test Order Description",    
+    "payment_data": 
+        {    
+        "payload":"payment_component_method_response",
+        "gateway": "CREDITCARD",    
+        }
+    }
+```
+
 See API reference – [Create order](/reference/createorder/) > Payment component.
 
 ## Redirect the customer

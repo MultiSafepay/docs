@@ -111,7 +111,7 @@ You can no longer cancel a transaction after the status changes to **Initialized
 
 Email the customer the following payment details to include when completing the payments. 
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Multibanco.png" width="100%" align="left"/>  
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Multibanco.png" width="100%" />
 <br>
 
 ## Refunds
@@ -120,6 +120,22 @@ You can process refunds in your dashboard.
 
 The customer must provide you with their IBAN to process refunds via bank transfer.
 
+<details id="how-to-refund-an-order">
+<summary>How to refund an order</summary>
+<br>
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+3. On the **Transaction details** page, click **Refund order**.
+4. In the **Account Holder Name** field, enter the customer's full name.
+5. In the **IBAN** field, enter the customer's IBAN.
+6. In the **Reason / Description** field, enter the reason for the refund or a description of what happened with the order, and then click **Complete**.
+7. In the **Comment** field, enter any additional information.
+8. In the **Amount** fields, enter the amount to refund. 
+9. Click **Continue**.
+10. Review the **Refund confirmation**, and then click **Confirm**.
+
+</details>
 ---
 
 [block:html]

@@ -9,6 +9,10 @@ slug: 'shopify'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shopify.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
+> ℹ More information
+>
+> Discover the [new version of our Shopify payments apps](/docs/shopify-payment-apps) and streamline payment management for your Shopify store. With access to over 15 payment methods through multiple gateways, provide your customers with a secure, personalized, and versatile checkout experience. Grow your business with a solution designed to support scalability and meet the demands of a global audience.
+
 # Prerequisites
 
 You will need a [MultiSafepay account](/docs/getting-started-guide/).
@@ -80,17 +84,10 @@ For more information, see Shopify.dev – <a href="https://shopify.dev/apps/paym
 <summary>Supported payment methods</summary>
 <br>
 
-- Banking methods: 
-  - [Bancontact](/docs/bancontact/)
-  - [Bank transfer](/docs/bank-transfer/)
-  - [Belfius](/docs/belfius/)
-  - [Direct debit](/docs/direct-debit/)
-  - [EPS](/docs/eps/)
-  - [iDEAL](/docs/ideal/)
-  - [Trustly](/docs/trustly/)
-- Cards: [All](/docs/card-payments/)
-- Prepaid cards: [Paysafecard](/docs/paysafecard/), Fashioncheque
-- Wallets: [WeChat Pay](/docs/wechat-pay/)
+Once MultiSafepay is selected during the checkout, the customer is redirected to the payment page. 
+
+**All active payment methods** (except BNPL methods) are available to be selected.
+
 
 </details> 
 

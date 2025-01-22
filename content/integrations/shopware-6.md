@@ -21,8 +21,8 @@ slug: 'shopware-6'
 ## Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Shopware 6.4.11.x or higher, 6.5.x.x and 6.6.x.x <!--_(<a href="https://www.shopware.com/en/pricing" target="_blank">Starter Edition</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> supported)_-->
-- Tested on Shopware 6.4.20.2, 6.5.8.11, 6.6.3.0 and PHP 8.1–8.2
+- Shopware 6.6.x.x
+- Tested on Shopware 6.6.3.0 and PHP 8.1–8.2
 
 ## Installation and configuration
 
@@ -146,9 +146,7 @@ You cannot refund more than the original amount in your backend.
 
 ### Shipping orders
 
-For <<glossary:BNPL>> orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
-
-If you change the <<glossary:order status>> to **Delivered** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
+For <<glossary:BNPL>> orders, once shipped, the delivery status must be manually updated from **Open** to **Shipped**. This change will then automatically reflect in your MultiSafepay dashboard.
 
 ## Updates
 
