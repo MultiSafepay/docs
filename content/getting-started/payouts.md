@@ -89,14 +89,15 @@ The standard currency for automatic payouts is euros (EUR). For manual payouts, 
 <summary>Supported currencies</summary>
 <br>
 
-You can make payouts in: 
+In addition to EUR, payouts can be made in:
 
 - AUD (Australian dollar)
 - CAD (Canadian dollar)
 - CHF (Swiss franc)
+- CZK (Czech koruna)
 - DKK (Danish krone)
 - GBP (Pound Sterling)
-- HKD (Hong Kong dollar)
+- JPY (Japanese yen)
 - NOK (Norwegian krone)
 - PLN (Polish złoty)
 - SEK (Swedish krona)
