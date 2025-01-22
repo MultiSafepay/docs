@@ -1,9 +1,9 @@
 ---
-title: 'Bizum'
+title: 'Billink'
 category: 6298bd782d1cf4006032e765
-parentDoc: 62a728d48b97080046c1d220
-order: 5
-slug: 'bizum'
+parentDoc: 62bd75142e264000a66d62b5
+order: 1
+slug: 'billink'
 ---
 
 <img src="https://cdn.billink.nl/assets/lockup/svg/billink-logo-default.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
@@ -77,8 +77,6 @@ For example requests, on the [Create order](/reference/createorder/) page, in th
 </details>
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-
-- (Expiry to be added)
 
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
 
