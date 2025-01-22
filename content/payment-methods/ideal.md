@@ -56,7 +56,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer cancelled the transaction via their bank. | Void   | Void/Cancelled   |
 | iDEAL processing error. | Declined   | Declined   |
-| The customer didn't complete payment within 1.5 hours. | Expired | Expired |
+| The customer didn't complete payment within 1 hour. | Expired | Expired |
 | **Refunds:** Refund initiated. | Initialized | Initialized |
 | **Refunds:** Refund pending (banking only).  | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |
@@ -86,7 +86,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   </details>
 
-- Transactions expire after 20 minutes.
+- Transactions expire after 1 hour.
 
 ### Ready-made integrations
 - Banking is supported in most [ready-made integrations](/docs/our-integrations/), **except** ZenCart. 
