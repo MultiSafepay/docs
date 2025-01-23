@@ -13,7 +13,7 @@ See API reference to list transactions - [List transactions](/reference/listtran
 
 # Authentication
 
-To authenticate your API requests, you need to provide the correct [API key](https://docs.multisafepay.com/docs/sites#site-id-api-key-and-security-code). The type of key required depends on the request:
+To authenticate your API requests, you need to provide the correct <a href="https://docs.multisafepay.com/docs/sites#site-id-api-key-and-security-code" target="_blank">API key</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. The type of key required depends on the request:
 
 - For [Get transaction](/reference/gettransaction/) requests, use the **website API key** of the website where the transaction was made.
 - For [List transactions](/reference/listtransactions/) requests, use an **account API key** to list all transaction for an acount. Use a **website API key** to list transactions for a specific website.
