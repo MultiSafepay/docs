@@ -330,7 +330,7 @@ Then, when you're ready to go live:
 
 ## Error [OR_BIDED_11] OR_BIDED_11
 
-When creating a [payment request](#3-create-a-payment-request) , make sure to enter the correct value for `merchantId`, which you can retrieve from your [Google Pay business account](https://pay.google.com/business/console/home). Entering the wrong value will trigger **error [OR_BIDED_11] OR_BIDED_11**. This error indicates an invalid, unverified, or incorrectly configured `merchantId`, preventing Google Pay from recognizing your business as an approved merchant.
+When creating a [payment request](#3-create-a-payment-request) , make sure to enter the correct value for `merchantId`, which you can retrieve from your <a href="https://pay.google.com/business/console/home" target="_blank">Google Pay business account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. Entering the wrong value will trigger **error [OR_BIDED_11] OR_BIDED_11**. This error indicates an invalid, unverified, or incorrectly configured `merchantId`, preventing Google Pay from recognizing your business as an approved merchant.
 <br>
 
 ---
