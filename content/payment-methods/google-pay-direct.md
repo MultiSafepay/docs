@@ -326,6 +326,13 @@ Then, when you're ready to go live:
 - Set the attributes of `merchantInfo` to your business name and Google Pay merchant ID.
 <br>
 
+# Troubleshooting
+
+## Error [OR_BIDED_11] OR_BIDED_11
+
+When creating a [payment request](#3-create-a-payment-request) , make sure to enter the correct value for `merchantId`, which you can retrieve from your [Google Pay business account](https://pay.google.com/business/console/home). Entering the wrong value will trigger **error [OR_BIDED_11] OR_BIDED_11**. This error indicates an invalid, unverified, or incorrectly configured `merchantId`, preventing Google Pay from recognizing your business as an approved merchant.
+<br>
+
 ---
 
 [block:html]
