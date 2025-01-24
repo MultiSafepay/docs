@@ -18,6 +18,7 @@ hidden: false
 | Belfius                                | `BELFIUS`     |
 | Betaal per Maand                       | `SANTANDER`   |
 | Bizum                                  | `BIZUM`       |
+| Billink                                | `BILLINK`     |
 | CBC/KBC                                | `CBC` / `KBC` |
 | Card payments                          | `CREDITCARD`  |
 | Dotpay                                 | `DOTPAY`      |
