@@ -82,7 +82,7 @@ For example requests, on the [Create order](/reference/createorder/) page, in th
 
 ## Ready made solutions
 
-Billink is supported in most [ready-made integrations](https://docs.multisafepay.com/docs/our-integrations).
+Billink is supported in most <a href="https://docs.multisafepay.com/docs/our-integrations" target="_blank">ready-made integrations</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 - Exceptions:
   - Craft Commerce
