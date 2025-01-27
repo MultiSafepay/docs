@@ -33,10 +33,12 @@ MultiSafepay supports the following credit and debit cards:
 
 **⚠️ Note:** [Co-branded cards](/docs/card-payments#co-branded-cards) are processed through the VISA <<glossary:gateway>>.
 
+**⚠️ Note:** Payments made with AMEX in CHF are settled in EUR.
+
 | Supports | Details |
 |---|---|
 | [Countries](/docs/payment-methods#payment-methods-by-country)  | Amex, Maestro, Mastercard, Visa: Worldwide <br> Cartes Bancaires: France <br> Dankort: Denmark <br>Postepay: Italy <br> V Pay: Europe | 
-| [Currencies](/docs/currencies/)  | Amex: EUR, GBP, USD <br> Maestro, Mastercard, Visa: AED, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EUR, GBP, HKD, HRK, HUF, ILS, INR, ISK, JPY, KRW, MXN, MYR, NOK, NZD, PEN, PHP, PLN, RON, RUB, SEK, SGD, THB, TRY, TWD, UAH, USD, VEF, ZAR <br> To support additional currencies, email <support@multisafepay.com> | 
+| [Currencies](/docs/currencies/)  | Amex: EUR, GBP, USD, CHF <br> Maestro, Mastercard, Visa: AED, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EUR, GBP, HKD, HRK, HUF, ILS, INR, ISK, JPY, KRW, MXN, MYR, NOK, NZD, PEN, PHP, PLN, RON, RUB, SEK, SGD, THB, TRY, TWD, UAH, USD, VEF, ZAR <br> To support additional currencies, email <support@multisafepay.com> | 
 | [3D Secure 2.0](/docs/3ds2/) | Yes |
 | [Chargebacks](/docs/chargebacks/)  | Yes, **except** Postepay | 
 | [Payment components](/docs/payment-components/) | Yes |
@@ -86,6 +88,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 - A specific site, go to **Sites**, and then click the relevant site.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
+**⚠️ Note:** By default, recurring payments made with cards are limited to one transaction per IBAN every 24 hours. To request a change to this limit, email <sales@multisafepay.com>.
+
 💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
 
 # Integration
@@ -130,6 +134,12 @@ To test card payments, see Testing payment methods - [Credit and debit cards](/d
 ---
 
 # User guide
+
+## Amount limits
+
+For credit card payments, the maximum order amount will be limited to 5,000 EUR by default. To request a change to this limit, email <risk@multisafepay.com>.
+
+Occasional credit card payments that surpass the maximum limit must be justified. Email the invoice to <risk@multisafepay.com>
 
 ## Amex merchant account number
 

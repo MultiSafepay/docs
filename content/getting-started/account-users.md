@@ -18,7 +18,7 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
 | Balance hidden | Cannot view the account balance |
 | Orders manager | Create refunds <br> View all transactions <br> Generate payment links |
 | Reports manager | View all transactions and the account balance <br> Create and download reports <br> Generate payment links |
-| Sites manager | View all transactions <br> Add and edit sites and payment pages <br> Style emails <br> Resend offline actions |
+| Sites manager | View all transactions <br> Add and edit websites and payment pages <br> Add and edit terminal groups and POS terminals <br> Style emails <br> Resend offline actions |
 | Captures manager | View all transactions <br> Accept or decline uncleared transactions |
 
 # How to add and block users

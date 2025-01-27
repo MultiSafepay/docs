@@ -69,6 +69,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 - A specific site, go to **Sites**, and then click the relevant site.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
+**⚠️ Note:** By default, Direct Debit payments are limited to one payment per IBAN every 24 hours. This restriction affects recurring payments. To request a change to this limit, email <sales@multisafepay.com>.
+
 💬  **Support:** If the payment method isn't visible in your dashboard, email <risk@multisafepay.com>
 
 # Integration
@@ -144,6 +146,8 @@ If the IBAN or BIC is incorrect, our bank informs us the next business day.
 |RR04|Regulatory reason| Contact your bank. |
 |SL01|Specific service offered by debtor agent| Contact the debtor. |
 |TM01|File received after cut-off time| |
+|CUST|Is used sporadically (known to the collector)| Contact your bank. |
+|DUPL|Is used sporadically (duplicate payment)| Contact your bank. |
 <br>
 For more information in:
 
