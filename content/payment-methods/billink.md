@@ -82,7 +82,14 @@ For example requests, on the [Create order](/reference/createorder/) page, in th
 
 ## Ready made solutions
 
-The payment method will soon be available in our plugins.
+Billink is supported in most [ready-made integrations](https://docs.multisafepay.com/docs/our-integrations).
+
+- Exceptions:
+  - Craft Commerce
+  - Odoo
+  - OsCommerce
+  - Shopify
+  - Zen Cart
 
 ## Testing
 

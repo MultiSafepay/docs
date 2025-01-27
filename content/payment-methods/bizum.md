@@ -105,7 +105,13 @@ See API reference – [Create order](/reference/createorder/) > Banking order.
 
 ## Ready made solutions
 
-The payment method will soon be available in our plugins. 
+Bizum is supported in most [ready-made integrations](https://docs.multisafepay.com/docs/our-integrations).
+
+- Exceptions:
+  - Craft Commerce
+  - Odoo
+  - OsCommerce
+  - Zen Cart
 
 ## Testing
 
