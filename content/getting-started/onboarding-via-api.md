@@ -10,9 +10,9 @@ excerpt: ''
 
 Partner account holders can manage and onboard affiliated merchant accounts via our API.
 
-# Prerequisites
+# Authentication
 
-To authenticate requests, you must include a partner account API key.  
+To authenticate requests, you must include a **partner account** API key.  
 For more information, email your partner manager.
 
 # Affiliate Onboarding

@@ -7,11 +7,58 @@ slug: 'bnpl'
 --- 
 ## Europe-wide
 
-[block:html] 
-{
-  "html": "<div class=\"auto-grid\">\n    <div class=\"card-container\">\n        <a href=\"/docs/in3/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://media.multisafepay.com/img/methods/svg/ideal.svg\" style=\"margin: 10px; max-height: 30px\">\n         <div class=\"container\">\n                    <h4><b>iDEAL in3</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/klarna/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/klarna.svg\" style=\"margin: 10px; max-height: 50px\">\n                <div class=\"container\">\n                    <h4><b>Klarna</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/riverty/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/afterpay-riverty-transition-logo.svg\" style=\"margin: 10px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>Riverty</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n  <div class=\"card-container\">\n        <a href=\"/docs/zinia/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/zinia.svg\" style=\"margin: 10px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>Zinia</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    </div>"
-}
-[/block]
+<div class="auto-grid">
+  <div class="card-container">
+    <a href="/docs/billink/" style="text-decoration: none;">
+      <div>
+        <img src="https://cdn.billink.nl/assets/lockup/svg/billink-logo-default.svg" alt="billink" style="margin: 10px; max-height: 30px;">
+        <div class="container">
+          <h4>Billink</h4>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="card-container">
+    <a href="/docs/in3/" style="text-decoration: none;">
+      <div>
+        <img src="https://media.multisafepay.com/img/methods/svg/ideal.svg" alt="iDEAL in3" style="margin: 10px; max-height: 30px;">
+        <div class="container">
+          <h4>iDEAL in3</h4>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="card-container">
+    <a href="/docs/klarna/" style="text-decoration: none;">
+      <div>
+        <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/klarna.svg" alt="Klarna" style="margin: 10px; max-height: 50px;">
+        <div class="container">
+          <h4>Klarna</h4>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="card-container">
+    <a href="/docs/riverty/" style="text-decoration: none;">
+      <div>
+        <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/afterpay-riverty-transition-logo.svg" alt="Riverty" style="margin: 10px; max-height: 40px;">
+        <div class="container">
+          <h4>Riverty</h4>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div class="card-container">
+    <a href="/docs/zinia/" style="text-decoration: none;">
+      <div>
+        <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/zinia.svg" alt="Zinia" style="margin: 10px; max-height: 40px;">
+        <div class="container">
+          <h4>Zinia</h4>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
 <br>
 
 ---

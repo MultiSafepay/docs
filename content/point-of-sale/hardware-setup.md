@@ -134,9 +134,9 @@ Functionalities you can access as a partner through your Sunmi portal:
 ## Automatic installation and updates 
 
 - Sign in to partner.sunmi.com.
-- Configure the app to automatically update or choose a specific version.
+- Configure the app to automatically update or choose a specific version. Select a specific time at which you want the app to be updated.
 - Set the app to install automatically when the POS terminal connects to a network.
-- Choose the terminal models you want to apply these settings to 
+- Choose the terminal models you want to apply these settings to.
 
 ## Add your app to the Sunmi App Store
 

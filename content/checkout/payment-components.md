@@ -31,6 +31,7 @@ These are the supported payment methods:
   - [iDEAL](/docs/ideal/)
   - [MyBank](/docs/mybank/)
 - <<glossary:BNPL>>:
+  - [Billink](/docs/billink/)
   - [E-invoicing](/docs/e-invoicing/)
   - [In3](/docs/in3/)
   - [Klarna](/docs/klarna/)

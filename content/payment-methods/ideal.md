@@ -16,10 +16,10 @@ slug: 'ideal'
 > Changes:
 > 
 > - For users of our redirect solution:  
->   From **26/06/2024 on**, our **payment page** no longer displays an issuer list when iDeal is selected.  
+>   Our **payment page** no longer displays an issuer list when iDeal is selected.  
 >   Instead, the customer is redirected to the iDeal environment to select the issuer. 
 > - For users of our direct solution (via API):  
->   By **01/01/2025**, slight modifications to your payment method integration will be necessary. Further information will follow.
+>   The issuer is selected within the iDeal environment. The parameter  `issuer_id` is no longer required for requests with type  `direct`.
 
 <a href="https://www.ideal.nl/en/" target="_blank">iDEAL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is the leading payment method in the Netherlands and links all major Dutch retail banks. Customers pay via mobile banking app, [QR code](#ideal-qr), or in their own online banking environment. Once a payment is completed, the customer cannot reverse it and iDEAL guarantees <<glossary:settlement>>.
 
@@ -56,7 +56,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer cancelled the transaction via their bank. | Void   | Void/Cancelled   |
 | iDEAL processing error. | Declined   | Declined   |
-| The customer didn't complete payment within 1.5 hours. | Expired | Expired |
+| The customer didn't complete payment within 1 hour. | Expired | Expired |
 | **Refunds:** Refund initiated. | Initialized | Initialized |
 | **Refunds:** Refund pending (banking only).  | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |
@@ -86,7 +86,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   </details>
 
-- Transactions expire after 1.5 hours.
+- Transactions expire after 1 hour.
 
 ### Ready-made integrations
 - Banking is supported in most [ready-made integrations](/docs/our-integrations/), **except** ZenCart. 

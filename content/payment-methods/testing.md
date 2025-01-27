@@ -153,6 +153,8 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <summary>How to test Dotpay</summary>
 <br>
 
+**⚠️ Note:** **Direct** requests are not supported for Dotpay. 
+
 1. [Create an order](/reference/createorder/) > Banking order (Example: Dotpay redirect)
 2. On the Dotpay page, enter in the:
     - **Email address** field: Any email address
@@ -197,18 +199,16 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order (Example: iDEAL direct/redirect)
-2. For <<glossary:redirect>>, select a bank.
-3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
-4. Click **Test**.  
-    The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
+2. For <<glossary:redirect>> orders, open the payment link.
+3. On the **Test platform** page, from the **Test scenario** list, select the desired transaction scenario. Refer to the table below for details. 
+4. Click **Test**.
 
-You can also test the following scenarios:
-
-| Scenario | Description |
-| --- | --- |
-| **Declined** | The transaction was declined. |
-| **Open** **Completed** | The transaction is initiated. <br> After 1 minute, this changes to **Completed**. |
-| **Open** **Declined**  | The transaction is initiated. <br> After 1 minute, this changes to **Declined**. |
+| Scenario      | Description                                                                |
+| ------------- | -------------------------------------------------------------------------- |
+| **Success**   | The transaction is initiated. <br> Transaction will show as **Completed**. |
+| **Failure**   | The transaction is initiated. <br> Transaction will show as **Declined**.  |
+| **Cancelled** | The transaction is initiated. <br> Transaction will show as **Void**.      |
+| **Expired**   | The transaction is initiated. <br> Transaction will show as **Expired**.   |
 
 </details>
 
