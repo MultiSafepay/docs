@@ -129,7 +129,7 @@ Supported since release: 1.1.0, July 2nd 2021.
 <br>
 
 - Cards: [All](/docs/card-payments/)
-- <<glossary:BNPL>>: All
+- <<glossary:BNPL>>: All, except Billink.
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
