@@ -37,9 +37,10 @@ To unmask them, see [IBANs](/docs/ibans/).
 
 You must set a webhook endpoint, which is a URL that:
 
-- Doesn't include port numbers
-- Is publicly accessible, or has MultiSafepay on your allow list
+- Doesn't include port numbers.
+- Is publicly accessible, or has MultiSafepay on your allow list.
 - Uses HTTPS - We don't accept HTTP for security reasons.
+- Only contains a specific set of ASCII characters (alphanumeric, -, _, ., :, /).
 
 For a list of MultiSafepay IP addresses, email <integration@multisafepay.com>
 
