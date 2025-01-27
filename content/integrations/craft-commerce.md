@@ -77,8 +77,8 @@ Supported since release: 1.2.0, March 19th 2021.
 <br>
 
 - Cards: [All](/docs/card-payments/), **except** Postepay and V Pay
-- Banking methods: All
-- <<glossary:BNPL>>: All
+- Banking methods: All, except Bizum.
+- <<glossary:BNPL>>: All, except Billink.
 - Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
