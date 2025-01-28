@@ -277,7 +277,7 @@ The QR reader is able to detect the following parameters:
 2. Click the **Allow refunds** toggle.
 3. Enter your 4-digit PIN Code. 
 
-Once this feature is activated, you can process refunds. To do this:
+Once this feature is activated, you can process refunds from your terminal. To do this:
 
 1. Go to **Features** > **History**.
 2. Click the relevant transaction.
