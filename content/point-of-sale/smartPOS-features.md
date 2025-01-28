@@ -271,6 +271,21 @@ The QR reader is able to detect the following parameters:
 
 ***
 
+## How to enable refunds
+
+1. Go to **Features** > **Payment**.
+2. Click the **Allow refunds** toggle.
+3. Enter your 4-digit PIN Code. 
+
+Once this feature is activated, you can process refunds from your terminal. To do this:
+
+1. Go to **Features** > **History**.
+2. Click the relevant transaction.
+3. Click **Refund**. You can process full or partial refunds.
+4. Click **Ok** > **Confirm**.
+
+***
+
 ## How to enable ❌ cancel
 
 1. In the **Navigation** list, click the **Cancel button** toggle to the right.
