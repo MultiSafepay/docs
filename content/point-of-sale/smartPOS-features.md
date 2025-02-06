@@ -205,19 +205,16 @@ After you've enabled the **Cloud mode**, the **Navigation** list appears. This f
 
 ## How to generate closing balance
 
-At the end of a processing period, you can print an overview of total transaction amounts per payment method, and tips.  
+You can generate a **closing balance** report at the end of each processing period to review a summary of total sales, broken down by payment method and including tips.
 
-Via **Settings** > **Closing balance**, can set the following parameters:
+Via **Features** > **Closing balance**, you can set the following parameters:
 
-- Default date: today, yesterday
-- Closing start hour: if you include a start hour, the period will count 24 from the set time on  
-  Example: set 10.00 >> period is 10.00 to 09:59
-- Closing end hour
-- Filter by: Company, Terminal group, Terminal
+- **Default date**: Today, yesterday or select day
+- **Start hour**: The system will calculate 24 hours starting from the time you set. You must enter a value between 0 and 23.  
+  Example: If **Start hour** is set to 10, the period begins at 10:00 AM and ends at 09:59 AM the next day.
+- **Report level**: Company, Device group, Current device
 
-You can see the selected details displayed on screen, and in the header of the receipt.  
-
-</details>
+Click **View** to display the details entered. These details will also appear on the header of the receipt.  
 
 **💡 Tip!** You can print your closing balance report using either the device printer, or the [external printer](docs/test-page#external-printer).
 
