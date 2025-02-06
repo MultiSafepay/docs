@@ -112,7 +112,7 @@ You can adjust these limits in the <<glossary:backend>> of our [ready-made integ
 
 ## iDEAL account
 
-  To use iDEAL in3 at checkout, customers are now required to have an iDEAL account to complete the payment.
+  Customers are now required to have an iDEAL account to complete their payment when using iDEAL in3 as their payment method.
 
 ## Gift cards
 
