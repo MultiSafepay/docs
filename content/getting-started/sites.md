@@ -1,5 +1,5 @@
 ---
-title: "Sites"
+title: "Websites"
 category: 627bbcf80c1c9c0050320b60
 order: 12
 hidden: false
