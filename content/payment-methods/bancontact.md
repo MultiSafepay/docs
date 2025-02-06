@@ -73,6 +73,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   </details>
 
+  **⚠️ Note:** Bancontact doesn't support **direct** requests.
+
 - By default, transactions expire after 1 hour. 
 
 -  If `seconds_active` is set, the QR code will expire at the time specified. See recipes - <a href="https://docs.multisafepay.com/recipes/days_active-seconds_active" target="_blank">Seconds_active</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
@@ -119,6 +121,28 @@ Requests are screened and approved by Bancontact Payconiq.
 
 See [Recurring payments](/docs/recurring-payments/).
 <br>
+
+
+## Deferred Sales
+
+Our Deferred Sales functionality allows you to  [manually capture](/docs/manual-capture) Bancontact transactions. 
+
+### How it works
+
+**Full capture** can be useful when a customer places an order but you are unable to ship it right away, or when you need to verify customer details before approving an order. An authorization is created for the full amount of the transaction. The funds are settled when you ship the order.
+
+**Partial capture** can be useful when a customer places an order for multiple items but you can't ship them all at once, only in separate shipments. An authorization is created for the full amount of the transaction, and the amount for each shipment is settled when you send it.
+
+You can perform 1 partial capture. The remaining amount will be released by the issuer automatically.
+
+### Activation
+
+1. You sign an agreement with Bancontact. 
+2. Bancontact evaluates your requests, and enables the service. 
+3. Bancontact defines **maximum amounts** and **expiry times** for authorizations. 
+
+For a complete user guide, see  [Manual Capture](/docs/manual-capture).
+
 
 ---
 

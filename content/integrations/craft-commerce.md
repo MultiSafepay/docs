@@ -1,7 +1,7 @@
 ---
 title: "Craft Commerce"
 category: 62962dd7e272a6002ebbbbc5
-order: 0
+order: 2
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -77,8 +77,8 @@ Supported since release: 1.2.0, March 19th 2021.
 <br>
 
 - Cards: [All](/docs/card-payments/), **except** Postepay and V Pay
-- Banking methods: All
-- <<glossary:BNPL>>: All
+- Banking methods: All, except Bizum.
+- <<glossary:BNPL>>: All, except Billink.
 - Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card

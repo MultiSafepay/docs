@@ -1,7 +1,7 @@
 ---
 title: "PrestaShop 1.6"
 category: 62962dd7e272a6002ebbbbc5
-order: 10
+order: 13
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -11,7 +11,7 @@ slug: 'prestashop-1-6'
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-1.6/releases/download/3.12.0/Plugin_PrestaShop_1_6_3.12.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-1.6/releases/download/3.14.0/Plugin_PrestaShop_1_6_3.14.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/prestashop-1.6" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
@@ -27,16 +27,16 @@ slug: 'prestashop-1-6'
 
 - [MultiSafepay account](/docs/getting-started-guide/)
 - PrestaShop 1.6
-- Tested on PHP 7.0
+- Tested on PHP 5.6
 
 # Installation and configuration
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the PrestaShop 1.6 installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the PrestaShop 1.6 installation procedure. Always make a backup.
 
 1. Unpack the contents of the .zip archive and upload the **Modules** folder via SFTP to the PrestaShop root directory, merging the two folders.
 2. Sign in to your PrestaShop 1.6 <<glossary:backend>>.
 3. Go to **Modules and services** > **Payments and gateways**.  
-    **Note:** You must install and configure the MultiSafepay Core Module (MultiSafepay) because all payment methods require certain settings and/or the API key in the core module.
+    **⚠️ Note:** You must install and configure the MultiSafepay Core Module (MultiSafepay) because all payment methods require certain settings and/or the API key in the core module.
 4. In the next screen, proceed with the installation.
 5. Enter your [API key](/docs/sites#site-id-api-key-and-security-code), and then click **Save**.
 6. On the **Payments** tab, enable the relevant payment methods.
@@ -208,7 +208,7 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 <summary>How to update via SFTP</summary>
 <br>
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

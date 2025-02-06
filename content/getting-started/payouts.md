@@ -1,7 +1,7 @@
 ---
 title: "Payouts"
 category: 627bbcf80c1c9c0050320b60
-order: 10
+order: 11
 hidden: false
 parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'payouts'
@@ -30,7 +30,7 @@ To add additional bank accounts to your account (once fully onboarded), follow t
 7. To verify the account, on the **Business bank account** page either:
     - Make a payment of 1 EUR from the business bank account via iDEAL or a bank transfer to your account balance, **or**
     - Upload a copy of a bank statement. Select the file, and then click **Upload**.
-    **Note:** The company name on the bank statement must exactly match one of the trade names on your Chamber of Commerce extract.
+    **⚠️ Note:** The company name on the bank statement must exactly match one of the trade names on your Chamber of Commerce extract.
 
 MultiSafepay verifies the bank account within 5 business days. We **only** accept business bank accounts (no private bank accounts) that are registered to your official company name. 
 
@@ -61,7 +61,7 @@ You can schedule automated payouts on specific day, or make them manually.
     - If you want to specify a minimum amount to retain in your balance, in the **Set reserve balance** fields, enter an amount.
 4. Click **Schedule payouts**.
 
-✅ &nbsp; **Tip!** 
+&nbsp; **💡 Tip!** 
 To schedule payouts for different currencies, you must have a account balance and an active business bank account for each currency.
 For automated payouts, a report to view all transactions between two payouts will be available. For more information, see [payout report](/docs/reports#payout-report)
 
@@ -89,14 +89,15 @@ The standard currency for automatic payouts is euros (EUR). For manual payouts, 
 <summary>Supported currencies</summary>
 <br>
 
-You can make payouts in: 
+In addition to EUR, payouts can be made in:
 
 - AUD (Australian dollar)
 - CAD (Canadian dollar)
 - CHF (Swiss franc)
+- CZK (Czech koruna)
 - DKK (Danish krone)
 - GBP (Pound Sterling)
-- HKD (Hong Kong dollar)
+- JPY (Japanese yen)
 - NOK (Norwegian krone)
 - PLN (Polish złoty)
 - SEK (Swedish krona)

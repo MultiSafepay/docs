@@ -38,7 +38,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 | Description | Order status | Transaction status |
 |---|---|---|
-| Riverty has authorized the transaction and the funds are awaiting capture. You can still cancel. <br> ❗️ **Note:** To capture the funds, when you ship the order you must manually [change the order status to Shipped](#shipment). | Completed  | Uncleared  |
+| Riverty has authorized the transaction and the funds are awaiting capture. You can still cancel. <br> **⚠️ Note:** To capture the funds, when you ship the order you must manually [change the order status to Shipped](#shipment). | Completed  | Uncleared  |
 | The funds are captured. <br> You can no longer cancel. You can only refund. | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped | Completed |
 | Riverty has declined the transaction. <br> Only the customer can contact Riverty to find out why (for privacy and compliance reasons).  | Declined | Declined |
@@ -49,7 +49,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-To activate Riverty for your account, email Riverty at <sales@riverty.nl>  
+To activate Riverty for your account, email Riverty at <sales@riverty.com>  
 
 Riverty provides you with an API key per country and per site, and you must accept Riverty's terms and conditions for each. 
 
@@ -89,7 +89,7 @@ Riverty is supported in many of our ready-made integrations.
 - [Magento 1](/docs/magento-1/) & [Magento 2](/docs/magento-2/)
 - [Odoo](/docs/odoo/)
 - [OpenCart](/docs/opencart/)
-- [PrestaShop 1.6 and 1.7](/docs/prestashop-1-7/)
+- [PrestaShop](/docs/prestashop/)
 - [Shopware 5 and 6](/docs/shopware/)
 - [WooCommerce](/docs/woocommerce/)
 - [X-Cart](/docs/x-cart/)
@@ -154,9 +154,14 @@ If you change the order status in your <<glossary:backend>>, the following [read
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
-❗️ **Note:** Some third-party plugins may not support updating the status via our API.
+**⚠️ Note:** Some third-party plugins may not support updating the status via our API.
 
 </details>
+
+## Strong customer authentication 
+
+In some cases, the customer is redirected to an authentication page. 
+The criteria for when this is triggered are controlled by Riverty.
 
 ## Surcharges  
 Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to <<glossary:BNPL>> methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  

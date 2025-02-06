@@ -118,7 +118,7 @@ The customer is automatically redirected to the **Register** screen:
 7. Under **Embedded binaries**,click **+**.
 8. Select **FastCheckoutKit.xcframework**.
 
-> ✅ Success
+> **✅ Success!**
 > You can now start using the FastCheckoutKit SDK in your app.
 
 # How to integrate
@@ -145,7 +145,7 @@ manager.startCheckout(transactionId: "ID", host: self, onCompletion: { status, e
 })
 ```
 
-> ✅ Success
+> **✅ Success!**
 > You can now initiate a checkout and retrieve the <<glossary:transaction status>>.
 
 # Example

@@ -1,7 +1,7 @@
 ---
 title: 'Manual Capture'
 category: 6298bd782d1cf4006032e765
-order: 31
+order: 6
 hidden: false
 parentDoc: 62a727569e389a012f577acd
 slug: 'manual-capture'
@@ -20,15 +20,19 @@ To activate Manual Capture for your MultiSafepay account, email <sales@multisafe
 
 # Integration
 
-Manual Capture is not supported in our [ready-made integrations](/docs/our-integrations/) by default, but you can customize it via our API.
+Manual Capture is supported for our [Magento 2](/docs/magento-2) integration.
+
+To activate it in other [ready-made integrations](/docs/our-integrations/), you can customize it via our API.
 
 See Recipes:
 - <a href="https://docs.multisafepay.com/recipes/manual-capture-initial-payment/" target="_blank">Manual capture: Initial payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - <a href="https://docs.multisafepay.com/recipes/manual-capture-capture-payment/" target="_blank">Manual capture: Capture payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://docs.multisafepay.com/recipes/manual-capture-cancel-reservation/" target="_blank">Manual capture: Cancel reservation</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 See API reference:
 - [Create order](/reference/createorder/) > Set `manual` to `capture`.
 - [Capture payment](/reference/capturepayment/)
+- [Cancel authorized payment](/reference/cancelauthorizedorder)
 
 <br>
 
@@ -48,6 +52,27 @@ After expiration, the <<glossary:issuer>> can cancel the authorization.
 - Maestro 
 - Mastercard 
 - Visa
+
+## Cancellation
+
+You can cancel a reservation created via manual capture. For partial captures, the cancellation will apply to the remaining amount. 
+
+<details id="cancel-authorization">
+<summary>How to cancel an authorized transaction</summary><br>
+
+**Via API**: 
+
+- See API reference - <a href="https://docs.multisafepay.com/reference/cancelauthorizedorder" target="_blank">Cancel authorized payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
+
+**Via dashboard**:
+
+- Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- Go to **Transactions** > **Transaction overview**, and then select the relevant transaction.
+- On the **Transaction summary** page, in **Order Summary**, click **Cancel Reservation**.
+- Add a description of what happened with the order, and then click **Complete**.  
+  The <<glossary:order status>> changes to **Void** and the <<glossary:transaction status>> to **Void**.
+
+</details>
 
 ## Statuses
 

@@ -1,7 +1,7 @@
 ---
 title: "Card payment errors"
 category: 6298bd782d1cf4006032e765
-order: 26
+order: 1
 hidden: false
 parentDoc: 62a727569e389a012f577acd
 slug: "card-payment-errors"
@@ -58,6 +58,8 @@ If the issue can't be resolved, ask the cardholder for another card number or to
 | **Invalid merchant or service provider** | The issuer restricts the merchant or service provider.| **Cardholder:** Contact the issuer.|
 | **Pick up the card** | The transaction was declined because the cardholder's account was closed or blocked.|  **Cardholder:**  Contact the issuer to complete the transaction |
 |  **Pick up the card, special conditions** | The issuer wants to check the transaction.| **Cardholder:** Contact the issuer to complete the transaction |
+| **Cardholder not enrolled in service** | The cardholder is not enrolled in 3DS service. | **Cardholder**:  Contact the issuer. <br> **Merchant**: card not enrolled in 3DS service. Not possible to authenticate |
+| **Transaction timed out (ACS)** | The transaction expired in the authentication stage | **Cardholder**: In next transaction, complete authentication |
 | **Invalid merchant or service provider** | The merchant or service provider is restricted by the issuer.| **Cardholder:** Contact the issuer. |
 |  **Invalid transaction** | The transaction is invalid. |**Cardholder:** Check the payment method type and payment details <br>**Merchant:** Do not reattempt. The issuer will never approve.|
 | **Invalid amount** | The payment amount exceeds issuer policies or regulatory limits.| **Cardholder:** Contact your bank. |

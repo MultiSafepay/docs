@@ -1,7 +1,7 @@
 ---
 title: "Payment methods"
 category: 627bbcf80c1c9c0050320b60
-order: 9
+order: 10
 hidden: false
 parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'payment-methods'
@@ -28,11 +28,19 @@ Some payment methods, especially Banking methods, can be activated directly via 
 2. To activate the payment method for:
 - All sites, go to **Settings** > **Payment methods**.
 - A specific site, go to **Sites**, and then click the relevant site.
+This overwrites your global selection. Only the payment methods selected for the site will then be available.
 3. Select the checkbox for the payment method, and then click **Save changes**.
+
+**💡 Tip**: if you do not set site-specific methods, the global configuration will be applied.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email [support@multisafepay.com](mailto:support@multisafepay.com)
 
-For instructions to activate additional payment methods, see the respective pages.
+<details id="how-to-activate-additional-payment-methods">
+<summary> How to activate optional payment methods</summary>
+<br>
+For instructions to activate additional payment methods, see the respective pages and follow individual activation steps.
+\
+
 
 </details>
 <br>

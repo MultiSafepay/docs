@@ -1,7 +1,7 @@
 ---
 title: "Odoo"
 category: 62962dd7e272a6002ebbbbc5
-order: 6
+order: 7
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -28,7 +28,7 @@ slug: 'odoo'
 
 # Installation
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the Odoo installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the Odoo installation procedure. Always make a backup.
 
 1. Download the ZIP archive with module.
 2. Unpack the content of the .ZIP file.
@@ -129,7 +129,7 @@ Supported since release: 1.1.0, July 2nd 2021.
 <br>
 
 - Cards: [All](/docs/card-payments/)
-- <<glossary:BNPL>>: All
+- <<glossary:BNPL>>: All, except Billink.
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
@@ -171,7 +171,7 @@ For <<glossary:BNPL>> orders, the refund request must include a `shopping_cart` 
 - The `item_quantity` must not be more than `quantity` in the original order.
 - The `item_price` must be equal to the `unit_price` in the original order.
 
-❗️ **Note:** You cannot refund BNPL orders if a gift card or promo code was used for the original order.
+**⚠️ Note:** You cannot refund BNPL orders if a gift card or promo code was used for the original order.
 
 </details>
 

@@ -1,7 +1,7 @@
 ---
 title: "Zen Cart"
 category: 62962dd7e272a6002ebbbbc5
-order: 22
+order: 24
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -27,7 +27,7 @@ slug: 'zen-cart'
 
 # Installation and configuration
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the Zen Cart installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the Zen Cart installation procedure. Always make a backup.
 
 1. In the root of your webshop, unpack the content of the .ZIP file.
 2. Sign in to your Zen Cart <<glossary:backend>>.
@@ -50,8 +50,8 @@ slug: 'zen-cart'
 <br>
 
 - Cards: [All](/docs/card-payments/)
-- Banking methods: All, except iDEAL QR and TrustPay
-- <<glossary:BNPL>>: All, except in3
+- Banking methods: All, except iDEAL QR, TrustPay, and Bizum.
+- <<glossary:BNPL>>: All, except in3 and Billink.
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
@@ -87,7 +87,7 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 <summary>How to update via SFTP</summary>
 <br>
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

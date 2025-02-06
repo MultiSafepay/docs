@@ -6,12 +6,14 @@ hidden: false
 slug: 'success-pages'
 ---
 
-After completing payment, MultiSafepay redirects the customer to a success (or thank you) page. 
+After completing payment process, MultiSafepay redirects the customer to a success ("thank you") page, or to the next confirmation step where necessary. 
 
 If `payment_options.redirect_url` in your [create order](/reference/createorder) request is:
 
-- Set to your success page URL, we redirect the customer there
-- **Not** set, we redirect the customer to a MultiSafepay success page
+- Set to your success page URL, we redirect the customer there (or to the next step in the process)
+- **Not** set, we redirect the customer to a MultiSafepay success page (or to the next step in the process)
+
+**⚠️ Note:** redirection to the success page should not be taken as a guarantor of completed payment; To check the status of a payment, you can rely on the notification. 
 
 #### Example
 

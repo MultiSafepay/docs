@@ -9,14 +9,18 @@ slug: 'smartpos-activation'
 
 > ⚠️ Note:
 > 
-> We are currently in the pilot phase for this product in the following countries:
+> We currently offer this product in the following countries:
 > 
 > - Netherlands
+> - Belgium 
 > 
-> Please note that in this stage, you cannot request terminals yet to use POS services.  
-> If you are interested in participating in the next stage of our pilot, email <sales@multisafepay.com>
+> As a partner, you can further connect accounts registered in the following countries:
 >
-
+> - Italy 
+> - Spain
+>
+> If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
+>
 SmartPOS is an advanced <<glossary:POS>> terminal with Android applications, providing added functionality.  It enables you to make payments through various options, such as manual input flow, cloud POS payment, or third-party on-device applications.
 
 # Prerequisites
@@ -31,14 +35,26 @@ To process payments, you will need:
 To activate a SmartPOS terminal, follow these steps:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 2. Go to **Devices** > **Terminals**.
-3. Click **Add SmartPOS**.
-4. Below the **<<glossary:group>> name**, click **Add new group**.
+
+3. Click **Add terminal**.
+
+4. Below the **<<glossary:group>> name**, click **Add new group**, or select a previously created group.
+
 5. Fill out the following fields:
-- **New group name**.  
-- **Terminal name**.
-- In the **MCC** field, click the **drop-down** icon and select the relevant MCC code.
-6. Click **Get code**.<br> A dialog with a QR code appears.
+
+   - **New group name**.  
+   - <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">**Webhook URL** </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>(optional).
+   - In the **Business category** field, click the **drop-down** icon and specify the relevant service or product offered. If a category has been assigned to your account in the past, it will be displayed automatically. 
+   - **Logo**: Select an image you want to display in different places of your payment app, to show customized branding. To upload your logo, see [How to upload logos](#how-to-upload-logos).  
+     The logo is added to all terminals of this group and will show in the background of your terminal.
+
+   **⚠️Note**: Individual terminals within a group cannot have different images.
+
+6. Select Terminal type **SmartPOS**.
+7. Click **Create**.
+
 
 Install the MultiSafepay payment app on your terminal to scan the QR code. 
 
@@ -52,18 +68,31 @@ Install the MultiSafepay payment app on your terminal to scan the QR code.
 
 ✅ Success! You have successfully activated your terminal. You can now start accepting payments.
 
-**Note:**  You can edit and link various terminals if you have already created a group.
+**⚠️ Note:**  You can edit and link various terminals if you have already created a group.
 
-<details id="group"><summary>How to edit a group</summary>
+## How to upload your logo
+
+1. Go to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Settings** > **Files** and upload the desired image file. The file must meet the following requirements:
+   - Format: **PNG**
+   - Resolution: **512x512 pixels**
+
+   You can upload multiple files at the same time.
+3. Click **Upload** for single files or **Upload all** to upload all files.
+
+## How to edit a group
 
 1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Devices** > **Terminals**.
 3. Click **Manage groups**.
-4. To edit an existing group:
-- Click the ** edit** icon next to the group name.
-- Fill in the **name** field.
-5. In the **<<glossary:MCC>>** field, click the **dropdown** icon and select the relevant MCC code.
-6. Click **Create**.
+4. Click the **edit** icon on the right side of the panel to edit the desired terminal group. Here, you can:
+   - Change the **name** of the terminal group.
+   - Change the logo by selecting a different image file.
+   - Change the **webhook URL**.
+5. Click the **save** icon.
+
+**💡 Tip!** You can view your API key via **Manage groups** > **API key**. 
+
 
 ---
 </details>

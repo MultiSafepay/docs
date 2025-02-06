@@ -34,7 +34,7 @@ MultiSafepay = {
     }
 }
 ```
-📘 **Note:** The `containerId` uses `multisafepayContainer` as an example class name. You can enter your own container name. 
+**⚠️ Note:** The `containerId` uses `multisafepayContainer` as an example class name. You can enter your own container name. 
 
 4. Add the ConnectJS library:
 ```

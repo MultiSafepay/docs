@@ -85,6 +85,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 - We don’t support all open-loop gift cards in our [ready-made integrations](/docs/our-integrations/) and no closed-loop gift cards. Therefore in some integrations, we use generic gateways to support [custom gift cards](#custom-gift-cards). 
 - To check if a specific gift card is supported in your ready-made integration, email the Integration Team at <integration@multisafepay.com> 
 
+
 ### Testing
 To test gift card payments, see Testing payment methods - [Prepaid cards](/docs/testing#prepaid-cards).
 <br>
@@ -148,6 +149,14 @@ Contact MultiSafepay to develop your own custom gift card!
 VVV Cadeaukaart cards can sometimes throw an error where the credit balance appears to be 0, but is then restored within 24 hours (potentially affected by weekends and holidays). This appears to be due to temporary failures in the card issuer's system. 
 
 If a customer completes a payment and receives this error message, advise them to wait for 1 hour for a confirmation email before trying again to avoid placing two orders.
+
+## Refunds
+
+Transactions paid partially by a gift card, and partially by a payment method follow the below rules:
+
+1. Refund amounts lower than 5 EUR are always refunded to the payment method.
+2. Refund priority is: payment method first, rest of amount refunded to the coupon
+
 
 ## Webshop Giftcard
 

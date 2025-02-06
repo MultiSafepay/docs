@@ -3,7 +3,6 @@ title: 'Chargebacks'
 category: 6278c92bf4ad4a00361431b0
 order: 0
 hidden: false
-parentDoc: 62a727569e389a012f577acd
 slug: 'chargebacks'
 ---
 
@@ -58,7 +57,7 @@ You need to upload relevant documentary evidence:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings** > **Files**.
-3. Under **Upload a new file**, click **Choose file**.<br> **Note:** You must upload files in PDF format.
+3. Under **Upload a new file**, click **Choose file**.<br> **⚠️ Note:** You must upload files in PDF format.
 4. Select the relevant file(s), and then click **Open**.
 5. Under **Upload queue**, to upload:
    - A specific file, click **Upload**.

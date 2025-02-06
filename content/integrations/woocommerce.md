@@ -1,7 +1,7 @@
 ---
 title: "WooCommerce"
 category: 62962dd7e272a6002ebbbbc5
-order: 20
+order: 22
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -27,7 +27,7 @@ slug: 'woocommerce'
 
 # Installation
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the WooCommerce installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the WooCommerce installation procedure. Always make a backup.
 
 There are two ways to install the plugin:
 
@@ -134,8 +134,8 @@ First, read the following:
 Example of how to implement and overwrite the shopping cart: 
 
 ``` javascript
-add_filter('multisafepay_order_request', 'return_my_multisafepay_order_request');
-function return_my_own_locale( \MultiSafepay\Api\Transactions\OrderRequest $order_request) {
+add_filter( 'multisafepay_order_request', 'return_my_multisafepay_order_request' );
+function return_my_multisafepay_order_request( \MultiSafepay\Api\Transactions\OrderRequest $order_request ) {
     // Your conditions and logic to return a valid order request
     // Register a CartItem
     $shopping_cart_items = array();
@@ -186,7 +186,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 
 💬 Support: If you're new to accepting card payments, email a request to activate them to <risk@multisafepay.com>
 
-📘 **Note:** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+**⚠️ Note:*** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
 
 </details>
 
@@ -216,6 +216,7 @@ By default, activated payment methods from your MultiSafepay account appear on t
 <br>
 
 - Cards: [All](/docs/card-payments/) (The card number field automatically detects the type of card (e.g. Visa) as the customer enters their card number.)
+**💡 Tip!** In your settings, you can enable the function "group Credit cards" to show cards as a single payment method.
 - Banking methods: All, except TrustPay
 - <<glossary:BNPL>>: All
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [Google Pay](/docs/google-pay/), [PayPal](/docs/paypal/)
@@ -258,7 +259,7 @@ You need to [activate recurring payments](/docs/recurring-payments/) and then en
 5. In the **Recurring payments** filed, select **Enabled**.
 6. Click **Save changes**.
 
-📘 **Note:** To activate recurring payments, ensure that the Payment component is enabled.
+**⚠️ Note:** To activate recurring payments, ensure that the Payment component is enabled.
 
 </details>
 
@@ -271,6 +272,15 @@ You can process [Full and partial refunds](/docs/refund-payments/) for all payme
 For <<glossary:BNPL>> orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
 If you change the <<glossary:order status>> to **Shipped** in your backend, the updated status is passed to your MultiSafepay dashboard automatically.
+
+## Checkouts
+
+The plugin supports the WooCommerce checkout and is compatible with most premium themes, unless you have a custom checkout.
+
+### WooCommerce Checkout Blocks
+
+You can use the Checkout Blocks for WooCommerce to customize your checkout. 
+**⚠️ Note:** Only redirect payment methods are supported with this checkout at the moment.
 
 ## Surcharges
 
@@ -292,6 +302,23 @@ The Integration Team will do their best to help you install third-party packages
 
 </details>
 
+## Troubleshooting
+
+### Redirect URL not leading to thank you page 
+
+- possible reasons
+
+WC_Order::get_checkout_order_received_url() =>  
+<https://woocommerce.github.io/code-reference/classes/WC-Order.html#method_get_checkout_order_received_url>  
+does not return correct URL, which can be caused by a third party plugin making use of the "woocommerce_get_checkout_order_received_url" filter and returning a wrong value
+
+- possible solutions
+
+Use the filter "woocommerce_get_checkout_order_received_url", provided by WooCommerce, and re-format into the correct value.
+
+ <a href="https://woocommerce.github.io/code-reference/files/woocommerce-includes-class-wc-order.html#source-view.1777" target="_blank">WooCommerce code reference</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  
+<a href="https://developer.wordpress.org/reference/functions/add_filter/" target="_blank">WooCommerce add filter</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+
 ## Updates
 
 You can update the plugin in your backend and the CMS marketplace, or via SFTP.
@@ -300,7 +327,7 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 <summary>How to update in your backend</summary>
 <br>
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

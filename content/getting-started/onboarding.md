@@ -34,7 +34,7 @@ MultiSafepay pre-screens your account to check if the products/services you sell
 
 We may ask you to provide additional documents, e.g. if you have an unusual company structure.
 
-❗️ **Note:** Requests to process cards may be denied, e.g. if you sell [prohibited products or services](/docs/prohibited-products-services/).
+**⚠️ Note:** Requests to process cards may be denied, e.g. if you sell [prohibited products or services](/docs/prohibited-products-services/).
 
 # 3. Validate bank account
 
@@ -106,7 +106,6 @@ It was based on the Disclosure of Unusual Transactions or Financial Services Act
 4. Select the UBO form, and then click **Open**.
 5. Upload color copies of the identity documents of all UBOs.
 
-✅ &nbsp; **Tip!** We recommend using the <a href="https://www.rijksoverheid.nl/onderwerpen/identiteitsfraude/vraag-en-antwoord/veilige-kopie-identiteitsbewijs" target="_blank">KopieID app</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> to hide personal information on passports or IDs.
 </details>
 
 # 5. Display required information

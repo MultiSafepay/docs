@@ -1,7 +1,7 @@
 ---
 title: "VirtueMart 4"
 category: 62962dd7e272a6002ebbbbc5
-order: 18
+order: 19
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -11,7 +11,7 @@ slug: 'virtuemart-4'
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/virtuemart-4/releases/download/2.0.1/Plugin_VirtueMart-4_2.0.1.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/virtuemart-4/releases/download/2.0.2/Plugin_VirtueMart-4_2.0.2.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/virtuemart-4" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
@@ -27,7 +27,7 @@ slug: 'virtuemart-4'
 
 # Installation
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the VirtueMart installation procedure. Always make a backup.
 
 1. Sign in to your VirtueMart <<glossary:backend>>.
 2. Go to **System** > **Install** > **Extensions**.
@@ -95,14 +95,14 @@ If a customer selects Apple Pay at checkout but isn't on an Apple device, they r
 
 ## Refunds
 
-[Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard.  
+[Full refunds](/docs/refund-payments/) are supported in both MultiSafepay and VirtueMart dashboards.  
 You cannot refund more than the original amount in your dashboard.
 
 ## Updates
 
 You can update the plugin in your backend as described below:
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

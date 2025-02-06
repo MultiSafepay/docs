@@ -147,6 +147,27 @@ For other support, see Easywebshop – <a href="https://www.easywebshop.com/soft
 
 ___
 
+## Gomage 
+
+<a href="https://gomage.nl/" target="_blank">Gomage</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  provides a plugin to integrate with MultiSafepay.
+
+<details id="gomage-prerequisites">
+<summary>Prerequisites</summary>
+<br>
+
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
+
+</details>
+
+<details id="gomage-support">
+<summary>Support</summary>
+<br>
+
+For support, see <a href="https://gomage.nl/contact/" target="_blank">Gomage</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+</details>
+___
+
 ## Logic4
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Logic_4.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
@@ -186,7 +207,11 @@ For any technical queries about the plugin, see Logic4 – <a href="https://www.
     - [Sofort](/docs/sofort/)
     - [Trustly](/docs/trustly/)
 - <<glossary:BNPL>>: All, **except** E-Invoicing
-- Wallets: [PayPal](/docs/paypal/)
+- Wallets:
+    - [Apple Pay](/docs/apple-pay/)
+    - [Google Pay](/docs/google-pay/)
+    - [PayPal](/docs/paypal/)
+    
 
 </details>
 
@@ -245,7 +270,75 @@ For technical support, contact LogiVert - <a href="https://www.logivert.com/nl/s
 
 To install and configure, see LogiVert – <a href="https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen" target="_blank">Manual</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the LogiVert installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the LogiVert installation procedure. Always make a backup.
+</details>
+
+___
+##Pronamic Pay
+
+<a href="<https://www.pronamicpay.com/payment-providers/multisafepay/>" target="_blank">Pronamic </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>,provides a Premium Pronamic Pay plugin to integrate MultiSafepay with multiple WordPress plugins.
+
+<details id="pronamic-prerequisites">
+<summary>Prerequisites</summary>
+<br>
+
+You will need a [MultiSafepay account](/docs/getting-started-guide/).
+
+</details>
+
+<details id="pronamic-support">
+<summary>Support</summary>
+<br>
+
+For any technical queries, see – <a href="<https://www.pronamicpay.com/support/>" target="_blank">Pronamic support</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+</details>
+
+<details id="pronamic-payment-methods">
+<summary>Supported payment methods</summary>
+<br>
+
+- Cards:[All](/docs/card-payments/)
+- Banking methods:
+  - [Bancontact](/docs/bancontact/)
+  - [Bank transfer](/docs/bank-transfer/)
+  - [Belfius](/docs/belfius/)
+  - [iDEAL](/docs/ideal/)
+  - [KBC](/docs/kbc/)
+  - [Direct Debit](/docs/direct-debit/)
+  - [Giropay](/docs/giropay/)
+  - [Sofort](/docs/sofort/)
+- BNPL: 
+  - [in3](//docs/in3)    
+- Wallets: 
+  - [Alipay +](/docs/alipay-plus/)
+  - [Apple](/docs/apple-pay/)
+  - [Google](/docs/google-pay/)
+  - [PayPal](/docs/paypal/)
+
+</details>
+
+<details id="pronamic-plugins">
+<summary>Supported plugins</summary>
+
+- Gravity Forms
+- Contact Form 7
+- Ninja Forms
+- Formidable Forms
+- WooCommerce
+- Easy Digital Downloads
+- Restrict Content Pro
+- MemberPress
+- Charitable
+- Give
+
+</details>
+
+<details id="pronamic-installation">
+<summary>Installation and configuration</summary>
+<br>
+
+To install and configure the plugin, see Pronamic Pay – <a href="<https://www.pronamicpay.com/nl/handleidingen/hoe-je-multisafepay-aan-wordpress-koppelt-met-pronamic-pay/>" target="_blank">Installation guide</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 </details>
 
 ___

@@ -64,7 +64,7 @@ To integrate, see Recipes – <a href="https://docs.multisafepay.com/recipes/sen
 
 To set the language of Second Chance emails, see [Email styling](/docs/email-styling/) > Step 6.
 
-❗️ **Note:** The language set in the dashboard is overridden by the `locale` parameter in the `customer` object in [create order](/reference/createorder/) API requests.
+**⚠️ Note:** The language set in the dashboard is overridden by the `locale` parameter in the `customer` object in [create order](/reference/createorder/) API requests.
 
 <details id="locale-codes">
 <summary>Locale codes per language and country</summary>
@@ -137,7 +137,7 @@ Payment links in Second Chance emails have the same lifetime as the original pay
 
 To set or adjust the lifetime of a payment link, see API reference – [Create order](/reference/createorder/): `days_active` parameter.
 
-📘 **Note:** This is different to [transaction expiration times per payment method](/reference/transaction-expiration/). 
+**⚠️ Note:** This is different to [transaction expiration times per payment method](/reference/transaction-expiration/). 
 
 This only applies to certain payment methods:
 

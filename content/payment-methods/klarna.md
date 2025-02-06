@@ -40,9 +40,9 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 |---|---|---|
 | The customer has been redirected to Klarna. You can still cancel with Klarna using the reservation number. | Initialized   | Initialized  |
 | Klarna has authorized the transaction and the funds are awaiting capture. You can no longer cancel; you can only refund. | Completed  | Uncleared  |
-| ❗️ **Note:** To capture the funds, [manually change the order status to Shipped](#shipment). | Shipped | Uncleared |
+| **⚠️ Note:** To capture the funds, [manually change the order status to Shipped](#shipment). | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped    | Completed  |
-| The transaction expired after 1 hour or you didn't [change the order status to shipped](#shipment) within 28 days. <br> See [Expired orders](#expired-orders).  | Expired    | Expired    |
+| The transaction expired after 1 day or you didn't [change the order status to shipped](#shipment) within 28 days. <br> See [Expired orders](#expired-orders).  | Expired    | Expired    |
 | Klarna authorized the transaction, but either you or the customer cancelled it before capture. | Void   | Void |
 | Klarna declined the transaction. <br> Only the customer can contact Klarna to find out why (for privacy and compliance reasons). <br> For merchant support, email <klarna@multisafepay.com> | Declined | Declined |
 | **Refunds:** Refund initiated. | Initialized | Completed |
@@ -50,36 +50,36 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 # Activation 
 
-How to activate Klarna with a Klarna:
+How to activate Klarna for your MultiSafepay account:
 
 <details id="test-account"> 
 <summary>Test account</summary>
 <br>
 
-1. At <a href="https://www.klarna.com/nl/" target="_blank">Klarna.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, sign up for a test account, selecting the **Playground** environment. 
-2. Under **Settings**, click **Generate new Klarna API credentials** to generate a user name and password.
-3. Email these credentials to <sales@multisafepay.com> 
-4. MultiSafepay connects to Klarna. 
+1. Go to <a href="https://docs.klarna.com/resources/developer-tools/testing-payments/before-you-test/#accessing-the-test-merchant-portal" target="_blank">Klarna</a><i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and click **Log in**.
+2. Click **Select environment** > **Playground** to create a test account. Click **Sign Up**.
+3. Follow the intructions to complete the registration process.
+4. In the Klarna main panel, go to **Settings** and click **Generate new Klarna API credentials** to generate a test username and password.
+5. Email these credentials to <support@multisafepay.com>.
+6. We will activate your Klarna test account for your MultiSafepay test account.
 
-We recommend testing Klarna payments via the Klarna Portal to experience the full functionality. You can also test from your **test** MultiSafepay dashboard with more limited functionality.
+You can test Klarna payments via the Klarna Portal on your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 </details>
-
 <details id="live-account"> 
 <summary>Live account</summary>
 <br>
 
-1. Sign up for a live Klarna account:
-    - Via the Klarna website, selecting the **Production** environment, **or**  
-    - Email your Klarna account manager or <verkoop@klarna.com>
-2. Specify MultiSafepay as your payment service provider and the countries you want to activate Klarna for.
-3. Sign an agreement with Klarna, including pricing.
-4. We activate Klarna for your MultiSafepay account. 
-5. If using a ready-made integration, activate Klarna in your <<glossary:backend>>.
+1. To sign up for a live Klarna account, email your Klarna account manager or <distribution.partner.leads@klarna.com>.
+2. In your email, include the following details:
+   - MultiSafepay as your payment service provider.
+   - The websites and countries for which you want to activate Klarna.
+3. Sign an agreement with Klarna. This agreement includes the pricing details.
+4. We will activate Klarna for your MultiSafepay account. 
+5. If you are using a ready-made integration, activate Klarna in your <<glossary:backend>>.
 
 For questions, see Klarna – <a href="https://www.klarna.com/nl/klantenservice" target="_blank">Klantenservice</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-For support, email <integration@multisafepay.com>
 </details>
 
 # Integration
@@ -98,7 +98,7 @@ For support, email <integration@multisafepay.com>
   </details>
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes –  <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-- Transactions expire after 1 hour.
+- Transactions expire after 1 day.
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
 
 ### Ready-made integrations
@@ -203,7 +203,7 @@ If your link has expired or you haven't received an email, email <support@multis
 4. Enter your first and last names, and then click **Update profile**.
 5. To sign in for the first time, enter your email address and the password you just created, and then click **Log in**.
 
-❗️ **Note:** If viewing orders in the portal, you must still manually change the order status to Shipped to trigger the invoicing process and receive payment.
+**⚠️ Note:** If viewing orders in the portal, you must still manually change the order status to Shipped to trigger the invoicing process and receive payment.
 
 </details>
 
@@ -282,6 +282,16 @@ For every transaction, Klarna generates two reference numbers:
 
 Both reference numbers appear in the **Transaction details** page in your dashboard.
 
+## Refunds
+
+To refund a Klarna transaction, follow these steps:
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Navigate to **Transactions / Transactions Overview** and find the transaction you want to refund, or search for the transaction you want to refund by using the search bar.
+3. Click on the transaction to go to the transaction details page.
+4. On the right side of the page are the order details and a blue Refund button.
+5. In this section you can remove order lines or refund the complete order.
+
 ## Shipment
 
 ### Change the order status
@@ -313,7 +323,7 @@ If you change the order status in your backend, the following [ready-made integr
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
-❗️ **Note:** Some third-party plugins may not support updating the status via our API.
+**⚠️ Note:** Some third-party plugins may not support updating the status via our API.
 
 </details>
 

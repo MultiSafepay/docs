@@ -105,7 +105,11 @@ Payment pages support the following languages:
 
 You can also localize payment pages to automatically filter out payment methods that are not available in the customer's country, and to display local variants. 
 
-See API reference > [Create order](/reference/createorder) > `customer` object > `locale` parameter.
+The first parameter taken into account is the `country` parameter. Secondly, `locale` is checked.
+If `country`is not sent, the decision is based on `locale`.
+
+
+See API reference > [Create order](/reference/createorder) > `customer` object > `country` and `locale` parameters.
 
 <details id="locale-codes">
 <summary>Locale codes per language and country</summary>
@@ -180,7 +184,7 @@ To display all payment methods on the payment page, follow these steps:
 2. Add `&methods=all` at the end of the payment link, e.g. `https://testpayv2.multisafepay.com/connect/822LtiM8RjN313Yo5C46E2cjqmuL5qVfc7w/?lang=en_NL&methods=all`
 3. Redirect the customer to the adapted link.
 
-📘 **Note:** This is not a standard option in our [ready-made integrations](/docs/our-integrations/).
+**⚠️ Note:** This is not a standard option in our [ready-made integrations](/docs/our-integrations/).
 
 </details>
 
@@ -200,118 +204,144 @@ If you include a `shopping_cart` object when you [create an order](/reference/cr
 
 </details>
 
-## Styling 
+## Styling
 
-We recommend styling payment pages to be consistent with the look and feel of your site.
+We recommend styling payment pages to be consistent with the look and feel of your website.
 
 ### Via the dashboard
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Sites**, and then click the relevant site.
-3. On the **Site profile** page, under **Functionality**, click **Edit template**. 
-4. On the **Payment page styling** page, under **Configure page style**:  
 
-    <details id="how-to-style-the-logo">
-    <summary>How to style the logo</summary>
-    <br>
+2. Go to **Websites**, and then click the relevant website.
 
-    - Go to **Settings** > **Files**, and upload your logo file.
-    - On the **Payment page styling** page, under **Configure page style**, from the **Logo** list, select the logo file.
-    - To hide the logo, under **Configure page style** > **Settings**, select the **Hide main logo** checkbox. 
+3. On the **Website profile** page, under **Style your checkout solution** > **Hosted Payment Page V2**, click **Edit**. 
 
-    </details>
+4. On the **Payv2 settings** page, under **Configure page style**, you can customize the appearance of various elements on your payment page. Click on the sections below to expand them and view the available options:  
 
-    <details id="how-to-style-the-header">
-    <summary>How to style the header</summary>
-    <br>
+   <details id="how-to-change-the-logo">
+   <summary>How to change the logo</summary>
+   <br>
 
-    Under **Configure page style** > **Header**, you can:
-    - Set the header **Background** color. 
-    - Select a **Background image** that you have uploaded under **Settings** > **Files**.
+   - If you haven't added a new logo, go to **Settings** > **Files**, and upload your logo file.
+   - On the **Payv2 settings** page, under **Configure page style**, from the **Logo** list, select the logo file.
+   - To hide the logo, under **Configure page style** > **Settings**, select the **Hide main logo** checkbox. 
 
-    </details>
+   <br />
 
-    <details id="how-to-style-the-body">
-    <summary>How to style the body</summary>
-    <br>
+   </details>
 
-    Under **Configure page style** > **Body**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, text, and links on the page and when the user mouses over them.
+   <details id="how-to-style-the-header">
+   <summary>How to style the header</summary>
+   <br>
 
-    </details>
+   Under **Configure page style** > **Header**, you can:
 
-    <details id="how-to-style-the-body-container">
-    <summary>How to style the body container</summary>
-    <br>
+   - Set the header **Background** color. 
+   - Select a **Background image** that you have uploaded under **Settings** > **Files**.
 
-    Under **Configure page style** > **Container**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, text, labels, and links. 
+   <br />
 
-    </details>
+   </details>
 
-    <details id="how-to-style-the-cart">
-    <summary>How to style the cart</summary>
-    <br>
-      
-    Under **Configure page style** > **Cart**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, border, text, and labels. 
+   <details id="how-to-style-the-body">
+   <summary>How to style the body</summary>
+   <br>
 
-    </details>
+   Under **Configure page style** > **Body**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, text, and links on the page and when the user hovers over them.
 
-    <details id="how-to-style-the-payment-form">
-    <summary>How to style the payment form</summary>
-    <br>
+   <br />
 
-    Under **Configure page style** > **Payment form**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, border, text, input border, and input labels. 
+   </details>
 
-    </details>
+   <details id="how-to-style-the-body-container">
+   <summary>How to style the body container</summary>
+   <br>
 
-    <details id="how-to-style-the-buttons">
-    <summary>How to style the buttons</summary>
-    <br>
+   Under **Configure page style** > **Container**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, text, labels, and links. 
 
-    Under **Configure page style** > **Buttons**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, border, text on the page and when moused over. 
+   <br />
 
-    </details>
+   </details>
 
-    <details id="how-to-set-a-default-template">
-    <summary>How to set a default template</summary>
-    <br>
+   <details id="how-to-style-the-cart">
+   <summary>How to style the cart</summary>
+   <br>
 
-    If you have more than one template and want to set one as your default template, use the **Set default** option. You can also give this template a name, which is used as the `template_id`.   
+   Under **Configure page style** > **Cart**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, border, text, and labels. 
 
-    </details>
+   <br />
 
-    <details id="how-to-edit-saved-templates">
-    <summary>How to edit saved templates</summary>
-    <br>
+   </details>
 
-    Click **Edit template** (top-right corner).  
+   <details id="how-to-style-the-payment-form">
+   <summary>How to style the payment form</summary>
+   <br>
 
-    </details>
+   Under **Configure page style** > **Payment form**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, border, text, input border, and input labels. 
 
-    <details id="how-to-duplicate-styling-to-another-template">
-    <summary>How to duplicate styling to another template</summary>
-    <br>
+   <br />
 
-    - Click **Apply style from** (top-right corner). 
-    - Select the relevant template. 
+   </details>
 
-    </details>
+   <details id="how-to-style-the-buttons">
+   <summary>How to style the buttons</summary>
+   <br>
 
-    <details id="how-to-set-a-default-template">
-    <summary>How to set a default template</summary>
-    <br>
+   Under **Configure page style** > **Buttons**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, border, text on the page and when hovered over. 
 
-    To set this as the default template for this site, under **Configure page style**, click **Set as default template**. 
+   <br />
 
-    </details>
+   </details>
 
-5. To save the finished template to the relevant site, enter a name in the **Save template as** field, and then click **Submit template**. 
+   <details id="how-to-set-a-default-template">
+   <summary>How to set a default template</summary>
+   <br>
 
+   If you have multiple templates, you can set one as your default:
+
+   - Under **Configure page style**, click **Set as default template**.
+   - Enter a name for your template. This will define the `template_id`.
+   - Click **Submit settings**.
+
+   <br />
+
+   </details>
+
+   <details id="how-to-edit-saved-templates">
+   <summary>How to edit saved templates</summary>
+   <br>
+
+   To select a specific template you want to edit:
+
+   - Click **Edit template** at the top-right corner.
+   - Select the relevant template you want to edit.
+   - You can change the settings, name, reset to default settings or delete your template.
+
+   <br />
+
+   </details>
+
+   <details id="how-to-duplicate-styling-to-another-template">
+   <summary>How to duplicate styling to another template</summary>
+   <br>
+
+   - Select the template you want to apply the style to.
+   - Click **Apply style from** at the top-right corner.
+   - Select the relevant template.
+   - Click **Submit settings**.
+
+   <br />
+
+   </details>
+
+5. To save the finished template to the relevant website, enter a name in the **Save template as** field, and then click **Submit template**. 
 
 ### Via the API
 
 You can dynamically style the payment page for specific order requests via our API. 
 
 See:
+
 - API reference – [Create order](/reference/createorder/) > Payment page/link > `payment_options` object
 - Recipes – <a href="https://docs.multisafepay.com/recipes/style-the-payment-page" target="_blank">Style the payment page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -337,7 +367,7 @@ Some HTML tags and elements are supported and all others are stripped out.
 - table (width, border, bordercolor, cellpadding, cellspacing), thead, tbody, tfoot, th (width, scope, colspan, align), td (height, width, align, valign, colspan, bgcolor), tr (bgcolor, valign)
 - u, ul
 
----
+***
 
 </details>
 

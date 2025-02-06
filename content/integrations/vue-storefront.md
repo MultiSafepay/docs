@@ -1,7 +1,7 @@
 ---
 title: "Vue Storefront"
 category: 62962dd7e272a6002ebbbbc5
-order: 19
+order: 21
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Free plugin for MultiSafepay payment solutions."

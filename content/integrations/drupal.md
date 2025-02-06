@@ -1,19 +1,19 @@
 ---
 title: "Drupal"
 category: 62962dd7e272a6002ebbbbc5
-order: 2
+order: 3
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
 slug: 'drupal'
 ---
-# Drupal 8 & 9
+# Drupal 8, 9 & 10
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Drupal_8.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Drupal_10.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
 
 <div style="display: flex; flex-wrap: wrap;">
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/drupal-commerce-2/releases/download/3.0.0/commerce_multisafepay_payments-3.0.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/drupal-commerce-2/releases/download/4.0.0/commerce_multisafepay_payments-4.0.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
 
 <a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #DFEBF6; color: #0a59a1; text-decoration: none;" href="https://github.com/MultiSafepay/drupal-commerce-2/" target="_blank"><i class="icon-external-link"></i> <span>Source code</span></a>
 
@@ -24,13 +24,12 @@ slug: 'drupal'
 ## Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Drupal 8.9 and above or Drupal 9.x
-- Tested on PHP 7.2
+- Drupal 8.9 and above, Drupal 9.x and 10.x
 - Drupal Commerce 2.x
 
 ## Installation
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 These instructions are for Composer. You can also install the plugin in your <<glossary:backend>>. 
 
@@ -112,7 +111,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 <summary>How to update in your backend</summary>
 <br>
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation instructions and the Configuration instructions from step 2.
@@ -121,7 +120,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
 ### Upgrades
 
-❗️ **Note:** Drupal no longer provides support for Drupal 8.9.x. 
+**⚠️ Note:** Drupal no longer provides support for Drupal 8.9.x. 
 
 For how to upgrade Drupal 8 to Drupal 9, see Drupal - <a href="https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher" target="_blank">Upgrading from Drupal 8 to Drupal 9 or higher</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 <br>
@@ -152,7 +151,7 @@ For how to upgrade Drupal 8 to Drupal 9, see Drupal - <a href="https://www.drupa
 
 ## Installation and configuration
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Unpack the content of the .ZIP file in the root of your Drupal 7 webshop.
 2. Sign in to your Drupal 7 backend.
@@ -209,7 +208,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 <summary>How to update via SFTP</summary>
 <br>
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

@@ -41,7 +41,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 |---|---|---|
 | The [customer credibility score](#customer-credibility-score) (if requested) is in progress. You can still cancel. | Initialized   | Initialized  |
 | MultiFactor has authorized the transaction. <br> You can no longer cancel. You can only refund. | Completed  | Initialized  |
-| ❗️ **Note:** [Manually change the order status to Shipped](#shipment). <br> You must ship to receive payment. | Shipped | Initialized |
+| **⚠️ Note:** [Manually change the order status to Shipped](#shipment). <br> You must ship to receive payment. | Shipped | Initialized |
 | MultiSafepay has collected payment. | Completed    | Completed  |
 | MultiFactor declined the transaction. | Declined | Declined |
 | The transaction has been cancelled. | Void/Cancelled | Void/Cancelled |
@@ -396,7 +396,7 @@ If you change the order status in your <<glossary:backend>>, the following [read
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
-❗️ **Note:** Some third-party plugins may not support updating the status via our API.
+**⚠️ Note:** Some third-party plugins may not support updating the status via our API.
 
 ---
 

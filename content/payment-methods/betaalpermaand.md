@@ -1,11 +1,17 @@
 ---
-title: 'Betaal per Maand'
+title: 'Betaal per Maand (Deprecated)'
 category: 6298bd782d1cf4006032e765
 order: 0
 hidden: false
 parentDoc: 62bd75142e264000a66d62b5
 slug: betaal-per-maand
 ---
+
+ 
+⚠️ Note:
+ 
+>Santander betaal per maand is discontinued as from 01/01/2024, and no new orders will be accepted. Existing orders will be handled up to 31/03/2024, after which no operations are possible anymore.
+
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/betaalplan-nl.svg" width="200" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -40,7 +46,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | The customer has been redirected to Santander. | Initialized   | Initialized  |
 | The customer has completed the pre-form and Santander is authorizing the transaction. | Uncleared | Initialized |
 | Santander has authorized the transaction and the funds are awaiting capture. <br> You can no longer cancel. You can only refund. | Completed  | Uncleared  |
-| ❗️ **Note:** To capture the funds, when you ship the <<glossary:order>> you must manually [change the order status to Shipped](#shipment) and send us the [track-and-trace code](#track-and-trace-codes).  | Shipped | Uncleared |
+| **⚠️ Note:** To capture the funds, when you ship the <<glossary:order>> you must manually [change the order status to Shipped](#shipment) and send us the [track-and-trace code](#track-and-trace-codes).  | Shipped | Uncleared |
 | MultiSafepay has collected payment. | Shipped    | Completed  |
 | Santander declined the transaction. <br> Only the customer can contact them to find out why (for privacy and compliance reasons). | Declined   | Declined   |
 | You cancelled the transaction before capture.   | Void   | Void   |
@@ -111,7 +117,7 @@ To cancel an order, email <annuleren@santander.com> with the following details:
 - Order ID
 - Transaction ID (MultiSafepay's transaction reference number)
 
-❗️ **Note:** You cannot cancel a Betaal per Maand order via your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+**⚠️ Note:** You cannot cancel a Betaal per Maand order via your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ## Collection period
 
@@ -182,7 +188,7 @@ If you change the order status in your <<glossary:backend>>, the following [read
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
-❗️ **Note:** Some third-party plugins may not support updating the status via our API.
+**⚠️ Note:**Some third-party plugins may not support updating the status via our API.
 
 </details>
 

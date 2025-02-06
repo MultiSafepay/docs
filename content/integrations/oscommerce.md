@@ -1,7 +1,7 @@
 ---
 title: "OsCommerce"
 category: 62962dd7e272a6002ebbbbc5
-order: 9
+order: 10
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -97,11 +97,11 @@ Release date: Mar 28, 2014
 - OsCommerce 2.3
 - Tested on PHP 7.0
 
-📘 **Note:** Version 3.0.0 is tested on PHP 5.6. Previous versions are no longer tested for compatibility. For more information, email <sales@multisafepay.com>
+**⚠️ Note:** Version 3.0.0 is tested on PHP 5.6. Previous versions are no longer tested for compatibility. For more information, email <sales@multisafepay.com>
 
 # Installation and configuration
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the OsCommerce installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the OsCommerce installation procedure. Always make a backup.
 
 1. Unpack the content of the .ZIP file in the root of your webshop.
 2. Sign in to your OsCommerce <<glossary:backend>>.
@@ -164,7 +164,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 <summary>How to update via SFTP</summary>
 <br>
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
 2. Follow the Installation and configuration instructions from step 2.

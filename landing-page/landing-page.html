@@ -73,12 +73,14 @@
 <section class="footer" style="margin:5px 0 0 0 !important">
  <div>
 <p class="footer-text"> 
-© 2023 Multisafepay.com - All rights reserved.
+	© <span id="year"></span> Multisafepay.com - All rights reserved.
 </p>
-  </div>
+</div>
    </section>
 
-
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 
 
@@ -165,6 +167,7 @@
 			gap: 20px;
 			align-items: center !important;
 		}
+		
 	
 		.flex-item {
 			padding: 10px;
@@ -243,7 +246,6 @@
 			padding: 50px;
 			border-radius: 10px;
 		}
-	  
 	  @media screen and (max-width: 935px) {
 			.grey-background {
 				background: none;

@@ -1,7 +1,7 @@
 ---
 title: 'MB WAY'
 category: 6298bd782d1cf4006032e765
-order: 10
+order: 12
 hidden: false
 parentDoc: 62a728d48b97080046c1d220
 slug: 'mb-way'
@@ -108,31 +108,26 @@ You can still update the customer's phone number on the [payment pages](/docs/pa
 
 ## Refunds
 
-You can process refunds in your dashboard **or** via API.
+You can process refunds in your dashboard.
+
+The customer must provide you with their IBAN to process refunds via bank transfer.
 
 <details id="how-to-refund-an-order">
 <summary>How to refund an order</summary>
 <br>
 
-**In your dashboard**
-
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
 3. On the **Transaction details** page, click **Refund order**.
-4. In the **Reason / Description** field, enter the reason for the refund or a description of what happened with the order, and then click **Complete**.
-5. In the **Comment** field, enter any additional information.
-6. In the **Amount** fields, enter the amount to refund. 
-7. Click **Continue**.
-8. Review the **Refund confirmation**, and then click **Confirm**.
-
-**Via the API** 
-
-See API reference – [Refund order](/reference/refundorder).
-
-***
+4. In the **Account Holder Name** field, enter the customer's full name.
+5. In the **IBAN** field, enter the customer's IBAN.
+6. In the **Reason / Description** field, enter the reason for the refund or a description of what happened with the order, and then click **Complete**.
+7. In the **Comment** field, enter any additional information.
+8. In the **Amount** fields, enter the amount to refund. 
+9. Click **Continue**.
+10. Review the **Refund confirmation**, and then click **Confirm**.
 
 </details>
-
 ---
 
 [block:html]

@@ -1,8 +1,12 @@
 .DS_Store
 
+# ignore JetBrains IDE files
+.idea
+
 # ignore all installed nodeJS packages
 node_modules
 
 # ignore vim swap files
 *.swp
 *.swo
+*.code-workspace

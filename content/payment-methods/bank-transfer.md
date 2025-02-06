@@ -119,7 +119,7 @@ MultiSafepay emails the customer the following payment details to include when t
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/bank-transfer.png" width="100%" align="left"/>
 <br>
 
-📘 **Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/docs/ibans/).
+**⚠️ Note:** Bank accounts are always displayed in IBAN format. See also [Unmasking IBANs](/docs/ibans/).
 
 <details id="how-to-email-payment-instructions-yourself"> 
 <summary>How to email payment instructions yourself</summary>
@@ -216,7 +216,7 @@ To resolve unmatched payments, check if a [transaction](/docs/payment-links#inte
 4. Add the customer's bank account number (if known) to help us match the payment.
 5. Click **Confirm** to create the transaction in our system.
 
-✅ &nbsp; **Tip!** The order ID must be unique for each payment link.
+&nbsp; **💡 Tip!** The order ID must be unique for each payment link.
 
 ---
 

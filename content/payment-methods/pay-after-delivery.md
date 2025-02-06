@@ -23,6 +23,35 @@ Read how Pay After Delivery can benefit your business on <a href="https://www.mu
 | [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
 | [Refunds](/docs/refund-payments/) | Yes: Full, partial, and API refunds| 
 
+# Gateway change - mandatory switch by August 31st 2024.
+
+> 🚧 Gateway change - mandatory switch by August 31st 2024.
+> 
+> Pay After Delivery has released an entirely new version of its payment method including a new gateway code. It is necessary to migrate to the new gateway ASAP as any new request to the old gateway after August 31st 2024 will be declined.
+
+## New Gateway
+
+The old gateway "PAYAFTER" is deprecated in favor of the new gateway "BNPL_MF" (similar to the <a href="https://docs.multisafepay.com/docs/pay-after-delivery-installments" target="_blank">Pay After Delivery Installments</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>]) product line. 
+
+### API integrations
+
+ Switch the gateway code in either redirect or direct transactions to "BNPL_MF".
+ 
+ For _direct_ transaction requests, _bank account_ is no longer required. 
+
+### Plugin integrations
+
+- Configure "BNPL_MF" gateway.
+- deactivate "PAYAFTER" gateway. 
+
+### Redirect or Components
+
+Configure in your plugin integration "BNPL_MF" and deactivate "PAYAFTER" gateway in the MultiSafepay Control Panel. 
+
+**Questions?**  
+Contact our MultiFactor support at [klantenservice@multifactor.nl](mailto:klantenservice@multifactor.nl).
+
+
 # Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.
@@ -42,7 +71,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | MultiSafepay's automated risk analysis is in progress. You can still cancel the transaction. | Initialized | Initialized |
 | MultiSafepay is authorizing the transaction. | Uncleared | Uncleared |  
 | MultiSafepay has approved the transaction, but you can still cancel the order. See - [Update or cancel order](/reference/updateorder). | Completed | Uncleared | 
-| ❗️ **Note:** To capture the funds, [manually change the order status to Shipped](#shipment). | Shipped | Uncleared |
+| **⚠️ Note:** To capture the funds, [manually change the order status to Shipped](#shipment). | Shipped | Uncleared |
 | MultiSafepay has settled the order, and funds have been added to your account. | Shipped | Completed |
 | The transaction was cancelled. | Void/Cancelled   | Void/Cancelled | 
 | MultiSafepay declined the transaction. | Declined | Declined |
@@ -292,7 +321,7 @@ You must must refund partial shipments separately, using the specific **shipment
 
 See API reference – [Refund order](/reference/refundorder).
 
-❗️ **Note:** To partially ship an order, email a request to <sales@multisafepay.com>
+**⚠️ Note:** To partially ship an order, email a request to <sales@multisafepay.com>
 
 ---
 
@@ -324,7 +353,7 @@ If you change the order status in your <<glossary:backend>>, the following [read
 
 For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
-❗️ **Note:** Some third-party plugins may not support updating the status via our API.
+**⚠️ Note:** Some third-party plugins may not support updating the status via our API.
 
 ---
 

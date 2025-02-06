@@ -13,7 +13,7 @@ Different payment methods set different expiration times for transactions. The t
 
 The expiration time is set by the payment method and cannot be changed.
 
-📘 **Note:** Transaction expiration times are different to session lifetimes of payment pages.
+**⚠️ Note:** Transaction expiration times are different to session lifetimes of payment pages.
 
 The table below sets out the expiration time per payment method:
 
@@ -27,12 +27,13 @@ The table below sets out the expiration time per payment method:
 | Bank transfer| 60 days  |
 | Belfius| 5 days   |
 | Betaal per Maand| 1 day |
+| Bizum| 30 minutes |
 | CBC/KBC| 5 days   |
 | Dotpay| 3 days   |
 | Google Pay| 1 hour   |
-| iDEAL| 1.5 hours|
+| iDEAL| 1 hour |
 | in3| 2 hours  |
-| Klarna| 1 hour   |
+| Klarna| 1 day   |
 | MB WAY| 4 minutes  |
 | Multibanco| 72 hours   |
 | MyBank| 1 hour   |

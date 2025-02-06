@@ -1,7 +1,7 @@
 ---
 title: "Lightspeed"
 category: 62962dd7e272a6002ebbbbc5
-order: 3
+order: 4
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free app."
@@ -27,7 +27,7 @@ slug: 'lightspeed'
 
 # Installation 
 
-✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
+&nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Sign in to your Lightspeed <<glossary:backend>>.
 2. Go to **Apps** on the left-hand side of the dashboard.
@@ -288,11 +288,11 @@ If no specific rule is set for a country, the **Default** order is used.
 
 </details>
 
-<details id="how-to-disable-payment-methods">
-<summary>How to disable payment methods</summary>
+<details id="how-to-enable-payment-methods">
+<summary>How to enable payment methods</summary>
 <br>
 
-You can disable payment methods in the **Payment method settings list**. The dot next to the payment methods is green when enabled, and grey when disabled.
+You can enable and disable payment methods in the **Payment method settings list**. The dot next to the payment methods is green when enabled, and grey when disabled.
 
 To disable payment methods for specific languages, follow these steps:
 
@@ -448,6 +448,18 @@ To access the MultiSafepay Payments app **Settings** page:
 </details>
 <br>
 
+
+# Troubleshooting 
+
+## Payment methods not displayed correctly
+
+Checks you can do:
+
+- are you using the correct API key and environment combination?
+- are the payment methods activated for your account? 
+- in **Payment method settings**, check that you have modified your preferences for the correct / all store languages. Check also: current setting is set to **enabled**.
+
+</details>
 ---
 
 [block:html]

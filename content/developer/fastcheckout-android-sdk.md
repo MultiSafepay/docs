@@ -131,7 +131,7 @@ The customer is automatically redirected to the **Register** screen:
 
 4. Sync Gradle.
 
-> ✅ Success
+> **✅ Success!**
 > You can now start using the Android SDK in your app.
 
 # How to integrate
@@ -160,7 +160,7 @@ The SDK is thread safe, but you cannot access the main UI elements from backgrou
 
 #### Update the UI from a background thread in Android
 
-📘 **Note:** For integration based on JAVA/Android versioning, see the official Android developers site – <a href="https://developer.android.com/guide/components/processes-and-threads" target="_blank">Threads</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+**⚠️ Note:** For integration based on JAVA/Android versioning, see the official Android developers site – <a href="https://developer.android.com/guide/components/processes-and-threads" target="_blank">Threads</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ```java
 …

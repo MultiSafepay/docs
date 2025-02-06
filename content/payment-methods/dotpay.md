@@ -1,7 +1,7 @@
 ---
 title: 'Dotpay'
 category: 6298bd782d1cf4006032e765
-order: 7
+order: 8
 hidden: false
 parentDoc: 62a728d48b97080046c1d220
 slug: 'dotpay'
@@ -72,6 +72,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   </details>
 
+  **⚠️ Note:** **Direct** requests are not supported for Dotpay.
+  
 - Transactions expire after 3 days.
 
 ### Ready-made integrations

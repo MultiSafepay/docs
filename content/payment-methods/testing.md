@@ -88,6 +88,8 @@ Testing this new format is possible on both our TEST and LIVE environment:
 
 **Test a Bancontact order**
 
+**⚠️ Note:** Bancontact doesn't support **direct** requests.
+
 1. [Create an order](/reference/createorder/) > Banking order (Example: Bancontact redirect).
 2. Open the payment link.
 3. In the **Card number** field, enter a card number (see table below).
@@ -130,7 +132,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 | Any other IBAN | **Expired** | The transaction is initiated. <br> After 5 days, this changes to **Expired**. |
 <br>
 
-❗️ **Note:** You cannot test making <<glossary:direct>> API requests with an IBAN to test different <<glossary:transaction statuses>>.
+**⚠️ Note:** You cannot test making <<glossary:direct>> API requests with an IBAN to test different <<glossary:transaction statuses>>.
 
 </details>
 
@@ -150,6 +152,8 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <details id="dotpay">
 <summary>How to test Dotpay</summary>
 <br>
+
+**⚠️ Note:** **Direct** requests are not supported for Dotpay. 
 
 1. [Create an order](/reference/createorder/) > Banking order (Example: Dotpay redirect)
 2. On the Dotpay page, enter in the:
@@ -195,18 +199,34 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order (Example: iDEAL direct/redirect)
-2. For <<glossary:redirect>>, select a bank.
-3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
-4. Click **Test**.  
-    The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
+2. For <<glossary:redirect>> orders, open the payment link.
+3. On the **Test platform** page, from the **Test scenario** list, select the desired transaction scenario. Refer to the table below for details. 
+4. Click **Test**.
 
-You can also test the following scenarios:
+| Scenario      | Description                                                                |
+| ------------- | -------------------------------------------------------------------------- |
+| **Success**   | The transaction is initiated. <br> Transaction will show as **Completed**. |
+| **Failure**   | The transaction is initiated. <br> Transaction will show as **Declined**.  |
+| **Cancelled** | The transaction is initiated. <br> Transaction will show as **Void**.      |
+| **Expired**   | The transaction is initiated. <br> Transaction will show as **Expired**.   |
 
-| Scenario | Description |
-| --- | --- |
-| **Declined** | The transaction was declined. |
-| **Open** **Completed** | The transaction is initiated. <br> After 1 minute, this changes to **Completed**. |
-| **Open** **Declined**  | The transaction is initiated. <br> After 1 minute, this changes to **Declined**. |
+</details>
+
+<details id="MBWAY-and-multibanco">
+<summary>How to test Multibanco & MB WAY</summary>
+<br>
+
+1. [Create an order](/reference/createorder/) > Banking order.  
+   See also the Examples for the specific payment method.
+2. For <<glossary:redirect>> orders, open the payment link.
+3. Set the `amount` parameter according to the desired transaction scenario. Refer to the table below for details. 
+4. For **MB WAY** direct orders, in the `customer` object, fill the `phone` parameter. For redirect orders, enter a phone number on the payment link and click **Confirm**.
+
+| Amount                  | Scenario      | Description                                                                                                              |
+| ----------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| 9.99 and below          | **Declined**  | The transaction is initiated. <br> Transaction will show as **Declined**.                                                |
+| Between 10.00 and 20.00 | **Completed** | The transaction is initiated. <br> Transaction will show as **Completed**.                                               |
+| Above 20.00             | **Expired**   | The transaction is initiated. <br> The status will show as **Initialized**. After 84 hours, this changes to **Expired**. |
 
 </details>
 
@@ -282,7 +302,7 @@ You can also test the following scenarios:
 | Visa/co-branded: <br> 4012001038488884 | **Declined**  | The transaction was declined (3D authentication was successful, but insufficient funds). |
 <br>
 
-✅ &nbsp; **Tip!** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
+&nbsp; **💡 Tip!** You can see the reason a transaction was declined in your MultiSafepay test account under **Notes**.
 
 </details>
 
@@ -425,7 +445,7 @@ To refund an order:
 
 You can only test invoicing in your MultiSafepay live account. To do this, change the order status to **Shipped**.
 
-**Note** You can't test:
+**⚠️ Note:** You can't test:
 - Receiving successful payment notifications from Klarna
 - Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**, except for refunds
 
@@ -442,7 +462,7 @@ To learn more about integrating Klarna with MultiSafepay, see [Klarna](/docs/kla
 
 1. Request a test API key from Riverty via either:
     - Your implementation ticket with Riverty, **or**
-    - Email <sales@riverty.nl>
+    - Email <sales@riverty.com>
 
     Riverty shares the test key with MultiSafepay.
 
@@ -473,7 +493,7 @@ To change the order status, either:
 - Make an [update order](/reference/updateorder/) request, or 
 - In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
 
-❗️ **Note:** You can't test:  
+**⚠️ Note:** You can't test:  
  - Receiving successful payment notifications from Riverty
  - Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**
  - Processing refunds
@@ -599,7 +619,7 @@ Any other card number receives an "Invalid card number" error.
 3. Click **Test**.  
     The payment is processed in your MultiSafepay test account as **Successful**, with <<glossary:order status>> **Completed**, and transaction status **Initialized**.
 
-❗️ **Note:** You can't test Alipay declining transactions.
+**⚠️ Note:** You can't test Alipay declining transactions.
 
 </details>
 
@@ -694,7 +714,7 @@ To test, follow these steps:
 3. Click **Test**.  
    The payment is processed in your MultiSafepay test account as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Initialized**.
 
-📘 **Note:** Since MultiSafepay does not collect payments on behalf of PayPal, the <<glossary:transaction status>> remains **Initialized** and can't be changed to **Completed**.
+**⚠️ Note:** Since MultiSafepay does not collect payments on behalf of PayPal, the <<glossary:transaction status>> remains **Initialized** and can't be changed to **Completed**.
 
 **Change the order status**
 

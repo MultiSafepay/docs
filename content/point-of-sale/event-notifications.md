@@ -7,15 +7,7 @@ hidden: false
 slug: 'event-notifications'
 ---
 
-> ⚠️ Note:
-> 
-> We are currently in the pilot phase for this product in the following countries:
-> 
-> - Netherlands
-> 
-> Please note that in this stage, you cannot request terminals yet to use POS services.  
-> If you are interested in participating in the next stage of our pilot, email <sales@multisafepay.com>
->
+
 
 Subscribe to event notifications to receive order payments updates when, e.g.,
 
@@ -27,12 +19,14 @@ Subscribe to event notifications to receive order payments updates when, e.g.,
 - SmartPOS terminal must be [activated in your MultiSafepay account](/docs/getting-started-guide/).
 - Payments must be initiated via [cloud <<glossary:POS>> payment](/docs/solutions).
 
+In other scenarios, you can make use of our <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>notifications.
+
 # 1. Initiate payments
 
 1. [Create an order](/reference/createorder/), and set`terminal_id` in your request. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. In response to the API request you made, you receive the `events_token`.
 
-📘 **Note:** You cannot initiate another payment until the current payment is **Cancelled** or **Completed**.
+**⚠️ Note:** You cannot initiate another payment until the current payment is **Cancelled** or **Completed**.
 
 # 2. Subscribe to the event notifications
 
@@ -47,10 +41,22 @@ curl -H 'Authorization: events_token' 'https://api.multisafepay.com/events/strea
 
 ```
 curl -H 'Authorization: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2OTQwNzEyMDcsImdydtdfI6WyJtYnVzOnNlc3Npb24ub3JkZXIiLCJtYnVzOnNlc3Npb24ucXIiXSwicGlkIjoiNTk5TWM0VWhOWDhYczNmNU55b3JnaVZZMlhab1BsVVkxa28iLCJzdWIiOiJwciJ9.p1txKa0wlR6Pn-DvQW8oYmYcesU49GgZsPebME_EvYs' \
-'https://testapi.multisafepay.com/events/stream/'
+'https://api.multisafepay.com/events/stream/'
 ```
 
   </details>
+
+<details id="example-response"> 
+  <summary>Example response</summary>
+  <br>
+
+```
+event: session.order
+data: {"financial_status":"initialized","order_id":"ExampleOrderID1234567","session_id":"1025J8hXqtM9dLcilPp3gqkXi8Res3tvZZZ","status":"initialized","transaction_id":"89000000"}
+event: session.order
+data: {"financial_status":"completed","order_id":"ExampleOrderID1234567","session_id":"1025J8hXqtM9dLcilPp3gqkXi8Res3tvZZZ","status":"completed","transaction_id":"890000000"}
+```
+ </details>
 
 # 3. Payment statuses
 

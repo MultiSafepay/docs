@@ -131,4 +131,4 @@ PayPal must be [onboarded in your MultiSafepay account](/docs/paypal#activation)
   <br>A popup appears containing the PayPal test store.
 3. Select **Pay now**, and then click **Save**. <br> The order is successfully completed.
 
-**Note:** If you select the card payment option from test scenario list, you will receive an `INSTRUMENT_DECLINED` error.
+**⚠️ Note:** If you select the card payment option from test scenario list, you will receive an `INSTRUMENT_DECLINED` error.

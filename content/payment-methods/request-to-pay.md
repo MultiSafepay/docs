@@ -1,7 +1,7 @@
 ---
-title: 'Request to Pay'
+title: 'Request to Pay (Deprecated)'
 category: 6298bd782d1cf4006032e765
-order: 12
+order: 15
 hidden: false
 parentDoc: 62a728d48b97080046c1d220
 slug: 'request-to-pay'
@@ -17,7 +17,7 @@ Read how Request to Pay can benefit your business on <a href="https://www.multis
 
 > ⚠️ Availability
 >
-> Request to Pay is currently not available to new merchants. It is still supported for existing merchants. 
+> Request to Pay is no longer available. 
 
 | Supports | Details |
 |---|---|

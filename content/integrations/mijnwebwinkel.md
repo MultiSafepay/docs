@@ -1,7 +1,7 @@
 ---
 title: "Mijnwebwinkel"
 category: 62962dd7e272a6002ebbbbc5
-order: 3
+order: 2
 hidden: false
 parentDoc: 62a9a54aba9800011a8bda88
 excerpt: "Technical manual for Mijnwebwinkel's free app."
@@ -15,7 +15,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 # Installation and configuration
 
-✅ &nbsp; **Tip!** We recommend first installing the plugin in a test environment, following the Mijnwebwinkel installation procedure. Always make a backup.
+&nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the Mijnwebwinkel installation procedure. Always make a backup.
 
 1. Sign in to your Mijnwebwinkel <<glossary:backend>>.
 2. Go to **Online orders** > **Payment method** > **MultiSafepay**.

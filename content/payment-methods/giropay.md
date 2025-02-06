@@ -1,7 +1,7 @@
 ---
-title: 'Giropay'
+title: 'Giropay (Deprecated)'
 category: 6298bd782d1cf4006032e765
-order: 9
+order: 10
 hidden: false
 parentDoc: 62a728d48b97080046c1d220
 slug: 'giropay'
@@ -10,6 +10,11 @@ slug: 'giropay'
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/giropay.svg" width="90" align="right" style="margin: 20px; max-height: 75px"/>
 
 <a href="https://www.giropay.de/" target="_blank">Giropay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is the leading inter-bank payment method in Germany, connecting all major German retail banks. Customers pay from their own online banking environment. <<glossary:Settlement>> is instant and guaranteed.
+
+
+> ⚠️ Note: Giropay is deprecated as of 01 July 2024. New activations are no longer possible.
+> 
+> 
 
 Read how Giropay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/giropay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 

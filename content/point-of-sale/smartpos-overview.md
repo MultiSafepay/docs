@@ -1,19 +1,24 @@
 ---
 title: 'SmartPOS terminal'
 category: 6477597e0e2961004638cd5d
-order: 3
+order: 2
 hidden: false
 slug: 'smartpos-terminal'
 ---
 
 > ⚠️ Note:
 > 
-> We are currently in the pilot phase for this product in the following countries:
+> We currently offer this product in the following countries:
 > 
 > - Netherlands
+> - Belgium 
 > 
-> Please note that in this stage, you cannot request terminals yet to use POS services.  
-> If you are interested in participating in the next stage of our pilot, email <sales@multisafepay.com>
+> As a partner, you can further connect accounts registered in the following countries:
+>
+> - Italy 
+> - Spain
+>
+> If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
 >
 
 This section provides an overview of our SmartPOS terminal.

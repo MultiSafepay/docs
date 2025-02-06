@@ -81,7 +81,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 ### Ready-made integrations
 
-- You can add Edenred [gateway ID](/reference/gateway-ids) using a generic gateway in several of our ready-made integrations.
+- You can add Edenred [gateway ID](/reference/gateway-ids) using a generic gateway in several of our [ready-made integrations](/docs/our-integrations/).
 - Supported in our [Magento 2](/docs/magento-2/) integration.
 
 ### Testing

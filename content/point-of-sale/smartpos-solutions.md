@@ -9,12 +9,17 @@ slug: 'smartpos-solutions'
 
 > ⚠️ Note:
 > 
-> We are currently in the pilot phase for this product in the following countries:
+> We currently offer this product in the following countries:
 > 
 > - Netherlands
+> - Belgium 
 > 
-> Please note that in this stage, you cannot request terminals yet to use POS services.  
-> If you are interested in participating in the next stage of our pilot, email <sales@multisafepay.com>
+> As a partner, you can further connect accounts registered in the following countries:
+>
+> - Italy 
+> - Spain
+>
+> If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
 >
 
 Our SmartPOS solutions let you initiate payments through:
@@ -44,9 +49,10 @@ This diagram shows a successful cloud-based POS payment flow. Click to magnify.
   margin-right: auto;
   max-width: 750px;width: 100%;"/>
 
-  📘 **Note:** Before you start initiating payments, you must ensure **cloud mode** is enabled - see [SmartPOS features](/docs/smartpos-features).
+  **⚠️ Note:** Before you start initiating payments, you must ensure **cloud mode** is enabled - see [SmartPOS features](/docs/smartpos-features).
 
-Create an order. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- Create an order. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- Cancel an order. See [cancellation](#cancellation).
 
 To receive payments updates subscribe to [Event notifications.](/docs/event-notifications)
 
@@ -73,7 +79,8 @@ This diagram shows a successful web application payment flow. Click to magnify.
 
 **Example**
 
-```
+
+```curl
 curl -X POST \
 "https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
 -d '{
@@ -87,19 +94,22 @@ curl -X POST \
       "notification_url": "https://www.example.com/paymentnotification",
       "notification_method": "POST"
   }
-}'
+}
+'
 ```
 
 2. Initiate a payment using the URL below:
 
 ``` URL
-msp://?amount={$amount}&order_id={$order_id}&callback={$callback_url}&notification_url={$notification_url}
+msp://?amount={$amount}&order_id={$order_id}&callback={$callback_url}&printing=true&tipping=true&notification_url={$notification_url}
 ```
 
 - `amount`: the amount specified in EUR cents. 
-- `order_id`: Your unique identifier for order ID.
-- `callback_url`: This URL redirects the customer to receive payment status notifications.
+- `order_id`: your unique identifier for order ID.
+- `callback_url`: this URL redirects the customer to receive payment status notifications.
 - Optionally, you can set `notification_url` to receive order payment updates notifications.
+- `tipping`: include a tip.
+- `printing`: activate printing function.
 
 Payment status received can either be  **Completed** or **Cancelled**.
 
@@ -125,10 +135,11 @@ This diagram shows a successful native application payment flow. Click to magnif
 
 **Example**
 
-```
+```curl
 curl -X POST \
 "https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
--d '{
+-d '
+{
   "type": "redirect",
   "order_id": "my_order_id",
   "gateway": "",
@@ -139,12 +150,130 @@ curl -X POST \
       "notification_url": "https://www.example.com/paymentnotification",
       "notification_method": "POST"
   }
-}'
+}
+'
 ```
 
 2. To initiate payments - see <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">MultiSafepay Android POS integration </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 <br>
+# API features 
+
+In addition to the features mentioned in our <a href="https://docs.multisafepay.com/reference/introduction" target="_blank">API reference</a>, there are POS-specific details you can retrieve via our API, including the **Terminal ID** that processed a transaction.
+
+**Example GET order**
+
+```json
+{
+  "success": true,
+  "data": {
+    "amount": 1,
+    "amount_refunded": 0,
+    "completed": "2024-06-04T15:50:18",
+    "costs": [
+      {
+        "amount": 2,
+        "description": "2 For Visa Transactions",
+        "transaction_id": 899813954,
+        "type": "SYSTEM"
+      },
+      {
+        "amount": 0.6,
+        "description": "2.9 % For Visa CreditCards Transactions (min 60)",
+        "transaction_id": 899813955,
+        "type": "SYSTEM"
+      }
+    ],
+    "created": "2024-06-04T15:50:17",
+    "currency": "EUR",
+    "custom_info": {
+      "custom_1": null,
+      "custom_2": null,
+      "custom_3": null
+    },
+    "customer": {
+      "address1": null,
+      "address2": null,
+      "city": null,
+      "country": null,
+      "country_name": null,
+      "email": null,
+      "first_name": null,
+      "house_number": null,
+      "last_name": null,
+      "locale": "en_US",
+      "phone1": null,
+      "phone2": null,
+      "state": null,
+      "zip_code": null
+    },
+    "description": "12341234",
+    "fastcheckout": "NO",
+    "financial_status": "completed",
+    "items": null,
+    "modified": "2024-06-04T15:50:18",
+    "order_id": "TestGetOrder123123",
+    "payment_details": {
+      "account_holder_name": "card holder",
+      "account_id": null,
+      "application_id": "a0000000031010",
+      "authorization_code": "705151",
+      "card_acceptor_id": "1001001",
+      "card_acceptor_location": "Amsterdam",
+      "card_acceptor_name": "TestMSP",
+      "card_additional_response_data": {
+        "sca_details": {}
+      },
+      "card_authentication_result": null,
+      "card_entry_mode": "ICC_CONTACTLESS",
+      "card_expiry_date": "3112",
+      "card_funding": "D",
+      "card_product": "F",
+      "card_product_type": 1,
+      "card_sequence_number": "0000",
+      "card_verification_result": "2",
+      "cardholder_verification_method": "FAILED",
+      "cardholder_verification_result": "UNKNOWN",
+      "emv": {
+        "91": "ab1231231234"
+      },
+      "external_transaction_id": "12312312312",
+      "issuer_bin": "123123",
+      "issuer_country_code": "ES",
+      "last4": "1234",
+      "recurring_flow": null,
+      "recurring_id": "1231213123",
+      "recurring_model": null,
+      "response_code": "00",
+      "scheme_reference_id": "123123123123123",
+      "terminal_id": "0000004d",
+      "type": "VISA"
+    },
+    "payment_methods": [
+      {
+        "account_holder_name": "card holder",
+        "amount": 1,
+        "card_expiry_date": "3112",
+        "currency": "EUR",
+        "description": "12341234",
+        "external_transaction_id": "123123412341234",
+        "payment_description": "Visa",
+        "status": "completed",
+        "type": "VISA"
+      }
+    ],
+    "reason": "Approved",
+    "reason_code": "1000",
+    "related_transactions": null,
+    "status": "completed",
+    "transaction_id": 123412342341234,
+    "var1": null,
+    "var2": null,
+    "var3": null
+  }
+}
+
+``` 
 
 # Handle notifications
 
@@ -160,11 +289,79 @@ The table below sets out options available for receiving updates on the payments
 
 ## Cancellation
 
-To cancel an order, make a POST request using the `order_id`.
 
+You can use two different request methods to cancel an order: **POST** or **PATCH**. Both methods require the use of an `order_id` and a group **API** key, which you can find at your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  under **Manage groups**.
+
+
+<details id="patch-request">
+<summary>PATCH request</summary>
+
+To cancel an order with a **PATCH** request, follow these instructions:
+
+- The `status` parameter (string) must be set to **cancelled**.
+- Set `exclude_order` (boolean) to **true**. This sets the outcome of the cancellation.
+
+**Example Request**
+
+```curl cURL PATCH
+
+curl --location --request PATCH \
+     --url 'https://api.multisafepay.com/v1/json/orders/{order_id}/?api_key={your-api-key}' \
+     --header 'Accept: application/json' \
+     --header 'Content-Type: application/json'
+     --data ' 
+{
+  "status": "cancelled",
+  "exclude_order": true
+}
+'
 ```
-curl -X POST 'https://testapi.multisafepay.com/v1/json/orders/{order_id}/cancel?api_key={your-api-key}'
+
+**Example Response**
+```json
+
+{
+  "success":true,
+	"data": {}
+}
 ```
+</details>
+
+<details id="post-request">
+<summary>POST request</summary>
+
+
+
+To cancel an order with a **POST** request, no additional parameters are required. Introduce the `order_id` and the **API** key in the URL. 
+
+**Example request**
+
+```cURL POST
+curl -X POST 
+"https://api.multisafepay.com/v1/json/orders/{order_id}/cancel?api_key={your-api-key}"
+```
+**Example response**
+```JSON
+{
+  "success": true,
+  "data": {
+    "costs": [],
+    "created": "dateTtime",
+    "custom_info": {
+      "custom_1": null,
+      "custom_2": null,
+      "custom_3": null
+    },
+    "fastcheckout": "NO",
+    "financial_status": null,
+    "modified": "dateTtime",
+    "payment_details": {},
+    "payment_methods": null,
+    "status": "cancelled"
+    }
+}
+```
+</details>
 
 ## Refunds
 
@@ -187,6 +384,8 @@ See API reference – [Refund order](/reference/refundorder).
 6. In the **Amount** fields, enter the amount to refund. 
 7. Click **Continue**.
 8. Review **Refund confirmation**, and then click **Confirm**.
+
+
 
 </details>
 
