@@ -19,7 +19,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 1. Sign in to your Mijnwebwinkel <<glossary:backend>>.
 2. Go to **Online orders** > **Payment method** > **MultiSafepay**.
-2. Add your MultiSafepay account ID, [website ID, site security code, and API key](/docs/sites#site-id-api-key-and-security-code).
+2. Add your MultiSafepay account ID, [website ID, website security code, and API key](/docs/sites#site-id-api-key-and-security-code).
 6. Select the relevant payment methods.
 <br>
 
