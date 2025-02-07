@@ -24,7 +24,7 @@ If you don't specify a gateway, all payment methods enabled in your account appe
 
 # Activation
 
-Payment pages are automatically activated when you [add a site](/docs/sites/) to your account.
+Payment pages are automatically activated when you [add a website](/docs/sites/) to your account.
 
 # Integration 
 
@@ -68,7 +68,7 @@ It does **not** support the following methods:
 
 ## iframes
 
-An inline frame (iframe) is an HTML document embedded inside another HTML document on a site. 
+An inline frame (iframe) is an HTML document embedded inside another HTML document on a website. 
  
 Although MultiSafepay doesn't prohibit embedding payment pages as an `<iframe>`, we do **not** recommend it. This is because:
 
@@ -76,7 +76,7 @@ Although MultiSafepay doesn't prohibit embedding payment pages as an `<iframe>`,
 - Some banks use scripts that can't run within `<iframe>` elements.
 - Modern browsers can block them due to stricter security checks.
 
-Instead, we recommend using [payment components](/docs/payment-components/) to embed payments into your site. 
+Instead, we recommend using [payment components](/docs/payment-components/) to embed payments into your website. 
 
 ## Localization
 
@@ -199,7 +199,7 @@ If you include a `shopping_cart` object when you [create an order](/reference/cr
 1. To request to enable **Advanced website templates** for your MultiSafepay account, email <integration@multisafepay.com>
 2. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 3. Go to **Settings** > **New payment pages**.
-4. Next to the relevant site, click **Template**.
+4. Next to the relevant website, click **Template**.
 5. Under **Configure page style**, click **Settings**, and then select the **Hide cart details** checkbox. 
 
 </details>

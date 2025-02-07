@@ -109,7 +109,7 @@ The customer is automatically redirected to the **Register** screen:
 
 # Installation
 
-1. Copy your [site API key](/docs/sites#site-id-api-key-and-security-code) to get the SDK from our <a href="https://github.com/MultiSafepay/fastcheckout-ios-sdk" target="_blank">GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+1. Copy your [website API key](/docs/sites#site-id-api-key-and-security-code) to get the SDK from our <a href="https://github.com/MultiSafepay/fastcheckout-ios-sdk" target="_blank">GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Add the FastCheckoutKit.xcframework as an embedded framework into your project. 
 3. In Finder, open the folder where you downloaded FastCheckoutKit.framework to, and then drag it into the Project Navigator of your application’s Xcode project.
 4. If you haven't already copied the framework into your project folder, click **Copy items**.

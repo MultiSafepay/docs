@@ -99,7 +99,7 @@ The customer's bank, which verifies transaction information and sends funds to t
 
 ---
 #### know your customer (KYC)
-As a payment service provider and acquirer, MultiSafepay is legally required to perform KYC checks on the merchant and their site, business bank account, and the account holder.
+As a payment service provider and acquirer, MultiSafepay is legally required to perform KYC checks on the merchant and their website, business bank account, and the account holder.
 
 ---
 #### merchant

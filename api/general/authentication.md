@@ -8,7 +8,7 @@ hidden: false
 
 All requests to our API require authentication. 
 
-Include your [site API key](/docs/sites#site-id-api-key-and-security-code) as an HTTP header in your request: `api_key`
+Include your [website API key](/docs/sites#site-id-api-key-and-security-code) as an HTTP header in your request: `api_key`
 [block:callout]
 {
   "type": "danger",
