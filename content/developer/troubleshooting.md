@@ -37,22 +37,22 @@ Check that your account ID is properly formatted.
 Your account ID appears in the top-right corner of your dashboard.
 
 ---
-### 1004: Invalid site ID
+### 1004: Invalid website ID
 
-Deprecated: The [`site_id`](/docs/sites#site-id-api-key-and-security-code) was invalid, or doesn’t match the account ID. 
+Deprecated: The [`website_id`](/docs/sites#site-id-api-key-and-security-code) was invalid, or doesn’t match the account ID. 
 
 ---
 ### 1005: Invalid security code
 
-Deprecated: The [security code](/docs/sites#site-id-api-key-and-security-code) was invalid, or doesn't match the account ID or site ID. 
+Deprecated: The [security code](/docs/sites#site-id-api-key-and-security-code) was invalid, or doesn't match the account ID or website ID. 
 
 ---
 ### 1006: Invalid transaction ID
 
 The `transaction_id` was invalid. 
 
-The transaction ID must be unique. The transaction ID you provided may have already been used for a completed transaction for that site ID. 
-Consider creating a new site profile in your dashboard.
+The transaction ID must be unique. The transaction ID you provided may have already been used for a completed transaction for that website ID. 
+Consider creating a new website profile in your dashboard.
 
 ---
 ### 1007: Invalid IP address
@@ -93,7 +93,7 @@ The MD5 signature supplied with the message doesn’t match the message contents
 
 - Check that the values used to calculate the MD5 signature are correct.
 - Remove unnecessary blank spaces from the MD5 signature.
-- Calculate the MD5 hash from the concatenation of the amount, currency, account ID, site ID, and transaction ID.
+- Calculate the MD5 hash from the concatenation of the amount, currency, account ID, website ID, and transaction ID.
 
 ---
 ### 1014: Unspecified error
@@ -114,7 +114,7 @@ The request is missing required information.
 
 This error most commonly occurs when the customer is directed to a payment page, or when you generate a [payment link](/docs/payment-links/).
 
-Check that you included the [`site_id`, security code](/docs/sites#site-id-api-key-and-security-code), and transaction ID.
+Check that you included the [`website_id`, security code](/docs/sites#site-id-api-key-and-security-code), and transaction ID.
 
 ---
 ### 1017: Insufficient funds
@@ -131,11 +131,11 @@ The `country` was not recognized.
 Check that the country code is in correct ISO3166-1 format.
 
 ---
-### 1019: Site is inactive
+### 1019: Website is inactive
 
-The site is blocked in your account.
+The website is blocked in your account.
 
-[Unblock the site](/docs/sites#blockunblock-a-site) in your MultiSafepay dashboard:
+[Unblock the website](/docs/sites#blockunblock-a-site) in your MultiSafepay dashboard:
 
 ---
 ### 1020: Account is blocked
@@ -165,7 +165,7 @@ The `gateway` is unavailable. This error can occur with <<glossary:direct>> requ
 
 - Check whether the payment method supports <<glossary:direct>> requests.
 - Ensure you specified a gateway in the create order request.
-- Check if the site is correctly configured for <<glossary:direct>> requests.
+- Check if the website is correctly configured for <<glossary:direct>> requests.
 - For payment components, check if the correct API token is used. Do not use an API key. 
 
 ---
@@ -259,7 +259,7 @@ The API key is not valid.
 
 Check that:
 
-- You used the correct [site API key](/docs/sites#site-id-api-key-and-security-code).
+- You used the correct [website API key](/docs/sites#site-id-api-key-and-security-code).
 - The API key was formatted correctly.
 - You used a live key in the live environment, and a test key in the test environment.
 

@@ -32,7 +32,7 @@ To process payments from a website operated by a separate legal entity, you must
    </details>
 
 <details id="how-to-connect-to-backend">
-<summary>How to connect a site to your backend</summary>
+<summary>How to connect a website to your backend</summary>
 <br>
 
 To connect a website to your <<glossary:backend>>, enter the required details: 
@@ -69,7 +69,7 @@ To delete a website:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Websites**.
-3. On the row of the relevant site, click ❌   **Disable payments** > **Delete**.
+3. On the row of the relevant website, click ❌   **Disable payments** > **Delete**.
 
 ✅ The website profile disappears from the **Websites** page.
 
@@ -142,7 +142,7 @@ You can specify how your company name appears on customer bank statements (if su
 To set how your company name displays, follow these steps:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Websites**, and then click the relevant site.
+2. Go to **Websites**, and then click the relevant website.
 3. In the **Website name** field, enter the name to display (maximum 35 characters).
 4. Click **Save**.
 

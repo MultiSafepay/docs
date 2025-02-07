@@ -140,7 +140,7 @@ You cannot make payouts if:
     <summary>How to resolve</summary>
     <br>
 
-    You can process payments immediately after creating a MultiSafepay test account and adding your site. But MultiSafepay holds your funds in your account balance until your account is fully activated.
+    You can process payments immediately after creating a MultiSafepay test account and adding your website. But MultiSafepay holds your funds in your account balance until your account is fully activated.
 
     To check if your account is fully activated, follow these steps:
 
@@ -148,7 +148,7 @@ You cannot make payouts if:
        If your account is not fully activated, on the dashboard home page, under **Alerts**, a message appears that your account is incomplete. 
     2. Click **Go to activation**.
 
-    We check and approve your account details and the information on your site. Once approved, we will send you an email that your account is fully activated. 
+    We check and approve your account details and the information on your website. Once approved, we will send you an email that your account is fully activated. 
 
     </details>
 
