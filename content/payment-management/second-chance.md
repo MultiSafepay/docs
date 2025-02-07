@@ -33,7 +33,7 @@ Second Chance emails are **not** sent:
 # Activation
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Webistes**, and then click the relevant website.
+2. Go to **Websites**, and then click the relevant website.
 3. On the **Website profile** page, under **Website functionality**, select the **Enable Second Chance** checkbox.
 4. Click **Save**.
 
