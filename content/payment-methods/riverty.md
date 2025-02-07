@@ -51,13 +51,13 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 To activate Riverty for your account, email Riverty at <sales@riverty.com>  
 
-Riverty provides you with an API key per country and per site, and you must accept Riverty's terms and conditions for each. 
+Riverty provides you with an API key per country and per website, and you must accept Riverty's terms and conditions for each. 
 
 # Integration
 
 ### API
 
-- You will need an API key from Riverty per country per [site](/docs/sites/).
+- You will need an API key from Riverty per country per [website](/docs/sites/).
 - See API reference – [Create order](/reference/createorder/) > BNPL order.
   
   <details id="example-requests"> 

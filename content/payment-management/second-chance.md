@@ -14,7 +14,7 @@ Second Chance emails are sent:
 
 - 1 hour after the customer initiates the payment, and a second email after 24 hours.
 - For manually generated [payment links](/docs/payment-links/) if the customer doesn't click the link to complete payment.
-- For a transaction for the same customer, email address, merchant, and site as a previous transaction initiated **more than** 120 minutes ago, even if the amount is different.
+- For a transaction for the same customer, email address, merchant, and website as a previous transaction initiated **more than** 120 minutes ago, even if the amount is different.
 
 Second Chance emails are **not** sent:
 
@@ -22,7 +22,7 @@ Second Chance emails are **not** sent:
 - For [recurring payments](/docs/recurring-payments/)
 - If you have another **Completed** transaction with the same `order_id` and/or `session_id`
 - For each separate transaction for orders with multiple linked transactions (one email is sent per `order_id` and `session_id`
-- For a transaction for the same customer, email address, merchant, and site as a previous transaction initiated **less than** 120 minutes ago, even if the amount is different.
+- For a transaction for the same customer, email address, merchant, and website as a previous transaction initiated **less than** 120 minutes ago, even if the amount is different.
 
 
 # Prerequisites
@@ -33,8 +33,8 @@ Second Chance emails are **not** sent:
 # Activation
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Sites**, and then click the relevant site.
-3. On the **Site profile** page, under **Site functionality**, select the **Enable Second Chance** checkbox.
+2. Go to **Webistes**, and then click the relevant website.
+3. On the **Website profile** page, under **Website functionality**, select the **Enable Second Chance** checkbox.
 4. Click **Save**.
 
 # Integration

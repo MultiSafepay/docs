@@ -14,7 +14,7 @@ You can style emails to customers, payment pages, and success pages to match you
 Use our pre-formatted and/or pre-written templates and populate them with your content.
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-2. Go to **Settings** > **Email styling**, and then click the relevant site.  
+2. Go to **Settings** > **Email styling**, and then click the relevant website.  
 3. On the **Email templates** page, click **Add new**.   
 5. From the **Type** list, select the template type.  
 
@@ -259,8 +259,8 @@ Use our pre-formatted and/or pre-written templates and populate them with your c
     | PHONE                         | Your company phone number  |
     | REFUNDDESTINATION             | The bank account number to receive a refund |
     | REPORT EMAIL                  | Your reports email address |
-    | SITENAME                      | The site name |
-    | SITEURL                       | The site URL |
+    | SITENAME                      | The website name |
+    | SITEURL                       | The website URL |
     | STATE                         | The province or state |
     | STATUS                        | The <<glossary:transaction status>> |
     | SUBJECT                       | The email subject line |
@@ -287,7 +287,7 @@ Use our pre-formatted and/or pre-written templates and populate them with your c
     3. Under **Upload a new file**, select the relevant file, and then click **Choose file**. 
     4. Under **Upload queue**, click **Upload** or **Upload all**.
        The file appears under **File directory**.
-    5. Go to **Settings** > **Email styling**, and then click the relevant site.
+    5. Go to **Settings** > **Email styling**, and then click the relevant website.
     6. At the end of the row of the relevant email, click the orange pen icon to edit the template.
     7. Click the **Image** icon in the first row of the editor.
     8. In the **Image properties** dialog, under **URL**, click **Browse server**.
