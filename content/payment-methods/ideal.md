@@ -144,9 +144,40 @@ iDEAL supports a number of Dutch <<glossary:issuers>>:
 - Van Lanschot Kempen
 - Yoursafe
 
----
-
 </details>
+
+## iDEAL redirection
+
+For iDEAL redirect requests, the customer will be automatically redirected to the iDEAL payment page after clicking your payment link. You can disable this by adding the `show_pre` parameter and setting it to `true`.
+
+#### Example
+```json
+{
+  "payment_options": {
+    "close_window": false
+  },
+  "customer": {
+    "locale": "en_US",
+    "disable_send_email": false
+  },
+  "checkout_options": {
+    "validate_cart": false
+  },
+  "days_active": 30,
+  "seconds_active": 2592000,
+  "gateway": {
+    "IDEAL": {
+        "show_pre": true
+    }
+  },
+  "type": "redirect",
+  "order_id": "test-order-0001",
+  "currency": "EUR",
+  "amount": 1000,
+  "description": "Test order description"
+}
+```
+---
 
 <br>
 
