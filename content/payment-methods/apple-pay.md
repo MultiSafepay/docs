@@ -70,10 +70,10 @@ To activate Apple Pay, you must have [card payments](/docs/card-payments/) activ
    We check your eligibility and if approved, activate the payment method for your account. 
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. To activate the payment method for:
-    - All sites, go to **Settings** > **Payment methods**.
-    - A specific site:
-      - Go to **Sites**, and then click the relevant site.
-      - On the **Site profile** page, under **Payment methods**, click **Select payment methods**.
+    - All websites, go to **Settings** > **Payment methods**.
+    - A specific website:
+      - Go to **Websites**, and then click the relevant website.
+      - On the **Website profile** page, under **Payment methods**, click **Select payment methods**.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
@@ -95,8 +95,8 @@ Then, apply to MultiSafepay for Apple Pay, and activate it in your dashboard.
    We check your eligibility and if approved, activate the payment method for your account. 
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. To activate the payment method for:
-- All sites, go to **Settings** > **Payment methods**.
-- A specific site, go to **Sites**, and then click the relevant site.
+- All websites, go to **Settings** > **Payment methods**.
+- A specific website, go to **Websites**, and then click the relevant website.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>

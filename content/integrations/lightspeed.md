@@ -22,7 +22,7 @@ slug: 'lightspeed'
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- A MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code)
+- A MultiSafepay website [API key](/docs/sites#site-id-api-key-and-security-code)
 - The app only supports one account per webshop
 
 # Installation 
@@ -36,7 +36,7 @@ slug: 'lightspeed'
 5. In the dialog, approve the permissions required for the app.  
    You are redirected to Lightspeed – <a href="https://lightspeed.multisafepay.com/install" target="_blank">MultiSafepay: How to log in</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 6. In the **Setup** page:
-  - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
+  - Enter your email address, [account ID and website API key](/docs/sites#site-id-api-key-and-security-code).
   - Select **Test** or **Live** environment, and then click **Save and continue**.  
 You are redirected to the **Settings** page.
 7. We recommend enabling:
@@ -51,7 +51,7 @@ You are redirected to the **Settings** page.
 
 ## API keys and environments
 
-You can change your [site API key](/docs/sites/#site-id-api-key-and-security-code) or environment (live or test) after installation.
+You can change your website [API key](/docs/sites/#site-id-api-key-and-security-code) or environment (live or test) after installation.
 
 <details id="how-to-change-api-keys-and-environments">
 <summary>How to change API keys and environments</summary>
@@ -153,7 +153,7 @@ Lightspeed supports [Payment Components](/docs/payment-components/), which:
 2. Go to **Apps** > **Purchased apps** > **MultiSafepay payments**.
 3. Click **Go to app**.
 4. In the **Setup** page:
-  - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
+  - Enter your email address, [account ID and website API key](/docs/sites#site-id-api-key-and-security-code).
   - Select **Test** or **Live** environment, and then click **Save and continue**.  
 You are redirected to the **Settings** page.
 5. On the **Payment method settings** tab:
@@ -206,10 +206,10 @@ To use MultiSafepay payment method icons, see GitHub <a href="https://github.com
 </details>
 
 <details id="payment-methods-logos-in-your-site-footer">
-<summary>Payment methods logos in your site footer</summary>
+<summary>Payment methods logos in your website footer</summary>
 <br>
 
-By default, the app does **not** support adding payment methods logos to your site footer. We provide a script for this, or you can ask your developer to add the logos to your theme. Themes can differ and you may need to make some changes for it to function.
+By default, the app does **not** support adding payment methods logos to your website footer. We provide a script for this, or you can ask your developer to add the logos to your theme. Themes can differ and you may need to make some changes for it to function.
 
 **How to add logos via our script**
 
@@ -217,7 +217,7 @@ By default, the app does **not** support adding payment methods logos to your si
 2. Go to **Apps** > **Purchased apps** > **MultiSafepay payments**.
 3. Click **Go to app**.
 4. In the **Setup** page:
-  - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
+  - Enter your email address, [account ID and website API key](/docs/sites#site-id-api-key-and-security-code).
   - Select **Test** or **Live** environment, and then click **Save and continue**.  
 You are redirected to the **Settings** page.
 5. On the **Storefront payment icons** tab, click **Copy to clipboard**. 
@@ -247,7 +247,7 @@ By default the logos are 16 px high. In most themes, footer logos are found in t
 
 **How to add missing logos**  
 
-Logos may be missing due to your site theme settings. 
+Logos may be missing due to your website theme settings. 
 
 To add missing payment method logos, follow these steps:
 
@@ -347,7 +347,7 @@ You can't refund more than the original amount in your backend.
 2. Go to **Apps** > **Purchased apps** > **MultiSafepay payments**.
 3. Click **Go to app**.
 4. In the **Setup** page:
-  - Enter your email address, [account ID and site API key](/docs/sites#site-id-api-key-and-security-code).
+  - Enter your email address, [account ID and website API key](/docs/sites#site-id-api-key-and-security-code).
   - Select **Test** or **Live** environment, and then click **Save and continue**.  
 You are redirected to the **Settings** page.
 3. On the **Allow refunds** tab, select the **Refunds enabled** checkbox.

@@ -15,7 +15,7 @@ Under the PCI DSS, payment service providers and businesses that handle card dat
 Multisafepay is PCI DSS level 1 certified. This means you can accept card payments through MultiSafepay [payment pages](/docs/payment-pages/).
 
 # Required information 
-If you accept card payments, you must include the following information on your site:
+If you accept card payments, you must include the following information on your website:
 
 - Official company name and registration number in the companies register
 - Full company address, email address, and phone number

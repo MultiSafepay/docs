@@ -59,8 +59,8 @@ These are the supported payment methods:
 
 # Integration 
 
-- [Single payment method integration](/docs/payment-component-single/): Embed a single payment method into your site
-- [Multiple payment method integration](/docs/payment-component-multiple/): Embed multiple payment methods into your site
+- [Single payment method integration](/docs/payment-component-single/): Embed a single payment method into your website
+- [Multiple payment method integration](/docs/payment-component-multiple/): Embed multiple payment methods into your website
 - [Payment component customization manual](/docs/payment-component-customization/)
 - [Previous release integration manual](/docs/payment-component-previous-release/)
 <br>
