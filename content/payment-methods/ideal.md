@@ -56,7 +56,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 | MultiSafepay has collected payment. | Completed | Completed |
 | The customer cancelled the transaction via their bank. | Void   | Void/Cancelled   |
 | iDEAL processing error. | Declined   | Declined   |
-| The customer didn't complete payment within 1.5 hours. | Expired | Expired |
+| The customer didn't complete payment within 1 hour. | Expired | Expired |
 | **Refunds:** Refund initiated. | Initialized | Initialized |
 | **Refunds:** Refund pending (banking only).  | Reserved | Reserved |
 | **Refunds:** Refund complete. | Completed | Completed |
@@ -65,8 +65,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. To activate the payment method for:
-- All sites, go to **Settings** > **Payment methods**.
-- A specific site, go to **Sites**, and then click the relevant site.
+- All websites, go to **Settings** > **Payment methods**.
+- A specific website, go to **Websites**, and then click the relevant website.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
@@ -86,7 +86,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   </details>
 
-- Transactions expire after 1.5 hours.
+- Transactions expire after 1 hour.
 
 ### Ready-made integrations
 - Banking is supported in most [ready-made integrations](/docs/our-integrations/), **except** ZenCart. 
@@ -113,7 +113,7 @@ To test iDEAL payments, see Testing payment methods - [Banking methods](/docs/te
 
 ## Brand recognition
 
-To increase brand recognition for customers, the name of your website appears on the iDEAL payment page and "[Your site name] by MultiSafepay" on the customer's bank statement.
+To increase brand recognition for customers, the name of your website appears on the iDEAL payment page and "[Your website name] by MultiSafepay" on the customer's bank statement.
 
 ## iDEAL QR
  
@@ -144,9 +144,44 @@ iDEAL supports a number of Dutch <<glossary:issuers>>:
 - Van Lanschot Kempen
 - Yoursafe
 
----
-
 </details>
+
+## iDEAL redirection
+
+
+For iDEAL redirect requests, the customer will be automatically redirected to the iDEAL payment page after clicking your payment link. To disable this, set `payment_options.settings.gateways.IDEAL.show_pre` to `true`.
+
+#### Example
+```json
+{
+  "payment_options": {
+    "close_window": false,
+    "settings": {
+      "gateways": {
+        "IDEAL": {
+          "show_pre": true
+        }
+      }
+    }
+  },
+  "customer": {
+    "locale": "en_US",
+    "disable_send_email": false
+  },
+  "checkout_options": {
+    "validate_cart": false
+  },
+  "days_active": 30,
+  "seconds_active": 2592000,
+  "gateway":"IDEAL",
+  "type": "redirect",
+  "order_id": "test-order-0001",
+  "currency": "EUR",
+  "amount": 1000,
+  "description": "Test order description"
+}
+```
+---
 
 <br>
 

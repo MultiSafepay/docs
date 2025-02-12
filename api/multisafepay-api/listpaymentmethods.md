@@ -1,7 +1,7 @@
 ---
 title: List payment methods
 category: 62430422470152003dc86e53
-slug: listpaymentmethods-1
+slug: listpaymentmethods-1 
 ---
 
 ### Update iDeal 2.0
