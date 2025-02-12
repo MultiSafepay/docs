@@ -17,6 +17,7 @@ The webhook is triggered when we have data to send you, or when the <<glossary:o
 
 - A customer completes payment
 - A customer's payment is declined or fails
+- A customer begins the payment process but does not finalize it
 - An order has shipped
 - A refund is processed
 
@@ -203,6 +204,10 @@ Check the <<glossary:order status>> in the `status` field. If necessary, update 
 **⚠️ Note:** You can ignore notifications that:
 - Don't have the `timestamp` parameter in the URL  
 - Have the same <<glossary:order status>> 
+
+### Pre-transactions
+
+If a customer initiates a payment process but does not finalize it, and no **PSP ID** (transaction reference number) is associated with the payment session, the corresponding order status will be updated to **Canceled** in your <<glossary:backend>>.
 
 ## 2. Validate the request
 
