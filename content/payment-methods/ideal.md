@@ -148,13 +148,20 @@ iDEAL supports a number of Dutch <<glossary:issuers>>:
 
 ## iDEAL redirection
 
-For iDEAL redirect requests, the customer will be automatically redirected to the iDEAL payment page after clicking your payment link. You can disable this by adding the `show_pre` parameter and setting it to `true`.
+
+For iDEAL redirect requests, the customer will be automatically redirected to the iDEAL payment page after clicking your payment link. To disable this automatic redirection, you can modify the `payment_options` parameter of your payment request to include the following parameters:
+
 
 #### Example
 ```json
 {
   "payment_options": {
-    "close_window": false
+    "close_window": false,
+    "gateway": {
+        "IDEAL": {
+            "show_pre": true
+        }
+    }
   },
   "customer": {
     "locale": "en_US",
@@ -165,11 +172,7 @@ For iDEAL redirect requests, the customer will be automatically redirected to th
   },
   "days_active": 30,
   "seconds_active": 2592000,
-  "gateway": {
-    "IDEAL": {
-        "show_pre": true
-    }
-  },
+  "gateway":"IDEAL",
   "type": "redirect",
   "order_id": "test-order-0001",
   "currency": "EUR",
