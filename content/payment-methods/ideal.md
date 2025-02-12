@@ -154,7 +154,12 @@ For iDEAL redirect requests, the customer will be automatically redirected to th
 ```json
 {
   "payment_options": {
-    "close_window": false
+    "close_window": false,
+    "gateway": {
+        "IDEAL": {
+            "show_pre": true
+        }
+    }
   },
   "customer": {
     "locale": "en_US",
@@ -165,11 +170,7 @@ For iDEAL redirect requests, the customer will be automatically redirected to th
   },
   "days_active": 30,
   "seconds_active": 2592000,
-  "gateway": {
-    "IDEAL": {
-        "show_pre": true
-    }
-  },
+  "gateway":"IDEAL",
   "type": "redirect",
   "order_id": "test-order-0001",
   "currency": "EUR",
