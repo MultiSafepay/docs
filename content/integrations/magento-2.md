@@ -97,7 +97,7 @@ php bin/magento module:enable MultiSafepay_ConnectCatalogInventory
     - **General information:** Contains all the main support information. We recommend reading this first.
     - **General settings:** Contains all main settings.  
     - Here you can configure all <<glossary:gateways>> and gift cards.  
-    - Enter your site [API key](/docs/sites#site-id-api-key-and-security-code).   
+    - Enter your website [API key](/docs/sites#site-id-api-key-and-security-code).   
     - **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
         - Make sure you have activated your selected payment methods in your MultiSafepay dashboard.
     - **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  
@@ -272,7 +272,9 @@ You must:
 <summary>How to activate Magento Vault</summary>
 <br>
  
-To activate Magento Vault, and enable [recurring payments](/docs/recurring-payments), email a request to <sales@multisafepay.com>.
+
+To activate Magento Vault, and enable <a href="https://docs.multisafepay.com/docs/recurring-payments" target="_blank">recurring payments</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, email a request to <sales@multisafepay.com>. 
+
 
 </details>
 

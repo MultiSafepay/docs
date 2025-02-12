@@ -511,9 +511,9 @@ Our partner <a href="https://www.planyo.com/" target="_blank">Planyo</a> <i clas
 To integrate Planyo with MultiSafepay, follow these steps:
 
 1. Sign in to your Planyo account.
-2. Go to **Site settings** > **Online payments**.
+2. Go to **Website settings** > **Online payments**.
 3. Select **MultiSafepay**.
-4. Enter your MultiSafepay account ID, [site ID and security code](/docs/sites#site-id-api-key-and-security-code).  
+4. Enter your MultiSafepay account ID, [website ID and security code](/docs/sites#site-id-api-key-and-security-code).  
 5. Make a test reservation. 
 
 </details>
@@ -534,7 +534,7 @@ For more information, email MplusKASSA at <info@mpluskassa.nl>
 <summary>Known error</summary>
 <br>
 
-When customers successfully complete payment with iDEAL, they don't always return to your site, which can briefly delay the <<glossary:transaction status>> changing to **Completed**. 
+When customers successfully complete payment with iDEAL, they don't always return to your website, which can briefly delay the <<glossary:transaction status>> changing to **Completed**. 
 
 If your business model requires you to retrieve the status as quickly as possible, MultiSafepay can enable a script to query iDEAL 5 times in the first minute, and then every minute until **Completed**.  
 
@@ -563,7 +563,7 @@ To integrate MultiSafepay as your payment provider, follow these steps:
 1. Sign in to your HostBill account.
 2. Click **Extras** > **Plugins**.
 3. From the left menu, select **Payment modules** > **MultiSafepay**.
-4. Click **Edit general settings**, and then enter your [MultiSafepay site API key](/docs/sites#site-id-api-key-and-security-code).
+4. Click **Edit general settings**, and then enter your [MultiSafepay website API key](/docs/sites#site-id-api-key-and-security-code).
 5. Click **Save changes**.
 
 **Step 2.** Configure the module as required, e.g. the <a href="https://hostbill.atlassian.net/wiki/spaces/DOCS/pages/559120402/MultiSafepay" target="_blank">module name and callback URL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
@@ -601,7 +601,7 @@ To integrate with MultiSafepay, follow these steps:
 
 1. Sign in to your Twikey account.
 2. Go to **Settings** > **Integrations** > **MultiSafepay**.
-3. Enter your [MultiSafepay site API key](/docs/sites#site-id-api-key-and-security-code).
+3. Enter your [MultiSafepay website API key](/docs/sites#site-id-api-key-and-security-code).
 4. To add a payment link to your invoices, update your invoice settings in your <a href="https://www.beta.twikey.com/support/creditor/invoices/invoice_options.html" target="_blank">Twikey template settings</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 5. To create a payment link, go to <a href="https://www.beta.twikey.com/support/creditor/paymentlinks/paymentlink_management.html" target="_blank">Payment links</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> enter the relevant information, e.g. amount, customer.
 

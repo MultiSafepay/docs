@@ -65,9 +65,11 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
    We check your eligibility and if approved, activate the payment method for your account. 
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. To activate the payment method for:
-- All sites, go to **Settings** > **Payment methods**.
-- A specific site, go to **Sites**, and then click the relevant site.
+- All websites, go to **Settings** > **Payment methods**.
+- A specific website, go to **Websites**, and then click the relevant website.
 4. Select the checkbox for the payment method, and then click **Save changes**.
+
+**⚠️ Note:** By default, Direct Debit payments are limited to one payment per IBAN every 24 hours. This restriction affects recurring payments. To request a change to this limit, email <sales@multisafepay.com>.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <risk@multisafepay.com>
 
@@ -144,6 +146,8 @@ If the IBAN or BIC is incorrect, our bank informs us the next business day.
 |RR04|Regulatory reason| Contact your bank. |
 |SL01|Specific service offered by debtor agent| Contact the debtor. |
 |TM01|File received after cut-off time| |
+|CUST|Is used sporadically (known to the collector)| Contact your bank. |
+|DUPL|Is used sporadically (duplicate payment)| Contact your bank. |
 <br>
 For more information in:
 
