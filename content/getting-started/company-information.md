@@ -36,9 +36,9 @@ We will request new documentation, such as [UBO statements](/docs/onboarding#4-i
 
 If a different company is taking over your account, we recommend opening a **new** account to separate the money flow. 
 
-Make sure you update all company details on your [site(s)](/docs/sites/), including the registration number, VAT number, and address. 
+Make sure you update all company details on your [website(s)](/docs/sites/), including the registration number, VAT number, and address. 
 
-The company details on each site must match the details in your account.
+The company details on each website must match the details in your account.
 <br>
 
 ## Notification emails

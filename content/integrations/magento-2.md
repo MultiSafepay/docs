@@ -97,7 +97,7 @@ php bin/magento module:enable MultiSafepay_ConnectCatalogInventory
     - **General information:** Contains all the main support information. We recommend reading this first.
     - **General settings:** Contains all main settings.  
     - Here you can configure all <<glossary:gateways>> and gift cards.  
-    - Enter your site [API key](/docs/sites#site-id-api-key-and-security-code).   
+    - Enter your website [API key](/docs/sites#site-id-api-key-and-security-code).   
     - **Payment methods:** Contains the configuration options for all MultiSafepay payment methods.  
         - Make sure you have activated your selected payment methods in your MultiSafepay dashboard.
     - **Gift cards:** Contains the configuration options for all gift cards supported by MultiSafepay.  

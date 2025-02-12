@@ -107,7 +107,7 @@ Release date: Mar 28, 2014
 2. Sign in to your OsCommerce <<glossary:backend>>.
 3. Go to **Modules** > **Payment**.
 4. Click **Install modules** in the top-right corner.
-5. Enter your [API key](/docs/sites#site-id-api-key-and-security-code), and then complete the other fields as required.
+5. Enter your website [API key](/docs/sites#site-id-api-key-and-security-code), and then complete the other fields as required.
 
 # User guide
 

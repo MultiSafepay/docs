@@ -38,7 +38,7 @@ slug: 'prestashop-1-6'
 3. Go to **Modules and services** > **Payments and gateways**.  
     **⚠️ Note:** You must install and configure the MultiSafepay Core Module (MultiSafepay) because all payment methods require certain settings and/or the API key in the core module.
 4. In the next screen, proceed with the installation.
-5. Enter your [API key](/docs/sites#site-id-api-key-and-security-code), and then click **Save**.
+5. Enter your website [API key](/docs/sites#site-id-api-key-and-security-code), and then click **Save**.
 6. On the **Payments** tab, enable the relevant payment methods.
 <br>
 

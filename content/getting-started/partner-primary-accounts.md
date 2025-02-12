@@ -16,9 +16,9 @@ To create a new affiliated account in your dashboard, follow these steps:
 1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">partner/primary account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to the affiliate dashboard, and then click **Affiliates**. 
 3. In the affiliate dashboard top-right corner, copy the **Partnerlink** and send it to your affiliates.
-4. To customize a welcome email, go to **Settings** > **Email styling**, and then click the relevant site.
+4. To customize a welcome email, go to **Settings** > **Email styling**, and then click the relevant website.
 5. On the **Email templates** page, click **Add new**.
-6. On the **Email styling for <site name>** page, under **Add new email template**, click **Load default template**.
+6. On the **Email styling for \<your-website-name>** page, under **Add new email template**, click **Load default template**.
 7. Edit the template and fill out the fields as required.
 8. Click **Save**.
 

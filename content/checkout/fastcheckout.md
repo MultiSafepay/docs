@@ -92,9 +92,9 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
 
 # Activation
 
-Email a request to activate FastCheckout for specific sites under your account to <sales@multisafepay.com>
+Email a request to activate FastCheckout for specific websites under your account to <sales@multisafepay.com>
 
-Specify in your request the relevant [site IDs](/docs/sites#site-id-api-key-and-security-code). 
+Specify in your request the relevant [website IDs](/docs/sites#site-id-api-key-and-security-code). 
 
 # Integration
 
@@ -103,7 +103,7 @@ To integrate FastCheckout as a hosted page via our API, see:
 - API reference – [Create order](/reference/createorder) > FastCheckout order
 - Recipes – <a href="https://docs.multisafepay.com/recipes/create-a-fastcheckout-page" target="_blank">Create a FastCheckout page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
 
-To embed FastCheckout into your site, see [FastCheckout JavaScript integration](/docs/fastcheckout-integration/).
+To embed FastCheckout into your website, see [FastCheckout JavaScript integration](/docs/fastcheckout-integration/).
 
 If you cannot send your available shipping options for the shipping element in your [create order](/reference/createorder) request, see [FastCheckout shipping options request](/docs/fastcheckout-shipping-options/).
 
@@ -121,8 +121,8 @@ You can add your brand's logo at the top of the FastCheckout page.
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Sites**, and then click the relevant site.
-3. On the **Site profile** page, under **Functionality**, from the **FastCheckout logo** list, select the relevant logo. 
+2. Go to **Websites**, and then click the relevant website.
+3. On the **Website profile** page, under **Functionality**, from the **FastCheckout logo** list, select the relevant logo. 
 4. Click **Save changes**.
 
 ---

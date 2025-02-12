@@ -13,11 +13,11 @@ You can still perform most business operations with masked IBANs, e.g. processin
 
 # How to unmask IBANs
 
-To unmask IBANs for a specific site, follow these steps:
+To unmask IBANs for a specific website, follow these steps:
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Sites**, and then click the relevant site.
-3. Under **Site functionality**, select the **Unmask IBANs in API requests and responses** checkbox.
+2. Go to **Websites**, and then click the relevant website.
+3. Under **Website functionality**, select the **Unmask IBANs in API requests and responses** checkbox.
 
 When unmasked, the full IBAN is displayed, e.g. `NL87ABNA0000001234`.
 <br>
