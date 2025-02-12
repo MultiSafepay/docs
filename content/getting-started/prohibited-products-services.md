@@ -21,7 +21,7 @@ Dutch law states that alcohol cannot be sold to customers under the age of **18*
 - Dutch driving license
 - European or Dutch ID card
 
-If you sell alcohol, you must clearly state it on your site.
+If you sell alcohol, you must clearly state it on your website.
 
 # Prohibited products and services
 

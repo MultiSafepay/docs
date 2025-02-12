@@ -47,7 +47,7 @@ To see which Apple products are compatible with Apple Pay, see Apple Developer �
 
 ## 2. Request to register 
 
-To request registration for Apple Pay direct, email the relevant site ID to <support@multisafepay.com>
+To request registration for Apple Pay direct, email the relevant website ID to <support@multisafepay.com>
 
 ## 3. Check for Apple Pay support
 
@@ -119,7 +119,7 @@ When the customer clicks or taps the ** Pay** button:
     var session = new ApplePaySession(10, ApplePayRequest);
     ```
 
-    - As the first argument, specify the Apple Pay version your site supports. 
+    - As the first argument, specify the Apple Pay version your website supports. 
     - As the second argument, pass the `ApplePayRequest` object.
 
     For more information about Apple Pay versions, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_on_the_web_version_history" target="_blank">Apple Pay on the web version history</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
@@ -232,6 +232,51 @@ To test, follow these steps:
 3. Authorize the payment.
 
 ✅ &nbsp; **Success!** The transaction is completed.
+
+### Handling errors
+
+When working with the Apple Pay sandbox environment, make sure to use the **Sandbox Validation URL** when requesting an Apple Pay merchant session.
+
+#### Sandbox Validation URL
+
+```
+https://apple-pay-gateway-cert.apple.com/paymentservices/startSession
+```
+
+#### Production Validation URL
+
+```
+https://apple-pay-gateway.apple.com/paymentservices/startSession
+```
+
+Using the incorrect `validation_url` will result in an error, such as:
+
+```json
+{
+  "errors": [
+    {
+      "message": "Merchant validation error"
+    }
+  ],
+  "message": "Validation failure",
+  "success": false
+}
+```
+
+
+
+Make sure to use the correct **TEST URL**, along with the appropriate website **TEST API key**. Be sure to use the **Sandbox Validation URL** provided above.
+
+#### Example
+
+```curl
+curl -X POST "<https://testapi.multisafepay.com/v1/json/wallets/sessions/applepay">  
+-H "Authorization: Bearer <test-website-api-key>"  
+-d '{  
+"origin_domain": "originDomain",  
+"validation_url": "https://apple-pay-gateway-cert.apple.com/paymentservices/startSession"  
+}'
+```
 
 <br>
 

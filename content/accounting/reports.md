@@ -53,7 +53,7 @@ The accountant export lists all successful incoming and outgoing transactions, i
 | Paymenttype | A MultiSafepay fee, or the payment method |
 | Description 2-4 | Descriptions of the order |
 | Tr status | The <<glossary:transaction status>> |
-| Ms description | The site name, or name of the terminal group |
+| Ms description | The website name, or name of the terminal group |
 | Mt merchanttransactionid | Your unique identifier for the order |
 | Mt cust firstname | The customer’s first name |
 | Mt cust lastname | The customer’s last name |
@@ -110,7 +110,7 @@ This report provides an overview (in Excel or CSV format) of:
 | Merchant ref | Your transaction reference number |
 | Created | The date the transaction was initiated |
 | Completed | The date the funds were settled in your account balance |
-| Site | The site where the customer placed the order |
+| Site | The website where the customer placed the order |
 | First name | The customer's first name |
 | Last name | The customer's last name |
 | Description | A description of the order |
@@ -143,7 +143,7 @@ This report provides insight (in Excel format) into your conversion rate. You ca
 - Customer country and device
 - Day
 - Payment method
-- Site
+- Website
 
 <details id="how-to-generate-conversion-reports">
 <summary>How to generate conversion reports</summary>
@@ -153,8 +153,8 @@ This report provides insight (in Excel format) into your conversion rate. You ca
 2. Go to **Reports** > **Advanced reporting**.
     - Under **Date**, select the date range you want the report to cover.
     - Under **Currency**, select the relevant currency.
-    - Under **Site** and **Site 2**, specify one or two sites (if relevant).
-3. To download, click **XLS** or **XLSX**. 
+    - Under **Website** and **Site 2**, specify one or two websites (if relevant).
+3. To download, click **XLS** or **XLSX**.
 4. Click **Execute report**.
 
 </details >
@@ -243,7 +243,7 @@ This report provides an overview (in Excel format) of the specific transactions 
 | Sub description | A description of a component of the transaction, e.g. an <<glossary:issuer>> fee or currency conversion cost |
 | Sub status | The <<glossary:transaction status>> |
 | Sub ID | MultiSafepay's transaction reference number |
-| Ms description | The site name |
+| Ms description | The website name |
 | Order ID | Your unique identifier for the order |
 | Var1/Var2/Var3 | Additional information |
 
@@ -269,16 +269,16 @@ This report provides an overview (in Excel format) of the total revenue and/or n
 - Customer country and device
 - Day
 - Payment method
-- Site
+- Website
 
 <details id="how-to-generate-sales-reports">
 <summary>How to generate sales reports</summary>
 <br>
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Reports** > **Advanced reporting** > **Site**.
+2. Go to **Reports** > **Advanced reporting** > **Website**.
 3. Under **Date**, select the date range you want the report to cover.
-4. If relevant, specify one or two sites under **Site** and **Site 2**.
+4. If relevant, specify one or two websites under **Website** and **Site 2**.
 5. To download, click **XLS** or **XLSX**. 
 
 </details>
@@ -340,7 +340,7 @@ This report provides an overview (in Excel or PDF format) of all transactions wi
 
 - Fees
 - Amount and currency
-- Sites
+- Websites
 
 <details id="how-to-generate-transaction-summaries">
 <summary>How to generate transaction summaries</summary>
@@ -353,8 +353,8 @@ This report provides an overview (in Excel or PDF format) of all transactions wi
     - **Currency** field: Select the relevant currency.
     - **Status** field: Select the <<glossary:order status>> or <<glossary:transaction status>>, if relevant
     - **Payment method** field: Select the relevant payment method.
-    - **Site** field: Select the relevant site.
-    - **Grouping method** field: Specify if you want to total fees together per **Site**, **Payment method**, or **Country**, or not at all.
+    - **Website** field: Select the relevant website.
+    - **Grouping method** field: Specify if you want to total fees together per **Website**, **Payment method**, or **Country**, or not at all.
     - To group all transactions and only show the daily total, select the **Show per day** checkbox.
 5. Click **Generate report**.
 

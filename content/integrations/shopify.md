@@ -25,7 +25,7 @@ To install, follow these steps:
 2. Check that the payment methods you want to use in Shopify are [activated for your MultiSafepay account](/docs/payment-methods). 
 3. From the Shopify app store, install the <a href="https://apps.shopify.com/multisafepay-payments" target="_blank">MultiSafepay payments app</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 4. Under **Settings**:
-   - **Website API key**: Enter your [site API key](/docs/sites#site-id-api-key-and-security-code).
+   - **Website API key**: Enter your [website API key](/docs/sites#site-id-api-key-and-security-code).
    - **Environment**: Set whether it is a **live** or **test** API key.
 5. Click **Save and continue** (this process might take a few seconds).
     You are redirected to **Settings** > **Payments**.

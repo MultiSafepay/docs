@@ -10,7 +10,7 @@ Before you start processing real transactions with MultiSafepay, we recommend te
 
 # Credentials
 
-For all payment methods **except** Riverty, you need your site's test [API key](/docs/sites#site-id-api-key-and-security-code).
+For all payment methods **except** Riverty, you need your website's test [API key](/docs/sites#site-id-api-key-and-security-code).
 
 # How to make a test payment
 
@@ -20,7 +20,7 @@ For all payment methods **except** Riverty, you need your site's test [API key](
     <summary>In your ready-made integration</summary>
     <br>
 
-    - In your <<glossary:backend>>, enter your test site [API key](/docs/sites#site-id-api-key-and-security-code).
+    - In your <<glossary:backend>>, enter your test website [API key](/docs/sites#site-id-api-key-and-security-code).
     - Place a test order, and then initiate a transaction with the payment method you are testing. 
     
     <br>
@@ -43,7 +43,7 @@ For all payment methods **except** Riverty, you need your site's test [API key](
 6. On the **Transaction details** page, under **Notification history**, to see if you have successfully connected to our system, check that you've correctly received the **notifyMerchantTrans** action.  
     For information about errors, see [HTTP errors](/docs/http-errors/).
 
-✅ **Success!** Once your live account is approved, make sure you use the site API key from your **live** account instead of your test account. 
+✅ **Success!** Once your live account is approved, make sure you use the website API key from your **live** account instead of your test account. 
 
 ---
 # Test payment details
@@ -153,6 +153,8 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <summary>How to test Dotpay</summary>
 <br>
 
+**⚠️ Note:** **Direct** requests are not supported for Dotpay. 
+
 1. [Create an order](/reference/createorder/) > Banking order (Example: Dotpay redirect)
 2. On the Dotpay page, enter in the:
     - **Email address** field: Any email address
@@ -197,18 +199,16 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order (Example: iDEAL direct/redirect)
-2. For <<glossary:redirect>>, select a bank.
-3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
-4. Click **Test**.  
-    The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
+2. For <<glossary:redirect>> orders, open the payment link.
+3. On the **Test platform** page, from the **Test scenario** list, select the desired transaction scenario. Refer to the table below for details. 
+4. Click **Test**.
 
-You can also test the following scenarios:
-
-| Scenario | Description |
-| --- | --- |
-| **Declined** | The transaction was declined. |
-| **Open** **Completed** | The transaction is initiated. <br> After 1 minute, this changes to **Completed**. |
-| **Open** **Declined**  | The transaction is initiated. <br> After 1 minute, this changes to **Declined**. |
+| Scenario      | Description                                                                |
+| ------------- | -------------------------------------------------------------------------- |
+| **Success**   | The transaction is initiated. <br> Transaction will show as **Completed**. |
+| **Failure**   | The transaction is initiated. <br> Transaction will show as **Declined**.  |
+| **Cancelled** | The transaction is initiated. <br> Transaction will show as **Void**.      |
+| **Expired**   | The transaction is initiated. <br> Transaction will show as **Expired**.   |
 
 </details>
 
@@ -408,7 +408,7 @@ To test refunding an order via the API:
 
 **Test credentials**
 
-- [Site API key](/docs/sites#site-id-api-key-and-security-code)
+- [Website API key](/docs/sites#site-id-api-key-and-security-code)
 - <a href="https://docs.klarna.com/resources/test-environment/" target="_blank">Klarna's test credentials</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 **Test a Klarna order** 

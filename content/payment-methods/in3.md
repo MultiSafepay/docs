@@ -56,8 +56,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
    We check your eligibility and if approved, activate the payment method for your account. 
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. To activate the payment method for:
-- All sites, go to **Settings** > **Payment methods**.
-- A specific site, go to **Sites**, and then click the relevant site.
+- All websites, go to **Settings** > **Payment methods**.
+- A specific website, go to **Websites**, and then click the relevant website.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
@@ -78,7 +78,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
   </details>
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-- Transactions expire after 2 hours.
+- iDEAL sends an expiration notification after approximately 2 days. Once we receive the notification, the transaction expires.
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
 
 ### Ready-made integrations
@@ -109,6 +109,10 @@ Different billing and shipping addresses are supported.
 - Maximum amount: 5000 EUR 
 
 You can adjust these limits in the <<glossary:backend>> of our [ready-made integrations](/docs/our-integrations/) to show or hide iDEAL in3 on your checkout page depending on the order value.
+
+## iDEAL account
+
+  Customers are required to have an iDEAL account to complete their payment when using iDEAL in3 as their payment method.
 
 ## Gift cards
 
