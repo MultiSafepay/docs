@@ -7,7 +7,7 @@ parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'currencies'
 ---
 
-You can process payments in a large number of currencies. When customers can pay in their preferred local currency, it increases their trust in your site and therefore your <<glossary:conversion rate>>.
+You can process payments in a large number of currencies. When customers can pay in their preferred local currency, it increases their trust in your website and therefore your <<glossary:conversion rate>>.
 
 For all supported currencies, see [Payment methods per currency](#payment-methods-per-currency) below.
 

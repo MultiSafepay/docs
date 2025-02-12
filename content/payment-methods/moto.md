@@ -40,7 +40,7 @@ Once activated, to process MOTO payments, follow these steps:
 2. Go to **Transactions** > **Mail & phone payments**.
 3. Under **Order details**:  
     - From the **Currency** list, select the currency, and then fill out the **Amount** field.
-    - From the **Site** list, select the relevant site. 
+    - From the **Website** list, select the relevant website. 
     - Optionally, in the **Order ID** field, enter an order ID.
     - In the **Description** text box, enter an order description.
 4. Under **Card details**, enter the payment details provided by the customer by email or telephone. 

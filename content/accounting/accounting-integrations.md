@@ -36,7 +36,7 @@ To connect your Actuals account to your MultiSafepay account:
 2. Go to **Configuration**.
 3. Under **Payment service provider** > **MultiSafepay**, click **Add**.
 4. In the **Configuration name** field, rename the configuration, if relevant.
-5. In the **MultiSafepay API Key** field, enter your MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code), and then click **Save**.
+5. In the **MultiSafepay API Key** field, enter your MultiSafepay [website API key](/docs/sites#site-id-api-key-and-security-code), and then click **Save**.
 6. To check the connection, go to **Configuration**.
 7. Under **In-use sources**, check that the **Status** of your MultiSafepay configuration is **Live**.
 
@@ -82,7 +82,7 @@ PSP Betalingen has developed an integration that connects your MultiSafepay acco
 
 For more information, see PSP Betalingen – <a href="https://www.webwinkelfacturen.nl/koppelingpsp.php?shopsystem=multisafepay&invoicesystem=eboekhouden" target="_blank">Koppeling MultiSafepay e-Boekhouden</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – <a href="https://handleidingen.pspbetalingen.nl/handleiding-multisafepay-eboekhouden" target="_blank">Handleiding: MultiSafepay e-Boekhouden</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. (You will need a MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code).)
+To connect your MultiSafepay account to e-Boekhouden, see PSP betalingen – <a href="https://handleidingen.pspbetalingen.nl/handleiding-multisafepay-eboekhouden" target="_blank">Handleiding: MultiSafepay e-Boekhouden</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. (You will need a MultiSafepay [website API key](/docs/sites#site-id-api-key-and-security-code).)
 
 <br>
 
@@ -536,7 +536,7 @@ For more information, see Yuki - <a href="https://support.yuki.nl/nl/support/sol
 
 To connect Duopact with your MultiSafepay account, see Duopact – <a href="https://www.duopact.nl/nl/contact/" target="_blank">Contact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.  
 
-Provide Duopact with your MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code). They will set up a Yuki account for you. 
+Provide Duopact with your MultiSafepay [website API key](/docs/sites#site-id-api-key-and-security-code). They will set up a Yuki account for you. 
 
 ---
 
@@ -547,7 +547,7 @@ Provide Duopact with your MultiSafepay [site API key](/docs/sites#site-id-api-ke
 <br>
 
 1. Sign in to your <a href="https://portal.yukiconnector.nl/" target="_blank">Duopact account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. If you operate multiple sites, select the relevant site from the top-left menu.
+2. If you operate multiple websites, select the relevant website from the top-left menu.
 3. Go to **Bankmutaties** > **MultiSafepay**.
 4. Click the green button under the **Status** tab.
 

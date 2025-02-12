@@ -100,9 +100,9 @@ We send you an agreement to sign and email back to us.
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. To activate the payment method for:
-- All sites, go to **Settings** > **Payment methods**.
-- A specific site:
-- Go to **Sites**, and then click the relevant site.
+- All websites, go to **Settings** > **Payment methods**.
+- A specific website:
+- Go to **Websites**, and then click the relevant website.
 - Under **Payment methods**, click **Select payment methods**.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 

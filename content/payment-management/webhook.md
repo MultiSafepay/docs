@@ -9,7 +9,7 @@ slug: 'webhook'
 
 MultiSafepay uses a webhook to send updates about orders and other notifications to your web server.
 
-You can configure the webhook at site level or at <<glossary:order>> level.
+You can configure the webhook at website level or at <<glossary:order>> level.
 
 # How it works
 
