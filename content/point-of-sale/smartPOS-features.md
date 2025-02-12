@@ -250,21 +250,24 @@ Click **View** to display the details entered. These details will also appear on
 
 ***
 
-## How to scan qr codes
+## How to enable Order ID input: Manual entry and QR Code scan
 
-You can use the QR code reader within our app to easily recognize order information and include it in a transaction.
+Enabling this feature adds both manual order ID entry and QR code scanning functionality to the transaction process.
 
-1. In the **Settings** section, enable **Insert order**.
-2. When using **Manual input**, select **Scan QR**.
-
-The QR reader is able to detect the following parameters:
-
-- amount
-- order ID
-- description  
-  This information will be included in the payment request. 
-
-</details>
+1. Go to **Features** > **Payment Settings**.
+2. Click the **Insert order** toggle. Both options will be enabled.
+3. On the **Manual Input** screen, choose one of the following methods:
+- **Manual Order ID Entry**:
+  1. Click **Input Order ID** and enter the order ID.
+  2. The information retrieved will be included in the payment request.
+- **Scan QR**:
+    - A QR code must be generated using one of the following formats:
+      - **String**: Contains only the Order ID.
+      - **JSON**: Contains the Order ID, amount, and description of the order.
+  1. Click **Scan QR**.
+  2. Scan the QR code using the terminal's scanner or an external scanner.
+  3. Scanning the QR code will retrieve information based on the format in which the QR code has been generated.
+  4. This information will be included in the payment request.
 
 ***
 
