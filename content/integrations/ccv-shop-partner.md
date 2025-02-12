@@ -20,7 +20,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 1. Sign in to your CCV Shop <<glossary:backend>> and install the MultiSafepay app from the App Store.
 2. Go to **Mijn webshop** > **Instellingen** > **Bestelproces & voorraad** > **Betaalmethoden**.
 3. In the **Electronische betalingen** tab, select **MultiSafepay**.
-4. Enter your [account ID, site ID and security code](/docs/sites#site-id-api-key-and-security-code).
+4. Enter your [account ID, website ID and security code](/docs/sites#site-id-api-key-and-security-code).
 5. If using your MultiSafepay test account, select **Test mode**.
 6. Click **Synchroniseer betaalmethodes met MultiSafepay**, and then click **Save**.
    <br>

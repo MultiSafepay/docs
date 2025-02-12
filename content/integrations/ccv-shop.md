@@ -12,7 +12,7 @@ excerpt: "Technical manual for MultiSafepay's free app."
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- A MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code)
+- A MultiSafepay [website API key](/docs/sites#site-id-api-key-and-security-code)
 
 # Installation and configuration
 
@@ -20,7 +20,7 @@ excerpt: "Technical manual for MultiSafepay's free app."
 2. Go to the **App store** and search for the **MultiSafepay** app.
 3. Once found, select the app then click **Install** button.
 4. Review and accept the permissions required by the app.
-5. Enter your [Site API key](/docs/sites#site-id-api-key-and-security-code), and fill the required fields to configure the app. 
+5. Enter your website [API key](/docs/sites#site-id-api-key-and-security-code), and fill the required fields to configure the app. 
 6. Click the **Install** button to complete the installation.
 7. Go to **My web shop** > **Settings** > **Ordering process & stock** > **Payment methods** and confirm your payments are enabled in the section **MultiSafepay Payment Service provider**
 

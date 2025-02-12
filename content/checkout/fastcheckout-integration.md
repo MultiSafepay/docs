@@ -7,7 +7,7 @@ slug: 'fastcheckout-integration'
 parentDoc: 62fcc05ac034cb06771c46fc
 ---
 
-This technical manual is for embedding FastCheckout into your site using JavaScript.
+This technical manual is for embedding FastCheckout into your website using JavaScript.
 
 # 1. Add the HTML elements
 

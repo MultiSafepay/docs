@@ -12,7 +12,7 @@ slug: 'shopify-payment-apps'
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/) registered in one of the following countries: The Netherlands, Belgium, Spain, Italy, Germany.
-- A MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code).
+- A MultiSafepay [website API key](/docs/sites#site-id-api-key-and-security-code).
 - Country restrictions may apply per payment app.
 
 # Installation
@@ -44,7 +44,7 @@ To install Shopify Payments Apps, follow these steps:
 6. If necessary, log in to your Shopify store.
 7. On your admin page, click **Install**. 
 8. Under **Settings**:
-   - **MultiSafepay website API Key**: Enter your [site API key](/docs/sites#site-id-api-key-and-security-code).
+   - **MultiSafepay website API Key**: Enter your [website API key](/docs/sites#site-id-api-key-and-security-code).
    - **MultiSafepay Environment**: Turn on if you are using a Test API key. Turn off for a Live API key.
 9. Click **Save**.
 10. Under **Payment configuration** click the button **Payment configuration**
