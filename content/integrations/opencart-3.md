@@ -174,6 +174,8 @@ The customer receives the payment link in the email sent by OpenCart containing 
 
 ## Payment methods
 
+Before activating the relevant payment methods in your <<glossary:backend>>, you must first activate them in your MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
+
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>
 <br>

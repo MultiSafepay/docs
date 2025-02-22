@@ -25,6 +25,8 @@ slug: 'pwa-studio-venia'
 
 # Payment methods
 
+Before activating the relevant payment methods in your <<glossary:backend>>, you must first activate them in your MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
+
 By default, this plugin supports all [payment methods supported by our Magento 2 plugin](/docs/magento-2#payment-methods) out of the box, except: 
 - Alipay+ ™ Partner
 - Amazon Pay

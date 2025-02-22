@@ -209,6 +209,8 @@ To generate a payment link in your backend once an order is created, follow thes
 
 ## Payment methods
 
+Before activating the relevant payment methods in your <<glossary:backend>>, you must first activate them in your MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
+
 By default, activated payment methods from your MultiSafepay account appear on the payment method list.
 
 <details id="supported-payment-methods">
@@ -267,6 +269,20 @@ You need to [activate recurring payments](/docs/recurring-payments/) and then en
 
 You can process [Full and partial refunds](/docs/refund-payments/) for all payment methods, **except** <<glossary:BNPL>> for which you can only process full refunds.
 
+<details id="how-to-process-backend-refunds">
+<summary>How to process refunds</summary>
+<br>
+
+1. Sign in to your WooCommerce <<glossary:backend>>. 
+2. Go to **WooCommerce** > **Orders** and select the relevant order. 
+3. In the item panel, click **Refund**.
+4. You can select a full or a partial refund modifying the line items above. The amount will show in **Refund amount**.
+5. There are two ways to process a refund:
+   - **Refund via the selected payment method**, which will process the refund automatically (recommended).
+   - **Refund manually**, where you will have to manually issue the payment through your MultiSafepay <<glossay:backend>>.
+
+</details>
+
 ## Shipping orders
 
 For <<glossary:BNPL>> orders, after shipment, you must change the order status from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
@@ -281,6 +297,20 @@ The plugin supports the WooCommerce checkout and is compatible with most premium
 
 You can use the Checkout Blocks for WooCommerce to customize your checkout. 
 **⚠️ Note:** Only redirect payment methods are supported with this checkout at the moment.
+
+## Second Chance
+
+**MultiSafepay** will send two **Second Chance** reminder emails. In the emails, MultiSafepay will include a link to allow the consumer to finalize the payment. The first **Second Chance** email is sent **1 hour** after the transaction was initiated and the second after **24 hours**. To receive second chance emails, this option must also be activated within your **MultiSafepay** account. Otherwise, it will not work. See - [Second Chance - Activation](/docs/magento-2#second-chance) 
+
+<details id="how-to-activate-second-chance">
+<summary>How to activate Second Chance</summary>
+<br>
+
+1. Sign in to your **WooCommerce** <<glossary:backend>>.
+2. Go to **WooCommerce** > **MultiSafepay Settings** > **Options** > **Second Chance**.
+3. Check the box to activate **Second Chance** reminders.
+
+</details>
 
 ## Surcharges
 
@@ -303,6 +333,29 @@ The Integration Team will do their best to help you install third-party packages
 </details>
 
 ## Troubleshooting
+
+### Debug mode
+
+<details id="how-to-activate-debug-mode">
+<summary>How to activate debug mode</summary>
+<br>
+
+1. In your WooCommerce <<glossary:backend>>, go to **WooCommerce** > **MultiSafepay Settings** > **Options** > **Debug Mode**.
+2. Click on the box to enable debug mode.
+
+</details>
+
+### Logs
+
+<details id="how-to-access-MultiSafepay-logs">
+<summary>How to access MultiSafepay logs</summary>
+<br>
+
+1. Sign in to your WooCommerce <<glossary:backend>>.
+2. Go to **WooCommerce** > **MultiSafepay Settings** > **Logs**.
+3. Select the relevant log and click **View**.
+
+</details>
 
 ### Redirect URL not leading to thank you page 
 

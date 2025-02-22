@@ -315,6 +315,23 @@ Please note that the full shipping amount will be captured whenever the first sh
 
 </details>
 
+## Order confirmation email
+
+You can set the **stage** at which you want a confirmation email for an order to be sent.
+
+<details id="send-order-confirmation-email">
+<summary>How to set when an order confirmation email is sent</summary>
+<br>
+
+1. Sign in to your Magento 2 backend.
+2. Go to **Stores** > **Configuration** > **MultiSafepay** > **General Settings** > **Send the order confirmation email**.
+3. Choose one of these three options:
+   - On transaction completed status
+   - On transaction initialized status
+   - Immediately after placing the order
+
+</details>
+
 ## Order lifetimes
 
 The default lifetime of **Pending payment** orders in Magento 2 is 480 minutes (8 hours). For payment methods with a longer authorization period, the <<glossary:order status changes>> to **Cancelled** after 8 hours.
@@ -430,6 +447,20 @@ You cannot add payment links to order confirmation emails created in your **fron
 </details>
 
 ## Payment methods
+
+Before activating the relevant payment methods in your <<glossary:backend>>, you must first activate them in your MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
+
+<details id="activate-payment-methods">
+<summary>How to activate payment methods</summary>
+<br>
+
+1. Sign in to your Magento 2 <<glossary:backend>>.
+2. Go to **Stores** > **Configuration** > **MultiSafepay** > **Payment Gateways**.
+3. Choose the relevant payment method from the list and click **Configure**.
+4. Set **Enabled** to **Yes**.
+5. Click **Save Config**.
+
+</details>
 
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>
@@ -634,7 +665,12 @@ _Tip_: This issue might appear after upgrading to our latest plugin version, pos
 
 To debug this issue on your side:
 
-1. Set to debug mode.
+1. Set to debug mode. To activate debug mode:
+
+   - Sign in to your Magento <<glossary:backend>>.
+   - Go to **Stores** > **Configuration** > **MultiSafepay** > **General settings** > **Enable debug mode**.
+   - Set to **Yes**.
+
 2. Use our <a href="https://github.com/MultiSafepay/magento2-order-save-inspector" target="_blank">Order Save Inspector</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> to check which module might interfere (for example, delivery software, ERP).
 </details>
 

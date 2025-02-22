@@ -63,6 +63,43 @@ After completing the configuration, enable specific countries to make the paymen
 
 # User guide
 
+## Order flows
+
+The plugin supports two flows for creating orders: **before** or **after** the transaction is completed.
+
+<details id="before-flow">
+<summary>Before flow</summary>
+<br>
+
+By default, order confirmation emails are sent before the payment is finalized.  
+You can disable this feature. 
+
+The status of abandoned payments changes to **Cancelled**.
+
+</details>
+
+<details id="after-flow">
+<summary>After flow</summary>
+<br>
+
+Orders are created via a MultiSafepay notification to PrestaShop using the `cart ID`. After completing payment, the customer is redirected to your order confirmation page.  
+If the notification hasn't been processed yet, a waiting page with a loader displays while the order is created.
+
+</details>
+
+<details id="how-to-switch-order-flows">
+<summary>How to switch order flows</summary>
+<br>
+
+To change the flow you are using, follow these steps:
+
+1. Sign in to your  PrestaShop Back Office.
+2. Go to **MultiSafepay** > **General settings** tab.
+3. In the **Create order before payment** field, select the flow.
+4. Click **Save**.
+
+</details>
+
 ## Backend orders
 
 In the previous release, PrestaShop Back Office orders were only created for MultiSafepay orders with **Completed** status. 
@@ -105,43 +142,6 @@ You can filter payment methods by:
 - Currency
 - Customer group
 - Minimum and maximum amount
-
-</details>
-
-## Order flows
-
-The plugin supports two flows for creating orders: **before** or **after** the transaction is completed.
-
-<details id="before-flow">
-<summary>Before flow</summary>
-<br>
-
-By default, order confirmation emails are sent before the payment is finalized.  
-You can disable this feature. 
-
-The status of abandoned payments changes to **Cancelled**.
-
-</details>
-
-<details id="after-flow">
-<summary>After flow</summary>
-<br>
-
-Orders are created via a MultiSafepay notification to PrestaShop using the `cart ID`. After completing payment, the customer is redirected to your order confirmation page.  
-If the notification hasn't been processed yet, a waiting page with a loader displays while the order is created.
-
-</details>
-
-<details id="how-to-switch-order-flows">
-<summary>How to switch order flows</summary>
-<br>
-
-To change the flow you are using, follow these steps:
-
-1. Sign in to your  PrestaShop Back Office.
-2. Go to **MultiSafepay** > **General settings** tab.
-3. In the **Create order before payment** field, select the flow.
-4. Click **Save**.
 
 </details>
 
@@ -197,6 +197,21 @@ The plugin supports [payment components](/docs/payment-components/), which:
 </details>
 
 ## Payment methods
+
+Before activating the relevant payment methods in your <<glossary:backend>>, you must first activate them in your MultiSafepay dashboard. See - [How to activate payment methods](/docs/payment-methods#activation).
+
+<details id="activate-payment-methods">
+<summary>How to activate payment methods</summary>
+<br>
+
+1. Sign in to your **PrestaShop** Back Office.
+2. Go to **MultiSafepay** > **Payment Methods**.
+3. Go to the relevant payment method and click **+**. This will show settings for the specific payment method.
+4. Click to enable.
+
+**💡 Tip!** You can handle the positioning of payment methods in the checkout by clicking the **left icon** and dragging it up or down.
+
+</details>
 
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>
@@ -358,6 +373,31 @@ If upgrading from 5.x to a newer version, see [Updates](/docs/prestashop-1-7#upd
 
 </details>
 <br>
+
+---
+
+## Troubleshooting
+
+<details id="how-to-activate-debug-mode">
+<summary>How to activate debug mode</summary>
+<br>
+
+1. Sign in to your **PrestaShop** Back Office.
+2. Go to **MultiSafepay** > **General Settings** > **Debug mode**.
+3. Click to enable.
+
+</details>
+
+<details id="how-to-get-a-system-report">
+<summary>How to get a system report</summary>
+<br>
+
+1. Sign in to your **PrestaShop** Back Office.
+2. Go to **MultiSafepay** > **General Settings** > **System Status**.
+3. Click **Get system report**
+4. A window will appear with the report. You can copy paste the content. 
+
+</details>
 
 ---
 
