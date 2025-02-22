@@ -15,6 +15,7 @@ slug: 'edenred'
 - Ticket EcoCheques
 - Ticket Compliments
 - Ticket Sport & Culture
+- Consumption Voucher
 
 Read how Edenred can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/edenred" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
