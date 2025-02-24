@@ -415,6 +415,6 @@ Click on the options below for more information on how to further set up your te
 
 ***
 
-If you encounter issues during the set-up of your terminal, visit our [POS troubleshooting](<>)  page for common solutions.
+If you encounter issues during the set-up of your terminal, visit our [POS troubleshooting](https://docs.multisafepay.com/docs/pos-troubleshooting)page for common solutions.
 
 [Top of page](#)
