@@ -1,5 +1,5 @@
 ---
-title: "PayPal smart button integration"
+title: "PayPal button integration"
 category: 6298bd782d1cf4006032e765
 order: 9
 hidden: false
@@ -7,13 +7,13 @@ parentDoc: 62a6ec51d7a8100053916d99
 slug: 'paypal-direct'
 ---
 
-**PayPal** smart button enables customers to complete the payment with a one-click checkout solution without being redirected to a <<glossary:payment page>>. The checkout solution allows customers to pay in 4 or monthly installments using <a href="https://www.paypal.com/us/business/accept-payments/checkout" target="_blank">PayPal BNPL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> method.
+The **PayPal** button enables customers to complete the payment with a one-click checkout solution without being redirected to a <<glossary:payment page>>. The checkout solution allows customers to pay in 4 or monthly installments using <a href="https://www.paypal.com/us/business/accept-payments/checkout" target="_blank">PayPal BNPL</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> method.
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/payPayHero.png" align ="center"/>
 
 # Prerequisites
 
-- You need to have an <a href="https://www.paypal.com" target="_blank">PayPal business account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- You need to have a <a href="https://www.paypal.com" target="_blank">PayPal business account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 - PayPal must be [activated in your MultiSafepay account](/docs/paypal#activation).
 
 # 1. Initialize
@@ -26,7 +26,7 @@ curl --location --request GET 'https://api.multisafepay.com/v1/json/wallets/conf
 ```
 
 - Replace  `api_key` with your API key.
-- `currency` is defaulted to EUR and is **Optional**.
+- `currency` is defaulted to EUR and is **optional**.
 
 Sample response:
 
