@@ -11,6 +11,7 @@ jobs:
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
+          fetch-depth: 0
         
       - name: Get specific changed files
         id: changed-files-specific
@@ -21,7 +22,6 @@ jobs:
             api/**/*.md
           sha: ${{ github.event.pull_request.head.sha }}
           base_sha: ${{ github.event.pull_request.base.sha }}
-          fetch-depth: 0
 
       - name: List all changed files
         if: steps.changed-files-specific.outputs.any_changed == 'true'
