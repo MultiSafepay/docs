@@ -58,7 +58,7 @@ After expiration, the <<glossary:issuer>> can cancel the authorization.
 
 You can capture payments:
 
-- Via our API - [Capture payment](https://docs.multisafepay.com/reference/capturepayment) 
+- Via our API - <a href="https://docs.multisafepay.com/reference/capturepayment" target="_blank">Capture payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
 - Via your dashboard
 
 <details id="cancel-authorization">
@@ -81,7 +81,7 @@ After a **full capture**, the <<glossary:transaction status>> updates to **Compl
 
 You can cancel a reservation created via manual capture:
 
-- Via our API - [Cancel authorized payment](https://docs.multisafepay.com/reference/capturepayment)
+- Via our API - <a href="https://docs.multisafepay.com/reference/capturepayment" target="_blank">Cancel authorized payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - Via your dashboard 
 
 For partial captures, the cancellation will apply to the remaining amount. 
