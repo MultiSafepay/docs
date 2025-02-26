@@ -19,7 +19,7 @@ For more information, email your partner manager.
 
 The table below lists our API references for onboarding an affiliate's account.
 
-<table style="text-align:left;">
+<table>
   <thead>
     <tr>
       <th>Onboard account</th>
@@ -31,7 +31,7 @@ The table below lists our API references for onboarding an affiliate's account.
       <td>Create merchant account</td>
       <td>
         <a href="https://docs.multisafepay.com/reference/createaffiliate" target="_blank">Create affiliate</a>
-        <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+        <i class="fa fa-external-link"></i>
       </td>
     </tr>
     <tr>
@@ -261,6 +261,7 @@ The table below lists our API references for managing an affiliate's account.
     </td>
   </tr>
 </table>
+
 ---
 
 [block:html]
