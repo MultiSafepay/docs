@@ -56,6 +56,9 @@ Or via your dashboard:
     - **State/Province**
     - **Birthday**
     - **Phone number**
+    - **Notification URL** and **Mode**
+    - **Redirect URL**
+    - **Cancel URL**
 12. Click **Generate payment link**.
 13. In the green bar that appears, copy the link from the green bar and pass it to the customer.
 

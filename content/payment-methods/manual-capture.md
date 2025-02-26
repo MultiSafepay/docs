@@ -10,9 +10,10 @@ Manual Capture is a MultiSafepay solution that reduces your risk by letting you 
 
 # How it works
 
-**Full capture** is when a customer places an order but you are unable to ship it right away. An authorization is created for the full amount of the transaction. The funds are settled when you ship the order.
+Applying **manual capture** to your orders authorizes the card payment but doesn't immediately transfer the customer's funds to your account. Using **manual capture**, you can **fully** or **partially** capture the authorized funds after shipping the order:
 
-**Partial capture** is when a customer places an order for multiple items but you can't ship them all at once, only in separate shipments. An authorization is created for the full amount of the transaction, and the amount for each shipment is settled when you send it.
+- **Full Capture**: Transfers the full authorized amount for the order.
+- **Partial Capture**: Transfers a portion of the authorized amount for the order. Use this option for separate shipments.
 
 # Activation
 
@@ -53,24 +54,46 @@ After expiration, the <<glossary:issuer>> can cancel the authorization.
 - Mastercard 
 - Visa
 
+## Capture payments
+
+You can capture payments:
+
+- Via our API - [Capture payment](https://docs.multisafepay.com/reference/capturepayment) 
+- Via you dashboard
+
+<details id="cancel-authorization">
+<summary>How to capture an authorized payment</summary><br>
+
+1. Sign in to your MultiSafepay dashboard.
+2. Go to **Transactions **> **Transactions overview**, and then click on the relevant transaction.
+3. On the **Transaction summary** page, under **Order summary**, click **Capture**:
+   - **Full capture**: Fill the total authorized amount. 
+   - **Partial capture**: Fill the amount according to the items you will ship.
+4. Click **Save**.
+
+After a **full capture**, the <<glossary:transaction status>> updates to **Completed**. 
+
+**Partial captures** create a new transaction in the **Transaction overview** with a separate **order ID**, with both <<glossary:order status>> and <<glossary:transaction status>> set to **Completed**. The original transaction retains its initial statuses. The remaining amount available for capture is shown under **Transaction details**. 
+
+</details>
+
 ## Cancellation
 
-You can cancel a reservation created via manual capture. For partial captures, the cancellation will apply to the remaining amount. 
+You can cancel a reservation created via manual capture:
+
+- Via our API - [Cancel authorized payment](https://docs.multisafepay.com/reference/capturepayment)
+- Via your dashboard 
+
+For partial captures, the cancellation will apply to the remaining amount. 
 
 <details id="cancel-authorization">
 <summary>How to cancel an authorized transaction</summary><br>
 
-**Via API**: 
-
-- See API reference - <a href="https://docs.multisafepay.com/reference/cancelauthorizedorder" target="_blank">Cancel authorized payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
-
-**Via dashboard**:
-
-- Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-- Go to **Transactions** > **Transaction overview**, and then select the relevant transaction.
-- On the **Transaction summary** page, in **Order Summary**, click **Cancel Reservation**.
-- Add a description of what happened with the order, and then click **Complete**.  
-  The <<glossary:order status>> changes to **Void** and the <<glossary:transaction status>> to **Void**.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Transactions** > **Transaction overview**, and then select the relevant transaction.
+3. On the **Transaction summary** page, in **Order Summary**, click **Cancel Reservation**.
+4. Add a description of what happened with the order, and then click **Complete**.  
+   The <<glossary:order status>> changes to **Void** and the <<glossary:transaction status>> to **Void**.
 
 </details>
 
