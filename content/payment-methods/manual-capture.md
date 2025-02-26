@@ -59,7 +59,7 @@ After expiration, the <<glossary:issuer>> can cancel the authorization.
 You can capture payments:
 
 - Via our API - [Capture payment](https://docs.multisafepay.com/reference/capturepayment) 
-- Via you dashboard
+- Via your dashboard
 
 <details id="cancel-authorization">
 <summary>How to capture an authorized payment</summary><br>
