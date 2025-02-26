@@ -8,7 +8,7 @@ slug: 'billink'
 
 <img src="https://cdn.billink.nl/assets/lockup/svg/billink-logo-default.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a href="https://www.billink.nl/" target="_blank">Billink</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>is a Dutch BNPL payment method available for both B2C and B2B transactions. It allows customers to receive goods before payment, settling the invoice within a typically 14-day period. Billink performs real-time credit checks and assumes the risk of non-payment.
+<a href="https://www.billink.nl/" target="_blank">Billink</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>is a Dutch BNPL payment method available for both B2C and B2B transactions. It allows customers to receive goods before payment, settling the invoice within 30 days. Billink performs real-time credit checks and assumes the risk of non-payment.
 
 
 
@@ -128,7 +128,7 @@ You can cancel the invoice order **before** shipment or **after** partial shipme
 ## Collection flow
 
 - Billink sends the customer an invoice after the order is shipped in full, **or** partially shipped and the remaining items cancelled. 
-- If the customer fails to pay within the initial 14 day period, Billink sends reminders of their obligation to pay, in accordance with the Wet Incasso Kosten (WIK). 
+- If the customer fails to pay within the initial 30 day period, Billink sends reminders of their obligation to pay, in accordance with the Wet Incasso Kosten (WIK). 
 - The customer can contact Billink if there is an issue with the payment.
 - If the customer still fails to pay, Billink sends the invoice to a debt collector. 
 - If necessary, you can delay the collection flow by placing the transaction on hold.

@@ -309,6 +309,56 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 ---
 ## BNPL methods
 
+<details id="billink">
+<summary>How to test Billink</summary>
+<br>
+
+**Request Billink activation for your test account**
+
+To enable Billink for your MultiSafepay test account, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
+
+**Test a Billink order**
+
+1. [Create an order](/reference/createorder/) > BNPL order  
+   Example: Billink direct/redirect
+2. For redirect requests, at the payment page, select **Private** or **Business** if no payment type has been added to the request.
+3. Click **Confirm**.
+4. On the Test platform page, from the **Test scenario** list, select one of the options mentioned in the table below to achieve your desired outcome. 
+
+| Test scenario | Description                                                                                                                                             |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Success**   | The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and transaction status **Uncleared**. |
+| **Failure**   | The payment is processed in the test environment as **Declined**, with <<glossary:order status>> **Declined**, and transaction status **Declined**.     |
+| **Cancelled** | The payment is processed in the test environment as **Cancelled**, with <<glossary:order status>> **Void**, and transaction status **Void**.            |
+
+
+
+**Change the order status**  
+
+You can change the order status to **Shipped**, **Cancelled** or **Hold**.  
+To change the order status, either:  
+
+- Make an [update order](/reference/updateorder/) API request, or 
+- In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
+
+**Test refunding an order**
+
+To refund an order:
+
+1. Under **Order summary**, click **Refund order**, or make a BNPL refund API request: [Refund order](/reference/refundorder/) > BNPL refund.
+2. The <<glossary:transaction status>> changes to **Completed**.
+
+**Receive an invoice**  
+
+You can only test invoicing in your MultiSafepay live account. To do this, change the order status to **Shipped**.
+
+**⚠️ Note:** You can't test:
+
+- Receiving successful payment notifications from Billink
+- Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**, except for refunds
+
+</details>
+
 <details id="e-invoicing-pay-after-delivery">
 <summary>How to test E-Invoicing & Pay After Delivery</summary>
 <br>
