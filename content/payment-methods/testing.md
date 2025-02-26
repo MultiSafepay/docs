@@ -315,13 +315,13 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 
 **Request Billink activation for your test account**
 
-To enable Billink for your MultiSafepay test account, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
+To enable Billink for your MultiSafepay test account, email [support@multisafepay.com](mailto:support@multisafepay.com)
 
 **Test a Billink order**
 
 1. [Create an order](/reference/createorder/) > BNPL order  
    Example: Billink direct/redirect
-2. For redirect requests, at the payment page, select **Private** or **Business** if no payment type has been added to the request.
+2. For redirect requests, on the payment page, select **Private** or **Business** if no payment type has been added to the request.
 3. Click **Confirm**.
 4. On the Test platform page, from the **Test scenario** list, select one of the options mentioned in the table below to achieve your desired outcome. 
 
@@ -335,7 +335,7 @@ To enable Billink for your MultiSafepay test account, email [integration@multisa
 
 **Change the order status**  
 
-You can change the order status to **Shipped**, **Cancelled** or **Hold**.  
+You can change the order status to **Shipped**, **Cancelled**, or **Hold**.  
 To change the order status, either:  
 
 - Make an [update order](/reference/updateorder/) API request, or 
@@ -516,7 +516,7 @@ To learn more about integrating Klarna with MultiSafepay, see [Klarna](/docs/kla
 
     Riverty shares the test key with MultiSafepay.
 
-2. To enable Riverty in your MultiSafepay test account, email <integration@multisafepay.com>
+2. To enable Riverty in your MultiSafepay test account, email <support@multisafepay.com>
 
 **Test an Riverty order**
 
@@ -813,7 +813,7 @@ To change the order status, on the Test platform page, from the **Test scenario*
 
 You can process full refunds in your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay test dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
-Partial refunds are not enabled by default. To enable this, email <integration@multisafepay.com>
+Partial refunds are not enabled by default. To enable this, email <support@multisafepay.com>
 
 If you refund a payment in your MultiSafepay test dashboard, the [transaction status](/docs/payment-statuses/) remains **Reserved** or **Initialized** until the refund is manually approved, since there is no involvement with a bank.
 
