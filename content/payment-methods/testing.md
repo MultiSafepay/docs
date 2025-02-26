@@ -187,7 +187,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 
 1. [Create an order](/reference/createorder/) > Banking order (Example: Giropay redirect)
 2. On the Giropay page, in the **BIC** field, enter any BIC code, e.g. `NOLADE22XXX`.
-3. Click **Confirm**.
+3. Click **Confirm**. 
 4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
@@ -310,7 +310,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 ## BNPL methods
 
 <details id="billink">
-<summary>How to test Billink</summary>
+<summary>How to test Billink</summary> 
 <br>
 
 **Request Billink activation for your test account**
