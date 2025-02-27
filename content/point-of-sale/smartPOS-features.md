@@ -152,7 +152,7 @@ You can add an employee via **+ add employee** > Insert **Name** and **Employee 
 
 To exit the cloud mode payment screen:
 
-1. Tap and hold the **MultiSafepay** logo or your personal logo for few seconds.
+1. Tap and hold your finger on the screen for a few seconds.
 2. Enter the default **PIN code**. <br>The default PIN code is `1324`.
 
 **⚠️ Note:** For your security, we recommend you change the default PIN code as soon as possible. 
@@ -225,7 +225,7 @@ Click **View** to display the details entered. These details will also appear on
 1. In the **Navigation** list, click the ** System navigation** toggle to the right.
 2. To return to the main screen, click the **Back** button
 
-**Note:** To access the navigation menu, tap the **MultiSafepay** logo or your personal logo.
+**Note:** To access the navigation menu, tap and hold your finger on the screen for a few seconds and enter the PIN code.
 
 </details>
 
