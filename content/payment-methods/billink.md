@@ -34,16 +34,17 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
-| Description                                                                     | Order status | Transaction status |
-| ------------------------------------------------------------------------------- | ------------ | ------------------ |
-| Billink's credit check is in progress.                                          | Initialized  | Initialized        |
-| The order is created.                                                           | Completed    | Uncleared          |
-| Billink declined the transaction.                                               | Declined     | Declined           |
-| **⚠️ Note:** To capture the funds, manually change the order status to Shipped. | Shipped      | Unclear            |
-| MultiSafepay has collected the payment.                                         | Shipped      | Completed          |
-| The customer initiated the payment process but didn't finalize it.              | Expired      | Expired            |
-| **Refunds:** Billink has successfully processed a full or partial refund.       | Completed    | Completed          |
-| **Refunds:** The refund was declined.                                           | Declined     | Declined           |
+| Description                                                                                                                                        | Order status | Transaction status |
+| :------------------------------------------------------------------------------------------------------------------------------------------------- | :----------- | :----------------- |
+| Billink's credit check is in progress.                                                                                                             | Initialized  | Initialized        |
+| The transaction was cancelled.                                                                                                                     | Void         | Void               |
+| Billink declined the transaction.                                                                                                                  | Declined     | Declined           |
+| Billink has authorized the transaction and the funds are awaiting capture.                                                                         | Completed    | Uncleared          |
+| **⚠️ Note:** [Manually change the order status to Shipped](https://docs.multisafepay.com/docs/e-invoicing#shipment).<br> Order status must be changed to **Shipped** to be able to capture the funds.                                                                       | Shipped      | Uncleared          |
+| MultiSafepay has collected the payment.                                                                                                            | Shipped      | Completed          |
+| The order has not been payed within **30 days**.                                                                                                   | Expired      | Expired            |
+| **Refunds:** Billink has successfully processed a full or partial refund.                                                                          | Completed    | Completed          |
+| **Refunds:** The refund was declined.                                                                                                              | Declined     | Declined           |
 
 
 
