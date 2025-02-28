@@ -108,7 +108,7 @@ Different billing and shipping addresses are supported.
 
 ## Amount limits
 
-Minimum and maximum order amounts apply. Email [sales@multisafepay.com](mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com))
+Minimum and maximum order amounts apply. Email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
 ## Cancellation
 
@@ -186,5 +186,5 @@ Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcha
 
 We therefore strongly recommend **not** applying surcharges. 
 
-For more information, email [\[sales@multisafepay.com\](mailto:sales@multisafepay.com)](mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com))  
+For more information, email [sales@multisafepay.com](mailto:sales@multisafepay.com)  
 <br>
