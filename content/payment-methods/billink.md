@@ -79,6 +79,8 @@ For example requests, on the [Create order](/reference/createorder/) page, in th
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
+- VAT rates al limited to 0%, 5%, 6%, 7%, 9%, 16%, 19%, 20%, and 21%. Keep this in mind when setting `shopping_cart.items.tax_table_selector`
+
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
 
 ## Ready made solutions
