@@ -113,7 +113,7 @@ The customer is automatically redirected to the **Register** screen:
 
 # Installation
 
-1. Copy your [site API key](/docs/sites#site-id-api-key-and-security-code) to get the SDK from our <a href="https://github.com/MultiSafepay/fastcheckout-android-sdk" target="_blank">GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+1. Copy your [website API key](/docs/sites#site-id-api-key-and-security-code) to get the SDK from our <a href="https://github.com/MultiSafepay/fastcheckout-android-sdk" target="_blank">GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Add the `msp-android-sdk-release.aar`:
     - As an embedded framework into your project
     - Into your library’s /lib folder.
@@ -160,7 +160,7 @@ The SDK is thread safe, but you cannot access the main UI elements from backgrou
 
 #### Update the UI from a background thread in Android
 
-**⚠️ Note:** For integration based on JAVA/Android versioning, see the official Android developers site – <a href="https://developer.android.com/guide/components/processes-and-threads" target="_blank">Threads</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+**⚠️ Note:** For integration based on JAVA/Android versioning, see the official Android developers website – <a href="https://developer.android.com/guide/components/processes-and-threads" target="_blank">Threads</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ```java
 …

@@ -8,7 +8,7 @@ slug: 'billink'
 
 <img src="https://cdn.billink.nl/assets/lockup/svg/billink-logo-default.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a href="https://www.billink.nl/" target="_blank">Billink</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>is a Dutch BNPL payment method available for both B2C and B2B transactions. It allows customers to receive goods before payment, settling the invoice within a typically 14-day period. Billink performs real-time credit checks and assumes the risk of non-payment.
+<a href="https://www.billink.nl/" target="_blank">Billink</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>is a Dutch BNPL payment method available for both B2C and B2B transactions. It allows customers to receive goods before payment, settling the invoice within 30 days. Billink performs real-time credit checks and assumes the risk of non-payment.
 
 
 
@@ -34,16 +34,17 @@ This diagram shows the flow for a successful transaction. Click to magnify.
 
 The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
 
-| Description                                                                     | Order status | Transaction status |
-| ------------------------------------------------------------------------------- | ------------ | ------------------ |
-| Billink's credit check is in progress.                                          | Initialized  | Initialized        |
-| The order is created.                                                           | Completed    | Uncleared          |
-| Billink declined the transaction.                                               | Declined     | Declined           |
-| **⚠️ Note:** To capture the funds, manually change the order status to Shipped. | Shipped      | Unclear            |
-| MultiSafepay has collected the payment.                                         | Shipped      | Completed          |
-| The customer initiated the payment process but didn't finalize it.              | Expired      | Expired            |
-| **Refunds:** Billink has successfully processed a full or partial refund.       | Completed    | Completed          |
-| **Refunds:** The refund was declined.                                           | Declined     | Declined           |
+| Description                                                                                                                                        | Order status | Transaction status |
+| :------------------------------------------------------------------------------------------------------------------------------------------------- | :----------- | :----------------- |
+| Billink's credit check is in progress.                                                                                                             | Initialized  | Initialized        |
+| The transaction was cancelled.                                                                                                                     | Void         | Void               |
+| Billink declined the transaction.                                                                                                                  | Declined     | Declined           |
+| Billink has authorized the transaction and the funds are awaiting capture.                                                                         | Completed    | Uncleared          |
+| **⚠️ Note:** <a href="https://docs.multisafepay.com/docs/e-invoicing#shipment" target="_blank">Manually change the order status to Shipped</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.<br> Order status must be changed to **Shipped** to be able to capture the funds.                                                                       | Shipped      | Uncleared          |
+| MultiSafepay has collected the payment.                                                                                                            | Shipped      | Completed          |
+| The order has not been payed within **30 days**.                                                                                                   | Expired      | Expired            |
+| **Refunds:** Billink has successfully processed a full or partial refund.                                                                          | Completed    | Completed          |
+| **Refunds:** The refund was declined.                                                                                                              | Declined     | Declined           |
 
 
 
@@ -53,8 +54,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
    We check your eligibility and if approved, activate the payment method for your account.
 2. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 3. To activate the payment method for:
-   - All sites, go to **Settings** > **Payment methods**.
-   - A specific site, go to **Sites**, and then click the relevant site.
+   - All websites, go to **Settings** > **Payment methods**.
+   - A specific website, go to **Websites**, and then click the relevant website.
 4. Select the checkbox for the payment method, and then click **Save**.
 
 💬 Support: If the payment method isn't visible in your dashboard, email [integration@multisafepay.com](mailto:integration@multisafepay.com)  
@@ -77,6 +78,8 @@ For example requests, on the [Create order](/reference/createorder/) page, in th
 </details>
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+- VAT rates are limited to 0%, 5%, 6%, 7%, 9%, 16%, 19%, 20%, and 21%. Keep this in mind when setting `shopping_cart.items.tax_table_selector`
 
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout.
 
@@ -105,7 +108,7 @@ Different billing and shipping addresses are supported.
 
 ## Amount limits
 
-Minimum and maximum order amounts apply. Email [sales@multisafepay.com](mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com))
+Minimum and maximum order amounts apply. Email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
 ## Cancellation
 
@@ -128,7 +131,7 @@ You can cancel the invoice order **before** shipment or **after** partial shipme
 ## Collection flow
 
 - Billink sends the customer an invoice after the order is shipped in full, **or** partially shipped and the remaining items cancelled. 
-- If the customer fails to pay within the initial 14 day period, Billink sends reminders of their obligation to pay, in accordance with the Wet Incasso Kosten (WIK). 
+- If the customer fails to pay within the initial 30 day period, Billink sends reminders of their obligation to pay, in accordance with the Wet Incasso Kosten (WIK). 
 - The customer can contact Billink if there is an issue with the payment.
 - If the customer still fails to pay, Billink sends the invoice to a debt collector. 
 - If necessary, you can delay the collection flow by placing the transaction on hold.
@@ -183,5 +186,5 @@ Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcha
 
 We therefore strongly recommend **not** applying surcharges. 
 
-For more information, email [\[sales@multisafepay.com\](mailto:sales@multisafepay.com)](mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com))  
+For more information, email [sales@multisafepay.com](mailto:sales@multisafepay.com)  
 <br>

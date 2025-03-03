@@ -15,7 +15,7 @@ You must first:
 
 1. [Create a test account](/docs/getting-started-guide#1-create-a-free-test-account).
 2. [Set up your account](/docs/getting-started-guide#2-set-up-your-account).
-3. [Get your site API key](/docs/sites#site-id-api-key-and-security-code).
+3. [Get your website API key](/docs/sites#site-id-api-key-and-security-code).
 
 
 To authenticate requests, you must include your API key as a query parameter in the request URL.  

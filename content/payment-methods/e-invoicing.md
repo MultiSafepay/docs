@@ -53,8 +53,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. To activate the payment method for:
-- All sites, go to **Settings** > **Payment methods**.
-- A specific site, go to **Sites**, and then click the relevant site.
+- All websites, go to **Settings** > **Payment methods**.
+- A specific website, go to **Websites**, and then click the relevant website.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
@@ -261,7 +261,7 @@ MultiSafepay can customize the formatting of your invoices on request. Email <sa
     - In the **Tax** field, enter the tax rate that applies to the item. 
     - To add a new line for a different type of item, click **Add**.
 4. Fill out the required fields: **Address**, **Birthday**, **City**, **Country**, **Currency**, **Description**, **Email address**, **First name**, **Last name**, **Order ID**, **Phone number**, **Postal code / House number**, **State / Province**.
-5. From the **Site** list, select the relevant site. 
+5. From the **Website** list, select the relevant website. 
 6. From the **Payment flow** list, select the relevant collection flow. 
 7. Click **Generate invoice**. 
 

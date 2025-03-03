@@ -38,7 +38,7 @@ They are also beneficial for B2B and B2C cases, where manual bank transfers and 
 
 # Activation
 
-You can apply for a VIBAN for all sites under your MultiSafepay account, or for a specific site.
+You can apply for a VIBAN for all websites under your MultiSafepay account, or for a specific website.
 
 Email a request for a VIBAN to <sales@multisafepay.com>
 
