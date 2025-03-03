@@ -34,11 +34,15 @@ TLS_RSA_WITH_AES_256_GCM_SHA384
 
 **How to test**
 
-To check if your ciphers are supported, run the following command:
+You can check if your ciphers are supported using the following methods:
+
+- **OpenSSL Command**: Run the following command:
 
 ```text
 openssl s_client -connect api.multisafepay.com:443
 ```
+
+- **SSL Server Test**: Go to [SSL Server Test](https://www.ssllabs.com/ssltest/analyze.html?d=api.multisafepay.com&hideResults=on) and enter `api.multisafepay.com` as the hostname.
 <br>
 
 ---
