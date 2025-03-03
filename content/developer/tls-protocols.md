@@ -42,7 +42,7 @@ You can check if your ciphers are supported using the following methods:
 openssl s_client -connect api.multisafepay.com:443
 ```
 
-- **SSL Server Test**: Go to [SSL Server Test](https://www.ssllabs.com/ssltest/analyze.html?d=api.multisafepay.com&hideResults=on) and enter `api.multisafepay.com` as the hostname.
+- **SSL Server Test**: Go to <a href="https://www.ssllabs.com/ssltest/analyze.html?d=api.multisafepay.com&hideResults=on" target="_blank">SSL Server Test</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and enter `api.multisafepay.com` as the hostname.
 <br>
 
 ---
