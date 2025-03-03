@@ -121,34 +121,9 @@ To increase brand recognition for customers, the name of your website appears on
 
 Not all Dutch banking apps support iDEAL QR yet, so we recommend that customers scan QR codes with their camera or a general QR reader. This redirects to the ideal.nl payment page, which works for all banks. 
 
-## Issuers
-
-iDEAL supports a number of Dutch <<glossary:issuers>>:
-
-<details id="supported-issuers"> 
-<summary>Supported issuers</summary>
-<br>
-
-- ABN AMRO 
-- ASN Bank 	
-- bunq 
-- ING 
-- Knab 
-- Nationale Nederlanden
-- N26
-- Rabobank 
-- Regio Bank 
-- Revolut 
-- SNS Bank
-- Triodos Bank
-- Van Lanschot Kempen
-- Yoursafe
-
-</details>
-
 ## iDEAL redirection
 
-For iDEAL redirect requests, the customer will be automatically redirected to the iDEAL payment page after clicking your payment link. To disable this, set `payment_options.settings.gateways.IDEAL.show_pre` to `true`.
+For iDEAL redirect flows, customers are automatically redirected to the iDEAL environment after selecting it as their payment method. To disable this, set `payment_options.settings.gateways.IDEAL.show_pre` to `true`.
 
 #### Example
 ```json
@@ -180,6 +155,31 @@ For iDEAL redirect requests, the customer will be automatically redirected to th
   "description": "Test order description"
 }
 ```
+
+## Issuers
+
+iDEAL supports a number of Dutch <<glossary:issuers>>:
+
+<details id="supported-issuers"> 
+<summary>Supported issuers</summary>
+<br>
+
+- ABN AMRO 
+- ASN Bank 	
+- bunq 
+- ING 
+- Knab 
+- Nationale Nederlanden
+- N26
+- Rabobank 
+- Regio Bank 
+- Revolut 
+- SNS Bank
+- Triodos Bank
+- Van Lanschot Kempen
+- Yoursafe
+
+</details>
 ---
 
 <br>
