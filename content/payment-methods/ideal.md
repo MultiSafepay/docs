@@ -121,6 +121,41 @@ To increase brand recognition for customers, the name of your website appears on
 
 Not all Dutch banking apps support iDEAL QR yet, so we recommend that customers scan QR codes with their camera or a general QR reader. This redirects to the ideal.nl payment page, which works for all banks. 
 
+## iDEAL redirection
+
+For iDEAL redirect flows, customers are automatically redirected to the iDEAL environment after selecting it as their payment method. To disable this, set `payment_options.settings.gateways.IDEAL.show_pre` to `true`.
+
+#### Example
+```json
+{
+  "payment_options": {
+    "close_window": false,
+    "settings": {
+      "gateways": {
+        "IDEAL": {
+          "show_pre": true
+        }
+      }
+    }
+  },
+  "customer": {
+    "locale": "en_US",
+    "disable_send_email": false
+  },
+  "checkout_options": {
+    "validate_cart": false
+  },
+  "days_active": 30,
+  "seconds_active": 2592000,
+  "gateway":"IDEAL",
+  "type": "redirect",
+  "order_id": "test-order-0001",
+  "currency": "EUR",
+  "amount": 1000,
+  "description": "Test order description"
+}
+```
+
 ## Issuers
 
 iDEAL supports a number of Dutch <<glossary:issuers>>:
@@ -145,6 +180,7 @@ iDEAL supports a number of Dutch <<glossary:issuers>>:
 - Yoursafe
 
 </details>
+---
 
 ## iDEAL redirection
 
