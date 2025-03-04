@@ -79,7 +79,7 @@ You can find your serial number (for SmartPOS / Sunmi)
 - Charge the terminal for at least 30 minutes.
 - Press and hold the power button for a few seconds to switch it on.
 
-**Note:** The terminal will reboot every 24 hours counting from the first time it was booted, to ensure optimal performance and stability.
+**⚠️Note:** The terminal will reboot every 24 hours counting from the first time it was powered on, to ensure optimal performance and stability.
 
 For more information, see the manual provided with the terminal.
 
