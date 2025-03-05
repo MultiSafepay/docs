@@ -31,6 +31,10 @@ Release date: Nov. 28th, 2024
 ### Fixed
 + PLGMAGONE-771: Fix surcharges where percentage not applied when fixed amount is 0
 
+### Removed
++ PLGMAGONE-773: Remove issuers from iDEAL
++ DAVAMS-709: Remove Santander Betaal per Maand
+
 ***
 
 **3.6.0**
