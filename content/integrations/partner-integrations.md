@@ -468,7 +468,7 @@ ___
     - [Bank transfer](/docs/bank-transfer/)
     - [Belfius](/docs/belfius/)
     - [CBC/KBC](/docs/cbc-kbc/)
-    - [Dotpay](/docs/dotpay/)
+    - [Przelewy24](/docs/dotpay/)
     - [EPS](/docs/eps/)
     - [Giropay](/docs/giropay/) 
     - [iDEAL and iDEAL QR](/docs/ideal/)

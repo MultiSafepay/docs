@@ -1,5 +1,5 @@
 ---
-title: 'Request to Pay (Deprecated)'
+title: 'Request to Pay (End-of-life)'
 category: 6298bd782d1cf4006032e765
 order: 15
 hidden: false
@@ -17,7 +17,7 @@ Read how Request to Pay can benefit your business on <a href="https://www.multis
 
 > ⚠️ Availability
 >
-> Request to Pay is no longer available. 
+> Request to Pay is end-of-life and is no longer available. 
 
 | Supports | Details |
 |---|---|

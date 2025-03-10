@@ -124,7 +124,7 @@ Release date: Mar 28, 2014
     - [Bancontact](/docs/bancontact/)
     - [Bank transfer](/docs/bank-transfer/)
     - [CBC/KBC](/docs/cbc-kbc/)
-    - [Dotpay](/docs/dotpay/)
+    - [Przelewy24](/docs/dotpay/)
     - [EPS](/docs/eps/)
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)
