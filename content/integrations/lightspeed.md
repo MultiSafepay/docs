@@ -137,6 +137,8 @@ If no specific rule is set for a language, **Default** language is used.
 
 </details>
 
+**⚠️Note:** Set order amount limits within the permitted range for each payment method to avoid failures. See each payment method's page for its specific amount limits.
+
 ## Payment components
 
 Lightspeed supports [Payment Components](/docs/payment-components/), which:
