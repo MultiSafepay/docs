@@ -31,7 +31,13 @@ TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
 TLS_RSA_WITH_AES_128_GCM_SHA256  
 TLS_RSA_WITH_AES_256_GCM_SHA384
 ```
+**TLS 1.3**
 
+```text
+TLS_CHACHA20_POLY1305_SHA256
+TLS_AES_256_GCM_SHA384
+TLS_AES_128_GCM_SHA256
+```
 **How to test**
 
 You can check if your ciphers are supported using the following methods:
