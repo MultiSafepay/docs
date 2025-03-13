@@ -146,7 +146,7 @@ The cardholder informs American Express that they believe the transaction is fra
 To dispute this type of chargeback, you need to provide the following:
 
 - Proof that the cardholder agreed to the transaction, made the booking/reservation, and received confirmation. 
-- Your site name, URL, IP address, and cancellation policy. 
+- Your website name, URL, IP address, and cancellation policy. 
 - Signed proof that the product/service was shipped and delivered, and the delivery address and date.
 
 </details>
@@ -541,7 +541,7 @@ To dispute this type of chargeback, you need to provide the following:
 
 - Evidence of the cardholder using the service. 
 - Evidence of delivery of products/services that the cardholder didn't return.
-- Evidence that the cardholder had to click to accept your cancellation policy and that your policy doesn't include the right to dispute terms and conditions available on your site. 
+- Evidence that the cardholder had to click to accept your cancellation policy and that your policy doesn't include the right to dispute terms and conditions available on your website. 
 - An invoice number.
 - A track and trace number.
 - Evidence of communications with the cardholder
@@ -603,7 +603,7 @@ Carefully review all [uncleared card payments](/docs/uncleared) flagged by Multi
 <summary>Goods not as described</summary>
 <br>  
 
-Offer quality items and provide clear descriptions on your site. 
+Offer quality items and provide clear descriptions on your website. 
 
 Make sure your refund and return policies are clear and fair. 
 

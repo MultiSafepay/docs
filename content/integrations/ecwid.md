@@ -21,7 +21,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 2. Go to **Ecwid control panel** > **Settings** > **Payment page**.
 3. For each payment method, change the **Payment processor** value to **MultiSafepay**, and click **Save**.
 4. Click the **MultiSafepay account details** link. 
-5. Enter your [account ID, site ID, and security code](/docs/sites#site-id-api-key-and-security-code).
+5. Enter your [account ID, website ID, and security code](/docs/sites#site-id-api-key-and-security-code).
 5. Save the changes and enable your selected payment methods.
 <br>
 

@@ -2,7 +2,7 @@
 title: 'Hardware setup'
 parentDoc: 64674fbc74bc4007521ebbcb 
 category: 6477597e0e2961004638cd5d
-order: 4
+order: 1
 hidden: false
 slug: 'hardware-setup'
 ---
@@ -78,6 +78,8 @@ You can find your serial number (for SmartPOS / Sunmi)
 
 - Charge the terminal for at least 30 minutes.
 - Press and hold the power button for a few seconds to switch it on.
+
+**⚠️Note:** The terminal will reboot every 24 hours counting from the first time it was powered on, to ensure optimal performance and stability.
 
 For more information, see the manual provided with the terminal.
 

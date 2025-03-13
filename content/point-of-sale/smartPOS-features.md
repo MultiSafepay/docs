@@ -2,7 +2,7 @@
 title: 'SmartPOS features'
 parentDoc: 64674fbc74bc4007521ebbcb
 category: 6477597e0e2961004638cd5d
-order: 1
+order: 3
 hidden: false
 slug: 'smartpos-features'
 
@@ -152,7 +152,7 @@ You can add an employee via **+ add employee** > Insert **Name** and **Employee 
 
 To exit the cloud mode payment screen:
 
-1. Tap and hold the **MultiSafepay** logo or your personal logo for few seconds.
+1. Tap and hold your finger on the screen for a few seconds.
 2. Enter the default **PIN code**. <br>The default PIN code is `1324`.
 
 **⚠️ Note:** For your security, we recommend you change the default PIN code as soon as possible. 
@@ -205,19 +205,16 @@ After you've enabled the **Cloud mode**, the **Navigation** list appears. This f
 
 ## How to generate closing balance
 
-At the end of a processing period, you can print an overview of total transaction amounts per payment method, and tips.  
+You can generate a **closing balance** report at the end of each processing period to review a summary of total sales, broken down by payment method and including tips.
 
-Via **Settings** > **Closing balance**, can set the following parameters:
+Via **Features** > **Closing balance**, you can set the following parameters:
 
-- Default date: today, yesterday
-- Closing start hour: if you include a start hour, the period will count 24 from the set time on  
-  Example: set 10.00 >> period is 10.00 to 09:59
-- Closing end hour
-- Filter by: Company, Terminal group, Terminal
+- **Default date**: Today, yesterday or select day
+- **Start hour**: The system will calculate 24 hours starting from the time you set. You must enter a value between 0 and 23.  
+  Example: If **Start hour** is set to 10, the period begins at 10:00 AM and ends at 09:59 AM the next day.
+- **Report level**: Company, Device group, Current device
 
-You can see the selected details displayed on screen, and in the header of the receipt.  
-
-</details>
+Click **View** to display the details entered. These details will also appear on the header of the receipt.  
 
 **💡 Tip!** You can print your closing balance report using either the device printer, or the [external printer](docs/test-page#external-printer).
 
@@ -228,7 +225,7 @@ You can see the selected details displayed on screen, and in the header of the r
 1. In the **Navigation** list, click the ** System navigation** toggle to the right.
 2. To return to the main screen, click the **Back** button
 
-**Note:** To access the navigation menu, tap the **MultiSafepay** logo or your personal logo.
+**Note:** To access the navigation menu, tap and hold your finger on the screen for a few seconds and enter the PIN code.
 
 </details>
 
@@ -253,21 +250,39 @@ You can see the selected details displayed on screen, and in the header of the r
 
 ***
 
-## How to scan qr codes
+## How to enable Order ID input: Manual entry and QR Code scan
 
-You can use the QR code reader within our app to easily recognize order information and include it in a transaction.
+Enabling this feature adds both manual order ID entry and QR code scanning functionality to the transaction process.
 
-1. In the **Settings** section, enable **Insert order**.
-2. When using **Manual input**, select **Scan QR**.
+1. Go to **Features** > **Payment Settings**.
+2. Click the **Insert order** toggle. Both options will be enabled.
+3. On the **Manual Input** screen, choose one of the following methods:
+- **Manual Order ID Entry**:
+  - Click **Input Order ID** and enter the order ID.
+  - The information retrieved will be included in the payment request.
+- **Scan QR**:
+    - A QR code must be generated using one of the following formats:
+      - **String**: Contains only the Order ID.
+      - **JSON**: Contains the Order ID, amount, and description of the order.
+  - Click **Scan QR**.
+  - Scan the QR code using the terminal's scanner or an external scanner.
+  - Scanning the QR code will retrieve information based on the format in which the QR code has been generated.
+  - This information will be included in the payment request.
 
-The QR reader is able to detect the following parameters:
+***
 
-- amount
-- order ID
-- description  
-  This information will be included in the payment request. 
+## How to enable refunds
 
-</details>
+1. Go to **Features** > **Payment**.
+2. Click the **Allow refunds** toggle.
+3. Enter your 4-digit PIN Code. 
+
+Once this feature is activated, you can process refunds from your terminal. To do this:
+
+1. Go to **Features** > **History**.
+2. Click the relevant transaction.
+3. Click **Refund**. You can process full or partial refunds.
+4. Click **Ok** > **Confirm**.
 
 ***
 

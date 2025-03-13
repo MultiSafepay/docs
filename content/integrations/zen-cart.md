@@ -50,8 +50,8 @@ slug: 'zen-cart'
 <br>
 
 - Cards: [All](/docs/card-payments/)
-- Banking methods: All, except iDEAL QR and TrustPay
-- <<glossary:BNPL>>: All, except in3
+- Banking methods: All, except iDEAL QR, TrustPay, and Bizum.
+- <<glossary:BNPL>>: All, except in3 and Billink.
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card
