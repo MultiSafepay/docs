@@ -58,7 +58,7 @@ data: {"financial_status":"completed","order_id":"ExampleOrderID1234567","sessio
 ```
  </details>
 
-**Note:** When making requests locally, you might encounter CORS (Cross-Origin Resource Sharing) errors. We recommend using a backend proxy to handle the API requests to bypass browser CORS restrictions.
+**Note:** When making requests locally, you might encounter CORS (Cross-Origin Resource Sharing) errors. We recommend using a backend proxy to handle the API requests, bypassing browser CORS restrictions.
 
 # 3. Payment statuses
 
