@@ -131,7 +131,15 @@ By default, activated payment methods from your MultiSafepay account appear on t
 
 ### Recurring payments
 
-[Recurring payments](/docs/recurring-payments) are supported and available as an option for compatible payments methods.
+[Recurring payments](/docs/recurring-payments) are supported.
+
+<details id="how-to-enable-recurring-payments">
+<summary>How to enable recurring payments</summary>
+<br>
+
+[Activate recurring payments](/docs/recurring-payments) and the option **Store my details for future visits** will appear for compatible payment methods at checkout.
+
+</details>
 
 ### Refunds
 
