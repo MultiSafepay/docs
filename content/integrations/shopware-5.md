@@ -129,6 +129,15 @@ By default, activated payment methods from your MultiSafepay account appear on t
 
 </details>
 
+### Recurring payments
+
+[Recurring payments](/docs/recurring-payments) are supported.
+
+To [enable recurring payments](/docs/recurring-payments#activate) for your <<glossary:backend>>, email [sales@multisafepay.com](sales@multisafepay.com).
+Once activated, the setting will be automatically applied to the supported payment methods at your checkout.
+
+</details>
+
 ### Refunds
 
 You can process [full refunds](/docs/refund-payments/) for all Shopware 5 payment methods **except** <<glossary:BNPL>> from your MultiSafepay dashboard and backend.  
