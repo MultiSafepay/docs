@@ -378,7 +378,7 @@ When the customer clicks or taps the ** Pay** button:
 
    </details>
 
-   **⚠️ Note:** The `total.amount` is in euros, whereas the `amount` in MultiSafepay order requests is in eurocents. 
+   **⚠️ Note:** The `total.amount` is in euros, whereas the `amount` in MultiSafepay order requests is in euro cents.
 
    For more information about the `ApplePayRequest` object, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepayrequest" target="_blank">ApplePayRequest</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
