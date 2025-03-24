@@ -88,7 +88,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 - A specific website, go to **Websites**, and then click the relevant website.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
-**⚠️ Note:** By default, recurring payments made with cards are limited to one transaction per IBAN every 24 hours. To request a change to this limit, email <sales@multisafepay.com>.
+**⚠️ Note:** By default, recurring payments made with cards are limited to one transaction per IBAN every 24 hours. To request a change to this limit, email <sales@multisafepay.com>
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <support@multisafepay.com>
 
@@ -137,7 +137,7 @@ To test card payments, see Testing payment methods - [Credit and debit cards](/d
 
 ## Amount limits
 
-For credit card payments, the maximum order amount will be limited to 5,000 EUR by default. To request a change to this limit, email <risk@multisafepay.com>.
+For credit card payments, the maximum order amount will be limited to 5,000 EUR by default. To request a change to this limit, email <risk@multisafepay.com>
 
 Occasional credit card payments that surpass the maximum limit must be justified. Email the invoice to <risk@multisafepay.com>
 

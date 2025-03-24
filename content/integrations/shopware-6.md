@@ -123,7 +123,7 @@ For questions, email <integration@multisafepay.com>
 <summary>How to enable recurring payments</summary>
 <br>
 
-[Activate recurring payments](/docs/recurring-payments) and then:
+To [enable recurring payments](/docs/recurring-payments#activate) for your <<glossary:backend>>, email [sales@multisafepay.com](sales@multisafepay.com). Then:
 1. Sign in to your Shopware backend.
 2. Go to **Settings** > **Payment**.
 3. Select each payment method, and then enable the **Tokenization** toggle.
