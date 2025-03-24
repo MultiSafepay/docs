@@ -1,9 +1,9 @@
 ---
 title: "VirtueMart 3"
 category: 62962dd7e272a6002ebbbbc5
-order: 20
+order: 3
 hidden: false
-parentDoc: 62a9a54abde254065ee92a5c
+parentDocs: 67e1463616608a00475c5f28
 excerpt: "Technical manual for MultiSafepay's free plugin."
 slug: 'virtuemart-3'
 ---
