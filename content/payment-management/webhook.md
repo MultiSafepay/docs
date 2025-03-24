@@ -205,8 +205,10 @@ Check the <<glossary:order status>> in the `status` field. If necessary, update 
 - Don't have the `timestamp` parameter in the URL  
 - Have the same <<glossary:order status>> 
 
-**⚠️ Note:** When using **webhook notifications** on POS terminals, you might encounter **soft declines** when processing payments. For more information, see <a href="https://docs.multisafepay.com/docs/smartpos-solutions#soft-declines" target="_blank">Soft declines</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> - SmartPOS solutions.
-=======
+When using **webhook notifications** on POS terminals, you might encounter **soft declines** when processing payments. For more information, see <a href="https://docs.multisafepay.com/docs/smartpos-solutions#soft-declines" target="_blank">Soft declines</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> - SmartPOS solutions.
+
+---
+
 ### Pre-transactions
 
 If a customer initiates a payment process but does not finalize it, and no **PSP ID** (transaction reference number) is associated with the payment session, the corresponding order status will be updated to **Canceled** in your <<glossary:backend>>.
