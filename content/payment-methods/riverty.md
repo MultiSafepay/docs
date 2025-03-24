@@ -72,6 +72,7 @@ Riverty provides you with an API key per country and per website, and you must a
   </details>
 
 - A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- For transactions where `customer.country` is set to `BE`, `gateway_options.gender` is required. 
 - Transactions expire after 90 days.
 - For <<glossary:direct>> orders, you must display your terms and conditions in your checkout. 
 
