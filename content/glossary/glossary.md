@@ -149,6 +149,10 @@ See [Payouts](/docs/payouts).
 A terminal that accepts payments, usually by card or near-field communication (NFC), at a merchant's physical location, e.g. a store.
 
 ---
+### pre-transaction
+The initial steps of a payment process before funds are transferred, e.g. customers selecting items or entering payment information. In our system, the <<glossary:transaction status>> will show as **Initialized**.
+
+---
 #### redirect flow
 Redirect requests first send the customer to a [payment page](/docs/payment-pages/) and then connect them to the selected payment method.
 
