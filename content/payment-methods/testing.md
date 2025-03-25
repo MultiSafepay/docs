@@ -99,7 +99,6 @@ Testing this new format is possible on both our TEST and LIVE environment:
 | Card number| Scenario | Description |
 | ---| --- | --- |
 | 67034500054620008 | **Completed** | The transaction was completed (3D enrolled). <br> Also use this card number when creating orders to test [refunds and API refunds](#refunds). |
-| 67034500054610009| **Declined**  | The transaction was declined (card must be 3D enrolled). |
 | 67039902990000045| **Declined**  | The transaction was declined (3D authentication failed). |
 | 67039902990000011| **Declined**  | The transaction was declined (3D authentication successful, but insufficient funds). |
 <br>
