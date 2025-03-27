@@ -141,6 +141,7 @@ Cards support all currencies.
 |---|---|
 | AED United Arab Emirates dirham | Cards |
 | AUD Australian dollar | Cards, PayPal |
+| BGN Bulgarian lev | Cards |
 | BRL Brazilian real | Cards, PayPal |
 | CAD Canadian dollar | Bank transfer, cards, PayPal |
 | CHF Swiss franc | Bank transfer, cards, PayPal, Sofort |
