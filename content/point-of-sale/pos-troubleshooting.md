@@ -99,12 +99,31 @@ If your IPEK is **not** configured, you can
 
 ***
 
-## Sunmi system keyboard for Manual Input
+## Sunmi system keyboard 
+
+### Manual Input
 When using **Manual Input** for the first time on the **SUNMI P2 SE** model, the default system keyboard will be displayed instead of a numeric keypad.
 
 To fix this, at the **Manual Input** screen, click the **keyboard** icon in the bottom corner and choose the language you selected during the initial device setup. This will display the numeric keypad.
 
+### Enabling the on-screen keyboard for the P2 Smartpad
+After the initial setup or reset of your **P2 Smartpad**, you will need to manually enable the on-screen keyboard through the MultiSafepay app:
+
+1. Click the input field where you want to enter text(e.g., the order ID field). A new keyboard icon will be displayed in the navigation bar.
+2. Click the **keyboard** icon.
+3. Choose a language and click the **Show virtual keyboard** toggle.
+4. The alphanumeric keyboard will be displayed on the screen. Enter your text. 
+5. Click **Done**. The input field will be populated with your text.
+
 ***
+
+## Soft declines
+When using <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook notifications</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> or <a href="https://docs.multisafepay.com/docs/event-notifications" target="_blank">event notifications</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, you might encounter **soft declines**. A **soft decline** occurs when an initial payment attempt is declined, requiring the customer to take further action, such as entering their PIN, often for larger amounts.
+
+With a soft decline, you first receive a notification with an order status of declined. Once the customer completes the required verification (e.g., enters their PIN), you'll receive another notification. If successful, the order status will be completed. If the payment fails, the order status will be cancelled.
+
+***
+
 ## Logs
 
 Retrieving logs can be a helpful step to investigate an issue. You can generate them via your Sunmi portal:
@@ -142,7 +161,7 @@ If your payment is declined, check if you encountered any error messages.
 
 Additional check: ensure that you did not deactivate any card payment methods in your Merchant Dashboard.
 
-> **Note:**
+> **⚠️Note:**
 >
 > To help us resolve POS issues faster, provide us with the following:
 > - Account ID
