@@ -115,9 +115,11 @@ After the initial setup or reset of your **P2 Smartpad**, you will need to manua
 4. The alphanumeric keyboard will be displayed on the screen. Enter your text. 
 5. Click **Done**. The input field will be populated with your text.
 
+**⚠️Note:** The keyboard icon appears only for input fields that accept letters and numbers.
+ 
 ***
 
-## Soft declines
+## Soft declines for SmartPOS payments
 When using <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook notifications</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> or <a href="https://docs.multisafepay.com/docs/event-notifications" target="_blank">event notifications</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, you might encounter **soft declines**. A **soft decline** occurs when an initial payment attempt is declined, requiring the customer to take further action, such as entering their PIN, often for larger amounts.
 
 With a soft decline, you first receive a notification with an order status of declined. Once the customer completes the required verification (e.g., enters their PIN), you'll receive another notification. If successful, the order status will be completed. If the payment fails, the order status will be cancelled.
