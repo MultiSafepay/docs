@@ -140,7 +140,7 @@ You can cancel the invoice order **before** shipment or **after** partial shipme
 
 To refund a Billink transaction, follow these steps:
 
-<details id="via-you-dashboard">
+<details id="via-your-dashboard">
 <summary>Via your dashboard</summary>
 <br>
 
@@ -157,8 +157,8 @@ To refund a Billink transaction, follow these steps:
 <br>
 
 See API reference - [Refund order](https://docs.multisafepay.com/reference/refundorder)
-1. Under Path Params, enter the `order_id` of the transaction for which you want to process a refund.
-2. Under Body Params, select **Refund** and enter the `currency`. Enter an `amount` for partial refunds.
+1. Under **Path Params**, enter the `order_id` of the transaction for which you want to process a refund.
+2. Under **Body Params**, select **Refund** and enter the `currency`. Enter an `amount` for partial refunds.
 
 </details>
 
