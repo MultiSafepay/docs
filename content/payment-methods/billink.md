@@ -140,11 +140,27 @@ You can cancel the invoice order **before** shipment or **after** partial shipme
 
 To refund a Billink transaction, follow these steps:
 
+<details id="via-your-dashboard">
+<summary>Via your dashboard</summary>
+<br>
+
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Navigate to **Transactions / Transactions Overview** and find the transaction you want to refund, or search for the transaction you want to refund by using the search bar.
 3. Click on the transaction to go to the transaction details page.
 4. On the right side of the page are the order details and a blue Refund button.
 5. In this section you can remove order lines or refund the complete order.
+
+</details>
+
+<details id="via-the-api">
+<summary>Via the API</summary>
+<br>
+
+See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+1. Under **Path Params**, enter the `order_id` of the transaction for which you want to process a refund.
+2. Under **Body Params**, select **Refund** and enter the `currency`. Enter an `amount` for partial refunds.
+
+</details>
 
 ## Shipment
 
