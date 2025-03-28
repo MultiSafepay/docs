@@ -156,7 +156,7 @@ To refund a Billink transaction, follow these steps:
 <summary>Via the API</summary>
 <br>
 
-See API reference - [Refund order](https://docs.multisafepay.com/reference/refundorder)
+See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 1. Under **Path Params**, enter the `order_id` of the transaction for which you want to process a refund.
 2. Under **Body Params**, select **Refund** and enter the `currency`. Enter an `amount` for partial refunds.
 
