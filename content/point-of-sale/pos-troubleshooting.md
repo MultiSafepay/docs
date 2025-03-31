@@ -165,6 +165,10 @@ Additional check: ensure that you did not deactivate any card payment methods in
 ## Soft declines for SmartPOS payments
 When using <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook notifications</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> or <a href="https://docs.multisafepay.com/docs/event-notifications" target="_blank">event notifications</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, you might encounter **soft declines**. A **soft decline** occurs when an initial payment attempt is declined, requiring the customer to take further action, such as entering their PIN, often for larger amounts.
 
+With a soft decline, you first receive a notification with an order status of declined. Once the customer completes the required verification (e.g., enters their PIN), you'll receive another notification. If successful, the order status will be completed. If the payment fails, the order status will be cancelled.
+
+**⚠️Note:** A soft decline is not a final payment status. Proceed with the payment process until the status is **canceled** or **completed**.
+
 ***
 
 # Errors in the display of the app / screen 
