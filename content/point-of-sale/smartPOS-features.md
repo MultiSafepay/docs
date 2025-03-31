@@ -33,10 +33,11 @@ After activating your SmartPOS terminal, you can add features from your SmartPOS
   <div style="margin-right: 80px;">
     <strong>Global Settings</strong>
     <ul><br>
-      <li>Display items after payment have been processed.</li>
-      <li>Add a tip to your payment flow.</li>
-      <li>Print a receipt.</li>
-      <li>Hide the MultiSafepay logo.</li>
+      <li>Display items after payment have been processed</li>
+      <li>Add a tip to your payment flow</li>
+      <li>Manually print a receipt</li>
+      <li>Automatically print a receipt after a completed payment</li>
+      <li>Hide the MultiSafepay logo</li>
     </ul>
     <strong>Payment Settings</strong>
     <ul><br>
@@ -123,7 +124,7 @@ You can add an employee via **+ add employee** > Insert **Name** and **Employee 
 
 ***
 
-## How to enable print or email
+## How to enable manual print or email
 
 1. In the **Global settings** list, click the **Print/Email** toggle.
 2. To return to the main screen, click the **Back** button.
@@ -142,6 +143,19 @@ You can add an employee via **+ add employee** > Insert **Name** and **Employee 
 \-->
 
 ***
+
+## How to enable auto-print
+
+Enabling this feature will print a receipt after each successful payment
+
+1. Go to **Features** > **Global settings**.
+2. Click the **Auto-Print** toggle.
+3. After completing a payment, the device will automatically print a receipt.
+
+This feature is only available for devices with built-in printers:
+- P2 SE
+- P2 PRO
+- P3 MIX
 
 ## How to enable cloud mode
 
