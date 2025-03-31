@@ -1,7 +1,7 @@
 ---
 title: "Shopware 6"
 category: 62962dd7e272a6002ebbbbc5
-order: 17
+order: 13
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manuals for MultiSafepay's free plugins."
@@ -123,7 +123,7 @@ For questions, email <integration@multisafepay.com>
 <summary>How to enable recurring payments</summary>
 <br>
 
-[Activate recurring payments](/docs/recurring-payments) and then:
+To [enable recurring payments](/docs/recurring-payments#activate) for your <<glossary:backend>>, email [sales@multisafepay.com](sales@multisafepay.com). Then:
 1. Sign in to your Shopware backend.
 2. Go to **Settings** > **Payment**.
 3. Select each payment method, and then enable the **Tokenization** toggle.

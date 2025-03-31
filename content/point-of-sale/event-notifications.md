@@ -26,7 +26,7 @@ In other scenarios, you can make use of our <a href="https://docs.multisafepay.c
 1. [Create an order](/reference/createorder/), and set`terminal_id` in your request. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. In response to the API request you made, you receive the `events_token`.
 
-**⚠️ Note:** You cannot initiate another payment until the current payment is **Cancelled** or **Completed**.
+**⚠️Note:** You cannot initiate another payment until the current payment is **Cancelled** or **Completed**.
 
 # 2. Subscribe to the event notifications
 
@@ -58,6 +58,8 @@ data: {"financial_status":"completed","order_id":"ExampleOrderID1234567","sessio
 ```
  </details>
 
+**⚠️Note:** When making requests locally, you might encounter **CORS** (**Cross-Origin Resource Sharing**) errors. We recommend using a **backend proxy** to handle the API requests, bypassing browser CORS restrictions.
+
 # 3. Payment statuses
 
 The table below sets out possible payment statuses and what they commonly mean.
@@ -65,6 +67,7 @@ The table below sets out possible payment statuses and what they commonly mean.
 | Description                  | Payment status |
 | :---------------------------| :-------------- |
 | The <<glossary:card scheme>> is processing your payment request. | Initialized    |
+| The payment has been initialized, but the <<glossary:card scheme>> requires authentication to continue the payment process. This is not a final status. For more information, see <a href="https://docs.multisafepay.com/docs/smartpos-solutions#soft-declines" target="_blank">Soft declines</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> - SmartPOS solutions. | Declined (**Soft decline**)
 | The payment has been cancelled on the terminal or via API. For more information - see [Cancellation.](/docs/solutions#cancellation)  <br>**Note:**  You can now initiate another cloud POS payment.   | Cancelled.     |
 | The customer has completed the payment.  <br>**Note:**  You can now initiate another cloud POS payment.  | Completed      |
 | The <<glossary:card scheme>> has declined the payment. The customer will be redirected to the payment screen to retry the payment.  | Declined. |
