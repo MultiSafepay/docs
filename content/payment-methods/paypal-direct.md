@@ -91,6 +91,8 @@ For information about styling your **PayPal** button, see - <a href="https://dev
 - From your server, [create an order](/reference/createorder/) > Wallet order > **PAYPAL**.<br> In response to the request, you receive `payment_details.external_transaction_id`.
 - The button launches the PayPal checkout experience.
 
+For 3D Secure authentication, add `customer.browser` object in your request. See recipe - <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Customer browser</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 # 4. Capture order
 
 - When customer approves the payment, the button calls the `onApprove` function, to finalize the transaction. 
