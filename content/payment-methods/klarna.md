@@ -286,11 +286,25 @@ Both reference numbers appear in the **Transaction details** page in your dashbo
 
 To refund a Klarna transaction, follow these steps:
 
+<details id="how-to-refund-an-order">
+<summary>How to refund an order</summary>
+<br>
+
+**In your dashboard**
+
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Navigate to **Transactions / Transactions Overview** and find the transaction you want to refund, or search for the transaction you want to refund by using the search bar.
-3. Click on the transaction to go to the transaction details page.
-4. On the right side of the page are the order details and a blue Refund button.
-5. In this section you can remove order lines or refund the complete order.
+2. Go to **Transactions** > **Transactions Overview** and select the relevant transaction.
+3. Click on the transaction to go to the **Transaction summary** page.
+4. Under **Order summary**, click **Edit order**.
+5. Click **Refund whole order** to process a full refund.
+   For partial refunds, you have two options:
+   - Click the (❌) **remove** icon to process a refund for all units of a specific item, or
+   - Click **Change**, enter the item's **name**, the **quantity** of items you want to refund, **unit price**, and select the **tax** rate. Click **Add**.
+6. Click **Save changes**.
+
+**Via the API** 
+
+See API reference – [Refund order](/reference/refundorder).
 
 ## Shipment
 

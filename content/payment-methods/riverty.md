@@ -126,6 +126,30 @@ This is because Riverty collects and require precise order specifications. Our p
 
 You are solely responsible for this in your integration.
 
+## Refunds
+
+To refund a Riverty transaction, follow these steps:
+
+<details id="how-to-refund-an-order">
+<summary>How to refund an order</summary>
+<br>
+
+**In your dashboard**
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Transactions** > **Transactions Overview** and select the relevant transaction.
+3. Click on the transaction to go to the **Transaction summary** page.
+4. Under **Order summary**, click **Edit order**.
+5. Click **Refund whole order** to process a full refund.
+   For partial refunds, you have two options:
+   - Click the (❌) **remove** icon to process a refund for all units of a specific item, or
+   - Click **Change**, enter the item's **name**, the **quantity** of items you want to refund, **unit price**, and select the **tax** rate. Click **Add**.
+6. Click **Save changes**.
+
+**Via the API** 
+
+See API reference – [Refund order](/reference/refundorder).
+
 ## Shipment
 
 When you ship the order, you **must** manually change the <<glossary:order status>> from **Completed** to **Shipped** to:
