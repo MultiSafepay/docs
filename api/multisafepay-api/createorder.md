@@ -16,3 +16,7 @@ slug: createorder
 ❗️ Never use a live API key, or real customer or payment details!
 
 💬&nbsp; For support, email <integration@multisafepay.com>
+
+>⚠️ Note:
+>
+> Avoid trailing spaces in parameter fields.

@@ -22,8 +22,8 @@ slug: 'woocommerce'
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Wordpress 5.0 or higher
-- PHP 7.3 or 7.4
+- Wordpress 6.0 or higher
+- PHP 7.3 or higher
 
 # Installation
 
