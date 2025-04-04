@@ -479,7 +479,8 @@ For more information about the `payment` object, see Apple Developer:
 
 ## Server-side integration
 
-1. From your server, [create an order](/reference/createorder/) > Wallet order. <br> See also Examples > Apple pay direct, using the `payment.token` property. <br> To use the `payment.token` property in the order request, convert it to an escaped JSON string.
+1. From your server, [create an order](/reference/createorder/) > Wallet order. <br> See also Examples > Apple pay direct, using the `payment.token` property. <br> To use the `payment.token` property in the order request, convert it to an escaped JSON string.<br>For 3D Secure authentication, add `customer.browser` object in your request. See recipe - <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Customer browser</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 2. To access the shipping and/or billing details from the `payment` object, use the `payment.billingContact` and `payment.shippingContact` properties.
 3. To add the details to the order request, format them in accordance with [create order](/reference/createorder/) requests.
 
