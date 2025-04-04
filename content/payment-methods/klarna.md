@@ -307,7 +307,7 @@ To refund a Klarna transaction, follow these steps:
 <br>
 
 See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i><br>
-Use the [Get order](https://docs.multisafepay.com/reference/getorder) request to retrieve the order details.
+Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> request to retrieve the order details.
 1. Under **Path Params**, enter the `order_id` of the transaction you want to refund. 
 2. Under **Body Params**, select **BNPL Refund**. Add all items in the shopping cart.
 3. Duplicate the object of the items you want to refund and enter a negative value for `quantity`. 
