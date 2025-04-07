@@ -160,7 +160,7 @@ For an overview of all payment links:
 | Active | The customer hasn't paid yet. | 
 | Cancelled | You cancelled the link.|
 | Completed | The customer has paid. |
-| Declined | The payment was declined by the customers payment service or the <glossary:acquirer>. |
+| Declined | The payment was declined by the customers payment service or the <glossary:acquirer>. | 
 | Duplicate | The customer completed payment in a duplicate transaction. |
 | Expired | The link lifetime has expired. | 
 
