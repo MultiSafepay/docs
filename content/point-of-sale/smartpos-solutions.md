@@ -133,8 +133,7 @@ This diagram shows a successful native application payment flow. Click to magnif
 
 ### Initiate payments 
 
-1. Before initiating native application payments, you need to create an order.
-When creating an order, the `order_id` must have a maximum length of 50 characters and can only contain **a-z**, **A-Z**, **0-9** and the special characters `/ - _`.
+1. Before initiating native application payments, you need to create an order.<br>When creating an order, the `order_id` must have a maximum length of 50 characters and can only contain **a-z**, **A-Z**, **0-9** and the special characters `/ - _`.
 
 **Example**
 
