@@ -4,7 +4,7 @@ category:
 slug: 'google-analytics'
 excerpt: 'Follow customer journeys with Google Analytics.'
 ---
-Google Analytics is a popular web analytics service used to analyze data collected from your site, e.g. site activity and session duration.
+Google Analytics is a popular web analytics service used to analyze data collected from your website, e.g. website activity and session duration.
 
 
 
@@ -20,9 +20,9 @@ Universal Analytics is an older version of Google Analytics that uses a data mod
 
 # Javascript libraries
 
-If you use `analytics.js`, Google gives you a **tracking ID** that you need to add to every page on your site, e.g. `UA-00000-2`. The tracking ID tells Google Analytics which account and property (site) the collected data belongs to.
+If you use `analytics.js`, Google gives you a **tracking ID** that you need to add to every page on your website, e.g. `UA-00000-2`. The tracking ID tells Google Analytics which account and property (website) the collected data belongs to.
 
-If you use `gtag.js`, then you use **tags** instead of tracking IDs. The `gtag.js` library adds a single tag to your site to connect with multiple Google products and services, including Google Analytics.
+If you use `gtag.js`, then you use **tags** instead of tracking IDs. The `gtag.js` library adds a single tag to your website to connect with multiple Google products and services, including Google Analytics.
 
 **⚠️ Note:** All Google Analytics accounts since 2017 use `gtag.js`. Prior to 2017, `analytics.js` was the default method for tagging.
 
@@ -33,11 +33,11 @@ You can add your tracking ID or tag in your integration by adding it in `google_
 
 # Errors
 
-Sometimes Google Analytics can miss or incorrectly report part of a customer's journey if they are redirected away from your site. This can be because:
+Sometimes Google Analytics can miss or incorrectly report part of a customer's journey if they are redirected away from your website. This can be because:
 
-- The customer pays but doesn't return to your site's success page.
+- The customer pays but doesn't return to your website's success page.
 - When the customer is redirected to your success page, a different browser opens. Google Analytics considers this a new session. For example, from an in-app browser to the default browser, or from the customer's preferred browser to the default browser.
-- When the customer is redirected to your success page from a third-party site. Google Analytics considers this a new session from a different source.
+- When the customer is redirected to your success page from a third-party website. Google Analytics considers this a new session from a different source.
 - The customer has blocked third-party cookies.
 
 This can impact the reliability of Google Analytics reports, and they won't accurately capture <<glossary:conversion>> rates. There are some ways to mitigate this.
@@ -48,7 +48,7 @@ This can impact the reliability of Google Analytics reports, and they won't accu
 
 To prevent third-party shopping carts initiating new sessions, you can exclude referral domains. This prevents the customer being counted as a referral when they return to your success page.
 
-**⚠️ Note:** This feature is only available for sites using `gtag.js` or `analytics.js`.
+**⚠️ Note:** This feature is only available for websites using `gtag.js` or `analytics.js`.
 
 For instructions, see Google Analytics – <a href="https://support.google.com/analytics/answer/2795830" target="_blank">Referral exclusions</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -111,7 +111,7 @@ For example, for the page URL `/checkout/payment/success`, pass your gateway the
 
 In your PHP code, the parameter should look like this: `$this→_redirect('checkout/onepage/success', ['utm_nooverride' => '1'])`.
 
-Make sure you do this for **all** links from the payment gateway to your site.
+Make sure you do this for **all** links from the payment gateway to your website.
 
 &nbsp; **💡 Tip!** Our ready-made integrations for Magento 1 and 2 do this automatically.
 
@@ -134,14 +134,14 @@ Instead of collecting data client side and sending it directly to Google Analyti
 
 This provides several benefits:
 - It moves data processing from client side to server side, which reduces page load time.
-- If your server is hosted on a subdomain of your site, you collect customers' data yourself instead of a third party. This avoids conflicts with third-party cookies.
+- If your server is hosted on a subdomain of your website, you collect customers' data yourself instead of a third party. This avoids conflicts with third-party cookies.
 - You can add additional event data from other sources like MultiSafepay's [webhook notifications](/docs/webhook/).
 
 For more information, see Google Tag Manager - <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank">Server-side tagging</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ### How to follow customers between sessions
 
-To follow a customer's journey between different sessions or browsers, in addition to using Google Tag Manager server-side tagging, you need to also update the data layer of your site to capture information that accurately identifies the customer. For more information, see Google Tag Manager - <a href="https://developers.google.com/tag-platform/tag-manager/web/datalayer" target="_blank">The data layer</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+To follow a customer's journey between different sessions or browsers, in addition to using Google Tag Manager server-side tagging, you need to also update the data layer of your website to capture information that accurately identifies the customer. For more information, see Google Tag Manager - <a href="https://developers.google.com/tag-platform/tag-manager/web/datalayer" target="_blank">The data layer</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 <br>
 

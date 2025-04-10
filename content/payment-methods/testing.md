@@ -10,7 +10,7 @@ Before you start processing real transactions with MultiSafepay, we recommend te
 
 # Credentials
 
-For all payment methods **except** Riverty, you need your site's test [API key](/docs/sites#site-id-api-key-and-security-code).
+For all payment methods **except** Riverty, you need your website's test [API key](/docs/sites#site-id-api-key-and-security-code).
 
 # How to make a test payment
 
@@ -20,7 +20,7 @@ For all payment methods **except** Riverty, you need your site's test [API key](
     <summary>In your ready-made integration</summary>
     <br>
 
-    - In your <<glossary:backend>>, enter your test site [API key](/docs/sites#site-id-api-key-and-security-code).
+    - In your <<glossary:backend>>, enter your test website [API key](/docs/sites#site-id-api-key-and-security-code).
     - Place a test order, and then initiate a transaction with the payment method you are testing. 
     
     <br>
@@ -43,7 +43,7 @@ For all payment methods **except** Riverty, you need your site's test [API key](
 6. On the **Transaction details** page, under **Notification history**, to see if you have successfully connected to our system, check that you've correctly received the **notifyMerchantTrans** action.  
     For information about errors, see [HTTP errors](/docs/http-errors/).
 
-✅ **Success!** Once your live account is approved, make sure you use the site API key from your **live** account instead of your test account. 
+✅ **Success!** Once your live account is approved, make sure you use the website API key from your **live** account instead of your test account. 
 
 ---
 # Test payment details
@@ -99,7 +99,6 @@ Testing this new format is possible on both our TEST and LIVE environment:
 | Card number| Scenario | Description |
 | ---| --- | --- |
 | 67034500054620008 | **Completed** | The transaction was completed (3D enrolled). <br> Also use this card number when creating orders to test [refunds and API refunds](#refunds). |
-| 67034500054610009| **Declined**  | The transaction was declined (card must be 3D enrolled). |
 | 67039902990000045| **Declined**  | The transaction was declined (3D authentication failed). |
 | 67039902990000011| **Declined**  | The transaction was declined (3D authentication successful, but insufficient funds). |
 <br>
@@ -187,7 +186,7 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 
 1. [Create an order](/reference/createorder/) > Banking order (Example: Giropay redirect)
 2. On the Giropay page, in the **BIC** field, enter any BIC code, e.g. `NOLADE22XXX`.
-3. Click **Confirm**.
+3. Click **Confirm**. 
 4. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
 5. Click **Test**.  
   The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
@@ -199,18 +198,16 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 <br>
 
 1. [Create an order](/reference/createorder/) > Banking order (Example: iDEAL direct/redirect)
-2. For <<glossary:redirect>>, select a bank.
-3. On the **Test platform** page, from the **Test scenario** list, select **Completed**.
-4. Click **Test**.  
-    The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and <<glossary:transaction status>> **Completed**.
+2. For <<glossary:redirect>> orders, open the payment link.
+3. On the **Test platform** page, from the **Test scenario** list, select the desired transaction scenario. Refer to the table below for details. 
+4. Click **Test**.
 
-You can also test the following scenarios:
-
-| Scenario | Description |
-| --- | --- |
-| **Declined** | The transaction was declined. |
-| **Open** **Completed** | The transaction is initiated. <br> After 1 minute, this changes to **Completed**. |
-| **Open** **Declined**  | The transaction is initiated. <br> After 1 minute, this changes to **Declined**. |
+| Scenario      | Description                                                                |
+| ------------- | -------------------------------------------------------------------------- |
+| **Success**   | The transaction is initiated. <br> Transaction will show as **Completed**. |
+| **Failure**   | The transaction is initiated. <br> Transaction will show as **Declined**.  |
+| **Cancelled** | The transaction is initiated. <br> Transaction will show as **Void**.      |
+| **Expired**   | The transaction is initiated. <br> Transaction will show as **Expired**.   |
 
 </details>
 
@@ -311,6 +308,56 @@ You can also test the following scenarios:
 ---
 ## BNPL methods
 
+<details id="billink">
+<summary>How to test Billink</summary> 
+<br>
+
+**Request Billink activation for your test account**
+
+To enable Billink for your MultiSafepay test account, email [support@multisafepay.com](mailto:support@multisafepay.com)
+
+**Test a Billink order**
+
+1. [Create an order](/reference/createorder/) > BNPL order  
+   Example: Billink redirect
+2. On the payment page, select **Private** or **Business** if no payment type has been added to the request.
+3. Click **Confirm**.
+4. On the Test platform page, from the **Test scenario** list, select one of the options mentioned in the table below to achieve your desired outcome. 
+
+| Test scenario | Description                                                                                                                                             |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Success**   | The payment is processed in the test environment as **Successful**, with <<glossary:order status>> **Completed**, and transaction status **Uncleared**. |
+| **Failure**   | The payment is processed in the test environment as **Declined**, with <<glossary:order status>> **Declined**, and transaction status **Declined**.     |
+| **Cancelled** | The payment is processed in the test environment as **Cancelled**, with <<glossary:order status>> **Void**, and transaction status **Void**.            |
+
+<br>
+
+**Change the order status**  
+
+You can change the order status to **Shipped**, **Cancelled**, or **Hold**.  
+To change the order status, either:  
+
+- Make an [update order](/reference/updateorder/) API request, or 
+- In your MultiSafepay test dashboard, go to **Order summary**, and then click **Order status**.
+
+**Test refunding an order**
+
+To refund an order:
+
+1. Under **Order summary**, click **Refund order**, or make a BNPL refund API request: [Refund order](/reference/refundorder/) > BNPL refund.
+2. The <<glossary:transaction status>> changes to **Completed**.
+
+**Receive an invoice**  
+
+You can only test invoicing in your MultiSafepay live account. To do this, change the order status to **Shipped**.
+
+**⚠️ Note:** You can't test:
+
+- Receiving successful payment notifications from Billink
+- Changing the <<glossary:transaction status>> from **Uncleared** to **Completed**, except for refunds
+
+</details>
+
 <details id="e-invoicing-pay-after-delivery">
 <summary>How to test E-Invoicing & Pay After Delivery</summary>
 <br>
@@ -410,7 +457,7 @@ To test refunding an order via the API:
 
 **Test credentials**
 
-- [Site API key](/docs/sites#site-id-api-key-and-security-code)
+- [Website API key](/docs/sites#site-id-api-key-and-security-code)
 - <a href="https://docs.klarna.com/resources/test-environment/" target="_blank">Klarna's test credentials</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 **Test a Klarna order** 
@@ -468,7 +515,7 @@ To learn more about integrating Klarna with MultiSafepay, see [Klarna](/docs/kla
 
     Riverty shares the test key with MultiSafepay.
 
-2. To enable Riverty in your MultiSafepay test account, email <integration@multisafepay.com>
+2. To enable Riverty in your MultiSafepay test account, email <support@multisafepay.com>
 
 **Test an Riverty order**
 
@@ -765,7 +812,7 @@ To change the order status, on the Test platform page, from the **Test scenario*
 
 You can process full refunds in your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay test dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
 
-Partial refunds are not enabled by default. To enable this, email <integration@multisafepay.com>
+Partial refunds are not enabled by default. To enable this, email <support@multisafepay.com>
 
 If you refund a payment in your MultiSafepay test dashboard, the [transaction status](/docs/payment-statuses/) remains **Reserved** or **Initialized** until the refund is manually approved, since there is no involvement with a bank.
 

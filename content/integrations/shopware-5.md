@@ -1,7 +1,7 @@
 ---
 title: "Shopware 5"
 category: 62962dd7e272a6002ebbbbc5
-order: 18
+order: 14
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manuals for MultiSafepay's free plugins."
@@ -126,6 +126,15 @@ By default, activated payment methods from your MultiSafepay account appear on t
     - Wijncadeau
     - <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
     - <a href="https://www.yourgift.nl/" target="_blank">Yourgift</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+
+</details>
+
+### Recurring payments
+
+[Recurring payments](/docs/recurring-payments) are supported.
+
+To [enable recurring payments](/docs/recurring-payments#activate) for your <<glossary:backend>>, email [sales@multisafepay.com](sales@multisafepay.com).
+Once activated, the setting will be automatically applied to the supported payment methods at your checkout.
 
 </details>
 

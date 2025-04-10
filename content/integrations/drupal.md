@@ -1,7 +1,7 @@
 ---
 title: "Drupal"
 category: 62962dd7e272a6002ebbbbc5
-order: 3
+order: 2
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -43,7 +43,7 @@ composer require drupal/commerce_multisafepay_payments
 
 1. Sign in to your Drupal backend.
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
-3. Enter your [account ID, site ID, and site API key](/docs/sites#site-id-api-key-and-security-code). 
+3. Enter your [account ID, website ID, and website API key](/docs/sites#site-id-api-key-and-security-code). 
 4. Go to **Commerce** > **Configuration** > **Payments** > **Payment gateways**.
 5. Configure the options for all supported payment methods activated in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 <br>
@@ -155,7 +155,7 @@ For how to upgrade Drupal 8 to Drupal 9, see Drupal - <a href="https://www.drupa
 
 1. Unpack the content of the .ZIP file in the root of your Drupal 7 webshop.
 2. Sign in to your Drupal 7 backend.
-3. Go to **Site settings** > **Modules**. 
+3. Go to **Website settings** > **Modules**. 
 4. Enable the Commerce MultiSafepay JSON module, and your selected payment method modules. 
 5. Click **Save configuration**.
 6. Go to **Store settings** > **Advanced store settings** > **Payment methods**.

@@ -53,8 +53,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. To activate the payment method for:
-- All sites, go to **Settings** > **Payment methods**.
-- A specific site, go to **Sites**, and then click the relevant site.
+- All websites, go to **Settings** > **Payment methods**.
+- A specific website, go to **Websites**, and then click the relevant website.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
@@ -261,7 +261,7 @@ MultiSafepay can customize the formatting of your invoices on request. Email <sa
     - In the **Tax** field, enter the tax rate that applies to the item. 
     - To add a new line for a different type of item, click **Add**.
 4. Fill out the required fields: **Address**, **Birthday**, **City**, **Country**, **Currency**, **Description**, **Email address**, **First name**, **Last name**, **Order ID**, **Phone number**, **Postal code / House number**, **State / Province**.
-5. From the **Site** list, select the relevant site. 
+5. From the **Website** list, select the relevant website. 
 6. From the **Payment flow** list, select the relevant collection flow. 
 7. Click **Generate invoice**. 
 
@@ -302,14 +302,15 @@ For partial refunds:
 
 **In your dashboard**
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
-3. On the **Transaction details** page, click **Refund order**.
-4. In the **Reason / Description** field, enter the reason for the refund or a description of what happened with the order, and then click **Complete**.
-5. In the **Comment** field, enter any additional information.
-6. In the **Amount** fields, enter the amount to refund. 
-7. Click **Continue**.
-8. Review the **Refund confirmation**, and then click **Confirm**.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Transactions** > **Transactions Overview** and select the relevant transaction.
+3. Click on the transaction to go to the **Transaction summary** page.
+4. Under **Order summary**, click **Edit order**.
+5. Click **Refund whole order** to process a full refund.
+   For partial refunds, you have two options:
+   - Click the (❌) **remove** icon to process a refund for all units of a specific item, or
+   - Click **Change**, enter the item's **name**, the **quantity** of items you want to refund, **unit price**, and select the **tax** rate. Click **Add**.
+6. Click **Save changes**.
 
 **Via the API** 
 

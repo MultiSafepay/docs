@@ -1,7 +1,7 @@
 ---
 title: "Magento 1"
 category: 62962dd7e272a6002ebbbbc5
-order: 6
+order: 5
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -30,6 +30,10 @@ Release date: Nov. 28th, 2024
 
 ### Fixed
 + PLGMAGONE-771: Fix surcharges where percentage not applied when fixed amount is 0
+
+### Removed
++ PLGMAGONE-773: Remove issuers from iDEAL
++ DAVAMS-709: Remove Santander Betaal per Maand
 
 ***
 
@@ -868,7 +872,7 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 2. Go to **System** > **Configuration** > **MultiSafepay x.x.x** > **Connect settings**.  
     This page contains all main settings and is used for all <<glossary:gateways>> and gift cards.  
     To find your API key, see [API key](/docs/sites#site-id-api-key-and-security-code).  
-    From version 3.0.0, the plugin only needs your API key. Your account ID, site ID, and site security code are no longer needed.
+    From version 3.0.0, the plugin only needs your API key. Your account ID, website ID, and website security code are no longer needed.
 3. To configure your selected payment methods, go to **System** > **Configuration** > **MultiSafepay x.x.x**:
     - **Connect MultiSafepay gateways**  
     - **MultiSafepay gift cards**  

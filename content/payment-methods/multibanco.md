@@ -60,8 +60,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. To activate the payment method for:
 
-- All sites, go to **Settings** > **Payment methods**.
-- A specific site, go to **Sites**, and then click the relevant site.
+- All websites, go to **Settings** > **Payment methods**.
+- A specific website, go to **Websites**, and then click the relevant website.
 
 3. Select the checkbox for the payment method, and then click **Save changes**.
 
@@ -119,6 +119,8 @@ Email the customer the following payment details to include when completing the 
 You can process refunds in your dashboard.
 
 The customer must provide you with their IBAN to process refunds via bank transfer.
+
+**⚠️Note:** Refunds are only available within 3 months of a purchase. Requests made after this time cannot be processed.
 
 <details id="how-to-refund-an-order">
 <summary>How to refund an order</summary>

@@ -1,12 +1,16 @@
 ---
 title: "X-Cart"
 category: 62962dd7e272a6002ebbbbc5
-order: 23
+order: 5
 hidden: false
-parentDoc: 62a9a54abde254065ee92a5c
+parentDocs: 67e1463616608a00475c5f28
 excerpt: "Technical manual for MultiSafepay's free plugin."
 slug: 'x-cart'
 ---
+> ❗️ Important:
+> 
+> This plugin is at end-of-life. It may contain security vulnerabilities, compatibility issues, and lack the latest features. MultiSafepay provides no support for these plugins.
+
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/X-Cart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 <div style="display: flex; flex-wrap: wrap;">
@@ -44,7 +48,7 @@ slug: 'x-cart'
 6. Locate and activate your enabled payment methods.
 7. For **MultiSafepay Connect**, click **Configure**.
 8. For **Account type**, you have two options: **Live** and **Test**.  
-9. Enter your account ID, [site ID, security code, and API key](/docs/sites/#site-id-api-key-and-security-code). 
+9. Enter your account ID, [website ID, security code, and API key](/docs/sites/#site-id-api-key-and-security-code). 
 Make sure you enter the correct API key for the account type you want to use. 
 10. Click **Save changes**.  
 <br>

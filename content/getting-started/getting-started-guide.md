@@ -20,7 +20,7 @@ Simply fill out a signup form, and then sign in to your test dashboard using the
 
 To set up your account, you need to:
 
-- Add at least one [site](/docs/sites/) to your account.
+- Add at least one [website](/docs/sites/) to your account.
 - Activate your selected [payment methods](/docs/payment-methods/).
 
 # 3. Choose an integration method 
@@ -51,7 +51,7 @@ To start processing real transactions, we need to check and approve your company
 - Complete the live account signup form.
 - Provide information about your company, including the ultimate beneficial owners.
 - Check our list of prohibited products and services.
-- Display required information on your site.
+- Display required information on your website.
 
 We then perform know your customer (KYC) checks. If approved, your account goes live.
 

@@ -1,12 +1,16 @@
 ---
 title: "Zen Cart"
 category: 62962dd7e272a6002ebbbbc5
-order: 24
+order: 6
 hidden: false
-parentDoc: 62a9a54abde254065ee92a5c
+parentDocs: 67e1463616608a00475c5f28
 excerpt: "Technical manual for MultiSafepay's free plugin."
 slug: 'zen-cart'
 ---
+> ❗️ Important:
+> 
+> This plugin is at end-of-life. It may contain security vulnerabilities, compatibility issues, and lack the latest features. MultiSafepay provides no support for these plugins.
+
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Zen_Cart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 <div style="display: flex; flex-wrap: wrap;">
@@ -50,8 +54,8 @@ slug: 'zen-cart'
 <br>
 
 - Cards: [All](/docs/card-payments/)
-- Banking methods: All, except iDEAL QR and TrustPay
-- <<glossary:BNPL>>: All, except in3
+- Banking methods: All, except iDEAL QR, TrustPay, and Bizum.
+- <<glossary:BNPL>>: All, except in3 and Billink.
 - Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card

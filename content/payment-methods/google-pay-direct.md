@@ -35,7 +35,7 @@ With direct integration, the **Google Pay** button appears in your checkout page
 </details>
 
 - Google Pay must be [activated in your MultiSafepay account](/docs/google-pay#activation).
-- You need to register your business and site in <a href="https://pay.google.com/business/console/" target="_blank">Google Pay's Business Console</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- You need to register your business and website in <a href="https://pay.google.com/business/console/" target="_blank">Google Pay's Business Console</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 - You must serve an HTTPS webpage with a TLS domain-validated certificate.
 - By accessing or using the Google Pay API, you agree to the <a href="https://payments.developers.google.com/terms/sellertos" target="_blank">Google API Terms of Service</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
@@ -98,7 +98,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
 3. Define supported payment card networks.
 
-    Create an `allowedCardNetworks` array containing card networks accepted by your site:
+    Create an `allowedCardNetworks` array containing card networks accepted by your website:
 
     ```javascript
     const allowedCardNetworks = ["MASTERCARD", "VISA"];
@@ -110,7 +110,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
 4. Define supported authentication methods.
 
-    Create an `allowedCardAuthMethods` array containing authentication methods accepted by your site:
+    Create an `allowedCardAuthMethods` array containing authentication methods accepted by your website:
 
     ```javascript
     const allowedCardAuthMethods = ["CRYPTOGRAM_3DS", "PAN_ONLY"];
@@ -122,7 +122,7 @@ Create an element in the `<body>` of your checkout page where you want to displa
 
 5. Describe your supported payment methods.
 
-    Combine the supported payment card networks and authentication methods to describe what your site supports for the `CARD` payment method:
+    Combine the supported payment card networks and authentication methods to describe what your website supports for the `CARD` payment method:
 
     ```javascript
     const baseCardPaymentMethod = {
