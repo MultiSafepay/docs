@@ -61,15 +61,87 @@ slug: 'bnpl'
 </div>
 <br>
 
----
+***
+
 ## MultiSafepay
 
-[block:html]
-{
-  "html": "<div class=\"auto-grid\">\n    <div class=\"card-container\">\n        <a href=\"/docs/e-invoicing/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/e-invoicing.svg\" style=\"margin: 15px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>E-Invoicing</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/pay-after-delivery/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/PAD-EN.svg\" width=\"125\" style=\"margin: 15px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>Pay After Delivery</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n    <div class=\"card-container\">\n        <a href=\"/docs/pay-after-delivery-installments/\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/PAD-EN.svg\" style=\"margin:15px; max-height: 40px\">\n                <div class=\"container\">\n                    <h4><b>Pay After Delivery installments</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n  </div>\n\n<style>\n\nb {\n  color: #384248 !important;\n}\n  \n.auto-grid {\n  --auto-grid-min-size: 175px;\n  \n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));\n}\n\n.card-container {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the \"card\" effect */\n  padding: 16px;\n  text-align: center;\n  border-radius: 5px;\n  margin: 8px\n} \n\n.card-container:hover {\n  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);\n  transform: translateY(-0.2rem);\n  transition: all 0.2s;\n  cursor: pointer;\n}  \n\n</style>"
-}
-[/block]
-<br>
+<div class="auto-grid">
+    <div class="card-container">
+        <a href="/docs/e-invoicing/" style="text-decoration: none;">
+            <div>
+                <img
+                    src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/e-invoicing.svg"
+                    style="margin: 15px; max-height: 40px">
+                <div class="container">
+                    <h4><b>E-Invoicing</b></h4>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="card-container">
+        <a href="/docs/pay-after-delivery/" style="text-decoration: none;">
+            <div>
+                <img
+                    src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/PAD-EN.svg"
+                    width="125"
+                    style="margin: 15px; max-height: 40px">
+                <div class="container">
+                    <h4><b>Pay After Delivery</b></h4>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="card-container">
+        <a href="/docs/pay-after-delivery-installments/" style="text-decoration: none;">
+            <div>
+                <img
+                    src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/PAD-EN.svg"
+                    style="margin:15px; max-height: 40px">
+                <div class="container">
+                    <h4><b>Pay After Delivery installments</b></h4>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
 
----
+<style>
+h4 {
+    color: #384248 !important;
+    font-weight: 700 !important;
+}
+
+.auto-grid {
+    --auto-grid-min-size: 175px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+}
+
+.card-container {
+    /* this adds the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+.card-container:hover {
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
+    transform: translateY(-0.2rem);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.card-container h4 {
+    pointer-events: none;
+}
+
+.card-container img {
+    pointer-events: none;
+}
+</style>
+
+***
+
 [Top of page](#)

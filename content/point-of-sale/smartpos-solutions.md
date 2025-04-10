@@ -107,7 +107,7 @@ msp://?amount={$amount}&order_id={$order_id}&callback={$callback_url}&printing=t
 ```
 
 - `amount`: the amount specified in EUR cents. 
-- `order_id`: your unique identifier for order ID.
+- `order_id`: your unique identifier for order ID. - `order_id`: your unique identifier for order ID. Maximum 50 characters. Can only contain **a-z**, **A-Z**, **0-9** and the special characters `/ - _`.
 - `callback_url`: this URL redirects the customer to receive payment status notifications.
 - Optionally, you can set `notification_url` to receive order payment updates notifications.
 - `tipping`: include a tip.
@@ -133,7 +133,7 @@ This diagram shows a successful native application payment flow. Click to magnif
 
 ### Initiate payments 
 
-1. Before initiating native application payments, you need to create an order.
+1. Before initiating native application payments, you need to create an order.<br>When creating an order, the `order_id` must have a maximum length of 50 characters and can only contain **a-z**, **A-Z**, **0-9** and the special characters `/ - _`.
 
 **Example**
 
