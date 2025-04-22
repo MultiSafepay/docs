@@ -72,6 +72,36 @@ See API reference – [Refund order](/reference/refundorder).
 
 </details>
 
+## Unreferenced refunds
+
+Unreferenced refunds allow you to return funds to a customer without the need of an original transaction. This process is done from your CTAP terminal:
+
+1. You initiate the refund by introducing the amount on the CTAP terminal.
+2. The customer presents their card.
+3. The card details are sent to MultiSafepay and forwarded to the card scheme for authorization. The authorization can be accepted or declined.
+4. Once we receive an authorization response, we forward it to the terminal. The result will be displayed on the screen. 
+
+This diagram shows the flow for a successful transaction. Click to magnify.
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/diagrams/svg/ctap-unreferenced-refunds.svg" alt="web-app-POS" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;"/>
+
+### Activation
+
+To enable unreferenced refunds for your MultiSafepay account, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
+
+### How it works
+
+Once this feature has been activated for your account, you can start processing refunds on your terminal. The instructions vary from one terminal model to another.
+
+***
+
+## Updates
+
+To get updates on a specific order, make a [Get order](/reference/getorder/) request using the `order_id`.
+
 ## Updates
 
 To get updates on a specific order, make a [Get order](/reference/getorder/) request using the `order_id`.
