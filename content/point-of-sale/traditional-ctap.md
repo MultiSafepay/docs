@@ -102,10 +102,6 @@ Once this feature has been activated for your account, you can start processing 
 
 To get updates on a specific order, make a [Get order](/reference/getorder/) request using the `order_id`.
 
-## Updates
-
-To get updates on a specific order, make a [Get order](/reference/getorder/) request using the `order_id`.
-
 ## Testing
 
 You cannot test terminals in your MultiSafepay test account.
