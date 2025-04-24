@@ -50,14 +50,12 @@ Traditional (CTAP) is a terminal that has passed <a href="https://wp.acquiris.eu
 
 ## Refunds
 
+To process a refund, follow these steps:
+
 <details id="refunds">
 
-<summary>How to process refunds</summary>
+<summary>Via your dashboard</summary>
 <br>
-
-**Via the API** 
-
-See API reference – [Refund order](/reference/refundorder).
 
 **In your dashboard**
 
@@ -72,16 +70,39 @@ See API reference – [Refund order](/reference/refundorder).
 
 </details>
 
+<details id="via-api">
+
+<summary>Via the API</summary>
+<br>
+
+See API reference – [Refund order](/reference/refundorder).
+
+</details>
+
 ## Unreferenced refunds
 
-Unreferenced refunds allow you to return funds to a customer without the need of an original transaction. This process is done from your CTAP terminal:
+Alternatively to regular refunds, you can process unreferenced refunds. This allows you to return funds to a customer without the need of an original transaction. This process is initiated from your terminal.
+
+<details id="unreferenced-refunds">         
+
+<summary>How to process unreferenced refunds</summary>
+
+### Activation
+
+To enable unreferenced refunds for your MultiSafepay account, email [sales@multisafepay.com](mailto:sales@multisafepay.com).
+
+### How it works
+
+Once this feature has been activated for your account, you can start processing refunds on your terminal. The instructions vary from one terminal model to another.
 
 1. You initiate the refund by introducing the amount on the CTAP terminal.
 2. The customer presents their card.
-3. The card details are sent to MultiSafepay and forwarded to the card scheme for authorization. The authorization can be accepted or declined.
-4. Once we receive an authorization response, we forward it to the terminal. The result will be displayed on the screen. 
+3. The card details are sent to MultiSafepay.
+4. MultiSafepay forwards the card details to the card scheme for authorization, which can be accepted or declined.
+5. Once we receive an authorization response, we forward it to the terminal. The result will be displayed on the screen. 
 
 This diagram shows the flow for a successful transaction. Click to magnify.
+
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/diagrams/svg/ctap-unreferenced-refunds.svg" alt="web-app-POS" style="display: block;
   margin-left: auto;
