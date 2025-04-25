@@ -20,3 +20,29 @@ slug: createorder
 >⚠️ Note:
 >
 > Avoid trailing spaces in parameter fields.
+
+<style>
+
+  .APIRequest-menu1BgeDnE-FReE {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  .APIRequest-menu1BgeDnE-FReE::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .APIRequest-menu1BgeDnE-FReE::-webkit-scrollbar-track {
+    background: #2d3748;
+    border-radius: 4px;
+  }
+  
+  .APIRequest-menu1BgeDnE-FReE::-webkit-scrollbar-thumb {
+    background: #4a5568;
+    border-radius: 4px;
+  }
+  
+  .APIRequest-menu1BgeDnE-FReE::-webkit-scrollbar-thumb:hover {
+    background: #718096;
+  }
+</style>
