@@ -1,7 +1,7 @@
 ---
 title: "OpenCart 4"
 category: 62962dd7e272a6002ebbbbc5
-order: 9
+order: 7
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -58,7 +58,7 @@ You need to make two specific extra actions in the **OpenCart 4 Backend** ...
     - **Order status** tab
     - **Options** tab  
 
-To retrieve your API key, see [Site ID, API key, and security code](/docs/sites#site-id-api-key-and-security-code).
+To retrieve your API key, see [Website ID, API key, and security code](/docs/sites#site-id-api-key-and-security-code).
 <br>
 
 ---

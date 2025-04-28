@@ -73,54 +73,118 @@ The payment component now looks like this:
 # Via the dashboard
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Sites**, and then click the relevant site.
-3. On the **Site profile** page, under **Style your checkout solution**, for **Payment component** click **Edit**. 
+2. Go to **Websites**, and then click the relevant website.
+3. On the **Website profile** page, under **Style your checkout solution** > **Payment component**, click **Edit**. 
 4. On the **Components settings** page, under **Preview - Default**, select whether you want to:
+
 - Apply the styling from another saved template.
 - Edit an existing template. 
 - Style a new single payment method component.
 - Style a new multiple payment method component. 
 - View the style in JSON format. 
-5. Under **Configure page style**, style the:  
+
+5. Under **Configure page style**, you can customize the appearance of your payment components. Click on each section below to expand the options:
 
     <details id="container">
-    <summary>Container</summary>
+    <summary>Template simulator</summary>
     <br>
 
+   The template simulator provides a preview of your payment page. Here, you can:
 
-    - To set the color of the container background, in the **Background color** field, enter the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-    - To set the font for the field labels, from the **Font family** list, select a font.
+   - Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background and text.
+   - Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> the font.
+   - Set the font family, style and weight.
 
-    </details> 
-
-    <details id="fields">
-    <summary>Fields</summary>
-    <br>
-
-    - Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, placeholder text, label text, text entered by the customer, and the borders. 
-    - Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the labels, font, border radius, and box shadow.
+   <br />
 
     </details>
 
-    <details id="settings-for-ideal-issuers">
-    <summary>Settings for iDEAL issuers</summary>
+    <details id="fields">
+    <summary>Payment methods</summary>
     <br>
 
-   - To add the default padding, border, and labels for the issuers container, select the **Embed mode** checkbox. 
-   - To specify the layout of the issuers, from the **iDEAL issuer selection** list, choose **Select button**, **List**, or **Dropdown**. 
+   Customize the look of all payment methods and forms. Here, you can:
+
+   - Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, text, and borders. You can also set a color for when the user hovers over each payment method.
+   - Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the font, border width and radius, and box shadow.
+   - Set the font family, style and weight.
+   - Set the border style.
+
+   <br />
+
+    </details>
+
+    <details id="settings-for-payment-form">
+    <summary>Payment form</summary>
+    <br>
+
+   Customize the appearance of your payment forms using the settings below. These options are divided into two categories:
+
+   Under **General**:
+
+   - Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color code</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for general background color, text, border, links and labels.
+   - Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the labels.
+   - Set the label's font weight.
+
+   <br />
+
+   Under **Inputs**:
+
+   - Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color code</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the input's background, text, borders, placeholder text, focus and errors.
+   - Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the input's font, border width and radius.
+   - Set the font family, style and weight. Set the border style.
+
+   <br />
 
    </details>
 
- 6. To set this as your default template, select the **Set as default template** checkbox. 
+    <details id="gatewayss">
+    <summary>Gateways settings</summary>
+    <br>
 
+   Customize the color and text for **Apple Pay** and **Google Pay** payment components.  
+   To preview the changes, go to **Review - Default**, click **Select component view** > **Express methods (Google & Apple Pay)**.
+
+   - Click on the **Style Apple Pay** checkbox to enable customization for **Apple Pay**.
+   - Click on the **Style Google Pay** checkbox to enable customization for the **Google Pay**.
+
+   <br />
+
+    </details>
+
+   <details id="gateways">
+    <summary>Settings</summary>
+    <br>
+
+   - Click the **Embed mode** checkbox to embed your payment component into your page. Enabling this settings will disable background and border customization for payment forms. Inputs can still be customized.  
+     **⚠️ Note:** This only applies to **single components**.
+   - Enable the **MultiSafepay Payment Button** for multiple payment components clicking the checkbox. To customize the appearance of this button, go to the **Primary Button**.
+
+   <br />
+
+    </details>
+
+   <details id="pay-button">
+    <summary>Primary button</summary>
+    <br>
+
+   If you've enabled the **MultiSafepay Payment Button** in the **Settings** section, you can customize its appearance:
+
+   - Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color code</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the background, text and border. You can also change the color for mouseovers.
+   - Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> to change font size, border width, shadow and radius.
+   - Set the font weight clicking the **Font weight** dropdown menu.
+
+    </details>
+6. To set this as your default template, select the **Set as default template** checkbox. 
 7. In the **Save template as** field, enter the name of the template (used as the `template_id`), and then click **Submit settings**.
 
----
+***
 
 [block:html]
 {
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
 }
 [/block]
+
 
 [Top of page](#)

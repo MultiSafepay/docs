@@ -36,7 +36,7 @@ Or via your dashboard:
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions** > **Payment links**.
 3. Click **New payment link**.
-4. From the **Site** list, select the relevant site.
+4. From the **Website** list, select the relevant website.
 5. Under **Amount**, select the currency from the list, and then enter the whole value and cents.
 6. In the **Order ID** field, enter the order ID from your webshop.  
     **⚠️ Note:** The order ID for every payment link must be unique.
@@ -56,6 +56,9 @@ Or via your dashboard:
     - **State/Province**
     - **Birthday**
     - **Phone number**
+    - **Notification URL** and **Mode**
+    - **Redirect URL**
+    - **Cancel URL**
 12. Click **Generate payment link**.
 13. In the green bar that appears, copy the link from the green bar and pass it to the customer.
 
@@ -156,7 +159,8 @@ For an overview of all payment links:
 |---|---|
 | Active | The customer hasn't paid yet. | 
 | Cancelled | You cancelled the link.|
-| Completed | The customer has paid. |  
+| Completed | The customer has paid. |
+| Declined | The payment was declined by the customer's payment service or the <<glossary:acquirer>>. | 
 | Duplicate | The customer completed payment in a duplicate transaction. |
 | Expired | The link lifetime has expired. | 
 
@@ -170,7 +174,7 @@ For an overview of all payment links:
 
 **All** payment methods are supported. 
 
-The payment page displays **all** payment methods activated for the relevant site. If you want to display specific payment methods, you need to create a new site profile with only the relevant methods activated. 
+The payment page displays **all** payment methods activated for the relevant website. If you want to display specific payment methods, you need to create a new website profile with only the relevant methods activated. 
 
 </details>
 

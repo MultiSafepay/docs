@@ -1,12 +1,16 @@
 ---
 title: "VirtueMart 3"
 category: 62962dd7e272a6002ebbbbc5
-order: 20
+order: 3
 hidden: false
-parentDoc: 62a9a54abde254065ee92a5c
+parentDocs: 67e1463616608a00475c5f28
 excerpt: "Technical manual for MultiSafepay's free plugin."
 slug: 'virtuemart-3'
 ---
+> ❗️ Important:
+> 
+> This plugin is at end-of-life. It may contain security vulnerabilities, compatibility issues, and lack the latest features. MultiSafepay provides no support for these plugins.
+
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/VirtueMart.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 <div style="display: flex; flex-wrap: wrap;">
@@ -47,7 +51,7 @@ slug: 'virtuemart-3'
     - To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:  
     - Account ID (top-right corner of your dashboard)
-    - [Site ID, API key, and security code](/docs/sites#site-id-api-key-and-security-code)
+    - [Website ID, API key, and security code](/docs/sites#site-id-api-key-and-security-code)
     - [Gateway ID](/reference/gateway-ids/)
     
 <br>

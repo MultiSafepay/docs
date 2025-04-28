@@ -1,7 +1,7 @@
 ---
 title: "PrestaShop"
 category: 62962dd7e272a6002ebbbbc5
-order: 12
+order: 9
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -42,7 +42,7 @@ slug: 'prestashop'
 # Configuration
 
 1. Sign in to your PrestaShop Back Office.
-2. Go to **MultiSafepay**, and enter your [site API key](/docs/sites/#site-id-api-key-and-security-code).
+2. Go to **MultiSafepay**, and enter your [website API key](/docs/sites/#site-id-api-key-and-security-code).
 3. On the **Payment methods** tab, enable the relevant payment methods.
 4. Click **Save**.
 

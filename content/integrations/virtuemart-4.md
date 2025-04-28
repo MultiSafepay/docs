@@ -1,7 +1,7 @@
 ---
 title: "VirtueMart 4"
 category: 62962dd7e272a6002ebbbbc5
-order: 19
+order: 15
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -47,7 +47,7 @@ slug: 'virtuemart-4'
     - To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:  
     - **Account ID** (top-right corner of your dashboard)
-    - [Site ID, API key, and security code](/docs/sites#site-id-api-key-and-security-code)
+    - [Website ID, API key, and security code](/docs/sites#site-id-api-key-and-security-code)
     - [Gateway ID](/reference/gateway-ids/)
     
 <br>

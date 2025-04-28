@@ -18,6 +18,7 @@ hidden: false
 | Belfius                                | `BELFIUS`     |
 | Betaal per Maand                       | `SANTANDER`   |
 | Bizum                                  | `BIZUM`       |
+| Billink                                | `BILLINK`     |
 | CBC/KBC                                | `CBC` / `KBC` |
 | Card payments                          | `CREDITCARD`  |
 | Dotpay                                 | `DOTPAY`      |
@@ -52,6 +53,7 @@ hidden: false
 | Amsterdam stadspas                     | `AMSGIFT`     |
 | Baby Cadeaubon                         | `BABYCAD`     |
 | Beautyandwellness                      | `BEAUTYWELL`  |
+| Beauty cadeau                          | `BEAUTYCAD`   |
 | Bloemencadeaukaart                     | `BLOEMENCAD`  |
 | Boekenbon                              | `BOEKENBON`   |
 | Degrotespeelgoedwinkel                 | `DEGROTESPL`  |

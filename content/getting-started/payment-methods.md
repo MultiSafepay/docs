@@ -1,7 +1,7 @@
 ---
 title: "Payment methods"
 category: 627bbcf80c1c9c0050320b60
-order: 9
+order: 10
 hidden: false
 parentDoc: 62b0845857c8ab006af6a4f7
 slug: 'payment-methods'
@@ -26,12 +26,12 @@ Some payment methods, especially Banking methods, can be activated directly via 
 
 1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. To activate the payment method for:
-- All sites, go to **Settings** > **Payment methods**.
-- A specific site, go to **Sites**, and then click the relevant site.
-This overwrites your global selection. Only the payment methods selected for the site will then be available.
+- All websites, go to **Settings** > **Payment methods**.
+- A specific website, go to **Websites**, and then click the relevant website.
+This overwrites your global selection. Only the payment methods selected for the website will then be available.
 3. Select the checkbox for the payment method, and then click **Save changes**.
 
-**💡 Tip**: if you do not set site-specific methods, the global configuration will be applied.
+**💡 Tip**: if you do not set website-specific methods, the global configuration will be applied.
 
 💬  **Support:** If the payment method isn't visible in your dashboard, email [support@multisafepay.com](mailto:support@multisafepay.com)
 

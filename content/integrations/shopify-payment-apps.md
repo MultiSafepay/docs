@@ -1,7 +1,7 @@
 ---
 title: "Shopify Payment Apps"
 category: 62962dd7e272a6002ebbbbc5
-order: 16
+order: 11
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's Shopify Payments Apps."
@@ -12,7 +12,7 @@ slug: 'shopify-payment-apps'
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/) registered in one of the following countries: The Netherlands, Belgium, Spain, Italy, Germany.
-- A MultiSafepay [site API key](/docs/sites#site-id-api-key-and-security-code).
+- A MultiSafepay [website API key](/docs/sites#site-id-api-key-and-security-code).
 - Country restrictions may apply per payment app.
 
 # Installation
@@ -36,6 +36,7 @@ To install Shopify Payments Apps, follow these steps:
    - <a href="https://apps.shopify.com/multisafepay-maestro" target="_blank">Maestro</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/multisafepay-mb-way" target="_blank">MB WAY</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/multisafepay-mastercard" target="_blank">Mastercard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+   - <a href="https://apps.shopify.com/multisafepay-multibanco" target="_blank">Multibanco</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/multisafepay-mybank" target="_blank">MyBank</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/visa" target="_blank">Visa</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/multisafepay-wechat-pay" target="_blank">WeChat Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
@@ -43,7 +44,7 @@ To install Shopify Payments Apps, follow these steps:
 6. If necessary, log in to your Shopify store.
 7. On your admin page, click **Install**. 
 8. Under **Settings**:
-   - **MultiSafepay website API Key**: Enter your [site API key](/docs/sites#site-id-api-key-and-security-code).
+   - **MultiSafepay website API Key**: Enter your [website API key](/docs/sites#site-id-api-key-and-security-code).
    - **MultiSafepay Environment**: Turn on if you are using a Test API key. Turn off for a Live API key.
 9. Click **Save**.
 10. Under **Payment configuration** click the button **Payment configuration**

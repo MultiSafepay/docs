@@ -1,12 +1,16 @@
 ---
 title: "Craft Commerce"
 category: 62962dd7e272a6002ebbbbc5
-order: 2
+order: 0
 hidden: false
-parentDoc: 62a9a54abde254065ee92a5c
+parentDocs: 67e1463616608a00475c5f28
 excerpt: "Technical manual for MultiSafepay's free plugin."
 slug: 'craft-commerce'
 ---
+> ❗️ Important:
+> 
+> This plugin is at end-of-life. It may contain security vulnerabilities, compatibility issues, and lack the latest features. MultiSafepay provides no support for these plugins.
+
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Craft_Commerce.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
 <div style="display: flex; flex-wrap: wrap;">
@@ -77,8 +81,8 @@ Supported since release: 1.2.0, March 19th 2021.
 <br>
 
 - Cards: [All](/docs/card-payments/), **except** Postepay and V Pay
-- Banking methods: All
-- <<glossary:BNPL>>: All
+- Banking methods: All, except Bizum.
+- <<glossary:BNPL>>: All, except Billink.
 - Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/paypal/)
 - Prepaid cards:
     - Beauty and Wellness gift card

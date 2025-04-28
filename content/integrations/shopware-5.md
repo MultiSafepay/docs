@@ -1,7 +1,7 @@
 ---
 title: "Shopware 5"
 category: 62962dd7e272a6002ebbbbc5
-order: 18
+order: 14
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manuals for MultiSafepay's free plugins."
@@ -97,7 +97,14 @@ To change the flow you are using, follow these steps:
 
 ### Payment methods
 
-By default, activated payment methods from your MultiSafepay account appear on the payment method list.
+By default, any payment method you activate in your MultiSafepay account will show in your backend's list of available payment methods.
+
+### Recurring payments
+
+[Recurring payments](/docs/recurring-payments) are supported.
+
+To [enable recurring payments](/docs/recurring-payments#activate) for your <<glossary:backend>>, email [sales@multisafepay.com](sales@multisafepay.com).
+Once activated, the setting will be automatically applied to the supported payment methods at your checkout.
 
 ### Refunds
 

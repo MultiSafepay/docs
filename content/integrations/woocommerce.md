@@ -1,7 +1,7 @@
 ---
 title: "WooCommerce"
 category: 62962dd7e272a6002ebbbbc5
-order: 22
+order: 16
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -22,8 +22,8 @@ slug: 'woocommerce'
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Wordpress 5.0 or higher
-- PHP 7.3 or 7.4
+- Wordpress 6.0 or higher
+- PHP 7.3 or higher
 
 # Installation
 
