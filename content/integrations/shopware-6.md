@@ -86,7 +86,7 @@ For questions, email <integration@multisafepay.com>
 
 ### Payment methods
 
-By default, any payment method you activate in your MultiSafepay account will show in your backend's list of available payment methods. Newly activated payment methods must be enabled manually in your <<glossary:backend>>.
+By default, any payment method you activate in your MultiSafepay account will be available for your backend. Newly activated payment methods must be enabled manually in your <<glossary:backend>> settings.
 
 ### Recurring payments
 
