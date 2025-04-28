@@ -209,7 +209,7 @@ To generate a payment link in your backend once an order is created, follow thes
 
 ## Payment methods
 
-By default, activated payment methods from your MultiSafepay account appear on the payment method list.
+By default, any payment method you activate in your MultiSafepay account will show in your backend's list of available payment methods. Newly activated payment methods must be enabled manually in your <<glossary:backend>>.
 
 ## Recurring payments
 

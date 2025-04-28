@@ -173,7 +173,7 @@ When you generate a payment link in your MultiSafepay dashboard, you cannot upda
 
 ## Payment methods
 
-By default, activated payment methods from your MultiSafepay account appear on the payment method list. However, any newly activated payment methods for your MultiSafepay account must be enabled manually in your Lightspeed <<glossary:backend>> under MultiSafepay payment settings.
+By default, any payment method you activate in your MultiSafepay account will show in your backend's list of available payment methods. Newly activated payment methods must be enabled manually in your <<glossary:backend>>.
 
 To use MultiSafepay payment method icons, see GitHub <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">MultiSafepay icons</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 

@@ -97,7 +97,7 @@ To change the flow you are using, follow these steps:
 
 ### Payment methods
 
-By default, any payment method you activate in your MultiSafepay account will show in your backend's list of available payment methods.
+By default, any payment method you activate in your MultiSafepay account will show in your backend's list of available payment methods. Newly activated payment methods must be enabled manually in your <<glossary:backend>>.
 
 ### Recurring payments
 
