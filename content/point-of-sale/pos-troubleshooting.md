@@ -176,6 +176,14 @@ With a soft decline, you first receive a notification with an order status of de
 - Restart your terminal. 
 - contact us via support@multisafepay.com
 
+## Group logo no being displayed
+
+If you have set a logo for your terminal group, but it's not being displayed on your terminal, try clearing the cache:
+1. Go to Android's **Settings**.
+2. Go to **Apps & Notifications** and click the **MultiSafepay** app.
+3. Go to **Storage & cache** and click **Clear cache**.
+
+If your group logo is still not visible, email [support@multisafepay.com](mailto:support@multisafepay.com) for further assistance.
 ***
 
 # Set device to developer mode
