@@ -83,7 +83,8 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 - [OpenCart](/docs/opencart/)
 - [Magento 1](/docs/magento-1/) & [Magento 2](/docs/magento-2/)
 - [PrestaShop](/docs/prestashop/)
-- [Shopware 5 and 6](/docs/shopware/)
+- [Shopware 5](/docs/shopware-5/)
+- [Shopware 6](/docs/shopware-6/)
 - [WooCommerce](/docs/woocommerce/) 
 
 ### Testing
