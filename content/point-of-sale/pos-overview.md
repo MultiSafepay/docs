@@ -48,12 +48,77 @@ Read how our POS solutions can benefit your business on <a href="https://www.mul
 
 **Check out our terminals:**
 
-[block:html]
-{
-  "html": "<div class=\"auto-grid\">\n \n  <div class=\"card-container\">\n        <a href=\"/docs/traditional-ctap-terminal\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-2.svg\" style=\"margin: 5px; max-height: 50px\">\n                <div class=\"container\">\n                    <h4><b>Traditional (CTAP) terminal</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n  <div class=\"card-container\">\n        <a href=\"/docs/smartpos-terminal\" style=\"text-decoration: none;\">\n            <div>\n                <img src=\"https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-1.svg\" style=\"margin: 5px; max-height: 50px\">\n                <div class=\"container\">\n                    <h4><b>SmartPOS terminal</b></h4>\n                </div>\n            </div>\n        </a>\n    </div>\n<style>\n\nb {\n  color: #384248 !important;\n}\n  \n.auto-grid {\n  --auto-grid-min-size: 250px;\n  \n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));\n}\n\n.card-container {\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the \"card\" effect */\n  padding: 16px;\n  text-align: center;\n  border-radius: 5px;\n  margin: 15px\n} \n\n.card-container:hover {\n  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);\n  transform: translateY(-0.2rem);\n  transition: all 0.2s;\n  cursor: pointer;\n}  \n\n</style>"
-}
+<div class="auto-grid">
 
-[/block]
+  <div class="card-container">
+    <a href="/docs/traditional-ctap-terminal">
+      <div>
+        <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-2.svg" alt="Traditional CTAP Terminal Icon" class="card-icon">
+        <div class="container">
+          <h4><b>Traditional (CTAP) terminal</b></h4>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="card-container">
+    <a href="/docs/smartpos-terminal">
+      <div>
+        <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-1.svg" alt="SmartPOS Terminal Icon" class="card-icon">
+        <div class="container">
+          <h4><b>SmartPOS terminal</b></h4>
+        </div>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+<style>
+  .auto-grid {
+    --auto-grid-min-size: 250px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    gap: 15px;
+  }
+
+  .card-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .card-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-0.2rem);
+    cursor: pointer;
+  }
+
+  .card-container a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .card-container h4 b {
+    color: #384248 !important;
+  }
+
+  .card-icon {
+    margin: 5px;
+    max-height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card-container .container {
+
+  }
+
+</style>
+
 
 ---
 
