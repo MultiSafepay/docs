@@ -58,6 +58,7 @@ hidden: false
 | Boekenbon                              | `BOEKENBON`   |
 | Degrotespeelgoedwinkel                 | `DEGROTESPL`  |
 | Dordtpas                               | `DORDTPAS`    |
+| Edenred Consumption Voucher            | `EDENCONSUM`  |
 | Edenred Ticket Compliments             | `EDENCOM`     |
 | Edenred Ticket EcoCheque               | `EDENCO`      |
 | Edenred Ticket Restaurant              | `EDENRES`     |
