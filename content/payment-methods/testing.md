@@ -52,7 +52,7 @@ When testing, use the following test payment details for different scenarios.
 
 <details id="methods-not-available-in-test-environment">
 <summary>Methods not available in test environment</summary>
-<br>
+
 
 You can't test the following methods in your MultiSafepay test account. You can only make test payments in your MultiSafepay live account.
 
@@ -61,6 +61,8 @@ You can't test the following methods in your MultiSafepay test account. You can 
 - Paysafecard
 - Request to Pay
 - TrustPay
+
+</details>
 
 ## PSP ID
 
@@ -77,9 +79,8 @@ Testing this new format is possible on both our TEST and LIVE environment:
 - Review if your reconciliation and accounting process supports this longer ID.
 
 
-</details>
+***
 
----
 ## Banking methods
 
 <details id="bancontact">
