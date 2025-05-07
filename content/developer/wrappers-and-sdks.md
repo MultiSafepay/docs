@@ -69,7 +69,7 @@ The PHP SDK for MultiSafepay's REST API.
 
 ___
 
-## Python
+## Python SDK
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Python.svg" width="50" align ="right" style="transform: translate(-50%, -50%);"/>
 
 The Python SDK for MultiSafepay's REST API.
