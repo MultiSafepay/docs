@@ -98,7 +98,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
     - [Odoo](/docs/odoo/)
     - [OpenCart](/docs/opencart/)
     - [PrestaShop](/docs/prestashop/)
-    - [Shopware 5](/docs/shopware/)
+    - [Shopware 5](/docs/shopware-5/)
     - [VirtueMart 3](/docs/virtuemart-3/)
     - [VirtueMart 4](/docs/virtuemart-4/)
     - [WooCommerce](/docs/woocommerce/)

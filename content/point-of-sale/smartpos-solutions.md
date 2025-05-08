@@ -56,6 +56,8 @@ This diagram shows a successful cloud-based POS payment flow. Click to magnify.
 
 To receive payments updates subscribe to [Event notifications.](/docs/event-notifications)
 
+**⚠️ Note:** When using **event notifications** on POS terminals, you might encounter **soft declines** when processing payments. For more information, see [Soft declines](/docs/smartpos-solutions#soft-declines).
+
 <br>
 
 ***
@@ -105,7 +107,7 @@ msp://?amount={$amount}&order_id={$order_id}&callback={$callback_url}&printing=t
 ```
 
 - `amount`: the amount specified in EUR cents. 
-- `order_id`: your unique identifier for order ID.
+- `order_id`: your unique identifier for order ID. - `order_id`: your unique identifier for order ID. Maximum 50 characters. Can only contain **a-z**, **A-Z**, **0-9** and the special characters `/ - _`.
 - `callback_url`: this URL redirects the customer to receive payment status notifications.
 - Optionally, you can set `notification_url` to receive order payment updates notifications.
 - `tipping`: include a tip.
@@ -131,7 +133,7 @@ This diagram shows a successful native application payment flow. Click to magnif
 
 ### Initiate payments 
 
-1. Before initiating native application payments, you need to create an order.
+1. Before initiating native application payments, you need to create an order.<br>When creating an order, the `order_id` must have a maximum length of 50 characters and can only contain **a-z**, **A-Z**, **0-9** and the special characters `/ - _`.
 
 **Example**
 
@@ -284,6 +286,7 @@ The table below sets out options available for receiving updates on the payments
 | Cloud POS payment   | Subscribe to the [event notifications.](/docs/event-notifications)             | Configure a [webhook](/docs/webhook#configure-your-webhook-endpoint.).                              |
 | Web applications    | Set `callback_url` in the [ link.](/docs/solutions#web-applications-pos)                           | Set `notification_url` in the [ link](/docs/solutions#web-applications-pos) to configure a webhook. |
 | Native applications | Set `package_name` in your <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">intent call.</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | Configure a [webhook.](/docs/webhook#configure-your-webhook-endpoint.)                              |
+<br>
 
 # User guide
 

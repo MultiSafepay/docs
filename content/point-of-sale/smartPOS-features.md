@@ -269,6 +269,8 @@ Enabling this feature adds both manual order ID entry and QR code scanning funct
   - Scanning the QR code will retrieve information based on the format in which the QR code has been generated.
   - This information will be included in the payment request.
 
+  **⚠️Note:** The `order_id` must have a maximum length of 50 characters and can only contain **a-z**, **A-Z**, **0-9** and the special characters `/ - _`.
+
 ***
 
 ## How to enable refunds

@@ -99,7 +99,6 @@ Testing this new format is possible on both our TEST and LIVE environment:
 | Card number| Scenario | Description |
 | ---| --- | --- |
 | 67034500054620008 | **Completed** | The transaction was completed (3D enrolled). <br> Also use this card number when creating orders to test [refunds and API refunds](#refunds). |
-| 67034500054610009| **Declined**  | The transaction was declined (card must be 3D enrolled). |
 | 67039902990000045| **Declined**  | The transaction was declined (3D authentication failed). |
 | 67039902990000011| **Declined**  | The transaction was declined (3D authentication successful, but insufficient funds). |
 <br>
@@ -320,8 +319,8 @@ To enable Billink for your MultiSafepay test account, email [support@multisafepa
 **Test a Billink order**
 
 1. [Create an order](/reference/createorder/) > BNPL order  
-   Example: Billink direct/redirect
-2. For redirect requests, on the payment page, select **Private** or **Business** if no payment type has been added to the request.
+   Example: Billink redirect
+2. On the payment page, select **Private** or **Business** if no payment type has been added to the request.
 3. Click **Confirm**.
 4. On the Test platform page, from the **Test scenario** list, select one of the options mentioned in the table below to achieve your desired outcome. 
 
@@ -331,7 +330,7 @@ To enable Billink for your MultiSafepay test account, email [support@multisafepa
 | **Failure**   | The payment is processed in the test environment as **Declined**, with <<glossary:order status>> **Declined**, and transaction status **Declined**.     |
 | **Cancelled** | The payment is processed in the test environment as **Cancelled**, with <<glossary:order status>> **Void**, and transaction status **Void**.            |
 
-
+<br>
 
 **Change the order status**  
 

@@ -68,7 +68,7 @@ We provide the following SDKs and wrappers to facilitate integrating via our API
 - <a href="https://github.com/MultiSafepay/.Net" target="_blank">.NET wrapper</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - <a href="https://github.com/MultiSafepay/multisafepay-node-wrapper" target="_blank">NodeJS wrapper</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - <a href="https://github.com/MultiSafepay/php-sdk" target="_blank">PHP SDK</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-- <a href="https://github.com/MultiSafepay/multisafepay-python-wrapper" target="_blank">Python wrapper</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://github.com/MultiSafepay/python-sdk" target="_blank">Python SDK</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 # Deprecated XML API
 

@@ -251,29 +251,93 @@ For partial refunds:
 ---
 
 </details>
+To refund a Pay After Delivery transaction, follow these steps:
 
-<details id="how-to-refund-an-order">
-<summary>How to refund an order</summary>
+<details id="via-your-dashboard">
+<summary>Via your dashboard</summary>
 <br>
 
-**In your dashboard**
-
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
-3. On the **Transaction details** page, click **Refund order**.
-4. In the **Reason / Description** field, enter the reason for the refund or a description of what happened with the order, and then click **Complete**.
-5. In the **Comment** field, enter any additional information.
-6. In the **Amount** fields, enter the amount to refund. 
-7. Click **Continue**.
-8. Review the **Refund confirmation**, and then click **Confirm**.
-
-**Via the API** 
-
-See API reference – [Refund order](/reference/refundorder).
-
----
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Transactions** > **Transactions Overview** and select the relevant transaction.
+3. Click on the transaction to go to the **Transaction summary** page.
+4. Under **Order summary**, click **Edit order**.
+5. Click **Refund whole order** to process a full refund.
+   For partial refunds, you have two options:
+   - Click the (❌) **remove** icon to process a refund for all units of a specific item, or
+   - Click **Change**, enter the item's **name**, the **quantity** of items you want to refund, **unit price**, and select the **tax** rate. Click **Add**.
+6. Click **Save changes**.
 
 </details>
+
+<details id="via-the-api">
+<summary>Via the API</summary>
+<br>
+
+See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i><br>
+Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> request to retrieve the order details.
+1. Under **Path Params**, enter the `order_id` of the transaction you want to refund. 
+2. Under **Body Params**, select **BNPL Refund**. Add all items in the shopping cart.
+3. Duplicate the object of the items you want to refund and enter a negative value for `quantity`. 
+
+**⚠️Note:** Always include the correct tax rate in `tax_table_selector` for each item in the shopping cart. Excluding it will result in an incorrect refund amount.
+
+#### Example
+```curl
+curl --request POST \
+     --url 'https://testapi.multisafepay.com/v1/json/orders/{order_id}/refunds?api_key={your_api_key}' \
+     --header 'accept: application/json' \
+     --header 'content-type: application/json' \
+     --data '
+{
+  "checkout_data": {
+    "items": [
+      {
+        "name": "example_item_1",
+        "description": "",
+        "unit_price": 100,
+        "quantity": 3,
+        "merchant_item_id": "1111",
+        "tax_table_selector": "none",
+        "weight": {
+          "unit": "KG",
+          "value": 12
+        }
+      },
+      {
+        "name": "example_item_2",
+        "unit_price": 100,
+        "quantity": 4,
+        "merchant_item_id": "1212",
+        "tax_table_selector": "BTW21"
+      },
+      {
+        "name": "example_item_1",
+        "unit_price": 100,
+        "quantity": -3,
+        "merchant_item_id": "1212",
+        "tax_table_selector": "none",
+        "weight": {
+          "unit": "KG",
+          "value": 12
+        }
+      },
+      {
+        "name": "example_item_2",
+        "unit_price": 100,
+        "quantity": -4,
+        "merchant_item_id": "1212",
+        "tax_table_selector": "BTW21"
+      }
+    ]
+  }
+}
+
+```
+
+
+</details>
+
+---
 
 ## Shipment
 

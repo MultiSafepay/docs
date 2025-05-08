@@ -1,7 +1,7 @@
 ---
 title: "Magento 2"
 category: 62962dd7e272a6002ebbbbc5
-order: 5
+order: 4
 hidden: false
 parentDoc: 62a9a54abde254065ee92a5c
 excerpt: "Technical manual for MultiSafepay's free plugin."
@@ -273,7 +273,7 @@ You must:
 <br>
  
 
-To activate Magento Vault, and enable <a href="https://docs.multisafepay.com/docs/recurring-payments" target="_blank">recurring payments</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, email a request to <sales@multisafepay.com>. 
+To activate Magento Vault, and enable <a href="https://docs.multisafepay.com/docs/recurring-payments" target="_blank">recurring payments</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, email a request to <sales@multisafepay.com>
 
 
 </details>

@@ -120,6 +120,8 @@ You can process refunds in your dashboard.
 
 The customer must provide you with their IBAN to process refunds via bank transfer.
 
+**⚠️Note:** Refunds are only available within 3 months of a purchase. Requests made after this time cannot be processed.
+
 <details id="how-to-refund-an-order">
 <summary>How to refund an order</summary>
 <br>

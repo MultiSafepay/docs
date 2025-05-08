@@ -50,6 +50,8 @@ From your server, [create an order](/reference/createorder/) > Wallet order. In 
 
 Extract the `payment_data` object from the response.
 
+For 3D Secure authentication, add `customer.browser` object in your request. See recipe - <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Customer browser</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 # 3. Display the Amazon Pay button
 
 To create an **Amazon Pay** button, in the `AmazonPayButton` element, add a script element with the `src` set to the value returned in `payment_data.js`. Use `amazon.Pay.renderButton()` with the data returned in the `payment_data.payload` object:
