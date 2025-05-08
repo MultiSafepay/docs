@@ -1,5 +1,5 @@
 ---
-title: 'Przelewy24 (Dotpay)'
+title: 'Dotpay'
 category: 6298bd782d1cf4006032e765
 order: 8
 hidden: false
@@ -9,10 +9,10 @@ slug: 'dotpay'
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/dotpay.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a href="https://www.dotpay.pl/en" target="_blank">Przelewy24</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is an inter-bank payment method that links all major Polish retail banks. 
+<a href="https://www.dotpay.pl/en" target="_blank">Dotpay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is an inter-bank payment method that links all major Polish retail banks. 
 Customers pay from their own online banking environment.
 
-Read how Przelewy24 can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/dotpay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+Read how Dotpay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/dotpay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 | Supports | Details |
 |---|---|
@@ -27,7 +27,7 @@ Read how Przelewy24 can benefit your business on <a href="https://www.multisafep
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/refs/heads/master/methods/przelewy24.svg" alt="Dotpay payment flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/refs/heads/master/methods/dotpay.svg" alt="Dotpay payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;
