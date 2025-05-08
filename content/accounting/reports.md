@@ -421,7 +421,7 @@ To identify transactions in reports by payment method, use the following N-codes
 | N004   | WALLET |
 | N006   | [DANKORT](/docs/card-payments/)   |
 | N016   | [ALIPAY](/docs/alipay/)   |
-| N017   | [Dotpay](/docs/dotpay/)   |
+| N017   | [DOTPAY](/docs/dotpay/)   |
 | N018   | [POSTEPAY](/docs/card-payments/)  |
 | N021   | [IDEAL](/docs/ideal/)   |
 | N031   | [GIROPAY](/docs/giropay/)   |
