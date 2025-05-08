@@ -7,7 +7,7 @@ parentDoc: 62a728d48b97080046c1d220
 slug: 'sofort'
 ---
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/sofort.svg" width="85" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/logo/Payment_methods/Klarna-Sofort.svg" width="85" align="right" style="margin: 20px; max-height: 75px"/>
 
 > ⚠️ Note:
 > 

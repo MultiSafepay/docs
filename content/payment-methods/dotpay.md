@@ -27,7 +27,7 @@ Read how Dotpay can benefit your business on <a href="https://www.multisafepay.c
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/dotpay-payment-flow.svg" alt="Dotpay payment flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/refs/heads/master/methods/dotpay.svg" alt="Dotpay payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;
