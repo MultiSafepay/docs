@@ -136,7 +136,7 @@ Supported since release: 1.1.0, July 2nd 2021.
     - [Bank transfer](/docs/bank-transfer/)
     - [Belfius](/docs/belfius/)
     - [CBC/KBC](/docs/cbc-kbc/)
-    - [Przelewy24](/docs/dotpay/)
+    - [Dotpay](/docs/dotpay/)
     - [EPS](/docs/eps/)
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)

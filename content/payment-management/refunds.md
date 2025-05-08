@@ -143,7 +143,7 @@ For some payment methods, refund orders in the live environment are processed au
 
 Refund orders in the live environment are processed automatically for the following methods:
 
-- Banking methods: Bancontact (not QR), bank transfers, Belfius, CBC/KBC, direct debits, Przelewy24, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
+- Banking methods: Bancontact (not QR), bank transfers, Belfius, CBC/KBC, direct debits, Dotpay, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
 - Credit and debit cards
 - Wallets: Alipay, PayPal, WeChat Pay
 

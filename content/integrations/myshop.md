@@ -27,7 +27,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 - Banking methods:
     - [Bancontact](/docs/bancontact/)
     - [Bank transfer](/docs/bank-transfer/)
-    - [Przelewy24](/docs/dotpay/)
+    - [Dotpay](/docs/dotpay/)
     - [EPS](/docs/eps/)
     - [Giropay](/docs/giropay/)
     - [iDEAL](/docs/ideal/)

@@ -21,7 +21,7 @@ hidden: false
 | Billink                                | `BILLINK`     |
 | CBC/KBC                                | `CBC` / `KBC` |
 | Card payments                          | `CREDITCARD`  |
-| Przelewy24                             | `DOTPAY`      |
+| Dotpay                                 | `DOTPAY`      |
 | Edenred                                | `EDENCOM`     |
 | E-Invoicing                            | `EINVOICE`    |
 | EPS                                    | `EPS`         |
