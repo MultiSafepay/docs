@@ -365,6 +365,9 @@ For more information, see xCore – <a href="https://xcore.nl/afletteren-2-0-exa
 
 ---
 
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/horus.png" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
+<br>
+
 # Horus
 
 <a href="https://www.horussoftware.be/nl/" target="_blank">Horus</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (CODA format).
