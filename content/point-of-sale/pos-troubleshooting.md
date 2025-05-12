@@ -97,12 +97,12 @@ With a soft decline, you first receive a notification with an order status of de
 
 ## Google Chrome not functioning properly
 
-If your latest version of Google Chrome is malfunctioning, follow these steps:
+If the Google Chrome app is malfunctioning, email pos-support@multisafepay.com and describe your issue. If the issue is related to the current version of your Google Chrome app, follow these steps:
 
-1. Email pos-support@multisafepay.com and state your issue.
-2. We contact Sunmi and request their latest Chrome version. Once it is available for download we will contact you.
-3. Uninstall your current Google Chrome app and reboot your device.
-4. Install the latest version of the Google Chrome app. 
+1. Uninstall the Google Chrome app and reboot your device.
+2. We contact Sunmi and request their latest Chrome version. Once it is available for download, we will contact you.
+3. Install the latest version of the Google Chrome app.
+
 ## Logs
 
 Retrieving logs can be a helpful step to investigate an issue. You can generate them via your Sunmi portal:
