@@ -95,6 +95,14 @@ If your IPEK is **not** configured, you can
 
 With a soft decline, you first receive a notification with an order status of declined. Once the customer completes the required verification (e.g., enters their PIN), you'll receive another notification. If successful, the order status will be completed. If the payment fails, the order status will be cancelled.
 
+## Google Chrome not functioning properly
+
+If your latest version of Google Chrome is malfunctioning, follow these steps:
+
+1. Email pos-support@multisafepay.com and state your issue.
+2. We contact Sunmi and request their latest Chrome version. Once it is available for download we will contact you.
+3. Uninstall your current Google Chrome app and reboot your device.
+4. Install the latest version of the Google Chrome app. 
 ## Logs
 
 Retrieving logs can be a helpful step to investigate an issue. You can generate them via your Sunmi portal:
@@ -104,7 +112,7 @@ Retrieving logs can be a helpful step to investigate an issue. You can generate 
 - Press **New task**
 - Ensure to select **syslog** and add serial numbers
 - Define the timeframe during which the logs should be uploaded to the portal and replicate the issue during this time. _Start time \_must be later than \_current time_. 
-- Click **release**
+- Click **release** 
 
 ***
 
