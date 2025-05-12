@@ -365,6 +365,7 @@ For more information, see xCore – <a href="https://xcore.nl/afletteren-2-0-exa
 
 ---
 
+
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/horus.png" width="150" align ="right" style="margin: 5px; max-height: 35px"/>
 <br>
 
