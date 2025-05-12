@@ -112,7 +112,7 @@ Retrieving logs can be a helpful step to investigate an issue. You can generate 
 - Press **New task**
 - Ensure to select **syslog** and add serial numbers
 - Define the timeframe during which the logs should be uploaded to the portal and replicate the issue during this time. _Start time \_must be later than \_current time_. 
-- Click **release**
+- Click **release** 
 
 ***
 
