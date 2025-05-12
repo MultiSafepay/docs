@@ -363,6 +363,18 @@ xCore offers two reconciliation apps that retrieve all payment details from Mult
 
 For more information, see xCore – <a href="https://xcore.nl/afletteren-2-0-exact-online-multisafepay/" target="_blank">Afletteren 2.0 Exact Online with MultiSafepay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
+---
+
+# Horus
+
+<a href="https://www.horussoftware.be/nl/" target="_blank">Horus</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (CODA format).
+
+For import instructions, see Horus – <a href="https://faq.horus-software.be/nl/beheer/beheer-van-de-digitale-inbox/hoe-importeer-je-documenten-vanaf-je-computernetwerk" target="_blank">Beheer</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> > Hoe importeer je documenten vanaf je computer/netwerk. 
+
+<br>
+
+---
+
 # King Business Software
 
 <a href="https://www.kingconnections.eu/MultiSafePay" target="_blank">King Business Software</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (MT940 format).
@@ -380,7 +392,7 @@ For import instructions, see King Business Software – <a href="https://service
 
 <a href="https://www.octopus.be/" target="_blank">Octopus</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> supports MultiSafepay [accountant exports](/docs/reports#accountant-export) (CODA format).
 
-For import instructions, see Octopus – <a href="https://www.octopus.be/nl/handleiding/coda-verwerking" target="_blank">Coda verwerking</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> > C. CODA aangeleverd door derden. 
+For import instructions, see Octopus – <a href="https://login.octopus.be/manual/NL/index.html?coda_thirdparty.htm" target="_blank">Coda verwerking</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> > CODA aangeleverd door derden. 
 
 <br>
 
