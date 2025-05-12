@@ -97,7 +97,7 @@ With a soft decline, you first receive a notification with an order status of de
 
 ## Google Chrome not functioning properly
 
-If you're latest version of Google Chrome is malfunctioning, follow these steps:
+If your latest version of Google Chrome is malfunctioning, follow these steps:
 
 1. Email pos-support@multisafepay.com and state your issue.
 2. We contact Sunmi and request their latest Chrome version. Once it is available for download we will contact you.
