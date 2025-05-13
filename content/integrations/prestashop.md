@@ -336,7 +336,7 @@ To translate the names of payment methods:
 &nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
-2. Follow the [Installation](/docs/prestashop-1-7#how-to-install) instructions.
+2. Follow the [Installation](/docs/prestashop#installation) instructions.
 
 </details>
 
@@ -354,7 +354,7 @@ We recommend upgrading to version 5.x from older versions.
 4. Install and configure the new plugin following the instructions below.
 5. Only uninstall the older plugin when you're sure that orders created with the new plugin are being processed successfully. 
 
-If upgrading from 5.x to a newer version, see [Updates](/docs/prestashop-1-7#updates).
+If upgrading from 5.x to a newer version, see [Updates](/docs/prestashop#updates).
 
 </details>
 <br>
