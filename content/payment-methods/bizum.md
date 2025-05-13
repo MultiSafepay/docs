@@ -93,9 +93,23 @@ See API reference – [Create order](/reference/createorder/) > Banking order.
 
  Set `gateway` to `BIZUM`, and `type` to `direct` or `redirect`.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif" align ="center"/>
-
+[block:image]
+{
+  "images": [
+    {
+      "image": [
+        "https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif",
+        "",
+        ""
+      ],
+      "align": "center",
+      "sizing": "40% "
+    }
+  ]
+}
+[/block]
 </details>
+
 
 - Transactions expire after 30 minutes.
 
