@@ -6,12 +6,6 @@ order: 5
 slug: 'bizum'
 ---
 
-> ⚠️ Note:
-> 
-> We are currently in the pilot phase for this product in Spain.
-> 
-> If you are interested in participating in the next stage of our pilot, email  [sales@multisafepay.com](mailto:integration@multisafepay.com)
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bizum.svg/122px-Bizum.svg.png" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 
@@ -120,9 +114,7 @@ Bizum is supported in most <a href="https://docs.multisafepay.com/docs/our-integ
 
 ## Testing
 
-Testing will soon be available for this payment method. 
-
-
+To test Bizum payments, see Testing payment methods - [Banking methods](/docs/testing#banking-methods).
 
 # User guides
 
