@@ -148,6 +148,22 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 
 </details>
 
+<details id="bizum">
+<summary>How to test Bizum</summary>
+<br>
+
+1. [Create an order](/reference/createorder/) > Banking order (Example: Bizum direct/redirect)
+2. For <<glossary:redirect>> orders, open the payment link.
+3. On the **Test platform** page, from the **Test scenario** list, select the desired transaction scenario. Refer to the table below for details. 
+4. Click **Test**.
+
+| Scenario      | Description                                                                |
+| ------------- | -------------------------------------------------------------------------- |
+| **Success**   | The transaction is initiated. <br> Transaction will show as **Completed**. |
+| **Failure**/**Cancelled**  | The transaction is initiated. <br> Transaction will show as **Declined**.  |
+
+</details>
+
 <details id="dotpay">
 <summary>How to test Dotpay</summary>
 <br>
