@@ -103,7 +103,6 @@ See API reference – [Create order](/reference/createorder/) > Banking order.
 
 </details>
 
-
 - Transactions expire after 30 minutes.
 
 
