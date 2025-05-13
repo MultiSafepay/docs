@@ -78,7 +78,13 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
    For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **MB WAY direct/redirect**.  
   Set `gateway` to `MBWAY`, and `type` to `direct` or `redirect`.
 
-    <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+    <div style="text-align: center;">
+  <img
+    src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif"
+    alt="MultiSafepay Sandbox Test Process GIF"
+    style="width: 40%; height: auto;"
+  />
+  </div>
 
   </detals>
 - A `phone` number is required in the `customer` object, and must be in a 9-digit number format excluding +351 <a href="https://en.wikipedia.org/wiki/List_of_country_calling_codes#Overview" target="_blank">Portugal calling code</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.

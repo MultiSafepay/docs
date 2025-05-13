@@ -103,7 +103,13 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   **⚠️ Note:** Consider card-specific requirements for the [Create order request](/reference/createorder/), for example including correct details in the `email` or `phone` parameter for VISA payments. 
 
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+  <div style="text-align: center;">
+  <img
+    src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif"
+    alt="MultiSafepay Sandbox Test Process GIF"
+    style="width: 40%; height: auto;"
+  />
+  </div>
 
   </details>
 
