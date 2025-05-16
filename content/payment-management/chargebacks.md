@@ -10,7 +10,13 @@ Chargeback is a process of dispute that occurs when a cardholder disagrees with 
 
 When a customer requests a chargeback, an alert to review it appears on your dashboard homepage.
 
-# Credit or debit chargebacks
+If you receive a chargeback, you can find it if you: 
+
+1. Go to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
+2. Go to **Transactions **and click **Chargebacks**.
+3. Here, you will find any new, pending or disputed chargebacks. To know more about the different statuses, see [Chargeback statuses](https://docs.multisafepay.com/docs/chargebacks-test#chargeback-statuses).
+
+# Credit or debit card chargebacks
 
 To dispute a chargeback on a credit or debit card, see the process flow below. Click to magnify.
 
@@ -18,50 +24,82 @@ To dispute a chargeback on a credit or debit card, see the process flow below. C
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Chargeback-1.png" align ="center"/>
 
-<br>
+<br />
 
 ***
 
-<br>
+<br />
 
 #### Dispute stage
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Chargeback-2.png" align ="center"/>
 
-<br>
+<br />
 
 ***
 
-<br>
+<br />
 
 #### Final stage
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Chargeback-3.png" align ="center"/>
 
-<br>
+<br />
 
 ***
 
-## Disputing chargebacks via the dashboard
+<br />
 
-MultiSafepay can dispute chargebacks on your behalf. 
+## Accept a chargeback
 
-You need to upload relevant documentary evidence:
+If you want to accept liability for a chargeback, you can do it from your dashboard. To accept a chargeback:
 
-- In the **Transaction details** page of the original transaction in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, **or**
-- Via our API - see [Challenge chargebacks](/reference/challengechargeback/).
+1. Go to your MultiSafepay [dashboard](https://merchant.multisafepay.com/).
+2. Click **Transactions** and go to **Chargebacks**. Select the relevant chargeback.
+3. In the **Transaction summary**, under **Chargeback dispute**, click **Accept chargeback**.
+4. A message will appear asking for confirmation. Click **Ok**.
 
-<details id=“how-to-upload-files”>
-<summary>How to upload files</summary>
-<br>
+The amount for the order will be refunded to the customer.
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Settings** > **Files**.
-3. Under **Upload a new file**, click **Choose file**.<br> **⚠️ Note:** You must upload files in PDF format.
-4. Select the relevant file(s), and then click **Open**.
-5. Under **Upload queue**, to upload:
-   - A specific file, click **Upload**.
-   - A batch of files, click **Upload all**.
+## Disputing chargebacks
+
+MultiSafepay can dispute chargebacks on your behalf. You must upload the relevant documentary evidence:
+
+- An invoice of the order, with details of the product and customer, and with the location of delivery.
+- A **Track & trace** document.
+- A signed proof of delivery.
+- Evidence of contact with the cardholder (emails, conversations, etc).
+- In case of cancellation of the order by the cardholder, a cancellation or return policy.
+
+You can upload your documents:
+
+<details id="msp-dashboard">
+  <summary>Via your dashboard</summary>
+  <br>
+
+1. Go to your MultiSafepay [dashboard](https://merchant.multisafepay.com/).
+2. Click **Transactions** and go to **Chargebacks**. Select the relevant chargeback.
+3. In the **Transaction summary**, under **Chargeback dispute**, click **Open dispute**.
+4. Click **Choose Files** and upload the corresponded documentation in PDF format.
+5. Click **Upload**. Repeat this for every document you want to submit. Optionally, add a comment.
+6. Once everything has been uploaded, click **Submit dispute**. 
+
+We will contact you via email if any documents are pending or invalid.
+
+If the documentation has been validated, the chargeback status will change to **Processed**.
+
+</details>
+
+<details id="msp-dashboard">
+  <summary>Via API</summary>
+  <br>
+
+Send a [Challenge chargebacks](/reference/challengechargeback/) request. Include the following information:
+
+- The `order_id` of the original transaction.
+- A  `base64` encoded file that includes the documentary evidence.
+- Type must be set to `PDF`.
+- A description of the file and a name.
 
 </details>
 
@@ -69,6 +107,8 @@ The Chargeback Team then assesses the evidence provided and decides whether the 
 
 - For questions about disputes, email [retrieval@multisafepay.com](mailto:retrieval@multisafepay.com)
 - For more information about fees, email [support@multisafepay.com](mailto:support@multisafepay.com)
+
+**⚠️Note:** You must respond to any chargeback before the specified due date, which can be found on the **Transaction summary** page. If no action is taken by the due date, the chargeback will be automatically accepted, and a refund will be issued to the consumer.
 
 ## Chargeback reasons and required evidence
 
@@ -90,7 +130,7 @@ The most common reasons for requesting chargebacks are:
 
 If you have asked MultiSafepay to dispute a chargeback for you, we specify what documentary evidence you need to provide for each chargeback reason. Try to provide as much evidence as possible. 
 
----
+***
 
 Below are the chargeback reason codes for the major card schemes.
 
@@ -285,7 +325,6 @@ To dispute this type of chargeback, you need to provide proof that the transacti
 </details>
 
 ***
-
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/mastercard.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
 
@@ -550,23 +589,26 @@ To dispute this type of chargeback, you need to provide the following:
 
 ***
 
-# Chargeback period
+## Chargeback period
 
 Card schemes generally allow cardholders to request chargebacks for up to 180 days after the transaction. However, if you require a longer period (e.g., for annual subscriptions paid in advance), you may be able to negotiate this with the card scheme.
 
 By offering card payment methods, you agree to the cardholder rights guaranteed by the card schemes.
 
-# Amazon Pay chargebacks
+***
 
-If an Amazon customer requests a chargeback from their bank or card issuer for an Amazon Pay payment, Amazon Pay notifies you by email. If you do not respond within 11 calendar days, then Amazon Pay automatically debits the chargeback amount from your Amazon Payments merchant account.
+# Chargeback statuses
 
-For more information, see Amazon Pay - <a href="https://pay.amazon.eu/help/201749650" target="_blank">Handling chargebacks</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+Check the table below to know the meaning of each status:
 
-# Direct debit chargebacks
-
-Customers can request a chargeback within 56 days or for unauthorized transactions (i.e., without verifiable consent from the customer) within 13 months. Chargebacks can cost up to 65 EUR in bank fees.
-
-You cannot dispute chargebacks, and there is no facilitated process like there is for credit or debit card chargebacks. 
+| Status    | Description                                                                                                                                                       |
+| :-------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| New       | You have received a new chargeback. You can either accept or dispute it.                                                                                          |
+| Opened    | You have opened the chargeback but haven't accepted or disputed it.                                                                                               |
+| Accepted  | You have accepted the chargeback. The consumer receives a refund.                                                                                                 |
+| Submitted | You have disputed chargeback and submitted the required supporting documentation. We will review it.                                                              |
+| Ready     | Action is required from your side. Additional information or clarification is requested. Check the chargeback for more information. The due date will be modified |
+| Processed | Your documentation has been validated and forwarded to the scheme.                                                                                                |
 
 ***
 
@@ -620,21 +662,37 @@ Including your logo in customer's online bank environments and applications can 
 
 <a href="https://logo.ethoca.com/" target="_blank">Upload your logo</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the card scheme to display in all participating banking environments and applications. 
 
-</details>
-<br>
-
 Additional guidance:
 
 - Always follow the card scheme's payment acceptance guidelines carefully.
 - Ensure there are no bugs in processing card payments in your <<glossary:backend>>.
-- Make sure your refund and return policies are clear and fair. 
+- Make sure your refund and return policies are clear and fair.
 
----
+</details>
+
+***
+
+# Other payment methods
+
+## Amazon Pay chargebacks
+
+If an Amazon customer requests a chargeback from their bank or card issuer for an Amazon Pay payment, Amazon Pay notifies you by email. If you do not respond within 11 calendar days, then Amazon Pay automatically debits the chargeback amount from your Amazon Payments merchant account.
+
+For more information, see Amazon Pay - <a href="https://pay.amazon.eu/help/201749650" target="_blank">Handling chargebacks</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+## Direct debit chargebacks
+
+Customers can request a chargeback within 56 days or for unauthorized transactions (i.e., without verifiable consent from the customer) within 13 months. Chargebacks can cost up to 65 EUR in bank fees.
+
+You cannot dispute chargebacks, and there is no facilitated process like there is for credit or debit card chargebacks. 
+
+***
 
 [block:html]
 {
   "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
 }
 [/block]
+
 
 [Top of page](#)
