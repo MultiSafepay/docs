@@ -12,9 +12,9 @@ When a customer requests a chargeback, an alert to review it appears on your das
 
 If you receive a chargeback, you can find it if you: 
 
-1. Go to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
+1. Go to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions **and click **Chargebacks**.
-3. Here, you will find any new, pending or disputed chargebacks. To know more about the different statuses, see [Chargeback statuses](https://docs.multisafepay.com/docs/chargebacks-test#chargeback-statuses).
+3. Here, you will find any new, pending or disputed chargebacks. To know more about the different statuses, see <a href="https://docs.multisafepay.com/docs/chargebacks-test#chargeback-statuses" target="_blank">Chargeback statuses</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # Credit or debit card chargebacks
 
@@ -54,7 +54,7 @@ To dispute a chargeback on a credit or debit card, see the process flow below. C
 
 If you want to accept liability for a chargeback, you can do it from your dashboard. To accept a chargeback:
 
-1. Go to your MultiSafepay [dashboard](https://merchant.multisafepay.com/).
+1. Go to your MultiSafepay <a href="https://merchant.multisafepay.com/" target="_blank">dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Click **Transactions** and go to **Chargebacks**. Select the relevant chargeback.
 3. In the **Transaction summary**, under **Chargeback dispute**, click **Accept chargeback**.
 4. A message will appear asking for confirmation. Click **Ok**.
@@ -77,7 +77,7 @@ You can upload your documents:
   <summary>Via your dashboard</summary>
   <br>
 
-1. Go to your MultiSafepay [dashboard](https://merchant.multisafepay.com/).
+1. Go to your MultiSafepay <a href="https://merchant.multisafepay.com/" target="_blank">dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Click **Transactions** and go to **Chargebacks**. Select the relevant chargeback.
 3. In the **Transaction summary**, under **Chargeback dispute**, click **Open dispute**.
 4. Click **Choose Files** and upload the corresponded documentation in PDF format.
