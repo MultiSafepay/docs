@@ -363,7 +363,7 @@ Then, when you're ready to go live:
 
 ### Ready-made integrations
 
-To enable Google Pay direct for your ready-made integration, go to the payment method settings in your <<glossary:backend>> and add the merchant ID and merchant name from your [Google Pay Business Console](https://pay.google.com/business/console/) .
+To enable Google Pay direct for your ready-made integration, go to the payment method settings in your <<glossary:backend>> and add the merchant ID and merchant name from your <a href="https://pay.google.com/business/console/" target="_blank">Google Pay Business Console</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> .
 
 ***
 
