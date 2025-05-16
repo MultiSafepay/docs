@@ -93,8 +93,6 @@ If your IPEK is **not** configured, you can
 - attempt manual configuration via **Settings** > Advanced > Security Center > Key Injection > RKI > Key Inject
 - contact us via <pos-support@multisafepay.com> 
 
-With a soft decline, you first receive a notification with an order status of declined. Once the customer completes the required verification (e.g., enters their PIN), you'll receive another notification. If successful, the order status will be completed. If the payment fails, the order status will be cancelled.
-
 ## Google Chrome not functioning properly
 
 If the Google Chrome app is malfunctioning, email pos-support@multisafepay.com and describe your issue. If the issue is related to the current version of your Google Chrome app, follow these steps:
