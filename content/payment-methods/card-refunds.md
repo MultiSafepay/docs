@@ -44,7 +44,7 @@ You **cannot** refund more than the original transaction.
 
 - You **cannot** cancel reversals because the funds are returned to the customer immediately.
 
-**⚠️Note:** If you have processed a reversal or a refund, but the customer hasn't received their funds, you can send them a receipt of the transaction. For more information, see [Refund receipts](https://docs.multisafepay.com/docs/refund-payments#refund-receipts).
+**⚠️Note:** If you have processed a reversal or a refund, but the customer hasn't received their funds, you can send them a receipt of the transaction. For more information, see <a href="https://docs.multisafepay.com/docs/refund-payments#refund-receipts" target="_blank">Refund receipts</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 <br>
 
 ---
