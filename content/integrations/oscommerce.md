@@ -1,7 +1,7 @@
 ---
 title: "OsCommerce"
 category: 62962dd7e272a6002ebbbbc5
-order: 1
+order: 2
 hidden: false
 parentDocs: 67e1463616608a00475c5f28
 excerpt: "Technical manual for MultiSafepay's free plugin."
