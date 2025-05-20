@@ -6,4 +6,4 @@ slug: createaffiliate
 
 ## Authentication
 
-This endpoint requires an account **API key**. To obtain your account **API key**, email <sales@multisafepay.com>
+Authentication for this endpoint requires an account **API key**. To obtain your **partner** account **API key**, contact you partner manager.

@@ -1,7 +1,7 @@
 ---
-title: List UBO
+title: List terminals
 category: 62430422470152003dc86e53
-slug: listaffiliateubos
+slug: listterminals
 ---
 
 ## Authentication
