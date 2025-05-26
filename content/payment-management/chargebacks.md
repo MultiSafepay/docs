@@ -6,11 +6,12 @@ hidden: false
 slug: 'chargebacks'
 ---
 
-Chargeback is a process of dispute that occurs when a cardholder disagrees with or doesn't recognize a transaction charged to their credit or debit card and requests the <<glossary:issuer>> to reverse it. The <<glossary:card scheme>> notifies MultiSafepay and reclaims your transaction amount.
+A chargeback is a process of dispute that occurs when a cardholder disagrees with or doesn't recognize a transaction charged to their credit or debit card and requests the <<glossary:issuer>> to reverse it. The <<glossary:card scheme>> notifies MultiSafepay and reclaims your transaction amount.
 
 When a customer requests a chargeback, an alert to review it appears on your dashboard homepage.
 
 To see your chargebacks:
+
 1. Go to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions **and click **Chargebacks**.
 3. Here, you will find any new, pending or disputed chargebacks. To know more about the different statuses, see <a href="https://docs.multisafepay.com/docs/chargebacks#chargeback-statuses" target="_blank">Chargeback statuses</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
@@ -47,9 +48,7 @@ To dispute a chargeback on a credit or debit card, see the process flow below. C
 
 ***
 
-<br />
-
-## Accepting a chargeback
+## How to accept chargebacks
 
 If you want to accept liability for a chargeback, you can do it from your dashboard. To accept a chargeback:
 
@@ -58,9 +57,11 @@ If you want to accept liability for a chargeback, you can do it from your dashbo
 3. In the **Transaction summary**, under **Chargeback dispute**, click **Accept chargeback**.
 4. A message will appear asking for confirmation. Click **Ok**.
 
-The amount for the order will be refunded to the customer.
+After a chargeback has been accepted, the amount for the order will be refunded to the customer. No further actions are necessary.
 
-## Disputing chargebacks
+***
+
+## How to dispute chargebacks
 
 MultiSafepay can dispute chargebacks on your behalf. You must upload the relevant documentary evidence:
 
@@ -69,6 +70,10 @@ MultiSafepay can dispute chargebacks on your behalf. You must upload the relevan
 - A signed proof of delivery.
 - Evidence of contact with the cardholder (emails, conversations, etc).
 - In case of cancellation of the order by the cardholder, a cancellation or return policy.
+
+Consumer protection is the main purpose of chargebacks and card scheme rules. Make sure that your documentary evidence is valid, updated, and transparent. 
+
+**⚠️Note:** All documentation provided **must** be in English.
 
 You can upload your documents:
 
@@ -109,6 +114,8 @@ The Chargeback Team then assesses the evidence provided and decides whether the 
 
 **⚠️Note:** You must respond to any chargeback before the specified due date, which can be found on the **Transaction summary** page. If no action is taken by the due date, the chargeback will be automatically accepted, and a refund will be issued to the consumer.
 
+***
+
 ## Dispute statuses
 
 Check the table below to know the meaning of each status:
@@ -124,7 +131,7 @@ Check the table below to know the meaning of each status:
 
 ***
 
-## reasons and required evidence
+## Reasons and required evidence
 
 When a cardholder requests a chargeback, they must provide a reason. 
 
@@ -613,61 +620,41 @@ By offering card payment methods, you agree to the cardholder rights guaranteed 
 
 # Minimizing chargebacks
 
-Card schemes may fine merchants that have high rates of chargebacks.
+Card schemes may fine merchants with high chargeback rates. The best way of minimizing chargebacks is to provide good customer service.
 
-The best way of minimizing chargebacks is to provide good customer service.
+Check how to minimize the most common types of chargebacks below: 
 
-Ways to minimize the most common types of chargeback include: 
+### Prevent fraud
 
-<details id="fraud">
-<summary>Fraud</summary>
-<br>
+- Use [3DS2](/docs/3ds2/) for all credit or debit card transactions. Cardholders are not allowed to request chargebacks due to fraud for 3D Secure-protected transactions.  
 
-Use [3DS2](/docs/3ds2/) for all credit or debit card transactions. 
+- Carefully review all [uncleared card payments](/docs/uncleared) flagged by MultiSafepay's fraud filter.
 
-Cardholders are not allowed to request chargebacks due to fraud for 3D Secure-protected transactions.  
-
-Carefully review all [uncleared card payments](/docs/uncleared) flagged by MultiSafepay's fraud filter.
-
-</details>
-
-<details it="non-delivery">
-<summary>Non-delivery</summary>
-<br>
+### Get the goods to the customer on time
 
 - Inform customers of both expected and actual delivery times.
 - Document the delivery process, e.g., use track and trace number with signature.
 - Refund or cancel transactions if the goods won't arrive within the stated delivery time or not at all. 
-  </details>
 
-<details id="goods-not-as-described">
-<summary>Goods not as described</summary>
-<br>  
+### Avoid any miscommunication
 
-Offer quality items and provide clear descriptions on your website. 
+- Offer quality items and provide clear descriptions on your website. 
+- Make sure your refund and return policies are clear and fair.
 
-Make sure your refund and return policies are clear and fair. 
+### Improve transaction clarity
 
-</details>
-
-<details id="transaction-not-recognized">
-<summary>Transaction not recognized</summary>
-<br>
-
-Including your logo in customer's online bank environments and applications can help:
+Include your logo in customer's online bank environments and applications to:
 
 - Increase brand presence, recognition, and trust.
 - Reduce chargebacks, disputes, and friendly fraud – when customers mistakenly initiate chargebacks because they don't recognize or trust a transaction.
 
 <a href="https://logo.ethoca.com/" target="_blank">Upload your logo</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the card scheme to display in all participating banking environments and applications. 
 
-Additional guidance:
+Additionally:
 
 - Always follow the card scheme's payment acceptance guidelines carefully.
 - Ensure there are no bugs in processing card payments in your <<glossary:backend>>.
 - Make sure your refund and return policies are clear and fair.
-
-</details>
 
 ***
 
