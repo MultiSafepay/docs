@@ -10,8 +10,7 @@ Chargeback is a process of dispute that occurs when a cardholder disagrees with 
 
 When a customer requests a chargeback, an alert to review it appears on your dashboard homepage.
 
-If you receive a chargeback, you can find it if you: 
-
+To see your chargebacks:
 1. Go to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions **and click **Chargebacks**.
 3. Here, you will find any new, pending or disputed chargebacks. To know more about the different statuses, see <a href="https://docs.multisafepay.com/docs/chargebacks#chargeback-statuses" target="_blank">Chargeback statuses</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
@@ -50,7 +49,7 @@ To dispute a chargeback on a credit or debit card, see the process flow below. C
 
 <br />
 
-## Accept a chargeback
+## Accepting a chargeback
 
 If you want to accept liability for a chargeback, you can do it from your dashboard. To accept a chargeback:
 
@@ -110,7 +109,22 @@ The Chargeback Team then assesses the evidence provided and decides whether the 
 
 **⚠️Note:** You must respond to any chargeback before the specified due date, which can be found on the **Transaction summary** page. If no action is taken by the due date, the chargeback will be automatically accepted, and a refund will be issued to the consumer.
 
-## Chargeback reasons and required evidence
+## Dispute statuses
+
+Check the table below to know the meaning of each status:
+
+| Status    | Description                                                                                                                                                       |
+| :-------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| New       | You have received a new chargeback. You can either accept or dispute it.                                                                                          |
+| Opened    | You have opened the chargeback but haven't accepted or disputed it.                                                                                               |
+| Accepted  | You have accepted the chargeback. The consumer receives a refund.                                                                                                 |
+| Submitted | You have disputed chargeback and submitted the required supporting documentation. We will review it.                                                              |
+| Ready     | Action is required from your side. Additional information or clarification is requested. Check the chargeback for more information. The due date will be modified |
+| Processed | Your documentation has been validated and forwarded to the scheme.                                                                                                |
+
+***
+
+## reasons and required evidence
 
 When a cardholder requests a chargeback, they must provide a reason. 
 
@@ -597,21 +611,6 @@ By offering card payment methods, you agree to the cardholder rights guaranteed 
 
 ***
 
-# Chargeback statuses
-
-Check the table below to know the meaning of each status:
-
-| Status    | Description                                                                                                                                                       |
-| :-------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| New       | You have received a new chargeback. You can either accept or dispute it.                                                                                          |
-| Opened    | You have opened the chargeback but haven't accepted or disputed it.                                                                                               |
-| Accepted  | You have accepted the chargeback. The consumer receives a refund.                                                                                                 |
-| Submitted | You have disputed chargeback and submitted the required supporting documentation. We will review it.                                                              |
-| Ready     | Action is required from your side. Additional information or clarification is requested. Check the chargeback for more information. The due date will be modified |
-| Processed | Your documentation has been validated and forwarded to the scheme.                                                                                                |
-
-***
-
 # Minimizing chargebacks
 
 Card schemes may fine merchants that have high rates of chargebacks.
@@ -674,13 +673,13 @@ Additional guidance:
 
 # Other payment methods
 
-## Amazon Pay chargebacks
+## Amazon Pay
 
 If an Amazon customer requests a chargeback from their bank or card issuer for an Amazon Pay payment, Amazon Pay notifies you by email. If you do not respond within 11 calendar days, then Amazon Pay automatically debits the chargeback amount from your Amazon Payments merchant account.
 
 For more information, see Amazon Pay - <a href="https://pay.amazon.eu/help/201749650" target="_blank">Handling chargebacks</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-## Direct debit chargebacks
+## Direct debit
 
 Customers can request a chargeback within 56 days or for unauthorized transactions (i.e., without verifiable consent from the customer) within 13 months. Chargebacks can cost up to 65 EUR in bank fees.
 
