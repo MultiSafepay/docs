@@ -14,7 +14,7 @@ To see your chargebacks:
 
 1. Go to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Transactions **and click **Chargebacks**.
-3. Here, you will find all new, pending or disputed chargebacks. To know more about the different statuses, see <a href="https://docs.multisafepay.com/docs/chargebacks#chargeback-statuses" target="_blank">Chargeback statuses</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+3. Here, you will find all new, pending or disputed chargebacks. To learn more about the different statuses, see <a href="https://docs.multisafepay.com/docs/chargebacks#chargeback-statuses" target="_blank">Chargeback statuses</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 # Credit or debit card chargebacks
 
@@ -63,7 +63,7 @@ If you want to accept liability for a chargeback, you can do so from your dashbo
 3. In the **Transaction summary**, under **Chargeback dispute**, click **Accept chargeback**.
 4. A message will appear asking for confirmation. Click **Ok**.
 
-After a chargeback has been accepted, the amount for the order will be refunded to the customer. No further action is necessary.
+After a chargeback has been accepted, the amount for the order will be refunded to the customer. Do not process a refund after a chargeback has been accepted.
 
 ***
 
@@ -76,7 +76,7 @@ Consumer protection is the main purpose of chargebacks and card scheme rules. Up
 - An invoice of the order, with details of the product and customer, and with the location of delivery.
 - A **Track & trace** document.
 - A signed proof of delivery.
-- Evidence of contact with the cardholder (emails, conversations, etc).
+- Evidence of contact with the cardholder (emails, conversations, etc.).
 - In the event a cardholder cancels an order, a cancellation or return policy.
 
 **⚠️Note:** All documentation provided **must** be in English.
@@ -637,7 +637,7 @@ To dispute this type of chargeback, you need to provide the following:
 
 ## Chargeback period
 
-Card schemes generally allow cardholders to request chargebacks for up to 180 days after the transaction. However, if you require a longer period (e.g., for annual subscriptions paid in advance), you may be able to negotiate this with the card scheme.
+Card schemes generally allow cardholders to request chargebacks for up to 120 days after the transaction. You have 23 days to submit the necessary documentation to dispute the chargeback.
 
 By offering card payment methods, you agree to the cardholder rights guaranteed by the card schemes.
 
