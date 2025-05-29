@@ -98,8 +98,9 @@ If your IPEK is **not** configured, you can
 If the Google Chrome app is malfunctioning, email pos-support@multisafepay.com and describe your issue. If the issue is related to the current version of your Google Chrome app, follow these steps:
 
 1. Uninstall the Google Chrome app and reboot your device.
-2. We contact Sunmi and request their latest Chrome version. Once it is available for download, we will contact you.
-3. Install the latest version of the Google Chrome app.
+2. We contact Sunmi and request the latest compatible Chrome version for your terminal.
+3. Once Sunmi makes the Google Chrome app available for your terminal, we contact you.
+4. Wait for the automatic installation of the new Google Chrome app.
 
 ## Logs
 
