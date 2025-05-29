@@ -26,6 +26,16 @@
         </a>
     </div>
     <div class="card-container">
+        <a href="/docs/odoo/" style="text-decoration: none;">
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Odoo.svg">
+                <div class="container">
+                    <h4><b>Odoo</b></h4>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="card-container">
         <a href="/docs/scandipwa/" style="text-decoration: none;">
             <div class="card">
                 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/ScandiPWA.svg">
