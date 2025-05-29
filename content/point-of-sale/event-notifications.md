@@ -32,25 +32,20 @@ In other scenarios, you can make use of our <a href="https://docs.multisafepay.c
 
 To subscribe to event notifications make a GET request, using the `events_token` from your response.
 
-```
+```curl
 curl -H 'Authorization: events_token' 'https://api.multisafepay.com/events/stream/'
 ```
-<details id="example-requests"> 
-  <summary>Example requests</summary>
-  <br>
 
-```
+#### Example requests
+```curl
 curl -H 'Authorization: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2OTQwNzEyMDcsImdydtdfI6WyJtYnVzOnNlc3Npb24ub3JkZXIiLCJtYnVzOnNlc3Npb24ucXIiXSwicGlkIjoiNTk5TWM0VWhOWDhYczNmNU55b3JnaVZZMlhab1BsVVkxa28iLCJzdWIiOiJwciJ9.p1txKa0wlR6Pn-DvQW8oYmYcesU49GgZsPebME_EvYs' \
 'https://api.multisafepay.com/events/stream/'
 ```
 
   </details>
 
-<details id="example-response"> 
-  <summary>Example response</summary>
-  <br>
-
-```
+#### Example response
+```JSON
 event: session.order
 data: {"financial_status":"initialized","order_id":"ExampleOrderID1234567","session_id":"1025J8hXqtM9dLcilPp3gqkXi8Res3tvZZZ","status":"initialized","transaction_id":"89000000"}
 event: session.order
