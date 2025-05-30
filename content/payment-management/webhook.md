@@ -93,7 +93,7 @@ For terminal groups:
 
 </details>
 
-**⚠️ Note:** If you configure your webhook endpoint at site **and** order level, the order level endpoint is used by default. If using only a site-level webhook, we recommend setting `payment_options.notification_method` to `POST` during the order creation.
+**⚠️ Note:** If you configure your webhook endpoint at site **and** order level, the order level endpoint is used by default. If using only a site-level webhook, we recommend setting `payment_options.notification_method` to `POST` when creating an order.
 
 #### Example request
 
