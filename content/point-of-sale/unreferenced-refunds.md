@@ -44,8 +44,6 @@ Check the general flow below:
 4. The details are forwarded to the card scheme for authorization which can be accepted or declined.
 5. Once we receive an authorization response, we forward it to the terminal. The result will be displayed on the screen.
 
-</details>
-
 ***
 
 ## Traditional (CTAP) terminals
@@ -57,8 +55,6 @@ The steps to process an unreferenced refund may vary from one terminal model to 
 3. The card details are sent to MultiSafepay.
 4. The details are forwarded to the card scheme for authorization which can be accepted or declined.
 5. Once we receive an authorization response, we forward it to the terminal. The result will be displayed on the screen. 
-
-</details>
 
 ## Updates
 
