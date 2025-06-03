@@ -68,7 +68,7 @@ Check how to receive updates for unreferenced refunds in the table below:
     "h-0": "Terminal",
     "h-1": "How to handle notifications",
     "0-0": "**SmartPOS**",
-    "0-1": "To receive order updates, use a [webhook](https://docs.multisafepay.com/docs/webhook) .  \n**:warning:Note:** Event notifications are not supported for unreferenced refunds.",
+    "0-1": "To receive order updates, use a [webhook](https://docs.multisafepay.com/docs/webhook).<br>**⚠️Note:** Event notifications are not supported for unreferenced refunds.",
     "1-0": "**CTAP**",
     "1-1": "Make a [Get order](/reference/getorder/) request. Retrieve the details from the response."
   },
