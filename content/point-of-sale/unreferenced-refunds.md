@@ -4,7 +4,6 @@ category: 6477597e0e2961004638cd5d
 order: 3
 hidden: true
 slug: 'unreferenced-refunds'
-
 ---
 
 Alternatively to regular refunds, you can process unreferenced refunds. This allows you to return funds to a customer without referring to the original transaction.
@@ -17,20 +16,10 @@ To enable unreferenced refunds for your MultiSafepay account, email [sales@multi
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8a2586105264041c63d79d6f30b8eeda255b4be5063c10c9bc12edaaca30a6a7-ctap-unreferenced-final-final.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/unref-refunds-pos.svg" alt="cloud-POS" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;"/>
 
 
 ***
@@ -47,7 +36,7 @@ On your terminal:
 Check the general flow below:
 
 1. You create an unreferenced refund via 
-   - **Cloud POS**: See <a href="https://docs.multisafepay.com/recipes/smartpos-unreferenced-refunds" target="_blank">Unreferenced refunds</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> OR
+   - **Cloud POS**: See [Unreferenced refunds](https://docs.multisafepay.com/recipes/smartpos-unreferenced-refunds) OR
    - **Manual Input** OR
    - **App-to-app** (this will soon be available). 
 2. The customer presents their card.
@@ -83,7 +72,7 @@ Check how to receive updates for unreferenced refunds in the table below:
     "h-0": "Terminal",
     "h-1": "How to handle notifications",
     "0-0": "**SmartPOS**",
-    "0-1": "To receive order updates, use a <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> .  \n**:warning:Note:** Event notifications are not supported for unreferenced refunds.",
+    "0-1": "To receive order updates, use a [webhook](https://docs.multisafepay.com/docs/webhook) .  \n**:warning:Note:** Event notifications are not supported for unreferenced refunds.",
     "1-0": "**CTAP**",
     "1-1": "Make a [Get order](/reference/getorder/) request. Retrieve the details from the response."
   },
