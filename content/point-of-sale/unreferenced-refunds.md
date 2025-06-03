@@ -4,7 +4,6 @@ category: 6477597e0e2961004638cd5d
 order: 3
 hidden: true
 slug: 'unreferenced-refunds'
-
 ---
 
 Alternatively to regular refunds, you can process unreferenced refunds. This allows you to return funds to a customer without referring to the original transaction.
@@ -17,20 +16,10 @@ To enable unreferenced refunds for your MultiSafepay account, email [sales@multi
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8a2586105264041c63d79d6f30b8eeda255b4be5063c10c9bc12edaaca30a6a7-ctap-unreferenced-final-final.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/unref-refunds-pos.svg" alt="cloud-POS" style="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;width: 100%;"/>
 
 
 ***
