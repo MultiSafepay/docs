@@ -36,7 +36,7 @@ On your terminal:
 Check the general flow below:
 
 1. You create an unreferenced refund via 
-   - **Cloud POS**: See [Unreferenced refunds](https://docs.multisafepay.com/recipes/smartpos-unreferenced-refunds) OR
+   - **Cloud POS**: See <a href="https://docs.multisafepay.com/recipes/smartpos-unreferenced-refunds" target="_blank">Unreferenced refunds</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> OR
    - **Manual Input** OR
    - **App-to-app** (this will soon be available). 
 2. The customer presents their card.
@@ -72,7 +72,7 @@ Check how to receive updates for unreferenced refunds in the table below:
     "h-0": "Terminal",
     "h-1": "How to handle notifications",
     "0-0": "**SmartPOS**",
-    "0-1": "To receive order updates, use a [webhook](https://docs.multisafepay.com/docs/webhook) .  \n**:warning:Note:** Event notifications are not supported for unreferenced refunds.",
+    "0-1": "To receive order updates, use a <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> .  \n**:warning:Note:** Event notifications are not supported for unreferenced refunds.",
     "1-0": "**CTAP**",
     "1-1": "Make a [Get order](/reference/getorder/) request. Retrieve the details from the response."
   },
