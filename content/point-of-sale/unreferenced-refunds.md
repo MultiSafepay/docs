@@ -62,25 +62,29 @@ Once created, the `status` of the order will be `initialized`. While the transac
 
 Check how to receive updates for unreferenced refunds in the table below:
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Terminal",
-    "h-1": "How to handle notifications",
-    "0-0": "**SmartPOS**",
-    "0-1": "To receive order updates, use a [webhook](https://docs.multisafepay.com/docs/webhook).<br>**⚠️Note:** Event notifications are not supported for unreferenced refunds.",
-    "1-0": "**CTAP**",
-    "1-1": "Make a [Get order](/reference/getorder/) request. Retrieve the details from the response."
-  },
-  "cols": 2,
-  "rows": 2,
-  "align": [
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+<table style="width: 100%;">
+  <thead>
+    <tr>
+      <th style="text-align: left;">Terminal</th>
+      <th style="text-align: left;">How to handle notifications</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left;"><strong>SmartPOS</strong></td>
+      <td style="text-align: left;">
+        To receive order updates, use a <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.<br>
+        <strong>⚠️Note:</strong> Event notifications are not supported for unreferenced refunds.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><strong>CTAP</strong></td>
+      <td style="text-align: left;">
+        Make a <a href="/reference/getorder/">Get order</a> request. Retrieve the details from the response.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ***
 
