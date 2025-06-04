@@ -170,6 +170,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 <br>
 
 - Cards: Amex, Maestro, Mastercard, and Visa
+- Banking methods: [Bancontact QR](/docs/bancontact)
 - <<glossary:BNPL>>: [Pay After Delivery installments](/docs/pay-after-delivery-installments)
 
 </details>
@@ -187,6 +188,23 @@ The plugin supports [payment components](/docs/payment-components/), which:
 💬 Support: If you're new to accepting card payments, email a request to activate them to <risk@multisafepay.com>
 
 **⚠️ Note:*** If you have a custom checkout and encounter a conflict with the payment component, the Integration Team will do their best to provide support, but we can't guarantee compatibility in all cases.
+
+</details>
+
+<details id="bancontact-qr">
+<summary>How to activate Bancontact QR payments</summary>
+
+To enable QR payments for Bancontact:
+
+1. Sign in to your Wordpress backend.
+2. Go to **Woocommerce** > **MultiSafepay settings** > **Payment methods**.
+3. Select **Bancontact**.
+4. Under **Payment type**, select **Payment Component with QR** and click **Save**.
+5. To disable this feature, you can select **Redirect** under **Payment type**.
+
+After a payment has been completed with Bancontact QR, a temporary **order ID** is assigned to the transaction in your <<glossary: backend>>. For reconciliation and other processes, you can retrieve the order ID from your MultiSafepay dashboard, at the **Transaction summary** page.
+
+**⚠️Note**: **Payment Component with QR** is an experimental feature and may not work as expected. For more information, email support@multisafepay.com
 
 </details>
 
