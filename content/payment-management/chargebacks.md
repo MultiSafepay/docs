@@ -16,11 +16,11 @@ To see your chargebacks:
 2. Go to **Transactions **and click **Chargebacks**.
 3. Here, you will find all new, pending or disputed chargebacks. To learn more about the different statuses, see <a href="https://docs.multisafepay.com/docs/chargebacks#chargeback-statuses" target="_blank">Chargeback statuses</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
-# Credit or debit card chargebacks
+# Credit and debit card chargebacks
 
-To dispute a chargeback on a credit or debit card, see the process flow below. Click to magnify.
+### Visa & Mastercard
 
-### Visa and Mastercard
+To dispute a chargeback on a credit or debit card for Visa or Mastercard, see the process flow below. Click to magnify.
 
 #### Initial stage
 
@@ -50,9 +50,11 @@ To dispute a chargeback on a credit or debit card, see the process flow below. C
 
 ***
 
-### Amex
+### American Express
 
-When an Amex cardholder disputes a transaction, the chargeback process is initiated and handled directly by Amex, without an issuing bank acting as an intermediary in the initial and subsequent phases. The steps are generally similar to those of Visa and Mastercard, with MultiSafepay still involved as the payment processor.
+When an American Express cardholder disputes a transaction, the chargeback process is initiated and handled directly by American Express, without an issuing bank acting as an intermediary in the initial and subsequent phases. The steps are generally similar to those of Visa and Mastercard, with MultiSafepay still involved as the payment processor.
+
+***
 
 ## How to accept chargebacks
 
@@ -180,21 +182,336 @@ If you have requested MultiSafepay to dispute a chargeback for you, we specify w
 
 Below are the chargeback reason codes for the major card schemes.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/amex.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/visa.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
+
+### Visa
+
+#### Fraud
+
+<details id="reason-code-10-4-card-absent-environment">
+<summary>Reason code 10.4: Card absent environment</summary>
+<br>
+
+The cardholder denies participating in the transaction you processed.
+
+To dispute this type of chargeback, you need to provide the following:
+
+- Evidence the cardholder is in possession of and/or using the product/service, e.g. proof of delivery.
+- Evidence that the transaction was completed by a member of the cardholder's household or family.
+- Evidence of previous interactions with the cardholder, e.g., other purchases, payment details.
+- A transaction receipt.
+- An invoice number.
+- A track and trace number.
+- Photos or emails proving a link between the person who received the product/service and the cardholder.
+
+</details>
+
+#### Processing error
+
+<details id="reason-code-12-2-incorrect-transaction-code">
+<summary>Reason code 12.2: Incorrect transaction code</summary>
+<br>
+
+The wrong transaction code was used. For example, you meant to send a credit to a customer, but accidentally debited their account instead.
+
+To dispute this type of chargeback, you need to provide the following:
+
+- Invoice with the product description
+- Any relevant explanation of transaction type and why it was processed that way.
+- Proof the correct transaction was completed (e.g., reversal, corrected transaction).
+- If applicable, a screenshot of POS system or logs showing the method selected.
+- Communication with the cardholder
+
+</details>
+
+<details id="reason-code-12-5-incorrect-amount">
+<summary>Reason code 12.5: Incorrect amount</summary>
+<br>
+
+The transaction amount is incorrect, or an error occurred. 
+
+To dispute this type of chargeback, you need to provide the following:
+
+- A transaction receipt.
+- An invoice number.
+- Evidence that the transaction amount is correct.
+
+</details>
+
+<details id="reason-code-12-6-duplicate-processing-or-paid-by-other-means">
+<summary>Reason code 12.6: Duplicate processing or paid by other means</summary>
+<br>
+
+The cardholder or authorized person did not receive the product/service because you were unwilling or unable to provide it.
+
+To dispute this type of chargeback, you need to provide proof that:
+
+- Both transactions are independent and separate. 
+- The transaction was not paid by other means or separate means.
+
+</details>
+
+#### Customer dispute
+
+<details id="reason-code-13-1-merchandise-or-services-not-received">
+<summary>Reason code 13.1: Merchandise or services not received</summary>
+<br>
+
+The cardholder or authorized person did not receive the product/service because you were unwilling or unable to provide it.
+
+To dispute this type of chargeback, you need to provide the following:
+
+- A description of the product/service.
+- Evidence that the cardholder is in possession of and/or using the product/service, e.g. proof of delivery. 
+- Proof of delivery, e.g., cardholder signature.
+- An invoice number.
+- A track and trace number. 
+- Evidence of communications with the cardholder.
+
+</details>
+
+<details id="reason-code-13-2-cancelled-recurring-transaction">
+<summary>Reason code 13.2: Cancelled recurring transaction</summary>
+<br>
+
+The cardholder:
+
+- Withdrew permission to charge their bank account for a recurring transaction or installment transaction, or
+- Notified you before the transaction was processed that their account was closed.
+
+To dispute this type of chargeback, you need to provide evidence that:
+
+- You have previously completed successful transactions from that bank account. 
+- The product/service was used after the cancellation, e.g., ID and/or login history. 
+- The transaction was properly authorized and settled as a recurring transaction.
+- The transaction was a recurring transaction, including proof that the cardholder had to click to accept the terms and conditions of recurring transactions or that they signed a contract agreeing to the terms and conditions
+
+</details>
+
+<details id="reason-code-13-3-not-as-described">
+<summary>Reason code 13.3: Not as described</summary>
+<br>
+
+The product/service:
+
+- Did not match your description on the transaction receipt or elsewhere when purchased, or 
+- Was damaged or defective.
+
+To dispute this type of chargeback, you need to provide the following:
+
+- Proof of delivery of the product/service.
+- Your original description of the product/service. 
+- An invoice number.
+- A track and trace number. 
+- Evidence of communications with the cardholder. 
+- Evidence that the cardholder did not attempt to return the product/service.
+
+</details>
+
+<details id="reason-code-10-4-card-absent-environment">
+<summary>Reason code 13.4: Counterfeit merchandise</summary>
+<br>
+
+The merchandise was identified as counterfeit by one or more of the following:
+
+- The owner of the intellectual property or its authorized representative.
+- A customs agency, law enforcement agency, or other government agency .
+- A third-party expert.
+
+To dispute this type of chargeback, you need to provide the following:
+
+- Proof of authenticity for example: Invoice, and Invoice from authorized suppliers
+- Proof of refund
+- Communication with the cardholder
+- Terms and Conditions, by Click to Accept.
+- Proof of delivery of the product/service.
+- Shipping and tracking details, and proof of delivery.
+
+</details>
+
+<details id="reason-code-13-5-misrepresentation">
+<summary>Reason code 13.5: Misrepresentation</summary>
+<br>
+
+The cardholder claims a purchased item or service was misrepresented and alleges false advertising.
+
+</details>
+
+<details id="reason-code-13-6-credit-not-processed">
+<summary>Reason code 13.6: Credit not processed</summary>
+<br>
+
+The cardholder did not receive the funds for credit or voided transaction receipt. 
+
+To dispute this type of chargeback, you need to provide the following:
+
+- Details about the transaction.
+- An invoice number. 
+- Evidence of communications with the cardholder.
+
+</details>
+
+<details id="reason-code-13-7-cancelled-service-and-or-merchandise">
+<summary>Reason code 13.7: Cancelled service and/or merchandise</summary>
+<br>
+
+The cardholder cancelled or returned the product/service. Or, you did not properly disclose or did disclose but did not apply a limited return or cancellation policy at the time of the transaction.
+
+To dispute this type of chargeback, you need to provide the following:
+
+- Evidence of the cardholder using the service. 
+- Evidence of delivery of products/services that the cardholder did not return.
+- Evidence that the cardholder had to click to accept your cancellation policy and that your policy does not include the right to dispute terms and conditions available on your website. 
+- An invoice number.
+- A track and trace number.
+- Evidence of communications with the cardholder
+
+</details>
+
+***
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/mastercard.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
+
+### Mastercard
+
+#### Authorization
+
+<details id="reason-code-4808-authorization-related">
+<summary>Reason code 4808: Authorization-related chargeback</summary>
+<br>
+
+The transaction was processed without valid authorization.
+
+To dispute this type of chargeback, you need to provide the following:
+
+- Proof of the service was used
+- Proof of delivery merchandise
+- Tracking and invoice
+- Proof of contact with the cardholder
+
+</details>
+
+#### Fraud
+
+<details id="reason-code-4837-fraud-related-chargeback-or-no-cardholder-authorization">
+<summary>Reason code 4837: Fraud related chargeback or no cardholder authorization</summary>
+<br>
+
+The cardholder denies participating in the transaction you processed.
+
+To dispute this type of chargeback, you need to provide the following:
+
+- Evidence that:
+  - The cardholder is in possession of and/or using the product/service, e.g. proof of delivery. 
+  - The transaction was completed by a member of the cardholder's household or family. 
+- Evidence of previous interactions with the cardholder, e.g., other purchases, payment details. 
+- A transaction receipt.
+- An invoice number. 
+- A track and trace number. 
+- Photos or emails proving a link between the person who received the product/service and the cardholder
+
+</details>
+
+<details id="reason-code-4863-potential-fraud-cardholder-does-not-recognize-the-transaction">
+<summary>Reason code 4863: Potential fraud, the cardholder does not recognize the transaction</summary>
+<br>
+
+The cardholder denies participating in or does not recognize the transaction you processed.
+
+To dispute this type of chargeback, you need to provide the following:
+
+- Evidence that:
+  - The cardholder is in possession of and/or using the product/service, e.g. proof of delivery. 
+  - The transaction was completed by a member of the cardholder's household or family. 
+  - The cardholder is using the product/service. 
+- A copy of the cardholder's identification. 
+- Evidence of previous interactions with the cardholder, e.g., other purchases, payment details 
+- A transaction receipt.
+- An invoice number.
+- A track and trace number.
+- Photos or emails proving a link between the person who received the product/service and the cardholder.
+
+</details>
+
+#### Processing error
+
+<details id="reason-code-4831-dispute-amount-or-an-incorrect-amount">
+<summary>Reason code 4831: Dispute amount or an incorrect amount</summary>
+<br>
+
+The cardholder claims that you processed an incorrect amount. 
+
+To dispute this type of chargeback, you need to provide the following: 
+
+- A transaction receipt.
+- An invoice number.
+- Evidence that:
+  - The transaction amount was correct. 
+  - you have the right to alter the transaction amount without the cardholder's consent after the transaction is completed.
+
+</details>
+
+<details id="reason-code-4834-duplicate-processing">
+<summary>Reason code 4834: Duplicate processing</summary>
+<br>
+
+The issuer determines that you submitted duplicate transactions.
+
+To dispute this type of chargeback, you need to provide proof that both transactions:
+
+- Are separate
+- Are valid
+- Were authorized by the cardholder's personal identification number (PIN) 
+
+</details>
+
+#### Customer dispute
+
+<details id="reason-code-4841-digital-goods-cancelled-recurring-transaction">
+<summary>Reason code 4841: Digital goods, cancelled recurring transaction</summary>
+<br>
+
+The cardholder:
+
+- Withdrew permission to charge their bank account for a recurring transaction or installment transaction, or
+- Notified you before the transaction was processed that their account was closed.
+
+To dispute this type of chargeback, you need to provide evidence that:
+
+- You have previously completed successful transactions from that bank account. 
+- The cardholder used the product/service after the cancellation, e.g., ID and/or login history. 
+- The transaction was properly authorized and settled as a recurring transaction.
+- The transaction was a recurring transaction, including proof that the cardholder had to click to accept the terms and conditions of recurring transactions or that they signed a contract agreeing to the terms and conditions.
+
+</details>
+
+<details id="reason-code-4853-cardholder-dispute-goods-or-service-not-delivered-goods-not-as-described">
+<summary>Reason code 4853: Cardholder dispute: Goods or service not delivered, Goods not as described</summary>
+<br>
+
+- The product/service did not match your description on the transaction receipt or other record at the time of purchase, or
+- The transaction was not completed, or
+- The product/service the cardholder received was damaged or defective, or
+- The cardholder disputes the quality of the product/service received.
+
+To dispute this type of chargeback, you need to provide the following:
+
+- Proof of delivery of the product/service.
+- A description of the product/service. 
+- An invoice 
+- A track and trace number.
+- Evidence of communications with the cardholder. 
+- Evidence that the cardholder did not attempt to return the product/service.
+
+</details>
+
+***
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/amex.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 ### American Express
 
 #### Fraud
-
-<details id="reason-code-4573-fraud-full-recourse">
-<summary>Reason code 4573: Fraud, full recourse</summary>
-<br>
-
-The cardholder denies authorizing the charge, and your business has been placed in the fraud full recourse program: **Investigation confirms fraud**.
-
-To dispute this type of chargeback, you need to provide proof that the transaction is exempt or was authorized by a PIN or [3D Secure](/docs/3ds2/).
-
-</details>
 
 <details id="reason-code-4526-missing-signature">
 <summary>Reason code 4526: Missing signature</summary>
@@ -220,6 +537,16 @@ To dispute this type of chargeback, you need to provide evidence that:
 
 - The cardholder did participate in the transaction.
 - The product/service was delivered to the cardholder's billing address, and the cardholder signed a receipt. 
+
+</details>
+
+<details id="reason-code-4573-fraud-full-recourse">
+<summary>Reason code 4573: Fraud, full recourse</summary>
+<br>
+
+The cardholder denies authorizing the charge, and your business has been placed in the fraud full recourse program: **Investigation confirms fraud**.
+
+To dispute this type of chargeback, you need to provide proof that the transaction is exempt or was authorized by a PIN or [3D Secure](/docs/3ds2/).
 
 </details>
 
@@ -372,272 +699,9 @@ To dispute this type of chargeback, you need to provide proof that the transacti
 
 ***
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/mastercard.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
-
-### Mastercard
-
-#### Fraud
-
-<details id="reason-code-4837-fraud-related-chargeback-or-no-cardholder-authorization">
-<summary>Reason code 4837: Fraud related chargeback or no cardholder authorization</summary>
-<br>
-
-The cardholder denies participating in the transaction you processed.
-
-To dispute this type of chargeback, you need to provide the following:
-
-- Evidence that:
-  - The cardholder is in possession of and/or using the product/service, e.g. proof of delivery. 
-  - The transaction was completed by a member of the cardholder's household or family. 
-- Evidence of previous interactions with the cardholder, e.g., other purchases, payment details. 
-- A transaction receipt.
-- An invoice number. 
-- A track and trace number. 
-- Photos or emails proving a link between the person who received the product/service and the cardholder
-
-</details>
-
-<details id="reason-code-4863-potential-fraud-cardholder-does-not-recognize-the-transaction">
-<summary>Reason code 4863: Potential fraud, the cardholder does not recognize the transaction</summary>
-<br>
-
-The cardholder denies participating in or does not recognize the transaction you processed.
-
-To dispute this type of chargeback, you need to provide the following:
-
-- Evidence that:
-  - The cardholder is in possession of and/or using the product/service, e.g. proof of delivery. 
-  - The transaction was completed by a member of the cardholder's household or family. 
-  - The cardholder is using the product/service. 
-- A copy of the cardholder's identification. 
-- Evidence of previous interactions with the cardholder, e.g., other purchases, payment details 
-- A transaction receipt.
-- An invoice number.
-- A track and trace number.
-- Photos or emails proving a link between the person who received the product/service and the cardholder.
-
-</details>
-
-#### Processing error
-
-<details id="reason-code-4834-duplicate-processing">
-<summary>Reason code 4834: Duplicate processing</summary>
-<br>
-
-The issuer determines that you submitted duplicate transactions.
-
-To dispute this type of chargeback, you need to provide proof that both transactions:
-
-- Are separate
-- Are valid
-- Were authorized by the cardholder's personal identification number (PIN) 
-
-</details>
-
-<details id="reason-code-4831-dispute-amount-or-an-incorrect-amount">
-<summary>Reason code 4831: Dispute amount or an incorrect amount</summary>
-<br>
-
-The cardholder claims that you processed an incorrect amount. 
-
-To dispute this type of chargeback, you need to provide the following: 
-
-- A transaction receipt.
-- An invoice number.
-- Evidence that:
-  - The transaction amount was correct. 
-  - you have the right to alter the transaction amount without the cardholder's consent after the transaction is completed.
-
-</details>
-
-#### Customer dispute
-
-<details id="reason-code-4853-cardholder-dispute-goods-or-service-not-delivered-goods-not-as-described">
-<summary>Reason code 4853: Cardholder dispute: Goods or service not delivered, Goods not as described</summary>
-<br>
-
-- The product/service did not match your description on the transaction receipt or other record at the time of purchase, or
-- The transaction was not completed, or
-- The product/service the cardholder received was damaged or defective, or
-- The cardholder disputes the quality of the product/service received.
-
-To dispute this type of chargeback, you need to provide the following:
-
-- Proof of delivery of the product/service.
-- A description of the product/service. 
-- An invoice 
-- A track and trace number.
-- Evidence of communications with the cardholder. 
-- Evidence that the cardholder did not attempt to return the product/service.
-
-</details>
-
-<details id="reason-code-4841-digital-goods-cancelled-recurring-transaction">
-<summary>Reason code 4841: Digital goods, cancelled recurring transaction</summary>
-<br>
-
-The cardholder:
-
-- Withdrew permission to charge their bank account for a recurring transaction or installment transaction, or
-- Notified you before the transaction was processed that their account was closed.
-
-To dispute this type of chargeback, you need to provide evidence that:
-
-- You have previously completed successful transactions from that bank account. 
-- The cardholder used the product/service after the cancellation, e.g., ID and/or login history. 
-- The transaction was properly authorized and settled as a recurring transaction.
-- The transaction was a recurring transaction, including proof that the cardholder had to click to accept the terms and conditions of recurring transactions or that they signed a contract agreeing to the terms and conditions.
-
-</details>
-
-***
-
-<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/visa.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
-
-### Visa
-
-#### Fraud
-
-<details id="reason-code-10-4-card-absent-environment">
-<summary>Reason code 10.4: Card absent environment</summary>
-<br>
-
-The cardholder denies participating in the transaction you processed.
-
-To dispute this type of chargeback, you need to provide the following:
-
-- Evidence the cardholder is in possession of and/or using the product/service, e.g. proof of delivery.
-- Evidence that the transaction was completed by a member of the cardholder's household or family.
-- Evidence of previous interactions with the cardholder, e.g., other purchases, payment details.
-- A transaction receipt.
-- An invoice number.
-- A track and trace number.
-- Photos or emails proving a link between the person who received the product/service and the cardholder.
-
-</details>
-
-#### Processing error
-
-<details id="reason-code-12-5-incorrect-amount">
-<summary>Reason code 12.5: Incorrect amount</summary>
-<br>
-
-The transaction amount is incorrect, or an error occurred. 
-
-To dispute this type of chargeback, you need to provide the following:
-
-- A transaction receipt.
-- An invoice number.
-- Evidence that the transaction amount is correct.
-
-</details>
-
-<details id="reason-code-12-6-duplicate-processing-or-paid-by-other-means">
-<summary>Reason code 12.6: Duplicate processing or paid by other means</summary>
-<br>
-
-The cardholder or authorized person did not receive the product/service because you were unwilling or unable to provide it.
-
-To dispute this type of chargeback, you need to provide proof that:
-
-- Both transactions are independent and separate. 
-- The transaction was not paid by other means or separate means.
-
-</details>
-
-#### Customer dispute
-
-<details id="reason-code-13-1-merchandise-or-services-not-received">
-<summary>Reason code 13.1: Merchandise or services not received</summary>
-<br>
-
-The cardholder or authorized person did not receive the product/service because you were unwilling or unable to provide it.
-
-To dispute this type of chargeback, you need to provide the following:
-
-- A description of the product/service.
-- Evidence that the cardholder is in possession of and/or using the product/service, e.g. proof of delivery. 
-- Proof of delivery, e.g., cardholder signature.
-- An invoice number.
-- A track and trace number. 
-- Evidence of communications with the cardholder.
-
-</details>
-
-<details id="reason-code-13-2-cancelled-recurring-transaction">
-<summary>Reason code 13.2: Cancelled recurring transaction</summary>
-<br>
-
-The cardholder:
-
-- Withdrew permission to charge their bank account for a recurring transaction or installment transaction, or
-- Notified you before the transaction was processed that their account was closed.
-
-To dispute this type of chargeback, you need to provide evidence that:
-
-- You have previously completed successful transactions from that bank account. 
-- The product/service was used after the cancellation, e.g., ID and/or login history. 
-- The transaction was properly authorized and settled as a recurring transaction.
-- The transaction was a recurring transaction, including proof that the cardholder had to click to accept the terms and conditions of recurring transactions or that they signed a contract agreeing to the terms and conditions
-
-</details>
-
-<details id="reason-code-13-3-not-as-described">
-<summary>Reason code 13.3: Not as described</summary>
-<br>
-
-The product/service:
-
-- Did not match your description on the transaction receipt or elsewhere when purchased, or 
-- Was damaged or defective.
-
-To dispute this type of chargeback, you need to provide the following:
-
-- Proof of delivery of the product/service.
-- Your original description of the product/service. 
-- An invoice number.
-- A track and trace number. 
-- Evidence of communications with the cardholder. 
-- Evidence that the cardholder did not attempt to return the product/service.
-
-</details>
-
-<details id="reason-code-13-6-credit-not-processed">
-<summary>Reason code 13.6: Credit not processed</summary>
-<br>
-
-The cardholder did not receive the funds for credit or voided transaction receipt. 
-
-To dispute this type of chargeback, you need to provide the following:
-
-- Details about the transaction.
-- An invoice number. 
-- Evidence of communications with the cardholder.
-
-</details>
-
-<details id="reason-code-13-7-cancelled-service-and-or-merchandise">
-<summary>Reason code 13.7: Cancelled service and/or merchandise</summary>
-<br>
-
-The cardholder cancelled or returned the product/service. Or, you did not properly disclose or did disclose but did not apply a limited return or cancellation policy at the time of the transaction.
-
-To dispute this type of chargeback, you need to provide the following:
-
-- Evidence of the cardholder using the service. 
-- Evidence of delivery of products/services that the cardholder did not return.
-- Evidence that the cardholder had to click to accept your cancellation policy and that your policy does not include the right to dispute terms and conditions available on your website. 
-- An invoice number.
-- A track and trace number.
-- Evidence of communications with the cardholder
-
-</details>
-
-***
-
 ## Chargeback period
 
-Card schemes generally allow cardholders to request chargebacks for up to 120 days after the transaction. You have 23 days to submit the necessary documentation to dispute the chargeback.
+Card schemes generally allow cardholders to request chargebacks for up to 120 days after the transaction. Upon receiving a chargeback request, the response window to submit the necessary documentation for the dispute is 23 days for Visa and Mastercard and 20 days for American Express.
 
 By offering card payment methods, you agree to the cardholder rights guaranteed by the card schemes.
 
@@ -693,9 +757,7 @@ For more information, see Amazon Pay - <a href="https://pay.amazon.eu/help/20174
 
 ## Direct debit
 
-Customers can request a chargeback within 56 days or for unauthorized transactions (i.e., without verifiable consent from the customer) within 13 months. Chargebacks can cost up to 65 EUR in bank fees.
-
-You cannot dispute chargebacks, and there is no facilitated process like there is for credit or debit card chargebacks. 
+For more information about Direct debit chargebacks, see Chargebacks - <a href="https://docs.multisafepay.com/docs/sepa-direct-debit#chargebacks" target="_blank">SEPA Direct Debit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ***
 
