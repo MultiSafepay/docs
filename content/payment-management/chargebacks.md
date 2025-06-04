@@ -757,7 +757,7 @@ For more information, see Amazon Pay - <a href="https://pay.amazon.eu/help/20174
 
 ## Direct debit
 
-For more information about Direct debit chargebacks, see Chargebacks - [SEPA Direct Debit](https://docs.multisafepay.com/docs/sepa-direct-debit#chargebacks).
+For more information about Direct debit chargebacks, see Chargebacks - <a href="https://docs.multisafepay.com/docs/sepa-direct-debit#chargebacks" target="_blank">SEPA Direct Debit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ***
 
