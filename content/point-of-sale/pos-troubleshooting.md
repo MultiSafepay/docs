@@ -82,6 +82,8 @@ If you have used an incorrect API key for cloud payments, check for the correct 
 
 </details>
 
+# System
+
 ## IPEK not configured
 
 Before you begin activation, ensure that the Initial PIN Encrypted Key(IPEK) is registered on your terminal.
@@ -112,6 +114,18 @@ Retrieving logs can be a helpful step to investigate an issue. You can generate 
 - Ensure to select **syslog** and add serial numbers
 - Define the timeframe during which the logs should be uploaded to the portal and replicate the issue during this time. _Start time \_must be later than \_current time_. 
 - Click **release** 
+
+## Errors
+
+### Activation failed: Server error (10008)
+
+During initial activation of your **SmartPOS P3 MIX** model, wait until the device has successfully established its network connection. If you try to activate the device before the synchronization process is finished, you will receive **Activation error: Server error(10008)**. To fix this:
+
+1. Restart your terminal and connect to the internet.
+2. After the internet connection is established, wait for approximately 3 minutes.
+3. Click **Activate**. 
+
+Make sure that you have a stable internet connection.
 
 ***
 
@@ -208,7 +222,12 @@ If your group logo is still not visible, email [support@multisafepay.com](mailto
 
 # Tampering alarm
 
-If your device has been blocked due to the error on screen "Attacked! Please contact your service provider", you can reach out to Sunmi for support. 
+If your device has been blocked due to one of the following errors:
+
+- "Attacked! Please contact your service provider", or
+- Alerts triggered! Please contact your service provider
+
+you can reach out to Sunmi for support.
 
 1. On the <a href="https://www.sunmi.com/en-US/" target="_blank">Sunmi page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, go to **Contact Technical Support** > **Create new request**.
 2. Select **P Serial Tamper** and follow the steps in the Sunmi environment.<br>**💡 Tip!** prepare a picture of your device to attach to the form. 
