@@ -276,7 +276,7 @@ To install and configure, see LogiVert – <a href="https://confluence.prezent.n
 ___
 ##Pronamic Pay
 
-<a href="<https://www.pronamicpay.com/payment-providers/multisafepay/>" target="_blank">Pronamic </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>,provides a Premium Pronamic Pay plugin to integrate MultiSafepay with multiple WordPress plugins.
+<a href="https://www.pronamicpay.com/payment-providers/multisafepay/" target="_blank">Pronamic </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>,provides a Premium Pronamic Pay plugin to integrate MultiSafepay with multiple WordPress plugins.
 
 <details id="pronamic-prerequisites">
 <summary>Prerequisites</summary>
@@ -290,7 +290,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 <summary>Support</summary>
 <br>
 
-For any technical queries, see – <a href="<https://www.pronamicpay.com/support/>" target="_blank">Pronamic support</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+For any technical queries, see – <a href="https://www.pronamicpay.com/support/" target="_blank">Pronamic support</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 </details>
 
@@ -338,7 +338,7 @@ For any technical queries, see – <a href="<https://www.pronamicpay.com/support
 <summary>Installation and configuration</summary>
 <br>
 
-To install and configure the plugin, see Pronamic Pay – <a href="<https://www.pronamicpay.com/nl/handleidingen/hoe-je-multisafepay-aan-wordpress-koppelt-met-pronamic-pay/>" target="_blank">Installation guide</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+To install and configure the plugin, see Pronamic Pay – <a href="https://www.pronamicpay.com/nl/handleidingen/hoe-je-multisafepay-aan-wordpress-koppelt-met-pronamic-pay/" target="_blank">Installation guide</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 </details>
 
 ___

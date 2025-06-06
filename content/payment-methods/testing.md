@@ -148,6 +148,22 @@ You can see the reason the transaction was declined in your MultiSafepay test ac
 
 </details>
 
+<details id="bizum">
+<summary>How to test Bizum</summary>
+<br>
+
+1. [Create an order](/reference/createorder/) > Banking order (Example: Bizum direct/redirect)
+2. For <<glossary:redirect>> orders, open the payment link.
+3. On the **Test platform** page, from the **Test scenario** list, select the desired transaction scenario. Refer to the table below for details. 
+4. Click **Test**.
+
+| Scenario      | Description                                                                |
+| ------------- | -------------------------------------------------------------------------- |
+| **Success**   | The transaction is initiated. <br> Transaction will show as **Completed**. |
+| **Failure**/**Cancelled**  | The transaction is initiated. <br> Transaction will show as **Declined**.  |
+
+</details>
+
 <details id="dotpay">
 <summary>How to test Dotpay</summary>
 <br>
@@ -820,7 +836,7 @@ If you refund a payment in your MultiSafepay test dashboard, the [transaction st
 
 You can test cancelling orders for the following methods:
 
-- Banking methods: Belfius, CBC/KBC, Dotpay, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
+- Banking methods: Belfius, CBC/KBC, Przelewy24, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
 - Wallets: Alipay, PayPal
 
 </details>
@@ -835,7 +851,7 @@ For some payment methods, refund orders in the live environment are processed au
 
 Refund orders in the live environment are processed automatically for the following methods:
 
-- Banking methods: Bancontact (not QR), bank transfers, Belfius, CBC/KBC, direct debits, Dotpay, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
+- Banking methods: Bancontact (not QR), bank transfers, Belfius, CBC/KBC, direct debits, Przelewy24, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
 - Credit and debit cards
 - Wallets: Alipay, PayPal, WeChat Pay
 
@@ -867,7 +883,7 @@ Refund orders in the live environment are processed automatically for the follow
 
 You can test refunds for the following methods:
 
-- Banking methods: Bancontact (not QR), bank transfers, Belfius, CBC/KBC, direct debits, Dotpay, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
+- Banking methods: Bancontact (not QR), bank transfers, Belfius, CBC/KBC, direct debits, Przelewy24, EPS, Giropay, iDEAL (not QR), Sofort, Trustly
 - Credit and debit cards
 - <<glossary:BNPL>>: in3, Klarna
 - Wallets: Alipay, PayPal, WeChat Pay

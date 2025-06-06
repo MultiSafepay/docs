@@ -1,5 +1,5 @@
 ---
-title: 'Giropay (Deprecated)'
+title: 'Giropay (End-of-life)'
 category: 6298bd782d1cf4006032e765
 order: 10
 hidden: false
@@ -12,7 +12,9 @@ slug: 'giropay'
 <a href="https://www.giropay.de/" target="_blank">Giropay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is the leading inter-bank payment method in Germany, connecting all major German retail banks. Customers pay from their own online banking environment. <<glossary:Settlement>> is instant and guaranteed.
 
 
-> ⚠️ Note: Giropay is deprecated as of 01 July 2024. New activations are no longer possible.
+> ⚠️ Note: 
+>
+> Giropay is end-of-life as of 01 July 2024. New activations are no longer possible.
 > 
 > 
 
@@ -71,7 +73,13 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Giropay redirect**.
 
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+  <div style="text-align: center;">
+  <img
+    src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif"
+    alt="MultiSafepay Sandbox Test Process GIF"
+    style="width: 40%; height: auto;"
+  />
+  </div>
 
   </details>
 

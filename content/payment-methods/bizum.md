@@ -6,12 +6,6 @@ order: 5
 slug: 'bizum'
 ---
 
-> ⚠️ Note:
-> 
-> We are currently in the pilot phase for this product in Spain.
-> 
-> If you are interested in participating in the next stage of our pilot, email  [sales@multisafepay.com](mailto:integration@multisafepay.com)
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bizum.svg/122px-Bizum.svg.png" width="100" align="right" style="margin: 20px; max-height: 75px"/>
 
 
@@ -93,11 +87,15 @@ See API reference – [Create order](/reference/createorder/) > Banking order.
 
  Set `gateway` to `BIZUM`, and `type` to `direct` or `redirect`.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+<div style="text-align: center;">
+  <img
+    src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif"
+    alt="MultiSafepay Sandbox Test Process GIF"
+    style="width: 40%; height: auto;"
+  />
+</div>
 
 </details>
-
-- For <<glossary:direct>> orders, you must provide the customer with [payment instructions](#payment-instructions) to proceed with the payment.
 
 - Transactions expire after 30 minutes.
 
@@ -115,9 +113,7 @@ Bizum is supported in most <a href="https://docs.multisafepay.com/docs/our-integ
 
 ## Testing
 
-Testing will soon be available for this payment method. 
-
-
+To test Bizum payments, see Testing payment methods - [Banking methods](/docs/testing#banking-methods).
 
 # User guides
 

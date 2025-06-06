@@ -70,7 +70,13 @@ For any questions, email <sales@multisafepay.com>
 
   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Gift card redirect**.
 
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+  <div style="text-align: center;">
+  <img
+    src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif"
+    alt="MultiSafepay Sandbox Test Process GIF"
+    style="width: 40%; height: auto;"
+  />
+  </div>
 
   </details>
 
@@ -89,8 +95,8 @@ Supported in:
 - [OpenCart 4](/docs/opencart-4/)
 - [PrestaShop 1.6](/docs/prestashop-1-6/)
 - [PrestaShop](/docs/prestashop/)
-- [Shopware 5](/docs/shopware/)
-- [Shopware 6](/docs/shopware/)
+- [Shopware 5](/docs/shopware-5/)
+- [Shopware 6](/docs/shopware-6/)
 - [VirtueMart 3](/docs/virtuemart/)
 - [VirtueMart 4](/docs/virtuemart-4/)
 - [WooCommerce](/docs/woocommerce/)
