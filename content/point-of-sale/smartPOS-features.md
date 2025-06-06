@@ -216,7 +216,7 @@ Via **Features** > **Closing balance**, you can set the following parameters:
 
 Click **View** to display the details entered. These details will also appear on the header of the receipt.  
 
-**💡 Tip!** You can print your closing balance report using either the device printer, or the [external printer](docs/smartpos-features#how-to-use-an-external-printer).
+**💡 Tip!** You can print your closing balance report using either the device printer, or the [external printer](/docs/smartpos-features#how-to-use-an-external-printer).
 
 ***
 
