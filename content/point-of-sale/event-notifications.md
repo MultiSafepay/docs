@@ -17,7 +17,7 @@ Subscribe to event notifications to receive order payments updates when, e.g.,
 # Prerequisites
 
 - SmartPOS terminal must be [activated in your MultiSafepay account](/docs/getting-started-guide/).
-- Payments must be initiated via [cloud <<glossary:POS>> payment](/docs/solutions).
+- Payments must be initiated via [cloud <<glossary:POS>> payment](/docs/smartpos-solutions#cloud-pos-payment).
 
 In other scenarios, you can make use of our <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>notifications.
 
@@ -63,7 +63,7 @@ The table below sets out possible payment statuses and what they commonly mean.
 | :---------------------------| :-------------- |
 | The <<glossary:card scheme>> is processing your payment request. | Initialized    |
 | The payment has been initialized, but the <<glossary:card scheme>> requires authentication to continue the payment process. This is not a final status. For more information, see <a href="https://docs.multisafepay.com/docs/smartpos-solutions#soft-declines" target="_blank">Soft declines</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> - SmartPOS solutions. | Declined (**Soft decline**)
-| The payment has been cancelled on the terminal or via API. For more information - see [Cancellation.](/docs/solutions#cancellation)  <br>**Note:**  You can now initiate another cloud POS payment.   | Cancelled.     |
+| The payment has been cancelled on the terminal or via API. For more information - see [Cancellation.](/docs/smartpos-solutions#cancellation)  <br>**Note:**  You can now initiate another cloud POS payment.   | Cancelled.     |
 | The customer has completed the payment.  <br>**Note:**  You can now initiate another cloud POS payment.  | Completed      |
 | The <<glossary:card scheme>> has declined the payment. The customer will be redirected to the payment screen to retry the payment.  | Declined. |
 
