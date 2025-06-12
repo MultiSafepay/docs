@@ -64,6 +64,13 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 - A specific website, go to **Websites**, and then click the relevant website.
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
+To enable Alipay+ payments on your SmartPOS:
+1. Go to **Features** > **Payment**.
+2. At **Additional Payment methods**, click the **Dropdown** icon to display the payment methods.
+3. Click the **Alipay+** toggle.
+
+If this payment method isn't displayed on your terminal, click **Reload** to update it for any newly added payment methods.
+
 💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
 
 # Integration
