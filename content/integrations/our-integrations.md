@@ -128,16 +128,6 @@ We also offer integrations for the following:
         </a>
     </div>
     <div class="card-container">
-        <a href="/docs/odoo/" style="text-decoration: none;">
-            <div class="card">
-                <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Odoo.svg" alt="Odoo Logo" >
-                <div class="container">
-                    <h4><b>Odoo</b></h4>
-                </div>
-            </div>
-        </a>
-    </div>
-    <div class="card-container">
         <a href="/docs/opencart/" style="text-decoration: none;">
             <div class="card">
                 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/OpenCart.svg" alt="OpenCart 3 Logo">
