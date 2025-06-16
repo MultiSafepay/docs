@@ -280,7 +280,7 @@ Check:
 - That the sum of any partial refunds doesn’t exceed the original order amount
 - That you can make <<glossary:payouts>> from your account balance
 - If the order was cancelled or has already been refunded
-- If the same refund was paid within in a short period of time. If a second refund for the same amount is requested within 5 minutes, MultiSafepay rejects the second request to avoid double processing. Refunds sent in batches via the API cause this error because the process is so quick. To avoid this error, delay refund requests by at least 1 second.
+- If the same refund was paid within a short period of time. If a second refund for the same amount is requested within 5 minutes, MultiSafepay rejects the second request to avoid double processing. Refunds sent in batches via the API cause this error because the process is so quick.
 
 ---
 ### 1035: Invalid signature
