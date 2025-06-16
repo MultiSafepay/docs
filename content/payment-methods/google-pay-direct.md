@@ -363,7 +363,12 @@ Then, when you're ready to go live:
 
 ### Ready-made integrations
 
-To enable Google Pay direct for your ready-made integration, go to the payment method settings in your <<glossary:backend>> and add the merchant ID and merchant name from your <a href="https://pay.google.com/business/console/" target="_blank">Google Pay Business Console</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> .
+To enable Google Pay direct for your ready-made integration, go to the payment method settings in your <<glossary:backend>> and add the merchant ID and merchant name from your <a href="https://pay.google.com/business/console/" target="_blank">Google Pay Business Console</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+Google Pay direct is available for:
+- [Woocommerce](/docs/woocommerce)
+- [Magento 2](/docs/magento-2)
+- [Prestashop 1.7 and 8](https://docs.multisafepay.com/docs/prestashop)
 
 ***
 
