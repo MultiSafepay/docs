@@ -368,7 +368,7 @@ To enable Google Pay direct for your ready-made integration, go to the payment m
 Google Pay direct is available for:
 - [Woocommerce](/docs/woocommerce)
 - [Magento 2](/docs/magento-2)
-- [Prestashop 1.7 and 8](https://docs.multisafepay.com/docs/prestashop)
+- <a href="https://docs.multisafepay.com/docs/prestashop" target="_blank">Prestashop 1.7 and 8</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 
 ***
 
