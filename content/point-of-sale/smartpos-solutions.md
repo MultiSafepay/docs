@@ -290,6 +290,12 @@ The table below sets out options available for receiving updates on the payments
 
 # User guide
 
+## Authentication
+
+To create an order, always use the **API key** of your device's [terminal group](/docs/sites#terminal-group-id-and-api-key).
+
+**⚠️Note:** Using an incorrect **API key** can cause any subsequent API calls associated with that order to fail.
+
 ## Cancellation
 
 
