@@ -47,7 +47,7 @@ To activate a SmartPOS terminal, follow these steps:
    - **New group name**.  
    - <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">**Webhook URL** </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>(optional).
    - In the **Business category** field, click the **drop-down** icon and specify the relevant service or product offered. If a category has been assigned to your account in the past, it will be displayed automatically. 
-   - **Logo**: Select an image you want to display in different places of your payment app, to show customized branding. To upload your logo, see [How to upload logos](#how-to-upload-logos).  
+   - **Logo**: Select an image you want to display in different places of your payment app, to show customized branding. To upload your logo, see [How to upload logos(#how-to-upload-your-logo).  
      The logo is added to all terminals of this group and will show in the background of your terminal. 
 
    **⚠️Note**: Individual terminals within a group cannot have different images.
