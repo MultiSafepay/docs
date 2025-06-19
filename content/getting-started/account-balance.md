@@ -21,7 +21,7 @@ To add funds to your balance, follow these steps:
 5. If you select **Bank Transfer**, under **Step 3**, you can:
    - Select a bank account you have used previously
    - Enter a new bank account, or
-   - Initiate a transfer via your bank. Read the instructions before performing this option.
+   - Initiate a transfer via your bank. Read the instructions before initiating.
   
     Click **Submit** to initiate the transfer.
 6. The funds will be sent to your account.
