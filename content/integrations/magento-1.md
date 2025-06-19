@@ -860,6 +860,7 @@ These instructions are for SFTP upload. You can also install via .ZIP file uploa
 &nbsp; **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Unpack the content of the .ZIP file in the root of your webshop.
+   - Always make sure to remove all outdated plugin files and folders.
 2. Sign in to your Magento 1 <<glossary:backend>>.
 3. Go to **System** > **Configuration** > **Cache**, and clear your invalid cache.
 4. Move all files and folders from Plugin_Magento_x.x.x to the root.  
