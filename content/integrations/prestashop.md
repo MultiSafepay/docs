@@ -34,7 +34,7 @@ slug: 'prestashop'
 
 &nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the PrestaShop installation procedure. Always make a backup.
 
-&nbsp; **❗ Note!** We strongly recommend following the method described below, avoiding any manual installation:
+&nbsp; **⚠️ Note!** We strongly recommend following the method described below, avoiding any manual installation:
 
 1. Sign in to your PrestaShop Back Office.
 2. Go to **Modules** > **Module Manager** > **Upload a module**.
@@ -84,12 +84,12 @@ The Integration Team will do their best to provide support for third-party plugi
 
 ## Generic gateways
 
-The plugin, before release 6.0.x, supports generic gateways, which allows you to add a payment method manually. This is particularly useful for integrating gift cards specific to your business.
+Versions of the plugin prior to 6.0.x support generic gateways, which allow you to add a payment method manually. This is particularly useful for integrating your own business's gift cards.
 
 Supported since release: 5.0.0-RC-1, Oct 27th 2021.
 
 <details id="how-to-configure-generic-gateways">
-<summary>How to configure generic gateways in releases before 6.0.x</summary>
+<summary>How to configure generic gateways for versions prior to 6.0.x</summary>
 <br>
 
 1. Sign in to your PrestaShop Back Office.
