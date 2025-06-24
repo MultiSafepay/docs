@@ -300,7 +300,7 @@ To create an order, always use the **API key** of your device's [terminal group]
 
 To cancel an order, make a **POST** request to our cancellation endpoint. This requires the use of an `order_id` and a group **API** key, which you can find at your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  under **Manage groups**.
 
-To cancel an order, insert the `order_id` and the **API** key in the URL. 
+Insert the `order_id` and the **API** key in the URL. 
 
 **Example request**
 
