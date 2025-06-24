@@ -183,11 +183,7 @@ Check that the:
 - Customer details are correct
 - Customer details match the credit details
 
-<<<<<<< HEAD
 **💡 Tip!** For card payments, use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> request and check the response details to learn more about the decline reason.
-=======
-**💡 Tip!** For card payments, use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> request and check the response details to learn more about the reason for the decline.
->>>>>>> 30f093744fe3101c455805012eec67440a287f7c
 
 ---
 ### 1024: For Cloudflare – Incorrect customer IP address
