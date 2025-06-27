@@ -273,7 +273,51 @@ MultiSafepay can customize the formatting of your invoices on request. Email <sa
 
 The invoice is sent to the email address provided. 
 
+**Via the API**
+
+<details id="how-to-generate-an-invoice">
+<summary>How to generate an invoice</summary>
+<br>
+
+1. [Create order](/reference/createorder/) > BNPL order
+2. [Update the <<glossary:order status>> status](/reference/updateorder) to **Shipped**. <br> You must include `invoice_id` in the request. 
+3. After the collection flow is complete, wait for the invoice to be generated.
+4. Once the invoice is generated, fetch the initial invoice using the `order_id`.
+
+#### Example:
+
+```JSON
+ curl --location 'https://testapi.multisafepay.com/v1/json/orders/order_id/invoice?api_key={your-test-api-key}' \
+
+--header 'Cookie: PHPSESSID=0ehsns7asf0vgarhlf77d1ac17'
+```
+
+5. In response to refund invoice request, you receive an object including a PDF encoded in `base_64`. 
+
+6. To convert the `base_64` to a PDF, you need to pass the `base_64` to a converter.
+
+</details>
+
+<details id="how-to-generate-an-credit-invoice">
+<summary>How to generate a refund invoice</summary>
+<br>
+
+1. [Refund order](/reference/refundorder), you must include a unique `refund_order_id` in the request.
+2. To fetch the refund invoice, use the `refund_order_id`:
+
+#### Example
+
+```JSON
+ curl --location 'https://testapi.multisafepay.com/v1/json/orders/refund_order_id/invoice?api_key={your-test-api-key}' \
+
+--header 'Cookie: PHPSESSID=0ehsns7asf0vgarhlf77d1ac17'
+```
+3. In response to refund invoice request, you receive an object including a PDF encoded in `base_64`. 
+
+4. To convert the `base_64` to a PDF, you need to pass the `base_64` to a converter.
+
 ---
+</details>
 
 </details>
 
