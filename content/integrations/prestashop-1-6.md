@@ -33,7 +33,8 @@ slug: 'prestashop-1-6'
 
 &nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the PrestaShop 1.6 installation procedure. Always make a backup.
 
-1. Unpack the contents of the .zip archive and upload the **Modules** folder via SFTP to the PrestaShop root directory, merging the two folders.
+1. Unpack the contents of the .zip archive and upload the **Modules** folder via SFTP to the PrestaShop root directory.
+   **⚠️Note:** When upgrading to a newer version of your plugin, always make sure to remove all outdated plugin files and folders.
 2. Sign in to your PrestaShop 1.6 <<glossary:backend>>.
 3. Go to **Modules and services** > **Payments and gateways**.  
     **⚠️ Note:** You must install and configure the MultiSafepay Core Module (MultiSafepay) because all payment methods require certain settings and/or the API key in the core module.
