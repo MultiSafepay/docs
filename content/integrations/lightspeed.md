@@ -15,10 +15,6 @@ slug: 'lightspeed'
 
 </details>
 
-> ⚠️ Action required
->
-> We recommend [upgrading to the latest version](/docs/lightspeed#how-to-upgrade-to-the-new-app) as soon as possible.
-
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
