@@ -34,7 +34,7 @@ To process payments, you will need:
 
 To activate a SmartPOS terminal, follow these steps:
 
-1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Devices** > **Terminals**.
 3. Click **+ Add terminal**, then click **SmartPOS**.
 4. Below the **Group**, select a terminal group or click **Add in new group**. To learn more about how to create terminal groups, see User guide - [How to create a terminal group](/activation#how-to-create-a-terminal-group) .

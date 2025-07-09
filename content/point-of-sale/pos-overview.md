@@ -40,7 +40,7 @@ Read how our POS solutions can benefit your business on <a href="https://www.mul
 | --- | ---|
 |[Countries](/docs/payment-methods#payment-methods-by-country) |Europe    |
 | [Currencies](/docs/currencies/)  | EUR    |
-|[Payment methods](/docs/payment-pages/)  | Mastercard (credit card), Mastercard (debit card), and Maestro <br> Visa (credit card), Visa (debit card), Visa Electron, V Pay, AMEX <br> Wallets: [Alipay+](https://docs.multisafepay.com/docs/alipay-plus), Apple Pay, and Google Pay    |
+|[Payment methods](/docs/payment-pages/)  | Mastercard (credit card), Mastercard (debit card), and Maestro <br> Visa (credit card), Visa (debit card), Visa Electron, V Pay, AMEX <br> Wallets: <a href="https://docs.multisafepay.com/docs/alipay-plus" target="_blank">Alipay+</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, Apple Pay, and Google Pay    |
 | <a href="https://www.multisafepay.com/nl_nl/oplossingen/in-person-pos/pin-terminals" target="_blank">Terminals</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  | Smart POS <br> Traditional (CTAP)   |
 | Card entry methods | Contact, Contactless, and Magnetic stripe |
 | Card verification methods | PIN online, PIN offline, and signature |
