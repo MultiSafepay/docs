@@ -34,33 +34,17 @@ To process payments, you will need:
 
 To activate a SmartPOS terminal, follow these steps:
 
-1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-
+1. Sign in to your [MultiSafepay dashboard](https://merchant.multisafepay.com/).
 2. Go to **Devices** > **Terminals**.
+3. Click **+ Add terminal**, then click **SmartPOS**.
+4. Below the **Group**, select a terminal group or click **Add in new group**. To learn more about how to create terminal groups, see User guide - [How to create a terminal group](/activation#how-to-create-a-terminal-group) .
+5. Click **Create**.<br> A **QR code** will appear on your screen.
 
-3. Click **Add terminal**.
-
-4. Below the **<<glossary:group>> name**, click **Add new group**, or select a previously created group.
-
-5. Fill out the following fields:
-
-   - **New group name**.  
-   - <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">**Webhook URL** </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>(optional).
-   - In the **Business category** field, click the **drop-down** icon and specify the relevant service or product offered. If a category has been assigned to your account in the past, it will be displayed automatically. 
-   - **Logo**: Select an image you want to display in different places of your payment app, to show customized branding. To upload your logo, see [How to upload your logo](#how-to-upload-your-logo).  
-     The logo is added to all terminals of this group and will show in the background of your terminal. 
-
-   **⚠️Note**: Individual terminals within a group cannot have different images.
-
-6. Select Terminal type **SmartPOS**.
-7. Click **Create**.
-
-
-Install the MultiSafepay payment app on your terminal to scan the QR code. 
+Install the **MultiSafepay payment app** on your terminal to scan the **QR code**:
 
 1. Turn on your terminal and install the MultiSafepay app from the **App Store**.
 2. In the search field, enter **MultiSafepay** and select  **MultiSafepay Payment app**.
-3. Grant permission to the MultiSafepay app.<br> A dialog with a QR scanner appears. 
+3. Grant permission to the MultiSafepay app.<br> A dialog with a QR scanner will appear. 
 4. Scan the QR code on your dashboard with your terminal.
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/gifs/POS_animation_v2.gif" alt="Scan-QR"/>
@@ -68,34 +52,64 @@ Install the MultiSafepay payment app on your terminal to scan the QR code.
 
 ✅ Success! You have successfully activated your terminal. You can now start accepting payments.
 
-**⚠️ Note:**  You can edit and link various terminals if you have already created a group.
+**⚠️Note:**  You can edit and link various terminals if you have already created a group.
+
+***
+
+# User guide
+
+Check the settings available in your MultiSafepay dashboard below.
+
+## Terminal groups
+
+A terminal group is required for linking and activating a SmartPOS device. You can create a single group or multiple groups for segmentation. Each terminal group is assigned a unique **API key** and **ID**. All transactions processed by terminals within the same terminal group are consolidated under a single reconciliation history.
+
+This functionality offers reconciliation, reporting and management for single and multiple terminal groups.
+
+### How to create a terminal group
+
+To create a terminal group:
+
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a>.
+2. Go to **Devices** > **Terminals**.
+3. Click **Manage groups**.
+4. Click **+ Add new group**. 
+5. Insert a name for your group, and optionally, a [logo](activation/user-guide#how-to-upload-your-logo) to enable branding, and a [Webhook](doc:webhook) URL to receive updates for your payments.
+6. Click **Create**.
+
+**⚠️Note:** Individual terminals within a same group cannot have different images. Add different terminal groups and add a logo for each group.
+
+Your new terminal group will be added to the **Manage groups** list. A terminal group ID and an API key will be associated.
+
+To view the ID and API key for a terminal group:
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a>.
+2. Go to **Devices** > **Terminals**.
+3. Click on **Manage groups**. 
+4. A list of all available terminal groups will be displayed, showing the ID and API key for each group.
+
+### How to edit a group
+
+1. At **Manage groups** click the **edit** icon on the right side of the panel to edit the desired terminal group. Here, you can:
+
+- Change the **name** of the terminal group.
+- Change the logo by selecting a different image file.
+- Change the **webhook URL**.
+
+2. Click **Save💾**
+
+**💡 Tip!** You can view your API key via **Manage groups** > **API key**.
 
 ## How to upload your logo
 
 1. Go to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Settings** > **Files** and upload the desired image file. The file must meet the following requirements:
+
    - Format: **PNG**
    - Resolution: **512x512 pixels**
 
    You can upload multiple files at the same time.
 3. Click **Upload** for single files or **Upload all** to upload all files.
-
-## How to edit a group
-
-1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Devices** > **Terminals**.
-3. Click **Manage groups**.
-4. Click the **edit** icon on the right side of the panel to edit the desired terminal group. Here, you can:
-   - Change the **name** of the terminal group.
-   - Change the logo by selecting a different image file.
-   - Change the **webhook URL**.
-5. Click the **save** icon.
-
-**💡 Tip!** You can view your API key via **Manage groups** > **API key**. 
-
-
----
-</details>
 
 [Top of page](#)
 

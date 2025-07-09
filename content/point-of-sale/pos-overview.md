@@ -27,6 +27,7 @@ With MultiSafepay <<glossary:POS>> solutions, you can accept in-person payments 
 MultiSafepay offers a wide range of certified <a href="https://www.multisafepay.com/nl_nl/oplossingen/in-person-pos/pin-terminals" target="_blank">SmartPOS terminals</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> to choose from. With our SmartPOS terminals, you can:
 
 - Initiate payments using manual input flow, cloud POS payment, or third-party on-device applications.
+- Create a network of devices for your business using terminal groups and generate reports at different levels.
 - Enhance your SmartPOS capabilities with additional features.
 
 In addition, we provide traditional (CTAP) terminals in collaboration with our partners.
