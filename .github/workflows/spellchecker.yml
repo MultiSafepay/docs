@@ -42,7 +42,7 @@ jobs:
 
       - name: Run spellchecker on changed files
         if: steps.changed-files-specific.outputs.any_changed == 'true'
-        uses: rojopolis/spellcheck-github-actions@0.27.0
+        uses: rojopolis/spellcheck-github-actions@0.44.0
         with:
           source_files: ${{ env.CHG_FILES }}
           task_name: markdown
