@@ -87,6 +87,10 @@ Extra options such as **IP-Validation** and **Debug mode** are intended for deve
 
 [Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.   Refunding more than the original amount is **not** supported in your backend.
 
+## Shipping orders
+
+When you ship <<glossary:BNPL>> orders, you need to change the <<glossary:order status>> from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+
 ## Surcharges
 
 You can apply surcharges when configuring the payment method under **Surcharge**. Always enter the amount **including** VAT.
