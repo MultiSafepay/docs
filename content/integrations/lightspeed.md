@@ -363,6 +363,10 @@ Lightspeed single sign-on lets you sign in to the app's **Settings** directly fr
 
 </details>
 
+## Shipping orders
+
+When you ship <<glossary:BNPL>> orders, you need to change the <<glossary:order status>> from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+
 ## Surcharges
 
 <details id="how-to-apply-surcharges">

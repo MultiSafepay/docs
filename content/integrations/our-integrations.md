@@ -33,7 +33,7 @@ Check out our most popular integrations:
     <div class="card-container">
         <a href="/docs/prestashop/" style="text-decoration: none;">
             <div class="card">
-                <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg" alt="PrestaShop Logo">
+                <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop_new.svg" alt="PrestaShop Logo">
                 <div class="container">
                     <h4><b>Prestashop</b></h4>
                 </div>
@@ -150,7 +150,7 @@ We also offer integrations for the following:
   	<div class="card-container">
         <a href="/docs/prestashop/" style="text-decoration: none;">
             <div class="card">
-                <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop.svg" alt="Prestashop Logo">
+                <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop_new.svg" alt="Prestashop Logo">
                 <div class="container">
                     <h4><b>Prestashop 1.6</b></h4>
                 </div>
