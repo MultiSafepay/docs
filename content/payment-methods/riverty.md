@@ -266,6 +266,13 @@ Riverty therefore strongly recommends discontinuing any surcharges.
 For more information, see Riverty – <a href="https://www.afterpay.nl/nl/consumenten/vraag-en-antwoord/" target="_blank">Merchant support</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 <br>
 
+## VAT compliance
+
+When processing orders with Riverty, you are responsible for ensuring tax compliance in accordance with Riverty's contract terms. To avoid issues when processing orders:
+
+- For self-made integrations, ensure that no items are submitted with a 0% VAT rate.
+- For our ready-made solutions, when using third-party extensions, ensure these do not automatically set VAT rates to 0%.
+
 ---
 
 [block:html]
