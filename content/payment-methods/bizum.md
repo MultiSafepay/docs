@@ -12,21 +12,19 @@ slug: 'bizum'
 <a href="https://bizum.es/" target="_blank">Bizum</a><i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> is a mobile payment system in Spain that enables users to make instant transfers through their banking app, providing a quick and secure way to conduct payments.
 
 
-
-
-| Supports                                                      | Details |
-| ------------------------------------------------------------- | ------- |
-| [Countries](/docs/payment-methods#payment-methods-by-country) | Spain   |
-| [Currencies](/docs/currencies/)                               | EUR     |
-| [Chargebacks](/docs/chargebacks/)                             | No      |
-| [Payment pages](/docs/payment-pages/)                         | Yes     |
+| Supports                                                      | Details                       |
+| ------------------------------------------------------------- | ----------------------------- |
+| [Countries](/docs/payment-methods#payment-methods-by-country) | Spain                         |
+| [Currencies](/docs/currencies/)                               | EUR                           |
+| [Chargebacks](/docs/chargebacks/)                             | No                            |
+| [Payment pages](/docs/payment-pages/)                         | Yes                           |
+| [Refunds](/docs/refund-payments/)                             | Yes: Full and partial<br>**⚠️Note:** Bizum does not support more than one refund per transaction. Once a partial refund has been processed, no further refunds can be issued for the same transaction. |
 
 
 
 # Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.
-
 
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/diagrams/svg/bizum-payment-flow.svg" alt="Bizum payment flow" style="display: block;
@@ -53,8 +51,6 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
 ***
 
-
-
 # Activation
 
 1. Request merchant registration at your local bank, and follow guidelines provided by them (for example agreements).
@@ -70,7 +66,6 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 💬  **Support:** If the payment method isn't visible in your dashboard, email [support@multisafepay.com](mailto:integration@multisafepay.com)
 
 
-
 # Integration
 
 ## API
@@ -82,7 +77,6 @@ See API reference – [Create order](/reference/createorder/) > Banking order.
 <br>
 
  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Bizum direct/redirect**.
-
 
 
  Set `gateway` to `BIZUM`, and `type` to `direct` or `redirect`.

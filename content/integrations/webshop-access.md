@@ -91,8 +91,10 @@ As a temporary fix, while we investigate the issue, you can use our payments via
 - Check if the issue occurs also when deactivating any 3rd party solutions
   **💡 Tip!** you can do this best via a staging environment. 
 
-- Contact us for support. 
+- Contact us for support.
+
 Alternative solutions in the meantime:
+
 - Activate payment components to avoid confusion with your customers.
 - Disable the shopping cart via your settings for the payment page in your Merchant Dashboard.
     ⚠️ **Note:** This will disable BNPL methods.

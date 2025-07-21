@@ -183,18 +183,10 @@ Check that the:
 - Customer details are correct
 - Customer details match the credit details
 
-<<<<<<< HEAD
-**💡 Tip!** For card payments, use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> request and check the response details to learn more about the decline reason.
-=======
-**💡 Tip!** For card payments, use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> request and check the response details to learn more about the reason for the decline.
->>>>>>> 30f093744fe3101c455805012eec67440a287f7c
-
----
-### 1024: For Cloudflare – Incorrect customer IP address
-
-Cloudflare overwrites the customer `ip_address`.
-
+If your are using Cloudflare, the customer's ``ip_address`` might be overwritten.
 To provide the correct IP address, see Cloudflare – <a href="https://support.cloudflare.com/hc/en-us/articles/200170786-Restoring-original-visitor-IPs" target="_blank">Restoring original visitor IPs</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
+**💡 Tip!** For card payments, use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> request and check the response details to learn more about the decline reason.
 
 ---
 ### 1025: Multiple currencies in cart
@@ -280,7 +272,7 @@ Check:
 - That the sum of any partial refunds doesn’t exceed the original order amount
 - That you can make <<glossary:payouts>> from your account balance
 - If the order was cancelled or has already been refunded
-- If the same refund was paid within in a short period of time. If a second refund for the same amount is requested within 5 minutes, MultiSafepay rejects the second request to avoid double processing. Refunds sent in batches via the API cause this error because the process is so quick. To avoid this error, delay refund requests by at least 1 second.
+- If the same refund was paid within a short period of time. If a second refund for the same amount is requested within 5 minutes, MultiSafepay rejects the second request to avoid double processing. Refunds sent in batches via the API cause this error because the process is so quick.
 
 ---
 ### 1035: Invalid signature

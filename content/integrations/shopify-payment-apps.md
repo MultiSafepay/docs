@@ -23,6 +23,7 @@ To install Shopify Payments Apps, follow these steps:
 2. Ensure that your Shopify user has <a href="https://help.shopify.com/en/manual/your-account/staff-accounts/staff-permissions/staff-permissions-descriptions#apps-and-channels-permissions" target="_blank">the permissions</a> to install new apps.
 3. Check that the payment methods you want to use in Shopify are [activated for your MultiSafepay account](/docs/payment-methods). 
 4. Select the desired payment methods, and install their apps using one or more of the following links:
+   - <a href="https://apps.shopify.com/multisafepay-alipay" target="_blank">Alipay+</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/american-express" target="_blank">American Express</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/multisafepay-amazon-pay" target="_blank">Amazon Pay</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
    - <a href="https://apps.shopify.com/bancontact" target="_blank">Bancontact</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>

@@ -98,6 +98,10 @@ If a customer selects Apple Pay at checkout but isn't on an Apple device, they r
 [Full refunds](/docs/refund-payments/) are supported in both MultiSafepay and VirtueMart dashboards.  
 You cannot refund more than the original amount in your dashboard.
 
+## Shipping orders
+
+When you ship <<glossary:BNPL>> orders, you need to change the <<glossary:order status>> from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+
 ## Updates
 
 You can update the plugin in your backend as described below:

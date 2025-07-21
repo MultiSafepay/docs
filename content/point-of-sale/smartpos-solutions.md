@@ -290,52 +290,17 @@ The table below sets out options available for receiving updates on the payments
 
 # User guide
 
+## Authentication
+
+To create an order, always use the **API key** of your device's [terminal group](/docs/sites#terminal-group-id-and-api-key).
+
+**⚠️Note:** Using an incorrect **API key** can cause any subsequent API calls associated with that order to fail.
+
 ## Cancellation
 
+To cancel an order, make a **POST** request to our cancellation endpoint. This requires the use of an `order_id` and a group **API** key, which you can find at your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  under **Manage groups**.
 
-You can use two different request methods to cancel an order: **POST** or **PATCH**. Both methods require the use of an `order_id` and a group **API** key, which you can find at your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  under **Manage groups**.
-
-
-<details id="patch-request">
-<summary>PATCH request</summary>
-
-To cancel an order with a **PATCH** request, follow these instructions:
-
-- The `status` parameter (string) must be set to **cancelled**.
-- Set `exclude_order` (boolean) to **true**. This sets the outcome of the cancellation.
-
-**Example Request**
-
-```curl cURL PATCH
-
-curl --location --request PATCH \
-     --url 'https://api.multisafepay.com/v1/json/orders/{order_id}/?api_key={your-api-key}' \
-     --header 'Accept: application/json' \
-     --header 'Content-Type: application/json'
-     --data ' 
-{
-  "status": "cancelled",
-  "exclude_order": true
-}
-'
-```
-
-**Example Response**
-```json
-
-{
-  "success":true,
-	"data": {}
-}
-```
-</details>
-
-<details id="post-request">
-<summary>POST request</summary>
-
-
-
-To cancel an order with a **POST** request, no additional parameters are required. Introduce the `order_id` and the **API** key in the URL. 
+Insert the `order_id` and the **API** key in the URL. 
 
 **Example request**
 
@@ -364,7 +329,6 @@ curl -X POST
     }
 }
 ```
-</details>
 
 ## Refunds
 

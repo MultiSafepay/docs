@@ -27,6 +27,7 @@ With MultiSafepay <<glossary:POS>> solutions, you can accept in-person payments 
 MultiSafepay offers a wide range of certified <a href="https://www.multisafepay.com/nl_nl/oplossingen/in-person-pos/pin-terminals" target="_blank">SmartPOS terminals</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> to choose from. With our SmartPOS terminals, you can:
 
 - Initiate payments using manual input flow, cloud POS payment, or third-party on-device applications.
+- Create a network of devices for your business using terminal groups and generate reports at different levels.
 - Enhance your SmartPOS capabilities with additional features.
 
 In addition, we provide traditional (CTAP) terminals in collaboration with our partners.
@@ -39,7 +40,7 @@ Read how our POS solutions can benefit your business on <a href="https://www.mul
 | --- | ---|
 |[Countries](/docs/payment-methods#payment-methods-by-country) |Europe    |
 | [Currencies](/docs/currencies/)  | EUR    |
-|[Payment methods](/docs/payment-pages/)  | Mastercard (credit card), Mastercard (debit card), and Maestro <br> Visa (credit card), Visa (debit card), Visa Electron, V Pay, AMEX <br> Wallets: Apple Pay and Google Pay    |
+|[Payment methods](/docs/payment-pages/)  | Mastercard (credit card), Mastercard (debit card), and Maestro <br> Visa (credit card), Visa (debit card), Visa Electron, V Pay, AMEX <br> Wallets: <a href="https://docs.multisafepay.com/docs/alipay-plus" target="_blank">Alipay+</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, Apple Pay, and Google Pay    |
 | <a href="https://www.multisafepay.com/nl_nl/oplossingen/in-person-pos/pin-terminals" target="_blank">Terminals</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  | Smart POS <br> Traditional (CTAP)   |
 | Card entry methods | Contact, Contactless, and Magnetic stripe |
 | Card verification methods | PIN online, PIN offline, and signature |

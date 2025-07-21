@@ -200,6 +200,10 @@ For how to upgrade Drupal 8 to Drupal 9, see Drupal - <a href="https://www.drupa
 [Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backed.  
 Refunding more than the original amount is **not** supported in your backend.
 
+## Shipping orders
+
+When you ship <<glossary:BNPL>> orders, you need to change the <<glossary:order status>> from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+
 ### Updates
 
 You can update the plugin in your backend or the CMS marketplace, or via SFTP.

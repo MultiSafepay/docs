@@ -30,6 +30,7 @@ slug: 'cs-cart'
 ✅ &nbsp; **Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Unpack the content of the .ZIP file in the root of your CS-Cart webshop.
+**⚠️Note:** When upgrading to a newer version of your plugin, always make sure to remove all outdated plugin files and folders.
 2. To trigger the installation, go to `yourdomain.com/msp_installer.php`. 
 3. Delete the `msp_installer.php` file.
 4. In your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, provide your [webhook endpoint](/docs/webhook/).
@@ -85,6 +86,10 @@ Extra options such as **IP-Validation** and **Debug mode** are intended for deve
 ## Refunds
 
 [Full refunds](/docs/refund-payments/) are supported in your MultiSafepay dashboard and backend.   Refunding more than the original amount is **not** supported in your backend.
+
+## Shipping orders
+
+When you ship <<glossary:BNPL>> orders, you need to change the <<glossary:order status>> from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
 ## Surcharges
 

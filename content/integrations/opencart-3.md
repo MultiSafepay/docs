@@ -220,6 +220,10 @@ This only appears if the <<glossary:order status>> is **Completed** or **Shipped
 
 </details>
 
+## Shipping orders
+
+When you ship <<glossary:BNPL>> orders, you need to change the <<glossary:order status>> from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
+
 ## Shopping carts
 
 If you notice any errors in shopping cart calculations, email <integration@multisafepay.com>

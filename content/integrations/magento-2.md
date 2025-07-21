@@ -536,7 +536,7 @@ See [Order lifetimes](#order-lifetimes) above.
 
 </details>
 
-## Shipment
+## Shipping orders
 
 When you ship <<glossary:BNPL>> orders, you need to change the <<glossary:order status>> from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 

@@ -318,7 +318,7 @@ Export a MT940 accountant export from your MultiSafepay dashboard.
 
  
 
-## Denovit integration\*
+## Denovit integration
 
  
 
@@ -355,7 +355,7 @@ To add MultiSafepay [payment links](/docs/payment-links/) into Exact invoices, s
 
  
 
-xCore integration\*
+## xCore integration
 
 
 xCore offers two reconciliation apps that retrieve all payment details from MultiSafepay for the day and automatically match each payment with its corresponding open item in Exact.

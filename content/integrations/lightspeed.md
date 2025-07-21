@@ -15,10 +15,6 @@ slug: 'lightspeed'
 
 </details>
 
-> ⚠️ Action required
->
-> We recommend [upgrading to the latest version](/docs/lightspeed#how-to-upgrade-to-the-new-app) as soon as possible.
-
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
@@ -366,6 +362,10 @@ Lightspeed single sign-on lets you sign in to the app's **Settings** directly fr
 6. On the store page, click **Go to app** / **Ga naar app**. 
 
 </details>
+
+## Shipping orders
+
+When you ship <<glossary:BNPL>> orders, you need to change the <<glossary:order status>> from **Completed** to **Shipped**. This prevents the order expiring and triggers invoicing. 
 
 ## Surcharges
 
