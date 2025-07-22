@@ -10,17 +10,13 @@ excerpt: 'Receive status updates for SmartPOS terminal transactions.'
 
 ---
 
-MultiSafepay offers the possibility to subscribe to event notifications. This allows you to receive order payments updates using an event stream URL.
+MultiSafepay offers the possibility to subscribe to event notifications. This allows your system to receive real-time updates on order statuses without the need for manual checks.
 
 # How it works
 
-Once subscribed to event notifications, you will receive order payment updates when: 
+MultiSafepay's **cloud mode** uses WebSockets to establish a persistent connection with our backend. Once you subscribe to our **event notifications**, after initiating a payment, we deliver real-time order status updates to your terminal. This ensures updates are received as soon as they occur.
 
-- A customer completes the payment.
-- A payment is reversed.
-- The payment has been cancelled or declined.
-
-The terminal make a `GET` request using an event stream **URL**. Once the connection has been set, it remains open until the payment process is complete. Any events triggered on the terminal will be detected by our backend and an update will be sent. 
+This diagram shows the end-to-end flow of event notifications.
 
 [block:image]
 {
@@ -37,6 +33,11 @@ The terminal make a `GET` request using an event stream **URL**. Once the connec
 }
 [/block]
 
+Once you have subscribed to event notifications, you will receive order payment updates when: 
+
+- A customer completes the payment.
+- A payment is reversed.
+- The payment has been cancelled or declined.
 
 # Prerequisites
 
