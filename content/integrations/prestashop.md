@@ -27,16 +27,18 @@ slug: 'prestashop'
 # Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- PrestaShop 1.7.6 up to PrestaShop 8.2.x
+- PrestaShop 1.7.6 up to PrestaShop 9.0.x
 - PHP version 7.2 or higher
 
 # Installation
 
 &nbsp; **💡 Tip!** We recommend first installing the plugin in a test environment, following the PrestaShop installation procedure. Always make a backup.
 
+&nbsp; **⚠️ Note!** We strongly recommend following the method described below, avoiding any manual installation:
+
 1. Sign in to your PrestaShop Back Office.
 2. Go to **Modules** > **Module Manager** > **Upload a module**.
-3. Select the Plugin_PrestaShop.zip file, and then click **Configure**.
+3. Select the Plugin_PrestaShop.zip file downloaded from the link above, then click **Configure**.
 4. Clear your cache.
 
 # Configuration
@@ -63,11 +65,6 @@ After completing the configuration, enable specific countries to make the paymen
 
 # User guide
 
-## Backend orders
-
-In the previous release, PrestaShop Back Office orders were only created for MultiSafepay orders with **Completed** status. 
-In the current release, a backend order is created for **every** order attempt, that is for MultiSafepay orders with **Initialized** status.
-
 ## Checkouts
 
 The plugin supports the PrestaShop core checkout and is compatible with most premium themes, unless you have a custom checkout.
@@ -78,7 +75,7 @@ The plugin supports the PrestaShop core checkout and is compatible with most pre
 
 The following third-party modules are supported:
 
-- <a href="https://addons.prestashop.com/en/express-checkout-process/8503-one-page-checkout-ps-easy-fast-intuitive.html" target="_blank">One Page Checkout PS</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+- <a href="https://addons.prestashop.com/en/express-checkout-process/8503-one-page-checkout-ps-easy-fast-intuitive.html" target="_blank">One-Page Checkout PS</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 - <a href="https://addons.prestashop.com/en/express-checkout-process/42005-the-checkout.html" target="_blank">The Checkout</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> – Payment options must be set on separate pages in the plugin settings page.
 
 The Integration Team will do their best to provide support for third-party plugins and premium themes. Email <integration@multisafepay.com>
@@ -87,12 +84,12 @@ The Integration Team will do their best to provide support for third-party plugi
 
 ## Generic gateways
 
-The plugin supports generic gateways, which allows you to add a payment method manually. This is particularly useful for integrating gift cards specific to your business. 
+Versions of the plugin prior to 6.0.x support generic gateways, which allow you to add a payment method manually. This is particularly useful for integrating your own business's gift cards.
 
 Supported since release: 5.0.0-RC-1, Oct 27th 2021.
 
 <details id="how-to-configure-generic-gateways">
-<summary>How to configure generic gateways</summary>
+<summary>How to configure generic gateways for versions prior to 6.0.x</summary>
 <br>
 
 1. Sign in to your PrestaShop Back Office.
@@ -138,7 +135,7 @@ If the notification hasn't been processed yet, a waiting page with a loader disp
 
 To change the flow you are using, follow these steps:
 
-1. Sign in to your  PrestaShop Back Office.
+1. Sign in to your PrestaShop Back Office.
 2. Go to **MultiSafepay** > **General settings** tab.
 3. In the **Create order before payment** field, select the flow.
 4. Click **Save**.
@@ -186,7 +183,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 
 1. Sign in to your PrestaShop back office.
 2. Go to **Orders** > **Orders**.
-3. Click on **Add new order** at the top right corner.
+3. Click on **Add new order** in the top right corner.
 4. To add new order, follow all steps in PrestaShop 8 core reference page - see <a href="https://devdocs.prestashop-project.org/8/development/page-reference/back-office/order/add-new-order/" target="_blank"> PrestaShop back office page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br>
 
 > **⚠️ Note:** To successfully generate payment links from the back office, ensure that you have followed the steps below:  
@@ -198,39 +195,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 
 ## Payment methods
 
-<details id="supported-payment-methods">
-<summary>Supported payment methods</summary>
-<br>
-
-- Cards: [All](/docs/card-payments/)
-- Banking methods: All
-- <<glossary:BNPL>>: All
-- Wallets: All
-- Prepaid cards:
-    - Baby Giftcard
-    - Beauty and wellness
-    - Boekenbon
-    - Degrotespeelgoedwinkel
-    - Fashioncheque
-    - Fashion gift card
-    - Fietsenbon
-    - Gezondheidsbon
-    - Givacard
-    - Good4fun
-    - Goodcard
-    - Nationale tuinbon
-    - Parfumcadeaukaart
-    - Paysafecard
-    - Podium
-    - Sport en Fit
-    - VVV gift card
-    - Webshop gift card
-    - Wellness gift card
-    - Wijncadeau
-    - Winkelcheque
-    - Yourgift
-
-</details>
+By default, any payment method you activate in your MultiSafepay account will be available for your backend. Newly activated payment methods must be enabled manually in your <<glossary:backend>> settings.
 
 ## Recurring payments
 
@@ -346,19 +311,18 @@ To translate the names of payment methods:
 
 ## Upgrades
 
-<details id="how-to-upgrade-to-version-5">
-<summary>How to upgrade to version 5.x</summary>
+<details id="how-to-upgrade-to-version-6">
+<summary>How to upgrade to version 6.x</summary>
 <br>
 
-We recommend upgrading to version 5.x from older versions.
+We recommend upgrading to version 6.x from older versions.
 
 1. Go to **Modules** > **Module manager** > **MultiSafepay** > **Configure**.
 2. On the **Payment methods** tab, set all payment methods to **Off**.
-3. On the **Gift cards** tab, set all gift cards to **Off**.
-4. Install and configure the new plugin following the instructions below.
-5. Only uninstall the older plugin when you're sure that orders created with the new plugin are being processed successfully. 
+3. Install and configure the new plugin following the instructions below.
+4. Only uninstall the older plugin when you're sure that orders created with the new plugin are being processed successfully. 
 
-If upgrading from 5.x to a newer version, see [Updates](/docs/prestashop#updates).
+If upgrading from 6.x to a newer version, see [Updates](/docs/prestashop#updates).
 
 </details>
 <br>
