@@ -48,16 +48,6 @@ slug: 'bnpl'
       </div>
     </a>
   </div>
-  <div class="card-container">
-    <a href="/docs/zinia/" style="text-decoration: none;">
-      <div>
-        <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/zinia.svg" alt="Zinia" style="margin: 10px; max-height: 40px;">
-        <div class="container">
-          <h4>Zinia</h4>
-        </div>
-      </div>
-    </a>
-  </div>
 </div>
 <br>
 

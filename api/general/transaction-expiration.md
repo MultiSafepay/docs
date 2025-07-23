@@ -47,8 +47,6 @@ The table below sets out the expiration time per payment method:
 | Trustly| 2 hours  |
 | TrustPay| 10 days  |
 | WeChat Pay| 2 hours  |
-| Zinia| 14 days  |
-| Zinia installments| 10 days  |
 
 
 # Exceptions

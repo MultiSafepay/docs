@@ -38,7 +38,6 @@ These are the supported payment methods:
   - [Pay After Delivery](/docs/pay-after-delivery/)
   - [Pay After Delivery installments](/docs/pay-after-delivery-installments/)
   - [Riverty](/docs/riverty/)
-  - [Zinia](/docs/zinia/)
 - Cards:
   - [American Express](/docs/card-payments/)
   - [Maestro](/docs/card-payments/)

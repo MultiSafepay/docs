@@ -47,7 +47,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 <summary>Supported payment methods</summary>
 <br>
 
-- Cards: Amex, Maestro, Mastercard, Visa, Bancontact, iDEAL in3, Pay After Delivery, Pay After Delivery installments, Riverty, E-Invoicing and Zinia
+- Cards: Amex, Maestro, Mastercard, Visa, Bancontact, iDEAL in3, Pay After Delivery, Pay After Delivery installments, Riverty, and E-Invoicing
 
 </details>
 
