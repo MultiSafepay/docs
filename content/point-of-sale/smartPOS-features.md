@@ -146,16 +146,13 @@ You can add an employee via **+ add employee** > Insert **Name** and **Employee 
 
 ## How to enable auto-print
 
-Enabling this feature will print a receipt after each successful payment
+Enabling this feature will print a receipt after each successful payment.
 
 1. Go to **Features** > **Global settings**.
 2. Click the **Auto-Print** toggle.
 3. After completing a payment, the device will automatically print a receipt.
 
-This feature is only available for devices with built-in printers:
-- P2 SE
-- P2 PRO
-- P3 MIX
+This feature is only available for devices with built-in printers.
 
 ## How to enable cloud mode
 
