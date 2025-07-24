@@ -230,7 +230,7 @@ Via **Features** > **Closing balance**, you can set the following parameters:
 
 Click **View** to display the details entered. These details will also appear on the header of the receipt.  
 
-**💡 Tip!** You can print your closing balance report using either the device printer, or the [external printer](docs/test-page#external-printer).
+**💡 Tip!** You can print your closing balance report using either the device printer, or the [external printer](/docs/smartpos-features#how-to-use-an-external-printer).
 
 ***
 
@@ -282,6 +282,8 @@ Enabling this feature adds both manual order ID entry and QR code scanning funct
   - Scan the QR code using the terminal's scanner or an external scanner.
   - Scanning the QR code will retrieve information based on the format in which the QR code has been generated.
   - This information will be included in the payment request.
+
+  **⚠️Note:** The `order_id` must have a maximum length of 50 characters and can only contain **a-z**, **A-Z**, **0-9** and the special characters `/ - _`.
 
 ***
 

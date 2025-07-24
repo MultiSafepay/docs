@@ -124,7 +124,9 @@ Check the dates of local bank holidays. They may change each year.
 
 ### Automatic payouts
 
-Assuming default settings, if you schedule a payout on Monday, the payout batch includes all payments up to 23:59 hours on the Monday night. The payout batch is sent to MultiSafepay's bank on Tuesday morning. Our bank processes the batch and transfers the pay out to your business bank account. You should receive the payout on Wednesday afternoon.
+Assuming default settings, if you schedule a payout on Monday, the payout batch includes all captured payments received up to 23:59 on Sunday night. MultiSafepay then processes this batch and initiates the transfer to your business bank account.
+
+The timing for when you receive these funds will vary depending on the default payout delay set for your account. For more information on your payout schedule, please contact your account manager.
 
 ### Manual payouts
 

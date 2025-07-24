@@ -6,7 +6,7 @@
 
 <div class="auto-grid">
     <div class="card-container">
-        <a href="/docs/craft-commerce-1/" style="text-decoration: none;">
+        <a href="/docs/craft-commerce/" style="text-decoration: none;">
             <div class="card">
                 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Craft_Commerce.svg">
                 <div class="container">
@@ -16,7 +16,7 @@
         </a>
     </div>
     <div class="card-container">
-        <a href="/docs/oscommerce-1/" style="text-decoration: none;">
+        <a href="/docs/oscommerce/" style="text-decoration: none;">
             <div class="card">
                 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/OsCommerce.svg">
                 <div class="container">
@@ -26,7 +26,17 @@
         </a>
     </div>
     <div class="card-container">
-        <a href="/docs/scandipwa-1/" style="text-decoration: none;">
+        <a href="/docs/odoo/" style="text-decoration: none;">
+            <div class="card">
+                <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Odoo.svg">
+                <div class="container">
+                    <h4><b>Odoo</b></h4>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="card-container">
+        <a href="/docs/scandipwa/" style="text-decoration: none;">
             <div class="card">
                 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/ScandiPWA.svg">
                 <div class="container">
@@ -36,7 +46,7 @@
         </a>
     </div>
     <div class="card-container">
-        <a href="/docs/virtuemart-3-1/" style="text-decoration: none;">
+        <a href="/docs/virtuemart-3/" style="text-decoration: none;">
             <div class="card">
                 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/VirtueMart.svg">
                 <div class="container">
@@ -46,7 +56,7 @@
         </a>
     </div>
     <div class="card-container">
-        <a href="/docs/vue-storefront-1/" style="text-decoration: none;">
+        <a href="/docs/vue-storefront/" style="text-decoration: none;">
             <div class="card">
                 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Vue_Storefront.svg">
                 <div class="container">
@@ -56,7 +66,7 @@
         </a>
     </div>
     <div class="card-container">
-        <a href="/docs/x-cart-1/" style="text-decoration: none;">
+        <a href="/docs/x-cart/" style="text-decoration: none;">
             <div class="card">
                 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/X-Cart.svg">
                 <div class="container">
@@ -66,7 +76,7 @@
         </a>
     </div>
     <div class="card-container">
-        <a href="/docs/zen-cart-1/" style="text-decoration: none;">
+        <a href="/docs/zen-cart/" style="text-decoration: none;">
             <div class="card">
                 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Zen_Cart.svg">
                 <div class="container">

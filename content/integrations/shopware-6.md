@@ -21,8 +21,8 @@ slug: 'shopware-6'
 ## Prerequisites
 
 - [MultiSafepay account](/docs/getting-started-guide/)
-- Shopware 6.6.x.x
-- Tested on Shopware 6.6.3.0 and PHP 8.1–8.2
+- Shopware 6.6.x & 6.7.x
+- PHP 8.1–8.4
 
 ## Installation and configuration
 
@@ -86,34 +86,7 @@ For questions, email <integration@multisafepay.com>
 
 ### Payment methods
 
-<details id="supported-payment-methods">
-<summary>Supported payment methods</summary>
-<br>
-
-- Cards: [All](/docs/card-payments/)
-- Banking methods: All, except iDEAL QR
-- <<glossary:BNPL>>: All
-- Wallets: [Alipay](/docs/alipay/), [Amazon Pay](/docs/amazon-pay/), [Apple Pay](/docs/apple-pay/),  [Google Pay](/docs/google-pay), and [PayPal](/docs/paypal/), [WeChat Pay](/docs/wechat-pay/),
-- Prepaid cards:
-    - Beauty and Wellness gift card
-    - <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.fashioncheque.com/nl" target="_blank">Fashioncheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - Fietsenbon
-    - <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.nationale-tuinbon.nl" target="_blank">Nationale tuinbon</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - [Paysafecard](/docs/paysafecard/)
-    - <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - Wijncadeau
-    - <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-    - <a href="https://www.yourgift.nl/" target="_blank">Yourgift</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-
-</details>
+By default, any payment method you activate in your MultiSafepay account will be available for your backend. Newly activated payment methods must be enabled manually in your <<glossary:backend>> settings.
 
 ### Recurring payments
 

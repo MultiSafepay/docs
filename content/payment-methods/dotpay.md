@@ -27,7 +27,7 @@ Read how Dotpay can benefit your business on <a href="https://www.multisafepay.c
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/dotpay-payment-flow.svg" alt="Dotpay payment flow" style="display: block;
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/refs/heads/master/methods/dotpay.svg" alt="Dotpay payment flow" style="display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 750px;
@@ -68,7 +68,13 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Dotpay redirect**.
 
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+  <div style="text-align: center;">
+  <img
+    src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif"
+    alt="MultiSafepay Sandbox Test Process GIF"
+    style="width: 40%; height: auto;"
+  />
+  </div>
 
   </details>
 

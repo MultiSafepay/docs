@@ -75,7 +75,8 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
                    qr: {
                        enabled: true,
                        autoload: false
-                  }
+                  },
+                  redirect_mode: 'modal',
                }
            }
        },
@@ -96,6 +97,7 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
     | `customer.reference`                         | Yes, for recurring payments | Your unique customer reference. <br> (\*currently not supported for QR payments.)                                                                                                                                        |
     | `payment_options.settings.connect.group_cards`| No                         | Groups all card payment methods as a single option in the list of payment methods. <br> **Format**: Boolean <br> **Default**: `false`.                                                                                   |
     | `payment_options.settings.connect.qr`         | No                         | Allows QR code to be rendered for iDEAL and Bancontact: `enabled`. <br> `autoload` allows automatic display of QR code, and subsequent redirect for these methods. **Default**: `true`.                                   |
+    | `payment_options.settings.connect.redirect_mode`         | No                         | Allows the payment page to be displayed within a modal window.<br>Set `redirect_mode` to `modal`.<br> Only available for [card payments](/docs/card-payments).    
     | `recurring.model`                            | Yes, for recurring payments | The [recurring model](/docs/recurring-payments/).                                                                                                                                                                        |
     | `template.settings.embed_mode`               | No                         | A template designed to blend in seamlessly with your ecommerce platform. <br> **Format**: Boolean.                                                                                                                       |
 

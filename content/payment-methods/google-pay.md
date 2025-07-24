@@ -105,6 +105,10 @@ Then, apply to MultiSafepay for Google Pay, and activate it in your dashboard.
 
 # Integration
 
+### Direct integration
+
+For <<glossary: direct>> integration with an [API integration](/docs/api-integration), see [Google Pay direct integration](/docs/google-pay-direct).
+
 ### API
 - To easily integrate Google Pay using [payment pages](/docs/payment-pages/) (<<glossary:redirect>> flow), see API reference – [Create order](/reference/createorder/) > Wallet order.
 - For Google Pay to display on [payment pages](/docs/payment-pages/) and in [payment components](/docs/payment-components), you must have [card payments](/docs/card-payments/) activated for your account. 
@@ -115,7 +119,13 @@ Then, apply to MultiSafepay for Google Pay, and activate it in your dashboard.
 
   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Google Pay direct/redirect**.
 
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+  <div style="text-align: center;">
+  <img
+    src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif"
+    alt="MultiSafepay Sandbox Test Process GIF"
+    style="width: 40%; height: auto;"
+  />
+  </div>
 
   </details>
 
@@ -123,8 +133,9 @@ Then, apply to MultiSafepay for Google Pay, and activate it in your dashboard.
 - Transactions expire after 1 hour.
 
 ### Ready-made integrations
-- Supported in most [ready-made integrations](/docs/our-integrations/) (<<glossary:redirect>>). 
-- Exceptions: Shopware 5. For this one, you can use a generic gateway. See the relevant manual.
+
+- Supported in most [ready-made integrations](/docs/our-integrations/)
+- Exceptions: Magento 1, CCV Shop, Drupal, CS-Cart, Lightspeed, Prestashop 1.6.
 
 ### Testing
 To test Google Pay payments, see Testing payment methods - [Wallets](/docs/testing#wallets).

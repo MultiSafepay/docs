@@ -1,8 +1,10 @@
 sequenceDiagram
+
     autonumber
     participant C as Customer
     participant Mu as MultiSafepay
     participant Bi as Bizum
+    participant M as Merchant
 
     C->>Mu: Selects Bizum at checkout
     Mu->>C: Sends redirect URL for authentication
@@ -13,3 +15,6 @@ sequenceDiagram
     end
     C->>Bi: Inserts phone number
     C->>Bi: Authenticates
+    Bi->>C: Redirects to success page
+    Bi->>Mu: Transfers funds
+    Mu->>M: Settles funds

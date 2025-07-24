@@ -32,21 +32,55 @@ Traditional (CTAP) is a terminal that has passed <a href="https://wp.acquiris.eu
 1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 2. Go to **Devices** > **Terminals**.
 3. Click **Add terminal**.
-4. Below the **<<glossary:group>> name**, click **Add new group**, or select a previously created group.
-5. For a new group, out the following fields:
-- **New group name**.  
-- <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">**Webhook URL** </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>(optional).
-- In the **Business category** field, click the **drop-down** icon and specify the relevant service or product offered. If a category has been assigned to your account in the past, it will be displayed automatically. 
-6. Select Terminal type **CTAP**. A unique Terminal ID will be automatically generated.
-**💡 Tip!** you can modify TID until manually via Devices > Terminals > TID until transactions are processed. The name can still be modified after processing transactions.
-7. Copy **Terminal ID**, **Account ID**, and **CTAP Acquirer** and send them to your POS provider.
-**💡 Tip!** As long as the terminal is not bound, the TID and name can be changed via the "Edit" icon.
-8. After your POS provider has set up your terminal, the activation is completed.
-9. Terminal manufacturer and serial number are now displayed in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+4. Below the **Group**, select a terminal group or click **Add in new group**. To learn more about how to create terminal groups, see User guide - [How to create a terminal group](/activation#how-to-create-a-terminal-group) .
+5. Select Terminal type **Traditional**. A unique Terminal ID will be automatically generated.
+**💡 Tip!** As long as the terminal is not bound, you can modify the **TID** manually via **Devices** > **Terminals** > **Edit**. The name can still be modified after linking the device.
+6. Copy the **Terminal ID**, **Account ID**, and **CTAP Acquirer** and send them to your POS provider.
+7. After your POS provider has set up your terminal, the activation is completed.
+8. Terminal manufacturer and serial number are now displayed in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
 
 ✅ Success! You have successfully activated your terminal. You can now start accepting payments.
 
 # User guide
+
+## Terminal groups
+
+A terminal group is required for linking and activating a CTAP device. You can create a single group or multiple groups for segmentation. Each terminal group is assigned a unique **API key** and **ID**. All transactions processed by terminals within the same terminal group are consolidated under a single reconciliation history.
+
+This functionality offers reconciliation, reporting and management for single and multiple terminal groups.
+
+### How to create a terminal group
+
+To create a terminal group:
+
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a>.
+2. Go to **Devices** > **Terminals**.
+3. Click **Manage groups**.
+4. Click **+ Add new group**. 
+5. Insert a name for your group, and optionally, a [logo](activation/user-guide#how-to-upload-your-logo) to enable branding, and a [Webhook](doc:webhook) URL to receive updates for your payments.
+6. Click **Create**.
+
+Your new terminal group will be added to the **Manage groups** list. A terminal group ID and an API key will be associated.
+
+To view the ID and API key for a terminal group:
+
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> .
+2. Go to **Devices** > **Terminals**.
+3. Click on **Manage groups**. 
+4. A list of all available terminal groups will be displayed, showing the ID and API key for each group.
+
+### How to edit a group
+
+1. At **Manage groups** click the **edit** icon on the right side of the panel to edit the desired terminal group. Here, you can:
+
+- Change the **name** of the terminal group.
+- Change the logo by selecting a different image file.
+**⚠️Note:** Logos are not supported for Traditional terminals.
+- Change the **webhook URL**.
+
+2. Click **Save💾**
+
+**💡 Tip!** You can view your API key via **Manage groups** > **API key**.
 
 ## Refunds
 

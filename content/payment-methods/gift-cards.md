@@ -75,7 +75,13 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Gift card redirect**. 
   Set `gateway` to the [gateway ID](/reference/gateway-ids) of the relevant gift card.
 
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+  <div style="text-align: center;">
+  <img
+    src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif"
+    alt="MultiSafepay Sandbox Test Process GIF"
+    style="width: 40%; height: auto;"
+  />
+  </div>
 
   </details>
 

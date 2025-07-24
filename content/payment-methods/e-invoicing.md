@@ -70,7 +70,13 @@ See API reference – [Create order](/reference/createorder/) > BNPL order.
 
   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **E-Invoicing direct/redirect**.
 
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+  <div style="text-align: center;">
+  <img
+    src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif"
+    alt="MultiSafepay Sandbox Test Process GIF"
+    style="width: 40%; height: auto;"
+  />
+  </div>
 
   </details>
 
@@ -302,14 +308,15 @@ For partial refunds:
 
 **In your dashboard**
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
-3. On the **Transaction details** page, click **Refund order**.
-4. In the **Reason / Description** field, enter the reason for the refund or a description of what happened with the order, and then click **Complete**.
-5. In the **Comment** field, enter any additional information.
-6. In the **Amount** fields, enter the amount to refund. 
-7. Click **Continue**.
-8. Review the **Refund confirmation**, and then click **Confirm**.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. Go to **Transactions** > **Transactions Overview** and select the relevant transaction.
+3. Click on the transaction to go to the **Transaction summary** page.
+4. Under **Order summary**, click **Edit order**.
+5. Click **Refund whole order** to process a full refund.
+   For partial refunds, you have two options:
+   - Click the (❌) **remove** icon to process a refund for all units of a specific item, or
+   - Click **Change**, enter the item's **name**, the **quantity** of items you want to refund, **unit price**, and select the **tax** rate. Click **Add**.
+6. Click **Save changes**.
 
 **Via the API** 
 

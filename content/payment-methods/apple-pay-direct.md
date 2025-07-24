@@ -107,29 +107,19 @@ Check the steps below on how to integrate Apple Pay direct for your platform:
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    margin-left: 8px; /* Reduced margin */
     font-size: 1em; /* Increased font size */
   }
 
   .step-description, .step-description-3 {
     flex: 1;
-    margin-left: 8px; /* Reduced margin */
-    display: flex;
-    align-items: center;
-    height: 100%;
-    font-size: 0.9rem; /* Smaller font size */
+    font-size: 0.9rem;
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 700px; /* Increased width */
+    width: 700px;
   }
-  .step-description-3 .space {
-  margin-left: 5px; /* Adjust the value as needed */
-  margin-right: 5px;
-	}
   
   .step-description a{
     text-decoration: none !important;
-    margin-right: 5px;
   }
   
   .step-description-3 a{
@@ -221,7 +211,7 @@ Check the steps below on how to integrate Apple Pay direct for your platform:
       </div>
       <div class="step-info">
         <div class="step-number">1</div>
-        <p class="step-description configure-text"><a href="https://docs.multisafepay.com/docs/apple-pay-direct-integration-test-jesse#1-validate-your-domain">Validate your domain</a> to ensure compatibility with your platform</p>
+        <p class="step-description configure-text"><a href="https://docs.multisafepay.com/docs/apple-pay-direct#1-validate-your-domain">Validate your domain</a> to ensure compatibility with your platform</p>
       </div>
     </div>
     <div class="step-item">
@@ -250,7 +240,7 @@ Check the steps below on how to integrate Apple Pay direct for your platform:
   </div>
   <div class="step-info">
     <div class="step-number">3</div>
-    <p class="step-description-3 configure-text">Check if the customer's <span class="space"><a href="https://docs.multisafepay.com/docs/apple-pay-direct-integration-test-jesse#3-check-for-apple-pay-support">device supports</a></span> Apple Pay</p>
+    <p class="step-description configure-text">Check if the customer's <span class="space"><a href="https://docs.multisafepay.com/docs/apple-pay-direct#3-check-for-apple-pay-support">device supports</a></span> Apple Pay</p>
   </div>
 </div>
 <div class="steps-container">
@@ -266,7 +256,7 @@ Check the steps below on how to integrate Apple Pay direct for your platform:
       </div>
       <div class="step-info">
         <div class="step-number">4</div>
-        <p class="step-description configure-text"><a href="https://docs.multisafepay.com/docs/apple-pay-direct-integration-test-jesse#4-create-an-apple-pay-session">Create and configure</a> the Apple Pay session</p>
+        <p class="step-description configure-text"><a href="https://docs.multisafepay.com/docs/apple-pay-direct#4-create-an-apple-pay-session">Create and configure</a> the Apple Pay session</p>
       </div>
     </div>
     <div class="step-item">
@@ -281,7 +271,7 @@ Check the steps below on how to integrate Apple Pay direct for your platform:
       </div>
       <div class="step-info">
         <div class="step-number">5</div>
-        <p class="step-description configure-text"><a href="https://docs.multisafepay.com/docs/apple-pay-direct-integration-test-jesse#5-create-an-order">Develop your endpoint</a> to handle Apple Pay Direct order creation</p>
+        <p class="step-description configure-text"><a href="https://docs.multisafepay.com/docs/apple-pay-direct#5-create-an-order">Develop your endpoint</a> to handle Apple Pay Direct order creation</p>
       </div>
     </div>
   </div>
@@ -479,7 +469,8 @@ For more information about the `payment` object, see Apple Developer:
 
 ## Server-side integration
 
-1. From your server, [create an order](/reference/createorder/) > Wallet order. <br> See also Examples > Apple pay direct, using the `payment.token` property. <br> To use the `payment.token` property in the order request, convert it to an escaped JSON string.
+1. From your server, [create an order](/reference/createorder/) > Wallet order. <br> See also Examples > Apple pay direct, using the `payment.token` property. <br> To use the `payment.token` property in the order request, convert it to an escaped JSON string.<br>For 3D Secure authentication, add `customer.browser` object in your request. See recipe - <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Customer browser</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+
 2. To access the shipping and/or billing details from the `payment` object, use the `payment.billingContact` and `payment.shippingContact` properties.
 3. To add the details to the order request, format them in accordance with [create order](/reference/createorder/) requests.
 

@@ -82,7 +82,13 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
 
   For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **iDEAL direct/QR/redirect**.
 
-  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/APIExamples.png" align ="center"/>
+  <div style="text-align: center;">
+  <img
+    src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif"
+    alt="MultiSafepay Sandbox Test Process GIF"
+    style="width: 40%; height: auto;"
+  />
+  </div>
 
   </details>
 
@@ -98,7 +104,7 @@ The table below sets out the <<glossary:order status>> and <<glossary:transactio
     - [Odoo](/docs/odoo/)
     - [OpenCart](/docs/opencart/)
     - [PrestaShop](/docs/prestashop/)
-    - [Shopware 5](/docs/shopware/)
+    - [Shopware 5](/docs/shopware-5/)
     - [VirtueMart 3](/docs/virtuemart-3/)
     - [VirtueMart 4](/docs/virtuemart-4/)
     - [WooCommerce](/docs/woocommerce/)
@@ -166,7 +172,8 @@ iDEAL supports a number of Dutch <<glossary:issuers>>:
 
 - ABN AMRO 
 - ASN Bank 	
-- bunq 
+- bunq
+- Buut
 - ING 
 - Knab 
 - Nationale Nederlanden
