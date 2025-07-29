@@ -131,10 +131,10 @@ To view the ID, API key, and security code for a website:
 
 To view the ID and API key for a terminal group:
 
-4. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">live</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> or <a href="https://testmerchant.multisafepay.com" target="_blank">test</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> MultiSafepay dashboard.
-5. Go to **Devices** > **Terminals**.
-6. Click on **Manage groups**. 
-7. A list of all available terminal groups will be displayed, showing the ID and API key for each group.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">live</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> or <a href="https://testmerchant.multisafepay.com" target="_blank">test</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> MultiSafepay dashboard.
+2. Go to **Devices** > **Terminals**.
+3. Click on **Manage groups**. 
+4. A list of all available terminal groups will be displayed, showing the ID and API key for each group.
 
 ## Specify company name
 
