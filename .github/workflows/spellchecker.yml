@@ -27,6 +27,7 @@ jobs:
         if: steps.changed-files-specific.outputs.any_changed == 'true'
         run: |
           echo "CHG_FILES=${{ steps.changed-files-specific.outputs.all_changed_files }}" >> $GITHUB_ENV
+          echo "CHG_FILES=$(echo ${{ steps.changed-files-specific.outputs.all_changed_files }})" >> $GITHUB_ENV
 
       - name: Check which files changed
         if: steps.changed-files-specific.outputs.any_changed == 'true'
@@ -44,5 +45,5 @@ jobs:
         if: steps.changed-files-specific.outputs.any_changed == 'true'
         uses: rojopolis/spellcheck-github-actions@0.27.0
         with:
-          source_files: ${{ env.CHG_FILES }}
+          source_files: $CHG_FILES
           task_name: markdown
