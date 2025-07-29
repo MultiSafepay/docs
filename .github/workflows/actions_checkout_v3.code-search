@@ -1,0 +1,54 @@
+# Query: actions/checkout@v3
+# ContextLines: 1
+
+10 results - 10 files
+
+.github\workflows\banned-words.yml:
+  7      steps:
+  8:     - uses: actions/checkout@v3
+  9      - uses: actions/setup-python@v1
+
+.github\workflows\create-diagrams.yml:
+  20        - name: Git checkout
+  21:         uses: actions/checkout@v3
+  22          with:
+
+.github\workflows\external-urls.yml:
+  12      steps:
+  13:       - uses: actions/checkout@v3
+  14          with:
+
+.github\workflows\mail checker.yml:
+  7      steps:
+  8:     - uses: actions/checkout@v3
+  9      - uses: actions/setup-python@v1
+
+.github\workflows\manual.yml:
+  12        - name: Checkout
+  13:         uses: actions/checkout@v3
+  14        - name: Delete branch
+
+.github\workflows\markdown-link-check-daily.yml:
+  13      - name: Checkout source branch
+  14:       uses: actions/checkout@v3
+  15      - name: Check markdown links
+
+.github\workflows\readme-docs-sync.yml: 
+  13      steps:
+  14:     - uses: actions/checkout@v3
+  15      - uses: readmeio/rdme@v8
+
+.github\workflows\spellchecker-weekly.yml:
+  13      # The checkout step
+  14:     - uses: actions/checkout@v3
+  15      - uses: rojopolis/spellcheck-github-actions@0.27.0
+
+.github\workflows\spellchecker.yml:
+   9        # The checkout step
+  10:       - uses: actions/checkout@v3
+  11          with:
+
+.github\workflows\urlchecker.yml:
+  7      steps:
+  8:     - uses: actions/checkout@v3
+  9      - uses: actions/setup-python@v1

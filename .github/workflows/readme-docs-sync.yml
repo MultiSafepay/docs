@@ -11,10 +11,10 @@ jobs:
     if: github.event.pull_request.merged ==  true
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: readmeio/rdme@v8
+    - uses: actions/checkout@v4
+    - uses: readmeio/rdme@v10
       with:
-        rdme: docs content --version=v1.0 --key=${{ secrets.README }}
-    - uses: readmeio/rdme@v8
+        rdme: docs:upload path/to/content --branch=v1.0 --key=${{ secrets.README }}
+    - uses: readmeio/rdme@v10
       with:
-        rdme: docs api --version=v1.0 --key=${{ secrets.README }}
+        rdme: reference upload path/to/api --branch=v1.0 --key=${{ secrets.README }}
