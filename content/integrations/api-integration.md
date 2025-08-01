@@ -17,10 +17,9 @@ You must first:
 2. [Set up your account](/docs/getting-started-guide#2-set-up-your-account).
 3. [Get your website API key](/docs/sites#site-id-api-key-and-security-code).
 
+To authenticate requests, you must include your API key as a query parameter in the request URL.
 
-To authenticate requests, you must include your API key as a query parameter in the request URL.  
-
-&nbsp; **💡 Tip!** While building your integration we recommend using the [test environment](/reference/environments/): `https://testapi.multisafepay.com/v1/json`.
+  **💡 Tip!** While building your integration we recommend using the [test environment](/reference/environments/): `https://testapi.multisafepay.com/v1/json`.
 
 Before continuing with this tutorial, see if you can save development time with our range of [wrappers and SDKs](/docs/wrappers-sdks/).
 
@@ -28,14 +27,15 @@ Before continuing with this tutorial, see if you can save development time with 
 
 MultiSafepay provides a RESTful API you can access with HTTP requests to manage your data. We support data in JSON format only.
 
-The most important data element in our API is the <<glossary:order>>, which can be linked to multiple <<glossary:transactions>>. 
+The most important data element in our API is the <Glossary>order</Glossary>, which can be linked to multiple <Glossary>transactions</Glossary>.
 
-**1.** Test the most common operation with our API which is to [create an order](/reference/createorder/). To specify which payment flow the customer experiences, set the order `type` to <<glossary:direct>> or <<glossary:redirect>>.
+**1.** Test the most common operation with our API which is to [create an order](/reference/createorder/). To specify which payment flow the customer experiences, set the order `type` to <Glossary>direct</Glossary> or <Glossary>redirect</Glossary>.
 
 #### Example request
-This is an example request for a <<glossary:redirect>> order.
 
-``` javascript
+This is an example request for a <Glossary>redirect</Glossary> order.
+
+```javascript
 curl -X POST "https://testapi.multisafepay.com/v1/json/orders?api_key={your-test-api-key}" \
 -H 'Content-Type: application/json' \
 -H 'accept: application/json' \
@@ -75,7 +75,8 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/orders?api_key={your-test
 **2.** Check that you receive a response with `success` set to `true`.
 
 #### Example response
-``` javascript
+
+```javascript
 {
   "success": true,
   "data": {
@@ -85,7 +86,7 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/orders?api_key={your-test
 }
 ```
 
-**3.** Open the `payment_url` to complete payment on the payment page. 
+**3.** Open the `payment_url` to complete payment on the payment page.
 
 **⚠️ Note:** If you receive an error in the response, see [Troubleshooting](/docs/troubleshooting/).
 
@@ -93,9 +94,9 @@ curl -X POST "https://testapi.multisafepay.com/v1/json/orders?api_key={your-test
 
 # 2. Set up webhook
 
-The most important parameters in the <<glossary:order>> are `status`(the <<glossary:order status>>) and `financial_status` (the <<glossary:transaction status>>).
+The most important parameters in the <Glossary>order</Glossary> are `status`(the <Glossary>order status</Glossary>) and `financial_status` (the <Glossary>transaction status</Glossary>).
 
-To understand how orders are progressing, we recommend tracking their `status`. So that you don't have to continually poll our server to check for updates to your orders, we provide a webhook to send you notifications automatically. 
+To understand how orders are progressing, we recommend tracking their `status`. So that you don't have to continually poll our server to check for updates to your orders, we provide a webhook to send you notifications automatically.
 
 To learn how to configure your webhook endpoint and handle notifications, see [Webhook](/docs/webhook/).
 
@@ -105,121 +106,125 @@ For information about all possible statuses, see [Payment statuses](/docs/paymen
 
 # 3. Test payment methods
 
-For how to test each payment method, see Testing payment methods - [Test payment details](/docs/testing#test-payment-details). 
+For how to test each payment method, see Testing payment methods - [Test payment details](/docs/testing#test-payment-details).\
 If this is your first time, we recommend following the steps for [iDEAL](/docs/testing#ideal).
 
-✅ **Success!** You can successfully create orders for your payment mix. 
+✅ **Success!** You can successfully create orders for your payment mix.
 
 # GET requests
 
 To fetch information about a specific order, make a [Get order](/reference/getorder/) request, using the `order_id`.
 
 <details id="example-get-request">
-<summary>Example GET request</summary>
-<br>
+  <summary>Example GET request</summary>
 
-``` javascript
-curl -X GET 'https://testapi.multisafepay.com/v1/json/orders/my-order-id-1?api_key={your-test-api-key}' \ 
--H 'accept: application/json'
-```
+  <br />
 
+  ```javascript
+  curl -X GET 'https://testapi.multisafepay.com/v1/json/orders/my-order-id-1?api_key={your-test-api-key}' \ 
+  -H 'accept: application/json'
+  ```
 </details>
 
 <details id="example-get-response">
-<summary>Example GET response</summary>
-<br>
+  <summary>Example GET response</summary>
 
-``` json
-{
-  "success": true,
-  "data": {
-    "amount": 100,
-    "amount_refunded": 0,
-    "costs": [
-      {
-        "amount": 0.00,
-        "description": "0.00 For iDEAL Transactions",
-        "transaction_id": 1234567,
-        "type": "SYSTEM"
-      }
-    ],
-    "created": "2021-12-07T15:56:32",
-    "currency": "EUR",
-    "custom_info": {
-      "custom_1": null,
-      "custom_2": null,
-      "custom_3": null
-    },
-    "customer": {
-      "address1": "Kraanspoor",
-      "address2": null,
-      "city": "Amsterdam",
-      "country": "NL",
-      "country_name": null,
-      "email": "jdoe@example.com",
-      "first_name": "John",
-      "house_number": "39C",
-      "last_name": "Doe",
-      "locale": "nl_NL",
-      "phone1": "0208500500",
-      "phone2": "",
-      "state": null,
-      "zip_code": "1033SC"
-    },
-    "description": "Test Order Description",
-    "fastcheckout": "NO",
-    "financial_status": "completed",
-    "items": null,
-    "modified": "2021-12-07T15:56:40",
-    "order_id": "my-order-id-1",
-    "payment_details": {
-      "account_bic": "INGBNL2A",
-      "account_holder_name": "Jan Jansen",
-      "account_iban": "NL87ABNA0000000001",
-      "account_id": 1,
-      "external_transaction_id": "3749936454986553",
-      "issuer_id": "0031",
-      "recurring_flow": null,
-      "recurring_id": "998107705729622024",
-      "recurring_model": null,
-      "type": "IDEAL"
-    },
-    "payment_methods": [
-      {
+  <br />
+
+  ```json
+  {
+    "success": true,
+    "data": {
+      "amount": 100,
+      "amount_refunded": 0,
+      "costs": [
+        {
+          "amount": 0.00,
+          "description": "0.00 For iDEAL Transactions",
+          "transaction_id": 1234567,
+          "type": "SYSTEM"
+        }
+      ],
+      "created": "2021-12-07T15:56:32",
+      "currency": "EUR",
+      "custom_info": {
+        "custom_1": null,
+        "custom_2": null,
+        "custom_3": null
+      },
+      "customer": {
+        "address1": "Kraanspoor",
+        "address2": null,
+        "city": "Amsterdam",
+        "country": "NL",
+        "country_name": null,
+        "email": "jdoe@example.com",
+        "first_name": "John",
+        "house_number": "39C",
+        "last_name": "Doe",
+        "locale": "nl_NL",
+        "phone1": "0208500500",
+        "phone2": "",
+        "state": null,
+        "zip_code": "1033SC"
+      },
+      "description": "Test Order Description",
+      "fastcheckout": "NO",
+      "financial_status": "completed",
+      "items": null,
+      "modified": "2021-12-07T15:56:40",
+      "order_id": "my-order-id-1",
+      "payment_details": {
         "account_bic": "INGBNL2A",
         "account_holder_name": "Jan Jansen",
         "account_iban": "NL87ABNA0000000001",
         "account_id": 1,
-        "amount": 100,
-        "currency": "EUR",
-        "description": "Test Order Description",
         "external_transaction_id": "3749936454986553",
-        "payment_description": "iDEAL",
-        "status": "completed",
+        "issuer_id": "0031",
+        "recurring_flow": null,
+        "recurring_id": "998107705729622024",
+        "recurring_model": null,
         "type": "IDEAL"
-      }
-    ],
-    "reason": "",
-    "reason_code": "",
-    "related_transactions": null,
-    "status": "completed",
-    "transaction_id": 2345678,
-    "var1": null,
-    "var2": null,
-    "var3": null
+      },
+      "payment_methods": [
+        {
+          "account_bic": "INGBNL2A",
+          "account_holder_name": "Jan Jansen",
+          "account_iban": "NL87ABNA0000000001",
+          "account_id": 1,
+          "amount": 100,
+          "currency": "EUR",
+          "description": "Test Order Description",
+          "external_transaction_id": "3749936454986553",
+          "payment_description": "iDEAL",
+          "status": "completed",
+          "type": "IDEAL"
+        }
+      ],
+      "reason": "",
+      "reason_code": "",
+      "related_transactions": null,
+      "status": "completed",
+      "transaction_id": 2345678,
+      "var1": null,
+      "var2": null,
+      "var3": null
+    }
   }
-}
-```
+  ```
 </details>
 
-<br>
+<br />
 
----
+***
 
-[block:html]
-{
-  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></p>\n</blockquote>\n"
-}
-[/block]
+<blockquote class="callout callout_info">
+  <h3 class="callout-heading false">
+    <span class="callout-icon">💬</span>
+    <p>Support</p>
+  </h3>
+
+  <p>Email <a href="mailto:integration@multisafepay.com">[integration@multisafepay.com](mailto:integration@multisafepay.com)</a></p>
+</blockquote>
 
 [Top of page](#)

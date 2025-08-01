@@ -5,7 +5,6 @@ slug: 'gateway-ids'
 order: 5
 hidden: false
 ---
-
 | Payment method                         | Gateway ID    |
 | -------------------------------------- | ------------- |
 | Alipay                                 | `ALIPAY`      |
@@ -33,7 +32,7 @@ hidden: false
 | Klarna                                 | `KLARNA`      |
 | Maestro                                | `MAESTRO`     |
 | Mastercard                             | `MASTERCARD`  |
-| MB Way                                 | `MBWAY`      |
+| MB Way                                 | `MBWAY`       |
 | Multibanco                             | `MULTIBANCO`  |
 | MyBank                                 | `MYBANK`      |
 | Pay After Delivery                     | `BNPL_MF`     |
@@ -48,7 +47,7 @@ hidden: false
 | TrustPay                               | `TRUSTPAY`    |
 | Visa, Cartes Bancaires, Dankort, V Pay | `VISA`        |
 | WeChat Pay                             | `WECHAT`      |
-| Zinia                                  | `ZINIA`
+| Zinia                                  | `ZINIA`       |
 | **Gift cards**                         |               |
 | Amsterdam stadspas                     | `AMSGIFT`     |
 | Baby Cadeaubon                         | `BABYCAD`     |
@@ -69,9 +68,9 @@ hidden: false
 | Gezondheidsbon                         | `GEZONDHEID`  |
 | Good4fun                               | `GOOD4FUN`    |
 | Horses & Gifts                         | `HORSESGIFT`  |
-| Monizze eco voucher                    | `MONIECO`      |
-| Monizze gift voucher                   | `MONIGIFT`     |
-| Monizze meal voucher                   | `MONIMEAL`     |
+| Monizze eco voucher                    | `MONIECO`     |
+| Monizze gift voucher                   | `MONIGIFT`    |
+| Monizze meal voucher                   | `MONIMEAL`    |
 | Nationale bioscoopbon                  | `NATNLBIOSC`  |
 | Nationale tuinbon                      | `NATNLETUIN`  |
 | Parfumcadeaukaart                      | `PARFUMCADE`  |
