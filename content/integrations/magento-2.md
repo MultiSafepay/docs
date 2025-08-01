@@ -433,7 +433,7 @@ The Magento 2 integration supports Manual Capture from version 3.7.0 and up.
   * Mastercard
   * Visa
 
-  For more information about Manual capture and how to enable it for your MultiSafepay account, please check our [Manual capture](/docs/manual-capture#integration) [https://docs.multisafepay.com/docs/manual-capture#integration](https://docs.multisafepay.com/docs/manual-capture#integration) instructions.
+  For more information about Manual capture and how to enable it for your MultiSafepay account, please check our [Manual capture](/docs/manual-capture#integration) <a href="https://docs.multisafepay.com/docs/manual-capture#integration" target="_blank">https://docs.multisafepay.com/docs/manual-capture#integration</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> instructions.
 
   To enable Manual capture in your Magento environment:
 

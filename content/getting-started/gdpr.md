@@ -21,7 +21,7 @@ MultiSafepay complies with all required measures to ensure data protection, incl
 
 Our primary activity is processing online payments. We are a data controller, responsible for storing data only. We are **not** a processor or sub-processor of data.
 
-For more information, see the MultiSafepay – [GDPR addendum](https://www.multisafepay.com/downloads/Addendum_GDPR_2018.pdf) <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />. It includes a number of provisions similar to a standard processing agreement.
+For more information, see the MultiSafepay – <a href="https://www.multisafepay.com/downloads/Addendum_GDPR_2018.pdf" target="_blank">GDPR addendum</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />. It includes a number of provisions similar to a standard processing agreement.
 
 # Customer data
 

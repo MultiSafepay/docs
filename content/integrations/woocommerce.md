@@ -292,7 +292,7 @@ You can apply [surcharges](/docs/surcharges/) in the plugin when combined with a
 * possible reasons
 
 WC\_Order::get\_checkout\_order\_received\_url() =>\
-[https://woocommerce.github.io/code-reference/classes/WC-Order.html#method\_get\_checkout\_order\_received\_url](https://woocommerce.github.io/code-reference/classes/WC-Order.html#method_get_checkout_order_received_url)
+<a href="https://woocommerce.github.io/code-reference/classes/WC-Order.html#method_get_checkout_order_received_url" target="_blank">https://woocommerce.github.io/code-reference/classes/WC-Order.html#method\_get\_checkout\_order\_received\_url</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
 does not return correct URL, which can be caused by a third party plugin making use of the "woocommerce\_get\_checkout\_order\_received\_url" filter and returning a wrong value
 
 * possible solutions
