@@ -20,25 +20,27 @@ Simply fill out a signup form, and then sign in to your test dashboard using the
 
 To set up your account, you need to:
 
-- Add at least one [website](/docs/sites/) to your account.
-- Activate your selected [payment methods](/docs/payment-methods/).
+* Add at least one [website](/docs/sites/) to your account.
+* Activate your selected [payment methods](/docs/payment-methods/).
 
-# 3. Choose an integration method 
+# 3. Choose an integration method
 
-Choose an integration method that matches your business needs and tech stack.   
-For help selecting an integration method, email <integration@multisafepay.com>
+Choose an integration method that matches your business needs and tech stack.\
+For help selecting an integration method, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
 
 ### Ready-made integration
+
 MultiSafepay's integrations, which we develop in house, require fewer development resources and let you start testing straight away. We have a wide range of plugins and apps available to integrate with platforms like Magento, WooCommerce, Shopware, and Lightspeed.
 
 **Full guidance:** [Ready-made integrations](/docs/our-integrations/)
 
 ### API integration
+
 Alternatively, you can build your own integration, especially if you're developing a new ecommerce website or app. This generally requires more development resources, but lets you fully customize the look, feel, and functionality of your customers' experience.
 
 **Full guidance:** [API integration](/docs/api-integration/)
 
-# 4. Test your integration 
+# 4. Test your integration
 
 Before you start processing real transactions, test each payment method.
 
@@ -48,22 +50,25 @@ Before you start processing real transactions, test each payment method.
 
 To start processing real transactions, we need to check and approve your company information.
 
-- Complete the live account signup form.
-- Provide information about your company, including the ultimate beneficial owners.
-- Check our list of prohibited products and services.
-- Display required information on your website.
+* Complete the live account signup form.
+* Provide information about your company, including the ultimate beneficial owners.
+* Check our list of prohibited products and services.
+* Display required information on your website.
 
 We then perform know your customer (KYC) checks. If approved, your account goes live.
 
 **Full guidance:** [Onboarding](/docs/onboarding/)
-<br>
 
----
+***
 
-[block:html]
-{
-  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
-}
-[/block]
+<HTMLBlock>{`
+<blockquote class="callout callout_info">
+    <h3 class="callout-heading false">
+        <span class="callout-icon">💬</span>
+        <p>Support</p>
+    </h3>
+    <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
+</blockquote>
+`}</HTMLBlock>
 
 [Top of page](#)

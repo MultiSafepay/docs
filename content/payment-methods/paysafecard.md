@@ -6,115 +6,109 @@ hidden: false
 parentDoc: 62a32bf042021c00e1cd7e5c
 slug: 'paysafecard'
 ---
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/paysafecard-lock.svg" width="100" align="right" style={{margin: '15px', maxHeight: '75px'}} />
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/paysafecard-lock.svg" width="100" align="right" style="margin: 15px; max-height: 75px"/>
-
-<a href="https://www.paysafecard.com/en/" target="_blank">Paysafecard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> lets customers make online payments using secure prepaid vouchers, available for purchase locally. The funds are available immediately. The customer chooses a fixed voucher amount: 10, 25, 50 or 100 EUR. 
+<a href="https://www.paysafecard.com/en/" target="_blank">Paysafecard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> lets customers make online payments using secure prepaid vouchers, available for purchase locally. The funds are available immediately. The customer chooses a fixed voucher amount: 10, 25, 50 or 100 EUR.
 
 Customers enter the voucher code, without providing any personal payment details. Vouchers for different amounts are available in the local currency in 46 countries.
 
 The card balance remains available for 12 months free of charge. After 12 months, customers are charged a monthly administration fee of 3 EUR, which is deducted from the balance.
 
-Read how Paysafecard can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/paysafecard" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+Read how Paysafecard can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/paysafecard" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
-| Supports | Details |
-|---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | Worldwide – Go to <a href="https://www.paysafecard.com/en-gb/" target="_blank">Paysafecard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, and then click the globe icon in the banner.  | 
-| [Currencies](/docs/currencies/)  | EUR, GBP, USD  | 
-| [Chargebacks](/docs/chargebacks/)  | No | 
-| [Payment pages](/docs/payment-pages/) | Yes (current version only) |
-| [Refunds](/docs/refund-payments/) | Paid with Paysafecard only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br> Paid with Paysafecard **and** another payment method: Full refunds.  |
+| Supports                                                      | Details                                                                                                                                                                                                                                         |
+| ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Countries](/docs/payment-methods#payment-methods-by-country) | Worldwide – Go to <a href="https://www.paysafecard.com/en-gb/" target="_blank">Paysafecard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, and then click the globe icon in the banner.                        |
+| [Currencies](/docs/currencies/)                               | EUR, GBP, USD                                                                                                                                                                                                                                   |
+| [Chargebacks](/docs/chargebacks/)                             | No                                                                                                                                                                                                                                              |
+| [Payment pages](/docs/payment-pages/)                         | Yes (current version only)                                                                                                                                                                                                                      |
+| [Refunds](/docs/refund-payments/)                             | Paid with Paysafecard only: You can't refund via MultiSafepay because we don't receive any customer payment details to refund to. Refund in your own online banking. <br /> Paid with Paysafecard **and** another payment method: Full refunds. |
 
 # Payment flow
 
 This diagram shows the flow for a successful transaction. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/paysafecard-payment-flow.svg" alt="Paysafecard payment flow" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 750px;
-  width: 100%;">
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/paysafecard-payment-flow.svg" alt="Paysafecard payment flow" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '750px', width: '100%'}} />
 
-# Payment statuses  
+# Payment statuses
 
-The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
+The table below sets out the <Glossary>order status</Glossary> and <Glossary>transaction status</Glossary> for payments and refunds.
 
-| Description | Order status | Transaction status |
-|---|---|---|
-| The customer has been redirected to Paysafecard. | Initialized | Initialized |
-| MultiSafepay has collected payment.| Completed | Completed |
-| The customer cancelled the transaction at Paysafecard. | Void   | Void   |
-| The customer didn't complete payment within 3 hours. | Expired | Expired |
-| **Refunds:** Refund initiated. | Initialized | Initialized |
-| **Refunds:** Refund complete. | Completed | Completed |
+| Description                                            | Order status | Transaction status |
+| ------------------------------------------------------ | ------------ | ------------------ |
+| The customer has been redirected to Paysafecard.       | Initialized  | Initialized        |
+| MultiSafepay has collected payment.                    | Completed    | Completed          |
+| The customer cancelled the transaction at Paysafecard. | Void         | Void               |
+| The customer didn't complete payment within 3 hours.   | Expired      | Expired            |
+| **Refunds:** Refund initiated.                         | Initialized  | Initialized        |
+| **Refunds:** Refund complete.                          | Completed    | Completed          |
 
-# Activation 
+# Activation
 
-Paysafecard doesn't require activation. 
+Paysafecard doesn't require activation.
 
-To find outlets that sell Paysafecard, see: 
+To find outlets that sell Paysafecard, see:
 
-- <a href="https://www.paysafecard.com/en/find-sales-outlet-1/" target="_blank">Find sales outlets</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
-- <a href="https://www.paysafecard.com/nl/verkooppunt-vinden-1/" target="_blank">Verkooppunten zoeken</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
+* <a href="https://www.paysafecard.com/en/find-sales-outlet-1/" target="_blank">Find sales outlets</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* <a href="https://www.paysafecard.com/nl/verkooppunt-vinden-1/" target="_blank">Verkooppunten zoeken</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
-For any questions, email <sales@multisafepay.com>
+For any questions, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
 # Integration
 
 ### API
-- See API reference – [Create order](/reference/createorder/) > Prepaid card order.
 
-  <details id="example-requests"> 
-  <summary>Example requests</summary>
-  <br>
+* See API reference – [Create order](/reference/createorder/) > Prepaid card order.
 
-  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Gift card redirect**.
+  <details id="example-requests">
+    <summary>Example requests</summary>
 
-  <div style="text-align: center;">
-  <img
-    src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif"
-    alt="MultiSafepay Sandbox Test Process GIF"
-    style="width: 40%; height: auto;"
-  />
-  </div>
+    <br />
 
+    For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Gift card redirect**.
+
+    <div style={{textAlign: 'center'}}>
+      <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif" alt="MultiSafepay Sandbox Test Process GIF" style={{width: '40%', height: 'auto'}} />
+    </div>
   </details>
 
-- Transactions expire after 3 hours.
+* Transactions expire after 3 hours.
 
 ### Ready-made integrations
 
 Supported in:
 
-- [CS-Cart](/docs/cs-cart/)
-- [Drupal](/docs/drupal/)
-- [OsCommerce](/docs/oscommerce/)
-- [Magento 1](/docs/magento-1/)
-- [Magento 2](/docs/magento-2/)
-- [OpenCart 3](/docs/opencart/)
-- [OpenCart 4](/docs/opencart-4/)
-- [PrestaShop 1.6](/docs/prestashop-1-6/)
-- [PrestaShop](/docs/prestashop/)
-- [Shopware 5](/docs/shopware-5/)
-- [Shopware 6](/docs/shopware-6/)
-- [VirtueMart 3](/docs/virtuemart/)
-- [VirtueMart 4](/docs/virtuemart-4/)
-- [WooCommerce](/docs/woocommerce/)
-- [X-Cart](/docs/x-cart/)
-- [Zen Cart](/docs/zen-cart/)
+* [CS-Cart](/docs/cs-cart/)
+* [Drupal](/docs/drupal/)
+* [OsCommerce](/docs/oscommerce/)
+* [Magento 1](/docs/magento-1/)
+* [Magento 2](/docs/magento-2/)
+* [OpenCart 3](/docs/opencart/)
+* [OpenCart 4](/docs/opencart-4/)
+* [PrestaShop 1.6](/docs/prestashop-1-6/)
+* [PrestaShop](/docs/prestashop/)
+* [Shopware 5](/docs/shopware-5/)
+* [Shopware 6](/docs/shopware-6/)
+* [VirtueMart 3](/docs/virtuemart/)
+* [VirtueMart 4](/docs/virtuemart-4/)
+* [WooCommerce](/docs/woocommerce/)
+* [X-Cart](/docs/x-cart/)
+* [Zen Cart](/docs/zen-cart/)
 
 ### Testing
 
-- You can’t test Paysafecard in your MultiSafepay test account.
-- You can only make test payments in your MultiSafepay live account. 
-<br>
+* You can’t test Paysafecard in your MultiSafepay test account.
+* You can only make test payments in your MultiSafepay live account.\ <br />
 
----
+***
 
-[block:html]
-{
-  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
-}
-[/block]
+<blockquote class="callout callout_info">
+  <h3 class="callout-heading false">
+    <span class="callout-icon">💬</span>
+    <p>Support</p>
+  </h3>
+
+  <p>Email <a href="mailto:support@multisafepay.com">[support@multisafepay.com](mailto:support@multisafepay.com)</a></p>
+</blockquote>
 
 [Top of page](#)

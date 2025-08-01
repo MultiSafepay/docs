@@ -6,22 +6,19 @@ order: 1
 hidden: false
 slug: 'hardware-setup'
 ---
-
->
 > ⚠️ Note:
-> 
+>
 > We currently offer this product in the following countries:
-> 
-> - Netherlands
-> - Belgium 
-> 
+>
+> * Netherlands
+> * Belgium
+>
 > As a partner, you can further connect accounts registered in the following countries:
 >
-> - Italy 
-> - Spain
+> * Italy
+> * Spain
 >
-> If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
->
+> If you are interested in our Point of Sale solutions, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
 This page outlines the configuration of the hardware.
 
@@ -48,7 +45,7 @@ For more information about Wi-Fi connection, refer to the manual provided with t
 
 # Connect to the Smartpad
 
-Smartpad is a cable-powered terminal that must be connected to a power cable. 
+Smartpad is a cable-powered terminal that must be connected to a power cable.
 
 To enhance network stability, we recommend that you connect the Smartpad to a network cable.
 
@@ -70,14 +67,14 @@ To print your receipt, you need a thermal printer roll of either 57mm or 58mm.
 
 You can find your serial number (for SmartPOS / Sunmi)
 
-- on the device: some models display the serial number on the back of the terminal. 
-- in the MultiSafepay app: go to **Settings** > Menu > **About** > scroll to the bottom
-- in the Sunmi settings app: location depends on the Android version, for example under **Model and hardware** / **About device** 
+* on the device: some models display the serial number on the back of the terminal.
+* in the MultiSafepay app: go to **Settings** > Menu > **About** > scroll to the bottom
+* in the Sunmi settings app: location depends on the Android version, for example under **Model and hardware** / **About device**
 
 # Turn on the terminal
 
-- Charge the terminal for at least 30 minutes.
-- Press and hold the power button for a few seconds to switch it on.
+* Charge the terminal for at least 30 minutes.
+* Press and hold the power button for a few seconds to switch it on.
 
 **⚠️Note:** The terminal will reboot every 24 hours counting from the first time it was powered on, to ensure optimal performance and stability.
 
@@ -85,36 +82,33 @@ For more information, see the manual provided with the terminal.
 
 ***
 
-
-
 # Update firmware
 
-An outdated version of the firmware can cause miscellaneous issues.
-Always ensure to run your device on the latest available version. 
+An outdated version of the firmware can cause miscellaneous issues.\
+Always ensure to run your device on the latest available version.
 
-Via the Sunmi portal, 
+Via the Sunmi portal,
 
 1. Go to **Device** > Device upgrade > Upgrade management
 
 2. Remove the data filter
 
-3. If there is new firmware available, the **Add to Upgrade Group** button will be highlighted. 
-Adding a terminal to the update group means the terminal will detect new firmware and will start downloading.
+3. If there is new firmware available, the **Add to Upgrade Group** button will be highlighted.\
+   Adding a terminal to the update group means the terminal will detect new firmware and will start downloading.
 
 **💡 Tip!** Make sure to unpack and activate the terminal so you can add it to the upgrade group.
 
-4. Download will start automatically. 
-By default, the download limit is set to 20KB/sec. You can increase this on the terminal itself in the **System update app**, ideally via the partner portal to apply it to all terminals. 
+4. Download will start automatically.\
+   By default, the download limit is set to 20KB/sec. You can increase this on the terminal itself in the **System update app**, ideally via the partner portal to apply it to all terminals.
 
 5. Upon successful download, reboot the terminal to install the newly downloaded firmware.
 
-6. You can automate this in the partner portal via 
-Device > Device Upgrade > **Important package configuration**
-
+6. You can automate this in the partner portal via\
+   Device > Device Upgrade > **Important package configuration**
 
 Steps on the device:
 
-1. **Reboot** via the button on right of the device 
+1. **Reboot** via the button on right of the device
 2. Settings (terminal) > About device > (select model)
 3. You can view your current version, and **check update**.
 
@@ -124,39 +118,37 @@ Steps on the device:
 
 Functionalities you can access as a partner through your Sunmi portal:
 
-- remotely reboot a terminal 
-- whitelist apps to be displayed
-- remotely switch off a terminal
-- check installed Android version
-- check last wifi connection time of a device
-- push new software 
-- access terminal settings (automatic upgrades & installation; update message prompt etc.)
+* remotely reboot a terminal
+* whitelist apps to be displayed
+* remotely switch off a terminal
+* check installed Android version
+* check last wifi connection time of a device
+* push new software
+* access terminal settings (automatic upgrades & installation; update message prompt etc.)
 
+## Automatic installation and updates
 
-## Automatic installation and updates 
-
-- Sign in to partner.sunmi.com.
-- Configure the app to automatically update or choose a specific version. Select a specific time at which you want the app to be updated.
-- Set the app to install automatically when the POS terminal connects to a network.
-- Choose the terminal models you want to apply these settings to.
+* Sign in to partner.sunmi.com.
+* Configure the app to automatically update or choose a specific version. Select a specific time at which you want the app to be updated.
+* Set the app to install automatically when the POS terminal connects to a network.
+* Choose the terminal models you want to apply these settings to.
 
 ## Add your app to the Sunmi App Store
 
-- Sign in to your Sunmi Partner Account via partner.sunmi.com.
-- Go to **Development** > App Publishing, and upload your APK file.
+* Sign in to your Sunmi Partner Account via partner.sunmi.com.
+* Go to **Development** > App Publishing, and upload your APK file.
 
 ## Sunmi developer documentation
 
-For guides on available tools and functions, you can refer to the <a href="https://developer.sunmi.com/docs/en-US/index" target="_blank">Sunmi Developer Documentation</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
+For guides on available tools and functions, you can refer to the <a href="https://developer.sunmi.com/docs/en-US/index" target="_blank">Sunmi Developer Documentation</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 
-To find specific information for your terminal model, go to <a href="https://developer.sunmi.com/docs/en-US/ceghjk502/fcmeghjk546" target="_blank">Documents by Model</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-
+To find specific information for your terminal model, go to <a href="https://developer.sunmi.com/docs/en-US/ceghjk502/fcmeghjk546" target="_blank">Documents by Model</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 
 ## Sunmi contact
 
 As a partner you can contact Sunmi support for any issues with the terminal.
 
-1. Go to <a href="https://www.sunmi.com/en-US/" target="_blank">Sunmi</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+1. Go to <a href="https://www.sunmi.com/en-US/" target="_blank">Sunmi</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
 2. Click **Support**
 3. Go to **Contact Technical Support**
 4. Click **Need to raise a request**

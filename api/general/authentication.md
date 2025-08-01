@@ -6,38 +6,22 @@ order: 2
 hidden: false
 ---
 
-All requests to our API require authentication. 
+All requests to our API require authentication.
 
 Include your [website API key](/docs/sites#site-id-api-key-and-security-code) as an HTTP header in your request: `api_key`
-[block:callout]
-{
-  "type": "danger",
-  "body": "Always keep your API keys secure. Publicly exposing your credentials can compromise your account."
-}
-[/block]
 
-<!-- markdown-link-check-disable -->
-[block:code]
-{
-  "codes": [
-    {
-      "code": "curl -X POST \"https://testapi.multisafepay.com/v1/json/\" \\\n--header \"api_key: <your-test-API-key>\"",
-      "language": "curl",
-      "name": "Test API key"
-    }
-  ]
-}
-[/block]
+> ❗️ Always keep your API keys secure. Publicly exposing your credentials can compromise your account.
 
-[block:code]
-{
-  "codes": [
-    {
-      "code": "curl -X POST \"https://api.multisafepay.com/v1/json/\" \\\n--header \"api_key: <your-API-key>\"",
-      "language": "curl",
-      "name": "Live API key"
-    }
-  ]
-}
-[/block]
-<!-- markdown-link-check-enable-->
+{/* markdown-link-check-disable */}
+
+```curl Test API key
+curl -X POST "https://testapi.multisafepay.com/v1/json/" \
+--header "api_key: <your-test-API-key>"
+```
+
+```curl Live API key
+curl -X POST "https://api.multisafepay.com/v1/json/" \
+--header "api_key: <your-API-key>"
+```
+
+{/* markdown-link-check-enable*/}

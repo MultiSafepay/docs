@@ -19,7 +19,7 @@ We currently offer this product in the following countries:
   </tr>
 </table>
 
-If you are interested in our Point of Sale solutions, email <a href="mailto:sales@multisafepay.com" style="font-size: inherit;">sales@multisafepay.com</a>
+If you are interested in our Point of Sale solutions, email <a href="mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com) " style={{fontSize: 'inherit'}}>[sales@multisafepay.com](mailto:sales@multisafepay.com) </a>
 
 # Set up your SmartPOS flow
 
@@ -29,37 +29,31 @@ Our SmartPOS terminals support three different payment solutions, offering flexi
       <div class="step-number">1</div>
       <p class="step-description configure-text">Choose your solution</p>
 </div>
-<style>
-  
-</style>
-
 <div class="auto-grid-2">
   <div class="card-container-2">
-    <a href="/docs/smartpos-solutions#cloud-pos-payment" style="text-decoration: none;">
     <div class="card-2">
-      <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Cloud_POS.svg" alt="Cloud POS Payments">
-      <h4>Cloud POS Payments</h4>
-      <p class="text-flows">Process payments from an external application. This lets your Point of Sale system process payments securely via a cloud connection.</p>
-     </a>
-    </div>
-  </div>
-
-  <div class="card-container-2">
-    <div class="card-2">
-      <a href="/docs/smartpos-solutions#on-same-device-third-party-applications" style="text-decoration: none;">
-      <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Transactions_ondevice.svg" alt="On-Same Device Third-Party Applications">
-      <h4>On-Same Device Applications</h4>
-      <p class="text-flows">Run your native or web based aplication on your terminal and initiate payments on the same device through the payment app.</p>
+      <a href="/docs/smartpos-solutions#cloud-pos-payment" style={{textDecoration: 'none'}}>
+        <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Cloud_POS.svg" alt="Cloud POS Payments" />
+        <h4>Cloud POS Payments</h4>
+        <p class="text-flows">Process payments from an external application. This lets your Point of Sale system process payments securely via a cloud connection.</p>
       </a>
     </div>
   </div>
-
   <div class="card-container-2">
     <div class="card-2">
-      <a href="/docs/smartpos-solutions#manual-input" style="text-decoration: none;">
-      <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/In-person-payments.svg" alt="On-Same Device Third-Party Applications">
-      <h4>Manual input</h4>
-      <p class="text-flows">Manually enter payment amounts in the app. The customer pays using a supported payment method.</p>
+      <a href="/docs/smartpos-solutions#on-same-device-third-party-applications" style={{textDecoration: 'none'}}>
+        <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Transactions_ondevice.svg" alt="On-Same Device Third-Party Applications" />
+        <h4>On-Same Device Applications</h4>
+        <p class="text-flows">Run your native or web based aplication on your terminal and initiate payments on the same device through the payment app.</p>
+      </a>
+    </div>
+  </div>
+  <div class="card-container-2">
+    <div class="card-2">
+      <a href="/docs/smartpos-solutions#manual-input" style={{textDecoration: 'none'}}>
+        <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/In-person-payments.svg" alt="On-Same Device Third-Party Applications" />
+        <h4>Manual input</h4>
+        <p class="text-flows">Manually enter payment amounts in the app. The customer pays using a supported payment method.</p>
       </a>
     </div>
   </div>
@@ -68,6 +62,7 @@ Our SmartPOS terminals support three different payment solutions, offering flexi
 ***
 
 Click on the options below for more information on how to further set up your terminal.
+
 
 <style>
 /* Overall Container */
@@ -82,25 +77,14 @@ Click on the options below for more information on how to further set up your te
   box-sizing: border-box;
 }
 
-/* Card Container - Width for Larger Screens (Desktops) */
 .card-container-2 {
   width: calc(33.33% - 20px); /* Three items per row on larger screens */
   max-width: 400px;           /* Limit card width */
   box-sizing: border-box;
   margin-bottom: 20px;        /* Spacing between rows */
 }
-<!--
-/* Hover effect on the container */
-.card-container-2:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  transform: translateY(-0.2rem);
-  transition: all 0.2s;
-  cursor: pointer;
-  border-radius: 8px;
-}
--->
 
-/* Card Styling */
+
 .card-2 {
   display: flex;
   flex-direction: column;
@@ -192,10 +176,6 @@ Click on the options below for more information on how to further set up your te
   b {
     color: #384248 !important;
   }
-  .steps-container { /* Added container for the whole widget */
-    /* You can add styles to this container like width, max-width, margin, etc. */
-    /* For example: max-width: 800px; margin: 0 auto; */
-  }
 
   .steps {
     display: flex;
@@ -277,7 +257,6 @@ Click on the options below for more information on how to further set up your te
     font-size: 22px; /* Or whatever size you want */
     font-weight: lighter;
   }
-     /* Mobile Styles (applied when screen width is 768px or less) */
   @media (max-width: 768px) {
     .step-item {
       flex-direction: column; /* Stack card and info */
@@ -306,7 +285,6 @@ Click on the options below for more information on how to further set up your te
     }
   }
 
-    /* Larger Screen (Desktop) Styles */
   @media (min-width: 769px) {
     .step-item {
       flex-direction: row; /* Restore horizontal layout on larger screens */
@@ -336,15 +314,13 @@ Click on the options below for more information on how to further set up your te
 
 </style>
 
-<div class="steps-container">  <!-- Added the container div here -->
+<div class="steps-container">
   <div class="steps">
     <div class="step-item">
       <div class="card-container-setup">
-        <a href="/docs/hardware-setup" style="text-decoration: none;">
+        <a href="/docs/hardware-setup" style={{textDecoration: 'none'}}>
           <div>
-            <img
-              src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Settings.svg"
-              style="margin: 5px; max-height: 100px; max-width: 100px;">
+            <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Settings.svg" style={{ margin: '5px', maxHeight: '100px', maxWidth: '100px' }} />
             <div class="container">
               <h4><b>Hardware setup</b></h4>
             </div>
@@ -356,51 +332,45 @@ Click on the options below for more information on how to further set up your te
         <p class="step-description configure-text">Configure your terminal's hardware for first use</p>
       </div>
     </div>
-<div class="step-item">
-  <div class="card-container-setup">
-    <a href="/docs/smartpos-activation" style="text-decoration: none;">
-      <div>
-        <img
-          src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Activation.svg"
-          style="margin: 5px; max-height: 100px; max-width: 100px;">
-        <div class="container">
-          <h4><b>Activation</b></h4>
-        </div>
+    <div class="step-item">
+      <div class="card-container-setup">
+        <a href="/docs/smartpos-activation" style={{textDecoration: 'none'}}>
+          <div>
+            <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Activation.svg" style={{margin: '5px', maxHeight: '100px', maxWidth: '100px'}} />
+            <div class="container">
+              <h4><b>Activation</b></h4>
+            </div>
+          </div>
+        </a>
       </div>
-    </a>
-  </div>
-  <div class="step-info">
-    <div class="step-number">3</div>
-    <p class="step-description configure-text">Activate your terminal from your MultiSafepay dashboard</p>
-  </div>
-</div>
-<div class="step-item">
-  <div class="card-container-setup">
-    <a href="/docs/event-notifications" style="text-decoration: none;">
-      <div>
-        <img
-          src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Notifications.svg"
-          style="margin: 5px; max-height: 100px; max-width: 100px;">
-        <div class="container">
-          <h4><b>Event notifications</b></h4>
-        </div>
+      <div class="step-info">
+        <div class="step-number">3</div>
+        <p class="step-description configure-text">Activate your terminal from your MultiSafepay dashboard</p>
       </div>
-    </a>
+    </div>
+    <div class="step-item">
+      <div class="card-container-setup">
+        <a href="/docs/event-notifications" style={{textDecoration: 'none'}}>
+          <div>
+            <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Notifications.svg" style={{margin: '5px', maxHeight: '100px', maxWidth: '100px'}} />
+            <div class="container">
+              <h4><b>Event notifications</b></h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="step-info">
+        <div class="step-number">4</div>
+        <p class="step-description configure-text">Subscribe to event notifications to receive order status updates</p>
+      </div>
+    </div>
   </div>
-  <div class="step-info">
-    <div class="step-number">4</div>
-    <p class="step-description configure-text">Subscribe to event notifications to receive order status updates</p>
-  </div>
-	</div>
 </div>
-</div>
-
 <div class="step-item">
   <div class="card-container-setup">
-    <a href="/docs/smartpos-features" style="text-decoration: none;">
+    <a href="/docs/smartpos-features" style={{textDecoration: 'none'}}>
       <div>
-        <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Omnichannel-payments.svg"
-          style="margin: 5px; max-height: 100px; max-width: 100px;">
+        <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Omnichannel-payments.svg" style={{margin: '5px', maxHeight: '100px', mxWidth: '100px'}} />
         <div class="container">
           <h4><b>SmartPOS features</b></h4>
         </div>
@@ -409,12 +379,12 @@ Click on the options below for more information on how to further set up your te
   </div>
   <div class="step-info">
     <div class="step-number">5</div>
-    <p class="step-description configure-text" style="margin-top: 12px !important;">Customize your payment flow with additional features</p>
+    <p class="step-description configure-text" style={{ marginTop: '12px !important' }}>Customize your payment flow with additional features</p>
   </div>
 </div>
 
 ***
 
-If you encounter issues during the set-up of your terminal, visit our <a href="https://docs.multisafepay.com/docs/pos-troubleshooting" target="_blank">POS troubleshooting</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>page for common solutions.
+If you encounter issues during the set-up of your terminal, visit our <a href="https://docs.multisafepay.com/docs/pos-troubleshooting" target="_blank">POS troubleshooting</a> <i class="fa fa-external-link" style={{ fontSize:'12px',color:'#8b929e' }} />page for common solutions.
 
 [Top of page](#)
