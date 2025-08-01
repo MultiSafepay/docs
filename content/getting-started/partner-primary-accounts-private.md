@@ -1,10 +1,13 @@
 ---
-title: "Partner and primary accounts"
-category: 627bbcf80c1c9c0050320b60
-order: 9
-hidden: true
-parentDoc: 62b0845857c8ab006af6a4f7
-slug: 'partner-and-primary-accounts'
+title: Partner and primary accounts
+category:
+  uri: Getting started
+slug: partner-and-primary-accounts
+position: 9
+privacy:
+  view: anyone_with_link
+parent:
+  uri: manage-account
 ---
 
 Partner account holders manage the accounts of multiple affiliated merchants, which they charge a fee.

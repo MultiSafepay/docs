@@ -1,10 +1,13 @@
 ---
-title: 'Recurring payments'
-category: 6278c92bf4ad4a00361431b0
-order: 3
-hidden: false
-slug: 'recurring-payments'
-excerpt: 'Boost conversion and manage subscriptions using tokenization.'
+title: Recurring payments
+category:
+  uri: Payment management
+slug: recurring-payments
+position: 3
+privacy:
+  view: public
+content:
+  excerpt: Boost conversion and manage subscriptions using tokenization.
 ---
 Recurring payments is a MultiSafepay solution that securely stores payment details to enable quick, easy repeat payments.
 

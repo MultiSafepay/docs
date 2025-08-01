@@ -1,10 +1,13 @@
 ---
-title: 'Klarna'
-category: 6298bd782d1cf4006032e765
-order: 3
-hidden: false
-parentDoc: 62bd75142e264000a66d62b5
-slug: 'klarna'
+title: Klarna
+category:
+  uri: Payment methods
+slug: klarna
+position: 3
+privacy:
+  view: public
+parent:
+  uri: bnpl
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/klarna.svg" width="150" align="right" style={{margin: '20px 20px 20px 40px', maxHeight: '75px'}} />
 

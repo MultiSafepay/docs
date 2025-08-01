@@ -1,10 +1,13 @@
 ---
-title: 'Wallets'
-category: 6298bd782d1cf4006032e765
-order: 5
-hidden: false
-slug: 'wallets'
---- 
+title: Wallets
+category:
+  uri: Payment methods
+slug: wallets
+position: 5
+privacy:
+  view: public
+---
+ 
 ## Digital Wallets
 
 <Cards columns={4}>

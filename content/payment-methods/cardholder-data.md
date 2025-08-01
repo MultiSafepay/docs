@@ -1,11 +1,15 @@
 ---
-title: 'Cardholder data'
-category: 6298bd782d1cf4006032e765
-order: 5
-hidden: false
-parentDoc: 62a727569e389a012f577acd
-excerpt: Handle sensitive cardholder data on your PCI DSS compliant server.
-slug: 'cardholder-data'
+title: Cardholder data
+category:
+  uri: Payment methods
+slug: cardholder-data
+position: 5
+privacy:
+  view: public
+parent:
+  uri: cards
+content:
+  excerpt: Handle sensitive cardholder data on your PCI DSS compliant server.
 ---
 When you accept credit and debit card payments using a [payment page](/docs/payment-pages/) or [payment component](/docs/payment-components/), MultiSafepay handles the sensitive cardholder data, including:
 

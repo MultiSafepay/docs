@@ -1,10 +1,13 @@
 ---
-title: 'Betaal per Maand (Deprecated)'
-category: 6298bd782d1cf4006032e765
-order: 0
-hidden: false
-parentDoc: 62bd75142e264000a66d62b5
+title: Betaal per Maand (Deprecated)
+category:
+  uri: Payment methods
 slug: betaal-per-maand
+position: 0
+privacy:
+  view: public
+parent:
+  uri: bnpl
 ---
 >⚠️ Note:
 >

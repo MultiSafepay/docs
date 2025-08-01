@@ -1,10 +1,13 @@
 ---
-title: "Prohibited products and services"
-category: 627bbcf80c1c9c0050320b60
-parentDoc: 62a2055be5b9db006a2545a7
-order: 1
-hidden: false
-slug: 'prohibited-products-services'
+title: Prohibited products and services
+category:
+  uri: Getting started
+slug: prohibited-products-services
+parent:
+  uri: onboarding
+position: 1
+privacy:
+  view: public
 ---
 
 As a payment service provider, MultiSafepay is subject to Dutch and European legislation and regulations. We must also comply with specific policies set by each payment method we offer.

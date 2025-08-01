@@ -1,11 +1,15 @@
 ---
-title: "Single payment method"
-category: 62bd999547298d001abc714c
-order: 1
-hidden: false
-slug: 'payment-component-single'
-parentDoc: 62a848399bb3eb004023f291 
---- 
+title: Single payment method
+category:
+  uri: Checkout
+slug: payment-component-single
+position: 1
+privacy:
+  view: public
+parent:
+  uri: payment-components
+---
+ 
 This technical manual is for integrating a payment component using a single payment method.
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/payment-component-single.png" width="450" />

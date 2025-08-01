@@ -1,10 +1,13 @@
 ---
-title: 'Card refunds'
-category: 6298bd782d1cf4006032e765
-order: 4
-hidden: false
-parentDoc: 62a727569e389a012f577acd
-slug: 'card-refunds'
+title: Card refunds
+category:
+  uri: Payment methods
+slug: card-refunds
+position: 4
+privacy:
+  view: public
+parent:
+  uri: cards
 ---
 # Refunds
 

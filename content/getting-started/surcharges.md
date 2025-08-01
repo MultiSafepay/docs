@@ -1,10 +1,13 @@
 ---
-title: "Surcharges"
-category: 627bbcf80c1c9c0050320b60
-order: 9
-hidden: false
-parentDoc: 62a087abb10eb40052c9fd04
-slug: 'surcharges'
+title: Surcharges
+category:
+  uri: Getting started
+slug: surcharges
+position: 9
+privacy:
+  view: public
+parent:
+  uri: security-and-legal
 ---
 > ℹ ### ​Check this page regularly for updates on implementing the PSD2.
 

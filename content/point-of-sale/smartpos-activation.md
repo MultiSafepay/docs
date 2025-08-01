@@ -1,10 +1,13 @@
 ---
-title: 'SmartPOS activation'
-parentDoc: 64674fbc74bc4007521ebbcb 
-category: 6477597e0e2961004638cd5d 
-order: 2
-hidden: false
-slug: 'smartpos-activation'
+title: SmartPOS activation
+category:
+  uri: Point-of-sale
+slug: smartpos-activation
+parent:
+  uri: smartpos-terminal
+position: 2
+privacy:
+  view: public
 ---
 > ⚠️ Note:
 >

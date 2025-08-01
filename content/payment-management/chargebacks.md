@@ -1,9 +1,11 @@
 ---
-title: 'Chargebacks'
-category: 6278c92bf4ad4a00361431b0
-order: 0
-hidden: false
-slug: 'chargebacks'
+title: Chargebacks
+category:
+  uri: Payment management
+slug: chargebacks
+position: 0
+privacy:
+  view: public
 ---
 A chargeback is a dispute process that occurs when a cardholder disagrees with or doesn't recognize a transaction charged to their credit or debit card and requests the <Glossary>issuer</Glossary> to reverse it. The <Glossary>card scheme</Glossary> notifies MultiSafepay and reclaims your transaction amount.
 

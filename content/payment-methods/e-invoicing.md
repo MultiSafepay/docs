@@ -1,10 +1,13 @@
 ---
-title: 'E-Invoicing'
-category: 6298bd782d1cf4006032e765
-order: 1
-hidden: false
-parentDoc: 62bd75142e264000a66d62b5
-slug: 'e-invoicing'
+title: E-Invoicing
+category:
+  uri: Payment methods
+slug: e-invoicing
+position: 1
+privacy:
+  view: public
+parent:
+  uri: bnpl
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/e-invoicing.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 

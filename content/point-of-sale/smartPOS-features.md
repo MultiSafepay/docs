@@ -1,11 +1,13 @@
 ---
-title: 'SmartPOS features'
-parentDoc: 64674fbc74bc4007521ebbcb
-category: 6477597e0e2961004638cd5d
-order: 3
-hidden: false
-slug: 'smartpos-features'
-
+title: SmartPOS features
+category:
+  uri: Point-of-sale
+slug: smartpos-features
+parent:
+  uri: smartpos-terminal
+position: 3
+privacy:
+  view: public
 ---
 > ⚠️ Note:
 >

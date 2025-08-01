@@ -1,9 +1,11 @@
 ---
-title: "Payment statuses"
-category: 6278c92bf4ad4a00361431b0
-order: 2
-hidden: false
-slug: 'payment-statuses'
+title: Payment statuses
+category:
+  uri: Payment management
+slug: payment-statuses
+position: 2
+privacy:
+  view: public
 ---
 There are two statuses for each payment that update as it is processed:
 

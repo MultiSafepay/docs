@@ -1,10 +1,13 @@
 ---
-title: 'Google Pay'
-category: 6298bd782d1cf4006032e765
-order: 6
-hidden: false
+title: Google Pay
+category:
+  uri: Payment methods
 slug: google-pay
-parentDoc: 62a6ec51d7a8100053916d99
+position: 6
+privacy:
+  view: public
+parent:
+  uri: wallets
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/googlepay.svg" width="90" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 

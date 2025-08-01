@@ -1,9 +1,11 @@
 ---
-title: "FastCheckout Android SDK"
-category: 62962df622e99600810c117d
-order: 2
-hidden: true
-slug: 'fastcheckout-android'
+title: FastCheckout Android SDK
+category:
+  uri: Developers
+slug: fastcheckout-android
+position: 2
+privacy:
+  view: anyone_with_link
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/1281f9320696f2d256d0859421ec2cfa2350e644/static/logo/Integrations/Fastcheckout_Android.svg" width="100" align="right" />
 

@@ -1,11 +1,15 @@
 ---
-title: "VirtueMart 4"
-category: 62962dd7e272a6002ebbbbc5
-order: 15
-hidden: false
-parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Technical manual for MultiSafepay's free plugin."
-slug: 'virtuemart-4'
+title: VirtueMart 4
+category:
+  uri: Integrations
+slug: virtuemart-4
+position: 15
+privacy:
+  view: public
+parent:
+  uri: our-integrations
+content:
+  excerpt: Technical manual for MultiSafepay's free plugin.
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/VirtueMart.svg" width="50" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 

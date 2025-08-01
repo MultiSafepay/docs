@@ -1,9 +1,11 @@
 ---
-title: 'Overview'
-category: 6477597e0e2961004638cd5d
-order: 0
-hidden: false
-slug: 'overview'
+title: Overview
+category:
+  uri: Point-of-sale
+slug: overview
+position: 0
+privacy:
+  view: public
 ---
 > ⚠️ Note:
 >

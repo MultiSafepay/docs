@@ -1,11 +1,15 @@
 ---
-title: "PWA Studio (Venia)"
-category: 62962dd7e272a6002ebbbbc5
-order: 11
-hidden: false
-parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Technical manual for MultiSafepay's plugin."
-slug: 'pwa-studio-venia'
+title: PWA Studio (Venia)
+category:
+  uri: Integrations
+slug: pwa-studio-venia
+position: 11
+privacy:
+  view: public
+parent:
+  uri: our-integrations
+content:
+  excerpt: Technical manual for MultiSafepay's plugin.
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento_PWA.svg" width="50" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 

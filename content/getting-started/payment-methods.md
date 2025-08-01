@@ -1,11 +1,15 @@
 ---
-title: "Payment methods"
-category: 627bbcf80c1c9c0050320b60
-order: 10
-hidden: false
-parentDoc: 62b0845857c8ab006af6a4f7
-slug: 'payment-methods'
-excerpt: 'Activate payment methods for your account.'
+title: Payment methods
+category:
+  uri: Getting started
+slug: payment-methods
+position: 10
+privacy:
+  view: public
+parent:
+  uri: manage-account
+content:
+  excerpt: Activate payment methods for your account.
 ---
 
 MultiSafepay offers a wide range of payment methods.

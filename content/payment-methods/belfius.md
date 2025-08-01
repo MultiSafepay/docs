@@ -1,10 +1,13 @@
 ---
-title: 'Belfius'
-category: 6298bd782d1cf4006032e765
-order: 4
-hidden: false
-parentDoc: 62a728d48b97080046c1d220
-slug: 'belfius'
+title: Belfius
+category:
+  uri: Payment methods
+slug: belfius
+position: 4
+privacy:
+  view: public
+parent:
+  uri: banking-methods
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/belfius.svg" width="100" alt="Belfius logo" style={{ margin: "20px", maxHeight: "75px", float: "right" }} />

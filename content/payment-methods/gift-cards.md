@@ -1,10 +1,13 @@
 ---
-title: 'Gift cards'
-category: 6298bd782d1cf4006032e765
-order: 1
-hidden: false
-parentDoc: 62a32bf042021c00e1cd7e5c
-slug: 'gift-cards'
+title: Gift cards
+category:
+  uri: Payment methods
+slug: gift-cards
+position: 1
+privacy:
+  view: public
+parent:
+  uri: prepaid-cards
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/giftcards/vvvcadeaukaart.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 

@@ -1,10 +1,13 @@
 ---
-title: 'Second Chance reminders'
-category: 6278c92bf4ad4a00361431b0
-order: 5
-hidden: false
-slug: 'second-chance'
-excerpt: 'Boost conversion by sending customers reminders about abandoned payments.'
+title: Second Chance reminders
+category:
+  uri: Payment management
+slug: second-chance
+position: 5
+privacy:
+  view: public
+content:
+  excerpt: Boost conversion by sending customers reminders about abandoned payments.
 ---
 Second Chance is a MultiSafepay solution that automatically emails customers a payment link when they initiate but don't complete a transaction. This helps boost <Glossary>conversion</Glossary> and impulse purchases.
 

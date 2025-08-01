@@ -1,10 +1,13 @@
 ---
-title: 'Email styling'
-category: 627bbcf80c1c9c0050320b60
-order: 4
-hidden: false
-parentDoc: 62b0845857c8ab006af6a4f7
-slug: 'email-styling'
+title: Email styling
+category:
+  uri: Getting started
+slug: email-styling
+position: 4
+privacy:
+  view: public
+parent:
+  uri: manage-account
 ---
 
 You can style emails to customers, payment pages, and success pages to match your brand's look and feel.

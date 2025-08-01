@@ -1,10 +1,11 @@
 ---
-title: 'POS troubleshooting'
-category: 6477597e0e2961004638cd5d
-order: 4
-hidden: false
-slug: 'pos-troubleshooting'
-
+title: POS troubleshooting
+category:
+  uri: Point-of-sale
+slug: pos-troubleshooting
+position: 4
+privacy:
+  view: public
 ---
 This page provides troubleshooting steps to resolve common issues.
 

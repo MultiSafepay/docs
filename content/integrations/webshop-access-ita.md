@@ -1,9 +1,11 @@
 ---
-title : "Supporto tecnico: Aiutaci, ti aiutiamo"
-category: 62962dd7e272a6002ebbbbc5
-order: 2
-hidden: true
-slug: 'aiutaci-ti-aiutiamo'
+title: 'Supporto tecnico: Aiutaci, ti aiutiamo'
+category:
+  uri: Integrations
+slug: aiutaci-ti-aiutiamo
+position: 2
+privacy:
+  view: anyone_with_link
 ---
 
 I plugin vengono sempre testati prima di essere rilasciati. Tuttavia, è possibile che ci sia qualche malfunzionamento.

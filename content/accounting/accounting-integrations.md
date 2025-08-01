@@ -1,9 +1,11 @@
 ---
-title: "Accounting integrations"
-category: 62962dee7af1c800355771a1
-order: 0
-hidden: false
-slug: 'accounting-integrations'
+title: Accounting integrations
+category:
+  uri: Accounting
+slug: accounting-integrations
+position: 0
+privacy:
+  view: public
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/ACA.svg" width="150" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 

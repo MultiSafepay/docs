@@ -1,10 +1,13 @@
 ---
-title: 'Edenred'
-category: 6298bd782d1cf4006032e765
-order: 0
-hidden: false
-parentDoc: 62a32bf042021c00e1cd7e5c
-slug: 'edenred'
+title: Edenred
+category:
+  uri: Payment methods
+slug: edenred
+position: 0
+privacy:
+  view: public
+parent:
+  uri: prepaid-cards
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/giftcards/edenred.svg" width="80" align="right" style={{margin: '20px 20px 20px 30px', maxHeight: '75px'}} />
 

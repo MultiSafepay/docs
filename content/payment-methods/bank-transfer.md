@@ -1,10 +1,13 @@
 ---
-title: 'Bank transfer'
-category: 6298bd782d1cf4006032e765
-parentDoc: 62a728d48b97080046c1d220
-order: 3
-hidden: false
-slug: 'bank-transfer'
+title: Bank transfer
+category:
+  uri: Payment methods
+slug: bank-transfer
+parent:
+  uri: banking-methods
+position: 3
+privacy:
+  view: public
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/banktransfer-en.svg" width="90" align="right" style={{margin: '20px', maxHeight: '75px'}} />

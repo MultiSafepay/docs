@@ -1,11 +1,15 @@
 ---
-title: "Coppermine"
-category: 62962dd7e272a6002ebbbbc5
-order: 0
-hidden: false
-parentDoc: 62a9a54aba9800011a8bda88
-slug: 'coppermine'
-excerpt: "Free integration for MultiSafepay payment solutions."
+title: Coppermine
+category:
+  uri: Integrations
+slug: coppermine
+position: 0
+privacy:
+  view: public
+parent:
+  uri: partner-integrations
+content:
+  excerpt: Free integration for MultiSafepay payment solutions.
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/coppermine-docs.svg" width="50" align="right" style={{ margin: "20px", maxHeight: "75px" }} />
 

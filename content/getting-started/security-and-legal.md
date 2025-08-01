@@ -1,9 +1,11 @@
 ---
-title: 'Security and legal'
-category: 627bbcf80c1c9c0050320b60
-order: 4
-hidden: false
-slug: 'security-and-legal'
+title: Security and legal
+category:
+  uri: Getting started
+slug: security-and-legal
+position: 4
+privacy:
+  view: public
 ---
 **Payment regulations**
 

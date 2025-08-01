@@ -1,11 +1,15 @@
 ---
-title: "Onboarding & affiliate management via API"
-category: 627bbcf80c1c9c0050320b60
-parentDoc: 62a2055be5b9db006a2545a7
-order: 2
-hidden: true
-slug: 'onboarding-affiliates-via-api'
-excerpt: ''
+title: Onboarding & affiliate management via API
+category:
+  uri: Getting started
+slug: onboarding-affiliates-via-api
+parent:
+  uri: onboarding
+position: 2
+privacy:
+  view: anyone_with_link
+content:
+  excerpt: ''
 ---
 
 Partner account holders can manage and onboard affiliated merchant accounts via our API.

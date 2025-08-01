@@ -1,10 +1,13 @@
 ---
-title: 'Virtual IBANs'
-category: 6278c92bf4ad4a00361431b0
-order: 8
-hidden: false
-slug: 'virtual-ibans'
-excerpt: "Collect bank transfers and direct debits in your own bank account."
+title: Virtual IBANs
+category:
+  uri: Payment management
+slug: virtual-ibans
+position: 8
+privacy:
+  view: public
+content:
+  excerpt: Collect bank transfers and direct debits in your own bank account.
 ---
 A virtual international bank account number (VIBAN) in your company name improves the customer experience for [bank transfers](/docs/bank-transfer/) and [SEPA direct debits](/docs/direct-debit/):
 

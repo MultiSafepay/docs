@@ -1,10 +1,13 @@
 ---
-title: 'Alipay+'
-category: 6298bd782d1cf4006032e765
-order: 1
-hidden: false
-parentDoc: 62a6ec51d7a8100053916d99
-slug: 'alipay-plus'
+title: Alipay+
+category:
+  uri: Payment methods
+slug: alipay-plus
+position: 1
+privacy:
+  view: public
+parent:
+  uri: wallets
 ---
 > ℹ️ For migrating merchants
 >

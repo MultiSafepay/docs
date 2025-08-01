@@ -1,10 +1,13 @@
 ---
-title: 'FastCheckout JavaScript integration'
-category: 62bd999547298d001abc714c
-order: 0
-hidden: false
-slug: 'fastcheckout-integration'
-parentDoc: 62fcc05ac034cb06771c46fc
+title: FastCheckout JavaScript integration
+category:
+  uri: Checkout
+slug: fastcheckout-integration
+position: 0
+privacy:
+  view: public
+parent:
+  uri: fastcheckout
 ---
 
 This technical manual is for embedding FastCheckout into your website using JavaScript.

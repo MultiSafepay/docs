@@ -1,10 +1,13 @@
 ---
-title: 'Testing payment methods'
-category: 6298bd782d1cf4006032e765
-order: 6
-hidden: false
-slug: 'testing'
-excerpt: 'Test payment methods and resolve common issues.'
+title: Testing payment methods
+category:
+  uri: Payment methods
+slug: testing
+position: 6
+privacy:
+  view: public
+content:
+  excerpt: Test payment methods and resolve common issues.
 ---
 Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay test account</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 

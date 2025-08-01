@@ -1,11 +1,15 @@
 ---
-title: "Onboarding affiliates via API"
-category: 627bbcf80c1c9c0050320b60
-parentDoc: 62a2055be5b9db006a2545a7
-order: 0
-hidden: false
-slug: 'affiliate-onboarding-api'
-excerpt: ''
+title: Onboarding affiliates via API
+category:
+  uri: Getting started
+slug: affiliate-onboarding-api
+parent:
+  uri: onboarding
+position: 0
+privacy:
+  view: public
+content:
+  excerpt: ''
 ---
 
 Partner/primary account holders can submit [onboarding information](/docs/onboarding/) for new affiliated merchants via our API.

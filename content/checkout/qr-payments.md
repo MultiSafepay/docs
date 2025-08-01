@@ -1,9 +1,11 @@
 ---
-title: 'QR payments'
-category: 62bd999547298d001abc714c
-order: 4
-hidden: false
-slug: 'qr-payments'
+title: QR payments
+category:
+  uri: Checkout
+slug: qr-payments
+position: 4
+privacy:
+  view: public
 ---
 QR payments have a wide range of applications as codes can be read off screens or paper, e.g. invoices, receipts. Customers can change the amount to pay and the same QR code can be used more than once. This makes them particularly suitable for:
 

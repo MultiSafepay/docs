@@ -1,10 +1,13 @@
 ---
-title: 'CBC/KBC'
-category: 6298bd782d1cf4006032e765
-order: 6
-hidden: false
-parentDoc: 62a728d48b97080046c1d220
-slug: 'cbc-kbc'
+title: CBC/KBC
+category:
+  uri: Payment methods
+slug: cbc-kbc
+position: 6
+privacy:
+  view: public
+parent:
+  uri: banking-methods
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/cbc.svg" width="60" alt="CBC/KBC logo" style={{ margin: "30px", maxHeight: "75px", float: "right" }} />

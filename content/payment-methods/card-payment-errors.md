@@ -1,10 +1,13 @@
 ---
-title: "Card payment errors"
-category: 6298bd782d1cf4006032e765
-order: 1
-hidden: false
-parentDoc: 62a727569e389a012f577acd
-slug: "card-payment-errors"
+title: Card payment errors
+category:
+  uri: Payment methods
+slug: card-payment-errors
+position: 1
+privacy:
+  view: public
+parent:
+  uri: cards
 ---
 This page lists card error codes you may encounter in authentication and authorization responses or statuses and descriptions.
 

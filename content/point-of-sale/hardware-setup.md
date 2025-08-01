@@ -1,10 +1,13 @@
 ---
-title: 'Hardware setup'
-parentDoc: 64674fbc74bc4007521ebbcb 
-category: 6477597e0e2961004638cd5d
-order: 1
-hidden: false
-slug: 'hardware-setup'
+title: Hardware setup
+category:
+  uri: Point-of-sale
+slug: hardware-setup
+parent:
+  uri: smartpos-terminal
+position: 1
+privacy:
+  view: public
 ---
 > ⚠️ Note:
 >

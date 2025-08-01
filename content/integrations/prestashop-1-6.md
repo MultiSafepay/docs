@@ -1,11 +1,15 @@
 ---
-title: "PrestaShop 1.6"
-category: 62962dd7e272a6002ebbbbc5
-order: 10
-hidden: false
-parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Technical manual for MultiSafepay's free plugin."
-slug: 'prestashop-1-6'
+title: PrestaShop 1.6
+category:
+  uri: Integrations
+slug: prestashop-1-6
+position: 10
+privacy:
+  view: public
+parent:
+  uri: our-integrations
+content:
+  excerpt: Technical manual for MultiSafepay's free plugin.
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop_new.svg" width="50" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 

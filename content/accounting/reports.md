@@ -1,9 +1,11 @@
 ---
-title: 'Reports'
-category: 62962dee7af1c800355771a1
-order: 2
-hidden: false
-slug: 'reports'
+title: Reports
+category:
+  uri: Accounting
+slug: reports
+position: 2
+privacy:
+  view: public
 ---
 Reports can be generated via your Merchant Dashboard, or received in a [subscription](/docs/reports#set-up-automated-reports).
 

@@ -1,9 +1,11 @@
 ---
-title : "Integration Troubleshooting Guide"
-category: 62962dd7e272a6002ebbbbc5
-order: 500
-hidden: false
-slug: 'help-us-help-you'
+title: Integration Troubleshooting Guide
+category:
+  uri: Integrations
+slug: help-us-help-you
+position: 500
+privacy:
+  view: public
 ---
 
 We test all our ready-made integrations before release, but due to external factors or incompatibility with third party solutions, your integration may still encounter configuration issues or a bug.

@@ -1,11 +1,15 @@
 ---
-title: "CS-Cart"
-category: 62962dd7e272a6002ebbbbc5
-order: 1
-hidden: false
-parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Technical manual for MultiSafepay's free plugin."
-slug: 'cs-cart'
+title: CS-Cart
+category:
+  uri: Integrations
+slug: cs-cart
+position: 1
+privacy:
+  view: public
+parent:
+  uri: our-integrations
+content:
+  excerpt: Technical manual for MultiSafepay's free plugin.
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/CS-Cart.svg" width="50" align="right" style={{margin: "20px", maxHeight: "75px"}} />
 

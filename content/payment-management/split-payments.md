@@ -1,9 +1,11 @@
 ---
-title: 'Split payments'
-category: 6278c92bf4ad4a00361431b0
-order: 6
-hidden: false
-slug: 'split-payments'
+title: Split payments
+category:
+  uri: Payment management
+slug: split-payments
+position: 6
+privacy:
+  view: public
 ---
 Split Payments lets you divide an incoming transaction amount between two or more MultiSafepay accounts.
 

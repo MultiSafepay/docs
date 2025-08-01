@@ -1,10 +1,13 @@
 ---
-title: "Payouts"
-category: 627bbcf80c1c9c0050320b60
-order: 11
-hidden: false
-parentDoc: 62b0845857c8ab006af6a4f7
-slug: 'payouts'
+title: Payouts
+category:
+  uri: Getting started
+slug: payouts
+position: 11
+privacy:
+  view: public
+parent:
+  uri: manage-account
 ---
 A payout is when you transfer funds from your account balance to your business bank account.
 

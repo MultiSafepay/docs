@@ -1,10 +1,11 @@
 ---
-title: 'Device shop'
-category: 6477597e0e2961004638cd5d
-order: 4
-hidden: true
-slug: 'device-shop'
-
+title: Device shop
+category:
+  uri: Point-of-sale
+slug: device-shop
+position: 4
+privacy:
+  view: anyone_with_link
 ---
 You can explore our <a href="https://www.multisafepay.com/nl_nl/oplossingen/in-person-pos/pin-terminals" target="_blank">SmartPOS terminals</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> and accessories directly through the shop in your MultiSafepay dashboard. Technical details and prices are provided for each device listed.
 

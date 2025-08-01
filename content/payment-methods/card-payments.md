@@ -1,11 +1,15 @@
 ---
-title: 'Card payments'
-category: 6298bd782d1cf4006032e765
-order: 3
-hidden: false
-slug: 'card-payments'
-parentDoc: 62a727569e389a012f577acd
---- 
+title: Card payments
+category:
+  uri: Payment methods
+slug: card-payments
+position: 3
+privacy:
+  view: public
+parent:
+  uri: cards
+---
+ 
 <details id="about-credit-and-debit-cards">
   <summary>About credit and debit cards</summary>
 

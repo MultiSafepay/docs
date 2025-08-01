@@ -1,11 +1,15 @@
 ---
-title: 'GDPR'
-category: 627bbcf80c1c9c0050320b60
-order: 5
-hidden: false
-parentDoc: 62a087abb10eb40052c9fd04
-slug: 'gdpr'
-excerpt: 'General Data Protection Regulation 2016/679'
+title: GDPR
+category:
+  uri: Getting started
+slug: gdpr
+position: 5
+privacy:
+  view: public
+parent:
+  uri: security-and-legal
+content:
+  excerpt: General Data Protection Regulation 2016/679
 ---
  
 The GDPR is a European Union regulation on protecting and transferring personal data and privacy in the EU and European Economic Area.

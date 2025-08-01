@@ -1,11 +1,15 @@
 ---
-title: "Shopify Payment Apps"
-category: 62962dd7e272a6002ebbbbc5
-order: 11
-hidden: false
-parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Technical manual for MultiSafepay's Shopify Payments Apps."
-slug: 'shopify-payment-apps'
+title: Shopify Payment Apps
+category:
+  uri: Integrations
+slug: shopify-payment-apps
+position: 11
+privacy:
+  view: public
+parent:
+  uri: our-integrations
+content:
+  excerpt: Technical manual for MultiSafepay's Shopify Payments Apps.
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shopify.svg" width="50" style={{float: 'right', margin: '20px', maxHeight: '75px'}} />
 

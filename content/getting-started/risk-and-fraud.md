@@ -1,10 +1,13 @@
 ---
-title: 'Risk and fraud'
-category: 627bbcf80c1c9c0050320b60
-order: 8
-hidden: false
-parentDoc: 62a087abb10eb40052c9fd04
-slug: 'risk-fraud'
+title: Risk and fraud
+category:
+  uri: Getting started
+slug: risk-fraud
+position: 8
+privacy:
+  view: public
+parent:
+  uri: security-and-legal
 ---
 
 MultiSafepay prevents fraud by monitoring payments and actively tracking and reporting online criminals. Our risk management systems are designed to accommodate merchants and partners with different needs. The Risk Team analyzes high-risk transactions and actively works to reduce [chargebacks](/docs/chargebacks/).

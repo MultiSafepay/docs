@@ -1,9 +1,11 @@
 ---
-title: "Reconciliation via API"
-category: 62962dee7af1c800355771a1
-order: 1
-hidden: false
-slug: 'api-reconciliation'
+title: Reconciliation via API
+category:
+  uri: Accounting
+slug: api-reconciliation
+position: 1
+privacy:
+  view: public
 ---
 The transactions API endpoint returns details about your transactions. You can use it to automate reconciliation and gain insight into your transactions.
 

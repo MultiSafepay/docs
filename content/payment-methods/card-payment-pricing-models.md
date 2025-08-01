@@ -1,11 +1,15 @@
 ---
-title: "Card payment pricing models"
-category: 6298bd782d1cf4006032e765
-order: 2
-hidden: false
-parentDoc: 62a727569e389a012f577acd
-excerpt: Distintion between Blended and Interchange ++ pricing
-slug: "card-payment-pricing-models" 
+title: Card payment pricing models
+category:
+  uri: Payment methods
+slug: card-payment-pricing-models
+position: 2
+privacy:
+  view: public
+parent:
+  uri: cards
+content:
+  excerpt: Distintion between Blended and Interchange ++ pricing
 ---
 Banks and <Glossary>card schemes</Glossary> charge different fees to cover the operational costs of managing their network and processing card payments.
 

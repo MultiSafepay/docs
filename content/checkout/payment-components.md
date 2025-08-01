@@ -1,9 +1,11 @@
 ---
-title: 'Payment components'
-category: 62bd999547298d001abc714c
-order: 1
-hidden: false
-slug: 'payment-components'
+title: Payment components
+category:
+  uri: Checkout
+slug: payment-components
+position: 1
+privacy:
+  view: public
 ---
 Payment components let you embed payment methods directly into your checkout.
 

@@ -1,9 +1,11 @@
 ---
-title: "FastCheckout iOS SDK"
-category: 62962df622e99600810c117d
-order: 3
-hidden: true
-slug: 'fastcheckout-ios'
+title: FastCheckout iOS SDK
+category:
+  uri: Developers
+slug: fastcheckout-ios
+position: 3
+privacy:
+  view: anyone_with_link
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/1281f9320696f2d256d0859421ec2cfa2350e644/static/logo/Integrations/Fastcheckout_iOS.svg" width="100" align="right" />
 

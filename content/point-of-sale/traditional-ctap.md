@@ -1,10 +1,11 @@
 ---
-title: 'Traditional (CTAP) terminal'
-category: 6477597e0e2961004638cd5d
-order: 1
-hidden: false
-slug: 'traditional-ctap-terminal'
-
+title: Traditional (CTAP) terminal
+category:
+  uri: Point-of-sale
+slug: traditional-ctap-terminal
+position: 1
+privacy:
+  view: public
 ---
 > ⚠️ Note:
 >

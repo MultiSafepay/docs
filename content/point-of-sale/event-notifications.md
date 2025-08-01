@@ -1,11 +1,15 @@
 ---
-title: 'Event notifications'
-parentDoc: 64674fbc74bc4007521ebbcb
-category: 6477597e0e2961004638cd5d
-order: 4
-hidden: false
-slug: 'event-notifications'
-excerpt: 'Receive status updates for SmartPOS terminal transactions.'
+title: Event notifications
+category:
+  uri: Point-of-sale
+slug: event-notifications
+parent:
+  uri: smartpos-terminal
+position: 4
+privacy:
+  view: public
+content:
+  excerpt: Receive status updates for SmartPOS terminal transactions.
 ---
 MultiSafepay offers the possibility to subscribe to event notifications. This allows your system to receive real-time updates on order statuses without the need for manual checks.
 

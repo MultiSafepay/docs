@@ -1,10 +1,13 @@
 ---
-title: 'Credit and debit cards'
-category: 6298bd782d1cf4006032e765
-order: 3
-hidden: false
-slug: 'cards'
---- 
+title: Credit and debit cards
+category:
+  uri: Payment methods
+slug: cards
+position: 3
+privacy:
+  view: public
+---
+ 
 ## Brands
 
 <CardGallery />

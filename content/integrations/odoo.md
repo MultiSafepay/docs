@@ -1,11 +1,13 @@
 ---
-title: "Odoo"
-category: 62962dd7e272a6002ebbbbc5
-order: 1
-hidden: false
-parentDocs: 67e1463616608a00475c5f28
-excerpt: "Technical manual for MultiSafepay's free plugin."
-slug: 'odoo'
+title: Odoo
+category:
+  uri: Integrations
+slug: odoo
+position: 1
+privacy:
+  view: public
+content:
+  excerpt: Technical manual for MultiSafepay's free plugin.
 ---
 > ❗️ Important:
 >

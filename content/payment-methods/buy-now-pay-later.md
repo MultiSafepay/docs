@@ -1,10 +1,13 @@
 ---
-title: 'Buy now pay later'
-category: 6298bd782d1cf4006032e765
-order: 2
-hidden: false
-slug: 'bnpl'
---- 
+title: Buy now pay later
+category:
+  uri: Payment methods
+slug: bnpl
+position: 2
+privacy:
+  view: public
+---
+ 
 ## Europe-wide
 
 <Cards columns={4}>

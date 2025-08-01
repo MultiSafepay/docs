@@ -1,9 +1,11 @@
 ---
-title: 'Getting started guide'
-category: 627bbcf80c1c9c0050320b60
-order: 0
-hidden: false
-slug: 'getting-started-guide'
+title: Getting started guide
+category:
+  uri: Getting started
+slug: getting-started-guide
+position: 0
+privacy:
+  view: public
 ---
 
 This page provides an overview of how to get started with MultiSafepay as your smart payment services provider.

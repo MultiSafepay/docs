@@ -1,9 +1,11 @@
 ---
-title: 'Prepaid cards'
-category: 6298bd782d1cf4006032e765
-order: 4
-hidden: false
-slug: 'prepaid-cards'
+title: Prepaid cards
+category:
+  uri: Payment methods
+slug: prepaid-cards
+position: 4
+privacy:
+  view: public
 ---
 ## Gift Cards
 

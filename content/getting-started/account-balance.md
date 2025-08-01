@@ -1,11 +1,15 @@
 ---
-title: "Account balance"
-category: 627bbcf80c1c9c0050320b60
-order: 0
-hidden: false
-parentDoc: 62b0845857c8ab006af6a4f7
-slug: 'account-balance'
-excerpt: 'The funds held in your MultiSafepay account.'
+title: Account balance
+category:
+  uri: Getting started
+slug: account-balance
+position: 0
+privacy:
+  view: public
+parent:
+  uri: manage-account
+content:
+  excerpt: The funds held in your MultiSafepay account.
 ---
 
 # Top ups
