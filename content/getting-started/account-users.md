@@ -111,14 +111,9 @@ Users must then configure 2FA the first time they sign in to the dashboard after
 
 ***
 
-<HTMLBlock>{`
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
-        <p>Support</p>
-    </h3>
-    <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
-</blockquote>
-`}</HTMLBlock>
+
+:::info Support
+Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a>
+:::
 
 [Top of page](#)
