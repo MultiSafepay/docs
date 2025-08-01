@@ -1,10 +1,13 @@
 ---
-title: 'Multiple payment methods'
-category: 62bd999547298d001abc714c
-order: 2
-hidden: false
-slug: 'payment-component-multiple'
-parentDoc: 62a848399bb3eb004023f291
+title: Multiple payment methods
+category:
+  uri: Checkout
+slug: payment-component-multiple
+position: 2
+privacy:
+  view: public
+parent:
+  uri: payment-components
 ---
 This technical manual is for integrating a payment component using multiple payment methods.
 

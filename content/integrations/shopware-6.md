@@ -1,11 +1,15 @@
 ---
-title: "Shopware 6"
-category: 62962dd7e272a6002ebbbbc5
-order: 13
-hidden: false
-parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Technical manuals for MultiSafepay's free plugins."
-slug: 'shopware-6'
+title: Shopware 6
+category:
+  uri: Integrations
+slug: shopware-6
+position: 13
+privacy:
+  view: public
+parent:
+  uri: our-integrations
+content:
+  excerpt: Technical manuals for MultiSafepay's free plugins.
 ---
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Shopware_6.svg" width="50" align="right" style={{margin: '20px', maxHeight: '75px'}} />

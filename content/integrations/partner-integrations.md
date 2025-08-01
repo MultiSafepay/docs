@@ -1,10 +1,13 @@
 ---
-title: 'Partner integrations'
-category: 62962dd7e272a6002ebbbbc5
-order: 3
-hidden: false
-excerpt: "Explore integrations with our partners to help manage your business."
-slug: 'partner-integrations'
+title: Partner integrations
+category:
+  uri: Integrations
+slug: partner-integrations
+position: 3
+privacy:
+  view: public
+content:
+  excerpt: Explore integrations with our partners to help manage your business.
 ---
 Check out our integrations built with and managed by our partners:
 

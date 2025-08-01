@@ -1,11 +1,13 @@
 ---
-title: "Zen Cart"
-category: 62962dd7e272a6002ebbbbc5
-order: 6
-hidden: false
-parentDocs: 67e1463616608a00475c5f28
-excerpt: "Technical manual for MultiSafepay's free plugin."
-slug: 'zen-cart'
+title: Zen Cart
+category:
+  uri: Integrations
+slug: zen-cart
+position: 6
+privacy:
+  view: public
+content:
+  excerpt: Technical manual for MultiSafepay's free plugin.
 ---
 > ❗️ Important:
 >

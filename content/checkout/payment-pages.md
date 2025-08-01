@@ -1,9 +1,11 @@
 ---
-title: 'Payment pages'
-category: 62bd999547298d001abc714c
-order: 3
-hidden: false
-slug: 'payment-pages'
+title: Payment pages
+category:
+  uri: Checkout
+slug: payment-pages
+position: 3
+privacy:
+  view: public
 ---
 Payment pages are hosted by MultiSafepay and are the easiest way to integrate all payment methods.
 

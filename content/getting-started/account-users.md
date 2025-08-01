@@ -1,10 +1,13 @@
 ---
-title: "Account users"
-category: 627bbcf80c1c9c0050320b60
-order: 1
-hidden: false
-parentDoc: 62b0845857c8ab006af6a4f7
-slug: 'account-users'
+title: Account users
+category:
+  uri: Getting started
+slug: account-users
+position: 1
+privacy:
+  view: public
+parent:
+  uri: manage-account
 ---
 
 Your MultiSafepay account can have an unlimited number of authorized users. All users on one account share the same [security code](/docs/sites#site-id-api-key-and-security-code). You can block users, but not delete them.

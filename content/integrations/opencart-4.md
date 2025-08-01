@@ -1,11 +1,15 @@
 ---
-title: "OpenCart 4"
-category: 62962dd7e272a6002ebbbbc5
-order: 7
-hidden: false
-parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Technical manual for MultiSafepay's free plugin."
-slug: 'opencart-4'
+title: OpenCart 4
+category:
+  uri: Integrations
+slug: opencart-4
+position: 7
+privacy:
+  view: public
+parent:
+  uri: our-integrations
+content:
+  excerpt: Technical manual for MultiSafepay's free plugin.
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/OpenCart.svg" width="50" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 

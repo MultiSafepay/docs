@@ -1,10 +1,13 @@
 ---
-title: 'Ongematchte bankoverschrijvingen'
-category: 6298bd782d1cf4006032e765
-order: 103
-hidden: true
-parentDoc: 62a728d48b97080046c1d220
-slug: 'ongematchte-bankoverschrijvingen'
+title: Ongematchte bankoverschrijvingen
+category:
+  uri: Payment methods
+slug: ongematchte-bankoverschrijvingen
+position: 103
+privacy:
+  view: anyone_with_link
+parent:
+  uri: banking-methods
 ---
 
 Wanneer MultiSafepay een bankoverschrijving ontvangt van een klant, matchen we die automatisch aan de bijbehorende transactie in ons systeem. We doen dit op basis van:

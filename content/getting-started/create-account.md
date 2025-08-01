@@ -1,10 +1,13 @@
 ---
-title: 'Create an account'
-category: 627bbcf80c1c9c0050320b60
-order: 1
-hidden: false
-excerpt: "Choose an account type or a free test account, and sign up."
-slug: 'create-account'
+title: Create an account
+category:
+  uri: Getting started
+slug: create-account
+position: 1
+privacy:
+  view: public
+content:
+  excerpt: 'Choose an account type or a free test account, and sign up.'
 ---
 # Account types
 

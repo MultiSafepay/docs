@@ -1,11 +1,15 @@
 ---
-title: "Ecwid"
-category: 62962dd7e272a6002ebbbbc5
-order: 1
-hidden: false
-parentDoc: 62a9a54aba9800011a8bda88
-slug: 'ecwid'
-excerpt: "Free app for MultiSafepay payment solutions."
+title: Ecwid
+category:
+  uri: Integrations
+slug: ecwid
+position: 1
+privacy:
+  view: public
+parent:
+  uri: partner-integrations
+content:
+  excerpt: Free app for MultiSafepay payment solutions.
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Ecwid.svg" width="50" alt="Ecwid logo" style={{ margin: "20px", maxHeight: "75px", float: "right" }} />
 

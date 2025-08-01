@@ -1,10 +1,13 @@
 ---
-title: "Amazon Pay direct integration"
-category: 6298bd782d1cf4006032e765
-order: 3
-hidden: false
-parentDoc: 62a6ec51d7a8100053916d99
-slug: 'amazon-pay-direct'
+title: Amazon Pay direct integration
+category:
+  uri: Payment methods
+slug: amazon-pay-direct
+position: 3
+privacy:
+  view: public
+parent:
+  uri: wallets
 ---
 With direct integration, the **Amazon Pay** button appears in your checkout page, where customers complete payment without being redirected to a [payment page](/docs/payment-pages/).
 

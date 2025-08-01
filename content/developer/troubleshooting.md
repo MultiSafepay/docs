@@ -1,9 +1,11 @@
 ---
-title: "Troubleshooting"
-category: 62962df622e99600810c117d
-order: 4
-hidden: false
-slug: 'troubleshooting'
+title: Troubleshooting
+category:
+  uri: Developers
+slug: troubleshooting
+position: 4
+privacy:
+  view: public
 ---
 This page lists error codes you may encounter in transaction responses or statuses, or under **Notification history** in your MultiSafepay dashboard, possible causes and how to resolve them.
 

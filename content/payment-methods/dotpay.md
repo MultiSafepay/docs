@@ -1,10 +1,13 @@
 ---
-title: 'Dotpay'
-category: 6298bd782d1cf4006032e765
-order: 8
-hidden: false
-parentDoc: 62a728d48b97080046c1d220
-slug: 'dotpay'
+title: Dotpay
+category:
+  uri: Payment methods
+slug: dotpay
+position: 8
+privacy:
+  view: public
+parent:
+  uri: banking-methods
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/dotpay.svg" width="100" align="right" style={{ margin: "20px", maxHeight: "75px" }} />
 

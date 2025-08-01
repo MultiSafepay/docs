@@ -1,11 +1,15 @@
 ---
-title: "CCV Shop"
-category: 62962dd7e272a6002ebbbbc5
-order: 100
-hidden: true
-parentDoc: 62a9a54aba9800011a8bda88
-slug: 'ccv-shop-partner'
-excerpt: "Technical manual for MultiSafepay's free app."
+title: CCV Shop
+category:
+  uri: Integrations
+slug: ccv-shop-partner
+position: 100
+privacy:
+  view: anyone_with_link
+parent:
+  uri: partner-integrations
+content:
+  excerpt: Technical manual for MultiSafepay's free app.
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/CCVShop.svg" width="50" align="right" style={{ margin: "20px", maxHeight: "75px" }} />
 

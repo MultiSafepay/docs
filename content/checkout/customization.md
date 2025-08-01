@@ -1,10 +1,13 @@
 ---
-title: 'Payment component customization'
-category: 62bd999547298d001abc714c
-order: 3
-hidden: false
-slug: 'payment-component-customization'
-parentDoc: 62a848399bb3eb004023f291
+title: Payment component customization
+category:
+  uri: Checkout
+slug: payment-component-customization
+position: 3
+privacy:
+  view: public
+parent:
+  uri: payment-components
 ---
 After integrating the payment component, the default user interface (UI) styling is applied.
 

@@ -1,10 +1,13 @@
 ---
-title: 'Verbinden von unzugeordneten Banküberweisungen'
-category: 6298bd782d1cf4006032e765
-order: 104
-hidden: true
-parentDoc: 62a728d48b97080046c1d220
-slug: 'unzugeordneten-banküberweisungen'
+title: Verbinden von unzugeordneten Banküberweisungen
+category:
+  uri: Payment methods
+slug: unzugeordneten-banküberweisungen
+position: 104
+privacy:
+  view: anyone_with_link
+parent:
+  uri: banking-methods
 ---
 
 Wenn MultiSafepay eine Banküberweisung von Kund:innen erhält, verbinden wir diese aufgrund der angegebenen Zahlungsdetails automatisch mit der entsprechenden Transaktion in unserem System. 

@@ -1,9 +1,11 @@
 ---
-title: 'Onboard my account'
-category: 627bbcf80c1c9c0050320b60
-order: 2
-hidden: false
-slug: 'onboarding'
+title: Onboard my account
+category:
+  uri: Getting started
+slug: onboarding
+position: 2
+privacy:
+  view: public
 ---
 
 Onboarding involves MultiSafepay checking and approving information submitted by merchants and partners applying for a live account to process real transactions.

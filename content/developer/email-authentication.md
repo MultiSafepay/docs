@@ -1,9 +1,11 @@
 ---
-title: "Email authentication"
-category: 62962df622e99600810c117d
-order: 0
-hidden: false
-slug: 'email-authentication'
+title: Email authentication
+category:
+  uri: Developers
+slug: email-authentication
+position: 0
+privacy:
+  view: public
 ---
 # SPF records for MultiSafepay emails
 

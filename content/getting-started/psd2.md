@@ -1,11 +1,15 @@
 ---
-title: "PSD2"
-category: 627bbcf80c1c9c0050320b60
-order: 7
-hidden: false
-parentDoc: 62a087abb10eb40052c9fd04
-slug: 'psd2'
-excerpt: 'Payment Services Directive 2'
+title: PSD2
+category:
+  uri: Getting started
+slug: psd2
+position: 7
+privacy:
+  view: public
+parent:
+  uri: security-and-legal
+content:
+  excerpt: Payment Services Directive 2
 ---
 
 The Payment Services Directive 2 (PSD2) is a set of laws and regulations established by the <a href="https://eba.europa.eu" target="_blank">European Banking Authority (EBA)</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> that aim to improve consumer rights and security, while also promoting competition within the financial industry.

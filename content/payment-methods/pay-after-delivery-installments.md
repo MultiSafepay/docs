@@ -1,10 +1,13 @@
 ---
-title: 'Pay After Delivery installments'
-category: 6298bd782d1cf4006032e765
-order: 5
-hidden: false
-parentDoc: 62bd75142e264000a66d62b5
-slug: 'pay-after-delivery-installments'
+title: Pay After Delivery installments
+category:
+  uri: Payment methods
+slug: pay-after-delivery-installments
+position: 5
+privacy:
+  view: public
+parent:
+  uri: bnpl
 ---
 <img src="https://files.readme.io/cf02361-PAD-en.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 

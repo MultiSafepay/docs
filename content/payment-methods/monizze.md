@@ -1,10 +1,13 @@
 ---
-title: 'Monizze'
-category: 6298bd782d1cf4006032e765
-order: 4
-hidden: false
-parentDoc: 62a32bf042021c00e1cd7e5c
-slug: 'monizze'
+title: Monizze
+category:
+  uri: Payment methods
+slug: monizze
+position: 4
+privacy:
+  view: public
+parent:
+  uri: prepaid-cards
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/giftcards/monizze.svg" width="80" align="right" style={{margin: '20px 20px 20px 30px', maxHeight: '75px'}} />
 

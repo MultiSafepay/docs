@@ -1,10 +1,13 @@
 ---
-title: 'Sodexo'
-category: 6298bd782d1cf4006032e765
-order: 3
-hidden: false
-parentDoc: 62a32bf042021c00e1cd7e5c
-slug: 'sodexo'
+title: Sodexo
+category:
+  uri: Payment methods
+slug: sodexo
+position: 3
+privacy:
+  view: public
+parent:
+  uri: prepaid-cards
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/giftcards/sodexo-sportculturepass.svg" width="80" align="right" alt="Sodexo" style={{ margin:'20px 20px 20px 30px', maxHeight:'75px' }} />
 

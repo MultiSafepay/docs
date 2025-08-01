@@ -1,11 +1,15 @@
 ---
-title: "myShop"
-category: 62962dd7e272a6002ebbbbc5
-order: 3
-hidden: false
-parentDoc: 62a9a54aba9800011a8bda88
-slug: 'myshop'
-excerpt: "Technical manual for myShop's free app."
+title: myShop
+category:
+  uri: Integrations
+slug: myshop
+position: 3
+privacy:
+  view: public
+parent:
+  uri: partner-integrations
+content:
+  excerpt: Technical manual for myShop's free app.
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/myShop.svg" width="50" alt="myShop logo" style={{ margin: "20px", maxHeight: "75px", float: "right" }} />
 

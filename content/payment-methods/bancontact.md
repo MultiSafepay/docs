@@ -1,10 +1,13 @@
 ---
-title: 'Bancontact'
-category: 6298bd782d1cf4006032e765
-order: 2
-hidden: false
-parentDoc: 62a728d48b97080046c1d220
-slug: 'bancontact'
+title: Bancontact
+category:
+  uri: Payment methods
+slug: bancontact
+position: 2
+privacy:
+  view: public
+parent:
+  uri: banking-methods
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/bancontact.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 

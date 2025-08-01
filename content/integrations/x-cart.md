@@ -1,11 +1,13 @@
 ---
-title: "X-Cart"
-category: 62962dd7e272a6002ebbbbc5
-order: 5
-hidden: false
-parentDocs: 67e1463616608a00475c5f28
-excerpt: "Technical manual for MultiSafepay's free plugin."
-slug: 'x-cart'
+title: X-Cart
+category:
+  uri: Integrations
+slug: x-cart
+position: 5
+privacy:
+  view: public
+content:
+  excerpt: Technical manual for MultiSafepay's free plugin.
 ---
 > ❗️ Important:
 >

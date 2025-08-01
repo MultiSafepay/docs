@@ -1,9 +1,11 @@
 ---
-title: 'HTTP errors'
-category: 62962df622e99600810c117d
-order: 3
-hidden: false
-slug: 'http-errors'
+title: HTTP errors
+category:
+  uri: Developers
+slug: http-errors
+position: 3
+privacy:
+  view: public
 ---
 HTTP response status codes don't necessarily originate from the MultiSafepay platform. They are generic errors you can encounter while browsing the web.
 

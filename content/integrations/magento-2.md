@@ -1,11 +1,15 @@
 ---
-title: "Magento 2"
-category: 62962dd7e272a6002ebbbbc5
-order: 4
-hidden: false
-parentDoc: 62a9a54abde254065ee92a5c
-excerpt: "Technical manual for MultiSafepay's free plugin."
-slug: 'magento-2'
+title: Magento 2
+category:
+  uri: Integrations
+slug: magento-2
+position: 4
+privacy:
+  view: public
+parent:
+  uri: our-integrations
+content:
+  excerpt: Technical manual for MultiSafepay's free plugin.
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento_2.svg" width="50" align="right" style={{margin: "20px", maxHeight: "75px"}} />
 

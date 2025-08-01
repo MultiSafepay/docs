@@ -1,9 +1,11 @@
 ---
 title: Rounding rule
-category: 62962df622e99600810c117d
-slug: 'rounding-rule'
-order: 5
-hidden: false
+category:
+  uri: Developers
+slug: rounding-rule
+position: 5
+privacy:
+  view: public
 ---
 MultiSafepay applies the following rounding rule when calculating the total cost of an order:
 

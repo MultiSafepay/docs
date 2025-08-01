@@ -1,10 +1,13 @@
 ---
-title: 'Apple Pay'
-category: 6298bd782d1cf4006032e765
-order: 4
-hidden: false
-parentDoc: 62a6ec51d7a8100053916d99
-slug: 'apple-pay'
+title: Apple Pay
+category:
+  uri: Payment methods
+slug: apple-pay
+position: 4
+privacy:
+  view: public
+parent:
+  uri: wallets
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/applepay.svg" width="70" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 

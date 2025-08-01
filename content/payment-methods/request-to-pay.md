@@ -1,10 +1,13 @@
 ---
-title: 'Request to Pay (End-of-life)'
-category: 6298bd782d1cf4006032e765
-order: 15
-hidden: false
-parentDoc: 62a728d48b97080046c1d220
-slug: 'request-to-pay'
+title: Request to Pay (End-of-life)
+category:
+  uri: Payment methods
+slug: request-to-pay
+position: 15
+privacy:
+  view: public
+parent:
+  uri: banking-methods
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/RTP.svg" width="60" align="right" alt="Request to Pay" style={{ margin: "20px", maxHeight: "75px" }} />
 

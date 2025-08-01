@@ -1,10 +1,13 @@
 ---
-title: 'SmartPOS solutions'
-parentDoc: 64674fbc74bc4007521ebbcb 
-category: 6477597e0e2961004638cd5d
-order: 0
-hidden: false
-slug: 'smartpos-solutions'
+title: SmartPOS solutions
+category:
+  uri: Point-of-sale
+slug: smartpos-solutions
+parent:
+  uri: smartpos-terminal
+position: 0
+privacy:
+  view: public
 ---
 > ⚠️ Note:
 >

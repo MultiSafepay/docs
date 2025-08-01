@@ -1,9 +1,11 @@
 ---
-title: 'Wrappers and SDKs'
-category: 62962df622e99600810c117d
-order: 6
-hidden: false
-slug: 'wrappers-sdks'
+title: Wrappers and SDKs
+category:
+  uri: Developers
+slug: wrappers-sdks
+position: 6
+privacy:
+  view: public
 ---
 ## Django
 

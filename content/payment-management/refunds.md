@@ -1,9 +1,11 @@
 ---
-title: 'Refunds'
-category: 6278c92bf4ad4a00361431b0
-order: 4
-hidden: false
-slug: 'refund-payments'
+title: Refunds
+category:
+  uri: Payment management
+slug: refund-payments
+position: 4
+privacy:
+  view: public
 ---
 This page provides information about processing refunds with MultiSafepay.
 

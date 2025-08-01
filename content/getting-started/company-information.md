@@ -1,10 +1,13 @@
 ---
-title: "Company information"
-category: 627bbcf80c1c9c0050320b60
-order: 2
-hidden: false
-parentDoc: 62b0845857c8ab006af6a4f7
-slug: 'company-information'
+title: Company information
+category:
+  uri: Getting started
+slug: company-information
+position: 2
+privacy:
+  view: public
+parent:
+  uri: manage-account
 ---
 
 You **must** inform us of any of the following changes to your company information:

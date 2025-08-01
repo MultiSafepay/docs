@@ -1,9 +1,11 @@
 ---
-title: 'Our integrations'
-category: 62962dd7e272a6002ebbbbc5
-order: 0
-hidden: false
-slug: 'our-integrations'
+title: Our integrations
+category:
+  uri: Integrations
+slug: our-integrations
+position: 0
+privacy:
+  view: public
 ---
 This section contains our ready-made integrations for ecommerce platforms.
 

@@ -1,10 +1,13 @@
 ---
-title: "Websites"
-category: 627bbcf80c1c9c0050320b60
-order: 12
-hidden: false
-parentDoc: 62b0845857c8ab006af6a4f7
-slug: 'sites'
+title: Websites
+category:
+  uri: Getting started
+slug: sites
+position: 12
+privacy:
+  view: public
+parent:
+  uri: manage-account
 ---
 
 To set up your account, you must add at least one website (e.g. a website, app, or other application), for which we generate an API key.

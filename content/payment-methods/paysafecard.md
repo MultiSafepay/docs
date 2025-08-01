@@ -1,10 +1,13 @@
 ---
-title: 'Paysafecard'
-category: 6298bd782d1cf4006032e765
-order: 2
-hidden: false
-parentDoc: 62a32bf042021c00e1cd7e5c
-slug: 'paysafecard'
+title: Paysafecard
+category:
+  uri: Payment methods
+slug: paysafecard
+position: 2
+privacy:
+  view: public
+parent:
+  uri: prepaid-cards
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/paysafecard-lock.svg" width="100" align="right" style={{margin: '15px', maxHeight: '75px'}} />
 

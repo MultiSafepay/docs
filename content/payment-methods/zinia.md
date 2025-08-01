@@ -1,10 +1,13 @@
 ---
-title: 'Zinia'
-category: 6298bd782d1cf4006032e765
-order: 7
-hidden: false
-parentDoc: 62bd75142e264000a66d62b5
-slug: 'zinia'
+title: Zinia
+category:
+  uri: Payment methods
+slug: zinia
+position: 7
+privacy:
+  view: public
+parent:
+  uri: bnpl
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/zinia-logo.svg" width="80" align="right" style={{margin: '20px 20px 20px 30px', maxHeight: '75px'}} />
 

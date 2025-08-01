@@ -1,9 +1,11 @@
 ---
-title: 'Billink'
-category: 6298bd782d1cf4006032e765
-parentDoc: 62bd75142e264000a66d62b5
-order: 1
-slug: 'billink'
+title: Billink
+category:
+  uri: Payment methods
+slug: billink
+parent:
+  uri: bnpl
+position: 1
 ---
 <img src="https://cdn.billink.nl/assets/lockup/svg/billink-logo-default.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 

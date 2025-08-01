@@ -1,10 +1,13 @@
 ---
-title: 'Sofort (Deprecated)'
-category: 6298bd782d1cf4006032e765
-order: 16
-hidden: false
-parentDoc: 62a728d48b97080046c1d220
-slug: 'sofort'
+title: Sofort (Deprecated)
+category:
+  uri: Payment methods
+slug: sofort
+position: 16
+privacy:
+  view: public
+parent:
+  uri: banking-methods
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/logo/Payment_methods/Klarna-Sofort.svg" width="85" align="right" style={{ margin: "20px", maxHeight: "75px" }} />
 

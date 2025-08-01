@@ -1,10 +1,13 @@
 ---
-title: 'Alipay'
-category: 6298bd782d1cf4006032e765
-order: 0
-hidden: false
-parentDoc: 62a6ec51d7a8100053916d99
-slug: 'alipay'
+title: Alipay
+category:
+  uri: Payment methods
+slug: alipay
+position: 0
+privacy:
+  view: public
+parent:
+  uri: wallets
 ---
 > ⚠️ Action required
 >

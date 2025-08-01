@@ -1,9 +1,11 @@
 ---
-title: 'Success pages'
-category: 6278c92bf4ad4a00361431b0
-order: 7
-hidden: false
-slug: 'success-pages'
+title: Success pages
+category:
+  uri: Payment management
+slug: success-pages
+position: 7
+privacy:
+  view: public
 ---
 After completing payment process, MultiSafepay redirects the customer to a success ("thank you") page, or to the next confirmation step where necessary.
 

@@ -1,10 +1,15 @@
 ---
-title: "Community integrations"
-category: 62962dd7e272a6002ebbbbc5
-order: 2
-hidden: false
-excerpt: "Submit and promote your plugin and become part of the MultiSafepay community."
-slug: 'community-integrations'
+title: Community integrations
+category:
+  uri: Integrations
+slug: community-integrations
+position: 2
+privacy:
+  view: public
+content:
+  excerpt: >-
+    Submit and promote your plugin and become part of the MultiSafepay
+    community.
 ---
 
 Check out our integrations built and managed by external developer communities:

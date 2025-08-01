@@ -1,9 +1,11 @@
 ---
-title: 'Discounts'
-category: 6278c92bf4ad4a00361431b0
-order: 1
-hidden: false
-slug:  'discounts'
+title: Discounts
+category:
+  uri: Payment management
+slug: discounts
+position: 1
+privacy:
+  view: public
 ---
 You can apply discounts to orders via your dashboard or the API.
 

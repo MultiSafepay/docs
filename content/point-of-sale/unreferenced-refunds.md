@@ -1,9 +1,11 @@
 ---
-title: 'Unreferenced refunds'
-category: 6477597e0e2961004638cd5d
-order: 3
-hidden: true
-slug: 'unreferenced-refunds'
+title: Unreferenced refunds
+category:
+  uri: Point-of-sale
+slug: unreferenced-refunds
+position: 3
+privacy:
+  view: anyone_with_link
 ---
 Alternatively to regular refunds, you can process unreferenced refunds. This allows you to return funds to a customer without referring to the original transaction.
 

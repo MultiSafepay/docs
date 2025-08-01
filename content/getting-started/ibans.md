@@ -1,10 +1,13 @@
 ---
-title: "IBANs"
-category: 627bbcf80c1c9c0050320b60
-order: 5
-hidden: false
-parentDoc: 62b0845857c8ab006af6a4f7
-slug: 'ibans'
+title: IBANs
+category:
+  uri: Getting started
+slug: ibans
+position: 5
+privacy:
+  view: public
+parent:
+  uri: manage-account
 ---
 
 International bank account numbers (IBANs) are sensitive data. For security reasons, we mask them so that only the last 4 digits are visible, e.g. `*** 1234`.

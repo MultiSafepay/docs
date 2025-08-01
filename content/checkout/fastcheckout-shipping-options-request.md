@@ -1,10 +1,13 @@
 ---
-title: 'FastCheckout shipping options request'
-category: 62bd999547298d001abc714c
-order: 1
-hidden: false
-slug: 'fastcheckout-shipping-options'
-parentDoc: 62fcc05ac034cb06771c46fc
+title: FastCheckout shipping options request
+category:
+  uri: Checkout
+slug: fastcheckout-shipping-options
+position: 1
+privacy:
+  view: public
+parent:
+  uri: fastcheckout
 ---
 
 If you cannot send your available shipping options for the shipping element on the [FastCheckout page](/docs/fastcheckout/) in your [create order](/reference/createorder) request, you can trigger a `GET` or `POST` request from MultiSafepay to your [webhook endpoint](/docs/webhook/) to retrieve the options.

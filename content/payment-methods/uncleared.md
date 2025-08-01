@@ -1,11 +1,15 @@
 ---
-title: 'Uncleared card payments'
-category: 6298bd782d1cf4006032e765
-order: 8
-hidden: false
-parentDoc: 62a727569e389a012f577acd
-excerpt: Capture or decline potentially fraudulent card payments.
-slug: 'uncleared'
+title: Uncleared card payments
+category:
+  uri: Payment methods
+slug: uncleared
+position: 8
+privacy:
+  view: public
+parent:
+  uri: cards
+content:
+  excerpt: Capture or decline potentially fraudulent card payments.
 ---
 To help reduce the risks associated with accepting cards, MultiSafepay's automated fraud filter reviews all card payments.
 

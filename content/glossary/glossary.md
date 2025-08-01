@@ -1,9 +1,11 @@
 ---
-title: "Glossary"
-category: 64f71308dd215a026fa77609
-order: 0
-hidden: false
-slug: 'glossary'
+title: Glossary
+category:
+  uri: Glossary
+slug: glossary
+position: 0
+privacy:
+  view: public
 ---
 #### account balance
 

@@ -1,10 +1,13 @@
 ---
-title: "Currencies"
-category: 627bbcf80c1c9c0050320b60
-order: 3
-hidden: false
-parentDoc: 62b0845857c8ab006af6a4f7
-slug: 'currencies'
+title: Currencies
+category:
+  uri: Getting started
+slug: currencies
+position: 3
+privacy:
+  view: public
+parent:
+  uri: manage-account
 ---
 
 You can process payments in a large number of currencies. When customers can pay in their preferred local currency, it increases their trust in your website and therefore your <Glossary>conversion rate</Glossary>.

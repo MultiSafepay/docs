@@ -1,11 +1,15 @@
 ---
-title: 'Previous release'
-category: 62bd999547298d001abc714c
-order: 0
-hidden: true
-slug: 'payment-component-previous-release'
-parentDoc: 62a848399bb3eb004023f291 
---- 
+title: Previous release
+category:
+  uri: Checkout
+slug: payment-component-previous-release
+position: 0
+privacy:
+  view: anyone_with_link
+parent:
+  uri: payment-components
+---
+ 
 This technical manual is for integrating the previous release of the payment component.
 
 # 1. Add the elements

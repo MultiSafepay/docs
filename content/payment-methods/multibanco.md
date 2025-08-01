@@ -1,10 +1,13 @@
 ---
-title: 'Multibanco'
-category: 6298bd782d1cf4006032e765
-order: 13
-hidden: false
-parentDoc: 62a728d48b97080046c1d220
-slug: 'multibanco'
+title: Multibanco
+category:
+  uri: Payment methods
+slug: multibanco
+position: 13
+privacy:
+  view: public
+parent:
+  uri: banking-methods
 ---
 > ⚠️ Note:
 >

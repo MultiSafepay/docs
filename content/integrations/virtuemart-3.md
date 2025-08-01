@@ -1,11 +1,13 @@
 ---
-title: "VirtueMart 3"
-category: 62962dd7e272a6002ebbbbc5
-order: 3
-hidden: false
-parentDocs: 67e1463616608a00475c5f28
-excerpt: "Technical manual for MultiSafepay's free plugin."
-slug: 'virtuemart-3'
+title: VirtueMart 3
+category:
+  uri: Integrations
+slug: virtuemart-3
+position: 3
+privacy:
+  view: public
+content:
+  excerpt: Technical manual for MultiSafepay's free plugin.
 ---
 > ❗️ Important:
 >

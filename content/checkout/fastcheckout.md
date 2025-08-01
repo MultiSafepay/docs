@@ -1,9 +1,11 @@
 ---
-title: 'FastCheckout'
-category: 62bd999547298d001abc714c
-order: 0
-hidden: true
-slug: 'fastcheckout'
+title: FastCheckout
+category:
+  uri: Checkout
+slug: fastcheckout
+position: 0
+privacy:
+  view: anyone_with_link
 ---
 
 <blockquote class="callout callout_warning">

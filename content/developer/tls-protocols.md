@@ -1,9 +1,11 @@
 ---
 title: TLS protocols
-category: 62962df622e99600810c117d
-slug: 'tls-protocols-1'
-order: 7
-hidden: true
+category:
+  uri: Developers
+slug: tls-protocols-1
+position: 7
+privacy:
+  view: anyone_with_link
 ---
 To maintain safety and reliability of our services, we periodically upgrade our systems to support the latest security protocols. This update ensures that all payment transactions remain secure and compliant with industry standards.
 

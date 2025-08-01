@@ -1,10 +1,13 @@
 ---
-title: 'Riverty (AfterPay)'
-category: 6298bd782d1cf4006032e765
-order: 6
-hidden: false
-parentDoc: 62bd75142e264000a66d62b5
-slug: 'riverty'
+title: Riverty (AfterPay)
+category:
+  uri: Payment methods
+slug: riverty
+position: 6
+privacy:
+  view: public
+parent:
+  uri: bnpl
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/afterpay-riverty-transition-logo.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 

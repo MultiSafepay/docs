@@ -1,11 +1,15 @@
 ---
-title: "Fuhrmann-2"
-category: 627bbcf80c1c9c0050320b60
-order: 4
-hidden: false
-parentDoc: 62a087abb10eb40052c9fd04
-slug: 'fuhrmann2'
-excerpt: 'Payment button legislation'
+title: Fuhrmann-2
+category:
+  uri: Getting started
+slug: fuhrmann2
+position: 4
+privacy:
+  view: public
+parent:
+  uri: security-and-legal
+content:
+  excerpt: Payment button legislation
 ---
 
 European merchants must ensure that text on their payment button makes it clear to customers that, as soon as they click it, they are placing an <Glossary>order</Glossary> *with an obligation to pay*. This is required for the electronic contract between the parties to be valid.

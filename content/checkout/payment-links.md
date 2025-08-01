@@ -1,9 +1,11 @@
 ---
-title: 'Payment links'
-category: 62bd999547298d001abc714c
-order: 2
-hidden: false
-slug: 'payment-links'
+title: Payment links
+category:
+  uri: Checkout
+slug: payment-links
+position: 2
+privacy:
+  view: public
 ---
 You can manually generate a link to a [payment page](/docs/payment-pages/) to pass to a customer to complete payment.
 

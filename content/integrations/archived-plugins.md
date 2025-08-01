@@ -1,9 +1,11 @@
 ---
-title: 'Archived integrations'
-category: 62962dd7e272a6002ebbbbc5
-order: 4
-hidden: false
-slug: 'archived-integrations'
+title: Archived integrations
+category:
+  uri: Integrations
+slug: archived-integrations
+position: 4
+privacy:
+  view: public
 ---
 > ⚠️ Note:
 >

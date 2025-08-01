@@ -1,10 +1,11 @@
 ---
-title: 'POS card payment flow'
-category: 6477597e0e2961004638cd5d
-order: 3
-hidden: true
-slug: 'pos-card-payment-flow'
-
+title: POS card payment flow
+category:
+  uri: Point-of-sale
+slug: pos-card-payment-flow
+position: 3
+privacy:
+  view: anyone_with_link
 ---
 POS payments can done be with or without verification. This depends on various parties, including the acquirer's host configuration.
 

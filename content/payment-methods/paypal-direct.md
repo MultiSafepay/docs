@@ -1,10 +1,13 @@
 ---
-title: "PayPal button integration"
-category: 6298bd782d1cf4006032e765
-order: 9
-hidden: false
-parentDoc: 62a6ec51d7a8100053916d99
-slug: 'paypal-direct'
+title: PayPal button integration
+category:
+  uri: Payment methods
+slug: paypal-direct
+position: 9
+privacy:
+  view: public
+parent:
+  uri: wallets
 ---
 The **PayPal** button enables customers to complete the payment with a one-click checkout solution without being redirected to a <Glossary>payment page</Glossary>. The checkout solution allows customers to pay in 4 or monthly installments using <a href="https://www.paypal.com/us/business/accept-payments/checkout" target="_blank">PayPal BNPL</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> method.
 

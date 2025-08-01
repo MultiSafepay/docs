@@ -1,9 +1,11 @@
 ---
-title: 'Manage my account'
-category: 627bbcf80c1c9c0050320b60
-order: 3
-hidden: false
-slug: 'manage-account'
+title: Manage my account
+category:
+  uri: Getting started
+slug: manage-account
+position: 3
+privacy:
+  view: public
 ---
 **Set up your account**
 

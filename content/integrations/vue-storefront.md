@@ -1,11 +1,13 @@
 ---
-title: "Vue Storefront"
-category: 62962dd7e272a6002ebbbbc5
-order: 4
-hidden: false
-parentDocs: 67e1463616608a00475c5f28
-excerpt: "Free plugin for MultiSafepay payment solutions."
-slug: 'vue-storefront'
+title: Vue Storefront
+category:
+  uri: Integrations
+slug: vue-storefront
+position: 4
+privacy:
+  view: public
+content:
+  excerpt: Free plugin for MultiSafepay payment solutions.
 ---
 > ❗️ Important:
 >
