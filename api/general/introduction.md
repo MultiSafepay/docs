@@ -93,5 +93,5 @@ You can still use the XML endpoint to process transaction requests, but new paym
     Support
   </h3>
 
-  <p>Email <a href="mailto:support@multisafepay.com">[support@multisafepay.com](mailto:support@multisafepay.com)</a></p>
+  <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>

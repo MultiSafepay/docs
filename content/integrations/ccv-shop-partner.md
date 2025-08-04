@@ -62,8 +62,8 @@ You can process refunds from your MultiSafepay dashboard, but not in your <Gloss
   </h3>
 
   <ul>
-    <li>For technical queries about the app, email CCV Shop at <a href="mailto:support@ccvshop.nl">[support@ccvshop.nl](mailto:support@ccvshop.nl)</a></li>
-    <li>To contact MultiSafepay, email <a href="mailto:support@multisafepay.com">[support@multisafepay.com](mailto:support@multisafepay.com)</a></li>
+    <li>For technical queries about the app, email CCV Shop at <a href="mailto:support@ccvshop.nl">support@ccvshop.nl</a></li>
+    <li>To contact MultiSafepay, email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></li>
   </ul>
 </blockquote>
 

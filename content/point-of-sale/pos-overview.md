@@ -7,21 +7,23 @@ position: 0
 privacy:
   view: public
 ---
-> ⚠️ Note:
->
-> We currently offer this product in the following countries:
->
-> * Netherlands
-> * Belgium
->
-> As a partner, you can further connect accounts registered in the following countries:
->
-> * Italy
-> * Spain
->
-> If you are interested in our Point of Sale solutions, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
->
-> <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-1.svg" width="80" align="right" style={{margin: '20px 20px 20px 30px', maxHeight: '75px'}} />
+We currently offer this product in the following countries:
+
+<table>
+  <tr>
+    <td>Countries</td>
+    <td>Netherlands, Belgium</td>
+  </tr>
+
+  <tr>
+    <td>For partners</td>
+    <td>Netherlands, Belgium, Italy, Spain</td>
+  </tr>
+</table>
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-1.svg" width="80" align="right" style={{margin: '20px 20px 20px 30px', maxHeight: '75px'}} />
+
+If you are interested in our Point of Sale solutions, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
 With MultiSafepay <Glossary>POS</Glossary> solutions, you can accept in-person payments through various terminals. Our <Glossary>POS</Glossary> solutions support multiple payment methods and offer flexible implementation options.
 
@@ -55,16 +57,19 @@ Read how our POS solutions can benefit your business on <a href="https://www.mul
     <a href="/docs/traditional-ctap-terminal">
       <div>
         <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-2.svg" alt="Traditional CTAP Terminal Icon" class="card-icon" />
+
         <div class="container">
           <h4><b>Traditional (CTAP) terminal</b></h4>
         </div>
       </div>
     </a>
   </div>
+
   <div class="card-container">
     <a href="/docs/smartpos-terminal">
       <div>
         <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-1.svg" alt="SmartPOS Terminal Icon" class="card-icon" />
+
         <div class="container">
           <h4><b>SmartPOS terminal</b></h4>
         </div>
@@ -73,7 +78,8 @@ Read how our POS solutions can benefit your business on <a href="https://www.mul
   </div>
 </div>
 
-<style>
+<style jsx>
+  {`
   .auto-grid {
     --auto-grid-min-size: 250px;
     display: grid;
@@ -116,7 +122,7 @@ Read how our POS solutions can benefit your business on <a href="https://www.mul
   .card-container .container {
 
   }
-
+`}
 </style>
 
 ***

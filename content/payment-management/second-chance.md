@@ -196,7 +196,7 @@ For an overview of all Second Chance emails that resulted in successful payment,
     <p>Support</p>
   </h3>
 
-  <p>Email <a href="mailto:support@multisafepay.com">[support@multisafepay.com](mailto:support@multisafepay.com)</a></p>
+  <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>
 
 [Top of page](#)

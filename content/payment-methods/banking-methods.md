@@ -71,7 +71,7 @@ privacy:
   <Card title="Bizum" href="/docs/bizum/" icon="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/logo/Payment_methods/Bizum.svg" />
 </Cards>
 
-</br>
+<br />
 
 ---
 [Top of page](#)

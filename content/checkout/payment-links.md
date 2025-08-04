@@ -191,7 +191,7 @@ Each attempt creates a new <Glossary>transaction</Glossary> with the same `order
     <p>Support</p>
   </h3>
 
-  <p>Email <a href="mailto:integration@multisafepay.com">[integration@multisafepay.com](mailto:integration@multisafepay.com)</a></p>
+  <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
 </blockquote>
 
 [Top of page](#)

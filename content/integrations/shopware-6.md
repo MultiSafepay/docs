@@ -157,7 +157,7 @@ composer update multisafepay/shopware6
     <li>Join the <a href="https://join.slack.com/t/shopwarenederland/shared_invite/zt-61exftia-TFYlw5LzmIBnz7Epq07goQ">official Shopware 6 Slack channel</a></li>
     <li>Join the private <a href="https://shopwarenederland.slack.com/archives/G0146NKFJTT">MultiSafepay Shopware 6 Slack channel</a></li>
   </ul>  
-  <p>For support for Shopware 6 Professional/Enterprise, email <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</p>
+  <p>For support for Shopware 6 Professional/Enterprise, email <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></p>
 </blockquote>
 
 [Top of page](#)
