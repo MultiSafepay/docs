@@ -15,378 +15,114 @@ We currently offer this product in the following countries:
     <td>Countries</td>
     <td>Netherlands, Belgium</td>
   </tr>
+
   <tr>
     <td>For partners</td>
     <td>Netherlands, Belgium, Italy, Spain</td>
   </tr>
 </table>
 
-If you are interested in our Point of Sale solutions, email <a href="mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com) " style={{fontSize: 'inherit'}}>[sales@multisafepay.com](mailto:sales@multisafepay.com) </a>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-1.svg" width="80" align="right" style={{margin: '20px 20px 20px 30px', maxHeight: '75px'}} />
 
-# Set up your SmartPOS flow
+If you are interested in our Point of Sale solutions, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
-Our SmartPOS terminals support three different payment solutions, offering flexible integration options for your business needs.
+With MultiSafepay <Glossary>POS</Glossary> solutions, you can accept in-person payments through various terminals. Our <Glossary>POS</Glossary> solutions support multiple payment methods and offer flexible implementation options.
 
-<div class="step-info">
-      <div class="step-number">1</div>
-      <p class="step-description configure-text">Choose your solution</p>
-</div>
-<div class="auto-grid-2">
-  <div class="card-container-2">
-    <div class="card-2">
-      <a href="/docs/smartpos-solutions#cloud-pos-payment" style={{textDecoration: 'none'}}>
-        <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Cloud_POS.svg" alt="Cloud POS Payments" />
-        <h4>Cloud POS Payments</h4>
-        <p class="text-flows">Process payments from an external application. This lets your Point of Sale system process payments securely via a cloud connection.</p>
-      </a>
-    </div>
-  </div>
-  <div class="card-container-2">
-    <div class="card-2">
-      <a href="/docs/smartpos-solutions#on-same-device-third-party-applications" style={{textDecoration: 'none'}}>
-        <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Transactions_ondevice.svg" alt="On-Same Device Third-Party Applications" />
-        <h4>On-Same Device Applications</h4>
-        <p class="text-flows">Run your native or web based aplication on your terminal and initiate payments on the same device through the payment app.</p>
-      </a>
-    </div>
-  </div>
-  <div class="card-container-2">
-    <div class="card-2">
-      <a href="/docs/smartpos-solutions#manual-input" style={{textDecoration: 'none'}}>
-        <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/In-person-payments.svg" alt="On-Same Device Third-Party Applications" />
-        <h4>Manual input</h4>
-        <p class="text-flows">Manually enter payment amounts in the app. The customer pays using a supported payment method.</p>
-      </a>
-    </div>
-  </div>
-</div>
+MultiSafepay offers a wide range of certified <a href="https://www.multisafepay.com/nl_nl/oplossingen/in-person-pos/pin-terminals" target="_blank">SmartPOS terminals</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> to choose from. With our SmartPOS terminals, you can:
+
+* Initiate payments using manual input flow, cloud POS payment, or third-party on-device applications.
+* Create a network of devices for your business using terminal groups and generate reports at different levels.
+* Enhance your SmartPOS capabilities with additional features.
+
+In addition, we provide traditional (CTAP) terminals in collaboration with our partners.
+
+Once you've received your terminal, you can start activation in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+
+Read how our POS solutions can benefit your business on <a href="https://www.multisafepay.com/solutions/in-person" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+
+| Supports                                                                                                                                                                                       | Details                                                                                                                                                                                                                                                                                                                                             |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Countries](/docs/payment-methods#payment-methods-by-country)                                                                                                                                  | Europe                                                                                                                                                                                                                                                                                                                                              |
+| [Currencies](/docs/currencies/)                                                                                                                                                                | EUR                                                                                                                                                                                                                                                                                                                                                 |
+| [Payment methods](/docs/payment-pages/)                                                                                                                                                        | Mastercard (credit card), Mastercard (debit card), and Maestro <br /> Visa (credit card), Visa (debit card), Visa Electron, V Pay, AMEX <br /> Wallets: <a href="https://docs.multisafepay.com/docs/alipay-plus" target="_blank">Alipay+</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, Apple Pay, and Google Pay |
+| <a href="https://www.multisafepay.com/nl_nl/oplossingen/in-person-pos/pin-terminals" target="_blank">Terminals</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> | Smart POS <br /> Traditional (CTAP)                                                                                                                                                                                                                                                                                                                 |
+| Card entry methods                                                                                                                                                                             | Contact, Contactless, and Magnetic stripe                                                                                                                                                                                                                                                                                                           |
+| Card verification methods                                                                                                                                                                      | PIN online, PIN offline, and signature                                                                                                                                                                                                                                                                                                              |
 
 ***
 
-Click on the options below for more information on how to further set up your terminal.
+**Check out our terminals:**
 
-
-<style>
-/* Overall Container */
-.auto-grid-2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start; /* Align items to the start for left alignment */
-  align-items: stretch;       /* Make all cards the same height */
-  gap: 20px;
-  padding: 20px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.card-container-2 {
-  width: calc(33.33% - 20px); /* Three items per row on larger screens */
-  max-width: 400px;           /* Limit card width */
-  box-sizing: border-box;
-  margin-bottom: 20px;        /* Spacing between rows */
-}
-
-
-.card-2 {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;             /* Reduced padding */
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  transition: all 0.2s ease-in-out;
-  background-color: #fff;
-  width: 100%;
-  height: 100%; /* Add this line */
-}
-
-.card-2:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.card-2 img {
-  max-width: 60%;            /* Reduced image size */
-  max-height: 70px;           /* Reduced image height */
-  margin-bottom: 10px;        /* Reduced spacing below image */
-  pointer-events: none;
-  object-fit: contain;
-}
-
-.card-2 h4 {
-  color: #00bcd4;
-  margin-top: 0;             /* Reset top margin */
-  margin-bottom: 8px;         /* Reduced spacing below heading */
-  font-size: 1.1em;          /* Slightly smaller heading */
-  pointer-events: none;
-}
-
-.text-flows {
-  color: #555;
-  font-size: 0.9em;          /* Slightly smaller text */
-  line-height: 1.4;          /* Reduced line height */
-  margin-bottom: 0;          /* Reset bottom margin */
-  flex-grow: 1; /* Allow the paragraph to take up remaining vertical space */
-}
-
-.card-2 a {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-}
-
-/* Mobile Media Query - One item per row */
-@media (max-width: 768px) {
-  .card-container-2 {
-    width: 100%;             /* Full width on mobile */
-    max-width: none;          /* Remove max width */
-  }
-}
-
-/* Added for Smaller Mobile devices */
-@media (max-width: 480px) {
-  .card-2 img {
-    width: 55px;             /* Smaller image width */
-    height: 35px;            /* Smaller image height */
-  }
-}
-
-/* Desktop Media Query - for larger screens */
-@media (min-width: 769px) {
-  .auto-grid-2 {
-    justify-content: flex-start;
-  }
-    .card-container-2 {
-    width: calc(33.33% - 20px); /* Three items per row */
-    max-width: 400px;
-  }
-}
-
-/* Desktop Media Query - for larger screens */
-@media (min-width: 1200px) {
-  .card-container-2 {
-    width: calc(33.33% - 20px); /* Keep three items per row, even on very large screens */
-  }
-}
-
-</style>
-
-<style>
-  b {
-    color: #384248 !important;
-  }
-
-  .steps {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .step-item {
-    display: flex;
-    margin-bottom: 10px;
-    align-items: center;
-  }
-	.step-item img {
-    pointer-events: none;
-  }
-
-  .step-item h4 {
-    pointer-events: none;
-  }
-  .card-container-setup {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-    border-radius: 5px;
-    margin: 8px;
-    width: 250px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .card-container-setup:hover {
-    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%);
-    transform: translateY(-0.2rem);
-    transition: all 0.2s;
-    cursor: pointer;
-  }
-  .field-description blockquote, .field-description dl, .field-description ol, .field-description p, .field-description pre, .field-description table, .field-description ul, .markdown-body blockquote, .markdown-body dl, .markdown-body ol, .markdown-body p, .markdown-body pre, .markdown-body table, .markdown-body ul {
-    margin-bottom: 12px !important;
-    margin-top: 12px !important;
-	}
-
-  .step-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-	
-  
-  .step-number {
-    background-color: #007bff;
-    color: white;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    margin-left: 10px;
-  }
-
-  .step-description {
-    flex: 1;
-    margin-left: 10px;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    font-size: 1rem;
-    margin-top: 0px;
-    margin-bottom: 0px; /*Removing to reset*/
-    width: 600px;
-  }
-   .step-description p {
-      margin-bottom: 10;
-  }
-  .configure-text {
-    font-size: 22px; /* Or whatever size you want */
-    font-weight: lighter;
-  }
-  @media (max-width: 768px) {
-    .step-item {
-      flex-direction: column; /* Stack card and info */
-      align-items: stretch; /* Stretch items to full width */
-    }
-
-    /* Order is specified using the order property */
-    .step-info {
-      order: -1;  /* Moves the step-info div to the top */
-      width: 100%;
-      margin-bottom: 10px;
-    }
-
-    .card-container-setup {
-      width: 100%;
-      margin: 8px 0;
-    }
-
-    .step-number {
-      margin-left: 0;
-      margin-right: 10px;
-    }
-
-    .step-description {
-      margin-left: 0;
-    }
-  }
-
-  @media (min-width: 769px) {
-    .step-item {
-      flex-direction: row; /* Restore horizontal layout on larger screens */
-      align-items: center;    /* Restore vertical alignment */
-    }
-
-    .step-info {
-      order: 0;        /* Reset order to default */
-      width: auto;       /* Reset width */
-      margin-bottom: 0; /* Reset margin */
-    }
-
-    .card-container-setup {
-      width: 250px; /* Restore original width */
-      margin: 8px;    /* Restore original margins */
-    }
-
-    .step-number {
-        margin-left: 10px;
-        margin-right: 0;
-    }
-
-    .step-description {
-        margin-left: 10px;
-    }
-  }
-
-</style>
-
-<div class="steps-container">
-  <div class="steps">
-    <div class="step-item">
-      <div class="card-container-setup">
-        <a href="/docs/hardware-setup" style={{textDecoration: 'none'}}>
-          <div>
-            <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Settings.svg" style={{ margin: '5px', maxHeight: '100px', maxWidth: '100px' }} />
-            <div class="container">
-              <h4><b>Hardware setup</b></h4>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="step-info">
-        <div class="step-number">2</div>
-        <p class="step-description configure-text">Configure your terminal's hardware for first use</p>
-      </div>
-    </div>
-    <div class="step-item">
-      <div class="card-container-setup">
-        <a href="/docs/smartpos-activation" style={{textDecoration: 'none'}}>
-          <div>
-            <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Activation.svg" style={{margin: '5px', maxHeight: '100px', maxWidth: '100px'}} />
-            <div class="container">
-              <h4><b>Activation</b></h4>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="step-info">
-        <div class="step-number">3</div>
-        <p class="step-description configure-text">Activate your terminal from your MultiSafepay dashboard</p>
-      </div>
-    </div>
-    <div class="step-item">
-      <div class="card-container-setup">
-        <a href="/docs/event-notifications" style={{textDecoration: 'none'}}>
-          <div>
-            <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Notifications.svg" style={{margin: '5px', maxHeight: '100px', maxWidth: '100px'}} />
-            <div class="container">
-              <h4><b>Event notifications</b></h4>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="step-info">
-        <div class="step-number">4</div>
-        <p class="step-description configure-text">Subscribe to event notifications to receive order status updates</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="step-item">
-  <div class="card-container-setup">
-    <a href="/docs/smartpos-features" style={{textDecoration: 'none'}}>
+<div class="auto-grid">
+  <div class="card-container">
+    <a href="/docs/traditional-ctap-terminal">
       <div>
-        <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Omnichannel-payments.svg" style={{margin: '5px', maxHeight: '100px', mxWidth: '100px'}} />
+        <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-2.svg" alt="Traditional CTAP Terminal Icon" class="card-icon" />
         <div class="container">
-          <h4><b>SmartPOS features</b></h4>
+          <h4><b>Traditional (CTAP) terminal</b></h4>
         </div>
       </div>
     </a>
   </div>
-  <div class="step-info">
-    <div class="step-number">5</div>
-    <p class="step-description configure-text" style={{ marginTop: '12px !important' }}>Customize your payment flow with additional features</p>
+  <div class="card-container">
+    <a href="/docs/smartpos-terminal">
+      <div>
+        <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Terminal-1.svg" alt="SmartPOS Terminal Icon" class="card-icon" />
+        <div class="container">
+          <h4><b>SmartPOS terminal</b></h4>
+        </div>
+      </div>
+    </a>
   </div>
 </div>
 
-***
+<style jsx>
+  {`
+    .auto-grid {
+      --auto-grid-min-size: 250px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+      gap: 15px;
+    }
 
-If you encounter issues during the set-up of your terminal, visit our <a href="https://docs.multisafepay.com/docs/pos-troubleshooting" target="_blank">POS troubleshooting</a> <i class="fa fa-external-link" style={{ fontSize:'12px',color:'#8b929e' }} />page for common solutions.
+    .card-container {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      text-align: center;
+      border-radius: 5px;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .card-container:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      transform: translateY(-0.2rem);
+      cursor: pointer;
+    }
+
+    .card-container a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card-container h4 b {
+      color: #384248 !important;
+      text-decoration: none !important;
+    }
+
+    .card-icon {
+      margin: 5px;
+      max-height: 50px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .card-container .container {
+
+    }
+  `}
+</style>
+
+***
 
 [Top of page](#)
