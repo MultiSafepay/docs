@@ -130,7 +130,7 @@ The customer's billing and shipping addresses must be the **same** to prevent fr
 
 ## Amount limits
 
-Minimum and maximum order amounts apply. Email [sales@multisafepay.com](\(mailto:sales@multisafepay.com\))
+Minimum and maximum order amounts apply. Email [sales@multisafepay.com]((mailto:sales@multisafepay.com)
 
 ## Cancellation
 
@@ -152,7 +152,7 @@ You can cancel the order **before** shipment or **after** partial shipment.
 
 ## Collection flow
 
-<details id="the-collection-flow-for-installments">
+<details id="the-collection-flow-14-days">
 <summary>Collection flow for 14 days</summary>
 <br/>
 
@@ -386,7 +386,7 @@ You must must refund partial shipments separately, using the specific **shipment
 
 See API reference – [Refund order](/reference/refundorder).
 
-**⚠️ Note:** To partially ship an order, email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com))
+**⚠️ Note:** To partially ship an order, email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
 ***
 
