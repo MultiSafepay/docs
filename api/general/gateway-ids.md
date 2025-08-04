@@ -1,9 +1,11 @@
 ---
 title: Gateway IDs
-category: 623dacddb0cbdd0394b9f5a9
-slug: 'gateway-ids'
-order: 5
-hidden: false
+category:
+  uri: General
+slug: gateway-ids
+position: 5
+privacy:
+  view: public
 ---
 | Payment method                         | Gateway ID    |
 | -------------------------------------- | ------------- |

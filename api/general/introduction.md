@@ -1,9 +1,11 @@
 ---
 title: Introduction
-category: 623dacddb0cbdd0394b9f5a9
-slug: 'introduction'
-order: 1
-hidden: false
+category:
+  uri: General
+slug: introduction
+position: 1
+privacy:
+  view: public
 ---
 Welcome to the MultiSafepay API reference.
 

@@ -1,9 +1,11 @@
 ---
 title: Transaction expiration
-category: 623dacddb0cbdd0394b9f5a9
-slug: 'transaction-expiration'
-order: 6
-hidden: false
+category:
+  uri: General
+slug: transaction-expiration
+position: 6
+privacy:
+  view: public
 ---
 Different payment methods set different expiration times for transactions. The time begins:
 
