@@ -1,9 +1,11 @@
 ---
 title: Pagination
-category: 623dacddb0cbdd0394b9f5a9
-slug: 'pagination'
-order: 4
-hidden: false
+category:
+  uri: General
+slug: pagination
+position: 4
+privacy:
+  view: public
 ---
 Some requests can return a lot of results. To make responses easier to handle, we paginate the results. You can specify how many results to return using the `limit` parameter.
 

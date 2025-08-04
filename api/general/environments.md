@@ -1,9 +1,11 @@
 ---
 title: Environments
-category: 623dacddb0cbdd0394b9f5a9
-slug: 'environments'
-order: 3
-hidden: false
+category:
+  uri: General
+slug: environments
+position: 3
+privacy:
+  view: public
 ---
 > ✅ Test environment
 >

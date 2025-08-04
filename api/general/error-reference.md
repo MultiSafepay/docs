@@ -1,9 +1,11 @@
 ---
 title: Error reference
-category: 623dacddb0cbdd0394b9f5a9
-slug: 'error-reference'
-order: 7
-hidden: false
+category:
+  uri: General
+slug: error-reference
+position: 7
+privacy:
+  view: public
 ---
 This page lists error codes you may encounter in transaction responses or statuses, or under **Notification history** in your MultiSafepay dashboard, possible causes and how to resolve them.
 
