@@ -1,3 +1,14 @@
+---
+title: Belfius
+category:
+  uri: Payment methods
+slug: belfius
+position: 5
+privacy:
+  view: public
+parent:
+  uri: banking-methods
+---
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bizum.svg/122px-Bizum.svg.png" width="100" align="right" style={{ margin: "20px", maxHeight: "75px" }} />
 
 <a href="https://bizum.es/" target="_blank">Bizum</a><i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> is a mobile payment system in Spain that enables users to make instant transfers through their banking app, providing a quick and secure way to conduct payments.

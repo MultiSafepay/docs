@@ -98,7 +98,7 @@ To test WeChat Pay payments, see Testing payment methods - [Wallets](/docs/testi
     <p>Support</p>
   </h3>
 
-  <p>Email <a href="mailto:support@multisafepay.com">[support@multisafepay.com](mailto:support@multisafepay.com)</a></p>
+  <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>
 
 [Top of page](#)
