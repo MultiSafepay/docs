@@ -818,7 +818,7 @@ For more information about Direct debit chargebacks, see Chargebacks - <a href="
     <p>Support</p>
   </h3>
 
-  <p>Email <a href="mailto:support@multisafepay.com">[support@multisafepay.com](mailto:support@multisafepay.com)</a></p>
+  <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>
 
 [Top of page](#)

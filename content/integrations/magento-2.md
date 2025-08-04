@@ -11,7 +11,7 @@ parent:
 content:
   excerpt: Technical manual for MultiSafepay's free plugin.
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento_2.svg" width="50" align="right" style={{margin: "20px", maxHeight: "75px"}} />
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento_2.svg" width="50" align="right" style={{ margin: "20px", maxHeight: "75px" }} />
 
 <div style={{ display: 'flex', flexWrap: 'wrap' }}>
   <a
@@ -86,7 +86,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
     <tbody>
       <tr>
         <td>
-          <a href="https://github.com/MultiSafepay/magento2-core" target="_blank">Multisafepay/magento2-core</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+          <a href="https://github.com/MultiSafepay/magento2-core" target="_blank">Multisafepay/magento2-core</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} />
         </td>
 
         <td>
@@ -96,7 +96,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 
       <tr>
         <td>
-          <a href="https://github.com/MultiSafepay/magento2-frontend" target="_blank">Multisafepay/magento2-frontend</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+          <a href="https://github.com/MultiSafepay/magento2-frontend" target="_blank">Multisafepay/magento2-frontend</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} />
         </td>
 
         <td>
@@ -110,7 +110,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 
       <tr>
         <td>
-          <a href="https://github.com/MultiSafepay/magento2-adminhtml" target="_blank">Multisafepay/magento2-adminhtml</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+          <a href="https://github.com/MultiSafepay/magento2-adminhtml" target="_blank">Multisafepay/magento2-adminhtml</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} />
         </td>
 
         <td>
@@ -120,7 +120,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 
       <tr>
         <td>
-          <a href="https://github.com/MultiSafepay/magento2-msi" target="_blank">Multisafepay/magento2-msi</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+          <a href="https://github.com/MultiSafepay/magento2-msi" target="_blank">Multisafepay/magento2-msi</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} />
         </td>
 
         <td>
@@ -130,7 +130,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 
       <tr>
         <td>
-          <a href="https://github.com/MultiSafepay/magento2-catalog-inventory" target="_blank">Multisafepay/magento2-catalog-inventory</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+          <a href="https://github.com/MultiSafepay/magento2-catalog-inventory" target="_blank">Multisafepay/magento2-catalog-inventory</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} />
         </td>
 
         <td>
@@ -140,7 +140,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 
       <tr>
         <td>
-          <a href="https://github.com/MultiSafepay/magento2" target="_blank">Multisafepay/magento2</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+          <a href="https://github.com/MultiSafepay/magento2" target="_blank">Multisafepay/magento2</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} />
         </td>
 
         <td>
@@ -150,7 +150,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 
       <tr>
         <td>
-          <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">Multisafepay/magento2-graphql</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+          <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">Multisafepay/magento2-graphql</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} />
         </td>
 
         <td>
@@ -160,7 +160,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 
       <tr>
         <td>
-          <a href="https://github.com/MultiSafepay/magento2-hyva-checkout" target="_blank">Multisafepay/hyva-checkout</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+          <a href="https://github.com/MultiSafepay/magento2-hyva-checkout" target="_blank">Multisafepay/hyva-checkout</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} />
         </td>
 
         <td>
@@ -178,7 +178,7 @@ Our plugin is supported by a certified Magento 2 Solution Specialist and receive
 
   The meta-package has a dependency on MSI. This means the MSI modules must be available (but not necessarily enabled) in your store.
 
-  If you have removed MSI (e.g. with a composer-replace trick like <a href="https://github.com/yireo/magento2-replace-inventory" target="_blank">yireo/magento2-replace-inventory</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />), you can't install the meta-package. To integrate with MultiSafepay, instead of installing the meta-package, install the magento2-frontend module and the magento2-catalog-inventory module.
+  If you have removed MSI (e.g. with a composer-replace trick like <a href="https://github.com/yireo/magento2-replace-inventory" target="_blank">yireo/magento2-replace-inventory</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} />), you can't install the meta-package. To integrate with MultiSafepay, instead of installing the meta-package, install the magento2-frontend module and the magento2-catalog-inventory module.
 
   The magento2-frontend module has a dependency on the magento2-core and magento2-adminhtml modules, so they are all installed together. In some cases, you also then need a stock-handling module. Since MSI is not available, you can install the magento2-catalog-inventory module instead.
 
@@ -256,27 +256,27 @@ The plugin is compatible with most Magento checkouts.
     </tr>
 
     <tr>
-      <td><a href="https://amasty.com/one-step-checkout-for-magento-2.html" target="_blank">Amasty One Step Checkout</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} /></td>
+      <td><a href="https://amasty.com/one-step-checkout-for-magento-2.html" target="_blank">Amasty One Step Checkout</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} /></td>
       <td>By default, Amasty One Step checkout is supported.</td>
     </tr>
 
     <tr>
-      <td><a href="https://github.com/hyva-themes/magento2-react-checkout" target="_blank"> Hyvä React checkout </a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />  </td>
-      <td><a href="https://github.com/MultiSafepay/magento2-react-checkout-multisafepay" target="_blank"> Hyvä checkout module</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} /></td>
+      <td><a href="https://github.com/hyva-themes/magento2-react-checkout" target="_blank"> Hyvä React checkout </a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} />  </td>
+      <td><a href="https://github.com/MultiSafepay/magento2-react-checkout-multisafepay" target="_blank"> Hyvä checkout module</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} /></td>
     </tr>
 
     <tr>
-      <td><a href="https://www.mageplaza.com/magento-2-one-step-checkout-extension" target="_blank">MagePlaza One Step checkout</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} /> </td>
+      <td><a href="https://www.mageplaza.com/magento-2-one-step-checkout-extension" target="_blank">MagePlaza One Step checkout</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} /> </td>
       <td>By default, MagePlaza One Step checkout is supported. </td>
     </tr>
 
     <tr>
-      <td><a href="https://docs.hyva.io/checkout/hyva-checkout/index.html " target="_blank"> Hyvä Checkout</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} /> </td>
-      <td><a href="https://github.com/MultiSafepay/magento2-hyva-checkout" target="_blank"> Hyvä Checkout module</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} /></td>
+      <td><a href="https://docs.hyva.io/checkout/hyva-checkout/index.html " target="_blank"> Hyvä Checkout</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} /> </td>
+      <td><a href="https://github.com/MultiSafepay/magento2-hyva-checkout" target="_blank"> Hyvä Checkout module</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} /></td>
     </tr>
 
     <tr>
-      <td> <a href="https://www.onestepcheckout.com/" target="_blank">OneStepCheckout.com</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} /> </td>
+      <td> <a href="https://www.onestepcheckout.com/" target="_blank">OneStepCheckout.com</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} /> </td>
       <td>By default, OneStepCheckout.com is supported. </td>
     </tr>
   </table>
@@ -377,7 +377,7 @@ Supported since release: 2.4.0, February 22nd 2021.
 
 ## Magento Vault and Instant Purchase
 
-Magento Vault enables you to use <a href="https://magento.com/innovations-lab/instant-purchase" target="_blank">Instant purchase</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />, a feature that helps make repeat payments faster and easier, increasing your <Glossary>conversion</Glossary> rate.
+Magento Vault enables you to use <a href="https://magento.com/innovations-lab/instant-purchase" target="_blank">Instant purchase</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} />, a feature that helps make repeat payments faster and easier, increasing your <Glossary>conversion</Glossary> rate.
 
 <details id="how-it-works">
   <summary>How it works</summary>
@@ -408,7 +408,7 @@ Magento Vault enables you to use <a href="https://magento.com/innovations-lab/in
 
   <br />
 
-  To activate Magento Vault, and enable <a href="https://docs.multisafepay.com/docs/recurring-payments" target="_blank">recurring payments</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />, email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)
+  To activate Magento Vault, and enable <a href="https://docs.multisafepay.com/docs/recurring-payments" target="_blank">recurring payments</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} />, email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)
 </details>
 
 <details id="vault-security">
@@ -437,7 +437,7 @@ The Magento 2 integration supports Manual Capture from version 3.7.0 and up.
   * Mastercard
   * Visa
 
-  For more information about Manual capture and how to enable it for your MultiSafepay account, please check our [Manual capture](/docs/manual-capture#integration) <a href="https://docs.multisafepay.com/docs/manual-capture#integration" target="_blank">https://docs.multisafepay.com/docs/manual-capture#integration</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> instructions.
+  For more information about Manual capture and how to enable it for your MultiSafepay account, please check our [Manual capture](/docs/manual-capture#integration) <a href="https://docs.multisafepay.com/docs/manual-capture#integration" target="_blank">[https://docs.multisafepay.com/docs/manual-capture#integration](https://docs.multisafepay.com/docs/manual-capture#integration)</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} /> instructions.
 
   To enable Manual capture in your Magento environment:
 
@@ -459,7 +459,7 @@ The default lifetime of **Pending payment** orders in Magento 2 is 480 minutes (
 
   To extend the lifetime of pending payments orders, increase the **Order Cron settings** value to longer than the validation period.
 
-  For instructions, see Magento – <a href="https://docs.magento.com/user-guide/sales/order-pending-payment-lifetime.html" target="_blank">Pending payment order lifetime</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.
+  For instructions, see Magento – <a href="https://docs.magento.com/user-guide/sales/order-pending-payment-lifetime.html" target="_blank">Pending payment order lifetime</a> <i class="fa fa-external-link" style={{ fontSize:"12px",color: "#8b929e" }} />.
 </details>
 
 ## Order requests
@@ -600,7 +600,7 @@ From version 2.0 and higher, [payment links](/docs/payment-links/) are automatic
 
 ## Progressive web apps
 
-The plugin is compatible with GraphQL queries and can be integrated into PWA stores using an additional <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">GraphQL support module</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.
+The plugin is compatible with GraphQL queries and can be integrated into PWA stores using an additional <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">GraphQL support module</a> <i class="fa fa-external-link" style={{ fontSize:"12px", color: "#8b929e" }} />.
 
 We also offer full extensions for [ScandiPWA](/docs/scandipwa/) and [Vue Storefront](/docs/vue-storefront/).
 
@@ -639,7 +639,7 @@ We also offer full extensions for [ScandiPWA](/docs/scandipwa/) and [Vue Storefr
   POST V1/invoice/:invoiceId/refund
   ```
 
-  For more information, see Magento REST API - <a href="https://devdocs.magento.com/guides/v2.3/rest/modules/sales/refunds.html#endpoint" target="_blank">Refunds</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+  For more information, see Magento REST API - <a href="https://devdocs.magento.com/guides/v2.3/rest/modules/sales/refunds.html#endpoint" target="_blank">Refunds</a> <i class="fa fa-external-link" style={{ fontSize:"12px", color: "#8b929e" }} />
 
   2. Add `is_online` parameter to the JSON body:
 
@@ -685,7 +685,7 @@ The plugin does not support [surcharges](/docs/surcharges/), but you can use thi
 
   <br />
 
-  To apply a surcharge or payment fee to a payment method, you can use the third-party <a href="https://store.fooman.co.nz/extensions/magento2" target="_blank">Fooman</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} /> package.
+  To apply a surcharge or payment fee to a payment method, you can use the third-party <a href="https://store.fooman.co.nz/extensions/magento2" target="_blank">Fooman</a> <i class="fa fa-external-link" style={{ fontSize:"12px", color: "#8b929e" }} /> package.
 
   **Refunds**
 
@@ -727,12 +727,12 @@ The plugin does not support [surcharges](/docs/surcharges/), but you can use thi
   * **Apply customer tax**: After discount
   * **Apply discount on prices**: Including tax
 
-  These recommended settings are based on Magento's standards. For more information, see Magento – <a href="https://docs.magento.com/user-guide/tax/warning-messages.html" target="_blank">Warning messages</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.
+  These recommended settings are based on Magento's standards. For more information, see Magento – <a href="https://docs.magento.com/user-guide/tax/warning-messages.html" target="_blank">Warning messages</a> <i class="fa fa-external-link" style={{ fontSize:"12px", color: "#8b929e" }} />.
 </details>
 
 ## Updates
 
-You can update the plugin via <a href="https://getcomposer.org" target="_blank">Composer</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.
+You can update the plugin via <a href="https://getcomposer.org" target="_blank">Composer</a> <i class="fa fa-external-link" style={{ fontSize:"12px", color: "#8b929e" }} />.
 
 <details id="how-to-update">
   <summary>How to update</summary>
@@ -771,7 +771,7 @@ You can update the plugin via <a href="https://getcomposer.org" target="_blank">
   To debug this issue on your side:
 
   1. Set to debug mode.
-  2. Use our <a href="https://github.com/MultiSafepay/magento2-order-save-inspector" target="_blank">Order Save Inspector</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} /> to check which module might interfere (for example, delivery software, ERP).
+  2. Use our <a href="https://github.com/MultiSafepay/magento2-order-save-inspector" target="_blank">Order Save Inspector</a> <i class="fa fa-external-link" style={{ fontSize:"12px", color: "#8b929e" }} /> to check which module might interfere (for example, delivery software, ERP).
 </details>
 
 <blockquote className="callout callout_info">
@@ -779,13 +779,16 @@ You can update the plugin via <a href="https://getcomposer.org" target="_blank">
     <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
+
   <p>Contact MultiSafepay:</p>
+
   <ul>
     <li>
       Telephone: <a href="tel:+310208500500">+31 (0)20 8500 500</a>
     </li>
+
     <li>
-      Email: <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a>
+      Email: <a href="mailto:integration@multisafepay.com">[integration@multisafepay.com](mailto:integration@multisafepay.com)</a>
     </li>
   </ul>
 </blockquote>

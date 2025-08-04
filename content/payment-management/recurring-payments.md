@@ -163,7 +163,7 @@ See API reference – [Create order](/reference/createorder/) > `customer.refere
     <p>Support</p>
   </h3>
 
-  <p>Email <a href="mailto:support@multisafepay.com">[support@multisafepay.com](mailto:support@multisafepay.com)</a></p>
+  <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>
 
 [Top of page](#)

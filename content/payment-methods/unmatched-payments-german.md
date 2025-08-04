@@ -35,7 +35,7 @@ Manchmal fügt die Bank des Kunden/der Kundin Kommentare zur Überweisung hinzu.
 Der Kunde/die Kundin hat eine Überweisung getätigt, jedoch nicht:
 
 - die Bestellung in Ihrem Onlinehandel aufgegeben, **oder**
-- **Bestätigen** auf der MultiSafepay Zahlungsseite geklickt (<<glossary:redirect>> orders).
+- **Bestätigen** auf der MultiSafepay Zahlungsseite geklickt (<Glossary>redirect</Glossary> orders).
 
 Dies bedeutet, dass die Transaktion nicht erfolgreich in unserem System generiert werden konnte.
 
@@ -57,14 +57,17 @@ Um nicht abgeglichene Zahlungen aufzulösen, prüfen Sie, ob eine [Transaktion](
 5. Klicken Sie auf **Bestätigen**, um die Transaktion in unserem System zu generieren. 
 
 **Bitte beachten:** Die Bestellnummer muss für jeden Zahlungslink einzigartig sein.
-<br>
+<br />
 
 ---
 
-[block:html]
-{
-  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
-}
-[/block]
+<blockquote class="callout callout_info">
+  <h3 class="callout-heading false">
+    <span class="callout-icon">💬</span>
+    <p>Support</p>
+  </h3>
+
+  <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+</blockquote>
 
 [Top of page](#)

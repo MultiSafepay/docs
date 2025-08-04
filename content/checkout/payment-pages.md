@@ -27,7 +27,7 @@ Payment pages are automatically activated when you [add a website](/docs/sites/)
 
 # Integration
 
-See Recipes – <a href="https://docs.multisafepay.com/recipes/create-a-payment-pagelink" target="_blank">Create a payment page</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+See Recipes – <a href="https://docs.multisafepay.com/recipes/create-a-payment-pagelink" target="_blank">Create a payment page</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 <details id="known-errors">
   <summary>Known errors</summary>
@@ -198,7 +198,7 @@ If you include a `shopping_cart` object when you [create an order](/reference/cr
   <br />
 
   1. To request to enable **Advanced website templates** for your MultiSafepay account, email \<[integration@multisafepay.com](mailto:integration@multisafepay.com)>
-  2. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  2. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   3. Go to **Settings** > **New payment pages**.
   4. Next to the relevant website, click **Template**.
   5. Under **Configure page style**, click **Settings**, and then select the **Hide cart details** checkbox.
@@ -210,7 +210,7 @@ We recommend styling payment pages to be consistent with the look and feel of yo
 
 ### Via the dashboard
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 2. Go to **Websites**, and then click the relevant website.
 
@@ -248,7 +248,7 @@ We recommend styling payment pages to be consistent with the look and feel of yo
 
      <br />
 
-     Under **Configure page style** > **Body**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background, text, and links on the page and when the user hovers over them.
+     Under **Configure page style** > **Body**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background, text, and links on the page and when the user hovers over them.
 
      <br />
    </details>
@@ -258,7 +258,7 @@ We recommend styling payment pages to be consistent with the look and feel of yo
 
      <br />
 
-     Under **Configure page style** > **Container**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background, text, labels, and links.
+     Under **Configure page style** > **Container**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background, text, labels, and links.
 
      <br />
    </details>
@@ -268,7 +268,7 @@ We recommend styling payment pages to be consistent with the look and feel of yo
 
      <br />
 
-     Under **Configure page style** > **Cart**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background, border, text, and labels.
+     Under **Configure page style** > **Cart**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background, border, text, and labels.
 
      <br />
    </details>
@@ -278,7 +278,7 @@ We recommend styling payment pages to be consistent with the look and feel of yo
 
      <br />
 
-     Under **Configure page style** > **Payment form**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background, border, text, input border, and input labels.
+     Under **Configure page style** > **Payment form**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background, border, text, input border, and input labels.
 
      <br />
    </details>
@@ -288,7 +288,7 @@ We recommend styling payment pages to be consistent with the look and feel of yo
 
      <br />
 
-     Under **Configure page style** > **Buttons**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background, border, text on the page and when hovered over.
+     Under **Configure page style** > **Buttons**, you can set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background, border, text on the page and when hovered over.
 
      <br />
    </details>
@@ -343,7 +343,7 @@ You can dynamically style the payment page for specific order requests via our A
 See:
 
 * API reference – [Create order](/reference/createorder/) > Payment page/link > `payment_options` object
-* Recipes – <a href="https://docs.multisafepay.com/recipes/style-the-payment-page" target="_blank">Style the payment page</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* Recipes – <a href="https://docs.multisafepay.com/recipes/style-the-payment-page" target="_blank">Style the payment page</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 The `items` parameter is an HTML string for displaying order items on the payment page, instead of including a `shopping_cart`.
 
@@ -385,7 +385,7 @@ When customers select Visa as payment method, Visa requires us to display on the
     Support
   </h3>
 
-  <p>Email <a href="mailto:integration@multisafepay.com">[integration@multisafepay.com](mailto:integration@multisafepay.com)</a></p>
+  <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
 </blockquote>
 
 [Top of page](#)

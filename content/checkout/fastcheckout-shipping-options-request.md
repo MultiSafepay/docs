@@ -237,7 +237,7 @@ We expect to receive your response formatted as follows:
   </h3>
 
   <p>
-    Email <a href="mailto:integration@multisafepay.com">[integration@multisafepay.com](mailto:integration@multisafepay.com)</a>
+    Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a>
   </p>
 </blockquote>
 

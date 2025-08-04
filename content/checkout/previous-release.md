@@ -29,7 +29,7 @@ This technical manual is for integrating the previous release of the payment com
    <div id="MultiSafepayPayment"></div>
    ```
 
-# 2) Initialize the component
+# 2. Initialize the component
 
 ## Generate an API token
 
@@ -65,10 +65,10 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
 
      | Key                           | Value                                                                                                                                                                                                                                                                                                                  |
      | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-     | currency                      | The currency of the order. Format: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, e.g. `EUR`. **Required**.                                                                                                |
+     | currency                      | The currency of the order. Format: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, e.g. `EUR`. **Required**.                                                                                                |
      | amount                        | The value of the order. Format: Number without decimal points, e.g. 100 euro is formatted as `10000`. **Required**.                                                                                                                                                                                                    |
-     | customer.country              | The customer's country code. Checks the availability of the payment method. Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, e.g. `NL`. **Required**.                            |
-     | customer.locale               | The customer's language. Sets the language of the payment component UI. <br /> Format: <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO 639</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> <br /> Supported languages: `en`, `es`, `fr`, `it`, `nl`. **Optional**. |
+     | customer.country              | The customer's country code. Checks the availability of the payment method. Format: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, e.g. `NL`. **Required**.                            |
+     | customer.locale               | The customer's language. Sets the language of the payment component UI. <br /> Format: <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO 639</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> <br /> Supported languages: `en`, `es`, `fr`, `it`, `nl`. **Optional**. |
      | template.settings.embed\_mode | A template designed to blend in seamlessly with your ecommerce platform. Format: Boolean. **Optional**.                                                                                                                                                                                                                |
    </details>
 
@@ -141,7 +141,7 @@ Payment Components require a MultiSafepay API token. See API reference – [Gene
      | `getPaymentData` | Creates a `payload` object with the customer's payment details, used to create orders |
    </details>
 
-# 3) Create an order
+# 3. Create an order
 
 ## Collect payment data
 
@@ -197,7 +197,7 @@ Make a [Create order](/reference/createorder/) > Payment component request from 
 
    If no further action is required, the customer is redirected to the `redirect_url`.
 
-# 4) Go live
+# 4.<p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p> Go live
 
 When you're ready to process real payments, make the following changes:
 
@@ -219,13 +219,13 @@ When you're ready to process real payments, make the following changes:
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 
-  <p>Email <a href="mailto:integration@multisafepay.com">[integration@multisafepay.com](mailto:integration@multisafepay.com)</a></p>
+  <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
 </blockquote>
 
 [Top of page](#)

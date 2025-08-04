@@ -25,18 +25,18 @@ Payment is quick, automated, and secure.
 
 <div class="auto-grid">
     <div class="card-container">
-        <a href="/docs/alipay-plus/" style="text-decoration: none;">
+        <a href="/docs/alipay-plus/" style={{ textDecoration:'none' }}>
             <div class="card">
-                <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/alipayplus.svg" style={{margin: '20px', maxHeight: '75px'}}>
+                <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/alipayplus.svg" style={{ margin: '20px', maxHeight: '75px' }} />
                 <div class="container">
                     </div>
             </div>
         </a>
     </div>
     <div class="card-container">
-        <a href="/docs/bancontact/" style="text-decoration: none;">
+        <a href="/docs/bancontact/" style={{ textDecoration:'none' }}>
             <div class="card">
-                <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/bancontact.svg" style={{margin: '20px', maxHeight: '75px'}}>
+                <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/bancontact.svg" style={{ margin: '20px', maxHeight: '75px' }} />
                 <div class="container">
                     </div>
             </div>
@@ -44,8 +44,8 @@ Payment is quick, automated, and secure.
     </div>
        </div>
 
-<style>
-
+<style jsx>
+{`
 b {
   color: #384248 !important;
 }
@@ -70,23 +70,23 @@ b {
 .card-container:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-
+`}
 </style>
 
 <div class="auto-grid">
     <div class="card-container">
-        <a href="/docs/ideal#ideal-qr" style="text-decoration: none;">
+        <a href="/docs/ideal#ideal-qr" style={{ textDecoration:'none' }}>
             <div class="card">
-                <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/ideal-qr.svg" style={{margin: '20px', maxHeight: '75px'}}>
+                <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/ideal-qr.svg" style={{ margin: '20px', maxHeight: '75px' }} />
                 <div class="container">
                     </div>
             </div>
         </a>
     </div>
     <div class="card-container">
-        <a href="/docs/wechat-pay/" style="text-decoration: none;">
+        <a href="/docs/wechat-pay/" style={{ textDecoration:'none' }}>
             <div class="card">
-                <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/wechatpay.svg" style={{margin: '20px', maxHeight: '75px'}}>
+                <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/wechatpay.svg" style={{ margin: '20px', maxHeight: '75px' }} />
                 <div class="container">
                     </div>
             </div>
@@ -94,8 +94,8 @@ b {
     </div>
    </div>
 
-<style>
-
+<style jsx>
+{`
 b {
   color: #384248 !important;
 }
@@ -120,7 +120,7 @@ b {
 .card-container:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-
+`}
 </style>
 
 <br />
@@ -133,7 +133,7 @@ b {
     <p>Support</p>
   </h3>
 
-  <p>Email <a href="mailto:integration@multisafepay.com">[integration@multisafepay.com](mailto:integration@multisafepay.com)</a></p>
+  <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
 </blockquote>
 
 [Top of page](#)

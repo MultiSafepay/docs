@@ -267,7 +267,7 @@ cart_total = items_total + vat_total
     Support
   </h3>
 
-  <p>Email <a href="mailto:integration@multisafepay.com">[integration@multisafepay.com](mailto:integration@multisafepay.com)</a></p>
+  <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
 </blockquote>
 
 [Top of page](#)
