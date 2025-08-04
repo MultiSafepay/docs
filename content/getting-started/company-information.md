@@ -62,7 +62,6 @@ You can add or remove email addresses to receive notifications about completed a
 
 ***
 
-<HTMLBlock>{`
 <blockquote class="callout callout_info">
     <h3 class="callout-heading false">
         <span class="callout-icon">💬</span>
@@ -70,6 +69,5 @@ You can add or remove email addresses to receive notifications about completed a
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>
-`}</HTMLBlock>
 
 [Top of page](#)
