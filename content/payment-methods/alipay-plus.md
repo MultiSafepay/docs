@@ -55,7 +55,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 # Activation
 
-1. Email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)\
+1. Email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)
    We check your eligibility and onboard you with Alipay+. We may contact you for information.
 2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 3. To activate the payment method for:
@@ -169,7 +169,7 @@ Alipay+ aggregates a wide range of Asian wallets.
     <p>Support</p>
   </h3>
 
-  <p>Email <a href="mailto:support@multisafepay.com">[support@multisafepay.com](mailto:support@multisafepay.com)</a></p>
+  <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>
 
 [Top of page](#)

@@ -13,7 +13,7 @@ MultiSafepay applies the following rounding rule when calculating the total cost
 2. Calculate the total VAT for all items in the cart (if applicable): Multiply the total cost of each item by the VAT rate, then add the results together, rounding to 2 decimal places= VAT total.
 3. Add the items total to the VAT total= Cart total.
 
-  **💡 Tip!** When rounding to 2 decimal places, always <a href="https://en.wikipedia.org/wiki/Rounding#Round_half_up" target="_blank">round half up</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  **💡 Tip!** When rounding to 2 decimal places, always <a href="https://en.wikipedia.org/wiki/Rounding#Round_half_up" target="_blank">round half up</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
 
 Apply the same rounding rule in your integration to ensure:
 
@@ -21,7 +21,7 @@ Apply the same rounding rule in your integration to ensure:
 * [Payment pages](/docs/payment-pages/) display the correct (sub)totals.
 * [E-Invoices](/docs/e-invoicing/) to your customers match your records.
 
-For more information about the `shopping_cart` object, see Recipe – <a href="https://docs.multisafepay.com/recipes/create-a-fastcheckout-page" target="_blank">Include shopping\_cart in order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For more information about the `shopping_cart` object, see Recipe – <a href="https://docs.multisafepay.com/recipes/create-a-fastcheckout-page" target="_blank">Include shopping\_cart in order</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
 
 ## Example
 
