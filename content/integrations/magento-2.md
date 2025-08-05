@@ -723,7 +723,7 @@ You can update the plugin via <a href="https://getcomposer.org" target="_blank">
      php bin/magento setup:upgrade
      php bin/magento setup:di:compile
      ```
-  4. Depending on your webserver/webshop configuration, you may also need to:
+  4. Depending on your web server/webshop configuration, you may also need to:
      * Check the 'rights' on files are correct. For the MultiSafepay files, see vendor/multisafepay.
      * Empty static files when running in production mode.
      * Clear your cache.
@@ -740,7 +740,7 @@ You can update the plugin via <a href="https://getcomposer.org" target="_blank">
 
   ### Order Status Update
 
-  If you experience issues with order statuses not being updated correctly (e.g., incongruent pending and processing), this might happen randomly and be difficult to replicate. This is generally caused by third-party solutions interfering in the order processing flow and the observer being based on a different instance of the order object.
+  If you experience issues with order statuses not being updated correctly (e.g., incongruous pending and processing), this might happen randomly and be difficult to replicate. This is generally caused by third-party solutions interfering in the order processing flow and the observer being based on a different instance of the order object.
 
   *Tip*: This issue might appear after upgrading to our latest plugin version, possibly due to faster notification processing times surfacing an already existing update conflict.
 
