@@ -15,7 +15,7 @@ See API reference to list transactions - [List transactions](/reference/listtran
 
 # Authentication
 
-To authenticate your API requests, you need to provide the correct <a href="https://docs.multisafepay.com/docs/sites#site-id-api-key-and-security-code" target="_blank">API key</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />. The type of key required depends on the request:
+To authenticate your API requests, you need to provide the correct <a href="https://docs.multisafepay.com/docs/sites#site-id-api-key-and-security-code" target="_blank">API key</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />. The type of key required depends on the request:
 
 * For [Get transaction](/reference/gettransaction/) requests, use the **website API key** of the website where the transaction was made.
 * For [List transactions](/reference/listtransactions/) requests, use an **account API key** to list all transaction for an acount. Use a **website API key** to list transactions for a specific website.
@@ -72,9 +72,9 @@ curl -X GET "https://testapi.multisafepay.com/v1/json/transactions?type=refund" 
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
