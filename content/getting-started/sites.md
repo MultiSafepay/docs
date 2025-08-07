@@ -21,7 +21,7 @@ To process payments from a website operated by a separate legal entity, you must
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
   2. Go to **Websites**.
   3. Click **Add new website**.
      * From the **Category** list, select what type of products or services your website sells.
@@ -56,7 +56,7 @@ To process payments from a website operated by a separate legal entity, you must
 
 To block or unblock a website:
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
 2. Go to **Websites**, and then click the relevant website.
 3. On the **Website** panel, from the **Status** list select:
    * **Blocked**, to block the website.
@@ -71,7 +71,7 @@ To block or unblock a website:
 
 To delete a website:
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
 2. Go to **Websites**.
 3. On the row of the relevant website, click ❌   **Disable payments** > **Delete**.
 
@@ -91,7 +91,7 @@ To restore a website:
 
 You can temporarily disable payments for a website, and then re-enable them.
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
 2. Go to **Websites**.
 3. On the row of the relevant website:
    * To disable payments, click ❌   **Disable payments** > **Yes**. <br /> On the **Websites** page, the website's status changes to **Blocked**.
@@ -101,9 +101,9 @@ You can temporarily disable payments for a website, and then re-enable them.
 
 ## Logos and icons
 
-For MultiSafepay logos, see our GitHub repository – <a href="https://github.com/MultiSafepay/MultiSafepay-logos" target="_blank">MultiSafepay logos</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
+For MultiSafepay logos, see our GitHub repository – <a href="https://github.com/MultiSafepay/MultiSafepay-logos" target="_blank">MultiSafepay logos</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
 
-For the logos and icons of all MultiSafepay payment methods, see our GitHub repository – <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">MultiSafepay icons</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
+For the logos and icons of all MultiSafepay payment methods, see our GitHub repository – <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">MultiSafepay icons</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
 
 <details id="how-to-generate-logo-png">
   <summary>How to generate a PNG of logos</summary>
@@ -112,7 +112,7 @@ For the logos and icons of all MultiSafepay payment methods, see our GitHub repo
 
   To generate a portable network graphic (PNG) of a payment method logo to display on your website, follow these steps:
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
   2. Go to **Settings** > **Logo designer**.
   3. Select a layout template.
   4. From the **Select elements** window, select the logos you want to include.
@@ -127,7 +127,7 @@ For the logos and icons of all MultiSafepay payment methods, see our GitHub repo
 
 To view the ID, API key, and security code for a website:
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">live</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} /> or <a href="https://testmerchant.multisafepay.com" target="_blank">test</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} /> MultiSafepay dashboard.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">live</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} /> or <a href="https://testmerchant.multisafepay.com" target="_blank">test</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} /> MultiSafepay dashboard.
 2. Go to **Websites**, and then click on the relevant website.
 3. You can find the website ID, API key, and security code in the top-right corner of the page.
 
@@ -135,7 +135,7 @@ To view the ID, API key, and security code for a website:
 
 To view the ID and API key for a terminal group:
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">live</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} /> or <a href="https://testmerchant.multisafepay.com" target="_blank">test</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} /> MultiSafepay dashboard.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">live</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} /> or <a href="https://testmerchant.multisafepay.com" target="_blank">test</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} /> MultiSafepay dashboard.
 2. Go to **Devices** > **Terminals**.
 3. Click on **Manage groups**.
 4. A list of all available terminal groups will be displayed, showing the ID and API key for each group.
@@ -151,7 +151,7 @@ You can specify how your company name appears on customer bank statements (if su
 
   To set how your company name displays, follow these steps:
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929' }} />.
   2. Go to **Websites**, and then click the relevant website.
   3. In the **Website name** field, enter the name to display (maximum 35 characters).
   4. Click **Save**.
@@ -160,9 +160,9 @@ You can specify how your company name appears on customer bank statements (if su
 ***
 
 <HTMLBlock>{`
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

@@ -93,9 +93,9 @@ Under Visa and Mastercard's High Risk programs, you will be subject to a 500 USD
 ***
 
 <HTMLBlock>{`
-    <blockquote class="callout callout_info">
-      <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+    <blockquote className="callout callout_info">
+      <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
       </h3>
       <ul>

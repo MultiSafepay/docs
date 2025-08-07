@@ -34,14 +34,14 @@ Second Chance emails are **not** sent:
 
 # Activation
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 2. Go to **Websites**, and then click the relevant website.
 3. On the **Website profile** page, under **Website functionality**, select the **Enable Second Chance** checkbox.
 4. Click **Save**.
 
 # Integration
 
-To integrate, see Recipes – <a href="https://docs.multisafepay.com/recipes/send-payment-reminders" target="_blank">Send payment reminders</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+To integrate, see Recipes – <a href="https://docs.multisafepay.com/recipes/send-payment-reminders" target="_blank">Send payment reminders</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 <br />
 
@@ -190,9 +190,9 @@ For an overview of all Second Chance emails that resulted in successful payment,
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

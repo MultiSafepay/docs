@@ -351,7 +351,7 @@ Email a request to accept non-3D Secure authenticated cards to <risk@multisafepa
 
 [block:html]
 {
-"html": "<blockquote class=\"callout callout_info\">\n <h3 class=\"callout-heading false\">\n <span class=\"callout-icon\">💬</span>\n <p>Support</p>\n </h3>\n <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
+"html": "<blockquote className=\"callout callout_info\">\n <h3 className=\"callout-heading false\">\n <span className=\"callout-icon\">💬</span>\n <p>Support</p>\n </h3>\n <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
 }
 [/block]
 

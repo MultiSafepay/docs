@@ -20,7 +20,7 @@ parent:
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/alipayplus.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
-<a href="https://www.alipayplus.com/" target="_blank">Alipay+</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is the next generation of Alipay: a leading global payment method that lets customers link their card or bank account to a wide range of Asian wallets. It supports online, QR, and contactless <Glossary>POS</Glossary> payments, as well as international money transfers.
+<a href="https://www.alipayplus.com/" target="_blank">Alipay+</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is the next generation of Alipay: a leading global payment method that lets customers link their card or bank account to a wide range of Asian wallets. It supports online, QR, and contactless <Glossary>POS</Glossary> payments, as well as international money transfers.
 
 For Chinese customers, Alipay accounts are verified and linked to their Chinese bank account. Non-Chinese customers can also pay with Alipay using the Tour Pass.
 
@@ -57,7 +57,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 1. Email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)
    We check your eligibility and onboard you with Alipay+. We may contact you for information.
-2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 3. To activate the payment method for:
 
 * All websites, go to **Settings** > **Payment methods**.
@@ -137,7 +137,7 @@ Alipay+ requires all merchants to display the Alipay+ partner logo **and** the l
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Alipay+Logos.png" align="center" />
 
-For all logos, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">Icons</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For all logos, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">Icons</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ## Wallets
 
@@ -163,9 +163,9 @@ Alipay+ aggregates a wide range of Asian wallets.
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

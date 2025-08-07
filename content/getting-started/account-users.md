@@ -31,7 +31,7 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: '12px', color: '#8b929e' }} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: '12px', color: '#8b929e' }} />.
   2. Go to **Settings** > **Account users**.
   3. Click **Add new user**.
   4. Enter the new user's:
@@ -50,7 +50,7 @@ Your MultiSafepay account can have an unlimited number of authorized users. All 
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: '12px', color: '#8b929e' }} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: '12px', color: '#8b929e' }} />.
   2. Go to **Settings** > **Account users**, and then click the relevant user profile.
   3. On the **User profile** pages, from the **Status** list, select **Blocked**.
   4. Click **Save changes**.\
@@ -75,8 +75,8 @@ When enabled, users must verify their identity with a password, and a 6-digit to
 
 ### 1. Download the MultiSafepay app
 
-* For Android devices – <a href="https://play.google.com/store/apps/details?id=com.multisafepay.control" target="_blank">Google Play</a> <i class="fa fa-external-link" style={{ fontSize: '12px', color: '#8b929e' }} />
-* For Apple iOS devices – <a href="https://apps.apple.com/app/multisafepay-control/id929955963" target="_blank">App Store</a> <i class="fa fa-external-link" style={{ fontSize: '12px', color: '#8b929e' }} />
+* For Android devices – <a href="https://play.google.com/store/apps/details?id=com.multisafepay.control" target="_blank">Google Play</a> <i className="fa fa-external-link" style={{ fontSize: '12px', color: '#8b929e' }} />
+* For Apple iOS devices – <a href="https://apps.apple.com/app/multisafepay-control/id929955963" target="_blank">App Store</a> <i className="fa fa-external-link" style={{ fontSize: '12px', color: '#8b929e' }} />
 
 ### 2. Enable 2FA
 
@@ -87,7 +87,7 @@ Only administrators can enable 2FA.
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: '12px', color: '#8b929e' }} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: '12px', color: '#8b929e' }} />.
   2. Go to **Settings** > **Account users**.
   3. Click the name of the user you want to enable 2FA for.
   4. On the **User details** page, from the **Two-factor authentication** list, select **Enabled**.
@@ -103,7 +103,7 @@ Users must then configure 2FA the first time they sign in to the dashboard after
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: '12px', color: '#8b929e' }} /> on your laptop or PC.\
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: '12px', color: '#8b929e' }} /> on your laptop or PC.\
      A dialog requesting a 6-digit token appears.
   2. In the MultiSafepay app,  tap **More** in the bottom-right corner.
   3. Tap **Authenticator**.
@@ -114,9 +114,10 @@ Users must then configure 2FA the first time they sign in to the dashboard after
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

@@ -80,7 +80,7 @@ The accountant export lists all successful incoming and outgoing transactions, i
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">live</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> or <a href="https://testmerchant.multisafepay.com" target="_blank">test</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> dashboard.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">live</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> or <a href="https://testmerchant.multisafepay.com" target="_blank">test</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> dashboard.
   2. Go to **Reports** > **Accountant export**.
   3. From the **Date selection** list, select the relevant timeframe (last 2 years only), and then click **Apply**.
   4. From the **Currency** list, select the relevant currency.
@@ -130,7 +130,7 @@ This report provides an overview (in Excel or CSV format) of:
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Reports** > **Financial report**.
   3. To specify the period you want the report to cover, click the date selector under **Period**.
   4. From the **Cost grouping** list, select:
@@ -155,7 +155,7 @@ This report provides insight (in Excel format) into your conversion rate. You ca
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Reports** > **Advanced reporting**.
      * Under **Date**, select the date range you want the report to cover.
      * Under **Currency**, select the relevant currency.
@@ -209,7 +209,7 @@ This report provides an overview (in Excel or PDF format) of revenue and fees fo
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Reports** > **Financial summary**.
   3. Under **Options**, in the **Date** field, enter the start and end dates of the period you want the report to cover.
   4. From the **Currency** list, select the relevant currency.
@@ -261,7 +261,7 @@ This report provides an overview (in Excel format) of the specific transactions 
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Reports** > **Daily balance**.
   3. Under **Payout ID** for the relevant date, click the green **Export** icon.
 
@@ -284,7 +284,7 @@ This report provides an overview (in Excel format) of the total revenue and/or n
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Reports** > **Advanced reporting** > **Website**.
   3. Under **Date**, select the date range you want the report to cover.
   4. If relevant, specify one or two websites under **Website** and **Site 2**.
@@ -357,7 +357,7 @@ This report provides an overview (in Excel or PDF format) of all transactions wi
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Reports** > **Transaction summary**.
   3. Under **Report settings** > in the **From** and **To** fields, enter the start and end dates of the period you want the report to cover.
   4. Under **Extra**, specify any other relevant parameters:
@@ -391,7 +391,7 @@ You can automate generation of accountant exports and payout reports.
     * File format: CAMT053, CODA, CSV, MT940, XLS, or XLSX
     * MultiSafepay transaction fees: Total or listed separately
 
-  To view the autogenerated reports in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, click the **Messages** icon in the top-right corner.
+  To view the autogenerated reports in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, click the **Messages** icon in the top-right corner.
 </details>
 
 <details id="SFTP-requests-and-requirements">
@@ -474,9 +474,9 @@ In some cases, the custom range selected for your report is not applied immediat
 
 **⚠️Note:** The payout report is only available for automated withdrawals.
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

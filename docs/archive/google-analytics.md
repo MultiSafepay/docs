@@ -10,10 +10,10 @@ Google Analytics is a popular web analytics service used to analyze data collect
 
 | Version | Javascript library | Google support |
 |---|---|---|
-| <a href="https://developers.google.com/analytics/devguides/collection/gajs?hl=en" target="_blank">Classic Google Analytics (GA1)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | `ga.js` | Deprecated |
-| <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs" target="_blank">Universal Analytics (GA2)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | `analytics.js` | Until July 1, 2023 |
-| <a href="https://developers.google.com/analytics/devguides/collection/gtagjs" target="_blank">Universal Analytics (GA3)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | `gtag.js` | Until July 1, 2023 |
-| <a href="https://developers.google.com/analytics/devguides/collection/ga4" target="_blank">Google Analytics 4 (GA4)</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | `gtag.js` with a different data model | Supported |
+| <a href="https://developers.google.com/analytics/devguides/collection/gajs?hl=en" target="_blank">Classic Google Analytics (GA1)</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i> | `ga.js` | Deprecated |
+| <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs" target="_blank">Universal Analytics (GA2)</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i> | `analytics.js` | Until July 1, 2023 |
+| <a href="https://developers.google.com/analytics/devguides/collection/gtagjs" target="_blank">Universal Analytics (GA3)</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i> | `gtag.js` | Until July 1, 2023 |
+| <a href="https://developers.google.com/analytics/devguides/collection/ga4" target="_blank">Google Analytics 4 (GA4)</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i> | `gtag.js` with a different data model | Supported |
 
 # Data models
 Universal Analytics is an older version of Google Analytics that uses a data model based on sessions and page views. Google Analytics 4 is the most recent version and uses a data model based on events and parameters.
@@ -50,7 +50,7 @@ To prevent third-party shopping carts initiating new sessions, you can exclude r
 
 **⚠️ Note:** This feature is only available for websites using `gtag.js` or `analytics.js`.
 
-For instructions, see Google Analytics – <a href="https://support.google.com/analytics/answer/2795830" target="_blank">Referral exclusions</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+For instructions, see Google Analytics – <a href="https://support.google.com/analytics/answer/2795830" target="_blank">Referral exclusions</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>.
 
 When you click **+Add referral exclusion**, enter the following:
 
@@ -124,7 +124,7 @@ These solutions need a server environment and may require significant developmen
 - It is not possible to use client-side and server-side solutions at the same time.
 
 ### How to send additional data
-To send additional event data to Google Analytics, you can use Google's <a href="https://developers.google.com/analytics/devguides/collection/protocol/ga4" target="_blank">Measurement protocol</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+To send additional event data to Google Analytics, you can use Google's <a href="https://developers.google.com/analytics/devguides/collection/protocol/ga4" target="_blank">Measurement protocol</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>.
 
 To send additional information about a customer's journey, you can use notifications from our [webhook](/docs/webhook/). For example, that payment was successful or that the <<glossary:order>> was cancelled.
 
@@ -137,11 +137,11 @@ This provides several benefits:
 - If your server is hosted on a subdomain of your website, you collect customers' data yourself instead of a third party. This avoids conflicts with third-party cookies.
 - You can add additional event data from other sources like MultiSafepay's [webhook notifications](/docs/webhook/).
 
-For more information, see Google Tag Manager - <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank">Server-side tagging</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+For more information, see Google Tag Manager - <a href="https://developers.google.com/tag-platform/tag-manager/server-side" target="_blank">Server-side tagging</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>.
 
 ### How to follow customers between sessions
 
-To follow a customer's journey between different sessions or browsers, in addition to using Google Tag Manager server-side tagging, you need to also update the data layer of your website to capture information that accurately identifies the customer. For more information, see Google Tag Manager - <a href="https://developers.google.com/tag-platform/tag-manager/web/datalayer" target="_blank">The data layer</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+To follow a customer's journey between different sessions or browsers, in addition to using Google Tag Manager server-side tagging, you need to also update the data layer of your website to capture information that accurately identifies the customer. For more information, see Google Tag Manager - <a href="https://developers.google.com/tag-platform/tag-manager/web/datalayer" target="_blank">The data layer</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>.
 
 <br>
 
@@ -149,7 +149,7 @@ To follow a customer's journey between different sessions or browsers, in additi
 
 [block:html]
 {
-"html": "<blockquote class=\"callout callout_info\">\n <h3 class=\"callout-heading false\">\n <span class=\"callout-icon\">💬</span>\n <p>Support</p>\n </h3>\n <p>Email <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></p>\n</blockquote>\n"
+"html": "<blockquote className=\"callout callout_info\">\n <h3 className=\"callout-heading false\">\n <span className=\"callout-icon\">💬</span>\n <p>Support</p>\n </h3>\n <p>Email <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></p>\n</blockquote>\n"
 }
 [/block]
 

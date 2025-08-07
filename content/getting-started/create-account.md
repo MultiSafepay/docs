@@ -29,8 +29,8 @@ You may want to start with a test account. This is a free account where you can 
 
 To create a free test account:
 
-* Fill out the <a href="https://testmerchant.multisafepay.com/signup" target="_blank">signup form</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
-* Sign in to your <a href="https://testmerchant.multisafepay.com" target="_blank">test dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> using the security code we email you.
+* Fill out the <a href="https://testmerchant.multisafepay.com/signup" target="_blank">signup form</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+* Sign in to your <a href="https://testmerchant.multisafepay.com" target="_blank">test dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> using the security code we email you.
 
 # Live accounts
 
@@ -38,15 +38,15 @@ To create and [onboard](/docs/onboarding/) a live account and start processing r
 
 1. Fill out the relevant signup form:
 
-   * Merchant: <a href="https://merchant.multisafepay.com/signup" target="_blank">Live form</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />  /  <a href="https://testmerchant.multisafepay.com/signup" target="_blank">Test  form</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
-   * Partner/primary: <a href="https://merchant.multisafepay.com/signup?partner" target="_blank">Live form</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />  /  <a href="https://testmerchant.multisafepay.com/signup?partner" target="_blank">Test form</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+   * Merchant: <a href="https://merchant.multisafepay.com/signup" target="_blank">Live form</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />  /  <a href="https://testmerchant.multisafepay.com/signup" target="_blank">Test  form</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+   * Partner/primary: <a href="https://merchant.multisafepay.com/signup?partner" target="_blank">Live form</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />  /  <a href="https://testmerchant.multisafepay.com/signup?partner" target="_blank">Test form</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
 
    You receive an email containing your **security code**.
 
 2. Use your security code to sign in to your account:
 
-   * <a href="https://merchant.multisafepay.com/" target="_blank">Live account</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
-   * <a href="https://testmerchant.multisafepay.com/" target="_blank">Test account</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+   * <a href="https://merchant.multisafepay.com/" target="_blank">Live account</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+   * <a href="https://testmerchant.multisafepay.com/" target="_blank">Test account</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
 
 3. Live accounts open by default to the onboarding steps page. You can navigate away from this page, and return to it via the button under **Alert**.
 
@@ -67,9 +67,9 @@ In collaboration with your current PSP, we can securely transfer tokenized card 
 ***
 
 <HTMLBlock>{`
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

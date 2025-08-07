@@ -23,7 +23,7 @@ To update your contact details, provide us with your address in your dashboard:
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
   2. In the top-right corner of your dashboard, click <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/profile-icon.png" />  > **Account information**.
   3. Under **Contact details**, provide the relevant email address.
   4. Click **Save**.
@@ -52,7 +52,7 @@ You can add or remove email addresses to receive notifications about completed a
 
   <br />
 
-  1. Go to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+  1. Go to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
   2. Under **Settings**, click **Email settings**.
   3. On the **Email settings** page, fill the desired email address for each of the fields for which you want to receive notifications. You can use up to **five** email addresses for each field.
   4. Click **Save**.
@@ -62,9 +62,9 @@ You can add or remove email addresses to receive notifications about completed a
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

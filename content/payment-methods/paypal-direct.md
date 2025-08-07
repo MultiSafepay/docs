@@ -9,13 +9,13 @@ privacy:
 parent:
   uri: wallets
 ---
-The **PayPal** button enables customers to complete the payment with a one-click checkout solution without being redirected to a <Glossary>payment page</Glossary>. The checkout solution allows customers to pay in 4 or monthly installments using <a href="https://www.paypal.com/us/business/accept-payments/checkout" target="_blank">PayPal BNPL</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> method.
+The **PayPal** button enables customers to complete the payment with a one-click checkout solution without being redirected to a <Glossary>payment page</Glossary>. The checkout solution allows customers to pay in 4 or monthly installments using <a href="https://www.paypal.com/us/business/accept-payments/checkout" target="_blank">PayPal BNPL</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> method.
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/payPayHero.png" align="center" />
 
 # Prerequisites
 
-* You need to have a <a href="https://www.paypal.com" target="_blank">PayPal business account</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* You need to have a <a href="https://www.paypal.com" target="_blank">PayPal business account</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 * PayPal must be [activated in your MultiSafepay account](/docs/paypal#activation).
 
 # 1. Initialize
@@ -73,7 +73,7 @@ loadScript({ "client-id": client_id,"merchant-id":merchant_id })
 >
 > The naming convention for MultiSafepay is in underscores (\_), whereas for PayPal, it is in dashes (-).
 
-For more information about JavaScript SDK, see PayPal Developer - <a href="https://developer.paypal.com/sdk/js/configuration/" target="_blank">JS SDK script configuration.</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+For more information about JavaScript SDK, see PayPal Developer - <a href="https://developer.paypal.com/sdk/js/configuration/" target="_blank">JS SDK script configuration.</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 ## Display the PayPal checkout button
 
@@ -85,7 +85,7 @@ Create an element in the `<body>` where you want to display the **PayPal** check
 
 ## Render the PayPal button
 
-For information about styling your **PayPal** button, see - <a href="https://developer.paypal.com/sdk/js/reference/#style" target="_blank">style PayPal button.</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+For information about styling your **PayPal** button, see - <a href="https://developer.paypal.com/sdk/js/reference/#style" target="_blank">style PayPal button.</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 # 3. Create order
 
@@ -93,7 +93,7 @@ For information about styling your **PayPal** button, see - <a href="https://dev
 * From your server, [create an order](/reference/createorder/) > Wallet order > **PAYPAL**.<br /> In response to the request, you receive `payment_details.external_transaction_id`.
 * The button launches the PayPal checkout experience.
 
-For 3D Secure authentication, add `customer.browser` object in your request. See recipe - <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Customer browser</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For 3D Secure authentication, add `customer.browser` object in your request. See recipe - <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Customer browser</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 # 4. Capture order
 
@@ -122,7 +122,7 @@ paypal.Buttons({
 
 ```
 
-For more information, see PayPal Developer - <a href="https://developer.paypal.com/sdk/js/reference/#createorder" target="_blank">PayPal JS SDK reference.</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+For more information, see PayPal Developer - <a href="https://developer.paypal.com/sdk/js/reference/#createorder" target="_blank">PayPal JS SDK reference.</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 # 5. Test your integration
 
@@ -130,7 +130,7 @@ After you've implemented the steps above, to test your integration:
 
 PayPal must be [onboarded in your MultiSafepay account](/docs/paypal#activation).
 
-1. In the <a href="https://docs.multisafepay.com/reference/environments" target="_blank">Test environment</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, follow all the steps above.
+1. In the <a href="https://docs.multisafepay.com/reference/environments" target="_blank">Test environment</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, follow all the steps above.
 2. On the **Test platform** page, click the **PayPal** button.\ <br />A popup appears containing the PayPal test store.
 3. Select **Pay now**, and then click **Save**. <br /> The order is successfully completed.
 
@@ -138,9 +138,9 @@ PayPal must be [onboarded in your MultiSafepay account](/docs/paypal#activation)
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

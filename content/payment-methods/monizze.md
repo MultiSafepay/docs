@@ -11,13 +11,13 @@ parent:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/giftcards/monizze.svg" width="80" align="right" style={{margin: '20px 20px 20px 30px', maxHeight: '75px'}} />
 
-<a href="https://www.monizze.be/nl/" target="_blank">Monizze</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> lets employers gift employees a prepaid card loaded with Monizze vouchers:
+<a href="https://www.monizze.be/nl/" target="_blank">Monizze</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> lets employers gift employees a prepaid card loaded with Monizze vouchers:
 
 * Meal vouchers (maaltijdcheques/chèque-repas)
 * Eco vouchers (ecocheque/eco-chèque)
 * Gift vouchers (cadeaucheque/chèque-cadeau)
 
-Read how Monizze can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/monizze" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read how Monizze can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/monizze" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 | Supports                                                      | Details                               |
 | ------------------------------------------------------------- | ------------------------------------- |
@@ -54,7 +54,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 # Activation
 
-1. Fill out the Monizze <a href="https://hello.monizze.be/nl/merchant/e-commerce/" target="_blank">application form</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, selecting the checkbox for each voucher you want to offer.
+1. Fill out the Monizze <a href="https://hello.monizze.be/nl/merchant/e-commerce/" target="_blank">application form</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, selecting the checkbox for each voucher you want to offer.
 2. Monizze and MultiSafepay will communicate to complete onboarding.
 3. Once the activation is completed, we will notify you.
 
@@ -88,9 +88,9 @@ To test Monizze payments, see Testing payment methods - [Prepaid cards](/docs/te
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

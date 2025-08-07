@@ -14,7 +14,7 @@ privacy:
 
 Bank transfers (also known as SEPA Credit Transfer) are a secure, trusted, international banking method. Customers can make any type of online payment in euros within the SEPA area.
 
-Read how bank transfers can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/bank-transfer" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />
+Read how bank transfers can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/bank-transfer" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />
 
 | Supports                                                      | Details                                                              |
 | ------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -46,7 +46,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 # Activation
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 2. To activate the payment method for:
 
 * All websites, go to **Settings** > **Payment methods**.
@@ -93,7 +93,7 @@ To test bank transfers, see Testing payment methods - [Banking methods](/docs/te
 
 To simplify transfers for customers and avoid them incurring international transfer and currency conversion fees, MultiSafepay has a local bank account in several European countries in the local currency. Customers then only pay the standard fee charged by their bank.
 
-To send a customer the details of a local MultiSafepay bank account, include the relevant <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 country code</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> in your [create order](/reference/createorder/) request in the `country` parameter, e.g. `"country": "DE"`.
+To send a customer the details of a local MultiSafepay bank account, include the relevant <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166 country code</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> in your [create order](/reference/createorder/) request in the `country` parameter, e.g. `"country": "DE"`.
 
 <details id="countries-with-a-local-MultiSafepay-bank-account">
   <summary>Countries with a local MultiSafepay bank account</summary>
@@ -244,9 +244,9 @@ To change how bank transfers are validated, check whether this is possible in yo
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

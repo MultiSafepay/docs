@@ -39,7 +39,7 @@ The Risk Team assesses your request and, if approved, activates MOTO for your Mu
 
 Once activated, to process MOTO payments, follow these steps:
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 2. Go to **Transactions** > **Mail & phone payments**.
 3. Under **Order details**:
    * From the **Currency** list, select the currency, and then fill out the **Amount** field.
@@ -67,7 +67,7 @@ See API reference – [Create order](/reference/createorder/) > Card order.
   </div>
 </details>
 
-See Recipes – <a href="https://docs.multisafepay.com/recipes/create-a-moto-order" target="_blank">Create a MOTO order</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+See Recipes – <a href="https://docs.multisafepay.com/recipes/create-a-moto-order" target="_blank">Create a MOTO order</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 
 # Restrictions for MOTO
 
@@ -75,15 +75,15 @@ Only <Glossary>domestic transactions</Glossary>: can be processed for the follow
 
 | Card                                                                                                                                                                                                | Countries                   |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| <a href="https://www.multisafepay.com/solutions/payment-methods/maestro/" target="_blank">Maestro</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> (debit card) | Ireland, Turkey, and France |
+| <a href="https://www.multisafepay.com/solutions/payment-methods/maestro/" target="_blank">Maestro</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> (debit card) | Ireland, Turkey, and France |
 
 <br />
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

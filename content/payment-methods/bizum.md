@@ -11,7 +11,7 @@ parent:
 ---
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bizum.svg/122px-Bizum.svg.png" width="100" align="right" style={{ margin: "20px", maxHeight: "75px" }} />
 
-<a href="https://bizum.es/" target="_blank">Bizum</a><i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> is a mobile payment system in Spain that enables users to make instant transfers through their banking app, providing a quick and secure way to conduct payments.
+<a href="https://bizum.es/" target="_blank">Bizum</a><i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> is a mobile payment system in Spain that enables users to make instant transfers through their banking app, providing a quick and secure way to conduct payments.
 
 | Supports                                                      | Details                                                                                                                                                                                                  |
 | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -49,7 +49,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 1. Request merchant registration at your local bank, and follow guidelines provided by them (for example agreements).
 2. Provide MultiSafepay with your **FUC** (Merchant Identification Code), **CSB**, and **Terminal**.
 3. We confirm activation.
-4. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+4. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 5. To activate the payment method for:
 
 * All websites, go to **Settings** > **Payment methods**.
@@ -82,7 +82,7 @@ See API reference – [Create order](/reference/createorder/) > Banking order.
 
 ## Ready made solutions
 
-Bizum is supported in most <a href="https://docs.multisafepay.com/docs/our-integrations" target="_blank">ready-made integrations</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+Bizum is supported in most <a href="https://docs.multisafepay.com/docs/our-integrations" target="_blank">ready-made integrations</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 
 * Exceptions:
   * Craft Commerce
@@ -111,9 +111,9 @@ You can no longer cancel a transaction after the status changes to **Initialized
 
 You can process full and partial refunds in your dashboard.
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

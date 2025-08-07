@@ -17,9 +17,9 @@ parent:
 
 <img src="https://media.multisafepay.com/img/methods/svg/multibanco.svg" width="100" align="right" style={{ margin: "20px", maxHeight: "75px" }} />
 
-<a href="https://www.multibanco.pt/" target="_blank">Multibanco</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> is a payment method in Portugal that allows the customer to complete payment through home banking, service payments, or on the ATM Network.
+<a href="https://www.multibanco.pt/" target="_blank">Multibanco</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> is a payment method in Portugal that allows the customer to complete payment through home banking, service payments, or on the ATM Network.
 
-{/*Read how Multibanco can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/multibanco" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i>*/}
+{/*Read how Multibanco can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/multibanco" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i>*/}
 
 | Supports                                                      | Details                                              |
 | ------------------------------------------------------------- | ---------------------------------------------------- |
@@ -54,7 +54,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 # Activation
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 2. To activate the payment method for:
 
 * All websites, go to **Settings** > **Payment methods**.
@@ -123,7 +123,7 @@ The customer must provide you with their IBAN to process refunds via bank transf
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, click **Refund order**.
   4. In the **Account Holder Name** field, enter the customer's full name.
@@ -135,9 +135,9 @@ The customer must provide you with their IBAN to process refunds via bank transf
   10. Review the **Refund confirmation**, and then click **Confirm**.
 </details>
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

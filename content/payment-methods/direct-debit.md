@@ -13,7 +13,7 @@ parent:
 
 Direct debits are a European banking method where customers authorize automatic one-off or recurring debits directly from their bank account. It is available in 36 countries and supports Sofort and iDEAL.
 
-Read how direct debits can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/direct-debit" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read how direct debits can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/direct-debit" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 <table>
   <thead>
@@ -26,7 +26,7 @@ Read how direct debits can benefit your business on <a href="https://www.multisa
   <tbody>
     <tr>
       <td><p><a href="/docs/payment-methods#payment-methods-by-country">Countries</a></p></td>
-      <td><p><a href="https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf" target="_blank">SEPA region</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> <br /> <strong>⚠️ Note:</strong> To avoid declined transactions, non-EEA countries must include name and address in the <code>customer\_object</code>.</p></td>
+      <td><p><a href="https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2020-01/EPC409-09%20EPC%20List%20of%20SEPA%20Scheme%20Countries%20v2.6%20-%20January%202020.pdf" target="_blank">SEPA region</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> <br /> <strong>⚠️ Note:</strong> To avoid declined transactions, non-EEA countries must include name and address in the <code>customer\_object</code>.</p></td>
     </tr>
 
     <tr>
@@ -106,7 +106,7 @@ The table below sets out the \<\<glossary:order status>> and \<\<glossary:transa
      We send you an agreement to sign and email back to us.
 
    We check your eligibility and if approved, activate the payment method for your account.
-2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 3. To activate the payment method for:
 
 * All websites, go to **Settings** > **Payment methods**.
@@ -204,8 +204,8 @@ If the IBAN or BIC is incorrect, our bank informs us the next business day.
   | DUPL | Is used sporadically (duplicate payment)      | Contact your bank.                                                                                                                                                                                                  |
 </details>
 
-* English, see European Payments Council – <a href="https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2019-05/EPC173-14%20v5.0%20Guidance%20on%20Reason%20Codes%20for%20SDD%20R-transactions.pdf" target="_blank">Guidance on reason codes</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
-* Dutch, see Betaal Vereniging – <a href="https://www.betaalvereniging.nl/wp-content/uploads/Reasoncodes-en-vervolgacties-Europese-incasso.pdf" target="_blank">Reasoncodes en vervolgacties</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* English, see European Payments Council – <a href="https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2019-05/EPC173-14%20v5.0%20Guidance%20on%20Reason%20Codes%20for%20SDD%20R-transactions.pdf" target="_blank">Guidance on reason codes</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* Dutch, see Betaal Vereniging – <a href="https://www.betaalvereniging.nl/wp-content/uploads/Reasoncodes-en-vervolgacties-Europese-incasso.pdf" target="_blank">Reasoncodes en vervolgacties</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ## E-mandates
 

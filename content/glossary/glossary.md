@@ -165,7 +165,7 @@ A legal entity that sells goods or services to an end customer, who must pay the
 
 #### MultiSafepay account
 
-A merchant's account with MultiSafepay, managed via a <a href="https://merchant.multisafepay.com/" target="_blank">web dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+A merchant's account with MultiSafepay, managed via a <a href="https://merchant.multisafepay.com/" target="_blank">web dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ***
 
@@ -278,9 +278,9 @@ Merchants, partners, and developers
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

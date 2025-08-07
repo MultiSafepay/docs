@@ -13,7 +13,7 @@ parent:
 
 Pay After Delivery is MultiSafepay's <Glossary>BNPL</Glossary> method that allows customers to pay for orders in **3** equal installments within a period of time.
 
-Read more on how installment payments can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery-installments" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read more on how installment payments can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery-installments" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 | Supports                                                      | Details                               |
 | ------------------------------------------------------------- | ------------------------------------- |
@@ -52,7 +52,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 1. Email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)\
    We check your eligibility and if approved, activate the payment method for your account.
-2. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+2. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 3. To activate the payment method for:
 
 * All websites, go to **Settings** > **Payment methods**.
@@ -82,7 +82,7 @@ See API reference – [Create order](/reference/createorder/) > BNPL order.
   ***
 </details>
 
-A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping\_cart in order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping\_cart in order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ### Ready-made integrations
 
@@ -115,7 +115,7 @@ You can cancel the invoice order **before** shipment or **after** partial shipme
 
   **In your dashboard**
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, click **Cancel**.
   4. Add a description of what happened with the order, and then click **Complete**.\
@@ -164,7 +164,7 @@ After you have paid for an order from your account, you can no longer refund tra
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then select the relevant transaction.
   3. On the **Transaction details** page, click **Complete own funds**.
   4. Add a description of what happened with the order, and then click **Complete**.\
@@ -190,7 +190,7 @@ After an order expires, the expiration period cannot be extended.
 
   **In your dashboard**
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, click **Extend**.\
      While extended, the <Glossary>order status</Glossary> remains **Completed** and the <Glossary>transaction status</Glossary> remains **Uncleared**.
@@ -233,7 +233,7 @@ To refund a Pay After Delivery installments transaction, follow these steps:
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transactions Overview** and select the relevant transaction.
   3. Click on the transaction to go to the **Transaction summary** page.
   4. Under **Order summary**, click **Edit order**.
@@ -249,8 +249,8 @@ To refund a Pay After Delivery installments transaction, follow these steps:
 
   <br />
 
-  See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /><br />\
-  Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> request to retrieve the order details.
+  See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /><br />\
+  Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> request to retrieve the order details.
 
   1. Under **Path Params**, enter the `order_id` of the transaction you want to refund.
   2. Under **Body Params**, select **BNPL Refund**. Add all items in the shopping cart.
@@ -381,7 +381,7 @@ To refund a Pay After Delivery installments transaction, follow these steps:
 
   **In your dashboard**
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, under **Order details**, click **Change order status**.
   4. From the **Change status to** list, select **Shipped**.
@@ -406,9 +406,9 @@ To refund a Pay After Delivery installments transaction, follow these steps:
 
 You must read the following shipping policies:
 
-* <a href="https://www.multifactor.nl/voorwaarden/shipping-policies" target="_blank">MultiFactor shipping policies</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-* <a href="https://www.multifactor.nl/voorwaarden/shipping-policies/" target="_blank">Shipping policy Nederland</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-* <a href="https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy" target="_blank">Herinnering aan onze shipping policy</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* <a href="https://www.multifactor.nl/voorwaarden/shipping-policies" target="_blank">MultiFactor shipping policies</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* <a href="https://www.multifactor.nl/voorwaarden/shipping-policies/" target="_blank">Shipping policy Nederland</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* <a href="https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy" target="_blank">Herinnering aan onze shipping policy</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 ❗️ Failure to comply with these policies can impact on prefinancing and MultiSafepay's settlement guarantee.
 
@@ -430,9 +430,9 @@ For more information, email [sales@multisafepay.com](mailto:sales@multisafepay.c
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

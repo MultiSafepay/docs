@@ -89,7 +89,7 @@ content:
    **⚠️Note:** When upgrading to a newer version of your plugin, always make sure to remove all outdated plugin files and folders.
 2. To trigger the installation, go to `yourdomain.com/msp_installer.php`.
 3. Delete the `msp_installer.php` file.
-4. In your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />, provide your [webhook endpoint](/docs/webhook/).
+4. In your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay account</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />, provide your [webhook endpoint](/docs/webhook/).
 
 # Configuration
 
@@ -120,22 +120,22 @@ Extra options such as **IP-Validation** and **Debug mode** are intended for deve
   * Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
   * Prepaid cards:
     * Beauty and Wellness gift card
-    * <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.fashioncheque.com/nl" target="_blank">Fashioncheque</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.fashioncheque.com/nl" target="_blank">Fashioncheque</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
     * Fietsenbon
-    * <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.nationale-tuinbon.nl" target="_blank">Nationale tuinbon</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.nationale-tuinbon.nl" target="_blank">Nationale tuinbon</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
     * [Paysafecard](/docs/paysafecard/)
-    * <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
     * Wijncadeau
-    * <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.yourgift.nl" target="_blank">Yourgift</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.yourgift.nl" target="_blank">Yourgift</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
 </details>
 
 ## Refunds

@@ -23,21 +23,21 @@ Payment is quick, automated, and secure.
 
 # Payment methods
 
-<div class="auto-grid">
-    <div class="card-container">
+<div className="auto-grid">
+    <div className="card-container">
         <a href="/docs/alipay-plus/" style={{ textDecoration:'none' }}>
-            <div class="card">
+            <div className="card">
                 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/alipayplus.svg" style={{ margin: '20px', maxHeight: '75px' }} />
-                <div class="container">
+                <div className="container">
                     </div>
             </div>
         </a>
     </div>
-    <div class="card-container">
+    <div className="card-container">
         <a href="/docs/bancontact/" style={{ textDecoration:'none' }}>
-            <div class="card">
+            <div className="card">
                 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/bancontact.svg" style={{ margin: '20px', maxHeight: '75px' }} />
-                <div class="container">
+                <div className="container">
                     </div>
             </div>
         </a>
@@ -73,21 +73,21 @@ b {
 `}
 </style>
 
-<div class="auto-grid">
-    <div class="card-container">
+<div className="auto-grid">
+    <div className="card-container">
         <a href="/docs/ideal#ideal-qr" style={{ textDecoration:'none' }}>
-            <div class="card">
+            <div className="card">
                 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/ideal-qr.svg" style={{ margin: '20px', maxHeight: '75px' }} />
-                <div class="container">
+                <div className="container">
                     </div>
             </div>
         </a>
     </div>
-    <div class="card-container">
+    <div className="card-container">
         <a href="/docs/wechat-pay/" style={{ textDecoration:'none' }}>
-            <div class="card">
+            <div className="card">
                 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/wechatpay.svg" style={{ margin: '20px', maxHeight: '75px' }} />
-                <div class="container">
+                <div className="container">
                     </div>
             </div>
         </a>
@@ -127,9 +127,9 @@ b {
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

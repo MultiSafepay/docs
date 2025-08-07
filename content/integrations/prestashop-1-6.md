@@ -14,11 +14,11 @@ content:
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop_new.svg" width="50" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
 <div style={{display: 'flex', flexWrap: 'wrap'}}>
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/prestashop-1.6/releases/download/3.15.0/Plugin_PrestaShop_1_6_3.15.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/prestashop-1.6/releases/download/3.15.0/Plugin_PrestaShop_1_6_3.15.0.zip" target="_self"><span>Download</span><i className="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
 
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/prestashop-1.6" target="_blank"><i class="icon-external-link" /> <span>Source code</span></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/prestashop-1.6" target="_blank"><i className="icon-external-link" /> <span>Source code</span></a>
 
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/prestashop-1.6/blob/main/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/prestashop-1.6/blob/main/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
 </div>
 
 > ⚠️ Action required
@@ -63,7 +63,7 @@ The plugin supports generic gateways, which let you add payment methods manually
   4. In the **Gateway title** field, enter the name of the payment method.
   5. In the **Gateway ID** field, enter the [gateway ID](/reference/gateway-ids).
   6. Optionally:
-     * Upload the <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">payment method logo</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+     * Upload the <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">payment method logo</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
      * Enter minimum and maximum order amounts.
   7. Click **Save**.
 
@@ -194,7 +194,7 @@ When you ship <Glossary>BNPL</Glossary> orders, you need to change the <Glossary
 
   <br />
 
-  To apply a surcharge or payment fee to a payment method, you can use the third-party <a href="https://www.bvkyazilim.com/cart/prestashop-modules" target="_blank">BVK</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> package.
+  To apply a surcharge or payment fee to a payment method, you can use the third-party <a href="https://www.bvkyazilim.com/cart/prestashop-modules" target="_blank">BVK</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> package.
 
   The Integration Team will do their best to support you with installing BVK, but bear in mind that it is a third-party package. We can't guarantee perfect compatibility.
 
@@ -205,7 +205,7 @@ When you ship <Glossary>BNPL</Glossary> orders, you need to change the <Glossary
 
 ## Thirty Bees
 
-For support for the PrestaShop <a href="https://thirtybees.com/blog/what-is-thirty-bees" target="_blank">Thirty Bees</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> fork, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
+For support for the PrestaShop <a href="https://thirtybees.com/blog/what-is-thirty-bees" target="_blank">Thirty Bees</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> fork, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
 
 ## Updates
 
@@ -226,9 +226,9 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

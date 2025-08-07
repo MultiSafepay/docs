@@ -32,7 +32,7 @@ Once you have subscribed to event notifications, you will receive order payment 
 * SmartPOS terminal must be [activated in your MultiSafepay account](/docs/getting-started-guide/).
 * Payments must be initiated via [cloud <Glossary>POS</Glossary> payment](/docs/smartpos-solutions#cloud-pos-payment).
 
-In other scenarios, you can make use of our <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook </a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />notifications.
+In other scenarios, you can make use of our <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook </a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />notifications.
 
 **⚠️Note:** When making requests locally, you might encounter **CORS** (**Cross-Origin Resource Sharing**) errors. We recommend using a **backend proxy** to handle the API requests, bypassing browser CORS restrictions.
 
@@ -42,7 +42,7 @@ Follow the steps below to learn how to subscribe to our event notifications.
 
 ## 1. Initiate a Cloud POS payment
 
-1. [Create an order](/reference/createorder/), and set`terminal_id` in your request. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+1. [Create an order](/reference/createorder/), and set`terminal_id` in your request. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 2. In response, you receive an `events_token` and an `event_stream_url`.
 
 #### Example request
@@ -148,7 +148,7 @@ The table below sets out possible payment statuses and what they commonly mean.
     <tr>
       <td>
         The <Glossary>card scheme</Glossary> has declined the payment. The customer will be redirected to the payment screen to retry the payment.<br />
-        In certain cases, a payment may be **soft declined**, meaning the customer must authenticate to proceed with the transaction. For more information, see <a href="https://docs.multisafepay.com/docs/smartpos-solutions#soft-declines" target="_blank">Soft declines</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> - SmartPOS solutions.
+        In certain cases, a payment may be **soft declined**, meaning the customer must authenticate to proceed with the transaction. For more information, see <a href="https://docs.multisafepay.com/docs/smartpos-solutions#soft-declines" target="_blank">Soft declines</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> - SmartPOS solutions.
       </td>
       <td>
         Declined

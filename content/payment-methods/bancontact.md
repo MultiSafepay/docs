@@ -11,9 +11,9 @@ parent:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/bancontact.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
-<a href="https://www.bancontact.com/en" target="_blank">Bancontact</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a leading Belgian payment method that supports online, mobile, QR, POS, and wallet payments. It is a household name and supported by over 80% of Belgian webshops. Once payment is completed, the customer cannot reverse it and Bancontact guarantees <Glossary>settlement</Glossary>.
+<a href="https://www.bancontact.com/en" target="_blank">Bancontact</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a leading Belgian payment method that supports online, mobile, QR, POS, and wallet payments. It is a household name and supported by over 80% of Belgian webshops. Once payment is completed, the customer cannot reverse it and Bancontact guarantees <Glossary>settlement</Glossary>.
 
-Read how Bancontact can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/bancontact" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read how Bancontact can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/bancontact" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 | Supports                                                      | Details                                                         |
 | ------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -49,7 +49,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 # Activation
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 2. To activate the payment method for:
 
 * All websites, go to **Settings** > **Payment methods**.
@@ -81,7 +81,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 * By default, transactions expire after 1 hour.
 
-* If `seconds_active` is set, the QR code will expire at the time specified. See recipes - <a href="https://docs.multisafepay.com/recipes/days_active-seconds_active" target="_blank">Seconds\_active</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* If `seconds_active` is set, the QR code will expire at the time specified. See recipes - <a href="https://docs.multisafepay.com/recipes/days_active-seconds_active" target="_blank">Seconds\_active</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ### Ready-made integrations
 
@@ -148,9 +148,9 @@ For a complete user guide, see  [Manual Capture](/docs/manual-capture).
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

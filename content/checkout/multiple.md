@@ -12,7 +12,7 @@ parent:
 This technical manual is for integrating a payment component using multiple payment methods.
 
 <div style={{display: 'flex', flexWrap: 'wrap'}}>
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/payment-components-examples" target="_blank"><span>Payment components examples</span></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/payment-components-examples" target="_blank"><span>Payment components examples</span></a>
 </div>
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/payment-component-multiple.png" width="450" />
@@ -89,9 +89,9 @@ Payment components require a MultiSafepay API token. See API reference – [Gene
      | Key                                              | Required                    | Value                                                                                                                                                                                                                                                                                                         |
      | ------------------------------------------------ | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
      | `amount`                                         | Yes                         | The value of the order. <br /> **Format**: Number without decimal points, e.g., 100 euro is formatted as `10000`.                                                                                                                                                                                             |
-     | `currency`                                       | Yes                         | The currency of the order. <br /> **Format**: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, e.g., `EUR`.                                                                                         |
-     | `customer.country`                               | No                          | The customer's country code. Used to validate the availability of the payment method. <br /> **Format**: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, e.g., `NL`.           |
-     | `customer.locale`                                | No                          | The customer's language. Sets the language of the payment component UI. <br /> **Format**: <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO 639</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />. <br /> Supported languages: `en`, `es`, `fr`, `it`, `nl`. |
+     | `currency`                                       | Yes                         | The currency of the order. <br /> **Format**: <a href="https://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO-4217</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, e.g., `EUR`.                                                                                         |
+     | `customer.country`                               | No                          | The customer's country code. Used to validate the availability of the payment method. <br /> **Format**: <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">ISO-3166-1 alpha-2</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, e.g., `NL`.           |
+     | `customer.locale`                                | No                          | The customer's language. Sets the language of the payment component UI. <br /> **Format**: <a href="https://en.wikipedia.org/wiki/ISO_639" target="_blank">ISO 639</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />. <br /> Supported languages: `en`, `es`, `fr`, `it`, `nl`. |
      | `customer.reference`                             | Yes, for recurring payments | Your unique customer reference. <br /> (\*currently not supported for QR payments.)                                                                                                                                                                                                                           |
      | `payment_options.settings.connect.group_cards`   | No                          | Groups all card payment methods as a single option in the list of payment methods. <br /> **Format**: Boolean <br /> **Default**: `false`.                                                                                                                                                                    |
      | `payment_options.settings.connect.qr`            | No                          | Allows QR code to be rendered for iDEAL and Bancontact: `enabled`. <br /> `autoload` allows automatic display of QR code, and subsequent redirect for these methods. **Default**: `true`.                                                                                                                     |
@@ -431,9 +431,9 @@ When you're ready to process real payments, make the following changes:
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>

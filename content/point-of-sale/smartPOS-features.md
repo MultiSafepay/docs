@@ -31,7 +31,7 @@ If you are interested in our Point of Sale solutions, email [sales@multisafepay.
 
 After activating your SmartPOS terminal, you can add features from your SmartPOS payment app. SmartPOS features contains:
 
-<div class="settings-container" style={{display:'flex', alignItems:'flex-start', marginTop:'20px'}}>
+<div className="settings-container" style={{display:'flex', alignItems:'flex-start', marginTop:'20px'}}>
   <div style={{marginRight: '80px'}}>
     <strong>Global Settings</strong>
 
@@ -107,7 +107,7 @@ Once you've initiated the payment, the items are displayed on the payment screen
  
 
  **Example:**  
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-items-screen.png" alt="POS-display" width="250" style="display: block;"/>  
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-items-screen.png" alt="POS-display" width="250" style={{ display:'block' }}/>  
 <br/>
 
 ***
@@ -122,7 +122,7 @@ Once you've initiated the payment, the items are displayed on the payment screen
 Enabling this feature will display a tipping screen before the payment is processed. On the tipping screen, you can:
 
 {/* **Example:**  
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-tipping-screen.png" alt="smartPOS_print" width="250" style="display: block;"/>  
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/POS-tipping-screen.png" alt="smartPOS_print" width="250" style={{ display:'block' }}/>  
 <br/>>>>>*/}
 
 * Click a suggested tipping amount or click **Custom** to add a specific amount.
@@ -218,7 +218,7 @@ To activate additional payment methods for your terminal, email a request to [sa
 After you've enabled the **Cloud mode**, the **Navigation** list appears. This feature allows you to hide the cancel button and system navigation.
 
 {/* **Example:**  
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SmartPOS-cloud-mode.png" alt="smartPOS_print" width="250" style="display: block;"/>  
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SmartPOS-cloud-mode.png" alt="smartPOS_print" width="250" style={{ display:'block' }}/>  
 <br/> */}
 
 ## How to generate closing balance

@@ -30,7 +30,7 @@ The minimum transaction amount is 1 euro cent (0.01 EUR).
 
 The `currency` is not supported. The standard currency for all transactions is EUR.
 
-For help identifying currencies, see <a href="https://www.iso.org/iso-4217-currency-codes.html" target="_blank">ISO-4217</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For help identifying currencies, see <a href="https://www.iso.org/iso-4217-currency-codes.html" target="_blank">ISO-4217</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ***
 
@@ -209,9 +209,9 @@ Check that the:
 * Customer details match the credit details
 
 If your are using Cloudflare, the customer's `ip_address` might be overwritten.\
-To provide the correct IP address, see Cloudflare – <a href="https://support.cloudflare.com/hc/en-us/articles/200170786-Restoring-original-visitor-IPs" target="_blank">Restoring original visitor IPs</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+To provide the correct IP address, see Cloudflare – <a href="https://support.cloudflare.com/hc/en-us/articles/200170786-Restoring-original-visitor-IPs" target="_blank">Restoring original visitor IPs</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
-**💡 Tip!** For card payments, use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> request and check the response details to learn more about the decline reason.
+**💡 Tip!** For card payments, use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> request and check the response details to learn more about the decline reason.
 
 ***
 
@@ -342,9 +342,9 @@ An unknown error occurred. Email [integration@multisafepay.com](mailto:integrati
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

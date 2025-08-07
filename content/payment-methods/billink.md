@@ -9,7 +9,7 @@ position: 1
 ---
 <img src="https://cdn.billink.nl/assets/lockup/svg/billink-logo-default.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
-<a href="https://www.billink.nl/" target="_blank">Billink</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />is a Dutch BNPL payment method available for both B2C and B2B transactions. It allows customers to receive goods before payment, settling the invoice within 30 days. Billink performs real-time credit checks and assumes the risk of non-payment.
+<a href="https://www.billink.nl/" target="_blank">Billink</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />is a Dutch BNPL payment method available for both B2C and B2B transactions. It allows customers to receive goods before payment, settling the invoice within 30 days. Billink performs real-time credit checks and assumes the risk of non-payment.
 
 | Supports                                                      | Details                       |
 | ------------------------------------------------------------- | ----------------------------- |
@@ -35,7 +35,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 | The transaction was cancelled.                                                                                                                                                                                                                                                                                 | Void         | Void               |
 | Billink declined the transaction.                                                                                                                                                                                                                                                                              | Declined     | Declined           |
 | Billink has authorized the transaction and the funds are awaiting capture.                                                                                                                                                                                                                                     | Completed    | Uncleared          |
-| **⚠️ Note:** <a href="https://docs.multisafepay.com/docs/e-invoicing#shipment" target="_blank">Manually change the order status to Shipped</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.<br /> Order status must be changed to **Shipped** to be able to capture the funds. | Shipped      | Uncleared          |
+| **⚠️ Note:** <a href="https://docs.multisafepay.com/docs/e-invoicing#shipment" target="_blank">Manually change the order status to Shipped</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.<br /> Order status must be changed to **Shipped** to be able to capture the funds. | Shipped      | Uncleared          |
 | MultiSafepay has collected the payment.                                                                                                                                                                                                                                                                        | Shipped      | Completed          |
 | The order has not been payed within **30 days**.                                                                                                                                                                                                                                                               | Expired      | Expired            |
 | **Refunds:** Billink has successfully processed a full or partial refund.                                                                                                                                                                                                                                      | Completed    | Completed          |
@@ -45,7 +45,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 1. Email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)\
    We check your eligibility and if approved, activate the payment method for your account.
-2. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+2. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 3. To activate the payment method for:
    * All websites, go to **Settings** > **Payment methods**.
    * A specific website, go to **Websites**, and then click the relevant website.
@@ -71,7 +71,7 @@ See API reference – [Create order](/reference/createorder/) > BNPL order.
   </div>
 </details>
 
-* A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping\_cart in order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping\_cart in order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 * VAT rates are limited to 0%, 5%, 6%, 7%, 9%, 16%, 19%, 20%, and 21%. Keep this in mind when setting `shopping_cart.items.tax_table_selector`
 
@@ -79,7 +79,7 @@ See API reference – [Create order](/reference/createorder/) > BNPL order.
 
 ## Ready made solutions
 
-Billink is supported in most <a href="https://docs.multisafepay.com/docs/our-integrations" target="_blank">ready-made integrations</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+Billink is supported in most <a href="https://docs.multisafepay.com/docs/our-integrations" target="_blank">ready-made integrations</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 * Exceptions:
   * Craft Commerce
@@ -115,7 +115,7 @@ You can cancel the invoice order **before** shipment or **after** partial shipme
 
   **In your dashboard**
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, click **Cancel**.
   4. Add a description of what happened with the order, and then click **Complete**.\
@@ -139,7 +139,7 @@ To refund a Billink transaction, follow these steps:
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transactions Overview** and select the relevant transaction.
   3. Click on the transaction to go to the **Transaction summary** page.
   4. Under **Order summary**, click **Edit order**.
@@ -155,8 +155,8 @@ To refund a Billink transaction, follow these steps:
 
   <br />
 
-  See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /><br />\
-  Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> request to retrieve the order details.
+  See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /><br />\
+  Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> request to retrieve the order details.
 
   1. Under **Path Params**, enter the `order_id` of the transaction you want to refund.
   2. Under **Body Params**, select **BNPL Refund**. Add all items in the shopping cart.
@@ -233,7 +233,7 @@ When you ship the order, you **must** manually change the [order status](/docs/p
 
   **In your dashboard**
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, under **Order details**, click **Change order status**.
   4. Change the status to **Shipped**.
@@ -261,9 +261,9 @@ We therefore strongly recommend **not** applying surcharges.
 
 For more information, email [sales@multisafepay.com](mailto:sales@multisafepay.com)\ <br />
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

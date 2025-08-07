@@ -13,7 +13,7 @@ parent:
 
 E-Invoicing is a highly flexible MultiSafepay <Glossary>BNPL</Glossary> method that gives you full control of credit management, the collection flow, and customer communications in multiple languages. Optionally, leverage MultiSafepay's powerful customer credibility score technology to reduce fraud.
 
-Read how E-Invoicing can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/e-invoicing" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read how E-Invoicing can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/e-invoicing" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 | Supports                                                      | Details                                                                |
 | ------------------------------------------------------------- | ---------------------------------------------------------------------- |
@@ -49,7 +49,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 # Activation
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 2. To activate the payment method for:
 
 * All websites, go to **Settings** > **Payment methods**.
@@ -102,7 +102,7 @@ You can generate E-Invoicing transactions in batches for subscription payments.
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **E-Invoicing** > **Batches**.
   3. Upload a file in .xls, .xlsx or .csv format.
   4. Follow the templates in your MultiSafepay dashboard.
@@ -119,7 +119,7 @@ You can cancel the invoice order **before** shipment or **after** partial shipme
 
   **In your dashboard**
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, click **Cancel**.
   4. Add a description of what happened with the order, and then click **Complete**.\
@@ -141,7 +141,7 @@ You can fully customize the collection flow.
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **E-Invoicing** > **Workflows**.
   3. Click **Create new**.
   4. Under **Settings**, you can select a previous template, if relevant.
@@ -171,7 +171,7 @@ MultiSafepay can also append a PDF invoice (with your custom formatting) to the 
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **E-Invoicing** > **Actions**.
   3. Click **Add new template**.
   4. Select the delivery method: Email, SMS, or letter.
@@ -207,7 +207,7 @@ After paying for an order from your account balance, you can no longer refund th
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, click **Complete own funds**.
   4. Add a description of what happened with the order, and then click **Complete**.\
@@ -225,7 +225,7 @@ You define the expiration period for the order, up to a maximum of 180 days (inc
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, click **Extend**.\
      While extended, the <Glossary>order status</Glossary> remains **Shipped** and the <Glossary>transaction status</Glossary> remains **Uncleared**.
@@ -248,7 +248,7 @@ MultiSafepay can customize the formatting of your invoices on request. Email [sa
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **E-Invoicing** > **Invoices**.
 </details>
 
@@ -257,7 +257,7 @@ MultiSafepay can customize the formatting of your invoices on request. Email [sa
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **E-Invoicing** > **E-Invoice generator**.
   3. Fill out the shopping cart:
 
@@ -308,7 +308,7 @@ See [Shopping carts](#shopping-carts) below.
 
   **In your dashboard**
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transactions Overview** and select the relevant transaction.
   3. Click on the transaction to go to the **Transaction summary** page.
   4. Under **Order summary**, click **Edit order**.
@@ -387,7 +387,7 @@ See [Shopping carts](#shopping-carts) below.
 
   **In your dashboard**
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, under **Order details**, click **Change order status**.
   4. From the **Change status to** list, select **Shipped**.
@@ -412,7 +412,7 @@ See [Shopping carts](#shopping-carts) below.
 
 You can choose whether or not to include a `shopping_cart` object in your [create order](/reference/createorder) request (we normally recommend this for BNPL orders).
 
-See Recipes – <a href="https://docs.multisafepay.com/recipes/display-shopping-cart" target="_blank">Display shopping cart</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+See Recipes – <a href="https://docs.multisafepay.com/recipes/display-shopping-cart" target="_blank">Display shopping cart</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 You can also then refund with or without the `shopping_cart`, but for simplicity we recommend matching the refund request to the original order request.
 
@@ -425,9 +425,9 @@ You can also then refund with or without the `shopping_cart`, but for simplicity
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

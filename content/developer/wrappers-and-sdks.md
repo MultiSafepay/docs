@@ -13,7 +13,7 @@ privacy:
 
 A Django integration developed by Edoburu.
 
-<a class="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/edoburu/django-multisafepay" target="_blank"><span>View on GitHub</span></a>
+<a className="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/edoburu/django-multisafepay" target="_blank"><span>View on GitHub</span></a>
 
 ***
 
@@ -23,7 +23,7 @@ A Django integration developed by Edoburu.
 
 Go wrapper for MultiSafepay's REST API developed by kurt-stolle.
 
-<a class="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/kurt-stolle/go-multisafepay" target="_blank"><span>View on GitHub</span></a>
+<a className="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/kurt-stolle/go-multisafepay" target="_blank"><span>View on GitHub</span></a>
 
 ***
 
@@ -33,7 +33,7 @@ Go wrapper for MultiSafepay's REST API developed by kurt-stolle.
 
 A Java wrapper for MultiSafepay's payments API, which supports all payment methods.
 
-<a class="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/MultiSafepay/Java" target="_blank"><span>View on GitHub</span></a>
+<a className="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/MultiSafepay/Java" target="_blank"><span>View on GitHub</span></a>
 
 ***
 
@@ -43,7 +43,7 @@ A Java wrapper for MultiSafepay's payments API, which supports all payment metho
 
 A Laravel wrapper for MultiSafepay's PHP SDK.
 
-<a class="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/MultiSafepay/laravel-api" target="_blank"><span>View on GitHub</span></a>
+<a className="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/MultiSafepay/laravel-api" target="_blank"><span>View on GitHub</span></a>
 
 ***
 
@@ -53,7 +53,7 @@ A Laravel wrapper for MultiSafepay's PHP SDK.
 
 The .NET wrapper for MultiSafepay's payments API, which supports all payment methods.
 
-<a class="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/MultiSafepay/.Net" target="_blank"><span>View on GitHub</span></a>
+<a className="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/MultiSafepay/.Net" target="_blank"><span>View on GitHub</span></a>
 
 ***
 
@@ -63,7 +63,7 @@ The .NET wrapper for MultiSafepay's payments API, which supports all payment met
 
 The Node.js wrapper for MultiSafepay's REST API.
 
-<a class="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/MultiSafepay/multisafepay-node-wrapper" target="_blank"><span>View on GitHub</span></a>
+<a className="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/MultiSafepay/multisafepay-node-wrapper" target="_blank"><span>View on GitHub</span></a>
 
 ***
 
@@ -73,7 +73,7 @@ The Node.js wrapper for MultiSafepay's REST API.
 
 The PHP SDK for MultiSafepay's REST API.
 
-<a class="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/MultiSafepay/php-sdk" target="_blank"><span>View on GitHub</span></a>
+<a className="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/MultiSafepay/php-sdk" target="_blank"><span>View on GitHub</span></a>
 
 ***
 
@@ -83,7 +83,7 @@ The PHP SDK for MultiSafepay's REST API.
 
 The Python SDK for MultiSafepay's REST API.
 
-<a class="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/MultiSafepay/python-sdk" target="_blank"><span>View on GitHub</span></a>
+<a className="suggestEdits" style={{ display: "inline-flex", borderRadius: "5px", padding: "10px 20px", margin: "10px", fontSize: "1rem", backgroundColor: "#006ba1", color: "#ffffff", textDecoration: "none" }} href="https://github.com/MultiSafepay/python-sdk" target="_blank"><span>View on GitHub</span></a>
 
 ***
 
@@ -91,9 +91,9 @@ The Python SDK for MultiSafepay's REST API.
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

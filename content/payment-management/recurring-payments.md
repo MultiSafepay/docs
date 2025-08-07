@@ -111,7 +111,7 @@ MultiSafepay offers three recurring models:
 * `subscription`
 * `unscheduled` (event-triggered)
 
-Our API and <a href="https://github.com/MultiSafepay/php-sdk" target="_blank">PHP SDK</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> support all three models.\
+Our API and <a href="https://github.com/MultiSafepay/php-sdk" target="_blank">PHP SDK</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> support all three models.\
 Our [ready-made integrations](/docs/our-integrations/) use `cardOnFile` only.
 
 ## Ready-made integrations
@@ -157,9 +157,9 @@ See API reference – [Create order](/reference/createorder/) > `customer.refere
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

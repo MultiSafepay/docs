@@ -19,7 +19,7 @@ Your right to apply surcharges varies per payment method and the customer’s co
 
 The [PSD2](/docs/psd2/) applies to the whole European Economic Area (EEA), but individual states can decide how to implement certain aspects. Always check what rules apply in the country your business is registered in.
 
-In the Netherlands, the <a href="https://www.acm.nl" target="_blank">Authority for Consumers & Markets (ACM)</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> is responsible for PSD2 oversight. The Dutch National Bank recommends always contacting ACM for inquiries.
+In the Netherlands, the <a href="https://www.acm.nl" target="_blank">Authority for Consumers & Markets (ACM)</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> is responsible for PSD2 oversight. The Dutch National Bank recommends always contacting ACM for inquiries.
 
 # Prohibited surcharges
 
@@ -54,9 +54,9 @@ Surcharges are permitted for:
 ***
 
 <HTMLBlock>{`
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

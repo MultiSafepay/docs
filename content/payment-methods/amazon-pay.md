@@ -11,9 +11,9 @@ parent:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/amazonpay.svg" width="150" align="right" style={{margin: '20px', maxHeight: '100px'}} />
 
-<a href="https://pay.amazon.eu/" target="_blank">Amazon Pay</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a payment method that Amazon customers can use to purchase goods on other sites using their Amazon account. Amazon customers can use any of their stored addresses or payment methods, such as credit or debit cards.
+<a href="https://pay.amazon.eu/" target="_blank">Amazon Pay</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a payment method that Amazon customers can use to purchase goods on other sites using their Amazon account. Amazon customers can use any of their stored addresses or payment methods, such as credit or debit cards.
 
-Read how Amazon Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/amazonpay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read how Amazon Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/amazonpay" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 | Supports                                                      | Details                                                                                                                                        |
 | ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -53,7 +53,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 1. Email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)\
    We check your eligibility and if approved, activate the payment method for your account.
-2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 3. Go to **Settings** > **Payment methods**.
 4. Under **Additional payment methods**, click **Amazon** > **Merchant registration**.\
    You are redirected to create an Amazon Payments merchant account at Amazon Pay.
@@ -65,7 +65,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 # Integration
 
 Our integration with Amazon Pay supports an additional payment button.\
-For more information, see Amazon Pay – <a href="https://developer.amazon.com/docs/amazon-pay-recurring-apb-checkout/additional-payment-button-overview.html" target="_blank">Additional payment button</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For more information, see Amazon Pay – <a href="https://developer.amazon.com/docs/amazon-pay-recurring-apb-checkout/additional-payment-button-overview.html" target="_blank">Additional payment button</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ### API
 
@@ -106,9 +106,9 @@ To test Amazon Pay payments, see Testing – [Wallets](/docs/testing#wallets).\ 
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

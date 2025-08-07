@@ -201,10 +201,10 @@ Check the steps below on how to integrate Apple Pay direct for your platform:
 </style>
 `}</HTMLBlock>
 
-<div class="steps-container">
-  <div class="steps">
-    <div class="step-item">
-      <div class="card-container-setup">
+<div className="steps-container">
+  <div className="steps">
+    <div className="step-item">
+      <div className="card-container-setup">
         <a href="/docs/hardware-setup" style={{textDecoration: 'none'}}>
           <div>
             <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Settings.svg" style={{margin: '5px', maxHeight: '100px', maxWidth: '100px'}} />
@@ -212,14 +212,14 @@ Check the steps below on how to integrate Apple Pay direct for your platform:
         </a>
       </div>
 
-      <div class="step-info">
-        <div class="step-number">1</div>
-        <p class="step-description configure-text"><a href="https://docs.multisafepay.com/docs/apple-pay-direct#1-validate-your-domain">Validate your domain</a> to ensure compatibility with your platform</p>
+      <div className="step-info">
+        <div className="step-number">1</div>
+        <p className="step-description configure-text"><a href="https://docs.multisafepay.com/docs/apple-pay-direct#1-validate-your-domain">Validate your domain</a> to ensure compatibility with your platform</p>
       </div>
     </div>
 
-    <div class="step-item">
-      <div class="card-container-setup">
+    <div className="step-item">
+      <div className="card-container-setup">
         <a href="/docs/smartpos-activation" style={{textDecoration: 'none'}}>
           <div>
             <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Activation.svg" style={{margin: '5px', maxHeight: '100px', maxWidth: '100px'}} />
@@ -227,14 +227,14 @@ Check the steps below on how to integrate Apple Pay direct for your platform:
         </a>
       </div>
 
-      <div class="step-info">
-        <div class="step-number">2</div>
-        <p class="step-description configure-text">Request registration for Apple Pay direct for your MultiSafepay account</p>
+      <div className="step-info">
+        <div className="step-number">2</div>
+        <p className="step-description configure-text">Request registration for Apple Pay direct for your MultiSafepay account</p>
       </div>
     </div>
 
-    <div class="step-item">
-      <div class="card-container-setup">
+    <div className="step-item">
+      <div className="card-container-setup">
         <a href="/docs/event-notifications" style={{textDecoration: 'none'}}>
           <div>
             <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Notifications.svg" style={{margin: '5px', maxHeight: '100px', maxWidth: '100px'}} />
@@ -242,18 +242,18 @@ Check the steps below on how to integrate Apple Pay direct for your platform:
         </a>
       </div>
 
-      <div class="step-info">
-        <div class="step-number">3</div>
-        <p class="step-description configure-text">Check if the customer's <span class="space"><a href="https://docs.multisafepay.com/docs/apple-pay-direct#3-check-for-apple-pay-support">device supports</a></span> Apple Pay</p>
+      <div className="step-info">
+        <div className="step-number">3</div>
+        <p className="step-description configure-text">Check if the customer's <span className="space"><a href="https://docs.multisafepay.com/docs/apple-pay-direct#3-check-for-apple-pay-support">device supports</a></span> Apple Pay</p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="steps-container">
-  <div class="steps">
-    <div class="step-item">
-      <div class="card-container-setup">
+<div className="steps-container">
+  <div className="steps">
+    <div className="step-item">
+      <div className="card-container-setup">
         <a href="/docs/hardware-setup" style={{textDecoration: 'none'}}>
           <div>
             <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Settings.svg" style={{margin: '5px', maxHeight: '100px', maxWidth: '100px'}} />
@@ -261,14 +261,14 @@ Check the steps below on how to integrate Apple Pay direct for your platform:
         </a>
       </div>
 
-      <div class="step-info">
-        <div class="step-number">4</div>
-        <p class="step-description configure-text"><a href="https://docs.multisafepay.com/docs/apple-pay-direct#4-create-an-apple-pay-session">Create and configure</a> the Apple Pay session</p>
+      <div className="step-info">
+        <div className="step-number">4</div>
+        <p className="step-description configure-text"><a href="https://docs.multisafepay.com/docs/apple-pay-direct#4-create-an-apple-pay-session">Create and configure</a> the Apple Pay session</p>
       </div>
     </div>
 
-    <div class="step-item">
-      <div class="card-container-setup">
+    <div className="step-item">
+      <div className="card-container-setup">
         <a href="/docs/smartpos-activation" style={{textDecoration: 'none'}}>
           <div>
             <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Activation.svg" style={{margin: '5px', maxHeight: '100px', maxWidth: '100px'}} />
@@ -276,9 +276,9 @@ Check the steps below on how to integrate Apple Pay direct for your platform:
         </a>
       </div>
 
-      <div class="step-info">
-        <div class="step-number">5</div>
-        <p class="step-description configure-text"><a href="https://docs.multisafepay.com/docs/apple-pay-direct#5-create-an-order">Develop your endpoint</a> to handle Apple Pay Direct order creation</p>
+      <div className="step-info">
+        <div className="step-number">5</div>
+        <p className="step-description configure-text"><a href="https://docs.multisafepay.com/docs/apple-pay-direct#5-create-an-order">Develop your endpoint</a> to handle Apple Pay Direct order creation</p>
       </div>
     </div>
   </div>
@@ -294,15 +294,15 @@ Check the steps below on how to integrate Apple Pay direct for your platform:
 * Your domain must have a valid SSL certificate.
 * Your server must support the TLS protocol version 1.2 or later.
 
-For more information, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/setting_up_your_server" target="_blank">Setting up your server</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For more information, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/setting_up_your_server" target="_blank">Setting up your server</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ## Customer device compatibility
 
-To see which Apple products are compatible with Apple Pay, see Apple Developer – <a href="https://support.apple.com/en-us/HT208531" target="_blank">Devices compatible with Apple Pay</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+To see which Apple products are compatible with Apple Pay, see Apple Developer – <a href="https://support.apple.com/en-us/HT208531" target="_blank">Devices compatible with Apple Pay</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 # 1. Validate your domain
 
-1. <a href="https://github.com/MultiSafepay/docs/raw/master/static/domain-validation-apple-pay/domain-validation-apple-pay-live.zip" target="_blank">Download the compressed Apple Pay domain validation files</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+1. <a href="https://github.com/MultiSafepay/docs/raw/master/static/domain-validation-apple-pay/domain-validation-apple-pay-live.zip" target="_blank">Download the compressed Apple Pay domain validation files</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 2. Unzip the folder and select the relevant file.
 3. Place the domain validation file at:
 
@@ -320,14 +320,14 @@ To request registration for Apple Pay direct, email the relevant website ID to [
    ```javascript
    if (window.ApplePaySession && ApplePaySession.canMakePayments())
    ```
-   For more information, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability" target="_blank">Checking for Apple Pay availability</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+   For more information, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/checking_for_apple_pay_availability" target="_blank">Checking for Apple Pay availability</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 2. If Apple Pay is supported, display the ** Pay** button in your checkout page.
 
    To style the button, see Apple Developer:
 
-   * <a href="https://developer.apple.com/design/human-interface-guidelines/apple-pay/overview/buttons-and-marks/#apple-pay-mark" target="_blank">Buttons and marks</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-   * <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons_using_css" target="_blank">Displaying Apple Pay buttons using CSS</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+   * <a href="https://developer.apple.com/design/human-interface-guidelines/apple-pay/overview/buttons-and-marks/#apple-pay-mark" target="_blank">Buttons and marks</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+   * <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/displaying_apple_pay_buttons_using_css" target="_blank">Displaying Apple Pay buttons using CSS</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 # 4) Create an Apple Pay session
 
@@ -377,7 +377,7 @@ When the customer clicks or taps the ** Pay** button:
 
    **⚠️ Note:** The `total.amount` is in euros, whereas the `amount` in MultiSafepay order requests is in euro cents.
 
-   For more information about the `ApplePayRequest` object, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepayrequest" target="_blank">ApplePayRequest</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+   For more information about the `ApplePayRequest` object, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepayrequest" target="_blank">ApplePayRequest</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 2. Create an Apple Pay session.
 
@@ -388,11 +388,11 @@ When the customer clicks or taps the ** Pay** button:
    * As the first argument, specify the Apple Pay version your website supports.
    * As the second argument, pass the `ApplePayRequest` object.
 
-   For more information about Apple Pay versions, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_on_the_web_version_history" target="_blank">Apple Pay on the web version history</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+   For more information about Apple Pay versions, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_on_the_web_version_history" target="_blank">Apple Pay on the web version history</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
    **⚠️ Note:** You can only create a session within a user gesture handler. For example, you can create the session when the user taps the ** Pay** button.
 
-   For more information, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/creating_an_apple_pay_session" target="_blank">Creating an Apple Pay session</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+   For more information, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/creating_an_apple_pay_session" target="_blank">Creating an Apple Pay session</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 3. Create an `onvalidatemerchant` event handler, which is called once the Apple Pay payment form is displayed to the customer.
 
@@ -411,8 +411,8 @@ When the customer clicks or taps the ** Pay** button:
 
    For more information, see Apple Developer:
 
-   * <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/providing_merchant_validation" target="_blank">Providing merchant validation</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-   * <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaysession/1778021-onvalidatemerchant" target="_blank">onvalidatemerchant</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+   * <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/apple_pay_js_api/providing_merchant_validation" target="_blank">Providing merchant validation</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+   * <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaysession/1778021-onvalidatemerchant" target="_blank">onvalidatemerchant</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 4. To begin the merchant validation process, call the `session.begin()` method.
 
@@ -471,12 +471,12 @@ The `payment` object contains the customer's encrypted payment details (`payment
 
 For more information about the `payment` object, see Apple Developer:
 
-* <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypaymentauthorizedevent/1777999-payment" target="_blank">payment</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-* <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypaymentauthorizedevent/1777999-payment" target="_blank">payment</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 ## Server-side integration
 
-1. From your server, [create an order](/reference/createorder/) > Wallet order. <br /> See also Examples > Apple pay direct, using the `payment.token` property. <br /> To use the `payment.token` property in the order request, convert it to an escaped JSON string.<br />For 3D Secure authentication, add `customer.browser` object in your request. See recipe - <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Customer browser</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+1. From your server, [create an order](/reference/createorder/) > Wallet order. <br /> See also Examples > Apple pay direct, using the `payment.token` property. <br /> To use the `payment.token` property in the order request, convert it to an escaped JSON string.<br />For 3D Secure authentication, add `customer.browser` object in your request. See recipe - <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Customer browser</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 2. To access the shipping and/or billing details from the `payment` object, use the `payment.billingContact` and `payment.shippingContact` properties.
 
@@ -484,14 +484,14 @@ For more information about the `payment` object, see Apple Developer:
 
 **⚠️ Note:** Billing and shipping data are **not** encrypted.
 
-For more information about the `payment` object and its properties, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For more information about the `payment` object and its properties, see Apple Developer – <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/applepaypayment" target="_blank">ApplePayPayment</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 # Test your integration
 
 If you want to test your Apple Pay direct integration, you must:
 
-* Have an <a href="https://developer.apple.com/apple-pay/sandbox-testing" target="_blank">Apple Developer account</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> configured for Apple Pay.
-* Create a <a href="https://developer.apple.com/apple-pay/sandbox-testing/#:~:text=supports%20TLS%C2%A01.2.-,Create%20a%20Sandbox%20Tester%20Account,-To%20create%20a"> Sandbox Tester account</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> and add a <a href="https://developer.apple.com/apple-pay/sandbox-testing/#:~:text=Adding%20a%20Test%20Card%20Number"> Test Card Number</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* Have an <a href="https://developer.apple.com/apple-pay/sandbox-testing" target="_blank">Apple Developer account</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> configured for Apple Pay.
+* Create a <a href="https://developer.apple.com/apple-pay/sandbox-testing/#:~:text=supports%20TLS%C2%A01.2.-,Create%20a%20Sandbox%20Tester%20Account,-To%20create%20a"> Sandbox Tester account</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> and add a <a href="https://developer.apple.com/apple-pay/sandbox-testing/#:~:text=Adding%20a%20Test%20Card%20Number"> Test Card Number</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 If you meet these requirements, email [integration@multisafepay.com](mailto:integration@multisafepay.com) for further instructions.
 
@@ -499,9 +499,9 @@ If you meet these requirements, email [integration@multisafepay.com](mailto:inte
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

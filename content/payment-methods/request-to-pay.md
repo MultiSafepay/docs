@@ -15,7 +15,8 @@ Request to Pay is a Deutsche Bank payment method based on the PSD2 Open Banking 
 
 The funds are transferred directly to your business bank account, instead of your account balance, which simplifies reconciliation.
 
-Read how Request to Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/request-to-pay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+
+Read how Request to Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/request-to-pay" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
 
 > ⚠️ Availability\
 > Request to Pay is end-of-life and is no longer available.
@@ -54,7 +55,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 # Activation
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 2. To activate the payment method for:
    * All websites, go to **Settings** > **Payment methods**.
    * A specific website, go to **Websites**, and then click the relevant website.
@@ -92,9 +93,9 @@ You can't test Request to Pay in your MultiSafepay test account. You can only ma
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

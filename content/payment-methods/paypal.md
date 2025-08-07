@@ -21,14 +21,14 @@ parent:
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/paypal.svg" width="125" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
-<a href="https://www.paypal.com/nl/home" target="_blank">PayPal</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a leading global payment method that lets customers pay by credit or debit card or create a digital wallet linked to multiple payment methods.
+<a href="https://www.paypal.com/nl/home" target="_blank">PayPal</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a leading global payment method that lets customers pay by credit or debit card or create a digital wallet linked to multiple payment methods.
 
-Read how PayPal can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/paypal" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read how PayPal can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/paypal" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 | Supports                                                      | Details                                                                                                                                                                                                                                                                                                                                                                                       |
 | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Countries](/docs/payment-methods#payment-methods-by-country) | Worldwide                                                                                                                                                                                                                                                                                                                                                                                     |
-| [Currencies](/docs/currencies/)                               | AUD, BRL, CAD, CHF, CZK, DKK, EUR, GBP, HKD, HRK, HUF, JPY, MXN, MYR, NOK, NZD, PHP, PLN, RUB, SEK, SGD, THB, TRY, TWD, USD <br /> For more information, see PayPal – <a href="https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/" target="_blank">PayPal supported currencies</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />. |
+| [Currencies](/docs/currencies/)                               | AUD, BRL, CAD, CHF, CZK, DKK, EUR, GBP, HKD, HRK, HUF, JPY, MXN, MYR, NOK, NZD, PHP, PLN, RUB, SEK, SGD, THB, TRY, TWD, USD <br /> For more information, see PayPal – <a href="https://developer.paypal.com/docs/reports/reference/paypal-supported-currencies/" target="_blank">PayPal supported currencies</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />. |
 | [Chargebacks](/docs/chargebacks/)                             | Yes                                                                                                                                                                                                                                                                                                                                                                                           |
 | [Payment components](/docs/payment-components/)               | Yes                                                                                                                                                                                                                                                                                                                                                                                           |
 | [Payment pages](/docs/payment-pages/)                         | Yes (current and deprecated versions)                                                                                                                                                                                                                                                                                                                                                         |
@@ -73,11 +73,11 @@ To activate PayPal, follow these steps:
   <br />
 
   1. Email a request to [support@multisafepay.com](mailto:support@multisafepay.com)
-  2. After we confirm activation, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  2. After we confirm activation, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   3. Go to **Settings** > **Payment methods**
   4. In the **PayPal** tab, click on **Set up PayPal** button <br /> You are redirected to PayPal to sign in to your PayPal business account.
   5. Grant PayPal access to connect with your MultiSafepay account.
-  6. Your **PayPal Merchant ID** is now displayed in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  6. Your **PayPal Merchant ID** is now displayed in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
   If your **PayPal Merchant ID** isn't displayed in your dashboard, you can add it manually.
 
@@ -86,10 +86,10 @@ To activate PayPal, follow these steps:
 
     <br />
 
-    1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">PayPal</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+    1. Sign in to your business account at <a href="https://www.paypal.com" target="_blank">PayPal</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
     2. On the navigation menu > mouse over your account name in the top-right corner, and then select **Account settings**.
     3. On the **Business information** tab, copy your PayPal Merchant ID.
-    4. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+    4. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
     5. To set manually your PayPal Merchant ID:
 
     * Go to **Settings** > **Payment methods**> **PayPal** tab.
@@ -125,7 +125,7 @@ To activate PayPal, follow these steps:
     </div>
   </details>
 
-* A `shopping_cart` object can be included in your [create order](/reference/createorder) request, see Recipe – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping\_cart in order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* A `shopping_cart` object can be included in your [create order](/reference/createorder) request, see Recipe – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping\_cart in order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 * An `invoice_id`  can be included in your [create order](/reference/createorder) request, which appears in the transaction history.<br /> **Note:** If no `invoice_id` is set, the `order_id` defaults to `invoice_id`.
 
@@ -149,18 +149,18 @@ PayPal Seller Protection covers you in the event of claims, chargebacks, or <Glo
 
 To be eligible, for specific countries, transaction requests must contain the correct `state` in the `customer_address`.
 
-* For a list of the countries, see PayPal API – <a href="https://developer.paypal.com/api/rest/reference/state-codes/" target="_blank">State codes</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
-* For more information, see PayPal – <a href="https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156" target="_blank">What is Seller Pretection</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* For a list of the countries, see PayPal API – <a href="https://developer.paypal.com/api/rest/reference/state-codes/" target="_blank">State codes</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* For more information, see PayPal – <a href="https://www.paypal.com/cs/smarthelp/article/what-is-the-seller-protection-policy-and-what-items-aren%E2%80%99t-covered-faq1156" target="_blank">What is Seller Pretection</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 **⚠️ Note:** For disputes and disbursement information, further details appear in a transaction note  in your dashboard under  **Transaction overview** > **Transaction summary**.
 
 ## Refunds
 
-Refunds are only processed if there are enough funds in your PayPal business account. Otherwise, PayPal issues an <a href="https://www.paypal.com/us/smarthelp/article/what-is-an-echeck-faq1082" target="_blank">eCheck</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+Refunds are only processed if there are enough funds in your PayPal business account. Otherwise, PayPal issues an <a href="https://www.paypal.com/us/smarthelp/article/what-is-an-echeck-faq1082" target="_blank">eCheck</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 To avoid PayPal cancelling the refund, in your PayPal account, authorize PayPal to withdraw funds from another bank account instead.
 
-For support, contact PayPal – <a href="https://www.paypal.com/us/smarthelp/home" target="_blank">Help Center Home</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For support, contact PayPal – <a href="https://www.paypal.com/us/smarthelp/home" target="_blank">Help Center Home</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ## Shopping carts
 
@@ -181,9 +181,9 @@ If you encounter any issues with PayPal, for example a system error, do the foll
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

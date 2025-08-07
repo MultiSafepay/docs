@@ -25,9 +25,9 @@ This table lists the most common HTTP error codes and descriptions:
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>

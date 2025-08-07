@@ -11,16 +11,16 @@ parent:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/applepay.svg" width="70" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
-<a href="https://www.apple.com/apple-pay/" target="_blank">Apple Pay</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a leading global payment method that lets customers tokenize their payment details in a digital wallet. It supports American Express, Maestro, Mastercard, Visa, and Dutch bank accounts. Customers can make both online and near-field communication (NFC) payments.
+<a href="https://www.apple.com/apple-pay/" target="_blank">Apple Pay</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a leading global payment method that lets customers tokenize their payment details in a digital wallet. It supports American Express, Maestro, Mastercard, Visa, and Dutch bank accounts. Customers can make both online and near-field communication (NFC) payments.
 
 An additional layer of security is provided by 3D Secure, which requires customers to verify their identity.
 
-Read how Apple Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/applepay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read how Apple Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/applepay" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 | Supports                                                      | Details                                                                                                                                                                                                                                                                                                                                                                                            |
 | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Countries](/docs/payment-methods#payment-methods-by-country) | <a href="https://support.apple.com/en-us/HT207957" target="_blank">Worldwide</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />                                                                                                                                                                                                                                       |
-| [Currencies](/docs/currencies/)                               | AED, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EUR, GBP, HKD, HRK, HUF, ILS, INR, ISK, JPY, KRW, MXN, MYR, NOK, NZD, PEN, PHP, PLN, RON, RUB, SEK, SGD, THB, TRY, TWD, UAH, USD, VEF, ZAR <br /> For more information, see Apple - <a href="https://support.apple.com/en-us/HT207957" target="_blank">Multiple</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />. |
+| [Countries](/docs/payment-methods#payment-methods-by-country) | <a href="https://support.apple.com/en-us/HT207957" target="_blank">Worldwide</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />                                                                                                                                                                                                                                       |
+| [Currencies](/docs/currencies/)                               | AED, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EUR, GBP, HKD, HRK, HUF, ILS, INR, ISK, JPY, KRW, MXN, MYR, NOK, NZD, PEN, PHP, PLN, RON, RUB, SEK, SGD, THB, TRY, TWD, UAH, USD, VEF, ZAR <br /> For more information, see Apple - <a href="https://support.apple.com/en-us/HT207957" target="_blank">Multiple</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />. |
 | [Chargebacks](/docs/chargebacks/)                             | Yes                                                                                                                                                                                                                                                                                                                                                                                                |
 | [Payment pages](/docs/payment-pages/)                         | Yes (current version only)                                                                                                                                                                                                                                                                                                                                                                         |
 | [Refunds](/docs/refund-payments/)                             | Yes: Full and partial <br /> Customers receive refunds in their Apple Pay account, and they appear on their card statement within the next business day.                                                                                                                                                                                                                                           |
@@ -31,7 +31,7 @@ Read how Apple Pay can benefit your business on <a href="https://www.multisafepa
 <Callout icon="ℹ" theme="default">
   ### More information
 
-  See Apple – <a href="https://support.apple.com/en-us/HT201239" target="_blank">How to use Apple Pay</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  See Apple – <a href="https://support.apple.com/en-us/HT201239" target="_blank">How to use Apple Pay</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </Callout>
 
 # Payment flow
@@ -72,7 +72,7 @@ To activate Apple Pay, you must have [card payments](/docs/card-payments/) activ
      * Annual turnover
 
      We check your eligibility and if approved, activate the payment method for your account.
-  2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   3. To activate the payment method for:
      * All websites, go to **Settings** > **Payment methods**.
      * A specific website:
@@ -98,7 +98,7 @@ Then, apply to MultiSafepay for Apple Pay, and activate it in your dashboard.
      * Annual turnover
 
      We check your eligibility and if approved, activate the payment method for your account.
-  2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   3. To activate the payment method for:
 
   * All websites, go to **Settings** > **Payment methods**.
@@ -172,7 +172,7 @@ To test Apple Pay payments, see Testing payment methods - [Wallets](/docs/testin
 
 ### Branding
 
-When integrating Apple Pay into your website, you must follow Apple's <a href="https://developer.apple.com/apple-pay/marketing" target="_blank">branding guidelines</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.\ <br />
+When integrating Apple Pay into your website, you must follow Apple's <a href="https://developer.apple.com/apple-pay/marketing" target="_blank">branding guidelines</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.\ <br />
 
 ***
 
@@ -190,9 +190,9 @@ For our [OpenCart plugin](/docs/opencart/), Apple Pay does appear on the checkou
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

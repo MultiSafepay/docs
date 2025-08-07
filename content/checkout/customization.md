@@ -21,7 +21,7 @@ You can customize the styling to match your brand's visual identity, including f
 To edit the default styling of the component:
 
 1. Select each CSS class you want to edit.
-2. Add the relevant <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference" target="_blank">CSS properties</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> and set the values.
+2. Add the relevant <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference" target="_blank">CSS properties</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> and set the values.
 
    <details id="css-class-selectors">
      <summary>CSS class selectors</summary>
@@ -76,7 +76,7 @@ The payment component now looks like this:
 
 # Via the dashboard
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 2. Go to **Websites**, and then click the relevant website.
 3. On the **Website profile** page, under **Style your checkout solution** > **Payment component**, click **Edit**.
 4. On the **Components settings** page, under **Preview - Default**, select whether you want to:
@@ -96,8 +96,8 @@ The payment component now looks like this:
 
      The template simulator provides a preview of your payment page. Here, you can:
 
-     * Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background and text.
-     * Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> the font.
+     * Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background and text.
+     * Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> the font.
      * Set the font family, style and weight.
 
      <br />
@@ -110,8 +110,8 @@ The payment component now looks like this:
 
      Customize the look of all payment methods and forms. Here, you can:
 
-     * Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background, text, and borders. You can also set a color for when the user hovers over each payment method.
-     * Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the font, border width and radius, and box shadow.
+     * Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background, text, and borders. You can also set a color for when the user hovers over each payment method.
+     * Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the font, border width and radius, and box shadow.
      * Set the font family, style and weight.
      * Set the border style.
 
@@ -127,16 +127,16 @@ The payment component now looks like this:
 
      Under **General**:
 
-     * Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color code</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for general background color, text, border, links and labels.
-     * Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the labels.
+     * Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color code</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for general background color, text, border, links and labels.
+     * Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the labels.
      * Set the label's font weight.
 
      <br />
 
      Under **Inputs**:
 
-     * Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color code</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the input's background, text, borders, placeholder text, focus and errors.
-     * Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the input's font, border width and radius.
+     * Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color code</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the input's background, text, borders, placeholder text, focus and errors.
+     * Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the input's font, border width and radius.
      * Set the font family, style and weight. Set the border style.
 
      <br />
@@ -175,8 +175,8 @@ The payment component now looks like this:
 
      If you've enabled the **MultiSafepay Payment Button** in the **Settings** section, you can customize its appearance:
 
-     * Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color code</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background, text and border. You can also change the color for mouseovers.
-     * Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> to change font size, border width, shadow and radius.
+     * Set the <a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">Hex color code</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the background, text and border. You can also change the color for mouseovers.
+     * Set the <a href="https://www.w3schools.com/cssref/css_units.php" target="_blank">size in pixels (px)</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> to change font size, border width, shadow and radius.
      * Set the font weight clicking the **Font weight** dropdown menu.
    </details>
 6. To set this as your default template, select the **Set as default template** checkbox.
@@ -184,9 +184,9 @@ The payment component now looks like this:
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

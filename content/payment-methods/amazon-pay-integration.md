@@ -34,9 +34,9 @@ With direct integration, the **Amazon Pay** button appears in your checkout page
 </details>
 
 * Amazon Pay must be [activated in your MultiSafepay account](/docs/amazon-pay#activation).
-* You need to have an <a href="https://pay.amazon.com/signup" target="_blank">Amazon Payments merchant account</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
-* Add all domains that you plan to integrate with Amazon Pay to the JavaScript Origins in <a href="https://sellercentral-europe.amazon.com/external-payments/amazon-pay/integration-central/lwa?" target="_blank">Seller Central</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
-* All domains must comply with Amazon Pay's <a href="https://pay.amazon.eu/help/6023" target="_blank">Acceptable Use Policy</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* You need to have an <a href="https://pay.amazon.com/signup" target="_blank">Amazon Payments merchant account</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* Add all domains that you plan to integrate with Amazon Pay to the JavaScript Origins in <a href="https://sellercentral-europe.amazon.com/external-payments/amazon-pay/integration-central/lwa?" target="_blank">Seller Central</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* All domains must comply with Amazon Pay's <a href="https://pay.amazon.eu/help/6023" target="_blank">Acceptable Use Policy</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 # 1. Place the Amazon Pay button
 
@@ -54,7 +54,7 @@ From your server, [create an order](/reference/createorder/) > Wallet order. In 
 
 Extract the `payment_data` object from the response.
 
-For 3D Secure authentication, add `customer.browser` object in your request. See recipe - <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Customer browser</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For 3D Secure authentication, add `customer.browser` object in your request. See recipe - <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Customer browser</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 # 3. Display the Amazon Pay button
 
@@ -141,7 +141,7 @@ amazonPayButton.onClick(function(){
 
 # 4. Test your integration
 
-To test your Amazon Pay direct integration, you need a <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay test account</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+To test your Amazon Pay direct integration, you need a <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay test account</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 To test, follow these steps:
 
@@ -154,9 +154,9 @@ To test, follow these steps:
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
