@@ -30,9 +30,9 @@ To activate it in other [ready-made integrations](/docs/our-integrations/), you 
 
 See Recipes:
 
-* <a href="https://docs.multisafepay.com/recipes/manual-capture-initial-payment/" target="_blank">Manual capture: Initial payment</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-* <a href="https://docs.multisafepay.com/recipes/manual-capture-capture-payment/" target="_blank">Manual capture: Capture payment</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-* <a href="https://docs.multisafepay.com/recipes/manual-capture-cancel-reservation/" target="_blank">Manual capture: Cancel reservation</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* <a href="https://docs.multisafepay.com/recipes/manual-capture-initial-payment/" target="_blank">Manual capture: Initial payment</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* <a href="https://docs.multisafepay.com/recipes/manual-capture-capture-payment/" target="_blank">Manual capture: Capture payment</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* <a href="https://docs.multisafepay.com/recipes/manual-capture-cancel-reservation/" target="_blank">Manual capture: Cancel reservation</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 See API reference:
 
@@ -63,7 +63,7 @@ After expiration, the <Glossary>issuer</Glossary> can cancel the authorization.
 
 You can capture payments:
 
-* Via our API - <a href="https://docs.multisafepay.com/reference/capturepayment" target="_blank">Capture payment</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* Via our API - <a href="https://docs.multisafepay.com/reference/capturepayment" target="_blank">Capture payment</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 * Via your dashboard
 
 <details id="cancel-authorization">
@@ -85,7 +85,7 @@ You can capture payments:
 
 You can cancel a reservation created via manual capture:
 
-* Via our API - <a href="https://docs.multisafepay.com/reference/capturepayment" target="_blank">Cancel authorized payment</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* Via our API - <a href="https://docs.multisafepay.com/reference/capturepayment" target="_blank">Cancel authorized payment</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 * Via your dashboard
 
 For partial captures, the cancellation will apply to the remaining amount.
@@ -93,7 +93,7 @@ For partial captures, the cancellation will apply to the remaining amount.
 <details id="cancel-authorization">
   <summary>How to cancel an authorized transaction</summary><br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then select the relevant transaction.
   3. On the **Transaction summary** page, in **Order Summary**, click **Cancel Reservation**.
   4. Add a description of what happened with the order, and then click **Complete**.\
@@ -116,9 +116,9 @@ For partial captures, the cancellation will apply to the remaining amount.
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

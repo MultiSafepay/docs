@@ -12,7 +12,7 @@ content:
   excerpt: Payment Services Directive 2
 ---
 
-The Payment Services Directive 2 (PSD2) is a set of laws and regulations established by the <a href="https://eba.europa.eu" target="_blank">European Banking Authority (EBA)</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> that aim to improve consumer rights and security, while also promoting competition within the financial industry.
+The Payment Services Directive 2 (PSD2) is a set of laws and regulations established by the <a href="https://eba.europa.eu" target="_blank">European Banking Authority (EBA)</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> that aim to improve consumer rights and security, while also promoting competition within the financial industry.
 
 The directive not only enhances the safety of payments across the European Union, but also enables the development and use of innovative new technologies.
 
@@ -33,9 +33,9 @@ If transactions aren't appropriately authenticated, banks may have to decline th
 ***
 
 <HTMLBlock>{`
-<blockquote class="callout callout_info">
-<h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+<h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
   <ul>

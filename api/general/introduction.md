@@ -68,14 +68,14 @@ curl -X GET '<URL here>'\
 
 We provide the following SDKs and wrappers to facilitate integrating via our API:
 
-* <a href="https://github.com/edoburu/django-multisafepay" target="_blank">Django wrapper</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
-* <a href="https://github.com/kurt-stolle/go-multisafepay" target="_blank">Go wrapper</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
-* <a href="https://github.com/MultiSafepay/Java" target="_blank">Java wrapper</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
-* <a href="https://github.com/MultiSafepay/laravel-api" target="_blank">Laravel wrapper</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
-* <a href="https://github.com/MultiSafepay/.Net" target="_blank">.NET wrapper</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
-* <a href="https://github.com/MultiSafepay/multisafepay-node-wrapper" target="_blank">NodeJS wrapper</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
-* <a href="https://github.com/MultiSafepay/php-sdk" target="_blank">PHP SDK</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
-* <a href="https://github.com/MultiSafepay/python-sdk" target="_blank">Python SDK</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+* <a href="https://github.com/edoburu/django-multisafepay" target="_blank">Django wrapper</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+* <a href="https://github.com/kurt-stolle/go-multisafepay" target="_blank">Go wrapper</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+* <a href="https://github.com/MultiSafepay/Java" target="_blank">Java wrapper</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+* <a href="https://github.com/MultiSafepay/laravel-api" target="_blank">Laravel wrapper</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+* <a href="https://github.com/MultiSafepay/.Net" target="_blank">.NET wrapper</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+* <a href="https://github.com/MultiSafepay/multisafepay-node-wrapper" target="_blank">NodeJS wrapper</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+* <a href="https://github.com/MultiSafepay/php-sdk" target="_blank">PHP SDK</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+* <a href="https://github.com/MultiSafepay/python-sdk" target="_blank">Python SDK</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
 
 # Deprecated XML API
 
@@ -87,9 +87,9 @@ You can still use the XML endpoint to process transaction requests, but new paym
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     Support
   </h3>
 

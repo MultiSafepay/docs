@@ -29,10 +29,10 @@ parent:
 
 MultiSafepay supports the following credit and debit cards:
 
-* <a href="https://www.multisafepay.com/solutions/payment-methods/american-express" target="_blank">American Express</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> (Amex)
-* <a href="https://www.multisafepay.com/solutions/payment-methods/mastercard/" target="_blank">Mastercard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> (credit card) and <a href="https://www.multisafepay.com/solutions/payment-methods/maestro/" target="_blank">Maestro</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> (debit card)
-* <a href="https://www.multisafepay.com/solutions/payment-methods/postepay/" target="_blank">Postepay</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-* <a href="https://www.multisafepay.com/solutions/payment-methods/visa/" target="_blank">Visa</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> and co-branded cards <a href="https://www.multisafepay.com/solutions/payment-methods/carte-bleue" target="_blank">Cartes Bancaires</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, <a href="https://www.multisafepay.com/solutions/payment-methods/dankort/" target="_blank">Dankort</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, <a href="https://www.multisafepay.com/solutions/payment-methods/vpay" target="_blank">V Pay</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> (debit card)
+* <a href="https://www.multisafepay.com/solutions/payment-methods/american-express" target="_blank">American Express</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> (Amex)
+* <a href="https://www.multisafepay.com/solutions/payment-methods/mastercard/" target="_blank">Mastercard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> (credit card) and <a href="https://www.multisafepay.com/solutions/payment-methods/maestro/" target="_blank">Maestro</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> (debit card)
+* <a href="https://www.multisafepay.com/solutions/payment-methods/postepay/" target="_blank">Postepay</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* <a href="https://www.multisafepay.com/solutions/payment-methods/visa/" target="_blank">Visa</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> and co-branded cards <a href="https://www.multisafepay.com/solutions/payment-methods/carte-bleue" target="_blank">Cartes Bancaires</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, <a href="https://www.multisafepay.com/solutions/payment-methods/dankort/" target="_blank">Dankort</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, <a href="https://www.multisafepay.com/solutions/payment-methods/vpay" target="_blank">V Pay</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> (debit card)
 
 **⚠️ Note:** [Co-branded cards](/docs/card-payments#co-branded-cards) are processed through the VISA <Glossary>gateway</Glossary>.
 
@@ -80,7 +80,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
    * Annual turnover
 
    We check your eligibilty and if approved, activate the payment method for your account.
-2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 3. To activate the payment method for:
 
 * All websites, go to **Settings** > **Payment methods**.
@@ -171,9 +171,9 @@ See [Card refunds](/docs/card-refunds/).
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

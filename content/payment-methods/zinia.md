@@ -11,9 +11,9 @@ parent:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/zinia-logo.svg" width="80" align="right" style={{margin: '20px 20px 20px 30px', maxHeight: '75px'}} />
 
-<a href="https://www.zinia.com/" target="_blank">Zinia</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i> is a <Glossary>BNPL</Glossary> methods that lets customers pay now, in 14 days **or**  3 equal installments within a period of time. 
+<a href="https://www.zinia.com/" target="_blank">Zinia</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i> is a <Glossary>BNPL</Glossary> methods that lets customers pay now, in 14 days **or**  3 equal installments within a period of time. 
 
-Read how Zinia can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/zinia" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>
+Read how Zinia can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/zinia" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>
 
 | Supports                                                      | Details                             |
 | ------------------------------------------------------------- | ----------------------------------- |
@@ -84,7 +84,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 * We check your eligibility and if approved, you will receive the Zinia contract.
 * Once signed, we activate the payment method for your account.
 
-2. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>.
+2. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>.
 3. To activate the payment method for:
 
 * All websites, go to **Settings** > **Payment methods**.
@@ -142,7 +142,7 @@ You can cancel the order **before** shipment or **after** partial shipment.
 
 **In your dashboard**
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>. 
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>. 
 2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
 3. On the **Transaction details** page, click **Cancel**.
 4. Add a description of what happened with the order, and then click **Complete**.\
@@ -213,7 +213,7 @@ After an order expires, the expiration period cannot be extended.
 
 **In your dashboard**
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>.
 2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
 3. On the **Transaction details** page, click **Extend**.\
    While extended, the <Glossary>order status</Glossary> remains **Completed** and the <Glossary>transaction status</Glossary> remains **Uncleared**.
@@ -256,7 +256,7 @@ To refund a Zinia transaction, follow these steps:
 <summary>Via your dashboard</summary>
 <br/>
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>.
 2. Go to **Transactions** > **Transactions Overview** and select the relevant transaction.
 3. Click on the transaction to go to the **Transaction summary** page.
 4. Under **Order summary**, click **Edit order**.
@@ -272,8 +272,8 @@ To refund a Zinia transaction, follow these steps:
 <summary>Via the API</summary>
 <br/>
 
-See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i><br/>\
-Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i> request to retrieve the order details.
+See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i><br/>\
+Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i> request to retrieve the order details.
 
 1. Under **Path Params**, enter the `order_id` of the transaction you want to refund. 
 2. Under **Body Params**, select **BNPL Refund**. Add all items in the shopping cart.
@@ -402,7 +402,7 @@ When you ship the order, you **must** update the <Glossary>order status</Glossar
 
 **In your dashboard**
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>.
 2. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
 3. On the **Transaction details** page, under **Order details**, click **Change order status**.
 4. From the **Change status to** list, select **Shipped**.
@@ -432,9 +432,9 @@ For more information, email [sales@multisafepay.com](mailto:sales@multisafepay.c
 
 <br/>
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

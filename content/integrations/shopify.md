@@ -27,7 +27,7 @@ To install, follow these steps:
 
 1. For increased security and stability, wait for off-peak hours and temporarily enable password protection for your webshop.
 2. Check that the payment methods you want to use in Shopify are [activated for your MultiSafepay account](/docs/payment-methods).
-3. From the Shopify app store, install the <a href="https://apps.shopify.com/multisafepay-payments" target="_blank">MultiSafepay payments app</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+3. From the Shopify app store, install the <a href="https://apps.shopify.com/multisafepay-payments" target="_blank">MultiSafepay payments app</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 4. Under **Settings**:
    * **Website API key**: Enter your [website API key](/docs/sites#site-id-api-key-and-security-code).
    * **Environment**: Set whether it is a **live** or **test** API key.
@@ -50,7 +50,7 @@ To install, follow these steps:
 
 MultiSafepay's [Second Chance](/docs/second-chance/) feature is **not** supported because Shopify offers a similar native service.
 
-See Shopify – <a href="https://help.shopify.com/en/manual/orders/abandoned-checkouts" target="_blank">Recovering abandoned checkouts</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+See Shopify – <a href="https://help.shopify.com/en/manual/orders/abandoned-checkouts" target="_blank">Recovering abandoned checkouts</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ## Cancellation
 
@@ -76,7 +76,7 @@ Shopify orders expire after **3** days.
 
 The `pendingExpiresAt` value matches the date and time when the order expires and must be within 3 days of calling the `paymentSessionPending` mutation (once only).
 
-For more information, see Shopify.dev – <a href="https://shopify.dev/apps/payments/processing-a-payment#pend-a-payment" target="_blank">Pend a payment</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For more information, see Shopify.dev – <a href="https://shopify.dev/apps/payments/processing-a-payment#pend-a-payment" target="_blank">Pend a payment</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 **⚠️ Note:** If an order is not completed within **2** hours, the <Glossary>order status</Glossary> changes from **Pending** to **Expired**.
 
@@ -103,9 +103,9 @@ You can't refund more than the original amount in your backend.
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

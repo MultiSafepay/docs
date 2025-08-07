@@ -20,7 +20,7 @@ Check out our integrations built and managed by external developer communities:
 
 ORRTIZ.COM provides a MultiSafepay plugin for Apache OFBiz.
 
-<a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/ORRTIZ/omultisafepay" target="_blank"><span>View on GitHub</span></a>
+<a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/ORRTIZ/omultisafepay" target="_blank"><span>View on GitHub</span></a>
 
 ***
 
@@ -30,7 +30,7 @@ ORRTIZ.COM provides a MultiSafepay plugin for Apache OFBiz.
 
 Yidna provides a MultiSafepay extension for nopCommerce.
 
-<a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://www.nopcommerce.com/en/multisafepay-payment-plugin" target="_blank"><span>View in store</span></a>
+<a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://www.nopcommerce.com/en/multisafepay-payment-plugin" target="_blank"><span>View in store</span></a>
 
 ***
 
@@ -40,7 +40,7 @@ Yidna provides a MultiSafepay extension for nopCommerce.
 
 The League of Extraordinary Packages provides a MultiSafepay driver for the Omnipay PHP payment processing library.
 
-<a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/thephpleague/omnipay-multisafepay" target="_blank"><span>View on GitHub</span></a>
+<a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/thephpleague/omnipay-multisafepay" target="_blank"><span>View on GitHub</span></a>
 
 ***
 
@@ -50,7 +50,7 @@ The League of Extraordinary Packages provides a MultiSafepay driver for the Omni
 
 Casper provides a MultiSafepay extension for OroCommerce.
 
-<a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://extensions.oroinc.com/orocommerce/extension/multisafepay-bundle/#description" target="_blank"><span>View in store</span></a>
+<a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://extensions.oroinc.com/orocommerce/extension/multisafepay-bundle/#description" target="_blank"><span>View in store</span></a>
 
 ***
 
@@ -60,7 +60,7 @@ Casper provides a MultiSafepay extension for OroCommerce.
 
 BitBag provides a MultiSafepay plugin for Sylius.
 
-<a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/BitBagCommerce/SyliusMultiSafepayPlugin" target="_blank"><span>View on GitHub</span></a>
+<a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/BitBagCommerce/SyliusMultiSafepayPlugin" target="_blank"><span>View on GitHub</span></a>
 
 ***
 
@@ -85,9 +85,9 @@ For any questions about joining our developer community, email [integration@mult
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

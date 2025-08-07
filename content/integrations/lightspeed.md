@@ -49,7 +49,7 @@ content:
 3. Search for the **MultiSafepay payments app**.
 4. Click the app, and then **Install app** in the top-right corner.
 5. In the dialog, approve the permissions required for the app.\
-   You are redirected to Lightspeed – <a href="https://lightspeed.multisafepay.com/install" target="_blank">MultiSafepay: How to log in</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.
+   You are redirected to Lightspeed – <a href="https://lightspeed.multisafepay.com/install" target="_blank">MultiSafepay: How to log in</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.
 6. In the **Setup** page:
 
 * Enter your email address, [account ID and website API key](/docs/sites#site-id-api-key-and-security-code).
@@ -197,7 +197,7 @@ When you generate a payment link in your MultiSafepay dashboard, you cannot upda
 
 By default, any payment method you activate in your MultiSafepay account will be available for your backend. Newly activated payment methods must be enabled manually in your <Glossary>backend</Glossary> settings.
 
-To use MultiSafepay payment method icons, see GitHub <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">MultiSafepay icons</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.
+To use MultiSafepay payment method icons, see GitHub <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">MultiSafepay icons</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.
 
 <details id="payment-methods-logos-in-your-site-footer">
   <summary>Payment methods logos in your website footer</summary>
@@ -248,7 +248,7 @@ To use MultiSafepay payment method icons, see GitHub <a href="https://github.com
 
   To add missing payment method logos, follow these steps:
 
-  1. Download the logos from our <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">Github repo</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.
+  1. Download the logos from our <a href="https://github.com/MultiSafepay/MultiSafepay-icons" target="_blank">Github repo</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.
   2. Rename the file with upper case formatting, e.g applepay.png > APPLEPAY.png.
   3. Sign in to your Lightspeed app.
   4. Go to **Design** > **Theme editor** > **Advanced** > **Edit code** > **Assets**, and drop in the logos.
@@ -305,7 +305,7 @@ To use MultiSafepay payment method icons, see GitHub <a href="https://github.com
 
   If a payment method is missing:
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.
   2. Go to **Settings** > **Payment methods**, and check that the payment method is enabled.
   3. Sign in to your Lightspeed app, go to **Settings**, and then enable the payment method again.
 </details>
@@ -328,7 +328,7 @@ To use MultiSafepay payment method icons, see GitHub <a href="https://github.com
 
 The Lightspeed app doesn't support [Second Chance](/docs/second-chance/) emails because Lightspeed orders expire after 12 hours.
 
-Lightspeed offers a functionality that lets you configure payment reminders and emails for orders with **Pending** status. For more information and instructions, see Lightspeed – <a href="https://ecom-support.lightspeedhq.com/hc/en-us/articles/220661507-Configuring-payment-reminders" target="_blank">Configuring payment reminders</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.
+Lightspeed offers a functionality that lets you configure payment reminders and emails for orders with **Pending** status. For more information and instructions, see Lightspeed – <a href="https://ecom-support.lightspeedhq.com/hc/en-us/articles/220661507-Configuring-payment-reminders" target="_blank">Configuring payment reminders</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.
 
 ## Refunds
 
@@ -358,7 +358,7 @@ You can't refund more than the original amount in your backend.
 
   **Notes**
 
-  * If you use Lightspeed eCom linked to <a href="https://www.lightspeedhq.nl/kassasysteem/retail/" target="_blank">Lightspeed Retail</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} /> to process refunds via MultiSafepay, you must enable the **Always create a refund, no matter the status** setting.
+  * If you use Lightspeed eCom linked to <a href="https://www.lightspeedhq.nl/kassasysteem/retail/" target="_blank">Lightspeed Retail</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} /> to process refunds via MultiSafepay, you must enable the **Always create a refund, no matter the status** setting.
 
   * When creating a credit memo, set the status to **Not paid**. If the **Always create a refund, no matter the status** setting is not enabled, MultiSafepay ignores **Paid** status.
 </details>

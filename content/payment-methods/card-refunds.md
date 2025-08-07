@@ -33,7 +33,7 @@ You **cannot** refund more than the original transaction.
 
 * Whether or not the refund is visible to the customer depends on the issuer's system.
 * Depending on the issuer, the amount may **not** appear directly on the customer's card. We recommend the customer to contact the issuer.
-  * If a customer needs an acquirer reference number (ARN), you can find this in your <a href="https://merchant.multisafepay.com/" target="_blank">dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> on the relevant **Transaction details** page.
+  * If a customer needs an acquirer reference number (ARN), you can find this in your <a href="https://merchant.multisafepay.com/" target="_blank">dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> on the relevant **Transaction details** page.
   * ARNs are **not** provided if the refund is processed within the same day as the transaction.
 
 # Reversals
@@ -46,13 +46,13 @@ You **cannot** refund more than the original transaction.
 
 * You **cannot** cancel reversals because the funds are returned to the customer immediately.
 
-**⚠️Note:** If you have processed a reversal or a refund, but the customer hasn't received their funds, you can send them a receipt of the transaction. For more information, see <a href="https://docs.multisafepay.com/docs/refund-payments#refund-receipts" target="_blank">Refund receipts</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+**⚠️Note:** If you have processed a reversal or a refund, but the customer hasn't received their funds, you can send them a receipt of the transaction. For more information, see <a href="https://docs.multisafepay.com/docs/refund-payments#refund-receipts" target="_blank">Refund receipts</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

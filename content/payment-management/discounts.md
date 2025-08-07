@@ -24,7 +24,7 @@ You can apply discounts to orders via your dashboard or the API.
 
 ## How to discount in your dashboard
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
 3. On the **Transaction details** page, under **Order details**, click **Edit order**.
 4. In the dialog, click **Change**.
@@ -73,8 +73,8 @@ You can apply discounts to orders via your dashboard or the API.
 
 To discount:
 
-* <Glossary>BNPL</Glossary> orders, see Recipes – <a href="https://docs.multisafepay.com/recipes/discount-a-bnpl-order/" target="_blank">Discount a BNPL order</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
-* Orders with other payment methods, see Recipes – <a href="https://docs.multisafepay.com/recipes/discount-a-bnpl-order/" target="_blank">Discount a BNPL order</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+* <Glossary>BNPL</Glossary> orders, see Recipes – <a href="https://docs.multisafepay.com/recipes/discount-a-bnpl-order/" target="_blank">Discount a BNPL order</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+* Orders with other payment methods, see Recipes – <a href="https://docs.multisafepay.com/recipes/discount-a-bnpl-order/" target="_blank">Discount a BNPL order</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
 
 See API reference – [Create order](/reference/createorder/).
 
@@ -85,9 +85,9 @@ To discount:
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

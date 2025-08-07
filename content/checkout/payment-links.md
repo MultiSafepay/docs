@@ -27,7 +27,7 @@ No activation is required.
 You can generate payment links via the API:
 
 * API reference – [Create order](/reference/createorder/) > Payment page/link
-* API recipe – <a href="https://docs.multisafepay.com/recipes/create-a-payment-pagelink" target="_blank">Create a payment page/link</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* API recipe – <a href="https://docs.multisafepay.com/recipes/create-a-payment-pagelink" target="_blank">Create a payment page/link</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 Or via your dashboard:
 
@@ -36,7 +36,7 @@ Or via your dashboard:
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Payment links**.
   3. Click **New payment link**.
   4. From the **Website** list, select the relevant website.
@@ -71,7 +71,7 @@ Or via your dashboard:
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, under **Order summary**, click **Generate payment link** > **Duplicate this order**.
 
@@ -97,7 +97,7 @@ Or via your dashboard:
 
   **Via dashboard**
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Payment links**.
   3. Next to the relevant payment link, click the red cross **Cancel payment link** icon.\
      The <Glossary>order status</Glossary> changes to **cancelled**.
@@ -112,7 +112,7 @@ If you need to generate multiple payment links, you can speed up the process by 
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Payment links**.
   3. Next to the relevant payment link, click the blue **Clone** icon.\
      A new **Payment links** window opens with the same details prefilled.
@@ -156,7 +156,7 @@ Each attempt creates a new <Glossary>transaction</Glossary> with the same `order
 
   For an overview of all payment links:
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Payment links**.
 
   | Payment link status | Description                                                                                      |
@@ -185,9 +185,9 @@ Each attempt creates a new <Glossary>transaction</Glossary> with the same `order
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

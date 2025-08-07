@@ -11,14 +11,14 @@ parent:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/giftcards/edenred.svg" width="80" align="right" style={{margin: '20px 20px 20px 30px', maxHeight: '75px'}} />
 
-<a href="https://www.edenred.be/nl" target="_blank">Edenred</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> lets employers gift employees a prepaid card loaded with Edenred vouchers:
+<a href="https://www.edenred.be/nl" target="_blank">Edenred</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> lets employers gift employees a prepaid card loaded with Edenred vouchers:
 
 * Ticket Restaurant
 * Ticket EcoCheques
 * Ticket Compliments
 * Ticket Sport & Culture
 
-Read how Edenred can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/edenred" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read how Edenred can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/edenred" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 | Supports                                                      | Details                               |
 | ------------------------------------------------------------- | ------------------------------------- |
@@ -35,7 +35,7 @@ Read how Edenred can benefit your business on <a href="https://www.multisafepay.
 * For each voucher, you must comply with Edenred's rules on permitted products and services.
 * An Edenred prepaid card can contain multiple Edenred vouchers.
 * Edenred vouchers can be used for partial payments in combination with another payment method.
-* View all the Edenred transactions for your website in <a href="https://myedenred.be" target="_blank">My Edenred</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* View all the Edenred transactions for your website in <a href="https://myedenred.be" target="_blank">My Edenred</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 # Payment flow
 
@@ -54,7 +54,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 # Activation
 
-1. Fill out the Edenred – <a href="https://registreermijnwebsite.edenred.be/" target="_blank">Registreer mijn website</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> form, selecting the relevant checkbox for each voucher you want to offer.
+1. Fill out the Edenred – <a href="https://registreermijnwebsite.edenred.be/" target="_blank">Registreer mijn website</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> form, selecting the relevant checkbox for each voucher you want to offer.
 2. Sign a contract with Edenred. They'll give you an Edenred Merchant ID.
 3. Email your Edenred Merchant ID to [sales@multisafepay.com](mailto:sales@multisafepay.com)
 4. We activate the payment method for your account.
@@ -91,9 +91,9 @@ To test Edenred payments, see Testing payment methods - [Prepaid cards](/docs/te
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

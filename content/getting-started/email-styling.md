@@ -16,7 +16,7 @@ You can style emails to customers, payment pages, and success pages to match you
 
 Use our pre-formatted and/or pre-written templates and populate them with your content.
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
 
 2. Go to **Settings** > **Email styling**, and then click the relevant website.
 
@@ -231,8 +231,8 @@ Use our pre-formatted and/or pre-written templates and populate them with your c
      | CITY                    | Your company city of residence                                                                                                                                                                          |
      | COMPANYNAME             | Your company name given in your MultiSafepay account                                                                                                                                                    |
      | CONTENT                 | The items in the shopping cart                                                                                                                                                                          |
-     | COUNTRY                 | The <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} /> code for your company country |
-     | COUNTRYCODE             | The <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} /> code for your company country |
+     | COUNTRY                 | The <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} /> code for your company country |
+     | COUNTRYCODE             | The <a href="https://www.iso.org/iso-3166-country-codes.html" target="_blank">ISO 3166</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} /> code for your company country |
      | CURRENTDATE             | Today's date                                                                                                                                                                                            |
      | DELIVERYINVOICEURL      | The invoice URL for delivery                                                                                                                                                                            |
      | DELIVERYREASON          | The reason for delivery                                                                                                                                                                                 |
@@ -289,7 +289,7 @@ Use our pre-formatted and/or pre-written templates and populate them with your c
 
      To add your logo to emails to increase customers' recognition and trust, follow these steps:
 
-     1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
+     1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
      2. Go to **Settings** > **Files**.
      3. Under **Upload a new file**, select the relevant file, and then click **Choose file**.
      4. Under **Upload queue**, click **Upload** or **Upload all**.\
@@ -327,9 +327,9 @@ Use our pre-formatted and/or pre-written templates and populate them with your c
 ***
 
 <HTMLBlock>{`
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

@@ -11,17 +11,17 @@ parent:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/paysafecard-lock.svg" width="100" align="right" style={{margin: '15px', maxHeight: '75px'}} />
 
-<a href="https://www.paysafecard.com/en/" target="_blank">Paysafecard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> lets customers make online payments using secure prepaid vouchers, available for purchase locally. The funds are available immediately. The customer chooses a fixed voucher amount: 10, 25, 50 or 100 EUR.
+<a href="https://www.paysafecard.com/en/" target="_blank">Paysafecard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> lets customers make online payments using secure prepaid vouchers, available for purchase locally. The funds are available immediately. The customer chooses a fixed voucher amount: 10, 25, 50 or 100 EUR.
 
 Customers enter the voucher code, without providing any personal payment details. Vouchers for different amounts are available in the local currency in 46 countries.
 
 The card balance remains available for 12 months free of charge. After 12 months, customers are charged a monthly administration fee of 3 EUR, which is deducted from the balance.
 
-Read how Paysafecard can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/paysafecard" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read how Paysafecard can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/paysafecard" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 | Supports                                                      | Details                                                                                                                                                                                                                                         |
 | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Countries](/docs/payment-methods#payment-methods-by-country) | Worldwide – Go to <a href="https://www.paysafecard.com/en-gb/" target="_blank">Paysafecard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, and then click the globe icon in the banner.                        |
+| [Countries](/docs/payment-methods#payment-methods-by-country) | Worldwide – Go to <a href="https://www.paysafecard.com/en-gb/" target="_blank">Paysafecard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, and then click the globe icon in the banner.                        |
 | [Currencies](/docs/currencies/)                               | EUR, GBP, USD                                                                                                                                                                                                                                   |
 | [Chargebacks](/docs/chargebacks/)                             | No                                                                                                                                                                                                                                              |
 | [Payment pages](/docs/payment-pages/)                         | Yes (current version only)                                                                                                                                                                                                                      |
@@ -52,8 +52,8 @@ Paysafecard doesn't require activation.
 
 To find outlets that sell Paysafecard, see:
 
-* <a href="https://www.paysafecard.com/en/find-sales-outlet-1/" target="_blank">Find sales outlets</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-* <a href="https://www.paysafecard.com/nl/verkooppunt-vinden-1/" target="_blank">Verkooppunten zoeken</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* <a href="https://www.paysafecard.com/en/find-sales-outlet-1/" target="_blank">Find sales outlets</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* <a href="https://www.paysafecard.com/nl/verkooppunt-vinden-1/" target="_blank">Verkooppunten zoeken</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 For any questions, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
@@ -105,9 +105,9 @@ Supported in:
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

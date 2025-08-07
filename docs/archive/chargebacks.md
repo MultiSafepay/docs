@@ -32,14 +32,14 @@ MultiSafepay can dispute chargebacks on your behalf.
 
 You need to upload relevant documentary evidence:
 
-- In the **Transaction details** page of the original transaction in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>, **or**
+- In the **Transaction details** page of the original transaction in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>, **or**
 - Via our API - see [Challenge chargebacks](/reference/challengechargeback/).
 
 <details id=“how-to-upload-files”>
 <summary>How to upload files</summary>
 <br>
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>.
 2. Go to **Settings** > **Files**.
 3. Under **Upload a new file**, click **Choose file**.<br> **Note:** You must upload files in PDF format.
 4. Select the relevant file(s), and then click **Open**.
@@ -80,7 +80,7 @@ By offering credit card payment methods, you agree to the cardholder rights guar
 
 If an Amazon customer requests a chargeback from their bank or credit card issuer for an Amazon Pay payment, Amazon Pay notifies you by email. If you do not respond within 11 calendar days, then Amazon Pay automatically debits the chargeback amount from your Amazon Payments merchant account.
 
-For more information, see Amazon Pay - <a href="https://pay.amazon.eu/help/201749650" target="_blank">Handling chargebacks</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+For more information, see Amazon Pay - <a href="https://pay.amazon.eu/help/201749650" target="_blank">Handling chargebacks</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>.
 
 # Direct debit chargebacks
 
@@ -95,7 +95,7 @@ When a cardholder requests a chargeback, they must provide a reason. Below are t
 If you have asked MultiSafepay to dispute a chargeback on your behalf, we specify what documentary evidence you need to provide for each chargeback reason. Try to provide as much evidence as possible.
 
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/amex.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/amex.svg" width="50" align="right" style={{ margin:'20px', maxHeight:'75px' }}/>
 
 ### American Express
 
@@ -284,7 +284,7 @@ To dispute this type of chargeback, you need to provide proof that the transacti
 </details>
 
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/mastercard.svg" width="70" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/mastercard.svg" width="70" align="right" style={{ margin:'20px', maxHeight:'75px' }}/>
 
 ### Mastercard
 
@@ -403,7 +403,7 @@ To dispute this type of chargeback, you need to provide evidence that:
 </details>
 
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/visa.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/visa.svg" width="50" align="right" style={{ margin:'20px', maxHeight:'75px' }}/>
 
 ### Visa
 
@@ -590,7 +590,7 @@ Including your logo in customer's online bank environments and applications can 
 - Increase brand presence, recognition, and trust.
 - Reduce chargebacks, disputes, and friendly fraud – when customers mistakenly initiate chargebacks because they don't recognize or trust a transaction.
 
-<a href="https://logo.ethoca.com/" target="_blank">Upload your logo</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> for the card scheme to display in all participating banking environments and applications.
+<a href="https://logo.ethoca.com/" target="_blank">Upload your logo</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i> for the card scheme to display in all participating banking environments and applications.
 </details>
 <br>
 
@@ -604,7 +604,7 @@ Additional guidance:
 
 [block:html]
 {
-"html": "<blockquote class=\"callout callout_info\">\n <h3 class=\"callout-heading false\">\n <span class=\"callout-icon\">💬</span>\n <p>Support</p>\n </h3>\n <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
+"html": "<blockquote className=\"callout callout_info\">\n <h3 className=\"callout-heading false\">\n <span className=\"callout-icon\">💬</span>\n <p>Support</p>\n </h3>\n <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
 }
 [/block]
 

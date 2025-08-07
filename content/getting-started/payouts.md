@@ -24,7 +24,7 @@ As part of your onboarding, specify a business bank account to pay out to.
 
   To add additional bank accounts to your account (once fully onboarded), follow these steps:
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
   2. Go to **Finances** > **Bank accounts**.
   3. Click **Add new**.
   4. Fill in the:
@@ -57,7 +57,7 @@ You can schedule automated payouts on specific day, or make them manually.
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
   2. Go to **Finances** > **Payouts**.
   3. Under **Automate payout**, click **Add**:
      * Under **Select days**, select one or more days of the week, and/or the end of the month.
@@ -70,7 +70,7 @@ You can schedule automated payouts on specific day, or make them manually.
   To schedule payouts for different currencies, you must have a account balance and an active business bank account for each currency.\
   For automated payouts, a report to view all transactions between two payouts will be available. For more information, see [payout report](/docs/reports#payout-report)
 
-  <img class="-radius max-width medium-img" src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Screenshot-Automatic-Withdrawals.png" alt="Screenshot of an automatic withdrawal in the MultiSafepay dashboard" />
+  <img className="-radius max-width medium-img" src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Screenshot-Automatic-Withdrawals.png" alt="Screenshot of an automatic withdrawal in the MultiSafepay dashboard" />
 </details>
 
 <details id="how-to-make-a-payout-manually">
@@ -78,7 +78,7 @@ You can schedule automated payouts on specific day, or make them manually.
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
   2. Go to **Finances** > **Payouts**.
   3. Under **One-time payout**:
      * Select the currency.
@@ -152,7 +152,7 @@ You cannot make payouts if:
 
     To check if your account is fully activated, follow these steps:
 
-    1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.\
+    1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.\
        If your account is not fully activated, on the dashboard home page, under **Alerts**, a message appears that your account is incomplete.
     2. Click **Go to activation**.
 
@@ -186,9 +186,9 @@ You cannot make payouts if:
 ***
 
 <HTMLBlock>{`
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

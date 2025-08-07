@@ -17,7 +17,7 @@ Check out our integrations built with and managed by our partners:
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/CloudSuite.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-<a href="https://www.cloudsuite.com/en_US/" target="_blank">CloudSuite</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free plugin to integrate with MultiSafepay.
+<a href="https://www.cloudsuite.com/en_US/" target="_blank">CloudSuite</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free plugin to integrate with MultiSafepay.
 
 <details id="cloudsuite-prerequisites">
   <summary>Prerequisites</summary>
@@ -32,7 +32,7 @@ Check out our integrations built with and managed by our partners:
 
   <br />
 
-  See CloudSuite – <a href="https://www.cloudsuite.com/en_US/contact" target="_blank">CloudSuite support</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  See CloudSuite – <a href="https://www.cloudsuite.com/en_US/contact" target="_blank">CloudSuite support</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 <details id="cloudsuite-payment-methods">
@@ -49,7 +49,7 @@ Check out our integrations built with and managed by our partners:
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Divide.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-<a href="https://www.divide.nl/" target="_blank">Divide</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />,provides a free plugin to integrate with MultiSafepay.
+<a href="https://www.divide.nl/" target="_blank">Divide</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />,provides a free plugin to integrate with MultiSafepay.
 
 <details id="divide-prerequisites">
   <summary>Prerequisites</summary>
@@ -64,7 +64,7 @@ Check out our integrations built with and managed by our partners:
 
   <br />
 
-  For any technical queries, see – <a href="https://www.divide.nl/contact/" target="_blank">Divide support</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  For any technical queries, see – <a href="https://www.divide.nl/contact/" target="_blank">Divide support</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 <details id="divide-payment-components">
@@ -110,7 +110,7 @@ Check out our integrations built with and managed by our partners:
 
   <br />
 
-  To install and configure the plugin, see Divide – <a href="https://www.divide.nl/contact/" target="_blank">Contact</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  To install and configure the plugin, see Divide – <a href="https://www.divide.nl/contact/" target="_blank">Contact</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 ***
@@ -119,7 +119,7 @@ Check out our integrations built with and managed by our partners:
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Dynamic_Web.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-<a href="https://dynamicweb.nl/" target="_blank">Dynamicweb</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free app to integrate with MultiSafepay.
+<a href="https://dynamicweb.nl/" target="_blank">Dynamicweb</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free app to integrate with MultiSafepay.
 
 <details id="dynamicweb-integration">
   <summary>Integration</summary>
@@ -134,7 +134,7 @@ Check out our integrations built with and managed by our partners:
 
   <br />
 
-  For support, see Dynamicweb - <a href="https://www.dynamicweb.com/about/contact-us" target="_blank">Contact us</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  For support, see Dynamicweb - <a href="https://www.dynamicweb.com/about/contact-us" target="_blank">Contact us</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 ***
@@ -143,7 +143,7 @@ Check out our integrations built with and managed by our partners:
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/EasyWebshop.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-<a href="https://easywebshop.com/" target="_blank"> Easywebshop</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free app to integrate with MultiSafepay.
+<a href="https://easywebshop.com/" target="_blank"> Easywebshop</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free app to integrate with MultiSafepay.
 
 <details id="easywebshop-integration">
   <summary>Integration</summary>
@@ -158,14 +158,14 @@ Check out our integrations built with and managed by our partners:
 
   <br />
 
-  For other support, see Easywebshop – <a href="https://www.easywebshop.com/software/contact" target="_blank">Contact</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  For other support, see Easywebshop – <a href="https://www.easywebshop.com/software/contact" target="_blank">Contact</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 ***
 
 ## Gomage
 
-<a href="https://gomage.nl/" target="_blank">Gomage</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />  provides a plugin to integrate with MultiSafepay.
+<a href="https://gomage.nl/" target="_blank">Gomage</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />  provides a plugin to integrate with MultiSafepay.
 
 <details id="gomage-prerequisites">
   <summary>Prerequisites</summary>
@@ -180,7 +180,7 @@ Check out our integrations built with and managed by our partners:
 
   <br />
 
-  For support, see <a href="https://gomage.nl/contact/" target="_blank">Gomage</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  For support, see <a href="https://gomage.nl/contact/" target="_blank">Gomage</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 ***
@@ -189,7 +189,7 @@ Check out our integrations built with and managed by our partners:
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Logic_4.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-<a href="https://logic4.nl/" target="_blank">Logic4</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free plugin to integrate with MultiSafepay.
+<a href="https://logic4.nl/" target="_blank">Logic4</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free plugin to integrate with MultiSafepay.
 
 <details id="logic4-prerequisites">
   <summary>Prerequisites</summary>
@@ -204,7 +204,7 @@ Check out our integrations built with and managed by our partners:
 
   <br />
 
-  For any technical queries about the plugin, see Logic4 – <a href="https://www.logic4.nl/contact/" target="_blank">Contact</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  For any technical queries about the plugin, see Logic4 – <a href="https://www.logic4.nl/contact/" target="_blank">Contact</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 <details id="logic4-payment-methods">
@@ -238,7 +238,7 @@ Check out our integrations built with and managed by our partners:
 
   <br />
 
-  To install and configure the plugin, see Logic4 – <a href="https://www.logic4.nl/contact/" target="_blank">Contact</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  To install and configure the plugin, see Logic4 – <a href="https://www.logic4.nl/contact/" target="_blank">Contact</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 ***
@@ -247,7 +247,7 @@ Check out our integrations built with and managed by our partners:
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/LogiVert.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-<a href="https://www.logivert.com/" target="_blank">LogiVert</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free app to integrate with MultiSafepay.
+<a href="https://www.logivert.com/" target="_blank">LogiVert</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free app to integrate with MultiSafepay.
 
 <details id="logivert-prerequisites">
   <summary>Prerequisites</summary>
@@ -262,7 +262,7 @@ Check out our integrations built with and managed by our partners:
 
   <br />
 
-  For technical support, contact LogiVert - <a href="https://www.logivert.com/nl/support/c-10" target="_blank">Support</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  For technical support, contact LogiVert - <a href="https://www.logivert.com/nl/support/c-10" target="_blank">Support</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 <details id="logivert-payment-methods">
@@ -289,7 +289,7 @@ Check out our integrations built with and managed by our partners:
 
   <br />
 
-  To install and configure, see LogiVert – <a href="https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen" target="_blank">Manual</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  To install and configure, see LogiVert – <a href="https://confluence.prezent.nl/display/LOGIVERTMAN/Het+specificeren+van+betalingswijzen" target="_blank">Manual</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
     **💡 Tip!** We recommend first installing the plugin in a test environment, following the LogiVert installation procedure. Always make a backup.
 </details>
@@ -298,7 +298,7 @@ Check out our integrations built with and managed by our partners:
 
 ## Pronamic Pay
 
-<a href="https://www.pronamicpay.com/payment-providers/multisafepay/" target="_blank">Pronamic </a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />,provides a Premium Pronamic Pay plugin to integrate MultiSafepay with multiple WordPress plugins.
+<a href="https://www.pronamicpay.com/payment-providers/multisafepay/" target="_blank">Pronamic </a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />,provides a Premium Pronamic Pay plugin to integrate MultiSafepay with multiple WordPress plugins.
 
 <details id="pronamic-prerequisites">
   <summary>Prerequisites</summary>
@@ -313,7 +313,7 @@ Check out our integrations built with and managed by our partners:
 
   <br />
 
-  For any technical queries, see – <a href="https://www.pronamicpay.com/support/" target="_blank">Pronamic support</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  For any technical queries, see – <a href="https://www.pronamicpay.com/support/" target="_blank">Pronamic support</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 <details id="pronamic-payment-methods">
@@ -360,7 +360,7 @@ Check out our integrations built with and managed by our partners:
 
   <br />
 
-  To install and configure the plugin, see Pronamic Pay – <a href="https://www.pronamicpay.com/nl/handleidingen/hoe-je-multisafepay-aan-wordpress-koppelt-met-pronamic-pay/" target="_blank">Installation guide</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  To install and configure the plugin, see Pronamic Pay – <a href="https://www.pronamicpay.com/nl/handleidingen/hoe-je-multisafepay-aan-wordpress-koppelt-met-pronamic-pay/" target="_blank">Installation guide</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 ***
@@ -376,7 +376,7 @@ Sana Commerce (version 9.3 and higher) provides a free app to integrate with Mul
 
   <br />
 
-  See Sana Commerce – <a href="https://help.sana-commerce.com/sana-commerce-93/payment-services/multisafepay/introduction" target="_blank">MultiSafepay</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  See Sana Commerce – <a href="https://help.sana-commerce.com/sana-commerce-93/payment-services/multisafepay/introduction" target="_blank">MultiSafepay</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 <details id="sana-commerce-support">
@@ -384,7 +384,7 @@ Sana Commerce (version 9.3 and higher) provides a free app to integrate with Mul
 
   <br />
 
-  See Sana Commerce – <a href="https://www.sana-commerce.com/nl/contact" target="_blank">Contact</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  See Sana Commerce – <a href="https://www.sana-commerce.com/nl/contact" target="_blank">Contact</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 ***
@@ -393,7 +393,7 @@ Sana Commerce (version 9.3 and higher) provides a free app to integrate with Mul
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/ShopFactory.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-<a href="https://www.shopfactory.nl/index.html" target="_blank">ShopFactory</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free plugin to integrate with MultiSafepay.
+<a href="https://www.shopfactory.nl/index.html" target="_blank">ShopFactory</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free plugin to integrate with MultiSafepay.
 
 <details id="shopfactory-prerequisites">
   <summary>Prerequisites</summary>
@@ -408,7 +408,7 @@ Sana Commerce (version 9.3 and higher) provides a free app to integrate with Mul
 
   <br />
 
-  See ShopFactory – <a href="https://www.shopfactory.nl/contents/nl/d122.html" target="_blank">ShopFactory support</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  See ShopFactory – <a href="https://www.shopfactory.nl/contents/nl/d122.html" target="_blank">ShopFactory support</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 <details id="shopfactory-payment-methods">
@@ -424,7 +424,7 @@ Sana Commerce (version 9.3 and higher) provides a free app to integrate with Mul
 
   <br />
 
-  You can process refunds from your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  You can process refunds from your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
   To process refunds from your ShopFactory <Glossary>backend</Glossary>, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
 </details>
@@ -435,7 +435,7 @@ Sana Commerce (version 9.3 and higher) provides a free app to integrate with Mul
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shoptrader.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-<a href="https://www.shoptrader.nl/" target="_blank">Shoptrader</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free plugin to integrate with MultiSafepay.
+<a href="https://www.shoptrader.nl/" target="_blank">Shoptrader</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free plugin to integrate with MultiSafepay.
 
 <details id="shoptrader-prerequisites">
   <summary>Prerequisites</summary>
@@ -477,14 +477,14 @@ Sana Commerce (version 9.3 and higher) provides a free app to integrate with Mul
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/ZilverCMS.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-<a href="https://www.zilverhq.nl/" target="_blank">ZilverCMS</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free app to integrate with MultiSafepay.
+<a href="https://www.zilverhq.nl/" target="_blank">ZilverCMS</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides a free app to integrate with MultiSafepay.
 
 <details id="zilvercms-support">
   <summary>Support</summary>
 
   <br />
 
-  * See ZilverCMS - <a href="https://www.zilverhq.nl/contact" target="_blank">Contact</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+  * See ZilverCMS - <a href="https://www.zilverhq.nl/contact" target="_blank">Contact</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
   * Email [integration@multisafepay.com](mailto:integration@multisafepay.com)
 </details>
 
@@ -496,7 +496,7 @@ Sana Commerce (version 9.3 and higher) provides a free app to integrate with Mul
   * Cards: [All](/docs/card-payments/)
   * <Glossary>BNPL</Glossary>: [Betaal per Maand](/docs/betaal-per-maand/)
   * Wallets: [Alipay](/docs/alipay/), [PayPal](/docs/paypal/)
-  * Prepaid cards: <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+  * Prepaid cards: <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
   * Banking methods:
     * [Bancontact](/docs/bancontact/)
     * [Bank transfer](/docs/bank-transfer/)
@@ -518,7 +518,7 @@ Sana Commerce (version 9.3 and higher) provides a free app to integrate with Mul
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Picqer.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-<a href="https://picqer.com/nl" target="_blank">Picqer</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+<a href="https://picqer.com/nl" target="_blank">Picqer</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 ***
 
@@ -526,7 +526,7 @@ Sana Commerce (version 9.3 and higher) provides a free app to integrate with Mul
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Sherpaan.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-<a href="https://sherpaan.nl/project/multisafepay/" target="_blank">Sherpaan</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+<a href="https://sherpaan.nl/project/multisafepay/" target="_blank">Sherpaan</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 ***
 
@@ -536,7 +536,7 @@ Sana Commerce (version 9.3 and higher) provides a free app to integrate with Mul
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Planyo.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-Our partner <a href="https://www.planyo.com/" target="_blank">Planyo</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> offers online reservation software that lets customers make, confirm, and modify reservations, and pay online. You can also customize the reservation form.
+Our partner <a href="https://www.planyo.com/" target="_blank">Planyo</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> offers online reservation software that lets customers make, confirm, and modify reservations, and pay online. You can also customize the reservation form.
 
 <details id="integration">
   <summary>Integration</summary>
@@ -560,7 +560,7 @@ Our partner <a href="https://www.planyo.com/" target="_blank">Planyo</a> <i clas
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/MplusKASSA.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-Our partner <a href="https://www.mpluskassa.nl" target="_blank">MplusKASSA</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> offers order management software for restaurants, cafes, and hotels that can integrate with MultiSafepay.
+Our partner <a href="https://www.mpluskassa.nl" target="_blank">MplusKASSA</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> offers order management software for restaurants, cafes, and hotels that can integrate with MultiSafepay.
 
 For more information, email MplusKASSA at [info@mpluskassa.nl](mailto:info@mpluskassa.nl)
 
@@ -584,7 +584,7 @@ For more information, email MplusKASSA at [info@mpluskassa.nl](mailto:info@mplus
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/HostBill.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-Our partner <a href="https://hostbillapp.com/" target="_blank">HostBill</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides billing and automation software handles all aspects of running an online business, from client acquisition, invoicing, payments and management, to customer service and support.
+Our partner <a href="https://hostbillapp.com/" target="_blank">HostBill</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> provides billing and automation software handles all aspects of running an online business, from client acquisition, invoicing, payments and management, to customer service and support.
 
 <details id="integration-and-testing">
   <summary>Integration and testing</summary>
@@ -601,7 +601,7 @@ Our partner <a href="https://hostbillapp.com/" target="_blank">HostBill</a> <i c
   4. Click **Edit general settings**, and then enter your [MultiSafepay website API key](/docs/sites#site-id-api-key-and-security-code).
   5. Click **Save changes**.
 
-  **Step 2.** Configure the module as required, e.g. the <a href="https://hostbill.atlassian.net/wiki/spaces/DOCS/pages/559120402/MultiSafepay" target="_blank">module name and callback URL</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  **Step 2.** Configure the module as required, e.g. the <a href="https://hostbill.atlassian.net/wiki/spaces/DOCS/pages/559120402/MultiSafepay" target="_blank">module name and callback URL</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
   **Step 3.** Perform a test transaction.
 
@@ -620,12 +620,12 @@ Our partner <a href="https://hostbillapp.com/" target="_blank">HostBill</a> <i c
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Twikey.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-Our partner <a href="https://www.twikey.com/" target="_blank">Twikey</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> offers an online tool for managing and collecting subscriptions that includes <br /> <a href="https://www.twikey.com/solution/mandate.html" target="_blank">SEPA direct debit mandate management</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+Our partner <a href="https://www.twikey.com/" target="_blank">Twikey</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> offers an online tool for managing and collecting subscriptions that includes <br /> <a href="https://www.twikey.com/solution/mandate.html" target="_blank">SEPA direct debit mandate management</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 Customers can complete payments via:
 
 * A MultiSafepay [payment link](/docs/payment-links/) added to your invoice.\
-  See Twikey – <a href="https://www.twikey.com/nl/partner/multisafepay.html" target="_blank">Naadloze integratie MultiSafepay</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  See Twikey – <a href="https://www.twikey.com/nl/partner/multisafepay.html" target="_blank">Naadloze integratie MultiSafepay</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 * A one-off payment link or QR code sent via Twikey, e.g. by email, WhatsApp, SMS
 
 <details id="integration">
@@ -638,8 +638,8 @@ Customers can complete payments via:
   1. Sign in to your Twikey account.
   2. Go to **Settings** > **Integrations** > **MultiSafepay**.
   3. Enter your [MultiSafepay website API key](/docs/sites#site-id-api-key-and-security-code).
-  4. To add a payment link to your invoices, update your invoice settings in your <a href="https://www.beta.twikey.com/support/creditor/invoices/invoice_options.html" target="_blank">Twikey template settings</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
-  5. To create a payment link, go to <a href="https://www.beta.twikey.com/support/creditor/paymentlinks/paymentlink_management.html" target="_blank">Payment links</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> enter the relevant information, e.g. amount, customer.
+  4. To add a payment link to your invoices, update your invoice settings in your <a href="https://www.beta.twikey.com/support/creditor/invoices/invoice_options.html" target="_blank">Twikey template settings</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  5. To create a payment link, go to <a href="https://www.beta.twikey.com/support/creditor/paymentlinks/paymentlink_management.html" target="_blank">Payment links</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> enter the relevant information, e.g. amount, customer.
 </details>
 
 ***
@@ -650,7 +650,7 @@ Customers can complete payments via:
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/duda.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-<a href="https://www.duda.co/" target="_blank">Duda</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+<a href="https://www.duda.co/" target="_blank">Duda</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 ***
 
@@ -658,15 +658,15 @@ Customers can complete payments via:
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/svgs/Mijndomein.svg" width="50" align="right" style={{transform: 'translate(-50%, -50%)'}} />
 
-<a href="https://www.mijndomein.nl/" target="_blank">MijnDomein</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+<a href="https://www.mijndomein.nl/" target="_blank">MijnDomein</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 <br />
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

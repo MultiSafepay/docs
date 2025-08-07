@@ -11,9 +11,9 @@ parent:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/ideal-in3.svg" width="80" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
-<a href="https://payin3.eu/en/ideal-in3/for-merchants/" target="_blank">iDEAL in3</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a Dutch <Glossary>BNPL</Glossary> method where customers pay in 3 installments, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). iDEAL in3 guarantees <Glossary>settlement</Glossary> after receiving the first installment.
+<a href="https://payin3.eu/en/ideal-in3/for-merchants/" target="_blank">iDEAL in3</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a Dutch <Glossary>BNPL</Glossary> method where customers pay in 3 installments, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). iDEAL in3 guarantees <Glossary>settlement</Glossary> after receiving the first installment.
 
-Read how iDEAL in3 can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/in3" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read how iDEAL in3 can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/in3" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 | Supports                                                      | Details                                                                                                                                         |
 | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -52,7 +52,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 1. Email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)\
    We check your eligibility and if approved, activate the payment method for your account.
-2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 3. To activate the payment method for:
 
 * All websites, go to **Settings** > **Payment methods**.
@@ -80,7 +80,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
     </div>
   </details>
 
-* A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping\_cart in order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping\_cart in order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 * iDEAL sends an expiration notification after approximately 2 days. Once we receive the notification, the transaction expires.
 
@@ -130,7 +130,7 @@ To refund a iDEAL in3 transaction, follow these steps:
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transactions Overview** and select the relevant transaction.
   3. Click on the transaction to go to the **Transaction summary** page.
   4. Under **Order summary**, click **Edit order**.
@@ -146,8 +146,8 @@ To refund a iDEAL in3 transaction, follow these steps:
 
   <br />
 
-  See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /><br />\
-  Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> request to retrieve the order details.
+  See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /><br />\
+  Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> request to retrieve the order details.
 
   1. Under **Path Params**, enter the `order_id` of the transaction you want to refund.
   2. Under **Body Params**, select **BNPL Refund**. Add all items in the shopping cart.
@@ -227,7 +227,7 @@ When you ship the order, you can change the <Glossary>order status</Glossary> to
 
   **In your dashboard**
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, under **Order details**, click **Change order status**.
   4. Change the status to **Shipped**.
@@ -260,9 +260,9 @@ For more information, email [sales@multisafepay.com](mailto:sales@multisafepay.c
 We are currently in the pilot phase with in3 Business.\
 To activate this payment method, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
-<a href="https://payin3.eu/en/in3-business/" target="_blank">in3</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a Dutch <Glossary>BNPL</Glossary> method where customers pay in 3 installments, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 guarantees <Glossary>settlement</Glossary> after receiving the first installment.
+<a href="https://payin3.eu/en/in3-business/" target="_blank">in3</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a Dutch <Glossary>BNPL</Glossary> method where customers pay in 3 installments, at no extra cost and without having to register with the Bureau Krediet Registratie (BKR). in3 guarantees <Glossary>settlement</Glossary> after receiving the first installment.
 
-Read how in3 Business can benefit your webshop on <a href="https://www.multisafepay.com/solutions/payment-methods/in3-business" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read how in3 Business can benefit your webshop on <a href="https://www.multisafepay.com/solutions/payment-methods/in3-business" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 ## User guide
 
@@ -288,9 +288,9 @@ Ready-made integrations:
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

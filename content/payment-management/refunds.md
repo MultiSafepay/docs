@@ -28,7 +28,7 @@ You can process refunds:
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, under **Order summary**, click **Refund order**:
      * Partial refund: In the **Amount** field, enter the amount to refund.
@@ -52,7 +52,7 @@ You can refund <Glossary>BNPL</Glossary> orders via:
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, under **Order summary**, click **Refund order** > **Refund whole order**.
   4. Add any relevant comments in the **Description** field.
@@ -67,7 +67,7 @@ You can refund <Glossary>BNPL</Glossary> orders via:
 
   To refund part of the amount:
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, under **Order details**, click **Edit order**.
      * In the **Quantity** field, enter the number of units to refund.
@@ -124,7 +124,7 @@ You can process refunds in batches using our PHP refund script.
 
   Make sure you have a PHP interpreter installed.
 
-  For instructions and to download, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/refund-script" target="_blank">Refund script</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  For instructions and to download, see MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/refund-script" target="_blank">Refund script</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
   Provide your [website API key](/docs/sites#site-id-api-key-and-security-code) and a .csv file specifying the order ID, amount, and a description of all the transactions in the batch.
 </details>
@@ -168,7 +168,7 @@ If a customer wants a receipt for a refund, you can download a PDF version from 
 
   To download a refund receipt:
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**.
   3. In the **Keyword** search box, enter "refund", and then click **Search** (or press **Enter**).
   4. Click the relevant transaction.
@@ -185,7 +185,7 @@ For how to add your header or logo to the receipt, see [Logos and icons](/docs/s
 
   <br />
 
-  You can process full refunds in your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay test dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  You can process full refunds in your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay test dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
   Partial refunds are not enabled by default. To enable this, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
 
@@ -259,9 +259,9 @@ There is a limit on how long after payment was completed that you can refund via
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

@@ -56,9 +56,9 @@ If your business mostly relies on cross-border and B2B sales, Interchange++ pric
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:sales@multisafepay.com">sales@multisafepay.com</a></p>

@@ -125,7 +125,7 @@ If you notice any troubles during the integration of direct buttons for Apple Pa
 - When validating your domain, double check to have associated the **correct URL**. 
 - Distinguish correctly between **TEST** and **LIVE** environments, and the respective domain validation files. 
 - Place the correct validation file, and do NOT copy-paste. 
-- Check if you whitelisted  <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/setting_up_your_server" target="_blank">Apple Pay's domain & IP addresses</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+- Check if you whitelisted  <a href="https://developer.apple.com/documentation/apple_pay_on_the_web/setting_up_your_server" target="_blank">Apple Pay's domain & IP addresses</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>.
 - When using a protected environment during testing, ensure you have **whitelisted **our IP ranges. You can mention this need to our support team via [info@multisafepay.com](mailto:info@multisafepay.com) who will send the information to you. 
 - Check if the issue occurs via the** redirect solution** as well. This result is valuable information when contacting [info@multisafepay.com](mailto:info@multisafepay.com).
 
@@ -146,7 +146,7 @@ When creating a ticket to [integration@multisafepay.com](mailto:integration@mult
 - Send any examples (transactions, order IDs) and if possible, screenshots.
 - When did the issue start occurring?
 - Have you done any changes from your side shortly before the issue occurred for the first time?
-- We conduct our investigations in a staging or test environment of your ecommerce platform. Create a temporary username and a <a href="https://www.lastpass.com/nl/features/password-generator" target="_blank">strong password</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> to give us access. Always delete the temporary account after we finish the investigation.
+- We conduct our investigations in a staging or test environment of your ecommerce platform. Create a temporary username and a <a href="https://www.lastpass.com/nl/features/password-generator" target="_blank">strong password</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i> to give us access. Always delete the temporary account after we finish the investigation.
 
 
 

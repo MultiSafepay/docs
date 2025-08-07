@@ -5,7 +5,7 @@ import os
 PATH = str.split(os.environ.get("DOCS_PATHS"))
 
 regex = re.compile(r'\[([^\[\]]*)\]\((https?:\/\/[\w\d./?=#&\+%-]+)\)')
-replacement = r'<a href="\2" target="_blank">\1</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>'
+replacement = r'<a href="\2" target="_blank">\1</a> <i class="fa fa-external-link" style={{ fontSize:'12px, color:'#8b929e' }}></i>'
 
 
 def main():

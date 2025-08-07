@@ -13,9 +13,9 @@ When a customer requests a chargeback, an alert appears on your dashboard homepa
 
 To see your chargebacks:
 
-1. Go to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+1. Go to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 2. Go to **Transactions** and click **Chargebacks**.
-3. Here, you will find all new, pending or disputed chargebacks. To learn more about the different statuses, see <a href="https://docs.multisafepay.com/docs/chargebacks#chargeback-statuses" target="_blank">Chargeback statuses</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+3. Here, you will find all new, pending or disputed chargebacks. To learn more about the different statuses, see <a href="https://docs.multisafepay.com/docs/chargebacks#chargeback-statuses" target="_blank">Chargeback statuses</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 # Credit and debit card chargebacks
 
@@ -61,7 +61,7 @@ When an American Express cardholder disputes a transaction, the chargeback proce
 
 If you want to accept liability for a chargeback, you can do so from your dashboard. To accept a chargeback:
 
-1. Go to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+1. Go to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 2. Click **Transactions** and go to **Chargebacks**. Select the relevant chargeback.
 3. In the **Transaction summary**, under **Chargeback dispute**, click **Accept chargeback**.
 4. A message will appear asking for confirmation. Click **Ok**.
@@ -91,7 +91,7 @@ You can upload your documents:
 
   <br />
 
-  1. Go to your MultiSafepay <a href="https://merchant.multisafepay.com/" target="_blank">dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Go to your MultiSafepay <a href="https://merchant.multisafepay.com/" target="_blank">dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Click **Transactions** and go to **Chargebacks**. Select the relevant chargeback.
   3. In the **Transaction summary**, under **Chargeback dispute**, click **Open dispute**.
   4. Click **Choose Files** and upload the corresponding documentation in PDF format.
@@ -788,7 +788,7 @@ Include your logo in customers' online bank environments and applications to:
 * Enhance brand visibility, recognition, and trust.
 * Reduce chargebacks, disputes, and friendly fraud – when customers mistakenly initiate chargebacks because they do not recognize or trust a transaction.
 
-<a href="https://logo.ethoca.com/" target="_blank">Upload your logo</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the card scheme to display in all participating banking environments and applications.
+<a href="https://logo.ethoca.com/" target="_blank">Upload your logo</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for the card scheme to display in all participating banking environments and applications.
 
 Additionally:
 
@@ -804,17 +804,17 @@ Additionally:
 
 If an Amazon customer requests a chargeback from their bank or card issuer for an Amazon Pay payment, Amazon Pay notifies you by email. If you do not respond within 11 calendar days, then Amazon Pay automatically debits the chargeback amount from your Amazon Payments merchant account.
 
-For more information, see Amazon Pay - <a href="https://pay.amazon.eu/help/201749650" target="_blank">Handling chargebacks</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For more information, see Amazon Pay - <a href="https://pay.amazon.eu/help/201749650" target="_blank">Handling chargebacks</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ## Direct debit
 
-For more information about Direct debit chargebacks, see Chargebacks - <a href="https://docs.multisafepay.com/docs/sepa-direct-debit#chargebacks" target="_blank">SEPA Direct Debit</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For more information about Direct debit chargebacks, see Chargebacks - <a href="https://docs.multisafepay.com/docs/sepa-direct-debit#chargebacks" target="_blank">SEPA Direct Debit</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

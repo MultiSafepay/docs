@@ -13,7 +13,7 @@ content:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento.svg" width="50" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
-<a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.7.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
+<a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.7.0.zip" target="_self"><span>Download</span><i className="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
 
 > ⚠️ Action required
 >
@@ -1065,23 +1065,23 @@ Supported since release: 3.1.0, June 15th 2021.
   * Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
   * Prepaid cards:
     * Beauty and Wellness gift card
-    * <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.fashioncheque.com/nl" target="_blank">Fashioncheque</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.fashioncheque.com/nl" target="_blank">Fashioncheque</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
     * Fietsenbon
-    * <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.good4fun.nl" target="_blank">Good4fun</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.nationale-tuinbon.nl" target="_blank">Nationale tuinbon</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.good4fun.nl" target="_blank">Good4fun</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.nationale-tuinbon.nl" target="_blank">Nationale tuinbon</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
     * [Paysafecard](/docs/paysafecard/)
-    * <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
     * Wijncadeau
-    * <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.yourgift.nl" target="_blank">Yourgift</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.yourgift.nl" target="_blank">Yourgift</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 </details>
 
 ## Picquer
@@ -1159,7 +1159,7 @@ Supported since release: 3.1.0, June 15th 2021.
         </td>
 
         <td>
-          Full refunds and <a href="https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html" target="_blank">credit memos</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> <br /> You can't refund more than the original amount
+          Full refunds and <a href="https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html" target="_blank">credit memos</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> <br /> You can't refund more than the original amount
         </td>
       </tr>
 
@@ -1239,7 +1239,7 @@ You can update the plugin in your Magento 1 backend or the CMS marketplace, or v
 
 Magento 1 is end-of-life. If you are still running Magento 1, action is required. MultiSafepay has partnered with Mage One to continue supporting Magento 1.
 
-For more information and instructions, see MultiSafepay blog – <a href="https://bit.ly/2YX2LGL" target="_blank">Magento 1: The final weeks</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.\ <br />
+For more information and instructions, see MultiSafepay blog – <a href="https://bit.ly/2YX2LGL" target="_blank">Magento 1: The final weeks</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.\ <br />
 
 ***
 

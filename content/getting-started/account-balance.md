@@ -16,7 +16,7 @@ content:
 
 To add funds to your balance, follow these steps:
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 2. Go to **Finances** > **Top up balance**.
 3. Under **Step 1**:
    * Select the **Currency**.
@@ -35,7 +35,7 @@ You can check the state of your transfer under **Transactions** > **Transaction 
 
 # Daily balance
 
-To view your daily balance in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />, go to **Reports** > **Daily balance**.
+To view your daily balance in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />, go to **Reports** > **Daily balance**.
 
 There you can see your:
 
@@ -55,9 +55,9 @@ To activate this feature in your daily balance report, email a request to [sales
 ***
 
 <HTMLBlock>{`
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

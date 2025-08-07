@@ -49,24 +49,24 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
     * [Direct debit](/docs/direct-debit/)
     * [Sofort](/docs/sofort/)
   * Prepaid cards:
-    * <a href="https://www.babycadeaubon.nl" target="_blank">Baby Cadeaubon</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.babycadeaubon.nl" target="_blank">Baby Cadeaubon</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
     * Beauty & Wellness
-    * <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.fashioncheque.com/nl" target="_blank">Fashion Cheque</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.fashioncheque.com/nl" target="_blank">Fashion Cheque</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
     * Fietsenbon
-    * <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.good4fun.nl" target="_blank">Good4fun</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.nationale-tuinbon.nl" target="_blank">Nationale tuinbon</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.good4fun.nl" target="_blank">Good4fun</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.nationale-tuinbon.nl" target="_blank">Nationale tuinbon</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
     * Wijncadeau
-    * <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-    * <a href="https://www.yourgift.nl" target="_blank">Yourgift</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+    * <a href="https://www.yourgift.nl" target="_blank">Yourgift</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 </details>
 
 <details id="how-to-change-payment-method-order-in-checkout">
@@ -76,7 +76,7 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
   To change the order of payment methods in your checkout, follow these steps:
 
-  1. Go to Mijnwebwinkel - <a href="https://www.mijnwebwinkel.nl/beheer/payment/sorting" target="_blank">Sorting</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Go to Mijnwebwinkel - <a href="https://www.mijnwebwinkel.nl/beheer/payment/sorting" target="_blank">Sorting</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Select **Sort manually, defined below**.
   3. Drag and drop the active payment methods to change the order.
 </details>
@@ -91,9 +91,9 @@ You will need a [MultiSafepay account](/docs/getting-started-guide/).
 
 ***
 
-<blockquote class="callout callout_info">
-<h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+<h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
    <ul>

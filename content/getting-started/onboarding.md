@@ -12,13 +12,13 @@ Onboarding involves MultiSafepay checking and approving information submitted by
 
 # 1. Submit signup form
 
-Complete and submit the <a href="https://merchant.multisafepay.com/signup" target="_blank">live account signup form</a> <i class="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />.
+Complete and submit the <a href="https://merchant.multisafepay.com/signup" target="_blank">live account signup form</a> <i className="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />.
 
-MultiSafepay creates a live account and email you a security code to sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">live dashboard</a> <i class="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />.
+MultiSafepay creates a live account and email you a security code to sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">live dashboard</a> <i className="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />.
 
 # 2. Provide company information
 
-Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">live dashboard</a> <i class="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} /> and, under <a href="https://merchant.multisafepay.com/onboarding" target="_blank">Business details</a> <i class="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />, provide the following information:
+Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">live dashboard</a> <i className="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} /> and, under <a href="https://merchant.multisafepay.com/onboarding" target="_blank">Business details</a> <i className="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />, provide the following information:
 
 | Information                      | Details                                                                                                                                                                                                                                                                                               |
 | -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -92,12 +92,12 @@ Download and complete a Statement of Ultimate Beneficial Owner Form for every UB
 
   <br />
 
-  * <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_NL_V2.0.pdf" target="_blank">Dutch UBO form</a> <i class="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />
-  * <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_EN_V2.0.pdf" target="_blank">English UBO form</a> <i class="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />
-  * <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_FR.pdf" target="_blank">French UBO form</a> <i class="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />
-  * <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_DE.pdf" target="_blank">German UBO form</a> <i class="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />
-  * <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_IT_V2.0.pdf" target="_blank">Italian UBO form</a> <i class="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />
-  * <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_ES.pdf" target="_blank">Spanish UBO form</a> <i class="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />
+  * <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_NL_V2.0.pdf" target="_blank">Dutch UBO form</a> <i className="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />
+  * <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_EN_V2.0.pdf" target="_blank">English UBO form</a> <i className="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />
+  * <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_FR.pdf" target="_blank">French UBO form</a> <i className="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />
+  * <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_DE.pdf" target="_blank">German UBO form</a> <i className="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />
+  * <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_IT_V2.0.pdf" target="_blank">Italian UBO form</a> <i className="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />
+  * <a href="https://github.com/MultiSafepay/docs/raw/master/static/forms/UBOform_ES.pdf" target="_blank">Spanish UBO form</a> <i className="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />
 </details>
 
 <details id="how-to-submit-forms">
@@ -105,7 +105,7 @@ Download and complete a Statement of Ultimate Beneficial Owner Form for every UB
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:"12px", color: "#8b929e"}} />.
   2. Go to **Settings** > **Files**.
   3. Under **Upload a new file**, click **Choose file**.
   4. Select the UBO form, and then click **Open**.
@@ -182,9 +182,9 @@ If approved, your account goes live and you can [make payouts](/docs/payouts/).
 ***
 
 <HTMLBlock>{`
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

@@ -11,9 +11,9 @@ parent:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/klarna.svg" width="150" align="right" style={{margin: '20px 20px 20px 40px', maxHeight: '75px'}} />
 
-<a href="https://www.klarna.com/" target="_blank">Klarna</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a flexible online payment method that lets customers pay now, in 30 days (Pay Later 30), or in 3 interest-free installments. It also offers financing. Klarna bears the risk and guarantees <Glossary>settlement</Glossary>.
+<a href="https://www.klarna.com/" target="_blank">Klarna</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a flexible online payment method that lets customers pay now, in 30 days (Pay Later 30), or in 3 interest-free installments. It also offers financing. Klarna bears the risk and guarantees <Glossary>settlement</Glossary>.
 
-Read how Klarna can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/klarna" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read how Klarna can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/klarna" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 | Supports                                                      | Details                                                                                                      |
 | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -55,14 +55,14 @@ How to activate Klarna for your MultiSafepay account:
 
   <br />
 
-  1. Go to <a href="https://docs.klarna.com/resources/developer-tools/testing-payments/before-you-test/#accessing-the-test-merchant-portal" target="_blank">Klarna</a><i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> and click **Log in**.
+  1. Go to <a href="https://docs.klarna.com/resources/developer-tools/testing-payments/before-you-test/#accessing-the-test-merchant-portal" target="_blank">Klarna</a><i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> and click **Log in**.
   2. Click **Select environment** > **Playground** to create a test account. Click **Sign Up**.
   3. Follow the intructions to complete the registration process.
   4. In the Klarna main panel, go to **Settings** and click **Generate new Klarna API credentials** to generate a test username and password.
   5. Email these credentials to [support@multisafepay.com](mailto:support@multisafepay.com)
   6. We will activate your Klarna test account for your MultiSafepay test account.
 
-  You can test Klarna payments via the Klarna Portal on your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  You can test Klarna payments via the Klarna Portal on your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 <details id="live-account">
@@ -78,7 +78,7 @@ How to activate Klarna for your MultiSafepay account:
   4. We will activate Klarna for your MultiSafepay account.
   5. If you are using a ready-made integration, activate Klarna in your <Glossary>backend</Glossary>.
 
-  For questions, see Klarna – <a href="https://www.klarna.com/nl/klantenservice" target="_blank">Klantenservice</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  For questions, see Klarna – <a href="https://www.klarna.com/nl/klantenservice" target="_blank">Klantenservice</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 # Integration
@@ -99,7 +99,7 @@ How to activate Klarna for your MultiSafepay account:
     </div>
   </details>
 
-* A `shopping_cart` object is required for all BNPL orders. See Recipes –  <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping\_cart in order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* A `shopping_cart` object is required for all BNPL orders. See Recipes –  <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping\_cart in order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 * Transactions expire after 1 day.
 
@@ -146,7 +146,7 @@ Different billing and shipping addresses are supported.
   * Instagram URL
   * Facebook URL
 
-  For support, see Klarna – <a href="https://www.klarna.com/nl/klantenservice/" target="_blank">Klantenservice</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  For support, see Klarna – <a href="https://www.klarna.com/nl/klantenservice/" target="_blank">Klantenservice</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 ## Collection period
@@ -191,7 +191,7 @@ A dispute is when you and a customer disagree about an order:
 * Other, e.g. insolvency, or bankruptcy
 
 Klarna provides support for resolving disputes.\
-For a step-by-step overview, see Klarna – <a href="https://docs.klarna.com/disputes/" target="_blank">How to handle disputes at Klarna</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For a step-by-step overview, see Klarna – <a href="https://docs.klarna.com/disputes/" target="_blank">How to handle disputes at Klarna</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 The easiest way to handle disputes is using the Disputes app in the Klarna Merchant Portal.
 
@@ -233,7 +233,7 @@ The easiest way to handle disputes is using the Disputes app in the Klarna Merch
 
   To sign up to use the Disputes app, follow these steps:
 
-  1. Sign in to the <a href="https://eu.portal.klarna.com/" target="_blank">Klarna Merchant Portal</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to the <a href="https://eu.portal.klarna.com/" target="_blank">Klarna Merchant Portal</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. In the side menu, click **Disputes**.
   3. Select an email address and preferred language for receiving dispute-related emails, e.g. reminders.
   4. Agree to the terms and conditions.
@@ -249,7 +249,7 @@ The easiest way to handle disputes is using the Disputes app in the Klarna Merch
   * Unauthorized disputes
   * Disputes expiring soon
 
-  See Klarna – <a href="https://docs.klarna.com/disputes/disputes-app-in-merchant-portal/" target="_blank">Disputes App in Merchant Portal</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for detailed information on:
+  See Klarna – <a href="https://docs.klarna.com/disputes/disputes-app-in-merchant-portal/" target="_blank">Disputes App in Merchant Portal</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> for detailed information on:
 
   * Searching and filtering disputes
   * Exporting reports
@@ -297,7 +297,7 @@ To refund a Klarna transaction, follow these steps:
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transactions Overview** and select the relevant transaction.
   3. Click on the transaction to go to the **Transaction summary** page.
   4. Under **Order summary**, click **Edit order**.
@@ -313,8 +313,8 @@ To refund a Klarna transaction, follow these steps:
 
   <br />
 
-  See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /><br />\
-  Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> request to retrieve the order details.
+  See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /><br />\
+  Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> request to retrieve the order details.
 
   1. Under **Path Params**, enter the `order_id` of the transaction you want to refund.
   2. Under **Body Params**, select **BNPL Refund**. Add all items in the shopping cart.
@@ -394,7 +394,7 @@ When you ship the order, you **must** manually change the [order status](/docs/p
 
   **In your dashboard**
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, under **Order details**, click **Change order status**.
   4. Change the status to **Shipped**.
@@ -423,7 +423,7 @@ If the order is not captured during this time, the <Glossary>order status</Gloss
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, under **Order summary**, click **Extend**.
 </details>
@@ -434,13 +434,13 @@ Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcha
 
 We therefore strongly recommend **not** applying surcharges.
 
-For more information, see Klarna – <a href="https://www.klarna.com/nl/zakelijk/webwinkelsupport/welk-bedrag-kan-ik-maximaal-doorberekenen-aan-mijn-klant/" target="_blank">Welk bedrag kan ik maximaal doorberekenen aan mijn klant?</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />\ <br />
+For more information, see Klarna – <a href="https://www.klarna.com/nl/zakelijk/webwinkelsupport/welk-bedrag-kan-ik-maximaal-doorberekenen-aan-mijn-klant/" target="_blank">Welk bedrag kan ik maximaal doorberekenen aan mijn klant?</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />\ <br />
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

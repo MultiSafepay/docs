@@ -15,16 +15,16 @@ content:
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/PrestaShop_new.svg" width="50" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
 <div style={{display: 'flex', flexWrap: 'wrap'}}>
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/prestashop-official/releases/download/6.0.1/Plugin_PrestaShop_6.0.1.zip" target="_self"><span>Download</span><i class="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/prestashop-official/releases/download/6.0.1/Plugin_PrestaShop_6.0.1.zip" target="_self"><span>Download</span><i className="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
 
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/prestashop-official" target="_blank"><i class="icon-external-link" /> <span>Source code</span></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/prestashop-official" target="_blank"><i className="icon-external-link" /> <span>Source code</span></a>
 
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/prestashop-official/blob/main/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/prestashop-official/blob/main/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
 </div>
 
 > ⚠️ Action required
 >
-> If you are still using the <a href="https://github.com/MultiSafepay/prestashop" target="_blank">deprecated plugin</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, we recommend [upgrading to the latest version](#upgrades) as soon as possible.
+> If you are still using the <a href="https://github.com/MultiSafepay/prestashop" target="_blank">deprecated plugin</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, we recommend [upgrading to the latest version](#upgrades) as soon as possible.
 
 # Prerequisites
 
@@ -79,8 +79,8 @@ The plugin supports the PrestaShop core checkout and is compatible with most pre
 
   The following third-party modules are supported:
 
-  * <a href="https://addons.prestashop.com/en/express-checkout-process/8503-one-page-checkout-ps-easy-fast-intuitive.html" target="_blank">One-Page Checkout PS</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-  * <a href="https://addons.prestashop.com/en/express-checkout-process/42005-the-checkout.html" target="_blank">The Checkout</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> – Payment options must be set on separate pages in the plugin settings page.
+  * <a href="https://addons.prestashop.com/en/express-checkout-process/8503-one-page-checkout-ps-easy-fast-intuitive.html" target="_blank">One-Page Checkout PS</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+  * <a href="https://addons.prestashop.com/en/express-checkout-process/42005-the-checkout.html" target="_blank">The Checkout</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> – Payment options must be set on separate pages in the plugin settings page.
 
   The Integration Team will do their best to provide support for third-party plugins and premium themes. Email [integration@multisafepay.com](mailto:integration@multisafepay.com)
 </details>
@@ -188,7 +188,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
   1. Sign in to your PrestaShop back office.
   2. Go to **Orders** > **Orders**.
   3. Click on **Add new order** in the top right corner.
-  4. To add new order, follow all steps in PrestaShop 8 core reference page - see <a href="https://devdocs.prestashop-project.org/8/development/page-reference/back-office/order/add-new-order/" target="_blank"> PrestaShop back office page</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> <br />
+  4. To add new order, follow all steps in PrestaShop 8 core reference page - see <a href="https://devdocs.prestashop-project.org/8/development/page-reference/back-office/order/add-new-order/" target="_blank"> PrestaShop back office page</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> <br />
 
   > **⚠️ Note:** To successfully generate payment links from the back office, ensure that you have followed the steps below:\
   > Under **Summary** section:
@@ -238,7 +238,7 @@ The plugin supports [recurring payments](/docs/recurring-payments).
   4. For **actionOrderSlipAdd**, select the three dots, and then click **Unhook**.
 </details>
 
-For more information, see PrestaShop – <a href="https://docs.prestashop-project.org/v.8-documentation/user-guide/selling/managing-orders/order-page-management/creating-returns-and-refunds" target="_blank">Creating returns and refunds</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For more information, see PrestaShop – <a href="https://docs.prestashop-project.org/v.8-documentation/user-guide/selling/managing-orders/order-page-management/creating-returns-and-refunds" target="_blank">Creating returns and refunds</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ## Shipping orders
 
@@ -272,7 +272,7 @@ As a temporary solution, you can disable sending the shopping cart with the paym
 
   <br />
 
-  There are several <a href="https://addons.prestashop.com/en/search?search_query=surcharge" target="_blank">third-party add-ons</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> available. However, we can't guarantee compatibility with our plugin. Make sure that you test them carefully before installing.
+  There are several <a href="https://addons.prestashop.com/en/search?search_query=surcharge" target="_blank">third-party add-ons</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> available. However, we can't guarantee compatibility with our plugin. Make sure that you test them carefully before installing.
 
   > ⚠️ **Attention Dutch merchants**
   >
@@ -335,9 +335,9 @@ As a temporary solution, you can disable sending the shopping cart with the paym
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

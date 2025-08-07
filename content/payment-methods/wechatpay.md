@@ -11,9 +11,9 @@ parent:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/wechatpay.svg" width="110" align="right" style={{ margin: "20px", maxHeight: "75px" }} />
 
-<a href="https://pay.weixin.qq.com/index.php/public/wechatpay" target="_blank">WeChat Pay</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> is a leading global payment method that lets Chinese customers link their card or bank account to a digital wallet. It supports online and QR payments for **B2C only** (B2B is **not** supported).
+<a href="https://pay.weixin.qq.com/index.php/public/wechatpay" target="_blank">WeChat Pay</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> is a leading global payment method that lets Chinese customers link their card or bank account to a digital wallet. It supports online and QR payments for **B2C only** (B2B is **not** supported).
 
-Read how WeChat Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/wechat-pay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+Read how WeChat Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/wechat-pay" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
 
 | Supports                                                      | Details                                                                                                     |
 | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -46,7 +46,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 1. Email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)
 2. We check your eligibility and if approved, activate the payment method for your account.
-3. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+3. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 4. To activate the payment method for:
 
 * All websites, go to **Settings** > **Payment methods**.
@@ -92,9 +92,9 @@ To test WeChat Pay payments, see Testing payment methods - [Wallets](/docs/testi
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

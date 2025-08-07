@@ -15,11 +15,11 @@ content:
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Shopware_5.svg" width="50" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
 <div style={{display: 'flex', flexWrap: 'wrap'}}>
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html" target="_self"><span>Download</span><i class="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://store.shopware.com/en/mltis39871819230f/multisafepay-online-payments-free-plugin-with-20-payment-methods.html" target="_self"><span>Download</span><i className="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
 
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/Shopware" target="_blank"><i class="icon-external-link" /> <span>Source code</span></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/Shopware" target="_blank"><i className="icon-external-link" /> <span>Source code</span></a>
 
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/Shopware/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/Shopware/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
 </div>
 
 ## Prerequisites
@@ -55,7 +55,7 @@ Please follow the first four steps described in the installation and configurati
 
 To create backend orders in the MultiSafepay Shopware 5 plugin, Shopware uses a third-party plugin.
 
-See shopwareLabs GitHub – <a href="https://github.com/shopwareLabs/SwagBackendOrder" target="_blank">SwagBackendOrder</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+See shopwareLabs GitHub – <a href="https://github.com/shopwareLabs/SwagBackendOrder" target="_blank">SwagBackendOrder</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 We support V2.x versions.
 
@@ -115,7 +115,7 @@ You cannot refund more than the original amount in your backend.
 ### Session data
 
 Shopware 5 can remove sessions before the order is created in the backend.\
-To prevent this, we recommend making the following changes to the <a href="https://developers.shopware.com/developers-guide/shopware-config/" target="_blank">config.php</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+To prevent this, we recommend making the following changes to the <a href="https://developers.shopware.com/developers-guide/shopware-config/" target="_blank">config.php</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ```
 'session' => [
@@ -125,7 +125,7 @@ To prevent this, we recommend making the following changes to the <a href="https
 ],
 ```
 
-For more information, see Shopware – <a href="https://developers.shopware.com/sysadmins-guide/sessions/#blocking-transactions" target="_blank">Blocking transactions</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+For more information, see Shopware – <a href="https://developers.shopware.com/sysadmins-guide/sessions/#blocking-transactions" target="_blank">Blocking transactions</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ### Shipping orders
 
@@ -184,7 +184,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
   **Migrating to Shopware 6**
 
-  For instructions, see the <a href="https://docs.shopware.com/en/migration-en" target="_blank">Shopware migration manual</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  For instructions, see the <a href="https://docs.shopware.com/en/migration-en" target="_blank">Shopware migration manual</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
   For questions, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
 </details>
@@ -193,9 +193,9 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
 ***
 
-<blockquote class="callout callout_info">
-<h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+<h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
   <p>Contact MultiSafepay:</p>

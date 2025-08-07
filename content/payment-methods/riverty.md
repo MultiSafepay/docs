@@ -11,9 +11,9 @@ parent:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/afterpay-riverty-transition-logo.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
-<a href="https://www.riverty.com/nl-nl/" target="_blank">Riverty</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> (formerly AfterPay) is a widely used <Glossary>BNPL</Glossary> method in the Netherlands and Belgium. Riverty bears the risk and guarantees <Glossary>settlement</Glossary>.
+<a href="https://www.riverty.com/nl-nl/" target="_blank">Riverty</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> (formerly AfterPay) is a widely used <Glossary>BNPL</Glossary> method in the Netherlands and Belgium. Riverty bears the risk and guarantees <Glossary>settlement</Glossary>.
 
-Read how Riverty can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/riverty" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read how Riverty can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/riverty" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 | Supports                                                      | Details                                                                     |
 | ------------------------------------------------------------- | --------------------------------------------------------------------------- |
@@ -72,7 +72,7 @@ Riverty provides you with an API key per country and per website, and you must a
     </div>
   </details>
 
-* A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping\_cart in order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping\_cart in order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 * The `gateway_info` object is required for Riverty.
 
@@ -140,7 +140,7 @@ To refund a Riverty transaction, follow these steps:
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transactions Overview** and select the relevant transaction.
   3. Click on the transaction to go to the **Transaction summary** page.
   4. Under **Order summary**, click **Edit order**.
@@ -156,8 +156,8 @@ To refund a Riverty transaction, follow these steps:
 
   <br />
 
-  See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /><br />\
-  Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> request to retrieve the order details.
+  See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /><br />\
+  Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> request to retrieve the order details.
 
   1. Under **Path Params**, enter the `order_id` of the transaction you want to refund.
   2. Under **Body Params**, select **BNPL Refund**. Add all items in the shopping cart.
@@ -235,7 +235,7 @@ When you ship the order, you **must** manually change the <Glossary>order status
 
   **In your dashboard**
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, under **Order details**, click **Change order status**.
   4. Change the status to **Shipped**.
@@ -264,7 +264,7 @@ Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcha
 
 Riverty therefore strongly recommends discontinuing any surcharges.
 
-For more information, see Riverty – <a href="https://www.afterpay.nl/nl/consumenten/vraag-en-antwoord/" target="_blank">Merchant support</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.\ <br />
+For more information, see Riverty – <a href="https://www.afterpay.nl/nl/consumenten/vraag-en-antwoord/" target="_blank">Merchant support</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.\ <br />
 
 ## VAT compliance
 
@@ -275,9 +275,9 @@ When processing orders with Riverty, you are responsible for ensuring tax compli
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

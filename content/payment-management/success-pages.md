@@ -38,15 +38,15 @@ You can dynamically style the MultiSafepay success page in the create order requ
 See:
 
 * API reference – [Create order](/reference/createorder/) > Payment page/link > `payment_options` object
-* Recipes – <a href="https://docs.multisafepay.com/recipes/style-the-payment-page" target="_blank">Style the payment page</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+* Recipes – <a href="https://docs.multisafepay.com/recipes/style-the-payment-page" target="_blank">Style the payment page</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
 
 <br />
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>

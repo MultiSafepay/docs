@@ -17,9 +17,9 @@ parent:
 
 <img src="https://media.multisafepay.com/img/methods/svg/mbway.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
-<a href="https://www.mbway.pt/" target="_blank">MB WAY</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a popular payment method in Portugal that lets customers make payments, send or request money, and manage funds using their mobile application.
+<a href="https://www.mbway.pt/" target="_blank">MB WAY</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is a popular payment method in Portugal that lets customers make payments, send or request money, and manage funds using their mobile application.
 
-{/*Read how Multibanco can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/mbway" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>*/}
+{/*Read how Multibanco can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/mbway" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>*/}
 
 | Supports                                                      | Details                                             |
 | ------------------------------------------------------------- | --------------------------------------------------- |
@@ -54,7 +54,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 # Activation
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 2. To activate the payment method for:
 
 * All websites, go to **Settings** > **Payment methods**.
@@ -81,7 +81,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
   </div>
 </details>
 
-* A `phone` number is required in the `customer` object, and must be in a 9-digit number format excluding +351 <a href="https://en.wikipedia.org/wiki/List_of_country_calling_codes#Overview" target="_blank">Portugal calling code</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* A `phone` number is required in the `customer` object, and must be in a 9-digit number format excluding +351 <a href="https://en.wikipedia.org/wiki/List_of_country_calling_codes#Overview" target="_blank">Portugal calling code</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 * For <Glossary>direct</Glossary> orders, you must provide the customer with [payment instructions](#payment-instructions) to proceed with the payment.
 * Transactions expire after 4 minutes.
 
@@ -119,7 +119,7 @@ The customer must provide you with their IBAN to process refunds via bank transf
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, click **Refund order**.
   4. In the **Account Holder Name** field, enter the customer's full name.
@@ -131,9 +131,9 @@ The customer must provide you with their IBAN to process refunds via bank transf
   10. Review the **Refund confirmation**, and then click **Confirm**.
 </details>
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

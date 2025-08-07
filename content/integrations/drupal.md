@@ -101,7 +101,7 @@ composer require drupal/commerce_multisafepay_payments
 2. Go to **Commerce** > **Configuration** > **Payments** > **MultiSafepay settings**.
 3. Enter your [account ID, website ID, and website API key](/docs/sites#site-id-api-key-and-security-code).
 4. Go to **Commerce** > **Configuration** > **Payments** > **Payment gateways**.
-5. Configure the options for all supported payment methods activated in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.\ <br />
+5. Configure the options for all supported payment methods activated in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.\ <br />
 
 ***
 
@@ -136,22 +136,22 @@ Supported since release: 3.0.0, March 19th 2021.
   * Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
   * Prepaid cards:
     * Beauty and Wellness gift card
-    * <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.fashioncheque.com/nl" target="_blank">Fashioncheque</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.fashioncheque.com/nl" target="_blank">Fashioncheque</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
     * Fietsenbon
-    * <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.nationale-tuinbon.nl" target="_blank">Nationale tuinbon</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.nationale-tuinbon.nl" target="_blank">Nationale tuinbon</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
     * [Paysafecard](/docs/paysafecard/)
-    * <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.podiumcadeaukaart.nl" target="_blank">Podium</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.sportenfitcadeau.nl" target="_blank">Sport en Fit</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.vvvcadeaukaarten.nl" target="_blank">VVV gift card</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.webshopgiftcard.nl" target="_blank">Webshop gift card</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.wellnessgiftcard.nl" target="_blank">Wellness gift card</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
     * Wijncadeau
-    * <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.yourgift.nl" target="_blank">Yourgift</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.winkelcheque.nl" target="_blank">Winkelcheque</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.yourgift.nl" target="_blank">Yourgift</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
 </details>
 
 ### Refunds
@@ -178,7 +178,7 @@ You can update the plugin in your backend or the CMS marketplace, or via SFTP.
 
 **⚠️ Note:** Drupal no longer provides support for Drupal 8.9.x.
 
-For how to upgrade Drupal 8 to Drupal 9, see Drupal - <a href="https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher" target="_blank">Upgrading from Drupal 8 to Drupal 9 or higher</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.\ <br />
+For how to upgrade Drupal 8 to Drupal 9, see Drupal - <a href="https://www.drupal.org/docs/upgrading-drupal/upgrading-from-drupal-8-to-drupal-9-or-higher" target="_blank">Upgrading from Drupal 8 to Drupal 9 or higher</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />.\ <br />
 
 [Top of page](#)
 
@@ -293,14 +293,14 @@ For how to upgrade Drupal 8 to Drupal 9, see Drupal - <a href="https://www.drupa
   * <Glossary>BNPL</Glossary>: [E-Invoicing](/docs/e-invoicing/), [Klarna](/docs/klarna/), [Pay After Delivery](/docs/pay-after-delivery/)
   * Wallets: [Alipay](/docs/alipay/), [Apple Pay](/docs/apple-pay/), [PayPal](/docs/paypal/)
   * Prepaid cards:
-    * <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.fashioncheque.com/nl" target="_blank">Fashioncheque</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
-    * <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.cadeaubon.nl/cadeaubonnen/nederlandse-boekenbon" target="_blank">Boekenbon</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.fashioncheque.com/nl" target="_blank">Fashioncheque</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.fashion-giftcard.nl" target="_blank">Fashion gift card</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.gezondheidsbon.nl/mhome" target="_blank">Gezondheidsbon</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.parfumcadeaukaart.nl" target="_blank">Parfumcadeaukaart</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
     * [Paysafecard](/docs/paysafecard/)
     * Wijn cadeau
-    * <a href="https://www.yourgift.nl" target="_blank">Yourgift</a> <i class="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
+    * <a href="https://www.yourgift.nl" target="_blank">Yourgift</a> <i className="fa fa-external-link" style={{fontSize:"12px",color: "#8b929e"}} />
 </details>
 
 ### Refunds

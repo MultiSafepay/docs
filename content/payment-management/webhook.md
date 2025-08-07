@@ -52,7 +52,7 @@ You can configure the webhook endpoint at:
 
   <br />
 
-  Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
   For websites:
 
@@ -211,7 +211,7 @@ Check the <Glossary>order status</Glossary> in the `status` field. If necessary,
 * Don't have the `timestamp` parameter in the URL
 * Have the same <Glossary>order status</Glossary>
 
-When using **webhook notifications** on POS terminals, you might encounter **soft declines** when processing payments. For more information, see <a href="https://docs.multisafepay.com/docs/smartpos-solutions#soft-declines" target="_blank">Soft declines</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> - SmartPOS solutions.
+When using **webhook notifications** on POS terminals, you might encounter **soft declines** when processing payments. For more information, see <a href="https://docs.multisafepay.com/docs/smartpos-solutions#soft-declines" target="_blank">Soft declines</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> - SmartPOS solutions.
 
 ***
 
@@ -223,7 +223,7 @@ If a customer initiates a payment process but does not finalize it, and no **PSP
 
 Every `POST` notification request includes an HMAC signature that you must use to validate its authenticity. To validate the request, you can either:
 
-* Use the notification function from our PHP SDK. <a href="https://github.com/MultiSafepay/php-sdk/blob/master/src/Util/Notification.php" target="_blank">View on GitHub</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, **or**
+* Use the notification function from our PHP SDK. <a href="https://github.com/MultiSafepay/php-sdk/blob/master/src/Util/Notification.php" target="_blank">View on GitHub</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, **or**
 * Create your own solution to validate HMAC signatures.
 
 ### Own solution
@@ -359,7 +359,7 @@ If for some reason you don't receive the notification, you can retry it manually
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, under **Notification history**, click <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/offline-actions-webhookendpoint.png" /> and check that the URL displayed is the correct webhook endpoint.
   4. If the webhook endpoint is correct, to resend the notification, click the **Resend** icon.
@@ -374,16 +374,16 @@ For a list of MultiSafepay IP addresses, email [integration@multisafepay.com](ma
 
 To see a filterable overview of all notifications you've received:
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 2. Go to **Transactions** > **Notifications**.
 
 <br />
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>

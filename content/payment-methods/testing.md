@@ -9,7 +9,7 @@ privacy:
 content:
   excerpt: Test payment methods and resolve common issues.
 ---
-Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay test account</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+Before you start processing real transactions with MultiSafepay, we recommend testing each payment method in your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay test account</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 # Credentials
 
@@ -42,7 +42,7 @@ For all payment methods **except** Riverty, you need your website's test [API ke
    </details>
 2. Enter the [test payment details](/docs/testing#test-payment-details) for the payment method you are testing, or select a payment scenario.
 3. Complete the test payment.
-4. To check the transaction details, sign in to your <a href="https://testmerchant.multisafepay.com/" target="_blank">test dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+4. To check the transaction details, sign in to your <a href="https://testmerchant.multisafepay.com/" target="_blank">test dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 5. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
 6. On the **Transaction details** page, under **Notification history**, to see if you have successfully connected to our system, check that you've correctly received the **notifyMerchantTrans** action.\
    For information about errors, see [HTTP errors](/docs/http-errors/).
@@ -488,7 +488,7 @@ When testing, use the following test payment details for different scenarios.
   **Test credentials**
 
   * [Website API key](/docs/sites#site-id-api-key-and-security-code)
-  * <a href="https://docs.klarna.com/resources/test-environment/" target="_blank">Klarna's test credentials</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+  * <a href="https://docs.klarna.com/resources/test-environment/" target="_blank">Klarna's test credentials</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
   **Test a Klarna order**
 
@@ -728,13 +728,13 @@ When testing, use the following test payment details for different scenarios.
 
   **Compatible devices**
 
-  For compatible devices, see Apple – <a href="https://support.apple.com/en-us/HT208531" target="_blank">Devices compatible with Apple Pay</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  For compatible devices, see Apple – <a href="https://support.apple.com/en-us/HT208531" target="_blank">Devices compatible with Apple Pay</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
-  If you don't own an Apple device, we recommend using the <a href="https://appetize.io" target="_blank">Appetize.io</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> emulator. When you try to complete a test payment on the payment page, you get a *This device is not supported* error. But the emulator creates an order with the Apple Pay <Glossary>gateway</Glossary> pre-selected to check if there is an existing connection to our server. However, you can't fully complete the test transaction.
+  If you don't own an Apple device, we recommend using the <a href="https://appetize.io" target="_blank">Appetize.io</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> emulator. When you try to complete a test payment on the payment page, you get a *This device is not supported* error. But the emulator creates an order with the Apple Pay <Glossary>gateway</Glossary> pre-selected to check if there is an existing connection to our server. However, you can't fully complete the test transaction.
 
   **Prerequisites**
 
-  * Use a <a href="https://support.apple.com/en-us/HT208531" target="_blank">compatible device</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+  * Use a <a href="https://support.apple.com/en-us/HT208531" target="_blank">compatible device</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
   * Use Safari browser
   * Activate Maestro for your MultiSafepay account
 
@@ -745,7 +745,7 @@ When testing, use the following test payment details for different scenarios.
   To test your Apple Pay <Glossary>redirect</Glossary> integration, there are two ways:
 
   * If you have an Apple account with at least one card in your wallet, you can use your own account and card details in our test environment without incurring any costs.
-  * Alternatively, you can use an <a href="https://developer.apple.com/apple-pay/sandbox-testing" target="_blank">Apple Developer account</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> configured for Apple Pay, with at least one Apple Pay test card in your wallet.
+  * Alternatively, you can use an <a href="https://developer.apple.com/apple-pay/sandbox-testing" target="_blank">Apple Developer account</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> configured for Apple Pay, with at least one Apple Pay test card in your wallet.
 
   To test, follow these steps:
 
@@ -779,9 +779,9 @@ When testing, use the following test payment details for different scenarios.
 
      * **PAN only**: Authentication method for cards stored on file in your Google Account. Returned payment data includes your personal account number (PAN), expiration month, and expiration year. You are redirected to a test 3D Secure page to authenticate the payment.
      * **Cryptogram 3DS**: Authentication method for cards stored as Android device tokens. Returned payment data includes a 3D Secure cryptogram generated on the device. You are not redirected to authenticate the payment.\
-       For more information about testing, see Google Pay – <a href="https://developers.google.com/pay/api/web/guides/resources/sample-tokens" target="_blank">Test with sample tokens</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+       For more information about testing, see Google Pay – <a href="https://developers.google.com/pay/api/web/guides/resources/sample-tokens" target="_blank">Test with sample tokens</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
-  3. Check the status of the payment in your <a href="https://testmerchant.multisafepay.com/" target="_blank">test dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  3. Check the status of the payment in your <a href="https://testmerchant.multisafepay.com/" target="_blank">test dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 <details id="paypal">
@@ -791,7 +791,7 @@ When testing, use the following test payment details for different scenarios.
 
   **Test a PayPal order**
 
-  PayPal must be activated via your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  PayPal must be activated via your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
   To test, follow these steps:
 
@@ -849,7 +849,7 @@ When testing, use the following test payment details for different scenarios.
   3. Click **Test**.\
      The order status changes to **Void**.
 
-  You can process full refunds in your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay test dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  You can process full refunds in your <a href="https://testmerchant.multisafepay.com/" target="_blank">MultiSafepay test dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
   Partial refunds are not enabled by default. To enable this, email [support@multisafepay.com](mailto:support@multisafepay.com)
 
@@ -945,9 +945,9 @@ For some payment methods, refund orders in the live environment are processed au
   If you encounter any issues during testing, see [Troubleshooting](/docs/troubleshooting/).
 </Callout>
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

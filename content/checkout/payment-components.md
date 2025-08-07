@@ -11,7 +11,7 @@ Payment components let you embed payment methods directly into your checkout.
 
 * Creates a seamless payment experience to increase <Glossary>conversion</Glossary>
 * Encrypts customer payment details for secure processing
-* Reduces your [PCI DSS](/docs/pci-dss/) responsibility, falling only under <a href="https://www.pcisecuritystandards.org/documents/SAQ_A_v3.pdf" target="_blank">Self-Assessment Questionnaire A</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+* Reduces your [PCI DSS](/docs/pci-dss/) responsibility, falling only under <a href="https://www.pcisecuritystandards.org/documents/SAQ_A_v3.pdf" target="_blank">Self-Assessment Questionnaire A</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
 * Supports [recurring payments](/docs/recurring-payments/)
 
 # How it works
@@ -65,9 +65,9 @@ These are the supported payment methods:
 ***
 
 <HTMLBlock>{`
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

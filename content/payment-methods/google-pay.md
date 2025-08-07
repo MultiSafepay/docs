@@ -13,11 +13,11 @@ parent:
 
 Google Pay™ is a digital wallet for in-app and online payments. Customers can tokenize their payment details in their Google Pay account.
 
-Read how Google Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/googlepay" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+Read how Google Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/googlepay" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 | Supports                                                      | Details                                                                                                                                                                                                                                                                           |
 | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Countries](/docs/payment-methods#payment-methods-by-country) | Worldwide <br /> See Google Pay – <a href="https://support.google.com/pay/answer/9023773?hl=en#zippy=%2Cpay-online-or-in-apps" target="_blank">Countries or regions where you can use Google Pay</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />. |
+| [Countries](/docs/payment-methods#payment-methods-by-country) | Worldwide <br /> See Google Pay – <a href="https://support.google.com/pay/answer/9023773?hl=en#zippy=%2Cpay-online-or-in-apps" target="_blank">Countries or regions where you can use Google Pay</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />. |
 | [Currencies](/docs/currencies/)                               | AED, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EUR, GBP, HKD, HRK, HUF, ILS, INR, ISK, JPY, KRW, MXN, MYR, NOK, NZD, PEN, PHP, PLN, RON, RUB, SEK, SGD, THB, TRY, TWD, UAH, USD, VEF, ZAR                                                                                      |
 | [Chargebacks](/docs/chargebacks/)                             | Yes                                                                                                                                                                                                                                                                               |
 | [Payment pages](/docs/payment-pages/)                         | Yes (current version only)                                                                                                                                                                                                                                                        |
@@ -28,9 +28,9 @@ Read how Google Pay can benefit your business on <a href="https://www.multisafep
 <Callout icon="ℹ" theme="default">
   ### Notes
 
-  * By processing Google Pay payments, you agree to the <a href="https://payments.developers.google.com/terms/sellertos" target="_blank">Google API Terms of Service</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
-  * When integrating Google Pay into your ecommerce platform, you must follow <a href="https://developers.google.com/pay/api/web/guides/brand-guidelines" target="_blank">Google's brand guidelines</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
-  * For more information, see Google Pay – <a href="https://developers.google.com/pay/api/web/overview" target="_blank">Overview</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  * By processing Google Pay payments, you agree to the <a href="https://payments.developers.google.com/terms/sellertos" target="_blank">Google API Terms of Service</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  * When integrating Google Pay into your ecommerce platform, you must follow <a href="https://developers.google.com/pay/api/web/guides/brand-guidelines" target="_blank">Google's brand guidelines</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  * For more information, see Google Pay – <a href="https://developers.google.com/pay/api/web/overview" target="_blank">Overview</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </Callout>
 
 # Payment flow
@@ -72,7 +72,7 @@ To activate Google Pay, you must have [card payments](/docs/card-payments/) acti
 
   2. We check your eligibility and if approved, activate the payment method for your account.
 
-  3. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  3. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
   4. To activate the payment method for:
 
@@ -98,7 +98,7 @@ Then, apply to MultiSafepay for Google Pay, and activate it in your dashboard.
      * Average, minimum, and maximum transaction amount
      * Annual turnover
 
-  2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  2. Once approved, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
   3. To activate the payment method for:
      * All websites, go to **Settings** > **Payment methods**.
@@ -182,9 +182,9 @@ To test Google Pay payments, see Testing payment methods - [Wallets](/docs/testi
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

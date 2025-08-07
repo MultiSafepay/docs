@@ -204,7 +204,7 @@ Additional check: ensure that you did not deactivate any card payment methods in
 
 ## Soft declines for SmartPOS payments
 
-When using <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook notifications</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> or <a href="https://docs.multisafepay.com/docs/event-notifications" target="_blank">event notifications</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, you might encounter **soft declines**. A **soft decline** occurs when an initial payment attempt is declined, requiring the customer to take further action, such as entering their PIN, often for larger amounts.
+When using <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook notifications</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> or <a href="https://docs.multisafepay.com/docs/event-notifications" target="_blank">event notifications</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, you might encounter **soft declines**. A **soft decline** occurs when an initial payment attempt is declined, requiring the customer to take further action, such as entering their PIN, often for larger amounts.
 
 With a soft decline, you first receive a notification with an order status of declined. Once the customer completes the required verification (e.g., enters their PIN), you'll receive another notification. If successful, the order status will be completed. If the payment fails, the order status will be cancelled.
 
@@ -251,7 +251,7 @@ If your device has been blocked due to one of the following errors:
 
 you can reach out to Sunmi for support.
 
-1. On the <a href="https://www.sunmi.com/en-US/" target="_blank">Sunmi page</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, go to **Contact Technical Support** > **Create new request**.
+1. On the <a href="https://www.sunmi.com/en-US/" target="_blank">Sunmi page</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />, go to **Contact Technical Support** > **Create new request**.
 2. Select **P Serial Tamper** and follow the steps in the Sunmi environment.<br />**💡 Tip!** prepare a picture of your device to attach to the form.
 3. Depending on the error code, you will receive a code to unblock your device.
 
