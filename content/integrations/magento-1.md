@@ -13,7 +13,7 @@ content:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento.svg" width="50" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
-<a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.7.0.zip" target="_self"><span>Download</span><i className="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
+<a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.8.0.zip" target="_self"><span>Download</span><i className="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
 
 > ⚠️ Action required
 >
@@ -25,6 +25,22 @@ content:
   <summary>Changelog</summary>
 
   <br />
+
+  **3.8.0**\
+  Release date: Aug. 7th, 2025
+
+  ### Added
+
+  * DAVAMS-863: Add Billink
+  * DAVAMS-827: Add Bizum
+  * PLGMAGONE-776: Add generic payment methods instructions
+
+  ### Removed
+
+  * DAVAMS-903: Remove ALIPAY payment method
+  * DAVAMS-816: Remove gender checkout field from iDEAL in3
+
+  ***
 
   **3.7.0**\
   Release date: Nov. 28th, 2024
