@@ -9,13 +9,15 @@ privacy:
 parent:
   uri: banking-methods
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/logo/Payment_methods/Klarna-Sofort.svg" width="85" align="right" style={{ margin: "20px", maxHeight: "75px" }} />
-
 > ⚠️ **Note:**
 >
 > Sofort is no longer available as a standalone payment method due to its acquisition by Klarna.\
 > Existing integrations will be kept intact, but it cannot be activated for new merchants.
 > For alternative banking methods, see <a href="https://docs.multisafepay.com/docs/banking-methods" target="_blank">our overview</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+
+<br />
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/logo/Payment_methods/Klarna-Sofort.svg" width="100" align="right" style={{ margin: "15px", maxHeight: "75px" }} />
 
 <a href="https://www.klarna.com/pay-now/" target="_blank">Sofort</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> is a banking payment method by Klarna. It integrates with the customer's bank like a <Glossary>direct</Glossary> bank transfer. The customer verifies the payment, which reduces the risks associated with traditional transfers.\
 Once payment is completed, the customer cannot reverse it, and Sofort guarantees <Glossary>settlement</Glossary>.
@@ -107,7 +109,8 @@ To test Sofort payments, see Testing payment methods - [Banking methods](/docs/t
   <h3 class="callout-heading">
     <span class="callout-icon">💬</span> Support
   </h3>
-  <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
+
+  <p>Email <a href="mailto:support@multisafepay.com">[support@multisafepay.com](mailto:support@multisafepay.com)</a></p>
 </blockquote>
 
 [Top of page](#)

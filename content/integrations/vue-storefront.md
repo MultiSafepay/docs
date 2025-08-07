@@ -1,9 +1,9 @@
 ---
 title: Vue Storefront
 category:
-  uri: Integrations
+  uri: Archived integrations
 slug: vue-storefront
-position: 4
+position: 5
 privacy:
   view: public
 content:

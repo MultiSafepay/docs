@@ -29,7 +29,7 @@ For higher-risk transactions, the payment is placed on hold and the [transaction
 
 # Reviewing uncleared payments
 
-When uncleared payments are awaiting your review in your dashboard, you receive a notification in your dashboard and an email to the address provided under **Account information** in the account list at the top-right of the screen.\ <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/profile-dashboard.png" align="center" />
+When uncleared payments are awaiting your review in your dashboard, you receive a notification in your dashboard and an email to the address provided under **Account information** in the account list at the top-right of the screen.<br /> <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/profile-dashboard.png" align="center" margin-top="20px !important" margin-bottom="20px !important" />
 
 The final decision to capture or decline lies with you, as you are solely liable for any financial damage.\
 For professional advice on reviewing and evaluating potential risks or fraud indicators, email [risk@multisafepay.com](mailto:risk@multisafepay.com)
@@ -173,11 +173,12 @@ The following indicators paint a cumulative picture of uncleared payments, but a
 </Callout>
 
 <blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
-        <p>Support</p>
-    </h3>
-    <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
+  <h3 class="callout-heading false">
+    <span class="callout-icon">💬</span>
+    <p>Support</p>
+  </h3>
+
+  <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>
 
 [Top of page](#)

@@ -16,7 +16,7 @@ We currently offer this product in the following countries:
   </tr>
 
   <tr>
-    <td>For partners</td>
+    <td>Countries for partners</td>
     <td>Netherlands, Belgium, Italy, Spain</td>
   </tr>
 </table>

@@ -18,178 +18,347 @@ We currently offer this product in the following countries:
   </tr>
 
   <tr>
-    <td>For partners</td>
+    <td>Countries for partners</td>
     <td>Netherlands, Belgium, Italy, Spain</td>
   </tr>
 </table>
 
-If you are interested in our Point of Sale solutions, email \[mailto:[sales@multisafepay.com](mailto:sales@multisafepay.com)]
+If you are interested in our Point of Sale solutions, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
-# Set up your SmartPOS flow
+Our SmartPOS solutions let you initiate payments through:
 
-Our SmartPOS terminals support three different payment solutions, offering flexible integration options for your business needs.
+* Manual input
+* Cloud POS payment
+* On-same device third-party applications
+  * Web application
+  * Native application
 
-<CardRow>
-  <CardText title="Cloud POS Payments" href="/docs/bank-transfer/" icon="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Cloud_POS.svg" alt="Cloud POS Payments" description="Process payments from an external application. This lets your Point of Sale system process payments securely via a cloud connection." />
+# Manual input
 
-  <CardText title="On-same Device Applications" href="/docs/bank-transfer/" icon="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/svgs/POS/Transactions_ondevice.svg" alt="On-same Device Applications" description="Run your native or web based aplication on your terminal and initiate payments on the same device through the payment app." />
+To start processing payments manually:
 
-  <CardText title="Manual input" href="/docs/bank-transfer/" icon="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/img/In-person-payments.svg" alt="Manual input" description="Manually enter payment amounts in the app. The customer pays using a supported payment method." />
-</CardRow>
+1. Enter **Amount due** and select **Pay**.
+2. The customer can either tap or insert their card to make the payment.
+3. Once the payment is completed, a notification is displayed.
+
+# Cloud POS payment
+
+With cloud <Glossary>POS</Glossary> payment, you can initiate payments from an external application.
+
+This diagram shows a successful cloud-based POS payment flow. Click to magnify.
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/cloud-POS-flow.svg" alt="cloud-POS" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '750px', width: '100%'}} />
+
+**⚠️ Note:** Before you start initiating payments, you must ensure **cloud mode** is enabled - see [SmartPOS features](/docs/smartpos-features).
+
+* Create an order. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* Cancel an order. See [cancellation](#cancellation).
+
+To receive payments updates subscribe to [Event notifications.](/docs/event-notifications)
+
+**⚠️ Note:** When using **event notifications** on POS terminals, you might encounter **soft declines** when processing payments. For more information, see [Soft declines](/docs/smartpos-solutions#soft-declines).
+
+<br />
+
+***
+
+# On-same device third-party applications
+
+## Web applications
+
+Web applications let you initiate payments on-same devices from a browser to the payment app.
+
+This diagram shows a successful web application payment flow. Click to magnify.
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/web-flow.svg" alt="web-app-POS" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '750px', width: '100%'}} />
+
+### Initiate payments
+
+1. Before initiating web application payments, you need to create an order.
+
+**Example**
+
+```curl
+curl -X POST \
+"https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
+-d '{
+  "type": "redirect",
+  "order_id": "my_order_id",
+  "gateway": "",
+  "currency": "EUR",
+  "amount": 10,
+  "description": "Order Description",
+  "payment_options": {
+      "notification_url": "https://www.example.com/paymentnotification",
+      "notification_method": "POST"
+  }
+}
+'
+```
+
+2. Initiate a payment using the URL below:
+
+```URL
+msp://?amount={$amount}&order_id={$order_id}&callback={$callback_url}&printing=true&tipping=true&notification_url={$notification_url}
+```
+
+* `amount`: the amount specified in EUR cents.
+* `order_id`: your unique identifier for order ID. - `order_id`: your unique identifier for order ID. Maximum 50 characters. Can only contain **a-z**, **A-Z**, **0-9** and the special characters `/ - _`.
+* `callback_url`: this URL redirects the customer to receive payment status notifications.
+* Optionally, you can set `notification_url` to receive order payment updates notifications.
+* `tipping`: include a tip.
+* `printing`: activate printing function.
+
+Payment status received can either be  **Completed** or **Cancelled**.
+
+<br />
 
 ***
 
-Click on the options below for more information on how to further set up your terminal.
+## Native applications
 
-<style jsx>
-  {`
-    .steps {
-      display: flex;
-      flex-direction: column;
-      align-items: stretch;
-    }
-    .step-item {
-      display: flex;
-      margin-bottom: 10px;
-      align-items: center;
-    }
-    .step-info {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 8px;
-    }
-    .step-number {
-      background-color: #007bff;
-      color: white;
-      border-radius: 50%;
-      width: 35px;
-      height: 35px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: bold;
-      margin-left: 10px;
-    }
-    .step-description {
-      margin-top: 5px;
-      flex: 1;
-      /* CORRECTED: The invalid 'align-items' was removed. */
-      /* It's already being centered by its parent, .step-info. */
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    .step-description p {
-      margin-top: 10px !important;
-      margin-bottom: 0 !important;
-    }
-    .configure-text {
-      font-size: 22px;
-      font-weight: lighter;
-    }
+Native applications let you initiate payments on-same devices from app to payment app.
 
-    /* --- CARD STYLES (Cleaned Up) --- */
-    .card-container-setup {
-      display: flex;
-      flex-direction: column;
-      justify-content: center; /* Vertically centers content */
-      align-items: center;     /* Horizontally centers content */
-      padding: 1rem;
-      margin: 0.125rem;
-      box-sizing: border-box;
-      border: 1px solid #d1d5db;
-      border-radius: 0.375rem;
-      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-      width: 250px;
-      flex-shrink: 0;
-      transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
-      background-color: #fff;
-    }
-    .card-container-setup:hover {
-      transform: scale(1.02);
-      box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-      border-color: #60a5fa;
-      cursor: pointer;
-    }
-    .card-container-setup a {
-      text-decoration: none;
-      color: inherit;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      height: 100%;
-    }
-    .card-container-setup img {
-      width: 60px;
-      height: 60px;
-      margin-bottom: 0.75rem;
-      object-fit: contain;
-      pointer-events: none;
-    }
-    .card-container-setup h4 {
-      font-size: 15px;
-      font-weight: 550;
-      color: #00bcd4;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      width: 100%;
-      margin: 0;
-      text-align: center;
-    }
-    .card-container-setup h4 b {
-      color: inherit;
-      font-weight: inherit;
-    }
-    
-    /* --- RESPONSIVE STYLES --- */
-    @media (max-width: 768px) {
-      .step-item {
-        flex-direction: column;
-        align-items: stretch;
+This diagram shows a successful native application payment flow. Click to magnify.
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/native-flow.svg" alt="native-app-POS" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '750px', width: '100%'}} />
+
+### Initiate payments
+
+1. Before initiating native application payments, you need to create an order.<br />When creating an order, the `order_id` must have a maximum length of 50 characters and can only contain **a-z**, **A-Z**, **0-9** and the special characters `/ - _`.
+
+**Example**
+
+```curl
+curl -X POST \
+"https://api.multisafepay.com/v1/json/orders?api_key={your-api-key}"
+-d '
+{
+  "type": "redirect",
+  "order_id": "my_order_id",
+  "gateway": "",
+  "currency": "EUR",
+  "amount": 10,
+  "description": "Order Description",
+  "payment_options": {
+      "notification_url": "https://www.example.com/paymentnotification",
+      "notification_method": "POST"
+  }
+}
+'
+```
+
+2. To initiate payments - see <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">MultiSafepay Android POS integration </a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+
+<br />
+
+# API features
+
+In addition to the features mentioned in our <a href="https://docs.multisafepay.com/reference/introduction" target="_blank">API reference</a>, there are POS-specific details you can retrieve via our API, including the **Terminal ID** that processed a transaction.
+
+**Example GET order**
+
+```json
+{
+  "success": true,
+  "data": {
+    "amount": 1,
+    "amount_refunded": 0,
+    "completed": "2024-06-04T15:50:18",
+    "costs": [
+      {
+        "amount": 2,
+        "description": "2 For Visa Transactions",
+        "transaction_id": 899813954,
+        "type": "SYSTEM"
+      },
+      {
+        "amount": 0.6,
+        "description": "2.9 % For Visa CreditCards Transactions (min 60)",
+        "transaction_id": 899813955,
+        "type": "SYSTEM"
       }
-      .step-info {
-        order: -1;
-        width: 100%;
-        margin-bottom: 10px;
+    ],
+    "created": "2024-06-04T15:50:17",
+    "currency": "EUR",
+    "custom_info": {
+      "custom_1": null,
+      "custom_2": null,
+      "custom_3": null
+    },
+    "customer": {
+      "address1": null,
+      "address2": null,
+      "city": null,
+      "country": null,
+      "country_name": null,
+      "email": null,
+      "first_name": null,
+      "house_number": null,
+      "last_name": null,
+      "locale": "en_US",
+      "phone1": null,
+      "phone2": null,
+      "state": null,
+      "zip_code": null
+    },
+    "description": "12341234",
+    "fastcheckout": "NO",
+    "financial_status": "completed",
+    "items": null,
+    "modified": "2024-06-04T15:50:18",
+    "order_id": "TestGetOrder123123",
+    "payment_details": {
+      "account_holder_name": "card holder",
+      "account_id": null,
+      "application_id": "a0000000031010",
+      "authorization_code": "705151",
+      "card_acceptor_id": "1001001",
+      "card_acceptor_location": "Amsterdam",
+      "card_acceptor_name": "TestMSP",
+      "card_additional_response_data": {
+        "sca_details": {}
+      },
+      "card_authentication_result": null,
+      "card_entry_mode": "ICC_CONTACTLESS",
+      "card_expiry_date": "3112",
+      "card_funding": "D",
+      "card_product": "F",
+      "card_product_type": 1,
+      "card_sequence_number": "0000",
+      "card_verification_result": "2",
+      "cardholder_verification_method": "FAILED",
+      "cardholder_verification_result": "UNKNOWN",
+      "emv": {
+        "91": "ab1231231234"
+      },
+      "external_transaction_id": "12312312312",
+      "issuer_bin": "123123",
+      "issuer_country_code": "ES",
+      "last4": "1234",
+      "recurring_flow": null,
+      "recurring_id": "1231213123",
+      "recurring_model": null,
+      "response_code": "00",
+      "scheme_reference_id": "123123123123123",
+      "terminal_id": "0000004d",
+      "type": "VISA"
+    },
+    "payment_methods": [
+      {
+        "account_holder_name": "card holder",
+        "amount": 1,
+        "card_expiry_date": "3112",
+        "currency": "EUR",
+        "description": "12341234",
+        "external_transaction_id": "123123412341234",
+        "payment_description": "Visa",
+        "status": "completed",
+        "type": "VISA"
       }
-      .card-container-setup {
-        width: 100%;
-        margin: 8px 0;
-      }
-      .step-number {
-        margin-left: 0;
-        margin-right: 10px;
-      }
-      .step-description {
-        margin-left: 0;
-      }
+    ],
+    "reason": "Approved",
+    "reason_code": "1000",
+    "related_transactions": null,
+    "status": "completed",
+    "transaction_id": 123412342341234,
+    "var1": null,
+    "var2": null,
+    "var3": null
+  }
+}
+
+```
+
+# Handle notifications
+
+The table below sets out options available for receiving updates on the payments.
+
+| POS Solutions       | Required                                                                                                                                                                                                  | Optional                                                                                            |
+| :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
+| Cloud POS payment   | Subscribe to the [event notifications.](/docs/event-notifications)                                                                                                                                        | Configure a [webhook](/docs/webhook#configure-your-webhook-endpoint.).                              |
+| Web applications    | Set `callback_url` in the [ link.](/docs/solutions#web-applications-pos)                                                                                                                                  | Set `notification_url` in the [ link](/docs/solutions#web-applications-pos) to configure a webhook. |
+| Native applications | Set `package_name` in your <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">intent call.</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> | Configure a [webhook.](/docs/webhook#configure-your-webhook-endpoint.)                              |
+
+<br />
+
+# User guide
+
+## Authentication
+
+To create an order, always use the **API key** of your device's [terminal group](/docs/sites#terminal-group-id-and-api-key).
+
+**⚠️Note:** Using an incorrect **API key** can cause any subsequent API calls associated with that order to fail.
+
+## Cancellation
+
+To cancel an order, make a **POST** request to our cancellation endpoint. This requires the use of an `order_id` and a group **API** key, which you can find at your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />  under **Manage groups**.
+
+Insert the `order_id` and the **API** key in the URL.
+
+**Example request**
+
+```cURL POST
+curl -X POST 
+"https://api.multisafepay.com/v1/json/orders/{order_id}/cancel?api_key={your-api-key}"
+```
+
+**Example response**
+
+```JSON
+{
+  "success": true,
+  "data": {
+    "costs": [],
+    "created": "dateTtime",
+    "custom_info": {
+      "custom_1": null,
+      "custom_2": null,
+      "custom_3": null
+    },
+    "fastcheckout": "NO",
+    "financial_status": null,
+    "modified": "dateTtime",
+    "payment_details": {},
+    "payment_methods": null,
+    "status": "cancelled"
     }
-  `}
-</style>
+}
+```
 
-<div className="steps-container">
-  <div className="steps">
-    <LargeCardPOS title="Hardware setup" href="/docs/hardware-setup" icon="https://cdn.jsdelivr.net/gh/MultiSafepay/docs@master/static/svgs/POS/Settings.svg" stepNumber="1">
-      <p>
-        Configure your terminal's hardware for first use
-      </p>
-    </LargeCardPOS>
+## Refunds
 
-    <LargeCardPOS title="Activation" href="/docs/smartpos-activation" icon="https://cdn.jsdelivr.net/gh/MultiSafepay/docs@master/static/svgs/POS/Activation.svg" stepNumber="2">
-      Activate your terminal from your MultiSafepay dashboard
-    </LargeCardPOS>
+<details id="refunds">
+  <summary>How to process refunds</summary>
 
-    <LargeCardPOS title="Event notifications" href="/docs/event-notifications" icon="https://cdn.jsdelivr.net/gh/MultiSafepay/docs@master/static/svgs/POS/Notifications.svg" stepNumber="3">
-      Subscribe to event notifications to receive order status updates
-    </LargeCardPOS>
+  <br />
 
-    <LargeCardPOS title="SmartPOS features" href="/docs/smartpos-features" icon="https://cdn.jsdelivr.net/gh/MultiSafepay/docs@master/static/img/Omnichannel-payments.svg" stepNumber="4">
-      Customize your payment flow with additional features
-    </LargeCardPOS>
-  </div>
-</div>
+  **Via the API**
+
+  See API reference – [Refund order](/reference/refundorder).
+
+  **In your dashboard**
+
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  2. Go to **Transactions** > **Transaction overview**, and click the relevant transaction.
+  3. On the **Transaction details** page, click **Refund order**.
+  4. In the **Reason / Description** field, enter the reason for the refund or a description of what happened with the order, and then click **Complete**.
+  5. In the **Comment** field, enter any additional information.
+  6. In the **Amount** fields, enter the amount to refund.
+  7. Click **Continue**.
+  8. Review **Refund confirmation**, and then click **Confirm**.
+</details>
+
+## Updates
+
+Make a [Get order](/reference/getorder) request to get updates on a specific order.
+
+## Testing
+
+You cannot test terminals in your MultiSafepay test account.
+
+<br />
 
 ***
+
+[Top of page](#)

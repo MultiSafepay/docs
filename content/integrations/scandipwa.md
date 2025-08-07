@@ -1,9 +1,9 @@
 ---
 title: ScandiPWA
 category:
-  uri: Integrations
+  uri: Archived integrations
 slug: scandipwa
-position: 2
+position: 3
 privacy:
   view: public
 content:
@@ -71,7 +71,7 @@ content:
    * For the **Custom redirect URL after canceling the payment**, we recommend using: `{{store.secure_base_url}}cart`
    * For the **Custom success page url**, we recommend using: `{{store.secure_base_url}}checkout/success?incrementId={{order.increment_id}}&paymentCode={{payment.code}}`
 4. Install the ScandiPWA frontend plugin from this repository into your ScandiPWA theme. For instructions, see ScandiPWA - <a href="https://docs.scandipwa.com/stack/extensions/installing-an-extension" target="_blank">Installing an extension</a>.
-5. Explore the checkout in your ScandiPWA application:\ <img width="1000" alt="Screenshot 2021-03-12 at 12 56 42" src="https://user-images.githubusercontent.com/78361324/110949265-b0124680-8342-11eb-8d99-55c926e76f3d.png" />\ <br />
+5. Explore the checkout in your ScandiPWA application:\ <img width="1000" alt="Screenshot 2021-03-12 at 12 56 42" src="https://user-images.githubusercontent.com/78361324/110949265-b0124680-8342-11eb-8d99-55c926e76f3d.png" /><br />
 
 ***
 

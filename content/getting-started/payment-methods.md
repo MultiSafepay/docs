@@ -14,7 +14,7 @@ content:
 
 MultiSafepay offers a wide range of payment methods.
 
-<Cards columns={5}>
+<Cards columns={4}>
   <Card title="Banking methods" href="/docs/banking-methods" icon="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Banks.png" />
 
   <Card title="Buy Now Pay Later" href="/docs/bnpl" icon="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/BNPL.png" />
@@ -22,9 +22,9 @@ MultiSafepay offers a wide range of payment methods.
   <Card title="Credit and debit cards" href="/docs/cards" icon="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/creditcard2.png" />
 
   <Card title="Prepaid cards" href="/docs/prepaid-cards" icon="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/PrepaidCards.png" />
-</Cards>
 
-<Card title="Wallets" href="/docs/wallets" icon="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Digital.png" />
+  <Card title="Wallets" href="/docs/wallets" icon="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/Digital.png" />
+</Cards>
 
 <HTMLBlock>{`
 <style>

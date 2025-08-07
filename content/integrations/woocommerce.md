@@ -52,11 +52,11 @@ There are two ways to install the plugin:
 
 1. Sign in to your WooCommerce backend.
 2. Go to **WooCommerce** > **MultiSafepay settings**
-3. On the **Account** tab, enter your [API key](/docs/sites#site-id-api-key-and-security-code).
+3. On the **Account** tab, enter your [API key](/docs/sites#website-id-api-key-and-security-code).
 4. On the **Order status** tab, confirm the match between WooCommerce order statuses and MultiSafepay order statuses, and then click **Save changes**.
 5. On the **Options** tab, confirm your settings, and then click **Save changes**.
 6. Go to **WooCommerce** > **Settings** > **Payments**.
-7. Enable the relevant payment methods and confirm the settings.\ <br />
+7. Enable the relevant payment methods and confirm the settings.<br />
 
 ***
 
@@ -296,7 +296,7 @@ You can apply [surcharges](/docs/surcharges/) in the plugin when combined with a
 * possible reasons
 
 WC\_Order::get\_checkout\_order\_received\_url() =>\
-<a href="https://woocommerce.github.io/code-reference/classes/WC-Order.html#method_get_checkout_order_received_url" target="_blank">https://woocommerce.github.io/code-reference/classes/WC-Order.html#method\_get\_checkout\_order\_received\_url</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+<a href="https://woocommerce.github.io/code-reference/classes/WC-Order.html#method_get_checkout_order_received_url" target="_blank">https://woocommerce.github.io/code-reference/classes/WC-Order.html#method\_get\_checkout\_order\_received\_url</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>
 does not return correct URL, which can be caused by a third party plugin making use of the "woocommerce\_get\_checkout\_order\_received\_url" filter and returning a wrong value
 
 * possible solutions

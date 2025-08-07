@@ -25,7 +25,7 @@ MultiSafepay complies with all required measures to ensure data protection, incl
 
 Our primary activity is processing online payments. We are a data controller, responsible for storing data only. We are **not** a processor or sub-processor of data.
 
-For more information, see the MultiSafepay – <a href="https://www.multisafepay.com/downloads/Addendum_GDPR_2018.pdf" target="_blank">GDPR addendum</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />. It includes a number of provisions similar to a standard processing agreement.
+For more information, see the MultiSafepay – <a href="https://www.multisafepay.com/downloads/Addendum_GDPR_2018.pdf" target="_blank">GDPR addendum</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />. It includes a number of provisions similar to a standard processing agreement.
 
 # Customer data
 
@@ -43,7 +43,6 @@ Email a request to delete data to the data protection officer at [dataprotection
 
 ***
 
-<HTMLBlock>{`
 <blockquote class="callout callout_info">
     <h3 class="callout-heading false">
         <span class="callout-icon">💬</span>
@@ -51,6 +50,5 @@ Email a request to delete data to the data protection officer at [dataprotection
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
 </blockquote>
-`}</HTMLBlock>
 
 [Top of page](#)

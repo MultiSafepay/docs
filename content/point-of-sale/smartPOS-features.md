@@ -9,19 +9,23 @@ position: 3
 privacy:
   view: public
 ---
-> ⚠️ Note:
->
-> We currently offer this product in the following countries:
->
-> * Netherlands
-> * Belgium
->
-> As a partner, you can further connect accounts registered in the following countries:
->
-> * Italy
-> * Spain
->
-> If you are interested in our Point of Sale solutions, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
+We currently offer this product in the following countries:
+
+<table>
+  <tr>
+    <td>Countries</td>
+    <td>Netherlands, Belgium</td>
+  </tr>
+
+  <tr>
+    <td>Countries for partners</td>
+    <td>Netherlands, Belgium, Italy, Spain</td>
+  </tr>
+</table>
+
+If you are interested in our Point of Sale solutions, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
+
+***
 
 # Features
 

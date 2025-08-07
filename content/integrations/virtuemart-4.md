@@ -49,7 +49,7 @@ content:
    * To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:
    * **Account ID** (top-right corner of your dashboard)
-   * [Website ID, API key, and security code](/docs/sites#site-id-api-key-and-security-code)
+   * [Website ID, API key, and security code](/docs/sites#website-id-api-key-and-security-code)
    * [Gateway ID](/reference/gateway-ids/)
 
 <br />
@@ -111,7 +111,7 @@ You can update the plugin in your backend as described below:
   **💡 Tip!** Make sure you have a backup of your production environment, and that you test the plugin in a staging environment.
 
 1. Download the plugin again above.
-2. Follow the Installation and configuration instructions from step 2.\ <br />
+2. Follow the Installation and configuration instructions from step 2.<br />
 
 ***
 
@@ -125,7 +125,7 @@ You can update the plugin in your backend as described below:
 
   <ul>
     <li>Telephone: <a href="tel:+310208500500">+31 (0)20 8500 500</a></li>
-    <li>Email: <a href="mailto:integration@multisafepay.com">[integration@multisafepay.com](mailto:integration@multisafepay.com)</a></li>
+    <li>Email: <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></li>
     <li>GitHub: <a href="https://github.com/MultiSafepay/virtuemart-4/issues" target="_blank"> create a technical issue</a></li>
   </ul>
 </blockquote>

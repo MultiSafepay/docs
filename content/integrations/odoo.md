@@ -1,7 +1,7 @@
 ---
 title: Odoo
 category:
-  uri: Integrations
+  uri: Archived integrations
 slug: odoo
 position: 1
 privacy:
