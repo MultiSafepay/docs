@@ -2,14 +2,12 @@
 title: ScandiPWA
 category:
   uri: Integrations
-  children:
-    - uri: Archived integrations
-parent:
-  uri: Archived integrations
 slug: scandipwa
 position: 3
 privacy:
   view: public
+parent:
+  uri: archived-integrations
 content:
   excerpt: Technical manual for MultiSafepay's free plugin.
 ---

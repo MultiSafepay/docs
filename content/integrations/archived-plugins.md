@@ -2,8 +2,6 @@
 title: Craft Commerce
 category:
   uri: Integrations
-parent:
-  uri: Archived integrations
 slug: craft-commerce
 position: 0
 privacy:
