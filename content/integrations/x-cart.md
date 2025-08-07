@@ -2,10 +2,6 @@
 title: X-Cart
 category:
   uri: Integrations
-  children:
-    - uri: Archived integrations
-parent:
-  uri: Archived integrations
 slug: x-cart
 position: 6
 privacy:

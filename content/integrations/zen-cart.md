@@ -2,10 +2,6 @@
 title: Zen Cart
 category:
   uri: Integrations
-  children:
-    - uri: Archived integrations
-parent:
-  uri: Archived integrations
 slug: zen-cart
 position: 7
 privacy:

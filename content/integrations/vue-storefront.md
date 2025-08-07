@@ -2,10 +2,6 @@
 title: Vue Storefront
 category:
   uri: Integrations
-  children:
-    - uri: Archived integrations
-parent:
-  uri: Archived integrations
 slug: vue-storefront
 position: 5
 privacy:
