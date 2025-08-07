@@ -1,7 +1,7 @@
 ---
 title: Craft Commerce
 category:
-  uri: Integrations
+  uri: Archived integrations
 slug: craft-commerce
 position: 0
 privacy:
@@ -51,7 +51,7 @@ The latest stable release is downloaded and installed in your Craft Commerce web
 
 1. Sign in to your Craft Commerce <Glossary>backend</Glossary>.
 2. To configure the plugin settings, go to **MultiSafepay** > **Settings**.
-3. To add payment methods activated in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> and configure <Glossary>gateways</Glossary>, go to **Commerce** > **System settings** > **Gateways**.\ <br />
+3. To add payment methods activated in your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> and configure <Glossary>gateways</Glossary>, go to **Commerce** > **System settings** > **Gateways**.<br />
 
 ***
 

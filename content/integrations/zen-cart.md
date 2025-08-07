@@ -1,9 +1,9 @@
 ---
 title: Zen Cart
 category:
-  uri: Integrations
+  uri: Archived integrations
 slug: zen-cart
-position: 6
+position: 7
 privacy:
   view: public
 content:
@@ -37,10 +37,10 @@ content:
 2. Sign in to your Zen Cart <Glossary>backend</Glossary>.
 3. Go to **Modules** > **Payment**.
 4. Select **MultiSafepay - Connect**, and then click **Install**.
-5. Enter your [API key](/docs/sites#site-id-api-key-and-security-code).
+5. Enter your [API key](/docs/sites#website-id-api-key-and-security-code).
 6. Click **Update**.
 7. Disable the **MultiSafepay - Connect** module.
-8. Enable the relevant payment methods.\ <br />
+8. Enable the relevant payment methods.<br />
 
 ***
 

@@ -1,9 +1,9 @@
 ---
 title: X-Cart
 category:
-  uri: Integrations
+  uri: Archived integrations
 slug: x-cart
-position: 5
+position: 6
 privacy:
   view: public
 content:
@@ -50,7 +50,7 @@ content:
 8. For **Account type**, you have two options: **Live** and **Test**.
 9. Enter your account ID, [website ID, security code, and API key](/docs/sites/#site-id-api-key-and-security-code).\
    Make sure you enter the correct API key for the account type you want to use.
-10. Click **Save changes**.\ <br />
+10. Click **Save changes**.<br />
 
 ***
 

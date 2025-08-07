@@ -11,9 +11,9 @@ parent:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/giftcards/sodexo-sportculturepass.svg" width="80" align="right" alt="Sodexo" style={{ margin:'20px 20px 20px 30px', maxHeight:'75px' }} />
 
-<a href="https://www.sodexo.be/nl" target="_blank">Sodexo</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i><i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> lets employers gift their employees with prepaid card sport and culture voucher.
+<a href="https://www.sodexo.be/nl" target="_blank">Sodexo</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i><i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> lets employers gift their employees with prepaid card sport and culture voucher.
 
-Read how Sodexo can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/sodexo" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i><i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+Read how Sodexo can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/sodexo" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i><i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
 
 | Supports                                                      | Details                               |
 | ------------------------------------------------------------- | ------------------------------------- |
@@ -47,7 +47,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 # Activation
 
-1. Fill out the Sodexo <a href="https://sportculture.sodexo.be/nl/" target="_blank">application form</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i><i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+1. Fill out the Sodexo <a href="https://sportculture.sodexo.be/nl/" target="_blank">application form</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i><i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 
    * Under **Bank details**, select the checkbox to accept the sport & culture pass on your webshop.
    * Select MultiSafepay your payment service provider.

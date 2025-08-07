@@ -1,7 +1,7 @@
 ---
 title: OsCommerce
 category:
-  uri: Integrations
+  uri: Archived integrations
 slug: oscommerce
 position: 2
 privacy:

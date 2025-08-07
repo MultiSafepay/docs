@@ -25,7 +25,7 @@ To create a new affiliated account in your dashboard, follow these steps:
 7. Edit the template and fill out the fields as required.
 8. Click **Save**.
 
-# 2) Onboard affiliate accounts
+# 2. Onboard affiliate accounts
 
 All affiliates must [onboard](/docs/onboarding/) and sign an agreement with MultiSafepay, containing general terms and conditions.
 

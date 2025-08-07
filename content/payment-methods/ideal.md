@@ -9,8 +9,6 @@ privacy:
 parent:
   uri: banking-methods
 ---
-<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/ideal.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
-
 > ⚠️ Note:
 >
 > We are gradually migrating to iDeal 2.0, an enhanced version of this payment method.
@@ -22,6 +20,8 @@ parent:
 >   Instead, the customer is redirected to the iDeal environment to select the issuer.
 > * For users of our direct solution (via API):\
 >   The issuer is selected within the iDeal environment. The parameter  `issuer_id` is no longer required for requests with type  `direct`.
+
+<img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/ideal.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
 <a href="https://www.ideal.nl/en/" target="_blank">iDEAL</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> is the leading payment method in the Netherlands and links all major Dutch retail banks. Customers pay via mobile banking app, [QR code](#ideal-qr), or in their own online banking environment. Once a payment is completed, the customer cannot reverse it and iDEAL guarantees <Glossary>settlement</Glossary>.
 
@@ -110,7 +110,7 @@ The table below sets out the <Glossary>order status</Glossary> and <Glossary>tra
 
 ### Testing
 
-To test iDEAL payments, see Testing payment methods - [Banking methods](/docs/testing#banking-methods).\ <br />
+To test iDEAL payments, see Testing payment methods - [Banking methods](/docs/testing#banking-methods).<br />
 
 ***
 
@@ -223,10 +223,6 @@ For iDEAL redirect requests, the customer will be automatically redirected to th
   "description": "Test order description"
 }
 ```
-
-***
-
-<br />
 
 ***
 

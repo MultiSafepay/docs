@@ -10,7 +10,7 @@ parent:
   uri: manage-account
 ---
 
-Your MultiSafepay account can have an unlimited number of authorized users. All users on one account share the same [security code](/docs/sites#site-id-api-key-and-security-code). You can block users, but not delete them.
+Your MultiSafepay account can have an unlimited number of authorized users. All users on one account share the same [security code](/docs/sites#website-id-api-key-and-security-code). You can block users, but not delete them.
 
 # User permission profiles
 
@@ -114,9 +114,13 @@ Users must then configure 2FA the first time they sign in to the dashboard after
 
 ***
 
+<blockquote class="callout callout_info">
+  <h3 class="callout-heading false">
+    <span class="callout-icon">💬</span>
+    <p>Support</p>
+  </h3>
 
-:::info Support
-Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a>
-:::
+  <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>
+</blockquote>
 
 [Top of page](#)

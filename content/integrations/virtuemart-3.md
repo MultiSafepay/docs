@@ -1,9 +1,9 @@
 ---
 title: VirtueMart 3
 category:
-  uri: Integrations
+  uri: Archived integrations
 slug: virtuemart-3
-position: 3
+position: 4
 privacy:
   view: public
 content:
@@ -51,7 +51,7 @@ content:
    * To install, save the **Payment method name**.
 7. On the **Configuration** tab, enter your:
    * Account ID (top-right corner of your dashboard)
-   * [Website ID, API key, and security code](/docs/sites#site-id-api-key-and-security-code)
+   * [Website ID, API key, and security code](/docs/sites#website-id-api-key-and-security-code)
    * [Gateway ID](/reference/gateway-ids/)
 
 <br />

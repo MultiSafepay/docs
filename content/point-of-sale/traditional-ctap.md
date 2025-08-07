@@ -7,14 +7,17 @@ position: 1
 privacy:
   view: public
 ---
-> ⚠️ Note:
->
-> We currently offer this product in the following countries:
->
-> * Netherlands
-> * Belgium
->
-> If you are interested in our Point of Sale solutions, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
+We currently offer this product in the following countries:
+
+<table>
+  <tr>
+    <td>Countries</td>
+    <td>Netherlands, Belgium</td>
+  </tr>
+
+If you are interested in our Point of Sale solutions, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
+
+***
 
 Traditional (CTAP) is a terminal that has passed <a href="https://wp.acquiris.eu/" target="_blank">Acquiris</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> certification and can be connected to acquirers with a C-TAP host.
 
