@@ -14,11 +14,11 @@ content:
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/WooCommerce.svg" width="50" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
 <div style={{display: 'flex', flexWrap: 'wrap'}}>
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://wordpress.org/plugins/multisafepay/" target="_self"><span>Download</span><i class="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://wordpress.org/plugins/multisafepay/" target="_self"><span>Download</span><i className="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
 
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/WooCommerce" target="_blank"><i class="icon-external-link" /> <span>Source code</span></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/WooCommerce" target="_blank"><i className="icon-external-link" /> <span>Source code</span></a>
 
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/WooCommerce/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/WooCommerce/blob/master/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
 </div>
 
 # Prerequisites
@@ -77,7 +77,7 @@ However, WooCommerce only supports the language of your ecommerce platform, irre
 
   To change this behavior, use the `multisafepay_customer_locale` filter hook in our plugin.
 
-  Ask your developer to read WordPress Developer Resources - <a href="https://developer.wordpress.org/plugins/hooks/filters/" target="_blank">Filters in Wordpress</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  Ask your developer to read WordPress Developer Resources - <a href="https://developer.wordpress.org/plugins/hooks/filters/" target="_blank">Filters in Wordpress</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
   Example implementation:
 
@@ -131,8 +131,8 @@ If you use the TranslatePress plugin for translations, to configure it for payme
 
   First, read the following:
 
-  * Wordpress – <a href="https://developer.wordpress.org/plugins/hooks/filters/" target="_blank">Filters in Wordpress</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
-  * MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/php-sdk/" target="_blank">MultiSafepay PHP-SDK</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+  * Wordpress – <a href="https://developer.wordpress.org/plugins/hooks/filters/" target="_blank">Filters in Wordpress</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+  * MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/php-sdk/" target="_blank">MultiSafepay PHP-SDK</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
   Example of how to implement and overwrite the shopping cart:
 
@@ -221,7 +221,7 @@ The plugin supports [payment components](/docs/payment-components/), which:
 
   1. Sign in to your WooCommerce backend.
   2. Go to **WooCommerce** > **Orders** > **Add order**.
-  3. For instructions to register the order details, see WooCommerce - <a href="https://docs.woocommerce.com/document/managing-orders/#section-16" target="_blank">Managing orders</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  3. For instructions to register the order details, see WooCommerce - <a href="https://docs.woocommerce.com/document/managing-orders/#section-16" target="_blank">Managing orders</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   4. In **Order actions** panel, select the **Email invoice / order details to customer** option.
   5. Click **Create order**.\
      An email is sent to the customer containing the order details and a payment link. The payment link is also available to the customer in their private account, under **Orders**.
@@ -296,14 +296,14 @@ You can apply [surcharges](/docs/surcharges/) in the plugin when combined with a
 * possible reasons
 
 WC\_Order::get\_checkout\_order\_received\_url() =>\
-<a href="https://woocommerce.github.io/code-reference/classes/WC-Order.html#method_get_checkout_order_received_url" target="_blank">https://woocommerce.github.io/code-reference/classes/WC-Order.html#method\_get\_checkout\_order\_received\_url</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>
+<a href="https://woocommerce.github.io/code-reference/classes/WC-Order.html#method_get_checkout_order_received_url" target="_blank">https://woocommerce.github.io/code-reference/classes/WC-Order.html#method\_get\_checkout\_order\_received\_url</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}}></i>
 does not return correct URL, which can be caused by a third party plugin making use of the "woocommerce\_get\_checkout\_order\_received\_url" filter and returning a wrong value
 
 * possible solutions
 
 Use the filter "woocommerce\_get\_checkout\_order\_received\_url", provided by WooCommerce, and re-format into the correct value.
 
-<a href="https://woocommerce.github.io/code-reference/files/woocommerce-includes-class-wc-order.html#source-view.1777" target="_blank">WooCommerce code reference</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />\ <a href="https://developer.wordpress.org/reference/functions/add_filter/" target="_blank">WooCommerce add filter</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+<a href="https://woocommerce.github.io/code-reference/files/woocommerce-includes-class-wc-order.html#source-view.1777" target="_blank">WooCommerce code reference</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />\ <a href="https://developer.wordpress.org/reference/functions/add_filter/" target="_blank">WooCommerce add filter</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 ## Updates
 
@@ -324,9 +324,9 @@ You can update the plugin in your backend and the CMS marketplace, or via SFTP.
 
 ***
 
-<blockquote class="callout callout_info">
-<h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+<h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
   <p>Contact MultiSafepay:</p>

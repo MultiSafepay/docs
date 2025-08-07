@@ -7,19 +7,13 @@ position: 1
 privacy:
   view: public
 ---
-We currently offer this product in the following countries:
-
-<table>
-  <tr>
-    <td>Countries</td>
-    <td>Netherlands, Belgium</td>
-  </tr>
+We currently offer this product in the Netherlands and Belgium.
 
 If you are interested in our Point of Sale solutions, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
 ***
 
-Traditional (CTAP) is a terminal that has passed <a href="https://wp.acquiris.eu/" target="_blank">Acquiris</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> certification and can be connected to acquirers with a C-TAP host.
+Traditional (CTAP) is a terminal that has passed <a href="https://wp.acquiris.eu/" target="_blank">Acquiris</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} /> certification and can be connected to acquirers with a C-TAP host.
 
 # Prerequisites
 
@@ -32,7 +26,7 @@ To process payments, you will need:
 
 To activate a traditional (CTAP) terminal, follow these steps:
 
-1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 2. Go to **Devices** > **Terminals**.
 3. Click **Add terminal**.
 4. Below the **Group**, select a terminal group or click **Add in new group**. To learn more about how to create terminal groups, see User guide - [How to create a terminal group](/activation#how-to-create-a-terminal-group).
@@ -40,7 +34,7 @@ To activate a traditional (CTAP) terminal, follow these steps:
    **💡 Tip!** As long as the terminal is not bound, you can modify the **TID** manually via **Devices** > **Terminals** > **Edit**. The name can still be modified after linking the device.
 6. Copy the **Terminal ID**, **Account ID**, and **CTAP Acquirer** and send them to your POS provider.
 7. After your POS provider has set up your terminal, the activation is completed.
-8. Terminal manufacturer and serial number are now displayed in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+8. Terminal manufacturer and serial number are now displayed in your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 
 ✅ Success! You have successfully activated your terminal. You can now start accepting payments.
 
@@ -98,7 +92,7 @@ To view the ID and API key for a terminal group:
 
   **In your dashboard**
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
   2. Go to **Transactions** > **Transaction overview**, and click the relevant transaction.
   3. On the **Transaction details** page, click **Refund order**.
   4. In the **Reason / Description** field, enter the reason for the refund or a description of what happened with the order, and then click **Complete**.

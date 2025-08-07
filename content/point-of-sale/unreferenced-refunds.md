@@ -32,7 +32,7 @@ An unreferenced refund is a payment process where you use the funds from your Mu
 
 Maximum amounts can be adjusted. Send a request to [risk@multisafepay.com](mailto:risk@multisafepay.com).
 
-**⚠️Note:** Remember that to process an unreferenced refund, you must have sufficient funds in your MultiSafepay account balance. To learn how to top your balance, see <a href="https://docs.multisafepay.com/docs/account-balance#top-ups" target="_blank">Top ups</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+**⚠️Note:** Remember that to process an unreferenced refund, you must have sufficient funds in your MultiSafepay account balance. To learn how to top your balance, see <a href="https://docs.multisafepay.com/docs/account-balance#top-ups" target="_blank">Top ups</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>.
 
 ## How it works
 
@@ -148,7 +148,7 @@ Check the table below to learn more about how to receive updates for unreference
 
 | Terminal     | How to handle notifications                                                                                                                                                                 |
 | :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **SmartPOS** | To receive order updates, set up a <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. For **cloud mode**, you can also subscribe to our [event notifications](doc:event-notifications). |
+| **SmartPOS** | To receive order updates, set up a <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>. For **cloud mode**, you can also subscribe to our [event notifications](doc:event-notifications). |
 | **CTAP**     | Make a [Get order](/reference/getorder/) request. Retrieve the details from the response.                                                                                                   |
 
 ***

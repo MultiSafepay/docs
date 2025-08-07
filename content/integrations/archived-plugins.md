@@ -1,11 +1,15 @@
 ---
-title: Archived integrations
+title: Craft Commerce
 category:
   uri: Integrations
-slug: archived-integrations
-position: 4
+parent:
+  uri: Archived integrations
+slug: craft-commerce
+position: 0
 privacy:
   view: public
+content:
+  excerpt: Technical manual for MultiSafepay's free plugin.
 ---
 > ⚠️ Note:
 >

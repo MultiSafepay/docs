@@ -149,15 +149,15 @@ Functionalities you can access as a partner through your Sunmi portal:
 
 ## Sunmi developer documentation
 
-For guides on available tools and functions, you can refer to the <a href="https://developer.sunmi.com/docs/en-US/index" target="_blank">Sunmi Developer Documentation</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+For guides on available tools and functions, you can refer to the <a href="https://developer.sunmi.com/docs/en-US/index" target="_blank">Sunmi Developer Documentation</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 
-To find specific information for your terminal model, go to <a href="https://developer.sunmi.com/docs/en-US/ceghjk502/fcmeghjk546" target="_blank">Documents by Model</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+To find specific information for your terminal model, go to <a href="https://developer.sunmi.com/docs/en-US/ceghjk502/fcmeghjk546" target="_blank">Documents by Model</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 
 ## Sunmi contact
 
 As a partner you can contact Sunmi support for any issues with the terminal.
 
-1. Go to <a href="https://www.sunmi.com/en-US/" target="_blank">Sunmi</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
+1. Go to <a href="https://www.sunmi.com/en-US/" target="_blank">Sunmi</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
 2. Click **Support**
 3. Go to **Contact Technical Support**
 4. Click **Need to raise a request**

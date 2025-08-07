@@ -26,15 +26,15 @@ Zero Authorization supports Maestro, Mastercard, and Visa, and is available in a
 ### Via our API
 
 * API reference – [Create order](/reference/createorder/) > Card order
-* API recipe – <a href="https://docs.multisafepay.com/recipes/verify-a-card-with-zero-authorization" target="_blank">Verify a card with Zero Authorization</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+* API recipe – <a href="https://docs.multisafepay.com/recipes/verify-a-card-with-zero-authorization" target="_blank">Verify a card with Zero Authorization</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 
 **Via ready-made integrations:** Zero Authorization is not supported in our [ready-made integrations](/docs/our-integrations/) by default, but you can customize it via our API.<br />
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

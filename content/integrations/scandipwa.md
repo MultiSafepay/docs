@@ -1,6 +1,10 @@
 ---
 title: ScandiPWA
 category:
+  uri: Integrations
+  children:
+    - uri: Archived integrations
+parent:
   uri: Archived integrations
 slug: scandipwa
 position: 3
@@ -16,16 +20,16 @@ content:
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/ScandiPWA.svg" width="50" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
 <div style={{display: 'flex', flexWrap: 'wrap'}}>
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration.git" target="_self"><span>Download</span><i class="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration.git" target="_self"><span>Download</span><i className="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
 
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration" target="_blank"><i class="icon-external-link" /> <span>Source code</span></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/scandipwa-multisafepay-payment-integration" target="_blank"><i className="icon-external-link" /> <span>Source code</span></a>
 </div>
 
 # Prerequisites
 
-* You will need a <a href="https://testmerchant.multisafepay.com/signup" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
-* To support GraphQL queries, install the <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">MultiSafepay Magento 2 GraphQL</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> plugin.
-* You must also meet ScandiPWA and Magento requirements. See ScandiPWA – <a href="https://docs.scandipwa.com/getting-started/getting-started/magento-integration#prerequisites" target="_blank">Prerequisites</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* You will need a <a href="https://testmerchant.multisafepay.com/signup" target="_blank">MultiSafepay account</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* To support GraphQL queries, install the <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">MultiSafepay Magento 2 GraphQL</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> plugin.
+* You must also meet ScandiPWA and Magento requirements. See ScandiPWA – <a href="https://docs.scandipwa.com/getting-started/getting-started/magento-integration#prerequisites" target="_blank">Prerequisites</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 # Payment methods
 
@@ -75,9 +79,9 @@ content:
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

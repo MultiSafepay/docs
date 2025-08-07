@@ -46,7 +46,7 @@ Set `type` to `direct`.
 When you collect cardholder data, you must also collect the contextual information about the customer's device (fingerprint) required for [3DS2](/docs/3ds2) authentication. The fingerprint can be created through JavaScript interfaces and methods in the customer's browser.\
 **⚠️ Note:** Some details are required to comply with scheme regulations. For example, transactions created with payment method VISA must include correct information in the `email` or `phone` parameter.
 
-To learn how to create a fingerprint, see Recipe – <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Create a customer.browser object</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+To learn how to create a fingerprint, see Recipe – <a href="https://docs.multisafepay.com/recipes/create-a-customerbrowser-object" target="_blank">Create a customer.browser object</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 
 ***
 
@@ -75,9 +75,9 @@ The table below sets out supported payment methods and their respective [3D Secu
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

@@ -16,7 +16,7 @@ Partner account holders manage the accounts of multiple affiliated merchants, wh
 
 To create a new affiliated account in your dashboard, follow these steps:
 
-1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">partner/primary account</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">partner/primary account</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 2. Go to the affiliate dashboard, and then click **Affiliates**.
 3. In the affiliate dashboard top-right corner, copy the **Partnerlink** and send it to your affiliates.
 4. To customize a welcome email, go to **Settings** > **Email styling**, and then click the relevant website.
@@ -37,7 +37,7 @@ You can also automate onboarding affiliates [via our API](/docs/affiliate-onboar
 
 To access an affiliate's account:
 
-1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">partner/primary account</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">partner/primary account</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 2. Under the **Action** column for the relevant merchant, click **Sign in**.
 
 Here you can manage:
@@ -66,9 +66,9 @@ Buy/sell pricing module allows partners to modify an affiliate sell rate.
 
 To modify an affiliate sell rate, follow these steps:
 
-1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay account</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 2. Go to **Affiliates** > **Overview**.
-3. To open the price module, click the **arrow-down icon:arrow_down_small:** <i class="bi bi-caret-down-fill" /> next to the affiliate's account number.
+3. To open the price module, click the **arrow-down icon:arrow_down_small:** <i className="bi bi-caret-down-fill" /> next to the affiliate's account number.
 4. Click **Edit** to modify the pricing of a payment method.<br />A pop-up screen appears.
 5. Add the **New sell rate** > **Save**.<br /> Your **New sell rate** is updated in your dashboard and in future transaction.
 
@@ -80,9 +80,9 @@ To modify an affiliate sell rate, follow these steps:
 > For more information, contact your account manager.
 
 <HTMLBlock>{`
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

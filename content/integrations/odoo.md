@@ -1,6 +1,10 @@
 ---
 title: Odoo
 category:
+  uri: Integrations
+  children:
+    - uri: Archived integrations
+parent:
   uri: Archived integrations
 slug: odoo
 position: 1
@@ -16,11 +20,11 @@ content:
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Odoo.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
 <div style={{display: 'flex', flexWrap: 'wrap'}}>
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/official-odoo-integration/archive/13.0-develop.zip" target="_self"><span>Download</span><i class="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/official-odoo-integration/archive/13.0-develop.zip" target="_self"><span>Download</span><i className="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
 
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/official-odoo-integration" target="_blank"><i class="icon-external-link" /> <span>Source code</span></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/official-odoo-integration" target="_blank"><i className="icon-external-link" /> <span>Source code</span></a>
 
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/official-odoo-integration/blob/13.0-develop/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/official-odoo-integration/blob/13.0-develop/CHANGELOG.md" target="_blank"><span>Changelog</span></a>
 </div>
 
 # Prerequisites
@@ -44,7 +48,7 @@ content:
    ```
    pip3 install multisafepay==0.2.0
    ```
-   For more information about dependencies, see Python - <a href="https://pypi.org/project/multisafepay" target="_blank">MultiSafepay</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+   For more information about dependencies, see Python - <a href="https://pypi.org/project/multisafepay" target="_blank">MultiSafepay</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 5. Restart your Odoo server.
 6. In your Odoo <Glossary>backend</Glossary>, activate developer mode.
 7. Go to the **Apps menu** > **Update apps list**.
@@ -109,7 +113,7 @@ Supported since release: 1.1.0, July 2nd 2021.
 
   1. Select the payment method on the checkout page, and then click **Pay now**.
   2. Provide any required information (e.g. bank account number), and confirm payment.
-  3. When the transaction is completed, you receive a *Order \{ order ID } Confirmed* <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook notification</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  3. When the transaction is completed, you receive a *Order \{ order ID } Confirmed* <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook notification</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 </details>
 
 <details id="how-to-ship-orders">
@@ -196,9 +200,9 @@ You can update in your <Glossary>backend</Glossary>.
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

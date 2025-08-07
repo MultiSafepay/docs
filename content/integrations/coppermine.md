@@ -13,7 +13,7 @@ content:
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/coppermine-docs.svg" width="50" align="right" style={{ margin: "20px", maxHeight: "75px" }} />
 
-MultiSafepay has partnered with <a href="https://www.coppermine.nl/" target="_blank">Coppermine</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />, which offers a complete ecommerce suite including CRM, B2B, B2C, subscriptions, customer service, logistics, and finance.
+MultiSafepay has partnered with <a href="https://www.coppermine.nl/" target="_blank">Coppermine</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />, which offers a complete ecommerce suite including CRM, B2B, B2C, subscriptions, customer service, logistics, and finance.
 
 # How to integrate
 
@@ -21,14 +21,14 @@ To integrate MultiSafepay as your payment service provider, follow these steps:
 
 ## 1. In your dashboard
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />.
 2. Go to **Websites**, and [add the required website(s)](/docs/sites/) to your account.
 3. In the **Website profile** page for each website:
    * [Activate the required payment methods](/docs/payment-methods/).
    * In the **Webhook URL** field, add the Coppermine webhook endpoint for sending status updates and other notifications. <br /> For more information, see [Configure your webhook endpoint](/docs/webhook/).
 4. Copy your:
    * Account ID (top-right corner of the dashboard)
-   * [Website ID, API key, and security code](/docs/sites#site-id-api-key-and-security-code)
+   * [Website ID, API key, and security code](/docs/sites#website-id-api-key-and-security-code)
 
 ## 2. In Coppermine
 
@@ -45,9 +45,9 @@ To integrate MultiSafepay as your payment service provider, follow these steps:
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

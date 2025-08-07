@@ -43,7 +43,7 @@ If you take no action, uncleared transactions automatically expire after 5 days.
 
   To review uncleared payments, click the dashboard notification, or:
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Uncleared transactions**.
   3. Click each transaction in the list to view the **Transaction details** page, including:
      * Basic information about the transaction, history data, and any notes
@@ -172,9 +172,9 @@ The following indicators paint a cumulative picture of uncleared payments, but a
   [Viewing your uncleared balance](/docs/account-balance#uncleared-balance)
 </Callout>
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

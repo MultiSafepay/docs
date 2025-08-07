@@ -14,16 +14,16 @@ content:
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento_PWA.svg" width="50" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
 <div style={{display: 'flex', flexWrap: 'wrap'}}>
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration/archive/refs/tags/1.1.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration/archive/refs/tags/1.1.0.zip" target="_self"><span>Download</span><i className="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
 
-  <a class="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration" target="_blank"><i class="icon-external-link" /> <span>Source code</span></a>
+  <a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#DFEBF6', color: '#0a59a1', textDecoration: 'none'}} href="https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration" target="_blank"><i className="icon-external-link" /> <span>Source code</span></a>
 </div>
 
 # Prerequisites
 
-* You will need a <a href="https://testmerchant.multisafepay.com/signup" target="_blank">MultiSafepay account</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
-* To support GraphQL queries, install the <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">MultiSafepay Magento 2 GraphQL plugin</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
-* You must also meet Magento's requirements for PWA Studio (Venia). See Magento – <a href="https://magento.github.io/pwa-studio/venia-pwa-concept/setup/#prerequisites" target="_blank">Prerequisites</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* You will need a <a href="https://testmerchant.multisafepay.com/signup" target="_blank">MultiSafepay account</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* To support GraphQL queries, install the <a href="https://github.com/MultiSafepay/magento2-graphql" target="_blank">MultiSafepay Magento 2 GraphQL plugin</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* You must also meet Magento's requirements for PWA Studio (Venia). See Magento – <a href="https://magento.github.io/pwa-studio/venia-pwa-concept/setup/#prerequisites" target="_blank">Prerequisites</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 # Payment methods
 
@@ -40,7 +40,7 @@ By default, this plugin supports all [payment methods supported by our Magento 2
 * WeChat Pay
 
 You can integrate these payment methods yourself.\
-See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration/tree/master/src/components" target="_blank">PWA Studio components</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-multisafepay-payment-integration/tree/master/src/components" target="_blank">PWA Studio components</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 # Installation
 
@@ -108,9 +108,9 @@ See MultiSafepay GitHub – <a href="https://github.com/MultiSafepay/pwastudio-m
 
 ***
 
-<blockquote class="callout callout_info">
-  <h3 class="callout-heading false">
-    <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
 

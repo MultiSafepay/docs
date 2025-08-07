@@ -20,11 +20,11 @@ You can split payments by percentage, a fixed amount, or by both.
 
 # Activation
 
-None.
+The Split Payments feature is available by default for all MultiSafepay accounts.
 
 # Integration
 
-See Recipes – <a href="https://docs.multisafepay.com/recipes/split-a-payment" target="_blank">Split a payment</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i> !<a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" target="_blank"></a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>.
+See Recipes – <a href="https://docs.multisafepay.com/recipes/split-a-payment" target="_blank">Split a payment</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i> !<a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" target="_blank"></a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>.
 
 Split Payments are not supported in our [ready-made integrations](/docs/our-integrations/).
 
@@ -41,7 +41,7 @@ You can process full and partial refunds, but only from the account that created
 
   <br />
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i> !<a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" target="_blank">external link icon</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i> !<a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" target="_blank">external link icon</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>.
   2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
   3. On the **Transaction details** page, click **Refund**.
   4. Enter the amount you want to refund to the customer, and then click **Confirm refund**.\
@@ -55,9 +55,9 @@ You can process full and partial refunds, but only from the account that created
 
 ***
 
-<blockquote class="callout callout_info">
-    <h3 class="callout-heading false">
-        <span class="callout-icon">💬</span>
+<blockquote className="callout callout_info">
+    <h3 className="callout-heading false">
+        <span className="callout-icon">💬</span>
         <p>Support</p>
     </h3>
     <p>Email <a href="mailto:support@multisafepay.com">support@multisafepay.com</a></p>

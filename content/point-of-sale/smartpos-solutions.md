@@ -51,7 +51,7 @@ This diagram shows a successful cloud-based POS payment flow. Click to magnify.
 
 **⚠️ Note:** Before you start initiating payments, you must ensure **cloud mode** is enabled - see [SmartPOS features](/docs/smartpos-features).
 
-* Create an order. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* Create an order. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 * Cancel an order. See [cancellation](#cancellation).
 
 To receive payments updates subscribe to [Event notifications.](/docs/event-notifications)
@@ -148,7 +148,7 @@ curl -X POST \
 '
 ```
 
-2. To initiate payments - see <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">MultiSafepay Android POS integration </a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+2. To initiate payments - see <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">MultiSafepay Android POS integration </a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 <br />
 
@@ -278,7 +278,7 @@ The table below sets out options available for receiving updates on the payments
 | :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
 | Cloud POS payment   | Subscribe to the [event notifications.](/docs/event-notifications)                                                                                                                                        | Configure a [webhook](/docs/webhook#configure-your-webhook-endpoint.).                              |
 | Web applications    | Set `callback_url` in the [ link.](/docs/solutions#web-applications-pos)                                                                                                                                  | Set `notification_url` in the [ link](/docs/solutions#web-applications-pos) to configure a webhook. |
-| Native applications | Set `package_name` in your <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">intent call.</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> | Configure a [webhook.](/docs/webhook#configure-your-webhook-endpoint.)                              |
+| Native applications | Set `package_name` in your <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">intent call.</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> | Configure a [webhook.](/docs/webhook#configure-your-webhook-endpoint.)                              |
 
 <br />
 
@@ -292,7 +292,7 @@ To create an order, always use the **API key** of your device's [terminal group]
 
 ## Cancellation
 
-To cancel an order, make a **POST** request to our cancellation endpoint. This requires the use of an `order_id` and a group **API** key, which you can find at your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />  under **Manage groups**.
+To cancel an order, make a **POST** request to our cancellation endpoint. This requires the use of an `order_id` and a group **API** key, which you can find at your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />  under **Manage groups**.
 
 Insert the `order_id` and the **API** key in the URL.
 
@@ -339,7 +339,7 @@ curl -X POST
 
   **In your dashboard**
 
-  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
   2. Go to **Transactions** > **Transaction overview**, and click the relevant transaction.
   3. On the **Transaction details** page, click **Refund order**.
   4. In the **Reason / Description** field, enter the reason for the refund or a description of what happened with the order, and then click **Complete**.

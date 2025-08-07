@@ -31,7 +31,7 @@ If you are interested in our Point of Sale solutions, email [sales@multisafepay.
 
 After activating your SmartPOS terminal, you can add features from your SmartPOS payment app. SmartPOS features contains:
 
-<div class="settings-container" style={{display:'flex', alignItems:'flex-start', marginTop:'20px'}}>
+<div className="settings-container" style={{display:'flex', alignItems:'flex-start', marginTop:'20px'}}>
   <div style={{marginRight: '80px'}}>
     <strong>Global Settings</strong>
 
