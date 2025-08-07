@@ -99,7 +99,6 @@ To test Alipay payments, see Testing payment methods - [Wallets](/docs/testing#w
     <span className="callout-icon">💬</span>
     <p>Support</p>
   </h3>
-
   <p>Email <a href="mailto:support@multisafepay.com">[support@multisafepay.com](mailto:support@multisafepay.com)</a></p>
 </blockquote>
 

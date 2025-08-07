@@ -15,6 +15,7 @@ Request to Pay is a Deutsche Bank payment method based on the PSD2 Open Banking 
 
 The funds are transferred directly to your business bank account, instead of your account balance, which simplifies reconciliation.
 
+
 Read how Request to Pay can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/request-to-pay" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />
 
 > ⚠️ Availability\

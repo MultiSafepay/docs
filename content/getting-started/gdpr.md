@@ -27,6 +27,7 @@ Our primary activity is processing online payments. We are a data controller, re
 
 For more information, see the MultiSafepay – <a href="https://www.multisafepay.com/downloads/Addendum_GDPR_2018.pdf" target="_blank">GDPR addendum</a> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }}></i> <i className="fa fa-external-link" style={{ fontSize: "12px", color: "#8b929e" }} />. It includes a number of provisions similar to a standard processing agreement.
 
+
 # Customer data
 
 MultiSafepay only uses customer data for processing online payments, and never for any other commercial purposes. If we ever need to use data for another purpose, we explicitly request consent.
