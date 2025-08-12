@@ -1,9 +1,9 @@
 ---
 title: Unreferenced refunds
 category:
-  uri: Point-of-sale
-slug: unreferenced-refunds
-position: 3
+  uri: test
+slug: unreferenced-refunds-2
+position: 0
 privacy:
   view: anyone_with_link
 ---
