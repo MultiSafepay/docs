@@ -38,7 +38,16 @@ We may ask you to provide additional documents, e.g. if you have an unusual comp
 
 **⚠️ Note:** Requests to process cards may be denied, e.g. if you sell [prohibited products or services](/docs/prohibited-products-services/).
 
-# 3. Validate bank account
+# 3. Add a bank account
+
+1. Sign in to your <a href="https://merchant.multisafepay.com/" target="_blank">live dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> and go to **Finances** > **Bank accounts**.
+2. Provide information about each bank account added to the merchant account, including: 
+
+- Name of account holder
+- IBAN
+- Currency
+
+## Validate bank account
 
 Validate your business bank account by either:
 
