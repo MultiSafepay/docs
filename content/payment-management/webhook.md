@@ -346,11 +346,14 @@ Acknowledge that you have successfully received a valid notification by returnin
 * HTTP status code `200` with `OK` within the first 100 characters of the message body, **or**
 * HTTP status code `200` with `MULTISAFEPAY_OK` anywhere within the first 100 characters of the message body.
 
-Until we receive your acknowledgment, we resend the notification 3 times at 15 minute intervals, each with a new timestamp.
+Notification **must** be acknowledged within 10 seconds. 
+
+Until we receive your acknowledgment, we resend the notification 5 times at 15 minute intervals, each with a new timestamp.
+ 
 
 ## 4. Resend failed notifications
 
-If a notification fails or we don't receive your acknowledgment, we resend the notification 3 times at 15 minute intervals, each with a new timestamp.
+If a notification fails or we don't receive your acknowledgment, we resend the notification 5 times at 15 minute intervals, each with a new timestamp.
 
 If for some reason you don't receive the notification, you can retry it manually in your dashboard.
 
