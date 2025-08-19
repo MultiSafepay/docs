@@ -9,7 +9,7 @@ slug: 'magento-1'
 ---
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Magento.svg" width="50" align="right" style="margin: 20px; max-height: 75px"/>
 
-<a class="suggestEdits" style="display: inline-flex; border-radius: 5px; padding: 10px 20px; margin: 10px; font-size: 1rem; background-color: #006ba1; color: #ffffff; text-decoration: none;" href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.7.0.zip" target="_self"><span>Download</span><i class="icon icon-download" style="margin-left: 0.6em;"> </i></a>
+<a className="suggestEdits" style={{display: 'inline-flex', borderRadius: '5px', padding: '10px 20px', margin: '10px', fontSize: '1rem', backgroundColor: '#006ba1', color: '#ffffff', textDecoration: 'none'}} href="https://github.com/MultiSafepay/docs/raw/master/static/plugin-downloads/magento1/Plugin_Magento_3.8.0.zip" target="_self"><span>Download</span><i className="icon icon-download" style={{marginLeft: '0.6em'}}> </i></a>
 
 > ⚠️ Action required
 >
@@ -24,9 +24,24 @@ slug: 'magento-1'
 **3.7.0**
 Release date: Nov. 28th, 2024
 
-### Changed
-+ DAVAMS-796: Rebrand Afterpay-Riverty Logo
-+ DAVAMS-744: Rebranding in3 B2C
+  **3.8.0**\
+  Release date: Aug. 7th, 2025
+
+  ### Added
+
+  * DAVAMS-863: Add Billink
+  * DAVAMS-827: Add Bizum
+  * PLGMAGONE-776: Add generic payment methods instructions
+
+  ### Removed
+
+  * DAVAMS-903: Remove ALIPAY payment method
+  * DAVAMS-816: Remove gender checkout field from iDEAL in3
+
+  ***
+
+  **3.7.0**\
+  Release date: Nov. 28th, 2024
 
 ### Fixed
 + PLGMAGONE-771: Fix surcharges where percentage not applied when fixed amount is 0
@@ -1030,6 +1045,48 @@ Recurring Payments are not available for the generic card payments gateway. You 
 | Backend | Full refunds and <a href="https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html" target="_blank">credit memos</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> You can't refund more than the original amount |
 | <<glossary:BNPL>> orders | You can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded. |
 
+<<<<<<< Updated upstream
+=======
+  <Table>
+    <thead>
+      <tr>
+        <th>
+          Platform
+        </th>
+        <th>
+          Details
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          MultiSafepay dashboard
+        </td>
+        <td>
+          Full refunds (may not appear in your backend)
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Backend
+        </td>
+        <td>
+          Full refunds and <a href="https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html" target="_blank">credit memos</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> <br /> You can't refund more than the original amount
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <Glossary>BNPL</Glossary>
+          orders
+        </td>
+        <td>
+          You can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded.
+        </td>
+      </tr>
+    </tbody>
+  </Table>
+>>>>>>> Stashed changes
 </details>
 
 <details id="how-to-process-backend-refunds">
@@ -1098,10 +1155,28 @@ For more information and instructions, see MultiSafepay blog – <a href="https:
 
 ---
 
+<<<<<<< Updated upstream
 [block:html]
 {
   "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n  </ul>  \n</blockquote>"
 }
 [/block]
+=======
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
+    <p>Support</p>
+  </h3>
+  <p>Contact MultiSafepay:</p>
+  <ul>
+    <li>
+      Telephone: <a href="tel:+310208500500">+31 (0)20 8500 500</a>
+    </li>
+    <li>
+      Email: <a href="mailto:integration@multisafepay.com">[integration@multisafepay.com](mailto:integration@multisafepay.com)</a>
+    </li>
+  </ul>
+</blockquote>
+>>>>>>> Stashed changes
 
 [Top of page](#)
