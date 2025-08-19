@@ -208,17 +208,15 @@ When using <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">
 
 With a soft decline, you first receive a notification with an order status of declined. Once the customer completes the required verification (e.g., enters their PIN), you'll receive another notification. If successful, the order status will be completed. If the payment fails, the order status will be cancelled.
 
-**⚠️Note:** A soft decline is not a final payment status. Proceed with the payment process until the status is **canceled** or **completed**.
+**⚠️Note:** A soft decline is not a final payment status. Proceed with the payment process until the status is `cancelled` or `completed`.
 
-### Cancelling declined transactions
+### Transaction is stuck with `declined` status
 
-To cancel a POS transaction that has been declined, use the correct API endpoint. Do not use a **PATCH** request to update the order status to `cancelled`.
+If you have sent a **PATCH** request to update a declined transaction, the status might not be updated correctly and remain `declined`. To fix this, send a **POST** request with the correct cancellation endpoint using the same `order_id`. This will change the final status to `cancelled`.
 
-#### Correct endpoint
-
-```
+```cURL
 curl -X POST 
-"https://api.multisafepay.com/v1/json/orders/{order_id}/cancel?api_key={terminal-group-api-key}"
+"https://api.multisafepay.com/v1/json/orders/{order_id}/cancel?api_key={your-api-key}"
 ```
 
 ***
