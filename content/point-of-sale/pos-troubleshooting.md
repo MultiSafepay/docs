@@ -214,7 +214,7 @@ With a soft decline, you first receive a notification with an order status of de
 
 If you have sent a **PATCH** request to update a declined transaction, the status might not be updated correctly and remain `declined`. To fix this, send a **POST** request with the correct cancellation endpoint using the same `order_id`. This will change the final status to `cancelled`.
 
-```cURL
+```curl
 curl -X POST 
 "https://api.multisafepay.com/v1/json/orders/{order_id}/cancel?api_key={your-api-key}"
 ```
