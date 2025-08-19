@@ -1,15 +1,16 @@
 ---
-title: 'Event notifications'
-parentDoc: 64674fbc74bc4007521ebbcb
-category: 6477597e0e2961004638cd5d
-order: 4
-hidden: false
-slug: 'event-notifications'
-excerpt: 'Receive status updates for SmartPOS terminal transactions.'
-
-
+title: Event notifications
+category:
+  uri: Point-of-sale
+slug: event-notifications
+parent:
+  uri: smartpos-terminal
+position: 4
+privacy:
+  view: public
+content:
+  excerpt: Receive status updates for SmartPOS terminal transactions.
 ---
-
 MultiSafepay offers the possibility to subscribe to event notifications. This allows your system to receive real-time updates on order statuses without the need for manual checks.
 
 # How it works
@@ -18,33 +19,20 @@ MultiSafepay's **cloud mode** uses WebSockets to establish a persistent connecti
 
 This diagram shows the end-to-end flow of event notifications.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d9319259aa70fc594e26a315cb6bfc46130fa4d47c96bd0b2759a23faf4b5734-Untitled_diagram___Mermaid_Chart-2025-07-08-092557.svg",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/d9319259aa70fc594e26a315cb6bfc46130fa4d47c96bd0b2759a23faf4b5734-Untitled_diagram___Mermaid_Chart-2025-07-08-092557.svg" />
 
-Once you have subscribed to event notifications, you will receive order payment updates when: 
+Once you have subscribed to event notifications, you will receive order payment updates when:
 
-- A customer completes the payment.
-- A payment is reversed.
-- The payment has been cancelled or declined.
+* A customer completes the payment.
+* A payment is reversed.
+* The payment has been cancelled or declined.
 
 # Prerequisites
 
-- SmartPOS terminal must be [activated in your MultiSafepay account](/docs/getting-started-guide/).
-- Payments must be initiated via [cloud <<glossary:POS>> payment](/docs/smartpos-solutions#cloud-pos-payment).
+* SmartPOS terminal must be [activated in your MultiSafepay account](/docs/getting-started-guide/).
+* Payments must be initiated via [cloud <Glossary>POS</Glossary> payment](/docs/smartpos-solutions#cloud-pos-payment).
 
-In other scenarios, you can make use of our <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>notifications.
+In other scenarios, you can make use of our <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook </a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />notifications.
 
 **⚠️Note:** When making requests locally, you might encounter **CORS** (**Cross-Origin Resource Sharing**) errors. We recommend using a **backend proxy** to handle the API requests, bypassing browser CORS restrictions.
 
@@ -54,7 +42,7 @@ Follow the steps below to learn how to subscribe to our event notifications.
 
 ## 1. Initiate a Cloud POS payment
 
-1. [Create an order](/reference/createorder/), and set`terminal_id` in your request. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+1. [Create an order](/reference/createorder/), and set`terminal_id` in your request. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 2. In response, you receive an `events_token` and an `event_stream_url`.
 
 #### Example request
@@ -96,7 +84,7 @@ curl --location --request POST \
 
 ## 2. Subscribe to the event notifications
 
-To subscribe to event notifications make a `GET` request, using the `events_token` and the `events_stream_url` from your response. See recipe - [Subscribe to Event notifications](/recipes/subscribe-to-event-notifications) 
+To subscribe to event notifications make a `GET` request, using the `events_token` and the `events_stream_url` from your response. See recipe - [Subscribe to Event notifications](/recipes/subscribe-to-event-notifications)
 
 #### Example request
 
@@ -121,29 +109,53 @@ data: {"financial_status":"completed","order_id":"example_order_id","session_id"
 
 The table below sets out possible payment statuses and what they commonly mean.
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Description",
-    "h-1": "Payment status",
-    "0-0": "The <<glossary:card scheme>> is processing your payment request.",
-    "0-1": "Initialized",
-    "1-0": "The payment has been cancelled on the terminal or via API, or has expired after 60 seconds of inactivity. For more information - see [Cancellation.](/docs/smartpos-solutions#cancellation)  <br>**Note:**  You can now initiate another cloud POS payment.",
-    "1-1": "Cancelled",
-    "2-0": "The customer has completed the payment.  <br>**Note:**  You can now initiate another cloud POS payment.",
-    "2-1": "Completed",
-    "3-0": "The <<glossary:card scheme>> has declined the payment. The customer will be redirected to the payment screen to retry the payment.  \n  \nIn certain cases, a payment may be **soft declined**, meaning the customer must authenticate to proceed with the transaction. For more information, see <a href=\"https://docs.multisafepay.com/docs/smartpos-solutions#soft-declines\" target=\"_blank\">Soft declines</a> <i class=\"fa fa-external-link\" style=\"font-size:12px;color:#8b929e\"></i> - SmartPOS solutions.",
-    "3-1": "Declined"
-  },
-  "cols": 2,
-  "rows": 4,
-  "align": [
-    "left",
-    "left"
-  ]
-}
-[/block]
-
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Description
+      </th>
+      <th>
+        Payment status
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        The <Glossary>card scheme</Glossary> is processing your payment request.
+      </td>
+      <td>
+        Initialized
+      </td>
+    </tr>
+    <tr>
+      <td>
+        The payment has been cancelled on the terminal or via API, or has expired after 60 seconds of inactivity. For more information - see [Cancellation.](/docs/smartpos-solutions#cancellation)  <br />**Note:**  You can now initiate another cloud POS payment.
+      </td>
+      <td>
+        Cancelled
+      </td>
+    </tr>
+    <tr>
+      <td>
+        The customer has completed the payment.  <br />**Note:**  You can now initiate another cloud POS payment.
+      </td>
+      <td>
+        Completed
+      </td>
+    </tr>
+    <tr>
+      <td>
+        The <Glossary>card scheme</Glossary> has declined the payment. The customer will be redirected to the payment screen to retry the payment.<br />
+        In certain cases, a payment may be **soft declined**, meaning the customer must authenticate to proceed with the transaction. For more information, see <a href="https://docs.multisafepay.com/docs/smartpos-solutions#soft-declines" target="_blank">Soft declines</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> - SmartPOS solutions.
+      </td>
+      <td>
+        Declined
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 ***
 

@@ -1,9 +1,11 @@
 ---
-title : "Equipo de Integraciones: Ayúdanos a ayudarte"
-category: 62962dd7e272a6002ebbbbc5
-order: 1
-hidden: true
-slug: 'ayudanos-a-ayudarte'
+title: 'Equipo de Integraciones: Ayúdanos a ayudarte'
+category:
+  uri: Integrations
+slug: ayudanos-a-ayudarte
+position: 1
+privacy:
+  view: anyone_with_link
 ---
 
 Las integraciones de comercio electrónico desarrolladas por MultiSafepay se prueban antes del lanzamiento, sin embargo, es posible que alguna funcionalidad no funcione correctamente en su sitio web. Esto puede ocurrir debido a la integración personalizada, una configuración errónea o un error propio.

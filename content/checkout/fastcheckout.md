@@ -1,23 +1,14 @@
 ---
-title: 'FastCheckout'
-category: 62bd999547298d001abc714c
-order: 0
-hidden: true
-slug: 'fastcheckout'
+title: FastCheckout
+category:
+  uri: Checkout
+slug: fastcheckout
+position: 0
+privacy:
+  view: anyone_with_link
 ---
 
-<blockquote class="callout callout_warning">
-    <h3 class="callout-heading false">Closed beta phase</h3>
-</blockquote>
-
-<style>
-blockquote.callout_warning div.heading-text {
-font-size: 5 rem;
-color: rgb(241, 173, 0) !important;
-}
-</style>
-
-FastCheckout is MultiSafepay's own complete checkout solution for a fast, frictionless checkout experience and increased <<glossary:conversion>>.
+FastCheckout is MultiSafepay's own complete checkout solution for a fast, frictionless checkout experience and increased <Glossary>conversion</Glossary>.
 
 # How it works
 
@@ -26,9 +17,9 @@ FastCheckout is highly flexible and fully customizable. It consists of modular c
 New features and payment methods are made available automatically. No updates or upgrades are required. FastCheckout is optimized for both mobile and desktop.
 
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOExample.png" align ="center"/>
-<br>
+<br />
 
-The FastCheckout page comprises 4 elements that can be displayed or hidden, and configured per <<glossary:order>>.
+The FastCheckout page comprises 4 elements that can be displayed or hidden, and configured per <Glossary>order</Glossary>.
 
 You can also include custom fields, e.g. terms and conditions, newsletter signup.
 
@@ -47,31 +38,31 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
 #### Payment element
 
 - Dynamically displays payment methods based on the customer's country, device, and the order amount
-- Styles how <<glossary:issuers>> are displayed and how to connect to their environment
+- Styles how <Glossary>issuers</Glossary> are displayed and how to connect to their environment
 - Validates input instantly and suggests actionable errors
 - Saves space by bundling all available cards in a single gateway that auto-detects the card type
 - Is [Fuhrmann-2 compliant](/docs/fuhrmann2/)
 
   <details id="issuer-example">
   <summary>Examples of how issuers can be displayed</summary>
-  <br>
+  <br />
 
-  <div style="text-align: center">List</div>
+  <div style={{ textAlign:'center' }}>List</div>
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersList.png" align ="center"/>
-  <br>
+  <br />
 
-  <div style="text-align: center">Dropdown</div>
+  <div style={{ textAlign:'center' }}>Dropdown</div>
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersDropdown.png" align ="center"/>
-  <br>
+  <br />
 
-  <div style="text-align: center">Buttons</div>
+  <div style={{ textAlign:'center' }}>Buttons</div>
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOIssuersButtons.png" align ="center"/>
 
   </details>
 
   <details id="cards-example">
   <summary>Example of single card payment gateway</summary>
-  <br>
+  <br />
 
   <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/FCOCard.png" align ="center"/>
 
@@ -85,14 +76,21 @@ You can also include custom fields, e.g. terms and conditions, newsletter signup
 
 #### Sequence
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/fastcheckout.svg" alt="FastCheckout flow" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 750px;width: 100%;">
+<img
+  src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/fastcheckout.svg"
+  alt="FastCheckout flow"
+  style={{
+    display: 'block',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    maxWidth: '750px',
+    width: '100%',
+  }}
+/>
 
 # Activation
 
-Email a request to activate FastCheckout for specific websites under your account to <sales@multisafepay.com>
+Email a request to activate FastCheckout for specific websites under your account to [sales@multisafepay.com](sales@multisafepay.com)
 
 Specify in your request the relevant [website IDs](/docs/sites#site-id-api-key-and-security-code). 
 
@@ -101,13 +99,13 @@ Specify in your request the relevant [website IDs](/docs/sites#site-id-api-key-a
 To integrate FastCheckout as a hosted page via our API, see:
 
 - API reference – [Create order](/reference/createorder) > FastCheckout order
-- Recipes – <a href="https://docs.multisafepay.com/recipes/create-a-fastcheckout-page" target="_blank">Create a FastCheckout page</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
+- Recipes – <a href="https://docs.multisafepay.com/recipes/create-a-fastcheckout-page" target="_blank">Create a FastCheckout page</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i> 
 
 To embed FastCheckout into your website, see [FastCheckout JavaScript integration](/docs/fastcheckout-integration/).
 
 If you cannot send your available shipping options for the shipping element in your [create order](/reference/createorder) request, see [FastCheckout shipping options request](/docs/fastcheckout-shipping-options/).
 
-<br>
+<br />
 
 ---
 # User guide
@@ -118,9 +116,9 @@ You can add your brand's logo at the top of the FastCheckout page.
 
 <details id="how-to-add-logo">
 <summary>How to add your logo to the FastCheckout page</summary>
-<br>
+<br />
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>.
 2. Go to **Websites**, and then click the relevant website.
 3. On the **Website profile** page, under **Functionality**, from the **FastCheckout logo** list, select the relevant logo. 
 4. Click **Save changes**.
@@ -135,7 +133,7 @@ FastCheckout pages are supported in 6 languages.
 
 <details id="supported-languages">
 <summary>Supported languages</summary>
-<br>
+<br />
 
 - Dutch
 - English
@@ -158,7 +156,7 @@ See API reference > [Create order](/reference/createorder) > FastCheckout order 
 
 <details id="locale-codes">
 <summary>Locale codes per language and country</summary>
-<br>
+<br />
 
 | Code | Language & country |
 |---|---|
@@ -178,7 +176,7 @@ See API reference > [Create order](/reference/createorder) > FastCheckout order 
 
 <details id="locale-example">
 <summary>Locale example</summary>
-<br>
+<br />
 
 ```json
 {
@@ -214,7 +212,7 @@ See API reference > [Create order](/reference/createorder) > FastCheckout order 
 
 <details id="supported-payment-methods">
 <summary>Supported payment methods</summary>
-<br>
+<br />
 
 - Bancontact
 - Bank transfers
@@ -236,10 +234,13 @@ You can follow up abandoned FastCheckout pages with [Second Chance](/docs/second
 
 ---
 
-[block:html]
-{
-  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></p>\n</blockquote>\n"
-}
-[/block]
+<blockquote>
+  <h3>
+    <span>💬</span>
+    Support
+  </h3>
+
+  <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+</blockquote>
 
 [Top of page](#)

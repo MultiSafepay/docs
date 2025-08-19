@@ -1,154 +1,151 @@
 ---
-title: 'Pay After Delivery installments'
-category: 6298bd782d1cf4006032e765
-order: 5
-hidden: false
-parentDoc: 62bd75142e264000a66d62b5
-slug: 'pay-after-delivery-installments'
+title: Pay After Delivery installments
+category:
+  uri: Payment methods
+slug: pay-after-delivery-installments
+position: 5
+privacy:
+  view: public
+parent:
+  uri: bnpl
 ---
+<img src="https://files.readme.io/cf02361-PAD-en.svg" width="100" align="right" style={{margin: '20px', maxHeight: '75px'}} />
 
-<img src="https://files.readme.io/cf02361-PAD-en.svg" width="100" align="right" style="margin: 20px; max-height: 75px"/>
+Pay After Delivery is MultiSafepay's <Glossary>BNPL</Glossary> method that allows customers to pay for orders in **3** equal installments within a period of time.
 
-Pay After Delivery is MultiSafepay's <<glossary:BNPL>> method that allows customers to pay for orders in **3** equal installments within a period of time.
+Read more on how installment payments can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery-installments" target="_blank">multisafepay.com</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
-Read more on how installment payments can benefit your business on <a href="https://www.multisafepay.com/solutions/payment-methods/pay-after-delivery-installments" target="_blank">multisafepay.com</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-
-| Supports | Details |
-|---|---|
-| [Countries](/docs/payment-methods#payment-methods-by-country)  | Netherlands  | 
-| [Currencies](/docs/currencies/) | EUR  | 
-| [Chargebacks](/docs/chargebacks/)  | No  | 
-| [Discounts](/docs/discounts/) | Yes |
-| [Partial capture](#partially-ship-order) | Yes |
-| [Payment pages](/docs/payment-pages/) | Yes (current and deprecated versions) |
-| [Refunds](/docs/refund-payments/) | Yes: Full, partial, and API refunds| 
+| Supports                                                      | Details                               |
+| ------------------------------------------------------------- | ------------------------------------- |
+| [Countries](/docs/payment-methods#payment-methods-by-country) | Netherlands                           |
+| [Currencies](/docs/currencies/)                               | EUR                                   |
+| [Chargebacks](/docs/chargebacks/)                             | No                                    |
+| [Discounts](/docs/discounts/)                                 | Yes                                   |
+| [Partial capture](#partially-ship-order)                      | Yes                                   |
+| [Payment pages](/docs/payment-pages/)                         | Yes (current and deprecated versions) |
+| [Refunds](/docs/refund-payments/)                             | Yes: Full, partial, and API refunds   |
 
 # Payment flow
 
 This diagram shows the flow of a successful transaction. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/pay-after-delivery-installment-flow.svg" alt="Pay After Delivery payment flow" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 750px;
-  width: 100%;">
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/pay-after-delivery-installment-flow.svg" alt="Pay After Delivery payment flow" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '750px', width: '100%'}} />
 
-# Payment statuses  
+# Payment statuses
 
-The table below sets out the <<glossary:order status>> and <<glossary:transaction status>> for payments and refunds.
+The table below sets out the <Glossary>order status</Glossary> and <Glossary>transaction status</Glossary> for payments and refunds.
 
-| Description | Order status | Transaction status |
-|---|---|---|
-| MultiSafepay's automated risk analysis is in progress. You can still cancel the transaction. | Initialized | Initialized |
-| MultiSafepay is authorizing the transaction. | Uncleared | Uncleared |  
-| We have authorized the transaction and received the first payment from the customer. You can no longer cancel. You can only refund. <br> See [Close transactions](#close-transactions). | Completed | Uncleared | 
-|The order has been shipped. The payout period has started.  | Shipped | Uncleared |
-| MultiSafepay has settled the order, and funds have been added to your account.  | Shipped | Completed |
-| The transaction was cancelled. | Void/Cancelled   | Void/Cancelled | 
-| MultiSafepay declined the transaction. | Declined | Declined |
-| The transaction was not captured within **14** days.<br> The capture period can be extended. See - [Put PAD order on hold](/reference/padputorderonhold). | Expired | Expired | 
-| **Refunds:** Refund initiated. | Reserved | Reserved |  
-| **Refunds:** Refund complete. | Completed | Completed | 
+| Description                                                                                                                                                                               | Order status   | Transaction status |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ |
+| MultiSafepay's automated risk analysis is in progress. You can still cancel the transaction.                                                                                              | Initialized    | Initialized        |
+| MultiSafepay is authorizing the transaction.                                                                                                                                              | Uncleared      | Uncleared          |
+| We have authorized the transaction and received the first payment from the customer. You can no longer cancel. You can only refund. <br /> See [Close transactions](#close-transactions). | Completed      | Uncleared          |
+| The order has been shipped. The payout period has started.                                                                                                                                | Shipped        | Uncleared          |
+| MultiSafepay has settled the order, and funds have been added to your account.                                                                                                            | Shipped        | Completed          |
+| The transaction was cancelled.                                                                                                                                                            | Void/Cancelled | Void/Cancelled     |
+| MultiSafepay declined the transaction.                                                                                                                                                    | Declined       | Declined           |
+| The transaction was not captured within **14** days.<br /> The capture period can be extended. See - [Put PAD order on hold](/reference/padputorderonhold).                               | Expired        | Expired            |
+| **Refunds:** Refund initiated.                                                                                                                                                            | Reserved       | Reserved           |
+| **Refunds:** Refund complete.                                                                                                                                                             | Completed      | Completed          |
 
-# Activation 
+# Activation
 
-1. Email a request to <sales@multisafepay.com> 
-   We check your eligibility and if approved, activate the payment method for your account. 
-2. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+1. Email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)\
+   We check your eligibility and if approved, activate the payment method for your account.
+2. Once approved, to activate the method in your dashboard, sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 3. To activate the payment method for:
-- All websites, go to **Settings** > **Payment methods**.
-- A specific website, go to **Websites**, and then click the relevant website.
+
+* All websites, go to **Settings** > **Payment methods**.
+* A specific website, go to **Websites**, and then click the relevant website.
+
 4. Select the checkbox for the payment method, and then click **Save changes**.
 
-💬  **Support:** If the payment method isn't visible in your dashboard, email <integration@multisafepay.com>
+💬  **Support:** If the payment method isn't visible in your dashboard, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
 
 # Integration
 
 ### API
 
-See API reference – [Create order](/reference/createorder/) > BNPL order. 
+See API reference – [Create order](/reference/createorder/) > BNPL order.
 
-<details id="example-requests"> 
-<summary>Example requests</summary>
-<br>
+<details id="example-requests">
+  <summary>Example requests</summary>
 
-For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Pay After Delivery direct/redirect**.
+  <br />
 
-<div style="text-align: center;">
-  <img
-    src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif"
-    alt="MultiSafepay Sandbox Test Process GIF"
-    style="width: 40%; height: auto;"
-  />
+  For example requests, on the [Create order](/reference/createorder/) page, in the black sandbox, see **Examples** > **Pay After Delivery direct/redirect**.
+
+  <div style={{textAlign: 'center'}}>
+    <img src="https://raw.githubusercontent.com/MultiSafepay/docs/refs/heads/master/static/gifs/sandbox-test.gif" alt="MultiSafepay Sandbox Test Process GIF" style={{width: '40%', height: 'auto'}} />
   </div>
 
-***
-
+  ***
 </details>
 
-A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+A `shopping_cart` object is required for all BNPL orders. See Recipes – <a href="https://docs.multisafepay.com/recipes/include-shopping_cart-in-order" target="_blank">Include shopping\_cart in order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ### Ready-made integrations
+
 Supported in all [ready-made integrations](/docs/our-integrations/) (direct and redirect).
 
 ### Testing
-See Testing – [BNPL methods](/docs/testing#bnpl-methods).
-<br>
 
----
+See Testing – [BNPL methods](/docs/testing#bnpl-methods).\ <br />
+
+***
 
 # User guide
 
 ## Addresses
 
-The customer's billing and shipping addresses must be the **same** to prevent fraud. 
+The customer's billing and shipping addresses must be the **same** to prevent fraud.
 
 ## Amount limits
 
-Minimum and maximum order amounts apply. Email <sales@multisafepay.com>
+Minimum and maximum order amounts apply. Email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
 ## Cancellation
 
 You can cancel the invoice order **before** shipment or **after** partial shipment.
 
 <details id="how-to-cancel-an-order">
-<summary>How to cancel an order</summary>
-<br>
+  <summary>How to cancel an order</summary>
 
-**In your dashboard**
+  <br />
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
-3. On the **Transaction details** page, click **Cancel**.
-4. Add a description of what happened with the order, and then click **Complete**.
-   The <<glossary:order status>> changes to **Void** and the <<glossary:transaction status>> to **Cancelled**.
+  **In your dashboard**
 
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+  3. On the **Transaction details** page, click **Cancel**.
+  4. Add a description of what happened with the order, and then click **Complete**.\
+     The <Glossary>order status</Glossary> changes to **Void** and the <Glossary>transaction status</Glossary> to **Cancelled**.
 </details>
 
 ## Collection flow
 
-- The collection only starts when the customer pays installment 1 of the order.
-- MultiSafepay sends the customer an invoice for the second installment after installment first payment is made. The second installment is due within **30** days.   
-- MultiSafepay sends reminders to the customer 5 days before and on the day of each installment due.
-- If the customer fails to pay within 14 days of overdue installments, MultiSafepay sends reminders of their obligation to pay with an added fee per the Wet Incasso Kosten (WIK). 
-- The customer can contact MultiSafepay if there is an issue with the payment.
-- If the customer still fails to pay, MultiSafepay sends the invoice to a debt collector. 
-- If necessary, you can delay the collection flow by placing the transaction on hold.
+* The collection only starts when the customer pays installment 1 of the order.
+* MultiSafepay sends the customer an invoice for the second installment after installment first payment is made. The second installment is due within **30** days.  
+* MultiSafepay sends reminders to the customer 5 days before and on the day of each installment due.
+* If the customer fails to pay within 14 days of overdue installments, MultiSafepay sends reminders of their obligation to pay with an added fee per the Wet Incasso Kosten (WIK).
+* The customer can contact MultiSafepay if there is an issue with the payment.
+* If the customer still fails to pay, MultiSafepay sends the invoice to a debt collector.
+* If necessary, you can delay the collection flow by placing the transaction on hold.
 
 <details id="how-to-delay-the-collection-flow">
-<summary>How to delay the collection flow</summary>
-<br>
+  <summary>How to delay the collection flow</summary>
 
-Email a request to place the transaction on hold to <klantenservice@multifactor.nl>  
+  <br />
 
-Provide the following information:
+  Email a request to place the transaction on hold to [klantenservice@multifactor.nl](mailto:klantenservice@multifactor.nl)
 
-- Transaction details
-- Reason for your request
-- When you expect to re-start the collection flow
+  Provide the following information:
 
----
+  * Transaction details
+  * Reason for your request
+  * When you expect to re-start the collection flow
 
+  ***
 </details>
 
 ## Customer pays you directly
@@ -157,23 +154,23 @@ If the customer pays you directly instead of MultiSafepay, you need to pay Multi
 
 If you do so:
 
-- **After** MultiSafepay has paid you out, we will refund the order amount.
-- **Before** MultiSafepay has paid you out, we cancel the payout of the order.
+* **After** MultiSafepay has paid you out, we will refund the order amount.
+* **Before** MultiSafepay has paid you out, we cancel the payout of the order.
 
-After you have paid for an order from your account, you can no longer refund transaction. You can perform a manual refund from your account. Once the  <<glossary:transaction status>> changes to **Completed**, MultiSafepay's collection flow stops, and the customer no longer pays us.
+After you have paid for an order from your account, you can no longer refund transaction. You can perform a manual refund from your account. Once the  <Glossary>transaction status</Glossary> changes to **Completed**, MultiSafepay's collection flow stops, and the customer no longer pays us.
 
 <details id="how-to-complete-an-order-with-your-own-funds">
-<summary>How to complete an order with your own funds</summary>
-<br>
+  <summary>How to complete an order with your own funds</summary>
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-2. Go to **Transactions** > **Transaction overview**, and then select the relevant transaction.
-3. On the **Transaction details** page, click **Complete own funds**.
-4. Add a description of what happened with the order, and then click **Complete**.
-   The <<glossary:transaction status>> changes to **Completed**.
+  <br />
 
----
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  2. Go to **Transactions** > **Transaction overview**, and then select the relevant transaction.
+  3. On the **Transaction details** page, click **Complete own funds**.
+  4. Add a description of what happened with the order, and then click **Complete**.\
+     The <Glossary>transaction status</Glossary> changes to **Completed**.
 
+  ***
 </details>
 
 ## Expiration and extensions
@@ -185,25 +182,25 @@ After the first partial shipment, the expiration period is reduced. You have **1
 If an order can't be shipped within **14** days and you do not want to cancel the order, you can extend the expiration period to a maximum of **21** days. After this time, the order is cancelled and refunded. 
 
 After an order expires, the expiration period cannot be extended.
+
 <details id="how-to-extend-an-order">
-<summary>How to extend an order</summary>
-<br>
+  <summary>How to extend an order</summary>
 
-**In your dashboard**
+  <br />
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
-3. On the **Transaction details** page, click **Extend**.
-   While extended, the <<glossary:order status>> remains **Completed** and the <<glossary:transaction status>> remains **Uncleared**.
+  **In your dashboard**
 
-**Via API**
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  2. Go to **Transactions** > **Transaction overview**, and then click the relevant transaction.
+  3. On the **Transaction details** page, click **Extend**.\
+     While extended, the <Glossary>order status</Glossary> remains **Completed** and the <Glossary>transaction status</Glossary> remains **Uncleared**.
 
-See API reference – [Put PAD order on hold](/reference/padputorderonhold).    
+  **Via API**
 
----
+  See API reference – [Put PAD order on hold](/reference/padputorderonhold).
 
+  ***
 </details>
-
 
 ## Payment methods
 
@@ -214,228 +211,232 @@ Customers pay MultiSafepay via [iDEAL](/docs/ideal/).
 After shipment, the invoice order can be refunded fully or partially.
 
 <details id="about-partial-refunds">
-<summary>About partial refunds</summary>
-<br>
+  <summary>About partial refunds</summary>
 
-For partial refunds:
+  <br />
 
-| Amount paid | Outcome |
-|---|---|
-| Equal to new order amount | The order is completed. |
-| Less than new order amount | The order is updated. |
-| More than new order amount | The order is completed and the outstanding amount refunded. |
+  For partial refunds:
 
----
+  | Amount paid                | Outcome                                                     |
+  | -------------------------- | ----------------------------------------------------------- |
+  | Equal to new order amount  | The order is completed.                                     |
+  | Less than new order amount | The order is updated.                                       |
+  | More than new order amount | The order is completed and the outstanding amount refunded. |
 
+  ***
 </details>
+
 To refund a Pay After Delivery installments transaction, follow these steps:
 
 <details id="via-your-dashboard">
-<summary>Via your dashboard</summary>
-<br>
+  <summary>Via your dashboard</summary>
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Transactions** > **Transactions Overview** and select the relevant transaction.
-3. Click on the transaction to go to the **Transaction summary** page.
-4. Under **Order summary**, click **Edit order**.
-5. Click **Refund whole order** to process a full refund.
-   For partial refunds, you have two options:
-   - Click the (❌) **remove** icon to process a refund for all units of a specific item, or
-   - Click **Change**, enter the item's **name**, the **quantity** of items you want to refund, **unit price**, and select the **tax** rate. Click **Add**.
-6. Click **Save changes**.
+  <br />
 
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  2. Go to **Transactions** > **Transactions Overview** and select the relevant transaction.
+  3. Click on the transaction to go to the **Transaction summary** page.
+  4. Under **Order summary**, click **Edit order**.
+  5. Click **Refund whole order** to process a full refund.\
+     For partial refunds, you have two options:
+     * Click the (❌) **remove** icon to process a refund for all units of a specific item, or
+     * Click **Change**, enter the item's **name**, the **quantity** of items you want to refund, **unit price**, and select the **tax** rate. Click **Add**.
+  6. Click **Save changes**.
 </details>
 
 <details id="via-the-api">
-<summary>Via the API</summary>
-<br>
+  <summary>Via the API</summary>
 
-See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i><br>
-Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> request to retrieve the order details.
-1. Under **Path Params**, enter the `order_id` of the transaction you want to refund. 
-2. Under **Body Params**, select **BNPL Refund**. Add all items in the shopping cart.
-3. Duplicate the object of the items you want to refund and enter a negative value for `quantity`. 
+  <br />
 
-**⚠️Note:** Always include the correct tax rate in `tax_table_selector` for each item in the shopping cart. Excluding it will result in an incorrect refund amount.
+  See API reference - <a href="https://docs.multisafepay.com/reference/refundorder" target="_blank">Refund order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /><br />\
+  Use the <a href="https://docs.multisafepay.com/reference/getorder" target="_blank">Get order</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> request to retrieve the order details.
 
-#### Example
-```curl
-curl --request POST \
-     --url 'https://testapi.multisafepay.com/v1/json/orders/{order_id}/refunds?api_key={your_api_key}' \
-     --header 'accept: application/json' \
-     --header 'content-type: application/json' \
-     --data '
-{
-  "checkout_data": {
-    "items": [
-      {
-        "name": "example_item_1",
-        "description": "",
-        "unit_price": 100,
-        "quantity": 3,
-        "merchant_item_id": "1111",
-        "tax_table_selector": "none",
-        "weight": {
-          "unit": "KG",
-          "value": 12
+  1. Under **Path Params**, enter the `order_id` of the transaction you want to refund.
+  2. Under **Body Params**, select **BNPL Refund**. Add all items in the shopping cart.
+  3. Duplicate the object of the items you want to refund and enter a negative value for `quantity`.
+
+  **⚠️Note:** Always include the correct tax rate in `tax_table_selector` for each item in the shopping cart. Excluding it will result in an incorrect refund amount.
+
+  #### Example
+
+  ```curl
+  curl --request POST \
+       --url 'https://testapi.multisafepay.com/v1/json/orders/{order_id}/refunds?api_key={your_api_key}' \
+       --header 'accept: application/json' \
+       --header 'content-type: application/json' \
+       --data '
+  {
+    "checkout_data": {
+      "items": [
+        {
+          "name": "example_item_1",
+          "description": "",
+          "unit_price": 100,
+          "quantity": 3,
+          "merchant_item_id": "1111",
+          "tax_table_selector": "none",
+          "weight": {
+            "unit": "KG",
+            "value": 12
+          }
+        },
+        {
+          "name": "example_item_2",
+          "unit_price": 100,
+          "quantity": 4,
+          "merchant_item_id": "1212",
+          "tax_table_selector": "BTW21"
+        },
+        {
+          "name": "example_item_1",
+          "unit_price": 100,
+          "quantity": -3,
+          "merchant_item_id": "1212",
+          "tax_table_selector": "none",
+          "weight": {
+            "unit": "KG",
+            "value": 12
+          }
+        },
+        {
+          "name": "example_item_2",
+          "unit_price": 100,
+          "quantity": -4,
+          "merchant_item_id": "1212",
+          "tax_table_selector": "BTW21"
         }
-      },
-      {
-        "name": "example_item_2",
-        "unit_price": 100,
-        "quantity": 4,
-        "merchant_item_id": "1212",
-        "tax_table_selector": "BTW21"
-      },
-      {
-        "name": "example_item_1",
-        "unit_price": 100,
-        "quantity": -3,
-        "merchant_item_id": "1212",
-        "tax_table_selector": "none",
-        "weight": {
-          "unit": "KG",
-          "value": 12
-        }
-      },
-      {
-        "name": "example_item_2",
-        "unit_price": 100,
-        "quantity": -4,
-        "merchant_item_id": "1212",
-        "tax_table_selector": "BTW21"
-      }
-    ]
+      ]
+    }
   }
-}
 
-```
-
-
+  ```
 </details>
 
----
+***
 
 ## Shipment
 
-- Share the track & trace details with the customer and MultiSafepay, if relevant. 
-- You can ship orders in full or in multiple parts. See [Partially ship order](#partially-ship-order) below.
-- You must update the <<glossary:order status>> to **Shipped** within **14** days, or otherwise the order expires. See [Update the order status](#update-the-order-status) below.
-- You must comply with relevant [shipping policies](#shipping-policies). 
+* Share the track & trace details with the customer and MultiSafepay, if relevant.
+* You can ship orders in full or in multiple parts. See [Partially ship order](#partially-ship-order) below.
+* You must update the <Glossary>order status</Glossary> to **Shipped** within **14** days, or otherwise the order expires. See [Update the order status](#update-the-order-status) below.
+* You must comply with relevant [shipping policies](#shipping-policies).
 
 ### Partially ship order
 
 <details id="how-to-partially-ship-an-order">
-<summary>How to partially ship an order</summary>
-<br>
+  <summary>How to partially ship an order</summary>
 
-If you cannot ship all the items for an order at the same time, you can ship the order in multiple parts.
+  <br />
 
-See API reference – [Update or cancel order](/reference/updateorder) > **Ship order**.
+  If you cannot ship all the items for an order at the same time, you can ship the order in multiple parts.
 
-**Collection flow** 
+  See API reference – [Update or cancel order](/reference/updateorder) > **Ship order**.
 
-MultiSafepay begins the [collection flow](#collection-flow) after at least 1 partial shipment if all other items from the order are cancelled.
+  **Collection flow**
 
-MultiSafepay does **not** invoice partial shipment amounts separately. We invoice the total outstanding amount.
+  MultiSafepay begins the [collection flow](#collection-flow) after at least 1 partial shipment if all other items from the order are cancelled.
 
-**Expiration**
+  MultiSafepay does **not** invoice partial shipment amounts separately. We invoice the total outstanding amount.
 
-After the first partial shipment, you have **14** days to ship the remaining items, or the order expires.
+  **Expiration**
 
+  After the first partial shipment, you have **14** days to ship the remaining items, or the order expires.
 
-**Installments**
+  **Installments**
 
-Partial shipment is supported for installments orders.
+  Partial shipment is supported for installments orders.
 
-**Integration**
+  **Integration**
 
-A unique shipment `order_id` is generated for each partial shipment.
+  A unique shipment `order_id` is generated for each partial shipment.
 
-See API reference – [Update or cancel order](/reference/updateorder) > **Ship order**.
+  See API reference – [Update or cancel order](/reference/updateorder) > **Ship order**.
 
-**Notifications**
+  **Notifications**
 
-You receive a webhook notification when the <<glossary:order status>>  of each partial shipment changes to **Shipped**.
+  You receive a webhook notification when the <Glossary>order status</Glossary>  of each partial shipment changes to **Shipped**.
 
-The status of the main transaction never changes to **Completed**. It remains **Initialized**, with a flag.
+  The status of the main transaction never changes to **Completed**. It remains **Initialized**, with a flag.
 
-**Refunds**
+  **Refunds**
 
-You must must refund partial shipments separately, using the specific **shipment** `order_id`, instead of the original **invoice** `order_id`.
+  You must must refund partial shipments separately, using the specific **shipment** `order_id`, instead of the original **invoice** `order_id`.
 
-See API reference – [Refund order](/reference/refundorder).
+  See API reference – [Refund order](/reference/refundorder).
 
-**⚠️ Note:** To partially ship an order, email a request to <sales@multisafepay.com>
+  **⚠️ Note:** To partially ship an order, email a request to [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
----
-
+  ***
 </details>
 
 ### Update the order status
 
 <details id="how-to-update-the-order-status">
-<summary>How to update the order status</summary>
-<br>
+  <summary>How to update the order status</summary>
 
-When you ship the order, you **must** update the <<glossary:order status>> via the dashboard or your integration from **Completed** to **Shipped** to receive your payout, and to prevent the order from expiring.
+  <br />
 
-**In your dashboard**
+  When you ship the order, you **must** update the <Glossary>order status</Glossary> via the dashboard or your integration from **Completed** to **Shipped** to receive your payout, and to prevent the order from expiring.
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-2. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
-3. On the **Transaction details** page, under **Order details**, click **Change order status**.
-4. From the **Change status to** list, select **Shipped**.
-5. In the **Memo** field, enter a comment.
-6. Click **OK**.
+  **In your dashboard**
 
-**In your backend**
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  2. Go to **Transactions** > **Transactions overview**, and then click the relevant transaction.
+  3. On the **Transaction details** page, under **Order details**, click **Change order status**.
+  4. From the **Change status to** list, select **Shipped**.
+  5. In the **Memo** field, enter a comment.
+  6. Click **OK**.
 
-If you change the order status in your <<glossary:backend>>, the following [ready-made integrations](/docs/our-integrations/) pass the updated status to your dashboard automatically:
+  **In your backend**
 
-- Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
-- Shopware 5: When you set the order to **Delivered** in your backend.
+  If you change the order status in your <Glossary>backend</Glossary>, the following [ready-made integrations](/docs/our-integrations/) pass the updated status to your dashboard automatically:
 
-For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
+  * Magento 2 and WooCommerce: When you set the order to **Shipped** in your backend.
+  * Shopware 5: When you set the order to **Delivered** in your backend.
 
-**⚠️ Note:** Some third-party plugins may not support updating the status via our API.
+  For other ready-made integrations, make an [update order](/reference/updateorder/) API request.
 
----
+  **⚠️ Note:** Some third-party plugins may not support updating the status via our API.
 
+  ***
 </details>
 
 ### Shipping policies
 
 You must read the following shipping policies:
 
-- <a href="https://www.multifactor.nl/voorwaarden/shipping-policies" target="_blank">MultiFactor shipping policies</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
-- <a href="https://www.multifactor.nl/voorwaarden/shipping-policies/" target="_blank">Shipping policy Nederland</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
-- <a href="https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy" target="_blank">Herinnering aan onze shipping policy</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> 
+* <a href="https://www.multifactor.nl/voorwaarden/shipping-policies" target="_blank">MultiFactor shipping policies</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* <a href="https://www.multifactor.nl/voorwaarden/shipping-policies/" target="_blank">Shipping policy Nederland</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
+* <a href="https://mailchi.mp/922285f8ac13/herinnering-aan-onze-shipping-policy" target="_blank">Herinnering aan onze shipping policy</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
-❗️ Failure to comply with these policies can impact on prefinancing and MultiSafepay's settlement guarantee. 
+❗️ Failure to comply with these policies can impact on prefinancing and MultiSafepay's settlement guarantee.
 
-## Surcharges  
+## Surcharges
 
-Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to <<glossary:BNPL>> methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).  
+Due to changes to the Wet op het consumentenkrediet, merchants who apply [surcharges](/docs/surcharges/) to <Glossary>BNPL</Glossary> methods are now deemed credit providers under article 7:57 of the Burgerlijk Wetboek. This requires a permit from the Authority for Financial Markets (AFM).
 
-We therefore strongly recommend **not** applying surcharges to Pay After Delivery. 
+We therefore strongly recommend **not** applying surcharges to Pay After Delivery.
 
-For more information, email <sales@multisafepay.com> 
+For more information, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
 ## Terms and conditions
 
-- [Direct flow](/reference/introduction#direct-vs-redirect): You must display our terms and conditions in your checkout.
-- [Redirect flow](/reference/introduction#direct-vs-redirect): MultiSafepay terms and conditions are displayed by default on [payment pages](/docs/payment-pages/).
-- By placing an order, you agree to all terms and conditions of Pay After Delivery including MultiFactor payment terms, and privacy policy. 
+* [Direct flow](/reference/introduction#direct-vs-redirect): You must display our terms and conditions in your checkout.
+* [Redirect flow](/reference/introduction#direct-vs-redirect): MultiSafepay terms and conditions are displayed by default on [payment pages](/docs/payment-pages/).
+* By placing an order, you agree to all terms and conditions of Pay After Delivery including MultiFactor payment terms, and privacy policy. 
 
-<br>
+<br />
 
----
+***
 
-[block:html]
-{
-  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:support@multisafepay.com\">support@multisafepay.com</a></p>\n</blockquote>\n"
-}
-[/block]
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
+    <p>Support</p>
+  </h3>
+
+  <p>Email <a href="mailto:support@multisafepay.com">[support@multisafepay.com](mailto:support@multisafepay.com)</a></p>
+</blockquote>
 
 [Top of page](#)

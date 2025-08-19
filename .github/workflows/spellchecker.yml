@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # The checkout step
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.event.pull_request.head.ref }}
@@ -15,7 +15,7 @@ jobs:
         
       - name: Get specific changed files
         id: changed-files-specific
-        uses: tj-actions/changed-files@v41
+        uses: tj-actions/changed-files@v46
         with:
           files: |
             content/**/*.md
@@ -23,26 +23,11 @@ jobs:
           sha: ${{ github.event.pull_request.head.sha }}
           base_sha: ${{ github.event.pull_request.base.sha }}
 
-      - name: List all changed files
-        if: steps.changed-files-specific.outputs.any_changed == 'true'
-        run: |
-          echo "CHG_FILES=${{ steps.changed-files-specific.outputs.all_changed_files }}" >> $GITHUB_ENV
-
-      - name: Check which files changed
-        if: steps.changed-files-specific.outputs.any_changed == 'true'
-        run : |
-          for file in content/payment-methods/unmatched-payments-dutch.md content/integrations/webshop-access-spanish.md content/integrations/webshop-access-ita.md content/payment-methods/unmatched-payments-german.md content/payment-methods/buy-now-pay-later.md content/payment-methods/credit-debit-cards.md content/integrations/our-integrations.md; do
-            if [[ "$CHG_FILES" =~ $file ]]; then
-              echo "$file needs to be removed"
-              CHG_FILES=$(echo $CHG_FILES | sed "s|$file||")
-              echo "CHG_FILES=$CHG_FILES" >> $GITHUB_ENV
-            fi
-          done
-          echo "Final list: $CHG_FILES"
-
       - name: Run spellchecker on changed files
         if: steps.changed-files-specific.outputs.any_changed == 'true'
         uses: rojopolis/spellcheck-github-actions@0.27.0
         with:
-          source_files: ${{ env.CHG_FILES }}
+          # Pass the output from the 'changed-files' step directly.
+          # This is the correct and most efficient way.
+          source_files: ${{ steps.changed-files-specific.outputs.all_changed_files }}
           task_name: markdown

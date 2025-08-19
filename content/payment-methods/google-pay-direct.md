@@ -1,10 +1,13 @@
 ---
-title: "Google Pay direct integration"
-category: 6298bd782d1cf4006032e765
-order: 7
-hidden: false
-parentDoc: 62a6ec51d7a8100053916d99
-slug: 'google-pay-direct'
+title: Google Pay direct integration
+category:
+  uri: Payment methods
+slug: google-pay-direct
+position: 7
+privacy:
+  view: public
+parent:
+  uri: wallets
 ---
 With direct integration, the **Google Pay** button appears in your checkout page, where customers complete payment without being redirected to a [payment page](/docs/payment-pages/).
 

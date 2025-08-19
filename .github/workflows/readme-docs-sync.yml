@@ -8,13 +8,21 @@ on:
 
 jobs:
   readme-docs-sync:
-    if: github.event.pull_request.merged ==  true
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: readmeio/rdme@v8
-      with:
-        rdme: docs content --version=v1.0 --key=${{ secrets.README }}
-    - uses: readmeio/rdme@v8
-      with:
-        rdme: docs api --version=v1.0 --key=${{ secrets.README }}
+      - uses: actions/checkout@v4
+
+      - uses: readmeio/rdme@10.5.0-next.5
+        with:
+          rdme: docs upload ./content --branch=v1.0
+        env:
+          DEBUG: rdme*
+          README_API_KEY: ${{ secrets.README }}
+
+      - uses: readmeio/rdme@10.5.0-next.5
+        with:
+          rdme: reference upload ./api --branch=v1.0
+        env:
+          DEBUG: rdme*
+          README_API_KEY: ${{ secrets.README }}

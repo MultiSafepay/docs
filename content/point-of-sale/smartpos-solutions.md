@@ -1,34 +1,37 @@
 ---
-title: 'SmartPOS solutions'
-parentDoc: 64674fbc74bc4007521ebbcb 
-category: 6477597e0e2961004638cd5d
-order: 0
-hidden: false
-slug: 'smartpos-solutions'
+title: SmartPOS solutions
+category:
+  uri: Point-of-sale
+slug: smartpos-solutions
+parent:
+  uri: smartpos-terminal
+position: 0
+privacy:
+  view: public
 ---
+We currently offer this product in the following countries:
 
-> ⚠️ Note:
-> 
-> We currently offer this product in the following countries:
-> 
-> - Netherlands
-> - Belgium 
-> 
-> As a partner, you can further connect accounts registered in the following countries:
->
-> - Italy 
-> - Spain
->
-> If you are interested in our Point of Sale solutions, email <sales@multisafepay.com>
->
+<table>
+  <tr>
+    <td>Countries</td>
+    <td>Netherlands, Belgium</td>
+  </tr>
+
+  <tr>
+    <td>Countries for partners</td>
+    <td>Netherlands, Belgium, Italy, Spain</td>
+  </tr>
+</table>
+
+If you are interested in our Point of Sale solutions, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
 
 Our SmartPOS solutions let you initiate payments through:
 
-- Manual input 
-- Cloud POS payment
-- On-same device third-party applications
-  - Web application
-  - Native application
+* Manual input
+* Cloud POS payment
+* On-same device third-party applications
+  * Web application
+  * Native application
 
 # Manual input
 
@@ -40,25 +43,22 @@ To start processing payments manually:
 
 # Cloud POS payment
 
-With cloud <<glossary:POS>> payment, you can initiate payments from an external application.
+With cloud <Glossary>POS</Glossary> payment, you can initiate payments from an external application.
 
 This diagram shows a successful cloud-based POS payment flow. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/cloud-POS-flow.svg" alt="cloud-POS" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 750px;width: 100%;"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/cloud-POS-flow.svg" alt="cloud-POS" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '750px', width: '100%'}} />
 
-  **⚠️ Note:** Before you start initiating payments, you must ensure **cloud mode** is enabled - see [SmartPOS features](/docs/smartpos-features).
+**⚠️ Note:** Before you start initiating payments, you must ensure **cloud mode** is enabled - see [SmartPOS features](/docs/smartpos-features).
 
-- Create an order. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-- Cancel an order. See [cancellation](#cancellation).
+* Create an order. See Recipe - <a href="https://docs.multisafepay.com/recipes/cloud-pos-payment" target="_blank">Cloud POS payment</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+* Cancel an order. See [cancellation](#cancellation).
 
 To receive payments updates subscribe to [Event notifications.](/docs/event-notifications)
 
 **⚠️ Note:** When using **event notifications** on POS terminals, you might encounter **soft declines** when processing payments. For more information, see [Soft declines](/docs/smartpos-solutions#soft-declines).
 
-<br>
+<br />
 
 ***
 
@@ -66,21 +66,17 @@ To receive payments updates subscribe to [Event notifications.](/docs/event-noti
 
 ## Web applications
 
-Web applications let you initiate payments on-same devices from a browser to the payment app. 
+Web applications let you initiate payments on-same devices from a browser to the payment app.
 
 This diagram shows a successful web application payment flow. Click to magnify.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/web-flow.svg" alt="web-app-POS" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 750px;width: 100%;"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/web-flow.svg" alt="web-app-POS" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '750px', width: '100%'}} />
 
-### Initiate payments 
+### Initiate payments
 
 1. Before initiating web application payments, you need to create an order.
 
 **Example**
-
 
 ```curl
 curl -X POST \
@@ -102,20 +98,20 @@ curl -X POST \
 
 2. Initiate a payment using the URL below:
 
-``` URL
+```URL
 msp://?amount={$amount}&order_id={$order_id}&callback={$callback_url}&printing=true&tipping=true&notification_url={$notification_url}
 ```
 
-- `amount`: the amount specified in EUR cents. 
-- `order_id`: your unique identifier for order ID. - `order_id`: your unique identifier for order ID. Maximum 50 characters. Can only contain **a-z**, **A-Z**, **0-9** and the special characters `/ - _`.
-- `callback_url`: this URL redirects the customer to receive payment status notifications.
-- Optionally, you can set `notification_url` to receive order payment updates notifications.
-- `tipping`: include a tip.
-- `printing`: activate printing function.
+* `amount`: the amount specified in EUR cents.
+* `order_id`: your unique identifier for order ID. - `order_id`: your unique identifier for order ID. Maximum 50 characters. Can only contain **a-z**, **A-Z**, **0-9** and the special characters `/ - _`.
+* `callback_url`: this URL redirects the customer to receive payment status notifications.
+* Optionally, you can set `notification_url` to receive order payment updates notifications.
+* `tipping`: include a tip.
+* `printing`: activate printing function.
 
 Payment status received can either be  **Completed** or **Cancelled**.
 
-<br>
+<br />
 
 ***
 
@@ -125,15 +121,11 @@ Native applications let you initiate payments on-same devices from app to paymen
 
 This diagram shows a successful native application payment flow. Click to magnify.
 
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/native-flow.svg" alt="native-app-POS" style={{display: 'block', marginLeft: 'auto', marginRight: 'auto', maxWidth: '750px', width: '100%'}} />
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/diagrams/svg/native-flow.svg" alt="native-app-POS" style="display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 750px;width: 100%;"/>
+### Initiate payments
 
-### Initiate payments 
-
-1. Before initiating native application payments, you need to create an order.<br>When creating an order, the `order_id` must have a maximum length of 50 characters and can only contain **a-z**, **A-Z**, **0-9** and the special characters `/ - _`.
+1. Before initiating native application payments, you need to create an order.<br />When creating an order, the `order_id` must have a maximum length of 50 characters and can only contain **a-z**, **A-Z**, **0-9** and the special characters `/ - _`.
 
 **Example**
 
@@ -156,10 +148,11 @@ curl -X POST \
 '
 ```
 
-2. To initiate payments - see <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">MultiSafepay Android POS integration </a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+2. To initiate payments - see <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">MultiSafepay Android POS integration </a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
-<br>
-# API features 
+<br />
+
+# API features
 
 In addition to the features mentioned in our <a href="https://docs.multisafepay.com/reference/introduction" target="_blank">API reference</a>, there are POS-specific details you can retrieve via our API, including the **Terminal ID** that processed a transaction.
 
@@ -275,18 +268,19 @@ In addition to the features mentioned in our <a href="https://docs.multisafepay.
   }
 }
 
-``` 
+```
 
 # Handle notifications
 
 The table below sets out options available for receiving updates on the payments.
 
-| POS Solutions       | Required     | Optional            |
-| :------------ |:---------------- | :--------------|
-| Cloud POS payment   | Subscribe to the [event notifications.](/docs/event-notifications)             | Configure a [webhook](/docs/webhook#configure-your-webhook-endpoint.).                              |
-| Web applications    | Set `callback_url` in the [ link.](/docs/solutions#web-applications-pos)                           | Set `notification_url` in the [ link](/docs/solutions#web-applications-pos) to configure a webhook. |
-| Native applications | Set `package_name` in your <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">intent call.</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> | Configure a [webhook.](/docs/webhook#configure-your-webhook-endpoint.)                              |
-<br>
+| POS Solutions       | Required                                                                                                                                                                                                  | Optional                                                                                            |
+| :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
+| Cloud POS payment   | Subscribe to the [event notifications.](/docs/event-notifications)                                                                                                                                        | Configure a [webhook](/docs/webhook#configure-your-webhook-endpoint.).                              |
+| Web applications    | Set `callback_url` in the [ link.](/docs/solutions#web-applications-pos)                                                                                                                                  | Set `notification_url` in the [ link](/docs/solutions#web-applications-pos) to configure a webhook. |
+| Native applications | Set `package_name` in your <a href="https://github.com/MultiSafepay/pos-android-integration" target="_blank">intent call.</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} /> | Configure a [webhook.](/docs/webhook#configure-your-webhook-endpoint.)                              |
+
+<br />
 
 # User guide
 
@@ -298,9 +292,9 @@ To create an order, always use the **API key** of your device's [terminal group]
 
 ## Cancellation
 
-To cancel an order, make a **POST** request to our cancellation endpoint. This requires the use of an `order_id` and a group **API** key, which you can find at your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>  under **Manage groups**.
+To cancel an order, make a **POST** request to our cancellation endpoint. This requires the use of an `order_id` and a group **API** key, which you can find at your <a href="https://merchant.multisafepay.com/" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />  under **Manage groups**.
 
-Insert the `order_id` and the **API** key in the URL. 
+Insert the `order_id` and the **API** key in the URL.
 
 **Example request**
 
@@ -308,7 +302,9 @@ Insert the `order_id` and the **API** key in the URL.
 curl -X POST 
 "https://api.multisafepay.com/v1/json/orders/{order_id}/cancel?api_key={your-api-key}"
 ```
+
 **Example response**
+
 ```JSON
 {
   "success": true,
@@ -333,27 +329,24 @@ curl -X POST
 ## Refunds
 
 <details id="refunds">
+  <summary>How to process refunds</summary>
 
-<summary>How to process refunds</summary>
-<br>
+  <br />
 
-**Via the API** 
+  **Via the API**
 
-See API reference – [Refund order](/reference/refundorder).
+  See API reference – [Refund order](/reference/refundorder).
 
-**In your dashboard**
+  **In your dashboard**
 
-1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>. 
-2. Go to **Transactions** > **Transaction overview**, and click the relevant transaction.
-3. On the **Transaction details** page, click **Refund order**.
-4. In the **Reason / Description** field, enter the reason for the refund or a description of what happened with the order, and then click **Complete**.
-5. In the **Comment** field, enter any additional information.
-6. In the **Amount** fields, enter the amount to refund. 
-7. Click **Continue**.
-8. Review **Refund confirmation**, and then click **Confirm**.
-
-
-
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+  2. Go to **Transactions** > **Transaction overview**, and click the relevant transaction.
+  3. On the **Transaction details** page, click **Refund order**.
+  4. In the **Reason / Description** field, enter the reason for the refund or a description of what happened with the order, and then click **Complete**.
+  5. In the **Comment** field, enter any additional information.
+  6. In the **Amount** fields, enter the amount to refund.
+  7. Click **Continue**.
+  8. Review **Refund confirmation**, and then click **Confirm**.
 </details>
 
 ## Updates
@@ -364,7 +357,7 @@ Make a [Get order](/reference/getorder) request to get updates on a specific ord
 
 You cannot test terminals in your MultiSafepay test account.
 
-<br>
+<br />
 
 ***
 

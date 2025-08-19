@@ -1,16 +1,17 @@
 ---
-title: "FastCheckout Android SDK"
-category: 62962df622e99600810c117d
-order: 2
-hidden: true
-slug: 'fastcheckout-android'
+title: FastCheckout Android SDK
+category:
+  uri: Developers
+slug: fastcheckout-android
+position: 2
+privacy:
+  view: anyone_with_link
 ---
-
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/1281f9320696f2d256d0859421ec2cfa2350e644/static/logo/Integrations/Fastcheckout_Android.svg" width="100" align ="right"/>
+<img src="https://raw.githubusercontent.com/MultiSafepay/docs/1281f9320696f2d256d0859421ec2cfa2350e644/static/logo/Integrations/Fastcheckout_Android.svg" width="100" align="right" />
 
 The FastCheckout Android SDK enables a fast, frictionless, native checkout experience by storing and reusing customer data.
 
-<a href="https://github.com/MultiSafepay/fastcheckout-android-sdk" target="_blank">View on GitHub</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>
+<a href="https://github.com/MultiSafepay/fastcheckout-android-sdk" target="_blank">View on GitHub</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />
 
 # How it works
 
@@ -24,8 +25,8 @@ The checkout flow includes:
 
 The SDK provides the following features:
 
-- Secure sign up and sign in functionality
-- Open seamless support tickets for specific orders
+* Secure sign up and sign in functionality
+* Open seamless support tickets for specific orders
 
 For more information, see the documentation in the SDK, which contains all classes, methods, and troubleshooting.
 
@@ -36,87 +37,89 @@ For how to create, update and retrieve orders, see the [API reference](/referenc
 See how to:
 
 <details id="sign-in-with-registered-email">
-<summary>Sign in with registered email address</summary>
-<br> 
+  <summary>Sign in with registered email address</summary>
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-1.png" width="300">
+  <br />
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-2.png" width="300">
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-1.png" width="300" />
 
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-2.png" width="300" />
 </details>
 
 <details id="sign-in-with-unregistered-email">
-<summary>Sign in with unregistered email address</summary>
-<br> 
+  <summary>Sign in with unregistered email address</summary>
 
-The customer is automatically redirected to the **Register** screen: 
+  <br />
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-3.png" width="300">
+  The customer is automatically redirected to the **Register** screen:
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-4.png" width="300">
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-3.png" width="300" />
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-5.png" width="300">
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-4.png" width="300" />
 
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-5.png" width="300" />
 </details>
 
 <details id="change-email">
-<summary>Change an email address</summary>
-<br> 
+  <summary>Change an email address</summary>
 
-1. If a registered customer changes their email address, the SDK automatically sends a new security code to the email provided: 
+  <br />
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-6.png" width="300">
-      
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-7.png" width="300">
+  1. If a registered customer changes their email address, the SDK automatically sends a new security code to the email provided:
 
-2. If the security code is received via SMS, it is automatically added to the appropriate field, or the customer enters the code. 
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-6.png" width="300" />
 
-3. The customer enters a new PIN. 
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-7.png" width="300" />
 
-4. The SDK provides biometric options, including face recognition:
+  2. If the security code is received via SMS, it is automatically added to the appropriate field, or the customer enters the code.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-8.png" width="300">
-      
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-9.png" width="300">
+  3. The customer enters a new PIN.
 
+  4. The SDK provides biometric options, including face recognition:
+
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-8.png" width="300" />
+
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-9.png" width="300" />
 </details>
 
 <details id="place-order">
-<summary>Place an order</summary>
-<br> 
+  <summary>Place an order</summary>
 
-1. The **Delivery** screen contains available shipping options. 
+  <br />
 
-2. When the customer clicks **Continue**, the SDK moves to the **Payment** screen.  
+  1. The **Delivery** screen contains available shipping options.
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-10.png" width="300">
-      
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-11.png" width="300">
-      
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-12.png" width="300">
-      
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-13.png" width="300">
-    
-3. Once payment is complete, the SDK proceeds to the **Transaction complete** screen. The SDK callback notifies the client app of the <<glossary:transaction status>>. 
+  2. When the customer clicks **Continue**, the SDK moves to the **Payment** screen.
 
-4. The customer clicks **Back to shop**.
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-10.png" width="300" />
 
-<img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-14.png" width="300">
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-11.png" width="300" />
 
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-12.png" width="300" />
+
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-13.png" width="300" />
+
+  3. Once payment is complete, the SDK proceeds to the **Transaction complete** screen. The SDK callback notifies the client app of the \<\<glossary:transaction status>>.
+
+  4. The customer clicks **Back to shop**.
+
+  <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/fastcheckout-android-14.png" width="300" />
 </details>
 
 # Requirements
 
-- Android Studio version 3 or higher
-- Android version 4.4 or higher
-- Java or Kotlin
+* Android Studio version 3 or higher
+* Android version 4.4 or higher
+* Java or Kotlin
 
 # Installation
 
-1. Copy your [website API key](/docs/sites#site-id-api-key-and-security-code) to get the SDK from our <a href="https://github.com/MultiSafepay/fastcheckout-android-sdk" target="_blank">GitHub repository</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+1. Copy your [website API key](/docs/sites#site-id-api-key-and-security-code) to get the SDK from our <a href="https://github.com/MultiSafepay/fastcheckout-android-sdk" target="_blank">GitHub repository</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
+
 2. Add the `msp-android-sdk-release.aar`:
-    - As an embedded framework into your project
-    - Into your library’s /lib folder.
+   * As an embedded framework into your project
+   * Into your library’s /lib folder.
+
 3. In your build.gradle (Module.app) in the dependencies script, add the following:
 
    ```gradle
@@ -131,7 +134,7 @@ The customer is automatically redirected to the **Register** screen:
 
 4. Sync Gradle.
 
-> **✅ Success!**
+> **✅ Success!**\
 > You can now start using the Android SDK in your app.
 
 # How to integrate
@@ -156,11 +159,12 @@ SDK.setApiKey(API_KEY);
 …
 }
 ```
+
 The SDK is thread safe, but you cannot access the main UI elements from background threads. Creating and accessing UI controls from background thread is **not** thread safe.
 
 #### Update the UI from a background thread in Android
 
-**⚠️ Note:** For integration based on JAVA/Android versioning, see the official Android developers website – <a href="https://developer.android.com/guide/components/processes-and-threads" target="_blank">Threads</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+**⚠️ Note:** For integration based on JAVA/Android versioning, see the official Android developers website – <a href="https://developer.android.com/guide/components/processes-and-threads" target="_blank">Threads</a> <i className="fa fa-external-link" style={{fontSize:'12px',color:'#8b929e'}} />.
 
 ```java
 …
@@ -175,6 +179,7 @@ YourActivity.this.runOnUiThread(new Runnable() {
 …
 …
 ```
+
 #### Change the environment
 
 To change the running environment from **live** to **test**, add the following line of code after `SDK.setApiKey(API_KEY)`:
@@ -244,15 +249,16 @@ public void callback(FastCheckoutSDK.Result result) {
    }
 }
 ```
+
 3. Set up styles in your Application class (can be changed to suit your theme).
 
 #### Fonts
 
 The fonts used in this demo are not part of the code provided, but are part of your application.
 
-- Download the fonts you want to use.
-- Put them in **SRC** folder > **Main** folder (created for you by Android Studio when you create a project) > **Assets** folder (if you don't have an assets folder already, create one). 
-- Add the fonts as Typeface to your code as shown in the demo.
+* Download the fonts you want to use.
+* Put them in **SRC** folder > **Main** folder (created for you by Android Studio when you create a project) > **Assets** folder (if you don't have an assets folder already, create one).
+* Add the fonts as Typeface to your code as shown in the demo.
 
 ```java
 Styles.Builder builder = new Styles.Builder();
@@ -380,14 +386,17 @@ sdk.setStyles(styles);
 
 ```
 
-<br>
+<br />
 
----
+***
 
-[block:html]
-{
-  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></p>\n</blockquote>\n"
-}
-[/block]
+<blockquote className="callout callout_info">
+  <h3 className="callout-heading false">
+    <span className="callout-icon">💬</span>
+    <p>Support</p>
+  </h3>
+
+  <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+</blockquote>
 
 [Top of page](#)

@@ -1,9 +1,11 @@
 ---
-title : "Supporto tecnico: Aiutaci, ti aiutiamo"
-category: 62962dd7e272a6002ebbbbc5
-order: 2
-hidden: true
-slug: 'aiutaci-ti-aiutiamo'
+title: 'Supporto tecnico: Aiutaci, ti aiutiamo'
+category:
+  uri: Integrations
+slug: aiutaci-ti-aiutiamo
+position: 2
+privacy:
+  view: anyone_with_link
 ---
 
 I plugin vengono sempre testati prima di essere rilasciati. Tuttavia, è possibile che ci sia qualche malfunzionamento.
@@ -32,7 +34,7 @@ Per ridurre il tempo di intervento ti chiediamo di inviarci alcune informazioni,
 - Cerchiamo una soluzione solo in ambiente di test o staging della tua piattaforma ecommerce. Pertanto, quando necessario, ti chiederemo le credenziali per accedere all'ambiente di test o staging della tua piattaforma ecommerce. 
 Crea a nome nostro uno username e password temporanei per accedere all'ambiente di test o staging. 
 
-- Per ragioni di sicurezza, ti chiediamo di creare una <a href="https://www.lastpass.com/it/features/password-generator" target="_blank">password</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> sicura quando viene richiesto. Elimina sempre l'account alla fine delle operazioni di verifica.
+- Per ragioni di sicurezza, ti chiediamo di creare una <a href="https://www.lastpass.com/it/features/password-generator" target="_blank">password</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i> sicura quando viene richiesto. Elimina sempre l'account alla fine delle operazioni di verifica.
 
 - Consigliamo di non fornirci le credenziali per accedere alla versione live della tua piattaforma ecommerce senza aver prima consultato uno dei nostri incaricati al supporto tecnico. 
 Se per qualche caso particolare dovessimo chiedere gli accessi alla versione live della tua piattaforma, ti raccomandiamo di effettuare una copia di backup del sistema.

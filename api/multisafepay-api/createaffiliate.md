@@ -1,6 +1,7 @@
 ---
 title: Create affiliate
-category: 62430422470152003dc86e53
+category:
+  uri: MultiSafepay API
 slug: createaffiliate
 ---
 

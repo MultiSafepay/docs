@@ -1,27 +1,27 @@
 ---
 title: Rounding rule
-category: 62962df622e99600810c117d
-slug: 'rounding-rule'
-order: 5
-hidden: false
+category:
+  uri: Developers
+slug: rounding-rule
+position: 5
+privacy:
+  view: public
 ---
-
 MultiSafepay applies the following rounding rule when calculating the total cost of an order:
 
 1. Calculate the total cost of all items in the shopping cart (excluding VAT): Multiply the `unit_price` of each item by the `quantity` of the item, then add the results together, rounding to 2 decimal places= Items total.
 2. Calculate the total VAT for all items in the cart (if applicable): Multiply the total cost of each item by the VAT rate, then add the results together, rounding to 2 decimal places= VAT total.
 3. Add the items total to the VAT total= Cart total.
 
-&nbsp; **💡 Tip!** When rounding to 2 decimal places, always <a href="https://en.wikipedia.org/wiki/Rounding#Round_half_up" target="_blank">round half up</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+  **💡 Tip!** When rounding to 2 decimal places, always <a href="https://en.wikipedia.org/wiki/Rounding#Round_half_up" target="_blank">round half up</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
 
 Apply the same rounding rule in your integration to ensure:
 
-- The order `amount` matches the cart total.
-- [Payment pages](/docs/payment-pages/) display the correct (sub)totals.
-- [E-Invoices](/docs/e-invoicing/) to your customers match your records.
+* The order `amount` matches the cart total.
+* [Payment pages](/docs/payment-pages/) display the correct (sub)totals.
+* [E-Invoices](/docs/e-invoicing/) to your customers match your records.
 
-For more information about the `shopping_cart` object, see Recipe – <a href="https://docs.multisafepay.com/recipes/create-a-fastcheckout-page" target="_blank">Include shopping_cart in order</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
-
+For more information about the `shopping_cart` object, see Recipe – <a href="https://docs.multisafepay.com/recipes/create-a-fastcheckout-page" target="_blank">Include shopping\_cart in order</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
 
 ## Example
 
@@ -110,27 +110,30 @@ For the following order:
 ```
 
 | Item name | Unit price   | VAT % | VAT per item | Quantity | Total excl. VAT | Total incl. VAT |
-|---|---|---|---|---|---|---|
-| Product 1 | 13.761467889 | 9% | 1.2385321101 | 2 | 27.5229357798 | 30.00 |
-| Product 2 | 8.2644628099 | 21% | 1.7355371901 | 4 | 33.0578512396 | 40.00 |
-| Shipping  | 4.5412844037 | 9% | 0.4087155963 | 1 | 4.5412844037 | 4.95 |
-| Total     |   |    |     |   |     | 74.95 |
+| --------- | ------------ | ----- | ------------ | -------- | --------------- | --------------- |
+| Product 1 | 13.761467889 | 9%    | 1.2385321101 | 2        | 27.5229357798   | 30.00           |
+| Product 2 | 8.2644628099 | 21%   | 1.7355371901 | 4        | 33.0578512396   | 40.00           |
+| Shipping  | 4.5412844037 | 9%    | 0.4087155963 | 1        | 4.5412844037    | 4.95            |
+| Total     |              |       |              |          |                 | 74.95           |
 
 1. Calculate the total cost of all items in the shopping cart (excluding VAT): Multiply the `unit_price` of each item by the `quantity` of the item, then add the results together, rounding to 2 decimal places= Items total.
-> 13.7614678899 \* 2 = 27.5229357798
+
+> 13.7614678899 \* 2 = 27.5229357798\
 > 8.2644628099 \* 4 = 33.0578512396
 > 4.5412844037 \* 1 = 4.5412844037
 > 27.5229357798 + 33.0578512396 + 4.5412844037 = **65.1220714231**
 > 65.1220714231 = **65.12**
 
 2. Calculate the total VAT for all items in the cart (if applicable): Multiply the total cost of each item by the VAT rate, then add the results together, rounding to 2 decimal places= VAT total.
-> 13.7614678899 \* 2 \* 0.09 = 2.4770642202
+
+> 13.7614678899 \* 2 \* 0.09 = 2.4770642202\
 > 8.2644628099 \* 4 \* 0.21  = 6.9421487604
 > 4.5412844037 \* 0.09 = 0.4087155963
 > 2.4770642202 + 6.9421487604 + 0.4087155963 = **9.8279285769**
 > 9.8279285769 = **9.83**
 
 3. Add the items total to the VAT total= Cart total.
+
 > 65.12 + 9.83 = **74.95**
 
 ## Implementation
@@ -253,14 +256,18 @@ vat_total = math.Round(vat_total, 2)
 // Step 3: Add the items total to the VAT total: cart_total.
 cart_total = items_total + vat_total
 ```
-<br>
 
----
+<br />
 
-[block:html]
-{
-  "html": "<blockquote class=\"callout callout_info\">\n    <h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n    <p>Email <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></p>\n</blockquote>\n"
-}
-[/block]
+***
+
+<blockquote>
+  <h3>
+    <span>💬</span>
+    Support
+  </h3>
+
+  <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+</blockquote>
 
 [Top of page](#)

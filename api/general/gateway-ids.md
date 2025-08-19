@@ -1,11 +1,12 @@
 ---
 title: Gateway IDs
-category: 623dacddb0cbdd0394b9f5a9
-slug: 'gateway-ids'
-order: 5
-hidden: false
+category:
+  uri: General
+slug: gateway-ids
+position: 5
+privacy:
+  view: public
 ---
-
 | Payment method                         | Gateway ID    |
 | -------------------------------------- | ------------- |
 | Alipay                                 | `ALIPAY`      |
@@ -33,7 +34,7 @@ hidden: false
 | Klarna                                 | `KLARNA`      |
 | Maestro                                | `MAESTRO`     |
 | Mastercard                             | `MASTERCARD`  |
-| MB Way                                 | `MBWAY`      |
+| MB Way                                 | `MBWAY`       |
 | Multibanco                             | `MULTIBANCO`  |
 | MyBank                                 | `MYBANK`      |
 | Pay After Delivery                     | `BNPL_MF`     |
@@ -68,9 +69,9 @@ hidden: false
 | Gezondheidsbon                         | `GEZONDHEID`  |
 | Good4fun                               | `GOOD4FUN`    |
 | Horses & Gifts                         | `HORSESGIFT`  |
-| Monizze eco voucher                    | `MONIECO`      |
-| Monizze gift voucher                   | `MONIGIFT`     |
-| Monizze meal voucher                   | `MONIMEAL`     |
+| Monizze eco voucher                    | `MONIECO`     |
+| Monizze gift voucher                   | `MONIGIFT`    |
+| Monizze meal voucher                   | `MONIMEAL`    |
 | Nationale bioscoopbon                  | `NATNLBIOSC`  |
 | Nationale tuinbon                      | `NATNLETUIN`  |
 | Parfumcadeaukaart                      | `PARFUMCADE`  |

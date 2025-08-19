@@ -1,15 +1,16 @@
 ---
 title: Transaction expiration
-category: 623dacddb0cbdd0394b9f5a9
-slug: 'transaction-expiration'
-order: 6
-hidden: false
+category:
+  uri: General
+slug: transaction-expiration
+position: 6
+privacy:
+  view: public
 ---
-
 Different payment methods set different expiration times for transactions. The time begins:
 
-- For <<glossary:direct>> requests: When you make the [create order](/reference/createorder) request.
-- For <<glossary:redirect>> requests: When the customer selects the payment method on the [payment page](/docs/payment-pages/).
+* For <Glossary>direct</Glossary> requests: When you make the [create order](/reference/createorder) request.
+* For <Glossary>redirect</Glossary> requests: When the customer selects the payment method on the [payment page](/docs/payment-pages/).
 
 The expiration time is set by the payment method and cannot be changed.
 
@@ -48,13 +49,12 @@ The table below sets out the expiration time per payment method:
 | TrustPay| 10 days  |
 | WeChat Pay| 2 hours  |
 
-
 # Exceptions
 
 Transactions do not expire for:
 
-- E-Invoicing
-- EPS 
-- Giropay 
-- Gift cards and Edenred vouchers
-- Direct debits
+* E-Invoicing
+* EPS
+* Giropay
+* Gift cards and Edenred vouchers
+* Direct debits

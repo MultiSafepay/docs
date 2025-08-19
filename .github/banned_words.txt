@@ -47,7 +47,6 @@ webshop admin
 webshop owner customer
 webstore
 webwinkel
-working days
 <<<<<<< HEAD
 >>>>>>>
 =======
