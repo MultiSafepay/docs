@@ -1141,13 +1141,14 @@ Supported since release: 3.1.0, June 15th 2021.
 
 <details id="refund-rules">
 <summary>Refund rules</summary>
-<br>
+
+<br />
 
 | Platform | Details |
 |---|---|
 | MultiSafepay dashboard | Full refunds (may not appear in your backend) |
-| Backend | Full refunds and <a href="https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html" target="_blank">credit memos</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> You can't refund more than the original amount |
-| <<glossary:BNPL>> orders | You can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded. |
+| Backend | Full refunds and <a href="https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html" target="_blank">credit memos</a> <i class="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i> <br /> You can't refund more than the original amount |
+| <Glossary>BNPL</Glossary> orders | You can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded. |
 
   <Table>
     <thead>

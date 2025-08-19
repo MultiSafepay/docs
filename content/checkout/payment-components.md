@@ -23,26 +23,26 @@ Payment components let you embed payment methods directly into your checkout.
 You can embed a single or multiple payment methods in your checkout.\
 These are the supported payment methods:
 
-- Banking methods:
-  - [Bancontact](/docs/bancontact/)
-  - [Bank transfer](/docs/bank-transfer/)
-  - [Direct debit](/docs/direct-debit/)
-  - [iDEAL](/docs/ideal/)
-  - [MyBank](/docs/mybank/)
-- <<glossary:BNPL>>:
-  - [Billink](/docs/billink/)
-  - [E-invoicing](/docs/e-invoicing/)
-  - [In3](/docs/in3/)
-  - [Klarna](/docs/klarna/)
-  - [Pay After Delivery](/docs/pay-after-delivery/)
-  - [Pay After Delivery installments](/docs/pay-after-delivery-installments/)
-  - [Riverty](/docs/riverty/)
-- Cards:
-  - [American Express](/docs/card-payments/)
-  - [Maestro](/docs/card-payments/)
-  - [Mastercard](/docs/card-payments/)
-  - [Visa](/docs/card-payments/)
-- Wallets: [PayPal](/docs/paypal/)
+* Banking methods:
+  * [Bancontact](/docs/bancontact/)
+  * [Bank transfer](/docs/bank-transfer/)
+  * [Direct debit](/docs/direct-debit/)
+  * [iDEAL](/docs/ideal/)
+  * [MyBank](/docs/mybank/)
+* <Glossary>BNPL</Glossary>:
+  * [Billink](/docs/billink/)
+  * [E-invoicing](/docs/e-invoicing/)
+  * [In3](/docs/in3/)
+  * [Klarna](/docs/klarna/)
+  * [Pay After Delivery](/docs/pay-after-delivery/)
+  * [Pay After Delivery installments](/docs/pay-after-delivery-installments/)
+  * [Riverty](/docs/riverty/)
+* Cards:
+  * [American Express](/docs/card-payments/)
+  * [Maestro](/docs/card-payments/)
+  * [Mastercard](/docs/card-payments/)
+  * [Visa](/docs/card-payments/)
+* Wallets: [PayPal](/docs/paypal/)
 
 **⚠️ Note:** [Prepaid cards](/docs/prepaid-cards/) are not supported.
 
