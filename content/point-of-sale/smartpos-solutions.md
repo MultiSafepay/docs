@@ -350,7 +350,7 @@ Make a [Get order](/reference/getorder) request to retrieve POS-specific details
 
 ## Testing
 
-POS transactions cannot be simulated in out **TEST** environment. All testing must be conducted in your **LIVE** MultiSafepay account.
+POS transactions cannot be simulated in our **TEST** environment. All testing must be conducted in your **LIVE** MultiSafepay account.
 
 <br />
 
