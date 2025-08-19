@@ -210,6 +210,17 @@ With a soft decline, you first receive a notification with an order status of de
 
 **⚠️Note:** A soft decline is not a final payment status. Proceed with the payment process until the status is **canceled** or **completed**.
 
+### Cancelling declined transactions
+
+To cancel a POS transaction that has been declined, use the correct API endpoint. Do not use a **PATCH** request to update the order status to `cancelled`.
+
+#### Correct endpoint
+
+```
+curl -X POST 
+"https://api.multisafepay.com/v1/json/orders/{order_id}/cancel?api_key={terminal-group-api-key}"
+```
+
 ***
 
 # Errors in the display of the app / screen
