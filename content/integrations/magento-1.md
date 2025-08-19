@@ -1141,6 +1141,7 @@ Supported since release: 3.1.0, June 15th 2021.
 
 <details id="refund-rules">
 <summary>Refund rules</summary>
+
 <br />
 
 | Platform | Details |

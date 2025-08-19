@@ -49,7 +49,6 @@ privacy:
 | TrustPay                               | `TRUSTPAY`    |
 | Visa, Cartes Bancaires, Dankort, V Pay | `VISA`        |
 | WeChat Pay                             | `WECHAT`      |
-| Zinia                                  | `ZINIA`       |
 | **Gift cards**                         |               |
 | Amsterdam stadspas                     | `AMSGIFT`     |
 | Baby Cadeaubon                         | `BABYCAD`     |
