@@ -20,9 +20,9 @@ This section contains our ready-made integrations for ecommerce platforms.
 
   <Card title="Shopify Apps" href="/docs/shopify/" icon="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Integrations/Shopify.svg" />
 
-  <Card title="Shopware 6" href="/docs/shopware-6/" icon="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Shopware_5.svg" />
+  <Card title="Shopware 6" href="/docs/shopware-6/" icon="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Shopware_6.svg" />
 
-  <Card title="Shopware 5" href="/docs/shopware-5/" icon="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Shopware_6.svg" />
+  <Card title="Shopware 5" href="/docs/shopware-5/" icon="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/Shopware_5.svg" />
 
   <Card title="WooCommerce" href="/docs/woocommerce/" icon="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/logo/Plugins/WooCommerce.svg" />
 </Cards>
