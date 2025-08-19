@@ -166,7 +166,7 @@ Insert the `order_id` and the **API** key in the URL.
 
 **Example request**
 
-```curl POST
+```curl
 curl -X POST 
 "https://api.multisafepay.com/v1/json/orders/{order_id}/cancel?api_key={your-api-key}"
 ```
