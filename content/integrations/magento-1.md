@@ -1045,8 +1045,6 @@ Recurring Payments are not available for the generic card payments gateway. You 
 | Backend | Full refunds and <a href="https://docs.magento.com/m1/ce/user_guide/order-processing/credit-memo-create.html" target="_blank">credit memos</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i> <br> You can't refund more than the original amount |
 | <<glossary:BNPL>> orders | You can only refund a selected item from the order, not a set amount. If you enter an amount instead of selecting an item, the entire order is refunded. |
 
-<<<<<<< Updated upstream
-=======
   <Table>
     <thead>
       <tr>
@@ -1086,7 +1084,6 @@ Recurring Payments are not available for the generic card payments gateway. You 
       </tr>
     </tbody>
   </Table>
->>>>>>> Stashed changes
 </details>
 
 <details id="how-to-process-backend-refunds">
@@ -1155,13 +1152,6 @@ For more information and instructions, see MultiSafepay blog – <a href="https:
 
 ---
 
-<<<<<<< Updated upstream
-[block:html]
-{
-  "html": "<blockquote class=\"callout callout_info\">\n<h3 class=\"callout-heading false\">\n        <span class=\"callout-icon\">💬</span>\n        <p>Support</p>\n    </h3>\n  <p>Contact MultiSafepay:</p>\n  <ul>\n    <li>Telephone: <a href=\"tel:+310208500500\">+31 (0)20 8500 500</a></li>\n    <li>Email: <a href=\"mailto:integration@multisafepay.com\">integration@multisafepay.com</a></li>\n  </ul>  \n</blockquote>"
-}
-[/block]
-=======
 <blockquote className="callout callout_info">
   <h3 className="callout-heading false">
     <span className="callout-icon">💬</span>
@@ -1177,6 +1167,5 @@ For more information and instructions, see MultiSafepay blog – <a href="https:
     </li>
   </ul>
 </blockquote>
->>>>>>> Stashed changes
 
 [Top of page](#)
