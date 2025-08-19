@@ -162,7 +162,7 @@ To cancel an order, make a **POST** request to our cancellation endpoint. This r
 
 Insert the `order_id` and the **API** key in the URL.
 
-**⚠️Note:** To cancel a POS order, use a **POST** method. **PATCH** methods are not supported. For more information, see [Cancelling declined transactions](/docs/pos-troubleshooting#cancelling-declined-transactions) .
+**⚠️Note:** To cancel a POS order, use a **POST** method. **PATCH** methods are not supported. For more information, see [Cancelling declined transactions](/docs/pos-troubleshooting#cancelling-declined-transactions).
 
 **Example request**
 
