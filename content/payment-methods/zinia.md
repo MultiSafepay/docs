@@ -5,7 +5,7 @@ category:
 slug: zinia
 position: 7
 privacy:
-  view: public
+  view: anyone_with_link
 parent:
   uri: bnpl
 ---
