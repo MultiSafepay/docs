@@ -1,11 +1,3 @@
-name: Readme sync docs on merge
-on:
-  pull_request:
-    types:
-      - closed
-    branches: 
-      - master
-
 jobs:
   readme-docs-sync:
     if: github.event.pull_request.merged == true
