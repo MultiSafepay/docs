@@ -1,0 +1,62 @@
+description: | 
+  Information specific to the payment method (gateway). 
+  
+  **Required for:**
+
+  - SEPA Direct Debit `direct` orders
+  - Bancontact QR and iDEAL QR orders
+type: object
+properties:
+  qr_enabled:
+    description: Creates a [Bancontact QR](https://docs.multisafepay.com/docs/bancontact/) order.
+    type: boolean
+  qr_size:
+    description: |
+      For iDEAL QR orders, sets the width and height of the QR image in pixels. 
+
+      Sizes are between 100 and 2000 pixels. If the value does not meet this rule, the default is used.
+
+      Defaults to (250 by 250 pixels).
+    type: integer
+    default: 250
+  allow_multiple:
+    description: For iDEAL QR orders, sets whether the QR code can be used more than once.
+    type: boolean
+  allow_change_amount:
+    description: |
+      For iDEAL QR orders, sets whether the customer can change the amount to pay. 
+      
+      You must then also set `min_amount` and `max_amount`.
+    type: boolean
+  min_amount:
+    description: |
+      For iDEAL QR orders, sets a minimum amount that the customer must pay.
+
+      The `min_amount` must be lower than the `amount`.
+      
+      If `min_amount` is not set, but `max_amount` is set, then the `amount` value is used as the `min_amount`.
+
+      Required if `allow_change_amount` is set to true.
+    type: string  
+  max_amount:
+    description: |
+      For iDEAL QR orders, sets a maximum amount that the customer can pay.
+
+      The `max_amount` must be higher than the `amount`.
+      
+      If `max_amount` is not set, but `min_amount` is set, then the `amount` value is used as the `max_amount`.
+
+      Required if `allow_change_amount` is set to true.
+    type: string
+  account_id:
+    description: For SEPA Direct Debit `direct` orders (**required**), the international bank account number (IBAN).
+    type: string
+  account_holder_name:
+    description: For SEPA Direct Debit `direct` orders (**required**), the name of the account holder.
+    type: string
+  account_holder_iban:
+    description: For SEPA Direct Debit `direct` orders (**required**), the international bank account number (IBAN).
+    type: string
+  emandate:
+    description: For SEPA Direct Debit `direct` orders (**required**), the unique emandate identifier (for your own administration).
+    type: string

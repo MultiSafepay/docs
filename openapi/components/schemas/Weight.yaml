@@ -1,0 +1,17 @@
+description: The weight per product.
+type: object
+properties:
+  unit: 
+    description: The unit of weight.
+    type: string
+    enum: [KG]
+    example: KG
+  value: 
+    description: |
+      The weight of the item corresponding to the unit.
+
+      For a 2 kilogram product:
+      - Set `value` to `2`.
+      - Set `unit` to `KG`.
+    type: number
+    example: 2

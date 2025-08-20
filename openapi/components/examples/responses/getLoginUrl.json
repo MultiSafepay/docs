@@ -1,0 +1,8 @@
+{
+
+    "success": true,
+        "data": {
+        "url": "http://testapimerchantspanel.multisafepay.com/auth/token?token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        }
+
+}

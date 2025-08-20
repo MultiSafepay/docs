@@ -1,0 +1,11 @@
+description: |
+  The type of card processed.
+  
+  Possible values:
+  - Unknown, set to `0`.
+  - Consumer, set to `1`.
+  - Commercial, set to `2`.
+  - All, set to `3`.
+type: integer
+enum: [0, 1, 2, 3]
+example: 2

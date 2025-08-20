@@ -1,0 +1,4 @@
+description: Indicates the current status of the account's screening process.
+type: string
+enum: [approved, declined, pending]
+example: approved

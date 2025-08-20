@@ -1,0 +1,53 @@
+patch:
+  description: | 
+    Refunding creates a new order linked to the original order. By default, it has the same `order_id` as the original order. To override this, include in the request `refund_order_id`.
+
+    You can cancel a refund order if it is still in `reserved` state.
+  operationId: cancelRefund
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: order_id
+      description: | 
+        The unique identifier of the original order. 
+      
+        Max length: 50 characters.
+      in: path
+      required: true
+      schema:
+        type: string
+    - name: refund_id
+      description: |
+        The unique identifier of the transaction for the refund.
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $import: '../components/requestBody/CancelRefund.yaml'
+        example: 
+          $import: '../components/examples/requests/refunds/cancelrefund.json'
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data: 
+                description: An empty object.
+                type: object
+    '404':
+      description: Error
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+  summary: Cancel a refund
+  tags:
+    - Refunds

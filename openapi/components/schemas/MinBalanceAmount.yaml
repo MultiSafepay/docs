@@ -1,0 +1,7 @@
+description: |
+  The `min_amount` to remain as a balance after the payout is made. 
+
+   The `min_amount` must only a positive value.
+type: integer
+minimum: 0
+example: 1000

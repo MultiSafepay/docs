@@ -1,0 +1,61 @@
+description: Settings for the shopping cart, including taxes and validation.
+type: object 
+properties:
+  validate_cart:
+    description: | 
+      If set to `true`, the value of `amount` is compared to the calculated total value of the shopping cart (returned as `order_total`).
+
+      If the values:
+      
+      - Match, the request is successful.
+      - Don’t match, the request is unsuccessful and error_code 1027 is returned.
+    type: boolean
+    default: false
+  tax_tables:
+    description: Sets default VAT settings and creates VAT classes in the alternate array, which you can apply to individual shopping cart items.
+    type: object
+    properties:
+      default:
+        description: The default VAT setting. Used when no value is set for `shopping_cart.items.tax_table_selector`.
+        type: object
+        properties: 
+          shipping_taxed: 
+            description: Sets whether or not the shipping costs are taxed.
+            type: boolean
+          rate:
+            description: The tax rate percentage as a fraction, e.g. 15% is expressed as `0.15`.
+            type: number
+            format: float
+            minimum: 0
+            example: 0.15
+      alternate: 
+        description: An array of client-defined VAT classes that you can apply to items in the shopping cart.
+        type: array
+        items: 
+          type: object
+          properties:
+            name:
+              description: The client-defined ID. Applies tax settings to items in the shopping cart through the `shopping_cart.items.tax_table_selector` attribute.
+              type: string
+            standalone:
+              description: Sets whether or not the shipping costs are taxed.
+              type: boolean
+            rules: 
+              type: array
+              items: 
+                type: object
+                properties:
+                  rate:
+                    description: The tax rate percentage expressed as a fraction.
+                    type: number
+                    format: float
+                    example: 0.0825
+                    minimum: 0
+                  country:
+                    description: |
+                      The country where the tax rate applies. 
+                      
+                      **Format:** [ISO 3166-1 alpha-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements).
+                    type: string
+                    format: country alpha-2
+                    example: US

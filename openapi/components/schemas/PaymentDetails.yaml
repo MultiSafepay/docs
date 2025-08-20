@@ -1,0 +1,74 @@
+description: Information about the payment.
+type: object
+properties:
+  account_bic:
+    $import: 'Bic.yaml'
+  account_holder_name:
+    description: The name of the account holder to be charged for the transaction.
+    type: string
+  account_iban:
+    $import: 'AccountIBAN.yaml'
+  account_id:
+    $import: 'Iban.yaml'
+  application_id:
+    $import: 'ApplicationID.yaml'
+  authorization_code:
+    $import: 'AuthorizationCode.yaml'
+  card_acceptor_id:
+    $import: 'CardAcceptorID.yaml' 
+  card_acceptor_location:
+    $import: 'CardAcceptorLocation.yaml'
+  card_acceptor_name:
+    $import: 'CardAcceptorName.yaml'
+  card_additional_response_data:
+    $import: 'CardAdditionalResponseData.yaml'
+  card_authentication_details:
+    $import: 'CardAuthenticationDetails.yaml'
+  card_authentication_result:
+    $import: 'CardAuthenticationResult.yaml'
+  car_entry_mode:
+    $import: 'CardEntryMode.yaml' 
+  card_expiry_date:
+    $import: 'CardExpiryDate.yaml'
+  card_funding:
+    $import: 'CardFunding.yaml' 
+  card_product:
+    $import: 'CardProduct.yaml'
+  card_product_type:
+    $import: 'CardProductType.yaml'
+  card_program: 
+    $import: 'CardProgram.yaml'
+  card_sequence_number:
+    $import: 'CardSequenceNumber.yaml'
+  cardholder_verification_method:
+    $import: 'CardHolderVerificationMethod.yaml'
+  cardholder_verification_result:
+    $import: 'CardHolderVerificationResult.yaml'
+  external_transaction_id:
+    $import: 'ExternalTransactionId.yaml'
+  issuer_bin:
+    $import: 'IssuerBIN.yaml'
+  issuer_country_code:
+    $import: 'IssuerCountryCode.yaml'
+  last4:
+    $import: 'Last4.yaml'
+  mcc:
+    $import: 'MCC.yaml'
+  recurring_flow: 
+    $import: 'RecurringFlow.yaml'
+  recurring_id:
+    $import: 'RecurringId.yaml'
+  recurring_model: 
+    $import: 'RecurringModel.yaml'
+  response_code:
+     description: The response status code.
+     type: integer
+  terminal_id:
+    $import: 'TerminalID.yaml'
+  scheme_reference_id:
+    $import: 'SchemeReferenceID.yaml'
+  type:
+    description: The payment method.
+    type: string
+    example: DIRECTBANK
+  

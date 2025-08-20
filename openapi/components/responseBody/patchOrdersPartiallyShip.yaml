@@ -1,0 +1,16 @@
+title: Partially ship order
+type: object
+properties:
+  success: 
+    description: Whether the request was successful.
+    type: boolean
+  data: 
+    description: Information about the partial shipment.
+    type: object
+    properties:
+      order_id:
+        description: The order ID for this partial shipment. Use to cancel or refund the partial shipment.
+        type: string
+        example: case-20220404-06-0001
+      transaction_id:
+        $import: '../schemas/TransactionId.yaml'

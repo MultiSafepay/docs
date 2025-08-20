@@ -1,0 +1,6 @@
+type: object
+properties:
+  message:
+    description: Invalid account ID. 
+    type: string
+    

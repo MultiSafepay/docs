@@ -1,0 +1,2 @@
+description: The country code of the card's issuing bank.
+type: string

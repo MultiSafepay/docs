@@ -1,0 +1,3 @@
+description: The chargeback reason code provided by the card scheme.
+type: string
+example: "4831"

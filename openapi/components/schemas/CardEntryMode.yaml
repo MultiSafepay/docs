@@ -1,0 +1,4 @@
+description: The method for capturing card payment information during a payment.
+type: string
+enum: [ICC,ICC_CONTACTLESS,MAGSTRIPE]
+example: ICC_CONTACTLESS

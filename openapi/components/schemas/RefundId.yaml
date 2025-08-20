@@ -1,0 +1,3 @@
+description: MultiSafepay's unique identifier for the refund transaction.
+type: integer
+example: 3326969

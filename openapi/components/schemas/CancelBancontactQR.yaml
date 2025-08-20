@@ -1,0 +1,24 @@
+description: | 
+  Information about the cancelled order.
+type: object
+properties:
+  costs:
+    description: The fees for the transaction.
+  created:
+    $import: 'Created.yaml'
+  custom_info:
+    $import: 'CustomInfo.yaml'
+  fastcheckout:
+    $import: 'FastCheckout.yaml'
+  financial_status:
+    $import: 'FinancialStatus.yaml'
+  modified:
+    $import: 'Modified.yaml'
+  payment_details:
+    description: Information about the payment.
+    type: object
+  payment_methods:
+    description: Information about the payment method.
+    type: object
+  status:
+    $import: 'Status.yaml'

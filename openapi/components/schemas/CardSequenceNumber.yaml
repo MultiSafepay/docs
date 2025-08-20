@@ -1,0 +1,2 @@
+description: A unique identifier assigned to each card to differentiate it from other cards issued under the same primary account number (PAN).
+type: string 

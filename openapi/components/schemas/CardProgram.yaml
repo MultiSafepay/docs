@@ -1,0 +1,4 @@
+description: |
+ An acronym used by the card scheme to categorize cards by their funding properties.
+type: string
+example: MCC

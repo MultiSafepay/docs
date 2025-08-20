@@ -1,0 +1,7 @@
+description: | 
+  The first line of the address.
+
+  **Required for:** in3B2B, Amazon Pay, and Billink.
+type: string
+maxLength: 64
+example: Kraanspoor

@@ -1,0 +1,60 @@
+description: | 
+  Information about the order. 
+  
+  The structure of the response may differ depending on the order type and payment method.
+type: object
+properties:
+  transaction_id:
+    $import: 'TransactionId.yaml'
+  order_id:
+    $import: 'OrderId.yaml'
+  created:
+    $import: 'Created.yaml'
+  currency:
+    $import: 'Currency.yaml'
+  amount:
+    $import: 'Amount.yaml'
+  description:
+    $import: 'Description.yaml'
+  items:
+    $import: 'Items.yaml'
+  amount_refunded:
+    $import: 'AmountRefunded.yaml'
+  auth_order_id: 
+    $import: 'AuthOrderId.yaml'  
+  status:
+    $import: 'Status.yaml'
+  financial_status:
+    $import: 'FinancialStatus.yaml'
+  reason:
+    description: The reason for any updates to the order.
+    type: string
+  reason_code:
+    description: The code for the reason for any updates to the order.
+    type: string
+  fastcheckout:
+    $import: 'FastCheckout.yaml'
+  modified:
+    $import: 'Modified.yaml'
+  customer:
+    $import: 'Customer.yaml'
+  payment_details:
+    $import: 'PaymentDetails.yaml'
+  completed_date:
+    $import: 'Completed.yaml'
+  costs:
+    $import: 'Costs.yaml'
+  related_transactions:
+    type: array
+    items:
+      $import: 'RelatedTransactions.yaml'
+  payment_methods:
+    type: array
+    items:
+      $import: 'PaymentMethods.yaml'
+  var1:
+    $import: 'var12.yaml'
+  var2:
+    $import: 'var12.yaml'
+  var3:
+    $import: 'var3.yaml'

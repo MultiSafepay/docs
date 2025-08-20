@@ -1,0 +1,4 @@
+description: Indicates whether the request was successful.
+type: boolean
+example: true
+

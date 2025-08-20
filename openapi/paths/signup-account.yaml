@@ -1,0 +1,76 @@
+post:
+  description: Create an account for an affiliated merchant.
+  operationId: Partner::SignupAccount
+  x-readme:
+    explorer-enabled: false
+  parameters: []
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            account:
+              allOf:
+                - $import: '../components/schemas/Account.yaml'
+                - required: [company_name, country, email]
+            currencies:
+              description: The currencies supported in the account.
+              type: array
+              items:
+                type: string
+                format: ISO 4217
+              example: EUR
+            user:
+              $import: '../components/schemas/User.yaml'
+          required: [account, currencies, user]
+        examples:
+          France address:
+            summary: France address
+            value: 
+              $import: '../components/examples/requests/signup-account/france-address.json'
+          Netherlands address:
+            summary: Netherlands address
+            value: 
+              $import: '../components/examples/requests/signup-account/netherlands-address.json'
+          Spain address:
+            summary: Spain address
+            value: 
+              $import: '../components/examples/requests/signup-account/spain-address.json'
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                description: Information about the account.
+                type: array
+                items:
+                  type: object
+                  properties:
+                    account:
+                      $import: '../components/schemas/Account.yaml'
+                    currencies:
+                      description: The currencies supported in the account.
+                      type: array
+                      items:
+                        type: string
+                        format: ISO 4217
+                      example: EUR
+                    user:
+                      $import: '../components/schemas/User.yaml'
+    '422':
+      description: Validation errors
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/422Error.yaml'
+  summary: Create affiliate
+  tags:
+    - Onboard affiliates

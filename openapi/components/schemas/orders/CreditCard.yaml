@@ -1,0 +1,172 @@
+title: Card order
+description: Credit or debit card order
+properties:
+  type:
+    description: |
+      - `redirect`: Customers are redirected to a [payment page](https://docs.multisafepay.com/docs/payment-pages/) where they enter their cardholder data. 
+      - `direct`: The API request contains the cardholder data, so customers are redirected to an authentication or success page.
+
+      If not set, `redirect` is used.
+
+      For more information, see [Direct vs redirect](https://docs.multisafepay.com/reference/introduction#direct-vs-redirect).
+      
+      **Note:** To process `direct` card payments, you must have PCI DSS certification, see [Cardholder data](https://docs.multisafepay.com/docs/cardholder-data/).
+    type: string
+    enum: [direct, redirect]
+    example: redirect
+  gateway:
+    allOf:
+      - description: |
+          The unique identifier for the payment method (gateway). See [Gateway IDs](https://docs.multisafepay.com/reference/gateway-ids).
+
+
+          Using the generic `CREDITCARD` gateway improves the customer experience. For `redirect` requests, the payment page automatically detects the card scheme.
+      - type: string
+      - example: CREDITCARD
+      - $import: '../GatewayIdentifiersCreditCard.yaml'
+  order_id:
+    $import: '../OrderId.yaml'
+  currency:
+    $import: '../Currency.yaml'
+  amount:
+    description: |
+      The payment amount in the currency's smallest unit:
+
+      - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+      - Zero-decimal currencies: Value for 10 JPY = 10
+
+      **Discounts**
+      
+      To discount: 
+      
+      - An entire order, enter a reduced amount. 
+      - Specific items in the order, in the `shopping_cart`, reduce the `unit_price` of the relevant items.
+
+      **Zero Authorization**
+
+      For [Zero Authorization](https://docs.multisafepay.com/docs/zero-authorization/) orders, set to 0.
+    type: integer
+    minimum: 0
+    example: 1000
+  description:
+    $import: '../Description.yaml'
+  payment_options:
+    $import: '../PaymentOptions.yaml'
+  customer:
+    allOf:
+      - properties:
+          browser: 
+            description: |
+              The customer's device and browser information, used for [3DS2](https://docs.multisafepay.com/docs/3ds2) authentication of direct credit card payments. 
+
+              **Required for:** Card payments with `type` set to `direct`.
+
+              To create a `customer.browser` object from the customer's device, see Recipes – [Create a `customer.browser` object](https://docs.multisafepay.com/recipes/create-a-customerbrowser-object).
+
+              See also [Cardholder data](https://docs.multisafepay.com/docs/cardholder-data).
+            type: object
+            properties: 
+              javascript_enabled:
+                type: boolean
+                description: Whether JavaScript is available in the customer's browser.
+                example: true
+              java_enabled:
+                type: boolean
+                description: Whether Java is available in the customer's browser.
+                example: true
+              cookies_enabled:
+                type: boolean
+                description: |
+                  Whether cookies are enabled in the customer's browser.
+
+                  See also MDN – [Navigator.cookieEnabled](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/cookieEnabled).
+                example: true
+              language:
+                type: string
+                description: |
+                  The preferred language set in the customer's browser.
+
+                  See also MDN – [Navigator.language](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/language).
+                example: en-GB
+              screen_color_depth:
+                type: number
+                description: |
+                  The color depth of the customer's screen. 
+
+                  See also MDN – [Screen.colorDepth](https://developer.mozilla.org/en-US/docs/Web/API/Screen/colorDepth).
+                example: 24
+              screen_height:
+                type: number
+                description: |
+                  The screen height of the customer's device in pixels.
+
+                  See also MDN – [Screen.height](https://developer.mozilla.org/en-US/docs/Web/API/Screen/height).
+                example: 1080
+              screen_width:
+                type: number
+                description: |
+                  The screen width of the customer's device in pixels.
+
+                  See also MDN – [Screen.height](https://developer.mozilla.org/en-US/docs/Web/API/Screen/width).
+                example: 1920
+              time_zone:
+                type: number
+                description: |
+                  The difference, in minutes, between the UTC time zone and the customer's local time zone.
+
+                  See also, MDN – [Date.prototype.getTimezoneOffset()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset).
+                example: -120
+              user_agent:
+                type: string
+                description: |
+                  The user agent string of the customer's browser.
+
+                  See also MDN – [Navigator.userAgent](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgent).
+                example: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36"
+              platform:
+                type: string
+                description: |
+                  The platform on which the customer's browser is running.
+
+                  See also MDN – [Navigator.userAgent](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgent).
+                example: "MacIntel"
+      - $import: '../Customer.yaml'
+  gateway_info:
+    $import: '../GatewayInfoCreditCard.yaml'
+  delivery:
+    allOf:
+      - $import: '../Delivery.yaml'
+      - required: [address1, city, country, first_name, house_number, last_name, zip_code]
+  checkout_options:
+    allOf:
+      - $import: '../CheckoutOptions.yaml'
+  shopping_cart:
+    $import: '../ShoppingCart.yaml'
+  items:
+    $import: '../Items.yaml'
+  recurring:
+    $import: '../Recurring.yaml'
+  capture:
+    $import: '../Capture.yaml'
+  affiliate:
+    $import: '../Affiliate.yaml'
+  second_chance:
+   $import: '../SecondChance.yaml'
+  customer_verification:
+    $import: '../CustomerVerification.yaml'
+  custom_info:
+    $import: '../CustomInfo.yaml'
+  days_active:
+    $import: '../DaysActive.yaml'
+  seconds_active: 
+    $import: '../SecondsActive.yaml'
+  var1:
+    $import: '../var12.yaml'
+  var2:
+    $import: '../var12.yaml'
+  var3:
+    $import: '../var3.yaml'
+  plugin:
+    $import: '../Plugin.yaml'
+type: object
+required: [amount, currency, description, gateway, order_id]

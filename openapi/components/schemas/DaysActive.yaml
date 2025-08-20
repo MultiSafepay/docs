@@ -1,0 +1,14 @@
+description: |
+      For `checkout`, `paymentlink`, and `redirect` orders, sets the number of days the link to the payment page or FastCheckout page is valid.
+
+      The link lifetime begins when the order is created, or the link is generated. A `session_id` is returned in the payment page URL.
+
+      If [Second Chance](https://docs.multisafepay.com/docs/second-chance/) is enabled, we recommend a minimum lifetime of **48 hours**. Second Chance emails the customer 2 payment reminders: 1 hour and 24 hours after the order is created. If the lifetime is less than 24 hours, the link in the second email is no longer active when the customer receives it. 
+      
+      See `seconds_active` below. If `seconds_active` is also set, `seconds_active` is used. If neither is set, the default is used.
+
+type: integer
+minimum: 1
+maximum: 365
+default: 30
+example: 30

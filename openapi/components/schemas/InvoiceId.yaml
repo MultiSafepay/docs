@@ -1,0 +1,4 @@
+description: Your unique identifier for the invoice, which appears in [reports](https://docs.multisafepay.com/docs/reports/).
+type: string
+maxLength: 50  
+example: AB123456

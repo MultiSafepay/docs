@@ -1,0 +1,19 @@
+title: Cancel order
+type: object
+description: Cancel an order
+properties:
+  status:
+    description: | 
+      The [order status](https://docs.multisafepay.com/docs/payment-statuses/).
+
+      To cancel the order and its underlying session, set to `cancelled`.  
+    type: string
+    example: cancelled
+  exclude_order:
+    description: |
+      Sets the outcome of the cancellation.
+      
+      To cancel the order, set to `true`.
+    type: boolean
+    example: true
+required: [status]

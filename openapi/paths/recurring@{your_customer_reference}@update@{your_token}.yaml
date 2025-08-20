@@ -1,0 +1,72 @@
+patch:
+  description: Update the card expiry date in a customer's token.
+  operationId: updateCardExpiryDate
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: your_customer_reference
+      description: Your unique identifier of the customer.
+      in: path
+      required: true
+      schema:
+        type: string
+    - name: your_token
+      description: The unique identifier of the token.
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            expiry_date:
+              $import: '../components/schemas/CardExpiryDate.yaml'
+          required: [expiry_date]
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                description: Information about the update.
+                properties:
+                  updated:
+                    description: Whether the card expiry date was successfully updated.
+                    type: boolean
+                    example: true
+    '404':
+      description: Error 
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+    '410':
+      description: Token not updated
+      content:
+        application/json:
+          schema:
+            properties:
+              success:
+                type: boolean
+                example: false
+              data:
+                $import: '../components/schemas/DataEmpty.yaml'
+              error_code:
+                description: "1000"
+                type: integer
+                example: 1000
+              error_info:
+                description: Token not updated.
+                type: string
+                example: "Token not updated" 
+  summary: Update token
+  tags:
+    - Tokens

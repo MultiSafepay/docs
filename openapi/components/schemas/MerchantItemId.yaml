@@ -1,0 +1,6 @@
+description: |
+      Your unique (client-defined) identifier for the product or service.
+
+      If this item specifies the shipping costs, set to `msp-shipping`.
+type: string
+example: "12345678"

@@ -1,0 +1,17 @@
+description: |
+  The time until the login URL expires.
+
+  To specify `expires_in` set the time with a unit. The format is:
+
+  - Years to "y"
+  - Weeks to "w"
+  - Days to "d"
+  - Hours to "h"
+  - Minutes to "m"
+  - Seconds to "100s"
+
+  For example, "1y", "5m" or "7d".
+
+  If `expires_in` is set without a unit, it defaults to `seconds.
+type: string
+example: 5m

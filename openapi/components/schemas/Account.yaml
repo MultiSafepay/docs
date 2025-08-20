@@ -1,0 +1,38 @@
+description: Information about the account.
+type: object
+properties:
+  address1:
+    $import: 'Address1.yaml'
+  address2:
+    $import: 'Address2.yaml'
+  address3:
+    $import: 'Address3.yaml'
+  apartment:
+    $import: 'Apartment.yaml'
+  city:
+    $import: 'City.yaml'
+  coc_number:
+    $import: 'CoCNumber.yaml'
+  company_name:
+    $import: 'CompanyName.yaml'
+  country:
+    $import: 'Country.yaml'
+  email:
+    description: The company email address.
+    type: string
+    format: email
+    maxLength: 64
+    example: "merchant@example.com"
+  phone:
+    description: The company phone number.
+    type: string
+    maxLength: 15
+    example: "+3120123456"
+  processing_options:
+    $import: 'ProcessingOptions.yaml'
+  screening_status:
+    $import: 'ScreeningStatus.yaml'
+  vat_number:
+    $import: 'VAT.yaml'
+  zipcode:
+    $import: 'ZIP.yaml'

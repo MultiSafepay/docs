@@ -1,0 +1,20 @@
+description: |
+  Information about the receipt.
+
+  The structure of the response may differ depending on type of transaction.
+type: object
+properties:
+  merchant:
+    $import: 'ReceiptMerchant.yaml'
+  order:
+    $import: 'ReceiptOrder.yaml'
+  payment:
+    $import: 'ReceiptPayment.yaml'
+  printed_on:
+    $import: 'ReceiptPrintedOn.yaml'
+  related_transactions:
+    type: array
+    items:
+      $import: 'ReceiptRelatedTransactions.yaml'
+
+ 

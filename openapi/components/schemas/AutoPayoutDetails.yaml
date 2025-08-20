@@ -1,0 +1,15 @@
+description: | 
+  Information about the payout. 
+  
+type: object
+properties:
+  currency:
+    $import: 'Currency.yaml'
+  schedule:
+    $import: 'Schedule.yaml'
+  bankaccount_id:
+    $import: 'BankAccountID.yaml'
+  min_amount:
+    $import: 'MinAmount.yaml'
+  min_balance_amount:
+    $import: 'MinBalanceAmount.yaml'

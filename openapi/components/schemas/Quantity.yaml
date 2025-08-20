@@ -1,0 +1,3 @@
+description: The number of units of the item.
+type: integer
+example: 1

@@ -1,0 +1,55 @@
+get:
+  description: | 
+    List the account information of affiliated merchants.
+
+    To paginate the response, use the `limit` and `offset` query parameters. 
+    **⚠️Note:** You can retrieve a maximum of 500 items per request.
+  operationId: listAffiliatedAccounts
+  x-readme:
+    explorer-enabled: false
+  parameters:
+    - name: offset
+      description: Return results starting from the offset position.
+      in: query
+      required: false
+      schema:
+        type: integer
+        minimum: 0
+        example: 5
+    - name: limit
+      description: |
+        Limit the number of results returned.
+        
+        If no value is set, the response will return 100 items by default.
+      in: query
+      required: false
+      schema:
+        type: integer
+        maximum: 500
+        minimum: 1
+        default: 100
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          example:
+            $import: '../components/examples/responses/listAffiliatedAccounts.json'
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                description: Information about each account.
+                items:
+                  $import: '../components/schemas/Account.yaml'
+    '403':
+      description: Forbidden
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/403Error.yaml' 
+  summary: List affiliates
+  tags:
+    - Manage affiliates

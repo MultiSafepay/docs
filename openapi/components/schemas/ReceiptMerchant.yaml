@@ -1,0 +1,10 @@
+description: Information about the merchant.
+type: object
+properties:
+  address:
+    type: string
+    description: The merchant's address.
+  name:
+    type: string
+    description: The name of the merchant's company or business.
+ 

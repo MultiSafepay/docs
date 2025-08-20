@@ -1,0 +1,20 @@
+description: Information about your integration (useful for debugging).
+properties:
+  shop:
+    description: The name of your ecommerce application.
+    type: string
+    example: "My self-made integration"
+  shop_version: 
+    description: The version of your ecommerce application.
+    type: string
+  plugin_version:
+    description: The version of your integration.
+    type: string
+    example: "1.0.0"
+  partner: 
+    description: The name of the third party that developed the ecommerce application (if relevant).
+    type: string
+  shop_root_url:
+    description: The root/base URL of the ecommerce application.
+    type: string
+    example: "https://www.my-ecommerce.com"

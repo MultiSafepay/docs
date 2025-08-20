@@ -1,0 +1,16 @@
+{
+  "type": "direct",
+  "gateway": "iDEAL",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 1000,
+  "description": "product description",
+  "custom_info": {},
+  "payment_options": {
+    "notification_method": "POST",
+    "notification_url": "https://www.example.com/webhooks/payment",
+    "redirect_url": "https://www.example.com/order/success",
+    "cancel_url": "https://www.example.com/order/failed",
+    "close_window": true
+  }
+}

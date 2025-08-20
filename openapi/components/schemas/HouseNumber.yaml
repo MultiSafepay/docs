@@ -1,0 +1,7 @@
+description: |
+  The house number of the address.
+
+  **Required for:** Amazon Pay, Klarna, and Billink
+type: string
+maxLength: 10
+example: 39C

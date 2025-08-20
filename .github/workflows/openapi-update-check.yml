@@ -1,0 +1,38 @@
+name: Check for updates to API spec
+
+on: 
+  schedule:
+  - cron: "0 3 * * *"
+
+jobs:
+  download-api-ref:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download latest API spec
+      run: curl https://api.multisafepay.com/v1/json/openapi.json | jq '.' &> ${{ github.workspace }}/downloaded-openapi.json
+    - name: Store latest API spec
+      uses: actions/upload-artifact@v2
+      with:
+        name: downloaded-openapi.json
+        path: ${{ github.workspace }}/downloaded-openapi.json
+        retention-days: 1
+  run-api-diff:
+    needs: download-api-ref
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out main branch
+      uses: actions/checkout@v2
+    - name: Download artifact
+      uses: actions/download-artifact@v2
+      with:
+        name: downloaded-openapi.json
+    - name: Compare API specs
+      uses: LouisBrunner/diff-action@v0.1.0
+      with:
+        old: openapi.json
+        new: ${{ github.workspace }}/downloaded-openapi.json
+        mode: addition
+        tolerance: same
+        output: out.txt
+    - name: Share output
+      run: cat out.txt

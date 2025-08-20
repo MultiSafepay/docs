@@ -1,0 +1,3 @@
+description: The Merchant Category Code. A four-digit number that classifies the merchant's business type.
+type: string
+example: 5995

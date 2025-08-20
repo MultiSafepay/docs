@@ -1,0 +1,20 @@
+type: object
+properties:
+  name:
+    description: The name of the product or service.
+    type: string
+    example: Backpack
+  description:
+    description: A description of the product or service.
+    type: string
+    example: Black cotton backpack with logo.
+  unit_price:
+    $import: 'UnitPrice.yaml'
+  quantity:
+    $import: 'Quantity.yaml'
+  merchant_item_id:
+    $import: 'MerchantItemId.yaml'
+  tax_table_selector:
+    $import: 'TaxTableSelector.yaml'
+  weight:
+    $import: 'Weight.yaml'

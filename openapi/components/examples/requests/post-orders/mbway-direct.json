@@ -1,0 +1,30 @@
+{
+  "type": "direct",
+  "order_id": "my-order-001",
+  "gateway": "MBWAY",
+  "currency": "EUR",
+  "amount": 1000,
+  "description": "product description",
+  "payment_options": {
+      "notification_url": "https://www.example.com/webhooks/payment",
+      "redirect_url": "https://www.example.com/order/success",
+      "cancel_url": "https://www.example.com/order/failed"
+  },
+  "customer": {
+      "locale": "pt_PT",
+      "ip_address": "92.176.58.177",
+      "first_name": "Testperson-nl",
+      "last_name": "Approved",
+      "house_number": "XI",
+      "zip_code": "2521VA",
+      "city": "Gravenhage",
+      "state": "",
+      "country": "PT",
+      "birthday": "10071970",
+      "gender": "male",
+      "phone": "061234578",
+      "email": "example@multisafepay.com",
+      "referrer": "http://test.com",
+      "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
+  }
+}

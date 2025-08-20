@@ -1,0 +1,70 @@
+type: object
+description: |
+  Contains the customer's device and browser information. Required for 3D Secure authentication.
+
+  Use this object for your direct solutions:
+  - Google Pay direct
+  - Apple Pay direct
+  - Amazon Pay direct
+  - PayPal button
+
+properties:
+  ip_address:
+    type: string
+    description: The IP address of the customer's device. Used for geolocation and fraud detection.
+    example: "192.168.1.100"
+  javascript_enabled:
+    type: integer
+    description: |
+      Flag indicating whether JavaScript is enabled:
+      - `1` = enabled
+      - `0` = disabled
+    enum: [0, 1]
+  java_enabled:
+    type: integer
+    description: |
+      Flag indicating whether Java is enabled:
+      - `1` = enabled
+      - `0` = disabled
+    enum: [0, 1]
+  cookies_enabled:
+    type: integer
+    description: |
+      Flag indicating whether cookies are enabled:
+      - `1` = enabled
+      - `0` = disabled
+    enum: [0, 1]
+  language:
+    type: string
+    description: |
+      The preferred language of the customer's browser.
+
+      **Format:** [ISO 639-1 language code](https://en.wikipedia.org/wiki/ISO_639-1).
+    example: "en"
+  accept_header:
+    type: string
+    description: The Accept HTTP header sent by the browser.
+  screen_color_depth:
+    type: string 
+    description: The color depth of the customer's screen.
+    example: "24"
+  screen_height:
+    type: string 
+    description: The height of the customer's screen in pixels.
+    example: "780"
+  screen_width:
+    type: string 
+    description: The width of the customer's screen in pixels.
+    example: "1024"
+  time_zone:
+    type: string 
+    description: The customer's time zone as an offset from UTC in minutes.
+    example: "-180"
+  user_agent:
+    type: string
+    description: The User-Agent string sent by the browser.
+    example: "Mozilla/5.0 (Windows NT 6.3; WOW64)"
+  platform:
+    type: string
+    description: A generalized description of the operating system and device architecture
+    example: Linux amd64

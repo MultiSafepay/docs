@@ -1,0 +1,20 @@
+description: | 
+    The array of items in the customer's shopping cart, including the shipping costs, and the tax class (as defined in `checkout_options`).
+
+    **Required for:** BNPL orders, but recommended for all orders.
+    
+    Displays on [payment pages](https://docs.multisafepay.com/docs/payment-pages/), [FastCheckout pages](https://docs.multisafepay.com/docs/fastcheckout/), and in your dashboard.
+
+    To learn how to calculate the order `amount` from the `shopping_cart`, see [Rounding rule](/docs/rounding-rule/).
+
+    **Discounts**
+      
+    - For non-BNPL orders, see Recipe – [Discount an order](/recipes/discount-an-order/).
+    - For BNPL orders, see Recipe – [Discount a BNPL order](/recipes/discount-a-bnpl-order/).  
+type: object
+properties:
+  items:
+    description: The items in the customer's shopping cart. Specify the relevant tax ruling per item.
+    type: array
+    items:
+      $import: 'Item.yaml'

@@ -1,0 +1,79 @@
+description: Information about the transaction.
+type: object
+properties:
+  amount:
+    allOf:
+      - $import: 'Amount.yaml'
+      - example: 1000
+  completed:
+    description: The timestamp for when the transaction was completed.
+    type: string
+    format: datetime
+    example: "23-02-2022 23:31:31"
+  costs:
+    description: The fees for the transaction.
+    type: array
+    items:
+      type: object
+      properties:
+        amount:
+          $import: 'Amount.yaml'
+        description:
+          $import: 'Description.yaml'
+  created:
+    $import: 'Created.yaml'
+  currency:
+    $import: 'Currency.yaml'
+  customer:
+    description: The customer's personal information.
+    type: object
+    properties:
+      email:
+        $import: 'Email.yaml'
+      first_name:
+        $import: 'FirstName.yaml'
+      iban:
+        $import: 'Iban.yaml'
+      last_name:
+        $import: 'LastName.yaml'
+  debit_credit:
+    description: Whether the transaction is a credit (C) or a debit (D).
+    type: string
+    enum: [C, D]
+  description:
+    $import: 'Description.yaml'
+  dispute:
+    $import: 'ChargebackDispute.yaml' 
+  financial_status:
+    $import: 'FinancialStatus.yaml'
+  net:
+    description: The net value for the transaction, i.e. `amount` - `costs`.
+    type: integer
+    example: 940
+  invoice_id:
+    $import: 'InvoiceId.yaml'
+  order_id:
+    $import: 'OrderId.yaml'
+  payment_method:
+    description: The payment method.
+    type: string
+    example: VISA
+  site_id:
+    $import: 'SiteID.yaml'
+  status:
+    $import: 'Status.yaml'
+  transaction_id:
+    $import: 'TransactionId.yaml'
+  type:
+    description: The type of transaction.
+    type: string
+    enum: [admin_fee, affiliate_payout, automatic_payout, chargeback, coupon, currency_conversion, deposit, fastcheckout, internal, merchant_settlement, monthly_fee, payment, refund, reverse_chargeback, signup_fee, withdrawal]
+    example: 'payment'
+  updated:
+    $import: 'Modified.yaml'
+  var1:
+    $import: 'var12.yaml'
+  var2:
+    $import: 'var12.yaml'
+  var3:
+    $import: 'var3.yaml'

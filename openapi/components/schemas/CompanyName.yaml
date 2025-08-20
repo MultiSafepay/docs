@@ -1,0 +1,4 @@
+description: The company name. 
+type: string
+maxLength: 200
+example: "My company name"

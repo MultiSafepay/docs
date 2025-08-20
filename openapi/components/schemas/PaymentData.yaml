@@ -1,0 +1,16 @@
+description: Data for [Payment Component](https://docs.multisafepay.com/docs/payment-components/) orders. 
+type: object
+properties:
+  payload: 
+    description: | 
+      The response to the `getPaymentData()` Payment Component method.
+
+      See Payment Component integration manual – Step 3: Create an order:
+
+      - [Single payment method](https://docs.multisafepay.com/docs/payment-component-single#3-create-an-order)
+      - [Multiple payment methods](https://docs.multisafepay.com/docs/payment-component-multiple#3-create-an-order)
+    type: string
+  gateway:
+    description: The unique identifier for the payment method (gateway). See [Gateway IDs](https://docs.multisafepay.com/reference/gateway-ids).
+    type: string
+    enum: [AMEX, BANKTRANS,  DIRDEB, DIRECTBANK, IDEAL, MAESTRO, MASTERCARD, MISTERCASH, PAYPAL, VISA]  

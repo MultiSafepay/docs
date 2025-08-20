@@ -1,0 +1,6 @@
+description: |
+  Displays additional information on payment pages and in payment confirmation emails to customers using HTML, e.g. display order items instead of including a `shopping_cart`.
+
+  For information about supported HTML tags and elements, see Payment pages - [Styling](https://docs.multisafepay.com/docs/payment-pages#styling).
+type: string
+example: "<ol><li>Article 1: € 1,95</li><li>Article 2: € 2,95</li><li>Article 3: € 3,95</li></ol>"

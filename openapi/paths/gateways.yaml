@@ -1,0 +1,69 @@
+get:
+  description: List the gateway identifiers for all payment methods activated for a site.
+  operationId: listGateways
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: include
+      description: | 
+        By default, only one activated [gift card](https://docs.multisafepay.com/docs/gift-cards/) is included in the response. 
+
+        To include **all** activated gift cards in the response, set to `coupons`.
+      in: query
+      required: false
+      schema:
+        type: string
+        enum: [coupons]
+    - name: country
+      description: |
+        Filter the payment methods returned by availability per country. 
+        
+        **Format:** [ISO 3166-1 alpha-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements).
+      in: query
+      required: false
+      schema: 
+        type: string
+        format: ISO 3166-1 alpha-2
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          examples:
+            List gateways:
+              summary: List gateways
+              value:
+                $import: '../components/examples/responses/listGateways.json'
+            List gateways with coupons:
+              summary: List gateways with coupons
+              value:
+                $import: '../components/examples/responses/listGatewaysWithCoupons.json'
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                description: The gateway identifiers.
+                type: array
+                items:
+                  type: object
+                  properties: 
+                    id:
+                      description: The unique identifier of the gateway.
+                      type: string
+                    description: 
+                      description: The name of the payment method.  
+                      type: string
+                    type:
+                      description: Whether the payment method is a gift card (`coupon`).
+                      type: string
+    '401':
+      description: Error
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/Error1032.yaml' 
+  summary: List gateways
+  tags:
+    - Payments
+

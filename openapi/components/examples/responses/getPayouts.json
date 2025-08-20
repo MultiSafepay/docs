@@ -1,0 +1,19 @@
+{
+    "success": true, 
+    "data": {
+        "currency": "CAD", 
+             "schedule": [
+                "mon",
+                "end-of-month",
+                "wed",
+                "tue",
+                "fri",
+                "sun",
+                "sat",
+                "thu"
+            ],
+        "bankaccount_id": "qow6srx67kglc", 
+        "min_amount": 20000, 
+        "min_balance_amount": 30000 
+     }
+}

@@ -1,0 +1,48 @@
+{
+    "data": {
+      "merchant": {
+        "address": "Rue de la Gares test1 fdsas",
+        "name": "MultiSafepay B.V."
+      },
+      "order": {
+        "amount": 2501,
+        "amountrefunded": 2501,
+        "completed": "2023-02-16T11:30:06",
+        "currency": "EUR",
+        "items": null,
+        "tip": null,
+        "transaction_id": "7656837"
+      },
+      "payment": {
+        "application_id": "a0000000041010c123456789",
+        "authorization_code": "005343",
+        "card_acceptor_location": "fdsas",
+        "card_entry_mode": "ICC_CONTACTLESS",
+        "card_expiry_date": "4912",
+        "cardholder_verification_method": "SIGNATURE",
+        "issuer_bin": "541333",
+        "issuer_country_code": null,
+        "last4": "0190",
+        "payment_method": "MASTERCARD",
+        "response_code": "00",
+        "terminal_id": "347"
+      },
+      "printed_on": "2024-12-02T11:11:26",
+      "related_transactions": [
+        {
+          "amount": 2501,
+          "created": "2023-02-23T15:34:25",
+          "currency": "EUR",
+          "description": "Refund order 94543565 for 4terminals",
+          "items": null,
+          "modified": "2023-02-23T15:34:25",
+          "order_id": "94543565",
+          "reference_transaction_id": 7656837,
+          "status": "reserved",
+          "transaction_id": 7686125,
+          "type": "refund"
+        }
+      ]
+    },
+    "success": true
+  }

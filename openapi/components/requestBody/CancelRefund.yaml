@@ -1,0 +1,17 @@
+title: Cancel refund
+type: object
+description: Cancel a refund in reserved state
+properties:
+  status:
+    description: | 
+      The refund [order status](/https://docs.multisafepay.com/docs/payment-statuses/).
+
+      To cancel the refund, set to `void`.  
+    type: string
+    example: void
+  description:
+    description: |
+      A variable for storing additional data about the cancellation.
+    type: string
+    maxLength: 200
+required: [status]

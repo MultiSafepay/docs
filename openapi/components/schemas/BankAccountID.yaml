@@ -1,0 +1,6 @@
+description: >
+  The unique identifier of the bank account.
+
+  To get `bankaccount_id`, list an affiliated merchant's [bankaccount](/reference/listaffiliatebankaccounts).
+type: string
+example: qow6srx67kglc

@@ -1,0 +1,18 @@
+description: Refund partial shipment
+type: object
+properties:
+  success:
+    $import: '../schemas/Success.yaml'
+  data: 
+    description: | 
+      
+      Information about the refund.
+
+      - **Full shipment**: A client-defined ID to link order entities in your system to an order.
+      - **Partial shipment**: The unique `order_id` for each separate shipment. Also used for full/partial refunds of specific shipments. 
+    type: object
+    properties:
+      order_id:
+        $import: '../schemas/OrderId.yaml'
+      transaction_id:
+        $import: '../schemas/TransactionId.yaml'

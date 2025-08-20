@@ -1,0 +1,96 @@
+post:
+  description: Create or update an auto payout in a specific currency.
+  operationId: CreateAutoPayoutsForAffliates
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: account_id
+      description: The affiliate's MultiSafepay account ID. 
+      in: path
+      required: true
+      schema:
+       type: string
+    - name: currency
+      description: Filter payout based on a specific currency.
+      in: path
+      required: true
+      schema:
+        type: string
+        format: ISO 4217
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            schedule:
+               $import: '../components/schemas/Schedule.yaml'
+            bankaccount_id:
+               $import: '../components/schemas/BankAccountID.yaml'
+            min_amount:
+              $import: '../components/schemas/MinAmount.yaml'
+            min_balance_amount:
+              $import: '../components/schemas/MinBalanceAmount.yaml'
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data: 
+                $import: '../components/schemas/AutoPayoutDetails.yaml'
+    '404':
+      description: Validation failed
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+  summary: Create or update auto payout affiliate 
+  tags:
+    - Manage affiliates
+get:
+  description: Get information about an auto payout in a specific currency. 
+  operationId: GetAutoPayouts
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: account_id
+      description: The affiliate's MultiSafepay account ID. 
+      in: path
+      required: true
+      schema:
+       type: string
+    - name: currency
+      description: Filter payout based on a specific currency.
+      in: path
+      required: true
+      schema:
+        type: string
+        format: ISO 4217
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          example:
+            $import: '../components/examples/responses/getPayouts.json'
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data: 
+                $import: '../components/schemas/AutoPayoutDetails.yaml'
+                 
+    '404':
+      description: Validation failed
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+  summary: Get auto payout affiliate
+  tags:
+    - Manage affiliates

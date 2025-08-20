@@ -1,0 +1,23 @@
+{
+    "type": "direct",
+    "order_id": "my-order-id-1",
+    "currency": "EUR",
+    "amount": 100,
+    "description": "Test order description",
+    "customer": {
+      "locale": "en_US",
+      "country": "NL",
+      "ip_address": "123.123.123.123",
+      "reference": "Your customer reference"
+    },
+    "payment_options": {
+      "notification_method": "POST",
+      "notification_url":"https://www.example.com/client/notification?type=notification",
+      "redirect_url":"https://www.example.com/client/notification?type=redirect",
+      "cancel_url":"https://www.example.com/client/notification?type=cancel"
+    },
+    "payment_data": {
+      "payload": "eyJnYXRld2F5IjoiSURFQUwiLCJjdXN0b21lciI6eyJicm93c2VyIjp7ImphdmFfZW5hYmxlZCI6MCwiamF2YXNjcmlwdF9lbmFibGVkIjoxLCJsYW5ndWFnZSI6ImVuLUdCIiwic2NyZWVuX2NvbG9yX2RlcHRoIjoyNCwic2NyZWVuX2hlaWdodCI6MTQ0MCwic2NyZWVuX3dpZHRoIjozNDQwLCJ0aW1lX3pvbmUiOi0xMjAsInVzZXJfYWdlbnQiOiJNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV83KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvOTMuMC40NTc3LjYzIFNhZmFyaS81MzcuMzYiLCJjb29raWVzX2VuYWJsZWQiOjEsInBsYXRmb3JtIjoiTWFjSW50ZWwifSwibG9jYWxlIjoiZW5fVVMifSwiZmllbGRzIjp7ImV4dHZhcjgiOiIwMDMxIn0sImVuY3J5cHRlZCI6ZmFsc2UsImFwcGxpY2F0aW9uIjoiQVBJQ09OTkNPTVA6VjEifQ==",
+      "gateway": "IDEAL"
+    }
+}

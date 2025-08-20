@@ -1,0 +1,18 @@
+description: For [Second Chance](https://docs.multisafepay.com/docs/second-chance/).
+type: object
+properties:
+  send_mail:
+    description: |
+     Whether to send reminder emails if the customer doesn't complete payment.
+
+
+      **Suppressing Second Chance emails after cancellation**
+
+
+      When a customer places an order, goes to your checkout, doesn’t complete payment, but later returns and tries to pay again, some webshops create a second order. 
+      
+      
+      If Second Chance emails are enabled, the customer still receives emails for the first order, even after they complete payment for the second order.
+
+      Cancelling the first order does **not** suppress Second Chance emails. To suppress emails, make an Update order details: CancelOrder request.
+    type: boolean

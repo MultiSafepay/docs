@@ -1,0 +1,128 @@
+get:
+  description: |
+    As a partner, get the closing balances of an affiliated merchant.
+  operationId: getAffiliateClosingBalances
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: account_id
+      description: The affiliate's MultiSafepay account ID. 
+      in: path
+      required: true
+      schema:
+        type: string
+    - name: api_key
+      description: The partner's API key.
+      in: query
+      required: true
+      schema:
+        type: string
+    - name: limit
+      description: The number of results to return.
+      in: query
+      required: false
+      schema:
+        type: integer
+    - name: offset
+      description: The number of results to offset the limit by.
+      in: query
+      required: false
+      schema:
+        type: integer
+    - name: from
+      description: The beginning of the date range to filter results by.
+      in: query
+      required: false
+      schema:
+        type: string
+        format: date
+    - name: until
+      description: The end of the date range to filter results by.
+      in: query
+      required: false
+      schema:
+        type: string
+        format: date
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          examples:
+            Get affiliate closing balances:
+              summary: Get affiliate closing balances
+              value:
+                $import: '../components/examples/responses/getClosingBalances.json'
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                description: The affiliate's closing balances.
+                type: array
+                items:
+                  type: object
+                  properties: 
+                    account_id:
+                      description: The affiliate's MultiSafepay account ID. 
+                      type: integer
+                      example: 1001001
+                    amount:
+                      description: The total amount of the affiliate's closing balance.
+                      type: integer
+                      example: 4325465
+                    amount_uncleared:
+                      description: The amount of the affiliate's uncaptured balance.
+                      type: integer
+                      example: 79611221
+                    bic: 
+                      description: The affiliate's BIC.
+                      type: string
+                      example: "CAAMES2A"
+                    closing_date:
+                      description: The date the affiliate's account was closed. 
+                      type: string
+                      format: date
+                      example: "2022-01-12"
+                    currency:
+                      description: The currency of the affiliate's balance.
+                      type: string
+                      format: ISO-4217 currency code
+                      example: EUR
+                    iban:
+                      description: The affiliate's IBAN to pay out to. 
+                      type: string
+                      example: "BE47737022313780"
+                    payout_amount:
+                      description: The amount to pay out to the affiliate.
+                      type: integer
+                      example: 473733
+                    payout_transaction_id:
+                      description: |
+                        The unique identifier of the payout transaction. For automated payouts only. 
+                        
+                        You can only make **1** automated payout per merchant, currency, and date.
+                      type: integer
+                      example: 6159928
+                    status:
+                      description: The [transaction status](https://docs.multisafepay.com/docs/payment-statuses#payout-statuses) of the payout.
+                      type: string
+                      enum: [completed, reserved, void]
+                      example: completed
+              page:
+                description: The number of pages of results returned.
+                type: object
+                properties:
+                  total:
+                    description: The total number of pages returned.
+                    type: integer
+                    example: 1     
+    '404':
+      description: Error
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+  summary: Cancel authorized payment
+  tags:
+    - Manage affiliates

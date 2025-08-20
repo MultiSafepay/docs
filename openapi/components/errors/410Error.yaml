@@ -1,0 +1,17 @@
+type: object
+properties:
+  success:
+    description: |
+      `false`
+    type: boolean
+    example: false
+  data:
+    $import: '../schemas/DataEmpty.yaml'
+  error_code:
+    description: "1000"
+    type: integer
+    example: 1000
+  error_info:
+    description: Not found. Check you provided the correct identifier.
+    type: string
+    example: "Not found"

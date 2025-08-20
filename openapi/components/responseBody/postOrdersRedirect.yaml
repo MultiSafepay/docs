@@ -1,0 +1,22 @@
+title: Redirect order
+type: object
+properties:
+  success:
+    description: Whether the order request was successful.
+    type: boolean
+  data:
+    description: The order details.
+    type: object
+    properties:
+      order_id:
+        description: The order ID.
+        type: string
+        example: test-order-0001
+      payment_url:
+        description: The URL of the payment page.
+        type: string
+        example: "https://testpayv2.multisafepay.com/connect/82Az5nicWa3Xb3qsNuuYcAHshvO43HjUmyv/?lang=nl_NL"
+      session_id:
+        description: The MultiSafepay session ID.
+        type: string
+        example: 82Az5nicWa3Xb3qsNuuYcAHshvO43HjUmyv

@@ -1,0 +1,4 @@
+description: Whether to display the payment page in a new window that automatically closes after the customer completes payment.
+type: boolean
+default: false
+example: false

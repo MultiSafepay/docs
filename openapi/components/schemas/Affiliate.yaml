@@ -1,0 +1,28 @@
+description: For [Split Payments](https://docs.multisafepay.com/docs/split-payments/) (**required**).
+type: object
+properties:
+  split_payments:
+    description: |
+      Split the amount of a transaction between partner/primary and affiliated accounts by a percentage, a fixed amount, or both.
+
+      For every split payment rule, add an object to the array.
+    type: array
+    items:
+      type: object
+      properties:
+        merchant: 
+          description: The account ID of the affiliated account.
+          type: string
+          example: 1001001
+        fixed: 
+          description: The amount to split in cents.
+          type: integer
+          minimum: 1
+        percentage: 
+          description: A percentage of the amount to split.
+          type: number
+          format: float
+          minimum: 1
+        description: 
+          description: A description of the split payment.
+          type: string

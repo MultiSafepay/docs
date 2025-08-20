@@ -1,0 +1,18 @@
+properties:
+  success:
+    type: boolean
+    example: false
+  data:
+    $import: '../schemas/DataEmpty.yaml'
+  error_code:
+    description: "1006"
+    type: integer
+    example: 1006
+  error_info:
+    description: |
+      Invalid `order_id`.  
+      
+      The order ID must be unique. The ID you provided may have already been used for another order.
+    type: string
+    example: Invalid transaction ID
+type: object

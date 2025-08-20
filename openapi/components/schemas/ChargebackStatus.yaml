@@ -1,0 +1,4 @@
+description: The chargeback status.
+type: string
+enum: [new, ready, open, accepted, submitted, processed, closed]
+example: new  

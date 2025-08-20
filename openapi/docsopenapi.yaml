@@ -1,0 +1,218 @@
+openapi: 3.0.0
+components:
+  schemas:
+    ValidationErrorResponse:
+      properties:
+        errors:
+          description: Identifies the validation errors.
+          items:
+            properties:
+              attribute:
+                description: Indicates which attributes in the request were invalid.
+                example: email
+              details:
+                description: Specifies the invalid values.
+                example: user@example.com
+              message:
+                description: Explains the validation error.
+                example: User with email already exists
+              uri:
+                description: Specifies the unique resource indicator of the error.
+        message:
+          description: Validation failure
+          example: Validation failure
+        success:
+          description: "False"
+  securitySchemes:
+    ApiKeyQuery:
+      type: apiKey
+      name: api_key
+      in: query
+    ApiKeyHeader:
+      type: apiKey
+      name: api_key
+      in: header
+info:
+  contact:
+    name: MultiSafepay Integration Team
+    url: https://www.multisafepay.com/contact
+    email: integration@multisafepay.com
+  description: "MultiSafepay's API reference"
+paths:
+  '/orders':
+    $import: 'paths/orders.yaml'
+  '/orders/{psp_id}':
+    $import: 'paths/orders@{psp_id}.yaml'
+  '/orders/{order_id}':
+    $import: 'paths/orders@{order_id}.yaml'
+  '/orders/{order_id}/cancel':
+    $import: 'paths/orders@{order_id}@cancel.yaml'
+  '/orders/{order_id}/capture':
+    $import: 'paths/orders@{order_id}@capture.yaml'
+  '/capture/{order_id}':
+    $import: 'paths/capture@{order_id}.yaml'
+  '/gateways':
+    $import: 'paths/gateways.yaml'
+  '/gateways/{gateway_id}':
+    $import: 'paths/gateways@{gateway_id}.yaml'
+  '/issuers/{gateway}':
+    $import: 'paths/issuers@{gateway}.yaml'
+  '/recurring/{your_customer_reference}':
+    $import: 'paths/recurring@{your_customer_reference}.yaml'
+  '/recurring/{your_customer_reference}/token/{your_token}':
+    $import: 'paths/recurring@{your_customer_reference}@token@{your_token}.yaml'
+  '/recurring/{your_customer_reference}/update/{your_token}':
+    $import: 'paths/recurring@{your_customer_reference}@update@{your_token}.yaml'
+  '/recurring/{your_customer_reference}/remove/{your_token}':
+    $import: 'paths/recurring@{your_customer_reference}@remove@{your_token}.yaml'
+  '/payment-methods': 
+    $import: 'paths/payment-methods2.yaml'
+  '/orders/{order_id}/refunds':
+    $import: 'paths/orders@{order_id}@refunds.yaml'
+  '/orders/{order_id}/refunds/{refund_id}':
+    $import: 'paths/orders@{order_id}@refunds@{refund_id}.yaml'
+  '/orders/{order_id}/files':
+    $import: 'paths/orders@{order_id}@files.yaml'
+  '/auth/api_token':
+    $import: 'paths/auth@api_token.yaml'
+  '/signup-account':
+    $import: 'paths/signup-account.yaml'
+  '/accounts':
+    $import: 'paths/accounts.yaml'
+  '/accounts/{account_id}':
+    get:
+      x-readme:
+        explorer-enabled: false
+    patch:
+      x-readme:
+        explorer-enabled: false
+  '/accounts/{account_id}/balances':
+    get:
+      x-readme:
+        explorer-enabled: false
+  '/accounts/{account_id}/closing-balances':
+    get:
+      x-readme:
+        explorer-enabled: false
+  '/accounts/{account_id}/bank-accounts':
+    post:
+      x-readme:
+        explorer-enabled: false
+    get:
+      x-readme:
+        explorer-enabled: false
+  '/bank-accounts/{bankaccount_id}':
+    get:
+      x-readme:
+        explorer-enabled: false
+  '/bank-accounts/{bankaccount_id}/payment-links':
+    post:
+      x-readme:
+        explorer-enabled: false
+  '/bank-accounts/{bankaccount_id}/bank-statements':
+    post:
+      x-readme:
+        explorer-enabled: false
+    get:
+      x-readme:
+        explorer-enabled: false
+  '/bank-statements/{bankstatement_id}':
+    get:
+      x-readme:
+        explorer-enabled: false
+  '/accounts/{account_id}/inquiries':
+    get:
+      x-readme:
+        explorer-enabled: false
+  '/accounts/{account_id}/inquiries/{inquiry_id}':
+    get:
+      x-readme:
+        explorer-enabled: false
+  '/accounts/{account_id}/messages':
+    get:
+      x-readme:
+        explorer-enabled: false
+  '/accounts/{account_id}/messages/{message_id}':
+    get:
+      x-readme:
+        explorer-enabled: false
+  '/accounts/{account_id}/fees':
+    post:
+      x-readme:
+        explorer-enabled: false
+  '/accounts/{account_id}/charges':
+    post: 
+      x-readme:
+        explorer-enabled: false
+  '/accounts/{account_id}/login-urls':
+    $import: 'paths/accounts@{account_id}@login-urls.yaml'      
+  '/accounts/{account_id}/autopayouts/{currency}':
+    $import: 'paths/accounts@{account_id}@autopayouts@{currency}.yaml'
+  '/accounts/{account_id}/autopayouts':
+    $import: 'paths/accounts@{account_id}@autopayouts.yaml' 
+  '/accounts/{account_id}/payouts':
+    post:
+      x-readme:
+        explorer-enabled: false
+  '/accounts/{account_id}/sites':
+    post:
+      x-readme:
+        explorer-enabled: false
+    get:
+      x-readme:
+        explorer-enabled: false
+  '/accounts/{account_id}/ubos':
+    post:
+      x-readme:
+        explorer-enabled: false
+  '/ubos/{ubo_id}':
+    get:
+      x-readme:
+        explorer-enabled: false
+    patch:
+      x-readme:
+        explorer-enabled: false
+  '/ubos/{ubo_id}/identitydocs':
+    post:
+      x-readme:
+        explorer-enabled: false
+    get:
+      x-readme:
+        explorer-enabled: false
+  '/identitydocs/{identitydoc_id}':
+    get:      
+      x-readme:
+        explorer-enabled: false
+  '/categories':
+    $import: 'paths/categories.yaml'
+  '/transactions':
+    $import: 'paths/listtransactions.yaml'
+  '/pos/receipt/{order_id}':
+    $import: 'paths/receipt@{order_id}.yaml'
+security:
+  - BearerAuth: []
+  - ApiKeyQuery: []
+servers:
+  - url: https://testapi.multisafepay.com/v1/json
+    description: Test environment
+tags:
+  - name: Payments
+    description: Create and manage payments.
+  - name: Tokens
+    description: Manage tokens.
+  - name: Refunds
+    description: Process refunds.
+  - name: Onboard affiliates
+    description: Onboard affiliated merchant accounts.
+  - name: Manage affiliates
+    description: Manage the accounts of affiliated merchants.
+  - name: Customers
+    description: Create and manage customer profiles.
+  - name: Reconciliation
+    description: List transactions for your reconciliation processes.
+  - name: Point of Sale
+    description: Manage your POS transactions.
+x-readme:
+  explorer-enabled: true
+  proxy-enabled: false
+  samples-enabled: true

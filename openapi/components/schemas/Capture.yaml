@@ -1,0 +1,3 @@
+description: For [manual capture](https://docs.multisafepay.com/docs/manual-capture/) orders (**required**).
+enum: [manual]
+type: string

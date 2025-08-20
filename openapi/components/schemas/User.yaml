@@ -1,0 +1,18 @@
+description: The affiliate's user information for their MultiSafepay account. 
+type: object
+properties:
+  email:
+    description: The affiliate's email address.
+    type: string
+    format: email
+    maxLength: 64
+    example: user@example.com
+  name:
+    description: The affiliate's username. 
+    type: string
+    maxLength: 50
+    example: Simon Smit
+  password:
+    description: The affiliate's password.
+    type: string
+    example: Mypassword123

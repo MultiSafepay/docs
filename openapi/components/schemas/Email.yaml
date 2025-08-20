@@ -1,0 +1,9 @@
+description: | 
+  The customer’s email address.
+
+  **Required for:** Billink
+type: string
+format: email
+maxLength: 64
+example: customer@example.com
+    

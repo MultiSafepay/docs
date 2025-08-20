@@ -1,0 +1,66 @@
+{
+  "type": "direct",
+  "gateway": "DIRDEB",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 100,
+  "description": "Test order description",
+  "var1": "",
+  "var2": "",
+  "var3": "",
+  "items": "2 x : GEOMETRIC CANDLE HOLDERS",
+  "gateway_info": {
+    "account_id": "NL87ABNA0000000001",
+    "account_holder_name": "J Janse",
+    "account_holder_city": "Amsterdam",
+    "account_holder_country": "NL",
+    "account_holder_iban": "NL87ABNA0000000001",
+    "account_holder_bic": "NL",
+    "emandate": "mandateID"
+  },
+  "payment_options": {
+    "notification_method": "POST",
+    "notification_url": "https://www.example.com/webhooks/payment",
+    "redirect_url": "https://www.example.com/order/success",
+    "cancel_url": "https://www.example.com/order/failed",
+    "close_window": false
+  },
+  "plugin": {
+    "shop": "ApiTestTool",
+    "plugin_version": "1.0.0",
+    "shop_version": "1",
+    "partner": "partner",
+    "shop_root_url": "http://multisafepay.com"
+  },
+  "customer": {
+    "locale": "nl_NL",
+    "ip_address": "213.127.71.75",
+    "forwarded_ip": "",
+    "first_name": "Test name",
+    "last_name": "Test Last name",
+    "address1": "address 1",
+    "address2": "address 2",
+    "house_number": "22",
+    "zip_code": "29000",
+    "city": "marbella",
+    "state": "Malaga",
+    "country": "ES",
+    "phone": "66633311155",
+    "email": "example@multisafepay.com",
+    "referrer": "http://multisafepay-demo.com/plugingroup/dev/magento/1901/checkout/cart/",
+    "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
+  },
+  "delivery": {
+    "first_name": "First name delivery",
+    "last_name": "Las name Dl.",
+    "address1": "del. address",
+    "address2": "address 3",
+    "house_number": "",
+    "zip_code": "29600",
+    "city": "my city",
+    "state": "",
+    "country": "",
+    "phone": "",
+    "email": ""
+  }
+}

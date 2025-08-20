@@ -1,0 +1,8 @@
+{
+	"success": true,
+	"data": {
+		"order_id": "fastcheckout-order-0001",
+		"payment_url": "https://testfastcheckout.multisafepay.com/payment/receive?tid=82igjKMO8f39aJsujwfrNh4ACMUGJUzSgpD&lang=en_US",
+		"session_id": "82igjKMO8f39aJsujwfrNh4ACMUGJUzSgpD"
+	}
+}

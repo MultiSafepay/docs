@@ -1,0 +1,35 @@
+{
+  "type": "redirect",
+  "gateway": "",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 100,
+  "description": "Test Order Description",
+  "payment_options": {
+    "notification_method": "POST",
+    "notification_url": "https://www.example.com/webhooks/payment",
+    "redirect_url": "https://www.example.com/order/success",
+    "cancel_url": "https://www.example.com/order/failed",
+    "close_window": false
+  },
+  "customer": {
+    "locale": "nl_NL",
+    "ip_address": "213.127.71.75",
+    "forwarded_ip": "",
+    "first_name": "Testperson-nl",
+    "last_name": "Approved",
+    "address1": "Neherkade",
+    "address2": "",
+    "house_number": "XI",
+    "zip_code": "2521VA",
+    "city": "Gravenhage",
+    "state": "",
+    "country": "NL",
+    "birthday": "10071970",
+    "gender": "M",
+    "phone": "0612345678",
+    "email": "example@multisafepay.com",
+    "referrer": "http://test.com",
+    "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
+  }
+}

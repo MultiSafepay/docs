@@ -1,0 +1,18 @@
+properties:
+  success:
+    type: boolean
+    example: false
+  data:
+    $import: '../schemas/DataEmpty.yaml'
+  error_code:
+    description: "1003"
+    type: integer
+    example: 1003
+  error_info:
+    description: |
+      Invalid `account_id`. 
+      
+      Check that your account ID is properly formatted.
+    type: string
+    example: Invalid account ID
+type: object

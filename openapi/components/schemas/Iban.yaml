@@ -1,0 +1,4 @@
+description: The international bank account number (IBAN).
+type: string
+format: iban
+example: NL02ABNA0123456789

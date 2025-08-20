@@ -1,0 +1,8 @@
+description: |
+  The ZIP code of the address.
+
+  **Format:** Spaces are supported.
+  **Required for:** Amazon Pay, and Billink
+type: string
+maxLength: 10
+example: 1033 SC

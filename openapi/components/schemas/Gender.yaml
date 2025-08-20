@@ -1,0 +1,5 @@
+description: The customer's gender.
+type: string
+maxLength: 1
+enum: [M, F]
+example: M

@@ -1,0 +1,40 @@
+get:
+  description: Retrieve receipt data for a specific transaction.
+  operationId: getReceipt
+  x-readme:
+        single-server: "https://api.multisafepay.com/v1/json"
+        examples-enabled: false
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: order_id
+      description: | 
+        The unique identifier of the order. 
+      
+        Max length: 50 characters.
+      in: path
+      required: true
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          example:
+            $import: '../components/examples/responses/getOrder.json'
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data: 
+                $import: '../components/schemas/ReceiptDetails.yaml'
+    '404':
+      description: Order not found
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/ReceiptError1006.yaml'
+  summary: Get receipt
+  tags:
+    - Point of Sale

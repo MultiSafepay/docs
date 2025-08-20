@@ -1,0 +1,33 @@
+description: Information about the transactions associated with the receipt.
+type: object
+properties:
+  amount:
+    $import: 'Amount.yaml'
+  created:
+    $import: 'Created.yaml'
+  currency:
+    $import: 'Currency.yaml'
+  description:
+    type: string
+    description: A description of the related transaction. 
+    maxLength: 200
+    example: Test order description
+  items: 
+    type: string
+    description: The information related to the items in the shopping cart.
+  modified:
+    $import: 'Modified.yaml'
+  order_id:
+    $import: 'OrderId.yaml'
+  reference_transaction_id:
+    $import: 'TransactionId.yaml'
+  status:
+    type: string
+    description: The order status.
+  transaction_id: 
+    $import: 'RelatedTransactionId.yaml'
+  type:
+    type: string
+    description: The operation type.
+    enum: [refund]
+    example: "refund"

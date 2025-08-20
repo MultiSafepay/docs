@@ -1,0 +1,18 @@
+properties:
+  success:
+    type: boolean
+    example: false
+  data:
+    $import: '../schemas/DataEmpty.yaml'
+  error_code:
+    description: "1001"
+    type: integer
+    example: 1001
+  error_info:
+    description: |
+      Invalid `expires_in`. 
+      
+      Check that your expires_in is properly formatted.
+    type: string
+    example: Incorrect format
+type: object

@@ -1,0 +1,15 @@
+{
+  "type": "direct",
+  "gateway": "APPLEPAY",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 1495,
+  "description": "Order Description",
+  "payment_options": {
+    "notification_method": "POST",
+    "notification_url": "https://www.example.com/client/notification?type=notification"
+  },
+  "gateway_info": {
+    "payment_token": "{\"paymentData\":{\"data\":\"string\"},\"transactionIdentifier\":\"string\",\"paymentMethod\":{\"network\":\"string\",\"displayName\":\"string\"}}"
+  }
+}

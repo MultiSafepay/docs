@@ -1,0 +1,5 @@
+description: |
+    Days on which payout is scheduled. 
+type: string
+example: mon
+enum: [mon, tue, wed, thu, fri, sat, sun, end-of-month]

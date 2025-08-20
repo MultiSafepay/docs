@@ -1,0 +1,16 @@
+properties:
+  success:
+    description: "False"
+    type: boolean
+    example: false
+  data:
+    $import: '../schemas/DataEmpty.yaml'
+  error_code:
+    description: "1032"
+    type: integer
+    example: 1032
+  error_info:
+    description: The API key was invalid.
+    type: string
+    example: Invalid API key
+type: object

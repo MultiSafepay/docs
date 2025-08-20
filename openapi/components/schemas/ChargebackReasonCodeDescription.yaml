@@ -1,0 +1,5 @@
+description: |
+    The description of the chargeback reason code.
+
+    For information about reason codes, see Chargebacks - [Chargeback reasons and required evidence](https://docs.multisafepay.com/docs/chargebacks#chargeback-reasons-and-required-evidence.
+type: string

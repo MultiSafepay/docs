@@ -1,0 +1,8 @@
+description: |
+  The customer's international bank account number (IBAN). 
+  
+  IBANs are sensitive data. For security reasons, we mask them by default so that only the last 4 digits are visible, e.g. *** 1234.
+  To unmask IBANs, see [IBANs](https://docs.multisafepay.com/docs/ibans).
+type: string
+format: iban
+example: NL02ABNA0123456789

@@ -1,0 +1,71 @@
+properties:
+  type:
+    description: |
+      - `redirect`: Redirects the customer to a [payment page](https://docs.multisafepay.com/docs/payment-pages/), where they can select a payment method and complete payment. 
+      - `direct`: Redirects the customer to an authentication or success page, depending on the payment method. 
+      - `paymentlink`: Creates a [payment link](https://docs.multisafepay.com/docs/payment-links/).
+      - `checkout`: Creates a [FastCheckout order](https://docs.multisafepay.com/docs/fastcheckout/).
+      
+      For more information, see [Direct vs redirect](https://docs.multisafepay.com/reference/introduction#direct-vs-redirect).
+    type: string
+    enum: [direct, redirect, checkout, paymentlink]
+    example: redirect
+  gateway:
+    allOf:
+      - description: "The unique identifier for the payment method (gateway). See [Gateway IDs](https://docs.multisafepay.com/reference/gateway-ids). If unset and `type` is set to `redirect`, the payment page displays **all** available payment methods."
+      - type: string
+      - example: IDEAL
+      - $import: 'GatewayIdentifiers.yaml'
+  order_id:
+    $import: 'OrderId.yaml'
+  currency:
+    $import: 'Currency.yaml'
+  amount:
+    $import: 'Amount.yaml'
+  description:
+    $import: 'Description.yaml'
+  payment_options:
+    $import: 'PaymentOptions.yaml'
+  customer:
+    $import: 'Customer.yaml'
+  gateway_info:
+    $import: 'GatewayInfo.yaml'
+  delivery:
+    $import: 'Delivery.yaml'
+  checkout_options:
+    allOf:
+      - $import: 'CheckoutOptions.yaml'
+      - required: [tax_tables]
+  shopping_cart:
+    $import: 'ShoppingCart.yaml'
+  items:
+    $import: 'Items.yaml'
+  payment_data:
+    $import: 'PaymentData.yaml'
+  recurring_model:
+    $import: 'RecurringModel.yaml'
+  recurring_id:
+    $import: 'RecurringId.yaml'
+  capture:
+    $import: 'Capture.yaml'
+  affiliate:
+    $import: 'Affiliate.yaml'
+  second_chance:
+   $import: 'SecondChance.yaml'
+  customer_verification:
+    $import: 'CustomerVerification.yaml'
+  custom_info:
+    $import: 'CustomInfo.yaml'
+  days_active:
+    $import: 'DaysActive.yaml'
+  seconds_active: 
+    $import: 'SecondsActive.yaml'
+  var1:
+    $import: 'var12.yaml'
+  var2:
+    $import: 'var12.yaml'
+  var3:
+    $import: 'var3.yaml'
+  plugin:
+    $import: 'Plugin.yaml'
+type: object

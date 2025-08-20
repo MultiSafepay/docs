@@ -1,0 +1,4 @@
+description: Your unique identifier for the manual capture order.
+type: string
+maxLength: 50
+example: test-105910-pre-auth

@@ -1,0 +1,7 @@
+description: Additional settings for [recurring payments](https://docs.multisafepay.com/docs/recurring-payments).
+type: object 
+properties:
+  model:
+    $import: 'RecurringModel.yaml'
+  id:
+    $import: 'RecurringId.yaml'

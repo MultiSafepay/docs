@@ -1,0 +1,18 @@
+{
+  "type": "redirect",
+  "gateway": "IDEAL",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 1000,
+  "description": "Test order description",
+  "payment_options": {
+    "notification_method": "POST",
+    "notification_url": "https://www.example.com/client/notification?type=notification",
+    "redirect_url": "https://www.example.com/client/notification?type=redirect",
+    "cancel_url": "https://www.example.com/client/notification?type=cancel",
+    "close_window": true
+  },
+  "customer": {
+    "locale": "nl_NL"
+  }
+}

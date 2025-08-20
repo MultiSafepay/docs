@@ -1,0 +1,10 @@
+title: Update FastCheckout order
+type: object
+description: Update the order ID of a FastCheckout order.
+properties:
+  new_order_id:
+    description: | 
+      Your unique identifier for the order.
+    type: string
+    example: updated-order-id
+required: [new_order_id]

@@ -1,0 +1,46 @@
+title: Partially ship order
+type: object
+description: Partially ship a Pay After Delivery order.
+properties:
+  amount:
+    description: | 
+      The amount of the partial shipment.
+
+      For [E-Invoicing](https://docs.multisafepay.com/docs/e-invoicing) orders, if set to a lesser amount than the total order `amount`, this triggers partial capture shipment.
+    type: integer
+    example: 12500
+  carrier:
+    $import: '../schemas/Carrier.yaml'
+  invoice_id:
+    $import: '../schemas/InvoiceId.yaml'
+  invoice_url:
+    description: The URL to the `invoice_id`. 
+    type: string
+    example: https://mspinvoice-AB12345.com
+  po_number:
+    description: The purchase order number of the shipping company. 
+    type: string
+    example: XY123456789
+  reason:
+    description: The reason for partially shipping the order. 
+    type: string
+    example: Partially fulfilled by warehouse
+  ship_date:
+    description: The date you shipped the order (recommended).
+    type: string
+    format: DD/MM/YYYY
+    example: 01-01-1911
+  status:
+    description: | 
+      The [order status](/https://docs.multisafepay.com/docs/payment-statuses/).
+      
+      To communicate that you have shipped the order, set to `shipped`.
+    type: string
+    example: shipped
+  tracktrace_code:
+    $import: '../schemas/TrackTraceCode.yaml'
+  tracktrace_url:
+    description: The track and trace URL provided by the shipping company (recommended).
+    type: string
+    example: https://tracktrace-url.com/
+required: [partial_shipment_amount]

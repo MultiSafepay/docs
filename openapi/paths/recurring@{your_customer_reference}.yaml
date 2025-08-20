@@ -1,0 +1,67 @@
+get:
+  description: |
+    List all of a customer's [tokens](https://docs.multisafepay.com/docs/recurring-payments/). 
+
+    To paginate the response, use the `limit` and `offset` query parameters. 
+  operationId: listTokens
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: your_customer_reference
+      in: path
+      description: Your unique identifier of the customer.
+      required: true
+      schema:
+        type: string
+    - name: limit
+      in: query
+      description: |
+        The number of tokens you want to list.
+
+        If empty, the default is 10.
+      required: false
+      schema:
+        type: integer
+    - name: offset
+      in: query
+      description: |
+        The number of the token to start the list from.
+
+        If empty, the default is 0, i.e. the first token.
+      required: false
+      schema:
+        type: integer
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          example: 
+            $import: '../components/examples/responses/listTokens.json'
+          schema:
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data: 
+                type: object
+                description: The payload of the response.
+                properties: 
+                  tokens:
+                    type: array
+                    description: The customer's tokens. 
+                    items:  
+                      $import: '../components/schemas/Token.yaml'
+    '404':
+      description: Error 
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+    '410':
+      description: Error
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/410Error.yaml' 
+  summary: List tokens
+  tags:
+    - Tokens

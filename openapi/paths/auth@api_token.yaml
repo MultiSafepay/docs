@@ -1,0 +1,41 @@
+get:
+  description: |
+    API tokens are used to encrypt sensitive payment details from a customer's device for payment component orders. 
+    
+    See:
+    
+    - [Create order](https://docs.multisafepay.com/reference/createorder) > Payment component
+    - [Single payment method integration manual](https://docs.multisafepay.com/docs/payment-component-single/)
+    - [Multiple payment method integration manual](https://docs.multisafepay.com/docs/payment-component-multiple/)
+
+    Generate a new token for every order, **except** `POST /orders` requests initiated from your server.
+
+    **Note**: Tokens are active for 600 seconds.
+  operationId: GenerateApiToken
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                description: The API token details.
+                type: object
+                properties: 
+                  api_token:
+                    description: The unique identifier of the API token. 
+                    type: string
+                    example: pub.v2.xxxxxxxx
+    '404':
+      description: Error 
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+  summary: Generate API tokens
+  tags:
+    - Payments
