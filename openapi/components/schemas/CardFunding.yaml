@@ -1,0 +1,12 @@
+description: |
+  The type of card used.
+
+  Possible values:
+      - Credit card, set to `C`.
+      - Debit card, set to `D`.
+      - Prepaid card, set to `P`.
+      - Deferred debit card, set to `R`.
+      - Charge card, set to `H`.
+type: string
+enum: [C, D, P, R, ]
+example: C

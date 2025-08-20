@@ -1,0 +1,80 @@
+patch:
+  description: |
+    Update information about an order, ship it, or cancel it. 
+    
+    **Note:** 
+    It is not possible to change the order ID or description after the order has been created. 
+    Use this request to change the status of BNPL orders to **Shipped**.
+  operationId: updateOrder
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: order_id
+      description: |
+        The unique identifier of the order.
+      
+        Max length: 50 characters.
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          oneOf:
+            - $import: '../components/requestBody/CancelOrder.yaml'
+            - $import: '../components/requestBody/ExtendKlarna.yaml'
+            - $import: '../components/requestBody/PartiallyShipOrder.yaml'
+            - $import: '../components/requestBody/ShipOrder.yaml'
+            # - $import: '../components/requestBody/UpdateFastCheckoutOrder.yaml'
+        examples:
+          Cancel an order:
+            value:
+              $import: '../components/examples/requests/patch-orders/cancelOrder.json'
+          Extend Klarna expiration:
+            value:
+              $import: '../components/examples/requests/patch-orders/extendKlarna.json'
+          Partially ship an order: 
+            value:
+              $import: '../components/examples/requests/patch-orders/partiallyShipOrder.json'
+          Ship an order: 
+            value:
+              $import: '../components/examples/requests/patch-orders/shipOrder.json'
+          #Update a FastCheckout order:
+          #  value:
+          #    $import: '../components/examples/requests/patch-orders/updateFastCheckoutOrder.json'
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            oneOf:
+              - $import: '../components/responseBody/patchOrdersCancel.yaml'
+              - $import: '../components/responseBody/patchOrdersShip.yaml'
+              - $import: '../components/responseBody/patchOrdersPartiallyShip.yaml'
+          examples:
+            cancelOrder:
+              summary: Cancel or ship order
+              value:
+                $import: '../components/examples/responses/patchOrdersCancel.json'
+            partiallyShip:
+              summary: Partially ship order
+              value:
+                $import: '../components/examples/responses/patchOrdersPartiallyShip.json'
+    '404':
+      description: Error
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+    '410':
+      description: Invalid request
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/410Error.yaml'       
+  summary: Update or cancel order
+  tags:
+    - Payments

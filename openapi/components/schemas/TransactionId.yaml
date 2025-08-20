@@ -1,0 +1,3 @@
+description: MultiSafepay's unique identifier for the transaction.
+type: integer
+example: 123456789

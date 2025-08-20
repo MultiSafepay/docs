@@ -1,0 +1,2 @@
+description: The unique identifier assigned by the card scheme to this authentication transaction, used for tracking and reconciliation across all parties. 
+type: string

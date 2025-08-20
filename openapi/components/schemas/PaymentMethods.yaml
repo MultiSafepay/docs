@@ -1,0 +1,31 @@
+description: Information about the payment method.
+type: object
+properties:
+  account_bic:
+    $import: 'Bic.yaml'
+  account_holder_name:
+    type: string
+    description: The name of the account holder.
+    example: John Doe
+  account_iban:
+    $import: 'AccountIBAN.yaml'
+  amount: 
+    $import: 'Amount.yaml'
+  card_expiry_date:
+    $import: 'CardExpiryDate.yaml'
+  currency:
+    $import: 'Currency.yaml'
+  description:
+    $import: 'Description.yaml' 
+  external_transaction_id:
+    $import: 'ExternalTransactionId.yaml'
+  last4:
+    $import: 'Last4.yaml'
+  payment_description:
+    description: The payment method.
+    type: string
+  status:
+    $import: 'Status.yaml'
+  type:
+    description: The payment gateway.
+    type: string

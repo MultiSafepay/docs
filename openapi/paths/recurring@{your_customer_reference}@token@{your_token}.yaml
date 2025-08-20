@@ -1,0 +1,56 @@
+get:
+  description: Get information about a customer's [token](https://docs.multisafepay.com/docs/recurring-payments/).
+  operationId: getToken
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: your_customer_reference
+      in: path
+      description: Your unique identifier of the customer.
+      required: true
+      schema:
+        type: string
+    - name: your_token
+      in: path
+      description: The unique identifier of the token.
+      required: true
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            properties: 
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/Token.yaml'
+    '404':
+      description: Error 
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+    '410':
+      description: Token not found
+      content:
+        application/json:
+          schema:
+            properties:
+              success:
+                type: boolean
+                example: "false"
+              data:
+                $import: '../components/schemas/DataEmpty.yaml'
+              error_code:
+                description: "1000"
+                type: integer
+                example: 1000
+              error_info:
+                description: Token not found.
+                type: string
+                example: "Token not found" 
+  summary: Get token
+  tags:
+    - Tokens

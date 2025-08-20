@@ -1,0 +1,4 @@
+description: |
+  The name used by the card scheme to classify products within different programs. 
+type: string
+example: MDK

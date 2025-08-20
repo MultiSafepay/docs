@@ -1,0 +1,4 @@
+description: The customer's date of birth.
+type: string
+format: yyyy-MM-dd
+example: "1980-12-31"

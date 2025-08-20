@@ -1,0 +1,34 @@
+type: object
+properties:
+  errors:
+    description: Identifies the validation errors.
+    type: array
+    items:
+      type: object
+      properties:
+        attribute:
+          description: Indicates which attributes in the request were invalid.
+          type: string
+          example: email
+        details:
+          description: Specifies the invalid values.
+          example: user@example.com
+          items:
+            type: string
+          type: array
+        message:
+          description: Explains the validation error.
+          type: string
+          example: User with email already exists
+        uri:
+          description: Specifies the unique resource indicator of the error. 
+          type: string
+          example: '#/email'
+  message:
+    description: Validation error
+    type: string
+    example: Validation error
+  success:
+    description: "False"
+    type: boolean
+    example: false

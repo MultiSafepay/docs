@@ -1,0 +1,3 @@
+type: string
+description: Variable for storing additional data.
+maxLength: 500

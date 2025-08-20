@@ -1,0 +1,10 @@
+description: |
+  The page customers are redirected to:
+  
+  - After **successful** payment, your success page, or thank you page
+  - Where further steps of confirmation are necessary, to the next step in the process
+  - If the transaction status is [Uncleared](https://docs.multisafepay.com/docs/uncaptured/) 
+  **Required for:** FastCheckout
+type: string
+format: url
+example: https://www.example.com/test-order-0001/successful/

@@ -1,0 +1,37 @@
+get:
+  description: List the names of all site categories.
+  operationId: listSiteCategories
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          example:
+            $import: '../components/examples/responses/listSiteCategories.json'
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                description: All site categories.
+                type: array
+                items: 
+                  type: object
+                  properties: 
+                    code:
+                      description: The unique identifier of the site category. 
+                      type: integer
+                    description: 
+                      description: The site category name.
+                      type: string
+    '404':
+      description: Error 
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+  summary: List site categories
+  tags:
+    - Manage affiliates
+

@@ -1,0 +1,15 @@
+description: The fees for the transaction.
+type: object
+properties:
+  amount:
+   $import: 'Amount.yaml'
+  description:
+    $import: 'Description.yaml'
+  type:
+    type: string
+    enum: [SYSTEM, internal]
+    example: "internal"
+  currency:
+    $import: 'Currency.yaml'
+  status:
+   $import: 'Status.yaml'

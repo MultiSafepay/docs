@@ -1,0 +1,18 @@
+{
+    "success": true,
+    "data": {
+      "costs": [],
+      "created": "2025-03-24T15:49:54",
+      "custom_info": {
+        "custom_1": null,
+        "custom_2": null,
+        "custom_3": null
+      },
+      "fastcheckout": "NO",
+      "financial_status": null,
+      "modified": "2025-03-24T15:50:02",
+      "payment_details": {},
+      "payment_methods": null,
+      "status": "cancelled"
+    }
+  }

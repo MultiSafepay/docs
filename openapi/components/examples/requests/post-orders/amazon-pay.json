@@ -1,0 +1,25 @@
+{
+  "type": "",
+  "gateway": "AMAZONBTN",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 1000,
+  "description": "Test Order Description",
+  "payment_options": {
+    "notification_method": "POST",
+    "notification_url": "https://www.example.com/webhooks/payment"
+  },
+  "customer": {
+    "first_name": "Testperson-nl",
+    "last_name": "Approved",
+    "address1": "Neherkade",
+    "address2": "",
+    "house_number": "XI",
+    "zip_code": "2521VA",
+    "city": "Gravenhage",
+    "state": "",
+    "country": "NL",
+    "phone": "0612345678",
+    "email": "example@multisafepay.com"
+  }
+}

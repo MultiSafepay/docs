@@ -1,0 +1,4 @@
+description: The chamber of commerce number. 
+type: string
+maxLength: 50
+example: "12345678"

@@ -1,0 +1,7 @@
+description: | 
+  Your unique identifier for the invoice, which appears in your PayPal communications.
+  
+  **Required for:** [PayPal](https://docs.multisafepay.com/docs/paypal#integration).
+type: string
+maxLength: 50  
+example: AB123456

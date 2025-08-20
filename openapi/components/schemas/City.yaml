@@ -1,0 +1,7 @@
+description: |
+  The city of the address.
+
+  **Required for:** Amazon Pay, and Billink
+type: string
+maxLength: 50
+example: Amsterdam

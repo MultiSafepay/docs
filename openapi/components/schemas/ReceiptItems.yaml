@@ -1,0 +1,28 @@
+description: Information about the items purchased.
+type: object
+properties:
+  currency:
+    $import: 'Currency.yaml'
+  item_price:
+    description: |
+      The total price for the item(s) in the transaction in the currency's smallest unit:
+
+      - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+      - Zero-decimal currencies: Value for 10 JPY = 10
+    type: integer
+    minimum: 0
+    example: 1000
+  name:
+    type: string
+    description: The name of the item.
+  quantity:
+    $import: 'Quantity.yaml'
+  unit_price:
+    description: |
+      The price per item in the currency's smallest unit:
+
+      - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+      - Zero-decimal currencies: Value for 10 JPY = 10
+    type: integer
+    minimum: 0
+    example: 1000

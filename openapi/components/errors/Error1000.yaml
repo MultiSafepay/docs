@@ -1,0 +1,16 @@
+properties:
+  success:
+    description: "False"
+    type: boolean
+    example: false
+  data:
+    $import: '../schemas/DataEmpty.yaml'
+  error_code:
+    description: "1000"
+    type: integer
+    example: 1000
+  error_info:
+    description: The `account_id` does not exist.
+    type: string
+    example: Invalid account ID
+type: object

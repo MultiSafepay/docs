@@ -1,0 +1,9 @@
+description: |
+  The `min_amount` set for scheduled payout.
+
+   The `min_amount` must be lower than the `amount`.
+
+   If the `amount` is lower than the `min_amount`, the payout is not processed.
+type: integer
+minimum: 0
+example: 1000

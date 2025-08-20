@@ -1,0 +1,30 @@
+description: | 
+  Contains: 
+  
+  - URLs to your success page and cancel page. Make sure your URL only contains specific set of ASCII characters (alphanumeric, -, _, ., :, /).
+  - Your [webhook endpoint](https://docs.multisafepay.com/docs/webhook#configure-your-webhook-endpoint)
+  - Templates for styling [payment pages](https://docs.multisafepay.com/docs/payment-pages#styling)
+  - Settings for displaying available [gift cards](https://docs.multisafepay.com/docs/gift-cards/)
+type: object
+properties:
+  notification_url: 
+    $import: 'NotificationUrl.yaml'
+  notification_method:
+    $import: 'NotificationMethod.yaml'
+  redirect_url:
+    $import: 'RedirectUrl.yaml'
+  cancel_url:
+    $import: 'CancelUrl.yaml'
+  close_window:
+    $import: 'CloseWindow.yaml'
+  settings:
+    $import: 'Settings.yaml'
+  template_id: 
+    $import: 'TemplateId.yaml'
+  template: 
+    $import: 'Template.yaml'
+  allowed_countries:
+    description: For [FastCheckout](https://docs.multisafepay.com/docs/fastcheckout) orders, sets which countries the customer can provide a shipping address in.
+    type: array
+    format: ISO 3166 country code
+    example: NL

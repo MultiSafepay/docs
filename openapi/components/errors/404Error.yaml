@@ -1,0 +1,21 @@
+type: object
+properties:
+  success:
+    description: "False"
+    type: boolean
+    example: "false"
+  data:
+    description: Information about the error. 
+    type: object
+    example: []
+  error_code:
+    description: |
+      The error code. 
+      
+      See [Error reference](https://docs.multisafepay.com/reference/error-reference).
+    type: integer
+    example: 1019
+  error_info:
+    description: An explanation of the error.
+    type: string
+    example: The site is blocked in your account. 

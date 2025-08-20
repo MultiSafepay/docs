@@ -1,0 +1,8 @@
+{
+	"success": true,
+	"data": {
+		"order_id": "redirect-order-0001",
+		"payment_url": "https://testpayv2.multisafepay.com/connect/82Az5nicWa3Xb3qsNuuYcAHshvO43HjUmyv/?lang=nl_NL",
+		"session_id": "82Az5nicWa3Xb3qsNuuYcAHshvO43HjUmyv"
+	}
+}

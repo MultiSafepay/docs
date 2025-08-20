@@ -1,0 +1,196 @@
+description: Information about the payment method.
+type: object
+properties:
+  additional_data:
+    description: Any required additional data for the payment method. If empty, no additional data is required.
+    type: object
+    example:
+      issuers:
+        - bic: ABNANL2A
+          code: '0031'
+          name: ABN Amro Bank
+    properties:
+      issuers:
+        description: Additional information about iDEAL issuers.
+        type: array
+        items:
+          type: object
+          properties:
+            bic:
+              $import: 'Bic.yaml'
+            code:
+              description: The issuer ID, for direct iDEAL payments.
+              type: string
+            name:
+              description: The name of the issuing bank.
+              type: string
+  allowed_amount:
+    description: The minimum and maximum `amount` allowed for the payment method.
+    type: object
+    properties:
+      max:
+        description: |
+          The maximum `amount` (in eurocents) allowed for the payment method.
+
+          The type can be integer or null.
+          
+          If `null`, no maximum amount applies for this payment method.
+        type: integer
+        example: 1000000
+      min:
+        description: The minimum `amount` (in eurocents) allowed for the payment method.
+        type: integer
+        example: 0
+  allowed_countries:
+    description: |
+      The countries supported by the payment method.
+      
+      If empty, all countries are supported.
+    type: array
+    example: NL, ES, UK, US
+    items:
+      type: string
+      format: ISO 3166
+  allowed_currencies:
+    description: |
+      The currencies supported by the payment method.
+      
+      If empty, all currencies are supported.
+    type: array
+    example: EUR, USD, GBP
+    items:
+      type: string
+      format: ISO 4217
+  apps:
+    description: The applications supported by the payment method.
+    type: object
+    properties: 
+      fastcheckout:
+        description: Information about [FastCheckout](https://docs.multisafepay.com/docs/fastcheckout).
+        type: object
+        properties:
+          is_enabled:
+            description: Whether FastCheckout is enabled for this payment method.
+            type: boolean
+            example: true
+      payment_components: 
+        description: Information about [payment components](https://docs.multisafepay.com/docs/payment-components).
+        type: object
+        properties:
+          is_enabled:
+            description: Whether payment components are enabled for this payment method.
+            type: boolean
+            example: true
+          has_fields:
+            description: Whether payment components contain fields that require action from the customer.
+            type: boolean
+            example: true
+  brands:
+    description: Information about any co-branded versions of the payment method.
+    type: array
+    items:
+      type: object
+      properties:
+        icon_urls:
+          description: URLs to different versions of the co-branded payment method logo.
+          type: object
+          properties:
+            large:
+              description: The URL to a large-sized version of the co-branded payment method logo.
+              type: string
+              example: >-
+                https://media.multisafepay.com/img/methods/3x/postepay.png
+            medium:
+              description: The URL to a medium-sized version of the co-branded payment method logo.
+              type: string
+              example: >-
+                https://media.multisafepay.com/img/methods/2x/postepay.png
+            vector:
+              description: The URL to a vector version of the co-branded payment method logo.
+              type: string
+              example: >-
+                https://media.multisafepay.com/img/methods/svg/postepay.svg
+        id:
+          description: The unique identifier for the co-branded payment method.
+          type: string
+          example: POSTEPAY
+        name:
+          description: The name of the co-branded payment method.
+          type: string
+          example: PostePay
+  icon_urls:
+    description: URLs to versions of the payment method logo.
+    type: object
+    properties:
+      large:
+        description: The URL to a large-sized version of the payment method logo.
+        type: string
+        example: >-
+          https://media.multisafepay.com/img/methods/3x/visa.png
+      medium:
+        description: The URL to a medium-sized version of the payment method logo.
+        type: string
+        example: >-
+          https://media.multisafepay.com/img/methods/2x/visa.png
+      vector:
+        description: The URL to a vector version of the payment method logo.
+        type: string
+        example: >-
+          https://media.multisafepay.com/img/methods/svg/visa.svg
+  id:
+    description: The identifier of the payment method (also known as gateway identifier).
+    type: string
+    example: VISA
+  name:
+    description: The name of the payment method.
+    type: string
+    example: Visa
+  preferred_countries:
+    description: |
+      The countries where customers prefer this payment method (based on historical transaction data).
+
+      If empty, the payment method is not preferred in any country.
+    example: NL
+    type: array
+    items:
+      type: string
+  shopping_cart_required:
+    description: Whether shopping cart information is required for payments.
+    type: boolean
+    example: false
+  required_customer_data:
+    description: |
+      The required parameters from the [`customer` object](https://docs.multisafepay.com/recipes/customer-object-1). 
+      
+      If empty, no `customer` parameters are required for this payment method.
+    example: []
+    type: array
+    items:
+      type: string
+  tokenization:
+    description: Whether the payment method supports [recurring payments](https://docs.multisafepay.com/docs/recurring-payments) and relevant information.
+    type: object
+    properties: 
+      is_enabled:
+        description: Whether tokenization is enabled for this payment method and merchant.
+        type: boolean
+        example: true
+      models: 
+        description: |
+          Which [recurring models](https://docs.multisafepay.com/docs/recurring-payments#recurring-models) the payment method supports.
+
+          If recurring payments are enabled, the array can be empty.
+        type: object
+        properties:
+          cardonfile:
+            description: Whether the cardonfile recurring model is enabled.
+            type: boolean
+            example: true
+          subscription: 
+            description: Whether the subscription recurring model is enabled. 
+            type: boolean
+            example: true
+          unscheduled:
+            description: Whether the unscheduled recurring model is enabled.
+            type: boolean
+            example: true

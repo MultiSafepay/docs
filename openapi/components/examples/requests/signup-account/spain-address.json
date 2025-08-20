@@ -1,0 +1,24 @@
+{
+  "account": {
+    "address1": "C/Pescadoro",
+    "address2": "3°, 1A izda",
+    "address3": "Alicante",
+    "apartment": "22",
+    "city": "ELCHE",
+    "coc_number": "12345678",
+    "company_name": "My company name",
+    "country": "ES",
+    "email": "merchant@example.com",
+    "phone": "+3420123456",
+    "vat_number": "ES123456789B01",
+    "zipcode": "03201"
+  },
+  "currencies": [
+    "EUR"
+  ],
+  "user": {
+    "name": "Simon Smit",
+    "password": "***********",
+    "email": "user@example.com"
+  }
+}

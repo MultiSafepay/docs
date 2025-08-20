@@ -1,0 +1,260 @@
+title: FastCheckout order
+description: FastCheckout order
+type: object
+properties:
+  type:
+    description: Creates a FastCheckout order.  
+    type: string
+    enum: [checkout]
+    example: checkout
+  order_id:
+    $import: '../OrderId.yaml'
+  currency:
+    $import: '../Currency.yaml'
+  amount:
+    description: |
+      The payment amount in the currency's smallest unit:
+
+      - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+      - Zero-decimal currencies: Value for 10 JPY = 10
+
+      **Discounts**
+      
+      To discount: 
+      
+      - An entire order, enter a reduced amount. 
+      - Specific items in the order, in the `shopping_cart`, reduce the `unit_price` of the relevant items.
+    type: integer
+    minimum: 0
+    example: 1000
+  description:
+    $import: '../Description.yaml'
+  payment_options:
+    description: |
+
+      - Settings for configuring [FastCheckout pages](https://docs.multisafepay.com/docs/fastcheckout/)
+      - URLs to your success page and cancel page (**required** for FastCheckout orders)
+      - Your [webhook endpoint](https://docs.multisafepay.com/docs/webhook#configure-your-webhook-endpoint)
+      - Settings for hiding/displaying available [gift cards](https://docs.multisafepay.com/docs/gift-cards/)
+    type: object
+    properties:
+      notification_url:
+        $import: '../NotificationUrl.yaml'
+      notification_method:
+        $import: '../NotificationMethod.yaml'
+      feed_url:
+        description: | 
+          The [webhook endpoint](https://docs.multisafepay.com/docs/webhook#configure-your-webhook-endpoint) for MultiSafepay to send non-order related notifications via the `POST` method, e.g. shipping options.
+
+          If not set, these notifications are also sent to the `notification_url` via the method set in `notification_method`.
+
+          We append to the webhook notification `identifier=shipping`.
+        type: string
+        format: url
+        maxLength: 150
+        example: https://www.examplewebsite.com/other-updates
+      redirect_url:
+        $import: '../RedirectUrl.yaml'
+      cancel_url:
+        $import: '../CancelUrl.yaml'
+      close_window:
+        $import: '../CloseWindow.yaml'
+      settings:
+        description: Settings for configuring FastCheckout pages
+        type: object
+        properties:
+          fco:
+            $import: '../Fco.yaml'
+  customer:
+    allOf:
+      - $import: '../Customer.yaml'  
+  gateway_info:
+    $import: '../GatewayInfo.yaml'
+  delivery:
+    allOf:
+      - $import: '../Delivery.yaml'
+      - required: [address1, city, country, first_name, house_number, last_name, zip_code]
+  checkout_options:
+    allOf:
+      - $import: '../CheckoutOptions.yaml'
+      - properties:
+          no_shipping_method:
+            description: | 
+              Whether to display or hide the shipping element on the FastCheckout page.
+
+              - `true`: Hide the shipping element
+              - `false` (default): Display the shipping element. 
+            type: boolean
+            example: false
+          use_shipping_notification:
+            description: |
+              Whether to trigger a GET or POST request from MultiSafepay to your `notification_url` to retrieve your available shipping options if you cannot send the options in the FastCheckout request.
+
+              - `true`: Request my shipping options. 
+              - `false` (default): Do not request my shipping options. 
+              
+              See [FastCheckout shipping options request](https://docs.multisafepay.com/docs/fastcheckout-shipping-options/).
+            type: boolean
+            example: false
+          shipping_methods:
+            description: |
+              The available shipping options for this order. For each option, you can specify the:
+              - Option name as displayed on the FastCheckout page.
+              - Shipping cost, which automatically updates in the shopping cart element
+              - List of available countries
+            type: object
+            properties:
+              pickup:
+                description: A pickup shipping option.
+                type: object
+                properties:
+                  name:
+                    description: The pickup option name displayed on the FastCheckout page.
+                    type: string
+                  provider:
+                    description: | 
+                      The pickup option provider. Determines which pickup locations the customer can choose from.
+                      
+                      Example: When set to `PostNL`, customers can select a [PostNL point](https://www.postnl.nl/en/receiving/parcels/pick-up-at-postnl-point/) based on their shipping address. 
+                    type: string
+                    enum: [PostNL]
+                  price: 
+                    description: |
+                      The shipping cost in the currency's main unit.
+
+                      Example: For a shipping cost of €5.95, set to `5.95`.
+                    type: number
+              flat_rate_shipping:
+                description:  |
+                  An array of available (non-pickup) shipping options.
+                type: array
+                items: 
+                  description: A shipping option
+                  type: object
+                  properties:
+                    allowed_areas:
+                      description: |
+                        A list of available countries for the shipping option. All other countries are excluded.
+
+                        The availability is based on the country of the customer's shipping address.
+                      type: array
+                    excluded_areas: 
+                      description: |
+                        A list of unavailable countries for the shipping option. All other countries are included.
+
+                        The availability is based on the country of the customer's shipping address.
+                      type: array
+                      items:
+                        description: The country code in [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) format.
+                        type: string
+                        format: ISO 3166-1 alpha-2
+                    id:
+                      description: The unique identifier of the shipping option.
+                      type: string
+                    name:
+                      description: The name of the shipping option displayed on the FastCheckout page.      
+                      type: string
+                    price: 
+                      description: |
+                        The shipping cost in the currency's main unit.
+
+                        Example: For a shipping cost of €5.95, set to `5.95`.           
+                      type: number
+                      items:
+                        type: string
+                        description: The country code in [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) format.
+                        format: ISO 3166-1 alpha-2
+        required: [tax_tables]       
+  shopping_cart:
+    $import: '../ShoppingCart.yaml'
+  custom_fields:
+    description: Adds custom fields to the FastCheckout page.
+    type: array
+    items:
+      type: object
+      properties:
+        standard_type:
+          description: Types of pre-formatted custom fields.
+          type: string
+          enum: [chamberofcommerce, comment, companyname, birthday, driverslicense, newsletter, passportnumber, salutation, sex, vatnumber]
+        name: 
+          description: The name of the custom field. 
+          type: string
+          example: acceptagreements
+        type: 
+          description: The type of field.
+          type: string
+          enum: [checkbox]
+          example: checkbox
+        label: 
+          description: The label displayed on the FastCheckout page. 
+          type: string
+          example: This label
+        description_right:
+          description: The text displayed to the right of the checkbox.
+          type: object
+          properties:
+            value:
+              description: The text to display.
+              type: array
+              items:
+                type: object
+                properties:
+                  en: 
+                    description: The English language text.
+                    type: string 
+                    example: "I accept the <a href='http://test.nl' target='_blank'>terms and conditions</a>"
+        validation:
+          description: Applies client-side validation to form fields. 
+          type: object
+          properties: 
+            type:
+              description: The type of validation.
+              type: string
+              enum: [regex]
+              example: regex
+            data: 
+              description: The validation pattern.
+              type: string
+              example: "^[1]$"
+            error:
+              description: The message displayed when the validation is false.
+              type: array
+              items:
+                type: object
+                properties:
+                  nl: 
+                    description: The Dutch language message.
+                    type: string
+                    example: "U dient akkoord te gaan met de algemene voorwaarden."
+                  en:
+                    description: The English language message.
+                    type: string
+                    example: "Please accept the terms and conditions."
+  #recurring_id:
+    #$import: 'RecurringId.yaml'
+  #recurring_model: 
+    #$import: 'RecurringModel.yaml'
+  #template_id:
+    #$import: '../TemplateId.yaml'
+  #template:
+    #$import: '../Template.yaml'
+  affiliate:
+    $import: '../Affiliate.yaml'
+  second_chance:
+   $import: '../SecondChance.yaml'
+  custom_info:
+    $import: '../CustomInfo.yaml'
+  days_active:
+    $import: '../DaysActive.yaml'
+  seconds_active: 
+    $import: '../SecondsActive.yaml'
+  var1:
+    $import: '../var12.yaml'
+  var2:
+    $import: '../var12.yaml'
+  var3:
+    $import: '../var3.yaml'
+  plugin:
+    $import: '../Plugin.yaml'
+required: [amount, checkout_options, currency, order_id, shopping_cart, type]

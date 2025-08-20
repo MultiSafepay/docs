@@ -1,0 +1,83 @@
+{
+  "success": true,
+  "data": {
+    "amount": 1000,
+    "amount_refunded": 0,
+    "costs": [
+      {
+        "amount": 0.6,
+        "description": "2.9 % For Visa CreditCards Transactions (min 0.6)",
+        "transaction_id": 12572467,
+        "type": "SYSTEM"
+      }
+    ],
+    "created": "2025-08-11T10:06:12",
+    "currency": "EUR",
+    "custom_info": {
+      "custom_1": null,
+      "custom_2": null,
+      "custom_3": null
+    },
+    "customer": {
+      "locale": "nl_NL",
+      "first_name": "Simon",
+      "last_name": "Smit",
+      "address1": "Kraanspoor",
+      "address2": "",
+      "house_number": "39C",
+      "zip_code": "1033SC",
+      "city": "Amsterdam",
+      "state": "NH",
+      "country": "NL",
+      "country_name": "The Netherlands",
+      "phone1": "0208500500",
+      "phone2": "00310000001",
+      "email": "simonsmit@example.com"
+    },
+    "description": "product description",
+    "fastcheckout": "NO",
+    "financial_status": "declined",
+    "items": null,
+    "modified": "2025-08-11T10:06:19",
+    "order_id": "apitool_9290377",
+    "payment_details": {
+      "account_holder_name": "Simon Smit",
+      "account_id": null,
+      "card_authentication_result": {
+        "acs_transaction_id": "0c40e0ee-768a-11f0-bbbc-ab07cb810105",
+        "ds_transaction_id": "0c4145d4-768a-11f0-bbbc-ab07cb810105",
+        "status": "N",
+        "transaction_status_reason": "08",
+        "version": "2.1.0"
+      },
+      "card_expiry_date": "3012",
+      "external_transaction_id": null,
+      "last4": "1111",
+      "recurring_flow": null,
+      "recurring_id": null,
+      "recurring_model": null,
+      "response_code": "08",
+      "type": "VISA"
+    },
+    "payment_methods": [
+      {
+        "account_holder_name": "Simon Smit",
+        "amount": 1000,
+        "card_expiry_date": "3012",
+        "currency": "EUR",
+        "description": "product description",
+        "payment_description": "Visa",
+        "status": "declined",
+        "type": "VISA"
+      }
+    ],
+    "reason": "3DS Authentication Failed / Card authentication failed",
+    "reason_code": "3001",
+    "related_transactions": null,
+    "status": "declined",
+    "transaction_id": 17123154123113,
+    "var1": null,
+    "var2": null,
+    "var3": null
+  }
+}

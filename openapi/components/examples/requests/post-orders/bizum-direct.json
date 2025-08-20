@@ -1,0 +1,13 @@
+{
+    "type": "direct",
+    "order_id": "my-order-id-1",
+    "currency": "EUR",
+    "amount": 1000,
+    "gateway": "BIZUM",
+    "description": "product description",
+    "payment_options": {
+        "notification_url": "https://www.example.com/webhooks/payment",
+        "redirect_url": "https://www.example.com/order/success",
+        "cancel_url": "https://www.example.com/order/failed"
+    }
+}

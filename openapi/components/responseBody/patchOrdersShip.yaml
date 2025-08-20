@@ -1,0 +1,8 @@
+title: Ship order
+type: object
+properties:
+  success: 
+    description: Whether the request was successful.
+    type: boolean
+  data: 
+    $import: '../schemas/DataEmpty.yaml'

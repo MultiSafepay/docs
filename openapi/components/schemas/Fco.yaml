@@ -1,0 +1,116 @@
+description: Settings for FastCheckout.
+type: object
+properties:
+  redirect_mode:
+    description: |
+      How to redirect the customer to the issuer.
+
+      - `redirect`: Redirect to the issuer page in the current browser tab.
+      - `modal`: Display the issuer page as a modal window over the FastCheckout page.
+    type: string
+    enum: [modal, redirect]
+    default: redirect
+    example: redirect
+  coupons:
+    description: Settings for gift cards. 
+    type: object
+    properties:
+      disabled:
+        description: | 
+          Whether to display available gift cards in the payment element. 
+
+          - `true`: Hide gift cards.
+          - `false`: Display gift cards.  
+        type: boolean
+        example: true
+  cart:
+    description: Settings for the shopping cart summary. 
+    type: object
+    properties:
+      disabled:
+        description: | 
+          Whether to display the shopping cart summary on the FastCheckout page.
+
+          - `true`: Hide the shopping cart summary.
+          - `false`: Display the shopping cart summary.
+        type: boolean
+        default: false
+        example: false
+  shipping:
+    description: Settings for the shipping element.
+    type: object
+    properties:
+      address:
+        description: Settings for the shipping element.
+        type: object
+        properties:
+          required:
+            description: |
+              Whether to display the shipping element on the FastCheckout page.
+
+              - `true`: Display the shipping element.
+              - `false`: Hide the shipping element.  
+            type: boolean
+            default: false
+            example: true
+      #delivery:
+        #description: Settings for saved shipping addresses. 
+        #type: object
+        #properties:
+          #enabled: 
+            #description: | 
+              #Whether to allow the customer to select a saved shipping address.
+
+              #- `true`: Display the checkbox allowing customers to select a saved address.
+              #- `false`: Hide the checkbox.
+            #type: boolean
+            #example: false
+  issuers_display_mode:
+    description: |
+      How to display available issuers.
+
+      - `list`: Display issuers in a list with logos.
+      - `select`: Display issuers in a dropdown list, without logos. 
+      - `select-button`: Display issuers as buttons with logos. 
+    type: string
+    enum: [list, select, select-button]
+    default: select-button
+    example: select-button
+  checkout: 
+    description: Settings for the billing element.
+    type: object
+    properties:
+      customer: 
+        description: Settings for the billing element.
+        type: object
+        properties:
+          enabled: 
+            description: |
+              Whether to display the billing element on the FastCheckout page.
+
+              - `true`: Display the billing element. 
+              - `false`: Hide the billing element.
+            type: boolean
+            default: false
+            example: false
+      #user_login:
+        #description: Settings for signing in to a FastCheckout account. 
+        #type: object
+        #properties:
+          #enabled:
+            #description: Whether the customer can sign in to an existing FastCheckout account. 
+            #type: boolean
+            #example: true
+          #force:
+            #description: Whether to require the customer to sign in to an existing FastCheckout account. 
+            #type: boolean
+            #example: false
+  group_cards:
+    description: |
+      Whether to bundle all available card payments into a single gateway.
+
+      - `true`: Display a single card gateway.
+      - `false`: Display all available card payments as separate options.
+    type: boolean
+    default: false
+    example: true

@@ -1,0 +1,14 @@
+description: The information about the 3DS authentication method.
+type: object
+properties:
+  flow:
+    description: |
+      The 3DS authentication flow. The value is determined by the card scheme and the authentication method used.
+
+      Possible values include `challenge`, `frictionless` and `exemption`.
+    type: string
+    example: "challenge"
+  exemption: 
+    description: The type of SCA exemption applied to the transaction, if any.
+    type: string
+    example: "transaction_risk_analysis"

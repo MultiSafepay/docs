@@ -1,0 +1,9 @@
+description: |
+  A description of the customer's order. 
+  
+  Appears on payment pages and customer bank statements (if supported by the bank).
+
+  Does **not** appear on FastCheckout pages (in your dashboard only).
+type: string
+maxLength: 200
+example: Test order description

@@ -1,0 +1,90 @@
+{
+  "success": true,
+  "data": {
+    "amount": 1000,
+    "completed": "2025-05-14T08:50:32",
+    "costs": [
+      {
+        "amount": 0.01,
+        "description": "0.01 EUR For iDEAL Transactions",
+        "transaction_id": 1101231786,
+        "type": "SYSTEM"
+      },
+      {
+        "amount": 0,
+        "created": "2025-05-14T12:44:50",
+        "description": "Refund order 1158044712 for Site MSP Site MSP Site Msp \\",
+        "status": "completed",
+        "transaction_id": 1747219123451369,
+        "type": "withdraw"
+      }
+    ],
+    "created": "2025-05-14T08:48:10",
+    "currency": "EUR",
+    "custom_info": {
+      "custom_1": null,
+      "custom_2": null,
+      "custom_3": null
+    },
+    "customer": {
+      "address1": null,
+      "address2": null,
+      "city": null,
+      "cocnumber": null,
+      "company_name": null,
+      "country": null,
+      "country_name": null,
+      "email": null,
+      "first_name": null,
+      "house_number": null,
+      "last_name": null,
+      "locale": "en_US",
+      "phone1": null,
+      "phone2": null,
+      "state": null,
+      "zip_code": null
+    },
+    "description": "product description",
+    "fastcheckout": "NO",
+    "financial_status": "completed",
+    "items": null,
+    "modified": "2025-05-14T08:50:32",
+    "order_id": "example_order_123456",
+    "payment_details": {
+      "account_bic": "BSCHESMM",
+      "account_holder_name": "John Doe",
+      "account_iban": "ES1255092163919572900001",
+      "account_id": "ES1255092163919572900001",
+      "external_transaction_id": "812312381624212",
+      "issuer_id": "3151",
+      "recurring_flow": null,
+      "recurring_id": "998184114125692641912",
+      "recurring_model": null,
+      "response_code": null,
+      "type": "IDEAL"
+    },
+    "payment_methods": [
+      {
+        "account_bic": "BSCHESMM",
+        "account_holder_name": "John Doe",
+        "account_iban": "ES1255092163919572900001",
+        "account_id": "ES1255092163919572900001",
+        "amount": 1,
+        "currency": "EUR",
+        "description": "product description",
+        "external_transaction_id": "812312381624212",
+        "payment_description": "iDEAL",
+        "status": "completed",
+        "type": "IDEAL"
+      }
+    ],
+    "reason": "SUCCESS",
+    "reason_code": null,
+    "related_transactions": null,
+    "status": "completed",
+    "transaction_id": 17472052901237122,
+    "var1": null,
+    "var2": null,
+    "var3": null
+  }
+}

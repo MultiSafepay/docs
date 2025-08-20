@@ -1,0 +1,12 @@
+description: Additional information about the order.
+type: object
+properties:
+  custom_1:
+    description: Information about the order. 
+    type: string
+  custom_2:
+    description: Information about the order.
+    type: string
+  custom_3:
+    description: Information about the order.
+    type: string

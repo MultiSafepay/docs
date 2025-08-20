@@ -1,0 +1,80 @@
+get:
+  description: Get information about an affiliated merchant's account.
+  operationId: getAffiliatedAccount
+  parameters:
+    - name: account_id
+      description: The unique identifier of the affiliated account.
+      in: path
+      required: true
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/Account.yaml'
+              includes:
+                inquiries:
+                  type: array
+                  properties:
+                    $import: '../components/schemas/Inquiries.yaml'
+    '404':
+      description: Account not found
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+  summary: Get affiliate
+  tags:
+    - Manage affiliates
+patch:
+  description: Update information about an affiliated merchant's account.
+  operationId: updateAffiliatedAccount
+  parameters:
+    - name: account_id
+      description: The unique identifier of the affiliated account.
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          allOf:
+            - $import: '../components/schemas/Account.yaml'
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/Account.yaml'
+    '404':
+      description: Account not found
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+    '422':
+      description: Validation errors
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/422Error.yaml'
+  summary: Update affiliate
+  tags:
+    - Manage affiliates

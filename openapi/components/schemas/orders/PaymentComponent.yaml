@@ -1,0 +1,75 @@
+title: Payment Component
+description: Payment Component
+properties:
+  type:
+    description: |
+      `direct`: Redirects the customer to an authentication or success page, depending on the payment method. 
+    type: string
+    enum: [direct]
+    example: direct
+  gateway:
+    allOf:
+      - description: "The unique identifier for the payment method (gateway). See [Gateway IDs](https://docs.multisafepay.com/reference/gateway-ids).<br><br>If unset for `redirect` orders, the payment page displays **all** available payment methods."
+      - type: string
+      - example: IDEAL
+      - $import: '../GatewayIdentifiersPaymentComponent.yaml'
+  order_id:
+    $import: '../OrderId.yaml'
+  currency:
+    $import: '../Currency.yaml'
+  amount:
+    description: |
+      The payment amount in the currency's smallest unit:
+
+      - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+      - Zero-decimal currencies: Value for 10 JPY = 10
+
+      **Discounts**
+      
+      To discount: 
+      
+      - An entire order, enter a reduced amount. 
+      - Specific items in the order, in the `shopping_cart`, reduce the `unit_price` of the relevant items.
+    type: integer
+    minimum: 0
+    example: 1000
+  description:
+    $import: '../Description.yaml'
+  payment_options:
+    $import: '../PaymentOptions.yaml'
+  customer:
+    $import: '../Customer.yaml'
+  gateway_info:
+    $import: '../GatewayInfoPaymentComponents.yaml'
+  delivery:
+    $import: '../Delivery.yaml'
+  checkout_options:
+    $import: '../CheckoutOptions.yaml'
+  shopping_cart:
+    $import: '../ShoppingCart.yaml'
+  items:
+    $import: '../Items.yaml'
+  payment_data:
+    $import: '../PaymentData.yaml'
+  recurring:
+    $import: '../Recurring.yaml'
+  affiliate:
+    $import: '../Affiliate.yaml'
+  second_chance:
+   $import: '../SecondChance.yaml'
+  custom_info:
+    $import: '../CustomInfo.yaml'
+  days_active:
+    $import: '../DaysActive.yaml'
+  seconds_active: 
+    $import: '../SecondsActive.yaml'
+  var1:
+    $import: '../var12.yaml'
+  var2:
+    $import: '../var12.yaml'
+  var3:
+    $import: '../var3.yaml'
+  plugin:
+    $import: '../Plugin.yaml'
+type: object
+required: [amount, currency, description, gateway, order_id, payment_data, type]

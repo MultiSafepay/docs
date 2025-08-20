@@ -1,0 +1,32 @@
+{
+  "type": "direct",
+  "gateway": "DIRECTBANK",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 123,
+  "description": "This is a product description",
+  "customer": {
+    "locale": "nl_NL",
+    "ip_address": "213.127.71.75",
+    "forwarded_ip": "",
+    "first_name": "First",
+    "last_name": "Last",
+    "address1": "Address",
+    "address2": "",
+    "house_number": "123",
+    "zip_code": "12345",
+    "city": "City",
+    "state": "",
+    "country": "NL",
+    "phone": "",
+    "email": "example@multisafepay.com"
+  },
+  "gateway_info": {
+    "account_id": "0417164300",
+    "account_holder_name": "J Jansen",
+    "account_holder_city": "Amsterdam",
+    "account_holder_country": "NL",
+    "account_holder_iban": "iban",
+    "account_holder_bic": "NL"
+  }
+}

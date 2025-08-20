@@ -1,0 +1,4 @@
+description: The second line of the address.
+type: string
+maxLength: 64
+example: "39"

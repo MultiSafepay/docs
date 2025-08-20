@@ -1,0 +1,13 @@
+description: Refund (BNPL) order
+type: object
+properties:
+  success:
+    $import: '../schemas/Success.yaml'
+  data: 
+    description: Information about the refund.
+    type: object
+    properties:
+      transaction_id:
+        $import: '../schemas/TransactionId.yaml'
+      refund_id:
+        $import: '../schemas/RefundId.yaml'

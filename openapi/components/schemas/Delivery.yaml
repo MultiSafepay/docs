@@ -1,0 +1,23 @@
+description: The customer's shipping address.
+type: object
+properties:
+  first_name:
+    $import: 'FirstName.yaml'
+  last_name:
+    $import: 'LastName.yaml'
+  address1:
+    $import: 'Address1.yaml'
+  house_number:
+    $import: 'Apartment.yaml'
+  zip_code:
+    $import: 'ZIP.yaml'
+  city:
+   $import: 'City.yaml'
+  country:
+    $import: 'Country.yaml'
+  phone:
+    $import: 'Phone.yaml'
+  email:
+    description: The customer's email address. **Required for:** Klarna orders.
+    type: string
+    example: customer@emailprovider.com

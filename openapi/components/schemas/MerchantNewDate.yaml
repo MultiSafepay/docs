@@ -1,0 +1,6 @@
+description: |
+  The timestamp for when you are expected to respond.
+
+  **Format:** [ISO 8601 time](https://en.wikipedia.org/wiki/ISO_8601).
+type: string
+example: "2019-03-01T16:14:02"

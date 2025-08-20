@@ -1,0 +1,12 @@
+description: Information about what kinds of payments this account can process.
+type: object
+properties:
+  incoming_payment_enabled:
+    description: Wheter the account can accept incoming payment.
+    type: boolean
+  outgoing_payment_enabled:
+    description: Whether the account can make payouts.
+    type: boolean
+  credit_cards_enabled:
+    description: Whether the account can accept card payments.
+    type: boolean

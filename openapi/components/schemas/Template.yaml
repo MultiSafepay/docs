@@ -1,0 +1,229 @@
+description: |
+      Applies a template object structure for styling [payment pages](https://docs.multisafepay.com/docs/payment-pages#styling).
+      
+      Overrides the `payment_options.template_id`.
+properties:
+  version: 
+    description: | 
+      The version of the template. 
+      
+      **Required** when you set any of the `template.settings`.
+    type: string
+  settings:
+    description: Sets whether to display or hide page elements, e.g. buttons, logos. 
+    type: object
+    properties:
+      hide_logo:
+        description: Whether to hide the header logo. 
+        type: boolean
+      iframe_mode:
+        description: Whether to hide iframe elements.
+        type: boolean
+      hide_flags:
+        description: Whether to hide the flags container. 
+        type: boolean
+      hide_powered:
+        description: Whether to hide the Powered by MultiSafepay link.
+        type: boolean
+      hide_cart:
+        description: Whether to hide the shopping cart container. 
+        type: boolean
+      hide_btn_cancel:
+        description: Whether to hide the **Cancel** button.
+        type: boolean
+      hide_cc_logos:
+        description: Whether to hide credit card logos. 
+        type: boolean
+      hide_btn_all_methods:
+        description: Whether to hide the **All methods** button.
+        type: boolean
+  header:
+    description: Settings for the header logo, cover image, background, and font. 
+    type: object
+    properties:
+      logo:
+        description: Your logo to display in the header. 
+        type: object
+        properties:
+          image:
+            description: The filename of the logo to display. 
+            type: string
+      cover:
+        description: Resize the background image to cover the entire header container.
+        type: object
+        properties:
+          image:
+            description: The cover image.
+            type: string
+      background:
+        description: The header background.
+        type: string
+      text:
+        description: The header font color. 
+        type: string 
+  body:
+    description: Settings for the body. 
+    type: object
+    properties:
+      text:
+        description: The body font color.
+        type: string
+      background:
+        description: The body background color. 
+        type: string
+      link: 
+        description: Settings for links in the body.
+        type: object
+        properties:
+          text:
+            description: The link text color in the body.
+            type: string
+          hover:
+            description: Settings for hovering over links in the body.
+            type: object
+            properties:
+              text:
+                description: The link text color on hover in the body.
+                type: string
+              border:
+                description: The link border color on hover in the body.
+                type: string
+  container:
+    description: Settings for the container element. 
+    type: object
+    properties:
+      text:
+        description: The color of text in the container.
+        type: string
+      background:
+        description: The color of the container background. 
+        type: string
+      link:
+        description: Settings for links in the container. 
+        type: object
+        properties:
+          text:
+            description: The link text color in the container.
+            type: string
+  cart:
+    description: Settings for the cart element.
+    type: object
+    properties:
+      text:
+        description: The text color in the cart.
+        type: string
+      label: 
+        description: The color of labels in the cart. 
+        type: string
+      background:
+        description: The background color of the cart. 
+        type: string
+      border:
+        description: The border color of the cart. 
+        type: string
+  payment_form:
+    description: Settings for the payment form.
+    type: object
+    properties:
+      text:
+        description: The text color in the payment form.
+        type: string
+      background: 
+        description: The background color of the payment form.
+        type: string
+      border:
+        description: The border color of the payment form.
+        type: string
+      inputs:
+        description: Settings for the payment form button.
+        type: object
+        properties:
+          border: 
+            description: The color of the payment form button border.
+            type: string
+          label:
+            description: The call to action in the payment form button.
+            type: string
+  buttons:
+    description: Settings for buttons.
+    type: object
+    properties:
+      payment_method:
+        description: Settings for the payment method button.
+        type: object
+        properties:
+          background:
+            description: The payment method button background color.
+            type: string
+          text:
+            description: The payment method button text color.
+            type: string
+          border:
+            description: The payment method button border color.
+            type: string
+          hover:
+            description: Settings when hovering over the payment method button.
+            type: object
+            properties:
+              background:
+                description: The payment method button background color on hover.
+                type: string
+              text:
+                description: The payment method button text color on hover.
+                type: string
+              border:
+                description: The payment method button border color on hover. 
+                type: string
+          active:
+            description: Settings for when the payment method button is active. 
+            type: object
+            properties:
+              background:
+                description: The payment method button background color when active.
+                type: string
+              text:
+                description: The payment method button text color when active.
+                type: string
+              border:
+                description: The payment method button border color when active. 
+                type: string
+      secondary:
+        description: Settings for the secondary button.
+        type: object
+        properties:
+          background:
+            description: The secondary button background color.
+            type: string
+          text:
+            description: The secondary button text color.
+            type: string
+          hover: 
+            description: Settings for the secondary button on hover.
+            type: object
+            properties:
+              background:
+                description: The secondary button background color on hover.
+                type: string
+              text:
+                description: The secondary button text color on hover.
+                type: string  
+      primary:
+        description: Settings for the primary button.
+        type: object
+        properties:
+          background:
+            description: The primary button background color.
+            type: string
+          text:
+            description: The primary button text color.
+            type: string
+          hover:
+            description: Settings for the primary button on hover.
+            type: object
+            properties:
+              background:
+                description: The primary button background color on hover.
+                type: string
+              text:
+                description: The primary button text color on hover.
+                type: string

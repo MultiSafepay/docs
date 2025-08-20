@@ -1,0 +1,4 @@
+description: The apartment number of the address. 
+type: string
+maxLength: 9
+example: "B"

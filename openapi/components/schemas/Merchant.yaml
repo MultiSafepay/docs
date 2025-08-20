@@ -1,0 +1,12 @@
+description: Information about the merchant.
+type: object
+properties:
+  address:
+    type: string
+    description: The merchant's address.
+    maxLength: 64
+  name:
+    type: string
+    description: The company name.
+    maxLength: 200
+ 

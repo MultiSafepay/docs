@@ -1,0 +1,23 @@
+{
+    "success": true,
+    "data":[
+      {
+        "id": "VISA",
+        "description": "Visa"
+      },
+      {
+        "id": "IDEAL",
+        "description": "iDEAL"
+      },
+      {
+        "id": "EDENCOM",
+        "description": "Ticket Compliments",
+        "type": "coupon"
+      },
+      {
+        "id": "EDENECO",
+        "description": "Ticket EcoCheque",
+        "type": "coupon"
+      }
+    ]
+  }

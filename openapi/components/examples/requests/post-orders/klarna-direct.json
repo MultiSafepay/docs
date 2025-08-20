@@ -1,0 +1,109 @@
+{
+  "type": "direct",
+  "gateway": "KLARNA",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 10000,
+  "description": "Order Klarna test NL",
+  "var1": "",
+  "var2": "",
+  "var3": "",
+  "items": "",
+  "payment_options": {
+    "notification_method": "POST",
+    "notification_url": "https://www.example.com/webhooks/payment",
+    "redirect_url": "https://www.example.com/order/success",
+    "cancel_url": "https://www.example.com/order/failed",
+    "close_window": true
+  },
+  "plugin": {
+    "shop": "ApiTestTool",
+    "plugin_version": "1.0.0",
+    "shop_version": "1",
+    "partner": "parner",
+    "shop_root_url": "http://multisafepay.com"
+  },
+  "customer": {
+    "locale": "nl_NL",
+    "ip_address": "213.127.71.75",
+    "forwarded_ip": "",
+    "first_name": "Testperson-nl",
+    "last_name": "Approved",
+    "address1": "Neherkade",
+    "address2": "",
+    "house_number": "1/XI",
+    "zip_code": "2521VA",
+    "city": "Gravenhage",
+    "state": "",
+    "country": "NL",
+    "email": "example@multisafepay.com",
+    "referrer": "http://multisafepay-demo.com/plugingroup/dev/magento/1901/checkout/cart/",
+    "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"
+  },
+  "delivery": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "address1": "Neherkade",
+    "address2": "",
+    "house_number": "1/XI",
+    "zip_code": "2521VA",
+    "city": "Gravenhage",
+    "state": "",
+    "country": "NL",
+    "phone": "0612345678",
+    "email": "example@multisafepay.com"
+  },
+  "gateway_info": {
+    "birthday": "1970-07-10",
+    "gender": "M",
+    "phone": "0612345678",
+    "email": "example@multisafepay.com"
+  },
+  "shopping_cart": {
+    "items": [
+      {
+        "name": "Test",
+        "description": "",
+        "unit_price": 100,
+        "quantity": 1,
+        "merchant_item_id": "1111",
+        "tax_table_selector": "none",
+        "weight": {
+          "unit": "KG",
+          "value": 12
+        }
+      }
+    ]
+  },
+  "checkout_options": {
+    "tax_tables": {
+      "default": {
+        "shipping_taxed": false,
+        "rate": 0
+      },
+      "alternate": [
+        {
+          "standalone": false,
+          "name": "none",
+          "rules": [
+            {
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "standalone": false,
+          "name": "FEE",
+          "rules": [
+            {
+              "rate": 0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "google_analytics": {
+    "account": "UA-XXXXXXXXX"
+  }
+}

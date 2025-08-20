@@ -1,0 +1,62 @@
+get:
+  description: List the available iDEAL issuers (may differ in the test environment).
+  operationId: listGatewayIssuers
+  parameters:
+    - name: gateway
+      description: The unique identifier for iDEAL.
+      in: path
+      required: true
+      schema:
+        type: string
+        enum: ["IDEAL"]
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          example:
+            $import: '../components/examples/responses/idealIssuers.json'
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                type: array
+                description: |
+                  | Code | Description |
+                  |---|---|
+                  | 0031     | ABN AMRO              |
+                  | 0761     | ASN Bank              |
+                  | 4371     | bunq                  |
+                  | 1235     | Handelsbanken         |
+                  | 9927     | Nationale Nederlanden |
+                  | 9926     | N26                   |
+                  | 0721     | ING                   |
+                  | 0801     | Knab                  |
+                  | 0021     | Rabobank              |
+                  | 0771     | Regio Bank            |
+                  | 1099     | Revolut               |
+                  | 0751     | SNS Bank              |
+                  | 0511     | Triodos Bank          |
+                  | 0161     | Van Lanschot Bankiers |
+                  | 0806     | Yoursafe              |
+                items: 
+                  type: object
+                  properties: 
+                    code:
+                      description: The unique identifier of the issuer (see table above).
+                      type: string
+                    description: 
+                      description: The name of the issuer (see table above).
+                      type: string
+    '404':
+      description: Invalid iDEAL issuer ID
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml' 
+  summary: List iDEAL issuers
+  tags:
+    - Payments
+

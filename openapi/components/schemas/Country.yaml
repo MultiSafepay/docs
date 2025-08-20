@@ -1,0 +1,9 @@
+description: |
+  The country of the address. 
+  
+  **Format:** [ISO 3166-1 alpha-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements).
+
+  **Required for:** Amazon Pay, and Billink
+type: string
+format: country alpha-2
+example: NL

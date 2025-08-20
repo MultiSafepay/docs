@@ -1,0 +1,4 @@
+description: The company VAT number.
+type: string
+maxLength: 50
+example: "NL123456789B01"

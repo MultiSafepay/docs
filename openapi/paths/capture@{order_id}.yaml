@@ -1,0 +1,67 @@
+patch:
+  description: |
+    Cancel an authorized credit or debit card payment.
+
+  operationId: cancelAuthorizedOrder
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: order_id
+      description: | 
+        The unique identifier of the order. 
+      
+        Max length: 50 characters.
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          properties:
+            status:
+              description: |
+                The [order status](/https://docs.multisafepay.com/docs/payment-statuses/).
+              type: string
+              enum: [cancelled]
+              example: cancelled
+            reason:
+              description: The reason for cancelling the order. 
+              type: string
+              example: The transaction appeared fraudulent.
+            description:
+              description: Any additional information.
+              type: string
+              example: Suspiciously large order from unusual country. 
+          required: [reason, status]
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data: 
+                description: Information about cancelled authorized payment.
+                type: object
+                properties:
+                  transaction_id:
+                    $import: '../components/schemas/TransactionId.yaml'
+                  order_id:
+                    $import: '../components/schemas/OrderId.yaml'  
+                    success: 
+                      type: boolean
+                      example: true
+    '404':
+      description: Error
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+  summary: Cancel authorized payment
+  tags:
+    - Payments

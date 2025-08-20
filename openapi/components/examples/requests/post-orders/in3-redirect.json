@@ -1,0 +1,87 @@
+{
+  "type": "redirect",
+  "gateway": "IN3",
+  "order_id": "my-order-id-1",
+  "currency": "EUR",
+  "amount": 10000,
+  "description": "Test Order Description",
+  "payment_options": {
+    "notification_method": "POST",
+    "notification_url": "https://www.example.com/client/notification?type=notification",
+    "redirect_url": "https://www.example.com/client/notification?type=redirect",
+    "cancel_url": "https://www.example.com/client/notification?type=cancel",
+    "close_window": true
+  },
+  "customer": {
+    "ip_address": "84.71.117.69",
+    "locale": "nl_NL",
+    "first_name": "John",
+    "last_name": "Doe",
+    "address1": "Teststraat",
+    "house_number": "1",
+    "zip_code": "1234AB",
+    "city": "Amsterdam",
+    "country": "NL",
+    "email": "example@multisafepay.com"
+  },
+  "delivery": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "address1": "Teststraat",
+    "house_number": "1",
+    "zip_code": "1234AB",
+    "city": "Amsterdam",
+    "country": "NL",
+    "phone": "0612345678",
+    "email": "example@multisafepay.com"
+  },
+  "gateway_info": {
+    "birthday": "1999-01-01",
+    "gender": "mr",
+    "phone": "0612345678"
+  },
+  "shopping_cart": {
+    "items": [
+      {
+        "name": "Test",
+        "description": "",
+        "unit_price": 100,
+        "quantity": 1,
+        "merchant_item_id": "1111",
+        "tax_table_selector": "none",
+        "weight": {
+          "unit": "KG",
+          "value": 12
+        }
+      }
+    ]
+  },
+  "checkout_options": {
+    "tax_tables": {
+      "default": {
+        "shipping_taxed": false,
+        "rate": 0
+      },
+      "alternate": [
+        {
+          "name": "none",
+          "standalone": false,
+          "rules": [
+            {
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "name": "FEE",
+          "standalone": false,
+          "rules": [
+            {
+              "rate": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

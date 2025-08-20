@@ -1,0 +1,11 @@
+{
+	"carrier": "MSP Logistics",
+	"invoice_id": "AB12345",
+	"invoice_url": "https://mspinvoice-AB12345.com",
+	"po_number": "XY123456789",
+	"reason": "Fulfilled by warehouse",
+	"ship_date": "01-01-1911",
+	"status": "shipped",
+	"tracktrace_code": "3SMSP0123456789",
+	"tracktrace_url": "https://tracktrace-url.com/"
+}

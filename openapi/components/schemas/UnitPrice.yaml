@@ -1,0 +1,9 @@
+description: | 
+      The unit price (in decimals) of the item, excluding VAT.
+
+      The currency of the shopping cart is set at order level using `currency`. 
+
+      **Example:** The value for a €90 backpack is `90`.
+type: number
+format: float
+example: 90.00

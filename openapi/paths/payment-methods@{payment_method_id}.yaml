@@ -1,0 +1,49 @@
+get:
+  description: Get information about a payment method.
+  operationId: getPaymentMethod
+  parameters:
+    - name: payment_method_id
+      description: The unique identifier of the payment method.
+      in: path
+      required: true
+      schema:
+        type: string
+    - name: locale
+      description: |
+        Display information about a payment method for a given locale.
+
+        **Format:** ab_CD with [ISO 639 language codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) and [ISO 3166 country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). 
+      in: query
+      required: false
+      schema:
+        type: string
+    - name: country
+      description: |
+        Display information about a payment method for a given country.
+
+        **Format:** [ISO 3166-1 alpha-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements).
+      in: query
+      required: false
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/PaymentMethod.yaml'
+    '404':
+      description: Payment method not found
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+  summary: Get payment method
+  tags:
+    - Payments

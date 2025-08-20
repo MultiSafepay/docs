@@ -1,0 +1,14 @@
+description: For [card payment direct](https://docs.multisafepay.com/docs/cardholder-data/) orders.
+type: object
+properties:
+  html:
+    description: |
+      If 3D Secure authentication is:
+
+      - Required: An HTML form is returned. You can either render the form and redirect the customer to it to pass authentication, or redirect them to the `payment_url` (recommended).
+      - Not required: The [transaction status](https://docs.multisafepay.com/docs/payment-statuses/) response is processed directly and no HTML form is returned.
+    type: string
+  type:
+    description: The type of response returned, i.e. a form.
+    type: string
+    example: form  

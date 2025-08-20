@@ -1,0 +1,34 @@
+description: Information about related transactions.
+type: object
+properties:
+  amount:
+    $import: 'Amount.yaml'
+  costs: 
+    $import: 'Cost.yaml'
+  created:
+    $import: 'Created.yaml'
+  currency:
+    $import: 'Currency.yaml'
+  description:
+    $import: 'Description.yaml'
+  dispute:
+    $import: 'ChargebackDispute.yaml'
+  modified:
+    $import: 'Modified.yaml'
+  order_id: 
+    $import: 'OrderId.yaml'
+  reference_transaction_id:
+    $import: 'TransactionId.yaml'
+  refund_order_id:
+    description: Set a unique identifier for the refund order ID.
+    type: string
+    maxLength: 50
+    example: refund-order-id-1234 
+  status:
+    $import: 'Status.yaml'
+  transaction_id:
+    $import: 'RelatedTransactionId.yaml'
+  type:
+    type: string
+    enum: [capture, chargeback, reverse-chargeback, refund, auth-cancellation]
+    example: "refund"

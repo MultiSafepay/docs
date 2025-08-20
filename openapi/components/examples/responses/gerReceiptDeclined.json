@@ -1,0 +1,34 @@
+{
+    "data": {
+        "merchant": {
+            "address": "Rue de la Gares test1 fdsas",
+            "name": "MultiSafepay B.V."
+        },
+        "order": {
+            "amount": 100,
+            "amountrefunded": 0,
+            "completed": null,
+            "currency": "EUR",
+            "items": null,
+            "tip": null,
+            "transaction_id": "1733221896103112"
+        },
+        "payment": {
+            "application_id": "a0000000031010",
+            "authorization_code": "007615",
+            "card_acceptor_location": "fdsas",
+            "card_entry_mode": "ICC_CONTACTLESS",
+            "card_expiry_date": "2006",
+            "cardholder_verification_method": "FAILED",
+            "issuer_bin": "490943",
+            "issuer_country_code": null,
+            "last4": "2001",
+            "payment_method": "VISA",
+            "response_code": "54",
+            "terminal_id": "000004Og"
+        },
+        "printed_on": "2024-12-03T12:14:28",
+        "related_transactions": null
+    },
+    "success": true
+	}

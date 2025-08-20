@@ -1,0 +1,47 @@
+description: The information about the outcome of the card authentication process.
+type: object
+properties:
+  acs_transaction_id:
+    description: |
+      The unique identifier for the transaction at the Access Control Server (ACS) of the issuing bank.
+      The ACS is responsible for authenticating the cardholder.
+    type: string
+    example: "tdf3442-5590-10f0-a060-ab07cb810215"
+  challenge_cancel:
+    description: Indicates whether the challenge was canceled.
+    type: string
+    example: "01"
+  cavv:
+    description: The Cardholder Authentication Verification Value, a cryptographic value generated during the authentication process.
+    type: string
+    example: "jMOUYcbPJm91NREudFHohpeLige="
+  ds_transaction_id:
+    description: |
+      The unique identifier for the transaction at the Directory Server (DS) of the issuing bank.
+      The DS is responsible for routing the authentication request to the appropriate ACS.
+    type: string
+    example: "tdf3442-5590-10f0-a060-ab07cb810215"
+  eci:
+    description: The Electronic Commerce Indicator (ECI) code indicates the outcome of the authentication process.
+    type: string
+    example: "06"
+  status:
+    description: |
+      The 3D Secure status code that indicates the outcome of the authentication process.
+      Possible values include:
+      - `Y`: Authentication successful.
+      - `A`: Authentication attempted.
+      - `C`: Challenge required.
+      - `N`: Authentication failed.
+      - `U`: Authentication could not be performed.
+      - `R`: Authentication rejected.
+    type: string
+    example: "success"
+  transaction_status_reason:
+    description: The reason code for a failed authentication.
+    type: string
+    example: "01"
+  version:
+    description: The version of the 3D Secure protocol used for the authentication.
+    type: string
+    example: "2.1.0"

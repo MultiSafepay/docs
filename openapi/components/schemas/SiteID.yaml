@@ -1,0 +1,7 @@
+description: |
+      The unique identifier of the site.
+
+      See [Site ID, API key, and secure code](https://multisafepay-docs.netlify.app/account/site-id-api-key-secure-code/).
+type: integer
+format: 5-digit number
+example: 12345

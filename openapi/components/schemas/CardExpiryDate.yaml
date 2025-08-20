@@ -1,0 +1,4 @@
+description: The card expiry date in YYMM format.
+type: string
+format: YYMM
+example: 2512

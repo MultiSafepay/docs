@@ -1,0 +1,7 @@
+description: |
+ The customer’s phone number.
+
+ **Required for**: Amazon Pay, MB WAY, and Bizum.
+type: string
+maxLength: 25
+example: "0208500500"

@@ -1,0 +1,7 @@
+description: |
+  Sets the webhook [notification method](https://docs.multisafepay.com/docs/webhook#3-acknowledge-the-notification).
+  
+  We recommend setting this to `POST` to reduce network load and increase security.
+type: string
+enum: [POST, GET]
+example: POST

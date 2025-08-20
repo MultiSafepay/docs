@@ -1,0 +1,30 @@
+{
+  "checkout_data": {
+    "items": [
+      {
+        "name": "Test",
+        "description": "",
+        "unit_price": 100,
+        "quantity": 1,
+        "merchant_item_id": "1111",
+        "tax_table_selector": "none",
+        "weight": {
+          "unit": "KG",
+          "value": 12
+        }
+      },
+      {
+        "name": "Test",
+        "description": "",
+        "unit_price": -100,
+        "quantity": 1,
+        "merchant_item_id": "1111",
+        "tax_table_selector": "none",
+        "weight": {
+          "unit": "KG",
+          "value": 12
+        }
+      }
+    ]
+  }
+}

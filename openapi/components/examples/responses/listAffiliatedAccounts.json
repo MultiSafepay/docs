@@ -1,0 +1,53 @@
+{
+  "success":true,
+  "data":[
+    {
+      "address1":"Jodenbreestraat 4",
+      "address2":"",
+      "address3":"",
+      "apartment":"A",
+      "city":"Amsterdam",
+      "coc_number":"1234578",
+      "company_name":"My company 1",
+      "country":"NL",
+      "email":"company1@example.com",
+      "id":90280407,
+      "phone":"020 1234567",
+      "vat_number":"NL123456789B01",
+      "zipcode":"5678 NX"
+    },
+    {
+      "address1":"Kraanspoor 39",
+      "address2":"",
+      "address3":"",
+      "apartment":"C",
+      "city":"Amsterdam",
+      "coc_number":"87654321",
+      "company_name":"My company 2",
+      "country":"NL",
+      "email":"company2@example.com",
+      "id":90280393,
+      "phone":"020 7654321",
+      "vat_number":"NL123456789B02",
+      "zipcode":"1011 NK"
+    },
+    {
+      "address1":"Hoofdweg 117",
+      "address2":"",
+      "address3":"",
+      "apartment":"",
+      "city":"Amsterdam",
+      "coc_number":"12312312",
+      "company_name":"My company 3",
+      "country":"NL",
+      "email":"company3@example.com",
+      "id":90280334,
+      "phone":"020 1231231",
+      "vat_number":"NL123456789B03",
+      "zipcode":"1012 AB"
+    }
+  ],
+  "page":{
+    "total":3
+  }
+}

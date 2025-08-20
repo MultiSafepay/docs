@@ -1,0 +1,91 @@
+description: |
+  For:
+  
+  - [Gift card](https://docs.multisafepay.com/docs/gift-cards) payments
+  - [Bancontact QR](https://docs.multisafepay.com/docs/bancontact/) codes
+  - Select [Billink](https://docs.multisafepay.com/docs/billink) payment types
+  - Disable redirection for [iDEAL](https://docs.multisafepay.com/docs/ideal#ideal-redirection)
+type: object
+properties:
+  coupons: 
+    description: Optional settings for gift cards.
+    type: object
+    properties:
+      allow:
+        description: Specifies which gift cards the customer can pay with.
+        type: array
+        example: EDENCO
+        items: 
+          type: string
+          enum: 
+            - BABYCAD
+            - BEAUTYWELL
+            - BLOEMENCAD
+            - BOEKENBON
+            - DEGROTESPL
+            - EDENCOM
+            - EDENCO
+            - EDENRES
+            - EDENSPORTS
+            - FASHIONCHQ
+            - FASHIONGFT
+            - FIETSENBON
+            - GOOD4FUN
+            - GEZONDHEID
+            - NATNLBIOSC
+            - NATNLETUIN
+            - PARFUMCADE
+            - SPORTENFIT
+            - VRGIFTCARD
+            - VVVGIFTCRD
+            - WEBSHOPGFT
+            - WIJNCADEAU
+            - YOURGIFT
+  gateways:
+    description: Optional settings for specific gateways.
+    type: object
+    properties:
+      MISTERCASH:
+        description: Settings for Bancontact.
+        type: object
+        properties:
+          mobile_pay_button_position:
+            description: Sets the position of the payment button on mobile devices. 
+            type: string
+            enum: [top, bottom, center]
+            example: top
+          disable_mobile_pay_button:
+            description: Whether to disable the payment button on mobile devices.
+            type: boolean
+            example: false
+          qr_only:
+            description: Whether to display a Bancontact QR code only.
+            type: boolean
+            example: true
+          qr_size:
+            description: Sets the size of the QR code in pixels.
+            type: string
+            example: 10px
+      BILLINK:
+        description: Settings for Billink.
+        type: object
+        properties:
+          type:
+            description: | 
+              Specifies the type of payment.
+              
+              Select `P` for Business-to-Consumer (B2C) payments.
+              Select `B` for Business-to-Business (B2B) payments.
+
+              For direct requests, if the `type` parameter is not provided, the system will default to `P`.
+              For redirect requests, the customer selects the payment type at the payment page.
+            type: string
+            enum: [P, B]
+      IDEAL:
+        description: Settings for iDEAL.
+        type: object
+        properties:
+          show_pre:
+            description: Disable automatic redirection for iDEAL `redirect` requests. Set to `true`.
+            type: string
+            example: true

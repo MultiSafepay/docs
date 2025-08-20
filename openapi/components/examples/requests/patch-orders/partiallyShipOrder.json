@@ -1,0 +1,12 @@
+{
+    "amount":"12500",
+    "carrier":"MRV",
+    "invoice_id":"OB-EIN-1198828",
+    "invoice_url":"http://invoice.url.com/1198828",
+    "po_number":"60344",
+    "reason":"Shipped Order via MRV",
+    "ship_date":"12/01/2022",
+    "status":"shipped",
+    "tracktrace_code":"1234567",
+    "tracktrace_url":"http://tracktrace-url.com/"
+}

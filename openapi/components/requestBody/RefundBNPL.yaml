@@ -1,0 +1,17 @@
+title: BNPL refund
+properties:
+  checkout_data:
+    description: |
+      Contains:
+      
+      - All of the items and quantities of the original order's array of `item` objects
+      - Duplicate `item` objects of the items to be refunded (with negative `unit_price`)
+
+      To retrieve the original order's array of `item` objects, make a `GET /orders/{order_id}` request.
+    type: object
+    properties:
+      items:
+        type: array
+        items:
+          $import: '../schemas/ItemRefund.yaml'
+required: [checkout_data]

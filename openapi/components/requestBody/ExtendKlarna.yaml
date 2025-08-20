@@ -1,0 +1,17 @@
+title: Extend Klarna expiration
+type: object
+description: Extend the expiration date of a Klarna payment, e.g. when shipment is late or a sold item is temporarily out of stock.
+properties:
+  extend_expiration:
+    description: | 
+      To extend the due date of the customer's Klarna payment by 6 weeks, set to `true`.  
+
+      The new expiry date is returned (in `YYYY-MM-DD` format) in the response.
+    type: boolean
+    example: true
+  reason:
+    description: |
+      Your reason to extend the expiration.
+    type: string
+    example: Shipment is late
+required: [extend_expiration, reason]

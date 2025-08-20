@@ -1,0 +1,74 @@
+{
+	"success": true,
+	"data": {
+		"amount": 1000,
+		"amount_refunded": 0,
+		"costs": [
+			{
+				"amount": 0.44,
+				"description": "0.44 For iDEAL Transactions",
+				"transaction_id": 4955501,
+				"type": "SYSTEM"
+			}
+		],
+		"created": "2022-08-25T09:49:12",
+		"currency": "EUR",
+		"custom_info": {
+			"custom_1": null,
+			"custom_2": null,
+			"custom_3": null
+		},
+		"customer": {
+			"address1": null,
+			"address2": null,
+			"city": null,
+			"country": null,
+			"country_name": null,
+			"email": "",
+			"first_name": null,
+			"house_number": null,
+			"last_name": null,
+			"locale": "en_US",
+			"phone1": null,
+			"phone2": "",
+			"state": null,
+			"zip_code": null
+		},
+		"description": "product description",
+		"fastcheckout": "NO",
+		"financial_status": "initialized",
+		"items": null,
+		"modified": "2022-08-25T09:49:12",
+		"order_id": "direct-order-0001",
+		"payment_details": {
+			"account_holder_name": null,
+			"account_iban": "https://ext.pay.ideal.nl/transactions/https%3A%2F%2Ftx.ideal.nl%2F2%2FA3DPWAX5BMLZEPSAJTX7NYUQH3I?sig=BGBCQEIIA4QLJMHCSNLKVQ7M4ZPS5FPEEKONX5DFSOVNO7LMJMUYO4ZAIIFZAEIDW237GBX73KHOMXZQJTAYFW3RBNFEGMRYA7ADDHAK3YCQPXMO5CY",
+			"account_id": null,
+			"external_transaction_id": "8151098765781814",
+			"recurring_flow": null,
+			"recurring_id": null,
+			"recurring_model": null,
+			"type": "IDEAL"
+		},
+		"payment_methods": [
+			{
+				"amount": 1000,
+				"currency": "EUR",
+				"description": "product description",
+				"external_transaction_id": "8151098765781814",
+				"payment_description": "iDEAL",
+				"status": "initialized",
+				"type": "IDEAL"
+			}
+		],
+		"reason": "",
+		"reason_code": "",
+		"related_transactions": null,
+		"status": "initialized",
+		"transaction_id": 6565093,
+		"var1": null,
+		"var2": null,
+		"var3": null,
+		"payment_url": "https://ext.pay.ideal.nl/transactions/https%3A%2F%2Ftx.ideal.nl%2F2%2FA3DPWAX5BMLZEPSAJTX7NYUQH3I?sig=BGBCQEIIA4QLJMHCSNLKVQ7M4ZPS5FPEEKONX5DFSOVNO7LMJMUYO4ZAIIFZAEIDW237GBX73KHOMXZQJTAYFW3RBNFEGMRYA7ADDHAK3YCQPXMO5CY"
+	}
+}

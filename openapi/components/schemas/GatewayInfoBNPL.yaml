@@ -1,0 +1,20 @@
+description: | 
+  Information specific to the payment method (gateway). 
+  
+  **Required for:** E-Invoicing, in3, Klarna, Pay After Delivery, and Riverty orders for credit checks in the Netherlands and Belgium
+type: object
+properties:
+  birthday:
+    $import: 'Birthday.yaml'
+  bank_account:
+    description: The customer's international bank account number (IBAN).
+    type: string
+  phone:
+    $import: 'Phone.yaml'
+  email:
+    description: The customer's email address to send payment instructions to.
+    maxLength: 64
+    type: string
+  gender:
+    description: The customer's title.
+    type: string

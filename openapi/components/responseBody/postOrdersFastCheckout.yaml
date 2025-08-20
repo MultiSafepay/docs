@@ -1,0 +1,22 @@
+title: FastCheckout
+type: object
+properties:
+  success:
+    description: Whether the FastCheckout request was successful.
+    type: boolean
+  data:
+    description: The order details.
+    type: object
+    properties:
+      order_id:
+        description: The order ID.
+        type: string
+        example: test-order-0001
+      payment_url:
+        description: The URL of the FastCheckout page.
+        type: string
+        example: "https://pay.multisafepay.com/v3/fco/100K9TuVJhyfVb3ENCtE7eOgoX9QzwzAe1y?lang=en_US"
+      session_id:
+        description: The MultiSafepay session ID.
+        type: string
+        example: 100K9TuVJhyfVb3ENCtE7eOgoX9QzwzAe1y

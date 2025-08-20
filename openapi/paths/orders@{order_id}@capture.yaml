@@ -1,0 +1,94 @@
+post:
+  description: Capture the full or a partial amount for a credit or debit card payment.
+  operationId: capturePayment
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: order_id
+      description: | 
+        The unique identifier of the order. 
+      
+        Max length: 50 characters.
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    required: true
+    content:
+      application/json:
+        examples:
+          Full capture: 
+              summary: Full capture
+              value:
+                $import: '../components/examples/requests/capture/fullCapture.json'
+          Partial capture: 
+              summary: Partial capture
+              value:
+                $import: '../components/examples/requests/capture/partialCapture.json'
+        schema:
+          type: object
+          properties:
+            amount:
+              description: |
+                The payment amount in the currency's smallest unit:
+
+                - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+                - Zero-decimal currencies: Value for 10 JPY = 10 
+
+                **Full captures:** Specify the original amount.
+
+                **Partial captures:** Specify the amount to capture. 
+              type: integer
+              minimum: 0
+              example: 10000
+            new_order_id:
+              description: Your unique identifier for the capture order. 
+              type: string
+              maxLength: 50
+              example: my-order-id-01
+            new_order_status:
+              description: The [order status](/https://docs.multisafepay.com/docs/payment-statuses/).
+              type: string
+              enum: [completed]
+              example: completed
+            invoice_id:
+              $import: '../components/schemas/InvoiceId.yaml'
+            tracktrace_code:
+              $import: '../components/schemas/TrackTraceCode.yaml'
+            carrier:
+              $import: '../components/schemas/Carrier.yaml'
+            reason:
+              description: The reason for capturing the order.
+              type: string
+              example: Shipped in one consignment. 
+            description:
+              description: Any additional information.
+              type: string
+          required: [new_order_status, amount]
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data: 
+                description: Information about the capture order.
+                type: object
+                properties:
+                  transaction_id:
+                    $import: '../components/schemas/TransactionId.yaml'
+                  order_id:
+                    $import: '../components/schemas/OrderId.yaml'
+    '404':
+      description: Error
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+  summary: Capture payment
+  tags:
+    - Payments

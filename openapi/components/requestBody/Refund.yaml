@@ -1,0 +1,35 @@
+title: Refund
+properties:
+  currency:
+    description: |
+      The currency to process the refund in. This must be the same as the original transaction.
+
+      **Format:** [ISO-4217 currency code](https://en.wikipedia.org/wiki/ISO_4217).
+    type: string
+    format: ISO-4217 currency code
+    example: EUR
+  amount:
+    description: |
+      The refund amount in the currency's smallest unit.
+
+      - Decimal currencies: Value for 10 EUR = 1000 (1000 cents) 
+      - Zero-decimal currencies: Value for 10 JPY = 10
+
+      **⚠️Note:** A full refund will be processed if the `amount` parameter is omitted, left empty, or set to `0`.
+    type: integer
+    minimum: 0
+    example: 500
+  description:
+    $import: '../schemas/Description.yaml'
+  refund_order_id:
+    description: Set a unique identifier for the refund order ID. If not included in the request, the refund order ID is the same as the original order ID.
+    type: string
+    maxLength: 50
+    example: refund-order-id-1234
+  var1:
+    $import: '../schemas/var12.yaml'
+  var2:
+    $import: '../schemas/var12.yaml'
+  var3:
+    $import: '../schemas/var3.yaml'
+required: [currency]

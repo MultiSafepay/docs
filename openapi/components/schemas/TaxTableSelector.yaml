@@ -1,0 +1,6 @@
+description: |
+  Your client-defined identifier for a tax table, specified as `checkout_options.tax_tables.alternate.name`.
+
+  For Billink, VAT rates are restricted to: 0%, 5%, 6%, 7%, 9%, 16%, 19%, 20%, 21%
+type: string
+example: "VAT-21"

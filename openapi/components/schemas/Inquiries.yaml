@@ -1,0 +1,18 @@
+description: Lists the inquiries sent by MultiSafepay to an affiliate, such as requests for documents or missing information.
+type: object
+properties:
+  id:
+    description: The unique identifier of the inquiry.
+    type: string
+    maxLength: 180
+  expected_reply:
+    description: What is required and what is allowed in the reply.
+    type: array
+  account_id:
+    description: The unique identifier of the affiliated account.
+    type: integer
+  created:
+    description: The timestamp for when the affiliate account was created.
+    type: string
+    format: ISO-4217 currency code
+    

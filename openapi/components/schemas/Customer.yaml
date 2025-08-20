@@ -1,0 +1,127 @@
+type: object
+description: | 
+  The customer’s personal information.
+
+  **Required for:** All orders **except** Apple Pay and Google Pay, and Belfius, iDEAL, and WeChat Pay `direct` orders.
+
+  For [recurring payments](https://docs.multisafepay.com/docs/recurring-payments/), see `reference`.
+  For localizing payment pages and FastCheckout pages, see `locale`.
+properties:
+  locale:
+    type: string
+    description: |
+      - Localizes [payment pages](https://docs.multisafepay.com/docs/payment-pages/) and [FastCheckout pages](https://docs.multisafepay.com/docs/fastcheckout/) for the customer’s language, region, UI preferences, and available payment methods or local variants, e.g. to display:
+        - Cartes Bancaires, set to `fr_FR`.
+        - Dankort, set to `da_DK`.
+        - Postepay, set to `it_IT`.
+      - Sends [email templates](https://docs.multisafepay.com/docs/email-styling/) in the customer's preferred language. If set, `locale` overrides the language set in an email template.
+     
+      **Required for:** Bancontact
+
+      **Format:** ab_CD with [ISO 639 language codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) and [ISO 3166 country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).
+      
+      |Locale|Language & country|
+      |--------|--------|
+      |`cs_CZ`|Czech |
+      |`de_AT`|German (Austria)|
+      |`de_DE`|German (Germany)|
+      |`en_US`|American English|
+      |`fi_FI`|Finnish|
+      |`fr_BE`|French (Belgium)|
+      |`fr_FR`|French (France)|
+      |`it_IT`|Italian|
+      |`nl_BE`|Dutch (Belgium)|
+      |`nl_NL`|Dutch (Netherlands)|
+      |`pl_PL`|Polish|
+      |`es_ES`|Spanish|
+      |`sv_SE`|Swedish|
+      |`zh_CN`|Chinese|
+
+    format: ab_CD with ISO 639 language codes and ISO 3166 country codes
+    enum: [cs_CZ, de_AT, de_DE, en_US, fi_FI, fr_BE, fr_FR, it_IT, nl_BE, nl_NL, pl_PL, es_ES, sv_SE, zh_CN]
+    example: nl_NL
+    default: 'en_US'
+  ip_address: 
+    description: |
+      The customer’s IP address.
+
+      **Required for:** BNPL, card, and payment Component orders for our fraud check. If empty or incorrect, the transaction status may be **Uncleared**, or even **Declined**.
+
+      **Recommended** but not required for other payment methods.
+
+      **Note:** If the customer's request to your server is forwarded by a proxy, set the originating IP address in `customer.forwarded_ip`.
+
+    type: string
+    format: IP address
+    example: "123.123.123.123"
+  forwarded_ip:
+    description: |
+
+      The originating IP address of the customer. This is only relevant when the customer's request to your server is forwarded by a proxy.
+
+      When a customer uses a proxy, the `X-Forwarded-For` header value is appended to the request to your server, containing the originating IP address. Set this value in `customer.forwarded_ip`.
+
+    type: string
+    format: IPv4
+  first_name:
+    $import: 'FirstName.yaml'
+  last_name:
+    $import: 'LastName.yaml'
+  gender:
+    $import: 'Gender.yaml'
+  birthday:
+    $import: 'Birthday.yaml'
+  address1:
+    $import: 'Address1.yaml'
+  address2:
+    $import: 'Address2.yaml'
+  house_number:
+    $import: 'HouseNumber.yaml'
+  zip_code:
+    $import: 'ZIP.yaml'
+  city: 
+    $import: 'City.yaml'
+  state:
+    $import: 'State.yaml'
+  country: 
+    description: |
+      The country of the address. 
+      
+      **Format:** [ISO 3166-1 alpha-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements).
+
+      **Required for:** Bank Transfer, cards, and PayPal Seller Protection
+    type: string
+    format: country alpha-2
+    example: NL
+  phone: 
+    $import: 'Phone.yaml'
+  email:
+    description: |
+      The customer’s email address.
+
+      Used for [Second Chance](https://docs.multisafepay.com/docs/second-chance/) emails and fraud checks.
+
+      **Required for:** Forwarding correct details is a requirement for Visa, Bank Transfer and Trustly
+    type: string
+    maxLength: 64
+    example: customer@emailprovider.com
+  disable_send_email:
+    description: |
+      To prevent us from sending a confirmation email to the customer, set `disable_send_email` to `true`. 
+     
+    type: boolean
+    default: false
+    example: false
+  user_agent:
+    $import: 'UserAgent.yaml'
+  referrer: 
+    description: The unique identifier for where the customer/browser originates from.
+    type: string
+  reference:
+    description: |
+      Your unique client-defined identifier for your customer.
+
+      **Required for:** [Recurring payments](https://docs.multisafepay.com/docs/recurring-payments/) orders, both initial and subsequent payments.
+    type: string
+    example: customer-0001
+

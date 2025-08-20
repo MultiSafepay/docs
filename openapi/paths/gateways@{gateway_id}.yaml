@@ -1,0 +1,49 @@
+get:
+  description: Get the name of the payment method for a gateway identifier.
+  operationId: getGateway
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: gateway_id
+      description: The unique identifier of the gateway. **Not** case sensitive.
+      in: path
+      required: true
+      schema:
+        type: string
+        $import: '../components/schemas/GatewayIdentifiers.yaml'
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                type: object
+                properties: 
+                  id:
+                    description: The unique identifier of the gateway. 
+                    type: string
+                    example: "MISTERCASH" 
+                  description: 
+                    description: The name of the payment method.
+                    type: string
+                    example: "Bancontact"
+    '404':
+      description: Gateway not found
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/Error1023.yaml'
+    '401':
+      description: Invalid API key
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/Error1032.yaml'
+  summary: Get gateway
+  tags:
+    - Payments
+

@@ -1,0 +1,15 @@
+properties:
+  success:
+    type: boolean
+    example: false
+  data:
+    $import: '../schemas/DataEmpty.yaml'
+  error_code:
+    description: "1023"
+    type: integer
+    example: 1023
+  error_info:
+    description: The gateway is not available.
+    type: string
+    example: No gateway (payment method) available
+type: object

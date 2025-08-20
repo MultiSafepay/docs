@@ -1,0 +1,23 @@
+description: The fees for the transaction.
+type: object
+properties:
+  transaction_id:
+    $import: 'TransactionId.yaml'
+  amount:
+    description: |
+      The payment amount in decimal form, e.g. 0.16 EUR is 16 cents.
+    type: number
+    minimum: 0
+    example: 0.16
+  description:
+    description: A description of the transaction.
+    type: string
+    example: "For VISA orders"
+  type:
+    type: string
+    enum: [SYSTEM, internal]
+    example: "internal"
+  created:
+    $import: 'Created.yaml'
+  status:
+    $import: 'Status.yaml' 

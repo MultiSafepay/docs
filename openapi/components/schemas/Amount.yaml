@@ -1,0 +1,8 @@
+description: |
+  The payment amount in the currency's smallest unit:
+
+  - Decimal currencies: Value for 10 EUR = 1000 (1000 cents)
+  - Zero-decimal currencies: Value for 10 JPY = 10
+type: integer
+minimum: 0
+example: 1000

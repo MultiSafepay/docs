@@ -1,0 +1,38 @@
+title: Ship order
+type: object
+properties:
+  carrier:
+    $import: '../schemas/Carrier.yaml'
+  invoice_id:
+    $import: '../schemas/InvoiceId.yaml'
+  invoice_url:
+    description: | 
+      The URL to the `invoice_id`. 
+    type: string
+    example: https://mspinvoice-AB12345.com
+  po_number:
+    description: The purchase order number of the shipping company.  
+    type: string
+    example: XY123456789
+  reason:
+    description: The reason for updating the order. 
+    type: string
+    example: Fulfilled by warehouse
+  ship_date:
+    description: The date you shipped the order.
+    type: string
+    example: 01-01-1911
+  status:
+    description: | 
+      The [order status](/https://docs.multisafepay.com/docs/payment-statuses/).
+      
+      To communicate that you have shipped the order, set to `shipped`.
+    type: string
+    example: shipped
+  tracktrace_code:
+    $import: '../schemas/TrackTraceCode.yaml'
+  tracktrace_url:
+    description: The track and trace URL provided by the shipping company.
+    type: string
+    example: https://tracktrace-url.com/
+required: [status]

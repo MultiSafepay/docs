@@ -1,0 +1,26 @@
+{
+    "data":{
+      "fees":[
+        {
+          "amount":"39",
+          "currency":"EUR",
+          "description":"0.39 EUR For iDEAL Transactions",
+          "minimum":null,
+          "percentage":null
+        },
+        {
+          "amount":null,
+          "currency":null,
+          "description":"1.25 % For iDEAL Transactions",
+          "minimum":null,
+          "percentage":1.25
+        }
+      ],
+      "scope":{
+        "currency":"EUR",
+        "payment_type":"IDEAL",
+        "type":"payment"
+      }
+    },
+    "success":true
+  }

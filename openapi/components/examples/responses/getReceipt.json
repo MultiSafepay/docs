@@ -1,0 +1,64 @@
+{
+    "data": {
+      "merchant": {
+        "address": "Rue de la Gares test1 fdsas",
+        "name": "MultiSafepay B.V."
+      },
+      "order": {
+        "amount": 1247,
+        "amountrefunded": 0,
+        "completed": "2024-07-23T13:20:38",
+        "currency": "EUR",
+        "items": {
+          "items": [
+            {
+              "currency": "EUR",
+              "item_price": 320,
+              "name": "Caffè Mocha",
+              "quantity": 1,
+              "unit_price": 320
+            },
+            {
+              "currency": "EUR",
+              "item_price": 320,
+              "name": "Cortado",
+              "quantity": 1,
+              "unit_price": 320
+            },
+            {
+              "currency": "EUR",
+              "item_price": 399,
+              "name": "Flat White",
+              "quantity": 1,
+              "unit_price": 399
+            }
+          ]
+        },
+        "tip": {
+          "amount": 208,
+          "employee": {
+            "id": "33",
+            "name": "Alonso"
+          }
+        },
+        "transaction_id": "1721733637106739"
+      },
+      "payment": {
+        "application_id": "a0000000041010",
+        "authorization_code": "006459",
+        "card_acceptor_location": "fdsas",
+        "card_entry_mode": "ICC_CONTACTLESS",
+        "card_expiry_date": "2707",
+        "cardholder_verification_method": "PLAINTEXT_PIN_OFFLINE",
+        "issuer_bin": "516788",
+        "issuer_country_code": "ES",
+        "last4": "6913",
+        "payment_method": "MASTERCARD",
+        "response_code": "00",
+        "terminal_id": "000002Or"
+      },
+      "printed_on": "2024-12-02T11:11:26",
+      "related_transactions": null
+    },
+    "success": true
+  }

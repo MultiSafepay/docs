@@ -1,0 +1,75 @@
+post:
+  description: As a partner, set the buysell rate for a payment method for an affiliate.
+  operationId: Partner::CreateChargeForSubaccount
+  parameters:
+    - name: account_id
+      description: The affiliate's account ID.
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          properties:
+            fees:
+              description: Information about the buysell rate.
+              type: array
+              items:
+                percentage: 
+                  description: The rate as a percentage.
+                  type: float
+                  example: 1.25
+                amount: 
+                  description: The rate as a fixed amount. 
+                  type: integer
+                  example: 39
+                currency:
+                  description: The currency the rate applies to.
+                  type: string
+                  format: ISO-4217 currency code
+                  example: EUR
+            scope:
+              description: Information about where the rate applies.
+              type: object
+              properties:
+                currency:
+                  description: The currency the rate applies to.
+                  type: string
+                  format: ISO-4217 currency code
+                  example: EUR
+                payment_type:
+                  description: The payment method the rate applies to.
+                  type: string
+                  example: "IDEAL"
+                type:
+                  description: The type of transaction the rate applies to.
+                  type: string
+                  enum: [payment]
+                  example: payment
+          required: [fees, scope]
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          example:
+            $import: '../components/examples/responses/setAffiliateRate.json'
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/AffiliateRate.yaml'
+    '404':
+      description: Account not found
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+  summary: Set affiliate buysell rate
+  tags:
+    - Manage affiliates

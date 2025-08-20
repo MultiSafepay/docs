@@ -1,0 +1,13 @@
+{
+    "success": true,
+    "data":[
+      {
+        "id": "VISA",
+        "description": "Visa"
+      },
+      {
+        "id": "IDEAL",
+        "description": "iDEAL"
+      }
+    ]
+  }

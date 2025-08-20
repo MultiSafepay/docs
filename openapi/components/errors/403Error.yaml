@@ -1,0 +1,6 @@
+type: object
+properties:
+  message:
+    description: Forbidden. 
+    type: string
+    example: "Forbidden" 

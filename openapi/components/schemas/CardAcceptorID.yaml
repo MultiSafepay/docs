@@ -1,0 +1,3 @@
+description: The merchant's unique identifier.
+type: integer
+example: 14732006

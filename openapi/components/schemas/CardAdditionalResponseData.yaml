@@ -1,0 +1,15 @@
+description: Additional data returned by the card scheme, related to the transaction's authentication process.
+type: object
+properties:
+  cavv_results_code:
+    description: The Cardholder Authentication Verification Value confirmation code.
+    type: string
+    example: "2"
+  sca_details:
+    description: The information realted to the Strong Customer Authentication (SCA) process.
+    type: object
+    properties:
+      tra_exempltion_indicator:
+        description: Indicates whether the transaction is exempt from SCA.
+        type: string
+        example: "2"

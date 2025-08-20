@@ -1,0 +1,2 @@
+description: The order reference number of a third party, e.g. the payment method.
+type: integer

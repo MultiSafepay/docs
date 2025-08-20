@@ -1,0 +1,38 @@
+description: | 
+  Information specific to the payment method (gateway). 
+  
+  **Required for:**
+  
+  - `Direct` credit and debit card orders
+  - [Flexible 3D orders](https://docs.multisafepay.com/docs/3ds2#flexible-3d)
+  - [MOTO orders](https://docs.multisafepay.com/docs/moto/) 
+type: object
+properties:
+  card_number:
+    description: The credit or debit card number.
+    type: string
+    example: "4111111111111111"
+  card_holder_name:
+    description: The cardholder's name.
+    type: string
+    example: John Doe
+  card_expiry_date:
+    $import: 'CardExpiryDate.yaml'
+  card_cvc:
+    description: |
+      The card verification code (CVC) – a 3 or 4 digit number used as an additional security feature for card-not-present transactions.  
+      
+      **Required for:** All credit and debit card payments, **except** for Maestro and [Recurring payments](https://docs.multisafepay.com/docs/recurring-payments/)
+    type: string
+    example: "123"
+  flexible_3d: 
+    description: For Flexible 3D orders (**required**), whether or not 3D Secure authentication is required.
+    type: boolean
+  moto:
+    description: For MOTO orders (**required**), whether to create a MOTO order.
+    type: boolean
+  term_url: 
+    description: For Flexible 3D orders (**required**), the URL that tells the card issuer where to redirect the authentication query.
+    type: string
+    format: URL
+    example: https://example.com/?type=term&api_key=<api_key>

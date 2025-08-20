@@ -1,0 +1,3 @@
+description: The bank identification code (BIC).
+type: string
+example: ABNANL2A
