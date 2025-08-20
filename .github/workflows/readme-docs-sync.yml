@@ -25,4 +25,4 @@ jobs:
         with:
           rdme: openapi ./openapi/docsopenapi.yaml --key=${{ secrets.README }} --branch=v1.1
         env:
-          DEBUG: rdme*
+          DEBUG: rdme* 
