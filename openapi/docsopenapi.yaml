@@ -40,45 +40,45 @@ info:
   description: "MultiSafepay's API reference"
 paths:
   '/orders':
-    $import: 'paths/orders.yaml'
+    $ref: 'paths/orders.yaml'
   '/orders/{psp_id}':
-    $import: 'paths/orders@{psp_id}.yaml'
+    $ref: 'paths/orders@{psp_id}.yaml'
   '/orders/{order_id}':
-    $import: 'paths/orders@{order_id}.yaml'
+    $ref: 'paths/orders@{order_id}.yaml'
   '/orders/{order_id}/cancel':
-    $import: 'paths/orders@{order_id}@cancel.yaml'
+    $ref: 'paths/orders@{order_id}@cancel.yaml'
   '/orders/{order_id}/capture':
-    $import: 'paths/orders@{order_id}@capture.yaml'
+    $ref: 'paths/orders@{order_id}@capture.yaml'
   '/capture/{order_id}':
-    $import: 'paths/capture@{order_id}.yaml'
+    $ref: 'paths/capture@{order_id}.yaml'
   '/gateways':
-    $import: 'paths/gateways.yaml'
+    $ref: 'paths/gateways.yaml'
   '/gateways/{gateway_id}':
-    $import: 'paths/gateways@{gateway_id}.yaml'
+    $ref: 'paths/gateways@{gateway_id}.yaml'
   '/issuers/{gateway}':
-    $import: 'paths/issuers@{gateway}.yaml'
+    $ref: 'paths/issuers@{gateway}.yaml'
   '/recurring/{your_customer_reference}':
-    $import: 'paths/recurring@{your_customer_reference}.yaml'
+    $ref: 'paths/recurring@{your_customer_reference}.yaml'
   '/recurring/{your_customer_reference}/token/{your_token}':
-    $import: 'paths/recurring@{your_customer_reference}@token@{your_token}.yaml'
+    $ref: 'paths/recurring@{your_customer_reference}@token@{your_token}.yaml'
   '/recurring/{your_customer_reference}/update/{your_token}':
-    $import: 'paths/recurring@{your_customer_reference}@update@{your_token}.yaml'
+    $ref: 'paths/recurring@{your_customer_reference}@update@{your_token}.yaml'
   '/recurring/{your_customer_reference}/remove/{your_token}':
-    $import: 'paths/recurring@{your_customer_reference}@remove@{your_token}.yaml'
+    $ref: 'paths/recurring@{your_customer_reference}@remove@{your_token}.yaml'
   '/payment-methods': 
-    $import: 'paths/payment-methods2.yaml'
+    $ref: 'paths/payment-methods2.yaml'
   '/orders/{order_id}/refunds':
-    $import: 'paths/orders@{order_id}@refunds.yaml'
+    $ref: 'paths/orders@{order_id}@refunds.yaml'
   '/orders/{order_id}/refunds/{refund_id}':
-    $import: 'paths/orders@{order_id}@refunds@{refund_id}.yaml'
+    $ref: 'paths/orders@{order_id}@refunds@{refund_id}.yaml'
   '/orders/{order_id}/files':
-    $import: 'paths/orders@{order_id}@files.yaml'
+    $ref: 'paths/orders@{order_id}@files.yaml'
   '/auth/api_token':
-    $import: 'paths/auth@api_token.yaml'
+    $ref: 'paths/auth@api_token.yaml'
   '/signup-account':
-    $import: 'paths/signup-account.yaml'
+    $ref: 'paths/signup-account.yaml'
   '/accounts':
-    $import: 'paths/accounts.yaml'
+    $ref: 'paths/accounts.yaml'
   '/accounts/{account_id}':
     get:
       x-readme:
@@ -145,11 +145,11 @@ paths:
       x-readme:
         explorer-enabled: false
   '/accounts/{account_id}/login-urls':
-    $import: 'paths/accounts@{account_id}@login-urls.yaml'      
+    $ref: 'paths/accounts@{account_id}@login-urls.yaml'      
   '/accounts/{account_id}/autopayouts/{currency}':
-    $import: 'paths/accounts@{account_id}@autopayouts@{currency}.yaml'
+    $ref: 'paths/accounts@{account_id}@autopayouts@{currency}.yaml'
   '/accounts/{account_id}/autopayouts':
-    $import: 'paths/accounts@{account_id}@autopayouts.yaml' 
+    $ref: 'paths/accounts@{account_id}@autopayouts.yaml' 
   '/accounts/{account_id}/payouts':
     post:
       x-readme:
@@ -184,11 +184,11 @@ paths:
       x-readme:
         explorer-enabled: false
   '/categories':
-    $import: 'paths/categories.yaml'
+    $ref: 'paths/categories.yaml'
   '/transactions':
-    $import: 'paths/listtransactions.yaml'
+    $ref: 'paths/listtransactions.yaml'
   '/pos/receipt/{order_id}':
-    $import: 'paths/receipt@{order_id}.yaml'
+    $ref: 'paths/receipt@{order_id}.yaml'
 security:
   - BearerAuth: []
   - ApiKeyQuery: []
