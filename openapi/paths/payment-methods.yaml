@@ -6,30 +6,48 @@ get:
     - name: amount
       description: Filter payment methods by availability for a given order amount in eurocents.
       in: query
+      schema:
+        type: integer
+        example: 1000
     - name: country
       description: |
         Filter payment methods by availability in a given country. 
         
         **Format:** [ISO 3166-1 alpha-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements).
       in: query
+      schema:
+        type: string
+        example: "NL"
     - name: currency
       description: |
         Filter payment methods by availability for a given currency.
 
         **Format:** [ISO-4217 currency code](https://en.wikipedia.org/wiki/ISO_4217).
       in: query
+      schema:
+        type: string
+        example: "EUR"
     - name: group_cards
       description: Group credit and debit cards together in the response.
       in: query
+      schema:
+        type: integer
+        example: 1
     - name: include_coupons
       description: | 
         Whether to include gift cards in the results.
 
         - 0: Don't include gift cards in the results. 
         - 1: Include gift cards in the results. 
+      schema:
+        type: integer
+        example: 0
     - name: type
       description: Filter payment methods by whether they are a gift card or not.
       in: query
+      schema:
+        type: boolean
+        example: false
   responses:
     '200':
       description: Request successful
@@ -39,23 +57,23 @@ get:
             List payment methods:
               summary: List payment methods
               value: 
-                $import: '../components/examples/responses/listPaymentMethods.json'
+                $ref: '../components/examples/responses/listPaymentMethods.json'
           schema:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
                  description: The relevant activated payment methods.
                  type: array
                  items: 
-                   $import: '../components/schemas/PaymentMethod.yaml'
+                   $ref: '../components/schemas/PaymentMethod.yaml'
     '404':
       description: Gateway not found
       content:
         application/json:
           schema:
-            $import: '../components/errors/Error1023.yaml'
+            $ref: '../components/errors/Error1023.yaml'
   summary: List payment methods
   tags:
     - Payments

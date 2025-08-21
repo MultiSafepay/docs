@@ -22,7 +22,7 @@ post:
           type: object
           properties:
             expires_in:
-              $import: '../components/schemas/ExpiryTime.yaml'  
+              $ref: '../components/schemas/ExpiryTime.yaml'  
   responses:
     '200':
       description: Request successful
@@ -32,21 +32,21 @@ post:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
-                $import: '../components/schemas/URL.yaml'
+                $ref: '../components/schemas/URL.yaml'
     '404':
       description: Account not found
       content:
         application/json:
           schema:
-            $import: '../components/errors/Error1000.yaml'
+            $ref: '../components/errors/Error1000.yaml'
     '422':
       description: Validation errors
       content:
         application/json:
           schema:
-            $import: '../components/errors/Error1001.yaml'
+            $ref: '../components/errors/Error1001.yaml'
 
 
 

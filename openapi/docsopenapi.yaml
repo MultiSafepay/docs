@@ -1,11 +1,14 @@
-openapi: 3.0.0
+openapi: 3.0.4
 components:
   schemas:
     ValidationErrorResponse:
+      type: object
       properties:
         errors:
+          type: array
           description: Identifies the validation errors.
           items:
+            type: object
             properties:
               attribute:
                 description: Indicates which attributes in the request were invalid.
@@ -33,6 +36,8 @@ components:
       name: api_key
       in: header
 info:
+  title: MultiSafepay API
+  version: "1.0.0"
   contact:
     name: MultiSafepay Integration Team
     url: https://www.multisafepay.com/contact
@@ -40,157 +45,56 @@ info:
   description: "MultiSafepay's API reference"
 paths:
   '/orders':
-    $import: 'paths/orders.yaml'
+    $ref: 'paths/orders.yaml'
   '/orders/{psp_id}':
-    $import: 'paths/orders@{psp_id}.yaml'
+    $ref: 'paths/orders@{psp_id}.yaml'
   '/orders/{order_id}':
-    $import: 'paths/orders@{order_id}.yaml'
+    $ref: 'paths/orders@{order_id}.yaml'
   '/orders/{order_id}/cancel':
-    $import: 'paths/orders@{order_id}@cancel.yaml'
+    $ref: 'paths/orders@{order_id}@cancel.yaml'
   '/orders/{order_id}/capture':
-    $import: 'paths/orders@{order_id}@capture.yaml'
+    $ref: 'paths/orders@{order_id}@capture.yaml'
   '/capture/{order_id}':
-    $import: 'paths/capture@{order_id}.yaml'
+    $ref: 'paths/capture@{order_id}.yaml'
   '/gateways':
-    $import: 'paths/gateways.yaml'
+    $ref: 'paths/gateways.yaml'
   '/gateways/{gateway_id}':
-    $import: 'paths/gateways@{gateway_id}.yaml'
+    $ref: 'paths/gateways@{gateway_id}.yaml'
   '/issuers/{gateway}':
-    $import: 'paths/issuers@{gateway}.yaml'
+    $ref: 'paths/issuers@{gateway}.yaml'
   '/recurring/{your_customer_reference}':
-    $import: 'paths/recurring@{your_customer_reference}.yaml'
+    $ref: 'paths/recurring@{your_customer_reference}.yaml'
   '/recurring/{your_customer_reference}/token/{your_token}':
-    $import: 'paths/recurring@{your_customer_reference}@token@{your_token}.yaml'
+    $ref: 'paths/recurring@{your_customer_reference}@token@{your_token}.yaml'
   '/recurring/{your_customer_reference}/update/{your_token}':
-    $import: 'paths/recurring@{your_customer_reference}@update@{your_token}.yaml'
+    $ref: 'paths/recurring@{your_customer_reference}@update@{your_token}.yaml'
   '/recurring/{your_customer_reference}/remove/{your_token}':
-    $import: 'paths/recurring@{your_customer_reference}@remove@{your_token}.yaml'
-  '/payment-methods': 
-    $import: 'paths/payment-methods2.yaml'
+    $ref: 'paths/recurring@{your_customer_reference}@remove@{your_token}.yaml'
   '/orders/{order_id}/refunds':
-    $import: 'paths/orders@{order_id}@refunds.yaml'
+    $ref: 'paths/orders@{order_id}@refunds.yaml'
   '/orders/{order_id}/refunds/{refund_id}':
-    $import: 'paths/orders@{order_id}@refunds@{refund_id}.yaml'
+    $ref: 'paths/orders@{order_id}@refunds@{refund_id}.yaml'
   '/orders/{order_id}/files':
-    $import: 'paths/orders@{order_id}@files.yaml'
+    $ref: 'paths/orders@{order_id}@files.yaml'
   '/auth/api_token':
-    $import: 'paths/auth@api_token.yaml'
+    $ref: 'paths/auth@api_token.yaml'
   '/signup-account':
-    $import: 'paths/signup-account.yaml'
+    $ref: 'paths/signup-account.yaml'
   '/accounts':
-    $import: 'paths/accounts.yaml'
-  '/accounts/{account_id}':
-    get:
-      x-readme:
-        explorer-enabled: false
-    patch:
-      x-readme:
-        explorer-enabled: false
-  '/accounts/{account_id}/balances':
-    get:
-      x-readme:
-        explorer-enabled: false
-  '/accounts/{account_id}/closing-balances':
-    get:
-      x-readme:
-        explorer-enabled: false
-  '/accounts/{account_id}/bank-accounts':
-    post:
-      x-readme:
-        explorer-enabled: false
-    get:
-      x-readme:
-        explorer-enabled: false
-  '/bank-accounts/{bankaccount_id}':
-    get:
-      x-readme:
-        explorer-enabled: false
-  '/bank-accounts/{bankaccount_id}/payment-links':
-    post:
-      x-readme:
-        explorer-enabled: false
-  '/bank-accounts/{bankaccount_id}/bank-statements':
-    post:
-      x-readme:
-        explorer-enabled: false
-    get:
-      x-readme:
-        explorer-enabled: false
-  '/bank-statements/{bankstatement_id}':
-    get:
-      x-readme:
-        explorer-enabled: false
-  '/accounts/{account_id}/inquiries':
-    get:
-      x-readme:
-        explorer-enabled: false
-  '/accounts/{account_id}/inquiries/{inquiry_id}':
-    get:
-      x-readme:
-        explorer-enabled: false
-  '/accounts/{account_id}/messages':
-    get:
-      x-readme:
-        explorer-enabled: false
-  '/accounts/{account_id}/messages/{message_id}':
-    get:
-      x-readme:
-        explorer-enabled: false
-  '/accounts/{account_id}/fees':
-    post:
-      x-readme:
-        explorer-enabled: false
-  '/accounts/{account_id}/charges':
-    post: 
-      x-readme:
-        explorer-enabled: false
+    $ref: 'paths/accounts.yaml'
   '/accounts/{account_id}/login-urls':
-    $import: 'paths/accounts@{account_id}@login-urls.yaml'      
+    $ref: 'paths/accounts@{account_id}@login-urls.yaml'      
   '/accounts/{account_id}/autopayouts/{currency}':
-    $import: 'paths/accounts@{account_id}@autopayouts@{currency}.yaml'
+    $ref: 'paths/accounts@{account_id}@autopayouts@{currency}.yaml'
   '/accounts/{account_id}/autopayouts':
-    $import: 'paths/accounts@{account_id}@autopayouts.yaml' 
-  '/accounts/{account_id}/payouts':
-    post:
-      x-readme:
-        explorer-enabled: false
-  '/accounts/{account_id}/sites':
-    post:
-      x-readme:
-        explorer-enabled: false
-    get:
-      x-readme:
-        explorer-enabled: false
-  '/accounts/{account_id}/ubos':
-    post:
-      x-readme:
-        explorer-enabled: false
-  '/ubos/{ubo_id}':
-    get:
-      x-readme:
-        explorer-enabled: false
-    patch:
-      x-readme:
-        explorer-enabled: false
-  '/ubos/{ubo_id}/identitydocs':
-    post:
-      x-readme:
-        explorer-enabled: false
-    get:
-      x-readme:
-        explorer-enabled: false
-  '/identitydocs/{identitydoc_id}':
-    get:      
-      x-readme:
-        explorer-enabled: false
+    $ref: 'paths/accounts@{account_id}@autopayouts.yaml'
   '/categories':
-    $import: 'paths/categories.yaml'
+    $ref: 'paths/categories.yaml'
   '/transactions':
-    $import: 'paths/listtransactions.yaml'
+    $ref: 'paths/listtransactions.yaml'
   '/pos/receipt/{order_id}':
-    $import: 'paths/receipt@{order_id}.yaml'
+    $ref: 'paths/receipt@{order_id}.yaml'
 security:
-  - BearerAuth: []
   - ApiKeyQuery: []
 servers:
   - url: https://testapi.multisafepay.com/v1/json

@@ -26,9 +26,9 @@ patch:
     content:
       application/json:
         schema:
-          $import: '../components/requestBody/CancelRefund.yaml'
+          $ref: '../components/requestBody/CancelRefund.yaml'
         example: 
-          $import: '../components/examples/requests/refunds/cancelrefund.json'
+          $ref: '../components/examples/requests/refunds/cancelrefund.json'
   responses:
     '200':
       description: Request successful
@@ -38,7 +38,7 @@ patch:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data: 
                 description: An empty object.
                 type: object
@@ -47,7 +47,7 @@ patch:
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
   summary: Cancel a refund
   tags:
     - Refunds

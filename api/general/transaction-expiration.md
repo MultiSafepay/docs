@@ -3,7 +3,7 @@ title: Transaction expiration
 category:
   uri: General
 slug: transaction-expiration
-position: 6
+position: 5
 privacy:
   view: public
 ---

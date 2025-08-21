@@ -5,12 +5,12 @@ description: |
 type: object
 properties:
   birthday:
-    $import: 'Birthday.yaml'
+    $ref: 'Birthday.yaml'
   bank_account:
     description: The customer's international bank account number (IBAN).
     type: string
   phone:
-    $import: 'Phone.yaml'
+    $ref: 'Phone.yaml'
   email:
     description: The customer's email address to send payment instructions to.
     maxLength: 64

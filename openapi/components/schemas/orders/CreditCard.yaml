@@ -23,11 +23,11 @@ properties:
           Using the generic `CREDITCARD` gateway improves the customer experience. For `redirect` requests, the payment page automatically detects the card scheme.
       - type: string
       - example: CREDITCARD
-      - $import: '../GatewayIdentifiersCreditCard.yaml'
+      - $ref: '../GatewayIdentifiersCreditCard.yaml'
   order_id:
-    $import: '../OrderId.yaml'
+    $ref: '../OrderId.yaml'
   currency:
-    $import: '../Currency.yaml'
+    $ref: '../Currency.yaml'
   amount:
     description: |
       The payment amount in the currency's smallest unit:
@@ -49,9 +49,9 @@ properties:
     minimum: 0
     example: 1000
   description:
-    $import: '../Description.yaml'
+    $ref: '../Description.yaml'
   payment_options:
-    $import: '../PaymentOptions.yaml'
+    $ref: '../PaymentOptions.yaml'
   customer:
     allOf:
       - properties:
@@ -130,43 +130,43 @@ properties:
 
                   See also MDN – [Navigator.userAgent](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgent).
                 example: "MacIntel"
-      - $import: '../Customer.yaml'
+      - $ref: '../Customer.yaml'
   gateway_info:
-    $import: '../GatewayInfoCreditCard.yaml'
+    $ref: '../GatewayInfoCreditCard.yaml'
   delivery:
     allOf:
-      - $import: '../Delivery.yaml'
+      - $ref: '../Delivery.yaml'
       - required: [address1, city, country, first_name, house_number, last_name, zip_code]
   checkout_options:
     allOf:
-      - $import: '../CheckoutOptions.yaml'
+      - $ref: '../CheckoutOptions.yaml'
   shopping_cart:
-    $import: '../ShoppingCart.yaml'
+    $ref: '../ShoppingCart.yaml'
   items:
-    $import: '../Items.yaml'
+    $ref: '../Items.yaml'
   recurring:
-    $import: '../Recurring.yaml'
+    $ref: '../Recurring.yaml'
   capture:
-    $import: '../Capture.yaml'
+    $ref: '../Capture.yaml'
   affiliate:
-    $import: '../Affiliate.yaml'
+    $ref: '../Affiliate.yaml'
   second_chance:
-   $import: '../SecondChance.yaml'
+   $ref: '../SecondChance.yaml'
   customer_verification:
-    $import: '../CustomerVerification.yaml'
+    $ref: '../CustomerVerification.yaml'
   custom_info:
-    $import: '../CustomInfo.yaml'
+    $ref: '../CustomInfo.yaml'
   days_active:
-    $import: '../DaysActive.yaml'
+    $ref: '../DaysActive.yaml'
   seconds_active: 
-    $import: '../SecondsActive.yaml'
+    $ref: '../SecondsActive.yaml'
   var1:
-    $import: '../var12.yaml'
+    $ref: '../var12.yaml'
   var2:
-    $import: '../var12.yaml'
+    $ref: '../var12.yaml'
   var3:
-    $import: '../var3.yaml'
+    $ref: '../var3.yaml'
   plugin:
-    $import: '../Plugin.yaml'
+    $ref: '../Plugin.yaml'
 type: object
 required: [amount, currency, description, gateway, order_id]

@@ -6,7 +6,7 @@ properties:
     type: boolean
     example: false
   data:
-    $import: '../schemas/DataEmpty.yaml'
+    $ref: '../schemas/DataEmpty.yaml'
   error_code:
     description: "1000"
     type: integer

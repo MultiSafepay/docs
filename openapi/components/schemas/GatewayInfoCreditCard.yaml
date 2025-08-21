@@ -17,7 +17,7 @@ properties:
     type: string
     example: John Doe
   card_expiry_date:
-    $import: 'CardExpiryDate.yaml'
+    $ref: 'CardExpiryDate.yaml'
   card_cvc:
     description: |
       The card verification code (CVC) – a 3 or 4 digit number used as an additional security feature for card-not-present transactions.  

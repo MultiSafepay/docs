@@ -14,4 +14,4 @@ slug: listgateways
 
 📘 The [generic `CREDITCARD` gateway](/docs/card-payments#generic-gateway) is **not** returned for this request. 
 
-💬&nbsp; For support, email <integration@multisafepay.com>
+💬  For support, email [integration@multisafepay.com](mailto:integration@multisafepay.com)

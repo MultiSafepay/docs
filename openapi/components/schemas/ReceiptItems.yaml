@@ -2,7 +2,7 @@ description: Information about the items purchased.
 type: object
 properties:
   currency:
-    $import: 'Currency.yaml'
+    $ref: 'Currency.yaml'
   item_price:
     description: |
       The total price for the item(s) in the transaction in the currency's smallest unit:
@@ -16,7 +16,7 @@ properties:
     type: string
     description: The name of the item.
   quantity:
-    $import: 'Quantity.yaml'
+    $ref: 'Quantity.yaml'
   unit_price:
     description: |
       The price per item in the currency's smallest unit:

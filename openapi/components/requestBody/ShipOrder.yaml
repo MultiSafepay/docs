@@ -2,9 +2,9 @@ title: Ship order
 type: object
 properties:
   carrier:
-    $import: '../schemas/Carrier.yaml'
+    $ref: '../schemas/Carrier.yaml'
   invoice_id:
-    $import: '../schemas/InvoiceId.yaml'
+    $ref: '../schemas/InvoiceId.yaml'
   invoice_url:
     description: | 
       The URL to the `invoice_id`. 
@@ -30,7 +30,7 @@ properties:
     type: string
     example: shipped
   tracktrace_code:
-    $import: '../schemas/TrackTraceCode.yaml'
+    $ref: '../schemas/TrackTraceCode.yaml'
   tracktrace_url:
     description: The track and trace URL provided by the shipping company.
     type: string

@@ -5,4 +5,4 @@ properties:
     description: Whether the request was successful.
     type: boolean
   data: 
-    $import: '../schemas/DataEmpty.yaml'
+    $ref: '../schemas/DataEmpty.yaml'

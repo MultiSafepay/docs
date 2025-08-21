@@ -19,12 +19,12 @@ properties:
     type: string
     example: Testperson-nl
   expiry_date:
-    $import: 'CardExpiryDate.yaml'
+    $ref: 'CardExpiryDate.yaml'
   expired:
     description: Whether the card has expired. If `1`, the card has expired. If `0`, the card is valid.
     type: integer
     example: 0
   last4:
-    $import: 'Last4.yaml'
+    $ref: 'Last4.yaml'
   model:
-    $import: 'RecurringModel.yaml'
+    $ref: 'RecurringModel.yaml'

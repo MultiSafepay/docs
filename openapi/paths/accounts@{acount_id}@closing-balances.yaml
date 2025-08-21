@@ -51,12 +51,12 @@ get:
             Get affiliate closing balances:
               summary: Get affiliate closing balances
               value:
-                $import: '../components/examples/responses/getClosingBalances.json'
+                $ref: '../components/examples/responses/getClosingBalances.json'
           schema:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
                 description: The affiliate's closing balances.
                 type: array
@@ -122,7 +122,7 @@ get:
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
   summary: Cancel authorized payment
   tags:
     - Manage affiliates

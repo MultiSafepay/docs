@@ -2,21 +2,21 @@ description: Information about the account.
 type: object
 properties:
   address1:
-    $import: 'Address1.yaml'
+    $ref: 'Address1.yaml'
   address2:
-    $import: 'Address2.yaml'
+    $ref: 'Address2.yaml'
   address3:
-    $import: 'Address3.yaml'
+    $ref: 'Address3.yaml'
   apartment:
-    $import: 'Apartment.yaml'
+    $ref: 'Apartment.yaml'
   city:
-    $import: 'City.yaml'
+    $ref: 'City.yaml'
   coc_number:
-    $import: 'CoCNumber.yaml'
+    $ref: 'CoCNumber.yaml'
   company_name:
-    $import: 'CompanyName.yaml'
+    $ref: 'CompanyName.yaml'
   country:
-    $import: 'Country.yaml'
+    $ref: 'Country.yaml'
   email:
     description: The company email address.
     type: string
@@ -29,10 +29,10 @@ properties:
     maxLength: 15
     example: "+3120123456"
   processing_options:
-    $import: 'ProcessingOptions.yaml'
+    $ref: 'ProcessingOptions.yaml'
   screening_status:
-    $import: 'ScreeningStatus.yaml'
+    $ref: 'ScreeningStatus.yaml'
   vat_number:
-    $import: 'VAT.yaml'
+    $ref: 'VAT.yaml'
   zipcode:
-    $import: 'ZIP.yaml'
+    $ref: 'ZIP.yaml'

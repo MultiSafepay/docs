@@ -3,7 +3,7 @@ title: Authentication
 category:
   uri: General
 slug: authentication
-position: 2
+position: 1
 privacy:
   view: public
 ---

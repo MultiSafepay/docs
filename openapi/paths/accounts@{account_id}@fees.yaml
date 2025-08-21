@@ -56,20 +56,20 @@ post:
       content:
         application/json:
           example:
-            $import: '../components/examples/responses/setAffiliateRate.json'
+            $ref: '../components/examples/responses/setAffiliateRate.json'
           schema:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
-                $import: '../components/schemas/AffiliateRate.yaml'
+                $ref: '../components/schemas/AffiliateRate.yaml'
     '404':
       description: Account not found
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
   summary: Set affiliate buysell rate
   tags:
     - Manage affiliates

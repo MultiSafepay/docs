@@ -217,9 +217,11 @@ To activate additional payment methods for your terminal, email a request to [sa
 
 After you've enabled the **Cloud mode**, the **Navigation** list appears. This feature allows you to hide the cancel button and system navigation.
 
-{/* **Example:**  
+{/* 
+**Example:**  
 <img src="https://raw.githubusercontent.com/MultiSafepay/docs/master/static/img/SmartPOS-cloud-mode.png" alt="smartPOS_print" width="250" style={{ display:'block' }}/>  
-<br/> */}
+<br/> 
+*/}
 
 ## How to generate closing balance
 

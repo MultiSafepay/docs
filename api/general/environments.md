@@ -3,7 +3,7 @@ title: Environments
 category:
   uri: General
 slug: environments
-position: 3
+position: 2
 privacy:
   view: public
 ---

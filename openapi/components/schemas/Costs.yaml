@@ -2,7 +2,7 @@ description: The fees for the transaction.
 type: object
 properties:
   transaction_id:
-    $import: 'TransactionId.yaml'
+    $ref: 'TransactionId.yaml'
   amount:
     description: |
       The payment amount in decimal form, e.g. 0.16 EUR is 16 cents.
@@ -18,6 +18,6 @@ properties:
     enum: [SYSTEM, internal]
     example: "internal"
   created:
-    $import: 'Created.yaml'
+    $ref: 'Created.yaml'
   status:
-    $import: 'Status.yaml' 
+    $ref: 'Status.yaml' 

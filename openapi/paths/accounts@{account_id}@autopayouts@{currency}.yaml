@@ -24,13 +24,13 @@ post:
           type: object
           properties:
             schedule:
-               $import: '../components/schemas/Schedule.yaml'
+               $ref: '../components/schemas/Schedule.yaml'
             bankaccount_id:
-               $import: '../components/schemas/BankAccountID.yaml'
+               $ref: '../components/schemas/BankAccountID.yaml'
             min_amount:
-              $import: '../components/schemas/MinAmount.yaml'
+              $ref: '../components/schemas/MinAmount.yaml'
             min_balance_amount:
-              $import: '../components/schemas/MinBalanceAmount.yaml'
+              $ref: '../components/schemas/MinBalanceAmount.yaml'
   responses:
     '200':
       description: Request successful
@@ -40,15 +40,15 @@ post:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data: 
-                $import: '../components/schemas/AutoPayoutDetails.yaml'
+                $ref: '../components/schemas/AutoPayoutDetails.yaml'
     '404':
       description: Validation failed
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
   summary: Create or update auto payout affiliate 
   tags:
     - Manage affiliates
@@ -76,21 +76,21 @@ get:
       content:
         application/json:
           example:
-            $import: '../components/examples/responses/getPayouts.json'
+            $ref: '../components/examples/responses/getPayouts.json'
           schema:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data: 
-                $import: '../components/schemas/AutoPayoutDetails.yaml'
+                $ref: '../components/schemas/AutoPayoutDetails.yaml'
                  
     '404':
       description: Validation failed
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
   summary: Get auto payout affiliate
   tags:
     - Manage affiliates

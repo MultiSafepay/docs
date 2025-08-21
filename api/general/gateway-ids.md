@@ -3,7 +3,7 @@ title: Gateway IDs
 category:
   uri: General
 slug: gateway-ids
-position: 5
+position: 4
 privacy:
   view: public
 ---

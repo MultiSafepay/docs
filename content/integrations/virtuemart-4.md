@@ -97,7 +97,7 @@ If a customer selects Apple Pay at checkout but isn't on an Apple device, they r
 
 ## Refunds
 
-[Full refunds](/docs/refund-payments/) are supported in both MultiSafepay and VirtueMart dashboards.\
+[Full refunds](/docs/refund-payments/) are supported in both MultiSafepay and VirtueMart dashboards.
 You cannot refund more than the original amount in your dashboard.
 
 ## Shipping orders

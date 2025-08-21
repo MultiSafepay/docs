@@ -20,16 +20,16 @@ properties:
     minimum: 0
     example: 500
   description:
-    $import: '../schemas/Description.yaml'
+    $ref: '../schemas/Description.yaml'
   refund_order_id:
     description: Set a unique identifier for the refund order ID. If not included in the request, the refund order ID is the same as the original order ID.
     type: string
     maxLength: 50
     example: refund-order-id-1234
   var1:
-    $import: '../schemas/var12.yaml'
+    $ref: '../schemas/var12.yaml'
   var2:
-    $import: '../schemas/var12.yaml'
+    $ref: '../schemas/var12.yaml'
   var3:
-    $import: '../schemas/var3.yaml'
+    $ref: '../schemas/var3.yaml'
 required: [currency]

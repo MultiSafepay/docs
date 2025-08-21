@@ -5,4 +5,4 @@ properties:
     description: Whether the request was successful.
     type: boolean
   data: 
-    $import: '../schemas/OrderDirect.yaml'
+    $ref: '../schemas/OrderDirect.yaml'

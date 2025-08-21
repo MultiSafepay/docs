@@ -115,7 +115,7 @@ The cardholder has reported this card lost.
 
 Merchant:
 
-- If the cardholder is a new customer, assume fraudulent activity. <br> Do **not** reattempt. The issuer will never approve.
+- If the cardholder is a new customer, assume fraudulent activity. <br /> Do **not** reattempt. The issuer will never approve.
 - If a recurring payment, the cardholder may have reported the card lost since the last successful payment. Contact them to ask for a new card number, or another payment method. Update the recurring payment with the new payment details.
 
 ---

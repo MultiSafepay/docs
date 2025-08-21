@@ -17,7 +17,7 @@ properties:
           type: object
           properties:
             bic:
-              $import: 'Bic.yaml'
+              $ref: 'Bic.yaml'
             code:
               description: The issuer ID, for direct iDEAL payments.
               type: string

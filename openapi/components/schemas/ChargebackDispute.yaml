@@ -2,10 +2,10 @@ description: Information relating to a chargeback dispute.
 type: object
 properties:
   merchant_response_date:
-    $import: 'MerchantNewDate.yaml'
+    $ref: 'MerchantNewDate.yaml'
   status:
-    $import: 'ChargebackStatus.yaml'
+    $ref: 'ChargebackStatus.yaml'
   reason_code:
-    $import: 'ChargebackReasonCode.yaml'
+    $ref: 'ChargebackReasonCode.yaml'
   reason_description:
-    $import: 'ChargebackReasonCodeDescription.yaml'
+    $ref: 'ChargebackReasonCodeDescription.yaml'

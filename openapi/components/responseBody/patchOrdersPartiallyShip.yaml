@@ -13,4 +13,4 @@ properties:
         type: string
         example: case-20220404-06-0001
       transaction_id:
-        $import: '../schemas/TransactionId.yaml'
+        $ref: '../schemas/TransactionId.yaml'

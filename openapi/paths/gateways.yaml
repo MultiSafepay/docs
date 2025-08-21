@@ -32,16 +32,16 @@ get:
             List gateways:
               summary: List gateways
               value:
-                $import: '../components/examples/responses/listGateways.json'
+                $ref: '../components/examples/responses/listGateways.json'
             List gateways with coupons:
               summary: List gateways with coupons
               value:
-                $import: '../components/examples/responses/listGatewaysWithCoupons.json'
+                $ref: '../components/examples/responses/listGatewaysWithCoupons.json'
           schema:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
                 description: The gateway identifiers.
                 type: array
@@ -62,7 +62,7 @@ get:
       content:
         application/json:
           schema:
-            $import: '../components/errors/Error1032.yaml' 
+            $ref: '../components/errors/Error1032.yaml' 
   summary: List gateways
   tags:
     - Payments

@@ -20,9 +20,23 @@ jobs:
           DEBUG: rdme*
           README_API_KEY: ${{ secrets.README }}
 
+<<<<<<< Updated upstream
+=======
+      - uses: readmeio/rdme@v10
+        with:
+          rdme: reference upload ./api --branch=v1.0
+        env:
+          DEBUG: rdme*
+          README_API_KEY: ${{ secrets.README }}
+    
+>>>>>>> Stashed changes
       - name: Sync API Reference to ReadMe
         uses: readmeio/rdme@v10.5.0-next.5
         with:
           rdme: openapi ./openapi/docsopenapi.yaml --key=${{ secrets.README }} --branch=v1.1
         env:
+<<<<<<< Updated upstream
           DEBUG: rdme* 
+=======
+          DEBUG: rdme*
+>>>>>>> Stashed changes

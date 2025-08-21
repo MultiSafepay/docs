@@ -8,21 +8,21 @@ description: |
 type: object
 properties:
   notification_url: 
-    $import: 'NotificationUrl.yaml'
+    $ref: 'NotificationUrl.yaml'
   notification_method:
-    $import: 'NotificationMethod.yaml'
+    $ref: 'NotificationMethod.yaml'
   redirect_url:
-    $import: 'RedirectUrl.yaml'
+    $ref: 'RedirectUrl.yaml'
   cancel_url:
-    $import: 'CancelUrl.yaml'
+    $ref: 'CancelUrl.yaml'
   close_window:
-    $import: 'CloseWindow.yaml'
+    $ref: 'CloseWindow.yaml'
   settings:
-    $import: 'Settings.yaml'
+    $ref: 'Settings.yaml'
   template_id: 
-    $import: 'TemplateId.yaml'
+    $ref: 'TemplateId.yaml'
   template: 
-    $import: 'Template.yaml'
+    $ref: 'Template.yaml'
   allowed_countries:
     description: For [FastCheckout](https://docs.multisafepay.com/docs/fastcheckout) orders, sets which countries the customer can provide a shipping address in.
     type: array
