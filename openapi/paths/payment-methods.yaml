@@ -6,6 +6,7 @@ get:
     - name: amount
       description: Filter payment methods by availability for a given order amount in eurocents.
       in: query
+      required: false
       schema:
         type: string
     - name: country
@@ -14,6 +15,7 @@ get:
         
         **Format:** [ISO 3166-1 alpha-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements).
       in: query
+      required: false
       schema: 
         type: string
     - name: currency
@@ -22,11 +24,13 @@ get:
 
         **Format:** [ISO-4217 currency code](https://en.wikipedia.org/wiki/ISO_4217).
       in: query
+      required: false
       schema:
         type: string
     - name: group_cards
       description: Group credit and debit cards together in the response.
       in: query
+      required: false
       schema:
         type: boolean
     - name: include_coupons
@@ -35,11 +39,14 @@ get:
 
         - 0: Don't include gift cards in the results. 
         - 1: Include gift cards in the results.
+      in: query
+      required: false
       schema:
         type: boolean
     - name: type
       description: Filter payment methods by whether they are a gift card or not.
       in: query
+      required: false
       schema:
         type: boolean
   responses:
