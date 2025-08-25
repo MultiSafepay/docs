@@ -68,7 +68,7 @@ paths:
   '/recurring/{your_customer_reference}/remove/{your_token}':
     $ref: './openapi/paths/recurring@{your_customer_reference}@remove@{your_token}.yaml'
   '/payment-methods': 
-    $ref: './openapi/paths/payment-methods2.yaml'
+    $ref: './openapi/paths/payment-methods.yaml'
   '/orders/{order_id}/refunds':
     $ref: './openapi/paths/orders@{order_id}@refunds.yaml'
   '/orders/{order_id}/refunds/{refund_id}':
