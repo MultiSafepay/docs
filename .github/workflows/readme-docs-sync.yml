@@ -19,12 +19,13 @@ jobs:
       - name: Sync docs guides
         uses: readmeio/rdme@10.5.0-next.5
         with:
-          rdme: docs:sync ./content --branch=v1.0
+          rdme: docs ./content --branch=v1.0
 
       - name: Sync API Reference guides
         uses: readmeio/rdme@10.5.0-next.5
         with:
-          rdme: reference:sync ./api --branch=v1.0
+          rdme: reference ./api --branch=v1.0
+          
       - name: Sync API Reference to ReadMe
         uses: readmeio/rdme@10.5.0-next.5
         with:
