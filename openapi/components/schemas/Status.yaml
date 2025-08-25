@@ -1,4 +1,4 @@
 description: The [order status](/https://docs.multisafepay.com/docs/payment-statuses/).
 type: string
-enum: [cancelled, completed, declined, expired, initialized, refunded, reserved, shipped, uncleared, void]
+enum: [cancelled, completed, declined, expired, initialized, refunded, reserved, shipped, uncleared, void, chargeback]
 example: completed
