@@ -10,25 +10,22 @@ jobs:
   readme-docs-sync:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
+    env:
+      DEBUG: rdme*
+      README_API_KEY: ${{ secrets.README }}
     steps:
       - uses: actions/checkout@v4
 
-      - uses: readmeio/rdme@v10
+      - name: Sync docs guides
+        uses: readmeio/rdme@10.5.0-next.5
         with:
-          rdme: docs upload ./content --branch=v1.0
-        env:
-          DEBUG: rdme*
-          README_API_KEY: ${{ secrets.README }}
+          rdme: docs:sync ./content --branch=v1.0
 
-      - uses: readmeio/rdme@v10
+      - name: Sync API Reference guides
+        uses: readmeio/rdme@10.5.0-next.5
         with:
-          rdme: reference upload ./api --branch=v1.0
-        env:
-          DEBUG: rdme*
-          README_API_KEY: ${{ secrets.README }}
+          rdme: reference:sync ./api --branch=v1.0
       - name: Sync API Reference to ReadMe
-        uses: readmeio/rdme@v10
+        uses: readmeio/rdme@10.5.0-next.5
         with:
           rdme: openapi ./openapi/docsopenapi.yaml --key=${{ secrets.README }} --branch=v1.1
-        env:
-          DEBUG: rdme*
