@@ -33,6 +33,8 @@ components:
       name: api_key
       in: header
 info:
+  title: MultiSafepay API
+  version: 1.0.0
   contact:
     name: MultiSafepay Integration Team
     url: https://www.multisafepay.com/contact
