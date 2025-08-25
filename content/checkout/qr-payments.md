@@ -61,7 +61,7 @@ During checkout, certain payment methods will present a scannable QR code. This 
 The following payment methods offer this flow:
 
 <Cards columns={4}>
-  <Card title="AliPay+" href="/docs/alipay-plus/" icon="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/alipayplus.svg" href="" />
+  <Card title="AliPay+" href="/docs/alipay-plus/" icon="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/alipayplus.svg"/>
 
   <Card title="Bancontact" href="/docs/bancontact/" icon="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/bancontact.svg" />
 
