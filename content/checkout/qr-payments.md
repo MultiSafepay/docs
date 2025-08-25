@@ -13,117 +13,62 @@ QR payments have a wide range of applications as codes can be read off screens o
 * Home deliveries
 * Hospitality (to avoid queuing or waiting to pay)
 
-Customers can scan merchant-generated QR codes with the built-in camera in their smart device, or merchants can scan customer-generated codes with an adapted barcode reader. It's a great way to accept payments without requiring a card machine or other expensive equipment.
+***
 
-Payment is quick, automated, and secure.
+# How it works
 
-<br />
+Customers can scan merchant-generated QR codes with their smart device's camera, or merchants can scan customer-generated codes with a compatible barcode scanner.
+
+QR codes can be generated in several ways: via payment links, through custom integrations, or directly by the payment method during the checkout process.
+
+# User guide
+
+**QR codes** can be generated:
+
+* **By the payment method:** Certain payment methods, like [iDEAL](doc:ideal), automatically generate a QR code. Check the supported [payment methods](docs#qr-codes-generated-by-the-payment-method) for more details.
+* **Via payment links:** When a payment link is created in your **MultiSafepay dashboard**, we generate both a link and a QR code. To learn how to create a payment link, see [Payment links](doc:payment-links).
+* **Through a custom integration:** You can develop a custom flow where a QR code redirects the customer to a landing page hosted on your server. In your backend, you can either omit the gateway field in your API request to show all available payment methods, or include it to redirect the customer to a specific one.
 
 ***
 
-# Payment methods
+## Developing a custom QR code flow
 
-<div className="auto-grid">
-    <div className="card-container">
-        <a href="/docs/alipay-plus/" style={{ textDecoration:'none' }}>
-            <div className="card">
-                <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/alipayplus.svg" style={{ margin: '20px', maxHeight: '75px' }} />
-                <div className="container">
-                    </div>
-            </div>
-        </a>
-    </div>
-    <div className="card-container">
-        <a href="/docs/bancontact/" style={{ textDecoration:'none' }}>
-            <div className="card">
-                <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/bancontact.svg" style={{ margin: '20px', maxHeight: '75px' }} />
-                <div className="container">
-                    </div>
-            </div>
-        </a>
-    </div>
-       </div>
+### Flow
 
-<style jsx>
-{`
-b {
-  color: #384248 !important;
-}
-  
-.auto-grid {
-  --auto-grid-min-size: 200px;
-  
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-  grid-gap: 1rem;
-}
+1. The customer scans a QR code you have displayed.
+2. They are redirected to a landing page on your website.
+3. On this page, they enter the payment amount and any other required details (e.g., address, customer name, payment method).
+4. Upon submitting the form, your backend creates an order and redirects the customer to the **MultiSafepay** payment page.
+5. The customer completes the payment steps.
 
-/* Style the cards */
-.card-container {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 5px;
-}
+### Implementation
 
-.card-container:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-`}
-</style>
+To build this solution, you need to create a frontend landing page and a backend order handler.
 
-<div className="auto-grid">
-    <div className="card-container">
-        <a href="/docs/ideal#ideal-qr" style={{ textDecoration:'none' }}>
-            <div className="card">
-                <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/ideal-qr.svg" style={{ margin: '20px', maxHeight: '75px' }} />
-                <div className="container">
-                    </div>
-            </div>
-        </a>
-    </div>
-    <div className="card-container">
-        <a href="/docs/wechat-pay/" style={{ textDecoration:'none' }}>
-            <div className="card">
-                <img src="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/wechatpay.svg" style={{ margin: '20px', maxHeight: '75px' }} />
-                <div className="container">
-                    </div>
-            </div>
-        </a>
-    </div>
-   </div>
+1. **Build a landing page** that serves as the destination for your QR code. This page must include a form with an input field for the amount, a submit button, and any other fields you require.
+2. **Prepare your backend** to handle order creation. It must perform the following actions:
+   * Make a [create order](ref:createorder) request with the amount entered by the customer.
+   * Handle the API response, checking for success or failure.
+   * Perform a server-side redirect to the `payment_url` received in the API response, which will take the customer to the MultiSafepay payment page.
+3. Generate a **QR code** that points to your landing page.
 
-<style jsx>
-{`
-b {
-  color: #384248 !important;
-}
-  
-.auto-grid {
-  --auto-grid-min-size: 200px;
-  
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-  grid-gap: 1rem;
-}
+***
 
-/* Style the cards */
-.card-container {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 5px;
-}
+## QR codes generated by the payment method
 
-.card-container:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-`}
-</style>
+During checkout, certain payment methods will present a scannable QR code. This allows the customer to complete the payment securely in the payment method's own environment.
 
-<br />
+The following payment methods offer this flow:
+
+<Cards columns={4}>
+  <Card title="AliPay+" href="/docs/alipay-plus/" icon="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/alipayplus.svg" href="" />
+
+  <Card title="Bancontact" href="/docs/bancontact/" icon="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/bancontact.svg" />
+
+  <Card title="iDEAL QR" href="/docs/ideal#ideal-qr" icon="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/ideal-qr.svg" />
+
+  <Card title="WeChat Pay" href="/docs/wechat-pay/" icon="https://raw.githubusercontent.com/MultiSafepay/MultiSafepay-icons/master/methods/wechatpay.svg" />
+</Cards>
 
 ***
 
@@ -133,7 +78,7 @@ b {
     <p>Support</p>
   </h3>
 
-  <p>Email <a href="mailto:integration@multisafepay.com">integration@multisafepay.com</a></p>
+  <p>Email <a href="mailto:integration@multisafepay.com">[integration@multisafepay.com](mailto:integration@multisafepay.com)</a></p>
 </blockquote>
 
 [Top of page](#)
