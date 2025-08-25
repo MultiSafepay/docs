@@ -23,27 +23,27 @@ patch:
       application/json:
         schema:
           oneOf:
-            - $import: '../components/requestBody/CancelOrder.yaml'
-            - $import: '../components/requestBody/ExtendKlarna.yaml'
-            - $import: '../components/requestBody/PartiallyShipOrder.yaml'
-            - $import: '../components/requestBody/ShipOrder.yaml'
-            # - $import: '../components/requestBody/UpdateFastCheckoutOrder.yaml'
+            - $ref: '../components/requestBody/CancelOrder.yaml'
+            - $ref: '../components/requestBody/ExtendKlarna.yaml'
+            - $ref: '../components/requestBody/PartiallyShipOrder.yaml'
+            - $ref: '../components/requestBody/ShipOrder.yaml'
+            # - $ref: '../components/requestBody/UpdateFastCheckoutOrder.yaml'
         examples:
           Cancel an order:
             value:
-              $import: '../components/examples/requests/patch-orders/cancelOrder.json'
+              $ref: '../components/examples/requests/patch-orders/cancelOrder.json'
           Extend Klarna expiration:
             value:
-              $import: '../components/examples/requests/patch-orders/extendKlarna.json'
+              $ref: '../components/examples/requests/patch-orders/extendKlarna.json'
           Partially ship an order: 
             value:
-              $import: '../components/examples/requests/patch-orders/partiallyShipOrder.json'
+              $ref: '../components/examples/requests/patch-orders/partiallyShipOrder.json'
           Ship an order: 
             value:
-              $import: '../components/examples/requests/patch-orders/shipOrder.json'
+              $ref: '../components/examples/requests/patch-orders/shipOrder.json'
           #Update a FastCheckout order:
           #  value:
-          #    $import: '../components/examples/requests/patch-orders/updateFastCheckoutOrder.json'
+          #    $ref: '../components/examples/requests/patch-orders/updateFastCheckoutOrder.json'
   responses:
     '200':
       description: Request successful
@@ -51,30 +51,30 @@ patch:
         application/json:
           schema:
             oneOf:
-              - $import: '../components/responseBody/patchOrdersCancel.yaml'
-              - $import: '../components/responseBody/patchOrdersShip.yaml'
-              - $import: '../components/responseBody/patchOrdersPartiallyShip.yaml'
+              - $ref: '../components/responseBody/patchOrdersCancel.yaml'
+              - $ref: '../components/responseBody/patchOrdersShip.yaml'
+              - $ref: '../components/responseBody/patchOrdersPartiallyShip.yaml'
           examples:
             cancelOrder:
               summary: Cancel or ship order
               value:
-                $import: '../components/examples/responses/patchOrdersCancel.json'
+                $ref: '../components/examples/responses/patchOrdersCancel.json'
             partiallyShip:
               summary: Partially ship order
               value:
-                $import: '../components/examples/responses/patchOrdersPartiallyShip.json'
+                $ref: '../components/examples/responses/patchOrdersPartiallyShip.json'
     '404':
       description: Error
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
     '410':
       description: Invalid request
       content:
         application/json:
           schema:
-            $import: '../components/errors/410Error.yaml'       
+            $ref: '../components/errors/410Error.yaml'       
   summary: Update or cancel order
   tags:
     - Payments

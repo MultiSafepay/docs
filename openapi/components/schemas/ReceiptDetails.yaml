@@ -5,16 +5,16 @@ description: |
 type: object
 properties:
   merchant:
-    $import: 'ReceiptMerchant.yaml'
+    $ref: 'ReceiptMerchant.yaml'
   order:
-    $import: 'ReceiptOrder.yaml'
+    $ref: 'ReceiptOrder.yaml'
   payment:
-    $import: 'ReceiptPayment.yaml'
+    $ref: 'ReceiptPayment.yaml'
   printed_on:
-    $import: 'ReceiptPrintedOn.yaml'
+    $ref: 'ReceiptPrintedOn.yaml'
   related_transactions:
     type: array
     items:
-      $import: 'ReceiptRelatedTransactions.yaml'
+      $ref: 'ReceiptRelatedTransactions.yaml'
 
  

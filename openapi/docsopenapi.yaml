@@ -42,45 +42,45 @@ info:
   description: "MultiSafepay's API reference"
 paths:
   '/orders':
-    $ref: '../openapi/paths/orders.yaml'
+    $ref: './openapi/paths/orders.yaml'
   '/orders/{psp_id}':
-    $ref: 'paths/orders@{psp_id}.yaml'
+    $ref: './openapi/paths/orders@{psp_id}.yaml'
   '/orders/{order_id}':
-    $ref: 'paths/orders@{order_id}.yaml'
+    $ref: './openapi/paths/orders@{order_id}.yaml'
   '/orders/{order_id}/cancel':
-    $ref: 'paths/orders@{order_id}@cancel.yaml'
+    $ref: './openapi/paths/orders@{order_id}@cancel.yaml'
   '/orders/{order_id}/capture':
-    $ref: 'paths/orders@{order_id}@capture.yaml'
+    $ref: './openapi/paths/orders@{order_id}@capture.yaml'
   '/capture/{order_id}':
-    $ref: 'paths/capture@{order_id}.yaml'
+    $ref: './openapi/paths/capture@{order_id}.yaml'
   '/gateways':
-    $ref: 'paths/gateways.yaml'
+    $ref: './openapi/paths/gateways.yaml'
   '/gateways/{gateway_id}':
-    $ref: 'paths/gateways@{gateway_id}.yaml'
+    $ref: './openapi/paths/gateways@{gateway_id}.yaml'
   '/issuers/{gateway}':
-    $ref: 'paths/issuers@{gateway}.yaml'
+    $ref: './openapi/paths/issuers@{gateway}.yaml'
   '/recurring/{your_customer_reference}':
-    $ref: 'paths/recurring@{your_customer_reference}.yaml'
+    $ref: './openapi/paths/recurring@{your_customer_reference}.yaml'
   '/recurring/{your_customer_reference}/token/{your_token}':
-    $ref: 'paths/recurring@{your_customer_reference}@token@{your_token}.yaml'
+    $ref: './openapi/paths/recurring@{your_customer_reference}@token@{your_token}.yaml'
   '/recurring/{your_customer_reference}/update/{your_token}':
-    $ref: 'paths/recurring@{your_customer_reference}@update@{your_token}.yaml'
+    $ref: './openapi/paths/recurring@{your_customer_reference}@update@{your_token}.yaml'
   '/recurring/{your_customer_reference}/remove/{your_token}':
-    $ref: 'paths/recurring@{your_customer_reference}@remove@{your_token}.yaml'
+    $ref: './openapi/paths/recurring@{your_customer_reference}@remove@{your_token}.yaml'
   '/payment-methods': 
-    $ref: 'paths/payment-methods2.yaml'
+    $ref: './openapi/paths/payment-methods2.yaml'
   '/orders/{order_id}/refunds':
-    $ref: 'paths/orders@{order_id}@refunds.yaml'
+    $ref: './openapi/paths/orders@{order_id}@refunds.yaml'
   '/orders/{order_id}/refunds/{refund_id}':
-    $ref: 'paths/orders@{order_id}@refunds@{refund_id}.yaml'
+    $ref: './openapi/paths/orders@{order_id}@refunds@{refund_id}.yaml'
   '/orders/{order_id}/files':
-    $ref: 'paths/orders@{order_id}@files.yaml'
+    $ref: './openapi/paths/orders@{order_id}@files.yaml'
   '/auth/api_token':
-    $ref: 'paths/auth@api_token.yaml'
+    $ref: './openapi/paths/auth@api_token.yaml'
   '/signup-account':
-    $ref: 'paths/signup-account.yaml'
+    $ref: './openapi/paths/signup-account.yaml'
   '/accounts':
-    $ref: 'paths/accounts.yaml'
+    $ref: './openapi/paths/accounts.yaml'
   '/accounts/{account_id}':
     get:
       x-readme:
@@ -147,11 +147,11 @@ paths:
       x-readme:
         explorer-enabled: false
   '/accounts/{account_id}/login-urls':
-    $ref: 'paths/accounts@{account_id}@login-urls.yaml'      
+    $ref: './openapi/paths/accounts@{account_id}@login-urls.yaml'      
   '/accounts/{account_id}/autopayouts/{currency}':
-    $ref: 'paths/accounts@{account_id}@autopayouts@{currency}.yaml'
+    $ref: './openapi/paths/accounts@{account_id}@autopayouts@{currency}.yaml'
   '/accounts/{account_id}/autopayouts':
-    $ref: 'paths/accounts@{account_id}@autopayouts.yaml' 
+    $ref: './openapi/paths/accounts@{account_id}@autopayouts.yaml' 
   '/accounts/{account_id}/payouts':
     post:
       x-readme:
@@ -186,11 +186,11 @@ paths:
       x-readme:
         explorer-enabled: false
   '/categories':
-    $ref: 'paths/categories.yaml'
+    $ref: './openapi/paths/categories.yaml'
   '/transactions':
-    $ref: 'paths/listtransactions.yaml'
+    $ref: './openapi/paths/listtransactions.yaml'
   '/pos/receipt/{order_id}':
-    $ref: 'paths/receipt@{order_id}.yaml'
+    $ref: './openapi/paths/receipt@{order_id}.yaml'
 security:
   - BearerAuth: []
   - ApiKeyQuery: []

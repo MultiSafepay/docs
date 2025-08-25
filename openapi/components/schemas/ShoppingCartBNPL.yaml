@@ -18,4 +18,4 @@ properties:
       Specify the relevant tax ruling per item.
     type: array
     items:
-      $import: 'Item.yaml'
+      $ref: 'Item.yaml'

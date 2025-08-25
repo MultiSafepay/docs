@@ -25,20 +25,20 @@ post:
       content:
         application/json:
           example:
-            $import: '../components/examples/responses/cancelBancontactQR.json'
+            $ref: '../components/examples/responses/cancelBancontactQR.json'
           schema:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data: 
-                $import: '../components/schemas/CancelBancontactQR.yaml'
+                $ref: '../components/schemas/CancelBancontactQR.yaml'
     '403':
       description: Error
       content:
         application/json:
           schema:
-            $import: '../components/errors/403Error.yaml'   
+            $ref: '../components/errors/403Error.yaml'   
   summary: Cancel Bancontact QR payment
   tags:
     - Payments

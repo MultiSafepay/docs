@@ -44,15 +44,15 @@ patch:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data: 
                 description: Information about cancelled authorized payment.
                 type: object
                 properties:
                   transaction_id:
-                    $import: '../components/schemas/TransactionId.yaml'
+                    $ref: '../components/schemas/TransactionId.yaml'
                   order_id:
-                    $import: '../components/schemas/OrderId.yaml'  
+                    $ref: '../components/schemas/OrderId.yaml'  
                     success: 
                       type: boolean
                       example: true
@@ -61,7 +61,7 @@ patch:
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
   summary: Cancel authorized payment
   tags:
     - Payments

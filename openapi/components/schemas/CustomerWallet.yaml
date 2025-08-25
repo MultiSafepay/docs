@@ -64,25 +64,25 @@ properties:
     type: string
     format: IPv4
   first_name:
-    $import: 'FirstName.yaml'
+    $ref: 'FirstName.yaml'
   last_name:
-    $import: 'LastName.yaml'
+    $ref: 'LastName.yaml'
   gender:
-    $import: 'Gender.yaml'
+    $ref: 'Gender.yaml'
   birthday:
-    $import: 'Birthday.yaml'
+    $ref: 'Birthday.yaml'
   address1:
-    $import: 'Address1.yaml'
+    $ref: 'Address1.yaml'
   address2:
-    $import: 'Address2.yaml'
+    $ref: 'Address2.yaml'
   house_number:
-    $import: 'HouseNumber.yaml'
+    $ref: 'HouseNumber.yaml'
   zip_code:
-    $import: 'ZIP.yaml'
+    $ref: 'ZIP.yaml'
   city: 
-    $import: 'City.yaml'
+    $ref: 'City.yaml'
   state:
-    $import: 'State.yaml'
+    $ref: 'State.yaml'
   country: 
     description: |
       The country of the address. 
@@ -94,7 +94,7 @@ properties:
     format: country alpha-2
     example: NL
   phone: 
-    $import: 'Phone.yaml'
+    $ref: 'Phone.yaml'
   email:
     description: |
       The customer’s email address.
@@ -113,7 +113,7 @@ properties:
     default: false
     example: false
   user_agent:
-    $import: 'UserAgent.yaml'
+    $ref: 'UserAgent.yaml'
   referrer: 
     description: The unique identifier for where the customer/browser originates from.
     type: string
@@ -125,5 +125,5 @@ properties:
     type: string
     example: customer-0001
   browser:
-    $import: 'CustomerBrowser.yaml'
+    $ref: 'CustomerBrowser.yaml'
 

@@ -13,5 +13,5 @@ properties:
       items:
         type: array
         items:
-          $import: '../schemas/ItemRefund.yaml'
+          $ref: '../schemas/ItemRefund.yaml'
 required: [checkout_data]

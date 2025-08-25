@@ -17,20 +17,20 @@ get:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
-                $import: '../components/schemas/Account.yaml'
+                $ref: '../components/schemas/Account.yaml'
               includes:
                 inquiries:
                   type: array
                   properties:
-                    $import: '../components/schemas/Inquiries.yaml'
+                    $ref: '../components/schemas/Inquiries.yaml'
     '404':
       description: Account not found
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
   summary: Get affiliate
   tags:
     - Manage affiliates
@@ -50,7 +50,7 @@ patch:
       application/json:
         schema:
           allOf:
-            - $import: '../components/schemas/Account.yaml'
+            - $ref: '../components/schemas/Account.yaml'
   responses:
     '200':
       description: Request successful
@@ -60,21 +60,21 @@ patch:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
-                $import: '../components/schemas/Account.yaml'
+                $ref: '../components/schemas/Account.yaml'
     '404':
       description: Account not found
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
     '422':
       description: Validation errors
       content:
         application/json:
           schema:
-            $import: '../components/errors/422Error.yaml'
+            $ref: '../components/errors/422Error.yaml'
   summary: Update affiliate
   tags:
     - Manage affiliates

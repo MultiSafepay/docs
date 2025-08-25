@@ -8,9 +8,9 @@ properties:
     enum: [checkout]
     example: checkout
   order_id:
-    $import: '../OrderId.yaml'
+    $ref: '../OrderId.yaml'
   currency:
-    $import: '../Currency.yaml'
+    $ref: '../Currency.yaml'
   amount:
     description: |
       The payment amount in the currency's smallest unit:
@@ -28,7 +28,7 @@ properties:
     minimum: 0
     example: 1000
   description:
-    $import: '../Description.yaml'
+    $ref: '../Description.yaml'
   payment_options:
     description: |
 
@@ -39,9 +39,9 @@ properties:
     type: object
     properties:
       notification_url:
-        $import: '../NotificationUrl.yaml'
+        $ref: '../NotificationUrl.yaml'
       notification_method:
-        $import: '../NotificationMethod.yaml'
+        $ref: '../NotificationMethod.yaml'
       feed_url:
         description: | 
           The [webhook endpoint](https://docs.multisafepay.com/docs/webhook#configure-your-webhook-endpoint) for MultiSafepay to send non-order related notifications via the `POST` method, e.g. shipping options.
@@ -54,29 +54,29 @@ properties:
         maxLength: 150
         example: https://www.examplewebsite.com/other-updates
       redirect_url:
-        $import: '../RedirectUrl.yaml'
+        $ref: '../RedirectUrl.yaml'
       cancel_url:
-        $import: '../CancelUrl.yaml'
+        $ref: '../CancelUrl.yaml'
       close_window:
-        $import: '../CloseWindow.yaml'
+        $ref: '../CloseWindow.yaml'
       settings:
         description: Settings for configuring FastCheckout pages
         type: object
         properties:
           fco:
-            $import: '../Fco.yaml'
+            $ref: '../Fco.yaml'
   customer:
     allOf:
-      - $import: '../Customer.yaml'  
+      - $ref: '../Customer.yaml'  
   gateway_info:
-    $import: '../GatewayInfo.yaml'
+    $ref: '../GatewayInfo.yaml'
   delivery:
     allOf:
-      - $import: '../Delivery.yaml'
+      - $ref: '../Delivery.yaml'
       - required: [address1, city, country, first_name, house_number, last_name, zip_code]
   checkout_options:
     allOf:
-      - $import: '../CheckoutOptions.yaml'
+      - $ref: '../CheckoutOptions.yaml'
       - properties:
           no_shipping_method:
             description: | 
@@ -166,7 +166,7 @@ properties:
                         format: ISO 3166-1 alpha-2
         required: [tax_tables]       
   shopping_cart:
-    $import: '../ShoppingCart.yaml'
+    $ref: '../ShoppingCart.yaml'
   custom_fields:
     description: Adds custom fields to the FastCheckout page.
     type: array
@@ -232,29 +232,29 @@ properties:
                     type: string
                     example: "Please accept the terms and conditions."
   #recurring_id:
-    #$import: 'RecurringId.yaml'
+    #$ref: 'RecurringId.yaml'
   #recurring_model: 
-    #$import: 'RecurringModel.yaml'
+    #$ref: 'RecurringModel.yaml'
   #template_id:
-    #$import: '../TemplateId.yaml'
+    #$ref: '../TemplateId.yaml'
   #template:
-    #$import: '../Template.yaml'
+    #$ref: '../Template.yaml'
   affiliate:
-    $import: '../Affiliate.yaml'
+    $ref: '../Affiliate.yaml'
   second_chance:
-   $import: '../SecondChance.yaml'
+   $ref: '../SecondChance.yaml'
   custom_info:
-    $import: '../CustomInfo.yaml'
+    $ref: '../CustomInfo.yaml'
   days_active:
-    $import: '../DaysActive.yaml'
+    $ref: '../DaysActive.yaml'
   seconds_active: 
-    $import: '../SecondsActive.yaml'
+    $ref: '../SecondsActive.yaml'
   var1:
-    $import: '../var12.yaml'
+    $ref: '../var12.yaml'
   var2:
-    $import: '../var12.yaml'
+    $ref: '../var12.yaml'
   var3:
-    $import: '../var3.yaml'
+    $ref: '../var3.yaml'
   plugin:
-    $import: '../Plugin.yaml'
+    $ref: '../Plugin.yaml'
 required: [amount, checkout_options, currency, order_id, shopping_cart, type]

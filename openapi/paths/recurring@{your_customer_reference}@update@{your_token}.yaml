@@ -23,7 +23,7 @@ patch:
           type: object
           properties:
             expiry_date:
-              $import: '../components/schemas/CardExpiryDate.yaml'
+              $ref: '../components/schemas/CardExpiryDate.yaml'
           required: [expiry_date]
   responses:
     '200':
@@ -34,7 +34,7 @@ patch:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
                 description: Information about the update.
                 properties:
@@ -47,7 +47,7 @@ patch:
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
     '410':
       description: Token not updated
       content:
@@ -58,7 +58,7 @@ patch:
                 type: boolean
                 example: false
               data:
-                $import: '../components/schemas/DataEmpty.yaml'
+                $ref: '../components/schemas/DataEmpty.yaml'
               error_code:
                 description: "1000"
                 type: integer

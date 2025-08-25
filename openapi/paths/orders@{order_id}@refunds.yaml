@@ -25,17 +25,17 @@ post:
       application/json:
         schema:
           oneOf:
-            - $import: '../components/requestBody/Refund.yaml'
-            - $import: '../components/requestBody/RefundBNPL.yaml'
+            - $ref: '../components/requestBody/Refund.yaml'
+            - $ref: '../components/requestBody/RefundBNPL.yaml'
         examples: 
           Refund: 
             summary: Refund
             value:  
-              $import: '../components/examples/requests/refunds/refund.json'
+              $ref: '../components/examples/requests/refunds/refund.json'
           BNPL refund:
             summary: BNPL refund
             value:  
-              $import: '../components/examples/requests/refunds/refundBNPL.json'
+              $ref: '../components/examples/requests/refunds/refundBNPL.json'
   responses:
     '200':
       description: Request successful
@@ -43,23 +43,23 @@ post:
         application/json:
           schema:
             oneOf:
-              - $import: '../components/responseBody/refundOrder.yaml'
-              - $import: '../components/responseBody/refundPartialShipment.yaml'
+              - $ref: '../components/responseBody/refundOrder.yaml'
+              - $ref: '../components/responseBody/refundPartialShipment.yaml'
           examples:
             refundOrder:
               summary: Refund (BNPL) order
               value:
-                $import: '../components/examples/responses/refundOrder.json'
+                $ref: '../components/examples/responses/refundOrder.json'
             refundPartialShipment:
               summary: Refund partial shipment
               value: 
-                $import: '../components/examples/responses/refundPartialShipment.json'
+                $ref: '../components/examples/responses/refundPartialShipment.json'
     '404':
       description: Error
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
   summary: Refund order
   tags:
     - Refunds

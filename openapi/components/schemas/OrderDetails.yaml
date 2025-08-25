@@ -5,27 +5,27 @@ description: |
 type: object
 properties:
   transaction_id:
-    $import: 'TransactionId.yaml'
+    $ref: 'TransactionId.yaml'
   order_id:
-    $import: 'OrderId.yaml'
+    $ref: 'OrderId.yaml'
   created:
-    $import: 'Created.yaml'
+    $ref: 'Created.yaml'
   currency:
-    $import: 'Currency.yaml'
+    $ref: 'Currency.yaml'
   amount:
-    $import: 'Amount.yaml'
+    $ref: 'Amount.yaml'
   description:
-    $import: 'Description.yaml'
+    $ref: 'Description.yaml'
   items:
-    $import: 'Items.yaml'
+    $ref: 'Items.yaml'
   amount_refunded:
-    $import: 'AmountRefunded.yaml'
+    $ref: 'AmountRefunded.yaml'
   auth_order_id: 
-    $import: 'AuthOrderId.yaml'  
+    $ref: 'AuthOrderId.yaml'  
   status:
-    $import: 'Status.yaml'
+    $ref: 'Status.yaml'
   financial_status:
-    $import: 'FinancialStatus.yaml'
+    $ref: 'FinancialStatus.yaml'
   reason:
     description: The reason for any updates to the order.
     type: string
@@ -33,28 +33,28 @@ properties:
     description: The code for the reason for any updates to the order.
     type: string
   fastcheckout:
-    $import: 'FastCheckout.yaml'
+    $ref: 'FastCheckout.yaml'
   modified:
-    $import: 'Modified.yaml'
+    $ref: 'Modified.yaml'
   customer:
-    $import: 'Customer.yaml'
+    $ref: 'Customer.yaml'
   payment_details:
-    $import: 'PaymentDetails.yaml'
+    $ref: 'PaymentDetails.yaml'
   completed_date:
-    $import: 'Completed.yaml'
+    $ref: 'Completed.yaml'
   costs:
-    $import: 'Costs.yaml'
+    $ref: 'Costs.yaml'
   related_transactions:
     type: array
     items:
-      $import: 'RelatedTransactions.yaml'
+      $ref: 'RelatedTransactions.yaml'
   payment_methods:
     type: array
     items:
-      $import: 'PaymentMethods.yaml'
+      $ref: 'PaymentMethods.yaml'
   var1:
-    $import: 'var12.yaml'
+    $ref: 'var12.yaml'
   var2:
-    $import: 'var12.yaml'
+    $ref: 'var12.yaml'
   var3:
-    $import: 'var3.yaml'
+    $ref: 'var3.yaml'

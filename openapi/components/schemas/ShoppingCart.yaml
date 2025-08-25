@@ -17,4 +17,4 @@ properties:
     description: The items in the customer's shopping cart. Specify the relevant tax ruling per item.
     type: array
     items:
-      $import: 'Item.yaml'
+      $ref: 'Item.yaml'

@@ -2,21 +2,21 @@ description: Information about the order.
 type: object
 properties:
   amount:
-    $import: 'Amount.yaml'
+    $ref: 'Amount.yaml'
   amountrefunded:
-    $import: 'AmountRefunded.yaml'
+    $ref: 'AmountRefunded.yaml'
   completed:
-    $import: 'Completed.yaml'
+    $ref: 'Completed.yaml'
   currency:
-    $import: 'Currency.yaml'
+    $ref: 'Currency.yaml'
   items:
     type: array
     items:
-      $import: 'ReceiptItems.yaml'
+      $ref: 'ReceiptItems.yaml'
   tip:
     type: array
     items:
-      $import: 'TippingDetails.yaml'
+      $ref: 'TippingDetails.yaml'
   transcation_id:
-    $import: 'TransactionId.yaml'
+    $ref: 'TransactionId.yaml'
  

@@ -9,12 +9,12 @@ properties:
     type: string
     example: Black cotton backpack with logo.
   unit_price:
-    $import: 'UnitPrice.yaml'
+    $ref: 'UnitPrice.yaml'
   quantity:
-    $import: 'Quantity.yaml'
+    $ref: 'Quantity.yaml'
   merchant_item_id:
-    $import: 'MerchantItemId.yaml'
+    $ref: 'MerchantItemId.yaml'
   tax_table_selector:
-    $import: 'TaxTableSelector.yaml'
+    $ref: 'TaxTableSelector.yaml'
   weight:
-    $import: 'Weight.yaml'
+    $ref: 'Weight.yaml'

@@ -15,12 +15,12 @@ get:
       content:
         application/json:
           example:
-            $import: '../components/examples/responses/idealIssuers.json'
+            $ref: '../components/examples/responses/idealIssuers.json'
           schema:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
                 type: array
                 description: |
@@ -55,7 +55,7 @@ get:
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml' 
+            $ref: '../components/errors/404Error.yaml' 
   summary: List iDEAL issuers
   tags:
     - Payments

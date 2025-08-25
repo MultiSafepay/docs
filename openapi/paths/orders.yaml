@@ -9,231 +9,231 @@ post:
       application/json:
         schema:
           anyOf:
-            - $import: '../components/schemas/orders/PaymentPage.yaml'
-            - $import: '../components/schemas/orders/Banking.yaml'
-            - $import: '../components/schemas/orders/CreditCard.yaml'
-            - $import: '../components/schemas/orders/Wallet.yaml'
-            - $import: '../components/schemas/orders/BNPL.yaml'
-            - $import: '../components/schemas/orders/PaymentComponent.yaml'
-            - $import: '../components/schemas/orders/PrepaidCard.yaml'
-            # - $import: '../components/schemas/orders/FastCheckout.yaml'
+            - $ref: '../components/schemas/orders/PaymentPage.yaml'
+            - $ref: '../components/schemas/orders/Banking.yaml'
+            - $ref: '../components/schemas/orders/CreditCard.yaml'
+            - $ref: '../components/schemas/orders/Wallet.yaml'
+            - $ref: '../components/schemas/orders/BNPL.yaml'
+            - $ref: '../components/schemas/orders/PaymentComponent.yaml'
+            - $ref: '../components/schemas/orders/PrepaidCard.yaml'
+            # - $ref: '../components/schemas/orders/FastCheckout.yaml'
         examples:
           Payment page:
             summary: Payment page
             value:
-              $import: '../components/examples/requests/post-orders/payment-page.json'
+              $ref: '../components/examples/requests/post-orders/payment-page.json'
           Alipay+:
             summary: Alipay(+) direct/redirect
             value: 
-              $import: '../components/examples/requests/post-orders/alipay-plus.json'
+              $ref: '../components/examples/requests/post-orders/alipay-plus.json'
           Amazon Pay:
             summary: Amazon Pay direct/redirect
             value:
-              $import: '../components/examples/requests/post-orders/amazon-pay.json'
+              $ref: '../components/examples/requests/post-orders/amazon-pay.json'
           Apple Pay redirect:
             summary: Apple Pay redirect
             value:
-              $import: '../components/examples/requests/post-orders/apple-pay-redirect.json'
+              $ref: '../components/examples/requests/post-orders/apple-pay-redirect.json'
           Apple Pay direct:
             summary: Apple Pay direct
             value:
-              $import: '../components/examples/requests/post-orders/apple-pay-direct.json'
+              $ref: '../components/examples/requests/post-orders/apple-pay-direct.json'
           Bancontact redirect:
             summary: Bancontact redirect
             value:
-              $import: '../components/examples/requests/post-orders/bancontact-redirect.json'
+              $ref: '../components/examples/requests/post-orders/bancontact-redirect.json'
           Bancontact QR:
             summary: Bancontact QR
             value:
-              $import: '../components/examples/requests/post-orders/bancontact-qr.json'
+              $ref: '../components/examples/requests/post-orders/bancontact-qr.json'
           Bank transfer:
             summary: Bank transfer direct/redirect
             value:
-              $import: '../components/examples/requests/post-orders/bank-transfer.json'  
+              $ref: '../components/examples/requests/post-orders/bank-transfer.json'  
           Belfius redirect:
             summary: Belfius redirect
             value:
-              $import: '../components/examples/requests/post-orders/belfius-redirect.json'
+              $ref: '../components/examples/requests/post-orders/belfius-redirect.json'
           Belfius direct:
             summary: Belfius direct
             value:
-              $import: '../components/examples/requests/post-orders/belfius-direct.json'
+              $ref: '../components/examples/requests/post-orders/belfius-direct.json'
           Billink redirect:
             summary: Billink redirect
             value:
-              $import: '../components/examples/requests/post-orders/billink-redirect.json'
+              $ref: '../components/examples/requests/post-orders/billink-redirect.json'
           Bizum direct: 
             summary: Bizum direct
             value:
-              $import: '../components/examples/requests/post-orders/bizum-direct.json'
+              $ref: '../components/examples/requests/post-orders/bizum-direct.json'
           Bizum redirect: 
             summary: Bizum redirect
             value:
-              $import: '../components/examples/requests/post-orders/bizum-redirect.json'    
+              $ref: '../components/examples/requests/post-orders/bizum-redirect.json'    
           CBC/KBC redirect:
             summary: CBC/KBC redirect
             value: 
-              $import: '../components/examples/requests/post-orders/cbc-kbc-redirect.json'
+              $ref: '../components/examples/requests/post-orders/cbc-kbc-redirect.json'
           CBC/KBC direct:
             summary: CBC/KBC direct
             value: 
-              $import: '../components/examples/requests/post-orders/cbc-kbc-direct.json'
+              $ref: '../components/examples/requests/post-orders/cbc-kbc-direct.json'
           Card redirect: 
             summary: Card redirect
             value:
-              $import: '../components/examples/requests/post-orders/credit-card-redirect.json'
+              $ref: '../components/examples/requests/post-orders/credit-card-redirect.json'
           Card direct: 
             summary: Card direct
             value:
-              $import: '../components/examples/requests/post-orders/credit-card-direct.json'
+              $ref: '../components/examples/requests/post-orders/credit-card-direct.json'
           Direct debit redirect: 
             summary: SEPA Direct Debit redirect
             value:
-              $import: '../components/examples/requests/post-orders/direct-debit-redirect.json'
+              $ref: '../components/examples/requests/post-orders/direct-debit-redirect.json'
           Direct debit direct:
             summary: SEPA Direct Debit direct
             value:
-              $import: '../components/examples/requests/post-orders/direct-debit-direct.json'
+              $ref: '../components/examples/requests/post-orders/direct-debit-direct.json'
           Dotpay redirect:
             summary: Dotpay redirect
             value:
-              $import: '../components/examples/requests/post-orders/dotpay.json'
+              $ref: '../components/examples/requests/post-orders/dotpay.json'
           # Dynamic template:
           #  summary: Dynamic template
           #  value:
-          #    $import: '../components/examples/requests/post-orders/dynamic-template.json'
+          #    $ref: '../components/examples/requests/post-orders/dynamic-template.json'
           E-Invoicing redirect:
             summary: E-Invoicing redirect
             value:
-              $import: '../components/examples/requests/post-orders/einvoicing-redirect.json'
+              $ref: '../components/examples/requests/post-orders/einvoicing-redirect.json'
           E-Invoicing direct:
             summary: E-Invoicing direct
             value:
-              $import: '../components/examples/requests/post-orders/einvoicing-direct.json'
+              $ref: '../components/examples/requests/post-orders/einvoicing-direct.json'
           EPS redirect:
             summary: EPS redirect
             value:
-              $import: '../components/examples/requests/post-orders/eps.json'
+              $ref: '../components/examples/requests/post-orders/eps.json'
           #FastCheckout redirect:
           #  summary: FastCheckout redirect
           #  value:  
-          #    $import: '../components/examples/requests/post-orders/fastcheckout.json'
+          #    $ref: '../components/examples/requests/post-orders/fastcheckout.json'
           Gift card:
             summary: Gift card/Edenred
             value:
-              $import: '../components/examples/requests/post-orders/gift-card.json'
+              $ref: '../components/examples/requests/post-orders/gift-card.json'
           Google Pay redirect:
             summary: Google Pay redirect
             value:
-              $import: '../components/examples/requests/post-orders/google-pay-redirect.json'
+              $ref: '../components/examples/requests/post-orders/google-pay-redirect.json'
           Google Pay direct:
             summary: Google Pay direct
             value:
-              $import: '../components/examples/requests/post-orders/google-pay-direct.json'
+              $ref: '../components/examples/requests/post-orders/google-pay-direct.json'
           iDEAL redirect: 
             summary: iDEAL redirect
             value:
-              $import: '../components/examples/requests/post-orders/ideal-redirect.json'
+              $ref: '../components/examples/requests/post-orders/ideal-redirect.json'
           iDEAL direct: 
             summary: iDEAL direct
             value:
-              $import: '../components/examples/requests/post-orders/ideal-direct.json'
+              $ref: '../components/examples/requests/post-orders/ideal-direct.json'
           iDEAL QR: 
             summary: iDEAL QR
             value:
-              $import: '../components/examples/requests/post-orders/ideal-qr.json'
+              $ref: '../components/examples/requests/post-orders/ideal-qr.json'
           in3 redirect: 
             summary: in3 redirect
             value:
-              $import: '../components/examples/requests/post-orders/in3-redirect.json'
+              $ref: '../components/examples/requests/post-orders/in3-redirect.json'
           in3 direct: 
             summary: in3 direct
             value:
-              $import: '../components/examples/requests/post-orders/in3-direct.json'
+              $ref: '../components/examples/requests/post-orders/in3-direct.json'
           Klarna redirect: 
             summary: Klarna redirect
             value:
-              $import: '../components/examples/requests/post-orders/klarna-redirect.json'
+              $ref: '../components/examples/requests/post-orders/klarna-redirect.json'
           Klarna direct: 
             summary: Klarna direct
             value:
-              $import: '../components/examples/requests/post-orders/klarna-direct.json'
+              $ref: '../components/examples/requests/post-orders/klarna-direct.json'
           MB Way direct:
             summary: Multibanco direct
             value:
-              $import: '../components/examples/requests/post-orders/mbway-direct.json'   
+              $ref: '../components/examples/requests/post-orders/mbway-direct.json'   
           MB Way redirect:
             summary: MB Way redirect
             value:
-              $import: '../components/examples/requests/post-orders/mbway-redirect.json'   
+              $ref: '../components/examples/requests/post-orders/mbway-redirect.json'   
           Multibanco redirect:
             summary: Multibanco redirect
             value:
-              $import: '../components/examples/requests/post-orders/multibanco-redirect.json'    
+              $ref: '../components/examples/requests/post-orders/multibanco-redirect.json'    
           Multibanco direct:
             summary: Multibanco direct
             value:
-              $import: '../components/examples/requests/post-orders/multibanco-direct.json'
+              $ref: '../components/examples/requests/post-orders/multibanco-direct.json'
           MyBank redirect:
             summary: MyBank redirect
             value:
-              $import: '../components/examples/requests/post-orders/mybank-redirect.json'
+              $ref: '../components/examples/requests/post-orders/mybank-redirect.json'
           MyBank direct:
             summary: MyBank direct
             value:
-              $import: '../components/examples/requests/post-orders/mybank-direct.json'
+              $ref: '../components/examples/requests/post-orders/mybank-direct.json'
           Pay After Delivery: 
             summary: Pay After Delivery direct/redirect
             value:
-              $import: '../components/examples/requests/post-orders/pad.json'
+              $ref: '../components/examples/requests/post-orders/pad.json'
           Payment component:
             summary: Payment component
             value:
-              $import: '../components/examples/requests/post-orders/payment-component.json'
+              $ref: '../components/examples/requests/post-orders/payment-component.json'
           PayPal redirect: 
             summary: PayPal redirect
             value:
-              $import: '../components/examples/requests/post-orders/paypal-redirect.json'
+              $ref: '../components/examples/requests/post-orders/paypal-redirect.json'
           PayPal direct: 
             summary: PayPal direct
             value:
-              $import: '../components/examples/requests/post-orders/paypal-direct.json'
+              $ref: '../components/examples/requests/post-orders/paypal-direct.json'
           Postepay redirect: 
             summary: Postepay redirect
             value:
-              $import: '../components/examples/requests/post-orders/postepay.json'
+              $ref: '../components/examples/requests/post-orders/postepay.json'
           Recurring payment initial:
             summary: Recurring payment initial
             value:
-              $import: '../components/examples/requests/post-orders/recurring-initial.json'
+              $ref: '../components/examples/requests/post-orders/recurring-initial.json'
           Recurring payment subsequent:
             summary: Recurring payment subsequent
             value:
-              $import: '../components/examples/requests/post-orders/recurring-subsequent.json'
+              $ref: '../components/examples/requests/post-orders/recurring-subsequent.json'
           Riverty:
             summary: Riverty direct/redirect
             value: 
-              $import: '../components/examples/requests/post-orders/riverty.json'
+              $ref: '../components/examples/requests/post-orders/riverty.json'
           Trustly redirect:
             summary: Trustly redirect
             value:
-              $import: '../components/examples/requests/post-orders/trustly-redirect.json'
+              $ref: '../components/examples/requests/post-orders/trustly-redirect.json'
           Trustly direct:
             summary: Trustly direct
             value:
-              $import: '../components/examples/requests/post-orders/trustly-direct.json'
+              $ref: '../components/examples/requests/post-orders/trustly-direct.json'
           TrustPay redirect:
             summary: TrustPay redirect
             value:
-              $import: '../components/examples/requests/post-orders/trustpay-redirect.json'
+              $ref: '../components/examples/requests/post-orders/trustpay-redirect.json'
           WeChat Pay redirect:
             summary: WeChat Pay redirect
             value:
-              $import: '../components/examples/requests/post-orders/wechat-pay-redirect.json'
+              $ref: '../components/examples/requests/post-orders/wechat-pay-redirect.json'
           WeChat Pay direct:
             summary: WeChat Pay direct
             value:
-              $import: '../components/examples/requests/post-orders/wechat-pay-direct.json'
+              $ref: '../components/examples/requests/post-orders/wechat-pay-direct.json'
   responses:
     '200':
       description: Request successful
@@ -241,28 +241,28 @@ post:
         application/json:
           schema:
             oneOf:
-              - $import: '../components/responseBody/postOrdersDirect.yaml'
-              - $import: '../components/responseBody/postOrdersRedirect.yaml'
-              # - $import: '../components/responseBody/postOrdersFastCheckout.yaml'
+              - $ref: '../components/responseBody/postOrdersDirect.yaml'
+              - $ref: '../components/responseBody/postOrdersRedirect.yaml'
+              # - $ref: '../components/responseBody/postOrdersFastCheckout.yaml'
           examples:
             redirectOrder: 
               summary: Redirect order
               value:  
-                $import: '../components/examples/responses/postOrdersRedirect.json'
+                $ref: '../components/examples/responses/postOrdersRedirect.json'
             directOrderIdeal: 
               summary: iDEAL direct order
               value:  
-                $import: '../components/examples/responses/postOrdersDirectIdeal.json'
+                $ref: '../components/examples/responses/postOrdersDirectIdeal.json'
             #fastCheckoutOrder: 
             #  summary: FastCheckout order
             #  value:  
-            #    $import: '../components/examples/responses/postOrdersFastCheckout.json'
+            #    $ref: '../components/examples/responses/postOrdersFastCheckout.json'
     '404':
       description: Error
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
   summary: Create order
   tags:
     - Payments

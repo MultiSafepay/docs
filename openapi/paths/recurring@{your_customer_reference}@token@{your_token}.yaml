@@ -23,15 +23,15 @@ get:
           schema:
             properties: 
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
-                $import: '../components/schemas/Token.yaml'
+                $ref: '../components/schemas/Token.yaml'
     '404':
       description: Error 
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
     '410':
       description: Token not found
       content:
@@ -42,7 +42,7 @@ get:
                 type: boolean
                 example: "false"
               data:
-                $import: '../components/schemas/DataEmpty.yaml'
+                $ref: '../components/schemas/DataEmpty.yaml'
               error_code:
                 description: "1000"
                 type: integer

@@ -34,22 +34,22 @@ get:
       content:
         application/json:
           example:
-            $import: '../components/examples/responses/listAffiliatedAccounts.json'
+            $ref: '../components/examples/responses/listAffiliatedAccounts.json'
           schema:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
                 description: Information about each account.
                 items:
-                  $import: '../components/schemas/Account.yaml'
+                  $ref: '../components/schemas/Account.yaml'
     '403':
       description: Forbidden
       content:
         application/json:
           schema:
-            $import: '../components/errors/403Error.yaml' 
+            $ref: '../components/errors/403Error.yaml' 
   summary: List affiliates
   tags:
     - Manage affiliates

@@ -39,23 +39,23 @@ get:
             List payment methods:
               summary: List payment methods
               value: 
-                $import: '../components/examples/responses/listPaymentMethods.json'
+                $ref: '../components/examples/responses/listPaymentMethods.json'
           schema:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
                  description: The relevant activated payment methods.
                  type: array
                  items: 
-                   $import: '../components/schemas/PaymentMethod.yaml'
+                   $ref: '../components/schemas/PaymentMethod.yaml'
     '404':
       description: Gateway not found
       content:
         application/json:
           schema:
-            $import: '../components/errors/Error1023.yaml'
+            $ref: '../components/errors/Error1023.yaml'
   summary: List payment methods
   tags:
     - Payments

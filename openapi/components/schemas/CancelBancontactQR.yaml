@@ -5,15 +5,15 @@ properties:
   costs:
     description: The fees for the transaction.
   created:
-    $import: 'Created.yaml'
+    $ref: 'Created.yaml'
   custom_info:
-    $import: 'CustomInfo.yaml'
+    $ref: 'CustomInfo.yaml'
   fastcheckout:
-    $import: 'FastCheckout.yaml'
+    $ref: 'FastCheckout.yaml'
   financial_status:
-    $import: 'FinancialStatus.yaml'
+    $ref: 'FinancialStatus.yaml'
   modified:
-    $import: 'Modified.yaml'
+    $ref: 'Modified.yaml'
   payment_details:
     description: Information about the payment.
     type: object
@@ -21,4 +21,4 @@ properties:
     description: Information about the payment method.
     type: object
   status:
-    $import: 'Status.yaml'
+    $ref: 'Status.yaml'

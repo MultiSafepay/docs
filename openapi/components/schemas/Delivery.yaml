@@ -2,21 +2,21 @@ description: The customer's shipping address.
 type: object
 properties:
   first_name:
-    $import: 'FirstName.yaml'
+    $ref: 'FirstName.yaml'
   last_name:
-    $import: 'LastName.yaml'
+    $ref: 'LastName.yaml'
   address1:
-    $import: 'Address1.yaml'
+    $ref: 'Address1.yaml'
   house_number:
-    $import: 'Apartment.yaml'
+    $ref: 'Apartment.yaml'
   zip_code:
-    $import: 'ZIP.yaml'
+    $ref: 'ZIP.yaml'
   city:
-   $import: 'City.yaml'
+   $ref: 'City.yaml'
   country:
-    $import: 'Country.yaml'
+    $ref: 'Country.yaml'
   phone:
-    $import: 'Phone.yaml'
+    $ref: 'Phone.yaml'
   email:
     description: The customer's email address. **Required for:** Klarna orders.
     type: string

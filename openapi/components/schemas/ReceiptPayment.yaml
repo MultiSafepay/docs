@@ -5,13 +5,13 @@ properties:
     type: string
     description: The unique code in a payment card chip that tells the terminal which type of card it is and which payment network to use e.g., Visa or Mastecard.
   authorization_code:
-    $import: 'AuthorizationCode.yaml'
+    $ref: 'AuthorizationCode.yaml'
   card_acceptor_location:
-    $import: 'CardAcceptorLocation.yaml'
+    $ref: 'CardAcceptorLocation.yaml'
   card_entry_mode:
-    $import: 'CardEntryMode.yaml'
+    $ref: 'CardEntryMode.yaml'
   card_expiry_date: 
-    $import: 'CardExpiryDate.yaml'
+    $ref: 'CardExpiryDate.yaml'
   cardholder_verification_method:
     type: string
     description: The card verification method (CVM).
@@ -20,9 +20,9 @@ properties:
     description: The issuer BIN (Bank Identification Number).
     maxLength: 6
   issuer_country_code:
-    $import: 'CountryCode.yaml'
+    $ref: 'CountryCode.yaml'
   last4:
-    $import: 'Last4.yaml'
+    $ref: 'Last4.yaml'
   payment_method:
     type: string
     description: The payment method gateway.

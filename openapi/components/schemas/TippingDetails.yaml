@@ -2,8 +2,8 @@ description: Information about tipping.
 type: object
 properties:
   amount:
-    $import: 'Amount.yaml'
+    $ref: 'Amount.yaml'
   employee:
     type: array
     items:
-      $import: 'EmployeeDetails.yaml'
+      $ref: 'EmployeeDetails.yaml'

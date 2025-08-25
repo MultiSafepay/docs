@@ -4,12 +4,12 @@ description: |
 type: object
 properties:
   currency:
-    $import: 'Currency.yaml'
+    $ref: 'Currency.yaml'
   schedule:
-    $import: 'Schedule.yaml'
+    $ref: 'Schedule.yaml'
   bankaccount_id:
-    $import: 'BankAccountID.yaml'
+    $ref: 'BankAccountID.yaml'
   min_amount:
-    $import: 'MinAmount.yaml'
+    $ref: 'MinAmount.yaml'
   min_balance_amount:
-    $import: 'MinBalanceAmount.yaml'
+    $ref: 'MinBalanceAmount.yaml'

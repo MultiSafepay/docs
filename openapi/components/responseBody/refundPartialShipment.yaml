@@ -2,7 +2,7 @@ description: Refund partial shipment
 type: object
 properties:
   success:
-    $import: '../schemas/Success.yaml'
+    $ref: '../schemas/Success.yaml'
   data: 
     description: | 
       
@@ -13,6 +13,6 @@ properties:
     type: object
     properties:
       order_id:
-        $import: '../schemas/OrderId.yaml'
+        $ref: '../schemas/OrderId.yaml'
       transaction_id:
-        $import: '../schemas/TransactionId.yaml'
+        $ref: '../schemas/TransactionId.yaml'

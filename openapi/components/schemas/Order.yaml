@@ -15,57 +15,57 @@ properties:
       - description: "The unique identifier for the payment method (gateway). See [Gateway IDs](https://docs.multisafepay.com/reference/gateway-ids). If unset and `type` is set to `redirect`, the payment page displays **all** available payment methods."
       - type: string
       - example: IDEAL
-      - $import: 'GatewayIdentifiers.yaml'
+      - $ref: 'GatewayIdentifiers.yaml'
   order_id:
-    $import: 'OrderId.yaml'
+    $ref: 'OrderId.yaml'
   currency:
-    $import: 'Currency.yaml'
+    $ref: 'Currency.yaml'
   amount:
-    $import: 'Amount.yaml'
+    $ref: 'Amount.yaml'
   description:
-    $import: 'Description.yaml'
+    $ref: 'Description.yaml'
   payment_options:
-    $import: 'PaymentOptions.yaml'
+    $ref: 'PaymentOptions.yaml'
   customer:
-    $import: 'Customer.yaml'
+    $ref: 'Customer.yaml'
   gateway_info:
-    $import: 'GatewayInfo.yaml'
+    $ref: 'GatewayInfo.yaml'
   delivery:
-    $import: 'Delivery.yaml'
+    $ref: 'Delivery.yaml'
   checkout_options:
     allOf:
-      - $import: 'CheckoutOptions.yaml'
+      - $ref: 'CheckoutOptions.yaml'
       - required: [tax_tables]
   shopping_cart:
-    $import: 'ShoppingCart.yaml'
+    $ref: 'ShoppingCart.yaml'
   items:
-    $import: 'Items.yaml'
+    $ref: 'Items.yaml'
   payment_data:
-    $import: 'PaymentData.yaml'
+    $ref: 'PaymentData.yaml'
   recurring_model:
-    $import: 'RecurringModel.yaml'
+    $ref: 'RecurringModel.yaml'
   recurring_id:
-    $import: 'RecurringId.yaml'
+    $ref: 'RecurringId.yaml'
   capture:
-    $import: 'Capture.yaml'
+    $ref: 'Capture.yaml'
   affiliate:
-    $import: 'Affiliate.yaml'
+    $ref: 'Affiliate.yaml'
   second_chance:
-   $import: 'SecondChance.yaml'
+   $ref: 'SecondChance.yaml'
   customer_verification:
-    $import: 'CustomerVerification.yaml'
+    $ref: 'CustomerVerification.yaml'
   custom_info:
-    $import: 'CustomInfo.yaml'
+    $ref: 'CustomInfo.yaml'
   days_active:
-    $import: 'DaysActive.yaml'
+    $ref: 'DaysActive.yaml'
   seconds_active: 
-    $import: 'SecondsActive.yaml'
+    $ref: 'SecondsActive.yaml'
   var1:
-    $import: 'var12.yaml'
+    $ref: 'var12.yaml'
   var2:
-    $import: 'var12.yaml'
+    $ref: 'var12.yaml'
   var3:
-    $import: 'var3.yaml'
+    $ref: 'var3.yaml'
   plugin:
-    $import: 'Plugin.yaml'
+    $ref: 'Plugin.yaml'
 type: object

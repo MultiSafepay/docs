@@ -36,11 +36,11 @@ get:
       content:
         application/json:
           example: 
-            $import: '../components/examples/responses/listTokens.json'
+            $ref: '../components/examples/responses/listTokens.json'
           schema:
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data: 
                 type: object
                 description: The payload of the response.
@@ -49,19 +49,19 @@ get:
                     type: array
                     description: The customer's tokens. 
                     items:  
-                      $import: '../components/schemas/Token.yaml'
+                      $ref: '../components/schemas/Token.yaml'
     '404':
       description: Error 
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
     '410':
       description: Error
       content:
         application/json:
           schema:
-            $import: '../components/errors/410Error.yaml' 
+            $ref: '../components/errors/410Error.yaml' 
   summary: List tokens
   tags:
     - Tokens

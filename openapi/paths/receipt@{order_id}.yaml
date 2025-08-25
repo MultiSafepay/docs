@@ -21,20 +21,20 @@ get:
       content:
         application/json:
           example:
-            $import: '../components/examples/responses/getOrder.json'
+            $ref: '../components/examples/responses/getOrder.json'
           schema:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data: 
-                $import: '../components/schemas/ReceiptDetails.yaml'
+                $ref: '../components/schemas/ReceiptDetails.yaml'
     '404':
       description: Order not found
       content:
         application/json:
           schema:
-            $import: '../components/errors/ReceiptError1006.yaml'
+            $ref: '../components/errors/ReceiptError1006.yaml'
   summary: Get receipt
   tags:
     - Point of Sale
