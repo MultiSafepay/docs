@@ -27,6 +27,7 @@ To install Shopify Payments Apps, follow these steps:
 2. Ensure that your Shopify user has <a href="https://help.shopify.com/en/manual/your-account/staff-accounts/staff-permissions/staff-permissions-descriptions#apps-and-channels-permissions" target="_blank">the permissions</a> to install new apps.
 3. Check that the payment methods you want to use in Shopify are [activated for your MultiSafepay account](/docs/payment-methods).
 4. Select the desired payment methods, and install their apps using one or more of the following links:
+   * <a href="https://apps.shopify.com/multisafepay-alipay" target="_blank">Alipay+</a> <i className="fa fa-external-link" style={{fontSize: '12px', color: '#8b929e'}} />
    * <a href="https://apps.shopify.com/american-express" target="_blank">American Express</a> <i className="fa fa-external-link" style={{fontSize: '12px', color: '#8b929e'}} />
    * <a href="https://apps.shopify.com/multisafepay-amazon-pay" target="_blank">Amazon Pay</a> <i className="fa fa-external-link" style={{fontSize: '12px', color: '#8b929e'}} />
    * <a href="https://apps.shopify.com/bancontact" target="_blank">Bancontact</a> <i className="fa fa-external-link" style={{fontSize: '12px', color: '#8b929e'}} />
@@ -40,6 +41,7 @@ To install Shopify Payments Apps, follow these steps:
    * <a href="https://apps.shopify.com/multisafepay-maestro" target="_blank">Maestro</a> <i className="fa fa-external-link" style={{fontSize: '12px', color: '#8b929e'}} />
    * <a href="https://apps.shopify.com/multisafepay-mb-way" target="_blank">MB WAY</a> <i className="fa fa-external-link" style={{fontSize: '12px', color: '#8b929e'}} />
    * <a href="https://apps.shopify.com/multisafepay-mastercard" target="_blank">Mastercard</a> <i className="fa fa-external-link" style={{fontSize: '12px', color: '#8b929e'}} />
+   * <a href="https://apps.shopify.com/multisafepay-multibanco" target="_blank">Multibanco</a> <i className="fa fa-external-link" style={{fontSize: '12px', color: '#8b929e'}} />
    * <a href="https://apps.shopify.com/multisafepay-mybank" target="_blank">MyBank</a> <i className="fa fa-external-link" style={{fontSize: '12px', color: '#8b929e'}} />
    * <a href="https://apps.shopify.com/visa" target="_blank">Visa</a> <i className="fa fa-external-link" style={{fontSize: '12px', color: '#8b929e'}} />
    * <a href="https://apps.shopify.com/multisafepay-wechat-pay" target="_blank">WeChat Pay</a> <i className="fa fa-external-link" style={{fontSize: '12px', color: '#8b929e'}} />
