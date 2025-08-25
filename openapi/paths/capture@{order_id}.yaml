@@ -53,9 +53,9 @@ patch:
                     $ref: '../components/schemas/TransactionId.yaml'
                   order_id:
                     $ref: '../components/schemas/OrderId.yaml'  
-                    success: 
-                      type: boolean
-                      example: true
+                  success: 
+                    type: boolean
+                    example: true
     '404':
       description: Error
       content:
