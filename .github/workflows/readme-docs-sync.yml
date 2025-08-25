@@ -25,7 +25,9 @@ jobs:
         uses: readmeio/rdme@10.5.0-next.5
         with:
           rdme: reference ./api --version=v1.0
+          
       - name: Sync API Reference to ReadMe
         uses: readmeio/rdme@10.5.0-next.5
         with:
           rdme: openapi ./openapi/docsopenapi.yaml --key=${{ secrets.README }} --version=v1.1
+
