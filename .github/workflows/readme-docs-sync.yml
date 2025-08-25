@@ -15,14 +15,14 @@ jobs:
 
       - uses: readmeio/rdme@v10
         with:
-          rdme: docs upload ./content --branch=v1.0
+          rdme: docs:sync ./content --branch=v1.0
         env:
           DEBUG: rdme*
           README_API_KEY: ${{ secrets.README }}
 
       - uses: readmeio/rdme@v10
         with:
-          rdme: reference upload ./api --branch=v1.0
+          rdme: reference:sync ./api --branch=v1.0
         env:
           DEBUG: rdme*
           README_API_KEY: ${{ secrets.README }}
