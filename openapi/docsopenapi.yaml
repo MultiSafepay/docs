@@ -1,11 +1,14 @@
-openapi: 3.0.0
+openapi: 3.0.4
 components:
   schemas:
     ValidationErrorResponse:
+      type: object
       properties:
         errors:
           description: Identifies the validation errors.
+          type: array
           items:
+            type: object
             properties:
               attribute:
                 description: Indicates which attributes in the request were invalid.
@@ -22,7 +25,9 @@ components:
           description: Validation failure
           example: Validation failure
         success:
+          type: boolean
           description: "False"
+          example: false
   securitySchemes:
     ApiKeyQuery:
       type: apiKey
@@ -42,7 +47,7 @@ info:
   description: "MultiSafepay's API reference"
 paths:
   '/orders':
-    $ref: './openapi/paths/orders.yaml'
+    $ref: './paths/orders.yaml'
   '/orders/{psp_id}':
     $ref: './openapi/paths/orders@{psp_id}.yaml'
   '/orders/{order_id}':
@@ -94,7 +99,6 @@ paths:
   '/pos/receipt/{order_id}':
     $ref: './openapi/paths/receipt@{order_id}.yaml'
 security:
-  - BearerAuth: []
   - ApiKeyQuery: []
 servers:
   - url: https://testapi.multisafepay.com/v1/json
