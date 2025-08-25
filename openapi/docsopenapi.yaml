@@ -47,7 +47,7 @@ info:
   description: "MultiSafepay's API reference"
 paths:
   '/orders':
-    $ref: './paths/orders.yaml'
+    $ref: './openapi/paths/orders.yaml'
   '/orders/{psp_id}':
     $ref: './openapi/paths/orders@{psp_id}.yaml'
   '/orders/{order_id}':
