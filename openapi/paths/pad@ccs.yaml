@@ -14,15 +14,15 @@ post:
               type: object
               properties:
                 apartment:
-                  $import: '../components/schemas/Apartment.yaml'
+                  $ref: '../components/schemas/Apartment.yaml'
                 city:
-                  $import: '../components/schemas/City.yaml'
+                  $ref: '../components/schemas/City.yaml'
                 country:
-                  $import: '../components/schemas/Country.yaml'
+                  $ref: '../components/schemas/Country.yaml'
                 street:
-                  $import: '../components/schemas/Street.yaml'
+                  $ref: '../components/schemas/Street.yaml'
                 zipcode:
-                  $import: '../components/schemas/ZIP.yaml'
+                  $ref: '../components/schemas/ZIP.yaml'
               required: [apartment, city, country, street, zipcode]
             browser_info:
               description: Information about the customer's browser.
@@ -36,7 +36,7 @@ post:
                   type: boolean
                   example: true
                 ip_address:
-                  $import: '../components/schemas/IPAddress.yaml'
+                  $ref: '../components/schemas/IPAddress.yaml'
                 java_enabled:
                   description: Whether Java is enabled in the browser.
                   type: boolean
@@ -62,28 +62,28 @@ post:
                   description: The time zone of the browser.
                   type: integer
                 user_agent:
-                  $import: '../components/schemas/UserAgent.yaml'
+                  $ref: '../components/schemas/UserAgent.yaml'
             customer_info:
               description: Information about the customer.
               type: object
               properties:
                 birthdate:
-                  $import: '../components/schemas/Birthday.yaml'
+                  $ref: '../components/schemas/Birthday.yaml'
                 email:
-                  $import: '../components/schemas/Email.yaml'
+                  $ref: '../components/schemas/Email.yaml'
                 first_name:
-                  $import: '../components/schemas/FirstName.yaml'
+                  $ref: '../components/schemas/FirstName.yaml'
                 last_name:
-                  $import: '../components/schemas/LastName.yaml'
+                  $ref: '../components/schemas/LastName.yaml'
                 phone:
-                  $import: '../components/schemas/Phone.yaml'
+                  $ref: '../components/schemas/Phone.yaml'
               required: [birthdate, email, first_name, last_name, phone]
             customer_reference:
               description: Your unique identifier of the customer.
               type: string
               example: SimonSmit123
             merchant_id:
-              $import: '../components/schemas/MerchantID.yaml'
+              $ref: '../components/schemas/MerchantID.yaml'
             merchant_sub_id:
               description: The unique identifier of the affiliated merchant. 
               type: integer
@@ -93,26 +93,26 @@ post:
               type: object
               properties:
                 amount:
-                  $import: '../components/schemas/Amount.yaml'
+                  $ref: '../components/schemas/Amount.yaml'
                 currency:
-                  $import: '../components/schemas/Currency.yaml'
+                  $ref: '../components/schemas/Currency.yaml'
                 description:
-                  $import: '../components/schemas/Description.yaml'
+                  $ref: '../components/schemas/Description.yaml'
               required: [amount, currency, description]
             shipping_address:
               description: The customer's shipping address.
               type: object
               properties:
                 apartment:
-                  $import: '../components/schemas/Apartment.yaml'
+                  $ref: '../components/schemas/Apartment.yaml'
                 city:
-                  $import: '../components/schemas/City.yaml'
+                  $ref: '../components/schemas/City.yaml'
                 country:
-                  $import: '../components/schemas/Country.yaml'
+                  $ref: '../components/schemas/Country.yaml'
                 street:
-                  $import: '../components/schemas/Street.yaml'
+                  $ref: '../components/schemas/Street.yaml'
                 zipcode:
-                  $import: '../components/schemas/ZIP.yaml'
+                  $ref: '../components/schemas/ZIP.yaml'
               required: [apartment, city, country, street, zipcode]
           required: [customer_reference, merchant_id, merchant_sub_id, order]
   responses:
@@ -124,13 +124,13 @@ post:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
     '422':
       description: Validation errors
       content:
         application/json:
           schema:
-            $import: '../components/errors/422Error.yaml'
+            $ref: '../components/errors/422Error.yaml'
   summary: Request customer credit score (BETA)
   tags:
     - Pay After Delivery (BETA)

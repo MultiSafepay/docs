@@ -1,0 +1,4 @@
+description: The mobile phone number.
+type: string
+maxLength: 24
+example: "+31612345678"

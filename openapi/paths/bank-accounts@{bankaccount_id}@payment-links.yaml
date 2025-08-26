@@ -1,0 +1,54 @@
+post:
+  description: Create a payment link for a refundable 1 EUR payment to validate the ownership of a bank
+    account.
+  operationId: validateBankAccount
+  parameters:
+    - name: bankaccount_id
+      description: The unique identifier of the bank account.
+      in: path
+      required: true
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $ref: '../components/schemas/Success.yaml'
+              data:
+                description: Information about the payment link.
+                type: array
+                items: 
+                  type: object
+                  properties: 
+                    paymentlink:
+                      description: Information about the payment link.
+                      type: object
+                      properties:
+                        bankaccount_id: 
+                          description: The unique identifier of the bank account.
+                          type: string
+                          example: 1234578
+                        payment_link: 
+                          description: The payment link URL.
+                          type: string
+                          example: https://testpayv2.multisafepay.com/connect/123456789/?lang=nl_NL
+    '404':
+      description: Bank account not found
+      content:
+        application/json:
+          schema:
+            $ref: '../components/errors/404Error.yaml'
+    '422':
+      description: Validation errors
+      content:
+        application/json:
+          schema:
+            $ref: '../components/errors/422Error.yaml'
+  summary: Validate bank account
+  tags:
+    - Onboard affiliates

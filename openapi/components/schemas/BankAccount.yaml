@@ -1,0 +1,15 @@
+description: Information about the bank account.
+type: object
+properties:
+  currency:
+    description: The currency of the bank account.
+    type: string
+    maxLength: 3
+    example: EUR
+  holder_name:
+    description: The name of the account holder.
+    type: string
+    maxLength: 40
+    example: My company name
+  iban:
+    $ref: 'Iban.yaml'

@@ -7,7 +7,7 @@ get:
       in: path
       required: true
       schema:
-        $import: '../components/schemas/TransactionId.yaml'
+        $ref: '../components/schemas/TransactionId.yaml'
   responses:
     '200':
       description: Request successful
@@ -16,9 +16,9 @@ get:
           schema:
             properties: 
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
-                $import: '../components/schemas/Transaction.yaml'
+                $ref: '../components/schemas/Transaction.yaml'
     '404':
       description: Transaction not found
       content:

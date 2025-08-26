@@ -1,6 +1,6 @@
 post:
-  description: Add a bank account to an affiliated merchant account.
-  operationId: Partner::CreateAccountBankAccount
+  description: Add a website to an affiliated merchant's account.
+  operationId: Partner::CreateAccountSite
   parameters:
     - name: account_id
       description: The unique identifier of the account.
@@ -14,8 +14,8 @@ post:
       application/json:
         schema:
           allOf:
-            - $ref: '../components/schemas/BankAccount.yaml'
-            - required: [currency, iban, holder_name]
+            - $ref: '../components/schemas/Site.yaml'
+            - required: [name, url]
   responses:
     '200':
       description: Request successful
@@ -27,7 +27,7 @@ post:
               success:
                 $ref: '../components/schemas/Success.yaml'
               data:
-                $ref: '../components/schemas/BankAccount.yaml'
+                $ref: '../components/schemas/Site.yaml'
     '404':
       description: Account not found
       content:
@@ -40,12 +40,12 @@ post:
         application/json:
           schema:
             $ref: '../components/errors/422Error.yaml'
-  summary: Add bank account
+  summary: Add website
   tags:
     - Onboard affiliates
 get:
-  description: List all bank accounts linked to an affiliated merchant account.
-  operationId: 'Partner::ListAccountBankAccounts'
+  description: List all websites under an affiliated merchant's account.
+  operationId: Partner::ListAccountSites
   parameters:
     - name: account_id
       description: The unique identifier of the account.
@@ -55,7 +55,7 @@ get:
         type: string
   responses:
     '200':
-      description: Response successful
+      description: Request successful
       content:
         application/json:
           schema:
@@ -64,7 +64,7 @@ get:
               success:
                 $ref: '../components/schemas/Success.yaml'
               data:
-                $ref: '../components/schemas/BankAccount.yaml'
+                $ref: '../components/schemas/Site.yaml'
     '404':
       description: Account not found
       content:
@@ -77,6 +77,6 @@ get:
         application/json:
           schema:
             $ref: '../components/errors/422Error.yaml'
-  summary: List bank accounts
+  summary: List websites
   tags:
     - Onboard affiliates

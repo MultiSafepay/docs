@@ -16,17 +16,17 @@ get:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
                 description: The identifiers for the site-level API key.
                 type: object
                 properties:
                   account_id:
-                    $import: '../components/schemas/AccountID.yaml'
+                    $ref: '../components/schemas/AccountID.yaml'
                   role:
-                    $import: '../components/schemas/Role.yaml'
+                    $ref: '../components/schemas/Role.yaml'
                   site_id:
-                    $import: '../components/schemas/SiteID.yaml'
+                    $ref: '../components/schemas/SiteID.yaml'
   summary: Get my identifiers 
   tags:
     - Manage affiliates

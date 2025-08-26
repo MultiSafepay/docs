@@ -36,7 +36,7 @@ get:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
                 description: The account balance information.
                 type: array
@@ -44,7 +44,7 @@ get:
                   type: object
                   properties:
                     account_id:
-                      $import: '../components/schemas/AccountID.yaml'
+                      $ref: '../components/schemas/AccountID.yaml'
                     amount_available:
                       description: The amount of funds available in the account's MultiSafepay balance.
                       type: integer
@@ -69,19 +69,19 @@ get:
                       type: string
                       format: date
               page:
-                $import: '../components/schemas/Page.yaml'
+                $ref: '../components/schemas/Page.yaml'
     '404':
       description: No accounts found
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
     '422':
       description: Validation errors
       content:
         application/json:
           schema:
-            $import: '../components/errors/422Error.yaml'
+            $ref: '../components/errors/422Error.yaml'
   summary: List affiliate balances
   tags:
     - Manage affiliates

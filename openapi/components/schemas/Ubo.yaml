@@ -1,0 +1,55 @@
+description: Information about the UBO.
+type: object
+properties:
+  address:
+    description: The UBO's address.
+    type: string
+    maxLength: 100
+    example: Kraanspoor 39
+  address_apartment:
+    $ref: 'Apartment.yaml'
+  birthday:
+    $ref: 'Birthday.yaml'
+  city:
+    $ref: 'City.yaml'
+  country:
+    $ref: 'Country.yaml'
+  country_of_birth:
+    $ref: 'BirthCountry.yaml'
+  email:
+    description: The UBO's email address.
+    type: string
+    format: email
+    maxLength: 100
+    example: ubo@example.com
+  job_title:
+    description: The UBO's job title.
+    type: string
+    maxLength: 100
+  mobile_phone:
+    $ref: 'MobilePhone.yaml'
+  name:
+    description: The UBO's name.
+    type: string
+    maxLength: 200
+    example: Simon Smit
+  office_phone:
+    description: The UBO's office phone number.
+    type: string
+    maxLength: 25
+  percentage:
+    description: The percentage of the company the UBO controls. 
+    type: integer
+    example: 25
+  state:
+    description: The state of the address.
+    type: string
+    maxLength: 100
+  title:
+    $ref: 'Title.yaml'
+  type:
+    description: The type of control the UBO has in the company.
+    type: string
+    enum: [control_rights, other, shareholder, voting_rights]
+  zipcode:
+    $ref: 'ZIP.yaml'

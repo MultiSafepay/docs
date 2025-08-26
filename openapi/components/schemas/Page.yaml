@@ -1,0 +1,7 @@
+description: The number of pages of results returned.
+type: object
+properties:
+  total:
+    description: The total number of pages of results returned.
+    type: integer
+    example: 1

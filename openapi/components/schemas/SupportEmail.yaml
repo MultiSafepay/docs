@@ -1,0 +1,5 @@
+description: The customer support email address for the website.
+type: string
+format: email
+maxLength: 100
+example: "support@mysite.com"

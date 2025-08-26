@@ -17,7 +17,7 @@ get:
       in: query
       required: false
       examples: 
-        $import: '../components/examples/requests/transactions/timestamp.yaml'
+        $ref: '../components/examples/requests/transactions/timestamp.yaml'
       schema:
         type: string
         format: timestamp
@@ -26,7 +26,7 @@ get:
       in: query
       required: false
       examples: 
-        $import: '../components/examples/requests/transactions/timestamp.yaml'
+        $ref: '../components/examples/requests/transactions/timestamp.yaml'
       schema:
         type: string
         format: timestamp
@@ -35,7 +35,7 @@ get:
       in: query
       required: false
       examples: 
-        $import: '../components/examples/requests/transactions/timestamp.yaml'
+        $ref: '../components/examples/requests/transactions/timestamp.yaml'
       schema:
         type: string
         format: timestamp
@@ -44,7 +44,7 @@ get:
       in: query
       required: false
       examples: 
-        $import: '../components/examples/requests/transactions/timestamp.yaml'
+        $ref: '../components/examples/requests/transactions/timestamp.yaml'
       schema:
         type: string
         format: timestamp
@@ -71,7 +71,7 @@ get:
         items:
           type: string
           allOf:
-            - $import: '../components/schemas/GatewayIdentifiers.yaml'
+            - $ref: '../components/schemas/GatewayIdentifiers.yaml'
     - name: status
       description: Returns transactions with the specified [order status](https://docs.multisafepay.com/docs/payment-statuses/).
       in: query
@@ -106,13 +106,13 @@ get:
       content:
         application/json:
           example: 
-            $import: '../components/examples/responses/listTransactions.json'
+            $ref: '../components/examples/responses/listTransactions.json'
           schema:
             properties: 
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
-                $import: '../components/schemas/Transaction.yaml'
+                $ref: '../components/schemas/Transaction.yaml'
               pager:
                 description: The page navigation details.
                 type: object

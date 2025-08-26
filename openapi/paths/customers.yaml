@@ -8,7 +8,7 @@ post:
       application/json:
         schema:
           allOf:
-            - $import: '../components/schemas/CustomerProfile.yaml'
+            - $ref: '../components/schemas/CustomerProfile.yaml'
             - required: [address1, brand, city, country, email, first_name, house_number, last_name, locale, zip_code]
   responses:
     '200':
@@ -19,15 +19,15 @@ post:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
-                $import: '../components/schemas/CustomerProfile.yaml'
+                $ref: '../components/schemas/CustomerProfile.yaml'
     '422':
       description: Validation error
       content:
         application/json:
           schema:
-            $import: '../components/errors/422Error.yaml'
+            $ref: '../components/errors/422Error.yaml'
   summary: Create customer profile
   tags:
     - Customers
@@ -60,22 +60,22 @@ get:
       content:
         application/json:
           example:
-            $import: '../components/examples/responses/listCustomerProfiles.json'
+            $ref: '../components/examples/responses/listCustomerProfiles.json'
           schema:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
-                $import: '../components/schemas/CustomerProfile.yaml'
+                $ref: '../components/schemas/CustomerProfile.yaml'
               page:
-                $import: '../components/schemas/Page.yaml'
+                $ref: '../components/schemas/Page.yaml'
     '403':
       description: Invalid API key
       content:
         application/json:
           schema:
-            $import: '../components/errors/403Error.yaml' 
+            $ref: '../components/errors/403Error.yaml' 
   summary: List customer profiles
   tags:
     - Customers

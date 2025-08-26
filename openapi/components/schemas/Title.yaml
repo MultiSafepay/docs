@@ -1,0 +1,4 @@
+description: The personal title, e.g. Mr, Mrs, Miss.
+type: string
+maxLength: 10
+example: Mr

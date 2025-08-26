@@ -1,0 +1,28 @@
+description: Information about the transaction.
+type: object
+properties:
+  amount:
+    $ref: 'Amount.yaml'
+  checkoutdata:
+    description: Information about the transaction.
+    type: object
+    format: checkout-data
+  currency:
+    $ref: 'Currency.yaml'
+  description:
+    description: A description of the transaction, e.g. payout, charge.
+    type: string
+    maxLength: 512
+    minLength: 2
+    example: Monthly commission
+  order_id:
+    description: Your unique client-defined identifier for the transaction.
+    type: string
+    maxLength: 128
+    example: charge-0001
+  var1:
+    $ref: 'var12.yaml'
+  var2:
+    $ref: 'var12.yaml'
+  var3:
+    $ref: 'var3.yaml'

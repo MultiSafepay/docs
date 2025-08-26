@@ -17,12 +17,12 @@ get:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
                 type: object
                 properties:
                   account_id:
-                    $import: '../components/schemas/AccountID.yaml'
+                    $ref: '../components/schemas/AccountID.yaml'
                   api_key:
                     description: The website API key.
                     type: string
@@ -36,17 +36,17 @@ get:
                     type: string
                     maxLength: 120
                   notification_url:
-                    $import: '../components/schemas/NotificationUrl.yaml'
+                    $ref: '../components/schemas/NotificationUrl.yaml'
                   price_from:
-                    $import: '../components/schemas/PriceFrom.yaml'
+                    $ref: '../components/schemas/PriceFrom.yaml'
                   price_till:
-                    $import: '../components/schemas/PriceTill.yaml'
+                    $ref: '../components/schemas/PriceTill.yaml'
                   support_email:
-                    $import: '../components/schemas/SupportEmail.yaml'
+                    $ref: '../components/schemas/SupportEmail.yaml'
                   support_phone:
-                    $import: '../components/schemas/SupportPhone.yaml'
+                    $ref: '../components/schemas/SupportPhone.yaml'
                   url:
-                    $import: '../components/schemas/URL.yaml'
+                    $ref: '../components/schemas/URL.yaml'
                 required: [name, url]
     '404':
       description: Site not found
@@ -83,17 +83,17 @@ patch:
               type: string
               maxLength: 120
             notification_url:
-              $import: '../components/schemas/NotificationUrl.yaml'
+              $ref: '../components/schemas/NotificationUrl.yaml'
             price_from:
-              $import: '../components/schemas/PriceFrom.yaml'
+              $ref: '../components/schemas/PriceFrom.yaml'
             price_till:
-              $import: '../components/schemas/PriceTill.yaml'
+              $ref: '../components/schemas/PriceTill.yaml'
             support_email:
-              $import: '../components/schemas/SupportEmail.yaml'
+              $ref: '../components/schemas/SupportEmail.yaml'
             support_phone:
-              $import: '../components/schemas/SupportPhone.yaml'
+              $ref: '../components/schemas/SupportPhone.yaml'
             url:
-              $import: '../components/schemas/URL.yaml'
+              $ref: '../components/schemas/URL.yaml'
   responses:
     '200':
       description: Request successful
@@ -103,9 +103,9 @@ patch:
             type: object
             properties:
               data:
-                $import: '../components/schemas/Site.yaml'
+                $ref: '../components/schemas/Site.yaml'
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
     '404':
       description: Site not found
       content:
@@ -121,7 +121,7 @@ patch:
       content:
         application/json:
           schema:
-            $import: '../components/errors/422Error.yaml'
+            $ref: '../components/errors/422Error.yaml'
   summary: Update website
   tags:
     - Manage affiliates

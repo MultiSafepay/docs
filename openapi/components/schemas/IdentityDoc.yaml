@@ -1,0 +1,17 @@
+description: Information about the identity document.
+type: object
+properties:
+  document_type:
+    description: The type of identity document.
+    type: string
+    enum: [id, passport, driverslicense, proof_of_address]
+    example: Passport
+  encoded_content:
+    $ref: 'EncodedContent.yaml'
+  filename:
+    description: The filename of the identity document. 
+    type: string
+    maxLength: 250
+    example: UBOpassport.pdf
+  mime_type:
+    $ref: 'MimeType.yaml'

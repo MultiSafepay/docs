@@ -1,0 +1,4 @@
+description: The MIME type of the file. 
+type: string
+enum: [application/pdf, image/jpeg, image/png]
+example: application/pdf

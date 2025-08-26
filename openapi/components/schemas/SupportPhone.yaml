@@ -1,0 +1,4 @@
+description: The customer support phone number for the website.
+type: string
+maxLength: 100
+example: "+312012345678"

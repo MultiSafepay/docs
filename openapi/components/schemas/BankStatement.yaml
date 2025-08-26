@@ -1,0 +1,12 @@
+description: Information about the bank statement.
+type: object
+properties:
+  encoded_content:
+    $ref: 'EncodedContent.yaml'
+  filename:
+    description: The filename of the bank statement.
+    type: string
+    maxLength: 250
+    example: bank-statement.pdf
+  mime_type:
+    $ref: 'MimeType.yaml'

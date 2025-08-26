@@ -1,0 +1,3 @@
+description: The unique identifier for the account.
+type: integer
+example: 12345678

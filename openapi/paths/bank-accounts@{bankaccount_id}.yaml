@@ -17,15 +17,15 @@ get:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
-                $import: '../components/schemas/BankAccount.yaml'
+                $ref: '../components/schemas/BankAccount.yaml'
     '404':
       description: Bank account not found
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
   summary: Get bank account
   tags:
     - Onboard affiliates

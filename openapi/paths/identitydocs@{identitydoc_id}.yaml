@@ -17,15 +17,15 @@ get:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
-                $import: '../components/schemas/IdentityDoc.yaml'
+                $ref: '../components/schemas/IdentityDoc.yaml'
     '404':
       description: Document not found
       content:
         application/json:
           schema:
-            $import: '../components/errors/404Error.yaml'
+            $ref: '../components/errors/404Error.yaml'
   summary: Get identity document
   tags:
     - Onboard affiliates

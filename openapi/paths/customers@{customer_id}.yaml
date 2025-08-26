@@ -17,21 +17,21 @@ get:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
-                $import: '../components/schemas/CustomerProfile.yaml'
+                $ref: '../components/schemas/CustomerProfile.yaml'
     '422':
       description: Invalid customer_id
       content:
         application/json:
           schema:
-            $import: '../components/errors/422Error.yaml'
+            $ref: '../components/errors/422Error.yaml'
     '403':
       description: Invalid API key
       content:
         application/json:
           schema:
-            $import: ../components/errors/403Error.yaml
+            $ref: ../components/errors/403Error.yaml
   summary: Get customer profile
   tags:
     - Customers
@@ -50,7 +50,7 @@ patch:
     content:
       application/json:
         schema:
-          $import: '../components/schemas/CustomerProfile.yaml'
+          $ref: '../components/schemas/CustomerProfile.yaml'
   responses:
     '200':
       description: Request successful
@@ -60,15 +60,15 @@ patch:
             type: object
             properties:
               success:
-                $import: '../components/schemas/Success.yaml'
+                $ref: '../components/schemas/Success.yaml'
               data:
-                $import: '../components/schemas/CustomerProfile.yaml'
+                $ref: '../components/schemas/CustomerProfile.yaml'
     '422':
       description: Validation errors
       content:
         application/json:
           schema:
-            $import: '../components/errors/422Error.yaml'
+            $ref: '../components/errors/422Error.yaml'
   summary: Update customer profile
   tags:
     - Customers

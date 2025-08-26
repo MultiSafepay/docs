@@ -20,11 +20,10 @@ get:
                 $ref: '../components/schemas/Success.yaml'
               data:
                 $ref: '../components/schemas/Account.yaml'
-              includes:
-                inquiries:
-                  type: array
-                  properties:
-                    $ref: '../components/schemas/Inquiries.yaml'
+              inquiries:
+                type: array
+                properties:
+                  $ref: '../components/schemas/Inquiries.yaml'
     '404':
       description: Account not found
       content:

@@ -1,0 +1,4 @@
+description: The country where the UBO was born.
+type: string
+format: country-alpha2
+example: NL

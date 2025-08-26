@@ -102,8 +102,6 @@ paths:
     $ref: './openapi/paths/accounts@{account_id}.yaml'
   '/accounts/{account_id}/balances':
     $ref: './openapi/paths/accounts@{account_id}@balances.yaml'
-  '/accounts/{account_id}/closing-balances':
-    $ref: './openapi/paths/accounts@{account_id}@closing-balances.yaml'
   '/accounts/{account_id}/bank-accounts':
     $ref: './openapi/paths/accounts@{account_id}@bank-accounts.yaml'
   '/bank-accounts/{bankaccount_id}':
@@ -114,14 +112,6 @@ paths:
     $ref: './openapi/paths/bank-accounts@{bankaccount_id}@bank-statements.yaml'
   '/bank-statements/{bankstatement_id}':
     $ref: './openapi/paths/bank-statements@{bankstatement_id}.yaml'
-  '/accounts/{account_id}/inquiries':
-    $ref: './openapi/paths/accounts@{account_id}@inquiries.yaml'
-  '/accounts/{account_id}/inquiries/{inquiry_id}':
-    $ref: './openapi/paths/accounts@{account_id}@inquiries@{inquiry_id}.yaml'
-  '/accounts/{account_id}/messages':
-    $ref: './openapi/paths/accounts@{account_id}@messages.yaml'
-  '/accounts/{account_id}/messages/{message_id}':
-    $ref: './openapi/paths/accounts@{account_id}@messages@{message_id}.yaml'
   '/accounts/{account_id}/fees':
     $ref: './openapi/paths/accounts@{account_id}@fees.yaml'
   '/accounts/{account_id}/charges':
