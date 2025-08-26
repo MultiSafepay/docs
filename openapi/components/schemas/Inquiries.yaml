@@ -15,4 +15,3 @@ properties:
     description: The timestamp for when the affiliate account was created.
     type: string
     format: ISO-4217 currency code
-    
