@@ -16,7 +16,8 @@ slug: createorder
 
 ❗️ Never use a live API key, or real customer or payment details!
 
-💬&nbsp; For support, email <integration@multisafepay.com>
+💬  For support, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
+
 
 >⚠️ Note:
 >

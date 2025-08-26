@@ -3,7 +3,7 @@ title: Error reference
 category:
   uri: General
 slug: error-reference
-position: 7
+position: 5
 privacy:
   view: public
 ---

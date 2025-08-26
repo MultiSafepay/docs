@@ -3,7 +3,7 @@ title: Pagination
 category:
   uri: General
 slug: pagination
-position: 4
+position: 3
 privacy:
   view: public
 ---

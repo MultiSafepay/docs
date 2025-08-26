@@ -3,7 +3,7 @@ title: Introduction
 category:
   uri: General
 slug: introduction
-position: 1
+position: 0
 privacy:
   view: public
 ---

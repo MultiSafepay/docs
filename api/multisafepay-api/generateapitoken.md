@@ -12,4 +12,5 @@ slug: generateapitoken
 
 ❗️ Never use a live API key!
 
-💬&nbsp; For support, email <integration@multisafepay.com>
+💬  For support, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
+

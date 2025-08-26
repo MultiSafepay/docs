@@ -20,7 +20,7 @@ The table below sets out the expiration time per payment method:
 
 | Payment method | Expiration time |
 |---|---|
-| **Cards** <br> American Express, Cartes Bancaires, Dankort, <br> Maestro, Mastercard, Visa, V Pay | 1 hour  |
+| **Cards** <br /> American Express, Cartes Bancaires, Dankort, <br /> Maestro, Mastercard, Visa, V Pay | 1 hour  |
 | Alipay  | 5 hours  |
 | Alipay+| 10 minutes on Alipay+, after 1 hour in our system |
 | Apple Pay| 1 hour   |
