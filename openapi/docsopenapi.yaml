@@ -98,6 +98,46 @@ paths:
     $ref: './openapi/paths/listtransactions.yaml'
   '/pos/receipt/{order_id}':
     $ref: './openapi/paths/receipt@{order_id}.yaml'
+  '/accounts/{account_id}':
+    $ref: './openapi/paths/accounts@{account_id}.yaml'
+  '/accounts/{account_id}/balances':
+    $ref: './openapi/paths/accounts@{account_id}@balances.yaml'
+  '/accounts/{account_id}/closing-balances':
+    $ref: './openapi/paths/accounts@{account_id}@closing-balances.yaml'
+  '/accounts/{account_id}/bank-accounts':
+    $ref: './openapi/paths/accounts@{account_id}@bank-accounts.yaml'
+  '/bank-accounts/{bankaccount_id}':
+    $ref: './openapi/paths/bank-accounts@{bankaccount_id}.yaml' 
+  '/bank-accounts/{bankaccount_id}/payment-links':
+    $ref: './openapi/paths/bank-accounts@{bankaccount_id}@payment-links.yaml'
+  '/bank-accounts/{bankaccount_id}/bank-statements':
+    $ref: './openapi/paths/bank-accounts@{bankaccount_id}@bank-statements.yaml'
+  '/bank-statements/{bankstatement_id}':
+    $ref: './openapi/paths/bank-statements@{bankstatement_id}.yaml'
+  '/accounts/{account_id}/inquiries':
+    $ref: './openapi/paths/accounts@{account_id}@inquiries.yaml'
+  '/accounts/{account_id}/inquiries/{inquiry_id}':
+    $ref: './openapi/paths/accounts@{account_id}@inquiries@{inquiry_id}.yaml'
+  '/accounts/{account_id}/messages':
+    $ref: './openapi/paths/accounts@{account_id}@messages.yaml'
+  '/accounts/{account_id}/messages/{message_id}':
+    $ref: './openapi/paths/accounts@{account_id}@messages@{message_id}.yaml'
+  '/accounts/{account_id}/fees':
+    $ref: './openapi/paths/accounts@{account_id}@fees.yaml'
+  '/accounts/{account_id}/charges':
+    $ref: './openapi/paths/accounts@{account_id}@charges.yaml'
+  '/accounts/{account_id}/payouts':
+    $ref: './openapi/paths/accounts@{account_id}@payouts.yaml'
+  '/accounts/{account_id}/sites':
+    $ref: './openapi/paths/accounts@{account_id}@sites.yaml'
+  '/accounts/{account_id}/ubos':
+    $ref: './openapi/paths/accounts@{account_id}@ubos.yaml'
+  '/ubos/{ubo_id}':
+    $ref: './openapi/paths/ubos@{ubo_id}.yaml'
+  '/ubos/{ubo_id}/identitydocs':
+    $ref: './openapi/paths/ubos@{ubo_id}@identitydocs.yaml'
+  '/identitydocs/{identitydoc_id}':
+    $ref: './openapi/paths/identitydocs@{identitydoc_id}.yaml'
 security:
   - ApiKeyQuery: []
 servers:
