@@ -1,0 +1,136 @@
+post:
+  description: Calculate a customer's credit score.
+  operationId: PAD::CustomerCreditScore
+  parameters: []
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            billing_address:
+              description: The customer's billing address.
+              type: object
+              properties:
+                apartment:
+                  $import: '../components/schemas/Apartment.yaml'
+                city:
+                  $import: '../components/schemas/City.yaml'
+                country:
+                  $import: '../components/schemas/Country.yaml'
+                street:
+                  $import: '../components/schemas/Street.yaml'
+                zipcode:
+                  $import: '../components/schemas/ZIP.yaml'
+              required: [apartment, city, country, street, zipcode]
+            browser_info:
+              description: Information about the customer's browser.
+              type: object
+              properties:
+                accept_header:
+                  description: Specifies which content types to accept.
+                  type: string
+                cookies_enabled:
+                  description: Whether cookies are enabled.
+                  type: boolean
+                  example: true
+                ip_address:
+                  $import: '../components/schemas/IPAddress.yaml'
+                java_enabled:
+                  description: Whether Java is enabled in the browser.
+                  type: boolean
+                javascript_enabled:
+                  description: Whether JavaScript is enabled in the browser. 
+                  type: boolean
+                language:
+                  description: The language of the browser.
+                  type: string
+                platform:
+                  description: The platform of the browser.
+                  type: string
+                screen_color_depth:
+                  description: The color depth of the customer's screen.
+                  type: integer
+                screen_height:
+                  description: The height of the customer's screen.
+                  type: integer
+                screen_width:
+                  description: The width of the customer's screen.
+                  type: integer
+                time_zone:
+                  description: The time zone of the browser.
+                  type: integer
+                user_agent:
+                  $import: '../components/schemas/UserAgent.yaml'
+            customer_info:
+              description: Information about the customer.
+              type: object
+              properties:
+                birthdate:
+                  $import: '../components/schemas/Birthday.yaml'
+                email:
+                  $import: '../components/schemas/Email.yaml'
+                first_name:
+                  $import: '../components/schemas/FirstName.yaml'
+                last_name:
+                  $import: '../components/schemas/LastName.yaml'
+                phone:
+                  $import: '../components/schemas/Phone.yaml'
+              required: [birthdate, email, first_name, last_name, phone]
+            customer_reference:
+              description: Your unique identifier of the customer.
+              type: string
+              example: SimonSmit123
+            merchant_id:
+              $import: '../components/schemas/MerchantID.yaml'
+            merchant_sub_id:
+              description: The unique identifier of the affiliated merchant. 
+              type: integer
+              example: 87654321
+            order:
+              description: Information about the order.
+              type: object
+              properties:
+                amount:
+                  $import: '../components/schemas/Amount.yaml'
+                currency:
+                  $import: '../components/schemas/Currency.yaml'
+                description:
+                  $import: '../components/schemas/Description.yaml'
+              required: [amount, currency, description]
+            shipping_address:
+              description: The customer's shipping address.
+              type: object
+              properties:
+                apartment:
+                  $import: '../components/schemas/Apartment.yaml'
+                city:
+                  $import: '../components/schemas/City.yaml'
+                country:
+                  $import: '../components/schemas/Country.yaml'
+                street:
+                  $import: '../components/schemas/Street.yaml'
+                zipcode:
+                  $import: '../components/schemas/ZIP.yaml'
+              required: [apartment, city, country, street, zipcode]
+          required: [customer_reference, merchant_id, merchant_sub_id, order]
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+    '422':
+      description: Validation errors
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/422Error.yaml'
+  summary: Request customer credit score (BETA)
+  tags:
+    - Pay After Delivery (BETA)

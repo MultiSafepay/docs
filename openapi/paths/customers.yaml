@@ -1,0 +1,81 @@
+post:
+  description: Create a customer profile.
+  operationId: createCustomerProfile
+  parameters: []
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          allOf:
+            - $import: '../components/schemas/CustomerProfile.yaml'
+            - required: [address1, brand, city, country, email, first_name, house_number, last_name, locale, zip_code]
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/CustomerProfile.yaml'
+    '422':
+      description: Validation error
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/422Error.yaml'
+  summary: Create customer profile
+  tags:
+    - Customers
+get:
+  description: List customer profiles.
+  operationId: listCustomerProfiles
+  parameters:
+    - name: limit
+      description: Limits the number of results returned.
+      in: query
+      required: false
+      schema:
+        description: Limits the number of results returned.
+        type: integer
+        maximum: 1000
+        minimum: 1
+        example: 5
+    - name: offset
+      description: Returns results starting from the offset position.
+      in: query
+      required: false
+      schema:
+        description: Returns results starting from the offset position.
+        type: integer
+        minimum: 0
+        example: 5
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          example:
+            $import: '../components/examples/responses/listCustomerProfiles.json'
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/CustomerProfile.yaml'
+              page:
+                $import: '../components/schemas/Page.yaml'
+    '403':
+      description: Invalid API key
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/403Error.yaml' 
+  summary: List customer profiles
+  tags:
+    - Customers

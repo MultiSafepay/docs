@@ -1,0 +1,45 @@
+post:
+  description: Charge a fee to an affiliated merchant's account.
+  operationId: Partner::CreateChargeForSubaccount
+  parameters:
+    - name: account_id
+      description: The unique identifier of the account.
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          allOf:
+            - $import: '../components/schemas/AffiliateTransaction.yaml'
+            - required: [amount, currency, description, order_id]
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/AffiliateTransaction.yaml'
+    '404':
+      description: Account not found
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+    '422':
+      description: Validation errors
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/422Error.yaml'
+  summary: Charge affiliate
+  tags:
+    - Manage affiliates

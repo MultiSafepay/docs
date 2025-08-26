@@ -1,0 +1,87 @@
+get:
+  description: List the balances of affiliated merchant accounts.
+  operationId: listAccountBalances
+  parameters:
+    - name: account_id
+      description: The unique identifier of the account.
+      in: path
+      required: true
+      schema:
+        type: string
+    - name: offset
+      description: Return results starting from the offset position.
+      in: query
+      required: false
+      schema:
+        description: Return results starting from the offset position.
+        type: integer
+        minimum: 0
+        example: 5
+    - name: limit
+      description: Limit the number of results returned.
+      in: query
+      required: false
+      schema:
+        description: Limit the number of results returned.
+        type: integer
+        maximum: 1000
+        minimum: 1
+        example: 5
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                description: The account balance information.
+                type: array
+                items:
+                  type: object
+                  properties:
+                    account_id:
+                      $import: '../components/schemas/AccountID.yaml'
+                    amount_available:
+                      description: The amount of funds available in the account's MultiSafepay balance.
+                      type: integer
+                      example: 500000
+                    amount_reserved:
+                      description: The amount reserved in the MultiSafepay balance.
+                      type: integer
+                      example: 1000
+                    currency:
+                      description: The currency of the MultiSafepay balance.
+                      type: string
+                      maxLength: 3
+                      minLength: 3
+                      example: EUR
+                    id:
+                      description: The unique identifier of the MultiSafepay balance.
+                      type: string
+                      maxLength: 64
+                      example: AB12345678
+                    modified:
+                      description: The timestamp for when the balance was last modified.
+                      type: string
+                      format: date
+              page:
+                $import: '../components/schemas/Page.yaml'
+    '404':
+      description: No accounts found
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+    '422':
+      description: Validation errors
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/422Error.yaml'
+  summary: List affiliate balances
+  tags:
+    - Manage affiliates

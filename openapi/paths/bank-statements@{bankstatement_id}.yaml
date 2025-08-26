@@ -1,0 +1,31 @@
+get:
+  description: Get information about an uploaded bank statement.
+  operationId: getBankStatement
+  parameters:
+    - name: bankstatement_id
+      description: The unique identifier of the bank statement.
+      in: path
+      required: true
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/BankStatement.yaml'
+    '404':
+      description: Bank statement not found
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+  summary: Get bank statement
+  tags:
+    - Onboard affiliates

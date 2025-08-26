@@ -1,0 +1,76 @@
+post:
+  description: Upload a bank statement for a bank account.
+  operationId: addBankStatement
+  parameters:
+    - name: bankaccount_id
+      description: The unique identifier of the bank account.
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          allOf:
+            - $import: '../components/schemas/BankStatement.yaml'
+            - required: [encoded_content, filename, mime_type]
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/BankStatement.yaml'
+    '404':
+      description: Bank account not found
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+    '422':
+      description: Validation errors
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/422Error.yaml'
+  summary: Add bank statement
+  tags:
+    - Onboard affiliates
+get:
+  description: List all bank statements for a bank account.
+  operationId: ListBankStatements
+  parameters:
+    - name: bankaccount_id
+      description: The unique identifier of the bank account.
+      in: path
+      required: true
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/BankStatement.yaml'
+    '404':
+      description: Bank account not found
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+  summary: List bank statements
+  tags:
+    - Onboard affiliates

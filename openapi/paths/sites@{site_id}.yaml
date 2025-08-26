@@ -1,0 +1,127 @@
+get:
+  description: Get information about a website.
+  operationId: getWebsite
+  parameters:
+    - name: site_id
+      description: The unique identifier of the website.
+      in: path
+      required: true
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                type: object
+                properties:
+                  account_id:
+                    $import: '../components/schemas/AccountID.yaml'
+                  api_key:
+                    description: The website API key.
+                    type: string
+                    example: c2693951893e065830ad99e3540c3e417dcb1937
+                  id:
+                    description: The unique identifier of the website.
+                    type: integer
+                    example: 12345
+                  name:
+                    description: The website name.
+                    type: string
+                    maxLength: 120
+                  notification_url:
+                    $import: '../components/schemas/NotificationUrl.yaml'
+                  price_from:
+                    $import: '../components/schemas/PriceFrom.yaml'
+                  price_till:
+                    $import: '../components/schemas/PriceTill.yaml'
+                  support_email:
+                    $import: '../components/schemas/SupportEmail.yaml'
+                  support_phone:
+                    $import: '../components/schemas/SupportPhone.yaml'
+                  url:
+                    $import: '../components/schemas/URL.yaml'
+                required: [name, url]
+    '404':
+      description: Site not found
+      content:
+        application/json:
+          schema:
+            properties:
+              message:
+                description: The site was not found.
+                type: string
+                example: Not found
+  summary: Get website
+  tags:
+    - Manage affiliates
+patch:
+  description: Update information about a website.
+  operationId: updateWebsite
+  parameters:
+    - name: site_id
+      description: The unique identifier of the website.
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            name:
+              description: The website name.
+              type: string
+              maxLength: 120
+            notification_url:
+              $import: '../components/schemas/NotificationUrl.yaml'
+            price_from:
+              $import: '../components/schemas/PriceFrom.yaml'
+            price_till:
+              $import: '../components/schemas/PriceTill.yaml'
+            support_email:
+              $import: '../components/schemas/SupportEmail.yaml'
+            support_phone:
+              $import: '../components/schemas/SupportPhone.yaml'
+            url:
+              $import: '../components/schemas/URL.yaml'
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              data:
+                $import: '../components/schemas/Site.yaml'
+              success:
+                $import: '../components/schemas/Success.yaml'
+    '404':
+      description: Site not found
+      content:
+        application/json:
+          schema:
+            properties:
+              message:
+                description: The site was not found.
+                type: string
+                example: Site not found
+    '422':
+      description: Validation errors
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/422Error.yaml'
+  summary: Update website
+  tags:
+    - Manage affiliates

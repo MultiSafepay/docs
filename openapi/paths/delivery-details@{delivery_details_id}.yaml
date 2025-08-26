@@ -1,0 +1,68 @@
+get:
+  description: Get a shipping address using a delivery details ID.
+  operationId: getShippingAddress
+  parameters:
+    - name: delivery_details_id
+      description: The unique identifier of the shipping address.
+      in: path
+      required: true
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/ShippingAddress.yaml'
+    '404':
+      description: Shipping address not found
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+  summary: Get shipping address
+  tags:
+    - Customers
+patch:
+  description: Update a shipping address using the delivery details ID.
+  operationId: updateShippingAddress
+  parameters:
+    - name: delivery_details_id
+      description: The unique identifier of the shipping address. 
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          $import: '../components/schemas/ShippingAddress.yaml'
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/ShippingAddress.yaml'
+    '422':
+      description: Validation error
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/422Error.yaml'
+  summary: Update shipping address
+  tags:
+    - Customers

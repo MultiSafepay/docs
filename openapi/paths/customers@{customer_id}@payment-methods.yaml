@@ -1,0 +1,74 @@
+post:
+  description: Add payment details for a payment method to a customer's profile.
+  operationId: addCustomerPaymentDetails
+  parameters:
+    - name: customer_id
+      description: The unique identifier of the customer.
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          $import: '../components/schemas/CustomerPaymentDetails.yaml'
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/CustomerPaymentDetails.yaml'
+    '422':
+      description: Validation errors
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/422Error.yaml'
+  summary: Add customer payment details
+  tags:
+    - Customers
+get:
+  description: List a customer's saved payment details.
+  operationId: listCustomerPaymentDetails
+  parameters:
+    - name: customer_id
+      description: The unique identifier of the customer.
+      in: path
+      required: true
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/CustomerPaymentDetails.yaml'
+    '422':
+      description: Validation error
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/422Error.yaml'
+    '403':
+      description: Invalid API key
+      content:
+        application/json:
+          schema:
+            $import: ../components/errors/403Error.yaml
+  summary: List customer payment details
+  tags:
+    - Customers

@@ -1,0 +1,82 @@
+post:
+  description: Upload an identity document for an ultimate beneficiary owner (UBO).
+  operationId: addIdentityDoc
+  parameters:
+    - name: ubo_id
+      description: The unique identifier of the UBO.
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          allOf:
+            - $import: '../components/schemas/IdentityDoc.yaml'
+            - required: [filename, mime_type, encoded_content, document_type]
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/IdentityDoc.yaml'
+    '404':
+      description: UBO not found
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+    '422':
+      description: Validation errors
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/422Error.yaml'
+  summary: Add identity document
+  tags:
+    - Onboard affiliates
+get:
+  description: List identity documents uploaded for an ultimate beneficiary owner (UBO).
+  operationId: listIdentityDocs
+  parameters:
+    - name: ubo_id
+      description: The unique identifier of the UBO. 
+      in: path
+      required: true
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/IdentityDoc.yaml'
+    '404':
+      description: UBO not found
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/404Error.yaml'
+    '422':
+      description: Validation errors
+      content:
+        application/json:
+          schema:
+            $import: '../components/errors/422Error.yaml'
+  summary: List identity documents
+  tags:
+    - Onboard affiliates

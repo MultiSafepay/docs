@@ -1,0 +1,69 @@
+{
+    "success": true,
+    "data": [
+      {
+        "code": 999,
+        "description": "Adult"
+      },
+      {
+        "code": 100,
+        "description": "Gifts and gadgets"
+      },
+      {
+        "code": 101,
+        "description": "Electronics and computers"
+      },
+      {
+        "code": 102,
+        "description": "Games"
+      },
+      {
+        "code": 103,
+        "description": "Health"
+      },
+      {
+        "code": 104,
+        "description": "House and garden"
+      },
+      {
+        "code": 105,
+        "description": "Office supplies"
+      },
+      {
+        "code": 106,
+        "description": "Kids and toys"
+      },
+      {
+        "code": 107,
+        "description": "Nutrition"
+      },
+      {
+        "code": 108,
+        "description": "Fashion and care"
+      },
+      {
+        "code": 109,
+        "description": "Music, movies, and books"
+      },
+      {
+        "code": 114,
+        "description": "Other"
+      },
+      {
+        "code": 110,
+        "description": "Sport, leisure, and hobby"
+      },
+      {
+        "code": 111,
+        "description": "Phone and internet"
+      },
+      {
+        "code": 112,
+        "description": "Holiday and travel"
+      },
+      {
+        "code": 113,
+        "description": "Sales and auctions"
+      }
+    ]
+  }

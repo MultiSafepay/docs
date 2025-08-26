@@ -1,0 +1,32 @@
+get:
+  description: |
+    Get the following identifiers for a site-level API key:
+
+    - Account ID
+    - Account type
+    - Website ID
+  operationId: Me
+  parameters: []
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                description: The identifiers for the site-level API key.
+                type: object
+                properties:
+                  account_id:
+                    $import: '../components/schemas/AccountID.yaml'
+                  role:
+                    $import: '../components/schemas/Role.yaml'
+                  site_id:
+                    $import: '../components/schemas/SiteID.yaml'
+  summary: Get my identifiers 
+  tags:
+    - Manage affiliates

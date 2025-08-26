@@ -1,0 +1,34 @@
+get:
+  description: Get information about a transaction.
+  operationId: getTransaction
+  parameters:
+    - name: transaction_id
+      description: The unique identifier of the transaction.
+      in: path
+      required: true
+      schema:
+        $import: '../components/schemas/TransactionId.yaml'
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            properties: 
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/Transaction.yaml'
+    '404':
+      description: Transaction not found
+      content:
+        application/json:
+          schema:
+            properties:
+              message:
+                description: The transaction was not found.
+                type: string
+                example: Not found
+  summary: Get transaction
+  tags:
+    - Reconciliation

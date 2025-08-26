@@ -1,0 +1,151 @@
+get:
+  description: List all transactions under an account or website.
+  operationId: listTransactions
+  parameters:
+    - name: site_id
+      description: |
+        The unique identifier of the website. 
+        
+        If unset, transactions for **all** sites under your account are returned.
+      in: query
+      required: false
+      schema:
+        type: string
+      example: 12345
+    - name: created_from
+      description: Returns transactions created on or after the specified date.
+      in: query
+      required: false
+      examples: 
+        $import: '../components/examples/requests/transactions/timestamp.yaml'
+      schema:
+        type: string
+        format: timestamp
+    - name: created_until
+      description: Returns transactions created before but not on the specified date.
+      in: query
+      required: false
+      examples: 
+        $import: '../components/examples/requests/transactions/timestamp.yaml'
+      schema:
+        type: string
+        format: timestamp
+    - name: completed_from
+      description: Returns transactions completed on or before the specified date.
+      in: query
+      required: false
+      examples: 
+        $import: '../components/examples/requests/transactions/timestamp.yaml'
+      schema:
+        type: string
+        format: timestamp
+    - name: completed_until
+      description: Returns transactions completed before but not on the specified date.
+      in: query
+      required: false
+      examples: 
+        $import: '../components/examples/requests/transactions/timestamp.yaml'
+      schema:
+        type: string
+        format: timestamp
+    - name: financial_status
+      description: Returns transactions with the specified [transaction status](https://docs.multisafepay.com/docs/payment-statuses/).
+      in: query
+      required: false
+      schema:
+        type: string
+        enum: [completed, created, declined, error, expired, initialized, manual, new, refunded, reserved, uncleared, void]
+    - name: type
+      description: Returns transactions of the specified type.
+      in: query
+      required: false
+      schema:
+        type: string
+        enum: [admin_fee, affiliate_payout, automatic_payout, chargeback, coupon, currency_conversion, deposit, fastcheckout, monthly_fee, payment, refund, reserve_chargeback, signup_fee]
+    - name: payment_method
+      description: Returns transactions using the specified payment method(s).
+      in: query
+      required: false
+      schema:
+        type: array
+        items:
+          type: string
+          allOf:
+            - $import: '../components/schemas/GatewayIdentifiers.yaml'
+    - name: status
+      description: Returns transactions with the specified [order status](https://docs.multisafepay.com/docs/payment-statuses/).
+      in: query
+      required: false
+      schema:
+        type: string
+        enum: [cancelled, chargeback, completed, declined, expired, initialized, partial_refunded, refunded, reserved, shipped, uncleared, void]
+    - name: limit
+      description: Sets the maximum number of results to return per [page](https://docs.multisafepay.com/reference/pagination).
+      in: query
+      required: false
+      schema:
+        type: integer
+        default: 100
+        maximum: 1000
+        minimum: 1
+    - name: after
+      description: Use the `after` cursor to request the next page of results.
+      in: query
+      required: false
+      schema:
+        type: string
+    - name: before
+      description: Use the `before` cursor to request the previous page of results.
+      in: query
+      required: false
+      schema:
+        type: string
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          example: 
+            $import: '../components/examples/responses/listTransactions.json'
+          schema:
+            properties: 
+              success:
+                $import: '../components/schemas/Success.yaml'
+              data:
+                $import: '../components/schemas/Transaction.yaml'
+              pager:
+                description: The page navigation details.
+                type: object
+                properties:
+                  after:
+                    description: The URL for the next page of results.
+                    type: string
+                  before:
+                    description: The URL for the previous page of results.
+                    type: string
+                  cursor:
+                    description: The cursor navigation details.
+                    type: object
+                    properties:
+                      after:
+                        description: The identifier of the next page of results.
+                        type: string
+                      before: 
+                        description: The identifier of the previous page of results.
+                        type: string
+                  limit:
+                    description: The number of results returned per page.
+                    type: integer
+    '403':
+      description: Invalid API key
+      content:
+        application/json:
+          schema:
+            properties:
+              message:
+                description: The API key is invalid and the request was forbidden.
+                type: string
+                example: Forbidden
+  summary: List transactions
+  tags:
+    - Reconciliation
