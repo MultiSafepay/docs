@@ -19,14 +19,18 @@ jobs:
       - name: Sync docs guides
         uses: readmeio/rdme@10.5.0-next.5
         with:
-          rdme: docs upload ./content --version=v1.0
+          rdme: docs upload ./content --version=v1.1
 
       - name: Sync API Reference guides
         uses: readmeio/rdme@10.5.0-next.5
         with:
-          rdme: reference upload ./api --version=v1.0
+          rdme: reference upload ./api --version=v1.1
 
       - name: Sync API Reference to ReadMe
         uses: readmeio/rdme@10.5.0-next.5
         with:
           rdme: openapi upload ./openapi/docsopenapi.yaml --key=${{ secrets.README }} --version=v1.1
+                openapi upload ./openapi/docsopenapiPOS.yaml --key=${{ secrets.README }} --version=v1.1
+                openapi upload ./openapi/cloudmode.yaml --key=${{ secrets.README }} --version=v1.1
+          
+

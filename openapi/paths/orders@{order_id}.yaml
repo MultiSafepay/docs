@@ -2,7 +2,7 @@ patch:
   description: |
     Update information about an order, ship it, or cancel it. 
     
-    **Note:** 
+    **⚠️Note:** 
     It is not possible to change the order ID or description after the order has been created. 
     Use this request to change the status of BNPL orders to **Shipped**.
   operationId: updateOrder

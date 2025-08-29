@@ -1,0 +1,7 @@
+description: Pagination information for the list of terminals.
+type: object
+properties:
+  total_items:
+    type: integer
+    description: The total number of terminals.
+    example: 5

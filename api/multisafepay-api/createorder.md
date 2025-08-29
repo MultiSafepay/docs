@@ -18,12 +18,14 @@ slug: createorder
 
 💬  For support, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
 
+---
+
 
 >⚠️ Note:
 >
 > Avoid trailing spaces in parameter fields.
 
-<style>
+<style>{`
 
   .APIRequest-menu1BgeDnE-FReE {
     max-height: 400px;
@@ -47,4 +49,4 @@ slug: createorder
   .APIRequest-menu1BgeDnE-FReE::-webkit-scrollbar-thumb:hover {
     background: #718096;
   }
-</style>
+`}</style>

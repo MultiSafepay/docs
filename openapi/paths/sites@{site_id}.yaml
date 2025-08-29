@@ -1,9 +1,9 @@
 get:
-  description: Get information about a website.
-  operationId: getWebsite
+  description: Get information about a site.
+  operationId: getSite
   parameters:
     - name: site_id
-      description: The unique identifier of the website.
+      description: The unique identifier of the site.
       in: path
       required: true
       schema:
@@ -24,15 +24,15 @@ get:
                   account_id:
                     $ref: '../components/schemas/AccountID.yaml'
                   api_key:
-                    description: The website API key.
+                    description: The site API key.
                     type: string
                     example: c2693951893e065830ad99e3540c3e417dcb1937
                   id:
-                    description: The unique identifier of the website.
+                    description: The unique identifier of the site.
                     type: integer
                     example: 12345
                   name:
-                    description: The website name.
+                    description: The site name.
                     type: string
                     maxLength: 120
                   notification_url:
@@ -58,15 +58,15 @@ get:
                 description: The site was not found.
                 type: string
                 example: Not found
-  summary: Get website
+  summary: Get site
   tags:
-    - Manage affiliates
+    - My account
 patch:
-  description: Update information about a website.
-  operationId: updateWebsite
+  description: Update information about a site.
+  operationId: updateSite
   parameters:
     - name: site_id
-      description: The unique identifier of the website.
+      description: The unique identifier of the site.
       in: path
       required: true
       schema:
@@ -79,7 +79,7 @@ patch:
           type: object
           properties:
             name:
-              description: The website name.
+              description: The site name.
               type: string
               maxLength: 120
             notification_url:
@@ -122,6 +122,6 @@ patch:
         application/json:
           schema:
             $ref: '../components/errors/422Error.yaml'
-  summary: Update website
+  summary: Update site
   tags:
-    - Manage affiliates
+    - My account

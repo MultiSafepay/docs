@@ -1,0 +1,5 @@
+description: |
+  When the collection flow will resume.
+  **Format:** [ISO 8601 time](https://en.wikipedia.org/wiki/ISO_8601)
+type: string
+format: date-time

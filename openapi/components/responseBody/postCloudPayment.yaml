@@ -1,0 +1,28 @@
+type: object
+properties:
+  success:
+    description: Indicates whether the request was successful.
+    type: boolean
+    example: true
+  data:
+    type: object
+    properties:
+      order_id:
+        type: string
+        example: order_id_example
+        description: Your unique (client-defined) identifier for the order.
+      session_id: 
+        type: string
+        description: The unique identifier of the session.
+        example: 803Xh9fPToqA3UaSKlnS3GcvUwkJF7HVzdF
+      events_token:
+        type: string
+        description: The token used to subscribe to [event notifications](/docs/event-notifications).
+        example: eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTYwMTkzMTAsImdydCI6WyJtYnVzOnNlc3Npb24ub3JkZXIiLCJtYnVzOndawdasdwaXIiXSwicGlkIjoiODAzWGg5ZlBUb3FBM1VhU0tsblMzR2N2VXdrSkY3SFZ6ZEYiLCJzdWIiOiJwciJ9.o7YxwLwd35OHiIDPbrJkeR3OV0lEqQaQJ6YfTjwAZiE
+      events_stream_url:
+        type: string
+        description: |
+          The URL to the event stream for this order.
+
+          Use this URL to subscribe to [event notifications](/docs/event-notifications).
+        example: https://api.multisafepay.com/events/stream/

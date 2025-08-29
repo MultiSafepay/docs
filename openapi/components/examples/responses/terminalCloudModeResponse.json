@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "data": {
+    "order_id": "oder_id_example",
+    "session_id": "803Xh9YU7BpZr3DjB6NN9TjK7KxoTmx9SrC",
+    "events_token": "eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NTYwMTc3OTgsImdydCI6WyJtYnVzOnNlc3Npb24ub3JkZXIiLCJtYnVzdagve4frasdwdcXIiXSwicGlkIjoiODAzWGg5WVU3QnBacjNEakI2Tk45VGpLN0t4b1RteDlTckMiLCJzdWIiOiJwciJ9.v_759rqCkk4vKbsOwawZUwNDVW_8pe8SEkWZODcePpQ",
+    "events_stream_url": "https://api.multisafepay.com/events/stream/"
+  }
+}

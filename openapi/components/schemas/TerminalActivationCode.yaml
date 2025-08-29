@@ -1,0 +1,4 @@
+description:  The activation code for the terminal, presented as a unique universal identifier (UUID). This code is scanned from a QR.
+type: string
+format: uuid
+example: "123e4567-e89b-42d3-a456-426614174000"

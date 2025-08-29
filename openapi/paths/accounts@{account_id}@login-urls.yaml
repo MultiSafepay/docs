@@ -3,6 +3,7 @@ post:
     - Manage affiliates
   summary: Create login URL  
   description: Create a login URL for an affiliated merchant's account.
+  x-hidden: true
   operationId: Partner::CreateLoginUrl
   x-readme:
     explorer-enabled: false

@@ -7,4 +7,6 @@ slug: getreceipt
 
 ## Authentication
 
-Authentication for this endpoint requires an account **API key**. To obtain your **partner** or **affiliate** account **API key**, contact you partner manager.
+Authentication for this endpoint requires an terminal group **API key**. For more information, see [Terminal group ID and API key](/docs/sites#terminal-group-id-and-api-key)
+
+---

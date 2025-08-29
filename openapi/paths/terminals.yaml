@@ -1,0 +1,52 @@
+get:
+  description: |
+    List all POS terminals bound to a MultiSafepay account.
+
+      **⚠️Note**: This API is not available for testing.
+  operationId: listTerminals
+  parameters:
+    - name: page
+      description: Sets the page number. Combine with `limit` for pagination.
+      in: query
+      required: false
+      schema:
+        type: integer
+    - name: limit
+      description: Sets the maximum number of results to return per page.
+      in: query
+      required: false
+      schema:
+        type: integer
+  responses:
+    "200":
+      description: Request successful
+      content:
+        application/json:
+          example:
+            $ref: '../components/examples/responses/listTerminals.json'
+          schema:
+            type: object
+            properties:
+              success:
+                type: boolean
+                example: true
+              data:
+                type: array
+                items:
+                  $ref: '../components/schemas/TerminalData.yaml'
+              pager:
+                $ref: '../components/schemas/TerminalPager.yaml'
+    "403":
+      description: Error
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              success:
+                $ref: '../components/schemas/Success.yaml'
+              error:
+                $ref: '../components/errors/403Error.yaml'
+  summary: List terminals
+  tags:
+    - Point of Sale

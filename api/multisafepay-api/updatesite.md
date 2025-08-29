@@ -2,7 +2,7 @@
 title: Update site
 category:
   uri: MultiSafepay API
-slug: updatesite
+slug: updateSite
 ---
 
 ## How to test
@@ -15,4 +15,6 @@ slug: updatesite
 ❗️ Never use a live API key!
 
 💬  For support, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
+
+---
 

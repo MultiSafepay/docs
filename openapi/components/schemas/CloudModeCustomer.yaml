@@ -1,0 +1,46 @@
+description: The customer’s personal information.
+type: object
+properties:
+  locale:
+    type: string
+    description: |
+      **Format:** ab_CD with [ISO 639 language codes](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) and [ISO 3166 country codes](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).
+      
+      |Locale|Language & country|
+      |--------|--------|
+      |`cs_CZ`|Czech |
+      |`de_AT`|German (Austria)|
+      |`de_DE`|German (Germany)|
+      |`en_US`|American English|
+      |`fi_FI`|Finnish|
+      |`fr_BE`|French (Belgium)|
+      |`fr_FR`|French (France)|
+      |`it_IT`|Italian|
+      |`nl_BE`|Dutch (Belgium)|
+      |`nl_NL`|Dutch (Netherlands)|
+      |`pl_PL`|Polish|
+      |`es_ES`|Spanish|
+      |`sv_SE`|Swedish|
+      |`zh_CN`|Chinese|
+
+    format: ab_CD with ISO 639 language codes and ISO 3166 country codes
+    enum: [cs_CZ, de_AT, de_DE, en_US, fi_FI, fr_BE, fr_FR, it_IT, nl_BE, nl_NL, pl_PL, es_ES, sv_SE, zh_CN]
+    example: nl_NL
+  first_name:
+    description: The customer’s first name.
+    type: string
+    example: John
+  last_name:
+    description: The customer’s last name.
+    type: string
+    example: Doe
+  phone: 
+    description: The customer’s phone number.
+    type: string
+    maxLength: 25
+    example: 031123345456
+  email:
+    description: The customer’s email address.
+    type: string
+    maxLength: 64
+    example: example@multisafepay.com

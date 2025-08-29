@@ -1,0 +1,3 @@
+description: The type of terminal linked to the account.
+type: string
+enum: ["CTAP", "SMARTPOS"]

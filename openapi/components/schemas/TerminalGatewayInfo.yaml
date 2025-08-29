@@ -1,0 +1,5 @@
+type: object
+description: Information about the payment gateway used for the order.
+properties:   
+  terminal_id:
+    $ref: 'TerminalID.yaml'

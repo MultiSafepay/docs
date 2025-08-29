@@ -1,0 +1,4 @@
+description: The transaction ID of the [automatic payout](/docs/payouts#automated-and-manual-payouts), if set up.
+type: integer
+format: int64
+example: 12345678

@@ -1,0 +1,4 @@
+description: The timestamp for when the terminal record was created.
+type: string
+format: date-time
+example: "2025-05-14T09:16:56Z"

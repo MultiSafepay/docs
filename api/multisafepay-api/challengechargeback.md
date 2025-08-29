@@ -16,3 +16,5 @@ slug: challengechargeback
 
 💬  For support, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
 
+---
+
