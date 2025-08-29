@@ -1,2 +1,9 @@
-description: The unique identifier of the POS terminal.
+description: |
+  The unique identifier of the terminal.
+
+  To find the `terminal_id` for your device:
+  1. Sign in to your <a href="https://merchant.multisafepay.com" target="_blank">MultiSafepay dashboard</a> <i class="fa fa-external-link" style="font-size:12px;color:#8b929e"></i>.
+  2. Go to Devices > Terminals.
+  3. Your terminal_id is displayed under TID
 type: string
+example: "00000ABC"

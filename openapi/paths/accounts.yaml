@@ -4,7 +4,7 @@ get:
 
     To paginate the response, use the `limit` and `offset` query parameters. 
     **⚠️Note:** You can retrieve a maximum of 500 items per request.
-  operationId: listAffiliatedAccounts
+  operationId: listAffiliates
   x-readme:
     explorer-enabled: false
   parameters:

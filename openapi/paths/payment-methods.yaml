@@ -8,7 +8,7 @@ get:
       in: query
       required: false
       schema:
-        type: string
+        type: integer
     - name: country
       description: |
         Filter payment methods by availability in a given country. 
@@ -16,7 +16,7 @@ get:
         **Format:** [ISO 3166-1 alpha-2 code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements).
       in: query
       required: false
-      schema: 
+      schema:
         type: string
     - name: currency
       description: |
@@ -48,7 +48,7 @@ get:
       in: query
       required: false
       schema:
-        type: boolean
+        type: string
   responses:
     '200':
       description: Request successful

@@ -1,6 +1,6 @@
 post:
   description: Create or update an auto payout in a specific currency.
-  operationId: CreateAutoPayoutsForAffliates
+  operationId: createAutoPayoutsForAffiliates
   security: [ApiKeyQuery: []]
   parameters:
     - name: account_id
@@ -54,7 +54,7 @@ post:
     - Manage affiliates
 get:
   description: Get information about an auto payout in a specific currency. 
-  operationId: GetAutoPayouts
+  operationId: getAutoPayoutsForAffiliates
   security: [ApiKeyQuery: []]
   parameters:
     - name: account_id

@@ -62,8 +62,6 @@ paths:
     $ref: './openapi/paths/gateways.yaml'
   '/gateways/{gateway_id}':
     $ref: './openapi/paths/gateways@{gateway_id}.yaml'
-  '/issuers/{gateway}':
-    $ref: './openapi/paths/issuers@{gateway}.yaml'
   '/recurring/{your_customer_reference}':
     $ref: './openapi/paths/recurring@{your_customer_reference}.yaml'
   '/recurring/{your_customer_reference}/token/{your_token}':
@@ -74,12 +72,22 @@ paths:
     $ref: './openapi/paths/recurring@{your_customer_reference}@remove@{your_token}.yaml'
   '/payment-methods': 
     $ref: './openapi/paths/payment-methods.yaml'
+  '/payment-methods/{payment_method_id}':
+    $ref: './openapi/paths/payment-methods@{payment_method_id}.yaml'
+  '/pad/orders/{order_id}/onhold':
+    $ref: './openapi/paths/pad@orders@{order_id}@onhold.yaml'
+  '/pad/orders/{order_id}/autoexpire':
+    $ref: './openapi/paths/pad@orders@{order_id}@autoexpire.yaml'
   '/orders/{order_id}/refunds':
     $ref: './openapi/paths/orders@{order_id}@refunds.yaml'
   '/orders/{order_id}/refunds/{refund_id}':
     $ref: './openapi/paths/orders@{order_id}@refunds@{refund_id}.yaml'
   '/orders/{order_id}/files':
     $ref: './openapi/paths/orders@{order_id}@files.yaml'
+  '/closing-balances':
+    $ref: './openapi/paths/closing-balances.yaml'
+  '/sites/{site_id}':
+    $ref: './openapi/paths/sites@{site_id}.yaml'
   '/auth/api_token':
     $ref: './openapi/paths/auth@api_token.yaml'
   '/signup-account':
@@ -96,6 +104,8 @@ paths:
     $ref: './openapi/paths/categories.yaml'
   '/transactions':
     $ref: './openapi/paths/listtransactions.yaml'
+  '/transactions/{transaction_id}':
+    $ref: './openapi/paths/transactions@{transaction_id}.yaml'
   '/pos/receipt/{order_id}':
     $ref: './openapi/paths/receipt@{order_id}.yaml'
   '/accounts/{account_id}':
@@ -112,8 +122,6 @@ paths:
     $ref: './openapi/paths/bank-accounts@{bankaccount_id}@bank-statements.yaml'
   '/bank-statements/{bankstatement_id}':
     $ref: './openapi/paths/bank-statements@{bankstatement_id}.yaml'
-  '/accounts/{account_id}/fees':
-    $ref: './openapi/paths/accounts@{account_id}@fees.yaml'
   '/accounts/{account_id}/charges':
     $ref: './openapi/paths/accounts@{account_id}@charges.yaml'
   '/accounts/{account_id}/payouts':
@@ -148,8 +156,8 @@ tags:
     description: Create and manage customer profiles.
   - name: Reconciliation
     description: List transactions for your reconciliation processes.
-  - name: Point of Sale
-    description: Manage your POS transactions.
+  - name: My account
+    description: Manage your account.
 x-readme:
   explorer-enabled: true
   proxy-enabled: false

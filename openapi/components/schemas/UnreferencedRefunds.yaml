@@ -1,0 +1,35 @@
+title: Card order
+description: Credit or debit card order
+type: object
+properties:
+  type: 
+    description: The type of payment flow.               
+    type: string
+    default: unreferenced_refund
+  order_id:
+    $ref: 'OrderId.yaml'
+  currency:
+    $ref: 'Currency.yaml'
+  amount:
+    description: |
+      The payment amount in the currency's smallest unit:
+
+      Minimum and maximum amounts apply. See unreferenced refund [amount limits](/docs/unreferenced-refunds-test#amount-limitss).
+    type: integer
+    minimum: 0
+    example: 1000
+  description:
+    description: |
+      A description of the unreferenced refund. 
+      
+      Appears on payment pages and customer bank statements (if supported by the bank).
+    type: string
+    maxLength: 200
+    example: Example order description
+  payment_options:
+    $ref: 'CloudModePaymentOptions.yaml'
+  customer:
+    $ref: 'CloudModeCustomer.yaml'
+  gateway_info:
+    $ref: 'TerminalGatewayInfo.yaml'
+required: [type, amount, currency, description, gateway, order_id, gateway_info]

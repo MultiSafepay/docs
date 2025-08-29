@@ -1,0 +1,64 @@
+{
+  "data": {
+    "merchant": {
+      "name": "John Doe inc",
+      "address": "Rue de la Gares"
+    },
+    "order": {
+      "transaction_id": 1758302748915264,
+      "amount": 1247,
+      "currency": "EUR",
+      "completed": "2024-07-23T13:20:38",
+      "amountrefunded": 0,
+      "items": {
+        "items": [
+          {
+            "name": "Caffè Mocha",
+            "unit_price": 320,
+            "quantity": 1,
+            "item_price": 320,
+            "currency": "EUR"
+          },
+          {
+            "name": "Cortado",
+            "unit_price": 320,
+            "quantity": 1,
+            "item_price": 320,
+            "currency": "EUR"
+          },
+          {
+            "name": "Flat White",
+            "unit_price": 399,
+            "quantity": 1,
+            "item_price": 399,
+            "currency": "EUR"
+          }
+        ]
+      },
+      "tip": {
+        "amount": 208,
+        "employee": {
+          "id": 33,
+          "name": "John Doe"
+        }
+      }
+    },
+    "payment": {
+      "payment_method": "MASTERCARD",
+      "last4": 1234,
+      "card_expiry_date": 1212,
+      "card_entry_mode": "ICC_CONTACTLESS",
+      "cardholder_verification_method": "PLAINTEXT_PIN_OFFLINE",
+      "terminal_id": "0000020a",
+      "application_id": "a0000000030302",
+      "authorization_code": 6459,
+      "issuer_bin": 516788,
+      "issuer_country_code": "ES",
+      "response_code": 0,
+      "card_acceptor_location": "none"
+    },
+    "printed_on": "2024-12-02T11:11:26",
+    "related_transactions": null
+  },
+  "success": true
+}

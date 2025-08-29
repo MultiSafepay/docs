@@ -1,0 +1,27 @@
+description: Information related to the terminals linked to the terminal group.
+type: array
+items:
+  type: object
+  properties:
+    id:
+      $ref: 'TerminalID.yaml'
+    provider:
+      $ref: 'TerminalProvider.yaml'
+    name:
+      $ref: 'TerminalName.yaml'
+    code:
+      $ref: 'TerminalActivationCode.yaml'
+    created:
+      $ref: 'TerminalCreated.yaml'
+    last_updated:
+      $ref: 'TerminalLastUpdated.yaml'
+    manufacturer_id:
+      $ref: 'TerminalManufacturerID.yaml'
+    serial_number:
+      $ref: 'TerminalSerialNumber.yaml'
+    active:
+      $ref: 'TerminalActive.yaml'
+    group_id:
+      $ref: 'TerminalGroupId.yaml'
+    country:
+      $ref: 'TerminalCountry.yaml'

@@ -3,7 +3,7 @@ post:
     Cancels Bancontact QR payments, whether the QR code has been scanned or not. This ensures funds aren't captured. The `status` will change to `cancelled`.
 
     > ⚠️ Note:
-    > 
+    >
     > This endpoint can only be used for Bancontact QR payments. 
   operationId: cancelBancontactQR
   x-readme:

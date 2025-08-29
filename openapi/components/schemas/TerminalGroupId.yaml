@@ -1,0 +1,2 @@
+description: The identifier of the group the terminal belongs to.
+type: integer

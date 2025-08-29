@@ -22,7 +22,7 @@ get:
                 $ref: '../components/schemas/Account.yaml'
               inquiries:
                 type: array
-                properties:
+                items:
                   $ref: '../components/schemas/Inquiries.yaml'
     '404':
       description: Account not found

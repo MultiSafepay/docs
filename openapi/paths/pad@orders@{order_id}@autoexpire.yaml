@@ -1,0 +1,46 @@
+post:
+  description: Extend order autoexpire by given days or configured autoexpire value.
+  operationId: padExtendAutoExpire
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: order_id
+      description: | 
+        The unique identifier of the order. 
+        
+        Max length: 50 characters.
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    required: false
+    content:
+      application/json:
+        schema:
+          properties:
+            days:
+              description: Number of days to extend the autoexpire. If not provided, the default configured autoexpire value will be used.
+              type: integer
+              minimum: 1
+              maximum: 180
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              data:
+                $ref: '../components/schemas/UntilAutoExpire.yaml'
+              success:
+                $ref: '../components/schemas/Success.yaml'
+    '422':  
+      description: Validation errors
+      content:
+        application/json:
+          schema:
+            $ref: '../components/errors/422Error.yaml'
+  summary: Extend order autoexpire
+  tags:
+    - Payments

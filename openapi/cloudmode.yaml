@@ -1,0 +1,94 @@
+openapi: 3.0.4
+components:
+  schemas:
+    ValidationErrorResponse:
+      type: object
+      properties:
+        errors:
+          description: Identifies the validation errors.
+          type: array
+          items:
+            type: object
+            properties:
+              attribute:
+                description: Indicates which attributes in the request were invalid.
+                example: email
+              details:
+                description: Specifies the invalid values.
+                example: user@example.com
+              message:
+                description: Explains the validation error.
+                example: User with email already exists
+              uri:
+                description: Specifies the unique resource indicator of the error.
+        message:
+          description: Validation failure
+          example: Validation failure
+        success:
+          type: boolean
+          description: "False"
+          example: false
+  securitySchemes:
+    ApiKeyQuery:
+      type: apiKey
+      name: api_key
+      in: query
+    ApiKeyHeader:
+      type: apiKey
+      name: api_key
+      in: header
+info:
+  title: MultiSafepay API
+  version: 1.0.0
+  contact:
+    name: MultiSafepay Integration Team
+    url: https://www.multisafepay.com/contact
+    email: integration@multisafepay.com
+  description: "MultiSafepay's API reference"
+paths:
+  /orders:
+      post:
+        description: Create an order using cloud mode.
+        operationId: 'CloudOrder'
+        security:
+          - ApiKeyQuery: []
+        parameters: []
+        requestBody:
+          required: true
+          content:
+            application/json:
+              schema:
+                $ref: './openapi/components/schemas/CloudMode.yaml'
+        responses:
+          '200':
+            description: Request successful
+            content:
+              application/json:
+                schema:
+                  $ref: './openapi/components/responseBody/postCloudPayment.yaml'
+                examples:
+                  successResponse:
+                    summary: Successful unreferenced refund
+                    value:
+                      $ref: './openapi/components/examples/responses/terminalCloudModeResponse.json'
+          '404':
+            description: Error
+            content:
+              application/json:
+                schema:
+                  $ref: './openapi/components/errors/404Error.yaml'
+        summary: Cloud order
+        tags:
+          - Point of Sale
+security:
+  - ApiKeyQuery: []
+servers:
+  - url: https://api.multisafepay.com/v1/json
+    description: Live environment
+tags:
+  - name: Point of Sale
+    description: Manage your POS transactions.
+x-readme:
+  explorer-enabled: false
+  proxy-enabled: false
+  examples-enabled: false

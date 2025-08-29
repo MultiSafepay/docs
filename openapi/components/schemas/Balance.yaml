@@ -1,0 +1,23 @@
+description: Details for a single account's balance and payout.
+type: object
+properties:
+  account_id:
+    $ref: 'AccountID.yaml'
+  amount:
+    $ref: 'Amount.yaml'
+  amount_uncleared:
+    $ref: 'AmountCleared.yaml'
+  bic:
+    $ref: 'Bic.yaml'
+  closing_date:
+    $ref: 'ClosingDate.yaml'
+  currency:
+    $ref: 'Currency.yaml'
+  iban:
+    $ref: 'Iban.yaml'
+  payout_amount:
+    $ref: 'PayoutAmount.yaml'
+  payout_transaction_id:
+    $ref: 'PayoutTransactionId.yaml'
+  status:
+    $ref: 'PayoutStatus.yaml'

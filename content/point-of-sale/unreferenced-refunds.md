@@ -5,23 +5,33 @@ category:
 slug: unreferenced-refunds
 position: 3
 privacy:
-  view: anyone_with_link
+  view: public
 ---
+> ⚠️ Note:
+>
+> We are currently in the pilot phase for this product.
+>
+> If you are interested in participating in the next stage of our pilot, email [sales@multisafepay.com](mailto:sales@multisafepay.com)
+
 Alternatively to regular refunds, you can process unreferenced refunds. This allows you to return funds to a customer without referring to the original transaction.
 
 # Activation
+
+***
 
 To enable unreferenced refunds for your MultiSafepay account, email [sales@multisafepay.com](mailto:sales@multisafepay.com).
 
 # Payment flow
 
+***
+
 This diagram shows the flow for a successful transaction. Click to magnify.
 
 <Image align="center" src="https://files.readme.io/8a2586105264041c63d79d6f30b8eeda255b4be5063c10c9bc12edaaca30a6a7-ctap-unreferenced-final-final.png" />
 
-***
-
 # User guide
+
+***
 
 An unreferenced refund is a payment process where you use the funds from your MultiSafepay [account balance](doc:account-balance) to process a refund.
 
@@ -32,9 +42,11 @@ An unreferenced refund is a payment process where you use the funds from your Mu
 
 Maximum amounts can be adjusted. Send a request to [risk@multisafepay.com](mailto:risk@multisafepay.com).
 
-**⚠️Note:** Remember that to process an unreferenced refund, you must have sufficient funds in your MultiSafepay account balance. To learn how to top your balance, see <a href="https://docs.multisafepay.com/docs/account-balance#top-ups" target="_blank">Top ups</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>.
+**⚠️Note:** Remember that to process an unreferenced refund, you must have sufficient funds in your MultiSafepay account balance. To learn how to top your balance, see <a href="https://docs.multisafepay.com/docs/account-balance#top-ups" target="_blank">Top ups</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />.
 
 ## How it works
+
+{/*
 
 ### SmartPOS terminals
 
@@ -119,7 +131,8 @@ Check the general flow below:
   ```
 </details>
 
-***
+
+*/}
 
 ### Traditional (CTAP) terminals
 
@@ -144,12 +157,18 @@ Check the table below to learn more about the different statuses:
 
 ## Updates
 
+To receive updates, make a [Get order](/reference/getorder/) request. Retrieve the details from the response.
+
+{/*
+
 Check the table below to learn more about how to receive updates for unreferenced refunds:
 
-| Terminal     | How to handle notifications                                                                                                                                                                 |
-| :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **SmartPOS** | To receive order updates, set up a <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }}></i>. For **cloud mode**, you can also subscribe to our [event notifications](doc:event-notifications). |
-| **CTAP**     | Make a [Get order](/reference/getorder/) request. Retrieve the details from the response.                                                                                                   |
+| Terminal     | How to handle notifications                                                                                                                                                                                                                                                                               |
+| :----------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **SmartPOS** | To receive order updates, set up a <a href="https://docs.multisafepay.com/docs/webhook" target="_blank">webhook</a> <i className="fa fa-external-link" style={{ fontSize:'12px', color:'#8b929e' }} />. For **cloud mode**, you can also subscribe to our [event notifications](doc:event-notifications). |
+| **CTAP**     | Make a [Get order](/reference/getorder/) request. Retrieve the details from the response.                                                                                                                                                                                                                 |
+
+*/}
 
 ***
 
