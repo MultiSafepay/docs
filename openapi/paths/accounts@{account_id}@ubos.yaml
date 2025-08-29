@@ -1,6 +1,6 @@
 post:
   description: Add an ultimate beneficiary owner (UBO) profile to an affiliated merchant's account.
-  operationId: Partner::CreateAccountUbo
+  operationId: addAffiliateUbos
   parameters:
     - name: account_id
       description: The unique identifier of the account.

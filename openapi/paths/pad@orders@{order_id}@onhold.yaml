@@ -1,0 +1,46 @@
+post:
+  description: Put a PAD order on hold to pause the collection flow for a set amount of time.
+  operationId: padPutOnHold
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: order_id
+      description: | 
+        The unique identifier of the order. 
+        
+        Max length: 50 characters.
+      in: path
+      required: true
+      schema:
+        type: string
+  requestBody:
+    required: false
+    content:
+      application/json:
+        schema:
+          properties:
+            duration:
+              description: The duration of the hold in seconds. If you omit duration, it defaults to `864000` (10) days.
+              type: integer
+              minimum: 60
+              maximum: 7776000
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              data:
+                $ref: '../components/schemas/UntilOnHold.yaml'
+              success:
+                $ref: '../components/schemas/Success.yaml'
+    '422':  
+      description: Validation errors
+      content:
+        application/json:
+          schema:
+            $ref: '../components/errors/422Error.yaml'
+  summary: Put PAD order on hold
+  tags:
+    - Payments

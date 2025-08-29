@@ -1,6 +1,6 @@
 post:
   description: Create an account for an affiliated merchant.
-  operationId: Partner::SignupAccount
+  operationId: createAffiliate
   x-readme:
     explorer-enabled: false
   parameters: []

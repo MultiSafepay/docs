@@ -13,8 +13,6 @@ properties:
   printed_on:
     $ref: 'ReceiptPrintedOn.yaml'
   related_transactions:
-    type: array
-    items:
-      $ref: 'ReceiptRelatedTransactions.yaml'
+    $ref: 'ReceiptRelatedTransactions.yaml'
 
  

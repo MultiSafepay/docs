@@ -1,6 +1,7 @@
 post:
   description: Create an order to collect payment from a customer.
   operationId: 'CreateOrder'
+  x-hidden: true
   security: [ApiKeyQuery: []]
   parameters: []
   requestBody:

@@ -1,0 +1,7 @@
+description: The [transaction status](/docs/payment-statuses) of the automated payout.
+type: string
+enum:
+  - completed
+  - reserved
+  - void
+example: 'completed'

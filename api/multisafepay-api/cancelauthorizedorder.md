@@ -16,3 +16,5 @@ slug: cancelauthorizedorder
 
 💬  For support, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
 
+---
+

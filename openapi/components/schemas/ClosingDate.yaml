@@ -1,0 +1,4 @@
+description: The date the closing balance was issued.
+type: string
+format: date-time
+example: '2023-10-26T10:00:00Z'

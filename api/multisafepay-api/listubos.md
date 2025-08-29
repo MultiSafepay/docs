@@ -1,10 +1,14 @@
 ---
-title: List UBO
+title: List UBOs
 category:
   uri: MultiSafepay API
-slug: listaffiliateubos
+slug: partnerlistaccountubos
+privacy:
+    view: anyone_with_link
 ---
 
 ## Authentication
 
 Authentication for this endpoint requires an account **API key**. To obtain your **partner** or **affiliate** account **API key**, contact you partner manager.
+
+---

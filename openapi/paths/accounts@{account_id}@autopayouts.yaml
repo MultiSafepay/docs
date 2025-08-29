@@ -1,6 +1,6 @@
 get:
   description: List auto payout in all currencies.
-  operationId: getAutoPayouts
+  operationId: listAutoPayoutsForAffiliates
   security: [ApiKeyQuery: []]
   parameters:
     - name: account_id

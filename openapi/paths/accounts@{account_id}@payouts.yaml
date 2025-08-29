@@ -1,6 +1,6 @@
 post:
   description: Make a payout to an affiliated merchant's account.
-  operationId: Partner::CreatePayoutForSubaccount
+  operationId: partnerCreatePayoutForSubAccount
   parameters:
     - name: account_id
       description: The unique identifier of the account. 

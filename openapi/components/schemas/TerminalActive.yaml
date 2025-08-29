@@ -1,0 +1,6 @@
+description: |
+  Indicates whether the terminal is currently active.
+
+  - `true`: The terminal is active and operational.
+  - `false`: The terminal is inactive and not operational.
+type: boolean

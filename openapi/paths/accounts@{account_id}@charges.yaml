@@ -1,6 +1,6 @@
 post:
   description: Charge a fee to an affiliated merchant's account.
-  operationId: Partner::CreateChargeForSubaccount
+  operationId: chargeAffiliate
   parameters:
     - name: account_id
       description: The unique identifier of the account.

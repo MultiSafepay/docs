@@ -1,0 +1,17 @@
+description: Your [webhook endpoint](https://docs.multisafepay.com/docs/webhook#configure-your-webhook-endpoint)
+type: object
+properties:
+  notification_url: 
+    description: The [webhook endpoint](https://docs.multisafepay.com/docs/webhook#configure-your-webhook-endpoint) for MultiSafepay to send status updates and other notifications about orders for this site.
+    type: string
+    format: url
+    maxLength: 150
+    example: https://www.examplewebsite.com/order-updates
+  notification_method:
+    description: |
+      Sets the webhook [notification method](https://docs.multisafepay.com/docs/webhook#3-acknowledge-the-notification).
+      
+      We recommend setting this to `POST` to reduce network load and increase security.
+    type: string
+    enum: [POST, GET]
+    example: POST

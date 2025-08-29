@@ -2,7 +2,7 @@
 title: List payment methods
 category:
   uri: MultiSafepay API
-slug: listpaymentmethods-1
+slug: listpaymentmethods
 ---
 
 ### Update iDeal 2.0
@@ -21,4 +21,6 @@ slug: listpaymentmethods-1
 ❗️ Never use a live API key!
 
 💬  For support, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
+
+---
 

@@ -1,0 +1,51 @@
+get:
+  description: List a history of your closing balances, per currency.
+  operationId: listClosingBalances
+  security: [ApiKeyQuery: []]
+  parameters:
+    - name: from
+      in: query
+      description: Returns closing balances on or after the specified date.
+      required: false
+      schema:
+        type: string
+        format: date
+    - name: until
+      in: query
+      description: Returns closing balances before but not on the specified date.
+      required: false
+      schema:
+        type: string
+        format: date
+    - name: currency
+      in: query
+      description: Returns closing balances of this currency.
+      required: false
+      schema:
+        type: string 
+  responses:
+    '200':
+      description: Request successful
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              data:
+                type: array
+                description: An array of objects, each representing an account's balance and payout details.
+                items:
+                  $ref: '../components/schemas/Balance.yaml'
+              page:
+                $ref: '../components/schemas/Page.yaml'
+              success:
+                $ref: '../components/schemas/Success.yaml'
+    '404':
+      description: Closing balance not found
+      content:
+        application/json:
+          schema:
+            $ref: '../components/errors/404Error.yaml'
+  summary: List closing balances
+  tags:
+    - My account

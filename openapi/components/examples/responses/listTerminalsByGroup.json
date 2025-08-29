@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": "00000QWE",
+      "provider": "SMARTPOS",
+      "name": "Terminal 00000QWE",
+      "code": "123e4567-e89b-42d3-a456-426614174000",
+      "created": "2025-05-14T09:16:56Z",
+      "last_updated": "2025-05-14T09:17:41Z",
+      "manufacturer_id": null,
+      "serial_number": null,
+      "active": false,
+      "group_id": 57958,
+      "country": null
+    },
+    {
+      "id": "00000ABC",
+      "provider": "SMARTPOS",
+      "name": "Terminal 00000QWR",
+      "code": "123e4567-e89b-12d3-a456-426614174001",
+      "created": "2025-05-13T10:00:00Z",
+      "last_updated": "2025-05-13T11:05:20Z",
+      "manufacturer_id": "VX680",
+      "serial_number": "SN12345678",
+      "active": true,
+      "group_id": 57958,
+      "country": "NL"
+    }
+  ],
+  "pager": {
+    "total_items": 2
+  }
+}

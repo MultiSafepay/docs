@@ -2,6 +2,7 @@ get:
   description: |
     As a partner, get the closing balances of an affiliated merchant.
   operationId: getAffiliateClosingBalances
+  x-hidden: true
   security: [ApiKeyQuery: []]
   parameters:
     - name: account_id

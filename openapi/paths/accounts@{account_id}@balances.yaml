@@ -1,6 +1,6 @@
 get:
   description: List the balances of affiliated merchant accounts.
-  operationId: listAccountBalances
+  operationId: listBalances
   parameters:
     - name: account_id
       description: The unique identifier of the account.

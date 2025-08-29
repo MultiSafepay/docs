@@ -3,6 +3,8 @@ title: List balances
 category:
   uri: MultiSafepay API
 slug: listbalances
+privacy:
+    view: anyone_with_link
 ---
 
 ## How to test
@@ -15,4 +17,6 @@ slug: listbalances
 ❗️ Never use a live API key!
 
 💬  For support, email [integration@multisafepay.com](mailto:integration@multisafepay.com)
+
+---
 
